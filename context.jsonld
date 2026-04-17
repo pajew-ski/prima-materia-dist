@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "pm": "https://pajew-ski.github.io/prima-materia/ontology#",
+    "pmt": "https://pajew-ski.github.io/prima-materia/traditions/",
+    "pmc": "https://pajew-ski.github.io/prima-materia/concepts/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "id": "@id",
+    "type": "@type",
+
+    "label": { "@id": "rdfs:label", "@container": "@language" },
+    "comment": { "@id": "rdfs:comment", "@container": "@language" },
+    "definition": { "@id": "skos:definition", "@container": "@language" },
+    "note": { "@id": "skos:note", "@container": "@language" },
+    "subClassOf": { "@id": "rdfs:subClassOf", "@type": "@id" },
+    "domain": { "@id": "rdfs:domain", "@type": "@id" },
+    "range": { "@id": "rdfs:range", "@type": "@id" },
+
+    "source": { "@id": "dcterms:source" },
+    "license": { "@id": "dcterms:license", "@type": "@id" },
+    "title": { "@id": "dcterms:title", "@container": "@language" },
+
+    "assertedIn": { "@id": "pm:assertedIn", "@type": "@id" },
+    "withinTradition": { "@id": "pm:withinTradition", "@type": "@id" },
+    "analogueConcept": { "@id": "pm:analogueConcept", "@type": "@id" },
+    "hasSymbolicForm": { "@id": "pm:hasSymbolicForm", "@type": "@id" },
+    "hasClusterMember": { "@id": "pm:hasClusterMember", "@type": "@id" },
+    "hasAwarenessSpace": { "@id": "pm:hasAwarenessSpace", "@type": "@id" }
+  }
+}
