@@ -1,10 +1,195 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pm: <https://pajew.ski/prima-materia/ontology#> .
+@prefix pmc: <https://pajew.ski/prima-materia/concepts/> .
+@prefix pmt: <https://pajew.ski/prima-materia/traditions/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pmc:AraqielTeachesSignsOfTheEarth a pm:Attributing ;
+    rdfs:label "Araqiel offenbart die Zeichen der Erde"@de,
+        "Araqiel discloses the signs of the earth"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:SignsOfTheEarth ;
+    pm:ascribedTo pmc:Araqiel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:ArmarosTeachesLoosingOfSpells a pm:Attributing ;
+    rdfs:label "Armaros offenbart das Lösen von Beschwörungen"@de,
+        "Armaros discloses the loosing of spells"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:LoosingOfSpells ;
+    pm:ascribedTo pmc:Armaros ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:AzazelTeachesAdornment a pm:Attributing ;
+    rdfs:label "Azazel offenbart Schmuck und Kosmetik"@de,
+        "Azazel discloses adornment and cosmetics"@en ;
+    dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:AdornmentAndCosmetics ;
+    pm:ascribedTo pmc:Azazel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:AzazelTeachesMetalworking a pm:Attributing ;
+    rdfs:label "Azazel offenbart Metallverarbeitung"@de,
+        "Azazel discloses metalworking"@en ;
+    dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:Metalworking ;
+    pm:ascribedTo pmc:Azazel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:BaraqelTeachesAstrology a pm:Attributing ;
+    rdfs:label "Baraqel offenbart die Astrologie"@de,
+        "Baraqel discloses astrology"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:Astrology ;
+    pm:ascribedTo pmc:Baraqel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:BaraqelTeachesSignsOfLightning a pm:Attributing ;
+    rdfs:label "Baraqel offenbart die Zeichen der Blitze"@de,
+        "Baraqel discloses the signs of the lightning flashes"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:note "Stands in the position the Ethiopic fills with astrology."@en ;
+    pm:ascribedCapacity pmc:SignsOfLightning ;
+    pm:ascribedTo pmc:Baraqel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:EzeqeelTeachesKnowledgeOfClouds a pm:Attributing ;
+    rdfs:label "Ezeqeel offenbart die Wolkenkunde"@de,
+        "Ezeqeel discloses the knowledge of the clouds"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:KnowledgeOfClouds ;
+    pm:ascribedTo pmc:Ezeqeel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
+    rdfs:label "Gadreel offenbart die Waffen des Todes"@de,
+        "Gadreel discloses the weapons of death"@en ;
+    dcterms:source "1 Enoch 69:6 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)" ;
+    skos:note "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."@en ;
+    pm:ascribedCapacity pmc:WeaponsOfDeath ;
+    pm:ascribedTo pmc:Gadreel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
+    rdfs:label "Kasdeja offenbart das Schlagen der Geister"@de,
+        "Kasdeja discloses the striking of spirits"@en ;
+    dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)" ;
+    skos:note "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."@en ;
+    pm:ascribedCapacity pmc:StrikingOfSpirits ;
+    pm:ascribedTo pmc:Kasdeja ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:KokabelTeachesConstellations a pm:Attributing ;
+    rdfs:label "Kokabel offenbart die Sternbilder"@de,
+        "Kokabel discloses the constellations"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:Constellations ;
+    pm:ascribedTo pmc:Kokabel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:KokabelTeachesSignsOfTheStars a pm:Attributing ;
+    rdfs:label "Kokabel offenbart die Zeichen der Sterne"@de,
+        "Kokabel discloses the signs of the stars"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:note "Stands in the position the Ethiopic fills with the constellations."@en ;
+    pm:ascribedCapacity pmc:SignsOfTheStars ;
+    pm:ascribedTo pmc:Kokabel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:PenemueTeachesBitterAndSweet a pm:Attributing ;
+    rdfs:label "Penemue offenbart bitter und süß"@de,
+        "Penemue discloses bitter and sweet"@en ;
+    dcterms:source "1 Enoch 69:8 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)" ;
+    skos:note "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."@en ;
+    pm:ascribedCapacity pmc:DiscernmentOfBitterAndSweet ;
+    pm:ascribedTo pmc:Penemue ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:PenemueTeachesWriting a pm:Attributing ;
+    rdfs:label "Penemue offenbart das Schreiben mit Tinte"@de,
+        "Penemue discloses writing with ink"@en ;
+    dcterms:source "1 Enoch 69:9 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)" ;
+    skos:note "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."@en ;
+    pm:ascribedCapacity pmc:WritingWithInk ;
+    pm:ascribedTo pmc:Penemue ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SarielTeachesCourseOfTheMoon a pm:Attributing ;
+    rdfs:label "Sariel offenbart den Lauf des Mondes"@de,
+        "Sariel discloses the course of the moon"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:CourseOfTheMoon ;
+    pm:ascribedTo pmc:Sariel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SarielTeachesSignsOfTheMoon a pm:Attributing ;
+    rdfs:label "Sariel offenbart die Zeichen des Mondes"@de,
+        "Sariel discloses the signs of the moon"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:note "Given under the name Sahriel; stands in the position the Ethiopic fills with the course of the moon."@en ;
+    pm:ascribedCapacity pmc:SignsOfTheMoon ;
+    pm:ascribedTo pmc:Sariel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:ShamsielTeachesSignsOfTheSun a pm:Attributing ;
+    rdfs:label "Schamsiel offenbart die Zeichen der Sonne"@de,
+        "Shamsiel discloses the signs of the sun"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:SignsOfTheSun ;
+    pm:ascribedTo pmc:Shamsiel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:ShemihazahTeachesRootCutting a pm:Attributing ;
+    rdfs:label "Schemichasa offenbart das Wurzelschneiden"@de,
+        "Shemihazah discloses root-cutting"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:RootCutting ;
+    pm:ascribedTo pmc:Shemihazah ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:ShemihazahTeachesSpellCasting a pm:Attributing ;
+    rdfs:label "Schemichasa offenbart die Beschwörung"@de,
+        "Shemihazah discloses spell-casting"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    pm:ascribedCapacity pmc:SpellCasting ;
+    pm:ascribedTo pmc:Shemihazah ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
+    rdfs:label "Ziqel offenbart die Zeichen der Sternschnuppen"@de,
+        "Ziqel discloses the signs of the shooting stars"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:note "Stands in the position the Ethiopic fills with Ezeqeel and the knowledge of the clouds."@en ;
+    pm:ascribedCapacity pmc:SignsOfShootingStars ;
+    pm:ascribedTo pmc:Ziqel ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Enochic .
 
 <https://pajew.ski/prima-materia/ontology> a owl:Ontology ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -206,11 +391,6 @@ pm:tests a owl:ObjectProperty ;
     rdfs:domain pm:Testing ;
     skos:definition "The claim this protocol attempts to fail."@en .
 
-pm:textualAttestation a pm:Attesting ;
-    rdfs:label "Textzeugnis"@de,
-        "Textual attestation"@en ;
-    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
-
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
@@ -232,6 +412,189 @@ pm:withinTradition a owl:ObjectProperty ;
     rdfs:range pm:Tradition ;
     skos:definition "Associates a process instance with the tradition in which it is situated."@en .
 
+pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
+    rdfs:label "Schmuck und Kosmetik"@de,
+        "Adornment and cosmetics"@en ;
+    dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
+    skos:definition "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Araqiel a pm:Conceptualizing ;
+    rdfs:label "Araqiel"@de,
+        "Araqiel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "A Watcher named as the one who disclosed the signs of the earth."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Armaros a pm:Conceptualizing ;
+    rdfs:label "Armaros"@de,
+        "Armaros"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:altLabel "Hermani"@en ;
+    skos:definition "A Watcher named in the teaching list as the one who disclosed the undoing of spells."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Astrology a pm:Conceptualizing ;
+    rdfs:label "Astrologie"@de,
+        "Astrology"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The reading of terrestrial import from the position of the heavenly bodies."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Constellations a pm:Conceptualizing ;
+    rdfs:label "Die Sternbilder"@de,
+        "The constellations"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "Knowledge of the fixed groupings of stars."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:CourseOfTheMoon a pm:Conceptualizing ;
+    rdfs:label "Der Lauf des Mondes"@de,
+        "The course of the moon"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:DiscernmentOfBitterAndSweet a pm:Conceptualizing ;
+    rdfs:label "Unterscheidung von bitter und süß"@de,
+        "Discernment of bitter and sweet"@en ;
+    dcterms:source "1 Enoch 69:8 (Ethiopic; Charles 1912)" ;
+    skos:definition "The disclosure of the distinction of bitter from sweet, given in the text alongside the secrets of wisdom."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Ezeqeel a pm:Conceptualizing ;
+    rdfs:label "Ezeqeel"@de,
+        "Ezeqeel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "A Watcher named in the Ethiopic teaching list as the one who disclosed the knowledge of the clouds."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Gadreel a pm:Conceptualizing ;
+    rdfs:label "Gadreel"@de,
+        "Gadreel"@en ;
+    dcterms:source "1 Enoch 69:6 (Ethiopic; Charles 1912)" ;
+    skos:definition "A figure named in the Book of Parables as the one who led Eve astray and disclosed the weapons of death."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Kasdeja a pm:Conceptualizing ;
+    rdfs:label "Kasdeja"@de,
+        "Kasdeja"@en ;
+    dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
+    skos:definition "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:KnowledgeOfClouds a pm:Conceptualizing ;
+    rdfs:label "Wolkenkunde"@de,
+        "Knowledge of the clouds"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The reading of weather and import from cloud formations."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:LoosingOfSpells a pm:Conceptualizing ;
+    rdfs:label "Lösen von Beschwörungen"@de,
+        "Loosing of spells"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The undoing of a binding laid by another, held in the text as a distinct art from the laying of it."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Metalworking a pm:Conceptualizing ;
+    rdfs:label "Metallverarbeitung und Waffenherstellung"@de,
+        "Metalworking and weapon-making"@en ;
+    dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
+    skos:definition "Knowledge of the metals of the earth and of working them into blades, shields and body armour."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:RootCutting a pm:Conceptualizing ;
+    rdfs:label "Wurzelschneiden"@de,
+        "Root-cutting"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The gathering and preparation of plant material for pharmacological or operative use."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Shamsiel a pm:Conceptualizing ;
+    rdfs:label "Schamsiel"@de,
+        "Shamsiel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "A Watcher named as the one who disclosed the signs of the sun."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfLightning a pm:Conceptualizing ;
+    rdfs:label "Zeichen der Blitze"@de,
+        "Signs of the lightning flashes"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:definition "The reading of import from lightning, given in place of astrology in the Aramaic-Greek witness."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfShootingStars a pm:Conceptualizing ;
+    rdfs:label "Zeichen der Sternschnuppen"@de,
+        "Signs of the shooting stars"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:definition "The reading of import from meteors, given in place of the knowledge of the clouds in the Aramaic-Greek witness."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfTheEarth a pm:Conceptualizing ;
+    rdfs:label "Zeichen der Erde"@de,
+        "Signs of the earth"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The reading of import from terrestrial phenomena."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfTheMoon a pm:Conceptualizing ;
+    rdfs:label "Zeichen des Mondes"@de,
+        "Signs of the moon"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:definition "The reading of import from the moon, given in place of its course in the Aramaic-Greek witness."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfTheStars a pm:Conceptualizing ;
+    rdfs:label "Zeichen der Sterne"@de,
+        "Signs of the stars"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:definition "The reading of import from the stars, given in place of the constellations in the Aramaic-Greek witness."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SignsOfTheSun a pm:Conceptualizing ;
+    rdfs:label "Zeichen der Sonne"@de,
+        "Signs of the sun"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The reading of import from the sun."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:SpellCasting a pm:Conceptualizing ;
+    rdfs:label "Beschwörung"@de,
+        "Spell-casting"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "The binding of persons or events by spoken formula."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:StrikingOfSpirits a pm:Conceptualizing ;
+    rdfs:label "Schlagen der Geister und der Leibesfrucht"@de,
+        "Striking of spirits and of the womb"@en ;
+    dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
+    skos:definition "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:WeaponsOfDeath a pm:Conceptualizing ;
+    rdfs:label "Die Waffen des Todes"@de,
+        "The weapons of death"@en ;
+    dcterms:source "1 Enoch 69:6 (Ethiopic; Charles 1912)" ;
+    skos:definition "Shield, breastplate and the sword for slaughter, disclosed as instruments of killing rather than as craft."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:WritingWithInk a pm:Conceptualizing ;
+    rdfs:label "Schreiben mit Tinte"@de,
+        "Writing with ink"@en ;
+    dcterms:source "1 Enoch 69:9 (Ethiopic; Charles 1912)" ;
+    skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Ziqel a pm:Conceptualizing ;
+    rdfs:label "Ziqel"@de,
+        "Ziqel"@en ;
+    dcterms:source "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)" ;
+    skos:definition "A Watcher named in the Aramaic-Greek teaching list as the one who disclosed the signs of the shooting stars. The position he occupies is held by Ezeqeel in the Ethiopic; no identification of the two is asserted here."@en ;
+    pm:withinTradition pmt:Enochic .
+
 pm:MeaningCluster a owl:Class ;
     rdfs:label "Bedeutungs-Cluster"@de,
         "Meaning Cluster"@en ;
@@ -244,23 +607,57 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+pmc:Azazel a pm:Conceptualizing ;
+    rdfs:label "Azazel"@de,
+        "Azazel"@en ;
+    dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
+    skos:altLabel "Asael"@en ;
+    skos:definition "A leader among the Watchers, named in the Book of the Watchers as the one who disclosed metallurgy, weaponry and adornment."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Baraqel a pm:Conceptualizing ;
+    rdfs:label "Baraqel"@de,
+        "Baraqel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:altLabel "Baraqijal"@en ;
+    skos:definition "A Watcher whose teaching concerns celestial signs; the two recensions differ on which."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Kokabel a pm:Conceptualizing ;
+    rdfs:label "Kokabel"@de,
+        "Kokabel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "A Watcher whose teaching concerns the stars; the two recensions differ on whether it is the constellations or the signs of the stars."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Penemue a pm:Conceptualizing ;
+    rdfs:label "Penemue"@de,
+        "Penemue"@en ;
+    dcterms:source "1 Enoch 69:8 (Ethiopic; Charles 1912)" ;
+    skos:definition "A figure named in the Book of Parables as the one who disclosed the distinction of bitter and sweet and the art of writing."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Sariel a pm:Conceptualizing ;
+    rdfs:label "Sariel"@de,
+        "Sariel"@en ;
+    dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
+    skos:definition "A Watcher whose teaching concerns the moon; the Ethiopic gives its course, the Aramaic-Greek witness gives its signs under the name Sahriel."@en ;
+    pm:withinTradition pmt:Enochic .
+
+pmc:Shemihazah a pm:Conceptualizing ;
+    rdfs:label "Schemichasa"@de,
+        "Shemihazah"@en ;
+    dcterms:source "1 Enoch 6:3, 8:3 (Ethiopic; Charles 1912)" ;
+    skos:altLabel "Amezarak"@en,
+        "Semjaza"@en ;
+    skos:definition "The leader of the Watchers who binds the others by oath on Mount Hermon and is named as the teacher of spells and root-cutting."@en ;
+    pm:withinTradition pmt:Enochic .
 
 pm:Systematizing a owl:Class ;
     rdfs:label "Systematisieren"@de,
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
-pm:Tradition a owl:Class ;
-    rdfs:label "Tradition"@de,
-        "Tradition"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
@@ -269,11 +666,11 @@ pm:Converging a owl:Class ;
     skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
     skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
-pm:Conceptualizing a owl:Class ;
-    rdfs:label "Begriffsbildung"@de,
-        "Conceptualizing"@en ;
+pm:Tradition a owl:Class ;
+    rdfs:label "Tradition"@de,
+        "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
+    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:AwarenessSpace a owl:Class ;
     rdfs:label "Bewusstseinsraum"@de,
@@ -302,4 +699,27 @@ pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
+
+pm:textualAttestation a pm:Attesting ;
+    rdfs:label "Textzeugnis"@de,
+        "Textual attestation"@en ;
+    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
+
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Conceptualizing a owl:Class ;
+    rdfs:label "Begriffsbildung"@de,
+        "Conceptualizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
+
+pmt:Enochic a pm:Tradition ;
+    rdfs:label "Henochische Überlieferung"@de,
+        "Enochic tradition"@en ;
+    dcterms:source "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction" ;
+    skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en .
 
