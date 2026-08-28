@@ -2,11 +2,34 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pm: <https://pajew.ski/prima-materia/ontology#> .
 @prefix pmc: <https://pajew.ski/prima-materia/concepts/> .
+@prefix pmp: <https://pajew.ski/prima-materia/practices/> .
 @prefix pmt: <https://pajew.ski/prima-materia/traditions/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pmc:AnapanasatiYieldsPiti a pm:Yielding ;
+    rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
+        "Mindfulness of breathing yields rapture"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga VIII (trans. Ñāṇamoli 1956)" ;
+    skos:note "Rapture appears in the handbook as a factor of absorption reached through the meditation subject, not as something aimed at directly. The pairing is recorded at that strength."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Anapanasati ;
+    pm:withinTradition pmt:Theravada ;
+    pm:yieldsCapacity pmc:Piti .
+
+pmc:AngelOfLightDeception a pm:Cautioning ;
+    rdfs:label "Die Täuschung, die als Licht erscheint"@de,
+        "The deception that appears as light"@en ;
+    dcterms:source "Diadochus of Photice, Gnostic Chapters 40",
+        "Evagrius Ponticus, On Thoughts 39" ;
+    skos:definition "The warning that an experience of luminosity or consolation may be counterfeit, and that the counterfeit is recognised by its circumstances rather than by its brightness."@en ;
+    skos:note "Diadochus distinguishes the true consolation, which comes with the body awake and in warm love, from the false, which comes in a light half-sleep."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:DiscernmentOfOrigins ;
+    pm:withinTradition pmt:ChristianAsceticDiscernment .
 
 pmc:AraqielTeachesSignsOfTheEarth a pm:Attributing ;
     rdfs:label "Araqiel offenbart die Zeichen der Erde"@de,
@@ -16,6 +39,16 @@ pmc:AraqielTeachesSignsOfTheEarth a pm:Attributing ;
     pm:ascribedTo pmc:Araqiel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:AristeasJourney a pm:Attributing ;
+    rdfs:label "Die Seelenreise, Aristeas zugeschrieben"@de,
+        "The soul-journey ascribed to Aristeas"@en ;
+    dcterms:source "Herodotus, Histories IV.13-16",
+        "Pliny, Naturalis Historia VII.174" ;
+    skos:definition "A capacity ascribed to a figure who is not available to report it, in a historian's account of what was told of him."@en ;
+    pm:ascribedCapacity pmc:SoulJourney ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:GraecoRoman .
 
 pmc:ArmarosTeachesLoosingOfSpells a pm:Attributing ;
     rdfs:label "Armaros offenbart das Lösen von Beschwörungen"@de,
@@ -63,6 +96,44 @@ pmc:BaraqelTeachesSignsOfLightning a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:DisplayOfPowersRefused a pm:Cautioning ;
+    rdfs:label "Zurschaustellung der Kräfte verweigert"@de,
+        "Display of powers refused"@en ;
+    dcterms:source "Dīgha Nikāya 11 (Kevaṭṭa Sutta)",
+        "Vinaya, Cūḷavagga V.8" ;
+    skos:definition "The discourse distinguishes three marvels, of psychic power, of mind-reading and of instruction, and holds only instruction to be reliable; the display of power for the sake of persuasion is refused as something to be ashamed of."@en ;
+    skos:note "The Vinaya rule against displaying superhuman states to laypeople stands alongside it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:Cetopariyanana,
+        pmc:Dibbacakkhu,
+        pmc:Dibbasota,
+        pmc:Manomayakaya ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
+    rdfs:label "Unterscheidung gegen das Übermaß"@de,
+        "Discretion against excess"@en ;
+    dcterms:source "John Cassian, Collationes II (De discretione)" ;
+    skos:definition "The teaching that discretion is the mother of the virtues, directed against the practitioner who is undone not by laxity but by an excess undertaken in good faith."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:DiscernmentOfOrigins ;
+    pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:ExteriorisationCorrespondence a pm:Converging ;
+    rdfs:label "Die Entsprechung der Exteriorisation"@de,
+        "The exteriorisation correspondence"@en ;
+    dcterms:source "Dīgha Nikāya 2 (Sāmaññaphala Sutta, DN i.77)",
+        "Herodotus, Histories IV.13-16",
+        "Patañjali, Yogasūtra III.38" ;
+    skos:definition "The observation that a body or seat of awareness distinct from the physical one is claimed in the Pāli handbooks, in the Yogasūtra, and in Greek reports of men whose souls left them."@en ;
+    skos:note "The Indian pair share a sphere and a technical vocabulary and are not independent of each other. The Greek reports are of a different kind entirely: they are second-hand ascriptions to figures long dead, made by historians rather than by practitioners, and a route of contact with the Indian material has been proposed but not shown."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:Manomayakaya,
+        pmc:ParakayaPravesa,
+        pmc:SoulJourney ;
+    pm:independentAttestation pmt:GraecoRoman ;
+    pm:transmissionPath "Theravāda and Pātañjala Yoga share the Indian sphere and a common technical vocabulary. A Scythian or shamanic route to the Greek reports has been proposed in the scholarship but is not documented." .
+
 pmc:EzeqeelTeachesKnowledgeOfClouds a pm:Attributing ;
     rdfs:label "Ezeqeel offenbart die Wolkenkunde"@de,
         "Ezeqeel discloses the knowledge of the clouds"@en ;
@@ -82,6 +153,42 @@ pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     pm:ascribedTo pmc:Gadreel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:HorripilationCorrespondence a pm:Converging ;
+    rdfs:label "Die Entsprechung der Haaraufrichtung"@de,
+        "The horripilation correspondence"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+        "Nāṭyaśāstra VII" ;
+    skos:definition "The observation that the raising of the body hair is codified as a sign of an inner state in two Indian genres that have no common subject matter: a meditation handbook and a treatise on dramatic performance."@en ;
+    skos:note "The strongest item in this file, and still not what it first appears. The independence is generic and not cultural: both texts belong to the Indian sphere, so a common background cannot be excluded. What can be excluded is that one borrowed the observation from the other, since neither is about the other's subject. A universal physiology codified twice is a finding about the physiology."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:KhuddikaPiti,
+        pmc:Romanca ;
+    pm:independentAttestation pmt:SanskritDramaturgy,
+        pmt:Theravada ;
+    pm:transmissionPath "Both codifications arise within the Indian cultural sphere; independence holds at the level of genre and subject matter, not at the level of culture." .
+
+pmc:ImperfectionsOfInsight a pm:Cautioning ;
+    rdfs:label "Die Unvollkommenheiten der Einsicht"@de,
+        "The imperfections of insight"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XX.105ff. (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Ten states arising in practice, among them luminosity, rapture, tranquillity, pleasure and resolve, which are not defilements in themselves but become obstacles when taken as proof of attainment."@en ;
+    skos:note "The handbook illustrates the error with the monk who held himself awakened for sixty years. This is the tradition's own answer to the question of how a practitioner mistakes a state for a result."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:Piti ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:IndoTibetanReception a pm:Converging ;
+    rdfs:label "Indo-tibetische Rezeption, keine Konvergenz"@de,
+        "Indo-Tibetan reception, not convergence"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The correspondence between the Indian channel-and-heat material and its Tibetan form, held as a node in order to be counted out: the route is documented, so the agreement is reception and carries no weight as evidence of an independently arrived-at structure."@en ;
+    skos:note "Recorded because a graph that only holds findings cannot show its own exclusions. Any later count of independent attestations must skip this pair."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:InnerHeat,
+        pmc:Kundalini,
+        pmc:Rtsa ;
+    pm:transmissionPath "The six yogas reach Tibet from the Indian mahāsiddha Nāropa through Marpa the translator; the transmission is named in the Tibetan sources themselves." .
 
 pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     rdfs:label "Kasdeja offenbart das Schlagen der Geister"@de,
@@ -113,6 +220,16 @@ pmc:KokabelTeachesSignsOfTheStars a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:NoQuantitativeVerification a pm:Cautioning ;
+    rdfs:label "Keine Zählung gegen den Zufall in den alten Quellen"@de,
+        "No count against chance in the old sources"@en ;
+    dcterms:source "Ignatius of Loyola, Spiritual Exercises 313-336",
+        "John Cassian, Collationes I.20-22" ;
+    skos:definition "A negative finding, held as a node so that it is not lost: the old traditions test a claimed movement by its origin and its fruits, and none of those examined here tests a claimed capacity by counting hits against the rate obtainable by guessing."@en ;
+    skos:note "Any protocol that counts outcomes against a base rate is a modern addition and is to be recorded as one, not as the recovery of an ancient method."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:cautionsAbout pmc:TestingOfThoughts .
+
 pmc:PenemueTeachesBitterAndSweet a pm:Attributing ;
     rdfs:label "Penemue offenbart bitter und süß"@de,
         "Penemue discloses bitter and sweet"@en ;
@@ -135,6 +252,52 @@ pmc:PenemueTeachesWriting a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Saktipata a pm:Conceptualizing ;
+    rdfs:label "Herabkunft der Kraft"@de,
+        "Descent of power"@en ;
+    dcterms:source "Abhinavagupta, Tantrasāra XI",
+        "Abhinavagupta, Tantrāloka XIII",
+        "Mālinīvijayottaratantra" ;
+    skos:definition "The transfer of power from one who has it to one who does not, graded in the Kashmirian exegesis into nine degrees."@en ;
+    skos:note "The sources give transfer by glance, by touch and by word. The specifically manual modality of the modern draft is not attested here."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
+pmc:SamyamaYieldsDivyaCaksus a pm:Yielding ;
+    rdfs:label "Saṃyama auf die Sonne bringt Weltkenntnis hervor"@de,
+        "Saṃyama on the sun yields knowledge of the world"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.26" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:DivyaCaksus .
+
+pmc:SamyamaYieldsDivyaSrotra a pm:Yielding ;
+    rdfs:label "Saṃyama bringt das göttliche Ohr hervor"@de,
+        "Saṃyama yields the divine ear"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.41" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:DivyaSrotra .
+
+pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
+    rdfs:label "Saṃyama auf die Vorstellung bringt Kenntnis fremden Bewusstseins hervor"@de,
+        "Saṃyama on the presented idea yields knowledge of another mind"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:ParacittaJnana .
+
+pmc:SamyamaYieldsParakayaPravesa a pm:Yielding ;
+    rdfs:label "Saṃyama bringt den Eintritt in einen anderen Körper hervor"@de,
+        "Saṃyama yields entry into another body"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.38" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:ParakayaPravesa .
+
 pmc:SarielTeachesCourseOfTheMoon a pm:Attributing ;
     rdfs:label "Sariel offenbart den Lauf des Mondes"@de,
         "Sariel discloses the course of the moon"@en ;
@@ -153,6 +316,26 @@ pmc:SarielTeachesSignsOfTheMoon a pm:Attributing ;
     pm:ascribedTo pmc:Sariel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:SattvikaBhava a pm:Conceptualizing ;
+    rdfs:label "Unwillkürliche Körperzustände"@de,
+        "Involuntary bodily states"@en ;
+    dcterms:source "Nāṭyaśāstra VII" ;
+    skos:definition "Eight bodily signs held to arise from the inner constitution rather than from will: paralysis, perspiration, horripilation, change of voice, trembling, change of colour, tears, and fainting."@en ;
+    pm:withinTradition pmt:SanskritDramaturgy .
+
+pmc:SevenCentreQualityMapping a pm:Systematizing ;
+    rdfs:label "Die Zuordnung von sieben Zentren zu Eigenschaften"@de,
+        "The seven-centre quality mapping"@en ;
+    dcterms:date "1927" ;
+    dcterms:source "A. Avalon, The Serpent Power (1919)",
+        "C. W. Leadbeater, The Chakras (1927)",
+        "Christopher Hills, Nuclear Evolution (1977)" ;
+    skos:definition "The assignment of a fixed set of seven centres to spectral colours and to psychological qualities such as will, expression and security. An ordering imposed in the twentieth century on material that did not carry it."@en ;
+    skos:note "Colour scheme in Leadbeater 1927, rainbow spectrum in Hills 1977, on the textual basis made available by Avalon's 1919 translation of the Ṣaṭcakranirūpaṇa. Recorded here so that the mapping is available in the graph as what it is, and cannot be mistaken for the tantric material it was built on."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:compiledBy "C. W. Leadbeater, extended by Christopher Hills" ;
+    pm:ordersClaim pmc:Cakra .
 
 pmc:ShamsielTeachesSignsOfTheSun a pm:Attributing ;
     rdfs:label "Schamsiel offenbart die Zeichen der Sonne"@de,
@@ -180,6 +363,74 @@ pmc:ShemihazahTeachesSpellCasting a pm:Attributing ;
     pm:ascribedTo pmc:Shemihazah ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:SiddhisAsObstacle a pm:Cautioning ;
+    rdfs:label "Die Kräfte sind Hindernisse für samādhi"@de,
+        "The powers are obstacles to samādhi"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.37" ;
+    skos:definition "The capacities of the third chapter are named obstacles with respect to samādhi and attainments only with respect to the outward-turned state. The tradition that catalogues them is the same one that warns against them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:DivyaCaksus,
+        pmc:DivyaSrotra,
+        pmc:ParacittaJnana,
+        pmc:ParakayaPravesa ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:TummoYieldsInnerHeat a pm:Yielding ;
+    rdfs:label "Tummo bringt innere Hitze hervor"@de,
+        "Tummo yields inner heat"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:note "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Tummo ;
+    pm:withinTradition pmt:TibetanTantric ;
+    pm:yieldsCapacity pmc:InnerHeat .
+
+pmc:UbbegaPiti a pm:Conceptualizing ;
+    rdfs:label "Erhebungsverzückung"@de,
+        "Uplifting rapture"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The fourth of the five degrees of rapture, described as strong enough to lift the body."@en ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:UncreatedLight a pm:Conceptualizing ;
+    rdfs:label "Ungeschaffenes Licht"@de,
+        "Uncreated light"@en ;
+    dcterms:source "Gregory Palamas, Triads in Defence of the Holy Hesychasts (trans. Gendle 1983)" ;
+    skos:definition "A light held to be uncreated, and held to shine through the whole person, body as well as soul; the defence is explicitly that the body participates and is not merely the site of an event in the soul."@en ;
+    skos:note "This is a claim about what shines through the practitioner, not about an emanation the practitioner produces or directs."@en ;
+    pm:withinTradition pmt:Hesychasm .
+
+pmc:VespasianHealing a pm:Attributing ;
+    rdfs:label "Heilung durch Berührung, Vespasian zugeschrieben"@de,
+        "Healing by touch ascribed to Vespasian"@en ;
+    dcterms:source "Suetonius, Divus Vespasianus 7",
+        "Tacitus, Historiae IV.81" ;
+    skos:definition "A capacity ascribed to a named ruler, in an account whose author remarks that those who were present still tell it although there is now no reward for the lie."@en ;
+    skos:note "The remark about eyewitnesses is part of the ascription, not an endorsement of it. It records how the historian wanted the claim received."@en ;
+    pm:ascribedCapacity pmc:HealingByTouch ;
+    pm:ascribedTo pmc:Vespasian ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:GraecoRoman .
+
+pmc:VitalEnergyCorrespondence a pm:Converging ;
+    rdfs:label "Die Entsprechung der Lebensenergie"@de,
+        "The vital-energy correspondence"@en ;
+    dcterms:source "Chāndogya Upaniṣad 7.15.1",
+        "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The observation that several traditions name something conducted or borne in the body and susceptible of deliberate direction."@en ;
+    skos:note "The correspondence is weaker than it looks. Pneuma is a principle of cosmic cohesion and not a faculty; the breath of the Sefer Yetzirah is a medium of formation and not a conduction through the limbs. Only the Chinese and the Indian material carries the operative sense the modern draft assumes."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:InnerHeat,
+        pmc:Kundalini,
+        pmc:Piti,
+        pmc:Pneuma,
+        pmc:Prana,
+        pmc:Qi,
+        pmc:Ruach ;
+    pm:independentAttestation pmt:Daoist,
+        pmt:Upanisadic ;
+    pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
 
 pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
     rdfs:label "Ziqel offenbart die Zeichen der Sternschnuppen"@de,
@@ -225,12 +476,6 @@ pm:Perceiving a owl:Class ;
         "Perceiving"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of apprehending form within an awareness context."@en .
-
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pm:Relating a owl:Class ;
     rdfs:label "Beziehen"@de,
@@ -293,12 +538,25 @@ pm:baseRate a owl:DatatypeProperty ;
     rdfs:domain pm:Testing ;
     skos:definition "The rate against which observed outcomes are compared, with the population it was taken from."@en .
 
+pm:byPractice a owl:ObjectProperty ;
+    rdfs:label "durch Praxis"@de,
+        "by practice"@en ;
+    rdfs:domain pm:Yielding ;
+    rdfs:range pm:Practicing ;
+    skos:definition "The practice a yielding claim proceeds from."@en .
+
 pm:caseCount a owl:DatatypeProperty ;
     rdfs:label "Fallzahl"@de,
         "case count"@en ;
     rdfs:domain pm:Testing ;
     rdfs:range xsd:integer ;
     skos:definition "The number of cases recorded under this protocol so far."@en .
+
+pm:cautionsAbout a owl:ObjectProperty ;
+    rdfs:label "warnt vor"@de,
+        "cautions about"@en ;
+    rdfs:domain pm:Cautioning ;
+    skos:definition "The capacity, practice or pursuit a warning is directed at."@en .
 
 pm:collectiveAwareness a pm:AwarenessSpace ;
     rdfs:label "Kollektives Bewusstsein"@de,
@@ -310,12 +568,6 @@ pm:compiledBy a owl:DatatypeProperty ;
         "compiled by"@en ;
     rdfs:domain pm:Systematizing ;
     skos:definition "The named compiler who performed the ordering act. Without it, an order made in the present is indistinguishable from an order found in the source."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pm:convergingConcept a owl:ObjectProperty ;
     rdfs:label "konvergierender Begriff"@de,
@@ -391,11 +643,6 @@ pm:tests a owl:ObjectProperty ;
     rdfs:domain pm:Testing ;
     skos:definition "The claim this protocol attempts to fail."@en .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pm:transmissionPath a owl:DatatypeProperty ;
     rdfs:label "Übertragungsweg"@de,
         "transmission path"@en ;
@@ -411,6 +658,57 @@ pm:withinTradition a owl:ObjectProperty ;
     rdfs:label "within tradition"@en ;
     rdfs:range pm:Tradition ;
     skos:definition "Associates a process instance with the tradition in which it is situated."@en .
+
+pm:yieldsCapacity a owl:ObjectProperty ;
+    rdfs:label "bringt Vermögen hervor"@de,
+        "yields capacity"@en ;
+    rdfs:domain pm:Yielding ;
+    rdfs:range pm:Conceptualizing ;
+    skos:definition "The capacity a yielding claim arrives at. That the tradition says so is the claim; that the practice produces it is not asserted."@en .
+
+pmp:BrahmaviharaBhavana a pm:Practicing ;
+    rdfs:label "Kultivierung der göttlichen Verweilungen"@de,
+        "Cultivation of the divine abidings"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IX (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The deliberate raising and sustaining of a chosen affective state as a meditation subject in its own right."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Theravada .
+
+pmp:ChannelPurification a pm:Practicing ;
+    rdfs:label "Reinigung der Kanäle"@de,
+        "Purification of the channels"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "A preliminary in which the channels are cleared by visualisation before the heat practice proper; the tradition's own form of the notion that a blockage is a place the energy does not reach."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:TibetanTantric .
+
+pmp:Pranayama a pm:Practicing ;
+    rdfs:label "Prāṇāyāma"@de,
+        "Prāṇāyāma"@en ;
+    dcterms:source "Patañjali, Yogasūtra II.49-53" ;
+    skos:definition "The regulation of the breath as a distinct limb of practice, following posture and preceding the withdrawal of the senses."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmp:SaktipataTransmission a pm:Practicing ;
+    rdfs:label "Übertragung der Herabkunft der Kraft"@de,
+        "Conferring the descent of power"@en ;
+    dcterms:source "Abhinavagupta, Tantrasāra XI",
+        "Abhinavagupta, Tantrāloka XIII" ;
+    skos:definition "The initiatory act by which the descent of power is conferred."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SaivaSakta .
+
+pmp:Xingqi a pm:Practicing ;
+    rdfs:label "Zirkulation des Qi"@de,
+        "Circulating the qi"@en ;
+    dcterms:source "H.D. Roth, Original Tao (1999)",
+        "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125",
+        "Xingqi yupei ming, in J. Needham, Science and Civilisation in China II (1956), p. 143" ;
+    skos:definition "A breath practice inscribed in forty-five characters on a twelve-sided jade block, setting out the deliberate movement of qi through the body."@en ;
+    skos:note "The two axes of disagreement belong to the claim and are recorded with it. Dating: Harper places the inscription in the late fourth or early third century BCE, Needham in the middle of the sixth. Reading: Harper takes the opening two characters as the title and begins the text at the second line, where Roth counts and construes differently. A citation that names only the inscription conceals both."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     rdfs:label "Schmuck und Kosmetik"@de,
@@ -441,6 +739,21 @@ pmc:Astrology a pm:Conceptualizing ;
     skos:definition "The reading of terrestrial import from the position of the heavenly bodies."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Cakra a pm:Conceptualizing ;
+    rdfs:label "Cakra"@de,
+        "Cakra"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "A centre of the subtle body, described in the source with its seed syllables and its position along the central channel."@en ;
+    skos:note "The count varies across the older tantras, which give four, five or six. The tradition does not assign the centres the psychological qualities that modern presentations attach to them."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
+pmc:Cetopariyanana a pm:Conceptualizing ;
+    rdfs:label "Kenntnis fremden Bewusstseins"@de,
+        "Knowledge encompassing another mind"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Knowledge of the state of another consciousness."@en ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:Constellations a pm:Conceptualizing ;
     rdfs:label "Die Sternbilder"@de,
         "The constellations"@en ;
@@ -454,6 +767,20 @@ pmc:CourseOfTheMoon a pm:Conceptualizing ;
     dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
     skos:definition "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Dibbacakkhu a pm:Conceptualizing ;
+    rdfs:label "Göttliches Auge"@de,
+        "Divine eye"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Sight beyond the range of the physical eye."@en ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:Dibbasota a pm:Conceptualizing ;
+    rdfs:label "Göttliches Ohr"@de,
+        "Divine ear"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:DiscernmentOfBitterAndSweet a pm:Conceptualizing ;
     rdfs:label "Unterscheidung von bitter und süß"@de,
@@ -476,12 +803,28 @@ pmc:Gadreel a pm:Conceptualizing ;
     skos:definition "A figure named in the Book of Parables as the one who led Eve astray and disclosed the weapons of death."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:HealingByTouch a pm:Conceptualizing ;
+    rdfs:label "Heilung durch Berührung"@de,
+        "Healing by touch"@en ;
+    dcterms:source "Suetonius, Divus Vespasianus 7",
+        "Tacitus, Historiae IV.81" ;
+    skos:definition "The restoration of a withered hand and of sight, ascribed to the touch of a ruler in Alexandria."@en ;
+    pm:withinTradition pmt:GraecoRoman .
+
 pmc:Kasdeja a pm:Conceptualizing ;
     rdfs:label "Kasdeja"@de,
         "Kasdeja"@en ;
     dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
     skos:definition "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:KhuddikaPiti a pm:Conceptualizing ;
+    rdfs:label "Geringe Verzückung"@de,
+        "Minor rapture"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The least of the five degrees of rapture, described as able to raise the hairs of the body."@en ;
+    skos:note "This is the passage that attests piloerection as a recognised concomitant of a meditative state, not as its object."@en ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:KnowledgeOfClouds a pm:Conceptualizing ;
     rdfs:label "Wolkenkunde"@de,
@@ -504,12 +847,60 @@ pmc:Metalworking a pm:Conceptualizing ;
     skos:definition "Knowledge of the metals of the earth and of working them into blades, shields and body armour."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Pneuma a pm:Conceptualizing ;
+    rdfs:label "Pneuma"@de,
+        "Pneuma"@en ;
+    dcterms:source "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8" ;
+    skos:definition "A mixture of air and fire that pervades bodies and, by its tension, holds them in cohesion; a principle of the world rather than a capacity of a practitioner."@en ;
+    skos:note "The associated doctrines are that of tension and that of total mixture, by which two bodies occupy the same place throughout."@en ;
+    pm:withinTradition pmt:StoicPhysics .
+
+pmc:Prana a pm:Conceptualizing ;
+    rdfs:label "Prāṇa"@de,
+        "Prāṇa"@en ;
+    dcterms:source "Chāndogya Upaniṣad 1.11.5",
+        "Chāndogya Upaniṣad 7.15.1" ;
+    skos:definition "Vital breath, presented as that on which the parts of the person rest and out of which beings come forth, in the image of a wheel resting on its hub."@en ;
+    pm:withinTradition pmt:Upanisadic .
+
+pmc:Qi a pm:Conceptualizing ;
+    rdfs:label "Qi"@de,
+        "Qi"@en ;
+    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The vital breath or energy held to circulate in the body and to be susceptible of deliberate direction."@en ;
+    pm:withinTradition pmt:Daoist .
+
+pmc:Romanca a pm:Conceptualizing ;
+    rdfs:label "Haaraufrichtung"@de,
+        "Horripilation"@en ;
+    dcterms:source "Bhagavadgītā 1.29",
+        "Nāṭyaśāstra VII" ;
+    skos:definition "The raising of the body hair, counted among the eight involuntary signs and treated as a mark of an inner state, not as something to be produced for its own sake."@en ;
+    skos:note "Attested outside the dramaturgical treatise in the epic corpus, where trembling and horripilation are named together as signs of an overwhelming state."@en ;
+    pm:withinTradition pmt:SanskritDramaturgy .
+
 pmc:RootCutting a pm:Conceptualizing ;
     rdfs:label "Wurzelschneiden"@de,
         "Root-cutting"@en ;
     dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
     skos:definition "The gathering and preparation of plant material for pharmacological or operative use."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Rtsa a pm:Conceptualizing ;
+    rdfs:label "Kanäle"@de,
+        "Channels"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The channels of the subtle body through which the winds are held to move; Tsongkhapa's presentation counts one hundred and twenty principal ones."@en ;
+    pm:withinTradition pmt:TibetanTantric .
+
+pmc:Ruach a pm:Conceptualizing ;
+    rdfs:label "Ruach"@de,
+        "Ruaḥ"@en ;
+    dcterms:source "Sefer Yetzirah 1:9-10",
+        "Sefer Yetzirah 6:7" ;
+    skos:definition "Breath or spirit, named as the first of the ten emanations, from which air issues, from air water, and from water fire."@en ;
+    skos:note "The text also has the patriarch stirring the letters with breath, which is the closest the source comes to breath as an operative medium; it remains an act of formation, not a conduction through the body."@en ;
+    pm:withinTradition pmt:SeferYetzirah .
 
 pmc:Shamsiel a pm:Conceptualizing ;
     rdfs:label "Schamsiel"@de,
@@ -574,6 +965,27 @@ pmc:StrikingOfSpirits a pm:Conceptualizing ;
     skos:definition "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:TestingOfThoughts a pm:Testing ;
+    rdfs:label "Die Prüfung der Gedanken"@de,
+        "The examination of thoughts"@en ;
+    dcterms:source "Ignatius of Loyola, Spiritual Exercises 334",
+        "Ignatius of Loyola, Spiritual Exercises 336",
+        "John Cassian, Collationes I.20-22" ;
+    skos:definition "A four-part examination of an inner movement, set out in the image of the money-changer who tests a coin: for the metal, for the stamp, for the lawfulness of its provenance, and for its weight."@en ;
+    skos:note "Ignatius adds the rule that the whole course of a train of thought is to be examined, since a bad end reveals the origin, and that a consolation arriving after the fact is to be examined well before it is believed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:falsifiedBy "A movement fails the test if its metal is false, its stamp is not that of right teaching, its provenance is unlawful, or it weighs light of the fear of God and heavy of human vanity; and it fails if the end of the train of thought is bad, however good its beginning." ;
+    pm:protocolUpdated "2026-08-28" ;
+    pm:tests pmc:DiscernmentOfOrigins ;
+    pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:Vespasian a pm:Conceptualizing ;
+    rdfs:label "Vespasian"@de,
+        "Vespasian"@en ;
+    dcterms:source "Tacitus, Historiae IV.81" ;
+    skos:definition "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."@en ;
+    pm:withinTradition pmt:GraecoRoman .
+
 pmc:WeaponsOfDeath a pm:Conceptualizing ;
     rdfs:label "Die Waffen des Todes"@de,
         "The weapons of death"@en ;
@@ -607,6 +1019,41 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
+pmp:Anapanasati a pm:Practicing ;
+    rdfs:label "Ānāpānasati"@de,
+        "Ānāpānasati"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga VIII (trans. Ñāṇamoli 1956)",
+        "Majjhima Nikāya 118" ;
+    skos:definition "Mindfulness of in-breath and out-breath, set out as a sixteen-step progression in the discourse and as a meditation subject in the handbook."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Theravada .
+
+pmp:Tummo a pm:Practicing ;
+    rdfs:label "Tummo"@de,
+        "Tummo"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The generation of inner heat, presented in three components: the channels, the syllables, and the heat meditation itself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:TibetanTantric .
+
+pmt:Hesychasm a pm:Tradition ;
+    rdfs:label "Hesychasmus"@de,
+        "Hesychasm"@en ;
+    dcterms:source "Gregory Palamas, Triads in Defence of the Holy Hesychasts" ;
+    skos:definition "The Byzantine tradition of the prayer of the heart and of the vision of the uncreated light, defended in the fourteenth century against the objection that such a light must be created."@en .
+
+pmt:SeferYetzirah a pm:Tradition ;
+    rdfs:label "Sefer Jetzira"@de,
+        "Sefer Yetzirah"@en ;
+    dcterms:source "Sefer Yetzirah 1:9-10" ;
+    skos:definition "The transmission of the Book of Formation and its commentaries, in which the world is formed through letters, number and breath."@en .
+
+pmt:StoicPhysics a pm:Tradition ;
+    rdfs:label "Stoische Physik"@de,
+        "Stoic physics"@en ;
+    dcterms:source "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8" ;
+    skos:definition "The Stoic doctrine of a fiery breath that pervades matter and holds it together."@en .
+
 pmc:Azazel a pm:Conceptualizing ;
     rdfs:label "Azazel"@de,
         "Azazel"@en ;
@@ -623,12 +1070,48 @@ pmc:Baraqel a pm:Conceptualizing ;
     skos:definition "A Watcher whose teaching concerns celestial signs; the two recensions differ on which."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:DivyaCaksus a pm:Conceptualizing ;
+    rdfs:label "Göttliches Auge"@de,
+        "Divine eye"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.26" ;
+    skos:definition "Perception of what is distant, hidden or obstructed."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:DivyaSrotra a pm:Conceptualizing ;
+    rdfs:label "Göttliches Ohr"@de,
+        "Divine ear"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.41" ;
+    skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
 pmc:Kokabel a pm:Conceptualizing ;
     rdfs:label "Kokabel"@de,
         "Kokabel"@en ;
     dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
     skos:definition "A Watcher whose teaching concerns the stars; the two recensions differ on whether it is the constellations or the signs of the stars."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Kundalini a pm:Conceptualizing ;
+    rdfs:label "Kuṇḍalinī"@de,
+        "Kuṇḍalinī"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "A power held to rest coiled at the base of the subtle body and to rise through it when roused."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
+pmc:Manomayakaya a pm:Conceptualizing ;
+    rdfs:label "Geistgemachter Körper"@de,
+        "Mind-made body"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)",
+        "Dīgha Nikāya 2 (Sāmaññaphala Sutta, DN i.77)" ;
+    skos:definition "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."@en ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:ParacittaJnana a pm:Conceptualizing ;
+    rdfs:label "Kenntnis fremden Bewusstseins"@de,
+        "Knowledge of another mind"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19" ;
+    skos:definition "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:Penemue a pm:Conceptualizing ;
     rdfs:label "Penemue"@de,
@@ -653,35 +1136,103 @@ pmc:Shemihazah a pm:Conceptualizing ;
     skos:definition "The leader of the Watchers who binds the others by oath on Mount Hermon and is named as the teacher of spells and root-cutting."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:SoulJourney a pm:Conceptualizing ;
+    rdfs:label "Seelenreise ohne den Körper"@de,
+        "Journey of the soul apart from the body"@en ;
+    dcterms:source "Herodotus, Histories IV.13-16",
+        "Pliny, Naturalis Historia VII.174" ;
+    skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
+    pm:withinTradition pmt:GraecoRoman .
+
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pmt:Upanisadic a pm:Tradition ;
+    rdfs:label "Upaniṣadische Überlieferung"@de,
+        "Upaniṣadic tradition"@en ;
+    dcterms:source "Chāndogya Upaniṣad" ;
+    skos:definition "The transmission of the Upaniṣads as the speculative layer of the Vedic corpus."@en .
+
+pmc:DiscernmentOfOrigins a pm:Conceptualizing ;
+    rdfs:label "Unterscheidung der Herkunft"@de,
+        "Discernment of origins"@en ;
+    dcterms:source "Evagrius Ponticus, On Thoughts 8",
+        "Evagrius Ponticus, Praktikos 80" ;
+    skos:definition "The examination of an inner movement for its origin, distinguished threefold as angelic, human or demonic."@en ;
+    pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:InnerHeat a pm:Conceptualizing ;
+    rdfs:label "Innere Hitze"@de,
+        "Inner heat"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "Heat held to be generated within the body by deliberate practice rather than received from outside it."@en ;
+    pm:withinTradition pmt:TibetanTantric .
+
+pmc:ParakayaPravesa a pm:Conceptualizing ;
+    rdfs:label "Eintritt in einen anderen Körper"@de,
+        "Entering another body"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.38" ;
+    skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:Piti a pm:Conceptualizing ;
+    rdfs:label "Pīti"@de,
+        "Pīti"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Rapture as a bodily felt state, graded in the handbook into five degrees of increasing pervasion."@en ;
+    skos:note "The five degrees are khuddikā, khaṇikā, okkantikā, ubbegā and pharaṇā."@en ;
+    pm:withinTradition pmt:Theravada .
+
 pm:Systematizing a owl:Class ;
     rdfs:label "Systematisieren"@de,
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
+pmt:Daoist a pm:Tradition ;
+    rdfs:label "Daoistische Überlieferung"@de,
+        "Daoist tradition"@en ;
+    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en .
 
-pm:Tradition a owl:Class ;
-    rdfs:label "Tradition"@de,
-        "Tradition"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+pmt:SanskritDramaturgy a pm:Tradition ;
+    rdfs:label "Sanskritische Dramaturgie"@de,
+        "Sanskrit dramaturgy"@en ;
+    dcterms:source "Nāṭyaśāstra VII" ;
+    skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en .
+
+pmp:Samyama a pm:Practicing ;
+    rdfs:label "Saṃyama"@de,
+        "Saṃyama"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-3" ;
+    skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmt:ChristianAsceticDiscernment a pm:Tradition ;
+    rdfs:label "Christliche Unterscheidung der Geister"@de,
+        "Christian ascetic discernment"@en ;
+    dcterms:source "John Cassian, Collationes I-II" ;
+    skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en .
+
+pmt:SaivaSakta a pm:Tradition ;
+    rdfs:label "Śaiva- und Śākta-Tantra"@de,
+        "Śaiva and Śākta tantra"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en .
 
 pm:AwarenessSpace a owl:Class ;
     rdfs:label "Bewusstseinsraum"@de,
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
+pmt:TibetanTantric a pm:Tradition ;
+    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
+        "Tibetan tantric tradition"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
 
 pm:Attesting a owl:Class ;
     rdfs:label "Bezeugen"@de,
@@ -690,20 +1241,78 @@ pm:Attesting a owl:Class ;
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
 
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pmt:GraecoRoman a pm:Tradition ;
+    rdfs:label "Griechisch-römisches Zeugnis"@de,
+        "Graeco-Roman testimony"@en ;
+    dcterms:source "Herodotus, Histories IV.13-16" ;
+    skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en .
+
 pm:AwarenessContext a owl:Class ;
     rdfs:label "Bewusstseinskontext"@de,
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
+
+pmt:PatanjalaYoga a pm:Tradition ;
+    rdfs:label "Pātañjala-Yoga"@de,
+        "Pātañjala Yoga"@en ;
+    dcterms:source "Patañjali, Yogasūtra" ;
+    skos:definition "The transmission of the Yogasūtra of Patañjali and its commentarial literature."@en .
+
+pmt:Theravada a pm:Tradition ;
+    rdfs:label "Theravāda"@de,
+        "Theravāda"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:textualAttestation a pm:Attesting ;
-    rdfs:label "Textzeugnis"@de,
-        "Textual attestation"@en ;
-    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
+pm:Tradition a owl:Class ;
+    rdfs:label "Tradition"@de,
+        "Tradition"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -711,15 +1320,20 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:Conceptualizing a owl:Class ;
-    rdfs:label "Begriffsbildung"@de,
-        "Conceptualizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
+pm:textualAttestation a pm:Attesting ;
+    rdfs:label "Textzeugnis"@de,
+        "Textual attestation"@en ;
+    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
     dcterms:source "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction" ;
     skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en .
+
+pm:Conceptualizing a owl:Class ;
+    rdfs:label "Begriffsbildung"@de,
+        "Conceptualizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
 

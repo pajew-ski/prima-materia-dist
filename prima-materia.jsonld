@@ -80,159 +80,15 @@
   "@graph": [
     {
       "definition": {
-        "en": "First-person exclusive awareness shared between two subjects (I and you)."
+        "en": "A concept that participates in the observed correspondence."
       },
-      "id": "pm:dyadicAwareness",
+      "domain": "pm:Converging",
+      "id": "pm:convergingConcept",
       "label": {
-        "de": "Dyadisches Bewusstsein",
-        "en": "Dyadic awareness"
+        "de": "konvergierender Begriff",
+        "en": "converging concept"
       },
-      "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "A Watcher whose teaching concerns celestial signs; the two recensions differ on which."
-      },
-      "id": "pmc:Baraqel",
-      "label": {
-        "de": "Baraqel",
-        "en": "Baraqel"
-      },
-      "skos:altLabel": {
-        "@language": "en",
-        "@value": "Baraqijal"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:KokabelTeachesSignsOfTheStars",
-      "label": {
-        "de": "Kokabel offenbart die Zeichen der Sterne",
-        "en": "Kokabel discloses the signs of the stars"
-      },
-      "note": {
-        "en": "Stands in the position the Ethiopic fills with the constellations."
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:SignsOfTheStars"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Kokabel"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
-      },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."
-      },
-      "id": "pmc:StrikingOfSpirits",
-      "label": {
-        "de": "Schlagen der Geister und der Leibesfrucht",
-        "en": "Striking of spirits and of the womb"
-      },
-      "source": "1 Enoch 69:12 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "Undifferentiated awareness in which no object is apprehended."
-      },
-      "id": "pm:DeepSleepState",
-      "label": {
-        "de": "Tiefschlafzustand (Suṣupti)",
-        "en": "Deep sleep state (Suṣupti)"
-      },
-      "source": "Māṇḍūkya Upaniṣad, verse 5",
-      "type": "pm:AwarenessContext"
-    },
-    {
-      "definition": {
-        "en": "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."
-      },
-      "id": "pm:Converging",
-      "label": {
-        "de": "Konvergieren",
-        "en": "Converging"
-      },
-      "note": {
-        "en": "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "A leader among the Watchers, named in the Book of the Watchers as the one who disclosed metallurgy, weaponry and adornment."
-      },
-      "id": "pmc:Azazel",
-      "label": {
-        "de": "Azazel",
-        "en": "Azazel"
-      },
-      "skos:altLabel": {
-        "@language": "en",
-        "@value": "Asael"
-      },
-      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "A Watcher named as the one who disclosed the signs of the earth."
-      },
-      "id": "pmc:Araqiel",
-      "label": {
-        "de": "Araqiel",
-        "en": "Araqiel"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "Operative consciousness in which an assertion is made from direct insight rather than from historical reconstruction."
-      },
-      "id": "pm:GnosticState",
-      "label": {
-        "de": "Gnostischer Zustand",
-        "en": "Gnostic state"
-      },
-      "note": {
-        "en": "Use this context when a triple expresses a claim from within a tradition's first-person perspective."
-      },
-      "type": "pm:AwarenessContext"
-    },
-    {
-      "definition": {
-        "en": "The emergence of a form out of a prior undifferentiated ground."
-      },
-      "id": "pm:Manifesting",
-      "label": {
-        "de": "Manifestieren",
-        "en": "Manifesting"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "Associates a process instance with the pronominal reach of its awareness."
-      },
-      "id": "pm:hasAwarenessSpace",
-      "label": {
-        "en": "has awareness space"
-      },
-      "range": "pm:AwarenessSpace",
+      "range": "pm:Conceptualizing",
       "type": "owl:ObjectProperty"
     },
     {
@@ -249,17 +105,90 @@
       "withinTradition": "pmt:Enochic"
     },
     {
-      "definition": {
-        "en": "A tradition attesting the correspondence for which no route of contact is documented. This is the only kind of attestation that makes a correspondence a finding rather than a citation chain."
-      },
-      "domain": "pm:Converging",
-      "id": "pm:independentAttestation",
+      "id": "pmc:AzazelTeachesAdornment",
       "label": {
-        "de": "unabhängige Bezeugung",
-        "en": "independent attestation"
+        "de": "Azazel offenbart Schmuck und Kosmetik",
+        "en": "Azazel discloses adornment and cosmetics"
       },
-      "range": "pm:Tradition",
-      "type": "owl:ObjectProperty"
+      "pm:ascribedCapacity": {
+        "id": "pmc:AdornmentAndCosmetics"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Azazel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The generation of inner heat, presented in three components: the channels, the syllables, and the heat meditation itself."
+      },
+      "id": "pmp:Tummo",
+      "label": {
+        "de": "Tummo",
+        "en": "Tummo"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:TibetanTantric"
+    },
+    {
+      "definition": {
+        "en": "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."
+      },
+      "id": "pmp:Samyama",
+      "label": {
+        "de": "Saṃyama",
+        "en": "Saṃyama"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "Patañjali, Yogasūtra III.1-3",
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "id": "pmc:BaraqelTeachesAstrology",
+      "label": {
+        "de": "Baraqel offenbart die Astrologie",
+        "en": "Baraqel discloses astrology"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:Astrology"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Baraqel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The restoration of a withered hand and of sight, ascribed to the touch of a ruler in Alexandria."
+      },
+      "id": "pmc:HealingByTouch",
+      "label": {
+        "de": "Heilung durch Berührung",
+        "en": "Healing by touch"
+      },
+      "source": [
+        "Suetonius, Divus Vespasianus 7",
+        "Tacitus, Historiae IV.81"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:GraecoRoman"
     },
     {
       "definition": {
@@ -276,35 +205,12 @@
     },
     {
       "definition": {
-        "en": "A cross-tradition structural analogue, weaker than owl:sameAs and distinct from skos:closeMatch in that it asserts role-in-process similarity rather than lexical overlap."
+        "en": "The undoing of a binding laid by another, held in the text as a distinct art from the laying of it."
       },
-      "domain": "pm:Conceptualizing",
-      "id": "pm:analogueConcept",
+      "id": "pmc:LoosingOfSpells",
       "label": {
-        "en": "analogue concept"
-      },
-      "range": "pm:Conceptualizing",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "An experiential account given in the first person by the one who had it, recorded once."
-      },
-      "id": "pm:firstPersonReport",
-      "label": {
-        "de": "Erfahrungsbericht",
-        "en": "First-person report"
-      },
-      "type": "pm:Attesting"
-    },
-    {
-      "definition": {
-        "en": "A Watcher whose teaching concerns the moon; the Ethiopic gives its course, the Aramaic-Greek witness gives its signs under the name Sahriel."
-      },
-      "id": "pmc:Sariel",
-      "label": {
-        "de": "Sariel",
-        "en": "Sariel"
+        "de": "Lösen von Beschwörungen",
+        "en": "Loosing of spells"
       },
       "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
       "type": "pm:Conceptualizing",
@@ -312,121 +218,98 @@
     },
     {
       "definition": {
-        "en": "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."
+        "en": "The capacity a yielding claim arrives at. That the tradition says so is the claim; that the practice produces it is not asserted."
       },
-      "id": "pm:Tradition",
+      "domain": "pm:Yielding",
+      "id": "pm:yieldsCapacity",
       "label": {
-        "de": "Tradition",
-        "en": "Tradition"
+        "de": "bringt Vermögen hervor",
+        "en": "yields capacity"
       },
-      "subClassOf": "pm:Process",
+      "range": "pm:Conceptualizing",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "A Watcher named in the Aramaic-Greek teaching list as the one who disclosed the signs of the shooting stars. The position he occupies is held by Ezeqeel in the Ethiopic; no identification of the two is asserted here."
+      },
+      "id": "pmc:Ziqel",
+      "label": {
+        "de": "Ziqel",
+        "en": "Ziqel"
+      },
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "Philological and historical mode of assertion: claims are reports about what a tradition holds, not claims made from within it."
+      },
+      "id": "pm:ScholarlyState",
+      "label": {
+        "de": "Wissenschaftlicher Zustand",
+        "en": "Scholarly state"
+      },
+      "note": {
+        "en": "Default context for tradition files in Phase 1."
+      },
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."
+      },
+      "id": "pmt:Daoist",
+      "label": {
+        "de": "Daoistische Überlieferung",
+        "en": "Daoist tradition"
+      },
+      "source": "Xingqi yupei ming (jade inscription on circulating the qi)",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."
+      },
+      "id": "pm:Process",
+      "label": {
+        "de": "Prozess",
+        "en": "Process"
+      },
       "type": "owl:Class"
     },
     {
       "definition": {
-        "en": "A claim that this ordering act groups. The claims keep their own attestation; only the grouping belongs to the compiler."
+        "en": "The reading of import from the sun."
       },
-      "domain": "pm:Systematizing",
-      "id": "pm:ordersClaim",
+      "id": "pmc:SignsOfTheSun",
       "label": {
-        "de": "ordnet Behauptung",
-        "en": "orders claim"
+        "de": "Zeichen der Sonne",
+        "en": "Signs of the sun"
       },
-      "type": "owl:ObjectProperty"
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
     },
     {
-      "id": "pmc:ShemihazahTeachesRootCutting",
+      "id": "pmc:SamyamaYieldsParacittaJnana",
       "label": {
-        "de": "Schemichasa offenbart das Wurzelschneiden",
-        "en": "Shemihazah discloses root-cutting"
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:RootCutting"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Shemihazah"
+        "de": "Saṃyama auf die Vorstellung bringt Kenntnis fremden Bewusstseins hervor",
+        "en": "Saṃyama on the presented idea yields knowledge of another mind"
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "comment": {
-        "en": "Consciousness-first meta-ontology. Processes, not substances."
+      "pm:byPractice": {
+        "id": "pmp:Samyama"
       },
-      "id": "https://pajew.ski/prima-materia/ontology",
-      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "title": {
-        "en": "prima-materia core ontology"
+      "pm:yieldsCapacity": {
+        "id": "pmc:ParacittaJnana"
       },
-      "type": "owl:Ontology"
-    },
-    {
-      "definition": {
-        "en": "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."
-      },
-      "id": "pmc:AdornmentAndCosmetics",
-      "label": {
-        "de": "Schmuck und Kosmetik",
-        "en": "Adornment and cosmetics"
-      },
-      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "The capacity that an attribution ascribes."
-      },
-      "domain": "pm:Attributing",
-      "id": "pm:ascribedCapacity",
-      "label": {
-        "de": "zugeschriebenes Vermögen",
-        "en": "ascribed capacity"
-      },
-      "range": "pm:Conceptualizing",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "A Watcher named in the Ethiopic teaching list as the one who disclosed the knowledge of the clouds."
-      },
-      "id": "pmc:Ezeqeel",
-      "label": {
-        "de": "Ezeqeel",
-        "en": "Ezeqeel"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."
-      },
-      "id": "pm:Conceptualizing",
-      "label": {
-        "de": "Begriffsbildung",
-        "en": "Conceptualizing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."
-      },
-      "id": "pmc:WritingWithInk",
-      "label": {
-        "de": "Schreiben mit Tinte",
-        "en": "Writing with ink"
-      },
-      "source": "1 Enoch 69:9 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
+      "source": "Patañjali, Yogasūtra III.19",
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:PatanjalaYoga"
     },
     {
       "definition": {
@@ -442,34 +325,68 @@
       "withinTradition": "pmt:Enochic"
     },
     {
-      "id": "pmc:AraqielTeachesSignsOfTheEarth",
+      "definition": {
+        "en": "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."
+      },
+      "id": "pmt:Theravada",
       "label": {
-        "de": "Araqiel offenbart die Zeichen der Erde",
-        "en": "Araqiel discloses the signs of the earth"
+        "de": "Theravāda",
+        "en": "Theravāda"
       },
-      "pm:ascribedCapacity": {
-        "id": "pmc:SignsOfTheEarth"
+      "source": "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Associates a process instance with the pronominal reach of its awareness."
       },
-      "pm:ascribedTo": {
-        "id": "pmc:Araqiel"
+      "id": "pm:hasAwarenessSpace",
+      "label": {
+        "en": "has awareness space"
+      },
+      "range": "pm:AwarenessSpace",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "A four-part examination of an inner movement, set out in the image of the money-changer who tests a coin: for the metal, for the stamp, for the lawfulness of its provenance, and for its weight."
+      },
+      "id": "pmc:TestingOfThoughts",
+      "label": {
+        "de": "Die Prüfung der Gedanken",
+        "en": "The examination of thoughts"
+      },
+      "note": {
+        "en": "Ignatius adds the rule that the whole course of a train of thought is to be examined, since a bad end reveals the origin, and that a consolation arriving after the fact is to be examined well before it is believed."
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
+      "pm:falsifiedBy": "A movement fails the test if its metal is false, its stamp is not that of right teaching, its provenance is unlawful, or it weighs light of the fear of God and heavy of human vanity; and it fails if the end of the train of thought is bad, however good its beginning.",
+      "pm:protocolUpdated": "2026-08-28",
+      "pm:tests": {
+        "id": "pmc:DiscernmentOfOrigins"
+      },
+      "source": [
+        "Ignatius of Loyola, Spiritual Exercises 334",
+        "Ignatius of Loyola, Spiritual Exercises 336",
+        "John Cassian, Collationes I.20-22"
+      ],
+      "type": "pm:Testing",
+      "withinTradition": "pmt:ChristianAsceticDiscernment"
     },
     {
       "definition": {
-        "en": "Awareness whose reach is unbounded across all possible subjects."
+        "en": "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."
       },
-      "id": "pm:universalAwareness",
+      "id": "pmc:Vespasian",
       "label": {
-        "de": "Universelles Bewusstsein",
-        "en": "Universal awareness"
+        "de": "Vespasian",
+        "en": "Vespasian"
       },
-      "type": "pm:AwarenessSpace"
+      "source": "Tacitus, Historiae IV.81",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:GraecoRoman"
     },
     {
       "definition": {
@@ -484,78 +401,69 @@
     },
     {
       "definition": {
-        "en": "Declares by which route a claim entered the record. Mandatory on every attribution, so that non-evidence cannot be forgotten."
+        "en": "The least of the five degrees of rapture, described as able to raise the hairs of the body."
       },
-      "id": "pm:attestedBy",
+      "id": "pmc:KhuddikaPiti",
       "label": {
-        "de": "bezeugt durch",
-        "en": "attested by"
+        "de": "Geringe Verzückung",
+        "en": "Minor rapture"
       },
-      "range": "pm:Attesting",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "Associates a MeaningCluster with the individual nodes that constitute it as a bounded subgraph."
+      "note": {
+        "en": "This is the passage that attests piloerection as a recognised concomitant of a meditative state, not as its object."
       },
-      "domain": "pm:MeaningCluster",
-      "id": "pm:hasClusterMember",
-      "label": {
-        "en": "has cluster member"
-      },
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "Knowledge of the metals of the earth and of working them into blades, shields and body armour."
-      },
-      "id": "pmc:Metalworking",
-      "label": {
-        "de": "Metallverarbeitung und Waffenherstellung",
-        "en": "Metalworking and weapon-making"
-      },
-      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
+      "source": "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
       "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
+      "withinTradition": "pmt:Theravada"
     },
     {
-      "definition": {
-        "en": "The number of cases recorded under this protocol so far."
-      },
-      "domain": "pm:Testing",
-      "id": "pm:caseCount",
+      "id": "pmc:SarielTeachesCourseOfTheMoon",
       "label": {
-        "de": "Fallzahl",
-        "en": "case count"
+        "de": "Sariel offenbart den Lauf des Mondes",
+        "en": "Sariel discloses the course of the moon"
       },
-      "range": "xsd:integer",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "definition": {
-        "en": "The gathering and preparation of plant material for pharmacological or operative use."
+      "pm:ascribedCapacity": {
+        "id": "pmc:CourseOfTheMoon"
       },
-      "id": "pmc:RootCutting",
-      "label": {
-        "de": "Wurzelschneiden",
-        "en": "Root-cutting"
+      "pm:ascribedTo": {
+        "id": "pmc:Sariel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
       },
       "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
+      "type": "pm:Attributing",
       "withinTradition": "pmt:Enochic"
     },
     {
-      "definition": {
-        "en": "The binding of persons or events by spoken formula."
-      },
-      "id": "pmc:SpellCasting",
+      "id": "pmc:SamyamaYieldsParakayaPravesa",
       "label": {
-        "de": "Beschwörung",
-        "en": "Spell-casting"
+        "de": "Saṃyama bringt den Eintritt in einen anderen Körper hervor",
+        "en": "Saṃyama yields entry into another body"
       },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:byPractice": {
+        "id": "pmp:Samyama"
+      },
+      "pm:yieldsCapacity": {
+        "id": "pmc:ParakayaPravesa"
+      },
+      "source": "Patañjali, Yogasūtra III.38",
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "definition": {
+        "en": "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."
+      },
+      "id": "pmt:ChristianAsceticDiscernment",
+      "label": {
+        "de": "Christliche Unterscheidung der Geister",
+        "en": "Christian ascetic discernment"
+      },
+      "source": "John Cassian, Collationes I-II",
+      "type": "pm:Tradition"
     },
     {
       "id": "pmc:GadreelTeachesWeaponsOfDeath",
@@ -584,14 +492,47 @@
     },
     {
       "definition": {
-        "en": "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."
+        "en": "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."
       },
-      "id": "pm:thirdPartyAscription",
+      "id": "pmt:TibetanTantric",
       "label": {
-        "de": "Fremdzuschreibung",
-        "en": "Third-party ascription"
+        "de": "Tibetisch-tantrische Überlieferung",
+        "en": "Tibetan tantric tradition"
       },
-      "type": "pm:Attesting"
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Breath or spirit, named as the first of the ten emanations, from which air issues, from air water, and from water fire."
+      },
+      "id": "pmc:Ruach",
+      "label": {
+        "de": "Ruach",
+        "en": "Ruaḥ"
+      },
+      "note": {
+        "en": "The text also has the patriarch stirring the letters with breath, which is the closest the source comes to breath as an operative medium; it remains an act of formation, not a conduction through the body."
+      },
+      "source": [
+        "Sefer Yetzirah 1:9-10",
+        "Sefer Yetzirah 6:7"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SeferYetzirah"
+    },
+    {
+      "definition": {
+        "en": "A Watcher named in the Ethiopic teaching list as the one who disclosed the knowledge of the clouds."
+      },
+      "id": "pmc:Ezeqeel",
+      "label": {
+        "de": "Ezeqeel",
+        "en": "Ezeqeel"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
     },
     {
       "definition": {
@@ -609,156 +550,61 @@
     },
     {
       "definition": {
-        "en": "A concept that participates in the observed correspondence."
+        "en": "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."
       },
-      "domain": "pm:Converging",
-      "id": "pm:convergingConcept",
+      "id": "pm:MeaningCluster",
       "label": {
-        "de": "konvergierender Begriff",
-        "en": "converging concept"
-      },
-      "range": "pm:Conceptualizing",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "A Watcher whose teaching concerns the stars; the two recensions differ on whether it is the constellations or the signs of the stars."
-      },
-      "id": "pmc:Kokabel",
-      "label": {
-        "de": "Kokabel",
-        "en": "Kokabel"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."
-      },
-      "id": "pm:Testing",
-      "label": {
-        "de": "Prüfen",
-        "en": "Testing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."
-      },
-      "id": "pmt:Enochic",
-      "label": {
-        "de": "Henochische Überlieferung",
-        "en": "Enochic tradition"
-      },
-      "source": "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction",
-      "type": "pm:Tradition"
-    },
-    {
-      "definition": {
-        "en": "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."
-      },
-      "id": "pm:AwarenessContext",
-      "label": {
-        "de": "Bewusstseinskontext",
-        "en": "Awareness Context"
-      },
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The undoing of a binding laid by another, held in the text as a distinct art from the laying of it."
-      },
-      "id": "pmc:LoosingOfSpells",
-      "label": {
-        "de": "Lösen von Beschwörungen",
-        "en": "Loosing of spells"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "The act of one form standing for another within awareness."
-      },
-      "id": "pm:Symbolizing",
-      "label": {
-        "de": "Symbolisieren",
-        "en": "Symbolizing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The rate against which observed outcomes are compared, with the population it was taken from."
-      },
-      "domain": "pm:Testing",
-      "id": "pm:baseRate",
-      "label": {
-        "de": "Basisrate",
-        "en": "base rate"
-      },
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "definition": {
-        "en": "The leader of the Watchers who binds the others by oath on Mount Hermon and is named as the teacher of spells and root-cutting."
-      },
-      "id": "pmc:Shemihazah",
-      "label": {
-        "de": "Schemichasa",
-        "en": "Shemihazah"
-      },
-      "skos:altLabel": [
-        {
-          "@language": "en",
-          "@value": "Amezarak"
-        },
-        {
-          "@language": "en",
-          "@value": "Semjaza"
-        }
-      ],
-      "source": "1 Enoch 6:3, 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "A Watcher named in the teaching list as the one who disclosed the undoing of spells."
-      },
-      "id": "pmc:Armaros",
-      "label": {
-        "de": "Armaros",
-        "en": "Armaros"
-      },
-      "skos:altLabel": {
-        "@language": "en",
-        "@value": "Hermani"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:ZiqelTeachesSignsOfShootingStars",
-      "label": {
-        "de": "Ziqel offenbart die Zeichen der Sternschnuppen",
-        "en": "Ziqel discloses the signs of the shooting stars"
+        "de": "Bedeutungs-Cluster",
+        "en": "Meaning Cluster"
       },
       "note": {
-        "en": "Stands in the position the Ethiopic fills with Ezeqeel and the knowledge of the clouds."
+        "en": "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."
+      },
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "Rapture as a bodily felt state, graded in the handbook into five degrees of increasing pervasion."
+      },
+      "id": "pmc:Piti",
+      "label": {
+        "de": "Pīti",
+        "en": "Pīti"
+      },
+      "note": {
+        "en": "The five degrees are khuddikā, khaṇikā, okkantikā, ubbegā and pharaṇā."
+      },
+      "source": "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "A power held to rest coiled at the base of the subtle body and to rise through it when roused."
+      },
+      "id": "pmc:Kundalini",
+      "label": {
+        "de": "Kuṇḍalinī",
+        "en": "Kuṇḍalinī"
+      },
+      "source": "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SaivaSakta"
+    },
+    {
+      "id": "pmc:SarielTeachesSignsOfTheMoon",
+      "label": {
+        "de": "Sariel offenbart die Zeichen des Mondes",
+        "en": "Sariel discloses the signs of the moon"
+      },
+      "note": {
+        "en": "Given under the name Sahriel; stands in the position the Ethiopic fills with the course of the moon."
       },
       "pm:ascribedCapacity": {
-        "id": "pmc:SignsOfShootingStars"
+        "id": "pmc:SignsOfTheMoon"
       },
       "pm:ascribedTo": {
-        "id": "pmc:Ziqel"
+        "id": "pmc:Sariel"
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
@@ -769,112 +615,18 @@
     },
     {
       "definition": {
-        "en": "A practice repeated under a stated procedure that records its failures alongside its successes."
+        "en": "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."
       },
-      "id": "pm:protocolledPractice",
+      "id": "pm:Cautioning",
       "label": {
-        "de": "Protokollierte Praxis",
-        "en": "Protocolled practice"
+        "de": "Warnen",
+        "en": "Cautioning"
       },
-      "type": "pm:Attesting"
-    },
-    {
-      "definition": {
-        "en": "A Watcher named as the one who disclosed the signs of the sun."
+      "note": {
+        "en": "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."
       },
-      "id": "pmc:Shamsiel",
-      "label": {
-        "de": "Schamsiel",
-        "en": "Shamsiel"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "Ordinary outward-turned awareness of gross objects."
-      },
-      "id": "pm:WakingState",
-      "label": {
-        "de": "Wachzustand (Jāgrat)",
-        "en": "Waking state (Jāgrat)"
-      },
-      "source": "Māṇḍūkya Upaniṣad, verse 3",
-      "type": "pm:AwarenessContext"
-    },
-    {
-      "id": "pmc:KokabelTeachesConstellations",
-      "label": {
-        "de": "Kokabel offenbart die Sternbilder",
-        "en": "Kokabel discloses the constellations"
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:Constellations"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Kokabel"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:ShemihazahTeachesSpellCasting",
-      "label": {
-        "de": "Schemichasa offenbart die Beschwörung",
-        "en": "Shemihazah discloses spell-casting"
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:SpellCasting"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Shemihazah"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "A documented route of historical contact between the traditions in which the correspondence appears. Its presence downgrades the correspondence from convergence to reception."
-      },
-      "domain": "pm:Converging",
-      "id": "pm:transmissionPath",
-      "label": {
-        "de": "Übertragungsweg",
-        "en": "transmission path"
-      },
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "definition": {
-        "en": "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."
-      },
-      "id": "pm:Process",
-      "label": {
-        "de": "Prozess",
-        "en": "Process"
-      },
+      "subClassOf": "pm:Process",
       "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The claim this protocol attempts to fail."
-      },
-      "domain": "pm:Testing",
-      "id": "pm:tests",
-      "label": {
-        "de": "prüft",
-        "en": "tests"
-      },
-      "type": "owl:ObjectProperty"
     },
     {
       "id": "pmc:ShamsielTeachesSignsOfTheSun",
@@ -909,87 +661,73 @@
     },
     {
       "definition": {
-        "en": "A figure named in the Book of Parables as the one who led Eve astray and disclosed the weapons of death."
+        "en": "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."
       },
-      "id": "pmc:Gadreel",
+      "id": "pm:Converging",
       "label": {
-        "de": "Gadreel",
-        "en": "Gadreel"
-      },
-      "source": "1 Enoch 69:6 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:PenemueTeachesBitterAndSweet",
-      "label": {
-        "de": "Penemue offenbart bitter und süß",
-        "en": "Penemue discloses bitter and sweet"
+        "de": "Konvergieren",
+        "en": "Converging"
       },
       "note": {
-        "en": "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."
+        "en": "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."
       },
-      "pm:ascribedCapacity": {
-        "id": "pmc:DiscernmentOfBitterAndSweet"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Penemue"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
-      },
-      "source": [
-        "1 Enoch 69:8 (Ethiopic; Charles 1912)",
-        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)"
-      ],
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."
-      },
-      "id": "pm:MeaningCluster",
-      "label": {
-        "de": "Bedeutungs-Cluster",
-        "en": "Meaning Cluster"
-      },
-      "note": {
-        "en": "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."
-      },
+      "subClassOf": "pm:Process",
       "type": "owl:Class"
     },
     {
-      "id": "pmc:SarielTeachesCourseOfTheMoon",
+      "definition": {
+        "en": "Inward-turned awareness of subtle objects generated by the mind."
+      },
+      "id": "pm:DreamingState",
       "label": {
-        "de": "Sariel offenbart den Lauf des Mondes",
-        "en": "Sariel discloses the course of the moon"
+        "de": "Traumzustand (Svapna)",
+        "en": "Dreaming state (Svapna)"
+      },
+      "source": "Māṇḍūkya Upaniṣad, verse 4",
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "First-person singular awareness bounded to a single subject."
+      },
+      "id": "pm:individualAwareness",
+      "label": {
+        "de": "Individuelles Bewusstsein",
+        "en": "Individual awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "id": "pmc:AzazelTeachesMetalworking",
+      "label": {
+        "de": "Azazel offenbart Metallverarbeitung",
+        "en": "Azazel discloses metalworking"
       },
       "pm:ascribedCapacity": {
-        "id": "pmc:CourseOfTheMoon"
+        "id": "pmc:Metalworking"
       },
       "pm:ascribedTo": {
-        "id": "pmc:Sariel"
+        "id": "pmc:Azazel"
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
       "type": "pm:Attributing",
       "withinTradition": "pmt:Enochic"
     },
     {
       "definition": {
-        "en": "The reading of import from the stars, given in place of the constellations in the Aramaic-Greek witness."
+        "en": "Perception of what is distant, hidden or obstructed."
       },
-      "id": "pmc:SignsOfTheStars",
+      "id": "pmc:DivyaCaksus",
       "label": {
-        "de": "Zeichen der Sterne",
-        "en": "Signs of the stars"
+        "de": "Göttliches Auge",
+        "en": "Divine eye"
       },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "source": "Patañjali, Yogasūtra III.26",
       "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
+      "withinTradition": "pmt:PatanjalaYoga"
     },
     {
       "definition": {
@@ -1004,126 +742,48 @@
     },
     {
       "definition": {
-        "en": "The reading of import from meteors, given in place of the knowledge of the clouds in the Aramaic-Greek witness."
+        "en": "The discourse distinguishes three marvels, of psychic power, of mind-reading and of instruction, and holds only instruction to be reliable; the display of power for the sake of persuasion is refused as something to be ashamed of."
       },
-      "id": "pmc:SignsOfShootingStars",
+      "id": "pmc:DisplayOfPowersRefused",
       "label": {
-        "de": "Zeichen der Sternschnuppen",
-        "en": "Signs of the shooting stars"
-      },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "First-person inclusive awareness bounded to an identified group."
-      },
-      "id": "pm:collectiveAwareness",
-      "label": {
-        "de": "Kollektives Bewusstsein",
-        "en": "Collective awareness"
-      },
-      "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "The reading of import from the moon, given in place of its course in the Aramaic-Greek witness."
-      },
-      "id": "pmc:SignsOfTheMoon",
-      "label": {
-        "de": "Zeichen des Mondes",
-        "en": "Signs of the moon"
-      },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "The bearer to whom the capacity is ascribed: a named figure, a class of beings, humanity before a stated event."
-      },
-      "domain": "pm:Attributing",
-      "id": "pm:ascribedTo",
-      "label": {
-        "de": "zugeschrieben an",
-        "en": "ascribed to"
-      },
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "The date on which the count was last carried forward. A protocol without this date claims a scrutiny it does not document."
-      },
-      "domain": "pm:Testing",
-      "id": "pm:protocolUpdated",
-      "label": {
-        "de": "Protokollstand",
-        "en": "protocol updated"
-      },
-      "range": "xsd:date",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "definition": {
-        "en": "The named compiler who performed the ordering act. Without it, an order made in the present is indistinguishable from an order found in the source."
-      },
-      "domain": "pm:Systematizing",
-      "id": "pm:compiledBy",
-      "label": {
-        "de": "geordnet von",
-        "en": "compiled by"
-      },
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "definition": {
-        "en": "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."
-      },
-      "id": "pm:Attesting",
-      "label": {
-        "de": "Bezeugen",
-        "en": "Attesting"
+        "de": "Zurschaustellung der Kräfte verweigert",
+        "en": "Display of powers refused"
       },
       "note": {
-        "en": "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "id": "pmc:PenemueTeachesWriting",
-      "label": {
-        "de": "Penemue offenbart das Schreiben mit Tinte",
-        "en": "Penemue discloses writing with ink"
-      },
-      "note": {
-        "en": "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:WritingWithInk"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Penemue"
+        "en": "The Vinaya rule against displaying superhuman states to laypeople stands alongside it."
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": [
-        "1 Enoch 69:9 (Ethiopic; Charles 1912)",
-        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)"
+      "pm:cautionsAbout": [
+        {
+          "id": "pmc:Cetopariyanana"
+        },
+        {
+          "id": "pmc:Dibbacakkhu"
+        },
+        {
+          "id": "pmc:Dibbasota"
+        },
+        {
+          "id": "pmc:Manomayakaya"
+        }
       ],
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
+      "source": [
+        "Dīgha Nikāya 11 (Kevaṭṭa Sutta)",
+        "Vinaya, Cūḷavagga V.8"
+      ],
+      "type": "pm:Cautioning",
+      "withinTradition": "pmt:Theravada"
     },
     {
       "definition": {
-        "en": "The reading of import from terrestrial phenomena."
+        "en": "The gathering and preparation of plant material for pharmacological or operative use."
       },
-      "id": "pmc:SignsOfTheEarth",
+      "id": "pmc:RootCutting",
       "label": {
-        "de": "Zeichen der Erde",
-        "en": "Signs of the earth"
+        "de": "Wurzelschneiden",
+        "en": "Root-cutting"
       },
       "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
       "type": "pm:Conceptualizing",
@@ -1131,26 +791,80 @@
     },
     {
       "definition": {
-        "en": "Associates a process instance with the tradition in which it is situated."
+        "en": "The initiatory act by which the descent of power is conferred."
       },
-      "id": "pm:withinTradition",
+      "id": "pmp:SaktipataTransmission",
       "label": {
-        "en": "within tradition"
+        "de": "Übertragung der Herabkunft der Kraft",
+        "en": "Conferring the descent of power"
       },
-      "range": "pm:Tradition",
-      "type": "owl:ObjectProperty"
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": [
+        "Abhinavagupta, Tantrasāra XI",
+        "Abhinavagupta, Tantrāloka XIII"
+      ],
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:SaivaSakta"
     },
     {
       "definition": {
-        "en": "The awareness context in which a statement is asserted."
+        "en": "The reading of import from lightning, given in place of astrology in the Aramaic-Greek witness."
       },
-      "domain": "rdf:Statement",
-      "id": "pm:assertedIn",
+      "id": "pmc:SignsOfLightning",
       "label": {
-        "en": "asserted in"
+        "de": "Zeichen der Blitze",
+        "en": "Signs of the lightning flashes"
       },
-      "range": "pm:AwarenessContext",
-      "type": "owl:ObjectProperty"
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A Watcher whose teaching concerns the moon; the Ethiopic gives its course, the Aramaic-Greek witness gives its signs under the name Sahriel."
+      },
+      "id": "pmc:Sariel",
+      "label": {
+        "de": "Sariel",
+        "en": "Sariel"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The channels of the subtle body through which the winds are held to move; Tsongkhapa's presentation counts one hundred and twenty principal ones."
+      },
+      "id": "pmc:Rtsa",
+      "label": {
+        "de": "Kanäle",
+        "en": "Channels"
+      },
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:TibetanTantric"
+    },
+    {
+      "id": "pmc:KokabelTeachesConstellations",
+      "label": {
+        "de": "Kokabel offenbart die Sternbilder",
+        "en": "Kokabel discloses the constellations"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:Constellations"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Kokabel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
     },
     {
       "id": "pmc:KasdejaTeachesStrikingOfSpirits",
@@ -1179,148 +893,99 @@
     },
     {
       "definition": {
-        "en": "The disclosure of the distinction of bitter from sweet, given in the text alongside the secrets of wisdom."
+        "en": "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."
       },
-      "id": "pmc:DiscernmentOfBitterAndSweet",
+      "id": "pmc:AdornmentAndCosmetics",
       "label": {
-        "de": "Unterscheidung von bitter und süß",
-        "en": "Discernment of bitter and sweet"
-      },
-      "source": "1 Enoch 69:8 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "A figure named in the Book of Parables as the one who disclosed the distinction of bitter and sweet and the art of writing."
-      },
-      "id": "pmc:Penemue",
-      "label": {
-        "de": "Penemue",
-        "en": "Penemue"
-      },
-      "source": "1 Enoch 69:8 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:AzazelTeachesAdornment",
-      "label": {
-        "de": "Azazel offenbart Schmuck und Kosmetik",
-        "en": "Azazel discloses adornment and cosmetics"
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:AdornmentAndCosmetics"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Azazel"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
+        "de": "Schmuck und Kosmetik",
+        "en": "Adornment and cosmetics"
       },
       "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."
-      },
-      "id": "pmc:CourseOfTheMoon",
-      "label": {
-        "de": "Der Lauf des Mondes",
-        "en": "The course of the moon"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
       "type": "pm:Conceptualizing",
       "withinTradition": "pmt:Enochic"
     },
     {
       "definition": {
-        "en": "The stated condition under which the claim counts as refuted."
+        "en": "The Stoic doctrine of a fiery breath that pervades matter and holds it together."
+      },
+      "id": "pmt:StoicPhysics",
+      "label": {
+        "de": "Stoische Physik",
+        "en": "Stoic physics"
+      },
+      "source": "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8",
+      "type": "pm:Tradition"
+    },
+    {
+      "dcterms:date": "1927",
+      "definition": {
+        "en": "The assignment of a fixed set of seven centres to spectral colours and to psychological qualities such as will, expression and security. An ordering imposed in the twentieth century on material that did not carry it."
+      },
+      "id": "pmc:SevenCentreQualityMapping",
+      "label": {
+        "de": "Die Zuordnung von sieben Zentren zu Eigenschaften",
+        "en": "The seven-centre quality mapping"
+      },
+      "note": {
+        "en": "Colour scheme in Leadbeater 1927, rainbow spectrum in Hills 1977, on the textual basis made available by Avalon's 1919 translation of the Ṣaṭcakranirūpaṇa. Recorded here so that the mapping is available in the graph as what it is, and cannot be mistaken for the tantric material it was built on."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:compiledBy": "C. W. Leadbeater, extended by Christopher Hills",
+      "pm:ordersClaim": {
+        "id": "pmc:Cakra"
+      },
+      "source": [
+        "A. Avalon, The Serpent Power (1919)",
+        "C. W. Leadbeater, The Chakras (1927)",
+        "Christopher Hills, Nuclear Evolution (1977)"
+      ],
+      "type": "pm:Systematizing"
+    },
+    {
+      "definition": {
+        "en": "Knowledge of the state of another consciousness."
+      },
+      "id": "pmc:Cetopariyanana",
+      "label": {
+        "de": "Kenntnis fremden Bewusstseins",
+        "en": "Knowledge encompassing another mind"
+      },
+      "source": "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "The claim this protocol attempts to fail."
       },
       "domain": "pm:Testing",
-      "id": "pm:falsifiedBy",
+      "id": "pm:tests",
       "label": {
-        "de": "widerlegt durch",
-        "en": "falsified by"
+        "de": "prüft",
+        "en": "tests"
       },
-      "type": "owl:DatatypeProperty"
+      "type": "owl:ObjectProperty"
     },
     {
-      "definition": {
-        "en": "The reading of import from lightning, given in place of astrology in the Aramaic-Greek witness."
-      },
-      "id": "pmc:SignsOfLightning",
+      "id": "pmc:SamyamaYieldsDivyaSrotra",
       "label": {
-        "de": "Zeichen der Blitze",
-        "en": "Signs of the lightning flashes"
-      },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
-      "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:BaraqelTeachesAstrology",
-      "label": {
-        "de": "Baraqel offenbart die Astrologie",
-        "en": "Baraqel discloses astrology"
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:Astrology"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Baraqel"
+        "de": "Saṃyama bringt das göttliche Ohr hervor",
+        "en": "Saṃyama yields the divine ear"
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "id": "pmc:ArmarosTeachesLoosingOfSpells",
-      "label": {
-        "de": "Armaros offenbart das Lösen von Beschwörungen",
-        "en": "Armaros discloses the loosing of spells"
+      "pm:byPractice": {
+        "id": "pmp:Samyama"
       },
-      "pm:ascribedCapacity": {
-        "id": "pmc:LoosingOfSpells"
+      "pm:yieldsCapacity": {
+        "id": "pmc:DivyaSrotra"
       },
-      "pm:ascribedTo": {
-        "id": "pmc:Armaros"
-      },
-      "pm:attestedBy": {
-        "id": "pm:textualAttestation"
-      },
-      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
-    },
-    {
-      "definition": {
-        "en": "Inward-turned awareness of subtle objects generated by the mind."
-      },
-      "id": "pm:DreamingState",
-      "label": {
-        "de": "Traumzustand (Svapna)",
-        "en": "Dreaming state (Svapna)"
-      },
-      "source": "Māṇḍūkya Upaniṣad, verse 4",
-      "type": "pm:AwarenessContext"
-    },
-    {
-      "definition": {
-        "en": "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."
-      },
-      "id": "pm:Systematizing",
-      "label": {
-        "de": "Systematisieren",
-        "en": "Systematizing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
+      "source": "Patañjali, Yogasūtra III.41",
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:PatanjalaYoga"
     },
     {
       "id": "pmc:BaraqelTeachesSignsOfLightning",
@@ -1346,41 +1011,149 @@
     },
     {
       "definition": {
-        "en": "Philological and historical mode of assertion: claims are reports about what a tradition holds, not claims made from within it."
+        "en": "A capacity ascribed to a named ruler, in an account whose author remarks that those who were present still tell it although there is now no reward for the lie."
       },
-      "id": "pm:ScholarlyState",
+      "id": "pmc:VespasianHealing",
       "label": {
-        "de": "Wissenschaftlicher Zustand",
-        "en": "Scholarly state"
+        "de": "Heilung durch Berührung, Vespasian zugeschrieben",
+        "en": "Healing by touch ascribed to Vespasian"
       },
       "note": {
-        "en": "Default context for tradition files in Phase 1."
+        "en": "The remark about eyewitnesses is part of the ascription, not an endorsement of it. It records how the historian wanted the claim received."
       },
-      "type": "pm:AwarenessContext"
+      "pm:ascribedCapacity": {
+        "id": "pmc:HealingByTouch"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Vespasian"
+      },
+      "pm:attestedBy": {
+        "id": "pm:thirdPartyAscription"
+      },
+      "source": [
+        "Suetonius, Divus Vespasianus 7",
+        "Tacitus, Historiae IV.81"
+      ],
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:GraecoRoman"
     },
     {
       "definition": {
-        "en": "First-person singular awareness bounded to a single subject."
+        "en": "A mixture of air and fire that pervades bodies and, by its tension, holds them in cohesion; a principle of the world rather than a capacity of a practitioner."
       },
-      "id": "pm:individualAwareness",
+      "id": "pmc:Pneuma",
       "label": {
-        "de": "Individuelles Bewusstsein",
-        "en": "Individual awareness"
+        "de": "Pneuma",
+        "en": "Pneuma"
       },
-      "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."
+      "note": {
+        "en": "The associated doctrines are that of tension and that of total mixture, by which two bodies occupy the same place throughout."
       },
-      "id": "pmc:Kasdeja",
-      "label": {
-        "de": "Kasdeja",
-        "en": "Kasdeja"
-      },
-      "source": "1 Enoch 69:12 (Ethiopic; Charles 1912)",
+      "source": "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8",
       "type": "pm:Conceptualizing",
-      "withinTradition": "pmt:Enochic"
+      "withinTradition": "pmt:StoicPhysics"
+    },
+    {
+      "definition": {
+        "en": "An experiential account given in the first person by the one who had it, recorded once."
+      },
+      "id": "pm:firstPersonReport",
+      "label": {
+        "de": "Erfahrungsbericht",
+        "en": "First-person report"
+      },
+      "type": "pm:Attesting"
+    },
+    {
+      "definition": {
+        "en": "The rate against which observed outcomes are compared, with the population it was taken from."
+      },
+      "domain": "pm:Testing",
+      "id": "pm:baseRate",
+      "label": {
+        "de": "Basisrate",
+        "en": "base rate"
+      },
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "definition": {
+        "en": "The number of cases recorded under this protocol so far."
+      },
+      "domain": "pm:Testing",
+      "id": "pm:caseCount",
+      "label": {
+        "de": "Fallzahl",
+        "en": "case count"
+      },
+      "range": "xsd:integer",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "definition": {
+        "en": "The teaching that discretion is the mother of the virtues, directed against the practitioner who is undone not by laxity but by an excess undertaken in good faith."
+      },
+      "id": "pmc:ExcessiveAsceticismCaution",
+      "label": {
+        "de": "Unterscheidung gegen das Übermaß",
+        "en": "Discretion against excess"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:cautionsAbout": {
+        "id": "pmc:DiscernmentOfOrigins"
+      },
+      "source": "John Cassian, Collationes II (De discretione)",
+      "type": "pm:Cautioning",
+      "withinTradition": "pmt:ChristianAsceticDiscernment"
+    },
+    {
+      "definition": {
+        "en": "The date on which the count was last carried forward. A protocol without this date claims a scrutiny it does not document."
+      },
+      "domain": "pm:Testing",
+      "id": "pm:protocolUpdated",
+      "label": {
+        "de": "Protokollstand",
+        "en": "protocol updated"
+      },
+      "range": "xsd:date",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "definition": {
+        "en": "The transmission of the Yogasūtra of Patañjali and its commentarial literature."
+      },
+      "id": "pmt:PatanjalaYoga",
+      "label": {
+        "de": "Pātañjala-Yoga",
+        "en": "Pātañjala Yoga"
+      },
+      "source": "Patañjali, Yogasūtra",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Ten states arising in practice, among them luminosity, rapture, tranquillity, pleasure and resolve, which are not defilements in themselves but become obstacles when taken as proof of attainment."
+      },
+      "id": "pmc:ImperfectionsOfInsight",
+      "label": {
+        "de": "Die Unvollkommenheiten der Einsicht",
+        "en": "The imperfections of insight"
+      },
+      "note": {
+        "en": "The handbook illustrates the error with the monk who held himself awakened for sixty years. This is the tradition's own answer to the question of how a practitioner mistakes a state for a result."
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:cautionsAbout": {
+        "id": "pmc:Piti"
+      },
+      "source": "Buddhaghosa, Visuddhimagga XX.105ff. (trans. Ñāṇamoli 1956)",
+      "type": "pm:Cautioning",
+      "withinTradition": "pmt:Theravada"
     },
     {
       "definition": {
@@ -1395,81 +1168,177 @@
     },
     {
       "definition": {
-        "en": "The act of placing one concept in relation to another."
+        "en": "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."
       },
-      "id": "pm:Relating",
+      "id": "pmt:Enochic",
       "label": {
-        "de": "Beziehen",
-        "en": "Relating"
+        "de": "Henochische Überlieferung",
+        "en": "Enochic tradition"
       },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
+      "source": "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction",
+      "type": "pm:Tradition"
     },
     {
-      "id": "pmc:AzazelTeachesMetalworking",
+      "definition": {
+        "en": "A negative finding, held as a node so that it is not lost: the old traditions test a claimed movement by its origin and its fruits, and none of those examined here tests a claimed capacity by counting hits against the rate obtainable by guessing."
+      },
+      "id": "pmc:NoQuantitativeVerification",
       "label": {
-        "de": "Azazel offenbart Metallverarbeitung",
-        "en": "Azazel discloses metalworking"
+        "de": "Keine Zählung gegen den Zufall in den alten Quellen",
+        "en": "No count against chance in the old sources"
+      },
+      "note": {
+        "en": "Any protocol that counts outcomes against a base rate is a modern addition and is to be recorded as one, not as the recovery of an ancient method."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:cautionsAbout": {
+        "id": "pmc:TestingOfThoughts"
+      },
+      "source": [
+        "Ignatius of Loyola, Spiritual Exercises 313-336",
+        "John Cassian, Collationes I.20-22"
+      ],
+      "type": "pm:Cautioning"
+    },
+    {
+      "definition": {
+        "en": "First-person exclusive awareness shared between two subjects (I and you)."
+      },
+      "id": "pm:dyadicAwareness",
+      "label": {
+        "de": "Dyadisches Bewusstsein",
+        "en": "Dyadic awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "id": "pmc:ZiqelTeachesSignsOfShootingStars",
+      "label": {
+        "de": "Ziqel offenbart die Zeichen der Sternschnuppen",
+        "en": "Ziqel discloses the signs of the shooting stars"
+      },
+      "note": {
+        "en": "Stands in the position the Ethiopic fills with Ezeqeel and the knowledge of the clouds."
       },
       "pm:ascribedCapacity": {
-        "id": "pmc:Metalworking"
+        "id": "pmc:SignsOfShootingStars"
       },
       "pm:ascribedTo": {
-        "id": "pmc:Azazel"
+        "id": "pmc:Ziqel"
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
       "type": "pm:Attributing",
       "withinTradition": "pmt:Enochic"
     },
     {
       "definition": {
-        "en": "A Watcher named in the Aramaic-Greek teaching list as the one who disclosed the signs of the shooting stars. The position he occupies is held by Ezeqeel in the Ethiopic; no identification of the two is asserted here."
+        "en": "A figure named in the Book of Parables as the one who led Eve astray and disclosed the weapons of death."
       },
-      "id": "pmc:Ziqel",
+      "id": "pmc:Gadreel",
       "label": {
-        "de": "Ziqel",
-        "en": "Ziqel"
+        "de": "Gadreel",
+        "en": "Gadreel"
+      },
+      "source": "1 Enoch 69:6 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A figure named in the Book of Parables as the one who disclosed the distinction of bitter and sweet and the art of writing."
+      },
+      "id": "pmc:Penemue",
+      "label": {
+        "de": "Penemue",
+        "en": "Penemue"
+      },
+      "source": "1 Enoch 69:8 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The reading of import from the moon, given in place of its course in the Aramaic-Greek witness."
+      },
+      "id": "pmc:SignsOfTheMoon",
+      "label": {
+        "de": "Zeichen des Mondes",
+        "en": "Signs of the moon"
       },
       "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
       "type": "pm:Conceptualizing",
       "withinTradition": "pmt:Enochic"
     },
     {
-      "id": "pmc:SarielTeachesSignsOfTheMoon",
+      "definition": {
+        "en": "The warning that an experience of luminosity or consolation may be counterfeit, and that the counterfeit is recognised by its circumstances rather than by its brightness."
+      },
+      "id": "pmc:AngelOfLightDeception",
       "label": {
-        "de": "Sariel offenbart die Zeichen des Mondes",
-        "en": "Sariel discloses the signs of the moon"
+        "de": "Die Täuschung, die als Licht erscheint",
+        "en": "The deception that appears as light"
       },
       "note": {
-        "en": "Given under the name Sahriel; stands in the position the Ethiopic fills with the course of the moon."
-      },
-      "pm:ascribedCapacity": {
-        "id": "pmc:SignsOfTheMoon"
-      },
-      "pm:ascribedTo": {
-        "id": "pmc:Sariel"
+        "en": "Diadochus distinguishes the true consolation, which comes with the body awake and in warm love, from the false, which comes in a light half-sleep."
       },
       "pm:attestedBy": {
         "id": "pm:textualAttestation"
       },
-      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
-      "type": "pm:Attributing",
-      "withinTradition": "pmt:Enochic"
+      "pm:cautionsAbout": {
+        "id": "pmc:DiscernmentOfOrigins"
+      },
+      "source": [
+        "Diadochus of Photice, Gnostic Chapters 40",
+        "Evagrius Ponticus, On Thoughts 39"
+      ],
+      "type": "pm:Cautioning",
+      "withinTradition": "pmt:ChristianAsceticDiscernment"
     },
     {
       "definition": {
-        "en": "An operative procedure enacted within a tradition."
+        "en": "Heat held to be generated within the body by deliberate practice rather than received from outside it."
       },
-      "id": "pm:Practicing",
+      "id": "pmc:InnerHeat",
       "label": {
-        "de": "Praktizieren",
-        "en": "Practicing"
+        "de": "Innere Hitze",
+        "en": "Inner heat"
       },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:TibetanTantric"
+    },
+    {
+      "definition": {
+        "en": "The named compiler who performed the ordering act. Without it, an order made in the present is indistinguishable from an order found in the source."
+      },
+      "domain": "pm:Systematizing",
+      "id": "pm:compiledBy",
+      "label": {
+        "de": "geordnet von",
+        "en": "compiled by"
+      },
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "definition": {
+        "en": "The deliberate raising and sustaining of a chosen affective state as a meditation subject in its own right."
+      },
+      "id": "pmp:BrahmaviharaBhavana",
+      "label": {
+        "de": "Kultivierung der göttlichen Verweilungen",
+        "en": "Cultivation of the divine abidings"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "Buddhaghosa, Visuddhimagga IX (trans. Ñāṇamoli 1956)",
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:Theravada"
     },
     {
       "id": "pmc:EzeqeelTeachesKnowledgeOfClouds",
@@ -1492,28 +1361,395 @@
     },
     {
       "definition": {
-        "en": "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."
+        "en": "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."
       },
-      "id": "pm:Attributing",
+      "id": "pmt:SanskritDramaturgy",
       "label": {
-        "de": "Zuschreiben",
-        "en": "Attributing"
+        "de": "Sanskritische Dramaturgie",
+        "en": "Sanskrit dramaturgy"
+      },
+      "source": "Nāṭyaśāstra VII",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."
+      },
+      "id": "pmc:SoulJourney",
+      "label": {
+        "de": "Seelenreise ohne den Körper",
+        "en": "Journey of the soul apart from the body"
+      },
+      "source": [
+        "Herodotus, Histories IV.13-16",
+        "Pliny, Naturalis Historia VII.174"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:GraecoRoman"
+    },
+    {
+      "definition": {
+        "en": "The fourth of the five degrees of rapture, described as strong enough to lift the body."
+      },
+      "id": "pmc:UbbegaPiti",
+      "label": {
+        "de": "Erhebungsverzückung",
+        "en": "Uplifting rapture"
+      },
+      "source": "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "The emergence of a form out of a prior undifferentiated ground."
+      },
+      "id": "pm:Manifesting",
+      "label": {
+        "de": "Manifestieren",
+        "en": "Manifesting"
       },
       "subClassOf": "pm:Process",
       "type": "owl:Class"
     },
     {
       "definition": {
-        "en": "The reading of import from the sun."
+        "en": "The vital breath or energy held to circulate in the body and to be susceptible of deliberate direction."
       },
-      "id": "pmc:SignsOfTheSun",
+      "id": "pmc:Qi",
       "label": {
-        "de": "Zeichen der Sonne",
-        "en": "Signs of the sun"
+        "de": "Qi",
+        "en": "Qi"
+      },
+      "source": "Xingqi yupei ming (jade inscription on circulating the qi)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Daoist"
+    },
+    {
+      "definition": {
+        "en": "A capacity ascribed to a figure who is not available to report it, in a historian's account of what was told of him."
+      },
+      "id": "pmc:AristeasJourney",
+      "label": {
+        "de": "Die Seelenreise, Aristeas zugeschrieben",
+        "en": "The soul-journey ascribed to Aristeas"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:SoulJourney"
+      },
+      "pm:attestedBy": {
+        "id": "pm:thirdPartyAscription"
+      },
+      "source": [
+        "Herodotus, Histories IV.13-16",
+        "Pliny, Naturalis Historia VII.174"
+      ],
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:GraecoRoman"
+    },
+    {
+      "definition": {
+        "en": "The act of placing one concept in relation to another."
+      },
+      "id": "pm:Relating",
+      "label": {
+        "de": "Beziehen",
+        "en": "Relating"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "Sight beyond the range of the physical eye."
+      },
+      "id": "pmc:Dibbacakkhu",
+      "label": {
+        "de": "Göttliches Auge",
+        "en": "Divine eye"
+      },
+      "source": "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "A practice repeated under a stated procedure that records its failures alongside its successes."
+      },
+      "id": "pm:protocolledPractice",
+      "label": {
+        "de": "Protokollierte Praxis",
+        "en": "Protocolled practice"
+      },
+      "type": "pm:Attesting"
+    },
+    {
+      "definition": {
+        "en": "The transmission of the Book of Formation and its commentaries, in which the world is formed through letters, number and breath."
+      },
+      "id": "pmt:SeferYetzirah",
+      "label": {
+        "de": "Sefer Jetzira",
+        "en": "Sefer Yetzirah"
+      },
+      "source": "Sefer Yetzirah 1:9-10",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Awareness whose reach is unbounded across all possible subjects."
+      },
+      "id": "pm:universalAwareness",
+      "label": {
+        "de": "Universelles Bewusstsein",
+        "en": "Universal awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "definition": {
+        "en": "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."
+      },
+      "id": "pmt:GraecoRoman",
+      "label": {
+        "de": "Griechisch-römisches Zeugnis",
+        "en": "Graeco-Roman testimony"
+      },
+      "source": "Herodotus, Histories IV.13-16",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "A claim that this ordering act groups. The claims keep their own attestation; only the grouping belongs to the compiler."
+      },
+      "domain": "pm:Systematizing",
+      "id": "pm:ordersClaim",
+      "label": {
+        "de": "ordnet Behauptung",
+        "en": "orders claim"
+      },
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "pmc:ShemihazahTeachesSpellCasting",
+      "label": {
+        "de": "Schemichasa offenbart die Beschwörung",
+        "en": "Shemihazah discloses spell-casting"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:SpellCasting"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Shemihazah"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
       },
       "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
-      "type": "pm:Conceptualizing",
+      "type": "pm:Attributing",
       "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The correspondence between the Indian channel-and-heat material and its Tibetan form, held as a node in order to be counted out: the route is documented, so the agreement is reception and carries no weight as evidence of an independently arrived-at structure."
+      },
+      "id": "pmc:IndoTibetanReception",
+      "label": {
+        "de": "Indo-tibetische Rezeption, keine Konvergenz",
+        "en": "Indo-Tibetan reception, not convergence"
+      },
+      "note": {
+        "en": "Recorded because a graph that only holds findings cannot show its own exclusions. Any later count of independent attestations must skip this pair."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:convergingConcept": [
+        {
+          "id": "pmc:InnerHeat"
+        },
+        {
+          "id": "pmc:Kundalini"
+        },
+        {
+          "id": "pmc:Rtsa"
+        }
+      ],
+      "pm:transmissionPath": "The six yogas reach Tibet from the Indian mahāsiddha Nāropa through Marpa the translator; the transmission is named in the Tibetan sources themselves.",
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Converging"
+    },
+    {
+      "definition": {
+        "en": "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."
+      },
+      "id": "pm:AwarenessContext",
+      "label": {
+        "de": "Bewusstseinskontext",
+        "en": "Awareness Context"
+      },
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The bearer to whom the capacity is ascribed: a named figure, a class of beings, humanity before a stated event."
+      },
+      "domain": "pm:Attributing",
+      "id": "pm:ascribedTo",
+      "label": {
+        "de": "zugeschrieben an",
+        "en": "ascribed to"
+      },
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "Ordinary outward-turned awareness of gross objects."
+      },
+      "id": "pm:WakingState",
+      "label": {
+        "de": "Wachzustand (Jāgrat)",
+        "en": "Waking state (Jāgrat)"
+      },
+      "source": "Māṇḍūkya Upaniṣad, verse 3",
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "Operative consciousness in which an assertion is made from direct insight rather than from historical reconstruction."
+      },
+      "id": "pm:GnosticState",
+      "label": {
+        "de": "Gnostischer Zustand",
+        "en": "Gnostic state"
+      },
+      "note": {
+        "en": "Use this context when a triple expresses a claim from within a tradition's first-person perspective."
+      },
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "Declares by which route a claim entered the record. Mandatory on every attribution, so that non-evidence cannot be forgotten."
+      },
+      "id": "pm:attestedBy",
+      "label": {
+        "de": "bezeugt durch",
+        "en": "attested by"
+      },
+      "range": "pm:Attesting",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The examination of an inner movement for its origin, distinguished threefold as angelic, human or demonic."
+      },
+      "id": "pmc:DiscernmentOfOrigins",
+      "label": {
+        "de": "Unterscheidung der Herkunft",
+        "en": "Discernment of origins"
+      },
+      "source": [
+        "Evagrius Ponticus, On Thoughts 8",
+        "Evagrius Ponticus, Praktikos 80"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:ChristianAsceticDiscernment"
+    },
+    {
+      "definition": {
+        "en": "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."
+      },
+      "id": "pm:Testing",
+      "label": {
+        "de": "Prüfen",
+        "en": "Testing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "A light held to be uncreated, and held to shine through the whole person, body as well as soul; the defence is explicitly that the body participates and is not merely the site of an event in the soul."
+      },
+      "id": "pmc:UncreatedLight",
+      "label": {
+        "de": "Ungeschaffenes Licht",
+        "en": "Uncreated light"
+      },
+      "note": {
+        "en": "This is a claim about what shines through the practitioner, not about an emanation the practitioner produces or directs."
+      },
+      "source": "Gregory Palamas, Triads in Defence of the Holy Hesychasts (trans. Gendle 1983)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Hesychasm"
+    },
+    {
+      "id": "pmc:TummoYieldsInnerHeat",
+      "label": {
+        "de": "Tummo bringt innere Hitze hervor",
+        "en": "Tummo yields inner heat"
+      },
+      "note": {
+        "en": "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:byPractice": {
+        "id": "pmp:Tummo"
+      },
+      "pm:yieldsCapacity": {
+        "id": "pmc:InnerHeat"
+      },
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:TibetanTantric"
+    },
+    {
+      "definition": {
+        "en": "The transfer of power from one who has it to one who does not, graded in the Kashmirian exegesis into nine degrees."
+      },
+      "id": "pmc:Saktipata",
+      "label": {
+        "de": "Herabkunft der Kraft",
+        "en": "Descent of power"
+      },
+      "note": {
+        "en": "The sources give transfer by glance, by touch and by word. The specifically manual modality of the modern draft is not attested here."
+      },
+      "source": [
+        "Abhinavagupta, Tantrasāra XI",
+        "Abhinavagupta, Tantrāloka XIII",
+        "Mālinīvijayottaratantra"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SaivaSakta"
+    },
+    {
+      "definition": {
+        "en": "A tradition attesting the correspondence for which no route of contact is documented. This is the only kind of attestation that makes a correspondence a finding rather than a citation chain."
+      },
+      "domain": "pm:Converging",
+      "id": "pm:independentAttestation",
+      "label": {
+        "de": "unabhängige Bezeugung",
+        "en": "independent attestation"
+      },
+      "range": "pm:Tradition",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The capacity, practice or pursuit a warning is directed at."
+      },
+      "domain": "pm:Cautioning",
+      "id": "pm:cautionsAbout",
+      "label": {
+        "de": "warnt vor",
+        "en": "cautions about"
+      },
+      "type": "owl:ObjectProperty"
     },
     {
       "definition": {
@@ -1528,6 +1764,311 @@
       "type": "owl:Class"
     },
     {
+      "id": "pmc:PenemueTeachesBitterAndSweet",
+      "label": {
+        "de": "Penemue offenbart bitter und süß",
+        "en": "Penemue discloses bitter and sweet"
+      },
+      "note": {
+        "en": "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:DiscernmentOfBitterAndSweet"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Penemue"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": [
+        "1 Enoch 69:8 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)"
+      ],
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The observation that a body or seat of awareness distinct from the physical one is claimed in the Pāli handbooks, in the Yogasūtra, and in Greek reports of men whose souls left them."
+      },
+      "id": "pmc:ExteriorisationCorrespondence",
+      "label": {
+        "de": "Die Entsprechung der Exteriorisation",
+        "en": "The exteriorisation correspondence"
+      },
+      "note": {
+        "en": "The Indian pair share a sphere and a technical vocabulary and are not independent of each other. The Greek reports are of a different kind entirely: they are second-hand ascriptions to figures long dead, made by historians rather than by practitioners, and a route of contact with the Indian material has been proposed but not shown."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:convergingConcept": [
+        {
+          "id": "pmc:Manomayakaya"
+        },
+        {
+          "id": "pmc:ParakayaPravesa"
+        },
+        {
+          "id": "pmc:SoulJourney"
+        }
+      ],
+      "pm:independentAttestation": {
+        "id": "pmt:GraecoRoman"
+      },
+      "pm:transmissionPath": "Theravāda and Pātañjala Yoga share the Indian sphere and a common technical vocabulary. A Scythian or shamanic route to the Greek reports has been proposed in the scholarship but is not documented.",
+      "source": [
+        "Dīgha Nikāya 2 (Sāmaññaphala Sutta, DN i.77)",
+        "Herodotus, Histories IV.13-16",
+        "Patañjali, Yogasūtra III.38"
+      ],
+      "type": "pm:Converging"
+    },
+    {
+      "definition": {
+        "en": "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."
+      },
+      "id": "pmc:Manomayakaya",
+      "label": {
+        "de": "Geistgemachter Körper",
+        "en": "Mind-made body"
+      },
+      "source": [
+        "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)",
+        "Dīgha Nikāya 2 (Sāmaññaphala Sutta, DN i.77)"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."
+      },
+      "id": "pmc:StrikingOfSpirits",
+      "label": {
+        "de": "Schlagen der Geister und der Leibesfrucht",
+        "en": "Striking of spirits and of the womb"
+      },
+      "source": "1 Enoch 69:12 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."
+      },
+      "id": "pm:Conceptualizing",
+      "label": {
+        "de": "Begriffsbildung",
+        "en": "Conceptualizing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The Byzantine tradition of the prayer of the heart and of the vision of the uncreated light, defended in the fourteenth century against the objection that such a light must be created."
+      },
+      "id": "pmt:Hesychasm",
+      "label": {
+        "de": "Hesychasmus",
+        "en": "Hesychasm"
+      },
+      "source": "Gregory Palamas, Triads in Defence of the Holy Hesychasts",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Hearing beyond the range of the physical ear."
+      },
+      "id": "pmc:Dibbasota",
+      "label": {
+        "de": "Göttliches Ohr",
+        "en": "Divine ear"
+      },
+      "source": "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "The act of one form standing for another within awareness."
+      },
+      "id": "pm:Symbolizing",
+      "label": {
+        "de": "Symbolisieren",
+        "en": "Symbolizing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "comment": {
+        "en": "Consciousness-first meta-ontology. Processes, not substances."
+      },
+      "id": "https://pajew.ski/prima-materia/ontology",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": {
+        "en": "prima-materia core ontology"
+      },
+      "type": "owl:Ontology"
+    },
+    {
+      "definition": {
+        "en": "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."
+      },
+      "id": "pmc:Kasdeja",
+      "label": {
+        "de": "Kasdeja",
+        "en": "Kasdeja"
+      },
+      "source": "1 Enoch 69:12 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A breath practice inscribed in forty-five characters on a twelve-sided jade block, setting out the deliberate movement of qi through the body."
+      },
+      "id": "pmp:Xingqi",
+      "label": {
+        "de": "Zirkulation des Qi",
+        "en": "Circulating the qi"
+      },
+      "note": {
+        "en": "The two axes of disagreement belong to the claim and are recorded with it. Dating: Harper places the inscription in the late fourth or early third century BCE, Needham in the middle of the sixth. Reading: Harper takes the opening two characters as the title and begins the text at the second line, where Roth counts and construes differently. A citation that names only the inscription conceals both."
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": [
+        "H.D. Roth, Original Tao (1999)",
+        "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125",
+        "Xingqi yupei ming, in J. Needham, Science and Civilisation in China II (1956), p. 143"
+      ],
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:Daoist"
+    },
+    {
+      "definition": {
+        "en": "The transfer of the seat of awareness into a body other than one's own."
+      },
+      "id": "pmc:ParakayaPravesa",
+      "label": {
+        "de": "Eintritt in einen anderen Körper",
+        "en": "Entering another body"
+      },
+      "source": "Patañjali, Yogasūtra III.38",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "id": "pmc:KokabelTeachesSignsOfTheStars",
+      "label": {
+        "de": "Kokabel offenbart die Zeichen der Sterne",
+        "en": "Kokabel discloses the signs of the stars"
+      },
+      "note": {
+        "en": "Stands in the position the Ethiopic fills with the constellations."
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:SignsOfTheStars"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Kokabel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The stated condition under which the claim counts as refuted."
+      },
+      "domain": "pm:Testing",
+      "id": "pm:falsifiedBy",
+      "label": {
+        "de": "widerlegt durch",
+        "en": "falsified by"
+      },
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "definition": {
+        "en": "Eight bodily signs held to arise from the inner constitution rather than from will: paralysis, perspiration, horripilation, change of voice, trembling, change of colour, tears, and fainting."
+      },
+      "id": "pmc:SattvikaBhava",
+      "label": {
+        "de": "Unwillkürliche Körperzustände",
+        "en": "Involuntary bodily states"
+      },
+      "source": "Nāṭyaśāstra VII",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SanskritDramaturgy"
+    },
+    {
+      "definition": {
+        "en": "The awareness context in which a statement is asserted."
+      },
+      "domain": "rdf:Statement",
+      "id": "pm:assertedIn",
+      "label": {
+        "en": "asserted in"
+      },
+      "range": "pm:AwarenessContext",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The capacity that an attribution ascribes."
+      },
+      "domain": "pm:Attributing",
+      "id": "pm:ascribedCapacity",
+      "label": {
+        "de": "zugeschriebenes Vermögen",
+        "en": "ascribed capacity"
+      },
+      "range": "pm:Conceptualizing",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "A Watcher named in the teaching list as the one who disclosed the undoing of spells."
+      },
+      "id": "pmc:Armaros",
+      "label": {
+        "de": "Armaros",
+        "en": "Armaros"
+      },
+      "skos:altLabel": {
+        "@language": "en",
+        "@value": "Hermani"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The regulation of the breath as a distinct limb of practice, following posture and preceding the withdrawal of the senses."
+      },
+      "id": "pmp:Pranayama",
+      "label": {
+        "de": "Prāṇāyāma",
+        "en": "Prāṇāyāma"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "Patañjali, Yogasūtra II.49-53",
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
       "definition": {
         "en": "The reading of weather and import from cloud formations."
       },
@@ -1539,6 +2080,760 @@
       "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
       "type": "pm:Conceptualizing",
       "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "Vital breath, presented as that on which the parts of the person rest and out of which beings come forth, in the image of a wheel resting on its hub."
+      },
+      "id": "pmc:Prana",
+      "label": {
+        "de": "Prāṇa",
+        "en": "Prāṇa"
+      },
+      "source": [
+        "Chāndogya Upaniṣad 1.11.5",
+        "Chāndogya Upaniṣad 7.15.1"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Upanisadic"
+    },
+    {
+      "definition": {
+        "en": "The capacities of the third chapter are named obstacles with respect to samādhi and attainments only with respect to the outward-turned state. The tradition that catalogues them is the same one that warns against them."
+      },
+      "id": "pmc:SiddhisAsObstacle",
+      "label": {
+        "de": "Die Kräfte sind Hindernisse für samādhi",
+        "en": "The powers are obstacles to samādhi"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:cautionsAbout": [
+        {
+          "id": "pmc:DivyaCaksus"
+        },
+        {
+          "id": "pmc:DivyaSrotra"
+        },
+        {
+          "id": "pmc:ParacittaJnana"
+        },
+        {
+          "id": "pmc:ParakayaPravesa"
+        }
+      ],
+      "source": "Patañjali, Yogasūtra III.37",
+      "type": "pm:Cautioning",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "definition": {
+        "en": "A cross-tradition structural analogue, weaker than owl:sameAs and distinct from skos:closeMatch in that it asserts role-in-process similarity rather than lexical overlap."
+      },
+      "domain": "pm:Conceptualizing",
+      "id": "pm:analogueConcept",
+      "label": {
+        "en": "analogue concept"
+      },
+      "range": "pm:Conceptualizing",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The observation that several traditions name something conducted or borne in the body and susceptible of deliberate direction."
+      },
+      "id": "pmc:VitalEnergyCorrespondence",
+      "label": {
+        "de": "Die Entsprechung der Lebensenergie",
+        "en": "The vital-energy correspondence"
+      },
+      "note": {
+        "en": "The correspondence is weaker than it looks. Pneuma is a principle of cosmic cohesion and not a faculty; the breath of the Sefer Yetzirah is a medium of formation and not a conduction through the limbs. Only the Chinese and the Indian material carries the operative sense the modern draft assumes."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:convergingConcept": [
+        {
+          "id": "pmc:InnerHeat"
+        },
+        {
+          "id": "pmc:Kundalini"
+        },
+        {
+          "id": "pmc:Piti"
+        },
+        {
+          "id": "pmc:Pneuma"
+        },
+        {
+          "id": "pmc:Prana"
+        },
+        {
+          "id": "pmc:Qi"
+        },
+        {
+          "id": "pmc:Ruach"
+        }
+      ],
+      "pm:independentAttestation": [
+        {
+          "id": "pmt:Daoist"
+        },
+        {
+          "id": "pmt:Upanisadic"
+        }
+      ],
+      "pm:transmissionPath": "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel.",
+      "source": [
+        "Chāndogya Upaniṣad 7.15.1",
+        "Xingqi yupei ming (jade inscription on circulating the qi)"
+      ],
+      "type": "pm:Converging"
+    },
+    {
+      "definition": {
+        "en": "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."
+      },
+      "id": "pmc:CourseOfTheMoon",
+      "label": {
+        "de": "Der Lauf des Mondes",
+        "en": "The course of the moon"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."
+      },
+      "id": "pm:Tradition",
+      "label": {
+        "de": "Tradition",
+        "en": "Tradition"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The reading of import from terrestrial phenomena."
+      },
+      "id": "pmc:SignsOfTheEarth",
+      "label": {
+        "de": "Zeichen der Erde",
+        "en": "Signs of the earth"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."
+      },
+      "id": "pm:Attributing",
+      "label": {
+        "de": "Zuschreiben",
+        "en": "Attributing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The binding of persons or events by spoken formula."
+      },
+      "id": "pmc:SpellCasting",
+      "label": {
+        "de": "Beschwörung",
+        "en": "Spell-casting"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "Mindfulness of in-breath and out-breath, set out as a sixteen-step progression in the discourse and as a meditation subject in the handbook."
+      },
+      "id": "pmp:Anapanasati",
+      "label": {
+        "de": "Ānāpānasati",
+        "en": "Ānāpānasati"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": [
+        "Buddhaghosa, Visuddhimagga VIII (trans. Ñāṇamoli 1956)",
+        "Majjhima Nikāya 118"
+      ],
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "The transmission of the Upaniṣads as the speculative layer of the Vedic corpus."
+      },
+      "id": "pmt:Upanisadic",
+      "label": {
+        "de": "Upaniṣadische Überlieferung",
+        "en": "Upaniṣadic tradition"
+      },
+      "source": "Chāndogya Upaniṣad",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "The observation that the raising of the body hair is codified as a sign of an inner state in two Indian genres that have no common subject matter: a meditation handbook and a treatise on dramatic performance."
+      },
+      "id": "pmc:HorripilationCorrespondence",
+      "label": {
+        "de": "Die Entsprechung der Haaraufrichtung",
+        "en": "The horripilation correspondence"
+      },
+      "note": {
+        "en": "The strongest item in this file, and still not what it first appears. The independence is generic and not cultural: both texts belong to the Indian sphere, so a common background cannot be excluded. What can be excluded is that one borrowed the observation from the other, since neither is about the other's subject. A universal physiology codified twice is a finding about the physiology."
+      },
+      "pm:attestedBy": {
+        "id": "pm:compilerInference"
+      },
+      "pm:convergingConcept": [
+        {
+          "id": "pmc:KhuddikaPiti"
+        },
+        {
+          "id": "pmc:Romanca"
+        }
+      ],
+      "pm:independentAttestation": [
+        {
+          "id": "pmt:SanskritDramaturgy"
+        },
+        {
+          "id": "pmt:Theravada"
+        }
+      ],
+      "pm:transmissionPath": "Both codifications arise within the Indian cultural sphere; independence holds at the level of genre and subject matter, not at the level of culture.",
+      "source": [
+        "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+        "Nāṭyaśāstra VII"
+      ],
+      "type": "pm:Converging"
+    },
+    {
+      "definition": {
+        "en": "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."
+      },
+      "id": "pmt:SaivaSakta",
+      "label": {
+        "de": "Śaiva- und Śākta-Tantra",
+        "en": "Śaiva and Śākta tantra"
+      },
+      "source": "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)",
+      "type": "pm:Tradition"
+    },
+    {
+      "definition": {
+        "en": "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."
+      },
+      "id": "pmc:ParacittaJnana",
+      "label": {
+        "de": "Kenntnis fremden Bewusstseins",
+        "en": "Knowledge of another mind"
+      },
+      "source": "Patañjali, Yogasūtra III.19",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "id": "pmc:PenemueTeachesWriting",
+      "label": {
+        "de": "Penemue offenbart das Schreiben mit Tinte",
+        "en": "Penemue discloses writing with ink"
+      },
+      "note": {
+        "en": "Book of Parables; no Aramaic fragment of chapters 37-71 is attested at Qumran."
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:WritingWithInk"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Penemue"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": [
+        "1 Enoch 69:9 (Ethiopic; Charles 1912)",
+        "J.T. Milik, The Books of Enoch: Aramaic Fragments of Qumrân Cave 4 (Oxford, 1976)"
+      ],
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "Associates a MeaningCluster with the individual nodes that constitute it as a bounded subgraph."
+      },
+      "domain": "pm:MeaningCluster",
+      "id": "pm:hasClusterMember",
+      "label": {
+        "en": "has cluster member"
+      },
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "pmc:ShemihazahTeachesRootCutting",
+      "label": {
+        "de": "Schemichasa offenbart das Wurzelschneiden",
+        "en": "Shemihazah discloses root-cutting"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:RootCutting"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Shemihazah"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The disclosure of the distinction of bitter from sweet, given in the text alongside the secrets of wisdom."
+      },
+      "id": "pmc:DiscernmentOfBitterAndSweet",
+      "label": {
+        "de": "Unterscheidung von bitter und süß",
+        "en": "Discernment of bitter and sweet"
+      },
+      "source": "1 Enoch 69:8 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The leader of the Watchers who binds the others by oath on Mount Hermon and is named as the teacher of spells and root-cutting."
+      },
+      "id": "pmc:Shemihazah",
+      "label": {
+        "de": "Schemichasa",
+        "en": "Shemihazah"
+      },
+      "skos:altLabel": [
+        {
+          "@language": "en",
+          "@value": "Amezarak"
+        },
+        {
+          "@language": "en",
+          "@value": "Semjaza"
+        }
+      ],
+      "source": "1 Enoch 6:3, 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."
+      },
+      "id": "pm:Attesting",
+      "label": {
+        "de": "Bezeugen",
+        "en": "Attesting"
+      },
+      "note": {
+        "en": "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "A leader among the Watchers, named in the Book of the Watchers as the one who disclosed metallurgy, weaponry and adornment."
+      },
+      "id": "pmc:Azazel",
+      "label": {
+        "de": "Azazel",
+        "en": "Azazel"
+      },
+      "skos:altLabel": {
+        "@language": "en",
+        "@value": "Asael"
+      },
+      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."
+      },
+      "id": "pm:thirdPartyAscription",
+      "label": {
+        "de": "Fremdzuschreibung",
+        "en": "Third-party ascription"
+      },
+      "type": "pm:Attesting"
+    },
+    {
+      "definition": {
+        "en": "An operative procedure enacted within a tradition."
+      },
+      "id": "pm:Practicing",
+      "label": {
+        "de": "Praktizieren",
+        "en": "Practicing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "A Watcher whose teaching concerns the stars; the two recensions differ on whether it is the constellations or the signs of the stars."
+      },
+      "id": "pmc:Kokabel",
+      "label": {
+        "de": "Kokabel",
+        "en": "Kokabel"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A centre of the subtle body, described in the source with its seed syllables and its position along the central channel."
+      },
+      "id": "pmc:Cakra",
+      "label": {
+        "de": "Cakra",
+        "en": "Cakra"
+      },
+      "note": {
+        "en": "The count varies across the older tantras, which give four, five or six. The tradition does not assign the centres the psychological qualities that modern presentations attach to them."
+      },
+      "source": "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SaivaSakta"
+    },
+    {
+      "id": "pmc:AnapanasatiYieldsPiti",
+      "label": {
+        "de": "Atemachtsamkeit bringt Verzückung hervor",
+        "en": "Mindfulness of breathing yields rapture"
+      },
+      "note": {
+        "en": "Rapture appears in the handbook as a factor of absorption reached through the meditation subject, not as something aimed at directly. The pairing is recorded at that strength."
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:byPractice": {
+        "id": "pmp:Anapanasati"
+      },
+      "pm:yieldsCapacity": {
+        "id": "pmc:Piti"
+      },
+      "source": [
+        "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga VIII (trans. Ñāṇamoli 1956)"
+      ],
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:Theravada"
+    },
+    {
+      "definition": {
+        "en": "Knowledge of the metals of the earth and of working them into blades, shields and body armour."
+      },
+      "id": "pmc:Metalworking",
+      "label": {
+        "de": "Metallverarbeitung und Waffenherstellung",
+        "en": "Metalworking and weapon-making"
+      },
+      "source": "1 Enoch 8:1 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."
+      },
+      "id": "pm:Systematizing",
+      "label": {
+        "de": "Systematisieren",
+        "en": "Systematizing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "First-person inclusive awareness bounded to an identified group."
+      },
+      "id": "pm:collectiveAwareness",
+      "label": {
+        "de": "Kollektives Bewusstsein",
+        "en": "Collective awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "definition": {
+        "en": "A Watcher named as the one who disclosed the signs of the earth."
+      },
+      "id": "pmc:Araqiel",
+      "label": {
+        "de": "Araqiel",
+        "en": "Araqiel"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The reading of import from the stars, given in place of the constellations in the Aramaic-Greek witness."
+      },
+      "id": "pmc:SignsOfTheStars",
+      "label": {
+        "de": "Zeichen der Sterne",
+        "en": "Signs of the stars"
+      },
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "Associates a process instance with the tradition in which it is situated."
+      },
+      "id": "pm:withinTradition",
+      "label": {
+        "en": "within tradition"
+      },
+      "range": "pm:Tradition",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."
+      },
+      "id": "pmc:WritingWithInk",
+      "label": {
+        "de": "Schreiben mit Tinte",
+        "en": "Writing with ink"
+      },
+      "source": "1 Enoch 69:9 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A preliminary in which the channels are cleared by visualisation before the heat practice proper; the tradition's own form of the notion that a blockage is a place the energy does not reach."
+      },
+      "id": "pmp:ChannelPurification",
+      "label": {
+        "de": "Reinigung der Kanäle",
+        "en": "Purification of the channels"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)",
+      "type": "pm:Practicing",
+      "withinTradition": "pmt:TibetanTantric"
+    },
+    {
+      "definition": {
+        "en": "A Watcher whose teaching concerns celestial signs; the two recensions differ on which."
+      },
+      "id": "pmc:Baraqel",
+      "label": {
+        "de": "Baraqel",
+        "en": "Baraqel"
+      },
+      "skos:altLabel": {
+        "@language": "en",
+        "@value": "Baraqijal"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The reading of import from meteors, given in place of the knowledge of the clouds in the Aramaic-Greek witness."
+      },
+      "id": "pmc:SignsOfShootingStars",
+      "label": {
+        "de": "Zeichen der Sternschnuppen",
+        "en": "Signs of the shooting stars"
+      },
+      "source": "1 Enoch 8:3 (Aramaic/Greek reconstruction; Nickelsburg 2001)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "id": "pmc:AraqielTeachesSignsOfTheEarth",
+      "label": {
+        "de": "Araqiel offenbart die Zeichen der Erde",
+        "en": "Araqiel discloses the signs of the earth"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:SignsOfTheEarth"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Araqiel"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "A Watcher named as the one who disclosed the signs of the sun."
+      },
+      "id": "pmc:Shamsiel",
+      "label": {
+        "de": "Schamsiel",
+        "en": "Shamsiel"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The claim, made within a tradition, that a named practice produces a named capacity."
+      },
+      "id": "pm:Yielding",
+      "label": {
+        "de": "Hervorbringen",
+        "en": "Yielding"
+      },
+      "note": {
+        "en": "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "id": "pmc:ArmarosTeachesLoosingOfSpells",
+      "label": {
+        "de": "Armaros offenbart das Lösen von Beschwörungen",
+        "en": "Armaros discloses the loosing of spells"
+      },
+      "pm:ascribedCapacity": {
+        "id": "pmc:LoosingOfSpells"
+      },
+      "pm:ascribedTo": {
+        "id": "pmc:Armaros"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "source": "1 Enoch 8:3 (Ethiopic; Charles 1912)",
+      "type": "pm:Attributing",
+      "withinTradition": "pmt:Enochic"
+    },
+    {
+      "definition": {
+        "en": "The raising of the body hair, counted among the eight involuntary signs and treated as a mark of an inner state, not as something to be produced for its own sake."
+      },
+      "id": "pmc:Romanca",
+      "label": {
+        "de": "Haaraufrichtung",
+        "en": "Horripilation"
+      },
+      "note": {
+        "en": "Attested outside the dramaturgical treatise in the epic corpus, where trembling and horripilation are named together as signs of an overwhelming state."
+      },
+      "source": [
+        "Bhagavadgītā 1.29",
+        "Nāṭyaśāstra VII"
+      ],
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:SanskritDramaturgy"
+    },
+    {
+      "id": "pmc:SamyamaYieldsDivyaCaksus",
+      "label": {
+        "de": "Saṃyama auf die Sonne bringt Weltkenntnis hervor",
+        "en": "Saṃyama on the sun yields knowledge of the world"
+      },
+      "pm:attestedBy": {
+        "id": "pm:textualAttestation"
+      },
+      "pm:byPractice": {
+        "id": "pmp:Samyama"
+      },
+      "pm:yieldsCapacity": {
+        "id": "pmc:DivyaCaksus"
+      },
+      "source": "Patañjali, Yogasūtra III.26",
+      "type": "pm:Yielding",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "definition": {
+        "en": "Hearing beyond the range of the physical ear."
+      },
+      "id": "pmc:DivyaSrotra",
+      "label": {
+        "de": "Göttliches Ohr",
+        "en": "Divine ear"
+      },
+      "source": "Patañjali, Yogasūtra III.41",
+      "type": "pm:Conceptualizing",
+      "withinTradition": "pmt:PatanjalaYoga"
+    },
+    {
+      "definition": {
+        "en": "The practice a yielding claim proceeds from."
+      },
+      "domain": "pm:Yielding",
+      "id": "pm:byPractice",
+      "label": {
+        "de": "durch Praxis",
+        "en": "by practice"
+      },
+      "range": "pm:Practicing",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "Undifferentiated awareness in which no object is apprehended."
+      },
+      "id": "pm:DeepSleepState",
+      "label": {
+        "de": "Tiefschlafzustand (Suṣupti)",
+        "en": "Deep sleep state (Suṣupti)"
+      },
+      "source": "Māṇḍūkya Upaniṣad, verse 5",
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "A documented route of historical contact between the traditions in which the correspondence appears. Its presence downgrades the correspondence from convergence to reception."
+      },
+      "domain": "pm:Converging",
+      "id": "pm:transmissionPath",
+      "label": {
+        "de": "Übertragungsweg",
+        "en": "transmission path"
+      },
+      "type": "owl:DatatypeProperty"
     }
   ]
 }
