@@ -79,28 +79,39 @@
   "@graph": [
     {
       "definition": {
-        "en": "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."
+        "en": "Operative consciousness in which an assertion is made from direct insight rather than from historical reconstruction."
       },
-      "id": "pm:MeaningCluster",
+      "id": "pm:GnosticState",
       "label": {
-        "de": "Bedeutungs-Cluster",
-        "en": "Meaning Cluster"
+        "de": "Gnostischer Zustand",
+        "en": "Gnostic state"
       },
       "note": {
-        "en": "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."
+        "en": "Use this context when a triple expresses a claim from within a tradition's first-person perspective."
       },
-      "type": "owl:Class"
+      "type": "pm:AwarenessContext"
     },
     {
       "definition": {
-        "en": "First-person exclusive awareness shared between two subjects (I and you)."
+        "en": "First-person singular awareness bounded to a single subject."
       },
-      "id": "pm:dyadicAwareness",
+      "id": "pm:individualAwareness",
       "label": {
-        "de": "Dyadisches Bewusstsein",
-        "en": "Dyadic awareness"
+        "de": "Individuelles Bewusstsein",
+        "en": "Individual awareness"
       },
       "type": "pm:AwarenessSpace"
+    },
+    {
+      "definition": {
+        "en": "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."
+      },
+      "id": "pm:AwarenessSpace",
+      "label": {
+        "de": "Bewusstseinsraum",
+        "en": "Awareness Space"
+      },
+      "type": "owl:Class"
     },
     {
       "definition": {
@@ -112,87 +123,6 @@
         "en": "Collective awareness"
       },
       "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "Awareness whose reach is unbounded across all possible subjects."
-      },
-      "id": "pm:universalAwareness",
-      "label": {
-        "de": "Universelles Bewusstsein",
-        "en": "Universal awareness"
-      },
-      "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."
-      },
-      "id": "pm:Conceptualizing",
-      "label": {
-        "de": "Begriffsbildung",
-        "en": "Conceptualizing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "Associates a concept with one or more symbolic representations (sigils, diagrams, glyphs)."
-      },
-      "id": "pm:hasSymbolicForm",
-      "label": {
-        "en": "has symbolic form"
-      },
-      "range": "pm:Symbolizing",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."
-      },
-      "id": "pm:Tradition",
-      "label": {
-        "de": "Tradition",
-        "en": "Tradition"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The emergence of a form out of a prior undifferentiated ground."
-      },
-      "id": "pm:Manifesting",
-      "label": {
-        "de": "Manifestieren",
-        "en": "Manifesting"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."
-      },
-      "id": "pm:AwarenessContext",
-      "label": {
-        "de": "Bewusstseinskontext",
-        "en": "Awareness Context"
-      },
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "The act of one form standing for another within awareness."
-      },
-      "id": "pm:Symbolizing",
-      "label": {
-        "de": "Symbolisieren",
-        "en": "Symbolizing"
-      },
-      "subClassOf": "pm:Process",
-      "type": "owl:Class"
     },
     {
       "definition": {
@@ -208,47 +138,23 @@
     },
     {
       "definition": {
-        "en": "Associates a process instance with the tradition in which it is situated."
+        "en": "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."
       },
-      "id": "pm:withinTradition",
+      "id": "pm:AwarenessContext",
       "label": {
-        "en": "within tradition"
+        "de": "Bewusstseinskontext",
+        "en": "Awareness Context"
       },
-      "range": "pm:Tradition",
-      "type": "owl:ObjectProperty"
+      "type": "owl:Class"
     },
     {
       "definition": {
-        "en": "The fourth state: pure awareness that is neither outward- nor inward-turned, and not a negation of either."
+        "en": "The emergence of a form out of a prior undifferentiated ground."
       },
-      "id": "pm:TranscendentState",
+      "id": "pm:Manifesting",
       "label": {
-        "de": "Transzendenter Zustand (Turīya)",
-        "en": "Transcendent state (Turīya)"
-      },
-      "source": "Māṇḍūkya Upaniṣad, verse 7",
-      "type": "pm:AwarenessContext"
-    },
-    {
-      "definition": {
-        "en": "The awareness context in which a statement is asserted."
-      },
-      "domain": "rdf:Statement",
-      "id": "pm:assertedIn",
-      "label": {
-        "en": "asserted in"
-      },
-      "range": "pm:AwarenessContext",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "definition": {
-        "en": "The act of placing one concept in relation to another."
-      },
-      "id": "pm:Relating",
-      "label": {
-        "de": "Beziehen",
-        "en": "Relating"
+        "de": "Manifestieren",
+        "en": "Manifesting"
       },
       "subClassOf": "pm:Process",
       "type": "owl:Class"
@@ -266,36 +172,14 @@
     },
     {
       "definition": {
-        "en": "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."
+        "en": "The fourth state: pure awareness that is neither outward- nor inward-turned, and not a negation of either."
       },
-      "id": "pm:AwarenessSpace",
+      "id": "pm:TranscendentState",
       "label": {
-        "de": "Bewusstseinsraum",
-        "en": "Awareness Space"
+        "de": "Transzendenter Zustand (Turīya)",
+        "en": "Transcendent state (Turīya)"
       },
-      "type": "owl:Class"
-    },
-    {
-      "definition": {
-        "en": "First-person singular awareness bounded to a single subject."
-      },
-      "id": "pm:individualAwareness",
-      "label": {
-        "de": "Individuelles Bewusstsein",
-        "en": "Individual awareness"
-      },
-      "type": "pm:AwarenessSpace"
-    },
-    {
-      "definition": {
-        "en": "Inward-turned awareness of subtle objects generated by the mind."
-      },
-      "id": "pm:DreamingState",
-      "label": {
-        "de": "Traumzustand (Svapna)",
-        "en": "Dreaming state (Svapna)"
-      },
-      "source": "Māṇḍūkya Upaniṣad, verse 4",
+      "source": "Māṇḍūkya Upaniṣad, verse 7",
       "type": "pm:AwarenessContext"
     },
     {
@@ -311,6 +195,17 @@
     },
     {
       "definition": {
+        "en": "First-person exclusive awareness shared between two subjects (I and you)."
+      },
+      "id": "pm:dyadicAwareness",
+      "label": {
+        "de": "Dyadisches Bewusstsein",
+        "en": "Dyadic awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "definition": {
         "en": "An operative procedure enacted within a tradition."
       },
       "id": "pm:Practicing",
@@ -322,31 +217,6 @@
       "type": "owl:Class"
     },
     {
-      "comment": {
-        "en": "Consciousness-first meta-ontology. Processes, not substances."
-      },
-      "id": "https://pajew-ski.github.io/prima-materia/ontology",
-      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "title": {
-        "en": "prima-materia core ontology"
-      },
-      "type": "owl:Ontology"
-    },
-    {
-      "definition": {
-        "en": "Operative consciousness in which an assertion is made from direct insight rather than from historical reconstruction."
-      },
-      "id": "pm:GnosticState",
-      "label": {
-        "de": "Gnostischer Zustand",
-        "en": "Gnostic state"
-      },
-      "note": {
-        "en": "Use this context when a triple expresses a claim from within a tradition's first-person perspective."
-      },
-      "type": "pm:AwarenessContext"
-    },
-    {
       "definition": {
         "en": "The act of apprehending form within an awareness context."
       },
@@ -354,6 +224,90 @@
       "label": {
         "de": "Wahrnehmen",
         "en": "Perceiving"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "Awareness whose reach is unbounded across all possible subjects."
+      },
+      "id": "pm:universalAwareness",
+      "label": {
+        "de": "Universelles Bewusstsein",
+        "en": "Universal awareness"
+      },
+      "type": "pm:AwarenessSpace"
+    },
+    {
+      "definition": {
+        "en": "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."
+      },
+      "id": "pm:Process",
+      "label": {
+        "de": "Prozess",
+        "en": "Process"
+      },
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."
+      },
+      "id": "pm:MeaningCluster",
+      "label": {
+        "de": "Bedeutungs-Cluster",
+        "en": "Meaning Cluster"
+      },
+      "note": {
+        "en": "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."
+      },
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The awareness context in which a statement is asserted."
+      },
+      "domain": "rdf:Statement",
+      "id": "pm:assertedIn",
+      "label": {
+        "en": "asserted in"
+      },
+      "range": "pm:AwarenessContext",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "Inward-turned awareness of subtle objects generated by the mind."
+      },
+      "id": "pm:DreamingState",
+      "label": {
+        "de": "Traumzustand (Svapna)",
+        "en": "Dreaming state (Svapna)"
+      },
+      "source": "Māṇḍūkya Upaniṣad, verse 4",
+      "type": "pm:AwarenessContext"
+    },
+    {
+      "definition": {
+        "en": "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."
+      },
+      "id": "pm:Conceptualizing",
+      "label": {
+        "de": "Begriffsbildung",
+        "en": "Conceptualizing"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."
+      },
+      "id": "pm:Tradition",
+      "label": {
+        "de": "Tradition",
+        "en": "Tradition"
       },
       "subClassOf": "pm:Process",
       "type": "owl:Class"
@@ -371,28 +325,60 @@
       "type": "pm:AwarenessContext"
     },
     {
-      "definition": {
-        "en": "Philological and historical mode of assertion: claims are reports about what a tradition holds, not claims made from within it."
+      "comment": {
+        "en": "Consciousness-first meta-ontology. Processes, not substances."
       },
-      "id": "pm:ScholarlyState",
-      "label": {
-        "de": "Wissenschaftlicher Zustand",
-        "en": "Scholarly state"
+      "id": "https://pajew-ski.github.io/prima-materia/ontology",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "title": {
+        "en": "prima-materia core ontology"
       },
-      "note": {
-        "en": "Default context for tradition files in Phase 1."
-      },
-      "type": "pm:AwarenessContext"
+      "type": "owl:Ontology"
     },
     {
       "definition": {
-        "en": "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."
+        "en": "Associates a process instance with the tradition in which it is situated."
       },
-      "id": "pm:Process",
+      "id": "pm:withinTradition",
       "label": {
-        "de": "Prozess",
-        "en": "Process"
+        "en": "within tradition"
       },
+      "range": "pm:Tradition",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "Associates a concept with one or more symbolic representations (sigils, diagrams, glyphs)."
+      },
+      "id": "pm:hasSymbolicForm",
+      "label": {
+        "en": "has symbolic form"
+      },
+      "range": "pm:Symbolizing",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "The act of placing one concept in relation to another."
+      },
+      "id": "pm:Relating",
+      "label": {
+        "de": "Beziehen",
+        "en": "Relating"
+      },
+      "subClassOf": "pm:Process",
+      "type": "owl:Class"
+    },
+    {
+      "definition": {
+        "en": "The act of one form standing for another within awareness."
+      },
+      "id": "pm:Symbolizing",
+      "label": {
+        "de": "Symbolisieren",
+        "en": "Symbolizing"
+      },
+      "subClassOf": "pm:Process",
       "type": "owl:Class"
     },
     {
@@ -406,6 +392,20 @@
       },
       "range": "pm:Conceptualizing",
       "type": "owl:ObjectProperty"
+    },
+    {
+      "definition": {
+        "en": "Philological and historical mode of assertion: claims are reports about what a tradition holds, not claims made from within it."
+      },
+      "id": "pm:ScholarlyState",
+      "label": {
+        "de": "Wissenschaftlicher Zustand",
+        "en": "Scholarly state"
+      },
+      "note": {
+        "en": "Default context for tradition files in Phase 1."
+      },
+      "type": "pm:AwarenessContext"
     }
   ]
 }
