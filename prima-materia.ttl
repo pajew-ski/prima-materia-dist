@@ -376,15 +376,20 @@ pmc:SiddhisAsObstacle a pm:Cautioning ;
         pmc:ParakayaPravesa ;
     pm:withinTradition pmt:PatanjalaYoga .
 
-pmc:TummoYieldsInnerHeat a pm:Yielding ;
-    rdfs:label "Tummo bringt innere Hitze hervor"@de,
-        "Tummo yields inner heat"@en ;
-    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
-    skos:note "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Tummo ;
-    pm:withinTradition pmt:TibetanTantric ;
-    pm:yieldsCapacity pmc:InnerHeat .
+pmc:TummoHeatExamination a pm:Testing ;
+    rdfs:label "Prüfung der Tummo-Hitze-Behauptung"@de,
+        "Examination of the tummo heat claim"@en ;
+    skos:definition "An examination of the claim that the tummo practice produces inner heat, taken up because this is the one pairing in the collection whose capacity has an outward side that instruments reach."@en ;
+    skos:note "What the measurements bear on is the somatic claim and nothing beyond it. Reported temperature rises are consistent with the practice producing heat; they say nothing about the cosmology the practice is embedded in, and the node must not be read as though they did. The reported effect also depends on the forceful-breath component together with the visualisation, which means the claim that is actually supported is narrower than the one the tradition makes."@en ;
+    pm:attestedBy pm:protocolledPractice ;
+    pm:baseRate "Temperature change under comparable breathing effort without the practice, in matched participants." ;
+    pm:evidenceFrom "H. Benson et al., Body temperature changes during the practice of g-tummo yoga, Nature 295 (1982), 234-236",
+        "M. Kozhevnikov et al., Neurocognitive and somatic components of temperature increases during g-tummo meditation, PLoS ONE 8(3) (2013), e58244, doi:10.1371/journal.pone.0058244" ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "H. Benson and colleagues; M. Kozhevnikov and colleagues" ;
+    pm:falsifiedBy "Practitioners of the forceful-breath tummo method show no rise in measured body temperature beyond that produced by the breathing alone in matched non-practitioners." ;
+    pm:protocolUpdated "2026-08-28" ;
+    pm:tests pmc:TummoYieldsInnerHeat .
 
 pmc:UbbegaPiti a pm:Conceptualizing ;
     rdfs:label "Erhebungsverzückung"@de,
@@ -552,6 +557,11 @@ pm:caseCount a owl:DatatypeProperty ;
     rdfs:range xsd:integer ;
     skos:definition "The number of cases recorded under this protocol so far."@en .
 
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
 pm:cautionsAbout a owl:ObjectProperty ;
     rdfs:label "warnt vor"@de,
         "cautions about"@en ;
@@ -580,6 +590,26 @@ pm:dyadicAwareness a pm:AwarenessSpace ;
     rdfs:label "Dyadisches Bewusstsein"@de,
         "Dyadic awareness"@en ;
     skos:definition "First-person exclusive awareness shared between two subjects (I and you)."@en .
+
+pm:evidenceFrom a owl:DatatypeProperty ;
+    rdfs:label "Evidenz aus"@de,
+        "evidence from"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "A modern work bearing on the claim under examination, given as a bibliographic reference or a work identifier."@en ;
+    skos:note "Deliberately not dcterms:source. A modern study is never a witness to a tradition and must never appear as the source of one of its claims; it bears on a claim only as evidence inside an examination. Keeping the two predicates apart is what allows research to enter the record at all without loosening the rule that sources are received works."@en .
+
+pm:examinationState a owl:ObjectProperty ;
+    rdfs:label "Prüfstand"@de,
+        "examination state"@en ;
+    rdfs:domain pm:Testing ;
+    rdfs:range pm:ExaminationState ;
+    skos:definition "How far the attempt to fail the claim has been carried."@en .
+
+pm:examinedBy a owl:DatatypeProperty ;
+    rdfs:label "geprüft von"@de,
+        "examined by"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "Who devised or carried the protocol. A protocol without a named author is unaccountable, and an unaccountable protocol is not evidence of anything."@en .
 
 pm:falsifiedBy a owl:DatatypeProperty ;
     rdfs:label "widerlegt durch"@de,
@@ -619,6 +649,11 @@ pm:individualAwareness a pm:AwarenessSpace ;
         "Individual awareness"@en ;
     skos:definition "First-person singular awareness bounded to a single subject."@en .
 
+pm:noProcedureDevised a pm:ExaminationState ;
+    rdfs:label "Kein Verfahren ersonnen"@de,
+        "No procedure devised"@en ;
+    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
+
 pm:ordersClaim a owl:ObjectProperty ;
     rdfs:label "ordnet Behauptung"@de,
         "orders claim"@en ;
@@ -631,11 +666,6 @@ pm:protocolUpdated a owl:DatatypeProperty ;
     rdfs:domain pm:Testing ;
     rdfs:range xsd:date ;
     skos:definition "The date on which the count was last carried forward. A protocol without this date claims a scrutiny it does not document."@en .
-
-pm:protocolledPractice a pm:Attesting ;
-    rdfs:label "Protokollierte Praxis"@de,
-        "Protocolled practice"@en ;
-    skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
 
 pm:tests a owl:ObjectProperty ;
     rdfs:label "prüft"@de,
@@ -974,10 +1004,22 @@ pmc:TestingOfThoughts a pm:Testing ;
     skos:definition "A four-part examination of an inner movement, set out in the image of the money-changer who tests a coin: for the metal, for the stamp, for the lawfulness of its provenance, and for its weight."@en ;
     skos:note "Ignatius adds the rule that the whole course of a train of thought is to be examined, since a bad end reveals the origin, and that a consolation arriving after the fact is to be examined well before it is believed."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "John Cassian, transmitting Abba Moses; supplemented by Ignatius of Loyola" ;
     pm:falsifiedBy "A movement fails the test if its metal is false, its stamp is not that of right teaching, its provenance is unlawful, or it weighs light of the fear of God and heavy of human vanity; and it fails if the end of the train of thought is bad, however good its beginning." ;
     pm:protocolUpdated "2026-08-28" ;
     pm:tests pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:TummoYieldsInnerHeat a pm:Yielding ;
+    rdfs:label "Tummo bringt innere Hitze hervor"@de,
+        "Tummo yields inner heat"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:note "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Tummo ;
+    pm:withinTradition pmt:TibetanTantric ;
+    pm:yieldsCapacity pmc:InnerHeat .
 
 pmc:Vespasian a pm:Conceptualizing ;
     rdfs:label "Vespasian"@de,
@@ -1018,6 +1060,21 @@ pm:Symbolizing a owl:Class ;
         "Symbolizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
+pm:protocolledPractice a pm:Attesting ;
+    rdfs:label "Protokollierte Praxis"@de,
+        "Protocolled practice"@en ;
+    skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -1228,6 +1285,13 @@ pm:AwarenessSpace a owl:Class ;
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
 
+pm:ExaminationState a owl:Class ;
+    rdfs:label "Prüfstand"@de,
+        "Examination State"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
+    skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en .
+
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -1240,12 +1304,6 @@ pm:Attesting a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
-
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
@@ -1290,6 +1348,12 @@ pm:Practicing a owl:Class ;
         "Practicing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An operative procedure enacted within a tradition."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
 
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
