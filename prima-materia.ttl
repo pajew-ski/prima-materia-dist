@@ -1,11 +1,12 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix pm: <https://pajew-ski.github.io/prima-materia/ontology#> .
+@prefix pm: <https://pajew.ski/prima-materia/ontology#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://pajew-ski.github.io/prima-materia/ontology> a owl:Ontology ;
+<https://pajew.ski/prima-materia/ontology> a owl:Ontology ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:title "prima-materia core ontology"@en ;
     rdfs:comment "Consciousness-first meta-ontology. Processes, not substances."@en .
@@ -76,21 +77,83 @@ pm:analogueConcept a owl:ObjectProperty ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "A cross-tradition structural analogue, weaker than owl:sameAs and distinct from skos:closeMatch in that it asserts role-in-process similarity rather than lexical overlap."@en .
 
+pm:ascribedCapacity a owl:ObjectProperty ;
+    rdfs:label "zugeschriebenes Vermögen"@de,
+        "ascribed capacity"@en ;
+    rdfs:domain pm:Attributing ;
+    rdfs:range pm:Conceptualizing ;
+    skos:definition "The capacity that an attribution ascribes."@en .
+
+pm:ascribedTo a owl:ObjectProperty ;
+    rdfs:label "zugeschrieben an"@de,
+        "ascribed to"@en ;
+    rdfs:domain pm:Attributing ;
+    skos:definition "The bearer to whom the capacity is ascribed: a named figure, a class of beings, humanity before a stated event."@en .
+
 pm:assertedIn a owl:ObjectProperty ;
     rdfs:label "asserted in"@en ;
     rdfs:domain rdf:Statement ;
     rdfs:range pm:AwarenessContext ;
     skos:definition "The awareness context in which a statement is asserted."@en .
 
+pm:attestedBy a owl:ObjectProperty ;
+    rdfs:label "bezeugt durch"@de,
+        "attested by"@en ;
+    rdfs:range pm:Attesting ;
+    skos:definition "Declares by which route a claim entered the record. Mandatory on every attribution, so that non-evidence cannot be forgotten."@en .
+
+pm:baseRate a owl:DatatypeProperty ;
+    rdfs:label "Basisrate"@de,
+        "base rate"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "The rate against which observed outcomes are compared, with the population it was taken from."@en .
+
+pm:caseCount a owl:DatatypeProperty ;
+    rdfs:label "Fallzahl"@de,
+        "case count"@en ;
+    rdfs:domain pm:Testing ;
+    rdfs:range xsd:integer ;
+    skos:definition "The number of cases recorded under this protocol so far."@en .
+
 pm:collectiveAwareness a pm:AwarenessSpace ;
     rdfs:label "Kollektives Bewusstsein"@de,
         "Collective awareness"@en ;
     skos:definition "First-person inclusive awareness bounded to an identified group."@en .
 
+pm:compiledBy a owl:DatatypeProperty ;
+    rdfs:label "geordnet von"@de,
+        "compiled by"@en ;
+    rdfs:domain pm:Systematizing ;
+    skos:definition "The named compiler who performed the ordering act. Without it, an order made in the present is indistinguishable from an order found in the source."@en .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pm:convergingConcept a owl:ObjectProperty ;
+    rdfs:label "konvergierender Begriff"@de,
+        "converging concept"@en ;
+    rdfs:domain pm:Converging ;
+    rdfs:range pm:Conceptualizing ;
+    skos:definition "A concept that participates in the observed correspondence."@en .
+
 pm:dyadicAwareness a pm:AwarenessSpace ;
     rdfs:label "Dyadisches Bewusstsein"@de,
         "Dyadic awareness"@en ;
     skos:definition "First-person exclusive awareness shared between two subjects (I and you)."@en .
+
+pm:falsifiedBy a owl:DatatypeProperty ;
+    rdfs:label "widerlegt durch"@de,
+        "falsified by"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "The stated condition under which the claim counts as refuted."@en .
+
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pm:hasAwarenessSpace a owl:ObjectProperty ;
     rdfs:label "has awareness space"@en ;
@@ -107,10 +170,57 @@ pm:hasSymbolicForm a owl:ObjectProperty ;
     rdfs:range pm:Symbolizing ;
     skos:definition "Associates a concept with one or more symbolic representations (sigils, diagrams, glyphs)."@en .
 
+pm:independentAttestation a owl:ObjectProperty ;
+    rdfs:label "unabhängige Bezeugung"@de,
+        "independent attestation"@en ;
+    rdfs:domain pm:Converging ;
+    rdfs:range pm:Tradition ;
+    skos:definition "A tradition attesting the correspondence for which no route of contact is documented. This is the only kind of attestation that makes a correspondence a finding rather than a citation chain."@en .
+
 pm:individualAwareness a pm:AwarenessSpace ;
     rdfs:label "Individuelles Bewusstsein"@de,
         "Individual awareness"@en ;
     skos:definition "First-person singular awareness bounded to a single subject."@en .
+
+pm:ordersClaim a owl:ObjectProperty ;
+    rdfs:label "ordnet Behauptung"@de,
+        "orders claim"@en ;
+    rdfs:domain pm:Systematizing ;
+    skos:definition "A claim that this ordering act groups. The claims keep their own attestation; only the grouping belongs to the compiler."@en .
+
+pm:protocolUpdated a owl:DatatypeProperty ;
+    rdfs:label "Protokollstand"@de,
+        "protocol updated"@en ;
+    rdfs:domain pm:Testing ;
+    rdfs:range xsd:date ;
+    skos:definition "The date on which the count was last carried forward. A protocol without this date claims a scrutiny it does not document."@en .
+
+pm:protocolledPractice a pm:Attesting ;
+    rdfs:label "Protokollierte Praxis"@de,
+        "Protocolled practice"@en ;
+    skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
+
+pm:tests a owl:ObjectProperty ;
+    rdfs:label "prüft"@de,
+        "tests"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "The claim this protocol attempts to fail."@en .
+
+pm:textualAttestation a pm:Attesting ;
+    rdfs:label "Textzeugnis"@de,
+        "Textual attestation"@en ;
+    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
+
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pm:transmissionPath a owl:DatatypeProperty ;
+    rdfs:label "Übertragungsweg"@de,
+        "transmission path"@en ;
+    rdfs:domain pm:Converging ;
+    skos:definition "A documented route of historical contact between the traditions in which the correspondence appears. Its presence downgrades the correspondence from convergence to reception."@en .
 
 pm:universalAwareness a pm:AwarenessSpace ;
     rdfs:label "Universelles Bewusstsein"@de,
@@ -134,11 +244,30 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
+
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
         "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
 pm:Conceptualizing a owl:Class ;
     rdfs:label "Begriffsbildung"@de,
@@ -150,6 +279,19 @@ pm:AwarenessSpace a owl:Class ;
     rdfs:label "Bewusstseinsraum"@de,
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
+
+pm:Attesting a owl:Class ;
+    rdfs:label "Bezeugen"@de,
+        "Attesting"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
+    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
 
 pm:AwarenessContext a owl:Class ;
     rdfs:label "Bewusstseinskontext"@de,
