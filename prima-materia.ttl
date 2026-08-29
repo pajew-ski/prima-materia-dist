@@ -31,6 +31,17 @@ pmc:AngelOfLightDeception a pm:Cautioning ;
     pm:cautionsAbout pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:ApatheiaPresupposesAscesis a pm:Presupposing ;
+    rdfs:label "Apatheia setzt asketische Arbeit voraus"@de,
+        "Apatheia presupposes ascetic labour"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 81" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Apatheia is called the flower of ascetic labour and ascetic labour is defined as the keeping of the commandments, so that where the labour is absent the freedom from the passions does not appear at all rather than appearing in a lesser degree." ;
+    pm:dependentStep pmc:Apatheia ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:Praktike ;
+    pm:withinTradition pmt:DesertMonasticism .
+
 pmc:AraqielTeachesSignsOfTheEarth a pm:Attributing ;
     rdfs:label "Araqiel offenbart die Zeichen der Erde"@de,
         "Araqiel discloses the signs of the earth"@en ;
@@ -58,6 +69,18 @@ pmc:ArmarosTeachesLoosingOfSpells a pm:Attributing ;
     pm:ascribedTo pmc:Armaros ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:AscentPresupposesTheRungs a pm:Presupposing ;
+    rdfs:label "Die Schau der Schönheit selbst setzt den Aufstieg über die Stufen voraus"@de,
+        "The vision of beauty itself presupposes the ascent by rungs"@en ;
+    dcterms:source "Plato, Symposium 211c" ;
+    skos:note "The word rendered as rungs stands in the base text at 211c, which is why this counts as a stated ordering and not as a modern reading of a sequence of paragraphs."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The ascent is described as rightly conducted only when it proceeds as by rungs of a ladder, from one body to two, from bodies to pursuits, from pursuits to studies, and thence to beauty itself; the one who does not go this way does not arrive at the final vision." ;
+    pm:dependentStep pmc:BeautyItself ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:BeautyOfOneBody ;
+    pm:withinTradition pmt:Platonic .
 
 pmc:AzazelTeachesAdornment a pm:Attributing ;
     rdfs:label "Azazel offenbart Schmuck und Kosmetik"@de,
@@ -95,6 +118,43 @@ pmc:BaraqelTeachesSignsOfLightning a pm:Attributing ;
     pm:ascribedTo pmc:Baraqel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:CompletionPresupposesGeneration a pm:Presupposing ;
+    rdfs:label "Die Vollendungsstufe setzt die Erzeugungsstufe voraus"@de,
+        "The completion stage presupposes the generation stage"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:note "The order is set by the arrangement of the treatise, which takes the generation-stage meditations before the completion-stage yogas. That the six yogas belong to the completion stage places tummo after the generation stage as well."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:CompletionStage ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:GenerationStage ;
+    pm:withinTradition pmt:TibetanTantric .
+
+pmc:ConcentrationPresupposesVirtue a pm:Presupposing ;
+    rdfs:label "Sammlung setzt Sittlichkeit voraus"@de,
+        "Concentration presupposes virtue"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga I.1 (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga I.7-I.8 (trans. Ñāṇamoli 1956)" ;
+    skos:note "The handbook is built as a commentary on a canonical verse in which the one established in virtue develops mind and understanding, and it glosses the order accordingly."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:Samadhi ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Sila ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:DirectKnowledgesPresupposeConcentration a pm:Presupposing ;
+    rdfs:label "Die höheren Kenntnisse setzen die Sammlung voraus"@de,
+        "The direct knowledges presuppose concentration"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga I.11 (trans. Ñāṇamoli 1956)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The handbook states that the six kinds of direct knowledge are arrived at with the support of perfected concentration and by nothing besides that." ;
+    pm:dependentStep pmc:Cetopariyanana,
+        pmc:Dibbacakkhu,
+        pmc:Dibbasota,
+        pmc:Iddhividha ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:Samadhi ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:DisplayOfPowersRefused a pm:Cautioning ;
     rdfs:label "Zurschaustellung der Kräfte verweigert"@de,
@@ -154,6 +214,17 @@ pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:HathaChapterOrder a pm:Presupposing ;
+    rdfs:label "Das Handbuch ordnet Haltung, Atem, Siegel und Versenkung"@de,
+        "The manual orders posture, breath, seal and absorption"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā I-IV" ;
+    skos:note "Recorded at the weakest strength on purpose. The four chapters run posture, breath, seal, absorption, and that arrangement is often cited as though it were itself a rule. The rule is in II.1; the chapter order is only an arrangement."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:NadiPurification ;
+    pm:prerequisiteStrength pm:presentationOrder ;
+    pm:priorStep pmc:Asana ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:HorripilationCorrespondence a pm:Converging ;
     rdfs:label "Die Entsprechung der Haaraufrichtung"@de,
         "The horripilation correspondence"@en ;
@@ -167,6 +238,29 @@ pmc:HorripilationCorrespondence a pm:Converging ;
     pm:independentAttestation pmt:SanskritDramaturgy,
         pmt:Theravada ;
     pm:transmissionPath "Both codifications arise within the Indian cultural sphere; independence holds at the level of genre and subject matter, not at the level of culture." .
+
+pmc:IddhiPresupposesFourteenfoldMastery a pm:Presupposing ;
+    rdfs:label "Übernatürliche Kraft setzt die vierzehnfache Beherrschung voraus"@de,
+        "Supernormal power presupposes the fourteenfold mastery"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.8 (trans. Ñāṇamoli 1956)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The handbook states that it is not possible for a meditator even to begin to accomplish transformation by supernormal power without having first completed the development of control of the mind in those fourteen ways." ;
+    pm:dependentStep pmc:Iddhividha ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:FourteenfoldMastery ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:IddhiPresupposesFourthJhana a pm:Presupposing ;
+    rdfs:label "Übernatürliche Kraft setzt die vierte Vertiefung voraus"@de,
+        "Supernormal power presupposes the fourth absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.1 (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.12-13 (trans. Ñāṇamoli 1956)" ;
+    skos:note "The handbook assigns the task to a meditator who has reached the fourth absorption and calls that absorption the natural plane for obtaining the power. It does not, at these places, say what happens to one who attempts it from elsewhere."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:Iddhividha ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:FourthJhana ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:ImperfectionsOfInsight a pm:Cautioning ;
     rdfs:label "Die Unvollkommenheiten der Einsicht"@de,
@@ -201,6 +295,16 @@ pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:KnowledgePresupposesContemplation a pm:Presupposing ;
+    rdfs:label "Gotteserkenntnis setzt Naturschau voraus"@de,
+        "Knowledge of God presupposes contemplation of nature"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 1" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:Theologike ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Physike ;
+    pm:withinTradition pmt:DesertMonasticism .
+
 pmc:KokabelTeachesConstellations a pm:Attributing ;
     rdfs:label "Kokabel offenbart die Sternbilder"@de,
         "Kokabel discloses the constellations"@en ;
@@ -219,6 +323,21 @@ pmc:KokabelTeachesSignsOfTheStars a pm:Attributing ;
     pm:ascribedTo pmc:Kokabel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:LovePresupposesApatheia a pm:Presupposing ;
+    rdfs:label "Liebe setzt Apatheia voraus, Erkenntnis die Liebe"@de,
+        "Love presupposes apatheia, and knowledge presupposes love"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 81",
+        "Evagrius Ponticus, Praktikos 84" ;
+    skos:note "The chain is stated as generation and not as sequence: each term is the child or the flower of the one before it. That is why the strength here is necessity, and why a consequence can be quoted at all."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Love is called the offspring of apatheia and is said to keep the door to the contemplation of created things, so that without it the door is not passed." ;
+    pm:dependentStep pmc:Agape,
+        pmc:Physike ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:Agape,
+        pmc:Apatheia ;
+    pm:withinTradition pmt:DesertMonasticism .
 
 pmc:NoQuantitativeVerification a pm:Cautioning ;
     rdfs:label "Keine Zählung gegen den Zufall in den alten Quellen"@de,
@@ -252,6 +371,28 @@ pmc:PenemueTeachesWriting a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:PranayamaPresupposesAsana a pm:Presupposing ;
+    rdfs:label "Atemregulierung setzt Festigkeit in der Haltung voraus"@de,
+        "Breath regulation presupposes firmness in posture"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.1" ;
+    skos:note "The verse opens the breath chapter by requiring that the practitioner first be established in posture and in a measured diet, and that the breath practice then follow the instruction of a teacher. The condition is in the base text, not in a commentary."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:HathaPranayama ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Asana ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
+    rdfs:label "Das Hören mit dem Qi setzt das Leeren des Herzens voraus"@de,
+        "Attending with the qi presupposes the emptying of the heart"@en ;
+    dcterms:source "Zhuangzi 4" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "In the dialogue the disciple is told outright that he is not yet ready, and is sent back to empty the heart before anything further; the hearing that stops at the ears and the heart-mind does not reach the qi at all." ;
+    pm:dependentStep pmc:Qi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:EmptyingOfTheHeart ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:Saktipata a pm:Conceptualizing ;
     rdfs:label "Herabkunft der Kraft"@de,
         "Descent of power"@en ;
@@ -261,6 +402,18 @@ pmc:Saktipata a pm:Conceptualizing ;
     skos:definition "The transfer of power from one who has it to one who does not, graded in the Kashmirian exegesis into nine degrees."@en ;
     skos:note "The sources give transfer by glance, by touch and by word. The specifically manual modality of the modern draft is not attested here."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
+    rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
+        "The three inner limbs are inner to the preceding five"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.7",
+        "Patañjali, Yogasūtra III.8" ;
+    skos:note "The base text ranks the last three limbs as inner with respect to the preceding five, and then ranks even those three as outer with respect to the seedless absorption. It sets a relation of inner and outer, not a rule that one cannot be attempted before the other, and it says nothing about what follows from disregarding the ranking."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:Samyama ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:AstangaLimbs ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:SamyamaYieldsDivyaCaksus a pm:Yielding ;
     rdfs:label "Saṃyama auf die Sonne bringt Weltkenntnis hervor"@de,
@@ -324,6 +477,17 @@ pmc:SattvikaBhava a pm:Conceptualizing ;
     skos:definition "Eight bodily signs held to arise from the inner constitution rather than from will: paralysis, perspiration, horripilation, change of voice, trembling, change of colour, tears, and fainting."@en ;
     pm:withinTradition pmt:SanskritDramaturgy .
 
+pmc:SerialReadingOfTheEightLimbs a pm:Systematizing ;
+    rdfs:label "Die serielle Lesart der acht Glieder"@de,
+        "The serial reading of the eight limbs"@en ;
+    dcterms:date "20th century" ;
+    dcterms:source "Patañjali, Yogasūtra II.29" ;
+    skos:definition "The reading of the eight limbs as a ladder that must be climbed in order, each limb a precondition of the next."@en ;
+    skos:note "The inner and outer categories come from the commentarial layer, and the hardening of the ranking into a rule of practice belongs to twentieth-century yoga pedagogy. Recorded here so that the reading is available as what it is. The base text at II.29 enumerates and does not order."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:compiledBy "The commentarial tradition, sharpened in twentieth-century yoga pedagogy" ;
+    pm:ordersClaim pmc:AstangaLimbs .
+
 pmc:SevenCentreQualityMapping a pm:Systematizing ;
     rdfs:label "Die Zuordnung von sieben Zentren zu Eigenschaften"@de,
         "The seven-centre quality mapping"@en ;
@@ -375,6 +539,71 @@ pmc:SiddhisAsObstacle a pm:Cautioning ;
         pmc:ParacittaJnana,
         pmc:ParakayaPravesa ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:SpiritPresupposesBreath a pm:Presupposing ;
+    rdfs:label "Die Verfeinerung des Geistes setzt die des Atems voraus"@de,
+        "Refining spirit presupposes refining breath"@en ;
+    dcterms:source "Chen Zhixu, Jindan dayao, juan 4" ;
+    skos:note "Recorded from the Yuan-period witness, not from the Han or Song works to which the sequence is commonly credited."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:NeidanThreeStages ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Qi ;
+    pm:withinTradition pmt:Daoist .
+
+pmc:StatesAreNotOrdered a pm:Cautioning ;
+    rdfs:label "Die Zustände werden nicht der Reihe nach erlangt"@de,
+        "The states are not attained in order"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:definition "A warning against treating the given states as a further ladder: they descend and pass, and no course of effort produces them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:Ahwal ;
+    pm:withinTradition pmt:Sufism .
+
+pmc:StationsPresupposeTheOneBelow a pm:Presupposing ;
+    rdfs:label "Eine Station setzt die darunterliegende voraus"@de,
+        "A station presupposes the station below it"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:note "The handbooks set turning back as the first station and hold that the one below must be kept before the one above is reached. The enumeration and the count of the stations differ between the handbooks; the precedence of turning back does not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:Maqamat ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Tawba ;
+    pm:withinTradition pmt:Sufism .
+
+pmc:SuccessPresupposesNadiPurification a pm:Presupposing ;
+    rdfs:label "Erfolg der Praxis setzt die Reinigung der Kanäle voraus"@de,
+        "Success in the practice presupposes purification of the channels"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.19-20",
+        "Svātmārāma, Haṭhayogapradīpikā II.6" ;
+    skos:note "The text directs the breath practice at clearing the impurity of the central channel and gives the outward signs by which accomplished purification is known. It makes success depend on the purification without stating in these verses what befalls one who proceeds without it, which is why the strength here is order and not necessity."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:HathaPranayama ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:NadiPurification ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmc:ThreefoldAscentOrder a pm:Presupposing ;
+    rdfs:label "Naturschau setzt asketische Praxis voraus"@de,
+        "Contemplation of nature presupposes ascetic practice"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 1" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:Physike ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:Praktike ;
+    pm:withinTradition pmt:DesertMonasticism .
+
+pmc:TrainingPresupposesPreliminaries a pm:Presupposing ;
+    rdfs:label "Das Training setzt die Vorbereitungen voraus"@de,
+        "The training presupposes the preliminaries"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:GenerationStage ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:Preliminaries ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmc:TummoHeatExamination a pm:Testing ;
     rdfs:label "Prüfung der Tummo-Hitze-Behauptung"@de,
@@ -579,12 +808,25 @@ pm:compiledBy a owl:DatatypeProperty ;
     rdfs:domain pm:Systematizing ;
     skos:definition "The named compiler who performed the ordering act. Without it, an order made in the present is indistinguishable from an order found in the source."@en .
 
+pm:consequenceOfSkipping a owl:DatatypeProperty ;
+    rdfs:label "Folge des Überspringens"@de,
+        "consequence of skipping"@en ;
+    rdfs:domain pm:Presupposing ;
+    skos:definition "What the source says happens if the prior step is passed over."@en ;
+    skos:note "Required wherever the strength is pm:statedNecessity. Claiming that a text sets a necessity obliges the claimant to say what the text says goes wrong without it; a necessity nobody can quote a consequence for is an order read as a necessity."@en .
+
 pm:convergingConcept a owl:ObjectProperty ;
     rdfs:label "konvergierender Begriff"@de,
         "converging concept"@en ;
     rdfs:domain pm:Converging ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "A concept that participates in the observed correspondence."@en .
+
+pm:dependentStep a owl:ObjectProperty ;
+    rdfs:label "abhängiger Schritt"@de,
+        "dependent step"@en ;
+    rdfs:domain pm:Presupposing ;
+    skos:definition "The later step: the practice, state or capacity said not to be reached without the prior one."@en .
 
 pm:dyadicAwareness a pm:AwarenessSpace ;
     rdfs:label "Dyadisches Bewusstsein"@de,
@@ -659,6 +901,19 @@ pm:ordersClaim a owl:ObjectProperty ;
         "orders claim"@en ;
     rdfs:domain pm:Systematizing ;
     skos:definition "A claim that this ordering act groups. The claims keep their own attestation; only the grouping belongs to the compiler."@en .
+
+pm:prerequisiteStrength a owl:ObjectProperty ;
+    rdfs:label "Stärke der Voraussetzung"@de,
+        "prerequisite strength"@en ;
+    rdfs:domain pm:Presupposing ;
+    rdfs:range pm:PrerequisiteStrength ;
+    skos:definition "How firmly the source sets the prerequisite."@en .
+
+pm:priorStep a owl:ObjectProperty ;
+    rdfs:label "vorausgesetzter Schritt"@de,
+        "prior step"@en ;
+    rdfs:domain pm:Presupposing ;
+    skos:definition "The earlier step the later one is said to require."@en .
 
 pm:protocolUpdated a owl:DatatypeProperty ;
     rdfs:label "Protokollstand"@de,
@@ -747,6 +1002,15 @@ pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     skos:definition "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Ahwal a pm:Conceptualizing ;
+    rdfs:label "Zustände"@de,
+        "States"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:definition "Conditions that descend on the wayfarer as a gift and pass, distinguished in the handbooks from the stations precisely by not being attainable through effort."@en ;
+    skos:note "No prerequisite claim is entered for these. The tradition holds that they cannot be worked for, which is a claim about the limits of any ordering and not an omission in this record."@en ;
+    pm:withinTradition pmt:Sufism .
+
 pmc:Araqiel a pm:Conceptualizing ;
     rdfs:label "Araqiel"@de,
         "Araqiel"@en ;
@@ -769,6 +1033,20 @@ pmc:Astrology a pm:Conceptualizing ;
     skos:definition "The reading of terrestrial import from the position of the heavenly bodies."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:BeautyItself a pm:Conceptualizing ;
+    rdfs:label "Die Schönheit selbst"@de,
+        "Beauty itself"@en ;
+    dcterms:source "Plato, Symposium 211c-212a" ;
+    skos:definition "The final object of the ascent, seen only by one who has climbed by way of the intervening rungs."@en ;
+    pm:withinTradition pmt:Platonic .
+
+pmc:BeautyOfOneBody a pm:Conceptualizing ;
+    rdfs:label "Die Schönheit eines Körpers"@de,
+        "The beauty of one body"@en ;
+    dcterms:source "Plato, Symposium 210a-211c" ;
+    skos:definition "The first object of the ascent, from which the climb begins."@en ;
+    pm:withinTradition pmt:Platonic .
+
 pmc:Cakra a pm:Conceptualizing ;
     rdfs:label "Cakra"@de,
         "Cakra"@en ;
@@ -777,12 +1055,12 @@ pmc:Cakra a pm:Conceptualizing ;
     skos:note "The count varies across the older tantras, which give four, five or six. The tradition does not assign the centres the psychological qualities that modern presentations attach to them."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
-pmc:Cetopariyanana a pm:Conceptualizing ;
-    rdfs:label "Kenntnis fremden Bewusstseins"@de,
-        "Knowledge encompassing another mind"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
-    skos:definition "Knowledge of the state of another consciousness."@en ;
-    pm:withinTradition pmt:Theravada .
+pmc:CompletionStage a pm:Conceptualizing ;
+    rdfs:label "Vollendungsstufe"@de,
+        "Completion stage"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The second of the two stages, to which the six yogas belong."@en ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmc:Constellations a pm:Conceptualizing ;
     rdfs:label "Die Sternbilder"@de,
@@ -798,20 +1076,6 @@ pmc:CourseOfTheMoon a pm:Conceptualizing ;
     skos:definition "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."@en ;
     pm:withinTradition pmt:Enochic .
 
-pmc:Dibbacakkhu a pm:Conceptualizing ;
-    rdfs:label "Göttliches Auge"@de,
-        "Divine eye"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
-    skos:definition "Sight beyond the range of the physical eye."@en ;
-    pm:withinTradition pmt:Theravada .
-
-pmc:Dibbasota a pm:Conceptualizing ;
-    rdfs:label "Göttliches Ohr"@de,
-        "Divine ear"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
-    skos:definition "Hearing beyond the range of the physical ear."@en ;
-    pm:withinTradition pmt:Theravada .
-
 pmc:DiscernmentOfBitterAndSweet a pm:Conceptualizing ;
     rdfs:label "Unterscheidung von bitter und süß"@de,
         "Discernment of bitter and sweet"@en ;
@@ -819,12 +1083,27 @@ pmc:DiscernmentOfBitterAndSweet a pm:Conceptualizing ;
     skos:definition "The disclosure of the distinction of bitter from sweet, given in the text alongside the secrets of wisdom."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
+    rdfs:label "Fasten des Herzens"@de,
+        "Fasting of the heart"@en ;
+    dcterms:source "Zhuangzi 4" ;
+    skos:definition "A graded emptying in which listening passes from the ears to the heart-mind and from the heart-mind to the qi, until only emptiness remains for the way to gather in."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:Ezeqeel a pm:Conceptualizing ;
     rdfs:label "Ezeqeel"@de,
         "Ezeqeel"@en ;
     dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
     skos:definition "A Watcher named in the Ethiopic teaching list as the one who disclosed the knowledge of the clouds."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:FourthJhana a pm:Conceptualizing ;
+    rdfs:label "Die vierte Vertiefung"@de,
+        "The fourth absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.1 (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.49 (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The absorption from which the handbook has the supernormal powers proceed, and which it calls their natural plane."@en ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:Gadreel a pm:Conceptualizing ;
     rdfs:label "Gadreel"@de,
@@ -870,12 +1149,28 @@ pmc:LoosingOfSpells a pm:Conceptualizing ;
     skos:definition "The undoing of a binding laid by another, held in the text as a distinct art from the laying of it."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Maqamat a pm:Conceptualizing ;
+    rdfs:label "Stationen"@de,
+        "Stations"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
+    pm:withinTradition pmt:Sufism .
+
 pmc:Metalworking a pm:Conceptualizing ;
     rdfs:label "Metallverarbeitung und Waffenherstellung"@de,
         "Metalworking and weapon-making"@en ;
     dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
     skos:definition "Knowledge of the metals of the earth and of working them into blades, shields and body armour."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:NeidanThreeStages a pm:Conceptualizing ;
+    rdfs:label "Die drei Stufen des inneren Elixiers"@de,
+        "The three stages of the inner elixir"@en ;
+    dcterms:source "Chen Zhixu, Jindan dayao, juan 4" ;
+    skos:definition "Refining essence into breath, breath into spirit, and spirit back into emptiness."@en ;
+    skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:Pneuma a pm:Conceptualizing ;
     rdfs:label "Pneuma"@de,
@@ -892,13 +1187,6 @@ pmc:Prana a pm:Conceptualizing ;
         "Chāndogya Upaniṣad 7.15.1" ;
     skos:definition "Vital breath, presented as that on which the parts of the person rest and out of which beings come forth, in the image of a wheel resting on its hub."@en ;
     pm:withinTradition pmt:Upanisadic .
-
-pmc:Qi a pm:Conceptualizing ;
-    rdfs:label "Qi"@de,
-        "Qi"@en ;
-    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
-    skos:definition "The vital breath or energy held to circulate in the body and to be susceptible of deliberate direction."@en ;
-    pm:withinTradition pmt:Daoist .
 
 pmc:Romanca a pm:Conceptualizing ;
     rdfs:label "Haaraufrichtung"@de,
@@ -981,6 +1269,13 @@ pmc:SignsOfTheSun a pm:Conceptualizing ;
     skos:definition "The reading of import from the sun."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Sila a pm:Conceptualizing ;
+    rdfs:label "Sittlichkeit"@de,
+        "Virtue"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga I.1-I.8 (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The first of the three trainings, on which the handbook is built as a commentary on the verse about the tangle."@en ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:SpellCasting a pm:Conceptualizing ;
     rdfs:label "Beschwörung"@de,
         "Spell-casting"@en ;
@@ -994,6 +1289,13 @@ pmc:StrikingOfSpirits a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
     skos:definition "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Tawba a pm:Conceptualizing ;
+    rdfs:label "Umkehr"@de,
+        "Turning back"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations" ;
+    skos:definition "Repentance, placed first among the stations in the handbook enumeration."@en ;
+    pm:withinTradition pmt:Sufism .
 
 pmc:TestingOfThoughts a pm:Testing ;
     rdfs:label "Die Prüfung der Gedanken"@de,
@@ -1010,6 +1312,13 @@ pmc:TestingOfThoughts a pm:Testing ;
     pm:protocolUpdated "2026-08-28" ;
     pm:tests pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:Theologike a pm:Conceptualizing ;
+    rdfs:label "Theologikē"@de,
+        "Knowledge of God"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 1" ;
+    skos:definition "The third of the three parts, the knowledge of God."@en ;
+    pm:withinTradition pmt:DesertMonasticism .
 
 pmc:TummoYieldsInnerHeat a pm:Yielding ;
     rdfs:label "Tummo bringt innere Hitze hervor"@de,
@@ -1066,6 +1375,11 @@ pm:casesWithDeviation a pm:ExaminationState ;
         "Cases with deviation"@en ;
     skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
+pm:presentationOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Darstellungsreihenfolge"@de,
+        "Presentation order"@en ;
+    skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
+
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
@@ -1084,6 +1398,24 @@ pmp:Anapanasati a pm:Practicing ;
     skos:definition "Mindfulness of in-breath and out-breath, set out as a sixteen-step progression in the discourse and as a meditation subject in the handbook."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Theravada .
+
+pmp:FourteenfoldMastery a pm:Practicing ;
+    rdfs:label "Beherrschung des Geistes in vierzehn Weisen"@de,
+        "Control of the mind in fourteen ways"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.2 (trans. Ñāṇamoli 1956)" ;
+    skos:definition "A numbered course of mastery over the meditation objects, among them the order of the kasiṇa and its reverse, skipping the absorption, skipping the object, and the definition of the object."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Theravada .
+
+pmp:Preliminaries a pm:Practicing ;
+    rdfs:label "Die Vorbereitungen"@de,
+        "The preliminaries"@en ;
+    dcterms:source "Patrul Rinpoche, Kun bzang bla ma'i zhal lung (19th century)",
+        "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The general and the tantra-specific preliminaries, placed before the training in either stage."@en ;
+    skos:note "A dating warning belongs here. The preliminaries are set before the training in the fifteenth-century treatise, but the sharpest codification of them as an obligatory course is nineteenth-century, in Patrul Rinpoche's manual. Their presence in the older text does not license reading the later regime back into it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmp:Tummo a pm:Practicing ;
     rdfs:label "Tummo"@de,
@@ -1111,6 +1443,36 @@ pmt:StoicPhysics a pm:Tradition ;
     dcterms:source "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8" ;
     skos:definition "The Stoic doctrine of a fiery breath that pervades matter and holds it together."@en .
 
+pmc:Agape a pm:Conceptualizing ;
+    rdfs:label "Liebe"@de,
+        "Love"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 81",
+        "Evagrius Ponticus, Praktikos 84" ;
+    skos:definition "Called the offspring of apatheia and the keeper of the door to the contemplation of created things."@en ;
+    pm:withinTradition pmt:DesertMonasticism .
+
+pmc:Apatheia a pm:Conceptualizing ;
+    rdfs:label "Apatheia"@de,
+        "Apatheia"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 81" ;
+    skos:definition "Freedom from the disturbance of the passions, called the flower of ascetic labour."@en ;
+    pm:withinTradition pmt:DesertMonasticism .
+
+pmc:Asana a pm:Conceptualizing ;
+    rdfs:label "Sitzhaltung"@de,
+        "Posture"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā I" ;
+    skos:definition "The seat, treated in the first chapter as the first limb of the practice."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmc:AstangaLimbs a pm:Conceptualizing ;
+    rdfs:label "Die acht Glieder"@de,
+        "The eight limbs"@en ;
+    dcterms:source "Patañjali, Yogasūtra II.29" ;
+    skos:definition "Restraint, observance, posture, breath regulation, withdrawal of the senses, concentration, meditation and absorption, listed together in a single sūtra."@en ;
+    skos:note "The sūtra names them and says nothing about traversing them in order."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
 pmc:Azazel a pm:Conceptualizing ;
     rdfs:label "Azazel"@de,
         "Azazel"@en ;
@@ -1127,6 +1489,27 @@ pmc:Baraqel a pm:Conceptualizing ;
     skos:definition "A Watcher whose teaching concerns celestial signs; the two recensions differ on which."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Cetopariyanana a pm:Conceptualizing ;
+    rdfs:label "Kenntnis fremden Bewusstseins"@de,
+        "Knowledge encompassing another mind"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Knowledge of the state of another consciousness."@en ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:Dibbacakkhu a pm:Conceptualizing ;
+    rdfs:label "Göttliches Auge"@de,
+        "Divine eye"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Sight beyond the range of the physical eye."@en ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:Dibbasota a pm:Conceptualizing ;
+    rdfs:label "Göttliches Ohr"@de,
+        "Divine ear"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:DivyaCaksus a pm:Conceptualizing ;
     rdfs:label "Göttliches Auge"@de,
         "Divine eye"@en ;
@@ -1140,6 +1523,13 @@ pmc:DivyaSrotra a pm:Conceptualizing ;
     dcterms:source "Patañjali, Yogasūtra III.41" ;
     skos:definition "Hearing beyond the range of the physical ear."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:GenerationStage a pm:Conceptualizing ;
+    rdfs:label "Erzeugungsstufe"@de,
+        "Generation stage"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The first of the two stages of the highest tantra, treated before the completion stage in the training."@en ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmc:Kokabel a pm:Conceptualizing ;
     rdfs:label "Kokabel"@de,
@@ -1163,6 +1553,14 @@ pmc:Manomayakaya a pm:Conceptualizing ;
     skos:definition "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:NadiPurification a pm:Conceptualizing ;
+    rdfs:label "Reinigung der Kanäle"@de,
+        "Purification of the channels"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.19-20",
+        "Svātmārāma, Haṭhayogapradīpikā II.6" ;
+    skos:definition "The clearing of impurity from the channels, at which the breath practice is said to aim, and whose accomplishment the text says shows outwardly in the body."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:ParacittaJnana a pm:Conceptualizing ;
     rdfs:label "Kenntnis fremden Bewusstseins"@de,
         "Knowledge of another mind"@en ;
@@ -1176,6 +1574,20 @@ pmc:Penemue a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:8 (Ethiopic; Charles 1912)" ;
     skos:definition "A figure named in the Book of Parables as the one who disclosed the distinction of bitter and sweet and the art of writing."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Praktike a pm:Conceptualizing ;
+    rdfs:label "Praktikē"@de,
+        "Ascetic practice"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 1" ;
+    skos:definition "The first of the three parts of the way, consisting in the keeping of the commandments and the labour against the passions."@en ;
+    pm:withinTradition pmt:DesertMonasticism .
+
+pmc:Samadhi a pm:Conceptualizing ;
+    rdfs:label "Sammlung"@de,
+        "Concentration"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga I.7-I.11 (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The second of the three trainings, named in the handbook as the condition for the six direct knowledges."@en ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:Sariel a pm:Conceptualizing ;
     rdfs:label "Sariel"@de,
@@ -1206,6 +1618,14 @@ pm:thirdPartyAscription a pm:Attesting ;
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
+pmp:HathaPranayama a pm:Practicing ;
+    rdfs:label "Atemregulierung im Haṭhayoga"@de,
+        "Breath regulation in Haṭhayoga"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II" ;
+    skos:definition "The breath practice of the second chapter, directed at the clearing of the central channel."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmt:Upanisadic a pm:Tradition ;
     rdfs:label "Upaniṣadische Überlieferung"@de,
         "Upaniṣadic tradition"@en ;
@@ -1219,6 +1639,13 @@ pmc:DiscernmentOfOrigins a pm:Conceptualizing ;
         "Evagrius Ponticus, Praktikos 80" ;
     skos:definition "The examination of an inner movement for its origin, distinguished threefold as angelic, human or demonic."@en ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:Iddhividha a pm:Conceptualizing ;
+    rdfs:label "Die Arten übernatürlicher Kraft"@de,
+        "The kinds of supernormal power"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Transformation by supernormal power, the first of the direct knowledges treated in the handbook."@en ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:InnerHeat a pm:Conceptualizing ;
     rdfs:label "Innere Hitze"@de,
@@ -1234,6 +1661,13 @@ pmc:ParakayaPravesa a pm:Conceptualizing ;
     skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
 
+pmc:Physike a pm:Conceptualizing ;
+    rdfs:label "Physikē"@de,
+        "Contemplation of nature"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos 1" ;
+    skos:definition "The second of the three parts, the contemplation of created things."@en ;
+    pm:withinTradition pmt:DesertMonasticism .
+
 pmc:Piti a pm:Conceptualizing ;
     rdfs:label "Pīti"@de,
         "Pīti"@en ;
@@ -1242,17 +1676,18 @@ pmc:Piti a pm:Conceptualizing ;
     skos:note "The five degrees are khuddikā, khaṇikā, okkantikā, ubbegā and pharaṇā."@en ;
     pm:withinTradition pmt:Theravada .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
-pmt:Daoist a pm:Tradition ;
-    rdfs:label "Daoistische Überlieferung"@de,
-        "Daoist tradition"@en ;
+pmc:Qi a pm:Conceptualizing ;
+    rdfs:label "Qi"@de,
+        "Qi"@en ;
     dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
-    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en .
+    skos:definition "The vital breath or energy held to circulate in the body and to be susceptible of deliberate direction."@en ;
+    pm:withinTradition pmt:Daoist .
+
+pmt:Platonic a pm:Tradition ;
+    rdfs:label "Platonische Überlieferung"@de,
+        "Platonic tradition"@en ;
+    dcterms:source "Plato, Symposium 210a-212a" ;
+    skos:definition "The transmission of the Platonic dialogues and the ascent they describe from particular to intelligible beauty."@en .
 
 pmt:SanskritDramaturgy a pm:Tradition ;
     rdfs:label "Sanskritische Dramaturgie"@de,
@@ -1260,13 +1695,18 @@ pmt:SanskritDramaturgy a pm:Tradition ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en .
 
-pmp:Samyama a pm:Practicing ;
-    rdfs:label "Saṃyama"@de,
-        "Saṃyama"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.1-3" ;
-    skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:PatanjalaYoga .
+pm:PrerequisiteStrength a owl:Class ;
+    rdfs:label "Stärke der Voraussetzung"@de,
+        "Prerequisite Strength"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
+    skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
@@ -1292,11 +1732,19 @@ pm:ExaminationState a owl:Class ;
     skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en .
 
-pmt:TibetanTantric a pm:Tradition ;
-    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
-        "Tibetan tantric tradition"@en ;
-    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
-    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
+pmp:Samyama a pm:Practicing ;
+    rdfs:label "Saṃyama"@de,
+        "Saṃyama"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-3" ;
+    skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
+pmt:Sufism a pm:Tradition ;
+    rdfs:label "Sufismus"@de,
+        "Sufism"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya" ;
+    skos:definition "The transmission of the Islamic mystical path, systematised in the handbooks of the tenth and eleventh centuries."@en .
 
 pm:Attesting a owl:Class ;
     rdfs:label "Bezeugen"@de,
@@ -1305,11 +1753,10 @@ pm:Attesting a owl:Class ;
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
 
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -1317,17 +1764,16 @@ pmt:GraecoRoman a pm:Tradition ;
     dcterms:source "Herodotus, Histories IV.13-16" ;
     skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en .
 
+pmt:Hathayoga a pm:Tradition ;
+    rdfs:label "Haṭhayoga"@de,
+        "Haṭhayoga"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā" ;
+    skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en .
+
 pm:AwarenessContext a owl:Class ;
     rdfs:label "Bewusstseinskontext"@de,
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
-
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
@@ -1336,6 +1782,25 @@ pm:Converging a owl:Class ;
     skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
     skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pmt:Daoist a pm:Tradition ;
+    rdfs:label "Daoistische Überlieferung"@de,
+        "Daoist tradition"@en ;
+    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
         "Yielding"@en ;
@@ -1343,11 +1808,11 @@ pm:Yielding a owl:Class ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
+pmt:DesertMonasticism a pm:Tradition ;
+    rdfs:label "Wüstenmönchtum"@de,
+        "Desert monasticism"@en ;
+    dcterms:source "Evagrius Ponticus, Praktikos" ;
+    skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
@@ -1355,17 +1820,28 @@ pm:Testing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
 
+pmt:TibetanTantric a pm:Tradition ;
+    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
+        "Tibetan tantric tradition"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
+
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
         "Pātañjala Yoga"@en ;
     dcterms:source "Patañjali, Yogasūtra" ;
     skos:definition "The transmission of the Yogasūtra of Patañjali and its commentarial literature."@en .
-
-pmt:Theravada a pm:Tradition ;
-    rdfs:label "Theravāda"@de,
-        "Theravāda"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
-    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -1378,22 +1854,35 @@ pm:Tradition a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
+pm:Presupposing a owl:Class ;
+    rdfs:label "Voraussetzen"@de,
+        "Presupposing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
+    skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
+
+pmt:Theravada a pm:Tradition ;
+    rdfs:label "Theravāda"@de,
+        "Theravāda"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en .
+
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:textualAttestation a pm:Attesting ;
-    rdfs:label "Textzeugnis"@de,
-        "Textual attestation"@en ;
-    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
     dcterms:source "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction" ;
     skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en .
+
+pm:textualAttestation a pm:Attesting ;
+    rdfs:label "Textzeugnis"@de,
+        "Textual attestation"@en ;
+    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
 pm:Conceptualizing a owl:Class ;
     rdfs:label "Begriffsbildung"@de,
