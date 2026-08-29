@@ -53,6 +53,14 @@ pmc:AngelOfLightDeception a pm:Cautioning ;
     pm:cautionsAbout pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:ApanaForcedAgainstItsCourse a pm:Conceptualizing ;
+    rdfs:label "Der abwärts gerichtete Wind wird mit Gewalt aufwärts getrieben"@de,
+        "The downward wind driven upward by force"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.62" ;
+    skos:definition "The wind whose course is downward is said to be made to go upward by force; the manual states the natural course and the reversal in the same verse."@en ;
+    skos:note "This is the direct reversal of any scheme that assigns downward carriage to an operation in the lower abdomen. The manual has the abdominal operation carry upward, and has the operation at the throat press the other wind down. Both assignments are the opposite of the one the modern draft makes. See prima-materia#28."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:ApatheiaPresupposesAscesis a pm:Presupposing ;
     rdfs:label "Apatheia setzt asketische Arbeit voraus"@de,
         "Apatheia presupposes ascetic labour"@en ;
@@ -149,6 +157,27 @@ pmc:BaraqelTeachesSignsOfLightning a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:BhastrikaPresupposesLevelNeckAndTrunk a pm:Presupposing ;
+    rdfs:label "Der Blasebalgatem setzt einen gerade gehaltenen Hals und Rumpf voraus"@de,
+        "The bellows breath presupposes neck and trunk held level"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.60" ;
+    skos:note "The verse binds the lotus seat, a level neck and trunk, and a carefully closed mouth into the one instruction that opens the bellows breath. It is the only place in the breath chapter where the alignment of the spine is stated as a condition of a breath practice, and it is stated for one practice, not for the chapter. See prima-materia#29."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:HathaPranayama ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ErectTrunkInSwastikasana ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
+    rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
+        "The chin pressed to the chest in the two seats the manual prefers"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā I.37",
+        "Svātmārāma, Haṭhayogapradīpikā I.46",
+        "Svātmārāma, Haṭhayogapradīpikā I.48" ;
+    skos:definition "In the two seats the manual singles out as chief, the chin is set firmly against the chest and the gaze is fixed between the brows or at the tip of the nose."@en ;
+    skos:note "This is the counterweight to any claim that the manual requires an erect spine throughout. The seats it recommends most warmly close the neck rather than extend it, and the same posture chapter has the tongue set against the roots of the upper teeth while the wind is drawn upward. Uprightness of the trunk is attested; uprightness carried through the neck and head is contradicted in the same work. See prima-materia#29."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:CompletionPresupposesGeneration a pm:Presupposing ;
     rdfs:label "Die Vollendungsstufe setzt die Erzeugungsstufe voraus"@de,
         "The completion stage presupposes the generation stage"@en ;
@@ -172,6 +201,18 @@ pmc:ConcentrationPresupposesVirtue a pm:Presupposing ;
     pm:priorStep pmc:Sila ;
     pm:withinTradition pmt:Theravada .
 
+pmc:DescentPresupposesDepth a pm:Presupposing ;
+    rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
+        "The descent presupposes the depth that gathers the breath"@en ;
+    dcterms:source "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125" ;
+    skos:note "Recorded at stated necessity because a consequence is quotable, which is unusual: most sequences in this collection state an order and leave the consequence unsaid. The strength rests on the closing line, not on the chain of conditionals, which on its own would carry only a prescribed order."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The inscription closes by setting the two outcomes against each other: to go with the sequence is to live, to go against it is to die. The consequence is stated for the order as a whole, and every stage is joined to the one before it by the same conditional form." ;
+    pm:dependentStep pmc:XingqiDescent ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:XingqiDepth ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:DirectKnowledgesPresupposeConcentration a pm:Presupposing ;
     rdfs:label "Die höheren Kenntnisse setzen die Sammlung voraus"@de,
         "The direct knowledges presuppose concentration"@en ;
@@ -185,6 +226,19 @@ pmc:DirectKnowledgesPresupposeConcentration a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:Samadhi ;
     pm:withinTradition pmt:Theravada .
+
+pmc:DirectionIsNotThePhaseOfBreathing a pm:Converging ;
+    rdfs:label "Die Richtung trägt eine gestufte Bahn, nicht die Atemphase"@de,
+        "Direction is carried by a graded course, not by the phase of breathing"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.47",
+        "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125" ;
+    skos:definition "Two traditions assign direction inside the body to something other than inhaling and exhaling. One assigns it to two winds driven against each other in a single operation; the other to a place in a graded sequence, with descent in the middle of it and ascent at its end. Neither pairs a direction with a phase of the breath."@en ;
+    skos:note "A second correspondence sits alongside this one and is deliberately not asserted as a separate node yet: both traditions sanction the wrong handling of the breath with death, the one saying that the breath kills the practitioner who forces it, the other that going against the sequence is to die. Two death sanctions are a thinner finding than they look, since a warning of death is the commonest form a strong prohibition takes anywhere, and the two do not agree on what the fault is: one names haste and force, the other names reversal of order. Recorded here so that the next reader can weigh it rather than rediscover it."@en,
+        "The independence is asymmetric and the node says so rather than claiming more than it has. The jade inscription is dated to the fourth or third century before the common era on the reading this collection follows, which is earlier than any documented transmission of Indian breath technique into China; for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions, so its side of the correspondence cannot be declared contact-free with the same confidence. What the two share is therefore better read as one early independent witness and one late witness of uncertain independence, which is weaker than a convergence of two early ones and stronger than a citation chain."@en ;
+    pm:convergingConcept pmc:OpposedDirectionsOfPranaAndApana,
+        pmc:XingqiDescent ;
+    pm:independentAttestation pmt:Daoist,
+        pmt:Hathayoga .
 
 pmc:DisplayOfPowersRefused a pm:Cautioning ;
     rdfs:label "Zurschaustellung der Kräfte verweigert"@de,
@@ -265,6 +319,17 @@ pmc:EzeqeelTeachesKnowledgeOfClouds a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:ForcedBreathCaution a pm:Cautioning ;
+    rdfs:label "Ein erzwungener statt allmählich gezähmter Atem tötet den Übenden"@de,
+        "Breath forced rather than tamed by degrees kills the practitioner"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.15",
+        "Svātmārāma, Haṭhayogapradīpikā II.16-17" ;
+    skos:definition "A warning that the breath is to be mastered by degrees as a lion, an elephant or a tiger is mastered, and that it destroys the one who proceeds otherwise; performed wrongly, the practice is said to generate the very ailments it removes when performed rightly."@en ;
+    skos:note "The named consequences are hiccough, laboured breathing, cough, and pain in head, ears and eyes. This is the strongest thing the manual says about the manner of breathing, and it concerns pace and force, not the opening the breath passes through. See prima-materia#26."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:HathaPranayama ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     rdfs:label "Gadreel offenbart die Waffen des Todes"@de,
         "Gadreel discloses the weapons of death"@en ;
@@ -297,6 +362,17 @@ pmc:HathaChapterOrder a pm:Presupposing ;
     pm:prerequisiteStrength pm:presentationOrder ;
     pm:priorStep pmc:Asana ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:HathapradipikaRecensionDispute a pm:Disputing ;
+    rdfs:label "Textbestand und Verszählung des Handbuchs hängen von der Ausgabe ab"@de,
+        "The text and the verse numbering of the manual are edition-dependent"@en ;
+    dcterms:source "Svātmārāma, Haṭhapradīpikā, critical edition, Kaivalyadhama S.M.Y.M. Samiti, Lonavla",
+        "Svātmārāma, Haṭhapradīpikā, critical edition, ed. J. Mallinson, J. Birch, J. Hanneder, M. Demoto and N.-J. Liersch (2024)",
+        "Svātmārāma, Haṭhayogapradīpikā, ed. and tr. P. Sinh (1915)" ;
+    skos:definition "A disagreement among editors about what belongs to the manual and how its verses are numbered. The widely circulated editions descend from single manuscripts and differ in the count and extent of their chapters; a critical edition drawn from more than two hundred manuscripts, with the oldest dated 1496, settles neither question in favour of the numbering that most citations use."@en ;
+    skos:note "Held as a node because every citation in this file carries a verse number, and a number is only as stable as the recension it comes from. The numbering used throughout this file follows the widely circulated vulgate text; a reader working from the critical edition may find the same passage under a different number. Naming the manual without naming the edition conceals that anything is at issue."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmt:Hathayoga .
 
 pmc:HorripilationCorrespondence a pm:Converging ;
     rdfs:label "Die Entsprechung der Haaraufrichtung"@de,
@@ -345,6 +421,14 @@ pmc:ImperfectionsOfInsight a pm:Cautioning ;
     pm:cautionsAbout pmc:Piti ;
     pm:withinTradition pmt:Theravada .
 
+pmc:InaudibleAndUnevenBreath a pm:Conceptualizing ;
+    rdfs:label "Der für den Übenden selbst unhörbare Atem, kürzer aus als ein"@de,
+        "The breath inaudible to its own bearer and shorter out than in"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8" ;
+    skos:definition "Two marks set on the practice: one is not to hear the sound of one's own breathing, and a feather held before nose and mouth is not to stir; and one is always to give out less than one has taken in."@en ;
+    skos:note "The intake is at the nose and the release at the mouth. The distribution is the reverse of the one a modern draft assigns, which treats mouth breathing as a fault on the intake and says nothing of the release. The passage also fixes the pace by an external test rather than by a count of seconds, which is what makes it examinable at all. See prima-materia#26."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:IndoTibetanReception a pm:Converging ;
     rdfs:label "Indo-tibetische Rezeption, keine Konvergenz"@de,
         "Indo-Tibetan reception, not convergence"@en ;
@@ -390,6 +474,28 @@ pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     pm:ascribedTo pmc:Kasdeja ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:KevalaPresupposesSahita a pm:Presupposing ;
+    rdfs:label "Das alleinige Anhalten setzt das Anhalten mit Füllen und Leeren voraus"@de,
+        "Retention alone presupposes retention with filling and emptying"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.72" ;
+    skos:note "The instruction is to keep practising the accompanied form until the unaccompanied one succeeds. Recorded at prescribed order because the verse sets a sequence without saying what befalls one who skips it. The direction of the breath drops out at the top of this sequence, which is what makes the claim that inhalation draws and exhalation expels a claim about the lower rungs only. See prima-materia#27."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:KevalaKumbhaka ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:HathaPranayama ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmc:KhecariYieldsRetention a pm:Yielding ;
+    rdfs:label "Die über den Gaumen gelegte Zunge bringt das Zurückhalten des Nektars hervor"@de,
+        "The tongue set above the palate yields the retention of the nectar"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.42",
+        "Svātmārāma, Haṭhayogapradīpikā III.51-52" ;
+    skos:note "The contact at the palate is attested, and what it is said to do is stop a descent. It is not bound to a phase of breathing anywhere in the chapter, and it is not said to carry anything upward. The same holds for the seal at the throat, which is described as closing off a downward flow. A scheme that pairs the palate with inhalation and with upward carriage takes a stopping and reports it as a conveyance. See prima-materia#28."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Khecari ;
+    pm:withinTradition pmt:Hathayoga ;
+    pm:yieldsCapacity pmc:RetentionOfTheDescendingNectar .
 
 pmc:KnowledgePresupposesContemplation a pm:Presupposing ;
     rdfs:label "Gotteserkenntnis setzt Naturschau voraus"@de,
@@ -454,6 +560,16 @@ pmc:LovePresupposesApatheia a pm:Presupposing ;
     pm:priorStep pmc:Agape,
         pmc:Apatheia ;
     pm:withinTradition pmt:DesertMonasticism .
+
+pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
+    rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
+        "The root seal yields the kindled inner fire"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.66-68" ;
+    skos:note "The pairing is set at the fire and not at the reversal on purpose. The manual defines the root seal as the drawing upward of the downward wind, so a claim that the seal produces that upward movement would assert only that the practice is what it is. The heat, the lengthened flame and the waking of the power are consequences the verses state beyond the definition, and they are what a protocol could address."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Mulabandha ;
+    pm:withinTradition pmt:Hathayoga ;
+    pm:yieldsCapacity pmc:KindledInnerFire .
 
 pmc:NoQuantitativeVerification a pm:Cautioning ;
     rdfs:label "Keine Zählung gegen den Zufall in den alten Quellen"@de,
@@ -680,6 +796,16 @@ pmc:SiddhisAsObstacle a pm:Cautioning ;
         pmc:ParacittaJnana,
         pmc:ParakayaPravesa ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:SitaliYieldsCooling a pm:Yielding ;
+    rdfs:label "Die Einatmung über die Zunge bringt Kühlung hervor"@de,
+        "Inhalation over the tongue yields cooling"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.57-58" ;
+    skos:note "Recorded because the opening through which the breath is taken is not incidental here but is what the practice consists in. Two of the eight retentions the manual lists take the breath in through the mouth and give it out through the nose; two others require the mouth held shut. The manual therefore assigns the opening per practice and does not set nasal breathing as a general rule, still less mark mouth inhalation as an error. See prima-materia#26."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Sitali ;
+    pm:withinTradition pmt:Hathayoga ;
+    pm:yieldsCapacity pmc:CoolingAndQuenching .
 
 pmc:SixteenStepsOfBreathing a pm:Presupposing ;
     rdfs:label "Die sechzehn Schritte der Atemachtsamkeit"@de,
@@ -1154,6 +1280,14 @@ pm:yieldsCapacity a owl:ObjectProperty ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "The capacity a yielding claim arrives at. That the tradition says so is the claim; that the practice produces it is not asserted."@en .
 
+pmp:Biqi a pm:Practicing ;
+    rdfs:label "Das Verschließen des Atems"@de,
+        "Closing off the breath"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8" ;
+    skos:definition "A retention counted in heartbeats: the breath is drawn in through the nose and held, then released in the smallest quantities through the mouth, the count being raised only by degrees."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Daoist .
+
 pmp:BrahmaviharaBhavana a pm:Practicing ;
     rdfs:label "Kultivierung der göttlichen Verweilungen"@de,
         "Cultivation of the divine abidings"@en ;
@@ -1177,6 +1311,22 @@ pmp:Pranayama a pm:Practicing ;
     skos:definition "The regulation of the breath as a distinct limb of practice, following posture and preceding the withdrawal of the senses."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmp:Sitkari a pm:Practicing ;
+    rdfs:label "Sītkārī"@de,
+        "Sītkārī"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.54-56" ;
+    skos:definition "A retention in which the breath is drawn in through the mouth with the tongue between the lips, producing a hissing sound, and is not let out the same way."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmp:Ujjayi a pm:Practicing ;
+    rdfs:label "Ujjāyī"@de,
+        "Ujjāyī"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.51-53" ;
+    skos:definition "A retention in which the mouth is held closed and the breath is drawn through both nostrils so that it grazes the throat and sounds as it passes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     rdfs:label "Schmuck und Kosmetik"@de,
@@ -1252,6 +1402,13 @@ pmc:Constellations a pm:Conceptualizing ;
     skos:definition "Knowledge of the fixed groupings of stars."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:CoolingAndQuenching a pm:Conceptualizing ;
+    rdfs:label "Kühlung und das Stillen von Hunger und Durst"@de,
+        "Cooling and the quenching of hunger and thirst"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.58" ;
+    skos:definition "The state ascribed to the cooling retention: fever, bile, hunger, thirst and the effect of poisons are said to be put down."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:CourseOfTheMoon a pm:Conceptualizing ;
     rdfs:label "Der Lauf des Mondes"@de,
         "The course of the moon"@en ;
@@ -1272,6 +1429,13 @@ pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
     dcterms:source "Zhuangzi 4" ;
     skos:definition "A graded emptying in which listening passes from the ears to the heart-mind and from the heart-mind to the qi, until only emptiness remains for the way to gather in."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:ErectTrunkInSwastikasana a pm:Conceptualizing ;
+    rdfs:label "Der gerade Rumpf als Merkmal einer Sitzhaltung"@de,
+        "The straight trunk as the mark of a seat"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā I.21" ;
+    skos:definition "A seat defined by sitting evenly with the body straight; the straightness is part of what the posture is, not a separate instruction."@en ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmc:Ezeqeel a pm:Conceptualizing ;
     rdfs:label "Ezeqeel"@de,
@@ -1323,6 +1487,13 @@ pmc:Kasdeja a pm:Conceptualizing ;
     skos:definition "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:KevalaKumbhaka a pm:Conceptualizing ;
+    rdfs:label "Alleiniges Anhalten"@de,
+        "Retention alone"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.71-74" ;
+    skos:definition "Retention held at will without the filling and the emptying that ordinarily frame it. The manual calls it the accomplished form of the practice and says nothing in the three worlds is beyond one who holds it."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:KhuddikaPiti a pm:Conceptualizing ;
     rdfs:label "Geringe Verzückung"@de,
         "Minor rapture"@en ;
@@ -1330,6 +1501,13 @@ pmc:KhuddikaPiti a pm:Conceptualizing ;
     skos:definition "The least of the five degrees of rapture, described as able to raise the hairs of the body."@en ;
     skos:note "This is the passage that attests piloerection as a recognised concomitant of a meditative state, not as its object."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:KindledInnerFire a pm:Conceptualizing ;
+    rdfs:label "Das entfachte innere Feuer"@de,
+        "The kindled inner fire"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.66-68" ;
+    skos:definition "A heat said to arise when the raised wind reaches the region of fire, lengthening its flame, until the sleeping power is warmed through and straightens."@en ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmc:KnowledgeOfClouds a pm:Conceptualizing ;
     rdfs:label "Wolkenkunde"@de,
@@ -1389,6 +1567,15 @@ pmc:NeidanThreeStages a pm:Conceptualizing ;
     skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:OpposedDirectionsOfPranaAndApana a pm:Conceptualizing ;
+    rdfs:label "Die beiden Winde werden zugleich in entgegengesetzte Richtungen getrieben"@de,
+        "The two winds are driven in opposite directions at once"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā I.50",
+        "Svātmārāma, Haṭhayogapradīpikā II.47" ;
+    skos:definition "The apāna is raised from below while the prāṇa is pressed down from the throat, and the two are brought together in the region of the navel."@en ;
+    skos:note "The manual assigns direction to the two winds, not to the two phases of breathing. Both directions run in the same operation and against each other, so a scheme that reads inhalation as upward and exhalation as downward, or the reverse, has no purchase here. See prima-materia#27 and prima-materia#28."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:Pneuma a pm:Conceptualizing ;
     rdfs:label "Pneuma"@de,
         "Pneuma"@en ;
@@ -1419,6 +1606,14 @@ pmc:PrayerOfTheHeart a pm:Conceptualizing ;
         "Philokalia IV, Nikephoros the Monk, On Watchfulness and the Guarding of the Heart" ;
     skos:definition "The continuous inward prayer that gives the tradition its practice."@en ;
     pm:withinTradition pmt:Hesychasm .
+
+pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
+    rdfs:label "Das Zurückhalten des herabfließenden Nektars"@de,
+        "The retention of the descending nectar"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.51-52",
+        "Svātmārāma, Haṭhayogapradīpikā III.77" ;
+    skos:definition "The stopping of a fluid held to fall from above and to be consumed below, whose loss the manual makes responsible for ageing and death."@en ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmc:Romanca a pm:Conceptualizing ;
     rdfs:label "Haaraufrichtung"@de,
@@ -1608,6 +1803,13 @@ pmc:WritingWithInk a pm:Conceptualizing ;
     skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:XingqiDepth a pm:Conceptualizing ;
+    rdfs:label "Die Tiefe als erste Stufe"@de,
+        "Depth as the first stage"@en ;
+    dcterms:source "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125" ;
+    skos:definition "The opening stage of the inscription: the breath is taken deeply, whereupon it gathers."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:Ziqel a pm:Conceptualizing ;
     rdfs:label "Ziqel"@de,
         "Ziqel"@en ;
@@ -1668,6 +1870,23 @@ pmp:FourteenfoldMastery a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Theravada .
 
+pmp:Khecari a pm:Practicing ;
+    rdfs:label "Khecarī"@de,
+        "Khecarī"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.32-33",
+        "Svātmārāma, Haṭhayogapradīpikā III.37" ;
+    skos:definition "A seal in which the tongue is turned back and set above the palate while the gaze rests between the brows; the manual describes a months-long preparation of the tongue before the position can be held."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
+
+pmp:Mulabandha a pm:Practicing ;
+    rdfs:label "Das Wurzelsiegel"@de,
+        "The root seal"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.61-63" ;
+    skos:definition "A seal made by pressing the perineum with the heel and contracting the anus, by which the downward wind is drawn upward."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmp:PracticeOfTheLimbs a pm:Practicing ;
     rdfs:label "Übung der Glieder"@de,
         "Practice of the limbs"@en ;
@@ -1694,6 +1913,14 @@ pmp:SaktipataTransmission a pm:Practicing ;
     skos:definition "The initiatory act by which the descent of power is conferred."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmp:Sitali a pm:Practicing ;
+    rdfs:label "Śītalī"@de,
+        "Śītalī"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.57-58" ;
+    skos:definition "A retention in which the breath is drawn in over the tongue, protruded past the lips, and released through the nostrils."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmp:Tummo a pm:Practicing ;
     rdfs:label "Tummo"@de,
@@ -1905,6 +2132,14 @@ pmc:SoulJourney a pm:Conceptualizing ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:XingqiDescent a pm:Conceptualizing ;
+    rdfs:label "Der Abstieg als Stufe der Folge"@de,
+        "Descent as a stage of the sequence"@en ;
+    dcterms:source "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125" ;
+    skos:definition "The stage at which the gathered and extended breath goes downward, after which it settles and becomes firm; the sequence then turns and rises."@en ;
+    skos:note "The inscription assigns direction to a place in a sequence, not to a phase of breathing. Descent follows gathering and extension; ascent follows sprouting and growing. The closing lines set the two directions against the two powers, the dynamism of heaven showing in what rises and that of earth in what descends. Nothing here binds a direction to inhaling or to exhaling. See prima-materia#27 and prima-materia#28."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -1914,14 +2149,6 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
-pmp:HathaPranayama a pm:Practicing ;
-    rdfs:label "Atemregulierung im Haṭhayoga"@de,
-        "Breath regulation in Haṭhayoga"@en ;
-    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II" ;
-    skos:definition "The breath practice of the second chapter, directed at the clearing of the central channel."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:Hathayoga .
 
 pmt:Upanisadic a pm:Tradition ;
     rdfs:label "Upaniṣadische Überlieferung"@de,
@@ -2062,19 +2289,20 @@ pm:AwarenessSpace a owl:Class ;
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pm:ExaminationState a owl:Class ;
     rdfs:label "Prüfstand"@de,
         "Examination State"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en .
+
+pmp:HathaPranayama a pm:Practicing ;
+    rdfs:label "Atemregulierung im Haṭhayoga"@de,
+        "Breath regulation in Haṭhayoga"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II" ;
+    skos:definition "The breath practice of the second chapter, directed at the clearing of the central channel."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hathayoga .
 
 pmp:Samyama a pm:Practicing ;
     rdfs:label "Saṃyama"@de,
@@ -2103,10 +2331,12 @@ pm:Attesting a owl:Class ;
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -2114,28 +2344,21 @@ pmt:GraecoRoman a pm:Tradition ;
     dcterms:source "Herodotus, Histories IV.13-16" ;
     skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en .
 
-pmt:Hathayoga a pm:Tradition ;
-    rdfs:label "Haṭhayoga"@de,
-        "Haṭhayoga"@en ;
-    dcterms:source "Svātmārāma, Haṭhayogapradīpikā" ;
-    skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en .
-
 pm:AwarenessContext a owl:Class ;
     rdfs:label "Bewusstseinskontext"@de,
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
     dcterms:source "John Cassian, Collationes I-II" ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en .
-
-pmt:Daoist a pm:Tradition ;
-    rdfs:label "Daoistische Überlieferung"@de,
-        "Daoist tradition"@en ;
-    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
-    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
@@ -2157,12 +2380,11 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
@@ -2170,29 +2392,30 @@ pm:compilerInference a pm:Attesting ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
-
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
     dcterms:source "Evagrius Ponticus, Praktikos" ;
     skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en .
 
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
+pmt:Daoist a pm:Tradition ;
+    rdfs:label "Daoistische Überlieferung"@de,
+        "Daoist tradition"@en ;
+    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en .
+
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
     dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
     skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
-
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
@@ -2205,22 +2428,34 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
+
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
         "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pmt:Hathayoga a pm:Tradition ;
+    rdfs:label "Haṭhayoga"@de,
+        "Haṭhayoga"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā" ;
+    skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en .
 
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
