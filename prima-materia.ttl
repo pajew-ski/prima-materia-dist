@@ -1403,12 +1403,29 @@ pm:consequenceOfSkipping a owl:DatatypeProperty ;
     skos:definition "What the source says happens if the prior step is passed over."@en ;
     skos:note "Required wherever the strength is pm:statedNecessity. Claiming that a text sets a necessity obliges the claimant to say what the text says goes wrong without it; a necessity nobody can quote a consequence for is an order read as a necessity."@en .
 
+pm:contactRoute a owl:ObjectProperty ;
+    rdfs:label "contact route"@en ;
+    rdfs:domain pm:Tradition ;
+    rdfs:range pm:ContactRoute ;
+    skos:definition "The state of the contact question between this tradition and those the graph already holds."@en .
+
 pm:convergingConcept a owl:ObjectProperty ;
     rdfs:label "konvergierender Begriff"@de,
         "converging concept"@en ;
     rdfs:domain pm:Converging ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "A concept that participates in the observed correspondence."@en .
+
+pm:corpusHarvested a pm:CoverageState ;
+    rdfs:label "Korpus geerntet"@de,
+        "Corpus harvested"@en ;
+    skos:definition "The harvest has been carried out for the works actually opened, and what was left unread is recorded. The state claims completeness for what was opened, never for the corpus."@en .
+
+pm:coverageState a owl:ObjectProperty ;
+    rdfs:label "coverage state"@en ;
+    rdfs:domain pm:Tradition ;
+    rdfs:range pm:CoverageState ;
+    skos:definition "How far the corpus of this tradition has been carried into the graph."@en .
 
 pm:dependentStep a owl:ObjectProperty ;
     rdfs:label "abhängiger Schritt"@de,
@@ -1531,6 +1548,12 @@ pm:prerequisiteStrength a owl:ObjectProperty ;
     rdfs:range pm:PrerequisiteStrength ;
     skos:definition "How firmly the source sets the prerequisite."@en .
 
+pm:principalCorpus a owl:DatatypeProperty ;
+    rdfs:label "principal corpus"@en ;
+    rdfs:domain pm:Tradition ;
+    skos:definition "The works in which this transmission is chiefly carried, named so that a later reader can find them."@en ;
+    skos:note "Deliberately not dcterms:source. A source carries a passage that was read, with its place and its edition; this names a corpus that was not read. Using dcterms:source here would let a registration claim a textual knowledge it does not have. The literature rule applies all the same: a work, never a URL."@en .
+
 pm:priorStep a owl:ObjectProperty ;
     rdfs:label "vorausgesetzter Schritt"@de,
         "prior step"@en ;
@@ -1603,6 +1626,11 @@ pm:withinTradition a owl:ObjectProperty ;
     rdfs:label "within tradition"@en ;
     rdfs:range pm:Tradition ;
     skos:definition "Associates a process instance with the tradition in which it is situated."@en .
+
+pm:workOpened a pm:CoverageState ;
+    rdfs:label "Werk geöffnet"@de,
+        "Work opened"@en ;
+    skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
 
 pm:yieldsCapacity a owl:ObjectProperty ;
     rdfs:label "bringt Vermögen hervor"@de,
@@ -1683,6 +1711,1026 @@ pmp:Ujjayi a pm:Practicing ;
     skos:definition "A retention in which the mouth is held closed and the breath is drawn through both nostrils so that it grazes the throat and sounds as it passes."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmt:Ajivika a pm:Tradition ;
+    rdfs:label "Ājīvika-Überlieferung"@de,
+        "Ājīvika transmission"@en ;
+    skos:definition "A lost renunciant transmission teaching a fixed destiny through which every being passes, known only through the reports of its opponents."@en ;
+    skos:note "Registered as the limiting case: a tradition with no surviving corpus of its own. Whatever it yields will be an ascription by hostile witnesses and must be recorded as one."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "No transmitted corpus; the doctrine is reported in the Buddhist and Jain canons, chiefly Sāmaññaphala Sutta and the Bhagavatī Sūtra" .
+
+pmt:Amazonian a pm:Tradition ;
+    rdfs:label "Amazonische Überlieferung"@de,
+        "Amazonian transmission"@en ;
+    skos:definition "The lowland South American transmission of songs used to direct the effect of a plant preparation, and of a body that can be exchanged for another."@en ;
+    skos:note "No corpus in its own language and no writing before contact. What exists is transcribed song and ethnographic report, which this project cannot yet admit as a source. Registered so that the exclusion is visible rather than silent."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "No transmitted written corpus; the published icaro transcriptions and the ethnographic record stand in its place" .
+
+pmt:AnalyticalPsychology a pm:Tradition ;
+    rdfs:label "Analytische Psychologie"@de,
+        "Analytical psychology"@en ;
+    skos:definition "Jung's transmission of an objective psyche and of active imagination as a procedure for engaging figures encountered in it, with a record kept of the engagement."@en ;
+    skos:note "Registered as a tradition and not as science on the rule stated at the head of this file: its central claims rest on testimony, including the author's own record of his experiment, and not on procedures that could have come out otherwise. Where it does produce evidence, that evidence enters at an examination node like any other."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Jung, Liber Novus; Jung, Septem Sermones ad Mortuos; Jung, Mysterium Coniunctionis" .
+
+pmt:Andean a pm:Tradition ;
+    rdfs:label "Andine Überlieferung"@de,
+        "Andean transmission"@en ;
+    skos:definition "The Andean transmission of huacas as animate powers, of camaquen as the vitality that animates, and of the specialists who address them."@en ;
+    skos:note "The Huarochirí manuscript is Quechua prose written by Andeans at the request of an extirpator. The extirpation records are the counter-testimony, and they are in the same archive."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Huarochirí manuscript; Guaman Poma, Nueva corónica y buen gobierno; Arriaga, Extirpación de la idolatría del Perú" .
+
+pmt:Anthroposophy a pm:Tradition ;
+    rdfs:label "Anthroposophie"@de,
+        "Anthroposophy"@en ;
+    skos:definition "Steiner's transmission of a schooling of perception said to open supersensible cognition, presented as a discipline with stated stages and moral prerequisites."@en ;
+    skos:note "The prerequisites are stated as conditions without which the exercises are held to be harmful, which makes them a prerequisite chain of the strong kind rather than an exhortation."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Steiner, Wie erlangt man Erkenntnisse der höheren Welten; Steiner, Die Geheimwissenschaft im Umriss" .
+
+pmt:ArabicAlchemy a pm:Tradition ;
+    rdfs:label "Arabische Alchemie"@de,
+        "Arabic alchemy"@en ;
+    skos:definition "The transmission of the balance, of elixirs and of the generation of life by art, carried under the name of Jābir by a corpus larger than one man."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Jābirian corpus; al-Rāzī, Sirr al-Asrār" .
+
+pmt:ArsNotoria a pm:Tradition ;
+    rdfs:label "Ars Notoria"@de,
+        "Ars Notoria"@en ;
+    skos:definition "The medieval transmission of prayers and figures held to confer the liberal arts and a retentive memory upon a practitioner who keeps a stated schedule."@en ;
+    skos:note "One of the few pre-modern western claims formulated so that it could fail: a named capacity, a named period, a named regimen."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
+
+pmt:Atharvavedic a pm:Tradition ;
+    rdfs:label "Atharvavedische Überlieferung"@de,
+        "Atharvavedic transmission"@en ;
+    skos:definition "The operative Vedic corpus: spells for healing, protection, harm, love and kingship, with the ritual manual that tells how each is employed."@en ;
+    skos:note "The oldest Indian material the project would hold that is a working corpus rather than a doctrine."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Atharvaveda Saṃhitā (Śaunaka recension); Kauśikasūtra" .
+
+pmt:AustralianDreaming a pm:Tradition ;
+    rdfs:label "Australische Aboriginal-Überlieferung"@de,
+        "Australian Aboriginal transmission"@en ;
+    skos:definition "The Australian transmission of an ancestral order laid into country, held in song and in the routes the song follows."@en ;
+    skos:note "Registered and deliberately left at corpus named. There is no corpus in the project's sense, much of the material is restricted by rules that are still enforced, and a public-domain dedication of restricted knowledge would be a taking and not an opening. The gate here protects ownership, not authority, and the project's criterion does not apply to it unchanged."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "No transmitted written corpus; the ethnographic record stands in its place and much of it is restricted" .
+
+pmt:Ayurvedic a pm:Tradition ;
+    rdfs:label "Āyurvedische Überlieferung"@de,
+        "Āyurvedic transmission"@en ;
+    skos:definition "The Indian medical transmission, including the rasāyana section that claims restoration of vigour and extension of life by regimen."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Caraka Saṃhitā; Suśruta Saṃhitā; Vāgbhaṭa, Aṣṭāṅgahṛdaya" .
+
+pmt:AzandeOracle a pm:Tradition ;
+    rdfs:label "Azande-Orakelüberlieferung"@de,
+        "Azande oracular transmission"@en ;
+    skos:definition "The Azande transmission of witchcraft as a substance in the body and of a poison oracle consulted by a stated double question."@en ;
+    skos:note "The tradition contains its own control procedure: the oracle is asked twice, in opposite form, and a failure to agree invalidates the consultation. Registered for that reason before any doctrinal content."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande" .
+
+pmt:BalineseTantra a pm:Tradition ;
+    rdfs:label "Balinesische Lontar-Überlieferung"@de,
+        "Balinese lontar transmission"@en ;
+    skos:definition "The Balinese palm-leaf transmission of healing, protective diagrams and the composition of the person, at the far edge of the Indian sphere of influence."@en ;
+    skos:note "Written, catalogued and barely used by comparative work. The contact question is genuinely open: how much is Indian import and how much is local is undecided in the literature."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Usada healing lontar; Kanda Pat; the Aji Saraswati texts" .
+
+pmt:BalticSlavicCharm a pm:Tradition ;
+    rdfs:label "Baltische und slawische Besprechungstradition"@de,
+        "Baltic and Slavic charm transmission"@en ;
+    skos:definition "The eastern European transmission of spoken charms for healing, protection and binding, fixed in writing only by nineteenth-century collectors."@en ;
+    skos:note "The late fixation is the whole difficulty: the corpus is a collection and not a work, and the project has no attestation mode for that yet."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The published zagovory collections; the Latvian dainas collections" .
+
+pmt:Bon a pm:Tradition ;
+    rdfs:label "Bön"@de,
+        "Bön"@en ;
+    skos:definition "The Tibetan transmission that claims descent from Zhangzhung rather than from India, with its own dzogchen cycles and its own founder."@en ;
+    skos:note "The independence claim is the point. If it holds, Bön is a witness beside Tibetan Buddhism rather than a variant of it; if it fails, the failure is one of the better documented cases of a tradition constructing its own antiquity. Either outcome is a finding."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zhang Zhung Nyan Gyud; the Bön dzogchen cycles in the published Bön canon" .
+
+pmt:BoranKammatthana a pm:Tradition ;
+    rdfs:label "Borān kammaṭṭhāna"@de,
+        "Borān kammaṭṭhāna"@en ;
+    skos:definition "The esoteric Theravāda transmission of Southeast Asia, working with syllables placed in the body and a nimitta led along an interior path."@en ;
+    skos:note "Largely displaced by the modern reform movements and therefore poorly represented in every general account of Buddhist meditation."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Yogāvacara manuals of Sri Lanka and Siam in the published editions" .
+
+pmt:BurmeseWeikza a pm:Tradition ;
+    rdfs:label "Burmesische Weikza-Überlieferung"@de,
+        "Burmese weikza transmission"@en ;
+    skos:definition "The Burmese transmission of an accomplished practitioner who prolongs life by alchemy, diagram and mantra in order to await a future buddha."@en ;
+    skos:note "A living tradition whose claims are made about named contemporaries, which is rare and worth more to an examination than any ancient ascription."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The published weikza and dhat-lonn literature in Burmese" .
+
+pmt:Bwiti a pm:Tradition ;
+    rdfs:label "Bwiti"@de,
+        "Bwiti"@en ;
+    skos:definition "The Gabonese transmission of an initiation carried by a root preparation, in which the initiate is expected to meet the dead and to report the meeting."@en ;
+    skos:note "The expected content of the experience is stated in advance, which makes the tradition unusually well suited to an examination of what such expectation determines."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Fernandez, Bwiti: An Ethnography of the Religious Imagination in Africa" .
+
+pmt:Candomble a pm:Tradition ;
+    rdfs:label "Candomblé"@de,
+        "Candomblé"@en ;
+    skos:definition "The Brazilian transmission of the orixás, with an initiation that seats a spirit in the head of the initiate."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Bastide, Le candomblé de Bahia; Verger, Notes sur le culte des Orisa et Vodun" .
+
+pmt:CastanedaToltec a pm:Tradition ;
+    rdfs:label "Castanedas toltekische Überlieferung"@de,
+        "Castaneda's Toltec transmission"@en ;
+    skos:definition "The transmission of a body of practice concerning attention, dreaming and the assemblage point, presented as the teaching of a Yaqui man of knowledge."@en ;
+    skos:note "The fieldwork is not credible and the informant is not attestable, and the practices are nonetheless transmitted today by people who follow them. Both facts belong in the graph, which is why the tradition is registered rather than dismissed."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Castaneda, The Teachings of Don Juan; Castaneda, The Art of Dreaming" .
+
+pmt:CelestialMasters a pm:Tradition ;
+    rdfs:label "Himmelsmeister"@de,
+        "Celestial Masters"@en ;
+    skos:definition "The earliest organised Daoist transmission, in which illness is treated as the consequence of fault and healing proceeds by confession and petition."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Xiang'er commentary on the Laozi; Zhengyi fawen; the Taiping jing" .
+
+pmt:ChaldeanOracles a pm:Tradition ;
+    rdfs:label "Chaldäische Orakel"@de,
+        "Chaldean Oracles"@en ;
+    skos:definition "The fragmentary hexameters that the later Platonists treated as revealed, and on which their theurgic practice was built."@en ;
+    skos:note "The graph already holds the theurgy that rests on this text without holding the text."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Chaldean Oracles, transmitted in fragments through Proclus, Damascius and Psellos" .
+
+pmt:Chan a pm:Tradition ;
+    rdfs:label "Chan"@de,
+        "Chan"@en ;
+    skos:definition "The Chinese transmission holding that awakening is sudden and that the mind is not to be polished but recognised."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Platform Sūtra; Linji lu; Biyan lu" .
+
+pmt:ChaosMagic a pm:Tradition ;
+    rdfs:label "Chaosmagie"@de,
+        "Chaos magic"@en ;
+    skos:definition "The late twentieth century transmission treating belief as a tool to be adopted and discarded, and holding that the symbolic system employed is arbitrary if the technique is sound."@en ;
+    skos:note "The claim that content is interchangeable and only technique carries effect is directly examinable, and if it held it would reorganise every convergence question the project asks."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Spare, The Book of Pleasure; Carroll, Liber Null and Psychonaut" .
+
+pmt:ChineseDivination a pm:Tradition ;
+    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
+        "Chinese divinatory and siting transmission"@en ;
+    skos:definition "The transmission of change-based divination, of fate calculation from birth data and of the siting of dwellings and graves."@en ;
+    skos:note "Claims here attach to datable outcomes, which makes them among the few in the corpus that could be falsified without a laboratory."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Guo Pu, Zangshu" .
+
+pmt:ChineseMedicalCanon a pm:Tradition ;
+    rdfs:label "Chinesischer medizinischer Kanon"@de,
+        "Chinese medical canon"@en ;
+    skos:definition "The canonical Chinese account of qi, the channels and the spirits resident in the organs, framed as a clinical rather than a soteriological doctrine."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing" .
+
+pmt:ChristianDiscernment pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pmt:ChristianTheosophy a pm:Tradition ;
+    rdfs:label "Christliche Theosophie"@de,
+        "Christian theosophy"@en ;
+    skos:definition "Böhme's transmission of a divine self-disclosure through opposition, reported as having been seen rather than reasoned."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Böhme, Aurora; Böhme, De signatura rerum" .
+
+pmt:CopticMagic a pm:Tradition ;
+    rdfs:label "Koptische Zaubertradition"@de,
+        "Coptic magical transmission"@en ;
+    skos:definition "Christian Egyptian operative texts in which biblical names, angelic invocation and older Egyptian procedure stand side by side without apology."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Coptic magical papyri and ostraca in the standard collections; the Testament of Solomon as its adjacent Greek witness" .
+
+pmt:Dogon a pm:Tradition ;
+    rdfs:label "Dogon-Überlieferung"@de,
+        "Dogon transmission"@en ;
+    skos:definition "The Dogon cosmological transmission as reported from a single sequence of conversations, and contested ever since by later fieldwork."@en ;
+    skos:note "Registered together with its refutation. The case is the standing warning of the whole registry: a widely circulated body of teaching that later workers could not find among the people it was ascribed to."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; van Beek's re-study as the counter-testimony" .
+
+pmt:Druze a pm:Tradition ;
+    rdfs:label "Drusische Überlieferung"@de,
+        "Druze transmission"@en ;
+    skos:definition "A closed transmission teaching the transfer of the soul into a new body at death, with an internal literature restricted to the initiated."@en ;
+    skos:note "A case where the gate the project exists to remove is still shut and still enforced. Registration says so rather than pretending the corpus is available."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Rasāʾil al-Ḥikma" .
+
+pmt:Dzogchen a pm:Tradition ;
+    rdfs:label "Dzogchen"@de,
+        "Dzogchen"@en ;
+    skos:definition "The Tibetan transmission of a primordially free awareness, with a practice whose stages are counted by visions appearing under stated conditions of posture, light and darkness."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Nyingthig cycles; Longchenpa, Seven Treasuries" .
+
+pmt:EgyptianRitual a pm:Tradition ;
+    rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
+        "Pharaonic Egyptian ritual"@en ;
+    skos:definition "The transmission of heka as an operative power held by gods, kings and the transfigured dead, carried in mortuary and temple literature."@en ;
+    skos:note "The transformation spells are a capacity list in the strict sense: each states what the speaker becomes and what that state permits."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
+
+pmt:EthiopianOrthodoxMagic a pm:Tradition ;
+    rdfs:label "Äthiopisch-orthodoxe Zaubertradition"@de,
+        "Ethiopian Orthodox magical transmission"@en ;
+    skos:definition "The Geʿez transmission of protective scrolls, of names held to bind, and of a canon that preserves works lost everywhere else."@en ;
+    skos:note "African, literate, canonical, and already present in the graph at one remove: the fullest witness of the Enochic book the graph holds is the Ethiopian one."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Lefāfa Ṣedeq; the asmāt scroll corpus; the Geʿez canon" .
+
+pmt:EuropeanFolkMagic a pm:Tradition ;
+    rdfs:label "Europäische Volksmagie"@de,
+        "European folk magic"@en ;
+    skos:definition "The vernacular transmission of blessings, charms and cheap printed handbooks for healing, protection and the recovery of stolen goods."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
+
+pmt:FinnicIncantation a pm:Tradition ;
+    rdfs:label "Finnische Zaubersprüche"@de,
+        "Finnic incantation"@en ;
+    skos:definition "The Finnish and Karelian transmission of the tietäjä, in which power over a thing follows from knowing and reciting its origin."@en ;
+    skos:note "Kalevala is a nineteenth-century compilation and belongs in the record as an ordering act, not as the corpus. The corpus is the collected incantations."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Suomen Kansan Vanhat Runot; the loitsurunot collections" .
+
+pmt:FourthWay a pm:Tradition ;
+    rdfs:label "Der Vierte Weg"@de,
+        "The Fourth Way"@en ;
+    skos:definition "The transmission of Gurdjieff's teaching: a claim that ordinary waking is a form of sleep, and a work on attention conducted in the middle of ordinary life."@en ;
+    skos:note "The graph already holds the Fourth Way anthropology as an origination, because material from it circulates under ancient ascription. Registering the transmission does not touch that finding: the tradition transmits, and the pedigree remains unsupported."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
+
+pmt:GoldenDawn a pm:Tradition ;
+    rdfs:label "Hermetic Order of the Golden Dawn"@de,
+        "Hermetic Order of the Golden Dawn"@en ;
+    skos:definition "The late Victorian transmission that welded kabbalistic, grimoire and Egyptian material into a graded initiatory curriculum with examinations."@en ;
+    skos:note "The syncretism is documented in its own papers, which makes it the best available record of how a modern system is assembled from older parts and then presented as one."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The cipher manuscripts and knowledge lectures; Regardie, The Golden Dawn" .
+
+pmt:GraecoEgyptianAlchemy a pm:Tradition ;
+    rdfs:label "Griechisch-ägyptische Alchemie"@de,
+        "Graeco-Egyptian alchemy"@en ;
+    skos:definition "The earliest alchemical transmission, in which the operation on matter is reported together with dreams that interpret it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zosimos of Panopolis, the Visions and the authentic memoirs" .
+
+pmt:GreekMagicalPapyri a pm:Tradition ;
+    rdfs:label "Griechische und demotische Zauberpapyri"@de,
+        "Greek and demotic magical papyri"@en ;
+    skos:definition "The working handbooks of late antique Egypt: procedures with materials, hours, purity requirements, spoken formulae and stated signs of success."@en ;
+    skos:note "The densest procedural corpus available to the project, and the one most likely to carry falsifying conditions, because a handbook has to tell its user when the working has failed."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the Mithras Liturgy at PGM IV.475-829" .
+
+pmt:HaitianVodou a pm:Tradition ;
+    rdfs:label "Haitianisches Vodou"@de,
+        "Haitian Vodou"@en ;
+    skos:definition "The Haitian transmission of spirits who arrive in a named person and speak, with a liturgy that assigns each an appearance, a rhythm and a manner."@en ;
+    skos:note "Deren's account is a first-person report of being mounted by a spirit written by the observer herself, which is a rare form: participant testimony with the observation intact."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Métraux, Le vaudou haïtien; Deren, Divine Horsemen" .
+
+pmt:Hasidism a pm:Tradition ;
+    rdfs:label "Chassidismus"@de,
+        "Hasidism"@en ;
+    skos:definition "The eastern European transmission of devekut as a continuous attachment attainable within ordinary life, and of contemplation as its means."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Toledot Yaakov Yosef; Keter Shem Tov; Shneur Zalman, Tanya" .
+
+pmt:HawaiianCosmogony a pm:Tradition ;
+    rdfs:label "Hawaiische Kosmogonie"@de,
+        "Hawaiian cosmogonic transmission"@en ;
+    skos:definition "The Hawaiian transmission of a chanted genealogy of the world, recited as a continuous descent from darkness to the living."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Kumulipo in the Hawaiian text with Beckwith's edition" .
+
+pmt:Hekhalot a pm:Tradition ;
+    rdfs:label "Hekhalot- und Merkava-Literatur"@de,
+        "Hekhalot and Merkavah literature"@en ;
+    skos:definition "The Jewish transmission of an ascent through palaces guarded by gatekeepers, entered by seals and passwords, and of an adjuration by which knowledge is obtained without study."@en ;
+    skos:note "The Sar ha-Torah material states a learning capacity plainly enough to be tested: knowledge of Torah acquired by ritual rather than by study, in a stated time."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Hekhalot Rabbati; Hekhalot Zutarti; Sar ha-Torah; Šiʿur Qomah; 3 Enoch" .
+
+pmt:Hermetic a pm:Tradition ;
+    rdfs:label "Hermetische Überlieferung"@de,
+        "Hermetic transmission"@en ;
+    skos:definition "The Graeco-Egyptian transmission of an ascent through the spheres in which the ascending one sheds a vice at each, and of a rebirth reported as having happened to the speaker."@en ;
+    skos:note "The Discourse on the Eighth and the Ninth is an initiation with a sequence, a moment of change and a demand that the initiate confirm what he now sees. It has no equivalent in what the graph currently holds."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Corpus Hermeticum; Asclepius; the Stobaean excerpts including Korē Kosmou; Nag Hammadi VI,6" .
+
+pmt:HittiteRitual a pm:Tradition ;
+    rdfs:label "Hethitisch-anatolisches Ritual"@de,
+        "Hittite and Anatolian ritual"@en ;
+    skos:definition "Anatolian purification and substitution rituals transmitted under the names of the practitioners who dictated them, most of them women."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The CTH ritual corpus, including the rituals of Tunnawiya, Maštigga and Ambazzi" .
+
+pmt:Hoodoo a pm:Tradition ;
+    rdfs:label "Hoodoo"@de,
+        "Hoodoo"@en ;
+    skos:definition "The African American transmission of workings for protection, luck, love and revenge, carried by practitioners without a priesthood or a central corpus."@en ;
+    skos:note "The Hyatt collection is thousands of practitioner statements taken down verbatim with the speakers identified only by place. As a body of first-person practice testimony it has no equal in the project's reach."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Hyatt, Hoodoo, Conjuration, Witchcraft, Rootwork, five volumes" .
+
+pmt:Huna a pm:Tradition ;
+    rdfs:label "Huna"@de,
+        "Huna"@en ;
+    skos:definition "An early twentieth century system of three selves and directed vital force, presented as the secret teaching of Hawaiian priests."@en ;
+    skos:note "Constructed by an outsider from theosophical and New Thought material and rejected by Hawaiian scholars as a representation of anything Hawaiian. Registered as the transmission it actually is, so that the ascription can be entered as false without the material vanishing from the record."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Long, The Secret Science Behind Miracles" .
+
+pmt:Ifa a pm:Tradition ;
+    rdfs:label "Ifá"@de,
+        "Ifá"@en ;
+    skos:definition "The Yoruba divinatory transmission: a fixed corpus of two hundred and fifty-six signs, each carrying verses that a diviner must hold by memory and recite on falling."@en ;
+    skos:note "The closest thing to a written corpus that was never written. It is fixed, enumerated, internally checked and transmitted through an examined apprenticeship, which makes it the methodically cleanest entry point into everything else in this file."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
+
+pmt:Illuminationism a pm:Tradition ;
+    rdfs:label "Illuminationismus"@de,
+        "Illuminationism"@en ;
+    skos:definition "Suhrawardī's transmission of knowledge by presence and of an intermediate world of images held to be neither material nor mental but a place with its own standing."@en ;
+    skos:note "The claim that the imaginal world is a place and not a faculty is an ontological commitment the graph will have to sort against every tradition that treats vision as internal."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Suhrawardī, Ḥikmat al-Ishrāq; Mullā Ṣadrā, al-Asfār al-Arbaʿa" .
+
+pmt:InnerAsianTengrism a pm:Tradition ;
+    rdfs:label "Innerasiatische Tengri-Überlieferung"@de,
+        "Inner Asian sky transmission"@en ;
+    skos:definition "The Turkic and Mongol transmission of a sky power that confers mandate and fortune, and of practitioners who address it."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Secret History of the Mongols; the Orkhon inscriptions; the published Manas cycle" .
+
+pmt:InsularCeltic a pm:Tradition ;
+    rdfs:label "Inselkeltische Überlieferung"@de,
+        "Insular Celtic transmission"@en ;
+    skos:definition "The Irish and Welsh transmission of poetic knowledge as an acquired faculty, with named divinatory procedures and the ecclesiastical prohibitions attached to them."@en ;
+    skos:note "The prohibitions are in the same manuscripts as the procedures, so procedure and counter-testimony arrive together."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The legal and glossarial material on imbas forosnai, teinm laída and díchetal do chennaib; the immrama; the Book of Taliesin" .
+
+pmt:InuitAngakkuq a pm:Tradition ;
+    rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
+        "Inuit angakkuq transmission"@en ;
+    skos:definition "The Inuit transmission of a light said to appear in the practitioner and to make the distant and the hidden visible, acquired through solitude and privation."@en ;
+    skos:note "Rasmussen took down statements from named practitioners in the first person, including the account of qaumaneq. As testimony with a speaker attached this is stronger material than most of the anonymous corpora the graph already holds."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Rasmussen, Intellectual Culture of the Iglulik Eskimos; Rasmussen, Intellectual Culture of the Caribou Eskimos" .
+
+pmt:IslamicLetterMagic a pm:Tradition ;
+    rdfs:label "Islamische Buchstaben- und Namensmagie"@de,
+        "Islamic letter and name magic"@en ;
+    skos:definition "The operative transmission of the science of letters and of the divine names, with squares, talismans and hours of working."@en ;
+    skos:note "The ascription of the best known handbook to al-Būnī is contested, and the corpus grew after him under his name. The dispute is the first node this tradition should carry."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Šams al-maʿārif corpus ascribed to al-Būnī; Ghāyat al-Ḥakīm" .
+
+pmt:IsmailiCosmology a pm:Tradition ;
+    rdfs:label "Ismailitische Kosmologie"@de,
+        "Ismaili cosmology"@en ;
+    skos:definition "The Shia transmission of a graded emanation and of an inner meaning disclosed by initiation, together with the encyclopaedic Neoplatonism of the Brethren of Purity."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Sijistānī, Kashf al-Maḥjūb; Nāṣir-i Khusraw, Jāmiʿ al-Ḥikmatayn; Rasāʾil Ikhwān al-Ṣafāʾ" .
+
+pmt:Jain a pm:Tradition ;
+    rdfs:label "Jainistische Überlieferung"@de,
+        "Jain transmission"@en ;
+    skos:definition "The Jain transmission of restraint, austerity and the shedding of karmic matter, with its own catalogue of powers said to arise along the way."@en ;
+    skos:note "A second capacity list formulated in the same region and period as the yogic one and not derived from it. Within the Indian sphere this is the closest thing to a control case."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ācārāṅga Sūtra; Umāsvāti, Tattvārthasūtra; Hemacandra, Yogaśāstra" .
+
+pmt:JapaneseZen a pm:Tradition ;
+    rdfs:label "Japanischer Zen"@de,
+        "Japanese Zen"@en ;
+    skos:definition "The Japanese transmission of seated practice as enactment rather than means, together with a literature on the illnesses that practice itself produces."@en ;
+    skos:note "Hakuin's account of meditation sickness is a self-warning of the strongest kind the project can hold: a text prescribing a practice and describing its casualties, with a remedy."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Dōgen, Shōbōgenzō; Hakuin, Yasenkanna; Hakuin, Orategama" .
+
+pmt:JewishPracticalMagic a pm:Tradition ;
+    rdfs:label "Jüdische Praxismagie"@de,
+        "Jewish practical magic"@en ;
+    skos:definition "The operative Jewish transmission of adjurations, amulets and bowls, distinct from the speculative literature and older than it in its written witnesses."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Sefer ha-Razim; Ḥarba de-Moshe; the Cairo Genizah magical fragments; the Aramaic incantation bowls" .
+
+pmt:Kabbalah a pm:Tradition ;
+    rdfs:label "Kabbala"@de,
+        "Kabbalah"@en ;
+    skos:definition "The medieval and early modern Jewish transmission of the sefirot as the structure of emanation, and of the human act as bearing on it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Sefer ha-Bahir; Zohar; Cordovero, Pardes Rimmonim; Vital, Ez Ḥayyim and Šaʿar ha-Gilgulim" .
+
+pmt:Kalacakra a pm:Tradition ;
+    rdfs:label "Kālacakra"@de,
+        "Kālacakra"@en ;
+    skos:definition "The tantric transmission of a sixfold yoga whose completion is marked by a sequence of signs appearing in a darkened retreat."@en ;
+    skos:note "The sign sequence is stated in fixed order and is therefore comparable with the Dzogchen visions and with the phosphene literature, which is a convergence question the graph cannot currently pose."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Vimalaprabhā; Sekoddeśa and its commentary" .
+
+pmt:KongoNkisi a pm:Tradition ;
+    rdfs:label "Kongolesische Nkisi-Überlieferung"@de,
+        "Kongo nkisi transmission"@en ;
+    skos:definition "The Kongo transmission of composed objects charged to act, and of the land of the dead as a place with a stated geography."@en ;
+    skos:note "The Laman notebooks were written in Kikongo by Kongo authors describing their own practice, which makes them one of the few sources in this file that is not an outsider's account."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Laman notebooks in Kikongo; Laman, The Kongo" .
+
+pmt:KoreanMuism a pm:Tradition ;
+    rdfs:label "Koreanischer Musok"@de,
+        "Korean muism"@en ;
+    skos:definition "The Korean transmission of the mudang, whose office is entered through a sickness resolved only by accepting it, and whose ritual is a negotiation carried out in the voice of the dead."@en ;
+    skos:note "Chiefly oral. The corpus is a collection of transcribed ritual songs, which the project has no attestation mode for yet."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The published muga song transcriptions; Akiba and Akamatsu's collected materials" .
+
+pmt:LakotaRitual a pm:Tradition ;
+    rdfs:label "Lakota-Ritualüberlieferung"@de,
+        "Lakota ritual transmission"@en ;
+    skos:definition "The Lakota transmission of the seven rites, of the vision sought under fasting, and of the pipe as the instrument of address."@en ;
+    skos:note "The best known account passed through two editors, and the difference between what was said and what was printed is itself documented. The tradition should enter the graph together with that dispute, not before it."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Brown, The Sacred Pipe; Neihardt, Black Elk Speaks; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pmt:LatinAlchemy a pm:Tradition ;
+    rdfs:label "Lateinische Alchemie"@de,
+        "Latin alchemy"@en ;
+    skos:definition "The western alchemical transmission, in which the stages of the work are described at once as operations and as states of the operator."@en ;
+    skos:note "The double reading is not a modern imposition and not a settled fact either. It is a dispute the corpus carries in itself and the graph should record as one."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Turba philosophorum; Rosarium philosophorum; Aurora consurgens" .
+
+pmt:LatinMysticism a pm:Tradition ;
+    rdfs:label "Lateinische Mystik"@de,
+        "Latin mystical transmission"@en ;
+    skos:definition "The western Christian transmission of graded interior states, with criteria for telling one state from another and warnings against taking consolation for progress."@en ;
+    skos:note "Teresa's dwellings and John of the Cross's nights are the western material closest to a stage map with failure modes, and the failure modes are stated more plainly than the attainments."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Richard of St Victor, Benjamin Major; Meister Eckhart, German sermons; The Cloud of Unknowing; Teresa of Ávila, Las Moradas; John of the Cross, Subida del Monte Carmelo and Noche oscura" .
+
+pmt:LucumiSanteria a pm:Tradition ;
+    rdfs:label "Lucumí"@de,
+        "Lucumí"@en ;
+    skos:definition "The Cuban transmission of the orichas, carrying the Yoruba divinatory corpus in a shortened form alongside Catholic imagery."@en ;
+    skos:note "Its relation to Ifá is a documented case of a corpus surviving a forced transfer with measurable loss, which is examinable rather than merely regrettable."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Cabrera, El Monte; the published libretas" .
+
+pmt:Mandaean a pm:Tradition ;
+    rdfs:label "Mandäische Überlieferung"@de,
+        "Mandaean transmission"@en ;
+    skos:definition "A living gnostic transmission with its own scripture and priesthood, teaching an ascent of the soul past stations of examination."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ginzā Rabbā; Drāšā d-Yahia; Qolastā" .
+
+pmt:Manichaean a pm:Tradition ;
+    rdfs:label "Manichäische Überlieferung"@de,
+        "Manichaean transmission"@en ;
+    skos:definition "The transmission founded on Mani's own account of a companion who appeared to him and disclosed what he taught."@en ;
+    skos:note "The Cologne Mani Codex carries a first-person account of the syzygos, which is rare for late antiquity and rarer still with a name attached."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Kephalaia; Cologne Mani Codex; the Coptic psalms and the Turfan fragments" .
+
+pmt:Maori a pm:Tradition ;
+    rdfs:label "Māori-Überlieferung"@de,
+        "Māori transmission"@en ;
+    skos:definition "The Māori transmission of mana as an efficacy that attaches to persons and things, of tapu as its restriction, and of karakia as the form of address."@en ;
+    skos:note "The word from which every western theory of an impersonal magical force was built. The graph uses the notion throughout and has never held the tradition it came from."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
+
+pmt:MayaRitual a pm:Tradition ;
+    rdfs:label "Maya-Ritualüberlieferung"@de,
+        "Maya ritual transmission"@en ;
+    skos:definition "The Maya transmission of creation, of the calendar as a moving structure of obligation, and of divination by counting seeds."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Popol Vuh in the Ximénez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs" .
+
+pmt:Mesmerism a pm:Tradition ;
+    rdfs:label "Mesmerismus"@de,
+        "Mesmerism"@en ;
+    skos:definition "The transmission of an animal magnetism held to pass between bodies and to be directed by passes of the hand, together with the induced states its practitioners described."@en ;
+    skos:note "Registered as a tradition because it transmits by testimony and lineage. Its examination by the royal commission is evidence and belongs at an examination node, not here. The pair is the cleanest illustration the project has of the two predicates."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Mesmer, Mémoire sur la découverte du magnétisme animal; Puységur, Mémoires pour servir à l'histoire du magnétisme animal" .
+
+pmt:MesopotamianExorcism a pm:Tradition ;
+    rdfs:label "Mesopotamische Beschwörungskunst"@de,
+        "Mesopotamian exorcistic craft"@en ;
+    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
+    skos:note "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
+
+pmt:Midewiwin a pm:Tradition ;
+    rdfs:label "Midewiwin"@de,
+        "Midewiwin"@en ;
+    skos:definition "The Anishinaabe medicine society, with graded degrees and a mnemonic record incised on birchbark."@en ;
+    skos:note "The birchbark scrolls are a written transmission by their own means, which puts this tradition closer to the project's source rule than most of the file."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
+
+pmt:ModernVipassana a pm:Tradition ;
+    rdfs:label "Moderne Vipassanā-Bewegung"@de,
+        "Modern vipassanā movement"@en ;
+    skos:definition "The twentieth century Burmese reform transmission of insight practice as a lay technique detachable from monastic life, taught in fixed courses."@en ;
+    skos:note "Registered separately from the canon and the commentaries because it is a distinct transmission with its own founders and manuals, and because its relation to the older material, in particular its treatment of absorption, is contested inside the tradition itself."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Mahāsi Sayādaw, Manual of Insight; Ledi Sayādaw, the Manuals of Buddhism" .
+
+pmt:ModernWicca a pm:Tradition ;
+    rdfs:label "Moderne Wicca"@de,
+        "Modern Wicca"@en ;
+    skos:definition "The mid twentieth century transmission of an initiatory craft with a coven structure, a seasonal calendar and an inherited book copied by hand."@en ;
+    skos:note "Presented at its founding as the survival of an old religion. The construction is documented in detail, so the tradition and the refutation of its pedigree can be held together without either being lost."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Gardner, Witchcraft Today; the Book of Shadows in the published recensions" .
+
+pmt:NahuaRitual a pm:Tradition ;
+    rdfs:label "Nahua-Ritualüberlieferung"@de,
+        "Nahua ritual transmission"@en ;
+    skos:definition "The central Mexican transmission of address to the powers in things, of the day count and of the tonalli as a portion of vitality that can be lost and recovered."@en ;
+    skos:note "Ruiz de Alarcón records the incantations in Nahuatl in order to suppress them, so the words survive in the language they were spoken in inside a hostile frame. Both facts belong in the record."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
+
+pmt:Nath a pm:Tradition ;
+    rdfs:label "Nāth-Überlieferung"@de,
+        "Nāth transmission"@en ;
+    skos:definition "The lineage of Gorakhnāth, teaching a body perfected by practice and a state in which mind is said to be absent rather than concentrated."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Siddha-Siddhānta-Paddhati; Gorakṣaśataka; Amanaska" .
+
+pmt:NavajoCeremonial a pm:Tradition ;
+    rdfs:label "Navajo-Zeremonialüberlieferung"@de,
+        "Navajo ceremonial transmission"@en ;
+    skos:definition "The Diné transmission of chantways: long ordered ceremonials for restoring a condition named as order, with the sequence fixed and its errors held to be consequential."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Wyman, Blessingway, with the recorded Navajo texts; Matthews, The Night Chant" .
+
+pmt:Neidan a pm:Tradition ;
+    rdfs:label "Neidan, innere Alchemie"@de,
+        "Neidan internal alchemy"@en ;
+    skos:definition "The transmission that relocates the alchemical work into the body, with a staged refinement of essence, breath and spirit and an embryo said to form and depart."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zhang Boduan, Wuzhen pian; Zhong-Lü chuandao ji; Xingming guizhi" .
+
+pmt:NeoConfucianCultivation a pm:Tradition ;
+    rdfs:label "Neokonfuzianische Selbstkultivierung"@de,
+        "Neo-Confucian self-cultivation"@en ;
+    skos:definition "The transmission of quiet sitting and of the investigation of things as a discipline of attention that claims no transcendent object."@en ;
+    skos:note "Registered as a control condition. A contemplative practice with the same postures and much of the same phenomenology, and without the metaphysical claim, is what any examination of the others needs to have alongside them."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zhu Xi, Zhuzi yulei on jingzuo; Wang Yangming, Chuanxilu; Mencius 2A.2 on the flood-like qi" .
+
+pmt:Neoshamanism a pm:Tradition ;
+    rdfs:label "Neoschamanismus"@de,
+        "Neoshamanism"@en ;
+    skos:definition "The modern transmission of a journey undertaken to a drumbeat and taught in workshops, presented as a technique abstracted from many indigenous traditions at once."@en ;
+    skos:note "The abstraction claim is the point of interest: it asserts that a core method survives the removal of every particular tradition. The graph can hold that assertion beside the traditions it claims to abstract from, which is exactly what it was built to do."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Harner, The Way of the Shaman" .
+
+pmt:NewThought a pm:Tradition ;
+    rdfs:label "New Thought"@de,
+        "New Thought"@en ;
+    skos:definition "The American transmission holding that mental states determine bodily and material conditions, and that the determination can be exercised deliberately."@en ;
+    skos:note "The claim is stated in a form that invites counting, and it is the ancestor of most of what circulates today as manifestation."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Quimby, The Quimby Manuscripts; Emma Curtis Hopkins, Scientific Christian Mental Practice; Troward, The Edinburgh Lectures on Mental Science" .
+
+pmt:NorseSeidr a pm:Tradition ;
+    rdfs:label "Altnordische Ritualüberlieferung"@de,
+        "Old Norse ritual transmission"@en ;
+    skos:definition "The Norse transmission of runic and sung operations and of a divinatory practice performed from a raised seat with a stated arrangement of singers and questioners."@en ;
+    skos:note "Hávamál names eighteen effects in list form, which is a capacity catalogue in the same shape as the siddhi lists. Written down by Christians centuries after the practice, so the contact question is a question about the recording hand."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Hávamál; Grímnismál; Snorri, Ynglinga saga; Eiríks saga rauða" .
+
+pmt:Onmyodo a pm:Tradition ;
+    rdfs:label "Onmyōdō"@de,
+        "Onmyōdō"@en ;
+    skos:definition "The Japanese office of yin-yang divination and calendrical prohibition, practised by a licensed bureau of the state."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Hoki naiden; the onmyō provisions of the Engishiki" .
+
+pmt:PaloMonte a pm:Tradition ;
+    rdfs:label "Palo Monte"@de,
+        "Palo Monte"@en ;
+    skos:definition "The Cuban transmission of Kongo derivation, working through a charged vessel and a pact with a named spirit of the dead."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Cabrera, Reglas de Congo" .
+
+pmt:Pancaratra a pm:Tradition ;
+    rdfs:label "Pāñcarātra"@de,
+        "Pāñcarātra"@en ;
+    skos:definition "The Vaiṣṇava tantric transmission, in which the practitioner's body is dissolved and rebuilt by placement before any worship may proceed."@en ;
+    skos:note "The body-construction sequence is a prerequisite chain of unusual explicitness and belongs in the graph for that reason before any doctrine of the school does."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Jayākhya Saṃhitā; Lakṣmī Tantra; Sātvata Saṃhitā" .
+
+pmt:PropheticKabbalah a pm:Tradition ;
+    rdfs:label "Prophetische Kabbala"@de,
+        "Prophetic Kabbalah"@en ;
+    skos:definition "Abulafia's transmission of letter permutation, breath and head movement as a technique for reaching a state he calls prophecy."@en ;
+    skos:note "Registered apart from Kabbalah because it is a manual and not a doctrine. On the level of stated procedure it is the closest western counterpart to the Yogasūtra that exists, including its warnings about what befalls the unprepared."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Abulafia, Or ha-Sekhel; Abulafia, Ḥayyei ha-Olam ha-Ba" .
+
+pmt:Rasashastra a pm:Tradition ;
+    rdfs:label "Rasaśāstra"@de,
+        "Rasaśāstra"@en ;
+    skos:definition "The Indian alchemical transmission of mercurial preparations held to make the body proof against decay, with named substances, processes and durations."@en ;
+    skos:note "Among the most testable claims available anywhere in the corpus, and testable in two directions at once: the promised outcome and the toxicity of the means."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
+
+pmt:Reiki a pm:Tradition ;
+    rdfs:label "Reiki"@de,
+        "Reiki"@en ;
+    skos:definition "The Japanese transmission of a healing energy conveyed by the hands, transmitted through an attunement conferred by a teacher in a stated lineage."@en ;
+    skos:note "Attunement is a transmission claim in the strict sense: the capacity is said to pass from person to person by a discrete act. That is unusually well suited to examination, because the tradition itself distinguishes those who have received it from those who have not."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Usui Reiki Ryōhō Hikkei; Hayashi, Reiki Ryōhō Shishin" .
+
+pmt:RenaissanceMagic a pm:Tradition ;
+    rdfs:label "Gelehrte Magie der Renaissance"@de,
+        "Renaissance learned magic"@en ;
+    skos:definition "The early modern attempt to give magic a philosophy: sympathies, images, memory as an operative art, and angelic communication kept as a record."@en ;
+    skos:note "Dee's diaries are a working log with dates, which makes them a different kind of witness from the treatises around them."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ficino, De vita libri tres; Agrippa, De occulta philosophia; Bruno, De umbris idearum; Dee, Monas Hieroglyphica and the spiritual diaries" .
+
+pmt:Rosicrucian a pm:Tradition ;
+    rdfs:label "Rosenkreuzerische Überlieferung"@de,
+        "Rosicrucian transmission"@en ;
+    skos:definition "The transmission begun by three anonymous manifestos that announced an order and a knowledge, and that produced both by being read."@en ;
+    skos:note "A tradition whose founding documents describe a body that did not exist before them. Of interest to the project precisely as a documented case of a transmission created by its own announcement."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Fama Fraternitatis; Confessio Fraternitatis; Chymische Hochzeit Christiani Rosencreutz" .
+
+pmt:SamiNoaidi a pm:Tradition ;
+    rdfs:label "Samische Noaidi-Überlieferung"@de,
+        "Sámi noaidi transmission"@en ;
+    skos:definition "The Sámi transmission of the drum as an instrument of divination and of a journey undertaken while the body lies still."@en ;
+    skos:note "Recorded almost entirely by missionaries engaged in suppressing it, which makes every passage a hostile witness and the hostility itself a datum."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf" .
+
+pmt:Samkhya a pm:Tradition ;
+    rdfs:label "Sāṃkhya"@de,
+        "Sāṃkhya"@en ;
+    skos:definition "The enumerative transmission of the evolutes of nature and of a witnessing principle distinct from them, on which the yoga of the graph already rests."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Īśvarakṛṣṇa, Sāṃkhyakārikā; Yuktidīpikā" .
+
+pmt:SantNada a pm:Tradition ;
+    rdfs:label "Sant- und Nāda-Überlieferung"@de,
+        "Sant and inner-sound transmission"@en ;
+    skos:definition "The north Indian transmission of an inner sound held to be audible under instruction, and of union without image or rite."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Kabīr granthāvalī; Ādi Granth; Nāda-bindu Upaniṣad" .
+
+pmt:Shangqing a pm:Tradition ;
+    rdfs:label "Shangqing"@de,
+        "Shangqing"@en ;
+    skos:definition "The Daoist transmission of visualised journeys, of deities resident in the body, and of nocturnal encounters recorded as they were received."@en ;
+    skos:note "The Zhen'gao is a dated record of revelations with the recipient named, which places it among the few pre-modern first-person corpora available anywhere."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
+
+pmt:Shingon a pm:Tradition ;
+    rdfs:label "Shingon"@de,
+        "Shingon"@en ;
+    skos:definition "The Japanese esoteric transmission claiming buddhahood in the present body, achieved through the coordination of gesture, speech and visualisation."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Kūkai, Sokushin jōbutsu gi; Kūkai, Hizō hōyaku" .
+
+pmt:Shinto a pm:Tradition ;
+    rdfs:label "Shintō"@de,
+        "Shintō"@en ;
+    skos:definition "The Japanese transmission of kami, of purification as the central operation, and of formal address preserved in the imperial liturgies."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Kojiki; Nihon shoki; the norito of the Engishiki" .
+
+pmt:Shugendo a pm:Tradition ;
+    rdfs:label "Shugendō"@de,
+        "Shugendō"@en ;
+    skos:definition "The Japanese transmission of mountain austerity, in which power is held to follow from ordeals performed at named places in a fixed order."@en ;
+    skos:note "The self-mummification practice gives the project something almost nothing else does: a stated procedure with a documented outcome and documented failures, both counted."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Shozan engi; the Shugendō shūyō himitsu shū" .
+
+pmt:SiberianShamanism a pm:Tradition ;
+    rdfs:label "Sibirische Schamanenüberlieferung"@de,
+        "Siberian shamanic transmission"@en ;
+    skos:definition "The Tungus and Sakha transmission of an office entered through an illness that resolves only on acceptance, with a costume, a drum and a stated itinerary."@en ;
+    skos:note "The region the word shaman was taken from. The graph uses the category and holds no witness from its source."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pmt:SolomonicGrimoire a pm:Tradition ;
+    rdfs:label "Salomonische Grimoire-Tradition"@de,
+        "Solomonic grimoire transmission"@en ;
+    skos:definition "The transmission of ritual handbooks for the constraint of spirits, carrying preparation, circle, seal, adjuration and dismissal as a fixed sequence."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
+
+pmt:Spiritism a pm:Tradition ;
+    rdfs:label "Spiritismus"@de,
+        "Spiritism"@en ;
+    skos:definition "The transmission founded by Kardec on answers obtained through mediums and arranged as a doctrine, with survival and communication asserted as facts open to verification."@en ;
+    skos:note "Registered because of how it states its claims. A tradition that submits itself to examination in its own founding text is the natural first object of the project's examination layer, and the largest single body of nineteenth-century investigation is attached to it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums" .
+
+pmt:Srividya a pm:Tradition ;
+    rdfs:label "Śrīvidyā"@de,
+        "Śrīvidyā"@en ;
+    skos:definition "The transmission of the goddess as sound and diagram, with an initiatory sequence tied to the levels of a single mantra."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Yoginīhṛdaya; Nityāṣoḍaśikārṇava; Bhāskararāya, Setubandha" .
+
+pmt:Swedenborgian a pm:Tradition ;
+    rdfs:label "Swedenborgische Überlieferung"@de,
+        "Swedenborgian transmission"@en ;
+    skos:definition "A transmission resting on one man's sustained reports of conversation with the dead and with angels, kept as a dated journal over decades."@en ;
+    skos:note "Quantitatively the largest body of first-person reports available to the project, and dated throughout, which makes internal consistency checkable in a way most such material is not."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Swedenborg, De caelo et inferno; Swedenborg, Diarium spirituale" .
+
+pmt:SyriacAsceticism a pm:Tradition ;
+    rdfs:label "Syrische Askese"@de,
+        "Syriac ascetic transmission"@en ;
+    skos:definition "The East Syriac transmission of solitary prayer, of the stages of stillness and of the wonder held to interrupt prayer rather than complete it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Isaac of Nineveh, Ascetical Homilies; John of Dalyatha, Letters; Evagrius, Kephalaia Gnostica in the Syriac recension" .
+
+pmt:TamilSiddhar a pm:Tradition ;
+    rdfs:label "Tamilische Siddhar-Überlieferung"@de,
+        "Tamil Siddhar transmission"@en ;
+    skos:definition "The Tamil transmission of bodily perfection, rejuvenation regimens and a deliberately obscure poetic idiom that resists the commentary it invites."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Tirumūlar, Tirumandiram; the Bogar and Agastyar corpora; the kāya-kalpa literature" .
+
+pmt:Thelema a pm:Tradition ;
+    rdfs:label "Thelema"@de,
+        "Thelema"@en ;
+    skos:definition "Crowley's transmission of a received book, of the discovery of one's own will as the central task, and of a practice curriculum with a demand for recorded results."@en ;
+    skos:note "The insistence on keeping a magical diary and treating claims sceptically is a methodological demand made from inside a tradition, and belongs in the graph as such."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Crowley, Liber AL vel Legis; Crowley, Magick in Theory and Practice; Crowley, The Vision and the Voice" .
+
+pmt:Theosophy a pm:Tradition ;
+    rdfs:label "Theosophie"@de,
+        "Theosophy"@en ;
+    skos:definition "The modern transmission of root races, planes and masters, presented as the recovery of a single ancient doctrine underlying all religions."@en ;
+    skos:note "The pedigree claim is the tradition's own central assertion and is contested; it belongs in the graph as a claim about origin and not as a fact about transmission. Much of what circulates today as the doctrine of older traditions entered general circulation here."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Blavatsky, Isis Unveiled; Blavatsky, The Secret Doctrine; Leadbeater, The Chakras" .
+
+pmt:TheravadaCommentarial a pm:Tradition ;
+    rdfs:label "Theravādische Kommentarhandbücher"@de,
+        "Theravāda commentarial manuals"@en ;
+    skos:definition "The manual layer of Theravāda: the objects of concentration, the marks by which each absorption is recognised, and the higher knowledges said to follow from mastery."@en ;
+    skos:note "Registered apart from the canon because the canon states that the attainments occur and the manuals state how to reach them and how to tell whether one has."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Buddhaghosa, Visuddhimagga; Upatissa, Vimuttimagga; Paṭisambhidāmagga" .
+
+pmt:Tiantai a pm:Tradition ;
+    rdfs:label "Tiantai"@de,
+        "Tiantai"@en ;
+    skos:definition "The Chinese transmission of calming and contemplation, with a systematic account of the obstacles, illnesses and demonic states that arise in practice."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Zhiyi, Mohe zhiguan; Zhiyi, Xiao zhiguan" .
+
+pmt:UgariticRitual a pm:Tradition ;
+    rdfs:label "Ugaritisch-levantinisches Ritual"@de,
+        "Ugaritic and Levantine ritual"@en ;
+    skos:definition "Late Bronze Age Levantine ritual and incantation, including the address to the deified dead."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The KTU corpus, including the Rapiuma texts and the serpent incantations" .
+
+pmt:Valentinian pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pmt:VedicRitual a pm:Tradition ;
+    rdfs:label "Vedische Ritualüberlieferung"@de,
+        "Vedic ritual transmission"@en ;
+    skos:definition "The solemn ritual and its exegesis, in which efficacy rests on stated equivalences between the act, the body and the world."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
+
+pmt:Vodun a pm:Tradition ;
+    rdfs:label "Fon-Vodun-Überlieferung"@de,
+        "Fon vodun transmission"@en ;
+    skos:definition "The Fon transmission of vodun as powers received into a person, with an initiation understood as a death and a return under a new name."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey" .
+
+pmt:Waidan a pm:Tradition ;
+    rdfs:label "Waidan, äußere Alchemie"@de,
+        "Waidan external alchemy"@en ;
+    skos:definition "The Chinese transmission of elixirs compounded from mineral substances, with an explicit catalogue of the capacities each elixir is said to confer."@en ;
+    skos:note "Ge Hong's inner chapters list attainments in the same enumerated form as the siddhi lists and were compiled without access to them. The comparison is one of the sharpest tests the project can set itself."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
+
+pmt:Yangsheng a pm:Tradition ;
+    rdfs:label "Yangsheng-Überlieferung"@de,
+        "Yangsheng nourishing-life transmission"@en ;
+    skos:definition "The early Chinese transmission of breath circulation, guided stretching and dietary regimen for the prolongation of life, with illustrated postures."@en ;
+    skos:note "The Mawangdui and Zhangjiashan manuscripts are dated by their burial, which puts the breath material before any documented contact with Indian practice. This is the single most valuable registration in the file for the independence question."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Mawangdui manuscripts, including Daoyin tu and Quegu shiqi; the Zhangjiashan Yinshu; Huangting jing" .
+
+pmt:Yarsan a pm:Tradition ;
+    rdfs:label "Yarsanische Überlieferung"@de,
+        "Yarsan transmission"@en ;
+    skos:definition "An Iranian transmission teaching successive bodily lives as a purification, carried in Gorani verse."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Kalām-e Saranjām" .
+
+pmt:Yazidi a pm:Tradition ;
+    rdfs:label "Jesidische Überlieferung"@de,
+        "Yazidi transmission"@en ;
+    skos:definition "A Kurdish transmission carried chiefly in hymn and recitation, teaching successive returns of the soul."@en ;
+    skos:note "The two books circulated as its scripture are held by most scholarship to be forgeries of the early twentieth century, which makes the corpus question itself the first thing to decide."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "The Qewls (hymns) in the published collections; the disputed Mišefa Reš and Kitêba Cilwe" .
+
+pmt:Yogacara a pm:Tradition ;
+    rdfs:label "Yogācāra"@de,
+        "Yogācāra"@en ;
+    skos:definition "The transmission of consciousness-only doctrine together with the most detailed Indian description of meditative signs and the stages at which they appear."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Asaṅga, Yogācārabhūmi, particularly the Śrāvakabhūmi; Vasubandhu, Triṃśikā" .
+
+pmt:Zoroastrian a pm:Tradition ;
+    rdfs:label "Zoroastrische Überlieferung"@de,
+        "Zoroastrian transmission"@en ;
+    skos:definition "The Iranian transmission of a dualist cosmology, of xvarənah as a conferred radiance, and of a soul journey undertaken and reported."@en ;
+    skos:note "Ardā Wīrāz Nāmag is a substance-induced journey with a named traveller, a preparation and a report, and therefore closer to a protocol than most of what the graph holds."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Avesta (Gāthās, Yasna, Vīdēvdād); Bundahišn; Dēnkard; Ardā Wīrāz Nāmag" .
+
+pmt:ZuniRitual a pm:Tradition ;
+    rdfs:label "Zuni-Ritualüberlieferung"@de,
+        "Zuni ritual transmission"@en ;
+    skos:definition "The Zuni transmission of fixed prayer, memorised verbatim and held to be ineffective if altered."@en ;
+    skos:note "A tradition that states its own falsifying condition: the words must be exact. Whether exactness is in fact required is examinable."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:corpusNamed ;
+    pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
 
 pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     rdfs:label "Schmuck und Kosmetik"@de,
@@ -2354,27 +3402,35 @@ pmt:AdvaitaVedanta a pm:Tradition ;
     dcterms:source "Śaṅkara, Brahmasūtrabhāṣya, introduction (trans. G. Thibaut, Sacred Books of the East 34, Oxford 1890)" ;
     skos:definition "The non-dual commentarial tradition on the Vedānta corpus, represented here by the commentary on the Brahmasūtra."@en ;
     skos:note "Kept separate from the Upaniṣadic file although it comments on that corpus. A commentary is a later act of reading and states things its base text does not: what is held here is the commentator's argument, and a record that filed it under the older heading would date a ninth-century position to the age of the verses it expounds."@en,
-        "The three decisions preceding this file. Route of contact: none is documented towards the Greek or Chinese material; a correspondence with either would count as a finding, and none is asserted yet. Edition: the Thibaut translation of 1890 in the Sacred Books of the East, named on the node. Number of citable passages: one, read in the introductory section on superimposition."@en .
+        "The three decisions preceding this file. Route of contact: none is documented towards the Greek or Chinese material; a correspondence with either would count as a finding, and none is asserted yet. Edition: the Thibaut translation of 1890 in the Sacred Books of the East, named on the node. Number of citable passages: one, read in the introductory section on superimposition."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:Madhyamaka a pm:Tradition ;
     rdfs:label "Madhyamaka"@de,
         "Madhyamaka"@en ;
     dcterms:source "Nāgārjuna, Mūlamadhyamakakārikā (trans. Th. Stcherbatsky, The Conception of Buddhist Nirvāṇa, Leningrad 1927)" ;
     skos:definition "The middle-way school of Buddhist philosophy founded on the verses of Nāgārjuna and its commentarial literature."@en ;
-    skos:note "The three decisions preceding this file. Route of contact: to the Śaiva and Śākta material a route exists and is not in dispute, so a correspondence with it would be reception and not a finding; towards the Greek or the Western esoteric material none is documented. Edition: the verses are read in Stcherbatsky's translation of 1927, named on the node, which carries the commentary of Candrakīrti alongside them; the Sanskrit has not been consulted. Number of citable passages: one."@en .
+    skos:note "The three decisions preceding this file. Route of contact: to the Śaiva and Śākta material a route exists and is not in dispute, so a correspondence with it would be reception and not a finding; towards the Greek or the Western esoteric material none is documented. Edition: the verses are read in Stcherbatsky's translation of 1927, named on the node, which carries the commentary of Candrakīrti alongside them; the Sanskrit has not been consulted. Number of citable passages: one."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:SeferYetzirah a pm:Tradition ;
     rdfs:label "Sefer Jetzira"@de,
         "Sefer Yetzirah"@en ;
     dcterms:source "Sefer Yetzirah 1:9-12 (Short Version; numbering of Kaplan 1997)" ;
-    skos:definition "The transmission of the Book of Formation and its commentaries, in which the world is formed through letters, number and breath."@en .
+    skos:definition "The transmission of the Book of Formation and its commentaries, in which the world is formed through letters, number and breath."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:StoicPhysics a pm:Tradition ;
     rdfs:label "Stoische Physik"@de,
         "Stoic physics"@en ;
     dcterms:source "Chrysippus, in Galen, De placitis Hippocratis et Platonis V.3.8" ;
     skos:definition "The Stoic doctrine of a fiery breath that pervades matter and holds it together."@en ;
-    skos:note "Edition finding, prima-materia#45. The edition of Galen the fragment was read in is not recoverable and is left unstated rather than guessed. The section numbering of De placitis Hippocratis et Platonis differs between the older editions and the critical one, so V.3.8 locates the passage only in the latter."@en .
+    skos:note "Edition finding, prima-materia#45. The edition of Galen the fragment was read in is not recoverable and is left unstated rather than guessed. The section numbering of De placitis Hippocratis et Platonis differs between the older editions and the critical one, so V.3.8 locates the passage only in the latter."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:ValentinianGnosis a pm:Tradition ;
     rdfs:label "Valentinianische Gnosis"@de,
@@ -2598,7 +3654,9 @@ pmt:Upanisadic a pm:Tradition ;
         "Upaniṣadic tradition"@en ;
     dcterms:source "Chāndogya Upaniṣad" ;
     skos:definition "The transmission of the Upaniṣads as the speculative layer of the Vedic corpus."@en ;
-    skos:note "Edition finding, prima-materia#45. Chāndogya 7.15.1 carries the edition it was read from and was reopened in the Sanskrit for that purpose. For 1.11.5 the edition is not recoverable and is left unstated rather than guessed."@en .
+    skos:note "Edition finding, prima-materia#45. Chāndogya 7.15.1 carries the edition it was read from and was reopened in the Sanskrit for that purpose. For 1.11.5 the edition is not recoverable and is left unstated rather than guessed."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmc:AstangaLimbs a pm:Conceptualizing ;
     rdfs:label "Die acht Glieder"@de,
@@ -2701,21 +3759,27 @@ pmt:EleusinianMysteries a pm:Tradition ;
         "Eleusinian mysteries"@en ;
     dcterms:source "Athenian decree concerning Eleusis, IG I³ 6" ;
     skos:definition "The Attic mystery cult of Demeter and Kore, with a lesser rite at Agrai in the spring and the greater rite at Eleusis in the autumn."@en ;
-    skos:note "Edition finding, prima-materia#45. The citation names the corpus in which the inscription is edited, which for an epigraphic source is the edition; what is not recorded is whether the text was read in that corpus or in a secondary report of it, and that is to be established before the reading of face C is relied on."@en .
+    skos:note "Edition finding, prima-materia#45. The citation names the corpus in which the inscription is edited, which for an epigraphic source is the edition; what is not recorded is whether the text was read in that corpus or in a secondary report of it, and that is to be established before the reading of face C is relied on."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:Platonic a pm:Tradition ;
     rdfs:label "Platonische Überlieferung"@de,
         "Platonic tradition"@en ;
     dcterms:source "Plato, Symposium 210a-212a" ;
     skos:definition "The transmission of the Platonic dialogues and the ascent they describe from particular to intelligible beauty."@en ;
-    skos:note "Edition finding, prima-materia#45. The edition the Symposium was read in is not recoverable and is left unstated rather than guessed. The Stephanus pagination is stable across the modern editions, so the citations locate the text; what is unknown is whether the Greek or a translation was read."@en .
+    skos:note "Edition finding, prima-materia#45. The edition the Symposium was read in is not recoverable and is left unstated rather than guessed. The Stephanus pagination is stable across the modern editions, so the citations locate the text; what is unknown is whether the Greek or a translation was read."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:SanskritDramaturgy a pm:Tradition ;
     rdfs:label "Sanskritische Dramaturgie"@de,
         "Sanskrit dramaturgy"@en ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en ;
-    skos:note "Edition finding, prima-materia#45. For both citations the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter division of the Nāṭyaśāstra differs between the recensions, so the number seven does not by itself locate the passage on the bodily signs."@en .
+    skos:note "Edition finding, prima-materia#45. For both citations the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter division of the Nāṭyaśāstra differs between the recensions, so the number seven does not by itself locate the passage on the bodily signs."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:MethodOrientation a owl:Class ;
     rdfs:label "Ausrichtung der Methode"@de,
@@ -2737,12 +3801,24 @@ pmt:Hesychasm a pm:Tradition ;
         "Hesychasm"@en ;
     dcterms:source "Gregory Palamas, Triads in Defence of the Holy Hesychasts" ;
     skos:definition "The Byzantine tradition of the prayer of the heart and of the vision of the uncreated light, defended in the fourteenth century against the objection that such a light must be created."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The Philokalia exists in Greek and in several translations whose contents and numbering differ, so a citation naming only the volume does not yet locate a text."@en .
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The Philokalia exists in Greek and in several translations whose contents and numbering differ, so a citation naming only the volume does not yet locate a text."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:AwarenessSpace a owl:Class ;
     rdfs:label "Bewusstseinsraum"@de,
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
+
+pm:ContactRoute a owl:Class ;
+    rdfs:label "Kontaktweg"@de,
+        "Contact route"@en ;
+    skos:definition "Whether a route of transmission is known between a tradition and those the graph already holds. It decides whether an agreement may be read as independent attestation or only as reception, and it is therefore a property of the tradition and not of the individual correspondence."@en .
+
+pm:CoverageState a owl:Class ;
+    rdfs:label "Erschließungsstand"@de,
+        "Coverage state"@en ;
+    skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
 
 pm:ExaminationState a owl:Class ;
     rdfs:label "Prüfstand"@de,
@@ -2778,14 +3854,19 @@ pmt:NeoplatonicTheurgy a pm:Tradition ;
         "Neoplatonic theurgy"@en ;
     dcterms:source "Iamblichus, De mysteriis III (ed. des Places 1966)" ;
     skos:definition "The late antique Platonic transmission concerned with the ascent of the soul and with the criteria by which a divine communication is told from a human one."@en ;
-    skos:note "Edition finding, prima-materia#45. The De mysteriis citations name the edition they were read in. For Synesius, De insomniis neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en .
+    skos:note "Edition finding, prima-materia#45. The De mysteriis citations name the edition they were read in. For Synesius, De insomniis neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en,
+        "The file records that this layer underlies the later Jewish and Islamic dream theory, so agreement among those three may not be counted as independent."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:Sufism a pm:Tradition ;
     rdfs:label "Sufismus"@de,
         "Sufism"@en ;
     dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya" ;
     skos:definition "The transmission of the Islamic mystical path, systematised in the handbooks of the tenth and eleventh centuries."@en ;
-    skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en .
+    skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:TelicOrientation a owl:Class ;
     rdfs:label "Ausrichtung des Zieles"@de,
@@ -2800,7 +3881,10 @@ pmt:GraecoRoman a pm:Tradition ;
         "Graeco-Roman testimony"@en ;
     dcterms:source "Herodotus, Histories IV.13-16" ;
     skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en .
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en,
+        "The file records that a route to Indian material has been proposed for the older Greek transmission and not shown. Disputed is therefore the state of the question, not a hedge."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered .
 
 pm:Attesting a owl:Class ;
     rdfs:label "Bezeugen"@de,
@@ -2841,6 +3925,11 @@ pm:Converging a owl:Class ;
     skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -2859,7 +3948,9 @@ pmt:DesertMonasticism a pm:Tradition ;
         "Desert monasticism"@en ;
     dcterms:source "Evagrius Ponticus, Praktikos" ;
     skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter numbering of the Praktikos and the step division of the Ladder both vary between editions, so the numbers here stand on nothing until the passages are reopened."@en .
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter numbering of the Praktikos and the step division of the Ladder both vary between editions, so the numbers here stand on nothing until the passages are reopened."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
@@ -2880,8 +3971,11 @@ pmt:Daoist a pm:Tradition ;
         "Daoist tradition"@en ;
     dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
     skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en ;
-    skos:note "Edition finding, prima-materia#45. The citations of the jade inscription name the work they were read in. For Zhuangzi 4, Baopuzi neipian 8 and Chen Zhixu's Jindan dayao the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened, and for the Jindan dayao the juan division is itself edition-dependent."@en,
-        "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en .
+    skos:note "Deliberately not documented. From the arrival of Buddhism in China the route is plain and the file's material lies mostly after it; for the earlier strata it is not, and the whole independence value of the Chinese material hangs on where that line falls."@en,
+        "Edition finding, prima-materia#45. The citations of the jade inscription name the work they were read in. For Zhuangzi 4, Baopuzi neipian 8 and Chen Zhixu's Jindan dayao the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened, and for the Jindan dayao the juan division is itself edition-dependent."@en,
+        "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered .
 
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
@@ -2896,7 +3990,9 @@ pmt:TibetanTantric a pm:Tradition ;
         "Tibetan tantric tradition"@en ;
     dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
     skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en ;
-    skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en .
+    skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
@@ -2904,14 +4000,23 @@ pmt:SaivaSakta a pm:Tradition ;
     dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
     skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
     skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
-        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en .
+        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
         "Pātañjala Yoga"@en ;
     dcterms:source "Patañjali, Yogasūtra" ;
     skos:definition "The transmission of the Yogasūtra of Patañjali and its commentarial literature."@en ;
-    skos:note "Edition finding, prima-materia#45. Only Yogasūtra III.38 carries the edition it was read from; it was reopened in the Sanskrit for that purpose. For every other citation in this file, and for the Yogabhāṣya, the edition or translation the passage was read from is not recoverable: the session that entered them did not record it, and it cannot be reconstructed from the wording of the nodes. It is stated here rather than guessed, because an edition entered by inference would be a claim about the compiler's work that is not true. Until the passages are reopened, the verse numbers in this file stand on the received four-pāda division and nothing further."@en .
+    skos:note "Edition finding, prima-materia#45. Only Yogasūtra III.38 carries the edition it was read from; it was reopened in the Sanskrit for that purpose. For every other citation in this file, and for the Yogabhāṣya, the edition or translation the passage was read from is not recoverable: the session that entered them did not record it, and it cannot be reconstructed from the wording of the nodes. It is stated here rather than guessed, because an edition entered by inference would be a claim about the compiler's work that is not true. Until the passages are reopened, the verse numbers in this file stand on the received four-pāda division and nothing further."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:Practicing a owl:Class ;
     rdfs:label "Praktizieren"@de,
@@ -2919,22 +4024,26 @@ pm:Practicing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An operative procedure enacted within a tradition."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
-
-pm:Tradition a owl:Class ;
-    rdfs:label "Tradition"@de,
-        "Tradition"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
@@ -2946,14 +4055,18 @@ pmt:Theravada a pm:Tradition ;
         "Theravāda"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
     skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
-    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en .
+    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:Hathayoga a pm:Tradition ;
     rdfs:label "Haṭhayoga"@de,
         "Haṭhayoga"@en ;
     dcterms:source "Svātmārāma, Haṭhayogapradīpikā (Sanskrit vulgate; Sinh 1915)" ;
     skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en ;
-    skos:note "Edition finding, prima-materia#45. Every verse cited in this file was read in the Sanskrit of the widely circulated vulgate, in the recension that the 1915 edition and translation of Sinh carries, and each citation now says so. The critical edition drawn from the manuscript tradition numbers differently in places; pmc:HathapradipikaRecensionDispute holds what is at issue."@en .
+    skos:note "Edition finding, prima-materia#45. Every verse cited in this file was read in the Sanskrit of the widely circulated vulgate, in the recension that the 1915 edition and translation of Sinh carries, and each citation now says so. The critical edition drawn from the manuscript tradition numbers differently in places; pmc:HathapradipikaRecensionDispute holds what is at issue."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
@@ -2966,16 +4079,34 @@ pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
     dcterms:source "G.W.E. Nickelsburg, 1 Enoch 1 (Hermeneia, 2001), introduction" ;
-    skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en .
+    skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pm:contactRouteDocumented a pm:ContactRoute ;
+    rdfs:label "Kontaktweg belegt"@de,
+        "Contact route documented"@en ;
+    skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
 pm:textualAttestation a pm:Attesting ;
     rdfs:label "Textzeugnis"@de,
         "Textual attestation"@en ;
     skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pm:Conceptualizing a owl:Class ;
     rdfs:label "Begriffsbildung"@de,
         "Conceptualizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
+
+pm:Tradition a owl:Class ;
+    rdfs:label "Tradition"@de,
+        "Tradition"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
