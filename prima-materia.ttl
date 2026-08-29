@@ -1351,6 +1351,14 @@ pm:individualAwareness a pm:AwarenessSpace ;
         "Individual awareness"@en ;
     skos:definition "First-person singular awareness bounded to a single subject."@en .
 
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
 pm:methodOrientation a owl:ObjectProperty ;
     rdfs:label "Ausrichtung der Methode"@de,
         "method orientation"@en ;
@@ -1406,6 +1414,13 @@ pm:protocolUpdated a owl:DatatypeProperty ;
     rdfs:domain pm:Testing ;
     rdfs:range xsd:date ;
     skos:definition "The date on which the count was last carried forward. A protocol without this date claims a scrutiny it does not document."@en .
+
+pm:readVia a owl:DatatypeProperty ;
+    rdfs:label "gelesen über"@de,
+        "read via"@en ;
+    skos:definition "The work in which the passage was actually read, given as a bibliographic reference, where that work is not the one carrying the claim."@en ;
+    skos:note "Deliberately separate from dcterms:source, for the same reason pm:evidenceFrom is. dcterms:source names what a reader must obtain to check the claim; this names what the writer of the node had in front of him. A record that fused them would report second-hand reading as first-hand and would lose the one distinction that makes an unreachable source admissible at all."@en,
+        "Required wherever pm:attestedBy is pm:mediatedAttestation. Carries a bibliographic reference and never a URL, enforced by pm:ReadViaIsLiteratureShape."@en .
 
 pm:selfBoundaryDeclined a pm:TelicOrientation ;
     rdfs:label "Abgelehnte Selbstgrenze"@de,
@@ -2560,13 +2575,6 @@ pmt:Sufism a pm:Tradition ;
     skos:definition "The transmission of the Islamic mystical path, systematised in the handbooks of the tenth and eleventh centuries."@en ;
     skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en .
 
-pm:Attesting a owl:Class ;
-    rdfs:label "Bezeugen"@de,
-        "Attesting"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
-    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
-
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
@@ -2588,6 +2596,13 @@ pmt:GraecoRoman a pm:Tradition ;
     dcterms:source "Herodotus, Histories IV.13-16" ;
     skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en .
+
+pm:Attesting a owl:Class ;
+    rdfs:label "Bezeugen"@de,
+        "Attesting"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
+    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en .
 
 pm:AwarenessContext a owl:Class ;
     rdfs:label "Bewusstseinskontext"@de,
