@@ -829,6 +829,14 @@ pmc:SixteenStepsOfBreathing a pm:Presupposing ;
     pm:priorStep pmp:Anapanasati ;
     pm:withinTradition pmt:Theravada .
 
+pmc:SixteenSupports a pm:Conceptualizing ;
+    rdfs:label "Die sechzehn Stützen"@de,
+        "The sixteen supports"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.73" ;
+    skos:definition "A set of sixteen named stations of the body, called supports, which the seal at the throat is said to bind; the manual names the number in a compound and treats the binding of all sixteen as one operation."@en ;
+    skos:note "Recorded because the number is the whole of the finding. A modern draft gives thirteen segments as the path along which the force is led; sixteen is what the base text names here, and other works of the wider corpus give eighteen. The count therefore varies across the transmission, which means there is no single path to be had, and a scheme that presents one number as the path has chosen a branch without saying so. The other witnesses to the sixteen and the eighteen have not been read at their wording and are not entered here. See prima-materia#35."@en ;
+    pm:withinTradition pmt:Hathayoga .
+
 pmc:SpiritPresupposesBreath a pm:Presupposing ;
     rdfs:label "Die Verfeinerung des Geistes setzt die des Atems voraus"@de,
         "Refining spirit presupposes refining breath"@en ;
@@ -2492,17 +2500,17 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pmt:Hathayoga a pm:Tradition ;
-    rdfs:label "Haṭhayoga"@de,
-        "Haṭhayoga"@en ;
-    dcterms:source "Svātmārāma, Haṭhayogapradīpikā" ;
-    skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en .
-
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
         "Theravāda"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
     skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en .
+
+pmt:Hathayoga a pm:Tradition ;
+    rdfs:label "Haṭhayoga"@de,
+        "Haṭhayoga"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā" ;
+    skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
