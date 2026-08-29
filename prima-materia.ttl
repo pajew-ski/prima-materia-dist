@@ -64,6 +64,14 @@ pmc:ApatheiaPresupposesAscesis a pm:Presupposing ;
     pm:priorStep pmc:Praktike ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:AppearancesAreSelfArising a pm:Conceptualizing ;
+    rdfs:label "Die Erscheinungen sind Selbst-Erscheinung"@de,
+        "The appearances are self-arising"@en ;
+    dcterms:source "Bar do thos grol (Karma Lingpa recension, 14th century; trans. Gyurme Dorje 2006), the intermediate state of reality" ;
+    skos:definition "The teaching that the figures met in the intermediate state are appearances of the one who meets them and not independently existing beings, and that recognising them as such is what frees."@en ;
+    skos:note "Tibetan rang snang, self-appearance. A dating warning belongs on this node: the work is traditionally ascribed to Padmasambhava in the eighth century but is a treasure text of the fourteenth, revealed by Karma Lingpa; the older ascription is not held in the scholarship. Note also the scope. The doctrine holds of all appearance in this tradition, waking included, and is therefore not a statement about the threshold state in particular."@en ;
+    pm:withinTradition pmt:TibetanTantric .
+
 pmc:AraqielTeachesSignsOfTheEarth a pm:Attributing ;
     rdfs:label "Araqiel offenbart die Zeichen der Erde"@de,
         "Araqiel discloses the signs of the earth"@en ;
@@ -191,6 +199,38 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
         pmc:Dibbasota,
         pmc:Manomayakaya ;
     pm:withinTradition pmt:Theravada .
+
+pmc:DivineDreamIsNotOrdinarySleep a pm:Cautioning ;
+    rdfs:label "Der göttliche Traum ist nicht der gewöhnliche Schlaf"@de,
+        "The divine dream is not ordinary sleep"@en ;
+    dcterms:source "Iamblichus, De mysteriis III.2-3 (ed. des Places 1966)" ;
+    skos:definition "The warning that the mass of dreams occurring in full sleep carries no divination, and that only the state at the edge of sleep is treated as a sign of divine presence."@en ;
+    skos:note "Load-bearing against any claim that sleep as such is an access. The source that comes closest in the whole collection to naming the threshold state is also the one that refuses the wider claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:Theopemptos ;
+    pm:withinTradition pmt:NeoplatonicTheurgy .
+
+pmc:DreamDivinationPresupposesPurityOfTheVehicle a pm:Presupposing ;
+    rdfs:label "Traumdivination setzt die Reinheit des Fahrzeugs voraus"@de,
+        "Dream divination presupposes purity of the vehicle"@en ;
+    dcterms:source "Synesius of Cyrene, De insomniis" ;
+    skos:note "The condition is on the state of the seer, not on a technique of sleeping. Recorded as order rather than necessity because the treatise makes the clarity of the dream depend on the vehicle without stating at that place what befalls one who proceeds with an unpurified one. Chapter divisions vary between editions; the work and its subject are given so that the passage can be found in whichever edition is at hand."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:DreamDivination ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:PneumaticVehicle ;
+    pm:withinTradition pmt:NeoplatonicTheurgy .
+
+pmc:DreamYogaPresupposesClearLight a pm:Presupposing ;
+    rdfs:label "Traumyoga setzt das Halten des klaren Lichts voraus"@de,
+        "Dream yoga presupposes holding the clear light of sleep"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:note "The treatise takes the recognition of the clear light before the training in the dream. It does not state at that place what befalls one who begins elsewhere, which is why the strength is order and not necessity."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:DreamYoga ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ClearLightOfSleep ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
     rdfs:label "Unterscheidung gegen das Übermaß"@de,
@@ -717,6 +757,29 @@ pmc:ThreefoldAscentOrder a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Praktike ;
     pm:withinTradition pmt:DesertMonasticism .
+
+pmc:ThresholdIsNotTheExecutionState a pm:Disputing ;
+    rdfs:label "Ob der Schwellenzustand die Vermögen trägt"@de,
+        "Whether the threshold state carries the faculties"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga I.11 (trans. Ñāṇamoli 1956)",
+        "Diadochus of Photice, Gnostic Chapters 40",
+        "Iamblichus, De mysteriis III.2-3 (ed. des Places 1966)" ;
+    skos:definition "A disagreement about where the higher perceptual capacities are exercised. The handbooks of absorption place them in a waking, fully concentrated state and say so with a stated necessity; the ascetic literature marks the light half-sleep as the place of counterfeit consolation; the theurgic account, by contrast, treats the edge of sleep as the mark of a genuine divine communication."@en ;
+    skos:note "Recorded as a dispute between sources and not as a verdict on the modern draft. A draft is not a side: it carries no attestation, so a claim it makes has no standing here. What the sources actually disagree about is narrower and more interesting than the draft's question, namely whether the threshold is evidential at all, and both sides of that are attested."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:Theopemptos .
+
+pmc:ThresholdReceptionCorrespondence a pm:Converging ;
+    rdfs:label "Die Schwelle als Ort des Empfangs"@de,
+        "The threshold as a place of reception"@en ;
+    dcterms:source "Iamblichus, De mysteriis III.2-3 (ed. des Places 1966)",
+        "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005), the yoga of the clear light of sleep" ;
+    skos:definition "The observation that several traditions mark the passage between sleeping and waking as the place where a communication is received, while none of them makes it the place where a faculty is exercised."@en ;
+    skos:note "Two axes have to be held apart, and the modern draft that prompted this examination runs them together. On the reception axis the threshold is well attested: a voice, a light and an immobility of the eyes in the Neoplatonic account, the nightly ascent of the soul in the Kabbalistic one, the true dream in the Islamic one. On the execution axis, where sight, hearing and the mind-made body are actively exercised, the sources bind the capacities to waking absorption instead. No source found so far puts an actively exercised faculty in the threshold state."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:ClearLightOfSleep,
+        pmc:Theopemptos ;
+    pm:transmissionPath "The correspondence must not be counted as independent attestation. The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa and is reception, as the file that holds it records. The Mediterranean witnesses are worse still for this purpose: the later Jewish and Islamic dream theory rests on a Neoplatonic substrate, so an agreement between the Greek, the Jewish and the Islamic account is a shared inheritance and not three independent observations. What would count as a finding is a tradition outside both blocks, and none has been located." .
 
 pmc:TrainingPresupposesPreliminaries a pm:Presupposing ;
     rdfs:label "Das Training setzt die Vorbereitungen voraus"@de,
@@ -1334,6 +1397,13 @@ pmc:Pneuma a pm:Conceptualizing ;
     skos:note "The associated doctrines are that of tension and that of total mixture, by which two bodies occupy the same place throughout."@en ;
     pm:withinTradition pmt:StoicPhysics .
 
+pmc:PneumaticVehicle a pm:Conceptualizing ;
+    rdfs:label "Das pneumatische Seelenfahrzeug"@de,
+        "The pneumatic vehicle of the soul"@en ;
+    dcterms:source "Synesius of Cyrene, De insomniis" ;
+    skos:definition "A subtle vehicle carried by the soul, whose purity is held to decide whether what appears in a dream is clear and true or clouded."@en ;
+    pm:withinTradition pmt:NeoplatonicTheurgy .
+
 pmc:Prana a pm:Conceptualizing ;
     rdfs:label "Prāṇa"@de,
         "Prāṇa"@en ;
@@ -1572,6 +1642,24 @@ pm:protocolledPractice a pm:Attesting ;
         "Protocolled practice"@en ;
     skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
 
+pmp:DreamDivination a pm:Practicing ;
+    rdfs:label "Traumdivination"@de,
+        "Dream divination"@en ;
+    dcterms:source "Synesius of Cyrene, De insomniis" ;
+    skos:definition "The deliberate use of dreams as a source of knowledge, treated in this literature as available to anyone and requiring no instrument beyond the sleeper."@en ;
+    skos:note "The absence of an instrument and of an office is the point at which this tradition differs from the incubation cult: no temple, no priest, no fee."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NeoplatonicTheurgy .
+
+pmp:DreamYoga a pm:Practicing ;
+    rdfs:label "Traumyoga"@de,
+        "Dream yoga"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005), the yoga of the dream state" ;
+    skos:definition "The training of awareness within the dream, set out in the treatise as a course of exercises in apprehending, multiplying and transforming what appears."@en ;
+    skos:note "Tibetan rmi lam, transliterated milam. Older witnesses stand behind the fifteenth-century treatise: the dream-yoga manuals in the collected works of Gampopa (1079-1153) and the root verses ascribed to Tilopa. That ascription is traditional and only partly secured philologically. Note also that the list of the six is unstable between witnesses, and that the name six yogas is a western coinage for what the tradition calls six dharmas."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:TibetanTantric .
+
 pmp:FourteenfoldMastery a pm:Practicing ;
     rdfs:label "Beherrschung des Geistes in vierzehn Weisen"@de,
         "Control of the mind in fourteen ways"@en ;
@@ -1682,6 +1770,14 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:ClearLightOfSleep a pm:Conceptualizing ;
+    rdfs:label "Das klare Licht des Schlafs"@de,
+        "The clear light of sleep"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005), the yoga of the clear light of sleep" ;
+    skos:definition "A luminosity held to arise at the passage into sleep, which the practitioner is trained to recognise and hold rather than to pass through unconscious."@en ;
+    skos:note "Tibetan 'od gsal, Sanskrit prabhāsvara. The state is not that of a body whose motor system has shut down while the mind stays awake; it is a luminosity placed at the moment of falling asleep, and its purpose in the sources is the recognition of emptiness and the preparation for dying, not the acquisition of a faculty."@en ;
+    pm:withinTradition pmt:TibetanTantric .
 
 pmc:Dibbacakkhu a pm:Conceptualizing ;
     rdfs:label "Göttliches Auge"@de,
@@ -1907,6 +2003,14 @@ pmc:Qi a pm:Conceptualizing ;
     skos:definition "The vital breath or energy held to circulate in the body and to be susceptible of deliberate direction."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:Theopemptos a pm:Conceptualizing ;
+    rdfs:label "Der gottgesandte Traum"@de,
+        "The god-sent dream"@en ;
+    dcterms:source "Iamblichus, De mysteriis III.2-3 (ed. des Places 1966)" ;
+    skos:definition "A dream held to come from a god rather than from the sleeper, and distinguished from the ordinary dream not by its content but by the state in which it arrives."@en ;
+    skos:note "The state is described as the one in which sleep is departing and waking beginning, or as a condition between the two, accompanied by a voice, by a light, and by an inability to move the eyes. This is the closest description in the collection to what modern accounts call the hypnopompic state, and the immobility is named as part of the sign rather than as an obstacle. What arrives in it is a communication received, not a faculty exercised."@en ;
+    pm:withinTradition pmt:NeoplatonicTheurgy .
+
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
         "Ānāpānasati"@en ;
@@ -1934,13 +2038,6 @@ pmt:SanskritDramaturgy a pm:Tradition ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pm:PrerequisiteStrength a owl:Class ;
     rdfs:label "Stärke der Voraussetzung"@de,
         "Prerequisite Strength"@en ;
@@ -1965,6 +2062,13 @@ pm:AwarenessSpace a owl:Class ;
         "Awareness Space"@en ;
     skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pm:ExaminationState a owl:Class ;
     rdfs:label "Prüfstand"@de,
         "Examination State"@en ;
@@ -1979,6 +2083,12 @@ pmp:Samyama a pm:Practicing ;
     skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmt:NeoplatonicTheurgy a pm:Tradition ;
+    rdfs:label "Neuplatonische Theurgie"@de,
+        "Neoplatonic theurgy"@en ;
+    dcterms:source "Iamblichus, De mysteriis III (ed. des Places 1966)" ;
+    skos:definition "The late antique Platonic transmission concerned with the ascent of the soul and with the criteria by which a divine communication is told from a human one."@en .
 
 pmt:Sufism a pm:Tradition ;
     rdfs:label "Sufismus"@de,
@@ -2015,13 +2125,6 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
-
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -2040,18 +2143,19 @@ pmt:SaivaSakta a pm:Tradition ;
     dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
     skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en .
 
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
@@ -2060,23 +2164,29 @@ pm:Yielding a owl:Class ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en .
 
-pmt:TibetanTantric a pm:Tradition ;
-    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
-        "Tibetan tantric tradition"@en ;
-    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
-    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
-
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
     dcterms:source "Evagrius Ponticus, Praktikos" ;
     skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en .
+
+pmt:TibetanTantric a pm:Tradition ;
+    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
+        "Tibetan tantric tradition"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en .
 
 pm:Practicing a owl:Class ;
     rdfs:label "Praktizieren"@de,
@@ -2095,16 +2205,16 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
         "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
