@@ -384,6 +384,26 @@ pmc:HathapradipikaRecensionDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmt:Hathayoga .
 
+pmc:HawkinsConsciousnessScale a pm:Originating ;
+    rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
+        "The ranking of emotions by measured level"@en ;
+    dcterms:date "1995" ;
+    dcterms:source "D. R. Hawkins, Power vs. Force (1995)" ;
+    skos:definition "The claim that emotional and mental states occupy fixed positions on a single numbered scale, ascending from shame through fear, anger and pride to reason, love, joy, peace and enlightenment, and that the position can be established by testing."@en ;
+    skos:note "No tradition located so far ranks emotions by reach or by energy on a single ordered scale. The seventeen steps, the relative order of shame, guilt, fear and anger, and the placement of willingness are the specific things a later list can be measured against, and they begin here."@en ;
+    pm:circulatesAs "A perennial map of consciousness, reported as the distilled agreement of the mystical traditions." ;
+    pm:originatedBy "David R. Hawkins" .
+
+pmc:HicksEmotionalGuidanceScale a pm:Originating ;
+    rdfs:label "Die Skala der emotionalen Führung"@de,
+        "The emotional guidance scale"@en ;
+    dcterms:date "2004" ;
+    dcterms:source "E. Hicks and J. Hicks, Ask and It Is Given (2004), ch. 22" ;
+    skos:definition "The claim that emotions form a graded ladder that indicates how near a person stands to a desired state, with joy, knowledge, empowerment, freedom, love and appreciation at its top rung."@en ;
+    skos:note "The upper block of this scale reappears almost word for word in later lists that present themselves as older. Recorded so that the wording has a dated first appearance to be checked against."@en ;
+    pm:circulatesAs "A law of the emotions, presented as a description of how feeling works rather than as one author's arrangement." ;
+    pm:originatedBy "Esther Hicks and Jerry Hicks" .
+
 pmc:HorripilationCorrespondence a pm:Converging ;
     rdfs:label "Die Entsprechung der Haaraufrichtung"@de,
         "The horripilation correspondence"@en ;
@@ -1151,6 +1171,12 @@ pm:cautionsAbout a owl:ObjectProperty ;
     rdfs:domain pm:Cautioning ;
     skos:definition "The capacity, practice or pursuit a warning is directed at."@en .
 
+pm:circulatesAs a owl:DatatypeProperty ;
+    rdfs:label "zirkuliert als"@de,
+        "circulates as"@en ;
+    rdfs:domain pm:Originating ;
+    skos:definition "The ascription under which the claim is commonly reported: the tradition, the age or the authority it is credited to and does not have."@en .
+
 pm:collectiveAwareness a pm:AwarenessSpace ;
     rdfs:label "Kollektives Bewusstsein"@de,
         "Collective awareness"@en ;
@@ -1261,6 +1287,18 @@ pm:ordersClaim a owl:ObjectProperty ;
         "orders claim"@en ;
     rdfs:domain pm:Systematizing ;
     skos:definition "A claim that this ordering act groups. The claims keep their own attestation; only the grouping belongs to the compiler."@en .
+
+pm:originatedBy a owl:DatatypeProperty ;
+    rdfs:label "aufgestellt von"@de,
+        "originated by"@en ;
+    rdfs:domain pm:Originating ;
+    skos:definition "The named author with whom the claim begins."@en .
+
+pm:positedIn a owl:DatatypeProperty ;
+    rdfs:label "gesetzt in"@de,
+        "posited in"@en ;
+    rdfs:domain pm:Positing ;
+    skos:definition "Where the claim was put forward, given as an identifier rather than as a bibliographic reference: an issue number, a draft designation. Deliberately not dcterms:source, because what is named here is not a work a reader can obtain and must never be counted as one."@en .
 
 pm:prerequisiteStrength a owl:ObjectProperty ;
     rdfs:label "Stärke der Voraussetzung"@de,
@@ -1872,6 +1910,13 @@ pm:MeaningCluster a owl:Class ;
     skos:definition "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."@en ;
     skos:note "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."@en .
 
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
 pm:Symbolizing a owl:Class ;
     rdfs:label "Symbolisieren"@de,
         "Symbolizing"@en ;
@@ -2313,6 +2358,14 @@ pmt:SanskritDramaturgy a pm:Tradition ;
         "Sanskrit dramaturgy"@en ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en .
+
+pm:Originating a owl:Class ;
+    rdfs:label "Urheben"@de,
+        "Originating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
+    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
+        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
 pm:PrerequisiteStrength a owl:Class ;
     rdfs:label "Stärke der Voraussetzung"@de,
