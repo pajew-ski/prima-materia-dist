@@ -279,12 +279,14 @@ pmc:DistinctivenessAgainstDissolution a pm:Originating ;
     dcterms:date "1916" ;
     dcterms:source "C. G. Jung, Septem Sermones ad Mortuos, Sermo I (English translation of the 1916 private printing, Gnostic Society Library electronic edition)" ;
     skos:definition "The claim that a creature which ceases to distinguish falls into the undifferentiated fullness, ceases to be a creature and is given over to dissolution in nothingness, so that its natural striving runs towards distinctiveness against a primeval and perilous sameness; and that the striving is nevertheless not after difference but after the creature's own being."@en ;
-    skos:note "Recorded because it is the only position located so far that names both ends of the axis as a loss and then states a third movement. Dissolution into the fullness is called the death of the creature outright, which rules out the unitive end; and the striving is expressly not after difference as it is thought, which rules out the separative one. What remains is a striving after one's own being, and the source gives it the name principium individuationis."@en,
+    skos:note "Placed on the telic axis as pm:individuatingTelos. The placement is a reading and rests on the two refusals the passage makes in the same breath: dissolution is called the death of the creature, and the striving is said not to be after difference. Stated here rather than left implicit so that it can be contradicted."@en,
+        "Recorded because it is the only position located so far that names both ends of the axis as a loss and then states a third movement. Dissolution into the fullness is called the death of the creature outright, which rules out the unitive end; and the striving is expressly not after difference as it is thought, which rules out the separative one. What remains is a striving after one's own being, and the source gives it the name principium individuationis."@en,
         "The attribution is why this is an origination and not a witness of gnostic transmission. The author printed the text under the name of a second-century teacher of Alexandria who did not write it, and it continues to be read and cited as gnostic teaching. pm:circulatesAs records that, and the node makes no judgement about the author's own reading of the ancient material."@en,
         "The god named above the god of the pairs of opposites belongs to the same argument and not to a separate doctrine: the qualities of the fullness are given as pairs, and what is set above them unites the full and the empty. A reading that takes this for a third party in a pantheon takes the figure for the argument."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:circulatesAs "A gnostic text of the second century, printed under the name of Basilides of Alexandria and read as ancient teaching rather than as a work written in 1916." ;
-    pm:originatedBy "C. G. Jung" .
+    pm:originatedBy "C. G. Jung" ;
+    pm:telicOrientation pm:individuatingTelos .
 
 pmc:DivineDreamIsNotOrdinarySleep a pm:Cautioning ;
     rdfs:label "Der göttliche Traum ist nicht der gewöhnliche Schlaf"@de,
@@ -1119,10 +1121,12 @@ pmc:ValentinianConsummation a pm:Conceptualizing ;
         "The consummation as a marriage rather than a merging"@en ;
     dcterms:source "Irenaeus, Adversus Haereses I, in the account of the Valentinian consummation, at the passage on the mother's return, the brides of the angels and the removal of the creator (trans. J. Keble, Oxford 1872)" ;
     skos:definition "The account of a final state in which the mother returns within the fullness and receives the saviour as her spouse; those who call themselves spiritual are stripped of their souls, made purely intellectual spirits, and become brides of spiritual angels; the creator, being merely animal, moves into the mother's place; and the souls of the righteous rest in an intermediate place."@en ;
-    skos:note "Recorded because it does not fit either end of the axis it is regularly assigned to. The spiritual ones are not dissolved: they are stripped and transformed, but a bridal state presupposes two, so what is transformed persists as a party to it. Nor are they made into absolutes of their own: they are married, not set apart. The end is a union that keeps what it unites, and that is a third case, distinct from the one in pmc:DistinctivenessAgainstDissolution, where the creature stays with itself against dissolution rather than entering a twoness. See prima-materia#70 and prima-materia#52."@en,
+    skos:note "Placed on the telic axis as pm:conjugalTelos. The placement is a reading and carries the same burden as the claim it sits on: it rests on the bridal state reported in the passage, which has two parties and therefore neither one term nor an absolute. It is stated here rather than left implicit so that it can be contradicted."@en,
+        "Recorded because it does not fit either end of the axis it is regularly assigned to. The spiritual ones are not dissolved: they are stripped and transformed, but a bridal state presupposes two, so what is transformed persists as a party to it. Nor are they made into absolutes of their own: they are married, not set apart. The end is a union that keeps what it unites, and that is a third case, distinct from the one in pmc:DistinctivenessAgainstDissolution, where the creature stays with itself against dissolution rather than entering a twoness. See prima-materia#70 and prima-materia#52."@en,
         "The passage is a report by an opponent and is attested as such. What can be said on this source is that the doctrine was ascribed in this form in the second century, not that its holders stated it so. See the caution on pmt:ValentinianGnosis."@en,
         "Two further things in the same passage that a summary loses. The demiurge is not destroyed but relocated, which makes the account less anticosmic than its modern reception; and the souls of the righteous, who are not of the spiritual class, are neither saved into the fullness nor lost, but given a place between. A scheme with two outcomes cannot hold either detail."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:telicOrientation pm:conjugalTelos ;
     pm:withinTradition pmt:ValentinianGnosis .
 
 pmc:VespasianHealing a pm:Attributing ;
@@ -1496,7 +1500,8 @@ pm:selfBoundaryDeclined a pm:TelicOrientation ;
     rdfs:label "Abgelehnte Selbstgrenze"@de,
         "Self boundary declined"@en ;
     skos:definition "The source holds that the question is malformed for its path: there is no bounded self that could either be dissolved or preserved, so neither end state is what it aims at."@en ;
-    skos:note "As with pm:normDistinctionDeclined, this is a positive claim about a source and not a place to put an undetermined case."@en .
+    skos:note "As with pm:normDistinctionDeclined, this is a positive claim about a source and not a place to put an undetermined case."@en,
+        "The value was first written as the single place for everything that is neither dissolution nor separation, and the material has since shown that too coarse: a marriage is not a non-position, and a non-position is not a claim about which level the question belongs to. The two clearest of those have their own values below. What remains here is the plain form — the source denies that there is a bounded self to be dealt with either way — and the case where a source instead declares the whole level of the question superseded, which is a further distinction still to be made when a second instance of it appears."@en .
 
 pm:separativeTelos a pm:TelicOrientation ;
     rdfs:label "Absonderndes Ziel"@de,
@@ -2143,6 +2148,19 @@ pm:casesWithDeviation a pm:ExaminationState ;
         "Cases with deviation"@en ;
     skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
+pm:conjugalTelos a pm:TelicOrientation ;
+    rdfs:label "Bräutliches Ziel"@de,
+        "Conjugal telos"@en ;
+    skos:definition "The path claims that the bounded self is neither dissolved nor kept apart but carried into a union of two that preserves both parties to it, so that what is transformed persists as one side of a relation rather than as an absolute or as nothing."@en ;
+    skos:note "Distinct from pm:separativeTelos for the same reason from the other side: what persists here is not its own absolute but a party to a bond, and it is transformed on the way rather than fortified."@en,
+        "Distinct from pm:unitiveTelos, and the distinction is not verbal. A dissolution has one term at the end; a marriage has two. A record that files a bridal end state as unitive reports the disappearance of something the source keeps."@en .
+
+pm:individuatingTelos a pm:TelicOrientation ;
+    rdfs:label "Individuierendes Ziel"@de,
+        "Individuating telos"@en ;
+    skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
+    skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
+
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
@@ -2610,14 +2628,6 @@ pm:PrerequisiteStrength a owl:Class ;
     skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
 
-pm:TelicOrientation a owl:Class ;
-    rdfs:label "Ausrichtung des Zieles"@de,
-        "Telic Orientation"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "What a path says becomes of the bounded self at its end: whether the self is to be dissolved into what exceeds it, strengthened and preserved as its own absolute, or whether the path declines the question. An instance of this class is a value on that axis and never a path."@en ;
-    skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
-        "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en .
-
 pmt:Hesychasm a pm:Tradition ;
     rdfs:label "Hesychasmus"@de,
         "Hesychasm"@en ;
@@ -2672,6 +2682,14 @@ pmt:Sufism a pm:Tradition ;
     dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya" ;
     skos:definition "The transmission of the Islamic mystical path, systematised in the handbooks of the tenth and eleventh centuries."@en ;
     skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en .
+
+pm:TelicOrientation a owl:Class ;
+    rdfs:label "Ausrichtung des Zieles"@de,
+        "Telic Orientation"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "What a path says becomes of the bounded self at its end: whether the self is to be dissolved into what exceeds it, strengthened and preserved as its own absolute, or whether the path declines the question. An instance of this class is a value on that axis and never a path."@en ;
+    skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
+        "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
