@@ -286,6 +286,16 @@ pmc:DreamYogaPresupposesClearLight a pm:Presupposing ;
     pm:priorStep pmc:ClearLightOfSleep ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmc:Dvadasanta a pm:Conceptualizing ;
+    rdfs:label "Das Ende der Zwölf"@de,
+        "The end of the twelve"@en ;
+    dcterms:source "Vijñānabhairava 28",
+        "Vijñānabhairava 50",
+        "Vijñānabhairava 51" ;
+    skos:definition "A limit named as the end of twelve, at which the mind or the risen power comes to rest. The verses give the number and leave the unit unstated."@en ;
+    skos:note "Two things this node deliberately does not say. It does not fix the unit: the base text says end-of-twelve, and the reading that makes this twelve finger-breadths from the tip of the nose belongs to the commentarial layer, not to the verse. And it does not fix the place: the exegesis of Lakṣmaṇjoo counts several such limits in the body, at the crown, the brows, the throat, the base of the heart and the navel, and the verse that follows says outright that it may be reached in any manner and in any place. Nothing here yields a fixed radius. See prima-materia#38."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
     rdfs:label "Unterscheidung gegen das Übermaß"@de,
         "Discretion against excess"@en ;
@@ -751,11 +761,12 @@ pmc:SevenCentreQualityMapping a pm:Systematizing ;
     dcterms:date "1927" ;
     dcterms:source "A. Avalon, The Serpent Power (1919)",
         "C. W. Leadbeater, The Chakras (1927)",
-        "Christopher Hills, Nuclear Evolution (1977)" ;
+        "Christopher Hills, Nuclear Evolution (1977)",
+        "Ken Dychtwald, Bodymind (1977)" ;
     skos:definition "The assignment of a fixed set of seven centres to spectral colours and to psychological qualities such as will, expression and security. An ordering imposed in the twentieth century on material that did not carry it."@en ;
     skos:note "Colour scheme in Leadbeater 1927, rainbow spectrum in Hills 1977, on the textual basis made available by Avalon's 1919 translation of the Ṣaṭcakranirūpaṇa. Recorded here so that the mapping is available in the graph as what it is, and cannot be mistaken for the tantric material it was built on."@en ;
     pm:attestedBy pm:compilerInference ;
-    pm:compiledBy "C. W. Leadbeater, extended by Christopher Hills" ;
+    pm:compiledBy "C. W. Leadbeater, extended by Christopher Hills and Ken Dychtwald" ;
     pm:ordersClaim pmc:Cakra .
 
 pmc:ShamsielTeachesSignsOfTheSun a pm:Attributing ;
@@ -916,6 +927,18 @@ pmc:TrainingPresupposesPreliminaries a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmp:Preliminaries ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmc:TraversalPresupposesSequence a pm:Presupposing ;
+    rdfs:label "Die Durchquerung setzt voraus, dass ihre Stationen der Reihe nach genommen werden"@de,
+        "The traversal presupposes that its stations are taken in order"@en ;
+    dcterms:source "Vijñānabhairava 29",
+        "Vijñānabhairava 56" ;
+    skos:note "Recorded at prescribed order and not at stated necessity, on purpose and against the reading a modern draft makes. The sources say kramaśaḥ and kramāt kramam, in sequence and step by step, and they say it more than once. What no source consulted says is what happens to one who skips a station. A prohibition needs a consequence somebody can quote, and this one has none; without it the claim is an instruction that a later reader hardened into a rule. See prima-materia#36."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:WorldPathTraversal ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:AscentThroughEachCentre ;
+    pm:withinTradition pmt:SaivaSakta .
 
 pmc:TummoHeatExamination a pm:Testing ;
     rdfs:label "Prüfung der Tummo-Hitze-Behauptung"@de,
@@ -1359,6 +1382,15 @@ pmc:Armaros a pm:Conceptualizing ;
     skos:definition "A Watcher named in the teaching list as the one who disclosed the undoing of spells."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:AscentThroughEachCentre a pm:Conceptualizing ;
+    rdfs:label "Der Aufstieg, der in einer Bewegung jedes Zentrum durchläuft"@de,
+        "The ascent that passes through every centre in one movement"@en ;
+    dcterms:source "Vijñānabhairava 28",
+        "Vijñānabhairava 29" ;
+    skos:definition "The power is imagined rising in the form of lightning, at each centre in turn and step by step, upward as far as three fists, and at the end of that ascent stands the great awakening."@en ;
+    skos:note "The two phrases that carry this are praticakram, at each centre, and kramāt kramam, step by step. Recorded because it settles two questions at once. It gives a body measure in the base text, three fists for the upward reach, where a modern draft gives an arm's length; and it makes the passage through several centres a single exercise, where the same draft allows one centre per session and calls a change of centre a break. See prima-materia#38 and prima-materia#40."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:Astrology a pm:Conceptualizing ;
     rdfs:label "Astrologie"@de,
         "Astrology"@en ;
@@ -1795,6 +1827,15 @@ pmc:WeaponsOfDeath a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:6 (Ethiopic; Charles 1912)" ;
     skos:definition "Shield, breastplate and the sword for slaughter, disclosed as instruments of killing rather than as craft."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:WorldPathTraversal a pm:Conceptualizing ;
+    rdfs:label "Die Durchquerung des Weltenpfads"@de,
+        "The traversal of the path of worlds"@en ;
+    dcterms:source "Vijñānabhairava 56",
+        "Vijñānabhairava 57" ;
+    skos:definition "The whole is contemplated in the form of the path of worlds and the other paths, in sequence, in its coarse, subtle and supreme condition, until the mind dissolves; and the same method carried to the limits of the universe is said to bring the great awakening."@en ;
+    skos:note "This is the old form of the claim that attention placed in a centre opens an assigned layer. The layers here are worlds, bhuvana, and they belong to a cosmology written into the body, not to a list of psychological qualities. The distance between the two is the whole point of the mapping node above. See prima-materia#39."@en ;
+    pm:withinTradition pmt:SaivaSakta .
 
 pmc:WritingWithInk a pm:Conceptualizing ;
     rdfs:label "Schreiben mit Tinte"@de,
@@ -2360,12 +2401,6 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     dcterms:source "John Cassian, Collationes I-II" ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en .
 
-pmt:SaivaSakta a pm:Tradition ;
-    rdfs:label "Śaiva- und Śākta-Tantra"@de,
-        "Śaiva and Śākta tantra"@en ;
-    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
-    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en .
-
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
         "Converging"@en ;
@@ -2397,6 +2432,12 @@ pmt:DesertMonasticism a pm:Tradition ;
         "Desert monasticism"@en ;
     dcterms:source "Evagrius Ponticus, Praktikos" ;
     skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en .
+
+pmt:SaivaSakta a pm:Tradition ;
+    rdfs:label "Śaiva- und Śākta-Tantra"@de,
+        "Śaiva and Śākta tantra"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
