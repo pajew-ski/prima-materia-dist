@@ -761,18 +761,6 @@ pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     pm:priorStep pmc:EmptyingOfTheHeart ;
     pm:withinTradition pmt:Daoist .
 
-pmc:RightAndLeftHandNomenclature a pm:Systematizing ;
-    rdfs:label "Die Wiedergabe der beiden Śākta-Zweige als rechtshändiges und linkshändiges Ritual"@de,
-        "The rendering of the two Śākta branches as a right and a left hand ritual"@en ;
-    dcterms:date "1832" ;
-    dcterms:source "H. H. Wilson, Sketch of the Religious Sects of the Hindus, Asiatic Researches XVII (Calcutta 1832), the sections headed Dakshinas, or Bhaktas and Vamis, or Vamacharis" ;
-    skos:definition "The English naming of the dakṣiṇācāra and vāmācāra divisions of the Śākta sect as the followers of a right hand and a left hand ritual, together with the characterisation of the second as impure, as running contrary to what is usual, and as something its adherents will not publicly avow."@en ;
-    skos:note "Held as an ordering act because the naming is regularly credited to Blavatsky, who wrote in 1877 and in 1888. It stands in Wilson forty-five years earlier, in the volume of the Asiatic Researches for 1832, in those terms and with the moral charge already attached. Whoever first coined it, it was not she, and a record that repeats the later attribution reports a reception as an origin. See prima-materia#57."@en,
-        "No pm:ordersClaim is given, because the division it orders is not yet in the graph as a claim of its own: that would need a passage in a tantra rather than a passage in Wilson. See prima-materia#53."@en,
-        "The same section carries a ranking the naming does not survive. Wilson translates a passage he ascribes to the Kulārṇava that grades the Veda lowest and ascends through the Vaiṣṇava and the Śaiva to the right hand Śākta, then sets the left hand above the right, the Siddhānta above that, and the Kaula above all. In the material being ordered, the left is therefore the higher of the two; the English rendering keeps the pair and reverses the valuation. The verse is not located in an edition of the Kulārṇava here and is not held as a claim of that work. See prima-materia#56."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:compiledBy "Horace Hayman Wilson" .
-
 pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
         "The three inner limbs are inner to the preceding five"@en ;
@@ -1440,11 +1428,6 @@ pm:methodOrientation a owl:ObjectProperty ;
     skos:definition "Places a tradition, a practice or a claim on the axis of method. Asserting it is a claim about a source and carries the same burden as any other: a passage, an edition, and the counter-search."@en ;
     skos:note "No domain is declared, deliberately. The axis is stated of whatever a source states it of — a transmission as a whole, a single practice, a stage within one — and a declared domain would force the level before the material has settled it."@en .
 
-pm:noProcedureDevised a pm:ExaminationState ;
-    rdfs:label "Kein Verfahren ersonnen"@de,
-        "No procedure devised"@en ;
-    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
-
 pm:normDistinctionDeclined a pm:MethodOrientation ;
     rdfs:label "Abgelehnte Normunterscheidung"@de,
         "Norm distinction declined"@en ;
@@ -1556,6 +1539,19 @@ pm:yieldsCapacity a owl:ObjectProperty ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "The capacity a yielding claim arrives at. That the tradition says so is the claim; that the practice produces it is not asserted."@en .
 
+pmp:BinaryPredatesItsReportersExamination a pm:Testing ;
+    rdfs:label "Ob die Zweiteilung älter ist als ihre Berichterstatter"@de,
+        "Whether the two-way division is older than the reports of it"@en ;
+    skos:definition "A protocol on the claim that the naming of two Śākta branches as a right-hand and a left-hand ritual reports a division the Indian material carries, rather than imposing one it does not."@en ;
+    skos:note "No case answering the condition has been found so far, and two passages read for other purposes tell against it. The Kulārṇava gives a ladder of seven steps, not a pair, and ranks the left above the right; the Mahānirvāṇa divides practitioners into three dispositions rather than two paths. Neither was sought as a counterexample, which is what makes them worth recording here — they came out of a search for something else."@en,
+        "The modern scholarship that argues the same point — the construction of the category by nineteenth-century orientalism — has not been read and is therefore not cited at pm:evidenceFrom. Naming it unread would make this protocol look better supported than it is. See prima-materia#71."@en,
+        "What this protocol does not establish. It has not searched the Indian corpus exhaustively, and absence of a case in two texts is not absence in the corpus. The state is procedure-without-cases and not cases-without-deviation, and the difference matters: the first says the search has begun, the second would say it has been carried."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passages recorded in traditions/saiva-sakta.ttl" ;
+    pm:falsifiedBy "A pre-colonial Indian source that presents dakṣiṇa and vāma as a clean two-way division with a moral polarity, using union with the divine against self-deification as the criterion that separates them. One such passage refutes the claim that the division was imposed rather than found." ;
+    pm:protocolUpdated "2026-08-29" ;
+    pm:tests pmc:RightAndLeftHandNomenclature .
+
 pmp:Biqi a pm:Practicing ;
     rdfs:label "Das Verschließen des Atems"@de,
         "Closing off the breath"@en ;
@@ -1587,6 +1583,18 @@ pmp:Pranayama a pm:Practicing ;
     skos:definition "The regulation of the breath as a distinct limb of practice, following posture and preceding the withdrawal of the senses."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmp:SeparativeEndStateExamination a pm:Testing ;
+    rdfs:label "Ob der absondernde Endzustand überhaupt geprüft wurde"@de,
+        "Whether the separative end state has been examined at all"@en ;
+    skos:definition "A protocol on the claim that a self brought forth and made to endure is the attainment of the path, held here to record that no procedure for failing it has been devised."@en ;
+    skos:note "No pm:falsifiedBy is given, and the omission is the permitted one: the state says outright that no procedure has been devised. Everywhere else its absence would let a claim drift from unexamined to examined-and-unsupported."@en,
+        "The asymmetry is worth naming because it is easy to mistake for evidence. States of dissolution have measurable correlates and a literature; the end state claimed on the other side has neither instrument nor operationalisation. That is a fact about the instruments. Whoever infers from it that one path is better attested than the other has read the reach of the measuring apparatus as a finding about the paths. See prima-materia#73."@en,
+        "This node exists to prevent a confusion, not to report a result. Nobody has stated a condition under which the claim would count as refuted, and that is a statement about the means of examination and not about the claim. A record that left the protocol out entirely would say the same thing by silence; a record that reported the claim as unsupported would say something else and something false."@en ;
+    pm:examinationState pm:noProcedureDevised ;
+    pm:examinedBy "prima-materia" ;
+    pm:protocolUpdated "2026-08-29" ;
+    pm:tests pmc:XeperAsSelfGeneration .
 
 pmp:Sitkari a pm:Practicing ;
     rdfs:label "Sītkārī"@de,
@@ -1900,6 +1908,18 @@ pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
     skos:definition "The stopping of a fluid held to fall from above and to be consumed below, whose loss the manual makes responsible for ageing and death."@en ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:RightAndLeftHandNomenclature a pm:Systematizing ;
+    rdfs:label "Die Wiedergabe der beiden Śākta-Zweige als rechtshändiges und linkshändiges Ritual"@de,
+        "The rendering of the two Śākta branches as a right and a left hand ritual"@en ;
+    dcterms:date "1832" ;
+    dcterms:source "H. H. Wilson, Sketch of the Religious Sects of the Hindus, Asiatic Researches XVII (Calcutta 1832), the sections headed Dakshinas, or Bhaktas and Vamis, or Vamacharis" ;
+    skos:definition "The English naming of the dakṣiṇācāra and vāmācāra divisions of the Śākta sect as the followers of a right hand and a left hand ritual, together with the characterisation of the second as impure, as running contrary to what is usual, and as something its adherents will not publicly avow."@en ;
+    skos:note "Held as an ordering act because the naming is regularly credited to Blavatsky, who wrote in 1877 and in 1888. It stands in Wilson forty-five years earlier, in the volume of the Asiatic Researches for 1832, in those terms and with the moral charge already attached. Whoever first coined it, it was not she, and a record that repeats the later attribution reports a reception as an origin. See prima-materia#57."@en,
+        "No pm:ordersClaim is given, because the division it orders is not yet in the graph as a claim of its own: that would need a passage in a tantra rather than a passage in Wilson. See prima-materia#53."@en,
+        "The same section carries a ranking the naming does not survive. Wilson translates a passage he ascribes to the Kulārṇava that grades the Veda lowest and ascends through the Vaiṣṇava and the Śaiva to the right hand Śākta, then sets the left hand above the right, the Siddhānta above that, and the Kaula above all. In the material being ordered, the left is therefore the higher of the two; the English rendering keeps the pair and reverses the valuation. The verse is not located in an edition of the Kulārṇava here and is not held as a claim of that work. See prima-materia#56."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:compiledBy "Horace Hayman Wilson" .
+
 pmc:Romanca a pm:Conceptualizing ;
     rdfs:label "Haaraufrichtung"@de,
         "Horripilation"@en ;
@@ -2098,18 +2118,6 @@ pmc:WritingWithInk a pm:Conceptualizing ;
     skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
     pm:withinTradition pmt:Enochic .
 
-pmc:XeperAsSelfGeneration a pm:Originating ;
-    rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
-        "Xeper as the word of self-generation"@en ;
-    dcterms:date "1975" ;
-    dcterms:source "M. A. Aquino, The Temple of Set (Temple of Set, San Francisco), in the account of the Word Xeper and its Egyptian derivation" ;
-    skos:definition "The claim that the Egyptian term for becoming, coming into being, personified in the scarab god and signifying self-generation and the dawn, names the transformation and evolution of the will, and that it is uttered as the word of a new age succeeding the age of indulgence."@en ;
-    skos:note "Held as an origination because of the shape of the claim rather than its content. The word is Egyptian and its lexical sense is not in dispute; what begins in 1975 is its use as the formula of a path, in a sequence of ages with named predecessors. The Egyptological reference is present in the source and does not make the doctrine ancient."@en,
-        "This is the end state the milieu sets against dissolution, and it is worth recording in the author's own terms rather than in the summaries: not the preservation of an ego as ordinarily meant, but a self-generation modelled on a god who brings himself forth. A record that reports it as mere ego-preservation reports the criticism and not the claim."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:circulatesAs "A doctrine recovered from Egyptian antiquity, reported as the teaching the word is drawn from rather than as a formula first uttered in 1975." ;
-    pm:originatedBy "Michael A. Aquino" .
-
 pmc:XingqiDepth a pm:Conceptualizing ;
     rdfs:label "Die Tiefe als erste Stufe"@de,
         "Depth as the first stage"@en ;
@@ -2161,10 +2169,10 @@ pm:individuatingTelos a pm:TelicOrientation ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+pm:noProcedureDevised a pm:ExaminationState ;
+    rdfs:label "Kein Verfahren ersonnen"@de,
+        "No procedure devised"@en ;
+    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
 
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
@@ -2476,6 +2484,18 @@ pmc:SoulJourney a pm:Conceptualizing ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:XeperAsSelfGeneration a pm:Originating ;
+    rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
+        "Xeper as the word of self-generation"@en ;
+    dcterms:date "1975" ;
+    dcterms:source "M. A. Aquino, The Temple of Set (Temple of Set, San Francisco), in the account of the Word Xeper and its Egyptian derivation" ;
+    skos:definition "The claim that the Egyptian term for becoming, coming into being, personified in the scarab god and signifying self-generation and the dawn, names the transformation and evolution of the will, and that it is uttered as the word of a new age succeeding the age of indulgence."@en ;
+    skos:note "Held as an origination because of the shape of the claim rather than its content. The word is Egyptian and its lexical sense is not in dispute; what begins in 1975 is its use as the formula of a path, in a sequence of ages with named predecessors. The Egyptological reference is present in the source and does not make the doctrine ancient."@en,
+        "This is the end state the milieu sets against dissolution, and it is worth recording in the author's own terms rather than in the summaries: not the preservation of an ego as ordinarily meant, but a self-generation modelled on a god who brings himself forth. A record that reports it as mere ego-preservation reports the criticism and not the claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:circulatesAs "A doctrine recovered from Egyptian antiquity, reported as the teaching the word is drawn from rather than as a formula first uttered in 1975." ;
+    pm:originatedBy "Michael A. Aquino" .
+
 pmc:XingqiDescent a pm:Conceptualizing ;
     rdfs:label "Der Abstieg als Stufe der Folge"@de,
         "Descent as a stage of the sequence"@en ;
@@ -2488,6 +2508,11 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Upanisadic a pm:Tradition ;
     rdfs:label "Upaniṣadische Überlieferung"@de,
@@ -2752,13 +2777,6 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
         "Compiler inference"@en ;
@@ -2771,6 +2789,13 @@ pmt:DesertMonasticism a pm:Tradition ;
     dcterms:source "Evagrius Ponticus, Praktikos" ;
     skos:definition "The transmission of the ascetic literature of the Egyptian desert and its Byzantine continuation, in which the path is set out as an ordered ascent."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter numbering of the Praktikos and the step division of the Ladder both vary between editions, so the numbers here stand on nothing until the passages are reopened."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
