@@ -31,6 +31,16 @@ pmc:AbsorptionsAreGraded a pm:Presupposing ;
     pm:priorStep pmc:FourAbsorptions ;
     pm:withinTradition pmt:Theravada .
 
+pmc:AcaraLadder a pm:Conceptualizing ;
+    rdfs:label "Die aufsteigende Ordnung der ācāras"@de,
+        "The ascending order of the ācāras"@en ;
+    dcterms:source "Kulārṇava Tantra, in the section on the superiority of the Kula-dharma, at the verses giving the order of superiority of the ācāras (text with English translation by Ram Kumar Rai, Varanasi 1999)" ;
+    skos:definition "A graded order of ways of practice in which each is declared superior to the one before: the Veda above all others, the Vaiṣṇava above the Veda, the Śaiva above the Vaiṣṇava, the Dakṣiṇa above the Śaiva, the Vāma above the Dakṣiṇa, the Siddhānta above the Vāma, the Kaula above the Siddhānta, and nothing above the Kaula."@en ;
+    skos:note "The chapter and verse are not recoverable from the copy read, which is an OCR of a printed translation whose running structure the scan does not carry reliably. Work, section and edition are named instead, which meets the standard of findability; a later reader working from another edition should expect a different numbering. See prima-materia#45 and prima-materia#56."@en,
+        "This is the passage Wilson translates in 1832 without naming a place in the work, and on which pmc:RightAndLeftHandNomenclature rests. It is now located in an edition, so the order is a claim of the tantra and no longer only a claim of its reporter."@en,
+        "Two things follow that the Western pair of names cannot carry. The order has seven steps and not two, so a scheme with two is not a simplification of it but a replacement. And within the order the left stands above the right, so the English rendering keeps the pair and reverses its valuation. Whoever explains the modern left-hand path out of this passage explains it out of a text that ranks the left higher than the right and both below two further steps."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
         "Mindfulness of breathing yields rapture"@en ;
@@ -262,6 +272,19 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
         pmc:Dibbasota,
         pmc:Manomayakaya ;
     pm:withinTradition pmt:Theravada .
+
+pmc:DistinctivenessAgainstDissolution a pm:Originating ;
+    rdfs:label "Die Unterschiedenheit als Streben des Geschöpfs gegen die Auflösung"@de,
+        "Distinctiveness as the striving of the creature against dissolution"@en ;
+    dcterms:date "1916" ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos, Sermo I (English translation of the 1916 private printing, Gnostic Society Library electronic edition)" ;
+    skos:definition "The claim that a creature which ceases to distinguish falls into the undifferentiated fullness, ceases to be a creature and is given over to dissolution in nothingness, so that its natural striving runs towards distinctiveness against a primeval and perilous sameness; and that the striving is nevertheless not after difference but after the creature's own being."@en ;
+    skos:note "Recorded because it is the only position located so far that names both ends of the axis as a loss and then states a third movement. Dissolution into the fullness is called the death of the creature outright, which rules out the unitive end; and the striving is expressly not after difference as it is thought, which rules out the separative one. What remains is a striving after one's own being, and the source gives it the name principium individuationis."@en,
+        "The attribution is why this is an origination and not a witness of gnostic transmission. The author printed the text under the name of a second-century teacher of Alexandria who did not write it, and it continues to be read and cited as gnostic teaching. pm:circulatesAs records that, and the node makes no judgement about the author's own reading of the ancient material."@en,
+        "The god named above the god of the pairs of opposites belongs to the same argument and not to a separate doctrine: the qualities of the fullness are given as pairs, and what is set above them unites the full and the empty. A reading that takes this for a third party in a pantheon takes the figure for the argument."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:circulatesAs "A gnostic text of the second century, printed under the name of Basilides of Alexandria and read as ancient teaching rather than as a work written in 1916." ;
+    pm:originatedBy "C. G. Jung" .
 
 pmc:DivineDreamIsNotOrdinarySleep a pm:Cautioning ;
     rdfs:label "Der göttliche Traum ist nicht der gewöhnliche Schlaf"@de,
@@ -1111,17 +1134,17 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
 
-pmc:XeperAsSelfGeneration a pm:Originating ;
-    rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
-        "Xeper as the word of self-generation"@en ;
-    dcterms:date "1975" ;
-    dcterms:source "M. A. Aquino, The Temple of Set (Temple of Set, San Francisco), in the account of the Word Xeper and its Egyptian derivation" ;
-    skos:definition "The claim that the Egyptian term for becoming, coming into being, personified in the scarab god and signifying self-generation and the dawn, names the transformation and evolution of the will, and that it is uttered as the word of a new age succeeding the age of indulgence."@en ;
-    skos:note "Held as an origination because of the shape of the claim rather than its content. The word is Egyptian and its lexical sense is not in dispute; what begins in 1975 is its use as the formula of a path, in a sequence of ages with named predecessors. The Egyptological reference is present in the source and does not make the doctrine ancient."@en,
-        "This is the end state the milieu sets against dissolution, and it is worth recording in the author's own terms rather than in the summaries: not the preservation of an ego as ordinarily meant, but a self-generation modelled on a god who brings himself forth. A record that reports it as mere ego-preservation reports the criticism and not the claim."@en ;
+pmc:WhetherTheSelfIsKeptOrSurrendered a pm:Disputing ;
+    rdfs:label "Ob das Bewahren des Selbst das Ziel des Weges ist oder sein Scheitern"@de,
+        "Whether keeping the self is the goal of the path or its failure"@en ;
+    dcterms:source "A. Crowley, Magick Without Tears, chapter XII, on the left-hand path and the black brothers (electronic text of the collected letters)",
+        "M. A. Aquino, The Temple of Set (Temple of Set, San Francisco), in the account of the Word Xeper and its Egyptian derivation" ;
+    skos:definition "A disagreement about what becomes of the bounded self at the end of the path, carried on inside the modern occult literature with the same term on both sides. One party holds that a self which is not surrendered ossifies and is consumed by time, and calls that the second death; the other holds that a self brought forth and made to endure is the attainment, and names it with a word of self-generation."@en ;
+    skos:note "One asymmetry the record should not smooth. The earlier side values the matter from a unitive end and treats the surviving self as a remainder that time consumes; the later values it from a separative end and treats the same survival as the work itself. Neither is a misreading of the other. A continuity story running from the one to the other as a single tradition with a changing mood reports a break as a development."@en,
+        "That is why the disagreement is worth a node. Read as a quarrel about practices it dissolves into nothing, because neither side defines the path by practices. Read as a quarrel about the end state it is sharp and not decidable from inside either work, because each describes the same movement and calls it by the opposite name. See prima-materia#61 and prima-materia#68."@en,
+        "The sides do not differ over means, and both say so. The one states that the signpost of a right-hand and a left-hand path is barely legible, that the two look alike for a long way, and that the question is at which point they diverge; he puts the divergence at the crossing of the Abyss and separates the sorcerer from the brother of the left-hand path as sharply as a thief from a tyrant. The other derives his word from an Egyptian term for coming into being and applies it to the transformation of the will, not to any particular practice. Whatever is at issue between them, it is not method."@en ;
     pm:attestedBy pm:textualAttestation ;
-    pm:circulatesAs "A doctrine recovered from Egyptian antiquity, reported as the teaching the word is drawn from rather than as a formula first uttered in 1975." ;
-    pm:originatedBy "Michael A. Aquino" .
+    pm:disputedClaim pmc:XeperAsSelfGeneration .
 
 pmc:XingqiInscriptionDispute a pm:Disputing ;
     rdfs:label "Datierung und Lesung der Jadeinschrift"@de,
@@ -2048,6 +2071,18 @@ pmc:WritingWithInk a pm:Conceptualizing ;
     skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:XeperAsSelfGeneration a pm:Originating ;
+    rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
+        "Xeper as the word of self-generation"@en ;
+    dcterms:date "1975" ;
+    dcterms:source "M. A. Aquino, The Temple of Set (Temple of Set, San Francisco), in the account of the Word Xeper and its Egyptian derivation" ;
+    skos:definition "The claim that the Egyptian term for becoming, coming into being, personified in the scarab god and signifying self-generation and the dawn, names the transformation and evolution of the will, and that it is uttered as the word of a new age succeeding the age of indulgence."@en ;
+    skos:note "Held as an origination because of the shape of the claim rather than its content. The word is Egyptian and its lexical sense is not in dispute; what begins in 1975 is its use as the formula of a path, in a sequence of ages with named predecessors. The Egyptological reference is present in the source and does not make the doctrine ancient."@en,
+        "This is the end state the milieu sets against dissolution, and it is worth recording in the author's own terms rather than in the summaries: not the preservation of an ego as ordinarily meant, but a self-generation modelled on a god who brings himself forth. A record that reports it as mere ego-preservation reports the criticism and not the claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:circulatesAs "A doctrine recovered from Egyptian antiquity, reported as the teaching the word is drawn from rather than as a formula first uttered in 1975." ;
+    pm:originatedBy "Michael A. Aquino" .
+
 pmc:XingqiDepth a pm:Conceptualizing ;
     rdfs:label "Die Tiefe als erste Stufe"@de,
         "Depth as the first stage"@en ;
@@ -2600,13 +2635,6 @@ pmt:Sufism a pm:Tradition ;
     skos:definition "The transmission of the Islamic mystical path, systematised in the handbooks of the tenth and eleventh centuries."@en ;
     skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -2626,6 +2654,13 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
@@ -2638,14 +2673,6 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
 
-pm:Originating a owl:Class ;
-    rdfs:label "Urheben"@de,
-        "Originating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
-    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
-        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
-
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
         "Converging"@en ;
@@ -2653,6 +2680,14 @@ pm:Converging a owl:Class ;
     skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
     skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
+
+pm:Originating a owl:Class ;
+    rdfs:label "Urheben"@de,
+        "Originating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
+    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
+        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
@@ -2696,6 +2731,13 @@ pmt:Daoist a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The citations of the jade inscription name the work they were read in. For Zhuangzi 4, Baopuzi neipian 8 and Chen Zhixu's Jindan dayao the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened, and for the Jindan dayao the juan division is itself edition-dependent."@en,
         "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en .
 
+pmt:TibetanTantric a pm:Tradition ;
+    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
+        "Tibetan tantric tradition"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en ;
+    skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en .
+
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
         "Śaiva and Śākta tantra"@en ;
@@ -2703,13 +2745,6 @@ pmt:SaivaSakta a pm:Tradition ;
     skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
     skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
         "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en .
-
-pmt:TibetanTantric a pm:Tradition ;
-    rdfs:label "Tibetisch-tantrische Überlieferung"@de,
-        "Tibetan tantric tradition"@en ;
-    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
-    skos:definition "The transmission of the Indian tantric completion-stage practices in Tibet, of which the six yogas of Nāropa are the best documented cycle."@en ;
-    skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en .
 
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
