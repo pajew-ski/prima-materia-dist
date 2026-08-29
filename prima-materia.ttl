@@ -1005,6 +1005,17 @@ pmc:SuccessPresupposesNadiPurification a pm:Presupposing ;
     pm:priorStep pmc:NadiPurification ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:SuperimpositionUnderliesEveryPath a pm:Conceptualizing ;
+    rdfs:label "Die Überlagerung trägt jeden Weg, auch die Texte über die Befreiung"@de,
+        "Superimposition underlies every path, including the texts on release"@en ;
+    dcterms:source "Śaṅkara, Brahmasūtrabhāṣya, introduction, at the definition of superimposition as nescience and the statement that all practical distinctions including the texts on final release presuppose it (trans. G. Thibaut, Sacred Books of the East 34, Oxford 1890)" ;
+    skos:definition "The claim that self and non-self are mutually superimposed, that this superimposition is what learned men call nescience, and that it is the presupposition of every practical distinction — those of ordinary life and those laid down in scripture alike — between means of knowledge, objects of knowledge and knowing persons, in texts of injunction and prohibition and in texts concerned with final release."@en ;
+    skos:note "For the axes in prima-materia#52 this is neither a value nor a third position but a denial of the question's standing. It does not say that the bounded self is dissolved or kept; it says that the level at which either could be said is the level of nescience. Recorded so that a scheme which files it as a unitive telos can be checked against the argument. See prima-materia#66."@en,
+        "The clause that decides the matter is the last one. Not only the ordinary distinctions but the texts on release itself are said to rest on the superimposition. A path, a choice between paths and the scripture that recommends one are therefore all inside what the argument calls nescience — not false, but valid only where the superimposition holds."@en,
+        "The same section removes the one who would choose. Without the superimposition the self does not become a knowing agent at all, and where there is no knowing agent the means of knowledge do not operate. The agent that a choice between paths presupposes is thus itself among the things superimposed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:AdvaitaVedanta .
+
 pmc:ThreefoldAscentOrder a pm:Presupposing ;
     rdfs:label "Naturschau setzt asketische Praxis voraus"@de,
         "Contemplation of nature presupposes ascetic practice"@en ;
@@ -2239,6 +2250,14 @@ pmp:Xingqi a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Daoist .
 
+pmt:AdvaitaVedanta a pm:Tradition ;
+    rdfs:label "Advaita Vedānta"@de,
+        "Advaita Vedānta"@en ;
+    dcterms:source "Śaṅkara, Brahmasūtrabhāṣya, introduction (trans. G. Thibaut, Sacred Books of the East 34, Oxford 1890)" ;
+    skos:definition "The non-dual commentarial tradition on the Vedānta corpus, represented here by the commentary on the Brahmasūtra."@en ;
+    skos:note "Kept separate from the Upaniṣadic file although it comments on that corpus. A commentary is a later act of reading and states things its base text does not: what is held here is the commentator's argument, and a record that filed it under the older heading would date a ninth-century position to the age of the verses it expounds."@en,
+        "The three decisions preceding this file. Route of contact: none is documented towards the Greek or Chinese material; a correspondence with either would count as a finding, and none is asserted yet. Edition: the Thibaut translation of 1890 in the Sacred Books of the East, named on the node. Number of citable passages: one, read in the introductory section on superimposition."@en .
+
 pmt:SeferYetzirah a pm:Tradition ;
     rdfs:label "Sefer Jetzira"@de,
         "Sefer Yetzirah"@en ;
@@ -2783,17 +2802,17 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:Tradition a owl:Class ;
-    rdfs:label "Tradition"@de,
-        "Tradition"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Tradition a owl:Class ;
+    rdfs:label "Tradition"@de,
+        "Tradition"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
