@@ -479,6 +479,26 @@ pmc:HathapradipikaRecensionDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmt:Hathayoga .
 
+pmc:HauAsSpiritOfTheThing a pm:Originating ;
+    rdfs:label "Die Gabe trägt einen Geist, der ihre Erwiderung erzwingt"@de,
+        "The gift carries a spirit that compels its return"@en ;
+    dcterms:date "1925" ;
+    dcterms:source "Marcel Mauss, The Gift, translated by Ian Cunnison (London: Cohen and West, 1966), pp. 8-10" ;
+    skos:definition "The claim that a thing given holds a spiritual power belonging to its giver, that this power seeks to return to its place of origin, and that the obligation to make a return gift follows from it. The claim is put forward in a work of nineteen twenty-five, on the strength of the single Māori passage above."@en ;
+    skos:note "Entered as an origination and not as a Māori claim because the generalisation is the author's. The letter speaks of one kind of valuable and of a forest rite; the obligation of the return gift as a universal law of archaic exchange begins here. That the reading of the passage was itself contested from nineteen twenty-nine onward is recorded in prima-materia#107, because those sides were not read at the wording in this run."@en ;
+    pm:circulatesAs "the Māori doctrine of the spirit of the gift, and beyond it a universal principle of archaic exchange" ;
+    pm:originatedBy "Marcel Mauss" .
+
+pmc:HauOfTheGiftWordingDispute a pm:Disputing ;
+    rdfs:label "Wessen Hau: der Wortlaut des Ranapiri-Briefes"@de,
+        "Whose hau: the wording of the Ranapiri letter"@en ;
+    dcterms:source "Elsdon Best, Maori Forest Lore, part III, Transactions and Proceedings of the New Zealand Institute 42 (1909), p. 439",
+        "Tamati Ranapiri, letter to Elsdon Best, 23 November 1907, Polynesian Society Papers, Alexander Turnbull Library, MS-Papers-1187, folder 271, as collated in Hēnare, Journal of the Polynesian Society 127/4 (2018), pp. 455-457" ;
+    skos:definition "A disagreement about what the source text says, not about how to interpret it. The manuscript reads the possessive of the second person, which makes the hau that of the giver and keeps the giver attached to the thing after it has changed hands. The printed version of 1909 has the definite article in both key sentences, which makes the hau that of the object. Every later reading of the passage rests on one of the two."@en ;
+    skos:note "Entered as a dispute over the text rather than over its meaning, because that is the part a later reader can check and because the substitution was made silently. Both sides were read in the same study that reports the substitution, so the collation itself has not been verified against the manuscript or against the 1909 printing in this run."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:HauOfTheGift .
+
 pmc:HawkinsConsciousnessScale a pm:Originating ;
     rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
         "The ranking of emotions by measured level"@en ;
@@ -720,6 +740,36 @@ pmc:LovePresupposesApatheia a pm:Presupposing ;
         pmc:Apatheia ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:MakutuCaution a pm:Cautioning ;
+    rdfs:label "Nicht spucken in Gegenwart eines Kundigen"@de,
+        "Not to spit in the presence of one skilled in the art"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 31" ;
+    skos:definition "The witness reports that a person would not dare to spit in the presence of anyone he feared might be disposed to injure him, if that person had a reputation for skill in this art."@en ;
+    skos:note "A caution that names its own detection problem: the material the art needs is produced involuntarily, so the guard is against being present rather than against acting."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Makutu ;
+    pm:withinTradition pmt:Maori .
+
+pmc:Mana a pm:Conceptualizing ;
+    rdfs:label "Mana"@de,
+        "Mana"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), pp. 54 and 62" ;
+    skos:definition "An efficacy that belongs to someone. In the passages read it is always somebody's: a father's, which may inspire the son so that he becomes the living representative of that mana and of the karakia with it; or an opponent's, which is asked for by name in an invocation before a stroke is made."@en ;
+    skos:note "What the witness does not show is the thing the term is famous for elsewhere. In these passages mana is never a quantity of impersonal force at large in the world; it is held, inherited, represented, and asked for from a named holder. The reading that made it an impersonal power belongs to a later literature and to a different archipelago, and it is not entered here because that literature has not yet been opened at the wording. See prima-materia#103 for the origination and prima-materia#105 for the philological dispute over the word itself."@en ;
+    pm:withinTradition pmt:Maori .
+
+pmc:MaoriEfficacyPresupposesExactRecitation a pm:Presupposing ;
+    rdfs:label "Die Wirksamkeit einer Karakia setzt die fehlerfreie Wiederholung voraus"@de,
+        "The efficacy of a karakia presupposes its repetition without error"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11" ;
+    skos:note "Entered at stated necessity because the consequence is quotable. The same sentence is the tradition's own falsifying condition and is what makes the claim examinable at all; the protocol stands at pmc:RecitationExactnessExamination in convergences/recitation-exactness.ttl."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The witness says that to make an error, or even to hesitate, in repeating a karakia was held fatal to its efficacy. The consequence is stated for the whole address and not for a part of it, and hesitation is named alongside error." ;
+    pm:dependentStep pmc:MaoriKarakiaEfficacy ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:MaoriExactRecitation ;
+    pm:withinTradition pmt:Maori .
+
 pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
     rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
         "The root seal yields the kindled inner fire"@en ;
@@ -730,6 +780,26 @@ pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
     pm:withinTradition pmt:Hathayoga ;
     pm:yieldsCapacity pmc:KindledInnerFire .
 
+pmc:NavajoEfficacyPresupposesExactness a pm:Presupposing ;
+    rdfs:label "Die Wirksamkeit der Zeremonie setzt die Genauigkeit der Gesänge voraus"@de,
+        "The efficacy of the ceremony presupposes exactness in the songs"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
+    skos:note "The consequence is graded rather than absolute: an error may be fatal, and only in some cases does a single syllable do irreparable harm. That grading is worth keeping, because the parallel claims elsewhere are usually reported without it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The witness says an error made in singing a song may be fatal to the efficacy of a ceremony, and that in some cases the error of a single syllable works an irreparable injury." ;
+    pm:dependentStep pmc:NavajoCeremonyEfficacy ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:NavajoSongExactness ;
+    pm:withinTradition pmt:NavajoCeremonial .
+
+pmc:NavajoPublicErrorDetection a pm:Conceptualizing ;
+    rdfs:label "Die Zuhörerschaft als Fehlerinstanz"@de,
+        "The audience as the detector of the error"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 42, pp. 24-25" ;
+    skos:definition "The practice, at the public night ceremony, that many of those present know the songs well enough to catch a deviation, whereupon the ceremony is broken off as fruitless and the gathering disperses."@en ;
+    skos:note "The part of the claim that makes it examinable rather than merely asserted. The tradition does not only say that an error destroys the effect; it names who notices, when, and what visibly follows. Neither of the two parallel witnesses in this bundle carries that."@en ;
+    pm:withinTradition pmt:NavajoCeremonial .
+
 pmc:NoQuantitativeVerification a pm:Cautioning ;
     rdfs:label "Keine Zählung gegen den Zufall in den alten Quellen"@de,
         "No count against chance in the old sources"@en ;
@@ -739,6 +809,13 @@ pmc:NoQuantitativeVerification a pm:Cautioning ;
     skos:note "Any protocol that counts outcomes against a base rate is a modern addition and is to be recorded as one, not as the recovery of an ancient method."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:cautionsAbout pmc:TestingOfThoughts .
+
+pmc:Noa a pm:Conceptualizing ;
+    rdfs:label "Noa"@de,
+        "Noa"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 26" ;
+    skos:definition "The state of being free or common, that is, not under the restriction of tapu. The witness states that persons and things under tapu can be brought into this state by ceremonies, so that the two are not fixed conditions but ends of an operation."@en ;
+    pm:withinTradition pmt:Maori .
 
 pmc:Panchatattva a pm:Conceptualizing ;
     rdfs:label "Die fünf Tattvas des heroischen Ritus"@de,
@@ -832,6 +909,19 @@ pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:EmptyingOfTheHeart ;
     pm:withinTradition pmt:Daoist .
+
+pmc:RecitationExactnessExamination a pm:Testing ;
+    rdfs:label "Prüfprotokoll zur Genauigkeitsregel"@de,
+        "Protocol on the exactness rule"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 42, pp. 24-25" ;
+    skos:definition "An attempt to fail the claim that a misrecited ritual utterance does not obtain its effect. The claim is unusually well placed for this, because two of the three traditions name an outward event that follows a lapse, and one of them names who notices it and when."@en ;
+    skos:note "The Navajo witness supplies the sharpest form of the test and it needs no laboratory: at the public ceremony many present know the songs, an error is caught, and the ceremony is broken off as fruitless. The condition can therefore be failed by the tradition's own reporting rather than by an outside measurement, which is what the falsifier below states."@en,
+        "The examination is entered at procedure without cases and not at no procedure devised, and the difference is the whole point of the scale. A condition has been stated here; nobody has yet collected the cases against it."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the three witnesses; no cases collected" ;
+    pm:falsifiedBy "A recorded case, from within one of these transmissions, of a ritual utterance known to have been misrecited and nonetheless reported by that transmission as having obtained its effect; or, on the Navajo side, a recorded public ceremony in which a detected error did not break off the proceeding." ;
+    pm:protocolUpdated "2026-08-30"^^xsd:date ;
+    pm:tests pmc:ExactnessAsConditionOfEfficacy .
 
 pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
@@ -1078,6 +1168,18 @@ pmc:SuperimpositionUnderliesEveryPath a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AdvaitaVedanta .
 
+pmc:TapuBreachSign a pm:Testing ;
+    rdfs:label "Die verletzte Kopfhaut als Anzeichen des gebrochenen Fastens"@de,
+        "The cut scalp as the sign that the fast was broken"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 42" ;
+    skos:definition "A protocol the tradition states for itself. During the hair-cutting of a child under tapu nobody attending may eat; the witness says that a breach is discovered at once, because the skin of the child's head is cut while the hair is being cut, and calls this a sure sign."@en ;
+    skos:note "Entered because the tradition names an outward, observable event as the detector of a hidden breach and calls it certain. That is a falsifying condition offered by the material itself, which is rare enough in this collection to be worth holding as a protocol rather than as a remark."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A recorded case in which the fast was kept and the scalp was cut all the same, or in which the fast was broken and the scalp was not cut. The tradition claims the sign is sure, so a single clean counter-case on either side falls due against it." ;
+    pm:protocolUpdated "2026-08-30"^^xsd:date ;
+    pm:tests pmc:Tapu .
+
 pmc:ThreefoldAscentOrder a pm:Presupposing ;
     rdfs:label "Naturschau setzt asketische Praxis voraus"@de,
         "Contemplation of nature presupposes ascetic practice"@en ;
@@ -1252,6 +1354,25 @@ pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
     pm:ascribedTo pmc:Ziqel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:ZuniEfficacyPresupposesExactness a pm:Presupposing ;
+    rdfs:label "Das öffentlich gesprochene Gebet setzt buchstabengetreue Wiedergabe voraus"@de,
+        "The public prayer presupposes letter-perfect delivery"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 616" ;
+    skos:note "Entered one step below the Māori and Navajo parallels and for a reason that is a property of the passage and not of the tradition: the requirement is stated, the consequence of failing it is not. Raising this to stated necessity would need a place in the corpus that says what a misrecited prayer does, and the body of the collection was not read. See the convergence node and prima-materia#112."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:ZuniPrayerEfficacy ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ZuniPrayerExactness ;
+    pm:withinTradition pmt:ZuniRitual .
+
+pmc:ZuniPrayerPossession a pm:Conceptualizing ;
+    rdfs:label "Das Gebet als Besitz"@de,
+        "The prayer as a possession"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 615" ;
+    skos:definition "Prayers held to carry power in themselves, so that having them is a source of power and losing or impairing them is a great danger."@en ;
+    skos:note "The nearest thing the passages read give to a stated consequence of getting a prayer wrong, and deliberately not entered as one: the sentence speaks of loss and impairment of the prayer as a possession, not of the effect of a misrecited performance."@en ;
+    pm:withinTradition pmt:ZuniRitual .
 
 <https://pajew.ski/prima-materia/ontology> a owl:Ontology ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -1502,14 +1623,6 @@ pm:individualAwareness a pm:AwarenessSpace ;
         "Individual awareness"@en ;
     skos:definition "First-person singular awareness bounded to a single subject."@en .
 
-pm:mediatedAttestation a pm:Attesting ;
-    rdfs:label "Vermitteltes Zeugnis"@de,
-        "Mediated attestation"@en ;
-    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
-    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
-        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
-        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
 pm:methodOrientation a owl:ObjectProperty ;
     rdfs:label "Ausrichtung der Methode"@de,
         "method orientation"@en ;
@@ -1676,6 +1789,23 @@ pmp:ChannelPurification a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:Karakia a pm:Practicing ;
+    rdfs:label "Karakia"@de,
+        "Karakia"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), pp. 10-11, and the vocabulary entry karakia, p. 108" ;
+    skos:definition "An address to the spirits of dead ancestors, invoked in genealogical order and closing in a petition that the invoked power give the address its effect. The witness insists that the ordinary rendering as charm is wrong and that invocation comes nearer."@en ;
+    skos:note "The genealogies are said to be preserved because they form the ground-work of the invocation, so that the descent recited and the efficacy claimed are the same fact for this tradition rather than two."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Maori .
+
+pmp:NavajoSacredSong a pm:Practicing ;
+    rdfs:label "Navajo-Kultgesang"@de,
+        "Navajo sacred song"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
+    skos:definition "The songs belonging to a rite, held by the priest of the rite and his assistants, containing expressions that are obsolete or without current meaning and that have therefore to be carried by memory rather than by sense."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NavajoCeremonial .
+
 pmp:Pranayama a pm:Practicing ;
     rdfs:label "Prāṇāyāma"@de,
         "Prāṇāyāma"@en ;
@@ -1711,6 +1841,32 @@ pmp:Ujjayi a pm:Practicing ;
     skos:definition "A retention in which the mouth is held closed and the breath is drawn through both nostrils so that it grazes the throat and sounds as it passes."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:Whakahokitu a pm:Practicing ;
+    rdfs:label "Whakahokitu"@de,
+        "Whakahokitu"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 35" ;
+    skos:definition "The forms of makutu employed to turn back the working of another tohunga, that is, a counter-operation of the same kind rather than a protection of a different kind."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Maori .
+
+pmp:Whakanoa a pm:Practicing ;
+    rdfs:label "Das Aufheben des Tapu"@de,
+        "Making noa"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 27" ;
+    skos:definition "The rite by which a person or place under tapu is made common again, in the case witnessed by the eating of food cooked in an oven opened for the purpose and distributed to everyone present."@en ;
+    skos:note "The rite the recorder describes as an eyewitness was already carried out with a Christian morning service inside it, and he remarks that the teacher had done wisely in keeping so much of the old ceremonial. The passage is the clearest single reason the contact route of this tradition is entered as disputed rather than absent."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Maori .
+
+pmp:ZuniPrayer a pm:Practicing ;
+    rdfs:label "Zuni-Festgebet"@de,
+        "Zuni fixed prayer"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 616" ;
+    skos:definition "A prayer of stereotyped phrasing, held by an appointed keeper for each kiva and taught over four nights after each planting of prayer sticks, the instructor intoning while the pupils join in by degrees and afterwards reciting it back to him."@en ;
+    skos:note "The teaching method is itself a check: the pupil returns the prayer to the keeper, so that a divergence is caught before it is carried into the ceremony. Because the phrasing is stereotyped the witness names the sequence, and not the wording, as the hard part of learning a long prayer."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:ZuniRitual .
 
 pmt:Ajivika a pm:Tradition ;
     rdfs:label "Ājīvika-Überlieferung"@de,
@@ -2344,15 +2500,6 @@ pmt:Manichaean a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Kephalaia; Cologne Mani Codex; the Coptic psalms and the Turfan fragments" .
 
-pmt:Maori a pm:Tradition ;
-    rdfs:label "Māori-Überlieferung"@de,
-        "Māori transmission"@en ;
-    skos:definition "The Māori transmission of mana as an efficacy that attaches to persons and things, of tapu as its restriction, and of karakia as the form of address."@en ;
-    skos:note "The word from which every western theory of an impersonal magical force was built. The graph uses the notion throughout and has never held the tradition it came from."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
-
 pmt:MayaRitual a pm:Tradition ;
     rdfs:label "Maya-Ritualüberlieferung"@de,
         "Maya ritual transmission"@en ;
@@ -2422,14 +2569,6 @@ pmt:Nath a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Siddha-Siddhānta-Paddhati; Gorakṣaśataka; Amanaska" .
-
-pmt:NavajoCeremonial a pm:Tradition ;
-    rdfs:label "Navajo-Zeremonialüberlieferung"@de,
-        "Navajo ceremonial transmission"@en ;
-    skos:definition "The Diné transmission of chantways: long ordered ceremonials for restoring a condition named as order, with the sequence fixed and its errors held to be consequential."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Wyman, Blessingway, with the recorded Navajo texts; Matthews, The Night Chant" .
 
 pmt:Neidan a pm:Tradition ;
     rdfs:label "Neidan, innere Alchemie"@de,
@@ -2822,15 +2961,6 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Avesta (Gāthās, Yasna, Vīdēvdād); Bundahišn; Dēnkard; Ardā Wīrāz Nāmag" .
 
-pmt:ZuniRitual a pm:Tradition ;
-    rdfs:label "Zuni-Ritualüberlieferung"@de,
-        "Zuni ritual transmission"@en ;
-    skos:definition "The Zuni transmission of fixed prayer, memorised verbatim and held to be ineffective if altered."@en ;
-    skos:note "A tradition that states its own falsifying condition: the words must be exact. Whether exactness is in fact required is examinable."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
-
 pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     rdfs:label "Schmuck und Kosmetik"@de,
         "Adornment and cosmetics"@en ;
@@ -2949,6 +3079,23 @@ pmc:ErectTrunkInSwastikasana a pm:Conceptualizing ;
     skos:definition "A seat defined by sitting evenly with the body straight; the straightness is part of what the posture is, not a separate instruction."@en ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
+    rdfs:label "Die Genauigkeit der Rezitation ist als Bedingung ihrer Wirksamkeit gesetzt"@de,
+        "The exactness of the recitation is set as the condition of its efficacy"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11",
+        "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), pp. 615-616",
+        "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), sections 41-42, pp. 24-25" ;
+    skos:definition "Three transmissions make the same claim about spoken ritual language: the effect is not obtained unless the words are rendered as they stand. Two of them also say what a lapse does. One holds that an error, and equally a hesitation, is fatal to the efficacy of the address. Another holds that an error in a song may be fatal to the ceremony and that in some cases a single syllable does irreparable harm. The third requires the publicly chanted parts to be letter perfect and, in the passages read, states no consequence."@en ;
+    skos:note "A defect in the vocabulary shows at this node and is recorded rather than worked around. pm:contactRoute is a property of a single tradition, but contact is a relation between two. The value pm:contactRouteAbsent as the registry uses it means that no route runs to what the graph already held at the time of registration; it cannot answer whether a route runs between two registered traditions that are later brought together in one correspondence, which is exactly the question a convergence asks. See prima-materia#101 for the vocabulary defect and prima-materia#102 for the registry entries it affects."@en,
+        "The counter-search did not produce a tradition that denies the claim. What it produced is of a different kind and belongs here: the recorded versions of the same Māori address differ from one another across the eighteen-forties to the early nineteen-hundreds, and which rendering was valid was disputed among Māori at the time. A doctrine of one correct wording and a transmission that visibly carries several are not a contradiction, but they are the point at which the claim becomes examinable instead of edifying. The place that says so has not been read at the wording and stands at prima-materia#110."@en,
+        "Three witnesses agreeing on the form of a rule is a weaker finding than it looks unless the alternative is stated. The alternative exists and is common: traditions in which the sense of a prayer carries it and the wording may be varied, and traditions in which improvisation is the mark of the competent practitioner. That the three named here all fall on the fixed side is what the correspondence asserts. Where the rule holds and where it is absent has not been surveyed; the spheres left unsearched stand at prima-materia#116, the Indic parallel at prima-materia#109."@en,
+        "What the node claims and what it does not. Independent attestation is asserted for the two North American transmissions with respect to the Polynesian one and with respect to everything else this collection holds; no route of contact between the Pacific and the American Southwest is available for the periods in which any of these corpora were fixed. It is not asserted between those two: they are neighbours in one region, and a route between Pueblo and Athabaskan ceremonialism is neither absent nor established here. The Māori witness is therefore the third leg and not a third independent one, because its own contact route is entered as disputed."@en ;
+    pm:convergingConcept pmc:MaoriExactRecitation,
+        pmc:NavajoSongExactness,
+        pmc:ZuniPrayerExactness ;
+    pm:independentAttestation pmt:NavajoCeremonial,
+        pmt:ZuniRitual .
+
 pmc:Ezeqeel a pm:Conceptualizing ;
     rdfs:label "Ezeqeel"@de,
         "Ezeqeel"@en ;
@@ -2983,6 +3130,16 @@ pmc:GreaterMysteries a pm:Conceptualizing ;
     dcterms:source "Athenian decree concerning Eleusis, IG I³ 6, face C" ;
     skos:definition "The rite at Eleusis, held in the month Boedromion."@en ;
     pm:withinTradition pmt:EleusinianMysteries .
+
+pmc:HauOfTheGift a pm:Conceptualizing ;
+    rdfs:label "Der Hau der Gabe"@de,
+        "The hau of the gift"@en ;
+    dcterms:source "Tamati Ranapiri, letter to Elsdon Best, 23 November 1907, Polynesian Society Papers, Alexander Turnbull Library, MS-Papers-1187, folder 271" ;
+    skos:definition "The account, given by a named Māori authority in a letter, that what comes back from a third party for a valuable passed on is the hau of the valuable first received, and that keeping it back for oneself would be fatal to the keeper."@en ;
+    skos:note "Held at mediated attestation because the letter is an archival manuscript and was read in the study that prints and collates it, not in the archive. The published version of 1909 could not be opened in this run either; the paths tried are recorded in prima-materia#106. This node is therefore an open post and is to be raised to textual attestation when either the manuscript or the 1909 printing is read."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "Manuka Hēnare, \"Ko te hau tēnā o tō taonga…\": The words of Ranapiri on the spirit of gift exchange and economy, Journal of the Polynesian Society 127/4 (2018), pp. 455-457" ;
+    pm:withinTradition pmt:Maori .
 
 pmc:HealingByTouch a pm:Conceptualizing ;
     rdfs:label "Heilung durch Berührung"@de,
@@ -3056,6 +3213,13 @@ pmc:LoosingOfSpells a pm:Conceptualizing ;
     skos:definition "The undoing of a binding laid by another, held in the text as a distinct art from the laying of it."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:MaoriKarakiaEfficacy a pm:Conceptualizing ;
+    rdfs:label "Die Wirksamkeit der Karakia"@de,
+        "The efficacy of the karakia"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), pp. 11-12" ;
+    skos:definition "The effect an invocation is held to obtain, which the closing petition asks the invoked ancestor to grant."@en ;
+    pm:withinTradition pmt:Maori .
+
 pmc:Maqamat a pm:Conceptualizing ;
     rdfs:label "Stationen"@de,
         "Stations"@en ;
@@ -3070,6 +3234,13 @@ pmc:Metalworking a pm:Conceptualizing ;
     dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
     skos:definition "Knowledge of the metals of the earth and of working them into blades, shields and body armour."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:NavajoCeremonyEfficacy a pm:Conceptualizing ;
+    rdfs:label "Die Wirksamkeit der Zeremonie"@de,
+        "The efficacy of the ceremony"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
+    skos:definition "The effect a chantway is held to obtain, which the witness says an error in a song may destroy."@en ;
+    pm:withinTradition pmt:NavajoCeremonial .
 
 pmc:NeidanThreeStages a pm:Conceptualizing ;
     rdfs:label "Die drei Stufen des inneren Elixiers"@de,
@@ -3259,6 +3430,14 @@ pmc:StrikingOfSpirits a pm:Conceptualizing ;
     skos:definition "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Tapu a pm:Conceptualizing ;
+    rdfs:label "Tapu"@de,
+        "Tapu"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), pp. 25-26" ;
+    skos:definition "The state of being sacred and thereby prohibited, held to be communicated from an atua or a sacred person to whatever they touch, and from that object onward to whatever it touches in turn."@en ;
+    skos:note "The re-transmission by contact is the part later theory generalised. A record that carries only the prohibition and not the transmissibility loses exactly what the nineteenth-century comparativists picked up and turned into an impersonal magical fluid. See prima-materia#103 and prima-materia#104 for the originations that are not yet entered."@en ;
+    pm:withinTradition pmt:Maori .
+
 pmc:Tawba a pm:Conceptualizing ;
     rdfs:label "Umkehr"@de,
         "Turning back"@en ;
@@ -3351,6 +3530,13 @@ pmc:Ziqel a pm:Conceptualizing ;
     skos:definition "A Watcher named in the Aramaic-Greek teaching list as the one who disclosed the signs of the shooting stars. The position he occupies is held by Ezeqeel in the Ethiopic; no identification of the two is asserted here."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:ZuniPrayerEfficacy a pm:Conceptualizing ;
+    rdfs:label "Die Wirksamkeit des Zuni-Gebets"@de,
+        "The efficacy of the Zuni prayer"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 615" ;
+    skos:definition "The effect the fixed prayer is held to obtain when it is delivered as required."@en ;
+    pm:withinTradition pmt:ZuniRitual .
+
 pm:MeaningCluster a owl:Class ;
     rdfs:label "Bedeutungs-Cluster"@de,
         "Meaning Cluster"@en ;
@@ -3387,6 +3573,14 @@ pm:individuatingTelos a pm:TelicOrientation ;
         "Individuating telos"@en ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
+
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -3432,6 +3626,15 @@ pmp:Khecari a pm:Practicing ;
     skos:definition "A seal in which the tongue is turned back and set above the palate while the gaze rests between the brows; the manual describes a months-long preparation of the tongue before the position can be held."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:Makutu a pm:Practicing ;
+    rdfs:label "Makutu"@de,
+        "Makutu"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 31" ;
+    skos:definition "The art of bringing the resentment of another person's own family atua down upon them, worked upon something that has been part of them or has touched them: a portion of spittle, or what is left of their food."@en ;
+    skos:note "The operation runs through the same transmissibility by contact that tapu runs through, which is why the two belong in one file and not in two."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Maori .
 
 pmp:Mulabandha a pm:Practicing ;
     rdfs:label "Das Wurzelsiegel"@de,
@@ -3665,6 +3868,13 @@ pmc:Manomayakaya a pm:Conceptualizing ;
     skos:definition "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:MaoriExactRecitation a pm:Conceptualizing ;
+    rdfs:label "Wiederholung ohne Fehler und ohne Zögern"@de,
+        "Repetition without error or hesitation"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11" ;
+    skos:definition "The rendering of an invocation in which neither a mistake nor a pause occurs. The tradition sets the two on the same footing: hesitating is treated as failing, not as taking care."@en ;
+    pm:withinTradition pmt:Maori .
+
 pmc:NadiPurification a pm:Conceptualizing ;
     rdfs:label "Reinigung der Kanäle"@de,
         "Purification of the channels"@en ;
@@ -3672,6 +3882,13 @@ pmc:NadiPurification a pm:Conceptualizing ;
         "Svātmārāma, Haṭhayogapradīpikā II.6 (Sanskrit vulgate; Sinh 1915)" ;
     skos:definition "The clearing of impurity from the channels, at which the breath practice is said to aim, and whose accomplishment the text says shows outwardly in the body."@en ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:NavajoSongExactness a pm:Conceptualizing ;
+    rdfs:label "Genauigkeit der gesungenen Worte"@de,
+        "Exactness of the sung words"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
+    skos:definition "The requirement that the songs be known in a most exact manner, down to the syllable, no important mistake being tolerated."@en ;
+    pm:withinTradition pmt:NavajoCeremonial .
 
 pmc:ParacittaJnana a pm:Conceptualizing ;
     rdfs:label "Kenntnis fremden Bewusstseins"@de,
@@ -3738,15 +3955,17 @@ pmc:XingqiDescent a pm:Conceptualizing ;
     skos:note "The inscription assigns direction to a place in a sequence, not to a phase of breathing. Descent follows gathering and extension; ascent follows sprouting and growing. The closing lines set the two directions against the two powers, the dynamism of heaven showing in what rises and that of earth in what descends. Nothing here binds a direction to inhaling or to exhaling. See prima-materia#27 and prima-materia#28."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:ZuniPrayerExactness a pm:Conceptualizing ;
+    rdfs:label "Buchstabengetreue Wiedergabe"@de,
+        "Letter-perfect delivery"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 616" ;
+    skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
+    pm:withinTradition pmt:ZuniRitual .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Upanisadic a pm:Tradition ;
     rdfs:label "Upaniṣadische Überlieferung"@de,
@@ -3895,6 +4114,11 @@ pm:PrerequisiteStrength a owl:Class ;
     skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
 
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
 pmt:Hesychasm a pm:Tradition ;
     rdfs:label "Hesychasmus"@de,
         "Hesychasm"@en ;
@@ -3985,6 +4209,27 @@ pmt:GraecoRoman a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered .
 
+pmt:NavajoCeremonial a pm:Tradition ;
+    rdfs:label "Navajo-Zeremonialüberlieferung"@de,
+        "Navajo ceremonial transmission"@en ;
+    dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), pp. 24-25" ;
+    skos:definition "The Diné transmission of chantways: long ordered ceremonials for restoring a condition named as order, with the sequence fixed and its errors held to be consequential."@en ;
+    skos:note "Read for the first time in the introduction to the legends, sections 41 and 42 on the sacred songs, printed pages 24 and 25. The legends themselves and the ceremonial texts were not read, and the fuller ceremonial account of the night chant published in nineteen hundred and two was not opened in this run."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Wyman, Blessingway, with the recorded Navajo texts; Matthews, The Night Chant" .
+
+pmt:ZuniRitual a pm:Tradition ;
+    rdfs:label "Zuni-Ritualüberlieferung"@de,
+        "Zuni ritual transmission"@en ;
+    dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), pp. 611-835" ;
+    skos:definition "The Zuni transmission of fixed prayer, memorised verbatim and held to be ineffective if altered."@en ;
+    skos:note "A tradition that states its own falsifying condition: the words must be exact. Whether exactness is in fact required is examinable."@en,
+        "Read for the first time in the introduction to the ritual poetry, pages 611 to 620 of the printed report. The body of the collection, the prayers themselves, was not read. The corpus stands in the language of its speakers with a facing translation, which is what makes it admissible here at all; the recorder is an outsider and the question of ethnographic first fixation raised at prima-materia#91 is not settled by this file."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
+
 pm:Attesting a owl:Class ;
     rdfs:label "Bezeugen"@de,
         "Attesting"@en ;
@@ -3997,6 +4242,13 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
+pmt:ChristianAsceticDiscernment a pm:Tradition ;
+    rdfs:label "Christliche Unterscheidung der Geister"@de,
+        "Christian ascetic discernment"@en ;
+    dcterms:source "John Cassian, Collationes I-II" ;
+    skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
+
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
@@ -4004,17 +4256,15 @@ pm:Disputing a owl:Class ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
-pmt:ChristianAsceticDiscernment a pm:Tradition ;
-    rdfs:label "Christliche Unterscheidung der Geister"@de,
-        "Christian ascetic discernment"@en ;
-    dcterms:source "John Cassian, Collationes I-II" ;
-    skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
 
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
@@ -4024,23 +4274,12 @@ pm:Converging a owl:Class ;
     skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
@@ -4051,19 +4290,30 @@ pmt:DesertMonasticism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
         "Yielding"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pmt:Maori a pm:Tradition ;
+    rdfs:label "Māori-Überlieferung"@de,
+        "Māori transmission"@en ;
+    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882)" ;
+    skos:definition "The Māori transmission of mana as an efficacy that attaches to persons and things, of tapu as its restriction, and of karakia as the form of address."@en ;
+    skos:note "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read is Shortland 1882, chapters II to V and the appendix, in the 1882 London edition. Chapters VI and VII, on claiming and naming land, were not read; nothing else of the principal corpus was opened."@en,
+        "The contact route is entered as disputed and no longer as absent, and the reason is a rule of this project rather than a judgement about Polynesia. pm:contactRouteAbsent asks whether a route was available for the period in which the corpus was fixed. This corpus was fixed in writing from the eighteen-forties onward, a generation after the first mission stations, by Māori writers and by European recorders working with mission orthography. Shortland himself reports a rite of removing tapu that was carried out with a Christian morning service inside it and adds that the teacher had done wisely in keeping so much of the old ceremonial; that is not a suspicion about the material but an observation printed in the witness. The transmission is older than the contact; the corpus this graph can cite is not. See prima-materia#102 for the same question across the rest of the registry, and prima-materia#108 for the source criticism that decides it."@en,
+        "The word from which every western theory of an impersonal magical force was built. The graph uses the notion throughout and has never held the tradition it came from."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
 
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
@@ -4076,13 +4326,12 @@ pmt:Daoist a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered .
 
-pm:Originating a owl:Class ;
-    rdfs:label "Urheben"@de,
-        "Originating"@en ;
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
-    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
-        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -4092,6 +4341,14 @@ pmt:TibetanTantric a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Originating a owl:Class ;
+    rdfs:label "Urheben"@de,
+        "Originating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
+    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
+        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
@@ -4103,11 +4360,6 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:contactRouteDisputed a pm:ContactRoute ;
-    rdfs:label "Kontaktweg strittig"@de,
-        "Contact route disputed"@en ;
-    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
-
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
         "Pātañjala Yoga"@en ;
@@ -4117,11 +4369,10 @@ pmt:PatanjalaYoga a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
 pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
@@ -4133,21 +4384,27 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
@@ -4192,16 +4449,16 @@ pm:textualAttestation a pm:Attesting ;
         "Textual attestation"@en ;
     skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pm:Conceptualizing a owl:Class ;
     rdfs:label "Begriffsbildung"@de,
         "Conceptualizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
-
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
 
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
