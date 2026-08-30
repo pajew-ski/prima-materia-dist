@@ -148,6 +148,17 @@ pmc:AzazelTeachesMetalworking a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:BadMideCaution a pm:Cautioning ;
+    rdfs:label "Der böse Midē, der die Vermögen zum Schaden wendet"@de,
+        "The bad Midē who turns the powers to harm"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 168-169" ;
+    skos:definition "The society names a figure of its own kind who employs the powers for evil purposes, who can assume the form of any animal and in that shape destroy the life of his victim. The warning is not against an outsider but against a member who has passed the same degrees."@en ;
+    skos:note "A tradition that catalogues capacities and warns against their use is the shape this collection meets in Pātañjala Yoga as well, and the two warnings are not the same warning. There the capacities are called obstacles to the goal of the practice; here they are called dangerous in the hands of a man who wants harm. One is a caution about the practitioner's direction, the other about his intention."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:MideDistantTouch,
+        pmc:MideSoulSeizing ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmc:BaraqelTeachesAstrology a pm:Attributing ;
     rdfs:label "Baraqel offenbart die Astrologie"@de,
         "Baraqel discloses astrology"@en ;
@@ -186,6 +197,14 @@ pmc:BhavaClassification a pm:Conceptualizing ;
     skos:definition "A division of practitioners into three kinds, the bound, the heroic and the divine, which governs the rites a person is competent for. The source describes the divine as all but a god, pure of heart, alike towards opposites and unattached, and the bound as one who must gather his own offerings and who may neither look at a Śūdra nor think of a woman."@en ;
     skos:note "This is the tradition's own answer to the question why one person takes one way and another another: not by choosing, but by what he is held competent for. The text presses the point polemically — it argues that if the bound disposition cannot exist in this age, the divine cannot either, and that only the heroic rites bear visible fruit. A record that reports the two paths as a choice between camps reports the later Western reading and not this one. See prima-materia#54."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:BirchBarkRecord a pm:Conceptualizing ;
+    rdfs:label "Die Birkenrindenkarte"@de,
+        "The birchbark chart"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 164-165" ;
+    skos:definition "The record the priests keep on birchbark, incised in fine lines, giving pictorially the ground plan of the degrees to which the owner is entitled."@en ;
+    skos:note "Two things follow from this and both bear on how the rest of the file is to be read. The society keeps a written record by its own means, which is unusual among the transmissions this graph registers as lacking a corpus. And the capacities of the degrees are stated as readings of marks on such a chart, so what the report carries is an informant's exegesis of a pictograph and not a free verbal account; that is a different kind of witness, and arguably a firmer one, because the marks were there before the question was asked."@en ;
+    pm:withinTradition pmt:Midewiwin .
 
 pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
@@ -435,6 +454,24 @@ pmc:FourfoldNegationOfTheEndState a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Madhyamaka .
 
+pmc:FourthDegreeYieldsSoulSeizing a pm:Yielding ;
+    rdfs:label "Der vierte Grad bringt das Ergreifen des Schattens hervor"@de,
+        "The fourth degree yields the seizing of the shadow"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationFourthDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideSoulSeizing .
+
+pmc:FourthDegreeYieldsThoughtReading a pm:Yielding ;
+    rdfs:label "Der vierte Grad bringt das Gedankenlesen hervor"@de,
+        "The fourth degree yields the reading of thoughts"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationFourthDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideThoughtReading .
+
 pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     rdfs:label "Gadreel offenbart die Waffen des Todes"@de,
         "Gadreel discloses the weapons of death"@en ;
@@ -445,6 +482,23 @@ pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     pm:ascribedTo pmc:Gadreel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:GradedAttainmentYieldsDistantPerceptionAndOtherMinds a pm:Converging ;
+    rdfs:label "Eine gestufte Erlangung soll Fernhören und Kenntnis fremden Bewusstseins hervorbringen"@de,
+        "A graded attainment is said to yield hearing at a distance and knowledge of other minds"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19",
+        "Patañjali, Yogasūtra III.41",
+        "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 168 and 170" ;
+    skos:definition "Two transmissions state the same claim in the same form. A named procedure, entered by stages, is said to produce two named capacities: perception of what is beyond the range of the senses, and knowledge of what is in another mind. In the one the procedure is the sustained application of attention to a single object, and the capacities follow verse by verse. In the other the procedure is an initiation into a graded society, and the capacities are read off the marks of the degree."@en ;
+    skos:note "The contact question, carefully. No route is proposed by anyone between the Anishinaabe of the upper Great Lakes and the Sanskrit commentarial literature, and the dispute recorded at pmc:MidewiwinAgeDispute does not touch this: whether the society formed before European contact or in reaction to it, a seventeenth-century Great Lakes formation has no access to the third pāda either way. What the dispute does affect is the age of the Midewiwin claim, not its independence."@en,
+        "The one real objection to independence lies in the recording and not in the traditions, and it is stated here rather than left for a reader to find. The Midewiwin account was written down between eighteen eighty-seven and eighteen eighty-nine, by which time the capacities of the third pāda had been in English-language circulation for a decade through theosophical publishing. Two things weigh against the objection. The recorder was a bureau ethnographer and not a member of that milieu, and the capacities are given as readings of lines incised on birchbark charts — marks that were on the bark before anyone asked what they meant. The objection is not thereby closed; it is entered so that it can be closed or sustained by someone who reads the charts."@en,
+        "Two differences that a correspondence must not smooth. The Indian text ranks its capacities as obstacles with respect to the goal of the practice; the American report names no such rank and warns instead against the member who turns them to harm. And the Indian claim is a claim about attention, repeatable in principle by anyone who applies it, where the American one is a claim about an institution, obtainable only from priests and only for a fee that the report says impoverishes the candidate. The capacity is the same; what it costs and what it is for are not."@en,
+        "What makes this worth holding is not the capacities, which are common, but the form of the claim. Both traditions bind the capacity to a procedure and to a place in a sequence, rather than ascribing it to a figure or a birth. That form is what a protocol can address; an ascription to a hero is not."@en ;
+    pm:convergingConcept pmc:DivyaSrotra,
+        pmc:MideDistantHearing,
+        pmc:MideThoughtReading,
+        pmc:ParacittaJnana ;
+    pm:independentAttestation pmt:Midewiwin .
 
 pmc:GreaterPresupposeLesser a pm:Presupposing ;
     rdfs:label "Die großen Mysterien setzen die kleinen voraus"@de,
@@ -770,6 +824,44 @@ pmc:MaoriEfficacyPresupposesExactRecitation a pm:Presupposing ;
     pm:priorStep pmc:MaoriExactRecitation ;
     pm:withinTradition pmt:Maori .
 
+pmc:MideDegreesPresupposeOneAnother a pm:Presupposing ;
+    rdfs:label "Jeder Grad setzt den darunter liegenden voraus"@de,
+        "Each degree presupposes the one below it"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 164-170" ;
+    skos:note "Entered at prescribed order and not at stated necessity, and the reason is a property of the passages read rather than of the society. The report sets the sequence, names the payment and the feasts due before each step, and says nothing about what happens to a man who takes a degree out of turn or without the preparation. A consequence would raise this to a necessity; none was found in the pages read. See prima-materia#119."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:MideInitiationSecondDegree ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:MideInitiationFirstDegree ;
+    pm:withinTradition pmt:Midewiwin .
+
+pmc:MidewiwinAgeDispute a pm:Disputing ;
+    rdfs:label "Ob die Gesellschaft dem europäischen Kontakt vorausgeht"@de,
+        "Whether the society precedes European contact"@en ;
+    dcterms:source "Harold Hickerson, The Chippewa and Their Neighbors: A Study in Ethnohistory (New York: Holt, Rinehart and Winston, 1970), p. 63, as quoted in Kidd 1981, p. 42",
+        "Kenneth E. Kidd, A Radiocarbon Date on a Midewiwin Scroll from Burntside Lake, Ontario, Ontario Archaeology 35 (1981), pp. 41-43" ;
+    skos:definition "A disagreement about the age of the society. One side reads it as a nativistic formation of the contact period, assembled from older elements in response to epidemic, trade and mission. The other points to a birchbark scroll fragment from an archaeological context, radiocarbon dated to about the middle of the sixteenth century, which is earlier than any documented European contact with the central Algonkians."@en ;
+    skos:note "Held as a node because everything else in this file depends on it. If the society is a formation of the contact period, its agreement with anything the graph already holds has to be weighed differently, and the value at pm:contactRoute changes with the outcome."@en,
+        "Only one side was read at the wording in this run. The dating, the laboratory reference and the argument against the nativistic reading were read in the note of nineteen eighty-one; the nativistic reading itself was read only as that note quotes it, and the paper of nineteen sixty-two that states it in full was not obtained. See prima-materia#118."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmt:Midewiwin .
+
+pmc:MidewiwinOrigin a pm:Conceptualizing ;
+    rdfs:label "Der Ursprung der Gesellschaft und die Kette ihrer Übertragung"@de,
+        "The origin of the society and the chain of its transmission"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 166-167" ;
+    skos:definition "The account by which the society traces itself: the culture hero instructed the otter in its mysteries, gave him the sacred rattle and the drum, shot the shell into his body, and conferred the secrets on him."@en ;
+    skos:note "The chain runs through an animal and not through a lineage of men, which is why the society's own account of its age cannot be read as a genealogy and does not bear on the dispute recorded above."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
+pmc:Migis a pm:Conceptualizing ;
+    rdfs:label "Mī'gis"@de,
+        "Mī'gis"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 167" ;
+    skos:definition "The sacred shell of the society, said in the origin account to have been shot into the body of the first recipient so that he might have immortality and be able to confer the secrets on his kinsmen."@en ;
+    skos:note "The shell is not a token of membership but the vehicle of the transfer: the account makes the entry of the shell into the body the act by which the capacity passes, and the same act is repeated at every degree."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
     rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
         "The root seal yields the kindled inner fire"@en ;
@@ -996,6 +1088,34 @@ pmc:SattvikaBhava a pm:Conceptualizing ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "Eight bodily signs held to arise from the inner constitution rather than from will: paralysis, perspiration, horripilation, change of voice, trembling, change of colour, tears, and fainting."@en ;
     pm:withinTradition pmt:SanskritDramaturgy .
+
+pmc:SecondDegreeYieldsDistantHearing a pm:Yielding ;
+    rdfs:label "Der zweite Grad bringt das Fernhören hervor"@de,
+        "The second degree yields hearing at a distance"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:note "One node per pairing, following traditions/patanjala-yoga.ttl, because a protocol would have to take the pairings one at a time and because the four capacities of this degree are not equally examinable."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationSecondDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideDistantHearing .
+
+pmc:SecondDegreeYieldsDistantTouch a pm:Yielding ;
+    rdfs:label "Der zweite Grad bringt das Fernberühren hervor"@de,
+        "The second degree yields touching at a distance"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationSecondDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideDistantTouch .
+
+pmc:SecondDegreeYieldsForesight a pm:Yielding ;
+    rdfs:label "Der zweite Grad bringt den Blick in das Künftige hervor"@de,
+        "The second degree yields the look into futurity"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationSecondDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideForesight .
 
 pmc:SecondWeekPresupposesFirst a pm:Presupposing ;
     rdfs:label "Die zweite Woche setzt die erste voraus"@de,
@@ -2526,15 +2646,6 @@ pmt:MesopotamianExorcism a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
 
-pmt:Midewiwin a pm:Tradition ;
-    rdfs:label "Midewiwin"@de,
-        "Midewiwin"@en ;
-    skos:definition "The Anishinaabe medicine society, with graded degrees and a mnemonic record incised on birchbark."@en ;
-    skos:note "The birchbark scrolls are a written transmission by their own means, which puts this tradition closer to the project's source rule than most of the file."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
-
 pmt:ModernVipassana a pm:Tradition ;
     rdfs:label "Moderne Vipassanā-Bewegung"@de,
         "Modern vipassanā movement"@en ;
@@ -3235,6 +3346,13 @@ pmc:Metalworking a pm:Conceptualizing ;
     skos:definition "Knowledge of the metals of the earth and of working them into blades, shields and body armour."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:MideForesight a pm:Conceptualizing ;
+    rdfs:label "Blick in das Künftige"@de,
+        "Looking into futurity"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:definition "The capacity to see what is to come, ascribed to a priest of the second degree and marked in the pictographic chart by lines drawn upward from the eyes."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmc:NavajoCeremonyEfficacy a pm:Conceptualizing ;
     rdfs:label "Die Wirksamkeit der Zeremonie"@de,
         "The efficacy of the ceremony"@en ;
@@ -3636,6 +3754,15 @@ pmp:Makutu a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Maori .
 
+pmp:MideInitiationFirstDegree a pm:Practicing ;
+    rdfs:label "Einweihung in den ersten Grad"@de,
+        "Initiation into the first degree"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 164" ;
+    skos:definition "The entry rite of the society: instruction under a paid teacher, often carried over years, gifts to the officiating priests, a feast, and the shooting of the shell into the candidate by the officiating priests."@en ;
+    skos:note "The report says candidates sometimes spend a number of years in preparation and impoverish themselves in the payment of fees and the preparation of the feast. The cost is stated as a fact of the institution and not as a warning."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmp:Mulabandha a pm:Practicing ;
     rdfs:label "Das Wurzelsiegel"@de,
         "The root seal"@en ;
@@ -3824,13 +3951,6 @@ pmc:DivyaCaksus a pm:Conceptualizing ;
     skos:definition "Perception of what is distant, hidden or obstructed."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
 
-pmc:DivyaSrotra a pm:Conceptualizing ;
-    rdfs:label "Göttliches Ohr"@de,
-        "Divine ear"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.41" ;
-    skos:definition "Hearing beyond the range of the physical ear."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
-
 pmc:FourthJhana a pm:Conceptualizing ;
     rdfs:label "Die vierte Vertiefung"@de,
         "The fourth absorption"@en ;
@@ -3875,6 +3995,34 @@ pmc:MaoriExactRecitation a pm:Conceptualizing ;
     skos:definition "The rendering of an invocation in which neither a mistake nor a pause occurs. The tradition sets the two on the same footing: hesitating is treated as failing, not as taking care."@en ;
     pm:withinTradition pmt:Maori .
 
+pmc:MideDistantHearing a pm:Conceptualizing ;
+    rdfs:label "Hören dessen, was in großer Ferne geschieht"@de,
+        "Hearing what happens at a great distance"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:definition "The capacity to hear what is transpiring at a great distance, ascribed to a priest of the second degree and marked in the chart by lines drawn from the ears."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
+pmc:MideDistantTouch a pm:Conceptualizing ;
+    rdfs:label "Berühren in der Ferne, zum Guten wie zum Bösen"@de,
+        "Touching at a distance for good or ill"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:definition "The capacity to touch friends and enemies at a distance, however remote, for good or for evil, marked in the chart by lines drawn from the hands; alongside it the ability to traverse all space, marked by lines from the feet."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
+pmc:MideSoulSeizing a pm:Conceptualizing ;
+    rdfs:label "Das Herausrufen des Schattens und sein Festhalten"@de,
+        "Calling forth the shadow and holding it"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    skos:definition "The capacity ascribed to a priest of the fourth degree to call forth the shadow, that is the soul, and to retain it within his grasp at pleasure."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
+pmc:MideThoughtReading a pm:Conceptualizing ;
+    rdfs:label "Lesen der Gedanken und Absichten anderer"@de,
+        "Reading the thoughts and intentions of others"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    skos:definition "The capacity ascribed to a priest of the fourth degree, marked in the chart by the shell placed at the top of the head."@en ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmc:NadiPurification a pm:Conceptualizing ;
     rdfs:label "Reinigung der Kanäle"@de,
         "Purification of the channels"@en ;
@@ -3889,13 +4037,6 @@ pmc:NavajoSongExactness a pm:Conceptualizing ;
     dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
     skos:definition "The requirement that the songs be known in a most exact manner, down to the syllable, no important mistake being tolerated."@en ;
     pm:withinTradition pmt:NavajoCeremonial .
-
-pmc:ParacittaJnana a pm:Conceptualizing ;
-    rdfs:label "Kenntnis fremden Bewusstseins"@de,
-        "Knowledge of another mind"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.19" ;
-    skos:definition "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:Penemue a pm:Conceptualizing ;
     rdfs:label "Penemue"@de,
@@ -3967,6 +4108,14 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
 
+pmp:MideInitiationFourthDegree a pm:Practicing ;
+    rdfs:label "Einweihung in den vierten Grad"@de,
+        "Initiation into the fourth degree"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    skos:definition "The last entry: further feasts, the personation of the bear spirit, the sacred drum and the chanted prayers."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Midewiwin .
+
 pmt:Upanisadic a pm:Tradition ;
     rdfs:label "Upaniṣadische Überlieferung"@de,
         "Upaniṣadic tradition"@en ;
@@ -3992,6 +4141,13 @@ pmc:DiscernmentOfOrigins a pm:Conceptualizing ;
     skos:definition "The examination of an inner movement for its origin, distinguished threefold as angelic, human or demonic."@en ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:DivyaSrotra a pm:Conceptualizing ;
+    rdfs:label "Göttliches Ohr"@de,
+        "Divine ear"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.41" ;
+    skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
 pmc:FourAbsorptions a pm:Conceptualizing ;
     rdfs:label "Die vier Vertiefungen"@de,
         "The four absorptions"@en ;
@@ -4013,6 +4169,13 @@ pmc:InnerHeat a pm:Conceptualizing ;
     dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
     skos:definition "Heat held to be generated within the body by deliberate practice rather than received from outside it."@en ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmc:ParacittaJnana a pm:Conceptualizing ;
+    rdfs:label "Kenntnis fremden Bewusstseins"@de,
+        "Knowledge of another mind"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19" ;
+    skos:definition "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:ParakayaPravesa a pm:Conceptualizing ;
     rdfs:label "Eintritt in einen anderen Körper"@de,
@@ -4118,6 +4281,14 @@ pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
+pmp:MideInitiationSecondDegree a pm:Practicing ;
+    rdfs:label "Einweihung in den zweiten Grad"@de,
+        "Initiation into the second degree"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:definition "The second entry: three feasts to the instructing and officiating priests, three chanted prayers to the named manidō, and a second shooting of the shell."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Midewiwin .
 
 pmt:Hesychasm a pm:Tradition ;
     rdfs:label "Hesychasmus"@de,
@@ -4274,13 +4445,6 @@ pm:Converging a owl:Class ;
     skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -4290,18 +4454,12 @@ pmt:DesertMonasticism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
@@ -4314,6 +4472,12 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
@@ -4369,6 +4533,13 @@ pmt:PatanjalaYoga a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
@@ -4378,6 +4549,18 @@ pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
         "Contact route absent"@en ;
     skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
+pmt:Midewiwin a pm:Tradition ;
+    rdfs:label "Midewiwin"@de,
+        "Midewiwin"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), pp. 143-300" ;
+    skos:definition "The Anishinaabe medicine society, with graded degrees and a mnemonic record incised on birchbark."@en ;
+    skos:note "Read in the report of nineteen ninety-one for the first time, pages 143 to about 180 of the printed text: the account of the society, of the initiation, of the four degrees and of the pictographic charts. The song scrolls, the medicine formulas and the extensive appended vocabularies were not read. The recorder worked among the Ojibwa in eighteen eighty-seven to eighteen eighty-nine; his chief informants are named in the report, the principal one a second-degree priest of Mille Lacs first initiated about eighteen thirty."@en,
+        "The birchbark scrolls are a written transmission by their own means, which puts this tradition closer to the project's source rule than most of the registry it came from."@en,
+        "The contact route is entered as disputed and not as absent. What is disputed is the age of the society itself, not a route to any tradition this graph holds: one side reads it as a nativistic formation of the contact period, the other points to a dated scroll fragment from before any documented European contact in the region. The dispute stands as its own node below, which is what pm:contactRouteDisputed requires before an agreement may be weighed at all. Note that the axis of the dispute and the axis a convergence asks about are not the same axis; see prima-materia#101."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -4400,12 +4583,6 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
-
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
         "Theravāda"@en ;
@@ -4423,6 +4600,12 @@ pmt:Hathayoga a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Every verse cited in this file was read in the Sanskrit of the widely circulated vulgate, in the recension that the 1915 edition and translation of Sinh carries, and each citation now says so. The critical edition drawn from the manuscript tradition numbers differently in places; pmc:HathapradipikaRecensionDispute holds what is at issue."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
@@ -4444,15 +4627,15 @@ pm:contactRouteDocumented a pm:ContactRoute ;
         "Contact route documented"@en ;
     skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
-pm:textualAttestation a pm:Attesting ;
-    rdfs:label "Textzeugnis"@de,
-        "Textual attestation"@en ;
-    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
-
 pm:corpusNamed a pm:CoverageState ;
     rdfs:label "Korpus benannt"@de,
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
+pm:textualAttestation a pm:Attesting ;
+    rdfs:label "Textzeugnis"@de,
+        "Textual attestation"@en ;
+    skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
 pm:Conceptualizing a owl:Class ;
     rdfs:label "Begriffsbildung"@de,
