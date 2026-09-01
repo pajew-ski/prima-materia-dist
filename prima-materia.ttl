@@ -206,6 +206,15 @@ pmc:BirchBarkRecord a pm:Conceptualizing ;
     skos:note "Two things follow from this and both bear on how the rest of the file is to be read. The society keeps a written record by its own means, which is unusual among the transmissions this graph registers as lacking a corpus. And the capacities of the degrees are stated as readings of marks on such a chart, so what the report carries is an informant's exegesis of a pictograph and not a free verbal account; that is a different kind of witness, and arguably a firmer one, because the marks were there before the question was asked."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:CastingYieldsForeknowledge a pm:Yielding ;
+    rdfs:label "Der Wurf bringt das Vorauswissen hervor"@de,
+        "The casting yields foreknowledge"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:IfaCasting ;
+    pm:withinTradition pmt:Ifa ;
+    pm:yieldsCapacity pmc:IfaForeknowledge .
+
 pmc:CautionAgainstOpinionAboutHiddenThings a pm:Cautioning ;
     rdfs:label "Die Warnung davor, sich über die verborgenen Dinge eine Meinung zu bilden"@de,
         "The caution against forming opinions about hidden things"@en ;
@@ -328,6 +337,18 @@ pmc:DivineDreamIsNotOrdinarySleep a pm:Cautioning ;
     pm:cautionsAbout pmc:Theopemptos ;
     pm:withinTradition pmt:NeoplatonicTheurgy .
 
+pmc:DiviningPresupposesPupilage a pm:Presupposing ;
+    rdfs:label "Das Befragen setzt die Lehrzeit voraus"@de,
+        "Divining presupposes the pupilage"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the training of a candidate for the office of Babalawo" ;
+    skos:note "Entered at prescribed order and not at stated necessity, and the reason is a property of the passage rather than of the tradition. The source sets the pupilage, its minimum length and the division of its course, and says nothing about what befalls a man who divines without it. A stated consequence would raise this to a necessity; none stands in what was read."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:dependentStep pmp:IfaCasting ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:BabalawoPupilage ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
+
 pmc:DoingPresupposesBeing a pm:Originating ;
     rdfs:label "Es wird nichts getan, solange niemand da ist, der tut"@de,
         "Nothing is done until there is someone to do it"@en ;
@@ -372,6 +393,16 @@ pmc:Dvadasanta a pm:Conceptualizing ;
     skos:note "The count itself fluctuates. What is verse 50 in the numbering used here appears as 51 in other editions, and the following verse shifts with it. A reader working from a different edition should expect the two verses cited here to sit one number further on."@en,
         "Two things this node deliberately does not say. It does not fix the unit: the base text says end-of-twelve, and the reading that makes this twelve finger-breadths from the tip of the nose belongs to the commentarial layer, not to the verse. And it does not fix the place: the exegesis of Lakṣmaṇjoo counts several such limits in the body, at the crown, the brows, the throat, the base of the heart and the navel, and the verse that follows says outright that it may be reached in any manner and in any place. Nothing here yields a fixed radius. See prima-materia#38."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:EjiOgbeFirstOfTheSigns a pm:Conceptualizing ;
+    rdfs:label "Eji Ogbe als erstes der Zeichen"@de,
+        "Eji Ogbe as the first of the signs"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the Odu and their number" ;
+    skos:definition "The sign held to be the principal one, called the leader, the commander and the king. Its appearance on the divining bowl is taken to mean that the message delivered is of very great weight."@en ;
+    skos:note "A stated order of rank among the signs, and therefore a place where a later reader can check whether a modern list has kept the tradition's own order or imposed another."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
 
 pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
     rdfs:label "Unterscheidung gegen das Übermaß"@de,
@@ -643,6 +674,56 @@ pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
     pm:attestedBy pm:textualAttestation ;
     pm:circulatesAs "An observation of the school, reported as long known." ;
     pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
+
+pmc:IfaGeomanticIdentificationDispute a pm:Disputing ;
+    rdfs:label "Ob die sechzehn Figuren der Apparat der Geomantie sind"@de,
+        "Whether the sixteen figures are the apparatus of geomancy"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa",
+        "J. A. Abayomi Cole, Astrological Geomancy in Africa, the account of the sixteen palm nuts, read in R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix" ;
+    skos:definition "A disagreement about what the sixteen figures of the oracle are. One account has them as the base figures of the system itself, called mothers, from whose columns every further figure is compounded, and gives the practice no derivation from outside Yorubaland. The other, written by a Sierra Leonean author and reprinted in the same appendix as the bishop's extract, counts the sixteen as twelve houses of the heavens, two witnesses, one judge and a further judge got by combining the judge with the figure of the first house, and calls the operations of the diviners geomantic throughout."@en ;
+    skos:note "Neither side of this was read in a modern study at the wording in this run. What the twentieth-century literature makes of the question — whether the figures were taken over and grafted on an older practice, whether the sand science itself has North African roots, and how either is dated — is untouched here and is the first thing the next run on this tradition should open."@en,
+        "The second account is the reason pm:contactRoute on this tradition stands at disputed. Twelve houses, two witnesses and a judge are the working parts of the Arabic sand science and of the European geomancy descended from it, and a system that has them is not without a route to the Mediterranean and Islamic material this graph already holds. The first account describes the same casting and the same sixteen without any of those parts."@en,
+        "The second account was read at second hand, in the appendix that reprints it, and carries no imprint there. It is entered as a side of a dispute and not as a finding about the history of the system."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:IfaSixteenMothers .
+
+pmc:IfaMemorisationStandardUnmet a pm:Conceptualizing ;
+    rdfs:label "Der als unerreicht berichtete Gedächtnismaßstab"@de,
+        "The memorisation standard reported as unattained"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the stories attached to the Odu" ;
+    skos:definition "The same extract that states the standard states that it is not reached: scarcely anyone has been found who has learnt the whole of the narratives and can recite them."@en ;
+    skos:note "The node exists because the shortfall stands in the same breath as the demand. A record that carried the demand alone would report a feat of memory that the tradition does not claim is performed, and this is one of the few places where a transmission states the distance between its own rule and its practitioners."@en,
+        "This is the point at which the tradition touches the exactness material already in the graph, and it touches it from the other side: there the rule is enforced, here the rule is conceded to be unfulfilled. No convergence node is written for it. The contact route of this tradition stands at disputed, so an agreement counts as neither reception nor independent attestation."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
+
+pmc:IfaOduEnumeration a pm:Conceptualizing ;
+    rdfs:label "Die Zählung der Zeichen"@de,
+        "The enumeration of the signs"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the Odu and their number" ;
+    skos:definition "The count of the signs as the bishop's extract gives it: behind each of the sixteen representative palm nuts stand sixteen subordinate powers, and each of the whole number is itself called an Odu, which is to say a head; this gives two hundred and fifty-six. A further sixteen are counted behind each of those, which gives four thousand and ninety-six."@en ;
+    skos:note "The two accounts read in this run do not generate the count the same way. The account of eighteen ninety-four compounds the further figures from the columns of two of the sixteen; the extract used here subordinates sixteen to each of the sixteen. Both arrive at a system built on sixteen, and neither states the other's derivation. The difference is recorded rather than smoothed, because which derivation a source gives is one of the things that would distinguish a locally grown scheme from a borrowed one."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
+
+pmc:IfaRuleOfInterpretationClosed a pm:Conceptualizing ;
+    rdfs:label "Die Deutungsregel ist fest und verschlossen"@de,
+        "The rule of interpretation is fixed and closed"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    skos:definition "The reading of a figure is reported to follow an established rule, and the rule is reported to be known only to those initiated into it. The fee paid to a priest for being taught the art is reported as very heavy."@en ;
+    skos:note "Two gates named in one sentence, and they are of different kinds. That the rule is fixed is a claim about the system and is checkable against any later account of it; that it is known only to the initiated is a claim about access, and the fee gives its price. The account is an outsider's and reports what he was not told, which is a weaker witness for the content of the rule than for the fact of its closure."@en ;
+    pm:withinTradition pmt:Ifa .
+
+pmc:IfaVerseCorpus a pm:Conceptualizing ;
+    rdfs:label "Die den Zeichen anhängenden Erzählungen"@de,
+        "The narratives attached to the signs"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the stories attached to the Odu" ;
+    skos:definition "The body of narratives through which a sign delivers its answer, given in parables. One thousand six hundred and eighty are counted to each Odu, and everyone aspiring to the office of babalawo is expected to commit them, together with those of the other signs, to memory."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
 
 pmc:ImperfectionsOfInsight a pm:Cautioning ;
     rdfs:label "Die Unvollkommenheiten der Einsicht"@de,
@@ -2528,15 +2609,6 @@ pmt:Huna a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Long, The Secret Science Behind Miracles" .
 
-pmt:Ifa a pm:Tradition ;
-    rdfs:label "Ifá"@de,
-        "Ifá"@en ;
-    skos:definition "The Yoruba divinatory transmission: a fixed corpus of two hundred and fifty-six signs, each carrying verses that a diviner must hold by memory and recite on falling."@en ;
-    skos:note "The closest thing to a written corpus that was never written. It is fixed, enumerated, internally checked and transmitted through an examined apprenticeship, which makes it the methodically cleanest entry point into everything else in this file."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
-
 pmt:Illuminationism a pm:Tradition ;
     rdfs:label "Illuminationismus"@de,
         "Illuminationism"@en ;
@@ -3354,6 +3426,20 @@ pmc:HusbandHasSecondSight a pm:Attributing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmc:IfaForeknowledge a pm:Conceptualizing ;
+    rdfs:label "Vorauswissen über den Ausgang einer Sache"@de,
+        "Foreknowledge of how a matter will fall out"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    skos:definition "The capacity the oracle is consulted for: to learn beforehand how a matter stands and will fall out. The answer is delivered through the channel of parables, and the account of eighteen ninety-four reports that nothing of importance is undertaken without the consultation."@en ;
+    pm:withinTradition pmt:Ifa .
+
+pmc:IfaSixteenMothers a pm:Conceptualizing ;
+    rdfs:label "Die sechzehn Figuren, Mütter genannt"@de,
+        "The sixteen figures called mothers"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    skos:definition "The sixteen figures the casting can produce, named mothers in the account of eighteen ninety-four. A figure formed by taking one column from one mother and one column from another is named a child."@en ;
+    pm:withinTradition pmt:Ifa .
+
 pmc:InuitRecoveryOfLostThings a pm:Conceptualizing ;
     rdfs:label "Das Wiederfinden verlorener Dinge"@de,
         "The recovery of lost things"@en ;
@@ -3820,18 +3906,20 @@ pm:individuatingTelos a pm:TelicOrientation ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
 
-pm:mediatedAttestation a pm:Attesting ;
-    rdfs:label "Vermitteltes Zeugnis"@de,
-        "Mediated attestation"@en ;
-    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
-    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
-        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
-        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
     skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
+
+pmp:BabalawoPupilage a pm:Practicing ;
+    rdfs:label "Die Lehrzeit des Anwärters auf das Amt des Babalawo"@de,
+        "The pupilage of a candidate for the office of babalawo"@en ;
+    dcterms:source "James Johnson, Yoruba Heathenism, the account of the training of a candidate for the office of Babalawo" ;
+    skos:definition "A candidate for the office is expected to be the pupil of a babalawo known for wide knowledge of the religion and for skill in divining, for at least three years, and the course is divided into three parts covering those years. In the first the candidate learns the names of all the signs and the marks that stand for them and shows his command of them in practice; in the second he learns the traditions attached to them."@en ;
+    skos:note "What the third year requires was not recovered from the portion of the extract delivered in this run. The gap is a property of the retrieval and not of the work, and it is recorded so that the next reader opens the appendix at that place rather than repeating the whole."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
+    pm:withinTradition pmt:Ifa .
 
 pmp:DreamDivination a pm:Practicing ;
     rdfs:label "Traumdivination"@de,
@@ -4267,6 +4355,15 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
 
+pmp:IfaCasting a pm:Practicing ;
+    rdfs:label "Der Wurf der sechzehn Palmnüsse"@de,
+        "Casting the sixteen palm nuts"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    skos:definition "The operation by which a figure is obtained: sixteen palm nuts are held loosely in one hand and thrown through the half-closed fingers into the other. One nut left behind is marked with a double stroke and two nuts left behind with a single stroke, and the throw is repeated until two columns of four marks stand on the whitened board."@en ;
+    skos:note "The mark is set by what remains in the hand and not by what the diviner judges, so the figure is not chosen. The source describes the mechanism and does not draw that consequence itself; the observation is recorded here and not asserted as the source's."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Ifa .
+
 pmp:MideInitiationFourthDegree a pm:Practicing ;
     rdfs:label "Einweihung in den vierten Grad"@de,
         "Initiation into the fourth degree"@en ;
@@ -4567,6 +4664,14 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
@@ -4579,17 +4684,17 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
 
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
@@ -4613,6 +4718,19 @@ pmt:DesertMonasticism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pmt:Ifa a pm:Tradition ;
+    rdfs:label "Ifá"@de,
+        "Ifá"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    skos:definition "The Yoruba divinatory transmission: an enumerated set of signs obtained by casting, each sign carrying narratives that a diviner is expected to hold by memory and to recite on the sign falling."@en ;
+    skos:note "Read in this run: the section on Ifa in chapter II of the account of eighteen ninety-four, and its chapter IV for what that author says about the origin of the god; and the appendix of the volume of nineteen hundred and six, which reprints an extract on Ifa by a Yoruba bishop and a second extract by a Sierra Leonean author on geomancy. Left unread: the remaining chapters of both volumes, and the twentieth-century monographs named in the principal corpus, which are in copyright and available only as lending copies. The text of eighteen ninety-four was read in an electronic reproduction that carries no printed pagination, so the places are given by chapter and section and not by page."@en,
+        "The closest thing to a written corpus that was never written. It is fixed, enumerated, internally ordered and transmitted through a pupilage of stated length, which is what made it the entry point chosen from the registry."@en,
+        "The contact route is entered as disputed and no longer as absent, and the correction is the main finding of the run that opened this file. The registry had recorded no route because none was looked for. One of the two extracts read here identifies the sixteen figures of the oracle with the apparatus of geomancy — twelve houses of the heavens, two witnesses, a judge and a further judge — which is the apparatus of the Arabic sand science and, through it, of material this graph already holds on its Mediterranean side. Until that identification is settled, an agreement between this tradition and anything already in the graph counts as neither reception nor independent attestation. The dispute stands as its own node below, which is what pm:contactRouteDisputed requires before an agreement may be weighed at all."@en,
+        "Two of the works cited in this file were read at second hand, in the appendix that reprints them. Neither extract carries an imprint there, so neither citation gives place or year. A separately published copy of the bishop's pamphlet was searched for and not found: under both the author's name and the confusable name of the Yoruba historian, in the large text archives and in a library catalogue aggregator, and in a bibliography of early Yorùbá books. The nodes resting on those extracts therefore carry pm:mediatedAttestation and name the appendix with pm:readVia, and they remain open posts."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
+
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
         "Māori transmission"@en ;
@@ -4632,12 +4750,6 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
-
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
         "Daoist tradition"@en ;
@@ -4648,6 +4760,12 @@ pmt:Daoist a pm:Tradition ;
         "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -4749,11 +4867,6 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
         "Theravāda"@en ;
@@ -4762,6 +4875,11 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:Hathayoga a pm:Tradition ;
     rdfs:label "Haṭhayoga"@de,
@@ -4808,15 +4926,15 @@ pm:textualAttestation a pm:Attesting ;
         "Textual attestation"@en ;
     skos:definition "The claim stands in a received work, at a passage that can be cited and read independently of this graph."@en .
 
-pm:Conceptualizing a owl:Class ;
-    rdfs:label "Begriffsbildung"@de,
-        "Conceptualizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
-
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
         "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+
+pm:Conceptualizing a owl:Class ;
+    rdfs:label "Begriffsbildung"@de,
+        "Conceptualizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The formation of a concept as an act within awareness; instances of this class are concept nodes such as pmc:Pleroma or pmc:Hen."@en .
 
