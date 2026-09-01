@@ -247,6 +247,16 @@ pmc:CompletionPresupposesGeneration a pm:Presupposing ;
     pm:priorStep pmc:GenerationStage ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmc:ConcealmentFromTheRecorder a pm:Conceptualizing ;
+    rdfs:label "Die Praxis wird dem Fragenden verborgen"@de,
+        "The practice is concealed from the questioner"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulos I and VI, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The recorder states that the people of this land, like those of Peru, hide the matter with the greatest diligence; that they deny it stubbornly even when accused and convicted, until they die impenitent; and that neither the fear of God nor an oath nor anything else avails to make them confess."@en ;
+    skos:note "The comparison with Peru is the recorder's and is not evidence of any connection between the two. It is entered because it shows he was generalising across two colonial situations, which is one of the ways a report acquires content its informants never supplied."@en,
+        "This is the most valuable sentence in what was read, and it cuts two ways. It records a gate: the transmission was held closed against an outsider who had the power to punish, which is a fact about the tradition. And it records the limit of the whole manual as a witness, in the words of the man who wrote it: what he has is what could not be hidden from him. Every other node in this file is to be read against it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
+
 pmc:ConcentrationPresupposesVirtue a pm:Presupposing ;
     rdfs:label "Sammlung setzt Sittlichkeit voraus"@de,
         "Concentration presupposes virtue"@en ;
@@ -990,6 +1000,24 @@ pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
     pm:withinTradition pmt:Hathayoga ;
     pm:yieldsCapacity pmc:KindledInnerFire .
 
+pmc:Nahualli a pm:Conceptualizing ;
+    rdfs:label "Nahualli"@de,
+        "Nahualli"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo I, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The word as the recorder of sixteen twenty-nine glosses it: one veiled or disguised under the appearance of an animal. He connects the name with calendars he had found among such people, which distribute the names of animals across the days."@en ;
+    skos:note "The gloss is the recorder's and is given in Spanish; the Nahuatl word is his lemma. That he offers an etymology at all is worth noting, because it shows he had the word from the people and not from a predecessor's book."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
+
+pmc:NahualliGivenAtBirth a pm:Conceptualizing ;
+    rdfs:label "Das Tier wird bei der Geburt zugeteilt"@de,
+        "The animal is assigned when the child is born"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo I, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The assignment is made at birth and not chosen later: the child is dedicated or subjected to the animal at the time it is born, on the strength of an agreement the recorder attributes to the parents."@en ;
+    skos:note "The recorder frames the agreement as a pact with the devil, which is his own theology and not the tradition's account of itself. What is left when that frame is subtracted is the timing — at birth — and the fact that someone else contracts it for the child. Both are entered; the frame is not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
+
 pmc:NavajoEfficacyPresupposesExactness a pm:Presupposing ;
     rdfs:label "Die Wirksamkeit der Zeremonie setzt die Genauigkeit der Gesänge voraus"@de,
         "The efficacy of the ceremony presupposes exactness in the songs"@en ;
@@ -1026,6 +1054,15 @@ pmc:Noa a pm:Conceptualizing ;
     dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 26" ;
     skos:definition "The state of being free or common, that is, not under the restriction of tapu. The witness states that persons and things under tapu can be brought into this state by ceremonies, so that the two are not fixed conditions but ends of an operation."@en ;
     pm:withinTradition pmt:Maori .
+
+pmc:OloliuhquiYieldsAnswer a pm:Yielding ;
+    rdfs:label "Das Trinken bringt die Antwort hervor"@de,
+        "The drinking yields the answer"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo VI, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:OloliuhquiConsultation ;
+    pm:withinTradition pmt:NahuaRitual ;
+    pm:yieldsCapacity pmc:OloliuhquiAnswer .
 
 pmc:Panchatattva a pm:Conceptualizing ;
     rdfs:label "Die fünf Tattvas des heroischen Ritus"@de,
@@ -1442,6 +1479,15 @@ pmc:TapuBreachSign a pm:Testing ;
     pm:protocolUpdated "2026-08-30"^^xsd:date ;
     pm:tests pmc:Tapu .
 
+pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
+    rdfs:label "Der Fachmann wird bezahlt, und gut bezahlt"@de,
+        "The specialist is paid, and paid well"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo VI, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The recorder states that the practitioner is paid very well for the consultation and is additionally courted with food and drink after their own fashion."@en ;
+    skos:note "Entered because payment is one of the gates this project counts, and because it stands beside the other one: the same chapter says the practice is hidden from outsiders. A transmission can be closed by price and by secrecy at once, and the two are not the same gate."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
+
 pmc:ThreefoldAscentOrder a pm:Presupposing ;
     rdfs:label "Naturschau setzt asketische Praxis voraus"@de,
         "Contemplation of nature presupposes ascetic practice"@en ;
@@ -1595,6 +1641,15 @@ pmc:WhetherTheSelfIsKeptOrSurrendered a pm:Disputing ;
         "The sides do not differ over means, and both say so. The one states that the signpost of a right-hand and a left-hand path is barely legible, that the two look alike for a long way, and that the question is at which point they diverge; he puts the divergence at the crossing of the Abyss and separates the sorcerer from the brother of the left-hand path as sharply as a thief from a tyrant. The other derives his word from an Egyptian term for coming into being and applies it to the transformation of the will, not to any particular practice. Whatever is at issue between them, it is not method."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:XeperAsSelfGeneration .
+
+pmc:WoundsSharedWithTheAnimal a pm:Conceptualizing ;
+    rdfs:label "Der Mensch trägt die Wunden, die das Tier davontrug"@de,
+        "The man is found with the wounds the animal took"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo I, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The claim that the man and his animal are one body for the purpose of injury: after a threatened person had a fight in the river with a caiman or in the open with some other animal, the man who had uttered the threat was afterwards found bearing the same wounds the animal had taken from the fight, although he had been elsewhere while it happened."@en ;
+    skos:note "This is the most examinable claim in what was read, and it is examinable in the ordinary way: it asserts a coincidence of injuries between two bodies at a distance, with a stated time relation. Nothing about it requires an opinion on whether the transformation occurs. No protocol stands on it yet; see prima-materia#231."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:NahuaRitual .
 
 pmc:XingqiInscriptionDispute a pm:Disputing ;
     rdfs:label "Datierung und Lesung der Jadeinschrift"@de,
@@ -2050,6 +2105,15 @@ pmp:ChannelPurification a pm:Practicing ;
     skos:definition "A preliminary in which the channels are cleared by visualisation before the heat practice proper; the tradition's own form of the notion that a blockage is a place the energy does not reach."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmp:FireAndWaterRite a pm:Practicing ;
+    rdfs:label "Der Ritus mit Feuer und Wasser bei einer Geburt"@de,
+        "The rite of fire and water at a birth"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo I, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The whole work of fire and water at a birth is committed to the specialist who holds it as his office, and who among these people ordinarily bears the name and the office of physician."@en ;
+    skos:note "The sentence is a statement about an institution: the office exists, it has a name, and the rite is not performed by the family. That is the part a later reader can check, and it is why the passage is entered as a practice rather than as an item of belief."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
 
 pmp:InuitMeatForkDivination a pm:Practicing ;
     rdfs:label "Wahrsagung mit der Fleischgabel"@de,
@@ -2819,15 +2883,6 @@ pmt:ModernWicca a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Gardner, Witchcraft Today; the Book of Shadows in the published recensions" .
 
-pmt:NahuaRitual a pm:Tradition ;
-    rdfs:label "Nahua-Ritualüberlieferung"@de,
-        "Nahua ritual transmission"@en ;
-    skos:definition "The central Mexican transmission of address to the powers in things, of the day count and of the tonalli as a portion of vitality that can be lost and recovered."@en ;
-    skos:note "Ruiz de Alarcón records the incantations in Nahuatl in order to suppress them, so the words survive in the language they were spoken in inside a hostile frame. Both facts belong in the record."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
-
 pmt:Nath a pm:Tradition ;
     rdfs:label "Nāth-Überlieferung"@de,
         "Nāth transmission"@en ;
@@ -3571,6 +3626,13 @@ pmc:NeidanThreeStages a pm:Conceptualizing ;
     skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:OloliuhquiAnswer a pm:Conceptualizing ;
+    rdfs:label "Wonach das Orakel befragt wird"@de,
+        "What the oracle is asked for"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo VI, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The capacity the consultation is undertaken for: to be told whatever the questioners wish to know, with no restriction of subject stated in the passage."@en ;
+    pm:withinTradition pmt:NahuaRitual .
+
 pmc:OpposedDirectionsOfPranaAndApana a pm:Conceptualizing ;
     rdfs:label "Die beiden Winde werden zugleich in entgegengesetzte Richtungen getrieben"@de,
         "The two winds are driven in opposite directions at once"@en ;
@@ -3996,6 +4058,15 @@ pmp:Mulabandha a pm:Practicing ;
     skos:definition "A seal made by pressing the perineum with the heel and contracting the anus, by which the downward wind is drawn upward."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:OloliuhquiConsultation a pm:Practicing ;
+    rdfs:label "Das Trinken des Ololiuhqui, um es zu befragen"@de,
+        "Drinking the ololiuhqui in order to question it"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulos II and VI, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "A seed resembling a lentil is drunk; the recorder says the draught takes away the judgement, being very vehement. Those who drink it consult it as an oracle for everything they wish to know. Some hold the drinking of the seed for such consultations as their office, and such a specialist bears his own name."@en ;
+    skos:note "Three things stand in the passage and are kept apart here: that the substance is drunk, that the drinker is questioned as an oracle, and that there is an office for it. Only the third makes this a transmission rather than a usage."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NahuaRitual .
 
 pmp:PracticeOfTheLimbs a pm:Practicing ;
     rdfs:label "Übung der Glieder"@de,
@@ -4672,11 +4743,6 @@ pm:mediatedAttestation a pm:Attesting ;
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -4684,10 +4750,23 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
 
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pmt:NahuaRitual a pm:Tradition ;
+    rdfs:label "Nahua-Ritualüberlieferung"@de,
+        "Nahua ritual transmission"@en ;
+    dcterms:source "Hernando Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas que hoy viven entre los indios naturales de esta Nueva España (1629), tratado primero, capítulo I, read in a digital reproduction of the Spanish text in its old orthography which does not name the edition it reproduces" ;
+    skos:definition "The central Mexican transmission of address to the powers in things, of the day count, of an animal companion given at birth, and of a seed drunk in order to be questioned."@en ;
+    skos:note "Read in this run: the first treatise of the manual of sixteen twenty-nine, chapters one to seven, in the running text. The remaining eight treatises, which carry the incantations themselves and the calling back of the tonal, were not reached: the reproduction used delivers its running text only to that point. That is a property of the access path and not of the work, and the next run resumes there rather than at the beginning. See prima-materia#228."@en,
+        "The contact route is entered as undecided and no longer as absent, and the change is a correction rather than a finding. The registry recorded absent, which asserts that no route exists for the period in which the corpus was fixed. But this corpus was fixed a century after the conquest, by a Spanish priest holding an ecclesiastical office, among people who had been under mission for three generations, and the recorded material carries Christian elements in places. Whether what he wrote down transmits the pre-conquest practice, and in what proportion, is a question nobody in this graph has carried out. Undecided says that; absent said something stronger that was never earned."@en,
+        "The edition is not fully stated, and that is a defect this file carries openly. The reproduction used gives the Spanish in an old orthography and does not name the edition it reproduces. Every source line below says so. Settling it is the first thing to do before more nodes are written on this tradition, because a later change of edition would touch all of them."@en,
+        "The incantations were taken down in Nahuatl in order to be suppressed, so the words survive in the language they were spoken in inside a hostile frame. Both facts belong in the record."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
 
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
@@ -4695,6 +4774,11 @@ pm:Disputing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
@@ -4801,6 +4885,11 @@ pm:Testing a owl:Class ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -4822,18 +4911,6 @@ pmt:PatanjalaYoga a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
-
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
@@ -4850,6 +4927,13 @@ pmt:Midewiwin a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -4876,11 +4960,6 @@ pmt:Theravada a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pmt:Hathayoga a pm:Tradition ;
     rdfs:label "Haṭhayoga"@de,
         "Haṭhayoga"@en ;
@@ -4889,6 +4968,11 @@ pmt:Hathayoga a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Every verse cited in this file was read in the Sanskrit of the widely circulated vulgate, in the recension that the 1915 edition and translation of Sinh carries, and each citation now says so. The critical edition drawn from the manuscript tradition numbers differently in places; pmc:HathapradipikaRecensionDispute holds what is at issue."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pm:Practicing a owl:Class ;
     rdfs:label "Praktizieren"@de,
