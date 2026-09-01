@@ -206,6 +206,17 @@ pmc:BirchBarkRecord a pm:Conceptualizing ;
     skos:note "Two things follow from this and both bear on how the rest of the file is to be read. The society keeps a written record by its own means, which is unusual among the transmissions this graph registers as lacking a corpus. And the capacities of the degrees are stated as readings of marks on such a chart, so what the report carries is an informant's exegesis of a pictograph and not a free verbal account; that is a different kind of witness, and arguably a firmer one, because the marks were there before the question was asked."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:CautionAgainstOpinionAboutHiddenThings a pm:Cautioning ;
+    rdfs:label "Die Warnung davor, sich über die verborgenen Dinge eine Meinung zu bilden"@de,
+        "The caution against forming opinions about hidden things"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 19-20" ;
+    skos:definition "The reported attitude that these are great and difficult questions best left alone, that men know so little beyond food and sleep and rest that it might easily seem presumptuous to form any opinion about hidden things, and that people who are content should not trouble themselves with thinking."@en ;
+    skos:note "A tradition warning against the very enquiry the rest of it makes possible. It is entered because a record that carries only the capacities and not the cautions misreports what it holds, and because this caution is directed at the enquirer and not at the practitioner: it does not say the hidden things are unreal, it says that opinion about them is presumption."@en,
+        "The passage also gives a second and worldlier ground for the same reticence, which the ethnographer reports of himself and not of the tradition: that his hosts feared their séances and their taboo observances would be laughed at. Both grounds are in the same pages, and separating them is the reader's work."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:InuitHiddenThings ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
         "The chin pressed to the chest in the two seats the manual prefers"@en ;
@@ -394,6 +405,17 @@ pmc:EzeqeelTeachesKnowledgeOfClouds a pm:Attributing ;
     pm:ascribedTo pmc:Ezeqeel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:FatherPerceivesHiddenThings a pm:Attributing ;
+    rdfs:label "Dem Vater der Erzählerin wird zugeschrieben, die verborgenen Dinge verstanden zu haben"@de,
+        "The narrator's father is said to have understood hidden things"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 23-24" ;
+    skos:definition "The narrator relates that her father, called a great shaman, understood hidden things and perceived that the children she wanted to run out and play with were the souls of her dead brothers and sisters, whereupon his helping spirits set a barrier between her and them."@en ;
+    skos:note "The case is worth the node because of its shape rather than its content. The perception is not reported as a vision or a journey but as a correction of an ordinary judgement: the child saw children, the shaman saw who they were. A claim in that form is answerable in a way that a claim about an inner state is not."@en ;
+    pm:ascribedCapacity pmc:InuitHiddenThings ;
+    pm:ascribedTo "The narrator Takornâq's father, named in the narrative as a great shaman" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:InuitAngakkuq .
 
 pmc:FinerBodiesNotInnate a pm:Originating ;
     rdfs:label "Die feineren Körper sind nicht angeboren, sondern gezüchtet"@de,
@@ -663,6 +685,21 @@ pmc:InitiationPresupposesSaktipata a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Saktipata ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:InuitForkSignOfSurvival a pm:Conceptualizing ;
+    rdfs:label "Das an der Gabel gelesene Zeichen"@de,
+        "The sign read from the fork"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 24" ;
+    skos:definition "The stated reading of the divination: if the fork falls the sick person will die, if it stays upright she will live. In the case related the fork settled upright and the sick child lived."@en ;
+    skos:note "Entered because the sign is stated in advance and in both directions, which is rare in the material this graph holds. A divination that names its own failure condition before the outcome is known is examinable; one that is interpreted afterwards is not. The single case related is of course selected by the narrator's survival."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:InuitHelpingSpirits a pm:Conceptualizing ;
+    rdfs:label "Hilfsgeister"@de,
+        "Helping spirits"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 24, 28" ;
+    skos:definition "Spirits belonging to a particular shaman, called up by him and reported to act in the world on his behalf: to guard a child, to raise a barrier against the dead, to find what has been lost."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
 
 pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     rdfs:label "Die Vertiefung setzt das Aufgeben der Hemmnisse voraus"@de,
@@ -1015,6 +1052,19 @@ pmc:RecitationExactnessExamination a pm:Testing ;
     pm:protocolUpdated "2026-08-30"^^xsd:date ;
     pm:tests pmc:ExactnessAsConditionOfEfficacy .
 
+pmc:ReturnPresupposesTheSewingProhibition a pm:Presupposing ;
+    rdfs:label "Das Wiederaufleben setzt die Einhaltung des Nähverbots voraus"@de,
+        "The return after death presupposes that the prohibition was kept"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 28-29" ;
+    skos:definition "The claim that the attempt to bring back a dead man failed because a prohibition had been broken, and not because the shamans were unable."@en ;
+    skos:note "The structure of this passage matters more than its content, and it is the reason the node is here. A failure of the practice is reported, and the account assigns the failure to a third party's breach of a prohibition rather than to the practitioners or to the claim. That move makes the underlying claim unfailable from inside the tradition: any outcome confirms it, since success shows the power and failure shows the breach. Recording the immunisation is not an objection to the passage; it is the part a later protocol has to work against."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:consequenceOfSkipping "The narrator relates that the moon would not let the man come to life again, because his mother had sewn garments of new caribou skin on the island of Oqshoriaq, which is not allowed there; the two shamans who tried to catch the returning corpse did not succeed." ;
+    pm:dependentStep pmc:InuitReturnAfterDeath ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:InuitSewingProhibitionOnOqshoriaq ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
         "The three inner limbs are inner to the preceding five"@en ;
@@ -1220,6 +1270,17 @@ pmc:SixteenSupports a pm:Conceptualizing ;
     skos:definition "A set of sixteen named stations of the body, called supports, which the seal at the throat is said to bind; the manual names the number in a compound and treats the binding of all sixteen as one operation."@en ;
     skos:note "Recorded because the number is the whole of the finding. A modern draft gives thirteen segments as the path along which the force is led; sixteen is what the base text names here, and other works of the wider corpus give eighteen. The count therefore varies across the transmission, which means there is no single path to be had, and a scheme that presents one number as the path has chosen a branch without saying so. The other witnesses to the sixteen and the eighteen have not been read at their wording and are not entered here. See prima-materia#35."@en ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:SpiritCallingYieldsRecoveryOfLostThings a pm:Yielding ;
+    rdfs:label "Das Geisterrufen soll Verlorenes wiederbringen"@de,
+        "Spirit calling is said to recover what has been lost"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The claim, made by the narrator about her second husband, that when a knife was lost he would hold a spirit calling and in that way recover it."@en ;
+    skos:note "The most examinable claim in the portion read, and the reason it is entered separately from the capacity it names. It states a repeatable occasion, a named class of object, and an outcome that either occurred or did not; it is not a claim about a state of the practitioner. What it does not state is any case in which the calling was held and the knife stayed lost."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:InuitSpiritCalling ;
+    pm:withinTradition pmt:InuitAngakkuq ;
+    pm:yieldsCapacity pmc:InuitRecoveryOfLostThings .
 
 pmc:SpiritPresupposesBreath a pm:Presupposing ;
     rdfs:label "Die Verfeinerung des Geistes setzt die des Atems voraus"@de,
@@ -1909,6 +1970,37 @@ pmp:ChannelPurification a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:InuitMeatForkDivination a pm:Practicing ;
+    rdfs:label "Wahrsagung mit der Fleischgabel"@de,
+        "Divination with the meat fork"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 24" ;
+    skos:definition "A procedure used to decide whether a sick person will live: the meat fork is set up in the cooking pot, and the way it comes to rest is read as the answer."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmp:InuitReturnFailureExamination a pm:Testing ;
+    rdfs:label "Ob das Wiederaufleben in der berichteten Fassung überhaupt scheitern kann"@de,
+        "Whether the return of the dead can fail at all as the tradition reports it"@en ;
+    skos:definition "A protocol on the claim that a dead man over whom the words were spoken can come back among the living, held here to record that the one reported failure was assigned to a broken prohibition and that no condition for failing the claim itself is available."@en ;
+    skos:note "No falsifying condition is given, and this is the permitted omission: the state says outright that none has been devised. Stating one here would misreport the situation, because the obstacle is not that nobody has looked but that the claim as transmitted has no failing case by construction. Whether a condition can be recovered by fixing the interval and the announcement in advance is an open question and belongs to whoever takes it up."@en,
+        "The asymmetry with the protocol above is worth naming. Both claims come from the same narrator on adjacent pages; one is universal and therefore refutable by a single case, the other is hedged by a clause that absorbs every case. The difference is in the form of the claim and not in the strength of the testimony behind it."@en,
+        "The passage is unusual in reporting a failure at all. What it does with the failure is the finding: the attempt is said to have miscarried because a third person had sewn new caribou skin where that is forbidden, so the practitioners and the claim are both left untouched. Success shows the power, failure shows the breach, and no outcome is left over that could count against the claim."@en ;
+    pm:examinationState pm:noProcedureDevised ;
+    pm:examinedBy "prima-materia" ;
+    pm:protocolUpdated "2026-08-31" ;
+    pm:tests pmc:WordsAtBirthYieldReturnAfterDeath .
+
+pmp:InuitSecondSightExamination a pm:Testing ;
+    rdfs:label "Ob die Vorherwissens-Behauptung ihre eigene Allgemeinform übersteht"@de,
+        "Whether the foreknowledge claim survives its own universal form"@en ;
+    skos:definition "A protocol on the claim that a named person always knows in advance when anything remarkable is going to happen. The claim is examinable because it is universal and because the tradition itself counts the announcement, not the interpretation, as the thing that happens."@en ;
+    skos:note "One confirming case is related in the same passage and no failing case is. The case does not count against the condition and does not count for it either: it was told after the event it is said to have foretold, by the wife of the man it is told about, and a dream of a friend eaten by his kin is a description that the encounter afterwards fitted rather than a prior announcement of that encounter."@en,
+        "The remainder of the volume was not read in the run that opened this protocol, and it is precisely there that a failing case would be found if one is recorded at all. The state is therefore procedure-without-cases and not cases-without-deviation: the search has begun and has not been carried."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passage recorded in traditions/inuit-angakkuq.ttl" ;
+    pm:falsifiedBy "One recorded remarkable event in the bearer's presence that he did not announce beforehand. The claim says always, so a single unannounced case refutes it as stated. A weaker form, that such announcements occur more often than chance would give, would require announcements collected before the events they name, with the failures kept alongside the hits." ;
+    pm:protocolUpdated "2026-08-31" ;
+    pm:tests pmc:HusbandHasSecondSight .
+
 pmp:Karakia a pm:Practicing ;
     rdfs:label "Karakia"@de,
         "Karakia"@en ;
@@ -2470,15 +2562,6 @@ pmt:InsularCeltic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The legal and glossarial material on imbas forosnai, teinm laída and díchetal do chennaib; the immrama; the Book of Taliesin" .
-
-pmt:InuitAngakkuq a pm:Tradition ;
-    rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
-        "Inuit angakkuq transmission"@en ;
-    skos:definition "The Inuit transmission of a light said to appear in the practitioner and to make the distant and the hidden visible, acquired through solitude and privation."@en ;
-    skos:note "Rasmussen took down statements from named practitioners in the first person, including the account of qaumaneq. As testimony with a speaker attached this is stronger material than most of the anonymous corpora the graph already holds."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Rasmussen, Intellectual Culture of the Iglulik Eskimos; Rasmussen, Intellectual Culture of the Caribou Eskimos" .
 
 pmt:IslamicLetterMagic a pm:Tradition ;
     rdfs:label "Islamische Buchstaben- und Namensmagie"@de,
@@ -3260,6 +3343,40 @@ pmc:HealingByTouch a pm:Conceptualizing ;
     skos:definition "The restoration of a withered hand and of sight, ascribed to the touch of a ruler in Alexandria."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:HusbandHasSecondSight a pm:Attributing ;
+    rdfs:label "Dem Mann der Erzählerin wird das zweite Gesicht zugeschrieben"@de,
+        "The narrator's husband is said to have the gift of second sight"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
+    skos:definition "The narrator states of her husband Padloq, whom she calls by a name she glosses as the one who keeps her alive, that he has the gift of second sight and always knows when anything remarkable is going to happen. The case she gives is a dream, on a journey from Iglulik to Tununeq, that a friend of his had been eaten by his nearest kin; on that journey they met the woman who had eaten her own family."@en ;
+    skos:note "The claim is universal in form, which is what makes it examinable: he always knows. One confirming case is related and no failing case is; the case is retrospective and was told after the meeting it is said to have foretold. The protocol stands at examinations/inuit-second-sight.ttl."@en ;
+    pm:ascribedCapacity pmc:InuitSecondSight ;
+    pm:ascribedTo "Padloq, the narrator Takornâq's husband" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:InuitRecoveryOfLostThings a pm:Conceptualizing ;
+    rdfs:label "Das Wiederfinden verlorener Dinge"@de,
+        "The recovery of lost things"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The capacity to bring back an object that has been lost, named in the narrative for iron and steel knives, which were rare at the time and often lost."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:InuitSecondSight a pm:Conceptualizing ;
+    rdfs:label "Zweites Gesicht"@de,
+        "Second sight"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
+    skos:definition "The capacity to know in advance that something remarkable is about to happen, reported in the narrative as a standing property of a person rather than as the outcome of an exercise."@en ;
+    skos:note "The English term is the translator's. What the node carries is the claim reported under it and not the term's own history in Scottish and Scandinavian usage; whether the Inuktitut word behind it has that range is not decidable from the portion read."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:InuitSewingProhibitionOnOqshoriaq a pm:Conceptualizing ;
+    rdfs:label "Das Verbot, auf Oqshoriaq neues Karibufell zu nähen"@de,
+        "The prohibition on sewing new caribou skin on Oqshoriaq"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 28-29" ;
+    skos:definition "A prohibition attached to a named place: garments of new caribou skin may not be sewn on the island of Oqshoriaq."@en ;
+    skos:note "The prohibition is local and specific, which distinguishes it from the general taboo system the later chapters of the volume set out. Whether it is a case of that system or a rule of its own cannot be decided from the portion read."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:Kasdeja a pm:Conceptualizing ;
     rdfs:label "Kasdeja"@de,
         "Kasdeja"@en ;
@@ -3618,6 +3735,17 @@ pmc:WeaponsOfDeath a pm:Conceptualizing ;
     skos:definition "Shield, breastplate and the sword for slaughter, disclosed as instruments of killing rather than as craft."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:WordsAtBirthYieldReturnAfterDeath a pm:Yielding ;
+    rdfs:label "Die bei der Geburt gesprochenen Worte sollen das Wiederaufleben ermöglichen"@de,
+        "Words spoken at birth are said to make the return after death possible"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The claim that those at whose birth such words were uttered can, if they die, come to life again and return among people."@en ;
+    skos:note "The interval between the act and its effect is a whole life, which puts the claim beyond any protocol that could be run on it and is worth recording as a property of the claim rather than as a defect of the record."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:InuitWordsSpokenAtBirth ;
+    pm:withinTradition pmt:InuitAngakkuq ;
+    pm:yieldsCapacity pmc:InuitReturnAfterDeath .
+
 pmc:WorldPathTraversal a pm:Conceptualizing ;
     rdfs:label "Die Durchquerung des Weltenpfads"@de,
         "The traversal of the path of worlds"@en ;
@@ -3700,11 +3828,6 @@ pm:mediatedAttestation a pm:Attesting ;
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
-pm:noProcedureDevised a pm:ExaminationState ;
-    rdfs:label "Kein Verfahren ersonnen"@de,
-        "No procedure devised"@en ;
-    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
-
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
@@ -3735,6 +3858,21 @@ pmp:FourteenfoldMastery a pm:Practicing ;
     skos:definition "A numbered course of mastery over the meditation objects, among them the order of the kasiṇa and its reverse, skipping the absorption, skipping the object, and the definition of the object."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Theravada .
+
+pmp:InuitSpiritCalling a pm:Practicing ;
+    rdfs:label "Geisterrufen"@de,
+        "Spirit calling"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 24, 28" ;
+    skos:definition "The session in which a shaman calls up his helping spirits and puts a question to them, held in the household on the occasion that requires it rather than at a fixed time."@en ;
+    skos:note "The portion read gives the occasions and the outcomes and not the procedure. Nothing was found here about the posture, the words, the darkness or the binding that the later chapters of this volume are known to describe, and none of that is asserted by this node."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmp:InuitWordsSpokenAtBirth a pm:Practicing ;
+    rdfs:label "Die bei der Geburt gesprochenen Worte"@de,
+        "The words spoken at a birth"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The uttering of efficacious words over a person at birth, said to determine that the person will be able to come to life again after dying."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
 
 pmp:Khecari a pm:Practicing ;
     rdfs:label "Khecarī"@de,
@@ -3966,6 +4104,22 @@ pmc:GenerationStage a pm:Conceptualizing ;
     skos:definition "The first of the two stages of the highest tantra, treated before the completion stage in the training."@en ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmc:InuitHiddenThings a pm:Conceptualizing ;
+    rdfs:label "Die verborgenen Dinge"@de,
+        "Hidden things"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 19, 24" ;
+    skos:definition "What is not open to ordinary sight: the state of the sick, the whereabouts of what is lost, the presence of the dead among the living. The tradition treats this as a domain that some persons perceive and that others are ill advised to form opinions about."@en ;
+    skos:note "Relevant to prima-materia#127, which asks whether a perception of the distant, hidden or concealed is attested outside the spheres already held. The passage here attests the domain and one case of its perception; it does not attest a procedure for acquiring it, and that part is not in the portion read."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:InuitReturnAfterDeath a pm:Conceptualizing ;
+    rdfs:label "Das Wiederaufleben nach dem Tod"@de,
+        "Coming to life again after death"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The capacity ascribed to certain persons of coming to life again after death and returning to their place among people, held to belong to those over whom particular words were spoken at their birth."@en ;
+    skos:note "The narrative gives the being a name in a phonetic transcription that the digitised text renders unreliably; the spelling is therefore not carried into this node, and the term is to be taken from a clean copy of the page before it is asserted anywhere. The claim itself does not depend on the spelling."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:Kokabel a pm:Conceptualizing ;
     rdfs:label "Kokabel"@de,
         "Kokabel"@en ;
@@ -4103,6 +4257,11 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pm:noProcedureDevised a pm:ExaminationState ;
+    rdfs:label "Kein Verfahren ersonnen"@de,
+        "No procedure devised"@en ;
+    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -4221,11 +4380,6 @@ pmc:Theopemptos a pm:Conceptualizing ;
     skos:note "The state is described as the one in which sleep is departing and waking beginning, or as a condition between the two, accompanied by a voice, by a light, and by an inability to move the eyes. This is the closest description in the collection to what modern accounts call the hypnopompic state, and the immobility is named as part of the sign rather than as an obstacle. What arrives in it is a communication received, not a faculty exercised."@en ;
     pm:withinTradition pmt:NeoplatonicTheurgy .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
         "Ānāpānasati"@en ;
@@ -4277,11 +4431,6 @@ pm:PrerequisiteStrength a owl:Class ;
     skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
         "Initiation into the second degree"@en ;
@@ -4326,6 +4475,11 @@ pm:Systematizing a owl:Class ;
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
@@ -4413,6 +4567,11 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -4454,13 +4613,6 @@ pmt:DesertMonasticism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
         "Māori transmission"@en ;
@@ -4472,6 +4624,13 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
@@ -4489,13 +4648,6 @@ pmt:Daoist a pm:Tradition ;
         "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered .
-
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -4524,6 +4676,25 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
+
+pmt:InuitAngakkuq a pm:Tradition ;
+    rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
+        "Inuit angakkuq transmission"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), pp. 19-32" ;
+    skos:definition "The Inuit transmission of an office whose holder is said to perceive what is hidden, to call up helping spirits and to act through them, acquired through solitude and privation and exercised for a household rather than for an institution."@en ;
+    skos:note "Contact route, stated rather than assumed. No route is proposed by anyone between the Iglulik Inuit and the literate transmissions this graph already holds, and none is available for the doctrinal content. The corpus was nevertheless fixed in nineteen twenty-one and twenty-two, well after contact: the narrative itself names whalers, and the region was under mission influence at the time of the recording. The value here is therefore contact-route-disputed and not contact-route-absent, following the correction made for the Māori entry, and the tradition may not be counted as a party to a convergence until the dispute stands as its own node. See prima-materia#101 and prima-materia#102."@en,
+        "Read in the opening of the volume: the account of the working method, the first meeting near Repulse Bay, the old singer Ivaluardjuk, and the autobiography of Takornâq, printed pages ten to thirty-two. The chapters on the shamans, on the spirits and on the taboo system, which carry the terms this tradition is usually reported by, were not reached in this run. The limit is one of the access path and not of the work: the volume is digitised and public, and the portion delivered by the tool in use broke off at printed page thirty-two. See prima-materia#99 and prima-materia#100."@en,
+        "The material read is testimony of an unusual kind for this graph. It is not a doctrinal corpus but a life story told in the first person by a woman who is herself said to have practised, recorded by an ethnographer who spoke a related language and worked without an interpreter. What that buys is a speaker attached to each claim; what it costs is that almost every capacity is ascribed by the narrator to somebody else, which is why the nodes below stand on third-party ascription and not on first-person report."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Rasmussen, Intellectual Culture of the Iglulik Eskimos; Rasmussen, Intellectual Culture of the Caribou Eskimos" .
+
 pmt:PatanjalaYoga a pm:Tradition ;
     rdfs:label "Pātañjala-Yoga"@de,
         "Pātañjala Yoga"@en ;
@@ -4532,6 +4703,11 @@ pmt:PatanjalaYoga a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Only Yogasūtra III.38 carries the edition it was read from; it was reopened in the Sanskrit for that purpose. For every other citation in this file, and for the Yogabhāṣya, the edition or translation the passage was read from is not recoverable: the session that entered them did not record it, and it cannot be reconstructed from the wording of the nodes. It is stated here rather than guessed, because an edition entered by inference would be a claim about the compiler's work that is not true. Until the passages are reopened, the verse numbers in this file stand on the received four-pāda division and nothing further."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
@@ -4544,11 +4720,6 @@ pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
-
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -4573,15 +4744,15 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
