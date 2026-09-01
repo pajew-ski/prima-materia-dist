@@ -305,8 +305,8 @@ pmc:DirectionIsNotThePhaseOfBreathing a pm:Converging ;
         "The independence is asymmetric and the node says so rather than claiming more than it has. The jade inscription is dated to the fourth or third century before the common era on the reading this collection follows, which is earlier than any documented transmission of Indian breath technique into China; for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions, so its side of the correspondence cannot be declared contact-free with the same confidence. What the two share is therefore better read as one early independent witness and one late witness of uncertain independence, which is weaker than a convergence of two early ones and stronger than a citation chain."@en ;
     pm:convergingConcept pmc:OpposedDirectionsOfPranaAndApana,
         pmc:XingqiDescent ;
-    pm:independentAttestation pmt:Daoist,
-        pmt:Hathayoga .
+    pm:independenceGround "One side carries the claim and the other has been withdrawn from it. The jade inscription is dated to the fourth or third century before the common era, earlier than any documented transmission of Indian breath technique into China, and for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions; it cannot be declared contact-free, and it was listed here as an independent attestation until this ground was required, which is what the requirement is for. Neither witness is an ethnographic gathering, so no recorder's feedback is at issue." ;
+    pm:independentAttestation pmt:Daoist .
 
 pmc:DisplayOfPowersRefused a pm:Cautioning ;
     rdfs:label "Zurschaustellung der Kräfte verweigert"@de,
@@ -461,6 +461,7 @@ pmc:ExteriorisationCorrespondence a pm:Converging ;
     pm:convergingConcept pmc:Manomayakaya,
         pmc:ParakayaPravesa,
         pmc:SoulJourney ;
+    pm:independenceGround "The Greek witness is fixed in the fifth century before the common era, before any documented route by which Indian technique could have reached the Greek world; a Scythian route has been proposed in the scholarship and not shown. The ground carries the independence and not the strength: the Greek report is a third-party ascription to figures long dead, made by a historian and not by a practitioner, which is a weakness of the testimony and not of its separateness from the Indian material." ;
     pm:independentAttestation pmt:GraecoRoman ;
     pm:transmissionPath "Theravāda and Pātañjala Yoga share the Indian sphere and a common technical vocabulary. A Scythian or shamanic route to the Greek reports has been proposed in the scholarship but is not documented." .
 
@@ -612,6 +613,7 @@ pmc:GradedAttainmentYieldsDistantPerceptionAndOtherMinds a pm:Converging ;
         pmc:MideDistantHearing,
         pmc:MideThoughtReading,
         pmc:ParacittaJnana ;
+    pm:independenceGround "This is the case in the collection where the gathering situation decides, and it is entered in full because the date alone would clear a claim the date cannot clear. The American material was gathered between eighteen eighty-seven and eighteen eighty-nine and printed in eighteen ninety-one; the capacities of the third pāda had been in English-language circulation for roughly a decade by then through theosophical publishing, so the fixation does not precede the material it agrees with. What carries the independence instead is twofold: the recorder was a bureau ethnographer and not a member of that milieu, and the capacities are given as readings of lines incised on birchbark charts, marks that were on the bark before anyone asked what they meant. The second point is what a date cannot supply, because it puts the agreement in an object rather than in an answer. The ground is not thereby closed; it can be sustained or overturned by someone who reads the charts." ;
     pm:independentAttestation pmt:Midewiwin .
 
 pmc:GreaterPresupposeLesser a pm:Presupposing ;
@@ -697,6 +699,7 @@ pmc:HorripilationCorrespondence a pm:Converging ;
     pm:attestedBy pm:compilerInference ;
     pm:convergingConcept pmc:KhuddikaPiti,
         pmc:Romanca ;
+    pm:independenceGround "Here the ground is not a date and the node says so rather than borrowing an argument it does not have. The commentary is of the fifth century of the common era and the treatise on performance is older, so priority runs the wrong way for an argument from age. What carries the independence is that neither text treats the other's subject: a handbook of meditation had no occasion to take an observation about gooseflesh from a manual for actors, or the reverse. Both are received texts, so no gathering situation is at issue. A common Indian background remains available and is not excluded by this ground." ;
     pm:independentAttestation pmt:SanskritDramaturgy,
         pmt:Theravada ;
     pm:transmissionPath "Both codifications arise within the Indian cultural sphere; independence holds at the level of genre and subject matter, not at the level of culture." .
@@ -1722,6 +1725,7 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
         pmc:Prana,
         pmc:Qi,
         pmc:Ruach ;
+    pm:independenceGround "The two witnesses that carry the claim of independence are fixed long before any route between them. The jade inscription is dated to the fourth or third century before the common era on the reading this collection follows; the Chāndogya passage belongs to the early Upaniṣads and is older still. The earliest documented traffic that could have carried Indian breath technique into China is the Buddhist transmission of the first centuries of the common era, and both fixations precede it. Neither is an ethnographic gathering, so no question of a recorder's feedback arises; what each carries is the wording of a received text." ;
     pm:independentAttestation pmt:Daoist,
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
@@ -1853,6 +1857,12 @@ pm:WakingState a pm:AwarenessContext ;
         "Waking state (Jāgrat)"@en ;
     dcterms:source "Māṇḍūkya Upaniṣad, verse 3" ;
     skos:definition "Ordinary outward-turned awareness of gross objects."@en .
+
+pm:addedElement a owl:ObjectProperty ;
+    rdfs:label "hinzugefügtes Element"@de,
+        "added element"@en ;
+    rdfs:domain pm:Reworking ;
+    skos:definition "The node carrying what this station added and the exemplar does not have. Required: an addition that cannot be pointed at is an assertion about a chain and not a link in it."@en .
 
 pm:analogueConcept a owl:ObjectProperty ;
     rdfs:label "analogue concept"@en ;
@@ -2032,12 +2042,21 @@ pm:hasSymbolicForm a owl:ObjectProperty ;
     rdfs:range pm:Symbolizing ;
     skos:definition "Associates a concept with one or more symbolic representations (sigils, diagrams, glyphs)."@en .
 
+pm:independenceGround a owl:DatatypeProperty ;
+    rdfs:label "Grund der Unabhängigkeit"@de,
+        "ground of independence"@en ;
+    rdfs:domain pm:Converging ;
+    skos:definition "The statement that carries a claim of independent attestation: when the testimony relied on was fixed or gathered, and against which publication or route that date stands."@en ;
+    skos:note "Required wherever pm:independentAttestation is set, enforced by pm:IndependenceGroundShape. The burden is reversed on purpose. Feedback from a published account back into the field it describes can almost never be demonstrated, so a predicate that marked only the demonstrated cases would let the ordinary case pass in silence — the failure pm:CoverageState and pm:ExaminationState exist to prevent. A claim of independence must instead carry the fact that makes it checkable."@en,
+        "The date alone does not settle it, and the sentence must say more where more is at stake. Feedback within a single enquiry — few informants, several years, the same team returning, material gathered by an informant between visits — precedes any publication and no date catches it. Where the corpus was fixed that way, the ground states the gathering situation as well. Whether it does so honestly is settled at the merge and not by a shape; naming that limit is better than a guard that pretends to check it."@en .
+
 pm:independentAttestation a owl:ObjectProperty ;
     rdfs:label "unabhängige Bezeugung"@de,
         "independent attestation"@en ;
     rdfs:domain pm:Converging ;
     rdfs:range pm:Tradition ;
-    skos:definition "A tradition attesting the correspondence for which no route of contact is documented. This is the only kind of attestation that makes a correspondence a finding rather than a citation chain."@en .
+    skos:definition "A tradition attesting the correspondence for which no route of contact is documented, so that its testimony is not the same statement counted a second time."@en ;
+    skos:note "The earlier definition called this the only kind of attestation that makes a correspondence a finding. It is not: it is the kind that makes the count honest. A correspondence carried by reception is still a finding about what was carried; what it may not be is a tally of independent witnesses."@en .
 
 pm:individualAwareness a pm:AwarenessSpace ;
     rdfs:label "Individuelles Bewusstsein"@de,
@@ -2108,6 +2127,19 @@ pm:readVia a owl:DatatypeProperty ;
     skos:note "Deliberately separate from dcterms:source, for the same reason pm:evidenceFrom is. dcterms:source names what a reader must obtain to check the claim; this names what the writer of the node had in front of him. A record that fused them would report second-hand reading as first-hand and would lose the one distinction that makes an unreachable source admissible at all."@en,
         "Required wherever pm:attestedBy is pm:mediatedAttestation. Carries a bibliographic reference and never a URL, enforced by pm:ReadViaIsLiteratureShape."@en .
 
+pm:receivedFrom a owl:ObjectProperty ;
+    rdfs:label "übernommen von"@de,
+        "received from"@en ;
+    rdfs:domain pm:Reworking ;
+    rdfs:range pm:Tradition ;
+    skos:definition "The transmission the claim was taken over from. The work and the place stay in dcterms:source; this names the transmission, so that the depth of a chain can be counted."@en .
+
+pm:reworkedClaim a owl:ObjectProperty ;
+    rdfs:label "bearbeitete Behauptung"@de,
+        "reworked claim"@en ;
+    rdfs:domain pm:Reworking ;
+    skos:definition "The claim that was taken over, as it stands in the tradition performing the reworking."@en .
+
 pm:selfBoundaryDeclined a pm:TelicOrientation ;
     rdfs:label "Abgelehnte Selbstgrenze"@de,
         "Self boundary declined"@en ;
@@ -2144,7 +2176,9 @@ pm:transmissionPath a owl:DatatypeProperty ;
     rdfs:label "Übertragungsweg"@de,
         "transmission path"@en ;
     rdfs:domain pm:Converging ;
-    skos:definition "A documented route of historical contact between the traditions in which the correspondence appears. Its presence downgrades the correspondence from convergence to reception."@en .
+    skos:definition "A documented route of historical contact between the traditions in which the correspondence appears."@en ;
+    skos:note "The earlier definition here said that the presence of a route downgrades the correspondence from convergence to reception. That was a judgement wearing the clothes of a definition, and it is withdrawn. A route says how a claim travelled, not whether anything was in it. Survival through many hands is selection, because most claims do not survive it, and a record that treats transmission as noise throws away the only evidence it has about what kept being worth copying."@en,
+        "What the route does decide is narrower and stays in force: an agreement reached along it may not be counted as independent attestation, because the same statement would be counted twice. Both may stand on one node, and on several they already do. The route bars a particular way of counting; it does not devalue the correspondence."@en .
 
 pm:unitiveTelos a pm:TelicOrientation ;
     rdfs:label "Vereinigendes Ziel"@de,
@@ -3547,6 +3581,7 @@ pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
     pm:convergingConcept pmc:MaoriExactRecitation,
         pmc:NavajoSongExactness,
         pmc:ZuniPrayerExactness ;
+    pm:independenceGround "Not a claim of priority in time. The two American corpora were fixed in eighteen ninety-seven and, from fieldwork of the nineteen-twenties, in nineteen thirty-two, both after the Polynesian witness was printed in eighteen eighty-two. What carries the independence is that no route of contact between the Pacific and the American Southwest is available for the period in which any of the three corpora were fixed, so agreement between them cannot be one statement counted twice. Two things this ground does not settle and does not hide: both American corpora were gathered by ethnographers working in a discipline to which the rule of exact recitation was already familiar, and neither passage says whether the rule was volunteered in the field or asked for. The second is the gathering question and it stands open." ;
     pm:independentAttestation pmt:NavajoCeremonial,
         pmt:ZuniRitual .
 
@@ -4725,6 +4760,16 @@ pmc:Theopemptos a pm:Conceptualizing ;
     skos:note "The state is described as the one in which sleep is departing and waking beginning, or as a condition between the two, accompanied by a voice, by a light, and by an inability to move the eyes. This is the closest description in the collection to what modern accounts call the hypnopompic state, and the immobility is named as part of the sign rather than as an obstacle. What arrives in it is a communication received, not a faculty exercised."@en ;
     pm:withinTradition pmt:NeoplatonicTheurgy .
 
+pm:Reworking a owl:Class ;
+    rdfs:label "Bearbeiten"@de,
+        "Reworking"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within one tradition, of taking over a claim from another and adding to it something the source it came from does not contain: a term, a consequence, a caution, a sign, a condition of failure."@en ;
+    skos:note "Deliberately expensive: pm:addedElement points at a node, so the addition has to be entered before the reworking can be claimed. A station that added something and cannot say what added nothing that this graph can use. As with pm:Testing, absence is informative and is not to be stubbed: no instance means nobody has shown an addition, not that none was made."@en,
+        "Distinct from pm:Systematizing, which is an ordering act performed by an editor in the present and named as his. A reworking is an act inside a transmission, attested in a work like any other claim, and it belongs to the tradition that performed it."@en,
+        "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
+        "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
+
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
         "Ānāpānasati"@en ;
@@ -4950,14 +4995,6 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
-        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en .
-
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
@@ -4991,6 +5028,16 @@ pmt:Ifa a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
+        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
+        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
+        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
@@ -5141,21 +5188,21 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pmt:Theravada a pm:Tradition ;
-    rdfs:label "Theravāda"@de,
-        "Theravāda"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
-    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
-    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
-
 pmt:Hathayoga a pm:Tradition ;
     rdfs:label "Haṭhayoga"@de,
         "Haṭhayoga"@en ;
     dcterms:source "Svātmārāma, Haṭhayogapradīpikā (Sanskrit vulgate; Sinh 1915)" ;
     skos:definition "The transmission of the Haṭhayogapradīpikā of Svātmārāma and the manuals around it."@en ;
     skos:note "Edition finding, prima-materia#45. Every verse cited in this file was read in the Sanskrit of the widely circulated vulgate, in the recension that the 1915 edition and translation of Sinh carries, and each citation now says so. The critical edition drawn from the manuscript tradition numbers differently in places; pmc:HathapradipikaRecensionDispute holds what is at issue."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pmt:Theravada a pm:Tradition ;
+    rdfs:label "Theravāda"@de,
+        "Theravāda"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
+    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
