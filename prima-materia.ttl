@@ -359,6 +359,22 @@ pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     skos:note "This is the counterweight to any claim that the manual requires an erect spine throughout. The seats it recommends most warmly close the neck rather than extend it, and the same posture chapter has the tongue set against the roots of the upper teeth while the wind is drawn upward. Uprightness of the trunk is attested; uprightness carried through the neck and head is contradicted in the same work. See prima-materia#29."@en ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:ColdAsSourceProtocol a pm:Testing ;
+    rdfs:label "Ob Kälte Quelle oder Widerstand ist"@de,
+        "Whether cold is a source or a resistance"@en ;
+    skos:definition "An examination of whether exposure to cold supplies the practitioner with something, in the physical sense the word energy carries, or draws on him."@en ;
+    skos:note "Read as a report of experience, the claim describes something that occurs. Deliberate cold exposure raises circulating catecholamines sharply and is followed by a state the practitioner calls charged. The experience is real and the description of it is inverted: what is felt as taking in is a release of the body's own reserves. That is a finding about the wording and not a dismissal of the practice."@en,
+        "The claim has two readings and they come out in opposite directions, so the protocol keeps them apart as prima-materia#341 requires. Read physically, it is turned around: cold exposure raises energy expenditure rather than supplying it. The heat produced in the brown adipose tissue that the cold recruits comes from oxidising the body's own substrate, and the deposit is depleted by the work, not filled by it. Cold costs; it does not deliver."@en,
+        "The source transmission stands on the other side, and the issue that opened this said so before any evidence was consulted. The tibetan inner-heat literature sets cold as the resistance against which the heat is raised, never as what the heat is raised from. Where the draft and its transmission disagree, the measurements agree with the transmission. That is the reverse of the expected result and is the reason this node is worth having."@en ;
+    pm:baseRate "Energy expenditure and substrate use at thermoneutrality in the same participants."@en ;
+    pm:evidenceFrom "A. M. Cypess and others, Identification and importance of brown adipose tissue in adult humans, New England Journal of Medicine 360 (2009), pp. 1509-1517, doi:10.1056/NEJMoa0808718",
+        "M. Kox and others, Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans, Proceedings of the National Academy of Sciences 111 (2014), no. 20, pp. 7379-7384, doi:10.1073/pnas.1322174111" ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "Not devised here. The deviation is read off the thermogenesis literature; the second reading off the intervention study cited below" ;
+    pm:falsifiedBy "Practitioners exposed to cold are found to expend less energy, or to end the exposure with greater substrate reserves, than matched participants at thermoneutrality."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:EnergyTakenFromCold .
+
 pmc:CompletionPresupposesGeneration a pm:Presupposing ;
     rdfs:label "Die Vollendungsstufe setzt die Erzeugungsstufe voraus"@de,
         "The completion stage presupposes the generation stage"@en ;
@@ -873,6 +889,19 @@ pmc:GreaterPresupposeLesser a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:LesserMysteries ;
     pm:withinTradition pmt:EleusinianMysteries .
+
+pmc:HandSideTransferProtocol a pm:Testing ;
+    rdfs:label "Ob die Seite der Hand einen Unterschied macht"@de,
+        "Whether the side of the hand makes a difference"@en ;
+    skos:definition "An examination of the narrow half of the claim: whether contact through the left hand differs in its reported or measured effect from contact through the right."@en ;
+    skos:note "A caution about what a positive result would mean. Handedness, the side a practitioner was taught on, and the expectation carried into the contact would all have to be controlled before a difference between the sides could be read as a property of the sides. A protocol that found one without controlling them would have measured the teaching."@en,
+        "Only the lateral half is examined here. Whether anything passes at all is the section's broad claim and is not addressed by this protocol; a result on the sides would say nothing about it either way, and the two must not be allowed to borrow from one another."@en,
+        "The state is procedure without cases, which is rare in this holding and is the point. The falsifying condition below needs no instrument the field lacks and no access to a tradition: blinded practitioners, both hands, and a comparison. Nobody has run it. That is a gap in the record and not a verdict, and the distinction is the one SPEC §13 exists to keep."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Not devised here. The falsifying condition is the ordinary two-sided comparison, stated because the claim names a side and thereby invites it" ;
+    pm:falsifiedBy "Practitioners blinded to which hand is in contact report or show no difference between left-hand and right-hand contact beyond chance."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:EnergyTakenFromAPersonThroughTheLeftHand .
 
 pmc:HathaChapterOrder a pm:Presupposing ;
     rdfs:label "Das Handbuch ordnet Haltung, Atem, Siegel und Versenkung"@de,
@@ -2299,6 +2328,17 @@ pmc:WhoseTheDrumIs a pm:Disputing ;
         "The second recorder notices one detail against himself and reports it: that in calling the Holy Ghost an angel the man used a word he had never heard the Lapps use for it anywhere he knew, where they say Passe Vuoign. He records the anomaly instead of correcting it, which is why the passage can be used at all."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmp:RunicDrumConsultation .
+
+pmc:WindAsSourceProtocol a pm:Testing ;
+    rdfs:label "Ob Wind eine Quelle ist"@de,
+        "Whether wind is a source"@en ;
+    skos:definition "An examination of the claim that moving air supplies the practitioner with something over and above respiration."@en ;
+    skos:note "Entered on no procedure devised, and the reason is worth stating rather than passing over. The neighbouring claim about cold names a boundary condition that instruments already measure, so it could be turned around within an afternoon. This one names no quantity that distinguishes it from breathing in still air, and until it does, there is nothing to fail."@en,
+        "What would make it examinable is a difference the claim itself must state: the same breathing, in moving and in still air, with the two conditions expected to come apart in some named respect. That is a small addition to the claim and it is the whole difference between this node and its neighbour."@en ;
+    pm:examinationState pm:noProcedureDevised ;
+    pm:examinedBy "Nobody. The state records that no falsifying condition has been stated, which is a fact about the means of examination and not about the claim" ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:EnergyTakenFromWind .
 
 pmc:WitchcraftDreamIsExperienceNotSymbol a pm:Conceptualizing ;
     rdfs:label "Ein böser Traum ist eine Erfahrung der Hexerei, kein Zeichen für sie"@de,
@@ -4220,6 +4260,26 @@ pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
     skos:definition "A graded emptying in which listening passes from the ears to the heart-mind and from the heart-mind to the qi, until only emptiness remains for the way to gather in."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:EnergyTakenFromAPersonThroughTheLeftHand a pm:Positing ;
+    rdfs:label "Energie lässt sich aus einer Person über die linke Hand aufnehmen"@de,
+        "Energy can be taken from a person through the left hand"@en ;
+    skos:definition "The claim that something passes from one person to another during contact, and that it enters through one named hand rather than the other."@en ;
+    skos:note "Two claims in one sentence, and they are not equally reachable. That something passes is the general transfer claim of the section; that it enters through the left hand and not the right is a statement about sides, and a statement about sides is the kind that can be checked."@en ;
+    pm:positedIn "prima-materia#328" .
+
+pmc:EnergyTakenFromCold a pm:Positing ;
+    rdfs:label "Energie lässt sich aus Kälte aufnehmen"@de,
+        "Energy can be taken in from cold"@en ;
+    skos:definition "The claim that exposure to cold is a source from which the practitioner draws, rather than a condition he works against."@en ;
+    skos:note "The narrowest of the draft's uptake claims and the only one that names a measurable boundary condition, which is why it is entered first."@en ;
+    pm:positedIn "prima-materia#133" .
+
+pmc:EnergyTakenFromWind a pm:Positing ;
+    rdfs:label "Energie lässt sich aus Wind aufnehmen"@de,
+        "Energy can be taken in from wind"@en ;
+    skos:definition "The claim that moving air is a source from which the practitioner draws, beyond what breathing it supplies."@en ;
+    pm:positedIn "prima-materia#134" .
+
 pmc:ErectTrunkInSwastikasana a pm:Conceptualizing ;
     rdfs:label "Der gerade Rumpf als Merkmal einer Sitzhaltung"@de,
         "The straight trunk as the mark of a seat"@en ;
@@ -5419,11 +5479,6 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
-pm:noProcedureDevised a pm:ExaminationState ;
-    rdfs:label "Kein Verfahren ersonnen"@de,
-        "No procedure devised"@en ;
-    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
-
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -5611,6 +5666,11 @@ pm:Reworking a owl:Class ;
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
 
+pm:noProcedureDevised a pm:ExaminationState ;
+    rdfs:label "Kein Verfahren ersonnen"@de,
+        "No procedure devised"@en ;
+    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
+
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
         "Ānāpānasati"@en ;
@@ -5713,18 +5773,6 @@ pm:CoverageState a owl:Class ;
         "Coverage state"@en ;
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
         "Breath regulation in Haṭhayoga"@en ;
@@ -5781,6 +5829,11 @@ pm:TelicOrientation a owl:Class ;
     skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -5833,6 +5886,13 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -5841,15 +5901,15 @@ pm:mediatedAttestation a pm:Attesting ;
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
@@ -6077,13 +6137,6 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
         "Azande oracular transmission"@en ;
@@ -6114,6 +6167,13 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
