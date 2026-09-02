@@ -886,7 +886,8 @@ pmc:HawkinsConsciousnessScale a pm:Originating ;
     dcterms:source "D. R. Hawkins, Power vs. Force (1995)" ;
     skos:definition "The claim that emotional and mental states occupy fixed positions on a single numbered scale, ascending from shame through fear, anger and pride to reason, love, joy, peace and enlightenment, and that the position can be established by testing."@en ;
     skos:note "An earlier form of this note held that no transmission ranks affects on a single ordered scale. That was withdrawn: the ground for it had been a search across the holdings of this graph, which says what has been entered here and not what the transmissions say. The search that had not been carried out finds one at once. Rūpa Gosvāmin ranks the five primary forms of devotional love in a single ascending order in the sixteenth century, in the verse itself, and traditions/gaudiya-vaisnava.ttl now holds it. The finding of this node is therefore not that ranking affects is modern. It is narrower and survives: the particular scale below, with its count, its order and its claim of measurability, begins here."@en,
-        "The diagnostic markers, given so that any later list presenting itself as old can be measured against a dated first appearance. The count: seventeen steps. The order of the lower band: shame, guilt, apathy, grief, fear, desire, anger, pride. The turn at the middle: courage, then neutrality, then willingness in eleventh place. The upper band: acceptance, reason, love, joy, peace, enlightenment. A list that shares the count, the relative order of shame, guilt, fear and anger, and the eleventh position of willingness has not arrived at them independently."@en ;
+        "The diagnostic markers, given so that any later list presenting itself as old can be measured against a dated first appearance. The count: seventeen steps. The order of the lower band: shame, guilt, apathy, grief, fear, desire, anger, pride. The turn at the middle: courage, then neutrality, then willingness in eleventh place. The upper band: acceptance, reason, love, joy, peace, enlightenment. A list that shares the count, the relative order of shame, guilt, fear and anger, and the eleventh position of willingness has not arrived at them independently."@en,
+        "The nearest older relative is pmc:TheosophicalColourKeyToFeeling, and the comparison sharpens rather than dissolves this node. That transmission supplies the vibration vocabulary and an axis of self-reference on which a feeling rises or falls, and it was read at the wording for this purpose. It supplies no ranking of unlike feelings against one another. The single numbered order is therefore not inherited, and the question of where it does come from is open in prima-materia#12."@en ;
     pm:circulatesAs "A perennial map of consciousness, reported as the distilled agreement of the mystical traditions." ;
     pm:originatedBy "David R. Hawkins" .
 
@@ -1949,6 +1950,18 @@ pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     skos:note "Entered because payment is one of the gates this project counts, and because it stands beside the other one: the same chapter says the practice is hidden from outsiders. A transmission can be closed by price and by secrecy at once, and the two are not the same gate."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
+
+pmc:TheosophicalColourKeyToFeeling a pm:Originating ;
+    rdfs:label "Die Lesung des Gefühls aus Farbe und Schwingung"@de,
+        "The reading of feeling from colour and vibration"@en ;
+    dcterms:date "1902" ;
+    dcterms:source "C. W. Leadbeater, Man Visible and Invisible (London: Theosophical Publishing Society, 1902), the frontispiece plate and the chapter Colours and their Meaning, pp. 81-82" ;
+    skos:definition "The claim that every feeling has a colour, that the colour can be read off a body of subtle matter surrounding the person, and that the brightness of the colour measures the strength of the feeling."@en ;
+    skos:note "Opened for prima-materia#361, on the suspicion that the modern one-dimensional ranking of emotions begins here. Read at the wording. The suspicion is only half borne out, and the half that fails is the more interesting one."@en,
+        "What is here: a fixed key from feeling to colour, given as a list of the commonest hues; brightness and depth of colour stated outright as a measure of the strength and activity of the feeling; the vocabulary of vibration throughout; and an axis of self-reference applied to every colour alike, on which a thought with something of self in it turns downwards and one without turns upwards. The axis is the part that later scales inherit."@en,
+        "What is not here, and the point of the node: a ranking of the feelings against one another. The plate is a grid of twenty-five fields, not a series, and the chapter introduces its colours as a list of the commonest ones. Where the text does rank, it ranks within a single colour by purity and luminosity, so that the same feeling has a lower and a higher form. That is a second dimension and not a scale. A later list that puts unlike feelings in one numbered order therefore does not have it from here, and prima-materia#12 cannot be answered by pointing at this node."@en ;
+    pm:circulatesAs "An ancient science of the aura, reported as eastern in origin and as the common property of the older traditions." ;
+    pm:originatedBy "C. W. Leadbeater; Annie Besant" .
 
 pmc:ThreefoldAscentOrder a pm:Presupposing ;
     rdfs:label "Naturschau setzt asketische Praxis voraus"@de,
@@ -5767,14 +5780,6 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Originating a owl:Class ;
-    rdfs:label "Urheben"@de,
-        "Originating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
-    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
-        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
-
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -5815,6 +5820,14 @@ pm:Cautioning a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:Originating a owl:Class ;
+    rdfs:label "Urheben"@de,
+        "Originating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
+    skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
+        "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
