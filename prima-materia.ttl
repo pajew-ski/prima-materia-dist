@@ -2831,6 +2831,21 @@ pm:methodOrientation a owl:ObjectProperty ;
     skos:definition "Places a tradition, a practice or a claim on the axis of method. Asserting it is a claim about a source and carries the same burden as any other: a passage, an edition, and the counter-search."@en ;
     skos:note "No domain is declared, deliberately. The axis is stated of whatever a source states it of — a transmission as a whole, a single practice, a stage within one — and a declared domain would force the level before the material has settled it."@en .
 
+pm:nameForm a owl:DatatypeProperty ;
+    rdfs:label "Namensform"@de,
+        "name form"@en ;
+    rdfs:domain pm:Naming ;
+    skos:definition "The name as it stands in the edition named by dcterms:source, in that edition's transliteration."@en ;
+    skos:note "Further forms of the same bearer go in skos:altLabel, so that a reader who met the name elsewhere finds the node. The form that decides identity is the one here."@en,
+        "The edition is not decoration here. A name is carried by its letters, and transliteration conventions differ enough that Šemiḥazah and Semjaza are the same bearer under two scholarly hands. Recording the form without the edition it comes from would make a later comparison unfalsifiable."@en .
+
+pm:nameRole a owl:DatatypeProperty ;
+    rdfs:label "Rolle des Benannten"@de,
+        "name role"@en ;
+    rdfs:domain pm:Naming ;
+    skos:definition "What the naming tradition takes the bearer to be, in that tradition's own term: watcher, angel, demon, daimon, god, spirit, ancestor."@en ;
+    skos:note "Deliberately a literal and not a controlled scale. A fixed vocabulary would have to decide whether a Greek daimon is an angel or a demon, and that decision belongs to no tradition in the record: it is the harmonisation this project exists to avoid. Where two traditions call a shared name differently, the difference is the finding, and a scale would have deleted it."@en .
+
 pm:normDistinctionDeclined a pm:MethodOrientation ;
     rdfs:label "Abgelehnte Normunterscheidung"@de,
         "Norm distinction declined"@en ;
@@ -5680,6 +5695,16 @@ pm:Generalizing a owl:Class ;
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
+pm:Naming a owl:Class ;
+    rdfs:label "Benennen"@de,
+        "Naming"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of naming an addressable being: the name as a received work gives it, together with what that work takes the bearer to be."@en ;
+    skos:note "Not a substance class in disguise. What is held is the act of naming and what a transmission says under that name, not a being asserted to exist. The graph reports that a work names Asael and calls him a watcher; it asserts no watcher."@en,
+        "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
+        "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
+        "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -6328,11 +6353,6 @@ pmt:Andean a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
 
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
         "Yielding"@en ;
@@ -6345,6 +6365,11 @@ pm:Attributing a owl:Class ;
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
