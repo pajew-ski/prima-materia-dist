@@ -1103,6 +1103,19 @@ pmc:IfaVerseCorpus a pm:Conceptualizing ;
     pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
     pm:withinTradition pmt:Ifa .
 
+pmc:ImmediateReturnProtocol a pm:Testing ;
+    rdfs:label "Ob die Rückkehr sich von der Hinreise unterscheidet"@de,
+        "Whether the return differs from the outward journey"@en ;
+    skos:definition "An examination of the asymmetry the claim asserts between the journey out and the journey back."@en ;
+    skos:note "Against the claim stands the same passage as at the neighbouring node, in a weaker way. If the time lying still follows the distance and ends at a day, the account being given is of an absence with a duration, not of an absence with a slow half and an instant half. The transmission says nothing about the return specifically; it is the shape of the whole report that sits awkwardly with a claim of asymmetry."@en,
+        "Procedure without cases rather than no procedure, and this is the one of the three where that holds. A comparison of reported durations for the outward and the return passage, gathered from practitioners not told which half the question is about, needs nothing that does not exist. It has not been done."@en,
+        "The asymmetry is where this claim is reachable, and it is reachable in principle without settling anything about the journey itself. Whatever the outward passage is, the claim says the return is not like it, and a report that describes both would show whether the practitioner experiences them as different."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Not devised here. The falsifying condition follows from the claim asserting a difference between two things the practitioner can be asked about separately" ;
+    pm:falsifiedBy "Practitioners asked about both passages, without being told that the asymmetry is at issue, report durations for the return that match those for the outward journey."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:ReturnIsImmediate .
+
 pmc:ImperfectionsOfInsight a pm:Cautioning ;
     rdfs:label "Die Unvollkommenheiten der Einsicht"@de,
         "The imperfections of insight"@en ;
@@ -2021,6 +2034,17 @@ pmc:StationsPresupposeTheOneBelow a pm:Presupposing ;
     pm:priorStep pmc:Tawba ;
     pm:withinTradition pmt:Sufism .
 
+pmc:StillnessExpectationProtocol a pm:Testing ;
+    rdfs:label "Ob die Erwartung das Wirkende ist"@de,
+        "Whether the expectation is what does the work"@en ;
+    skos:definition "An examination of whether the state depends on the practitioner holding the expectation of physical stillness, or arises without it."@en ;
+    skos:note "No procedure devised, and the obstacle is worth naming exactly because the condition itself is easy to write. It would read: practitioners who do not hold the expectation reach the state as often as those who do. Every term in that sentence can be arranged except the last. There is no way to establish that the state has been reached other than the practitioner's report, and his report is made by the same person whose expectation is the variable. The design collapses at its measuring end, not at its manipulating end."@en,
+        "What would open it is an outward mark of the state that does not depend on the report — the kind of mark that made the inner-heat claim reachable, where a thermometer settled what testimony could not. Whether such a mark exists for this state is itself unexamined."@en ;
+    pm:examinationState pm:noProcedureDevised ;
+    pm:examinedBy "Nobody. The state records that no falsifying condition has been devised that could be run, which is a fact about the means and not about the claim" ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:ExpectationOfStillnessIsTheOperator .
+
 pmc:StillnessPresupposesRepentance a pm:Presupposing ;
     rdfs:label "Stille und Liebe setzen Buße und den Kampf gegen die Leidenschaften voraus"@de,
         "Stillness and love presuppose repentance and the labour against the passions"@en ;
@@ -2367,6 +2391,18 @@ pmc:WhoseTheDrumIs a pm:Disputing ;
         "The second recorder notices one detail against himself and reports it: that in calling the Holy Ghost an angel the man used a word he had never heard the Lapps use for it anywhere he knew, where they say Passe Vuoign. He records the anomaly instead of correcting it, which is why the passage can be used at all."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmp:RunicDrumConsultation .
+
+pmc:WilledDisplacementProtocol a pm:Testing ;
+    rdfs:label "Ob der Ortswechsel so unmittelbar ist, wie die Behauptung verlangt"@de,
+        "Whether the displacement is instantaneous in the way the claim requires"@en ;
+    skos:definition "An examination of the claim against what the transmissions that report the journey say about its duration."@en ;
+    skos:note "A transmission in this holding says the opposite, and it says it in the one form that can be compared. pmc:DurationTracksDistance records that the time the practitioner lies still is stated to depend on how near or far the place is, an hour or two for a near one, with an upper bound of a day however great the distance. A journey whose duration follows the distance is not a displacement by willing; it is a movement with a speed."@en,
+        "How much weight this bears, stated plainly. It is a seventeenth-century report of what practitioners said, not a measurement, and it is one transmission among several. It does not refute the posit. What it does is show that the draft's account is not the one its sources give, at a point where the sources happen to be specific — and specificity of that kind is rare enough in this field that it should not pass unremarked."@en,
+        "No procedure devised, for the same reason as at the neighbouring node: the duration of the journey is only reachable through the traveller's report, and the claim is about what that report describes. The falsifying condition would require an independent fix on when the traveller arrived, which is the whole question."@en ;
+    pm:examinationState pm:noProcedureDevised ;
+    pm:examinedBy "Nobody. The comparison with the transmission is recorded in the notes and is not an examination; no protocol has been devised that could be run" ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:IntentionReplacesMusculature .
 
 pmc:WindAsSourceProtocol a pm:Testing ;
     rdfs:label "Ob Wind eine Quelle ist"@de,
@@ -4351,6 +4387,13 @@ pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
     pm:independentAttestation pmt:NavajoCeremonial,
         pmt:ZuniRitual .
 
+pmc:ExpectationOfStillnessIsTheOperator a pm:Positing ;
+    rdfs:label "Die Erwartung, dass sich physisch nichts bewegt, ist der eigentliche Operator"@de,
+        "The expectation that nothing moves physically is the operator"@en ;
+    skos:definition "The claim that what brings the state about is not the technique but the practitioner's settled expectation that his body will stay where it is."@en ;
+    skos:note "Unusual among the draft's claims because it is about a mechanism rather than a capacity, and unusual in its direction: it places the working part in the practitioner's expectation, which is where a sceptical account would also place it. A draft that says this about its own method is saying something against interest, and that is worth recording whatever else follows."@en ;
+    pm:positedIn "prima-materia#304" .
+
 pmc:Ezeqeel a pm:Conceptualizing ;
     rdfs:label "Ezeqeel"@de,
         "Ezeqeel"@en ;
@@ -4454,6 +4497,13 @@ pmc:IfaSixteenMothers a pm:Conceptualizing ;
     dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
     skos:definition "The sixteen figures the casting can produce, named mothers in the account of eighteen ninety-four. A figure formed by taking one column from one mother and one column from another is named a child."@en ;
     pm:withinTradition pmt:Ifa .
+
+pmc:IntentionReplacesMusculature a pm:Positing ;
+    rdfs:label "Die Absicht ersetzt die Muskulatur, der Ortswechsel geschieht durch Wollen des Ortes"@de,
+        "Intention replaces the musculature and the change of place happens by willing it"@en ;
+    skos:definition "The claim that in the state, movement is accomplished by willing the destination, with no counterpart to the effort and the duration that bodily movement requires."@en ;
+    skos:note "The claim carries an implication it does not state: if willing the place is what moves, the movement has no duration that depends on the distance. That implication is what makes it comparable to what the transmissions report."@en ;
+    pm:positedIn "prima-materia#305" .
 
 pmc:InuitRecoveryOfLostThings a pm:Conceptualizing ;
     rdfs:label "Das Wiederfinden verlorener Dinge"@de,
@@ -4699,6 +4749,13 @@ pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
         "Svātmārāma, Haṭhayogapradīpikā III.77 (Sanskrit vulgate; Sinh 1915)" ;
     skos:definition "The stopping of a fluid held to fall from above and to be consumed below, whose loss the manual makes responsible for ageing and death."@en ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:ReturnIsImmediate a pm:Positing ;
+    rdfs:label "Die Rückkehr erfolgt unmittelbar durch Denken an den Körper"@de,
+        "The return is immediate, by thinking of the body"@en ;
+    skos:definition "The claim that the practitioner comes back at once by turning his attention to his body, without the passage the outward journey required."@en ;
+    skos:note "Entered separately from the movement claim because it asserts something the movement claim does not: an asymmetry between going and returning. If the outward journey also happened by willing, there would be nothing to say about the return that was not already said."@en ;
+    pm:positedIn "prima-materia#306" .
 
 pmc:RightAndLeftHandNomenclature a pm:Systematizing ;
     rdfs:label "Die Wiedergabe der beiden Śākta-Zweige als rechtshändiges und linkshändiges Ritual"@de,
@@ -5726,11 +5783,6 @@ pm:Reworking a owl:Class ;
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
 
-pm:noProcedureDevised a pm:ExaminationState ;
-    rdfs:label "Kein Verfahren ersonnen"@de,
-        "No procedure devised"@en ;
-    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
-
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
         "Ānāpānasati"@en ;
@@ -5832,6 +5884,11 @@ pm:CoverageState a owl:Class ;
     rdfs:label "Erschließungsstand"@de,
         "Coverage state"@en ;
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
+
+pm:noProcedureDevised a pm:ExaminationState ;
+    rdfs:label "Kein Verfahren ersonnen"@de,
+        "No procedure devised"@en ;
+    skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
 
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
@@ -5972,22 +6029,10 @@ pmt:NahuaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
@@ -6020,6 +6065,11 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
@@ -6068,6 +6118,13 @@ pm:Disputing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -6233,17 +6290,17 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
