@@ -1453,6 +1453,23 @@ pmc:Panchatattva a pm:Conceptualizing ;
         "The same passage carries its own caution, and the caution is not a Western addition: the source says that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it, and lose the distinction of right and wrong. The warning against the rite stands inside the text that prescribes it."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:ParalysisUniversalityProtocol a pm:Testing ;
+    rdfs:label "Ob die Lähmung allgemein ist und ihr Bemerken selten"@de,
+        "Whether the paralysis is universal and its noticing rare"@en ;
+    skos:definition "An examination of the posited claim in two parts: whether the motor paralysis of the sleep threshold is a feature of every sleeper, and whether the rate at which it is noticed is low enough that a universal mechanism could go unreported."@en ;
+    skos:note "A word on why the claim is posited and not sourced. It comes from an unpublished method draft, which SPEC §10 excludes as a witness, and the exclusion is not a formality: a draft that entered as a source could be confirmed by the very research it was written from. Holding it as a posit keeps the direction right, and the direction is that the draft is examined and never grounded."@en,
+        "The claim has two halves and they are carried by two different bodies of evidence, which is the reason this protocol is worth entering at all. The universality is a matter of mechanism: the atonia of the relevant sleep stage is produced by an identified transmitter and receptor pathway and is a regular feature of that stage rather than a fault in it. The rarity of noticing is a matter of prevalence: a systematic review over thirty-five studies and more than thirty-six thousand participants finds that some seven and a half per cent of the general population report at least one episode in a lifetime, with markedly higher figures among students and psychiatric samples."@en,
+        "The two halves fit, and that is the finding. A mechanism present in every sleeper and an experience reported by roughly one in thirteen are not in contradiction: they are exactly what the claim asserts, namely that what is rare is not the paralysis but the waking awareness that coincides with it. The state is therefore cases without deviation."@en,
+        "What this does not settle, and the limits are sharper than the fit. The prevalence figure counts self-reported episodes and not measured ones, so it is a floor for noticing and not a ceiling for occurrence. The mechanism evidence establishes the atonia of the sleep stage and not that every reported episode coincides with it; the two are joined here by the ordinary explanation and not by a study that measured both in the same subjects. And a claim confirmed in this shape says nothing about what any transmission builds on the state, which is the part this graph actually cares about."@en ;
+    pm:baseRate "7.6 per cent of the general population report at least one lifetime episode, aggregated over 35 studies and 36,533 participants; 28.3 per cent among students and 31.9 per cent among psychiatric patients" ;
+    pm:evidenceFrom "B. A. Sharpless and J. P. Barber, Lifetime prevalence rates of sleep paralysis: a systematic review, Sleep Medicine Reviews 15 (2011), no. 5, pp. 311-315, doi:10.1016/j.smrv.2011.01.007",
+        "P. L. Brooks and J. H. Peever, Identification of the transmitter and receptor mechanisms responsible for REM sleep paralysis, Journal of Neuroscience 32 (2012), pp. 9785-9795, doi:10.1523/JNEUROSCI.0482-12.2012" ;
+    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinedBy "Not devised here. The protocol assembles two existing bodies of evidence, one on the mechanism and one on the prevalence, and states the joint they leave open" ;
+    pm:falsifiedBy "A population of ordinary sleepers is found in whom the atonia of the sleep stage is absent; or reported episodes are measured and found not to coincide with it."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:ParalysisPrecedesItsNotice .
+
 pmc:ParityDivination a pm:Conceptualizing ;
     rdfs:label "Wahrsagung durch gerade und ungerade"@de,
         "Divination by odd and even"@en ;
@@ -2411,11 +2428,6 @@ pm:caseCount a owl:DatatypeProperty ;
     rdfs:domain pm:Testing ;
     rdfs:range xsd:integer ;
     skos:definition "The number of cases recorded under this protocol so far."@en .
-
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
 
 pm:cautionsAbout a owl:ObjectProperty ;
     rdfs:label "warnt vor"@de,
@@ -4423,6 +4435,13 @@ pmc:OracleRankOrder a pm:Conceptualizing ;
     skos:note "The order is a rule about the direction in which confirmation may run and not merely a ranking by esteem. It is what makes the cheaper oracles usable at all: a man narrows the field with the termites and spends poison only on the final decision."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:ParalysisPrecedesItsNotice a pm:Positing ;
+    rdfs:label "Die Lähmung liegt bei jedem vor, selten ist nur ihr Bemerken"@de,
+        "The paralysis is present in everyone and only its noticing is rare"@en ;
+    skos:definition "The claim that the motor paralysis at the threshold of sleep is a regular feature of every sleeper rather than a disorder of some, and that it becomes noticeable only where waking awareness outlasts the body's entry into it."@en ;
+    skos:note "Split deliberately from the weaker claim that sleep paralysis is the regular shutdown of motor control at the sleep transition, which is prima-materia#137 and stands on its own. This one adds the two things that make it testable: a universality and an explanation of why a universal thing is rarely reported."@en ;
+    pm:positedIn "prima-materia#138" .
+
 pmc:Pneuma a pm:Conceptualizing ;
     rdfs:label "Pneuma"@de,
         "Pneuma"@en ;
@@ -4744,18 +4763,16 @@ pm:MeaningCluster a owl:Class ;
     skos:definition "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."@en ;
     skos:note "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."@en .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:Symbolizing a owl:Class ;
     rdfs:label "Symbolisieren"@de,
         "Symbolizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
+
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
 
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
@@ -5302,6 +5319,13 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 616" ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
+
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -5917,17 +5941,17 @@ pmt:Midewiwin a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
 
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
-pm:contactRouteDisputed a pm:ContactRoute ;
-    rdfs:label "Kontaktweg strittig"@de,
-        "Contact route disputed"@en ;
-    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
