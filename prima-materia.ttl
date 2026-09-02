@@ -69,6 +69,8 @@ pmc:AffectCouplingProtocol a pm:Testing ;
         "That the shift occurs is not in doubt and the claim is borne out in that narrow sense. Strong affect measurably moves risk judgement and the choices that follow from it, in induced and in naturally occurring form alike."@en,
         "The consequence for anyone acting on the claim, which is the reason to enter this node at all. Whoever couples an intended state to a strong affect in order to shift his own threshold does not know from the claim whether he has raised or lowered it. Confirmation at this level of generality is not usable guidance, and the node says so rather than recording a success."@en,
         "What the evidence takes away in the same motion. The direction of the shift is set by the particular affect and not by its strength. Fear and anger are both strong and both unpleasant, and they move the threshold for risk in opposite directions: the fearful judge risk pessimistically and choose cautiously, the angry judge it optimistically and choose boldly, with the angry closer to the cheerful than to the fearful. A claim that names only the strength of the affect therefore cannot say which way anything moves, and is compatible with every outcome."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Carried. A registered replication of the key studies in a large online sample supports the framework only in part: the association between the emboldening affect and both risk-seeking and optimistic estimates holds, the one between the cautioning affect and risk-seeking does not reliably appear. The finding is in the notes above. Not searched: later meta-analytic work on the framework as a whole."@en ;
     pm:evidenceFrom "J. S. Lerner and D. Keltner, Beyond valence: toward a model of emotion-specific influences on judgement and choice, Cognition and Emotion 14 (2000), no. 4, pp. 473-493",
         "J. S. Lerner and D. Keltner, Fear, anger, and risk, Journal of Personality and Social Psychology 81 (2001), no. 1, pp. 146-159, doi:10.1037/0022-3514.81.1.146" ;
     pm:examinationState pm:claimDoesNotDiscriminate ;
@@ -234,8 +236,10 @@ pmc:BengeCorroborationProtocol a pm:Testing ;
         "Three pairs decide nothing about a rate and the number is entered so that a later reader can see how small it is. What it does establish is that the falsifying condition is not hypothetical: it occurred in two of the three cases this graph has actually read, and the source says elsewhere that the oracle frequently kills or spares both fowls."@en,
         "What the deviation is not. It is not evidence against the oracle in the transmission's own terms, because the transmission assigns every occurrence of the condition to one of eight causes that leave the instrument untouched. That is why the finding of this protocol is about the standing of the falsifying condition inside the transmission and not about the oracle's accuracy, which nothing read here measures."@en ;
     pm:caseCount 3 ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not documented. Predates the requirement; see the note at pmc:TummoHeatExamination for why the undocumented case is treated as uncarried."@en ;
     pm:evidenceFrom "E. E. Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande, abridged by Eva Gillies (Oxford: Clarendon Press, 1976), the two seances printed at pp. 141-143" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "The Azande, by the corroborative second test their own rule prescribes; the two consultations counted here were recorded and printed at length by E. E. Evans-Pritchard, who was present at both" ;
     pm:falsifiedBy "The two tests of one consultation fall alike, both fowls dying or both surviving, so that by the transmission's own rule the verdict is contradictory and void."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
@@ -379,10 +383,12 @@ pmc:ColdAsSourceProtocol a pm:Testing ;
         "The claim has two readings and they come out in opposite directions, so the protocol keeps them apart as prima-materia#341 requires. Read physically, it is turned around: cold exposure raises energy expenditure rather than supplying it. The heat produced in the brown adipose tissue that the cold recruits comes from oxidising the body's own substrate, and the deposit is depleted by the work, not filled by it. Cold costs; it does not deliver."@en,
         "The source transmission stands on the other side, and the issue that opened this said so before any evidence was consulted. The tibetan inner-heat literature sets cold as the resistance against which the heat is raised, never as what the heat is raised from. Where the draft and its transmission disagree, the measurements agree with the transmission. That is the reverse of the expected result and is the reason this node is worth having."@en ;
     pm:baseRate "Energy expenditure and substrate use at thermoneutrality in the same participants."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried. No search was made for work disputing the thermogenesis account or failing to replicate it. The reversal recorded in the notes is therefore one side of a question nobody has asked here."@en ;
     pm:evidenceFrom "A. M. Cypess and others, Identification and importance of brown adipose tissue in adult humans, New England Journal of Medicine 360 (2009), no. 15, pp. 1509-1517, doi:10.1056/NEJMoa0810780",
         "M. Kox and others, Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans, Proceedings of the National Academy of Sciences 111 (2014), no. 20, pp. 7379-7384, doi:10.1073/pnas.1322174111",
         "V. Ouellet and others, Brown adipose tissue oxidative metabolism contributes to energy expenditure during acute cold exposure in humans, Journal of Clinical Investigation 122 (2012), no. 2, pp. 545-552" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The deviation is read off the thermogenesis literature; the second reading off the intervention study cited below" ;
     pm:falsifiedBy "Practitioners exposed to cold are found to expend less energy, or to end the exposure with greater substrate reserves, than matched participants at thermoneutrality."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
@@ -439,6 +445,8 @@ pmc:ConsciousnessCalibrationProtocol a pm:Testing ;
         "What the available evidence covers. Three controlled studies bear on the muscle test as a diagnostic instrument, all with blinding, and none of them supports it. A test-retest study on wasp-venom allergy with four examiners, seven patients and twenty bottles each reports an overall kappa of 0.03 with sensitivity around forty per cent and specificity around sixty; a dental double-blind study on materials testing reports the test unreliable; a double-blind randomised study on therapy localisation reports the same. The first states plainly that as a diagnostic tool the method is no more useful than guessing."@en,
         "What the available evidence does not cover, and this is the point. Every one of those studies asks whether the muscle test can identify a substance or a bodily site. None asks whether it can place a mental state on a numbered scale. The evidence therefore strikes the presupposition, that the test yields answers better than chance, and not the claim itself. No blinded replication of the calibrations is known, and the claim is unexamined in the strict sense even though its foundation is not."@en,
         "Why this claim and not another. Almost every claim in this graph is about an inner state for which no procedure exists, and pm:noProcedureDevised is accordingly the commonest state in the holding. This one names its own procedure, the procedure requires no instrument, and blinding it is cheap. Among the claims the graph carries it is the most nearly testable, and that is the reason it was opened."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried, and the debt is stated in the notes above. Work claiming reliability for manual muscle testing exists and has not been read; until it is, the negative reading rests on one side."@en ;
     pm:evidenceFrom "H.-J. Staehle, M. J. Koch and T. Pioch, Double-blind Study on Materials Testing with Applied Kinesiology, Journal of Dental Research 84 (2005), no. 11, doi:10.1177/154405910508401119",
         "R. Lüdtke, B. Kunz, N. Seeber and J. Ring, Test-retest-reliability and validity of the Kinesiology muscle test, Complementary Therapies in Medicine 9 (2001), pp. 141-145",
         "S. A. Schwartz and others, A Double-Blind, Randomized Study to Assess the Validity of Applied Kinesiology as a Diagnostic Tool and as a Nonlocal Proximity Effect, Explore 10 (2014), no. 2" ;
@@ -579,8 +587,10 @@ pmc:DogonSiriusExamination a pm:Testing ;
         "The one trace that remains is itself the finding. Informants in that village say that in former times people knew of a star appearing in the year of the ceremony, and further enquiry leads back to the recorder. What looks like independent survival is feedback from the published account into the field it describes, and any later confirmation must be tested against that path before it counts."@en,
         "The re-study reports the ethnographic facts as straightforward. Dogon know Sirius as a star and call it the hunter's star; knowledge of the stars matters neither in daily life nor in ritual, the sun and the phases of the moon being what reckoning runs on. No Dogon outside the circle of the original informants had heard the star names the account turns on, and no one, not even inside that circle, had heard or understood that Sirius was double. The scheduling of the ceremony is done in several ways in the village the account draws on, none of them astronomical."@en,
         "The re-study's explanation of how the account arose is not adopted here as a finding, only recorded: that an informant spoke of stars of different generations, meaning two adjacent visible stars held as father and son to Sirius as grandfather, and that the recorder, who had read astronomy in Paris, made a double and triple system of it. That is a reconstruction of an intention and cannot be examined; the absence of the doctrine in the field can."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not documented. Predates the requirement; see the note at pmc:TummoHeatExamination."@en ;
     pm:evidenceFrom "Walter E. A. van Beek, Dogon Restudied: A Field Evaluation of the Work of Marcel Griaule, Current Anthropology 32/2 (1991), pp. 149-150 with its footnote 10, and pp. 156-157" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Walter E. A. van Beek, field re-study among the Dogon of Sanga and Yugo Doguru, reported 1991" ;
     pm:falsifiedBy "A report of the star names or of the doctrine of an invisible companion from Dogon speakers outside the original circle of informants, where the chain of the report can be shown not to run back through the published account; or a fixation of the doctrine in any text or record datable before nineteen thirty-one. Either would return the claim to contested and undo the deviation recorded here." ;
     pm:protocolUpdated "2026-09-01"^^xsd:date ;
@@ -966,8 +976,10 @@ pmc:HeatWithoutBreathProtocol a pm:Testing ;
         "The finding matters more than its size. Where a draft and its source transmission differ on a component, and the difference is exactly the component the measurements isolate, the draft is testable at that seam and almost nowhere else. Removing a prescribed element and claiming the effect survives is the one kind of modification that instruments can settle."@en,
         "What is not settled. That the gentler form yields less heat is not that it yields none, and the studies were not designed to find the floor. The deviation recorded here is from the claim of sameness and not from the claim that the gentler form does anything at all."@en ;
     pm:baseRate "Temperature change under the visualisation alone, against the change under visualisation together with the forceful breath, in the same participants."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried. The component separation was read off a single study and no search was made for work that failed to reproduce it."@en ;
     pm:evidenceFrom "M. Kozhevnikov et al., Neurocognitive and somatic components of temperature increases during g-tummo meditation, PLoS ONE 8(3) (2013), e58244, doi:10.1371/journal.pone.0058244" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The separation of the two components is the design of the second study already cited in this file" ;
     pm:falsifiedBy "Practitioners of the gentler form show the same rise in measured body temperature as practitioners of the form with the forceful breath."@en ;
     pm:protocolUpdated "2026-09-02" ;
@@ -1551,9 +1563,11 @@ pmc:ParalysisUniversalityProtocol a pm:Testing ;
         "The two halves fit, and that is the finding. A mechanism present in every sleeper and an experience reported by roughly one in thirteen are not in contradiction: they are exactly what the claim asserts, namely that what is rare is not the paralysis but the waking awareness that coincides with it. The state is therefore cases without deviation."@en,
         "What this does not settle, and the limits are sharper than the fit. The prevalence figure counts self-reported episodes and not measured ones, so it is a floor for noticing and not a ceiling for occurrence. The mechanism evidence establishes the atonia of the sleep stage and not that every reported episode coincides with it; the two are joined here by the ordinary explanation and not by a study that measured both in the same subjects. And a claim confirmed in this shape says nothing about what any transmission builds on the state, which is the part this graph actually cares about."@en ;
     pm:baseRate "7.6 per cent of the general population report at least one lifetime episode, aggregated over 35 studies and 36,533 participants; 28.3 per cent among students and 31.9 per cent among psychiatric patients" ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried. Neither the prevalence review nor the mechanism study was checked against later work, and a systematic review of 2011 is old enough that the question is not idle."@en ;
     pm:evidenceFrom "B. A. Sharpless and J. P. Barber, Lifetime prevalence rates of sleep paralysis: a systematic review, Sleep Medicine Reviews 15 (2011), no. 5, pp. 311-315, doi:10.1016/j.smrv.2011.01.007",
         "P. L. Brooks and J. H. Peever, Identification of the transmitter and receptor mechanisms responsible for REM sleep paralysis, Journal of Neuroscience 32 (2012), pp. 9785-9795, doi:10.1523/JNEUROSCI.0482-12.2012" ;
-    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The protocol assembles two existing bodies of evidence, one on the mechanism and one on the prevalence, and states the joint they leave open" ;
     pm:falsifiedBy "A population of ordinary sleepers is found in whom the atonia of the sleep stage is absent; or reported episodes are measured and found not to coincide with it."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
@@ -2173,10 +2187,12 @@ pmc:ThresholdShutdownProtocol a pm:Testing ;
         "The mechanism does not hold as stated, and the correction is not a quibble. Motor control is not switched off at the transition: it is already off throughout the sleep stage in question, and the experience arises when that shutdown persists past the transition instead of ending with it. The claim has the direction backwards. What happens at the threshold is the failure to switch motor control back on, not the switching of it off."@en,
         "The word regular carries a second and separate deviation. The mechanism is regular, but the recurring form of the experience is classified as a parasomnia in the standard nosology, which is to say as a disorder. Both can be true at once and the claim does not distinguish them: a normal mechanism appearing at an abnormal moment. Whoever repairs the claim must say which of the two the word regular is doing."@en,
         "This is why the two posits in this file were kept apart. The universality claim survives its protocol; this one does not, on the same evidence, and a single node carrying both would have had to be entered as confirmed or as deviating and would have been wrong either way."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried. The receptor account and the nosological classification were taken as settled without any search for dissent, and the receptor work is an animal study whose translation is itself contested in the field."@en ;
     pm:evidenceFrom "American Academy of Sleep Medicine, International Classification of Sleep Disorders, 3rd edition (Darien, Illinois, 2014), recurrent isolated sleep paralysis among the parasomnias of the relevant sleep stage",
         "B. A. Sharpless and J. P. Barber, Lifetime prevalence rates of sleep paralysis: a systematic review, Sleep Medicine Reviews 15 (2011), no. 5, pp. 311-315, doi:10.1016/j.smrv.2011.01.007",
         "P. L. Brooks and J. H. Peever, Identification of the transmitter and receptor mechanisms responsible for REM sleep paralysis, Journal of Neuroscience 32 (2012), pp. 9785-9795, doi:10.1523/JNEUROSCI.0482-12.2012" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The deviation is read off the same two bodies of evidence that carry the neighbouring protocol, plus the standard nosological classification" ;
     pm:falsifiedBy "The atonia is shown to begin at the transition rather than to persist across it; or reported episodes are found in consolidated sleep away from either threshold."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
@@ -2220,9 +2236,11 @@ pmc:TummoHeatExamination a pm:Testing ;
     skos:note "What the measurements bear on is the somatic claim and nothing beyond it. Reported temperature rises are consistent with the practice producing heat; they say nothing about the cosmology the practice is embedded in, and the node must not be read as though they did. The reported effect also depends on the forceful-breath component together with the visualisation, which means the claim that is actually supported is narrower than the one the tradition makes."@en ;
     pm:attestedBy pm:protocolledPractice ;
     pm:baseRate "Temperature change under comparable breathing effort without the practice, in matched participants." ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not documented. This node predates the requirement; whether a counter-search was carried is not recoverable from it, and an undocumented search is treated as uncarried for the same reason pm:independenceGround reverses its burden."@en ;
     pm:evidenceFrom "H. Benson et al., Body temperature changes during the practice of g-tummo yoga, Nature 295 (1982), 234-236",
         "M. Kozhevnikov et al., Neurocognitive and somatic components of temperature increases during g-tummo meditation, PLoS ONE 8(3) (2013), e58244, doi:10.1371/journal.pone.0058244" ;
-    pm:examinationState pm:casesWithDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "H. Benson and colleagues; M. Kozhevnikov and colleagues" ;
     pm:falsifiedBy "Practitioners of the forceful-breath tummo method show no rise in measured body temperature beyond that produced by the breathing alone in matched non-practitioners." ;
     pm:protocolUpdated "2026-08-28" ;
@@ -2254,9 +2272,11 @@ pmc:UnchosenSendingProtocol a pm:Testing ;
     skos:note "Read as a claim about ordinary channels, it holds and is among the better established findings in its field. Affective states pass between people who are merely in one another's presence, carried by expression, posture, voice and the automatic mimicry of them, and they pass without either party choosing it or noticing. The states a person is not presenting are the ones that leak most reliably."@en,
         "The consequence for the draft, and it is not a refutation. What the claim describes occurs; it occurs through a channel that requires nothing the section posits. A practitioner who finds his own state arriving in the other person has not thereby found evidence for the transfer the section is about — he has found the effect that would be there anyway. The claim is confirmed and its confirmation supports nothing beyond itself."@en,
         "The narrower claim that would carry the section is not examined here and is not touched by this node: that the unchosen state passes where the ordinary channels are closed, out of sight and out of earshot. That is a different protocol, it has no cases, and it must not borrow the confirmation recorded above."@en ;
+    pm:counterSearch pm:counterSearchNotCarried ;
+    pm:counterSearchNote "Not carried, and here the omission is likely to matter. Both works cited are old, and the lines they belong to — nonverbal leakage and automatic mimicry — have well-known replication difficulties that were not looked into before the state was set."@en ;
     pm:evidenceFrom "E. Hatfield, J. T. Cacioppo and R. L. Rapson, Emotional Contagion (Cambridge: Cambridge University Press, 1994)",
         "P. Ekman and W. V. Friesen, Nonverbal leakage and clues to deception, Psychiatry 32 (1969), pp. 88-106" ;
-    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The protocol reads the finding off the contagion literature and the work on involuntary nonverbal disclosure" ;
     pm:falsifiedBy "Recipients in the presence of a sender in an unchosen state show no shift toward that state against a neutral condition."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
@@ -2609,6 +2629,16 @@ pm:caseCount a owl:DatatypeProperty ;
     rdfs:range xsd:integer ;
     skos:definition "The number of cases recorded under this protocol so far."@en .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
 pm:cautionsAbout a owl:ObjectProperty ;
     rdfs:label "warnt vor"@de,
         "cautions about"@en ;
@@ -2661,6 +2691,26 @@ pm:corpusHarvested a pm:CoverageState ;
     rdfs:label "Korpus geerntet"@de,
         "Corpus harvested"@en ;
     skos:definition "The harvest has been carried out for the works actually opened, and what was left unread is recorded. The state claims completeness for what was opened, never for the corpus."@en .
+
+pm:counterSearch a owl:ObjectProperty ;
+    rdfs:label "Gegensuche"@de,
+        "counter-search"@en ;
+    rdfs:domain pm:Testing ;
+    rdfs:range pm:CounterSearchState ;
+    skos:definition "How far the search for work opposing the cited evidence has been carried."@en ;
+    skos:note "Required wherever pm:evidenceFrom is set, enforced by pm:CounterSearchRequiredShape. A protocol that records no state here is not neutral about the question; it has not asked it."@en .
+
+pm:counterSearchFoundNothing a pm:CounterSearchState ;
+    rdfs:label "Gegensuche ohne Fund"@de,
+        "Counter-search found nothing"@en ;
+    skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
+
+pm:counterSearchNote a owl:DatatypeProperty ;
+    rdfs:label "Notiz zur Gegensuche"@de,
+        "counter-search note"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "What was searched for and what came back, stated so that the search itself can be judged."@en ;
+    skos:note "Required wherever pm:counterSearch is set, enforced by pm:CounterSearchNoteRequiredShape. Without it, pm:counterSearchFoundNothing is indistinguishable from a search nobody ran, and it is the state a hasty protocol would reach for."@en .
 
 pm:coverageState a owl:ObjectProperty ;
     rdfs:label "coverage state"@en ;
@@ -5054,6 +5104,11 @@ pm:conjugalTelos a pm:TelicOrientation ;
     skos:note "Distinct from pm:separativeTelos for the same reason from the other side: what persists here is not its own absolute but a party to a bond, and it is transformed on the way rather than fortified."@en,
         "Distinct from pm:unitiveTelos, and the distinction is not verbal. A dissolution has one term at the end; a marriage has two. A record that files a bridal end state as unitive reports the disappearance of something the source keeps."@en .
 
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
+
 pm:individuatingTelos a pm:TelicOrientation ;
     rdfs:label "Individuierendes Ziel"@de,
         "Individuating telos"@en ;
@@ -5593,11 +5648,6 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
-
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -5831,6 +5881,14 @@ pmt:Platonic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:CounterSearchState a owl:Class ;
+    rdfs:label "Stand der Gegensuche"@de,
+        "Counter-Search State"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "How far the attempt to find work opposing the evidence has been carried."@en ;
+    skos:note "A study cited under pm:evidenceFrom is a party and not an instance. It carries its own claim, its own method and its own critics, and a protocol that admits it without looking for opposition has not examined the claim against the world but against one report of the world. That is the same error as testing a transmission against this holding instead of against its source, which SPEC §13 forbids, and it is easier to commit because a study looks like a verdict."@en,
+        "The state exists because the prose rule did not hold. It was written into AGENTS.md on 2026-09-02 after evidence was entered unread, and within the same session evidence was entered again without any search for opposition. A rule that has to be remembered at the moment of writing is a rule that fails at the moment of haste."@en .
+
 pm:MethodOrientation a owl:Class ;
     rdfs:label "Ausrichtung der Methode"@de,
         "Method Orientation"@en ;
@@ -5948,11 +6006,6 @@ pm:TelicOrientation a owl:Class ;
     skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -6018,6 +6071,11 @@ pm:thirdPartyAscription a pm:Attesting ;
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
+pm:counterSearchNotCarried a pm:CounterSearchState ;
+    rdfs:label "Gegensuche nicht geführt"@de,
+        "Counter-search not carried"@en ;
+    skos:definition "No attempt has been made to find work that contradicts, fails to replicate, or supersedes the evidence cited."@en .
+
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
         "Nahua ritual transmission"@en ;
@@ -6067,11 +6125,6 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
@@ -6206,6 +6259,11 @@ pm:compilerInference a pm:Attesting ;
         "Compiler inference"@en ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
