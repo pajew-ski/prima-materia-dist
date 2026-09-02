@@ -3111,9 +3111,6 @@ pmt:ChineseMedicalCanon a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing" .
 
-pmt:ChristianDiscernment pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
-
 pmt:ChristianTheosophy a pm:Tradition ;
     rdfs:label "Christliche Theosophie"@de,
         "Christian theosophy"@en ;
@@ -3832,9 +3829,6 @@ pmt:UrantiaBook a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Urantia Book" .
-
-pmt:Valentinian pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
 
 pmt:VedicRitual a pm:Tradition ;
     rdfs:label "Vedische Ritualüberlieferung"@de,
@@ -4947,7 +4941,9 @@ pmt:ValentinianGnosis a pm:Tradition ;
     dcterms:source "Irenaeus, Adversus Haereses I (trans. J. Keble, Oxford 1872)" ;
     skos:definition "The transmission of the Valentinian school of the second century, known in this file through the account of an opponent and not yet through its own writings."@en ;
     skos:note "A caution governs everything read out of this file at present. What is held here comes from a refutation: the heresiologist reports the doctrine in order to defeat it, selects what serves that end, and is under no obligation to state it as its holders would. Every node therefore carries pm:thirdPartyAscription and not textual attestation, and none of them may be read as a Valentinian self-statement until the same claim is found in a text of the school itself."@en,
-        "The three decisions that precede a tradition file, stated rather than left implicit. Route of contact: none is documented towards the Indian or Chinese material, so a correspondence with either would count as a finding rather than as reception — but no such correspondence is asserted here yet. Edition: the account is read in the Keble translation of 1872, named on each node; the Nag Hammadi witnesses are not yet read and their translation is not yet chosen. Number of citable passages: one. That is thin, and deliberately so, on the model of traditions/daoist.ttl — a file grows in passages, and a heading without passages under it would be a claim about the corpus that the corpus does not carry."@en .
+        "The three decisions that precede a tradition file, stated rather than left implicit. Route of contact: none is documented towards the Indian or Chinese material, so a correspondence with either would count as a finding rather than as reception — but no such correspondence is asserted here yet. Edition: the account is read in the Keble translation of 1872, named on each node; the Nag Hammadi witnesses are not yet read and their translation is not yet chosen. Number of citable passages: one. That is thin, and deliberately so, on the model of traditions/daoist.ttl — a file grows in passages, and a heading without passages under it would be a claim about the corpus that the corpus does not carry."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmc:Agape a pm:Conceptualizing ;
     rdfs:label "Liebe"@de,
@@ -5645,7 +5641,9 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
         "Christian ascetic discernment"@en ;
     dcterms:source "John Cassian, Collationes I-II" ;
     skos:definition "The transmission of the practice of discerning the origin of inner movements, running from the desert monastic literature through the Byzantine ascetic corpus into the Latin spiritual exercises."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en .
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
