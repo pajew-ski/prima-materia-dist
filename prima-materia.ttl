@@ -65,16 +65,18 @@ pmc:AffectCouplingProtocol a pm:Testing ;
     skos:definition "An examination of whether a strong affect shifts attention, readiness and the threshold for risk, and of what remains of the claim once it does."@en ;
     skos:note "A convergence worth following separately. Several transmissions warn against exactly this coupling on the ground that it deceives the practitioner about his own position, and traditions/patanjala-yoga.ttl already carries pmc:SiddhisAsObstacle in that shape. If the direction of the shift is unknowable in advance, the warning and the finding say something close to the same thing from opposite ends, and that is a candidate for a convergence node rather than a remark here."@en,
         "Counter-search, carried and not favourable to either side. A registered replication of the key studies in a large online sample supports the framework only in part: the association between the emboldening affect and both risk-seeking and optimistic estimates holds, while the association between the cautioning affect and risk-seeking does not reliably appear. The opposition of directions survives; its symmetry does not."@en,
+        "On the state. This protocol is the case that made pm:claimDoesNotDiscriminate necessary, and it is deliberately not recorded as cases without deviation. There the claim says something and the cases bear it out; here they bear it out because the claim does not say enough to be borne out against anything. Filing it as an ordinary confirmation would have added a success to a record that had in fact found the claim empty."@en,
         "That the shift occurs is not in doubt and the claim is borne out in that narrow sense. Strong affect measurably moves risk judgement and the choices that follow from it, in induced and in naturally occurring form alike."@en,
         "The consequence for anyone acting on the claim, which is the reason to enter this node at all. Whoever couples an intended state to a strong affect in order to shift his own threshold does not know from the claim whether he has raised or lowered it. Confirmation at this level of generality is not usable guidance, and the node says so rather than recording a success."@en,
         "What the evidence takes away in the same motion. The direction of the shift is set by the particular affect and not by its strength. Fear and anger are both strong and both unpleasant, and they move the threshold for risk in opposite directions: the fearful judge risk pessimistically and choose cautiously, the angry judge it optimistically and choose boldly, with the angry closer to the cheerful than to the fearful. A claim that names only the strength of the affect therefore cannot say which way anything moves, and is compatible with every outcome."@en ;
     pm:evidenceFrom "J. S. Lerner and D. Keltner, Beyond valence: toward a model of emotion-specific influences on judgement and choice, Cognition and Emotion 14 (2000), no. 4, pp. 473-493",
         "J. S. Lerner and D. Keltner, Fear, anger, and risk, Journal of Personality and Social Psychology 81 (2001), no. 1, pp. 146-159, doi:10.1037/0022-3514.81.1.146" ;
-    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinationState pm:claimDoesNotDiscriminate ;
     pm:examinedBy "Not devised here. The protocol reads the finding off experimental work on specific emotions and their appraisal tendencies, and off a registered replication of it" ;
     pm:falsifiedBy "Strong affect, induced or occurring, leaves risk judgement and the choices following from it unmoved against a neutral condition."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
-    pm:tests pmc:AffectCouplingShiftsTheCarrier .
+    pm:tests pmc:AffectCouplingShiftsTheCarrier ;
+    pm:undividedOutcomes "A threshold for risk that has been raised, and one that has been lowered. The claim covers both alike, so acting on it cannot tell the practitioner which of the two he has brought about."@en .
 
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
@@ -2735,6 +2737,13 @@ pm:transmissionPath a owl:DatatypeProperty ;
     skos:note "The earlier definition here said that the presence of a route downgrades the correspondence from convergence to reception. That was a judgement wearing the clothes of a definition, and it is withdrawn. A route says how a claim travelled, not whether anything was in it. Survival through many hands is selection, because most claims do not survive it, and a record that treats transmission as noise throws away the only evidence it has about what kept being worth copying."@en,
         "What the route does decide is narrower and stays in force: an agreement reached along it may not be counted as independent attestation, because the same statement would be counted twice. Both may stand on one node, and on several they already do. The route bars a particular way of counting; it does not devalue the correspondence."@en .
 
+pm:undividedOutcomes a owl:DatatypeProperty ;
+    rdfs:label "nicht geschiedene Ausgänge"@de,
+        "undivided outcomes"@en ;
+    rdfs:domain pm:Testing ;
+    skos:definition "The differing outcomes that the claim treats alike, named so that the charge of saying nothing is itself checkable."@en ;
+    skos:note "Required wherever the state is pm:claimDoesNotDiscriminate, enforced by pm:UndividedOutcomesRequiredShape. The burden falls on the examiner for the same reason it does at pm:independenceGround: a verdict that a claim says nothing is easy to reach and hard to contest, and one that names no pair of outcomes it fails to separate is an opinion about the claim rather than a finding about it."@en .
+
 pm:unitiveTelos a pm:TelicOrientation ;
     rdfs:label "Vereinigendes Ziel"@de,
         "Unitive telos"@en ;
@@ -4829,6 +4838,19 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
+pm:claimDoesNotDiscriminate a pm:ExaminationState ;
+    rdfs:label "Behauptung unterscheidet nicht"@de,
+        "Claim does not discriminate"@en ;
+    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
+    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
+        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
+        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
+
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
         "Conjugal telos"@en ;
@@ -5375,11 +5397,6 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
-
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
         "No procedure devised"@en ;
@@ -5686,13 +5703,6 @@ pm:CoverageState a owl:Class ;
         "Coverage state"@en ;
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
 
-pm:ExaminationState a owl:Class ;
-    rdfs:label "Prüfstand"@de,
-        "Examination State"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
-    skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en .
-
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
         "Breath regulation in Haṭhayoga"@en ;
@@ -5727,6 +5737,13 @@ pmt:Sufism a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. For both works the edition or translation the passages were read from is not recoverable, and it is left unstated rather than guessed. Neither citation carries a page or section number, and the printed editions of the Kitāb al-Lumaʿ and the Risāla divide their material differently, so the passages are to be reopened before anything in this file is cited by place."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:ExaminationState a owl:Class ;
+    rdfs:label "Prüfstand"@de,
+        "Examination State"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
+    skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en .
 
 pm:Systematizing a owl:Class ;
     rdfs:label "Systematisieren"@de,
@@ -6011,13 +6028,6 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -6031,6 +6041,13 @@ pmt:Andean a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
