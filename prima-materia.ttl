@@ -2774,6 +2774,20 @@ pm:firstPersonReport a pm:Attesting ;
         "First-person report"@en ;
     skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
+pm:generalizedFrom a owl:ObjectProperty ;
+    rdfs:label "verallgemeinert aus"@de,
+        "generalized from"@en ;
+    rdfs:domain pm:Generalizing ;
+    skos:definition "An attested claim the generalization was formed from. At least two are required, and each must itself name a work."@en ;
+    skos:note "Two is a floor and not a target. How many attested claims a generalization rests on, and how far apart their traditions stand, are the numbers that make one worth examining before another — the same distinction pm:Converging draws between many witnesses on one cable and many on three."@en .
+
+pm:generalizedStatement a owl:DatatypeProperty ;
+    rdfs:label "verallgemeinerte Aussage"@de,
+        "generalized statement"@en ;
+    rdfs:domain pm:Generalizing ;
+    skos:definition "The claim itself, stated in the abstract and worded so that a result could contradict it."@en ;
+    skos:note "A wording that covers an outcome and its opposite alike is the failure pm:claimDoesNotDiscriminate records after the fact. Here the cost is lower: it can be caught while the sentence is being written."@en .
+
 pm:hasAwarenessSpace a owl:ObjectProperty ;
     rdfs:label "has awareness space"@en ;
     rdfs:range pm:AwarenessSpace ;
@@ -5656,6 +5670,16 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -6290,11 +6314,6 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -6308,6 +6327,11 @@ pmt:Andean a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
+
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
