@@ -2052,6 +2052,23 @@ pmc:ThresholdReceptionCorrespondence a pm:Converging ;
         pmc:Theopemptos ;
     pm:transmissionPath "The correspondence must not be counted as independent attestation. The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa and is reception, as the file that holds it records. The Mediterranean witnesses are worse still for this purpose: the later Jewish and Islamic dream theory rests on a Neoplatonic substrate, so an agreement between the Greek, the Jewish and the Islamic account is a shared inheritance and not three independent observations. What would count as a finding is a tradition outside both blocks, and none has been located." .
 
+pmc:ThresholdShutdownProtocol a pm:Testing ;
+    rdfs:label "Ob die Lähmung eine Abschaltung ist und ob sie am Übergang geschieht"@de,
+        "Whether the paralysis is a shutdown and whether it happens at the threshold"@en ;
+    skos:definition "An examination of the posited claim in its two parts: whether the event is located at the transition into or out of sleep, and whether the mechanism is the switching off of motor control there."@en ;
+    skos:note "The location holds. Reported episodes occur on falling asleep or on waking and not in the middle of consolidated sleep, and the systematic review classes them accordingly."@en,
+        "The mechanism does not hold as stated, and the correction is not a quibble. Motor control is not switched off at the transition: it is already off throughout the sleep stage in question, produced there by an identified transmitter and receptor pathway, and the experience arises when that shutdown persists past the transition instead of ending with it. The claim has the direction backwards. What happens at the threshold is the failure to switch motor control back on, not the switching of it off."@en,
+        "The word regular carries a second and separate deviation. The mechanism is regular, but the recurring form of the experience is classified as a parasomnia in the standard nosology, which is to say as a disorder. Both can be true at once and the claim does not distinguish them: a normal mechanism appearing at an abnormal moment. Whoever repairs the claim must say which of the two the word regular is doing."@en,
+        "This is why the two posits in this file were kept apart. The universality claim survives its protocol; this one does not, on the same evidence, and a single node carrying both would have had to be entered as confirmed or as deviating and would have been wrong either way."@en ;
+    pm:evidenceFrom "American Academy of Sleep Medicine, International Classification of Sleep Disorders, 3rd edition (Darien, Illinois, 2014), recurrent isolated sleep paralysis among the parasomnias of the relevant sleep stage",
+        "B. A. Sharpless and J. P. Barber, Lifetime prevalence rates of sleep paralysis: a systematic review, Sleep Medicine Reviews 15 (2011), no. 5, pp. 311-315, doi:10.1016/j.smrv.2011.01.007",
+        "P. L. Brooks and J. H. Peever, Identification of the transmitter and receptor mechanisms responsible for REM sleep paralysis, Journal of Neuroscience 32 (2012), pp. 9785-9795, doi:10.1523/JNEUROSCI.0482-12.2012" ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "Not devised here. The deviation is read off the same two bodies of evidence that carry the neighbouring protocol, plus the standard nosological classification" ;
+    pm:falsifiedBy "The atonia is shown to begin at the transition rather than to persist across it; or reported episodes are found in consolidated sleep away from either threshold."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:ParalysisIsTheRegularShutdown .
+
 pmc:TokenBroughtBack a pm:Conceptualizing ;
     rdfs:label "Ein Zeichen wird von dem Ort mitgebracht"@de,
         "A token is brought back from the place"@en ;
@@ -4447,6 +4464,13 @@ pmc:OracleRankOrder a pm:Conceptualizing ;
     skos:note "The order is a rule about the direction in which confirmation may run and not merely a ranking by esteem. It is what makes the cheaper oracles usable at all: a man narrows the field with the termites and spends poison only on the final decision."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:ParalysisIsTheRegularShutdown a pm:Positing ;
+    rdfs:label "Die Lähmung ist die reguläre Abschaltung der Motorik am Schlafübergang"@de,
+        "The paralysis is the regular shutdown of movement at the threshold of sleep"@en ;
+    skos:definition "The claim that what is called sleep paralysis is the ordinary switching off of motor control that happens as sleep is entered, and therefore a regular part of the architecture of sleep rather than a disorder."@en ;
+    skos:note "The weaker of the two claims in this file and separated from the other on purpose. This one places the event and calls it regular; pmc:ParalysisPrecedesItsNotice adds that it is universal and that only its noticing is rare. The two are examined apart because they fail apart, and one of them does."@en ;
+    pm:positedIn "prima-materia#137" .
+
 pmc:ParalysisPrecedesItsNotice a pm:Positing ;
     rdfs:label "Die Lähmung liegt bei jedem vor, selten ist nur ihr Bemerken"@de,
         "The paralysis is present in everyone and only its noticing is rare"@en ;
@@ -5332,13 +5356,6 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
         "No procedure devised"@en ;
@@ -5521,6 +5538,13 @@ pmc:Theopemptos a pm:Conceptualizing ;
     skos:note "The state is described as the one in which sleep is departing and waking beginning, or as a condition between the two, accompanied by a voice, by a light, and by an inability to move the eyes. This is the closest description in the collection to what modern accounts call the hypnopompic state, and the immobility is named as part of the sign rather than as an obstacle. What arrives in it is a communication received, not a faculty exercised."@en ;
     pm:withinTradition pmt:NeoplatonicTheurgy .
 
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
 pm:Reworking a owl:Class ;
     rdfs:label "Bearbeiten"@de,
         "Reworking"@en ;
@@ -5530,11 +5554,6 @@ pm:Reworking a owl:Class ;
         "Distinct from pm:Systematizing, which is an ordering act performed by an editor in the present and named as his. A reworking is an act inside a transmission, attested in a work like any other claim, and it belongs to the tradition that performed it."@en,
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
-
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -5596,6 +5615,11 @@ pm:PrerequisiteStrength a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -5958,17 +5982,17 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
