@@ -59,6 +59,23 @@ pmc:AddressWithoutSight a pm:Conceptualizing ;
         "The arrangement has a consequence the recorder reports with satisfaction and which is a finding whoever reports it: when the villagers were finally made to look at what they had feared, that was itself the strongest argument against it. A cult whose object is addressed without being seen is a cult that can be undone by showing the object."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:AffectCouplingProtocol a pm:Testing ;
+    rdfs:label "Ob die Verschiebung eintritt, und ob die Behauptung etwas über sie sagt"@de,
+        "Whether the shift occurs, and whether the claim says anything about it"@en ;
+    skos:definition "An examination of whether a strong affect shifts attention, readiness and the threshold for risk, and of what remains of the claim once it does."@en ;
+    skos:note "A convergence worth following separately. Several transmissions warn against exactly this coupling on the ground that it deceives the practitioner about his own position, and traditions/patanjala-yoga.ttl already carries pmc:SiddhisAsObstacle in that shape. If the direction of the shift is unknowable in advance, the warning and the finding say something close to the same thing from opposite ends, and that is a candidate for a convergence node rather than a remark here."@en,
+        "Counter-search, carried and not favourable to either side. A registered replication of the key studies in a large online sample supports the framework only in part: the association between the emboldening affect and both risk-seeking and optimistic estimates holds, while the association between the cautioning affect and risk-seeking does not reliably appear. The opposition of directions survives; its symmetry does not."@en,
+        "That the shift occurs is not in doubt and the claim is borne out in that narrow sense. Strong affect measurably moves risk judgement and the choices that follow from it, in induced and in naturally occurring form alike."@en,
+        "The consequence for anyone acting on the claim, which is the reason to enter this node at all. Whoever couples an intended state to a strong affect in order to shift his own threshold does not know from the claim whether he has raised or lowered it. Confirmation at this level of generality is not usable guidance, and the node says so rather than recording a success."@en,
+        "What the evidence takes away in the same motion. The direction of the shift is set by the particular affect and not by its strength. Fear and anger are both strong and both unpleasant, and they move the threshold for risk in opposite directions: the fearful judge risk pessimistically and choose cautiously, the angry judge it optimistically and choose boldly, with the angry closer to the cheerful than to the fearful. A claim that names only the strength of the affect therefore cannot say which way anything moves, and is compatible with every outcome."@en ;
+    pm:evidenceFrom "J. S. Lerner and D. Keltner, Beyond valence: toward a model of emotion-specific influences on judgement and choice, Cognition and Emotion 14 (2000), no. 4, pp. 473-493",
+        "J. S. Lerner and D. Keltner, Fear, anger, and risk, Journal of Personality and Social Psychology 81 (2001), no. 1, pp. 146-159, doi:10.1037/0022-3514.81.1.146" ;
+    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinedBy "Not devised here. The protocol reads the finding off experimental work on specific emotions and their appraisal tendencies, and off a registered replication of it" ;
+    pm:falsifiedBy "Strong affect, induced or occurring, leaves risk judgement and the choices following from it unmoved against a neutral condition."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:AffectCouplingShiftsTheCarrier .
+
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
         "Mindfulness of breathing yields rapture"@en ;
@@ -4012,6 +4029,13 @@ pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     skos:definition "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:AffectCouplingShiftsTheCarrier a pm:Positing ;
+    rdfs:label "Die Kopplung eines Zielzustands an einen starken Affekt verschiebt den Koppelnden"@de,
+        "Coupling an intended state to a strong affect shifts the one who couples"@en ;
+    skos:definition "The claim that binding an intended state to a strong affect shifts what the person attends to, how ready they are to act, how they carry themselves, and where their threshold for risk lies."@en ;
+    skos:note "Deliberately the weak reading. The neighbouring claim of the same section holds that the coupled state acts outside its carrier; that one is not examined here and nothing below bears on it. Separating them is the point: the weak reading is testable and the strong one is not, and running them together would let evidence for the first be read as evidence for the second."@en ;
+    pm:positedIn "prima-materia#141" .
+
 pmc:Ahwal a pm:Conceptualizing ;
     rdfs:label "Zustände"@de,
         "States"@en ;
@@ -4805,11 +4829,6 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
-
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
         "Conjugal telos"@en ;
@@ -5356,6 +5375,11 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
         "No procedure devised"@en ;
@@ -5538,13 +5562,6 @@ pmc:Theopemptos a pm:Conceptualizing ;
     skos:note "The state is described as the one in which sleep is departing and waking beginning, or as a condition between the two, accompanied by a voice, by a light, and by an inability to move the eyes. This is the closest description in the collection to what modern accounts call the hypnopompic state, and the immobility is named as part of the sign rather than as an obstacle. What arrives in it is a communication received, not a faculty exercised."@en ;
     pm:withinTradition pmt:NeoplatonicTheurgy .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:Reworking a owl:Class ;
     rdfs:label "Bearbeiten"@de,
         "Reworking"@en ;
@@ -5608,6 +5625,13 @@ pm:MethodOrientation a owl:Class ;
     skos:definition "How a path stands to the norm of the order it is transmitted in: whether its operative means keep that norm, deliberately break it, or decline the distinction. An instance of this class is a value on that axis and never a path."@en ;
     skos:note "Absence of pm:methodOrientation on a node means the axis was not determined for it. It does not mean the middle value, and it does not mean pm:normDistinctionDeclined, which is a positive claim about a source and carries the same burden as any other."@en,
         "Held apart from pm:TelicOrientation deliberately, and that separation is the whole reason both classes exist. The two vary independently: a path can take the forbidden as its vehicle and still aim at dissolution into what exceeds the self. A scheme with one axis cannot state that case, and the terms that carry one axis — right-hand path, left-hand path — therefore report a transgressive means as though it were a separative goal. See prima-materia#52."@en .
+
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
 pm:PrerequisiteStrength a owl:Class ;
     rdfs:label "Stärke der Voraussetzung"@de,
