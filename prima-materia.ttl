@@ -382,6 +382,24 @@ pmc:ConfessionYieldsAverting a pm:Yielding ;
     pm:withinTradition pmt:Andean ;
     pm:yieldsCapacity pmc:AvertingTheAngerOfTheHuacas .
 
+pmc:ConsciousnessCalibrationProtocol a pm:Testing ;
+    rdfs:label "Ob sich eine Bewusstseinsstufe am Muskeltest ablesen lässt"@de,
+        "Whether a level of consciousness can be read off a muscle test"@en ;
+    skos:definition "An examination of the claim that the position of a mental or emotional state on a numbered scale can be established by testing the strength of a subject's muscle, as the scale's author reports having done over some quarter of a million times."@en ;
+    skos:note "A second reason for caution about the direction of the finding. The source itself names conditions under which its procedure is said to fail: synthetic clothing on the subject, metal jewellery, the voice of the tester. A procedure whose stated interferences are all channels through which an expectation could travel is one whose null result would be expected on ordinary grounds, and whose positive result would need to exclude them. That observation belongs in the protocol and not in a verdict."@en,
+        "The counter-search is owed and has not been carried out. Work claiming reliability for manual muscle testing exists, some of it from within the field, and a rejection that has read only one side is by SPEC §13 a one-sided dispute and not a refutation. Until it is read, the state of this protocol stays where it is."@en,
+        "What the available evidence covers. Three controlled studies bear on the muscle test as a diagnostic instrument, all with blinding, and none of them supports it. A test-retest study on wasp-venom allergy with four examiners, seven patients and twenty bottles each reports an overall kappa of 0.03 with sensitivity around forty per cent and specificity around sixty; a dental double-blind study on materials testing reports the test unreliable; a double-blind randomised study on therapy localisation reports the same. The first states plainly that as a diagnostic tool the method is no more useful than guessing."@en,
+        "What the available evidence does not cover, and this is the point. Every one of those studies asks whether the muscle test can identify a substance or a bodily site. None asks whether it can place a mental state on a numbered scale. The evidence therefore strikes the presupposition, that the test yields answers better than chance, and not the claim itself. No blinded replication of the calibrations is known, and the claim is unexamined in the strict sense even though its foundation is not."@en,
+        "Why this claim and not another. Almost every claim in this graph is about an inner state for which no procedure exists, and pm:noProcedureDevised is accordingly the commonest state in the holding. This one names its own procedure, the procedure requires no instrument, and blinding it is cheap. Among the claims the graph carries it is the most nearly testable, and that is the reason it was opened."@en ;
+    pm:evidenceFrom "H.-J. Staehle, M. J. Koch and T. Pioch, Double-blind Study on Materials Testing with Applied Kinesiology, Journal of Dental Research 84 (2005), no. 11, doi:10.1177/154405910508401119",
+        "R. Lüdtke, B. Kunz, N. Seeber and J. Ring, Test-retest-reliability and validity of the Kinesiology muscle test, Complementary Therapies in Medicine 9 (2001), pp. 141-145",
+        "S. A. Schwartz and others, A Double-Blind, Randomized Study to Assess the Validity of Applied Kinesiology as a Diagnostic Tool and as a Nonlocal Proximity Effect, Explore 10 (2014), no. 2" ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Not devised here. The procedure is the one the source prescribes; the falsifying condition is the ordinary requirement of inter-rater and test-retest agreement, and nobody has yet applied it to the calibrations themselves" ;
+    pm:falsifiedBy "Blinded testers, given the same states without knowing which, do not agree on their placement above chance; or the same tester, blinded to his earlier results, does not reproduce his own placements."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:HawkinsConsciousnessScale .
+
 pmc:ConsultationPresupposesQualifyingWood a pm:Presupposing ;
     rdfs:label "Die Befragung setzt sonnenläufiges Holz voraus"@de,
         "Consulting the drum presupposes wood that turns with the sun"@en ;
@@ -878,18 +896,6 @@ pmc:HauOfTheGiftWordingDispute a pm:Disputing ;
     skos:note "Entered as a dispute over the text rather than over its meaning, because that is the part a later reader can check and because the substitution was made silently. Both sides were read in the same study that reports the substitution, so the collation itself has not been verified against the manuscript or against the 1909 printing in this run."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:HauOfTheGift .
-
-pmc:HawkinsConsciousnessScale a pm:Originating ;
-    rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
-        "The ranking of emotions by measured level"@en ;
-    dcterms:date "1995" ;
-    dcterms:source "D. R. Hawkins, Power vs. Force (1995)" ;
-    skos:definition "The claim that emotional and mental states occupy fixed positions on a single numbered scale, ascending from shame through fear, anger and pride to reason, love, joy, peace and enlightenment, and that the position can be established by testing."@en ;
-    skos:note "An earlier form of this note held that no transmission ranks affects on a single ordered scale. That was withdrawn: the ground for it had been a search across the holdings of this graph, which says what has been entered here and not what the transmissions say. The search that had not been carried out finds one at once. Rūpa Gosvāmin ranks the five primary forms of devotional love in a single ascending order in the sixteenth century, in the verse itself, and traditions/gaudiya-vaisnava.ttl now holds it. The finding of this node is therefore not that ranking affects is modern. It is narrower and survives: the particular scale below, with its count, its order and its claim of measurability, begins here."@en,
-        "The diagnostic markers, given so that any later list presenting itself as old can be measured against a dated first appearance. The count: seventeen steps. The order of the lower band: shame, guilt, apathy, grief, fear, desire, anger, pride. The turn at the middle: courage, then neutrality, then willingness in eleventh place. The upper band: acceptance, reason, love, joy, peace, enlightenment. A list that shares the count, the relative order of shame, guilt, fear and anger, and the eleventh position of willingness has not arrived at them independently."@en,
-        "The nearest older relative is pmc:TheosophicalColourKeyToFeeling, and the comparison sharpens rather than dissolves this node. That transmission supplies the vibration vocabulary and an axis of self-reference on which a feeling rises or falls, and it was read at the wording for this purpose. It supplies no ranking of unlike feelings against one another. The single numbered order is therefore not inherited, and the question of where it does come from is open in prima-materia#12."@en ;
-    pm:circulatesAs "A perennial map of consciousness, reported as the distilled agreement of the mystical traditions." ;
-    pm:originatedBy "David R. Hawkins" .
 
 pmc:HermeticPolarityOfMentalStates a pm:Originating ;
     rdfs:label "Die Polarität der Gemütszustände"@de,
@@ -4195,6 +4201,18 @@ pmc:HauOfTheGift a pm:Conceptualizing ;
     pm:readVia "Manuka Hēnare, \"Ko te hau tēnā o tō taonga…\": The words of Ranapiri on the spirit of gift exchange and economy, Journal of the Polynesian Society 127/4 (2018), pp. 455-457" ;
     pm:withinTradition pmt:Maori .
 
+pmc:HawkinsConsciousnessScale a pm:Originating ;
+    rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
+        "The ranking of emotions by measured level"@en ;
+    dcterms:date "1995" ;
+    dcterms:source "D. R. Hawkins, Power vs. Force (1995)" ;
+    skos:definition "The claim that emotional and mental states occupy fixed positions on a single numbered scale, ascending from shame through fear, anger and pride to reason, love, joy, peace and enlightenment, and that the position can be established by testing."@en ;
+    skos:note "An earlier form of this note held that no transmission ranks affects on a single ordered scale. That was withdrawn: the ground for it had been a search across the holdings of this graph, which says what has been entered here and not what the transmissions say. The search that had not been carried out finds one at once. Rūpa Gosvāmin ranks the five primary forms of devotional love in a single ascending order in the sixteenth century, in the verse itself, and traditions/gaudiya-vaisnava.ttl now holds it. The finding of this node is therefore not that ranking affects is modern. It is narrower and survives: the particular scale below, with its count, its order and its claim of measurability, begins here."@en,
+        "The diagnostic markers, given so that any later list presenting itself as old can be measured against a dated first appearance. The count: seventeen steps. The order of the lower band: shame, guilt, apathy, grief, fear, desire, anger, pride. The turn at the middle: courage, then neutrality, then willingness in eleventh place. The upper band: acceptance, reason, love, joy, peace, enlightenment. A list that shares the count, the relative order of shame, guilt, fear and anger, and the eleventh position of willingness has not arrived at them independently."@en,
+        "The nearest older relative is pmc:TheosophicalColourKeyToFeeling, and the comparison sharpens rather than dissolves this node. That transmission supplies the vibration vocabulary and an axis of self-reference on which a feeling rises or falls, and it was read at the wording for this purpose. It supplies no ranking of unlike feelings against one another. The single numbered order is therefore not inherited, and the question of where it does come from is open in prima-materia#12."@en ;
+    pm:circulatesAs "A perennial map of consciousness, reported as the distilled agreement of the mystical traditions." ;
+    pm:originatedBy "David R. Hawkins" .
+
 pmc:HealingByTouch a pm:Conceptualizing ;
     rdfs:label "Heilung durch Berührung"@de,
         "Healing by touch"@en ;
@@ -5691,11 +5709,6 @@ pm:mediatedAttestation a pm:Attesting ;
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -5704,6 +5717,11 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
@@ -5887,13 +5905,6 @@ pm:compilerInference a pm:Attesting ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
         "Midewiwin"@en ;
@@ -5905,6 +5916,13 @@ pmt:Midewiwin a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
