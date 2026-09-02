@@ -9,6 +9,15 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+pmc:AbandonmentAfterFailure a pm:Conceptualizing ;
+    rdfs:label "Zwei Praktiker, die das Instrument nach dem Versagen aufgaben"@de,
+        "Two practitioners who gave up the instrument after it failed"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. VIII, Of the Religion of the Laplanders, p. 33" ;
+    skos:definition "Two cases are reported together. A man of a Lapp village whose reindeer were dying prayed to his idol, strewed fir boughs about it, offered the skins, horns and skulls of reindeer, and prostrated himself with his whole family beseeching it to testify by some sign that it was the true god; after a whole day of prayers and devotions, finding no sign given, he set fire to the wood he had brought and burned the idol down, and asked the neighbours who sought to kill him why they would not let the god avenge himself. And a man whose mother was grievously sick sought remedy from the drum; his mother died notwithstanding, whereupon he cut his drum in pieces, alleging that he saw no use of it."@en ;
+    skos:note "Both cases have the shape a protocol has: a question, a stated period, an outcome that could have fallen either way, and an act that follows from the outcome. In the first the period is a whole day and the demanded sign is named in advance. Neither man explains the failure away, and that is the whole point of entering them: it is the counter-case to a transmission that meets every disappointment with a named excuse."@en,
+        "The provenance is the reason no more is made of them. Both stand in the chapter on the reception of Christianity, both are credited to a named priest of the mission, and both end with the man becoming a Christian or being praised as one. A missionary reporting that heathens destroyed their own idols after they failed is reporting the thing he most wanted to find. The cases are entered as claims standing in the work, and what they are evidence of is a separate question from what they say."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:AbsorptionThresholdDispute a pm:Disputing ;
     rdfs:label "Wie hoch die Schwelle der Vertiefung liegt"@de,
         "How high the threshold of absorption stands"@en ;
@@ -310,6 +319,17 @@ pmc:CautionAgainstTheRubbingBoard a pm:Cautioning ;
     pm:cautionsAbout pmp:RubbingBoardConsultation ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:CautionAgainstTheSightItself a pm:Cautioning ;
+    rdfs:label "Das Sehen kommt ungerufen und lässt sich nicht ablegen"@de,
+        "The sight comes unbidden and cannot be laid down"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 46-47" ;
+    skos:definition "Those who have reached the third degree are said to see distant things even against their will. A first-person report is given: a man who surrendered his drum to the recorder on complaint confessed with tears that though he parted with it and made no other, he would have the same visions as before; he instanced the recorder himself, giving a true and particular account of what had happened to him on his journey to Lapland; and he complained that he did not know how to make use of his eyes, since things altogether distant were presented to them."@en ;
+    skos:note "The same passage carries a claim of a verified hit — the man is said to have told the recorder correctly what had happened on his own journey — and the recorder reports it without endorsing it. It is a claim standing in the work and no more; nothing about the account can be checked, and the man is not named."@en,
+        "The warning is not against misuse and not against the anger of a spirit. It is that the capacity, once complete, is not under the will and cannot be given up with the instrument. That is a caution of a kind this graph holds very few of, and it is the transmission warning against the thing it exists to produce."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:DistantSight ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
         "The chin pressed to the chest in the two seats the manual prefers"@en ;
@@ -362,6 +382,18 @@ pmc:ConfessionYieldsAverting a pm:Yielding ;
     pm:withinTradition pmt:Andean ;
     pm:yieldsCapacity pmc:AvertingTheAngerOfTheHuacas .
 
+pmc:ConsultationPresupposesQualifyingWood a pm:Presupposing ;
+    rdfs:label "Die Befragung setzt sonnenläufiges Holz voraus"@de,
+        "Consulting the drum presupposes wood that turns with the sun"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, Of the magicall Ceremonies of the Laplanders, pp. 47-48" ;
+    skos:note "Entered at prescribed order and not at stated necessity: the source says the drum must be of such wood, and does not say what follows from using a drum that is not. The strength is the strength the text gives, not the strength the requirement sounds like."@en,
+        "This is the condition the graph nearly lost. It was read at the wording in the same run as the rest of this file but reached only a local working copy, not the branch, and was recovered only because an uncommitted file was noticed. Recorded as a process finding in prima-materia#351."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:RunicDrumConsultation ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:DrumWoodTurningWithTheSun ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:ConsultationPresupposesTaboos a pm:Presupposing ;
     rdfs:label "Die Befragung setzt die Tabus voraus"@de,
         "The consultation presupposes the taboos"@en ;
@@ -373,6 +405,15 @@ pmc:ConsultationPresupposesTaboos a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:BengeTaboos ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmc:ContestOfTwoNoaidi a pm:Conceptualizing ;
+    rdfs:label "Der Wettstreit zweier Praktiker"@de,
+        "The contest of two practitioners"@en ;
+    dcterms:source "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, p. 477" ;
+    skos:definition "When two noaidi wished to know which of them excelled the other in the art, they painted on a drum two reindeer striking each other with their horns, and he whose reindeer had the victory was the better."@en ;
+    skos:note "A procedure with a stated criterion, applied by practitioners to practitioners, with an outcome that could fall either way and that neither controls. Nothing else in this file, and very little in this graph, has that shape."@en,
+        "What the source does not say is how the victory of a painted reindeer is determined — whether by the ring, by the movement of the drum, or otherwise. Without that the procedure cannot be reconstructed, only recorded, and no protocol node is written on it."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
@@ -512,6 +553,25 @@ pmc:DreamYogaPresupposesClearLight a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:ClearLightOfSleep ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmc:DrumMustBeInherited a pm:Presupposing ;
+    rdfs:label "Die Trommel muss ererbt sein"@de,
+        "The drum must be inherited"@en ;
+    dcterms:source "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, p. 474" ;
+    skos:note "Entered at prescribed order and not at stated necessity: the source says the drums were not thought sufficiently fit for their uses unless got by inheritance, and does not say what follows from using one that was not. The rule sits oddly beside the same recorder's report of a practitioner explaining how his own drum was made, and the oddity is left standing rather than resolved."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:RunicDrumConsultation ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:SunCourseRule ;
+    pm:withinTradition pmt:SamiNoaidi .
+
+pmc:DurationTracksDistance a pm:Conceptualizing ;
+    rdfs:label "Die Dauer des Liegens folgt der Entfernung und endet bei einem Tag"@de,
+        "The time he lies still follows the distance, and stops at a day"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, p. 57" ;
+    skos:definition "How long he lies is stated to depend on how near or far the place is of which he makes enquiry — an hour or two for a near one — and to have an upper bound: the time never exceeds twenty-four hours, let the place be at never so great a distance."@en ;
+    skos:note "A quantity that varies with a measurable quantity, and a ceiling that does not. Both halves are unusual: the first makes the claim comparable across cases, and the second makes it refutable by a single case that runs longer. Nothing else in this file states a number."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:Dvadasanta a pm:Conceptualizing ;
     rdfs:label "Das Ende der Zwölf"@de,
@@ -1006,6 +1066,15 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
 
+pmc:JourneyYieldsDistantSight a pm:Yielding ;
+    rdfs:label "Die Reise bringt das Wissen um den fernen Ort hervor"@de,
+        "The journey yields the knowledge of the distant place"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 55-57" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:NoaidiJourney ;
+    pm:withinTradition pmt:SamiNoaidi ;
+    pm:yieldsCapacity pmc:DistantSight .
+
 pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     rdfs:label "Kasdeja offenbart das Schlagen der Geister"@de,
         "Kasdeja discloses the striking of spirits"@en ;
@@ -1485,6 +1554,18 @@ pmc:ReturnPresupposesTheSewingProhibition a pm:Presupposing ;
     pm:priorStep pmc:InuitSewingProhibitionOnOqshoriaq ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmc:ReturnPresupposesUnbrokenSinging a pm:Presupposing ;
+    rdfs:label "Die Rückkehr setzt voraus, dass der Gesang nicht abbricht"@de,
+        "The return presupposes that the singing does not stop"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 56-57" ;
+    skos:note "Entered at stated necessity because the source states the outcome of the want in plain terms and twice over: the singing must not cease and no one may stir him, and no fly or living creature is suffered to touch him. The recorder adds that the watching is for this reason and not, as another writer held, out of fear that the devil would take the body away; he names that writer and rejects him. The correction is his and is recorded as his."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He would never recover out of the trance if they either ceased singing, or any one stirred him with hand or foot."@en ;
+    pm:dependentStep pmc:DistantSight ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:NoaidiJourney ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:RubbingBoardSecondTestSeldomMade a pm:Conceptualizing ;
     rdfs:label "Der zweite Test am Reibbrett wird selten gemacht"@de,
         "The second test at the rubbing-board is seldom made"@en ;
@@ -1860,6 +1941,14 @@ pmc:ThreefoldAscentOrder a pm:Presupposing ;
     pm:priorStep pmc:Praktike ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:ThreefoldSeizure a pm:Conceptualizing ;
+    rdfs:label "Die dreifache Heimsuchung"@de,
+        "The threefold seizure"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 46-47" ;
+    skos:definition "The office is not sought but suffered. The one marked for it is seized in infancy by an illness in which he is haunted by apparitions, and from these he learns, according to his years, what belongs to the art. Those seized a second time see more visions and gain greater knowledge. Those seized a third time — which is seldom without great torment or the utmost danger of life — arrive at the perfection of the art and become so knowing that without the drum they can see things at the greatest distances."@en ;
+    skos:note "A graded scale with a stated cost at each step and a stated end state, which is the material an examination is made of. The recorder's own explanation of the seizure is that the devil takes a liking to the person in infancy; that explanation is his and is not entered as the transmission's."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:ThresholdIsNotTheExecutionState a pm:Disputing ;
     rdfs:label "Ob der Schwellenzustand die Vermögen trägt"@de,
         "Whether the threshold state carries the faculties"@en ;
@@ -1883,6 +1972,15 @@ pmc:ThresholdReceptionCorrespondence a pm:Converging ;
     pm:convergingConcept pmc:ClearLightOfSleep,
         pmc:Theopemptos ;
     pm:transmissionPath "The correspondence must not be counted as independent attestation. The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa and is reception, as the file that holds it records. The Mediterranean witnesses are worse still for this purpose: the later Jewish and Islamic dream theory rests on a Neoplatonic substrate, so an agreement between the Greek, the Jewish and the Islamic account is a shared inheritance and not three independent observations. What would count as a finding is a tradition outside both blocks, and none has been located." .
+
+pmc:TokenBroughtBack a pm:Conceptualizing ;
+    rdfs:label "Ein Zeichen wird von dem Ort mitgebracht"@de,
+        "A token is brought back from the place"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 55-57" ;
+    skos:definition "He returns with a knife, a ring or some other token of his knowledge of what is done in those parts, and on rising shows what he has brought from thence, so that the account may seem certain. The recorder notes that the other report he uses mentions no such thing."@en ;
+    skos:note "That the two reports the compiler used disagree about whether the token exists is recorded with the claim and not smoothed away. He names the report that lacks it. Which of the two is right is not decidable here, and the disagreement is itself the reason no examination node is written."@en,
+        "This is the most examinable claim in the file. It is not a report of a perception but the production of a physical object said to have come from a named distant place, in front of witnesses, at a stated moment. What would refute it is obvious and requires nothing but the object and the place, and it is entered chiefly for that reason."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:TrainingPresupposesPreliminaries a pm:Presupposing ;
     rdfs:label "Das Training setzt die Vorbereitungen voraus"@de,
@@ -2026,6 +2124,15 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
 
+pmc:WhatLiesStillWhileHeTravels a pm:Conceptualizing ;
+    rdfs:label "Was da stillliegt"@de,
+        "What it is that lies still"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, p. 56" ;
+    skos:definition "Three positions are reported side by side. Some hold that those who cast themselves down are not really but only in appearance dead. Others hold that the soul departs from the body and, after its travel abroad, returns again. The compiler holds both to be false, on the ground that it is impossible for either man or devil to restore a soul to the body it has once left, and concludes that the devil only stifles the faculties of the soul for a time and hinders their operations."@en ;
+    skos:note "No dispute node is written, and the reason is a rule of this repository rather than a judgement about the material. A dispute cites each side from its own work; here all three positions stand in one compilation, reported by one man, and two of them without an owner. What the passage establishes is that the question was open among those the compiler drew on, not who held what."@en,
+        "The compiler's own position is reached from a doctrine and not from the material: he rejects the departure of the soul because it would be theologically impossible, not because anything he was told tells against it. That is worth recording, because the same move settles the question for him everywhere else in the chapter."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmc:WhetherTheHuacaSpeaks a pm:Disputing ;
     rdfs:label "Ob die Huaca spricht oder der Priester für sie"@de,
         "Whether the huaca speaks or the priest speaks for it"@en ;
@@ -2050,6 +2157,18 @@ pmc:WhetherTheSelfIsKeptOrSurrendered a pm:Disputing ;
         "The sides do not differ over means, and both say so. The one states that the signpost of a right-hand and a left-hand path is barely legible, that the two look alike for a long way, and that the question is at which point they diverge; he puts the divergence at the crossing of the Abyss and separates the sorcerer from the brother of the left-hand path as sharply as a thief from a tyrant. The other derives his word from an Egyptian term for coming into being and applies it to the transformation of the will, not to any particular practice. Whatever is at issue between them, it is not method."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:XeperAsSelfGeneration .
+
+pmc:WhoseTheDrumIs a pm:Disputing ;
+    rdfs:label "Ob die Trommel der Sonne gehört oder Gott"@de,
+        "Whether the drum belongs to the sun or to God"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 47-48",
+        "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, pp. 476-477" ;
+    skos:definition "The two recorders describe the same instrument and disagree about what is invoked over it. The compilation of sixteen seventy-four has the drum made from a tree whose grain turns with the course of the sun, because the tree is held acceptable to the sun, which they worship under the image of Thor; the whole art is treated as heathen and the answers as the devil's. The account of seventeen sixty-seven reports a named practitioner who, going to use his drum, marked himself and it with the sign of the cross as an earnest of good success, said the Lord's Prayer, invoked God the Father, the Son and an angel to assist him, and in the middle of the work broke out into a prayer to the God who created the heaven and the earth, calling himself a man liable to error, old and unworthy, and saying it were better that he should die than that God should deny help to the one on whose behalf they entreated."@en ;
+    skos:note "Ninety years lie between them and the second recorder had read the first, so this is not two independent descriptions of one moment. What it is, is a transmission caught in the middle of taking something over: the instrument, the hammer, the ring and the rule of the sun's course are unchanged, and what is said over them has been replaced. The reading rule survived the theology that was given for it, which says something about which of the two the practice actually rested on."@en,
+        "That the later station added something to what it received is exactly the shape pm:Reworking is for, and no reworking node is written: the addition here is Christian and the transmission it came from is not the one that performed the act. The class as it stands wants one tradition taking over from another, and this is a tradition taking over from the mission that was suppressing it. The gap is recorded rather than forced."@en,
+        "The second recorder notices one detail against himself and reports it: that in calling the Holy Ghost an angel the man used a word he had never heard the Lapps use for it anywhere he knew, where they say Passe Vuoign. He records the anomaly instead of correcting it, which is why the passage can be used at all."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmp:RunicDrumConsultation .
 
 pmc:WitchcraftDreamIsExperienceNotSymbol a pm:Conceptualizing ;
     rdfs:label "Ein böser Traum ist eine Erfahrung der Hexerei, kein Zeichen für sie"@de,
@@ -3516,15 +3635,6 @@ pmt:Rosicrucian a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Fama Fraternitatis; Confessio Fraternitatis; Chymische Hochzeit Christiani Rosencreutz" .
 
-pmt:SamiNoaidi a pm:Tradition ;
-    rdfs:label "Samische Noaidi-Überlieferung"@de,
-        "Sámi noaidi transmission"@en ;
-    skos:definition "The Sámi transmission of the drum as an instrument of divination and of a journey undertaken while the body lies still."@en ;
-    skos:note "Recorded almost entirely by missionaries engaged in suppressing it, which makes every passage a hostile witness and the hostility itself a datum."@en ;
-    pm:contactRoute pm:contactRouteUndecided ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf" .
-
 pmt:Samkhya a pm:Tradition ;
     rdfs:label "Sāṃkhya"@de,
         "Sāṃkhya"@en ;
@@ -3917,6 +4027,16 @@ pmc:DogonKnowledgeOfSiriusCompanion a pm:Originating ;
         "The second decisive sentence is a footnote. Where the article gives the orbital period as some fifty years, the note observes that this period is very close to that of the companion of Sirius and cites a French astronomical periodical of nineteen thirty-one for it. The identification is therefore the recorders' and is made in the recorders' own apparatus; the body of the text never says Sirius B. What the informants are reported as saying and what the note makes of it are separable on the page, and separating them is what this node exists for."@en ;
     pm:circulatesAs "ancient Dogon astronomy: a pre-contact African tradition holding the existence, period and density of Sirius B, cited both as evidence of a lost indigenous science and as evidence of extraterrestrial contact" ;
     pm:originatedBy "Marcel Griaule and Germaine Dieterlen" .
+
+pmc:DrumWoodTurningWithTheSun a pm:Conceptualizing ;
+    rdfs:label "Holz, das sich mit dem Sonnenlauf dreht"@de,
+        "Wood that turns with the sun's course"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, Of the magicall Ceremonies of the Laplanders, pp. 47-48" ;
+    skos:definition "The qualifying material of the drum. It must be a pine, fir or birch grown in a particular place and turning directly according to the sun's course, which the recorder defines: the grain of the wood, running from the bottom of the tree to the top, winds itself from the right hand to the left. A tree so grown is held acceptable to the sun."@en ;
+    skos:note "A second condition on the same material stands in the same passage: the piece must be taken from the root, cleft asunder and hollowed on one side, and the skin is stretched over the hollow. It is entered here rather than as a node of its own because it names no criterion by which a piece could fail, only a manner of working."@en,
+        "The direction is stated twice in this file in frames that do not obviously agree. Here the sun's course is the grain winding from the right hand to the left as it rises; at pmc:SunCourseRule it is the ring travelling round towards the right hand. Whether a spiral seen along a rising trunk and a ring seen on a flat skin describe one direction or two is not decidable from the passages, and is left standing rather than harmonised."@en,
+        "The recorder gives the sun-acceptability as his own conjecture — 'from this perhaps they believe' — not as something told to him. The requirement is reported; its reason is his."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:EmmeYaTolo a pm:Conceptualizing ;
     rdfs:label "Emme ya tolo, der Weibliche-Hirse-Stern"@de,
@@ -4397,6 +4517,17 @@ pmc:StrikingOfSpirits a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
     skos:definition "The disclosure of harmful operations: the striking of spirits and demons, the killing of the embryo in the womb, the serpent's bite and the stroke of the noonday heat."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:SunCourseRule a pm:Conceptualizing ;
+    rdfs:label "Die Regel des Sonnenlaufs"@de,
+        "The rule of the sun's course"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, p. 57",
+        "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, pp. 474 and 477" ;
+    skos:definition "The single rule by which the drum is read. If the ring travels round towards the right hand, with the course of the sun, health, fortune and increase of men and beasts are promised. If it goes the contrary way, towards the left, sickness and all the evils of ill success are expected. The later recorder gives the same rule in weaker terms on the negative side: with the sun it augured a favourable event, against the sun a doubt then arose of a prosperous one."@en ;
+    skos:note "One further reading is given by the later recorder alone, from a named practitioner: that if the copper bird laid on the skin falls from the drum to the earth, it is a sign that the person enquired of will soon die. That is a third outcome beside the two directions, and it is entered here because a binary instrument with a third outcome is not binary."@en,
+        "The difference between them is not nothing. The earlier makes the contrary turn a prediction of evil; the later makes it only a doubt. Whether that is a change in the practice, a difference between regions, or the difference between a compiler stating a rule and a missionary reporting what a man told him is not decidable from the two passages."@en,
+        "Two recorders, ninety years apart, one compiling from priests' reports in Uppsala and one living among the people, give the same reading rule tied to the same physical direction. It is the best-attested single claim in this file."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:Tapu a pm:Conceptualizing ;
     rdfs:label "Tapu"@de,
@@ -5115,6 +5246,14 @@ pmp:MideInitiationFourthDegree a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Midewiwin .
 
+pmp:NoaidiJourney a pm:Practicing ;
+    rdfs:label "Die Reise bei stillliegendem Leib"@de,
+        "The journey made while the body lies still"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 55-56" ;
+    skos:definition "The practitioner beats the drum and sings, others present singing with him in higher and lower notes. He then casts himself on the ground, grows black in the face and lies as if dead, the drum laid as near as possible on his head, sweating. Those present do not leave off singing for the whole time. When he awakes he relates all the circumstances of the business enquired after."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SamiNoaidi .
+
 pmp:WitchDoctorMedicineEating a pm:Practicing ;
     rdfs:label "Das Essen der Medizinen der Hexendoktoren"@de,
         "Eating the medicines of the witch-doctors"@en ;
@@ -5147,6 +5286,13 @@ pmc:DiscernmentOfOrigins a pm:Conceptualizing ;
         "Evagrius Ponticus, Praktikos 80" ;
     skos:definition "The examination of an inner movement for its origin, distinguished threefold as angelic, human or demonic."@en ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:DistantSight a pm:Conceptualizing ;
+    rdfs:label "Das Sehen des Entfernten"@de,
+        "Seeing what is at a distance"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 46-47 and pp. 55-57" ;
+    skos:definition "The capacity the whole transmission is consulted for: to know what is happening at a place too far off to be seen or reached, and to report it on returning."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:DivyaSrotra a pm:Conceptualizing ;
     rdfs:label "Göttliches Ohr"@de,
@@ -5267,6 +5413,16 @@ pmp:BengeConsultation a pm:Practicing ;
     skos:note "The operators are generally boys between twelve and sixteen, old enough to keep the food taboos and young enough to keep the sexual one. The consultation is held in public, and the bystanders may interrupt the questioner to have a point put that he has left out."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmp:RunicDrumConsultation a pm:Practicing ;
+    rdfs:label "Die Befragung der Trommel"@de,
+        "Consulting the drum"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 47-48 and p. 57",
+        "Knud Leem, An Account of the Laplanders of Finmark, their Language, Manners and Religion, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, Of the Magic Arts of the Laplanders, pp. 474-477" ;
+    skos:definition "A bowl of hollowed pine, fir or birch with a skin stretched over it, painted with figures of the gods, the angels, the evil spirits, the associates of the noaidi, the sun, the dwellings, the sacred mountains and the beasts of the country. A ring or a brass cover is laid on the skin, the skin is struck with a hammer of reindeer horn, and the ring travels across the painted figures. Where it comes to rest, or which way it runs, gives the answer."@en ;
+    skos:note "The two recorders describe the same instrument ninety years apart and their descriptions of the mechanism agree in every part that matters: the hammer of horn, the ring or cover laid on the skin, the painted field, the reading from where the ring goes. The later adds what the earlier does not: that the drum is not thought fit for use unless got by inheritance, and that women may not touch it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmt:EleusinianMysteries a pm:Tradition ;
     rdfs:label "Eleusinische Mysterien"@de,
@@ -5479,6 +5635,11 @@ pmt:NahuaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
 
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -5511,11 +5672,6 @@ pm:Converging a owl:Class ;
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
-
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
         "Māori transmission"@en ;
@@ -5527,13 +5683,6 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
-
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
@@ -5564,6 +5713,13 @@ pmt:Dogon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -5583,13 +5739,6 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
         "Originating"@en ;
@@ -5597,11 +5746,6 @@ pm:Originating a owl:Class ;
     skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
-
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -5623,6 +5767,31 @@ pmt:PatanjalaYoga a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Only Yogasūtra III.38 carries the edition it was read from; it was reopened in the Sanskrit for that purpose. For every other citation in this file, and for the Yogabhāṣya, the edition or translation the passage was read from is not recoverable: the session that entered them did not record it, and it cannot be reconstructed from the wording of the nodes. It is stated here rather than guessed, because an edition entered by inference would be a claim about the compiler's work that is not true. Until the passages are reopened, the verse numbers in this file stand on the received four-pāda division and nothing further."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pmt:SamiNoaidi a pm:Tradition ;
+    rdfs:label "Samische Noaidi-Überlieferung"@de,
+        "Sámi noaidi transmission"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, Of the magicall Ceremonies of the Laplanders, pp. 45-47" ;
+    skos:definition "The Sámi transmission of a drum read by the travel of a ring across painted figures, of an office entered through a threefold seizure, and of a journey to a distant place undertaken while the body lies as if dead and from which a token is brought back."@en ;
+    skos:note "Read in this run, both at the wording: the compilation of sixteen seventy-four in its Oxford English edition, chapter VIII on the religion and chapter XI on the magical ceremonies; and the account of Danish Lapland of seventeen sixty-seven in the English translation printed in a collection of eighteen hundred and eight, its chapter on the magic arts. Left unread: the remaining thirty-three chapters of the first and the remaining twenty-two of the second, and the treatise on the pagan religion of the Finns and Lapps printed with the second."@en,
+        "The contact route is entered as documented and no longer as undecided, and the ground is inside the practice rather than around it. By seventeen sixty-seven a named practitioner marked himself and his drum with the sign of the cross, said the Lord's Prayer over it and invoked God the Father, the Son and an angel before striking it. That is a route to the Christian material this graph already holds, visible in the operation itself and not inferred from proximity. It says nothing about the route to the Siberian material or to the Norse, which is the question the registry entry meant and which is still not carried out; the predicate is single-valued and cannot hold both answers, so it holds the stronger. See prima-materia#101."@en,
+        "The recorder of seventeen sixty-seven applies source criticism to his own material, and it is entered here because it is rare and because it bears on how the rest of this file is to be read. Of the confessions of witchcraft in the Norwegian trials he says that it is probable they were extorted, partly by violence and fear, and that it appears from the law books that some were put to the torture before they would confess. He then separates that material from what he goes on to report of the Sámi themselves. The separation is his and it is the reason the trial material is not in this file."@en,
+        "The two are of different kinds and that is why both were opened. The first was written by a professor at Uppsala who never went to Lapland, on the commission of the Chancellor of Sweden, out of the written reports of parish priests whom he names in the text — so what it carries is at one remove and its author says so. The second was written by a missionary who lived among the people he describes and who reports named practitioners in their own words. The first is a compilation with a stated method; the second is first-hand and confessional. Where the two agree, the agreement is worth something; where the first stands alone, it stands on reports it names but this graph has not seen."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
@@ -5659,13 +5828,6 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -5679,6 +5841,13 @@ pmt:Andean a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -5727,13 +5896,6 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
-pm:Presupposing a owl:Class ;
-    rdfs:label "Voraussetzen"@de,
-        "Presupposing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
-    skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
@@ -5741,6 +5903,13 @@ pmt:Enochic a pm:Tradition ;
     skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Presupposing a owl:Class ;
+    rdfs:label "Voraussetzen"@de,
+        "Presupposing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
+    skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
 
 pm:Practicing a owl:Class ;
     rdfs:label "Praktizieren"@de,
