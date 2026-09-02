@@ -916,6 +916,21 @@ pmc:HauOfTheGiftWordingDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:HauOfTheGift .
 
+pmc:HeatWithoutBreathProtocol a pm:Testing ;
+    rdfs:label "Ob die sanftere Form dieselbe Hitze erzeugt"@de,
+        "Whether the gentler form produces the same heat"@en ;
+    skos:definition "An examination of whether the effect measured in the practice survives the removal of its forceful-breath component."@en ;
+    skos:note "No new evidence was gathered for this protocol and none was needed. The measurements already held at pmc:TummoHeatExamination separate the two components and report the temperature rise as depending on the forceful breath together with the visualisation, with the visualisation alone yielding the lesser effect. The claim that the breath may be dropped is therefore addressed by evidence that has stood in this file since the twenty-eighth of August."@en,
+        "The finding matters more than its size. Where a draft and its source transmission differ on a component, and the difference is exactly the component the measurements isolate, the draft is testable at that seam and almost nowhere else. Removing a prescribed element and claiming the effect survives is the one kind of modification that instruments can settle."@en,
+        "What is not settled. That the gentler form yields less heat is not that it yields none, and the studies were not designed to find the floor. The deviation recorded here is from the claim of sameness and not from the claim that the gentler form does anything at all."@en ;
+    pm:baseRate "Temperature change under the visualisation alone, against the change under visualisation together with the forceful breath, in the same participants."@en ;
+    pm:evidenceFrom "M. Kozhevnikov et al., Neurocognitive and somatic components of temperature increases during g-tummo meditation, PLoS ONE 8(3) (2013), e58244, doi:10.1371/journal.pone.0058244" ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "Not devised here. The separation of the two components is the design of the second study already cited in this file" ;
+    pm:falsifiedBy "Practitioners of the gentler form show the same rise in measured body temperature as practitioners of the form with the forceful breath."@en ;
+    pm:protocolUpdated "2026-09-02" ;
+    pm:tests pmc:HeatWithoutForcefulBreath .
+
 pmc:HermeticPolarityOfMentalStates a pm:Originating ;
     rdfs:label "Die Polarität der Gemütszustände"@de,
         "The polarity of mental states"@en ;
@@ -4295,6 +4310,13 @@ pmc:HealingByTouch a pm:Conceptualizing ;
     skos:definition "The restoration of a withered hand and of sight, ascribed to the touch of a ruler in Alexandria."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:HeatWithoutForcefulBreath a pm:Positing ;
+    rdfs:label "Die Hitze entsteht ohne den kraftvollen Atem"@de,
+        "The heat arises without the forceful breath"@en ;
+    skos:definition "The claim that the gentler form of the practice, without the forceful breathing, produces the same effect as the form the tradition prescribes."@en ;
+    skos:note "Entered because it is the point where the method draft parts company with the transmission it draws on. The transmission prescribes the forceful breath; the draft says it can be left out. That is a claim about the draft's own variant and belongs to nobody else, which is why it is posited and not sourced."@en ;
+    pm:positedIn "prima-materia#318" .
+
 pmc:HusbandHasSecondSight a pm:Attributing ;
     rdfs:label "Dem Mann der Erzählerin wird das zweite Gesicht zugeschrieben"@de,
         "The narrator's husband is said to have the gift of second sight"@en ;
@@ -5643,24 +5665,12 @@ pm:MethodOrientation a owl:Class ;
     skos:note "Absence of pm:methodOrientation on a node means the axis was not determined for it. It does not mean the middle value, and it does not mean pm:normDistinctionDeclined, which is a positive claim about a source and carries the same burden as any other."@en,
         "Held apart from pm:TelicOrientation deliberately, and that separation is the whole reason both classes exist. The two vary independently: a path can take the forbidden as its vehicle and still aim at dissolution into what exceeds the self. A scheme with one axis cannot state that case, and the terms that carry one axis — right-hand path, left-hand path — therefore report a transgressive means as though it were a separative goal. See prima-materia#52."@en .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:PrerequisiteStrength a owl:Class ;
     rdfs:label "Stärke der Voraussetzung"@de,
         "Prerequisite Strength"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "How firmly a source sets a prerequisite: as a necessity, as an instruction, or merely by the order in which it presents its material."@en ;
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en .
-
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -5702,6 +5712,18 @@ pm:CoverageState a owl:Class ;
     rdfs:label "Erschließungsstand"@de,
         "Coverage state"@en ;
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
+
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
@@ -6042,13 +6064,6 @@ pmt:Andean a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
         "Yielding"@en ;
@@ -6061,6 +6076,13 @@ pm:Attributing a owl:Class ;
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
