@@ -278,6 +278,18 @@ pmc:BirchBarkRecord a pm:Conceptualizing ;
     skos:note "Two things follow from this and both bear on how the rest of the file is to be read. The society keeps a written record by its own means, which is unusual among the transmissions this graph registers as lacking a corpus. And the capacities of the degrees are stated as readings of marks on such a chart, so what the report carries is an informant's exegesis of a pictograph and not a free verbal account; that is a different kind of witness, and arguably a firmer one, because the marks were there before the question was asked."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:BrowContactProtocol a pm:Testing ;
+    rdfs:label "Ob der Ort der Berührung einen Unterschied macht"@de,
+        "Whether the place of contact makes a difference"@en ;
+    skos:definition "An examination of whether contact at the brow differs from contact elsewhere on the head in what the recipient reports."@en ;
+    skos:note "Procedure without cases. The design is the same as for the palms and inherits the same controls, with one addition that matters more here: the brow is the place the recipient has most often been told about, so an effect found without blinding him to the site would be an effect of the telling."@en,
+        "What a negative result would and would not settle. It would touch the draft's addition and leave pmc:Saktipata untouched: a descent of power that names no place cannot be refuted by showing that a named place does nothing. Keeping the two apart is why this node tests the posit and not the transmission."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Not devised here. The falsifying condition follows from the claim naming a site" ;
+    pm:falsifiedBy "Recipients blinded to the site of contact report no difference between contact at the brow and contact at another site on the head beyond chance."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:BrowContactOpensTheBrow .
+
 pmc:Camac a pm:Conceptualizing ;
     rdfs:label "Camac, der angerufene Macher"@de,
         "Camac, the maker that is invoked"@en ;
@@ -1825,6 +1837,18 @@ pmc:SeizureTakenAsCall a pm:Conceptualizing ;
     skos:note "The transmission gives its own explanation of the sign, and the explanation is an inference from the practitioner's state back to the novice's: the office is recognised by the symptom that the office produces. The recorder adds his own competing explanation, that the loss of judgement comes from the devil or from the strength of the chicha they drink before speaking with the huaca. Both are recorded; neither is the graph's."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:SendingOrganProtocol a pm:Testing ;
+    rdfs:label "Ob der berührende Körperteil einen Unterschied macht"@de,
+        "Whether the part in contact makes a difference"@en ;
+    skos:definition "An examination of whether contact through the palms differs in its reported or measured effect from contact through another part."@en ;
+    skos:note "Procedure without cases, and for the same reason as at pmc:HandSideTransferProtocol: the comparison needs no instrument the field lacks, and nobody has made it. What is absent is the case, not the means."@en,
+        "The controls that would have to hold before a difference could be read as a property of the part: which part the practitioner was taught to use, which part the recipient expects, and the difference in ordinary touch between a palm and a forearm. A protocol without them would have measured the training and the expectation."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Not devised here. The falsifying condition is the ordinary comparison the claim invites by naming one part and excluding the rest" ;
+    pm:falsifiedBy "Recipients blinded to the part in contact report or show no difference between contact through the palm and contact through another part beyond chance."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:PalmsAreTheSendingOrgan .
+
 pmc:SerialReadingOfTheEightLimbs a pm:Systematizing ;
     rdfs:label "Die serielle Lesart der acht Glieder"@de,
         "The serial reading of the eight limbs"@en ;
@@ -2196,6 +2220,21 @@ pmc:UbbegaPiti a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "The fourth of the five degrees of rapture, described as strong enough to lift the body."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:UnchosenSendingProtocol a pm:Testing ;
+    rdfs:label "Ob der ungewählte Zustand übergeht"@de,
+        "Whether the unchosen state transmits"@en ;
+    skos:definition "An examination of whether a sender's own affective state passes to a recipient in the absence of a deliberately chosen one."@en ;
+    skos:note "Read as a claim about ordinary channels, it holds and is among the better established findings in its field. Affective states pass between people who are merely in one another's presence, carried by expression, posture, voice and the automatic mimicry of them, and they pass without either party choosing it or noticing. The states a person is not presenting are the ones that leak most reliably."@en,
+        "The consequence for the draft, and it is not a refutation. What the claim describes occurs; it occurs through a channel that requires nothing the section posits. A practitioner who finds his own state arriving in the other person has not thereby found evidence for the transfer the section is about — he has found the effect that would be there anyway. The claim is confirmed and its confirmation supports nothing beyond itself."@en,
+        "The narrower claim that would carry the section is not examined here and is not touched by this node: that the unchosen state passes where the ordinary channels are closed, out of sight and out of earshot. That is a different protocol, it has no cases, and it must not borrow the confirmation recorded above."@en ;
+    pm:evidenceFrom "E. Hatfield, J. T. Cacioppo and R. L. Rapson, Emotional Contagion (Cambridge: Cambridge University Press, 1994)",
+        "P. Ekman and W. V. Friesen, Nonverbal leakage and clues to deception, Psychiatry 32 (1969), pp. 88-106" ;
+    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinedBy "Not devised here. The protocol reads the finding off the contagion literature and the work on involuntary nonverbal disclosure" ;
+    pm:falsifiedBy "Recipients in the presence of a sender in an unchosen state show no shift toward that state against a neutral condition."@en ;
+    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:tests pmc:UnchosenSendingCarriesTheActualState .
 
 pmc:UncreatedLight a pm:Conceptualizing ;
     rdfs:label "Ungeschaffenes Licht"@de,
@@ -4170,6 +4209,13 @@ pmc:BengeYieldsIdentificationOfTheWitch a pm:Yielding ;
     pm:withinTradition pmt:AzandeOracle ;
     pm:yieldsCapacity pmc:IdentificationOfTheWitch .
 
+pmc:BrowContactOpensTheBrow a pm:Positing ;
+    rdfs:label "Die Brauenöffnung eines anderen erfolgt durch Kontakt zwischen dessen Brauen"@de,
+        "The brow of another is opened by contact between the brows"@en ;
+    skos:definition "The claim that the opening of the brow centre in another person is brought about by contact applied at that point."@en ;
+    skos:note "This is the sharpest of the three, and the reason is what the transmission does not say. The śaiva material holds pmc:Saktipata, the descent of power from teacher to disciple, and it makes that descent the condition of everything that follows — but it names no place on the body where it enters. The draft supplies one. The addition is entirely the draft's, and it is the addition that can be checked."@en ;
+    pm:positedIn "prima-materia#315" .
+
 pmc:Cakra a pm:Conceptualizing ;
     rdfs:label "Cakra"@de,
         "Cakra"@en ;
@@ -4579,6 +4625,13 @@ pmc:OracleRankOrder a pm:Conceptualizing ;
     skos:note "The order is a rule about the direction in which confirmation may run and not merely a ranking by esteem. It is what makes the cheaper oracles usable at all: a man narrows the field with the termites and spends poison only on the final decision."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:PalmsAreTheSendingOrgan a pm:Positing ;
+    rdfs:label "Die Handflächen sind das Sendeorgan"@de,
+        "The palms are the organ of sending"@en ;
+    skos:definition "The claim that what passes from one person to another passes through the palms, and not through some other part indifferently."@en ;
+    skos:note "The force of the claim is in the exclusion. That the hands are used in transmission is reported widely and is not at issue; that they are the organ, so that another part would not serve, is the draft's addition and the part that can fail."@en ;
+    pm:positedIn "prima-materia#314" .
+
 pmc:ParalysisIsTheRegularShutdown a pm:Positing ;
     rdfs:label "Die Lähmung ist die reguläre Abschaltung der Motorik am Schlafübergang"@de,
         "The paralysis is the regular shutdown of movement at the threshold of sleep"@en ;
@@ -4838,6 +4891,13 @@ pmc:TummoYieldsInnerHeat a pm:Yielding ;
     pm:withinTradition pmt:TibetanTantric ;
     pm:yieldsCapacity pmc:InnerHeat .
 
+pmc:UnchosenSendingCarriesTheActualState a pm:Positing ;
+    rdfs:label "Senden ohne gewählte Signatur überträgt den eigenen Ist-Zustand"@de,
+        "Sending without a chosen signature carries the sender's actual state"@en ;
+    skos:definition "The claim that where no state is deliberately chosen for transmission, the one the sender is in transmits instead."@en ;
+    skos:note "A claim about a failure mode rather than about a capacity, and that is what makes it the most tractable of the three. It says what happens when the practice is done wrong, and a claim about going wrong names an outcome that can be looked for."@en ;
+    pm:positedIn "prima-materia#316" .
+
 pmc:Vespasian a pm:Conceptualizing ;
     rdfs:label "Vespasian"@de,
         "Vespasian"@en ;
@@ -4919,11 +4979,6 @@ pm:Symbolizing a owl:Class ;
         "Symbolizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
-
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
 
 pm:claimDoesNotDiscriminate a pm:ExaminationState ;
     rdfs:label "Behauptung unterscheidet nicht"@de,
@@ -5479,6 +5534,11 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -5886,13 +5946,6 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Positing a owl:Class ;
-    rdfs:label "Setzen"@de,
-        "Positing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
-    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
-
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -5905,11 +5958,6 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
@@ -5924,10 +5972,22 @@ pmt:NahuaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
 
+pm:Positing a owl:Class ;
+    rdfs:label "Setzen"@de,
+        "Positing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
+    skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
@@ -6168,17 +6228,17 @@ pmt:Theravada a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
