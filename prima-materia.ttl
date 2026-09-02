@@ -1677,6 +1677,18 @@ pmc:SamyamaYieldsParakayaPravesa a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:ParakayaPravesa .
 
+pmc:SantaAsSourceOfAllRasa a pm:Conceptualizing ;
+    rdfs:label "Die Ruhe als Quelle der übrigen ästhetischen Zustände"@de,
+        "Calm as the source of the other aesthetic states"@en ;
+    dcterms:source "Abhinavagupta, Abhinavabhāratī, on Nāṭyaśāstra VI" ;
+    skos:definition "The commentator's claim that the calm state is not one aesthetic state beside the others but their source: the various feelings arise out of calm through their particular causes, and melt back into calm when those causes fall away."@en ;
+    skos:note "Attestation is mediated and the reason is the language and not the reachability. The critical edition of the commentary is digitised and openly available, and so is the edition of the rival position named in prima-materia#363; the passage below was read in the English rendering of a study that prints and translates it. The mediated mode is therefore an open posting to be raised as soon as someone reads the Sanskrit, not a statement that the work cannot be had."@en,
+        "The base treatise arranges its states by derivation, deity and colour and ranks none of them. This claim is the commentator's and belongs to him, which is why it stands as its own node and not as a property of the treatise."@en,
+        "The reason it matters for this graph. It is a claim about the top of an order and not about an order running through: it makes one state the ground of the rest on metaphysical grounds, and it does not place unlike states on a common measure. Anyone citing it as evidence that the transmission ranks aesthetic states on a scale is reading it for something it does not say."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "J. L. Masson and M. V. Patwardhan, Śāntarasa and Abhinavagupta's Philosophy of Aesthetics (Bhandarkar Oriental Series 9, Poona: Bhandarkar Oriental Research Institute, 1969), where the passage is printed and translated" ;
+    pm:withinTradition pmt:SanskritDramaturgy .
+
 pmc:SarielTeachesCourseOfTheMoon a pm:Attributing ;
     rdfs:label "Sariel offenbart den Lauf des Mondes"@de,
         "Sariel discloses the course of the moon"@en ;
@@ -5570,15 +5582,6 @@ pmt:Platonic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pmt:SanskritDramaturgy a pm:Tradition ;
-    rdfs:label "Sanskritische Dramaturgie"@de,
-        "Sanskrit dramaturgy"@en ;
-    dcterms:source "Nāṭyaśāstra VII" ;
-    skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en ;
-    skos:note "Edition finding, prima-materia#45. For both citations the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter division of the Nāṭyaśāstra differs between the recensions, so the number seven does not by itself locate the passage on the bodily signs."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
-
 pm:MethodOrientation a owl:Class ;
     rdfs:label "Ausrichtung der Methode"@de,
         "Method Orientation"@en ;
@@ -5608,6 +5611,15 @@ pmt:Hesychasm a pm:Tradition ;
     dcterms:source "Gregory Palamas, Triads in Defence of the Holy Hesychasts" ;
     skos:definition "The Byzantine tradition of the prayer of the heart and of the vision of the uncreated light, defended in the fourteenth century against the objection that such a light must be created."@en ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The Philokalia exists in Greek and in several translations whose contents and numbering differ, so a citation naming only the volume does not yet locate a text."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pmt:SanskritDramaturgy a pm:Tradition ;
+    rdfs:label "Sanskritische Dramaturgie"@de,
+        "Sanskrit dramaturgy"@en ;
+    dcterms:source "Nāṭyaśāstra VII" ;
+    skos:definition "The transmission of the Nāṭyaśāstra and the theory of aesthetic states that follows from it."@en ;
+    skos:note "Edition finding, prima-materia#45. For both citations the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The chapter division of the Nāṭyaśāstra differs between the recensions, so the number seven does not by itself locate the passage on the bodily signs."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
@@ -5725,14 +5737,6 @@ pm:AwarenessContext a owl:Class ;
         "Awareness Context"@en ;
     skos:definition "An epistemic mode in which a statement is asserted. Individual instances are defined in ontology/consciousness.ttl."@en .
 
-pm:mediatedAttestation a pm:Attesting ;
-    rdfs:label "Vermitteltes Zeugnis"@de,
-        "Mediated attestation"@en ;
-    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
-    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
-        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
-        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -5741,6 +5745,14 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
