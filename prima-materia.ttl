@@ -102,6 +102,18 @@ pmc:AngelOfLightDeception a pm:Cautioning ;
     pm:cautionsAbout pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:AnswersFromAnUncontrolledOutcome a pm:Generalizing ;
+    rdfs:label "Antworten am Ausgang, den der Betreiber nicht beherrscht"@de,
+        "Answers fixed to an outcome the operator does not control"@en ;
+    skos:note "A third case was considered and not used. The Sámi drum answers by the travel of a ring that the operator does not steer, and the reading rule is attested twice ninety years apart (pmc:SunCourseRule). It is not entered here because that node states a rule of reading and not a claim that the reading comes true, and pm:generalizedFrom must point at claims and not at descriptions. Seen and left out, with the reason."@en,
+        "The Zande transmission has a feature that makes this generalization examinable rather than merely stateable: it prescribes a control, the second consultation that must reverse the first. It also names eight causes to which a failure of that control is attributed, so the condition never falls against the oracle itself. Both stand in traditions/azande.ttl, and both belong in any protocol devised against this node."@en,
+        "The comparison class is the whole of the claim and is the part to attack. An oracle that answers yes or no is measured against one half; a system of two hundred and fifty-six figures against one two-hundred-and-fifty-sixth. A protocol that does not fix the admissible set before the consultation measures nothing, because the set can always be narrowed afterwards to whatever came true."@en,
+        "Two attested claims from two transmissions with no route between them that this holding has established: the Zande poison oracle and the casting of the Ifá figures. The mechanism is the same in both and is the reason they are taken together — the answer is not read off the operator's judgement but off an outcome he does not steer."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:BengeYieldsIdentificationOfTheWitch,
+        pmc:CastingYieldsForeknowledge ;
+    pm:generalizedStatement "Procedures that fix an answer to the outcome of a physical process the operator cannot control name the state of affairs later established more often than an answer drawn at random from the same set of admissible answers."@en .
+
 pmc:ApanaForcedAgainstItsCourse a pm:Conceptualizing ;
     rdfs:label "Der abwärts gerichtete Wind wird mit Gewalt aufwärts getrieben"@de,
         "The downward wind driven upward by force"@en ;
@@ -303,15 +315,6 @@ pmc:Camac a pm:Conceptualizing ;
     skos:note "The term is entered at the strength the three passages give it and no higher. All three are the same recorder, and all three show him using the word as evidence that the Indians give to a stone what is due to God alone. What can be taken from them is that camac was the word used in address and that it was understood as making rather than as owning or protecting. What cannot be taken from them is a doctrine of camac as a substance or a force, which is a reading of the Quechua of Huarochirí and stands on a document this run could not open."@en,
         "The third of the three places is a question of the interrogatory the visitor was to put in every village. That the word had to be asked for by name shows that it was the recorder's own diagnostic and not an incidental report, which strengthens the evidence that it was in use and weakens the evidence about what it meant."@en ;
     pm:withinTradition pmt:Andean .
-
-pmc:CastingYieldsForeknowledge a pm:Yielding ;
-    rdfs:label "Der Wurf bringt das Vorauswissen hervor"@de,
-        "The casting yields foreknowledge"@en ;
-    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:IfaCasting ;
-    pm:withinTradition pmt:Ifa ;
-    pm:yieldsCapacity pmc:IfaForeknowledge .
 
 pmc:CatequillaPrediction a pm:Conceptualizing ;
     rdfs:label "Die Huaca, die einen Tod voraussagte und dafür verbrannt wurde"@de,
@@ -586,6 +589,22 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
         pmc:Dibbasota,
         pmc:Manomayakaya ;
     pm:withinTradition pmt:Theravada .
+
+pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
+    rdfs:label "Wahrnehmung des Unerreichbaren aus einem willentlich betretenen Zustand"@de,
+        "Perception of what is out of range, from a state entered at will"@en ;
+    skos:note "No pm:Testing points at this node, and that is its function rather than a defect. SPEC §16 makes the untested generalizations the queue for the examining layer; this one heads it, because it rests on more attested claims and more widely separated transmissions than anything else the holding can currently form."@en,
+        "Six attested claims from four transmissions: the Sámi journey made while the body lies still, two applications of saṃyama in the Yogasūtra, two of the graded degrees of the Midewiwin, and the Iglulik spirit calling. Each names its own work and passage; this node names none, because none of them says what it says."@en,
+        "The derivation is contestable at two points and both are left visible. First, whether the four transmissions describe one kind of practice at all: the Sámi journey, saṃyama, the Midewiwin degrees and the Iglulik calling agree in that the state is entered deliberately and differ in almost everything else. Second, whether reporting on a distant place and reading another mind are one effect or two — the sources treat them as neighbouring and this node treats them as one, which is a decision and not a finding."@en,
+        "Why the wording is as heavy as it is. The traditions say that the capacity is reached; a statement that repeated that could not fail at anything. What can fail is a comparison, so the statement is written as one, with the comparison group named — people working from the same prior information without the state. Whoever thinks the sentence overreaches should attack that clause, because it is the clause that carries the whole claim."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:FourthDegreeYieldsThoughtReading,
+        pmc:JourneyYieldsDistantSight,
+        pmc:SamyamaYieldsDivyaSrotra,
+        pmc:SamyamaYieldsParacittaJnana,
+        pmc:SecondDegreeYieldsDistantHearing,
+        pmc:SpiritCallingYieldsRecoveryOfLostThings ;
+    pm:generalizedStatement "Where a practitioner enters a stated inner state at will and then reports on a person, place or object outside the range of ordinary perception, the reports agree with independently established facts more often than reports produced, from the same prior information, by people who have not entered such a state."@en .
 
 pmc:DistinctivenessAgainstDissolution a pm:Originating ;
     rdfs:label "Die Unterschiedenheit als Streben des Geschöpfs gegen die Auflösung"@de,
@@ -888,15 +907,6 @@ pmc:FourthDegreeYieldsSoulSeizing a pm:Yielding ;
     pm:byPractice pmp:MideInitiationFourthDegree ;
     pm:withinTradition pmt:Midewiwin ;
     pm:yieldsCapacity pmc:MideSoulSeizing .
-
-pmc:FourthDegreeYieldsThoughtReading a pm:Yielding ;
-    rdfs:label "Der vierte Grad bringt das Gedankenlesen hervor"@de,
-        "The fourth degree yields the reading of thoughts"@en ;
-    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:MideInitiationFourthDegree ;
-    pm:withinTradition pmt:Midewiwin ;
-    pm:yieldsCapacity pmc:MideThoughtReading .
 
 pmc:FraudKnownAndBeliefHeld a pm:Conceptualizing ;
     rdfs:label "Der Betrug ist bekannt und der Glaube bleibt"@de,
@@ -1230,6 +1240,18 @@ pmc:InitiationPresupposesSaktipata a pm:Presupposing ;
     pm:priorStep pmc:Saktipata ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:InnerHeatFromBreathAndDirectedAttention a pm:Generalizing ;
+    rdfs:label "Wärme aus gehaltenem Atem und gerichteter Aufmerksamkeit"@de,
+        "Heat from a held breath and attention directed into the trunk"@en ;
+    skos:note "It is nonetheless the most examinable generalization the holding can currently form, and for a reason that has nothing to do with the number of witnesses: it names a quantity an instrument reads. The two clauses of the statement are separately refutable — a rise that a matched untrained person shows from the breathing alone refutes the second without touching the first."@en,
+        "The weakness is a route and it is stated rather than smoothed over. The Tibetan material received the Indic; these are not two independent witnesses but one transmission at two stations, and the count here is therefore one and not two. The class does not require independence, but a reader ordering the queue by the spread of the traditions under a generalization must see that this one has none."@en,
+        "Two attested claims: the Tibetan tummo instruction and the root seal of the Haṭhayogapradīpikā. Two is the floor the class sets and not a recommendation, and this node stands on the floor."@en,
+        "Two protocols in examinations/tummo-heat.ttl already address the tradition-level claim and the question whether the gentler form works without the forceful breath. Neither points here, and neither is extended by this node: a protocol on a generalization has to be devised against this wording, and the difference between the two levels is exactly what the wording adds."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:MulabandhaYieldsInnerFire,
+        pmc:TummoYieldsInnerHeat ;
+    pm:generalizedStatement "Practices that combine a retained or forcefully driven breath with attention directed to a named region of the trunk raise the practitioner's measured peripheral temperature above what the same person shows at rest under the same ambient conditions, and by more than the breathing alone produces in a person not trained in the practice."@en .
+
 pmc:InuitForkSignOfSurvival a pm:Conceptualizing ;
     rdfs:label "Das an der Gabel gelesene Zeichen"@de,
         "The sign read from the fork"@en ;
@@ -1255,15 +1277,6 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
-
-pmc:JourneyYieldsDistantSight a pm:Yielding ;
-    rdfs:label "Die Reise bringt das Wissen um den fernen Ort hervor"@de,
-        "The journey yields the knowledge of the distant place"@en ;
-    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 55-57" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:NoaidiJourney ;
-    pm:withinTradition pmt:SamiNoaidi ;
-    pm:yieldsCapacity pmc:DistantSight .
 
 pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     rdfs:label "Kasdeja offenbart das Schlagen der Geister"@de,
@@ -1517,16 +1530,6 @@ pmc:Migis a pm:Conceptualizing ;
     skos:definition "The sacred shell of the society, said in the origin account to have been shot into the body of the first recipient so that he might have immortality and be able to confer the secrets on his kinsmen."@en ;
     skos:note "The shell is not a token of membership but the vehicle of the transfer: the account makes the entry of the shell into the body the act by which the capacity passes, and the same act is repeated at every degree."@en ;
     pm:withinTradition pmt:Midewiwin .
-
-pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
-    rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
-        "The root seal yields the kindled inner fire"@en ;
-    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.66-68 (Sanskrit vulgate; Sinh 1915)" ;
-    skos:note "The pairing is set at the fire and not at the reversal on purpose. The manual defines the root seal as the drawing upward of the downward wind, so a claim that the seal produces that upward movement would assert only that the practice is what it is. The heat, the lengthened flame and the waking of the power are consequences the verses state beyond the definition, and they are what a protocol could address."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Mulabandha ;
-    pm:withinTradition pmt:Hathayoga ;
-    pm:yieldsCapacity pmc:KindledInnerFire .
 
 pmc:Nahualli a pm:Conceptualizing ;
     rdfs:label "Nahualli"@de,
@@ -1869,24 +1872,6 @@ pmc:SamyamaYieldsDivyaCaksus a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:DivyaCaksus .
 
-pmc:SamyamaYieldsDivyaSrotra a pm:Yielding ;
-    rdfs:label "Saṃyama bringt das göttliche Ohr hervor"@de,
-        "Saṃyama yields the divine ear"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.41" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Samyama ;
-    pm:withinTradition pmt:PatanjalaYoga ;
-    pm:yieldsCapacity pmc:DivyaSrotra .
-
-pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
-    rdfs:label "Saṃyama auf die Vorstellung bringt Kenntnis fremden Bewusstseins hervor"@de,
-        "Saṃyama on the presented idea yields knowledge of another mind"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.19" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Samyama ;
-    pm:withinTradition pmt:PatanjalaYoga ;
-    pm:yieldsCapacity pmc:ParacittaJnana .
-
 pmc:SamyamaYieldsParakayaPravesa a pm:Yielding ;
     rdfs:label "Saṃyama bringt den Eintritt in einen anderen Körper hervor"@de,
         "Saṃyama yields entry into another body"@en ;
@@ -1933,16 +1918,6 @@ pmc:SattvikaBhava a pm:Conceptualizing ;
     dcterms:source "Nāṭyaśāstra VII" ;
     skos:definition "Eight bodily signs held to arise from the inner constitution rather than from will: paralysis, perspiration, horripilation, change of voice, trembling, change of colour, tears, and fainting."@en ;
     pm:withinTradition pmt:SanskritDramaturgy .
-
-pmc:SecondDegreeYieldsDistantHearing a pm:Yielding ;
-    rdfs:label "Der zweite Grad bringt das Fernhören hervor"@de,
-        "The second degree yields hearing at a distance"@en ;
-    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
-    skos:note "One node per pairing, following traditions/patanjala-yoga.ttl, because a protocol would have to take the pairings one at a time and because the four capacities of this degree are not equally examinable."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:MideInitiationSecondDegree ;
-    pm:withinTradition pmt:Midewiwin ;
-    pm:yieldsCapacity pmc:MideDistantHearing .
 
 pmc:SecondDegreeYieldsDistantTouch a pm:Yielding ;
     rdfs:label "Der zweite Grad bringt das Fernberühren hervor"@de,
@@ -2139,17 +2114,6 @@ pmc:SixtyYearReckoningPresupposesTheDiscovery a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:KnowledgeOfSeedStarCharacteristics ;
     pm:withinTradition pmt:Dogon .
-
-pmc:SpiritCallingYieldsRecoveryOfLostThings a pm:Yielding ;
-    rdfs:label "Das Geisterrufen soll Verlorenes wiederbringen"@de,
-        "Spirit calling is said to recover what has been lost"@en ;
-    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
-    skos:definition "The claim, made by the narrator about her second husband, that when a knife was lost he would hold a spirit calling and in that way recover it."@en ;
-    skos:note "The most examinable claim in the portion read, and the reason it is entered separately from the capacity it names. It states a repeatable occasion, a named class of object, and an outcome that either occurred or did not; it is not a claim about a state of the practitioner. What it does not state is any case in which the calling was held and the knife stayed lost."@en ;
-    pm:attestedBy pm:thirdPartyAscription ;
-    pm:byPractice pmp:InuitSpiritCalling ;
-    pm:withinTradition pmt:InuitAngakkuq ;
-    pm:yieldsCapacity pmc:InuitRecoveryOfLostThings .
 
 pmc:SpiritPresupposesBreath a pm:Presupposing ;
     rdfs:label "Die Verfeinerung des Geistes setzt die des Atems voraus"@de,
@@ -4517,15 +4481,6 @@ pmc:BeautyOfOneBody a pm:Conceptualizing ;
     skos:definition "The first object of the ascent, from which the climb begins."@en ;
     pm:withinTradition pmt:Platonic .
 
-pmc:BengeYieldsIdentificationOfTheWitch a pm:Yielding ;
-    rdfs:label "Das Giftorakel bringt die Benennung des Hexers hervor"@de,
-        "The poison oracle yields the naming of the witch"@en ;
-    dcterms:source "E. E. Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande, abridged by Eva Gillies (Oxford: Clarendon Press, 1976), pp. 35-36 and pp. 141-143" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:BengeConsultation ;
-    pm:withinTradition pmt:AzandeOracle ;
-    pm:yieldsCapacity pmc:IdentificationOfTheWitch .
-
 pmc:BrowContactOpensTheBrow a pm:Positing ;
     rdfs:label "Die Brauenöffnung eines anderen erfolgt durch Kontakt zwischen dessen Brauen"@de,
         "The brow of another is opened by contact between the brows"@en ;
@@ -4540,6 +4495,15 @@ pmc:Cakra a pm:Conceptualizing ;
     skos:definition "A centre of the subtle body, described in the source with its seed syllables and its position along the central channel."@en ;
     skos:note "The count varies across the older tantras, which give four, five or six. The tradition does not assign the centres the psychological qualities that modern presentations attach to them."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:CastingYieldsForeknowledge a pm:Yielding ;
+    rdfs:label "Der Wurf bringt das Vorauswissen hervor"@de,
+        "The casting yields foreknowledge"@en ;
+    dcterms:source "A. B. Ellis, The Yoruba-Speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1894), chapter II, the section on Ifa" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:IfaCasting ;
+    pm:withinTradition pmt:Ifa ;
+    pm:yieldsCapacity pmc:IfaForeknowledge .
 
 pmc:CompletionStage a pm:Conceptualizing ;
     rdfs:label "Vollendungsstufe"@de,
@@ -4699,6 +4663,15 @@ pmc:FiveHindrances a pm:Conceptualizing ;
     skos:definition "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt, whose abandoning the discourse describes immediately before entry into the first absorption."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:FourthDegreeYieldsThoughtReading a pm:Yielding ;
+    rdfs:label "Der vierte Grad bringt das Gedankenlesen hervor"@de,
+        "The fourth degree yields the reading of thoughts"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 170" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationFourthDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideThoughtReading .
+
 pmc:Gadreel a pm:Conceptualizing ;
     rdfs:label "Gadreel"@de,
         "Gadreel"@en ;
@@ -4812,6 +4785,15 @@ pmc:InuitSewingProhibitionOnOqshoriaq a pm:Conceptualizing ;
     skos:note "The prohibition is local and specific, which distinguishes it from the general taboo system the later chapters of the volume set out. Whether it is a case of that system or a rule of its own cannot be decided from the portion read."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmc:JourneyYieldsDistantSight a pm:Yielding ;
+    rdfs:label "Die Reise bringt das Wissen um den fernen Ort hervor"@de,
+        "The journey yields the knowledge of the distant place"@en ;
+    dcterms:source "Johannes Schefferus, The History of Lapland (Oxford: at the Theater, 1674), chap. XI, pp. 55-57" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:NoaidiJourney ;
+    pm:withinTradition pmt:SamiNoaidi ;
+    pm:yieldsCapacity pmc:DistantSight .
+
 pmc:Kasdeja a pm:Conceptualizing ;
     rdfs:label "Kasdeja"@de,
         "Kasdeja"@en ;
@@ -4911,6 +4893,16 @@ pmc:MideForesight a pm:Conceptualizing ;
     dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
     skos:definition "The capacity to see what is to come, ascribed to a priest of the second degree and marked in the pictographic chart by lines drawn upward from the eyes."@en ;
     pm:withinTradition pmt:Midewiwin .
+
+pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
+    rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
+        "The root seal yields the kindled inner fire"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā III.66-68 (Sanskrit vulgate; Sinh 1915)" ;
+    skos:note "The pairing is set at the fire and not at the reversal on purpose. The manual defines the root seal as the drawing upward of the downward wind, so a claim that the seal produces that upward movement would assert only that the practice is what it is. The heat, the lengthened flame and the waking of the power are consequences the verses state beyond the definition, and they are what a protocol could address."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Mulabandha ;
+    pm:withinTradition pmt:Hathayoga ;
+    pm:yieldsCapacity pmc:KindledInnerFire .
 
 pmc:NavajoCeremonyEfficacy a pm:Conceptualizing ;
     rdfs:label "Die Wirksamkeit der Zeremonie"@de,
@@ -5096,6 +5088,34 @@ pmc:Saktipata a pm:Conceptualizing ;
     skos:note "The sources give transfer by glance, by touch and by word. The specifically manual modality of the modern draft is not attested here."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:SamyamaYieldsDivyaSrotra a pm:Yielding ;
+    rdfs:label "Saṃyama bringt das göttliche Ohr hervor"@de,
+        "Saṃyama yields the divine ear"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.41" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:DivyaSrotra .
+
+pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
+    rdfs:label "Saṃyama auf die Vorstellung bringt Kenntnis fremden Bewusstseins hervor"@de,
+        "Saṃyama on the presented idea yields knowledge of another mind"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Samyama ;
+    pm:withinTradition pmt:PatanjalaYoga ;
+    pm:yieldsCapacity pmc:ParacittaJnana .
+
+pmc:SecondDegreeYieldsDistantHearing a pm:Yielding ;
+    rdfs:label "Der zweite Grad bringt das Fernhören hervor"@de,
+        "The second degree yields hearing at a distance"@en ;
+    dcterms:source "Walter James Hoffman, The Midē'wiwin or Grand Medicine Society of the Ojibwa, Seventh Annual Report of the Bureau of Ethnology (Washington: Government Printing Office, 1891), p. 168" ;
+    skos:note "One node per pairing, following traditions/patanjala-yoga.ttl, because a protocol would have to take the pairings one at a time and because the four capacities of this degree are not equally examinable."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MideInitiationSecondDegree ;
+    pm:withinTradition pmt:Midewiwin ;
+    pm:yieldsCapacity pmc:MideDistantHearing .
+
 pmc:SecondWeek a pm:Conceptualizing ;
     rdfs:label "Die zweite Woche"@de,
         "The second week"@en ;
@@ -5170,6 +5190,17 @@ pmc:SpellCasting a pm:Conceptualizing ;
     skos:definition "The binding of persons or events by spoken formula."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:SpiritCallingYieldsRecoveryOfLostThings a pm:Yielding ;
+    rdfs:label "Das Geisterrufen soll Verlorenes wiederbringen"@de,
+        "Spirit calling is said to recover what has been lost"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 28" ;
+    skos:definition "The claim, made by the narrator about her second husband, that when a knife was lost he would hold a spirit calling and in that way recover it."@en ;
+    skos:note "The most examinable claim in the portion read, and the reason it is entered separately from the capacity it names. It states a repeatable occasion, a named class of object, and an outcome that either occurred or did not; it is not a claim about a state of the practitioner. What it does not state is any case in which the calling was held and the knife stayed lost."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:InuitSpiritCalling ;
+    pm:withinTradition pmt:InuitAngakkuq ;
+    pm:yieldsCapacity pmc:InuitRecoveryOfLostThings .
+
 pmc:StrikingOfSpirits a pm:Conceptualizing ;
     rdfs:label "Schlagen der Geister und der Leibesfrucht"@de,
         "Striking of spirits and of the womb"@en ;
@@ -5225,16 +5256,6 @@ pmc:Theologike a pm:Conceptualizing ;
     dcterms:source "Evagrius Ponticus, Praktikos 1" ;
     skos:definition "The third of the three parts, the knowledge of God."@en ;
     pm:withinTradition pmt:DesertMonasticism .
-
-pmc:TummoYieldsInnerHeat a pm:Yielding ;
-    rdfs:label "Tummo bringt innere Hitze hervor"@de,
-        "Tummo yields inner heat"@en ;
-    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
-    skos:note "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Tummo ;
-    pm:withinTradition pmt:TibetanTantric ;
-    pm:yieldsCapacity pmc:InnerHeat .
 
 pmc:TungusCandidateCondition a pm:Conceptualizing ;
     rdfs:label "Der Zustand des Anwärters"@de,
@@ -5735,6 +5756,15 @@ pmc:BengeValidVerdictRule a pm:Conceptualizing ;
     skos:note "This is a falsifying condition stated by the transmission itself, applied by its own practitioners, and printed with four worked cases. It is the reason this tradition was opened before others in the registry. What the transmission does with the condition when it is met is a separate matter and stands on its own node below."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:BengeYieldsIdentificationOfTheWitch a pm:Yielding ;
+    rdfs:label "Das Giftorakel bringt die Benennung des Hexers hervor"@de,
+        "The poison oracle yields the naming of the witch"@en ;
+    dcterms:source "E. E. Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande, abridged by Eva Gillies (Oxford: Clarendon Press, 1976), pp. 35-36 and pp. 141-143" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:BengeConsultation ;
+    pm:withinTradition pmt:AzandeOracle ;
+    pm:yieldsCapacity pmc:IdentificationOfTheWitch .
+
 pmc:Cetopariyanana a pm:Conceptualizing ;
     rdfs:label "Kenntnis fremden Bewusstseins"@de,
         "Knowledge encompassing another mind"@en ;
@@ -5952,6 +5982,16 @@ pmc:SoulJourney a pm:Conceptualizing ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:TummoYieldsInnerHeat a pm:Yielding ;
+    rdfs:label "Tummo bringt innere Hitze hervor"@de,
+        "Tummo yields inner heat"@en ;
+    dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
+    skos:note "The one pairing in this file that names a capacity with an outward, measurable side. Any later protocol has a clearer target here than anywhere else in the collection."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Tummo ;
+    pm:withinTradition pmt:TibetanTantric ;
+    pm:yieldsCapacity pmc:InnerHeat .
+
 pmc:TungusMasteringOfSpirits a pm:Conceptualizing ;
     rdfs:label "Die Meisterung der Geister"@de,
         "Mastering of spirits"@en ;
@@ -5987,16 +6027,6 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     dcterms:source "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), p. 616" ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
-
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
@@ -6304,6 +6334,16 @@ pm:CoverageState a owl:Class ;
     rdfs:label "Erschließungsstand"@de,
         "Coverage state"@en ;
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -6621,12 +6661,6 @@ pm:Originating a owl:Class ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -6645,6 +6679,12 @@ pmt:Midewiwin a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
