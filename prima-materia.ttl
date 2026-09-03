@@ -323,6 +323,27 @@ pmc:CatequillaPrediction a pm:Conceptualizing ;
         "The second half is the more useful. The correct answer cost the huaca its temple, because the person it was correct about was the father of the man who burned it. A transmission in which an accurate oracle can be destroyed for its accuracy is not one in which reputation tracks accuracy, and the story says both things at once."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:CautionAgainstCarryingAnotherShamansSoul a pm:Cautioning ;
+    rdfs:label "Die letzte Überführung nicht im Zweifel übernehmen"@de,
+        "Do not undertake the last transport in doubt"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 141, p. 382" ;
+    skos:definition "When a shaman dies among the Northern Tungus his soul must be taken to the lower world by another shaman who is stronger than the deceased. The spirits left behind often want to keep the dead man in their company, so the one who performs the operation must first fight them. If he is not certain of being able to master the spirits of the deceased, he must not undertake it."@en ;
+    skos:note "A prohibition addressed to the practitioner and conditioned on his own estimate of his strength, which is unusual: most cautions in this graph are addressed to the layman or to the beginner. If no sufficiently strong shaman exists, the soul is said not to reach the world of the dead and to disturb the clansmen without rest."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:TungusShamanizing ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:CautionAgainstLayingDownTheOffice a pm:Cautioning ;
+    rdfs:label "Das Amt lässt sich nicht ablegen"@de,
+        "The office cannot be laid down"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 140, pp. 380-381" ;
+    skos:definition "Once a man or woman has become a shaman, he or she must go on to death or to psychic invalidity. Three reasons are given: by giving up control the shaman would leave the dis-mastered spirits to harm the clansmen, since in the presence of the old master the spirits will not easily submit to a new one; the person may again be affected by the condition that compelled him to become a shaman in the first place; and the clan holds that a shaman must not give up, so that breaking with it puts him in still greater trouble."@en ;
+    skos:note "He closes the section with a judgement of his own — that a shaman's life is a continuous self-sacrifice. That is his and is recorded as his."@en,
+        "The warning is against the release and not against the practice, which inverts the usual shape. The recorder states in the same section that if the shaman performs too often he may become the prey of his own spirits, so the office is hedged on both sides: too much practice and its abandonment carry the same named outcome."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:TungusShamanizing ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:CautionAgainstOpinionAboutHiddenThings a pm:Cautioning ;
     rdfs:label "Die Warnung davor, sich über die verborgenen Dinge eine Meinung zu bilden"@de,
         "The caution against forming opinions about hidden things"@en ;
@@ -365,6 +386,15 @@ pmc:CautionAgainstTheSightItself a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:DistantSight ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:CautionAgainstTouchingTheBurialGear a pm:Cautioning ;
+    rdfs:label "Was am Grab bleibt, nicht anrühren"@de,
+        "Do not touch what is left at the grave"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 141, p. 382" ;
+    skos:definition "Among the Tungus of Transbaikalia the shaman's paraphernalia are laid with the body or hung on a tree standing nearby. It is not recommended to touch them: those who do may get mental diseases, they may lose their minds."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:TungusParaphernalia ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
@@ -490,6 +520,19 @@ pmc:ContestOfTwoNoaidi a pm:Conceptualizing ;
     skos:note "A procedure with a stated criterion, applied by practitioners to practitioners, with an outcome that could fall either way and that neither controls. Nothing else in this file, and very little in this graph, has that shape."@en,
         "What the source does not say is how the victory of a painted reindeer is determined — whether by the ring, by the movement of the drum, or otherwise. Without that the procedure cannot be reconstructed, only recorded, and no protocol node is written on it."@en ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:CrookedLimbsIfTheOfficeIsRefused a pm:Presupposing ;
+    rdfs:label "Das verweigerte Amt wird am Leib bezahlt"@de,
+        "The office refused is paid for in the body"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, p. 349" ;
+    skos:note "Entered at stated necessity, and the consequence is quoted rather than paraphrased because it is the sharpest one in the file. The case is a single one, among the Khingan Tungus: a girl of fifteen entered by a clan spirit, taught by an old shaman to distinguish the questions asked by the assistants, a shaman at the time of the report for some twenty-five years."@en,
+        "One case is a case and not a rate. What makes it worth a node is that the transmission states a specific bodily outcome for the refusal, which is the shape a condition of failure has, and not a general misfortune."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "If she had not become a shaman, her arms or legs or neck, or back would have been crooked for life."@en ;
+    pm:dependentStep pmc:TungusCandidateCondition ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TungusMasteringOfSpirits ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
@@ -692,6 +735,18 @@ pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
+
+pmc:ExtasyPresupposesTheDrum a pm:Presupposing ;
+    rdfs:label "Der Zustand setzt die Trommel voraus"@de,
+        "The state presupposes the drum"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 D, p. 272" ;
+    skos:note "Entered at stated necessity: the source names the drum's function and the consequence of its absence in one clause. It is the rare case in which an instrument is given a mechanism rather than a meaning, and the mechanism is what a later examination would have to address."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The drum is needed for the shamans' self-excitation, without which they cannot bring themselves into the state of extasy."@en ;
+    pm:dependentStep pmc:TungusExtasy ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TungusShamanDrum ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmc:ExteriorisationCorrespondence a pm:Converging ;
     rdfs:label "Die Entsprechung der Exteriorisation"@de,
@@ -1511,6 +1566,19 @@ pmc:NavajoPublicErrorDetection a pm:Conceptualizing ;
     skos:note "The part of the claim that makes it examinable rather than merely asserted. The tradition does not only say that an error destroys the effect; it names who notices, when, and what visibly follows. Neither of the two parallel witnesses in this bundle carries that."@en ;
     pm:withinTradition pmt:NavajoCeremonial .
 
+pmc:NineYearsForTheSuccessor a pm:Presupposing ;
+    rdfs:label "Der Nachfolger binnen neun Jahren"@de,
+        "The successor within nine years"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 141, pp. 382-383" ;
+    skos:note "Entered at stated necessity: a period is named and the outcome of letting it pass is named with it. A dated deadline with a stated consequence is the material a condition of failure is made of, and this graph holds few of them."@en,
+        "The observed cost of an unfilled interval is reported separately in the same section: the free clan spirits try one person after another and make them abnormal, sometimes for years. The recorder watched such a case daily for nearly two months among the Khingan Tungus."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The new shaman who gathers the spirits left free must appear not later than nine years after the shaman's death; otherwise there will be many people suffering from the spirits."@en ;
+    pm:dependentStep pmp:TungusFormalRecognition ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TungusMasteringOfSpirits ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:NoQuantitativeVerification a pm:Cautioning ;
     rdfs:label "Keine Zählung gegen den Zufall in den alten Quellen"@de,
         "No count against chance in the old sources"@en ;
@@ -1610,6 +1678,27 @@ pmc:PenemueTeachesWriting a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:PerformanceFailsWithoutASusceptibleAudience a pm:Conceptualizing ;
+    rdfs:label "Die Vorstellung misslingt, wenn das Publikum nicht folgen kann"@de,
+        "The performance fails if the audience cannot follow"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVII, sect. 122, pp. 332-333" ;
+    skos:definition "Where too many of those present are not susceptible, the audience reacts too slowly and the performance may fail. It may still be carried out formally, as a sequence of well known actions, without attaining its aim. The presence of a single person who remains outside may suffice to disturb the rest."@en ;
+    skos:note "He notes in the same section that a performance staged outside its milieu is psychologically impossible to bring off, because there is no audience cooperating and no purpose in shamanizing, and describes such a staging before an ethnographical society as a farce. That is a warning by the recorder against the conditions under which his own discipline usually saw the thing it described."@en,
+        "The condition of failure is located outside the performer, which is rare. The recorder adds that public opinion is nonetheless inclined to see the cause in the shaman, and that this is one of the reasons shamans resort to tricks in order to gain an indifferent audience. Both of those are his reading; the failure and its stated cause are reported."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:PerformancePresupposesTheMirror a pm:Presupposing ;
+    rdfs:label "Die Vorstellung setzt den Spiegel voraus"@de,
+        "The performance presupposes the mirror"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXIII, sect. 99, p. 278" ;
+    skos:note "Entered at stated necessity because the source states the outcome of the want in plain terms and in the same sentence as the requirement. The substitute is admitted and is said not to be considered as good as the original; that qualification stands here rather than in the strength, because it weakens the object and not the necessity."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Where there is no mirror or its substitute, no performance is possible."@en ;
+    pm:dependentStep pmp:TungusShamanizing ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TungusToli ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:PolarityHarvestThresholds a pm:Originating ;
     rdfs:label "Die zwei Schwellen der Polarität und der Zusammenbruch der negativen"@de,
         "The two thresholds of polarity and the collapse of the negative one"@en ;
@@ -1696,6 +1785,18 @@ pmc:RecitationExactnessExamination a pm:Testing ;
     pm:protocolUpdated "2026-08-30"^^xsd:date ;
     pm:tests pmc:ExactnessAsConditionOfEfficacy .
 
+pmc:RecognitionPresupposesMasteredSpirits a pm:Presupposing ;
+    rdfs:label "Die Anerkennung setzt eine Mindestzahl gemeisterter Geister voraus"@de,
+        "Recognition presupposes a minimum of mastered spirits"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 B, pp. 271-272" ;
+    skos:note "Entered at stated necessity: the source states both that a candidate must have a certain minimum before being recognised and what follows where he has not, and it adds that the loss of recognition on this ground is met with among all Tungus groups. That the condition is reported as sometimes failing after the fact, and not only before it, is what makes it a condition and not a form of words."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He would not be recognized as a real shaman by his clansmen and outsiders, and it is very likely that he would give up his practice of shamanism."@en ;
+    pm:dependentStep pmp:TungusFormalRecognition ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TungusListOfSpirits ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:ReturnPresupposesTheSewingProhibition a pm:Presupposing ;
     rdfs:label "Das Wiederaufleben setzt die Einhaltung des Nähverbots voraus"@de,
         "The return after death presupposes that the prohibition was kept"@en ;
@@ -1736,6 +1837,16 @@ pmc:SakhyaRatiIntensification a pm:Conceptualizing ;
     skos:definition "The claim that love in the mode of friendship passes through five increasingly higher stages: friendship itself, attachment, supreme love, tenderness, and passion."@en ;
     skos:note "Given in the text as increasingly higher, so the ordering is asserted and the direction is stated. The series is named for one relation only; the edition read notes that a longer series of the expansions of love stands in the Ujjvalanīlamaṇi, which was not opened here."@en ;
     pm:withinTradition pmt:GaudiyaVaisnava .
+
+pmc:SamanFromSramana a pm:Conceptualizing ;
+    rdfs:label "Das Wort selbst kommt von außen"@de,
+        "The word itself comes from outside"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXIII, sect. 98, pp. 276-277, sect. 99, pp. 277-278, and sect. 100, p. 284" ;
+    skos:definition "The term saman is mentioned by the Chinese at the beginning of the twelfth century as a Nuichen word for sorcerer which they did not recognise as their own san-men, both being traced to the same source, sramana. The recorder proposes that wandering sramana, changed into samana, were transformed into the Nuichen and Manchu saman."@en ;
+    skos:note "Beside it stands a second borrowing that needs no reconstruction: burkan, the term applied to a great number of spirits across the Tungus groups, is a Mongol word and a modification of Buddha, and where Buddha himself is mastered the ordinary word for a shaman's spirit is used of him."@en,
+        "The etymology and the second sentence are of different weights and are kept apart here. That the Chinese record the word in that century, and that both forms are referred to sramana, is what the passage reports; that wandering monks were themselves the first bearers is the recorder's proposal and is his."@en,
+        "This is the node for which the file exists. A category the whole comparative literature uses is named after a word its own bearers took from a Buddhist term for a wandering ascetic, in a transmission whose bearers say the art came from their neighbours. Whoever cites the Siberian case as the archaic form is citing the station of a transmission, not its source."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
@@ -1906,6 +2017,25 @@ pmc:SevenCentreQualityMapping a pm:Systematizing ;
     pm:attestedBy pm:compilerInference ;
     pm:compiledBy "C. W. Leadbeater, extended by Christopher Hills and Ken Dychtwald" ;
     pm:ordersClaim pmc:Cakra .
+
+pmc:ShamanizingYieldsKnowledgeOfTheHidden a pm:Yielding ;
+    rdfs:label "Das Schamanisieren bringt das Wissen um das Verborgene hervor"@de,
+        "Shamanizing brings the knowledge of what is hidden"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVII, sect. 121, pp. 331-332" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:TungusShamanizing ;
+    pm:withinTradition pmt:SiberianShamanism ;
+    pm:yieldsCapacity pmc:TungusKnowledgeOfTheHidden .
+
+pmc:ShamanizingYieldsRelief a pm:Yielding ;
+    rdfs:label "Das Schamanisieren bringt Befreiung der Befallenen hervor"@de,
+        "Shamanizing brings relief to those afflicted"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 140, p. 381" ;
+    skos:note "The claim the whole institution rests on, and the one on which the source is least specific: it names no duration, no rate and no case in which the relief failed to come. That silence is the reason no protocol is written on it here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:TungusShamanizing ;
+    pm:withinTradition pmt:SiberianShamanism ;
+    pm:yieldsCapacity pmc:TungusReliefOfSpiritAffliction .
 
 pmc:ShamsielTeachesSignsOfTheSun a pm:Attributing ;
     rdfs:label "Schamsiel offenbart die Zeichen der Sonne"@de,
@@ -2111,6 +2241,18 @@ pmc:TapuBreachSign a pm:Testing ;
     pm:protocolUpdated "2026-08-30"^^xsd:date ;
     pm:tests pmc:Tapu .
 
+pmc:TestingTheMarkedAnimals a pm:Testing ;
+    rdfs:label "Prüfprotokoll: die an ihren Zeichen benannten Tiere"@de,
+        "Protocol: the animals named by their marks"@en ;
+    skos:definition "The claim states that animals bearing marks named in advance by the candidate will be sent and found. A condition of refutation exists and can be stated; no case has been recorded under it, because the source that carries the claim reports no case and no count."@en ;
+    skos:note "The claim as the source words it is close to failing to discriminate, and the reason is inside it: where the named animals are not found, the spirit may be asked to send another. The falsifying condition below therefore has to be stated against the first designation and against the substitution separately, or the claim covers the finding of a marked animal and the finding of any animal alike. Whether the substitution is used often or rarely is exactly what the source does not say."@en,
+        "The state is procedure without cases and not cases without deviation, although the source says the animals are always found. What it reports is a summary judgement without a number, and a protocol that entered it as a case series would be counting the recorder's confidence."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol devised from the wording of Shirokogoroff 1935, sect. 130 I" ;
+    pm:falsifiedBy "A recorded search in which the marks named by the candidate before the hunt are not found on any animal taken within the stated period, and the designation is neither withdrawn nor replaced by a second one. Where the substitution is admitted, the claim is refuted only if the marks of the second designation also fail."@en ;
+    pm:protocolUpdated "2026-09-03"^^xsd:date ;
+    pm:tests pmc:TungusMarkedAnimals .
+
 pmc:TheEatersOfMen a pm:Conceptualizing ;
     rdfs:label "Die Menschenesser"@de,
         "The eaters of men"@en ;
@@ -2252,6 +2394,58 @@ pmc:TummoHeatExamination a pm:Testing ;
     pm:falsifiedBy "Practitioners of the forceful-breath tummo method show no rise in measured body temperature beyond that produced by the breathing alone in matched non-practitioners." ;
     pm:protocolUpdated "2026-08-28" ;
     pm:tests pmc:TummoYieldsInnerHeat .
+
+pmc:TungusFemaleShamanSuspension a pm:Conceptualizing ;
+    rdfs:label "Wann eine Schamanin nicht auftritt"@de,
+        "When a female shaman does not perform"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, pp. 349-350, and chap. XXX, sect. 140, p. 380" ;
+    skos:definition "Female shamans do not perform at all during pregnancy and in the first weeks after the delivery, nor during the few days of menstruation each month. The consequence stated is practical and not ritual: she cannot help her clansmen at any moment when she might be needed, and this is given as one reason for a preference for male candidates."@en ;
+    skos:note "The same passage carries a second, separate reason, given as the assertion of the Tungus themselves: that females are physically less resistant and therefore cannot carry out very long and difficult performances. The two are reported side by side and are not the same kind of claim."@en,
+        "The suspension reappears as the one excuse the office admits. A shaman who is not very old and physically weak may be excused from attending only if she is a female and pregnant or otherwise under the prohibition; without such an excuse he may lose his position."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusFormalCharacters a pm:Conceptualizing ;
+    rdfs:label "Die fünf Merkmale des vollen Schamanentums"@de,
+        "The five characters of shamanism in full function"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95, p. 274" ;
+    skos:definition "The recorder's enumeration of what must all be present: the shaman is a master of spirits; he has a group of mastered spirits; there is a complex of methods and paraphernalia recognised and transmitted; there is a theoretical justification of the practice; the shamans assume a special social position."@en ;
+    skos:note "He states in the same passage that all of these but the first two are met in complexes that are not shamanism at all — in the Manchu clan priesthood and in the Lamaist priest — and that he therefore restricts the term to complexes covering all five. The enumeration is his and is entered as his; what is not his is each of the five conditions, which the preceding sections carry as reports."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusOriginTestimony a pm:Conceptualizing ;
+    rdfs:label "Die Überlieferung sagt, die Kunst sei nicht ihre eigene gewesen"@de,
+        "The transmission says the art was not originally its own"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXIII, sect. 98, pp. 276-277, and sect. 100, pp. 282-283" ;
+    skos:definition "What the groups themselves state about the beginning of their shamanism. The Manchus refer it to a definite person and a definite year, 1033, and name him: a soldiers' commander who left his spirits to spread over three provinces, and who is himself now one of those spirits. The Reindeer Tungus of Manchuria state that they received shamanism, before their move to Manchuria in the first half of the nineteenth century, from subjects of the Emperor of China. The Birarcen name a Dahur or a Goldi as their first shaman, or say they had no shamans at all until the seven mastered spirits came from the Mongols. On the decisive point the recorder reports the groups as unanimous: the art of mastering spirits did not originally exist among them but was practised by their neighbours, and especially by lamas."@en ;
+    skos:note "He also states why such testimony is usually missing from the record, and the remark is a finding about the discipline rather than about the Tungus: answers of this kind look to an investigator accustomed to the primeval character of shamanism like an error of the informer, and would most probably not even be recorded. That is his and is entered as his."@en,
+        "This is testimony about itself and not a scholar's reconstruction, and it is the reason the node stands here rather than at an examination. The recorder separates it explicitly from folklore, which he holds unreliable for the question, and states that the groups themselves consider these statements historical facts."@en,
+        "What he holds the older complex to have contained is reported with the same care: only the spirit of heaven, buga, which he says shows no direct sign of alien influence and is recognised by all Tungus as their own, and the managing of the souls of the dead. The Birarcen are quoted saying that before, the Tungus had only buga and buni. He then argues against his own inference, that other complexes may have been lost and forgotten, and calls the scepticism perhaps too great."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusSacrificeRejected a pm:Conceptualizing ;
+    rdfs:label "Das Zeichen des zurückgewiesenen Opfers"@de,
+        "The sign that a sacrifice was refused"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, Case 2, p. 347" ;
+    skos:definition "In the Manchu clan history recorded by the author, the kite spirit is said to be able to eat the whole liver of an ox. After eating, the shaman must leave his assistant; if he falls down without being able to keep on his legs, the sacrifice is considered as rejected by the spirit."@en ;
+    skos:note "A condition of failure with a physical criterion, stated in advance, decidable on the spot by everyone present, and not in the performer's gift. Very little in this graph has that shape, and it is the reason the passage is entered although it stands inside a narrative."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusShamanCannotHunt a pm:Conceptualizing ;
+    rdfs:label "Amt und Jagd schließen einander aus"@de,
+        "The office and the hunt exclude each other"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 127, p. 345, and chap. XXX, sect. 140, pp. 378-381" ;
+    skos:definition "The shaman cannot do two things, the hunting and a regular carrying out of the performances, and therefore needs the support of the junior members of his clan. It is given as one reason why father and son are not both shamans and why the office commonly skips a generation."@en ;
+    skos:note "An economic condition stated as such, and one of the few places where a transmission in this graph says what its own office costs the household that carries it."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusTrialInTheFrost a pm:Conceptualizing ;
+    rdfs:label "Die Probe im Frost"@de,
+        "The trial in the frost"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, Case 2, p. 347" ;
+    skos:definition "In the same clan history, an election carried out when nobody knew whom to select: a man from every generation put on a shaman's headdress, they went out and stayed in the frost while the act was carried on for a long time. Many of them could not stand it and ran away. The spirit descended into one of those who remained and declared that new shamans should not be initiated in winter but in spring."@en ;
+    skos:note "A selection by endurance with an outcome the participants do not control, followed by a rule derived from the cost of the procedure. The transmission here corrects its own practice on the strength of what happened, which is the shape of an operative reworking rather than of a copied instruction."@en,
+        "It stands inside a clan narrative told to the recorder and not in an account of a procedure he watched. The narrative also carries a live burial, a decapitation and a series of deaths, and no part of it is separable from the rest by anything in the text."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmc:TwoPathsOfKnowledge a pm:Originating ;
     rdfs:label "Die Verzweigung der Menschheit in einen rechten und einen linken Pfad des Wissens"@de,
@@ -4036,15 +4230,6 @@ pmt:Shugendo a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Shozan engi; the Shugendō shūyō himitsu shū" .
 
-pmt:SiberianShamanism a pm:Tradition ;
-    rdfs:label "Sibirische Schamanenüberlieferung"@de,
-        "Siberian shamanic transmission"@en ;
-    skos:definition "The Tungus and Sakha transmission of an office entered through an illness that resolves only on acceptance, with a costume, a drum and a stated itinerary."@en ;
-    skos:note "The region the word shaman was taken from. The graph uses the category and holds no witness from its source."@en ;
-    pm:contactRoute pm:contactRouteUndecided ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; the published Olonkho epics; Anisimov's field records" .
-
 pmt:SolomonicGrimoire a pm:Tradition ;
     rdfs:label "Salomonische Grimoire-Tradition"@de,
         "Solomonic grimoire transmission"@en ;
@@ -5051,6 +5236,82 @@ pmc:TummoYieldsInnerHeat a pm:Yielding ;
     pm:withinTradition pmt:TibetanTantric ;
     pm:yieldsCapacity pmc:InnerHeat .
 
+pmc:TungusCandidateCondition a pm:Conceptualizing ;
+    rdfs:label "Der Zustand des Anwärters"@de,
+        "The condition of the candidate"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, pp. 346-350" ;
+    skos:definition "A child whose dreams differ from ordinary ones, who is subject to strong emotions and changes of mood and whose behaviour is unlike that of other children is taken for a candidate, especially where there were shamans in the direct ancestral line. Such a child is told of the possibility and gradually prepared. Between sixteen and twenty the first entering of the spirit occurs. Before it the youth refuses food, wanders about without purpose, sleeps too long or cannot sleep; after two weeks or more he jumps up on the bed during the night and begins to sing as the shamans do. If a real state follows, he is considered a future shaman."@en ;
+    skos:note "The stated boundaries of the age are two and they differ in kind. That nobody becomes a shaman before fifteen is reported as an absence in the record the author gathered; that candidates are exceptionally rare after full maturity is reported with a reason attached, namely that whoever must look after a family has no leisure for it."@en,
+        "The transmission announces the signs to the candidate in advance and then reads them off him. The recorder says of one case that the woman acted according to the candidates' model — she trembled, ran away, climbed a tree, refused food, forgot everything — and of another candidate that the entering of the spirit was seemingly a ritualistic performance. These are signs of success in the strict sense of SPEC §15, told beforehand and reported afterwards, and they are held apart from the conditions of failure in this file for that reason."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusExtasy a pm:Conceptualizing ;
+    rdfs:label "Der Zustand hat zwei Grenzen, und beide sind verfehlbar"@de,
+        "The state has two limits, and both can be missed"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXIX, sect. 134, pp. 362-363" ;
+    skos:definition "The state produced in the performance is bounded on both sides: it must not turn into an uncontrolled fit and it must not be suppressed. Within those limits it varies in degree. Producing it requires the ability to double, a power of controlling the thinking mechanism, and knowledge of the methods for entering the state, maintaining it and ending it as the performance requires."@en ;
+    skos:note "This is the passage that decides the reading of the whole file. A person in whom the state turns into a fit, who cannot control himself, is held to be possessed by the spirits and for that reason cannot become a shaman: he must be treated. A person who cannot produce the state at all cannot become a shaman either, but may become a clan priest. The transmission thus excludes on both sides of a band, and the popular identification of the office with uncontrolled trance names precisely one of the two exclusions."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusKnowledgeOfTheHidden a pm:Conceptualizing ;
+    rdfs:label "Das Wissen um Gedanken und Taten der Anwesenden"@de,
+        "Knowing what those present are thinking or doing"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVII, sect. 121, pp. 331-332" ;
+    skos:definition "A capacity claimed in the performance and not outside it: the shamans, though not all of them, may say what the persons present are thinking or doing, and in almost all performances they divine in some form."@en ;
+    skos:note "Both explanations are the recorder's and neither was tested. The claim is entered because it is the one capacity in this file that could be examined against a base rate, and the passage is the address at which such an examination would start."@en,
+        "The recorder gives two cases and a counter-explanation for each. In the first a shaman accused a young man of having eaten the kidney of a sacrificial animal and ordered it given back, and the man vomited into the drum; the recorder believes the shaman could not have seen the act and offers instead that he could infer which of the young men present was likely to have done it. In the second a shaman took a coin from a sceptic and the coin was afterwards found in the sceptic's own hand; the recorder proposes that it was handed back unnoticed. He states in the same passage that in a great number of cases he did not find the shamans conscious of tricking their audience."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusListOfSpirits a pm:Conceptualizing ;
+    rdfs:label "Der Schamane braucht eine Liste von Geistern"@de,
+        "The shaman must have a list of spirits"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 B, pp. 271-272" ;
+    skos:definition "The number of mastered spirits is the measure of the shaman's power. A beginner has at least one, usually a complex one, with whose help he masters others; among the Tungus of Manchuria beginners are stated to have five or six, and by the end of a good career all spirits are mastered directly or through other spirits. The number is expected to increase with the years practised."@en ;
+    skos:note "The claim is quantified and the quantity is watched by other people, which is unusual in this graph. It also has a stated downward direction: a shaman who fails to master enough spirits is called a small shaman, not a real one, and when the practice is given up for lack of new spirits the person is said to be no more a shaman."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusMarkedAnimals a pm:Conceptualizing ;
+    rdfs:label "Die an ihren Zeichen benannten Tiere"@de,
+        "The animals named by their marks"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 130 I, p. 351" ;
+    skos:definition "Among the Reindeer Tungus of Transbaikalia the decisive moment of the trial: the candidate, in the state, names particular marks of the animals which the spirits will send for the making of his costume — a white spot on a leg, white hoofs, a white head, a mutilated ear. A clansman then hunts for animals so marked. The search may take several months. If the animals named cannot be found, the spirit may be asked to send another animal instead."@en ;
+    skos:note "A prediction with a stated content, made before witnesses, checkable by anyone who brings back the animal. It is the most examinable claim in this file, and it comes with its own escape clause in the same sentence."@en,
+        "The recorder closes the passage with four words that are the whole finding: the needed animals are always found. He gives no count and reports no failure."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusParaphernalia a pm:Conceptualizing ;
+    rdfs:label "Das Gerät ist unerlässlich und wandelbar"@de,
+        "The paraphernalia are indispensable and variable"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 D, pp. 272-273" ;
+    skos:definition "It is held that without paraphernalia shamanizing is impossible, so that a person who has none cannot function as a shaman. The composition varies greatly: from a brass mirror and a drum up to several complete costumes with headdress, coat, trousers, apron, shoes and many placings for spirits. Equipment made for a single occasion is admitted, so the lack of permanent paraphernalia does not by itself mean the complex is absent."@en ;
+    skos:note "The variability is stated together with a floor: reduction of the paraphernalia to zero is held responsible for the disintegration of shamanism, and the recorder names cases where local authorities forbade shamanizing and destroyed the equipment. Where the equipment is limited the power is said to be reduced in a specific way — among the Nercinsk and Barguzin Tungus a shaman cannot go into the lower world without a complete harness."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusReliefOfSpiritAffliction a pm:Conceptualizing ;
+    rdfs:label "Die Befreiung der von Geistern Befallenen"@de,
+        "Relief of those afflicted by spirits"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXX, sect. 140, p. 381" ;
+    skos:definition "The capacity for which the office exists: to cure people affected by the spirits, to relieve sick people also where the disease is not of that order, and by his presence to give assurance to the people that they will not suffer."@en ;
+    skos:note "The recorder adds his own explanation, that this is the result of an empiric experimentation of the Tungus on themselves reached through a long adaptation, and that the shaman functions as a safety valve of the clan. That reading is his. What is reported is the claim that the office relieves and the fact that people seek it."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusShamanDrum a pm:Conceptualizing ;
+    rdfs:label "Die Trommel als Werkzeug der Selbsterregung"@de,
+        "The drum as the instrument of self-excitation"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 D, p. 272" ;
+    skos:definition "The second member of the observed minimum. Its stated function is not signalling and not accompaniment but the shaman's own self-excitation, without which he cannot bring himself into the state the performance requires."@en ;
+    skos:note "Stated as a function and not as a symbol, which is what makes it usable. The same passage names the toli as a placing for spirits and the drum as the means of self-excitation, so the two indispensable objects have two different offices and are not interchangeable."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
+pmc:TungusToli a pm:Conceptualizing ;
+    rdfs:label "Toli, der Bronzespiegel"@de,
+        "Toli, the brass mirror"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 D, p. 272, and chap. XXIII, sect. 99, p. 278" ;
+    skos:definition "A Chinese brass mirror with pendants, used as a placing for spirits and the one object that cannot be dispensed with. Where there is no costume the shaman can perform with the mirror alone; where there is no mirror or a substitute for it, no performance is possible. The word is the same across all Tungus dialects and Manchu and stands beside the Mongol, Buriat and Dahur forms."@en ;
+    skos:note "In the same passage he lists what stands beside it: a headdress with five images of Buddha among the Tungus of Manchuria, sometimes replaced by ornaments of Chinese style; the swastika and the Christian cross used by all shamans; the boa constrictor symbolised in the costume although unknown in the region; and Manchu shamans with weapons familiar to Buddhism and pictures reproducing the costume of Buddhist priests."@en,
+        "The mirror carries the contact route on its face. The recorder states that it is widely used in Lamaism as one of the indispensable components of the altar, and that mirrors are either found in the earth, or received from predecessor shamans, or bought from the Mongols, who receive them from China and Tibet. The animals on the back are interpreted by each group according to its own imagination."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:UnchosenSendingCarriesTheActualState a pm:Positing ;
     rdfs:label "Senden ohne gewählte Signatur überträgt den eigenen Ist-Zustand"@de,
         "Sending without a chosen signature carries the sender's actual state"@en ;
@@ -5691,6 +5952,15 @@ pmc:SoulJourney a pm:Conceptualizing ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
+pmc:TungusMasteringOfSpirits a pm:Conceptualizing ;
+    rdfs:label "Die Meisterung der Geister"@de,
+        "Mastering of spirits"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 A, p. 271" ;
+    skos:definition "The condition that makes an ordinary man a shaman: he is a master of spirits, at least of a group of them. The mastered spirits are not guardians and do not elect him; the master must feed them and handle them, and introduces them into himself when he wants to. The shaman uses his own body as a placing for spirits."@en ;
+    skos:note "The discrimination the transmission itself draws, and the one most reliably lost in later reports of it. The difference between a person possessed by spirits and a shaman is that the shaman introduces them at his own will. The recorder states that the Tungus are always very careful as to the diagnosis, whether the person is possessed by the spirits or the spirits are possessed by the person, and that nobody would recognise anyone as a shaman who could not possess spirits in that sense."@en,
+        "The relation is named by a term the recorder gives in five dialect forms at once. The digitised copy used is an optical transcription and its rendering of these forms is not trustworthy at the level of single letters, so the forms are not reproduced here as if they had been read cleanly. What is reported without doubt is that one term covers the relation across the Manchu, Birarcen, Kumarcen, Nercinsk and Khingan dialects, and that the spirits are said to use it of their master through the shaman's mouth."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:XeperAsSelfGeneration a pm:Originating ;
     rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
         "Xeper as the word of self-generation"@en ;
@@ -5766,6 +6036,16 @@ pmp:NoaidiJourney a pm:Practicing ;
     skos:definition "The practitioner beats the drum and sings, others present singing with him in higher and lower notes. He then casts himself on the ground, grows black in the face and lies as if dead, the drum laid as near as possible on his head, sweating. Those present do not leave off singing for the whole time. When he awakes he relates all the circumstances of the business enquired after."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmp:TungusFormalRecognition a pm:Practicing ;
+    rdfs:label "Die förmliche Anerkennung"@de,
+        "The formal recognition"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95 F, pp. 273-274, and chap. XXVIII, sect. 129-130, pp. 350-352" ;
+    skos:definition "The social act by which a person becomes a clan shaman. The candidate must show a will and a proved ability to master spirits in at least one successful performance; the clansmen must want him. There follows a period of trial in which he must help sick clansmen, practise divination and interpret dreams. Only afterwards is he assisted in making the paraphernalia and in offering the regular sacrifice, and only then do people seek his assistance."@en ;
+    skos:note "It is an act with an outcome that can go the other way. Among all Tungus groups, he states, there are many persons who pretend to be shamans and are not recognised, so that people do not seek their assistance; a candidate may be rejected before the final trial on grounds of character, and among two candidates one may be elected and the other rejected and cured."@en,
+        "The recorder rejects the words consecration and initiation for this act and gives his reason: nothing in it is sacred, and the candidate is already initiated before he attends. The term formal recognition is his and is entered as his; the procedure it names is reported."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SiberianShamanism .
 
 pmp:WitchDoctorMedicineEating a pm:Practicing ;
     rdfs:label "Das Essen der Medizinen der Hexendoktoren"@de,
@@ -6046,6 +6326,15 @@ pmp:Samyama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
 
+pmp:TungusShamanizing a pm:Practicing ;
+    rdfs:label "Das Schamanisieren"@de,
+        "Shamanizing"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVII, sect. 119-121, pp. 325-332, and chap. XXIX, sect. 134, pp. 362-364" ;
+    skos:definition "The performance: the shaman drums, continually increasing and decreasing tempo and intensity in a definite rhythm, brings himself into the bounded state, introduces the spirits into himself, and acts and speaks as the spirits. Assistants must know the art of drumming and must understand the shaman's movements. The performance may begin out of a sleep during which the spirit comes into him."@en ;
+    skos:note "The recorder holds that the audience is a component of the operation and not its public: bringing the audience into the state is not the aim but the means by which the suggestion is made. That claim is his reading and is entered as his; what is reported is the practice."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmt:NeoplatonicTheurgy a pm:Tradition ;
     rdfs:label "Neuplatonische Theurgie"@de,
         "Neoplatonic theurgy"@en ;
@@ -6324,18 +6613,6 @@ pmt:SamiNoaidi a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
         "Originating"@en ;
@@ -6350,10 +6627,12 @@ pm:compilerInference a pm:Attesting ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -6372,6 +6651,16 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -6386,13 +6675,6 @@ pmt:Andean a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
@@ -6403,6 +6685,13 @@ pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -6440,6 +6729,19 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
+pmt:SiberianShamanism a pm:Tradition ;
+    rdfs:label "Sibirische Schamanenüberlieferung"@de,
+        "Siberian shamanic transmission"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXII, sect. 95, pp. 271-274" ;
+    skos:definition "The Tungus and Manchu transmission of an office whose holder is defined as a master of spirits rather than as one they possess, entered through an illness that resolves only on acceptance, carried by a drum and a brass mirror, and conferred by a formal recognition that a candidate can fail."@en ;
+    skos:note "Read in this run at the wording: the monograph of nineteen thirty-five, chapters XXII to XXXI, that is the whole of the part on shamanism, pages 268 to 402, in the London edition of that year. Left unread: parts one to three, pages 49 to 240, on positive knowledge, on the hypotheses and on the practical consequences of the hypotheses, which carry the system of spirits this part presupposes; the introduction, pages 1 to 48, which is missing from the digitised copy used; and the whole of the Sakha material named in the registration, which the author does not carry."@en,
+        "That correction is the reason the entry was worth opening first. The registration noted that this is the region the word shaman was taken from and that the graph used the category while holding no witness from its source. What the source says is that the complex it names is comparatively recent and largely borrowed. Every convergence in this graph that leans on a Siberian parallel is affected by it, and the affected nodes are exactly the ones nobody would have checked."@en,
+        "The author is one recorder and not a chorus. He worked among the Tungus of Manchuria and Transbaikalia and among the Manchus over some twenty years, in their languages, and he says at the outset which groups he saw and which he did not. Where he gives his own reconstruction rather than what he was told, the notes on the nodes below say so."@en,
+        "The contact route is entered as documented and no longer as undecided, and this is the finding of the run rather than a formality. The route runs through the instruments and through the word. The brass mirror without which no performance is possible is bought from the Mongols, who receive them from China and Tibet, and it is the same object that Lamaism uses on its altars; the headdress of the Tungus of Manchuria carries five images of Buddha; the term burkan, applied to a great number of spirits, is the Mongol modification of Buddha; and the word saman itself is traced by the author to sramana through the Chinese san-men. A tradition whose indispensable instrument, whose spirit vocabulary and whose own name run to a corpus this graph already holds cannot be counted as an independent witness for anything they share."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
         "Places entered"@en ;
@@ -6460,18 +6762,18 @@ pmt:Enochic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
+
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
         "Presupposing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
     skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
-
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pm:contactRouteDocumented a pm:ContactRoute ;
     rdfs:label "Kontaktweg belegt"@de,
