@@ -79,14 +79,23 @@ pmc:AffectCouplingProtocol a pm:Testing ;
     pm:tests pmc:AffectCouplingShiftsTheCarrier ;
     pm:undividedOutcomes "A threshold for risk that has been raised, and one that has been lowered. The claim covers both alike, so acting on it cannot tell the practitioner which of the two he has brought about."@en .
 
-pmc:AhwalAreOccasioned a pm:Situating ;
-    rdfs:label "Die Zustände fallen zu"@de,
-        "The states are occasioned"@en ;
+pmc:AhwalAreNotByEffort a pm:Situating ;
+    rdfs:label "Die Zustände werden nicht durch Anstrengung erlangt"@de,
+        "The states are not attained by effort"@en ;
     dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya" ;
     pm:attestedBy pm:compilerInference ;
-    pm:axisValue pm:occasionedState ;
+    pm:axisValue pm:notByEffort ;
     pm:situatedNode pmc:Ahwal ;
-    pm:situationGround "The handbooks describe these as descending on the wayfarer as a gift and passing, and distinguish them from the stations precisely by their not being attainable through effort. That is the criterion this coordinate names, stated by the source itself."@en .
+    pm:situationGround "The handbooks describe these as descending on the wayfarer as a gift and distinguish them from the stations precisely by their not being attainable through effort. That is the criterion this coordinate names, stated by the source itself."@en .
+
+pmc:AhwalAreTransient a pm:Situating ;
+    rdfs:label "Die Zustände vergehen"@de,
+        "The states pass"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:transientState ;
+    pm:situatedNode pmc:Ahwal ;
+    pm:situationGround "The same passage has them pass as well as descend, and the two are separate claims: a gift may be kept. The Sufi material answers both questions the same way, which is why one axis sufficed until a tradition answered them differently."@en .
 
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
@@ -1312,6 +1321,24 @@ pmc:InuitHelpingSpirits a pm:Conceptualizing ;
     skos:definition "Spirits belonging to a particular shaman, called up by him and reported to act in the world on his behalf: to guard a child, to raise a barrier against the dead, to find what has been lost."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmc:InuitSecondSightIsAbiding a pm:Situating ;
+    rdfs:label "Das zweite Gesicht bleibt"@de,
+        "Second sight abides"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:abidingState ;
+    pm:situatedNode pmc:InuitSecondSight ;
+    pm:situationGround "A standing property of a person is not an episode. This is the placement that broke the older single axis: not attained and not passing either, which the two ends of that axis could not hold at once. See prima-materia#439."@en .
+
+pmc:InuitSecondSightIsNotByEffort a pm:Situating ;
+    rdfs:label "Das zweite Gesicht wird nicht durch Anstrengung erlangt"@de,
+        "Second sight is not attained by effort"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:notByEffort ;
+    pm:situatedNode pmc:InuitSecondSight ;
+    pm:situationGround "The narrative reports the capacity as a standing property of a person and expressly not as the outcome of an exercise. No training is named for it anywhere in the portion read."@en .
+
 pmc:InuitSpiritCallingAnchoringIsNotStated a pm:Situating ;
     rdfs:label "Das Geisterrufen gibt keine Sinnesbindung an"@de,
         "The spirit calling states no sensory anchoring"@en ;
@@ -1555,14 +1582,23 @@ pmc:MaoriEfficacyPresupposesExactRecitation a pm:Presupposing ;
     pm:priorStep pmc:MaoriExactRecitation ;
     pm:withinTradition pmt:Maori .
 
-pmc:MaqamatAreEstablished a pm:Situating ;
-    rdfs:label "Die Stationen sind erworben"@de,
-        "The stations are established"@en ;
+pmc:MaqamatAreAbiding a pm:Situating ;
+    rdfs:label "Die Stationen bleiben"@de,
+        "The stations abide"@en ;
     dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations" ;
     pm:attestedBy pm:compilerInference ;
-    pm:axisValue pm:establishedStation ;
+    pm:axisValue pm:abidingState ;
     pm:situatedNode pmc:Maqamat ;
-    pm:situationGround "The handbooks describe these as attained by effort, held by the one who reaches them, and enumerated in a set order. The order is why prerequisite claims are found here and not on the other end of the axis."@en .
+    pm:situationGround "The handbooks have the station held by the one who reaches it, which is what makes the enumeration an ascent rather than a list of episodes."@en .
+
+pmc:MaqamatAreByEffort a pm:Situating ;
+    rdfs:label "Die Stationen werden durch Anstrengung erlangt"@de,
+        "The stations are attained by effort"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:byEffort ;
+    pm:situatedNode pmc:Maqamat ;
+    pm:situationGround "The handbooks describe these as attained by effort and enumerated in a set order. The order is why prerequisite claims are found here and not at the other end of the axis."@en .
 
 pmc:MedicineEatingYieldsSeeing a pm:Yielding ;
     rdfs:label "Das Essen der Medizinen bringt das Sehen hervor"@de,
@@ -1846,6 +1882,16 @@ pmc:PranayamaPresupposesAsana a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Asana ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:PrayerOfTheHeartIsUnbound a pm:Situating ;
+    rdfs:label "Das Herzensgebet ist an keinen Zustand gebunden"@de,
+        "The prayer of the heart is bound to no state"@en ;
+    dcterms:source "Philokalia IV, Gregory of Sinai, On Stillness and the Two Ways of Prayer",
+        "Philokalia IV, Nikephoros the Monk, On Watchfulness and the Guarding of the Heart" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:anchoringUnbound ;
+    pm:situatedNode pmc:PrayerOfTheHeart ;
+    pm:situationGround "The prayer is prescribed as continuous, which is the point of it: not a set-apart exercise but something carried through whatever the practitioner is doing. The tradition is not declining the distinction between waking and sleeping; it requires the prayer across it."@en .
 
 pmc:PrayerPresupposesWatchfulness a pm:Presupposing ;
     rdfs:label "Das Herzensgebet setzt Wachsamkeit und Führung voraus"@de,
@@ -2699,6 +2745,15 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
 
+pmc:WatchfulnessIsUnbound a pm:Situating ;
+    rdfs:label "Die Wachsamkeit ist an keinen Zustand gebunden"@de,
+        "Watchfulness is bound to no state"@en ;
+    dcterms:source "Philokalia I, Hesychios of Sinai, On Watchfulness and Holiness" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:anchoringUnbound ;
+    pm:situatedNode pmc:Watchfulness ;
+    pm:situationGround "The guarding of the heart is set as an unbroken attention to what arises in it, and its whole point is that it does not stop when the occasion changes. A watchfulness held only in a session would not be the thing the literature asks for."@en .
+
 pmc:WhatLiesStillWhileHeTravels a pm:Conceptualizing ;
     rdfs:label "Was da stillliegt"@de,
         "What it is that lies still"@en ;
@@ -2866,6 +2921,18 @@ pm:Relating a owl:Class ;
         "Relating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of placing one concept in relation to another."@en .
+
+pm:acquisitionDeclined a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Erwerbsunterscheidung abgelehnt"@de,
+        "Acquisition distinction declined"@en ;
+    skos:definition "The tradition holds that the distinction between what is worked for and what is given does not apply to what it teaches."@en .
+
+pm:acquisitionNotStated a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Erwerb nicht angegeben"@de,
+        "Acquisition not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en .
 
 pm:addedElement a owl:ObjectProperty ;
     rdfs:label "hinzugefügtes Element"@de,
@@ -3045,6 +3112,18 @@ pm:disputedClaim a owl:ObjectProperty ;
     rdfs:domain pm:Disputing ;
     skos:definition "What the disagreement is about."@en .
 
+pm:durationDeclined a pm:AwarenessValue,
+        pm:StateDuration ;
+    rdfs:label "Dauerunterscheidung abgelehnt"@de,
+        "Duration distinction declined"@en ;
+    skos:definition "The tradition holds that the distinction between a passing and an abiding condition does not apply to what it teaches."@en .
+
+pm:durationNotStated a pm:AwarenessValue,
+        pm:StateDuration ;
+    rdfs:label "Dauer nicht angegeben"@de,
+        "Duration not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en .
+
 pm:dyadicAwareness a pm:AwarenessSpace ;
     rdfs:label "Dyadisches Bewusstsein"@de,
         "Dyadic awareness"@en ;
@@ -3203,18 +3282,6 @@ pm:outwardWaking a pm:AwarenessValue,
         "Outward waking"@en ;
     skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
     skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
-
-pm:persistenceDeclined a pm:AwarenessValue,
-        pm:StatePersistence ;
-    rdfs:label "Beständigkeitsunterscheidung abgelehnt"@de,
-        "Persistence distinction declined"@en ;
-    skos:definition "The tradition holds that the distinction between a condition that is given and one that is attained does not apply to what it teaches."@en .
-
-pm:persistenceNotStated a pm:AwarenessValue,
-        pm:StatePersistence ;
-    rdfs:label "Beständigkeit nicht angegeben"@de,
-        "Persistence not stated"@en ;
-    skos:definition "The source was read for this question and does not answer it."@en .
 
 pm:positedIn a owl:DatatypeProperty ;
     rdfs:label "gesetzt in"@de,
@@ -4972,14 +5039,6 @@ pmc:InuitRecoveryOfLostThings a pm:Conceptualizing ;
     skos:definition "The capacity to bring back an object that has been lost, named in the narrative for iron and steel knives, which were rare at the time and often lost."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
-pmc:InuitSecondSight a pm:Conceptualizing ;
-    rdfs:label "Zweites Gesicht"@de,
-        "Second sight"@en ;
-    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
-    skos:definition "The capacity to know in advance that something remarkable is about to happen, reported in the narrative as a standing property of a person rather than as the outcome of an exercise."@en ;
-    skos:note "The English term is the translator's. What the node carries is the claim reported under it and not the term's own history in Scottish and Scandinavian usage; whether the Inuktitut word behind it has that range is not decidable from the portion read."@en ;
-    pm:withinTradition pmt:InuitAngakkuq .
-
 pmc:InuitSewingProhibitionOnOqshoriaq a pm:Conceptualizing ;
     rdfs:label "Das Verbot, auf Oqshoriaq neues Karibufell zu nähen"@de,
         "The prohibition on sewing new caribou skin on Oqshoriaq"@en ;
@@ -5197,14 +5256,6 @@ pmc:Prana a pm:Conceptualizing ;
         "Chāndogya Upaniṣad 7.15.1 (Sanskrit; received prapāṭhaka-khaṇḍa numbering)" ;
     skos:definition "Vital breath, presented as that on which the parts of the person rest and out of which beings come forth, in the image of a wheel resting on its hub."@en ;
     pm:withinTradition pmt:Upanisadic .
-
-pmc:PrayerOfTheHeart a pm:Conceptualizing ;
-    rdfs:label "Das Herzensgebet"@de,
-        "The prayer of the heart"@en ;
-    dcterms:source "Philokalia IV, Gregory of Sinai, On Stillness and the Two Ways of Prayer",
-        "Philokalia IV, Nikephoros the Monk, On Watchfulness and the Guarding of the Heart" ;
-    skos:definition "The continuous inward prayer that gives the tradition its practice."@en ;
-    pm:withinTradition pmt:Hesychasm .
 
 pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
     rdfs:label "Das Zurückhalten des herabfließenden Nektars"@de,
@@ -5535,14 +5586,6 @@ pmc:Vespasian a pm:Conceptualizing ;
     skos:definition "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."@en ;
     pm:withinTradition pmt:GraecoRoman .
 
-pmc:Watchfulness a pm:Conceptualizing ;
-    rdfs:label "Wachsamkeit"@de,
-        "Watchfulness"@en ;
-    dcterms:source "Philokalia I, Diadochus of Photice, Gnostic Chapters",
-        "Philokalia I, Hesychios of Sinai, On Watchfulness and Holiness" ;
-    skos:definition "The guarding of the heart and the attention to what arises in it, treated as the groundwork on which the prayer of the heart is built."@en ;
-    pm:withinTradition pmt:Hesychasm .
-
 pmc:WeaponsOfDeath a pm:Conceptualizing ;
     rdfs:label "Die Waffen des Todes"@de,
         "The weapons of death"@en ;
@@ -5613,6 +5656,13 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
+pm:byEffort a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Durch Anstrengung"@de,
+        "By effort"@en ;
+    skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
+    skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
+
 pm:claimDoesNotDiscriminate a pm:ExaminationState ;
     rdfs:label "Behauptung unterscheidet nicht"@de,
         "Claim does not discriminate"@en ;
@@ -5640,13 +5690,6 @@ pm:dreamingWithin a pm:AwarenessValue,
     skos:definition "Awareness of objects generated inwardly, with the sensory channel detached. Whether the dreamer knows he dreams is a separate question and not this axis."@en ;
     skos:note "The Māṇḍūkya calls this svapna. Lucidity is deliberately not a value here: it varies within the state rather than replacing it, and a source that trains recognition inside the dream is placed here and says so in its own words."@en .
 
-pm:establishedStation a pm:AwarenessValue,
-        pm:StatePersistence ;
-    rdfs:label "Erworben"@de,
-        "Established"@en ;
-    skos:definition "A condition the source describes as attained by effort and held by the one who reaches it, commonly placed in an order."@en ;
-    skos:note "The Sufi handbooks call these maqāmāt. Values on this end of the axis are where prerequisite chains are to be expected, and their absence is worth a question."@en .
-
 pm:individuatingTelos a pm:TelicOrientation ;
     rdfs:label "Individuierendes Ziel"@de,
         "Individuating telos"@en ;
@@ -5658,13 +5701,6 @@ pm:locusNotStated a pm:AwarenessLocus,
     rdfs:label "Ort nicht angegeben"@de,
         "Locus not stated"@en ;
     skos:definition "The source was read for this question and does not answer it."@en .
-
-pm:occasionedState a pm:AwarenessValue,
-        pm:StatePersistence ;
-    rdfs:label "Zugefallen"@de,
-        "Occasioned"@en ;
-    skos:definition "A condition the source describes as arriving unbidden and passing, not to be produced at will."@en ;
-    skos:note "The Sufi handbooks call these aḥwāl and say outright that they cannot be worked for. Where a source says this, a missing prerequisite claim is a doctrine and not an omission."@en .
 
 pm:ownAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
@@ -5681,6 +5717,13 @@ pm:sourceModalityScale a pm:ScaleFamily ;
     rdfs:label "Quellenmodalitätsskala"@de,
         "Source modality scale"@en ;
     skos:definition "A scale that reports how firmly a source sets what it says. Its values are read off the wording of the source: they are neither a judgement about the subject matter nor a judgement about the source's reliability."@en .
+
+pm:transientState a pm:AwarenessValue,
+        pm:StateDuration ;
+    rdfs:label "Vergehend"@de,
+        "Transient"@en ;
+    skos:definition "The source has the condition pass of itself, so that it must be entered again rather than merely kept."@en ;
+    skos:note "A capacity said to come and go is a different object of examination from one said to last: it is tested against frequency and occasion, not against a course of training."@en .
 
 pmp:BabalawoPupilage a pm:Practicing ;
     rdfs:label "Die Lehrzeit des Anwärters auf das Amt des Babalawo"@de,
@@ -5921,15 +5964,6 @@ pmc:Agape a pm:Conceptualizing ;
     skos:definition "Called the offspring of apatheia and the keeper of the door to the contemplation of created things."@en ;
     pm:withinTradition pmt:DesertMonasticism .
 
-pmc:Ahwal a pm:Conceptualizing ;
-    rdfs:label "Zustände"@de,
-        "States"@en ;
-    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya",
-        "al-Sarrāj, Kitāb al-Lumaʿ" ;
-    skos:definition "Conditions that descend on the wayfarer as a gift and pass, distinguished in the handbooks from the stations precisely by not being attainable through effort."@en ;
-    skos:note "No prerequisite claim is entered for these. The tradition holds that they cannot be worked for, which is a claim about the limits of any ordering and not an omission in this record."@en ;
-    pm:withinTradition pmt:Sufism .
-
 pmc:Apatheia a pm:Conceptualizing ;
     rdfs:label "Apatheia"@de,
         "Apatheia"@en ;
@@ -6097,14 +6131,6 @@ pmc:MaoriExactRecitation a pm:Conceptualizing ;
     skos:definition "The rendering of an invocation in which neither a mistake nor a pause occurs. The tradition sets the two on the same footing: hesitating is treated as failing, not as taking care."@en ;
     pm:withinTradition pmt:Maori .
 
-pmc:Maqamat a pm:Conceptualizing ;
-    rdfs:label "Stationen"@de,
-        "Stations"@en ;
-    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations",
-        "al-Sarrāj, Kitāb al-Lumaʿ" ;
-    skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
-    pm:withinTradition pmt:Sufism .
-
 pmc:MideDistantHearing a pm:Conceptualizing ;
     rdfs:label "Hören dessen, was in großer Ferne geschieht"@de,
         "Hearing what happens at a great distance"@en ;
@@ -6163,6 +6189,14 @@ pmc:PoToloOrbit a pm:Conceptualizing ;
     skos:note "The article calls the same course the figure of circumcision and excision: the near and far points of the orbit are the foreskin and the knife. The astronomical reading and the ritual reading are the same drawing, and the account gives no priority to either."@en ;
     pm:withinTradition pmt:Dogon .
 
+pmc:PrayerOfTheHeart a pm:Conceptualizing ;
+    rdfs:label "Das Herzensgebet"@de,
+        "The prayer of the heart"@en ;
+    dcterms:source "Philokalia IV, Gregory of Sinai, On Stillness and the Two Ways of Prayer",
+        "Philokalia IV, Nikephoros the Monk, On Watchfulness and the Guarding of the Heart" ;
+    skos:definition "The continuous inward prayer that gives the tradition its practice."@en ;
+    pm:withinTradition pmt:Hesychasm .
+
 pmc:Sariel a pm:Naming ;
     rdfs:label "Sariel"@de,
         "Sariel"@en ;
@@ -6220,6 +6254,14 @@ pmc:TungusMasteringOfSpirits a pm:Conceptualizing ;
         "The relation is named by a term the recorder gives in five dialect forms at once. The digitised copy used is an optical transcription and its rendering of these forms is not trustworthy at the level of single letters, so the forms are not reproduced here as if they had been read cleanly. What is reported without doubt is that one term covers the relation across the Manchu, Birarcen, Kumarcen, Nercinsk and Khingan dialects, and that the spirits are said to use it of their master through the shaman's mouth."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:Watchfulness a pm:Conceptualizing ;
+    rdfs:label "Wachsamkeit"@de,
+        "Watchfulness"@en ;
+    dcterms:source "Philokalia I, Diadochus of Photice, Gnostic Chapters",
+        "Philokalia I, Hesychios of Sinai, On Watchfulness and Holiness" ;
+    skos:definition "The guarding of the heart and the attention to what arises in it, treated as the groundwork on which the prayer of the heart is built."@en ;
+    pm:withinTradition pmt:Hesychasm .
+
 pmc:XeperAsSelfGeneration a pm:Originating ;
     rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
         "Xeper as the word of self-generation"@en ;
@@ -6247,6 +6289,12 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pm:abidingState a pm:AwarenessValue,
+        pm:StateDuration ;
+    rdfs:label "Bleibend"@de,
+        "Abiding"@en ;
+    skos:definition "The source has the condition remain with the one who has it, whether it was worked for or not."@en .
+
 pm:anchoringNotStated a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Sinnesbindung nicht angegeben"@de,
@@ -6254,12 +6302,27 @@ pm:anchoringNotStated a pm:AwarenessValue,
     skos:definition "The source was read for this question and does not answer it."@en ;
     skos:note "Not the same as an untagged node, and the difference is what makes a query of the form 'only in this state' readable at all. No placement means nobody asked; this value means somebody asked and the source is silent."@en .
 
+pm:anchoringUnbound a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "An keine Sinnesbindung gebunden"@de,
+        "Not bound to an anchoring"@en ;
+    skos:definition "The source prescribes the practice across the states this axis distinguishes: not in a set-apart session but through work, speech and sleep alike."@en ;
+    skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
+        "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
+
 pm:cededAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
     rdfs:label "Abgetretene Trägerschaft"@de,
         "Ceded agency"@en ;
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
+
+pm:notByEffort a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Nicht durch Anstrengung"@de,
+        "Not by effort"@en ;
+    skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
+    skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
 
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
@@ -6354,6 +6417,15 @@ pmt:Upanisadic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pmc:Ahwal a pm:Conceptualizing ;
+    rdfs:label "Zustände"@de,
+        "States"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:definition "Conditions that descend on the wayfarer as a gift and pass, distinguished in the handbooks from the stations precisely by not being attainable through effort."@en ;
+    skos:note "No prerequisite claim is entered for these. The tradition holds that they cannot be worked for, which is a claim about the limits of any ordering and not an omission in this record."@en ;
+    pm:withinTradition pmt:Sufism .
+
 pmc:AstangaLimbs a pm:Conceptualizing ;
     rdfs:label "Die acht Glieder"@de,
         "The eight limbs"@en ;
@@ -6407,6 +6479,14 @@ pmc:InnerHeat a pm:Conceptualizing ;
     skos:definition "Heat held to be generated within the body by deliberate practice rather than received from outside it."@en ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmc:InuitSecondSight a pm:Conceptualizing ;
+    rdfs:label "Zweites Gesicht"@de,
+        "Second sight"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 29" ;
+    skos:definition "The capacity to know in advance that something remarkable is about to happen, reported in the narrative as a standing property of a person rather than as the outcome of an exercise."@en ;
+    skos:note "The English term is the translator's. What the node carries is the claim reported under it and not the term's own history in Scottish and Scandinavian usage; whether the Inuktitut word behind it has that range is not decidable from the portion read."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:Manomayakaya a pm:Conceptualizing ;
     rdfs:label "Geistgemachter Körper"@de,
         "Mind-made body"@en ;
@@ -6414,6 +6494,14 @@ pmc:Manomayakaya a pm:Conceptualizing ;
         "Dīgha Nikāya 2, Sāmaññaphala Sutta, DN i.77 (trans. Ṭhānissaro Bhikkhu)" ;
     skos:definition "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:Maqamat a pm:Conceptualizing ;
+    rdfs:label "Stationen"@de,
+        "Stations"@en ;
+    dcterms:source "al-Qushayrī, al-Risāla al-Qushayriyya, chapter on the stations",
+        "al-Sarrāj, Kitāb al-Lumaʿ" ;
+    skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
+    pm:withinTradition pmt:Sufism .
 
 pmc:ParacittaJnana a pm:Conceptualizing ;
     rdfs:label "Kenntnis fremden Bewusstseins"@de,
@@ -6581,11 +6669,18 @@ pm:ScaleFamily a owl:Class ;
         "Scale Family"@en ;
     skos:definition "The kind of question a scale answers. Three families are distinguished because a statement about the state of the record, a statement about the firmness of a source and a statement about the subject matter must never be read alike."@en .
 
-pm:StatePersistence a owl:Class,
+pm:StateAcquisition a owl:Class,
         pm:Scale ;
-    rdfs:label "Beständigkeit des Zustands"@de,
-        "State Persistence"@en ;
-    skos:definition "The axis on which a source's account of how a condition is held is placed: as something that descends and passes, or as something attained and retained."@en ;
+    rdfs:label "Erwerb des Zustands"@de,
+        "State Acquisition"@en ;
+    skos:definition "The axis on which a source's account of how a condition comes to someone is placed: through effort directed at it, or not."@en ;
+    pm:scaleFamily pm:subjectAxis .
+
+pm:StateDuration a owl:Class,
+        pm:Scale ;
+    rdfs:label "Dauer des Zustands"@de,
+        "State Duration"@en ;
+    skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
 
 pm:displacedLocus a pm:AwarenessLocus,
@@ -6795,13 +6890,6 @@ pm:Attesting a owl:Class,
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:SensoryAnchoring a owl:Class,
-        pm:Scale ;
-    rdfs:label "Sinnesbindung"@de,
-        "Sensory Anchoring"@en ;
-    skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
-    pm:scaleFamily pm:subjectAxis .
-
 pm:TelicOrientation a owl:Class,
         pm:Scale ;
     rdfs:label "Ausrichtung des Zieles"@de,
@@ -6812,12 +6900,6 @@ pm:TelicOrientation a owl:Class,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
 
-pm:subjectAxis a pm:ScaleFamily ;
-    rdfs:label "Sachachse"@de,
-        "Subject axis"@en ;
-    skos:definition "A coordinate on which a tradition, a practice, a capacity or a claim is placed. The axis belongs to no tradition; sources describe a condition and do not name a coordinate, so every placement is an act of the compiler and carries pm:compilerInference."@en ;
-    skos:note "Two values are owed on every subject axis beyond the substantive ones. A declining value, for a tradition that rejects the distinction the axis draws: without it a rejection is recorded as an omission, which turns a doctrine into a gap. And a not-stated value, for a source that was read for the question and does not answer it: without it a node nobody tagged cannot be told from a source that was asked and stayed silent, and every query of the form 'only in X' reports the state of the tagging instead of the state of the traditions."@en .
-
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -6827,6 +6909,13 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pm:SensoryAnchoring a owl:Class,
+        pm:Scale ;
+    rdfs:label "Sinnesbindung"@de,
+        "Sensory Anchoring"@en ;
+    skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
+    pm:scaleFamily pm:subjectAxis .
+
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -6834,6 +6923,12 @@ pm:mediatedAttestation a pm:Attesting ;
     skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
+pm:subjectAxis a pm:ScaleFamily ;
+    rdfs:label "Sachachse"@de,
+        "Subject axis"@en ;
+    skos:definition "A coordinate on which a tradition, a practice, a capacity or a claim is placed. The axis belongs to no tradition; sources describe a condition and do not name a coordinate, so every placement is an act of the compiler and carries pm:compilerInference."@en ;
+    skos:note "Two values are owed on every subject axis beyond the substantive ones. A declining value, for a tradition that rejects the distinction the axis draws: without it a rejection is recorded as an omission, which turns a doctrine into a gap. And a not-stated value, for a source that was read for the question and does not answer it: without it a node nobody tagged cannot be told from a source that was asked and stayed silent, and every query of the form 'only in X' reports the state of the tagging instead of the state of the traditions."@en .
 
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
@@ -6960,12 +7055,6 @@ pm:Positing a owl:Class ;
     skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
     skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
-pm:Scale a owl:Class ;
-    rdfs:label "Skala"@de,
-        "Scale"@en ;
-    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
-    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
-
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -6974,6 +7063,12 @@ pmt:TibetanTantric a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Scale a owl:Class ;
+    rdfs:label "Skala"@de,
+        "Scale"@en ;
+    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
+    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
@@ -7027,11 +7122,6 @@ pm:Originating a owl:Class ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
-pm:AwarenessValue a owl:Class ;
-    rdfs:label "Wert einer Bewusstseinsachse"@de,
-        "Awareness Axis Value"@en ;
-    skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -7061,13 +7151,6 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:Situating a owl:Class ;
-    rdfs:label "Verorten"@de,
-        "Situating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
-    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
@@ -7086,6 +7169,11 @@ pmt:Andean a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
+
+pm:AwarenessValue a owl:Class ;
+    rdfs:label "Wert einer Bewusstseinsachse"@de,
+        "Awareness Axis Value"@en ;
+    skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -7135,6 +7223,13 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Situating a owl:Class ;
+    rdfs:label "Verorten"@de,
+        "Situating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
+    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
