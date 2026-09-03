@@ -3077,6 +3077,12 @@ pm:locusDeclined a pm:AwarenessLocus,
         "Locus distinction declined"@en ;
     skos:definition "The tradition holds that the distinction between an awareness in the body and an awareness apart from it does not apply, because it does not grant the localisation the axis presupposes."@en .
 
+pm:methodNotStated a pm:MethodOrientation ;
+    rdfs:label "Ausrichtung der Methode nicht angegeben"@de,
+        "Method orientation not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it: it prescribes its means without placing them for or against the norm of the order it stands in."@en ;
+    skos:note "The counterpart of pm:normDistinctionDeclined from the other side, and required on every subject axis by SPEC §17. Without it a source that was asked and stayed silent is indistinguishable from a node nobody has reached, and any query of the form 'only conforming methods' reports the state of our reading instead of the state of the traditions. Silence is common here and is worth recording: a great many operative texts simply do not raise the question."@en .
+
 pm:methodOrientation a owl:ObjectProperty ;
     rdfs:label "Ausrichtung der Methode"@de,
         "method orientation"@en ;
@@ -3233,6 +3239,12 @@ pm:telicOrientation a owl:ObjectProperty ;
     rdfs:range pm:TelicOrientation ;
     skos:definition "Places a tradition, a practice or a claim on the axis of the end state. Asserting it is a claim about a source and carries the same burden as any other."@en ;
     skos:note "Where a source claims one end state for a stage and another for the whole, both are stated on their own nodes rather than averaged. An averaged orientation reports a path no source teaches, in the same way an averaged reading reports a text no witness gives."@en .
+
+pm:telosNotStated a pm:TelicOrientation ;
+    rdfs:label "Ziel nicht angegeben"@de,
+        "Telic orientation not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it: it sets out a practice and its results without saying what becomes of the bounded self at the end."@en ;
+    skos:note "Required on every subject axis by SPEC §17, and the case it covers is the ordinary one. A handbook of technique may name a dozen capacities and never state an end state at all; recording that as absence would put it in the same bucket as every text nobody has opened yet."@en .
 
 pm:tests a owl:ObjectProperty ;
     rdfs:label "prüft"@de,
@@ -6495,16 +6507,6 @@ pm:CounterSearchState a owl:Class,
         "The state exists because the prose rule did not hold. It was written into AGENTS.md on 2026-09-02 after evidence was entered unread, and within the same session evidence was entered again without any search for opposition. A rule that has to be remembered at the moment of writing is a rule that fails at the moment of haste."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:MethodOrientation a owl:Class,
-        pm:Scale ;
-    rdfs:label "Ausrichtung der Methode"@de,
-        "Method Orientation"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "How a path stands to the norm of the order it is transmitted in: whether its operative means keep that norm, deliberately break it, or decline the distinction. An instance of this class is a value on that axis and never a path."@en ;
-    skos:note "Absence of pm:methodOrientation on a node means the axis was not determined for it. It does not mean the middle value, and it does not mean pm:normDistinctionDeclined, which is a positive claim about a source and carries the same burden as any other."@en,
-        "Held apart from pm:TelicOrientation deliberately, and that separation is the whole reason both classes exist. The two vary independently: a path can take the forbidden as its vehicle and still aim at dissolution into what exceeds the self. A scheme with one axis cannot state that case, and the terms that carry one axis — right-hand path, left-hand path — therefore report a transgressive means as though it were a separative goal. See prima-materia#52."@en ;
-    pm:scaleFamily pm:subjectAxis .
-
 pm:PrerequisiteStrength a owl:Class,
         pm:Scale ;
     rdfs:label "Stärke der Voraussetzung"@de,
@@ -6582,6 +6584,16 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+
+pm:MethodOrientation a owl:Class,
+        pm:Scale ;
+    rdfs:label "Ausrichtung der Methode"@de,
+        "Method Orientation"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "How a path stands to the norm of the order it is transmitted in: whether its operative means keep that norm, deliberately break it, or decline the distinction. An instance of this class is a value on that axis and never a path."@en ;
+    skos:note "Held apart from pm:TelicOrientation deliberately, and that separation is the whole reason both classes exist. The two vary independently: a path can take the forbidden as its vehicle and still aim at dissolution into what exceeds the self. A scheme with one axis cannot state that case, and the terms that carry one axis — right-hand path, left-hand path — therefore report a transgressive means as though it were a separative goal. See prima-materia#52."@en,
+        "Three cases, and they must not read alike. Absence of pm:methodOrientation on a node means nobody has put the question to the source. pm:methodNotStated means somebody has, and the source does not answer it. pm:normDistinctionDeclined means the source answers by rejecting the distinction, which is a positive claim and carries the same burden as any other. None of the three is the middle value; there is no middle value."@en ;
+    pm:scaleFamily pm:subjectAxis .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -6661,16 +6673,6 @@ pm:Systematizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
-pm:TelicOrientation a owl:Class,
-        pm:Scale ;
-    rdfs:label "Ausrichtung des Zieles"@de,
-        "Telic Orientation"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "What a path says becomes of the bounded self at its end: whether the self is to be dissolved into what exceeds it, strengthened and preserved as its own absolute, or whether the path declines the question. An instance of this class is a value on that axis and never a path."@en ;
-    skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
-        "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
-    pm:scaleFamily pm:subjectAxis .
-
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -6716,6 +6718,16 @@ pm:SensoryAnchoring a owl:Class,
     rdfs:label "Sinnesbindung"@de,
         "Sensory Anchoring"@en ;
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
+    pm:scaleFamily pm:subjectAxis .
+
+pm:TelicOrientation a owl:Class,
+        pm:Scale ;
+    rdfs:label "Ausrichtung des Zieles"@de,
+        "Telic Orientation"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "What a path says becomes of the bounded self at its end: whether the self is to be dissolved into what exceeds it, strengthened and preserved as its own absolute, or whether the path declines the question. An instance of this class is a value on that axis and never a path."@en ;
+    skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
+        "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
 
 pm:subjectAxis a pm:ScaleFamily ;
