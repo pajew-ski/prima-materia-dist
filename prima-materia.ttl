@@ -1782,6 +1782,16 @@ pmc:ParakayaPravesaIsDisplaced a pm:Situating ;
     pm:situatedNode pmc:ParakayaPravesa ;
     pm:situationGround "The sūtra has the seat of awareness transferred into a body other than the practitioner's own. The awareness is thereby located away from the body it started in, which is the criterion this value names."@en .
 
+pmc:ParakayaPravesaIsWithdrawnAbsorption a pm:Situating ;
+    rdfs:label "Der Eintritt in einen anderen Körper geschieht in abgezogener Vertiefung"@de,
+        "Entering another body is performed in withdrawn absorption"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4",
+        "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmc:ParakayaPravesa ;
+    pm:situationGround "The sūtra makes the entry follow from saṃyama, and the state saṃyama names is fixed by III.1-4. The placement is inherited from the operator the source itself binds the capacity to, and not read off the capacity."@en .
+
 pmc:ParalysisUniversalityProtocol a pm:Testing ;
     rdfs:label "Ob die Lähmung allgemein ist und ihr Bemerken selten"@de,
         "Whether the paralysis is universal and its noticing rare"@en ;
@@ -2024,6 +2034,25 @@ pmc:SamanFromSramana a pm:Conceptualizing ;
         "This is the node for which the file exists. A category the whole comparative literature uses is named after a word its own bearers took from a Buddhist term for a wandering ascetic, in a transmission whose bearers say the art came from their neighbours. Whoever cites the Siberian case as the archaic form is citing the station of a transmission, not its source."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:SamyamaHoldsOwnAgency a pm:Situating ;
+    rdfs:label "Saṃyama behält die eigene Trägerschaft"@de,
+        "Saṃyama holds its own agency"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:ownAgency ;
+    pm:situatedNode pmp:Samyama ;
+    pm:situationGround "The base text has the practitioner bind his own mind and hold it, and the capacities of the third chapter are said to follow from his doing so. Nothing in these sūtras has another speak or act through him; what is claimed is credited to the practice."@en .
+
+pmc:SamyamaIsByEffort a pm:Situating ;
+    rdfs:label "Saṃyama wird durch Anstrengung erlangt"@de,
+        "Saṃyama is attained by effort"@en ;
+    dcterms:source "Patañjali, Yogasūtra II.28",
+        "Patañjali, Yogasūtra III.1-4" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:byEffort ;
+    pm:situatedNode pmp:Samyama ;
+    pm:situationGround "The practice is the deliberate application of three named means to one object, and the text elsewhere makes the arising of knowledge conditional on the wearing away of impurity through the practice of the limbs. Nothing here arrives unworked for."@en .
+
 pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     rdfs:label "Die drei inneren Glieder sind innerlicher als die vorhergehenden fünf"@de,
         "The three inner limbs are inner to the preceding five"@en ;
@@ -2035,6 +2064,25 @@ pmc:SamyamaIsInnerToThePrecedingLimbs a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:AstangaLimbs ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:SamyamaIsWithdrawnAbsorption a pm:Situating ;
+    rdfs:label "Saṃyama ist abgezogene Vertiefung"@de,
+        "Saṃyama is withdrawn absorption"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4" ;
+    skos:note "Numbering. The three members stand at III.1-3 and their combination at III.4 in the received division; the practice node in this file cites III.1-3 alone. See prima-materia#456."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmp:Samyama ;
+    pm:situationGround "The three members are defined in sequence as the binding of the mind to one place, an unbroken flow of attention to that same place, and the same again with the object alone shining forth; the fourth sūtra names the three taken together on one object as saṃyama. That is the criterion this value states — awake, the senses off their objects, attention held on a single one — given in the base text rather than inferred from the capacities. The withdrawal of the senses is a separate limb preceding the three."@en .
+
+pmc:SamyamaLocusNotStated a pm:Situating ;
+    rdfs:label "Saṃyama gibt keinen Ort an"@de,
+        "Saṃyama does not state a locus"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:locusNotStated ;
+    pm:situatedNode pmp:Samyama ;
+    pm:situationGround "The four sūtras were read for this question and are silent on it: they place the attention on an object and say nothing about where the awareness itself is held to be. That the collection has one capacity of displaced locus at III.38 does not settle the operator, which is applied to near and distant objects alike."@en .
 
 pmc:SamyamaYieldsDivyaCaksus a pm:Yielding ;
     rdfs:label "Saṃyama auf die Sonne bringt Weltkenntnis hervor"@de,
@@ -5678,13 +5726,6 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
-pm:byEffort a pm:AwarenessValue,
-        pm:StateAcquisition ;
-    rdfs:label "Durch Anstrengung"@de,
-        "By effort"@en ;
-    skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
-    skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
-
 pm:claimDoesNotDiscriminate a pm:ExaminationState ;
     rdfs:label "Behauptung unterscheidet nicht"@de,
         "Claim does not discriminate"@en ;
@@ -5712,18 +5753,6 @@ pm:individuatingTelos a pm:TelicOrientation ;
         "Individuating telos"@en ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
-
-pm:locusNotStated a pm:AwarenessLocus,
-        pm:AwarenessValue ;
-    rdfs:label "Ort nicht angegeben"@de,
-        "Locus not stated"@en ;
-    skos:definition "The source was read for this question and does not answer it."@en .
-
-pm:ownAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Eigene Trägerschaft"@de,
-        "Own agency"@en ;
-    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
@@ -6327,6 +6356,13 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
+pm:byEffort a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Durch Anstrengung"@de,
+        "By effort"@en ;
+    skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
+    skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
+
 pm:cededAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
     rdfs:label "Abgetretene Trägerschaft"@de,
@@ -6339,12 +6375,24 @@ pm:counterSearchFoundOpposition a pm:CounterSearchState ;
         "Counter-search found opposition"@en ;
     skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
+pm:locusNotStated a pm:AwarenessLocus,
+        pm:AwarenessValue ;
+    rdfs:label "Ort nicht angegeben"@de,
+        "Locus not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en .
+
 pm:notByEffort a pm:AwarenessValue,
         pm:StateAcquisition ;
     rdfs:label "Nicht durch Anstrengung"@de,
         "Not by effort"@en ;
     skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
     skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
+
+pm:ownAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Eigene Trägerschaft"@de,
+        "Own agency"@en ;
+    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
@@ -6637,13 +6685,6 @@ pmc:Iddhividha a pm:Conceptualizing ;
     skos:definition "Transformation by supernormal power, the first of the direct knowledges treated in the handbook."@en ;
     pm:withinTradition pmt:Theravada .
 
-pmc:ParakayaPravesa a pm:Conceptualizing ;
-    rdfs:label "Eintritt in einen anderen Körper"@de,
-        "Entering another body"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
-    skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
-
 pm:AgencyHolding a owl:Class,
         pm:Scale ;
     rdfs:label "Trägerschaft der Handlung"@de,
@@ -6703,13 +6744,6 @@ pm:displacedLocus a pm:AwarenessLocus,
     skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
     skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
 
-pm:withdrawnAbsorption a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Abgezogene Vertiefung"@de,
-        "Withdrawn absorption"@en ;
-    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
-    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
-
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
         "Initiation into the second degree"@en ;
@@ -6752,6 +6786,13 @@ pmt:Upanisadic a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Chāndogya 7.15.1 carries the edition it was read from and was reopened in the Sanskrit for that purpose. For 1.11.5 the edition is not recoverable and is left unstated rather than guessed."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pmc:ParakayaPravesa a pm:Conceptualizing ;
+    rdfs:label "Eintritt in einen anderen Körper"@de,
+        "Entering another body"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
+    skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pm:AwarenessSpace a owl:Class,
         pm:Scale ;
@@ -6813,14 +6854,6 @@ pmp:HathaPranayama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
-pmp:Samyama a pm:Practicing ;
-    rdfs:label "Saṃyama"@de,
-        "Saṃyama"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.1-3" ;
-    skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:PatanjalaYoga .
-
 pmp:TungusShamanizing a pm:Practicing ;
     rdfs:label "Das Schamanisieren"@de,
         "Shamanizing"@en ;
@@ -6871,6 +6904,13 @@ pm:Systematizing a owl:Class ;
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
+
+pm:withdrawnAbsorption a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Abgezogene Vertiefung"@de,
+        "Withdrawn absorption"@en ;
+    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
+    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -6961,6 +7001,14 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pmp:Samyama a pm:Practicing ;
+    rdfs:label "Saṃyama"@de,
+        "Saṃyama"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-3" ;
+    skos:definition "The combined application of dhāraṇā, dhyāna and samādhi to a single object, presented as the general operator from which the capacities of the third chapter follow."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
@@ -7246,13 +7294,6 @@ pmt:Theravada a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Situating a owl:Class ;
-    rdfs:label "Verorten"@de,
-        "Situating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
-    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
@@ -7270,6 +7311,13 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pm:Situating a owl:Class ;
+    rdfs:label "Verorten"@de,
+        "Situating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
+    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
