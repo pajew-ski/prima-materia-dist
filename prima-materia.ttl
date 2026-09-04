@@ -2664,18 +2664,20 @@ pmc:UnchosenSendingProtocol a pm:Testing ;
     rdfs:label "Ob der ungewählte Zustand übergeht"@de,
         "Whether the unchosen state transmits"@en ;
     skos:definition "An examination of whether a sender's own affective state passes to a recipient in the absence of a deliberately chosen one."@en ;
-    skos:note "Read as a claim about ordinary channels, it holds and is among the better established findings in its field. Affective states pass between people who are merely in one another's presence, carried by expression, posture, voice and the automatic mimicry of them, and they pass without either party choosing it or noticing. The states a person is not presenting are the ones that leak most reliably."@en,
-        "Status of what follows. The state above is procedure without cases, and everything below is written in the voice of a finding. It is not one. The notes record what the evidence appeared to show before any search for opposing work was made, and they are kept in that voice because rewriting them would destroy the reasoning that has to be checked. Read them as the expected result of an examination nobody has finished, not as its outcome. See prima-materia#386."@en,
+    skos:note "Affect transfer between co-present people remains widely reported, but the mechanism the contagion literature proposes for it is not secure. The canonical test of the facial feedback step returned a rating difference of 0.03 units, confidence interval -0.11 to 0.16, across seventeen laboratories and 1,894 participants, where the original had reported 0.82. A claim that the state passes without either party choosing it therefore stands without its stated mechanism."@en,
         "The consequence for the draft, and it is not a refutation. What the claim describes occurs; it occurs through a channel that requires nothing the section posits. A practitioner who finds his own state arriving in the other person has not thereby found evidence for the transfer the section is about — he has found the effect that would be there anyway. The claim is confirmed and its confirmation supports nothing beyond itself."@en,
-        "The narrower claim that would carry the section is not examined here and is not touched by this node: that the unchosen state passes where the ordinary channels are closed, out of sight and out of earshot. That is a different protocol, it has no cases, and it must not borrow the confirmation recorded above."@en ;
-    pm:counterSearch pm:counterSearchNotCarried ;
-    pm:counterSearchNote "Not carried, and here the omission is likely to matter. Both works cited are old, and the lines they belong to — nonverbal leakage and automatic mimicry — have well-known replication difficulties that were not looked into before the state was set."@en ;
-    pm:evidenceFrom "E. Hatfield, J. T. Cacioppo and R. L. Rapson, Emotional Contagion (Cambridge: Cambridge University Press, 1994)",
-        "P. Ekman and W. V. Friesen, Nonverbal leakage and clues to deception, Psychiatry 32 (1969), pp. 88-106" ;
+        "The earlier sentence here, that the states a person is not presenting are the ones that leak most reliably, is retracted. It reversed the meta-analytic finding."@en,
+        "The leakage evidence is withdrawn. Ekman and Friesen 1969 is a theoretical paper with three illustrative analyses of films of forty female psychiatric inpatients, of whom deception could be certified for three interviews; the authors state that the studies do not directly test their formulation, and that the leakage they describe should be relatively easy to eliminate once a person is aware of it. Its channel prediction is not borne out either: over independent estimates numbering twenty-nine, twenty-eight, eighteen and thirty-two, hand movements stand at d = 0.00, foot and leg movements at d = -0.09, self-fidgeting at d = -0.01 and eye contact at d = 0.01. The body areas named as the reliable leakage sites sit at zero; what discriminates is verbal and vocal, and it is faint."@en,
+        "The narrower claim that would carry the section is not examined here and is not touched by this node: that the unchosen state passes where the ordinary channels are closed, out of sight and out of earshot. That is a different protocol, it has no cases, and it must not borrow the confirmation recorded above."@en,
+        "Two claims were run together here and are now separated. Detectability is the claim that an observer can read a state the sender is not presenting. Transmission is the claim that the recipient comes to be in that state. The evidence entered for the first was cited for the second, which is the same error as at the Kox case in prima-materia#383: the work was named correctly and stood for something it does not say."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Carried 2026-09-03. Searched: the meta-analytic record on behavioural cues to deception, the accuracy of lie-truth judgments, and the replication status of the mimicry-and-feedback mechanism, in each case for work opposing the claim rather than supporting it. Found: the cue meta-analysis reports that many behaviours have no discernible or only weak links to deceit, with the hand, foot, fidgeting and gaze channels at or near zero; and the multi-laboratory replication of the facial feedback step recovered no effect. Both were read at the passage. Not yet opened: Hatfield, Cacioppo and Rapson 1994, which is carried in prima-materia as an unread citation, and the judgment-accuracy meta-analysis of Bond and DePaulo 2006, seen only in abstract."@en ;
+    pm:evidenceFrom "B. M. DePaulo, J. J. Lindsay, B. E. Malone, L. Muhlenbruck, K. Charlton and H. Cooper, Cues to deception, Psychological Bulletin 129 (2003), no. 1, pp. 74-118",
+        "E.-J. Wagenmakers et al., Registered Replication Report: Strack, Martin, & Stepper (1988), Perspectives on Psychological Science 11 (2016), no. 6, pp. 917-928" ;
     pm:examinationState pm:procedureWithoutCases ;
     pm:examinedBy "Not devised here. The protocol reads the finding off the contagion literature and the work on involuntary nonverbal disclosure" ;
     pm:falsifiedBy "Recipients in the presence of a sender in an unchosen state show no shift toward that state against a neutral condition."@en ;
-    pm:protocolUpdated "2026-09-02"^^xsd:date ;
+    pm:protocolUpdated "2026-09-03"^^xsd:date ;
     pm:tests pmc:UnchosenSendingCarriesTheActualState .
 
 pmc:UncreatedLightCedesAgency a pm:Situating ;
@@ -5698,11 +5700,6 @@ pm:conjugalTelos a pm:TelicOrientation ;
     skos:note "Distinct from pm:separativeTelos for the same reason from the other side: what persists here is not its own absolute but a party to a bond, and it is transformed on the way rather than fortified."@en,
         "Distinct from pm:unitiveTelos, and the distinction is not verbal. A dissolution has one term at the end; a marriage has two. A record that files a bridal end state as unitive reports the disappearance of something the source keeps."@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:dreamingWithin a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Im Traum"@de,
@@ -6337,6 +6334,11 @@ pm:cededAgency a pm:AgencyHolding,
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
+
 pm:notByEffort a pm:AwarenessValue,
         pm:StateAcquisition ;
     rdfs:label "Nicht durch Anstrengung"@de,
@@ -6936,6 +6938,11 @@ pm:SensoryAnchoring a owl:Class,
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:counterSearchNotCarried a pm:CounterSearchState ;
+    rdfs:label "Gegensuche nicht geführt"@de,
+        "Counter-search not carried"@en ;
+    skos:definition "No attempt has been made to find work that contradicts, fails to replicate, or supersedes the evidence cited."@en .
+
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -6954,11 +6961,6 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
-pm:counterSearchNotCarried a pm:CounterSearchState ;
-    rdfs:label "Gegensuche nicht geführt"@de,
-        "Counter-search not carried"@en ;
-    skos:definition "No attempt has been made to find work that contradicts, fails to replicate, or supersedes the evidence cited."@en .
 
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
