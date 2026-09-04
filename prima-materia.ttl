@@ -416,6 +416,16 @@ pmc:CautionAgainstTouchingTheBurialGear a pm:Cautioning ;
     pm:cautionsAbout pmc:TungusParaphernalia ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:Chilan a pm:Conceptualizing ;
+    rdfs:label "Chilan"@de,
+        "Chilan"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXVII, pp. 46-47" ;
+    skos:altLabel "chilam"@en,
+        "chilanes"@es ;
+    skos:definition "The office of the speaker who gave out the oracles to those of the locality. The witness reports that the respect shown them was so great that they did not ordinarily leave their houses except carried on litters."@en ;
+    skos:note "The same section gives the office of the priest beside it: to teach the sciences, to indicate calamities and the means of remedying them, to preach at the festivals and to celebrate the sacrifices. Indicating a calamity and naming its remedy are one office in this transmission, which is why the remedy for a foretold year below is not a separate institution."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     rdfs:label "Das an die Brust gedrückte Kinn in den beiden bevorzugten Sitzhaltungen"@de,
         "The chin pressed to the chest in the two seats the manual prefers"@en ;
@@ -1609,6 +1619,82 @@ pmc:MaqamatAreByEffort a pm:Situating ;
     pm:situatedNode pmc:Maqamat ;
     pm:situationGround "The handbooks describe these as attained by effort and enumerated in a set order. The order is why prerequisite claims are found here and not at the other end of the axis."@en .
 
+pmc:MayaAjSignExamination a pm:Testing ;
+    rdfs:label "Das gepflanzte Rohr als Meldung eines Todes andernorts"@de,
+        "The planted cane as a report of a death elsewhere"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 7" ;
+    skos:definition "A protocol the transmission states for itself and states completely: a plant in one place is held to report the death or survival of a person in another, and both readings are fixed before the event. The claim is about a correspondence between two separated states of affairs, so it is decidable in a way that a claim about an inner state is not."@en ;
+    skos:note "Entered as a protocol rather than as a remark because the tradition supplies every part a protocol needs and supplies it in advance: the observable, the two readings, the reader, and the moment of reading. What it does not supply is a case in which the reading was checked against the death."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A case in which the cane dried while the person who planted it lived, or sprouted again while he was dead, with the state of the plant recorded before the news arrived." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:MayaAjSign .
+
+pmc:MayaIdolCarvingCaution a pm:Cautioning ;
+    rdfs:label "Die Schnitzer entzogen sich dem Auftrag"@de,
+        "The carvers excused themselves from the commission"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XL, pp. 76-77" ;
+    skos:definition "A warning that comes from the practitioners and not from the priesthood. The witness reports that the craftsmen always excused themselves from the work, because they believed that either they or someone of their household would die, or would suffer heart attacks or strokes."@en ;
+    skos:note "This is the rarer kind of caution: not a rule laid on the practice from above but a refusal by the people who would have to carry it out, with the harm they expected named. The named harms are sudden, bodily and unrelated to the work, which is what makes the belief hard to disappoint."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:MayaIdolCarving ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmc:MayaIxRemedyYieldsAverting a pm:Yielding ;
+    rdfs:label "Die Abwehr befreit von den geweissagten Übeln"@de,
+        "The conjuring frees from the ills foretold"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
+    skos:note "Entered with its own weakness stated, because the weakness is the finding. The witness names no sign by which the freeing would be recognised, no interval within which the ills would otherwise have come, and no consequence of omitting the procedure. The ills themselves are drawn wide enough to include drought and political discord together. Nothing in the passage marks out an outcome the claim would exclude, and the harvest rule keeps signs of success apart from conditions of failure exactly because a transmission can be rich in the first and empty of the second. This one is."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MayaIxYearRemedy ;
+    pm:withinTradition pmt:MayaRitual ;
+    pm:yieldsCapacity pmc:MayaAvertingOfForetoldIlls .
+
+pmc:MayaIxYearRemedyAgency a pm:Situating ;
+    rdfs:label "Die Abwehr der Übel wird dem Gott zugeschrieben, nicht den Feiernden"@de,
+        "The averting of the foretold ills is credited to the god, not to the celebrants"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:cededAgency ;
+    pm:situatedNode pmp:MayaIxYearRemedy ;
+    pm:situationGround "The witness does not say that the offerings work, but that they were held to be very acceptable to the idols and remedial through that acceptance. The efficacy is placed with the receiving party; the celebrants supply the occasion." .
+
+pmc:MayaOfficePresupposesZuyuaNaat a pm:Presupposing ;
+    rdfs:label "Matte und Thron setzen das Verstehen der Sprache von Zuyua voraus"@de,
+        "The mat and the throne presuppose understanding the language of Zuyua"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 91-93" ;
+    skos:note "Entered at stated necessity because the consequence is quotable and because the text sets no lesser outcome beside it. There is no passage naming a second attempt, a number of chiefs to be examined, or a remedy for failure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The source states the consequence for the whole procedure and states it as death, not as exclusion: those who die are those who do not understand, those who live will understand it. The punishments are named in a sequence. The hands of those who fail are bound before them to a wooden collar and they are pulled along with the cord; they are taken to the house of the ruler; they shall be hung by the neck, the tips of their tongues shall be cut off, their eyes shall be torn out. The chapter adds an omen for the case that the chiefs of the towns do not understand: ill-omened is the star adorning the night." ;
+    pm:dependentStep pmc:PopDzam ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:ZuyuaNaat ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmc:MayaSafetyPresupposesUnbrokenFast a pm:Presupposing ;
+    rdfs:label "Die Unversehrtheit setzt voraus, ein begonnenes Fasten nicht zu brechen"@de,
+        "Remaining unharmed presupposes not breaking a fast once begun"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XL, p. 70" ;
+    skos:note "The evil is not specified, which is why this prerequisite is examinable only as far as its own wording reaches: a rule whose penalty has no described shape cannot be found to have failed. That is a property of the passage and is worth having on the record beside the passages that do name a shape."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The witness states it as the reason the fasts were not broken: those who began these fasts did not dare to break them, for they believed it would bring evil upon them or upon their houses. The consequence attaches to the breaking of a fast begun and not to the omission of the fast." ;
+    pm:dependentStep pmc:MayaHouseholdUnharmed ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:MayaNewYearFast ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmc:MayaXibalbaSurvivalPresupposesUnconsumedTorch a pm:Presupposing ;
+    rdfs:label "Das lebende Verlassen setzt die unverbrauchte Rückgabe der Fackel voraus"@de,
+        "Coming out alive presupposes returning the torch unconsumed"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 9" ;
+    skos:note "Entered at stated necessity because the consequence is reported for a named case with the condition quotable beside it, not because a rule is pronounced. Where a transmission gives the precedent instead of the rule, the precedent is what a later reader can check."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The transmission names the case and its outcome. Hun-Hunahpú and Vucub-Hunahpú burned the torch and the cigars through, and were sacrificed at once and buried at Pucbal-Chah. The consequence is not stated as a rule but exhibited as a precedent, and the later pair act on it." ;
+    pm:dependentStep pmc:XibalbaSurvival ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:QuequmaHa ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmc:MedicineEatingYieldsSeeing a pm:Yielding ;
     rdfs:label "Das Essen der Medizinen bringt das Sehen hervor"@de,
         "Eating the medicines yields the seeing"@en ;
@@ -2701,6 +2787,18 @@ pmc:TwoPathsOfKnowledge a pm:Originating ;
     pm:circulatesAs "The ancient meaning of the two paths, credited to a commentary of unstated age rather than to the work of 1888 in which it first stands." ;
     pm:originatedBy "Helena P. Blavatsky" .
 
+pmc:TziteExamination a pm:Testing ;
+    rdfs:label "Das Los, das falsch lag"@de,
+        "The lot that was wrong"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part I, chapters 2 and 3" ;
+    skos:definition "A protocol taken from the tradition's own report. The lot predicted that the men of wood would come out well and would speak on earth; the chapters that follow have them without memory of their maker, walking on all fours, and destroyed. The transmission preserves the failure of its own divination instead of removing it, which is what makes the passage worth holding."@en ;
+    skos:note "The state is not raised above procedure without cases, and deliberately. One narrated instance inside a creation account is not a case in the sense this scale uses: nobody counted consultations, and the outcome is fixed by the story rather than observed. What the passage supplies is a procedure with a stated, missable outcome, which most divination material does not."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A series of castings recorded before their outcomes, in which the rate of answers met is no higher than the rate expected from the distribution of the seeds alone." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:TziteAnswer .
+
 pmc:UbbegaPiti a pm:Conceptualizing ;
     rdfs:label "Erhebungsverzückung"@de,
         "Uplifting rapture"@en ;
@@ -2968,6 +3066,27 @@ pmc:ZuniPrayerPossession a pm:Conceptualizing ;
     skos:definition "Prayers held to carry power in themselves, so that having them is a source of power and losing or impairing them is a great danger."@en ;
     skos:note "The nearest thing the passages read give to a stated consequence of getting a prayer wrong, and deliberately not entered as one: the sentence speaks of loss and impairment of the prayer as a possession, not of the effect of a misrecited performance."@en ;
     pm:withinTradition pmt:ZuniRitual .
+
+pmc:ZuyuaExamination a pm:Testing ;
+    rdfs:label "Das Zuyua-Verhör als Abstammungsprobe"@de,
+        "The Zuyua interrogation as a test of descent"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 89-98" ;
+    skos:definition "A protocol the tradition states for itself. The claim is that the questions separate men of the ruling lineage from men who are not, and the tradition acts on the claim to the point of execution. The outcome is binary and is applied on the day."@en ;
+    skos:note "A route by which a European examination genre could have reached this material exists and is documented: a Yucatec translation of the Spanish question-and-answer book of the emperor Adrian and the boy Epitus stands in a colonial Yucatec manuscript. Nobody has set the Zuyua catalogue against that literature. See prima-materia#460."@en,
+        "What the protocol cannot survive is the document that preserves it. The manuscript that reports the examination also prints the answers, so from the moment of that writing the procedure separates those who have read this book from those who have not, and no longer those of the lineage from the rest. A test whose key is published measures access to the key. This is a property of the record and not a modern objection to the tradition, and it is the reason the state stands at procedure without cases rather than higher."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A recorded case in which a man of the ruling lineage failed the questions, or in which a man not of that lineage answered them. The tradition claims the questions decide descent, so a single clean case on either side falls due against it." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:ZuyuaNaat .
+
+pmc:ZuyuaThanAnchoring a pm:Situating ;
+    rdfs:label "Das Zuyua-Verhör findet im gewöhnlichen Wachen statt"@de,
+        "The Zuyua interrogation is carried out in ordinary waking"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:outwardWaking ;
+    pm:situatedNode pmp:ZuyuaThan ;
+    pm:situationGround "The candidate walks in, is spoken to by the first head-chief, fetches the objects demanded and hands them over, and the outcome is executed on the spot. Nothing in the chapter withdraws the senses, alters the state of either party, or places the exchange anywhere but in the public day." .
 
 <https://pajew.ski/prima-materia/ontology> a owl:Ontology ;
     dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -3346,13 +3465,6 @@ pm:originatedBy a owl:DatatypeProperty ;
     rdfs:domain pm:Originating ;
     skos:definition "The named author with whom the claim begins."@en .
 
-pm:outwardWaking a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Nach außen gerichtetes Wachen"@de,
-        "Outward waking"@en ;
-    skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
-    skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
-
 pm:positedIn a owl:DatatypeProperty ;
     rdfs:label "gesetzt in"@de,
         "posited in"@en ;
@@ -3679,6 +3791,15 @@ pmp:Sitkari a pm:Practicing ;
     skos:definition "A retention in which the breath is drawn in through the mouth with the tongue between the lips, producing a hissing sound, and is not let out the same way."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:Tzite a pm:Practicing ;
+    rdfs:label "Das Losen mit Maiskörnern und Tzite-Samen"@de,
+        "Casting the lot with maize grains and tzite seeds"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part I, chapter 2" ;
+    skos:definition "A divination performed with grains of maize and the seeds of the tzite tree, carried out by the diviner pair Xpiyacoc and Xmucane at the request of the makers, in order to learn whether the men to be carved of wood would turn out. The seeds are addressed in the second person and told to come together, to take hold of one another and to speak, so that the answer is given by things spoken to and not by things merely read."@en ;
+    skos:note "The same procedure survives in the highlands as the office of the ajq'ij, the daykeeper who counts tzite seeds. The colonial spellings tzite and tzité and the modern tz'ite' stand for one word and one seed of the coral tree; a search under only one of them misses most of the literature."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmp:Ujjayi a pm:Practicing ;
     rdfs:label "Ujjāyī"@de,
@@ -4306,14 +4427,6 @@ pmt:Manichaean a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Kephalaia; Cologne Mani Codex; the Coptic psalms and the Turfan fragments" .
-
-pmt:MayaRitual a pm:Tradition ;
-    rdfs:label "Maya-Ritualüberlieferung"@de,
-        "Maya ritual transmission"@en ;
-    skos:definition "The Maya transmission of creation, of the calendar as a moving structure of obligation, and of divination by counting seeds."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Popol Vuh in the Ximénez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs" .
 
 pmt:Mesmerism a pm:Tradition ;
     rdfs:label "Mesmerismus"@de,
@@ -5197,6 +5310,29 @@ pmc:MaoriKarakiaEfficacy a pm:Conceptualizing ;
     skos:definition "The effect an invocation is held to obtain, which the closing petition asks the invoked ancestor to grant."@en ;
     pm:withinTradition pmt:Maori .
 
+pmc:MayaAjSign a pm:Conceptualizing ;
+    rdfs:label "Das in der Mitte des Hauses gepflanzte Rohr"@de,
+        "The cane planted in the middle of the house"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 7" ;
+    skos:altLabel "Aj"@en ;
+    skos:definition "A sign set up before a journey from which the traveller may not return. Each of the two plants a cane in the middle of the house and states both readings in advance: if it dries, that is the sign of their death; if it sprouts again, they are living. The grandmother who stays behind is told what to say in each case."@en ;
+    skos:note "Both branches are named before the outcome, the reader is a third party who was not present at the event, and the sign is not the thing it reports. That combination is rare in this collection: most signs a tradition names are read by the practitioner himself, during the practice, after being told what to expect."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmc:MayaAvertingOfForetoldIlls a pm:Conceptualizing ;
+    rdfs:label "Die Befreiung von den angekündigten Übeln"@de,
+        "Being freed from the ills indicated as to come"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
+    skos:definition "The effect claimed for the procedure. The witness reports that the revels and the sacrifices were held to be very acceptable to the idols and remedial for freeing them from the ills indicated as to come."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmc:MayaHouseholdUnharmed a pm:Conceptualizing ;
+    rdfs:label "Unversehrtheit an Person und Haus"@de,
+        "Remaining unharmed in person and household"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XL, p. 70" ;
+    skos:definition "The state the faster is held to keep by carrying a fast through, and to lose by breaking one he has begun. The witness reports the belief without endorsing it and without naming what the harm would be."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmc:Metalworking a pm:Conceptualizing ;
     rdfs:label "Metallverarbeitung und Waffenherstellung"@de,
         "Metalworking and weapon-making"@en ;
@@ -5318,6 +5454,13 @@ pmc:PoToloAsAxis a pm:Conceptualizing ;
     dcterms:source "Marcel Griaule and Germaine Dieterlen, Un système soudanais de Sirius, Journal de la Société des Africanistes 20/2 (Paris: Société des Africanistes, 1950), p. 287" ;
     skos:definition "The claim that the orbit of the seed-star lies at the centre of the world, that without its movement no heavenly body could hold its place, and that it orders the position of Sirius in particular, which is called the most disordered of the stars."@en ;
     pm:withinTradition pmt:Dogon .
+
+pmc:PopDzam a pm:Conceptualizing ;
+    rdfs:label "Die Matte und der Thron"@de,
+        "The mat and the throne"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 92-93" ;
+    skos:definition "The office of a town chief, named in the source by the two objects handed over with it, together with the first wand of office. The candidate who has understood comes before his lord on bended knees and receives them."@en ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmc:Prana a pm:Conceptualizing ;
     rdfs:label "Prāṇa"@de,
@@ -5634,6 +5777,13 @@ pmc:TungusToli a pm:Conceptualizing ;
         "The mirror carries the contact route on its face. The recorder states that it is widely used in Lamaism as one of the indispensable components of the altar, and that mirrors are either found in the earth, or received from predecessor shamans, or bought from the Mongols, who receive them from China and Tibet. The animals on the back are interpreted by each group according to its own imagination."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:TziteAnswer a pm:Conceptualizing ;
+    rdfs:label "Die Antwort des Loses über die Holzmenschen"@de,
+        "The answer the lot gave about the men of wood"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part I, chapter 2" ;
+    skos:definition "The outcome of that casting, given as a plain prediction: the figures of wood will come out well, they will speak and talk on earth. The prediction is about a future state of affairs and not about a duty, so it is the kind of answer that an outcome can meet or miss."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmc:UnchosenSendingCarriesTheActualState a pm:Positing ;
     rdfs:label "Senden ohne gewählte Signatur überträgt den eigenen Ist-Zustand"@de,
         "Sending without a chosen signature carries the sender's actual state"@en ;
@@ -5689,6 +5839,13 @@ pmc:WritingWithInk a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:9 (Ethiopic; Charles 1912)" ;
     skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:XibalbaSurvival a pm:Conceptualizing ;
+    rdfs:label "Das lebende Verlassen der Häuser von Xibalbá"@de,
+        "Coming out of the houses of Xibalba alive"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 9" ;
+    skos:definition "The outcome the ordeals decide. The transmission treats it as the thing at stake in each house and reports both outcomes for named persons rather than only the successful one."@en ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmc:XingqiDepth a pm:Conceptualizing ;
     rdfs:label "Die Tiefe als erste Stufe"@de,
@@ -5753,6 +5910,13 @@ pm:individuatingTelos a pm:TelicOrientation ;
         "Individuating telos"@en ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
+
+pm:outwardWaking a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Nach außen gerichtetes Wachen"@de,
+        "Outward waking"@en ;
+    skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
+    skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
 
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
@@ -5857,6 +6021,24 @@ pmp:Makutu a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Maori .
 
+pmp:MayaIdolCarving a pm:Practicing ;
+    rdfs:label "Das Schnitzen der Götterbilder im Monat Mol"@de,
+        "The carving of idols in the month Mol"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XL, pp. 76-77" ;
+    skos:definition "The making of new wooden images, begun by the priest, the chacs and the carver together with a fast. During the work they were not to consort with their wives, the witness adds even in thought, and nobody could enter the place where they worked. Blood was drawn from the ears and incense burned."@en ;
+    skos:note "The condition that reaches furthest is the one on thought. A rule about an act can be kept and seen to be kept; a rule about what may pass through the mind of the worker has no observer, and a failure of the work can always be referred back to it. That is the shape of a claim that cannot fail, and it is worth marking where a transmission takes it on."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
+
+pmp:MayaNewYearFast a pm:Practicing ;
+    rdfs:label "Das Fasten vor dem Neujahr"@de,
+        "The fast before the new year"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XL, p. 70" ;
+    skos:definition "A fast kept by the chiefs, the priests and the devout before the festival of the first month. The witness gives a floor and not an average: none for less than thirteen days. Some began three months before, some two, others as they chose. To continence was added the giving up of salt and of chili in the food, which the witness says was counted a grave penitential act."@en ;
+    skos:note "The same section of the same work records a second and separate fast, kept on receiving duties for the festivals and on undertaking duties of state, which it says at times lasted as long as three years. That is a different practice with a different occasion and is not entered here; it stands in prima-materia#462."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmp:MideInitiationFirstDegree a pm:Practicing ;
     rdfs:label "Einweihung in den ersten Grad"@de,
         "Initiation into the first degree"@en ;
@@ -5910,6 +6092,15 @@ pmp:Preliminaries a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:QuequmaHa a pm:Practicing ;
+    rdfs:label "Die Probe im Finsteren Haus"@de,
+        "The ordeal of the Dark House"@en ;
+    dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 9" ;
+    skos:definition "The first of the ordeals of Xibalba. A lighted torch of pine and cigars are handed to those under trial at nightfall; they must be returned at dawn and returned whole, that is, not burned down. The houses named in the chapter beside it are the House of Cold, the House of Jaguars, the House of Bats and the House of Knives."@en ;
+    skos:note "The condition is unusual in this collection because it is arithmetical rather than moral: what is required is that a thing that burns be given back unconsumed after a stated interval. The failure is measurable by anyone holding the object, and the interval is named."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
+
 pmp:RubbingBoardConsultation a pm:Practicing ;
     rdfs:label "Die Befragung des Reibbrettorakels"@de,
         "Consulting the rubbing-board oracle"@en ;
@@ -5955,6 +6146,15 @@ pmp:Xingqi a pm:Practicing ;
     skos:note "The two axes of disagreement belong to the claim and are recorded with it. Dating: Harper places the inscription in the late fourth or early third century BCE, Needham in the middle of the sixth. Reading: Harper takes the opening two characters as the title and begins the text at the second line, where Roth counts and construes differently. A citation that names only the inscription conceals both."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Daoist .
+
+pmp:ZuyuaThan a pm:Practicing ;
+    rdfs:label "Das Verhör in der Sprache von Zuyua"@de,
+        "The interrogation in the language of Zuyua"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 89-98; the same chapter is pp. 42-50 in the first edition, Carnegie Institution of Washington Publication 438, 1933" ;
+    skos:definition "An examination held at the close of one katun and the opening of the next, in which the first head-chief demands of each town chief a series of objects named figuratively, and the candidate must produce the thing actually meant. The demands are answered by everyday things: the sun is a large fried egg, the brains of the sky are copal gum, the house six spans long is a very large hat, the things that stop the bottom of the cenote are white and yellow jicamas."@en ;
+    skos:note "The source names the moment exactly and not vaguely: the katun that ends is 3 Ahau and the one that begins is 1 Ahau, so the procedure carries a date rather than an occasion."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmt:AdvaitaVedanta a pm:Tradition ;
     rdfs:label "Advaita Vedānta"@de,
@@ -6335,6 +6535,14 @@ pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     skos:definition "The requirement, set on the parts of the ceremony chanted aloud and in unison, that the words be rendered letter perfect."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
+pmc:ZuyuaNaat a pm:Conceptualizing ;
+    rdfs:label "Das Verstehen der Sprache von Zuyua"@de,
+        "Understanding the language of Zuyua"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 89-93" ;
+    skos:definition "The capacity to hear a figurative demand and produce the thing meant. The witness does not treat this as a skill beside descent but as the same fact: what the examination asks is whether the candidate can explain how the ruling men came and whether he is of the lineage of rulers."@en ;
+    skos:note "The text says nothing about where this language is learned or whether the answers are taught. That silence is the whole difficulty of the procedure as a test and is taken up at pmc:ZuyuaExamination."@en ;
+    pm:withinTradition pmt:MayaRitual .
+
 pm:abidingState a pm:AwarenessValue,
         pm:StateDuration ;
     rdfs:label "Bleibend"@de,
@@ -6362,13 +6570,6 @@ pm:byEffort a pm:AwarenessValue,
         "By effort"@en ;
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
-
-pm:cededAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Abgetretene Trägerschaft"@de,
-        "Ceded agency"@en ;
-    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
-    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
@@ -6440,6 +6641,15 @@ pmp:InuitSpiritCalling a pm:Practicing ;
     skos:definition "The session in which a shaman calls up his helping spirits and puts a question to them, held in the household on the occasion that requires it rather than at a fixed time."@en ;
     skos:note "The portion read gives the occasions and the outcomes and not the procedure. Nothing was found here about the posture, the words, the darkness or the binding that the later chapters of this volume are known to describe, and none of that is asserted by this node."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
+
+pmp:MayaIxYearRemedy a pm:Practicing ;
+    rdfs:label "Die Abwehr der für ein Ix-Jahr geweissagten Übel"@de,
+        "The conjuring of the evils foretold for an Ix year"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
+    skos:definition "The procedure prescribed against the ills foretold for a year whose bearer is Ix. An image of Kinch-ahau Itzamna is set in the temple, incense and many offerings and prayers are made to it, blood is drawn to anoint the stone called Sac-acantun, there is much dancing in which old women take part, and a new oratory is built for the god or the old one renewed."@en ;
+    skos:note "The ills the procedure answers are named in the same section and are of two kinds. Some are conditions of the world: shortage of water, hot spells withering the maize, hunger and the theft and enslavement that follow, locusts, a bad year for bread and a good one for cotton. Others are conditions of the polity: discords within the town or with other towns, changes of rule through war, and the failure of men seeking a chieftaincy. A remedy addressed to both at once is not falsified by either."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmp:MideInitiationFourthDegree a pm:Practicing ;
     rdfs:label "Einweihung in den vierten Grad"@de,
@@ -6631,6 +6841,13 @@ pm:Reworking a owl:Class ;
         "Distinct from pm:Systematizing, which is an ordering act performed by an editor in the present and named as his. A reworking is an act inside a transmission, attested in a work like any other claim, and it belongs to the tradition that performed it."@en,
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
+
+pm:cededAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Abgetretene Trägerschaft"@de,
+        "Ceded agency"@en ;
+    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
+    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -7070,6 +7287,11 @@ pm:Naming a owl:Class ;
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
         "Māori transmission"@en ;
@@ -7081,11 +7303,6 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
-
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
@@ -7192,12 +7409,17 @@ pm:Originating a owl:Class ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+pmt:MayaRitual a pm:Tradition ;
+    rdfs:label "Maya-Ritualüberlieferung"@de,
+        "Maya ritual transmission"@en ;
+    dcterms:source "Ralph L. Roys, The Book of Chilam Balam of Chumayel (Norman: University of Oklahoma Press, 1967), chapter IX, pp. 89-98" ;
+    skos:definition "The Maya transmission of creation, of the calendar as a moving structure of obligation, of divination by counting seeds, and of an examination in a figurative language by which the right to rule was said to be decided."@en ;
+    skos:note "A witness of this corpus is therefore a witness for the period of its fixation and not for the period it describes. The strongest case is Landa: the autograph of 1566 is lost, what survives is an anonymous copy, and the thesis that the surviving text is a compilation of the seventeenth or eighteenth century out of Landa's papers is in the literature and not answered here. See prima-materia#461."@en,
+        "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read at the wording: the Chumayel, chapter IX, in the Roys translation; Landa in the Gates translation, sections XXVII, XXXVII and XL; the Popol Vuh in the Goetz and Morley version of the Recinos translation, part I chapter 2 and part II chapters 7 to 9. What was not opened: the Ritual of the Bacabs, the Dresden Codex, the Tizimin and Mani books, and Landa section XXVI. The reasons stand in the issues named in the harvest note of prima-materia#458."@en,
+        "The contact route is entered as disputed and no longer as absent, and that correction is the finding of this run rather than a formality. Absent asks whether a route was available in the period in which the corpus was fixed, and every work read here was fixed after 1524: Landa's account survives only in a later copy, the Popol Vuh only in the hand of a Dominican of 1701 to 1703, the Chumayel in a compilation signed at Chumayel in 1782. That the Chilam Balam books received European material is not a suspicion but a philological result, demonstrated for the almanac and zodiac material of the Kaua book against named Spanish printed sources. Against that stands an argument for continuity in the incantation genres, which was not decided here. See prima-materia#459 and prima-materia#460."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -7211,6 +7433,13 @@ pmt:Midewiwin a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
 
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
@@ -7220,11 +7449,6 @@ pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -7245,6 +7469,11 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
@@ -7255,13 +7484,6 @@ pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -7293,6 +7515,13 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
@@ -7331,12 +7560,6 @@ pm:Testing a owl:Class ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
@@ -7345,11 +7568,11 @@ pmt:Enochic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
@@ -7357,6 +7580,12 @@ pm:Presupposing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
     skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pm:contactRouteDocumented a pm:ContactRoute ;
     rdfs:label "Kontaktweg belegt"@de,
