@@ -3554,11 +3554,6 @@ pm:claimedSpeaker a owl:DatatypeProperty ;
     rdfs:domain pm:Receiving ;
     skos:definition "The speaker the work claims for the wording, given as the work gives it. A literal and not a link to a named being: what is recorded is the claim, and typing it as a bearer would grant the claim the thing it is asserting."@en .
 
-pm:collectiveAwareness a pm:AwarenessSpace ;
-    rdfs:label "Kollektives Bewusstsein"@de,
-        "Collective awareness"@en ;
-    skos:definition "First-person inclusive awareness bounded to an identified group."@en .
-
 pm:compiledBy a owl:DatatypeProperty ;
     rdfs:label "geordnet von"@de,
         "compiled by"@en ;
@@ -3639,11 +3634,6 @@ pm:durationDeclined a pm:AwarenessValue,
         "Duration distinction declined"@en ;
     skos:definition "The tradition holds that the distinction between a passing and an abiding condition does not apply to what it teaches."@en .
 
-pm:dyadicAwareness a pm:AwarenessSpace ;
-    rdfs:label "Dyadisches Bewusstsein"@de,
-        "Dyadic awareness"@en ;
-    skos:definition "First-person exclusive awareness shared between two subjects (I and you)."@en .
-
 pm:embodiedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Im Körper"@de,
@@ -3713,16 +3703,6 @@ pm:generalizedStatement a owl:DatatypeProperty ;
     skos:definition "The claim itself, stated in the abstract and worded so that a result could contradict it."@en ;
     skos:note "A wording that covers an outcome and its opposite alike is the failure pm:claimDoesNotDiscriminate records after the fact. Here the cost is lower: it can be caught while the sentence is being written."@en .
 
-pm:hasAwarenessSpace a owl:ObjectProperty ;
-    rdfs:label "has awareness space"@en ;
-    rdfs:range pm:AwarenessSpace ;
-    skos:definition "Associates a process instance with the pronominal reach of its awareness."@en .
-
-pm:hasClusterMember a owl:ObjectProperty ;
-    rdfs:label "has cluster member"@en ;
-    rdfs:domain pm:MeaningCluster ;
-    skos:definition "Associates a MeaningCluster with the individual nodes that constitute it as a bounded subgraph."@en .
-
 pm:hasSymbolicForm a owl:ObjectProperty ;
     rdfs:label "has symbolic form"@en ;
     rdfs:range pm:Symbolizing ;
@@ -3743,11 +3723,6 @@ pm:independentAttestation a owl:ObjectProperty ;
     rdfs:range pm:Tradition ;
     skos:definition "A tradition attesting the correspondence for which no route of contact is documented, so that its testimony is not the same statement counted a second time."@en ;
     skos:note "The earlier definition called this the only kind of attestation that makes a correspondence a finding. It is not: it is the kind that makes the count honest. A correspondence carried by reception is still a finding about what was carried; what it may not be is a tally of independent witnesses."@en .
-
-pm:individualAwareness a pm:AwarenessSpace ;
-    rdfs:label "Individuelles Bewusstsein"@de,
-        "Individual awareness"@en ;
-    skos:definition "First-person singular awareness bounded to a single subject."@en .
 
 pm:locusDeclined a pm:AwarenessLocus,
         pm:AwarenessValue ;
@@ -3948,11 +3923,6 @@ pm:unitiveTelos a pm:TelicOrientation ;
     rdfs:label "Vereinigendes Ziel"@de,
         "Unitive telos"@en ;
     skos:definition "The path claims that the bounded self is dissolved into, or united with, something that exceeds it, and treats the persistence of the separate self as what is to be given up."@en .
-
-pm:universalAwareness a pm:AwarenessSpace ;
-    rdfs:label "Universelles Bewusstsein"@de,
-        "Universal awareness"@en ;
-    skos:definition "Awareness whose reach is unbounded across all possible subjects."@en .
 
 pm:withinTradition a owl:ObjectProperty ;
     rdfs:label "within tradition"@en ;
@@ -6305,12 +6275,6 @@ pmc:ZuniPrayerEfficacy a pm:Conceptualizing ;
     skos:definition "The effect the fixed prayer is held to obtain when it is delivered as required."@en ;
     pm:withinTradition pmt:ZuniRitual .
 
-pm:MeaningCluster a owl:Class ;
-    rdfs:label "Bedeutungs-Cluster"@de,
-        "Meaning Cluster"@en ;
-    skos:definition "A bounded subgraph that carries emergent meaning irreducible to its individual triples. Designed for vector embedding as a unit."@en ;
-    skos:note "Implements the Sphoṭa principle (Bhartṛhari): meaning resides in the whole utterance, not in isolated phonemes. The subgraph is the phoneme-analog; the cluster is the sphoṭa."@en .
-
 pm:Symbolizing a owl:Class ;
     rdfs:label "Symbolisieren"@de,
         "Symbolizing"@en ;
@@ -7542,13 +7506,6 @@ pmc:KevalaKumbhaka a pm:Conceptualizing ;
     skos:definition "Retention held at will without the filling and the emptying that ordinarily frame it. The manual calls it the accomplished form of the practice and says nothing in the three worlds is beyond one who holds it."@en ;
     pm:withinTradition pmt:Hathayoga .
 
-pm:AwarenessSpace a owl:Class,
-        pm:Scale ;
-    rdfs:label "Bewusstseinsraum"@de,
-        "Awareness Space"@en ;
-    skos:definition "The pronominal reach of an awareness act, ranging from individual through dyadic and collective to universal."@en ;
-    pm:scaleFamily pm:subjectAxis .
-
 pm:ContactRoute a owl:Class,
         pm:Scale ;
     rdfs:label "Kontaktweg"@de,
@@ -7708,6 +7665,12 @@ pm:TelicOrientation a owl:Class,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:subjectAxis a pm:ScaleFamily ;
+    rdfs:label "Sachachse"@de,
+        "Subject axis"@en ;
+    skos:definition "A coordinate on which a tradition, a practice, a capacity or a claim is placed. The axis belongs to no tradition; sources describe a condition and do not name a coordinate, so every placement is an act of the compiler and carries pm:compilerInference."@en ;
+    skos:note "Two values are owed on every subject axis beyond the substantive ones. A declining value, for a tradition that rejects the distinction the axis draws: without it a rejection is recorded as an omission, which turns a doctrine into a gap. And a not-stated value, for a source that was read for the question and does not answer it: without it a node nobody tagged cannot be told from a source that was asked and stayed silent, and every query of the form 'only in X' reports the state of the tagging instead of the state of the traditions."@en .
+
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -7745,12 +7708,6 @@ pm:mediatedAttestation a pm:Attesting ;
     skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
-pm:subjectAxis a pm:ScaleFamily ;
-    rdfs:label "Sachachse"@de,
-        "Subject axis"@en ;
-    skos:definition "A coordinate on which a tradition, a practice, a capacity or a claim is placed. The axis belongs to no tradition; sources describe a condition and do not name a coordinate, so every placement is an act of the compiler and carries pm:compilerInference."@en ;
-    skos:note "Two values are owed on every subject axis beyond the substantive ones. A declining value, for a tradition that rejects the distinction the axis draws: without it a rejection is recorded as an omission, which turns a doctrine into a gap. And a not-stated value, for a source that was read for the question and does not answer it: without it a node nobody tagged cannot be told from a source that was asked and stayed silent, and every query of the form 'only in X' reports the state of the tagging instead of the state of the traditions."@en .
 
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
@@ -7935,6 +7892,12 @@ pm:Positing a owl:Class ;
     skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
     skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
+pm:Scale a owl:Class ;
+    rdfs:label "Skala"@de,
+        "Scale"@en ;
+    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
+    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
+
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -7943,12 +7906,6 @@ pmt:TibetanTantric a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Tsongkhapa and Bar do thos grol citations name the translation they were read in. For Patrul Rinpoche's Kun bzang bla ma'i zhal lung neither edition nor translation is recorded, and the citation names no chapter; it is left unstated rather than guessed and the passage is to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
-
-pm:Scale a owl:Class ;
-    rdfs:label "Skala"@de,
-        "Scale"@en ;
-    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
-    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
