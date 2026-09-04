@@ -3548,6 +3548,12 @@ pm:circulatesAs a owl:DatatypeProperty ;
     rdfs:domain pm:Originating ;
     skos:definition "The ascription under which the claim is commonly reported: the tradition, the age or the authority it is credited to and does not have."@en .
 
+pm:claimedSpeaker a owl:DatatypeProperty ;
+    rdfs:label "behaupteter Sprecher"@de,
+        "claimed speaker"@en ;
+    rdfs:domain pm:Receiving ;
+    skos:definition "The speaker the work claims for the wording, given as the work gives it. A literal and not a link to a named being: what is recorded is the claim, and typing it as a bearer would grant the claim the thing it is asserting."@en .
+
 pm:collectiveAwareness a pm:AwarenessSpace ;
     rdfs:label "Kollektives Bewusstsein"@de,
         "Collective awareness"@en ;
@@ -3670,6 +3676,23 @@ pm:falsifiedBy a owl:DatatypeProperty ;
         "falsified by"@en ;
     rdfs:domain pm:Testing ;
     skos:definition "The stated condition under which the claim counts as refuted."@en .
+
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
+
+pm:fieldRecord a owl:DatatypeProperty ;
+    rdfs:label "Aufnahmelage"@de,
+        "field record"@en ;
+    skos:definition "How the cited passage was taken down: who spoke, or that the speaker is expressly withheld; who recorded; when and where; in which language; and whether the wording in the language of the telling is carried in the work or only a translation."@en ;
+    skos:note "It names the gathering of this passage, not the standing of the corpus. The situation of a whole ethnographic tradition — span of the fieldwork against the year of publication, how many informants, whether the same people were revisited, whether material was delivered between visits, whether the recorder stood in a milieu already expecting what he found — belongs as a skos:note on the pm:Tradition instance. See prima-materia#260. The two are needed together: one says how far this sentence stands from its speaker, the other how far the corpus stands from the transmission."@en,
+        "Required wherever pm:attestedBy is pm:fieldAttestation, enforced by pm:FieldAttestationShape. Prose and not a scale, for the reason pm:independenceGround is prose: there is no threshold at which a gathering becomes sound, and a scale would counterfeit a check. What the sentence is worth is decided by whoever reads it."@en .
 
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
@@ -3824,12 +3847,24 @@ pm:readVia a owl:DatatypeProperty ;
     skos:note "Deliberately separate from dcterms:source, for the same reason pm:evidenceFrom is. dcterms:source names what a reader must obtain to check the claim; this names what the writer of the node had in front of him. A record that fused them would report second-hand reading as first-hand and would lose the one distinction that makes an unreachable source admissible at all."@en,
         "Required wherever pm:attestedBy is pm:mediatedAttestation. Carries a bibliographic reference and never a URL, enforced by pm:ReadViaIsLiteratureShape."@en .
 
+pm:receivedBy a owl:DatatypeProperty ;
+    rdfs:label "empfangen durch"@de,
+        "received by"@en ;
+    rdfs:domain pm:Receiving ;
+    skos:definition "The person through whom the wording was received, named as the work names them."@en .
+
 pm:receivedFrom a owl:ObjectProperty ;
     rdfs:label "übernommen von"@de,
         "received from"@en ;
     rdfs:domain pm:Reworking ;
     rdfs:range pm:Tradition ;
     skos:definition "The transmission the claim was taken over from. The work and the place stay in dcterms:source; this names the transmission, so that the depth of a chain can be counted."@en .
+
+pm:receptionCircumstance a owl:DatatypeProperty ;
+    rdfs:label "Umstand des Empfangs"@de,
+        "reception circumstance"@en ;
+    skos:definition "The circumstances of the receiving: the state the receiver is said to have been in, who put the questions, who took the wording down, and whether a record of the proceeding itself exists beyond the edited text."@en ;
+    skos:note "Required on every receiving, enforced by pm:ReceivingShape. Without it the node says only that a speaker is claimed, which a reader could have guessed from the title; with it the claim can be weighed against the ones this literature makes about itself."@en .
 
 pm:reworkedClaim a owl:ObjectProperty ;
     rdfs:label "bearbeitete Behauptung"@de,
@@ -6992,6 +7027,14 @@ pmc:ZuyuaNaat a pm:Conceptualizing ;
     skos:note "The text says nothing about where this language is learned or whether the answers are taught. That silence is the whole difficulty of the procedure as a test and is taken up at pmc:ZuyuaExamination."@en ;
     pm:withinTradition pmt:MayaRitual .
 
+pm:Receiving a owl:Class ;
+    rdfs:label "Empfangen"@de,
+        "Receiving"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made in or about a work, that its wording was received from a speaker other than the person who wrote or spoke it down."@en ;
+    skos:note "Distinct from pm:Originating, which names the author with whom a claim begins and the ascription it circulates under. A receiving makes no finding about who really composed the material; it records that the work claims a speaker, so that the claim is addressable, countable and disputable instead of riding invisibly in a citation."@en,
+        "Whether an agreement between two such corpora can ever be more than reception is a separate question and a hard one. The route is documented across the whole block: the vocabulary runs on from Theosophy. A convergence there needs the demonstration that a receiver did not know the earlier literature, and that demonstration is expensive and rare."@en .
+
 pm:abidingState a pm:AwarenessValue,
         pm:StateDuration ;
     rdfs:label "Bleibend"@de,
@@ -7655,15 +7698,6 @@ pmt:ZuniRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
 
-pm:Attesting a owl:Class,
-        pm:Scale ;
-    rdfs:label "Bezeugen"@de,
-        "Attesting"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
-    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
-    pm:scaleFamily pm:recordScale .
-
 pm:TelicOrientation a owl:Class,
         pm:Scale ;
     rdfs:label "Ausrichtung des Zieles"@de,
@@ -7682,6 +7716,15 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The gap is load-bearing here: Evagrius is transmitted in Greek and in Syriac with divergent chapter counts, the Collationes are numbered differently in the older editions, and the marginal numbering of the Spiritual Exercises belongs to a modern editorial layer and not to the autograph."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Attesting a owl:Class,
+        pm:Scale ;
+    rdfs:label "Bezeugen"@de,
+        "Attesting"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
+    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
+    pm:scaleFamily pm:recordScale .
 
 pm:SensoryAnchoring a owl:Class,
         pm:Scale ;
@@ -8020,11 +8063,6 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
@@ -8060,6 +8098,11 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
