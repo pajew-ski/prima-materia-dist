@@ -1119,6 +1119,28 @@ pmc:HauOfTheGiftWordingDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:HauOfTheGift .
 
+pmc:HawaiianKoCaution a pm:Cautioning ;
+    rdfs:label "Zuckerrohr ist der Hula-Schar verboten"@de,
+        "Sugar cane is forbidden to the hula company"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter IV, p. 30" ;
+    skos:definition "A prohibition the teacher justifies in a sentence that turns on the word itself: if one indulged in sugar cane his work as a practitioner would amount to nothing, aohe e ko ana kana mau hana, his work will not be accomplished. The recorder adds a practical ground beside it, that chewing the stalk roughens the voice."@en ;
+    skos:note "Two grounds for one rule, and they are of different kinds: one is a pun and the other is a physical effect on a singer's instrument. The transmission gives both without ranking them. Where a rule carries a homophonic justification, the graph should not read the justification as the reason the rule exists."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Ailolo ;
+    pm:withinTradition pmt:HawaiianCosmogony .
+
+pmc:HawaiianWelfarePresupposesExactChanting a pm:Presupposing ;
+    rdfs:label "Das Wohlergehen der besungenen Familie setzt den fehlerlosen Gesang voraus"@de,
+        "The good fortune of the honoured family presupposes a chant without fault"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, p. 35" ;
+    skos:note "The transfer of the harm is what distinguishes this witness from the others the graph holds on the same rule. Where the Maori address is simply said to lose its efficacy and the Navajo ceremony is broken off, here the reciter is not the one who suffers. That makes the rule harder to test from inside the tradition, because the person who could report the fault and the person who bears the consequence are different people."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "A breath taken before the close of a phrase, a mistake, or even hesitation in pronouncing a word was a sign of ill-luck to the person or family thus honoured. The harm is named, it is transferred, and it falls on the party who did not commit the fault." ;
+    pm:dependentStep pmc:HawaiianChantWelfare ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HawaiianChantExactness ;
+    pm:withinTradition pmt:HawaiianCosmogony .
+
 pmc:HeatWithoutBreathProtocol a pm:Testing ;
     rdfs:label "Ob die sanftere Form dieselbe Hitze erzeugt"@de,
         "Whether the gentler form produces the same heat"@en ;
@@ -1182,6 +1204,18 @@ pmc:HuacaAsAddressedPower a pm:Conceptualizing ;
     skos:definition "What is addressed falls into two kinds. The fixed, which cannot be taken away because they do not move: the sun, the moon, the Pleiades, the lightning, the sea, the earth, springs, rivers, snow peaks, high hills and certain very large stones, and the pacarina, the place each lineage says it came out of. And the movable, which are the ordinary huacas of a place: mostly stone, mostly without a figure, each with its own name, each belonging to a lineage, each with its own priests. Beside them stand the malquis, the bones or whole bodies of the ancestors, held to be children of the huacas and given the same offerings; and the conopas, held in each house and inherited by the eldest son, which are the same worship made private."@en ;
     skos:note "The division is the recorder's and it is his working distinction as an extirpator: the movable ones could be seized and burned and the fixed ones had to be taken out of the heart instead. It is entered because it is also a real division in the practice — a lineage huaca is public and a conopa is secret — and not because his purpose was neutral."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:HulaRetentionPresupposesKeptVows a pm:Presupposing ;
+    rdfs:label "Das Behalten der Gesänge setzt das Halten der Gelübde voraus"@de,
+        "Keeping the songs presupposes keeping the vows"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter V, p. 34" ;
+    skos:note "A memory sanction is a rare shape and it is nearly self-confirming, which is worth marking here rather than discovering later. A pupil who forgets is by that fact convicted of having been heedless, and a pupil who remembers proves the rule; no outcome is excluded. The claim is therefore weaker than it sounds even though the consequence is quotable."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The pupils who are heedless of their vows are told that the songs they have learned will fly away. The sanction is a loss of memory and not a punishment laid on by anyone; it is stated as what follows." ;
+    pm:dependentStep pmc:HulaKnowledgeRetained ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HalauConduct ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die übernatürlichen Kräfte werden in abgezogener Vertiefung ausgeübt"@de,
@@ -1504,6 +1538,15 @@ pmc:KokabelTeachesSignsOfTheStars a pm:Attributing ;
     pm:ascribedTo pmc:Kokabel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Kumulipo a pm:Conceptualizing ;
+    rdfs:label "Kumulipo"@de,
+        "Kumulipo"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 1, the prose note" ;
+    skos:definition "The chant the transmission names as an ancient prayer for the dedication of a high chief: a birth chant that establishes rank by reciting a descent that runs from the beginning of the world to the living. What it is held to accomplish is therefore a standing, not a cure or a protection."@en ;
+    skos:note "The prose note prefixed to the chant makes two datable claims beside the genealogical ones: that the chant was recited to Alapai-wahine at Koko on Oahu while Keeaumoku lay dying, and that it is the chant Puou recited to Cook at the heiau of Hikiau at Kealakekua. Those are historical assertions and not claims of efficacy, and they are the only part of the text that an outside record could meet or miss."@en,
+        "The text this edition rests on is disputed, and the dispute is not entered as a node because neither side was read at the wording in this run. It stands at prima-materia#472."@en ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmc:LeftHandPathTwoBranches a pm:Originating ;
     rdfs:label "Der linke Pfad, über sein Ziel bestimmt, mit zwei nach der Methode unterschiedenen Zweigen"@de,
@@ -3738,6 +3781,15 @@ pmp:FireAndWaterRite a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
 
+pmp:HawaiianRedundantMemorising a pm:Practicing ;
+    rdfs:label "Das Auswendiglernen eines Gesangs durch mehrere Rezitatoren"@de,
+        "Memorising a chant with more than one reciter"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, p. 35" ;
+    skos:definition "The guard the transmission puts against its own condition of failure. A master of song usually gathered two or more of his fellows to edit and to memorise the lines, and genealogies in particular had to be memorised by more than one reciter."@en ;
+    skos:note "Worth holding separately from the rule it answers, and for a reason that goes beyond this tradition. A transmission that names a failure condition and stops has stated a threat; one that names the failure condition and then builds a redundancy against it has treated its own rule as a real risk and acted on it. The second is evidence about the practice that the first is not, and the graph has very few instances of it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:HawaiianCosmogony .
+
 pmp:HuacaFeast a pm:Practicing ;
     rdfs:label "Das Fest der Huaca"@de,
         "The feast of the huaca"@en ;
@@ -3745,6 +3797,15 @@ pmp:HuacaFeast a pm:Practicing ;
     skos:definition "The senior specialist gives notice when the time comes, the chicha is brewed, and he goes through the households collecting the offerings. On the appointed day he goes with his assistants to the principal huaca and makes the offering, then to the lesser huacas and the ancestor bodies. On his return nobody sleeps that night: they sing, dance and tell tales, and children are beaten if they fall asleep. This night is called the pacaricuc, and from it the fast begins — no salt, no chilli, no sleeping with wives — lasting five days in some places and longer in others according to different traditions. Three such feasts are held in the year, tied to the Pleiades, to the first rains and to the maize harvest."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
+
+pmp:Huikala a pm:Practicing ;
+    rdfs:label "Huikala"@de,
+        "Huikala"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter II, p. 15" ;
+    skos:definition "The cleansing by which a member defiled through contact with a corpse is restored to the company: the teacher offers prayer, sprinkles the offender with sea water and turmeric, and orders a bath in the sea, after which the person is clean. A wilful transgression is not covered by it and is restored only after penitence and confession."@en ;
+    skos:note "The distinction between accidental defilement and wilful breach is drawn by the transmission itself and drawn at the point where it matters: the rite removes the first and does not touch the second. A restoration procedure that admits it cannot cover every case is rarer in this collection than one that claims to cover all."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmp:InuitMeatForkDivination a pm:Practicing ;
     rdfs:label "Wahrsagung mit der Fleischgabel"@de,
@@ -3785,6 +3846,15 @@ pmp:Karakia a pm:Practicing ;
     skos:note "The genealogies are said to be preserved because they form the ground-work of the invocation, so that the descent recited and the efficacy claimed are the same fact for this tradition rather than two."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Maori .
+
+pmp:Kuahu a pm:Practicing ;
+    rdfs:label "Die Weihe des Kuahu"@de,
+        "The consecration of the kuahu"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter II, pp. 19-21" ;
+    skos:definition "The setting up and consecration of the hula altar. The plants that may decorate it are a fixed short list held acceptable to the goddess, among them maile, ieie, lehua, ohia, ferns, hau, breadfruit, the native banana, ti and ilima; the recorder marks non-native flowers as repugnant to the tradition. During the consecration the voice of prayer must continue to be heard until the work is entirely accomplished, and the teacher may repeat a prayer or begin another to keep it so."@en ;
+    skos:note "The condition here is on continuity and not on wording: what must not happen is a silence, and the teacher is expressly free to change the prayer in order to avoid one. That is the opposite of the exactness rule this same tradition sets for the chanted genealogy, and the two stand side by side in one transmission. The graph should not read either as the tradition's general doctrine about speech."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmp:LungReading a pm:Practicing ;
     rdfs:label "Das Lesen an der Lunge des getöteten Tieres"@de,
@@ -4275,14 +4345,6 @@ pmt:Hasidism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Toledot Yaakov Yosef; Keter Shem Tov; Shneur Zalman, Tanya" .
-
-pmt:HawaiianCosmogony a pm:Tradition ;
-    rdfs:label "Hawaiische Kosmogonie"@de,
-        "Hawaiian cosmogonic transmission"@en ;
-    skos:definition "The Hawaiian transmission of a chanted genealogy of the world, recited as a continuous descent from darkness to the living."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The Kumulipo in the Hawaiian text with Beckwith's edition" .
 
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
@@ -5137,14 +5199,18 @@ pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
     rdfs:label "Die Genauigkeit der Rezitation ist als Bedingung ihrer Wirksamkeit gesetzt"@de,
         "The exactness of the recitation is set as the condition of its efficacy"@en ;
     dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11",
+        "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, pp. 35-36",
         "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), pp. 615-616",
         "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), sections 41-42, pp. 24-25" ;
-    skos:definition "Three transmissions make the same claim about spoken ritual language: the effect is not obtained unless the words are rendered as they stand. Two of them also say what a lapse does. One holds that an error, and equally a hesitation, is fatal to the efficacy of the address. Another holds that an error in a song may be fatal to the ceremony and that in some cases a single syllable does irreparable harm. The third requires the publicly chanted parts to be letter perfect and, in the passages read, states no consequence."@en ;
+    skos:definition "Four transmissions make the same claim about spoken ritual language: the effect is not obtained unless the words are rendered as they stand. Three of them also say what a lapse does. One holds that an error, and equally a hesitation, is fatal to the efficacy of the address. Another holds that an error in a song may be fatal to the ceremony and that in some cases a single syllable does irreparable harm. A third requires the publicly chanted parts to be letter perfect and, in the passages read, states no consequence. The fourth names a breath taken before the close of a phrase alongside mistake and hesitation, and says the ill-luck falls on the party the chant honours rather than on the reciter."@en ;
     skos:note "A defect in the vocabulary shows at this node and is recorded rather than worked around. pm:contactRoute is a property of a single tradition, but contact is a relation between two. The value pm:contactRouteAbsent as the registry uses it means that no route runs to what the graph already held at the time of registration; it cannot answer whether a route runs between two registered traditions that are later brought together in one correspondence, which is exactly the question a convergence asks. See prima-materia#101 for the vocabulary defect and prima-materia#102 for the registry entries it affects."@en,
+        "A fourth witness was added on 2026-09-04 and it is expressly not a fourth independent one. The Hawaiian transmission holds that a breath taken before the close of a phrase, a mistake, or even hesitation in pronouncing a word is a sign of ill-luck. It stands beside the Maori witness and not beyond it: both descend from one East Polynesian dispersal, dated archaeologically to the thirteenth century, so for the independence question the two Polynesian legs count as one. The count of transmissions carrying the rule goes from three to four; the count of independent ones does not move. Holding both numbers is what SPEC section 14 asks for, and this is the case that shows why one number alone would mislead."@en,
         "The counter-search did not produce a tradition that denies the claim. What it produced is of a different kind and belongs here: the recorded versions of the same Māori address differ from one another across the eighteen-forties to the early nineteen-hundreds, and which rendering was valid was disputed among Māori at the time. A doctrine of one correct wording and a transmission that visibly carries several are not a contradiction, but they are the point at which the claim becomes examinable instead of edifying. The place that says so has not been read at the wording and stands at prima-materia#110."@en,
         "Three witnesses agreeing on the form of a rule is a weaker finding than it looks unless the alternative is stated. The alternative exists and is common: traditions in which the sense of a prayer carries it and the wording may be varied, and traditions in which improvisation is the mark of the competent practitioner. That the three named here all fall on the fixed side is what the correspondence asserts. Where the rule holds and where it is absent has not been surveyed; the spheres left unsearched stand at prima-materia#116, the Indic parallel at prima-materia#109."@en,
+        "What the fourth witness does add is a different thing, and it sharpens the correspondence rather than padding it. First, it names who suffers: the ill-luck falls on the person or family the chant honours and not on the reciter who made the fault, so the party that could report the lapse and the party that bears it are different people. Second, it names a countermeasure the transmission itself takes: a master of song gathers two or more of his fellows to edit and memorise the lines, and genealogies must be memorised by more than one reciter. A transmission that builds redundancy against its own stated failure condition has treated the condition as a real risk, which is evidence about the practice that a bare threat is not. Third, the same tradition sets the opposite rule for a different kind of utterance in the same file: at the consecration of the hula altar what must not lapse is the continuity of the voice, and the teacher is expressly free to change the prayer to avoid a silence. The exactness rule is therefore not a general doctrine about ritual speech even where it holds, and the correspondence should not be read as one."@en,
         "What the node claims and what it does not. Independent attestation is asserted for the two North American transmissions with respect to the Polynesian one and with respect to everything else this collection holds; no route of contact between the Pacific and the American Southwest is available for the periods in which any of these corpora were fixed. It is not asserted between those two: they are neighbours in one region, and a route between Pueblo and Athabaskan ceremonialism is neither absent nor established here. The Māori witness is therefore the third leg and not a third independent one, because its own contact route is entered as disputed."@en ;
-    pm:convergingConcept pmc:MaoriExactRecitation,
+    pm:convergingConcept pmc:HawaiianChantExactness,
+        pmc:MaoriExactRecitation,
         pmc:NavajoSongExactness,
         pmc:ZuniPrayerExactness ;
     pm:independenceGround "Not a claim of priority in time. The two American corpora were fixed in eighteen ninety-seven and, from fieldwork of the nineteen-twenties, in nineteen thirty-two, both after the Polynesian witness was printed in eighteen eighty-two. What carries the independence is that no route of contact between the Pacific and the American Southwest is available for the period in which any of the three corpora were fixed, so agreement between them cannot be one statement counted twice. Two things this ground does not settle and does not hide: both American corpora were gathered by ethnographers working in a discipline to which the rule of exact recitation was already familiar, and neither passage says whether the rule was volunteered in the field or asked for. The second is the gathering question and it stands open." ;
@@ -5205,6 +5271,14 @@ pmc:GreaterMysteries a pm:Conceptualizing ;
     skos:definition "The rite at Eleusis, held in the month Boedromion."@en ;
     pm:withinTradition pmt:EleusinianMysteries .
 
+pmc:HalauConduct a pm:Conceptualizing ;
+    rdfs:label "Die von der Hula-Schar geforderte Führung"@de,
+        "The conduct required of the hula company"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter II, p. 15" ;
+    skos:definition "Five requirements, given together: to maintain the greatest propriety of demeanour, to suppress all rudeness of speech and manner, to abstain from all carnal indulgence, to deny themselves specified articles of food, and above all to avoid contact with a corpse."@en ;
+    skos:note "The list mixes conditions of different kinds without marking the difference, and the mixture is itself the finding. Propriety and rudeness are matters of judgement and could be argued about; contact with a corpse is an event that either happened or did not. A rule set in which only some members are decidable is the ordinary case in this collection, and it is what makes a transmission look stricter than it is testable."@en ;
+    pm:withinTradition pmt:HawaiianCosmogony .
+
 pmc:HauOfTheGift a pm:Conceptualizing ;
     rdfs:label "Der Hau der Gabe"@de,
         "The hau of the gift"@en ;
@@ -5214,6 +5288,13 @@ pmc:HauOfTheGift a pm:Conceptualizing ;
     pm:attestedBy pm:mediatedAttestation ;
     pm:readVia "Manuka Hēnare, \"Ko te hau tēnā o tō taonga…\": The words of Ranapiri on the spirit of gift exchange and economy, Journal of the Polynesian Society 127/4 (2018), pp. 455-457" ;
     pm:withinTradition pmt:Maori .
+
+pmc:HawaiianChantWelfare a pm:Conceptualizing ;
+    rdfs:label "Das Wohlergehen der besungenen Person oder Familie"@de,
+        "The good fortune of the person or family the chant honours"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, p. 35" ;
+    skos:definition "What the correct rendering is held to secure. The transmission places the outcome not with the reciter but with the party the chant is made for, which is the unusual part of this witness."@en ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmc:HawkinsConsciousnessScale a pm:Originating ;
     rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
@@ -5241,6 +5322,13 @@ pmc:HeatWithoutForcefulBreath a pm:Positing ;
     skos:definition "The claim that the gentler form of the practice, without the forceful breathing, produces the same effect as the form the tradition prescribes."@en ;
     skos:note "Entered because it is the point where the method draft parts company with the transmission it draws on. The transmission prescribes the forceful breath; the draft says it can be left out. That is a claim about the draft's own variant and belongs to nobody else, which is why it is posited and not sourced."@en ;
     pm:positedIn "prima-materia#318" .
+
+pmc:HulaKnowledgeRetained a pm:Conceptualizing ;
+    rdfs:label "Die Gesänge und die Schulung bleiben beim Schüler"@de,
+        "The songs and the training stay with the pupil"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter V, p. 34" ;
+    skos:definition "What the school promises the pupil who keeps his vows: that memory will be strong and that the training, the knowledge and the songs will stay."@en ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmc:HusbandHasSecondSight a pm:Attributing ;
     rdfs:label "Dem Mann der Erzählerin wird das zweite Gesicht zugeschrieben"@de,
@@ -6007,6 +6095,15 @@ pm:transientState a pm:AwarenessValue,
     skos:definition "The source has the condition pass of itself, so that it must be entered again rather than merely kept."@en ;
     skos:note "A capacity said to come and go is a different object of examination from one said to last: it is tested against frequency and occasion, not against a course of training."@en .
 
+pmp:Ailolo a pm:Practicing ;
+    rdfs:label "Ailolo"@de,
+        "Ailolo"@en ;
+    dcterms:source "Nathaniel B. Emerson, Unwritten Literature of Hawaii: The Sacred Songs of the Hula, Bureau of American Ethnology Bulletin 38 (Washington: Government Printing Office, 1909), chapter V, pp. 31-35, and the glossary, s.v. ai-lolo" ;
+    skos:definition "The graduation rite of the hula school, named after the brain of the victim that is eaten in it. The offering is a black suckling without spot or blemish; the parts consumed are the snout, the ear-tips, the tail, the feet and portions of the vital organs, above all the brain. Two foods are shut out of the feast, the cooked taro leaf and the drupe of the pandanus. In the days before it no pupil may leave the house except under the most stringent necessity, then only with the head muffled so as not to be recognised, and may hold no conversation whatever outside."@en ;
+    skos:note "The rite decides admission: the glossary of the same work defines ailolo as a critical ceremonial sacrifice whose conditions must be met before a novice can be admitted as a practitioner. What the passages read do not give is a way of failing it that is stated in advance, which is why no protocol node stands beside this one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:HawaiianCosmogony .
+
 pmp:BabalawoPupilage a pm:Practicing ;
     rdfs:label "Die Lehrzeit des Anwärters auf das Amt des Babalawo"@de,
         "The pupilage of a candidate for the office of babalawo"@en ;
@@ -6387,6 +6484,14 @@ pmc:GenerationStage a pm:Conceptualizing ;
     dcterms:source "Tsongkhapa, A Book of Three Inspirations (trans. Mullin 2005)" ;
     skos:definition "The first of the two stages of the highest tantra, treated before the completion stage in the training."@en ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmc:HawaiianChantExactness a pm:Conceptualizing ;
+    rdfs:label "Der Gesang ohne Atemzug, Fehler und Zögern"@de,
+        "The chant rendered without breath, mistake or hesitation"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, pp. 35-36" ;
+    skos:definition "The delivery a master of song is held to owe: no breath taken before the close of a phrase, no mistake, and no hesitation in pronouncing a word. The three are named together and on the same footing, so that pausing counts as failing rather than as taking care. The manner reported beside it is a tone almost on one note with every word enunciated distinctly."@en ;
+    skos:note "Beckwith gives the rule in her own voice and names her authorities for it: Kamakau for the manner of delivery, and Pukui's article of 1949 for the practice. Neither was opened in this run; the article is behind a paywall and the newspaper series was not reachable. The node therefore stands on Beckwith and says so."@en ;
+    pm:withinTradition pmt:HawaiianCosmogony .
 
 pmc:InuitHiddenThings a pm:Conceptualizing ;
     rdfs:label "Die verborgenen Dinge"@de,
@@ -7317,6 +7422,11 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -7359,10 +7469,17 @@ pm:Naming a owl:Class ;
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
 
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+pmt:HawaiianCosmogony a pm:Tradition ;
+    rdfs:label "Hawaiische Überlieferung"@de,
+        "Hawaiian transmission"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, pp. 35-36" ;
+    skos:definition "The Hawaiian transmission of a chanted genealogy of the world, of the mastery of chanting as an office with a stated condition of failure, and of the house of the hula with its conduct, its cleansing and its graduation."@en ;
+    skos:note "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read at the wording: Beckwith's Kumulipo, chapters one, three and seven; Emerson's Unwritten Literature of Hawaii, chapters two, four and five. Not opened: Malo's chapters on necromancy and on the kuni rite, the Fornander volume on the order of sorcery, Kamakau's newspaper series, and Pukui's article of 1949 which Beckwith cites for the chanting rule. The reasons and the paths tried stand in the issues named in the harvest note of prima-materia#470."@en,
+        "The contact route is entered as documented and no longer as absent, and it is documented twice over. First against the Maori transmission this graph already holds: both descend from one East Polynesian dispersal, dated archaeologically to the thirteenth century, so a correspondence between them is common inheritance and not two witnesses. Second against the Christian material: the mission arrives in 1820, the seminary at Lahainaluna is founded in 1831, and every work read here was written or printed after that by men trained in that school or by their successors. Absent was true of the islands before contact and false of the corpus this graph can cite."@en,
+        "The identifier says cosmogony and the file carries chant mastery and hula. That is a defect and it is kept rather than corrected, because renaming a coined identifier is forbidden without compelling reason and RDF identity follows no redirect. The registration was written for the Kumulipo alone; the reading widened the tradition, not the transmission. The question and a recommendation stand at prima-materia#471."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The Kumulipo in the Hawaiian text with Beckwith's edition; Malo, Moolelo Hawaii, in the Emerson translation and in the Langlas and Lyon edition; Emerson, Unwritten Literature of Hawaii; the Fornander Collection of Hawaiian Antiquities and Folk-Lore; Kamakau's series in Ke Au Okoa" .
 
 pmt:Maori a pm:Tradition ;
     rdfs:label "Māori-Überlieferung"@de,
@@ -7541,11 +7658,6 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
@@ -7556,6 +7668,11 @@ pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
