@@ -679,6 +679,26 @@ pmc:DiviningPresupposesPupilage a pm:Presupposing ;
     pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
     pm:withinTradition pmt:Ifa .
 
+pmc:DivyaCaksusIsWithdrawnAbsorption a pm:Situating ;
+    rdfs:label "Das göttliche Auge wird in abgezogener Vertiefung geübt"@de,
+        "The divine eye is exercised in withdrawn absorption"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4",
+        "Patañjali, Yogasūtra III.26" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmc:DivyaCaksus ;
+    pm:situationGround "The sūtra reads bhuvanajñānaṃ sūrye saṃyamāt: knowledge of the worlds from saṃyama on the sun. The operator is named in the sūtra itself, and its state is fixed at III.1-4."@en .
+
+pmc:DivyaSrotraIsWithdrawnAbsorption a pm:Situating ;
+    rdfs:label "Das göttliche Ohr wird in abgezogener Vertiefung geübt"@de,
+        "The divine ear is exercised in withdrawn absorption"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4",
+        "Patañjali, Yogasūtra III.41" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmc:DivyaSrotra ;
+    pm:situationGround "The sūtra has the divine ear follow from saṃyama on the relation between the organ of hearing and the ether. The operator is named in the sūtra itself, and its state is fixed at III.1-4."@en .
+
 pmc:DogonSiriusExamination a pm:Testing ;
     rdfs:label "Steht die Kenntnis des Begleiters in der Überlieferung?"@de,
         "Is the knowledge of the companion found in the transmission?"@en ;
@@ -1859,6 +1879,18 @@ pmc:Panchatattva a pm:Conceptualizing ;
         "The same passage carries its own caution, and the caution is not a Western addition: the source says that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it, and lose the distinction of right and wrong. The warning against the rite stands inside the text that prescribes it."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:ParacittaJnanaIsWithdrawnAbsorption a pm:Situating ;
+    rdfs:label "Die Kenntnis fremden Bewusstseins wird in abgezogener Vertiefung geübt"@de,
+        "Knowledge of another mind is exercised in withdrawn absorption"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.1-4",
+        "Patañjali, Yogasūtra III.19",
+        "Patañjali, Yogasūtra III.20" ;
+    skos:note "The sūtra immediately following adds a limit that belongs to the claim: what supports the notion is not thereby known, being out of the practitioner's reach. The capacity is bounded in the base text and not only by its readers."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmc:ParacittaJnana ;
+    pm:situationGround "The sūtra reads pratyayasya paracittajñānam: knowledge of another mind from the presented notion, with saṃyama carried over from the sūtras before it. The state is the operator's, fixed at III.1-4, and the placement is inherited from the binding the source itself makes."@en .
+
 pmc:ParakayaPravesaIsDisplaced a pm:Situating ;
     rdfs:label "Der Eintritt in einen anderen Körper ist ein verlagerter Ort"@de,
         "Entering another body is a displaced locus"@en ;
@@ -1907,6 +1939,19 @@ pmc:ParityDivination a pm:Conceptualizing ;
     skos:note "In one village a practitioner of this office produced instead a bag of small stones which he said were called by a particular name and that he had inherited them from his grandfather for this purpose. The variant is recorded because it shows the office surviving a change of instrument."@en,
         "Two recorders, forty-six years and several hundred leagues apart, name different practitioners and the same mechanism. The count is deliberately not made before the drawing in the later account, which means the outcome is not determined by anything the diviner knows; that is the same feature the poison-oracle material in this graph rests on, and it is stated here of a maize heap."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:PatanjalaCapacityDurationNotStated a pm:Situating ;
+    rdfs:label "Für die Vermögen wird keine Dauer angegeben"@de,
+        "The capacities are given no duration"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19",
+        "Patañjali, Yogasūtra III.26",
+        "Patañjali, Yogasūtra III.37",
+        "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)",
+        "Patañjali, Yogasūtra III.41" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:durationNotStated ;
+    pm:situatedNode pmc:ParakayaPravesa ;
+    pm:situationGround "The sūtras that carry the capacities of this chapter were read for the question and are silent on it: each names an object of saṃyama and the knowledge or entry that follows, and none says whether what follows passes or remains. The sūtra that weighs the capacities weighs them for what they are worth and not for how long they last."@en .
 
 pmc:PenemueTeachesBitterAndSweet a pm:Attributing ;
     rdfs:label "Penemue offenbart bitter und süß"@de,
@@ -3306,12 +3351,6 @@ pm:durationDeclined a pm:AwarenessValue,
     rdfs:label "Dauerunterscheidung abgelehnt"@de,
         "Duration distinction declined"@en ;
     skos:definition "The tradition holds that the distinction between a passing and an abiding condition does not apply to what it teaches."@en .
-
-pm:durationNotStated a pm:AwarenessValue,
-        pm:StateDuration ;
-    rdfs:label "Dauer nicht angegeben"@de,
-        "Duration not stated"@en ;
-    skos:definition "The source was read for this question and does not answer it."@en .
 
 pm:dyadicAwareness a pm:AwarenessSpace ;
     rdfs:label "Dyadisches Bewusstsein"@de,
@@ -5905,6 +5944,12 @@ pm:dreamingWithin a pm:AwarenessValue,
     skos:definition "Awareness of objects generated inwardly, with the sensory channel detached. Whether the dreamer knows he dreams is a separate question and not this axis."@en ;
     skos:note "The Māṇḍūkya calls this svapna. Lucidity is deliberately not a value here: it varies within the state rather than replacing it, and a source that trains recognition inside the dream is placed here and says so in its own words."@en .
 
+pm:durationNotStated a pm:AwarenessValue,
+        pm:StateDuration ;
+    rdfs:label "Dauer nicht angegeben"@de,
+        "Duration not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en .
+
 pm:individuatingTelos a pm:TelicOrientation ;
     rdfs:label "Individuierendes Ziel"@de,
         "Individuating telos"@en ;
@@ -6291,13 +6336,6 @@ pmc:Diksa a pm:Conceptualizing ;
         "Mālinīvijayottaratantra VIII" ;
     skos:definition "The rite by which a person is admitted to the practice, set out in the tantra and reproduced with commentary in the Kashmirian exegesis."@en ;
     pm:withinTradition pmt:SaivaSakta .
-
-pmc:DivyaCaksus a pm:Conceptualizing ;
-    rdfs:label "Göttliches Auge"@de,
-        "Divine eye"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.26" ;
-    skos:definition "Perception of what is distant, hidden or obstructed."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
     rdfs:label "Fasten des Herzens"@de,
@@ -6728,11 +6766,11 @@ pmc:DistantSight a pm:Conceptualizing ;
     skos:definition "The capacity the whole transmission is consulted for: to know what is happening at a place too far off to be seen or reached, and to report it on returning."@en ;
     pm:withinTradition pmt:SamiNoaidi .
 
-pmc:DivyaSrotra a pm:Conceptualizing ;
-    rdfs:label "Göttliches Ohr"@de,
-        "Divine ear"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.41" ;
-    skos:definition "Hearing beyond the range of the physical ear."@en ;
+pmc:DivyaCaksus a pm:Conceptualizing ;
+    rdfs:label "Göttliches Auge"@de,
+        "Divine eye"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.26" ;
+    skos:definition "Perception of what is distant, hidden or obstructed."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:FourAbsorptions a pm:Conceptualizing ;
@@ -6773,13 +6811,6 @@ pmc:Maqamat a pm:Conceptualizing ;
         "al-Sarrāj, Kitāb al-Lumaʿ" ;
     skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
     pm:withinTradition pmt:Sufism .
-
-pmc:ParacittaJnana a pm:Conceptualizing ;
-    rdfs:label "Kenntnis fremden Bewusstseins"@de,
-        "Knowledge of another mind"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.19" ;
-    skos:definition "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
 
 pmc:Physike a pm:Conceptualizing ;
     rdfs:label "Physikē"@de,
@@ -6895,12 +6926,26 @@ pmt:Platonic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pmc:DivyaSrotra a pm:Conceptualizing ;
+    rdfs:label "Göttliches Ohr"@de,
+        "Divine ear"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.41" ;
+    skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
 pmc:Iddhividha a pm:Conceptualizing ;
     rdfs:label "Die Arten übernatürlicher Kraft"@de,
         "The kinds of supernormal power"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Transformation by supernormal power, the first of the direct knowledges treated in the handbook."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:ParacittaJnana a pm:Conceptualizing ;
+    rdfs:label "Kenntnis fremden Bewusstseins"@de,
+        "Knowledge of another mind"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.19" ;
+    skos:definition "Knowledge of the contents of another consciousness, said to follow from saṃyama on the presented idea."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
 
 pm:AgencyHolding a owl:Class,
         pm:Scale ;
@@ -7004,13 +7049,6 @@ pmt:Upanisadic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pmc:ParakayaPravesa a pm:Conceptualizing ;
-    rdfs:label "Eintritt in einen anderen Körper"@de,
-        "Entering another body"@en ;
-    dcterms:source "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
-    skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
-    pm:withinTradition pmt:PatanjalaYoga .
-
 pm:AwarenessSpace a owl:Class,
         pm:Scale ;
     rdfs:label "Bewusstseinsraum"@de,
@@ -7099,6 +7137,13 @@ pmt:Sufism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pmc:ParakayaPravesa a pm:Conceptualizing ;
+    rdfs:label "Eintritt in einen anderen Körper"@de,
+        "Entering another body"@en ;
+    dcterms:source "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
+    skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
+    pm:withinTradition pmt:PatanjalaYoga .
+
 pmc:Theopemptos a pm:Conceptualizing ;
     rdfs:label "Der gottgesandte Traum"@de,
         "The god-sent dream"@en ;
@@ -7121,13 +7166,6 @@ pm:Systematizing a owl:Class ;
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
-pm:withdrawnAbsorption a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Abgezogene Vertiefung"@de,
-        "Withdrawn absorption"@en ;
-    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
-    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -7218,6 +7256,13 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pm:withdrawnAbsorption a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Abgezogene Vertiefung"@de,
+        "Withdrawn absorption"@en ;
+    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
+    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
 
 pmp:Samyama a pm:Practicing ;
     rdfs:label "Saṃyama"@de,
@@ -7541,17 +7586,17 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
 
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
         "Situating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
