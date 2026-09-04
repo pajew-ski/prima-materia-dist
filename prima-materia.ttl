@@ -2727,13 +2727,14 @@ pmc:SpiritismControlExamination a pm:Testing ;
     dcterms:source "Allan Kardec, L'Évangile selon le spiritisme, introduction, section II, sub-heading Contrôle universel de l'enseignement des Esprits",
         "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXVI, section 288, item 3" ;
     skos:definition "A protocol on the transmission's own rule of verification. Two passages by the same author, in two works, stand against each other in the way that matters here. One states a control and states it well: concordance of spontaneous teaching, from many mediums unknown to one another, in different places, restricted to fundamental principles, with the express refusal to count a single medium or a single centre. The other forbids the question put in order to test, and settles both outcomes in advance - the spirits addressed do not answer and withdraw, and a spirit that does answer such a question is thereby classed as imperfect."@en ;
-    skos:note "The state on this protocol should be pm:claimDoesNotDiscriminate and is not, and the reason is a defect in the shapes rather than a judgement about the claim. pm:CasesRequireCounterSearchShape groups that state with the two states that report cases and therefore demands a carried counter-search; but the verdict that a claim excludes no outcome is a verdict about the form of the claim and needs no evidence, so there is nothing for a counter-search to have searched. Setting a counter-search state here would assert a search that did not happen. The protocol therefore stands at procedure without cases, which understates it, and the defect is entered at prima-materia#499 rather than worked around."@en,
+    skos:note "The state stood at procedure without cases until prima-materia#499 was decided, and understated the protocol: pm:CasesRequireCounterSearchShape grouped the verdict on a claim's wording with the two states that report cases and demanded a counter-search that would have had nothing to search. The shape was corrected rather than the state faked, and the state is now the one the reading reached."@en,
         "The two rules do not contradict each other on their face and the finding is not that they do. The finding is what they leave: a criterion that can be satisfied by agreement and cannot be strained by a question. Agreement among mediums who share a doctrine, a vocabulary and an expectation is the outcome to be explained, not the evidence that explains it, and the one operation that would tell a real concordance from a shared expectation is the one the transmission rules out."@en ;
-    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinationState pm:claimDoesNotDiscriminate ;
     pm:examinedBy "prima-materia, protocol formed from two passages of the same author read at the wording; no case series has been collected and no external examination has been read" ;
     pm:falsifiedBy "A passage in this transmission in which a concordance of independent mediums is reported and then set aside as insufficient on some ground other than the moral quality of the communication; or a recorded case in which a test question was put, answered, and the answer accepted as evidence rather than as a mark of an imperfect spirit. Either would show that the control can be strained and that the exclusion of the test question is not doing the work described here." ;
     pm:protocolUpdated "2026-09-04"^^xsd:date ;
-    pm:tests pmc:ControleUniversel .
+    pm:tests pmc:ControleUniversel ;
+    pm:undividedOutcomes "A spirit that withdraws when tested and a spirit that was never present produce the same observation; a spirit that answers a test question is by that answer classed as imperfect. Agreement among mediums and agreement produced by a shared doctrine are likewise not separated, since concordance is admitted as the control and no operation is allowed that would strain it." .
 
 pmc:SpiritismPrinciplePresupposesControl a pm:Presupposing ;
     rdfs:label "Ein Grundsatz gehört zur Lehre erst nach der allgemeinen Kontrolle"@de,
@@ -6281,14 +6282,6 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
-pm:claimDoesNotDiscriminate a pm:ExaminationState ;
-    rdfs:label "Behauptung unterscheidet nicht"@de,
-        "Claim does not discriminate"@en ;
-    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
-    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
-        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
-        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
-
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
         "Conjugal telos"@en ;
@@ -7019,6 +7012,14 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:definition "The source prescribes the practice across the states this axis distinguishes: not in a set-apart session but through work, speech and sleep alike."@en ;
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
+
+pm:claimDoesNotDiscriminate a pm:ExaminationState ;
+    rdfs:label "Behauptung unterscheidet nicht"@de,
+        "Claim does not discriminate"@en ;
+    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
+    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
+        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
+        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
 
 pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
@@ -8024,6 +8025,11 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
         "Azande oracular transmission"@en ;
@@ -8061,11 +8067,6 @@ pm:Yielding a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
