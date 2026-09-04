@@ -684,6 +684,14 @@ pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
         pmc:SpiritCallingYieldsRecoveryOfLostThings ;
     pm:generalizedStatement "Where a practitioner enters a stated inner state at will and then reports on a person, place or object outside the range of ordinary perception, the reports agree with independently established facts more often than reports produced, from the same prior information, by people who have not entered such a state."@en .
 
+pmc:DistinctionDesEsprits a pm:Conceptualizing ;
+    rdfs:label "Die Unterscheidung guter und schlechter Geister"@de,
+        "Telling a good spirit from a bad one"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXIV, sections 263-264" ;
+    skos:altLabel "distinction des bons et des mauvais Esprits"@fr ;
+    skos:definition "The capacity the whole system rests on, since every claim in it arrives through a communication that may be false. The criterion given is not evidential but linguistic and moral: spirits are judged as men are judged, by their language, and goodness and benevolence are held to be the essential attributes of purified spirits."@en ;
+    pm:withinTradition pmt:Spiritism .
+
 pmc:DistinctivenessAgainstDissolution a pm:Originating ;
     rdfs:label "Die Unterschiedenheit als Streben des Geschöpfs gegen die Auflösung"@de,
         "Distinctiveness as the striving of the creature against dissolution"@en ;
@@ -861,6 +869,24 @@ pmc:EmptyingOfTheHeartIsWithdrawnAbsorption a pm:Situating ;
     pm:axisValue pm:withdrawnAbsorption ;
     pm:situatedNode pmc:EmptyingOfTheHeart ;
     pm:situationGround "The three steps are a graded withdrawal from the sensory channel and are stated as such: not to wait for the hearing of the ears, then not even for the hearing of the mind. The practitioner is awake throughout; what is withdrawn is the reliance on what the ears report. That is the criterion this coordinate names."@en .
+
+pmc:EpreuveCaution a pm:Cautioning ;
+    rdfs:label "Gegen die Prüfung der Geister"@de,
+        "Against putting the spirits to the test"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXVI, section 288, item 3" ;
+    skos:definition "The instruction that follows from it. Questions asked from a motive of curiosity or of test are not to be put; the spirits addressed do not answer them and go away, and the transmission adds that such questions please the imperfect spirits, who are amused by them."@en ;
+    skos:note "The rule is self-sealing in a way the graph should record plainly rather than argue about. A superior spirit that withdraws when tested and an absent spirit produce the same observation; and a spirit that does answer a test question is by that answer classed as imperfect. Both outcomes are accounted for in advance, so the test yields no information either way."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Evocation ;
+    pm:withinTradition pmt:Spiritism .
+
+pmc:EvocationAgency a pm:Situating ;
+    rdfs:label "Die Operation verortet die Handlungsträgerschaft beim Geist"@de,
+        "The operation places the agency with the spirit"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:cededAgency ;
+    pm:situatedNode pmp:Evocation ;
+    pm:situationGround "The medium supplies the hand or the voice and the content is the spirit's. The transmission makes the point itself at the place where it matters: the spirits decide whether to answer, they withdraw from a question they dislike, and they give proof only when it suits them. What the sitter controls is the form of the question, not the reply." .
 
 pmc:ExcessiveAsceticismCaution a pm:Cautioning ;
     rdfs:label "Unterscheidung gegen das Übermaß"@de,
@@ -2234,6 +2260,15 @@ pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     pm:priorStep pmc:EmptyingOfTheHeart ;
     pm:withinTradition pmt:Daoist .
 
+pmc:QuestionDEpreuve a pm:Conceptualizing ;
+    rdfs:label "Die Prüfungsfrage"@de,
+        "The test question"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXVI, sections 286 and 288, item 3" ;
+    skos:altLabel "question d'épreuve"@fr ;
+    skos:definition "A question put in order to try the perspicacity of the spirits. The transmission classes it with the useless questions and with those put out of curiosity, and states the outcome: to those the spirits do not reply, and they withdraw. The founder warns against them expressly when he sets out how a question is to be framed."@en ;
+    skos:note "The French word épreuve carries both senses in this literature and the transmission uses both: the trial a soul undergoes in an incarnation, which it affirms, and the test question, which it forbids. A translation that renders them alike loses the distinction at the point where it matters most."@en ;
+    pm:withinTradition pmt:Spiritism .
+
 pmc:RecitationExactnessExamination a pm:Testing ;
     rdfs:label "Prüfprotokoll zur Genauigkeitsregel"@de,
         "Protocol on the exactness rule"@en ;
@@ -2578,6 +2613,16 @@ pmc:SiddhisAsObstacle a pm:Cautioning ;
         pmc:ParakayaPravesa ;
     pm:withinTradition pmt:PatanjalaYoga .
 
+pmc:SigneMaterielCaution a pm:Cautioning ;
+    rdfs:label "Kein materielles Zeichen beweist, wer spricht"@de,
+        "No material sign proves who is speaking"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXIV, section 268, questions 3-6 and 23" ;
+    skos:definition "The transmission's own warning against the evidential test. Superior spirits, it says, have no signs by which to be recognised other than the superiority of their ideas and their language, and every spirit can imitate a material sign. It adds that spirits take the names of saints and of famous persons, and that this is not fraud where the intention is good, so that the name is no proof either."@en ;
+    skos:note "Two of the three things an outside investigator would reach for - a signature or handwriting, and a name - are ruled out by the transmission itself before anyone else can propose them. What is left is the third, the quality of the language, which is the one an outsider cannot measure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Evocation ;
+    pm:withinTradition pmt:Spiritism .
+
 pmc:SiguiDatePrediction a pm:Testing ;
     rdfs:label "Die Vorhersage der nächsten Zeremonie im Artikel selbst"@de,
         "The article's own prediction of the next ceremony"@en ;
@@ -2675,6 +2720,32 @@ pmc:SpiritPresupposesBreath a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Qi ;
     pm:withinTradition pmt:Daoist .
+
+pmc:SpiritismControlExamination a pm:Testing ;
+    rdfs:label "Die Kontrolle, die sich nicht anwenden lässt"@de,
+        "The control that cannot be applied"@en ;
+    dcterms:source "Allan Kardec, L'Évangile selon le spiritisme, introduction, section II, sub-heading Contrôle universel de l'enseignement des Esprits",
+        "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXVI, section 288, item 3" ;
+    skos:definition "A protocol on the transmission's own rule of verification. Two passages by the same author, in two works, stand against each other in the way that matters here. One states a control and states it well: concordance of spontaneous teaching, from many mediums unknown to one another, in different places, restricted to fundamental principles, with the express refusal to count a single medium or a single centre. The other forbids the question put in order to test, and settles both outcomes in advance - the spirits addressed do not answer and withdraw, and a spirit that does answer such a question is thereby classed as imperfect."@en ;
+    skos:note "The state on this protocol should be pm:claimDoesNotDiscriminate and is not, and the reason is a defect in the shapes rather than a judgement about the claim. pm:CasesRequireCounterSearchShape groups that state with the two states that report cases and therefore demands a carried counter-search; but the verdict that a claim excludes no outcome is a verdict about the form of the claim and needs no evidence, so there is nothing for a counter-search to have searched. Setting a counter-search state here would assert a search that did not happen. The protocol therefore stands at procedure without cases, which understates it, and the defect is entered at prima-materia#499 rather than worked around."@en,
+        "The two rules do not contradict each other on their face and the finding is not that they do. The finding is what they leave: a criterion that can be satisfied by agreement and cannot be strained by a question. Agreement among mediums who share a doctrine, a vocabulary and an expectation is the outcome to be explained, not the evidence that explains it, and the one operation that would tell a real concordance from a shared expectation is the one the transmission rules out."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol formed from two passages of the same author read at the wording; no case series has been collected and no external examination has been read" ;
+    pm:falsifiedBy "A passage in this transmission in which a concordance of independent mediums is reported and then set aside as insufficient on some ground other than the moral quality of the communication; or a recorded case in which a test question was put, answered, and the answer accepted as evidence rather than as a mark of an imperfect spirit. Either would show that the control can be strained and that the exclusion of the test question is not doing the work described here." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:ControleUniversel .
+
+pmc:SpiritismPrinciplePresupposesControl a pm:Presupposing ;
+    rdfs:label "Ein Grundsatz gehört zur Lehre erst nach der allgemeinen Kontrolle"@de,
+        "A principle enters the doctrine only after the control of generality"@en ;
+    dcterms:source "Allan Kardec, La Genèse, les miracles et les prédictions selon le spiritisme, chapitre I, article 55" ;
+    skos:note "This is the passage on which the registration's judgement rested, and it holds: a transmission that writes down the condition under which it would change is doing something almost nothing else in this collection does. What the next section of this file records is what the same author did with that opening elsewhere."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The consequence is stated as a disqualification and is quotable: any principle that has not received the consecration of the control of generality cannot be considered an integral part of the doctrine. The same article adds the other half, that if new discoveries showed spiritism to be in error on a point, it would modify itself on that point." ;
+    pm:dependentStep pmc:PrincipeDeLaDoctrine ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:ControleUniversel ;
+    pm:withinTradition pmt:Spiritism .
 
 pmc:StatesAreNotOrdered a pm:Cautioning ;
     rdfs:label "Die Zustände werden nicht der Reihe nach erlangt"@de,
@@ -3911,6 +3982,15 @@ pmp:ChannelPurification a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:CritiqueRigoureuse a pm:Practicing ;
+    rdfs:label "Die strenge Kritik einer Mitteilung"@de,
+        "Rigorous critique of a communication"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXIV, sections 266-267" ;
+    skos:definition "The operation the founder offers as the means of that distinction, and he claims for it both exclusivity and certainty in one sentence: this means is the only one, but it is infallible, because there is no bad communication that can withstand a rigorous critique. The marks it works with are given as a numbered list, among them that good spirits never command but advise; that they do not flatter, while bad ones praise extravagantly and stimulate vanity while preaching humility; that an elevated spirit does not contradict itself across time and place; and that good spirits say only what they know and are silent or confess their ignorance, while bad ones speak of everything with a false assurance."@en ;
+    skos:note "The claim of infallibility is the strongest single sentence this transmission makes and the one most open to examination, because it asserts that no false communication can survive the procedure. It is entered in the graph as it stands, without softening, since the value of holding it is that it can be held against cases."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Spiritism .
+
 pmp:FireAndWaterRite a pm:Practicing ;
     rdfs:label "Der Ritus mit Feuer und Wasser bei einer Geburt"@de,
         "The rite of fire and water at a birth"@en ;
@@ -4940,15 +5020,6 @@ pmt:SolomonicGrimoire a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
 
-pmt:Spiritism a pm:Tradition ;
-    rdfs:label "Spiritismus"@de,
-        "Spiritism"@en ;
-    skos:definition "The transmission founded by Kardec on answers obtained through mediums and arranged as a doctrine, with survival and communication asserted as facts open to verification."@en ;
-    skos:note "Registered because of how it states its claims. A tradition that submits itself to examination in its own founding text is the natural first object of the project's examination layer, and the largest single body of nineteenth-century investigation is attached to it."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums" .
-
 pmt:SpiritualistAutomaticWriting a pm:Tradition ;
     rdfs:label "Spiritistisches automatisches Schreiben"@de,
         "Spiritualist automatic writing"@en ;
@@ -5773,6 +5844,13 @@ pmc:Prana a pm:Conceptualizing ;
         "Chāndogya Upaniṣad 7.15.1 (Sanskrit; received prapāṭhaka-khaṇḍa numbering)" ;
     skos:definition "Vital breath, presented as that on which the parts of the person rest and out of which beings come forth, in the image of a wheel resting on its hub."@en ;
     pm:withinTradition pmt:Upanisadic .
+
+pmc:PrincipeDeLaDoctrine a pm:Conceptualizing ;
+    rdfs:label "Die Zugehörigkeit eines Grundsatzes zur Lehre"@de,
+        "A principle's standing as part of the doctrine"@en ;
+    dcterms:source "Allan Kardec, La Genèse, les miracles et les prédictions selon le spiritisme, chapitre I, articles 51-54" ;
+    skos:definition "What the control decides. The transmission holds that the teaching had to be collective and not individual, that the spirits divided the work by scattering the subjects of study across many places, and that a centre formed of itself to compare what came in and to distinguish an individual opinion from the general teaching."@en ;
+    pm:withinTradition pmt:Spiritism .
 
 pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
     rdfs:label "Das Zurückhalten des herabfließenden Nektars"@de,
@@ -6637,6 +6715,15 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:ControleUniversel a pm:Conceptualizing ;
+    rdfs:label "Die allgemeine Kontrolle der Geisterlehre"@de,
+        "The universal control of the teaching of the spirits"@en ;
+    dcterms:source "Allan Kardec, L'Évangile selon le spiritisme, introduction, section II, sub-heading Contrôle universel de l'enseignement des Esprits" ;
+    skos:altLabel "contrôle universel de l'enseignement des Esprits"@fr ;
+    skos:definition "The rule of verification the transmission sets for itself: concordance in the teaching of the spirits is the best control. It is stated with its conditions and with its limits. The revelations must come spontaneously, through a large number of mediums unknown to one another, and from different places. A single medium questioning many spirits is expressly not a sufficient guarantee, because one obsessing spirit could present the same content under different names; and mediums of a single centre are not sufficient either, because they may stand under a common influence. The criterion is restricted to what attaches to the principles of the doctrine and does not extend to communications on secondary matters."@en ;
+    skos:note "Both exclusions are the founder's own and both are exactly the ones an outside critic would raise. That is worth marking, because it makes the rule better than the practice that followed it: the same author describes elsewhere how the scattered material was gathered and weighed at a single centre, and that centre was himself."@en ;
+    pm:withinTradition pmt:Spiritism .
+
 pmc:Dibbacakkhu a pm:Conceptualizing ;
     rdfs:label "Göttliches Auge"@de,
         "Divine eye"@en ;
@@ -7214,13 +7301,6 @@ pm:byEffort a pm:AwarenessValue,
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
 
-pm:cededAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Abgetretene Trägerschaft"@de,
-        "Ceded agency"@en ;
-    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
-    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
-
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Ort nicht angegeben"@de,
@@ -7250,6 +7330,15 @@ pmp:BengeConsultation a pm:Practicing ;
     skos:note "The operators are generally boys between twelve and sixteen, old enough to keep the food taboos and young enough to keep the sexual one. The consultation is held in public, and the bystanders may interrupt the questioner to have a point put that he has left out."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmp:Evocation a pm:Practicing ;
+    rdfs:label "Evokation"@de,
+        "Evocation"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXVI, sections 286-288" ;
+    skos:altLabel "évocation"@fr ;
+    skos:definition "The putting of questions to a spirit through a medium. The founder makes the form of the question part of the operation: it is to be clear, precise and put in a logical order, and the answer given depends on how it was asked."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Spiritism .
 
 pmp:RunicDrumConsultation a pm:Practicing ;
     rdfs:label "Die Befragung der Trommel"@de,
@@ -7351,6 +7440,13 @@ pm:StateDuration a owl:Class,
         "State Duration"@en ;
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:cededAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Abgetretene Trägerschaft"@de,
+        "Ceded agency"@en ;
+    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
+    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -7645,6 +7741,18 @@ pmt:NahuaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Sahagún, Florentine Codex, especially books VI and XI; Ruiz de Alarcón, Tratado de las supersticiones y costumbres gentílicas (1629); Codex Borgia" .
 
+pmt:Spiritism a pm:Tradition ;
+    rdfs:label "Spiritismus"@de,
+        "Spiritism"@en ;
+    dcterms:source "Allan Kardec, Le Livre des Médiums, seconde partie, chapitre XXIV, sections 263-268 (French text in the standard numbering; the digital witness read does not name its printing)" ;
+    skos:definition "The transmission founded by Kardec on answers obtained through mediums and arranged as a doctrine, with a stated rule for admitting a principle into that doctrine and a stated rule for judging which spirit is speaking."@en ;
+    skos:note "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read at the wording: Le Livre des Médiums, chapter XXIV, sections 263 to 268, and chapter XXVI, sections 286 to 288; L'Évangile selon le spiritisme, the introduction, part II, under the heading of the universal control of the teaching of the spirits; La Genèse, chapter I, articles 51 to 55. Not opened: Le Livre des Esprits, the chapter on obsession in Le Livre des Médiums, and the Revue Spirite. The reasons stand in the issues named in the harvest note of prima-materia#497."@en,
+        "The contact route stays at documented, as the registration had it. Nothing in this transmission is a candidate for independent attestation: it is a nineteenth-century European construction with named authors, a dated founding text and a documented reception, and its value to this graph lies elsewhere - in being the one body of material in the collection that states its own rule of verification in writing."@en,
+        "The editions are a difficulty this file does not hide. Kardec renumbered and enlarged Le Livre des Esprits between 1857 and 1860, from about five hundred questions to about a thousand, and everything since is cited by the later numbering. The digital witnesses read here carry the standard numbering and do not name the printing they were set from. The sections cited are therefore findable but the edition is not stated, which SPEC section 10 requires. See prima-materia#498."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums; Kardec, L'Évangile selon le spiritisme; Kardec, La Genèse; the Revue Spirite, 1858-1869" .
+
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
@@ -7898,6 +8006,12 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -7905,21 +8019,10 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
-
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -7958,6 +8061,11 @@ pm:Yielding a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
