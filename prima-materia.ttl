@@ -1418,6 +1418,24 @@ pmc:KaulaAboveTheOtherWays a pm:Conceptualizing ;
     skos:note "Kaula is set above the other ways here, not beside them. That is the same order Wilson translates from a passage he ascribes to the Kulārṇava, in which the left hand stands above the right and Kaula above all — an order the Western pair of names keeps while reversing its valuation. Two witnesses, one of them located by chapter and verse in a named translation and one not; the second is still to be found. See prima-materia#56."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:KevalaKumbhakaHoldsOwnAgency a pm:Situating ;
+    rdfs:label "Das alleinige Anhalten behält die eigene Trägerschaft"@de,
+        "Retention alone holds its own agency"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.74 (Sanskrit vulgate; Sinh 1915)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:ownAgency ;
+    pm:situatedNode pmc:KevalaKumbhaka ;
+    pm:situationGround "The verse has the practitioner able to hold the breath at his own pleasure, and what follows is credited to that holding. Nobody else acts in these verses: there is no descent, no possession and no conferral, only a capacity said to be at the practitioner's disposal once the practice has taken."@en .
+
+pmc:KevalaKumbhakaIsByEffort a pm:Situating ;
+    rdfs:label "Das alleinige Anhalten wird durch Anstrengung erlangt"@de,
+        "Retention alone is attained by effort"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.72-73 (Sanskrit vulgate; Sinh 1915)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:byEffort ;
+    pm:situatedNode pmc:KevalaKumbhaka ;
+    pm:situationGround "The verse directs that the accompanied retention be practised for as long as it takes until the unaccompanied one succeeds, and the next verse names the condition by the success: it is called retention alone once it can be done without the emptying and the filling. The manual gives no other way to it, and the counted regimen of the same chapter sets a number of retentions to be performed at four times of the day."@en .
+
 pmc:KevalaKumbhakaIsWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Das alleinige Anhalten liegt bei abgezogener Vertiefung"@de,
         "Retention alone is placed at withdrawn absorption"@en ;
@@ -1426,6 +1444,15 @@ pmc:KevalaKumbhakaIsWithdrawnAbsorption a pm:Situating ;
     pm:axisValue pm:withdrawnAbsorption ;
     pm:situatedNode pmc:KevalaKumbhaka ;
     pm:situationGround "Retention held at will without the filling and the emptying that ordinarily frame it. A suspension of the breath held as the accomplished form of the practice is the case this coordinate names by its own definition; the practitioner is awake and the ordinary sensory traffic has stopped being the point."@en .
+
+pmc:KevalaKumbhakaLocusNotStated a pm:Situating ;
+    rdfs:label "Das alleinige Anhalten gibt keinen Ort an"@de,
+        "Retention alone states no locus"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.71-74 (Sanskrit vulgate; Sinh 1915)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:locusNotStated ;
+    pm:situatedNode pmc:KevalaKumbhaka ;
+    pm:situationGround "The verses were read for this question and are silent on it. They describe the breath and what the practitioner can do with it, and say nothing about where the awareness is held to be; the seated posture the chapter requires places the body and not the awareness."@en .
 
 pmc:KevalaPresupposesSahita a pm:Presupposing ;
     rdfs:label "Das alleinige Anhalten setzt das Anhalten mit Füllen und Leeren voraus"@de,
@@ -6377,13 +6404,6 @@ pmc:InuitReturnAfterDeath a pm:Conceptualizing ;
     skos:note "The narrative gives the being a name in a phonetic transcription that the digitised text renders unreliably; the spelling is therefore not carried into this node, and the term is to be taken from a clean copy of the page before it is asserted anywhere. The claim itself does not depend on the spelling."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
-pmc:KevalaKumbhaka a pm:Conceptualizing ;
-    rdfs:label "Alleiniges Anhalten"@de,
-        "Retention alone"@en ;
-    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.71-74 (Sanskrit vulgate; Sinh 1915)" ;
-    skos:definition "Retention held at will without the filling and the emptying that ordinarily frame it. The manual calls it the accomplished form of the practice and says nothing in the three worlds is beyond one who holds it."@en ;
-    pm:withinTradition pmt:Hathayoga .
-
 pmc:KnowledgeOfSeedStarCharacteristics a pm:Conceptualizing ;
     rdfs:label "Kenntnis der Merkmale des Same-Sterns"@de,
         "Knowledge of the characteristics of the seed-star"@en ;
@@ -6602,23 +6622,10 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
-pm:byEffort a pm:AwarenessValue,
-        pm:StateAcquisition ;
-    rdfs:label "Durch Anstrengung"@de,
-        "By effort"@en ;
-    skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
-    skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
-
 pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
         "Counter-search found opposition"@en ;
     skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
-pm:locusNotStated a pm:AwarenessLocus,
-        pm:AwarenessValue ;
-    rdfs:label "Ort nicht angegeben"@de,
-        "Locus not stated"@en ;
-    skos:definition "The source was read for this question and does not answer it."@en .
 
 pm:notByEffort a pm:AwarenessValue,
         pm:StateAcquisition ;
@@ -6626,12 +6633,6 @@ pm:notByEffort a pm:AwarenessValue,
         "Not by effort"@en ;
     skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
     skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
-
-pm:ownAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Eigene Trägerschaft"@de,
-        "Own agency"@en ;
-    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
@@ -6873,12 +6874,31 @@ pm:Reworking a owl:Class ;
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
 
+pm:byEffort a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Durch Anstrengung"@de,
+        "By effort"@en ;
+    skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
+    skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
+
 pm:cededAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
     rdfs:label "Abgetretene Trägerschaft"@de,
         "Ceded agency"@en ;
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
+
+pm:locusNotStated a pm:AwarenessLocus,
+        pm:AwarenessValue ;
+    rdfs:label "Ort nicht angegeben"@de,
+        "Locus not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en .
+
+pm:ownAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Eigene Trägerschaft"@de,
+        "Own agency"@en ;
+    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -7048,6 +7068,13 @@ pmt:Upanisadic a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. Chāndogya 7.15.1 carries the edition it was read from and was reopened in the Sanskrit for that purpose. For 1.11.5 the edition is not recoverable and is left unstated rather than guessed."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pmc:KevalaKumbhaka a pm:Conceptualizing ;
+    rdfs:label "Alleiniges Anhalten"@de,
+        "Retention alone"@en ;
+    dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.71-74 (Sanskrit vulgate; Sinh 1915)" ;
+    skos:definition "Retention held at will without the filling and the emptying that ordinarily frame it. The manual calls it the accomplished form of the practice and says nothing in the three worlds is beyond one who holds it."@en ;
+    pm:withinTradition pmt:Hathayoga .
 
 pm:AwarenessSpace a owl:Class,
         pm:Scale ;
@@ -7591,19 +7618,19 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
-pm:Situating a owl:Class ;
-    rdfs:label "Verorten"@de,
-        "Situating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
-    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
+
+pm:Situating a owl:Class ;
+    rdfs:label "Verorten"@de,
+        "Situating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
+    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
