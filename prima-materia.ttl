@@ -1119,6 +1119,28 @@ pmc:HandSideTransferProtocol a pm:Testing ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
     pm:tests pmc:EnergyTakenFromAPersonThroughTheLeftHand .
 
+pmc:HarbaDeMosheCaution a pm:Cautioning ;
+    rdfs:label "Was den trifft, der sich nicht daran hält"@de,
+        "What comes to the man who does not act accordingly"@en ;
+    dcterms:source "The Sword of Moses, ed. and trans. Moses Gaster (London: David Nutt, 1896), the opening instructions" ;
+    skos:definition "The penalty the handbook states for a user who does not keep the preparation. If he will not act accordingly, the angels of wrath, ire, fury and rage will come near him to minister to him, and they will lord over him, and strangle him, and plague him all over. Four leaders are named for the four."@en ;
+    skos:note "The harm named is bodily and immediate and falls on the practitioner himself, which distinguishes this caution from the Hawaiian case in traditions/hawaiian.ttl, where the ill-luck of a fault falls on the party the chant honours. Where the sufferer is the one who could report the fault, the tradition can in principle be contradicted from inside."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:HarbaDeMoshe ;
+    pm:withinTradition pmt:Hekhalot .
+
+pmc:HarbaDeMosheUsePresupposesPreparation a pm:Presupposing ;
+    rdfs:label "Der Gebrauch des Schwertes setzt die dreitägige Vorbereitung voraus"@de,
+        "Using the Sword presupposes the three days' preparation"@en ;
+    dcterms:source "The Sword of Moses, ed. and trans. Moses Gaster (London: David Nutt, 1896), the opening instructions" ;
+    skos:note "The prior step named here is the secrecy and purity condition rather than one of the counts, because the handbook binds them together in a single sentence and attaches the penalty to the whole. Which of the counts, taken alone, the penalty would follow is not stated and is not inferred."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "If he will not act accordingly the angels of wrath, ire, fury and rage come near him to minister to him, and they lord over him, and strangle him, and plague him all over. The consequence is stated for the whole of the preparation and not for a single part of it." ;
+    pm:dependentStep pmp:HarbaDeMoshe ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HarbaDeMosheSecrecy ;
+    pm:withinTradition pmt:Hekhalot .
+
 pmc:HathaChapterOrder a pm:Presupposing ;
     rdfs:label "Das Handbuch ordnet Haltung, Atem, Siegel und Versenkung"@de,
         "The manual orders posture, breath, seal and absorption"@en ;
@@ -1200,6 +1222,18 @@ pmc:HeatWithoutBreathProtocol a pm:Testing ;
     pm:falsifiedBy "Practitioners of the gentler form show the same rise in measured body temperature as practitioners of the form with the forceful breath."@en ;
     pm:protocolUpdated "2026-09-02" ;
     pm:tests pmc:HeatWithoutForcefulBreath .
+
+pmc:HekhalotDescentPresupposesFitness a pm:Presupposing ;
+    rdfs:label "Das Bestehen am sechsten Palast setzt die Eignung zum Abstieg voraus"@de,
+        "Passing the sixth palace presupposes fitness to descend"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:note "Entered at stated necessity because the consequence is quotable and because the passage sets no lesser outcome beside it: no second attempt, no purification that would restore the failed descender, no return."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The transmission states the consequence in a sequence and states it as violence, not as exclusion. The doorkeepers run after him and stone him; they name him of the seed of them that kissed the calf and unfit to see the King and his throne in his beauty; a voice from the seventh heaven confirms that they have said well; and he does not move from the spot before they place on him a thousand thousands of pieces of iron." ;
+    pm:dependentStep pmp:YeridatMerkavah ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HekhalotFitness ;
+    pm:withinTradition pmt:Hekhalot .
 
 pmc:HermeticPolarityOfMentalStates a pm:Originating ;
     rdfs:label "Die Polarität der Gemütszustände"@de,
@@ -2365,6 +2399,27 @@ pmc:SantaAsSourceOfAllRasa a pm:Conceptualizing ;
     pm:readVia "J. L. Masson and M. V. Patwardhan, Śāntarasa and Abhinavagupta's Philosophy of Aesthetics (Bhandarkar Oriental Series 9, Poona: Bhandarkar Oriental Research Institute, 1969), where the passage is printed and translated" ;
     pm:withinTradition pmt:SanskritDramaturgy .
 
+pmc:SarTorah a pm:Conceptualizing ;
+    rdfs:label "Sar ha-Tora, der Fürst der Tora"@de,
+        "Sar ha-Torah, the Prince of the Torah"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 31, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:altLabel "Sar Torah"@en ;
+    skos:definition "The angelic power under whose name the Law is said to be obtained. The transmission gives its own reason for needing him: Israel's understanding was obscured by the exile and the words of the Law became hard as brass and iron, and what the world lacks is this secret and this mystery which is not in it. The remedy is offered as a means of loftiness by which the people are to raise themselves."@en ;
+    pm:withinTradition pmt:Hekhalot .
+
+pmc:SarTorahExamination a pm:Testing ;
+    rdfs:label "Das ohne Studium erlangte Gesetz"@de,
+        "The Law obtained without study"@en ;
+    dcterms:source "Hekhalot Rabbati, chapters 30 and 31, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:definition "A protocol against the claim that the seal replaces study. The claim is unusually well placed for examination and the transmission itself supplies the reason: what it promises is not an inner state but a public performance before witnesses who can judge it. A man who sits in an academy and expounds what is forbidden and permitted either holds up under that or does not, and the people around him are competent to say which."@en ;
+    skos:note "Entered at procedure without cases, and the reason is that the passages carrying the numbers were not opened. The regime is said elsewhere in this literature to run forty days with immersions counted by the day, and to be annulled from the first day by a single lapse of purity; none of that was read at the wording here and none of it stands in this file. See prima-materia#496."@en,
+        "This is the rarest thing in the collection: a claim about an acquired capacity whose success condition the tradition itself locates outside the practitioner, in a room full of people qualified to contradict him. Most capacities in this graph are reported by the one who has them."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A recorded case of a man who completed the rite as the transmission prescribes it and could not afterwards expound what is forbidden and permitted better than before, judged by the academy the transmission itself makes the judge. The claim is that toil is replaced, so an outcome indistinguishable from the untrained falls due against it." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:TorahWithoutToil .
+
 pmc:SarielTeachesCourseOfTheMoon a pm:Attributing ;
     rdfs:label "Sariel offenbart den Lauf des Mondes"@de,
         "Sariel discloses the course of the moon"@en ;
@@ -2574,6 +2629,19 @@ pmc:SixteenSupports a pm:Conceptualizing ;
     skos:definition "A set of sixteen named stations of the body, called supports, which the seal at the throat is said to bind; the manual names the number in a compound and treats the binding of all sixteen as one operation."@en ;
     skos:note "Recorded because the number is the whole of the finding. A modern draft gives thirteen segments as the path along which the force is led; sixteen is what the base text names here, and other works of the wider corpus give eighteen. The count therefore varies across the transmission, which means there is no single path to be had, and a scheme that presents one number as the path has chosen a branch without saying so. The other witnesses to the sixteen and the eighteen have not been read at their wording and are not entered here. See prima-materia#35."@en ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:SixthPalaceWaterTest a pm:Testing ;
+    rdfs:label "Das Wasser, das keines ist, am Tor des sechsten Palastes"@de,
+        "The water that is not there, at the gate of the sixth palace"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:definition "A protocol the transmission states for itself, complete in every part. The doorkeepers of the sixth palace place upon the descender a thousand thousands of waves of water, and there is not in that place even a single drop. The test is what he does next: the fault is not a wrong answer but the question. If he says what is the nature of this water, they run after him and stone him, saying that he is of the seed of them that kissed the calf and is unfit to see the King and his throne in his beauty; a voice goes out from the seventh heaven confirming the sentence; and he does not move from the spot before they place on him a thousand thousands of pieces of iron."@en ;
+    skos:note "Silence is the pass and the question is the failure, which inverts the shape every other examination in this graph has. It also makes the test unusually cheap to administer and impossible to prepare for by learning an answer, since there is none."@en,
+        "What the protocol cannot survive is the same thing that undid the Maya examination in traditions/maya.ttl: the text that transmits the test also transmits the correct behaviour. From the moment this chapter is written down, the trial separates those who have read it from those who have not."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A recorded case in which a descender held to be fit asked about the water, or in which one held unfit kept silent and passed. The transmission claims the gate decides fitness, so a single clean case on either side falls due against it." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:HekhalotFitness .
 
 pmc:SixtyYearReckoningPresupposesTheDiscovery a pm:Presupposing ;
     rdfs:label "Der Sechzigjahres-Comput setzt die Entdeckung des Same-Sterns voraus"@de,
@@ -3086,6 +3154,16 @@ pmc:WatchfulnessIsUnbound a pm:Situating ;
     pm:axisValue pm:anchoringUnbound ;
     pm:situatedNode pmc:Watchfulness ;
     pm:situationGround "The guarding of the heart is set as an unbroken attention to what arises in it, and its whole point is that it does not stop when the occasion changes. A watchfulness held only in a session would not be the thing the literature asks for."@en .
+
+pmc:WaterQuestionCaution a pm:Cautioning ;
+    rdfs:label "Frage nicht nach dem Wasser"@de,
+        "Do not ask about the water"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:definition "A caution whose object is a speech act and not a deed. What the descender must not do at the sixth palace is not touch, not turn back and not doubt, but ask; the transmission attaches the whole penalty to the question about the nature of the water."@en ;
+    skos:note "A rule against asking is the form a tradition takes when the thing to be hidden is that there is nothing there. This is not offered as a reading of the passage's intent, which the graph cannot establish, but as the shape the rule has: the prohibition falls exactly on the act that would reveal the absence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:YeridatMerkavah ;
+    pm:withinTradition pmt:Hekhalot .
 
 pmc:WhatLiesStillWhileHeTravels a pm:Conceptualizing ;
     rdfs:label "Was da stillliegt"@de,
@@ -4418,15 +4496,6 @@ pmt:Hasidism a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Toledot Yaakov Yosef; Keter Shem Tov; Shneur Zalman, Tanya" .
 
-pmt:Hekhalot a pm:Tradition ;
-    rdfs:label "Hekhalot- und Merkava-Literatur"@de,
-        "Hekhalot and Merkavah literature"@en ;
-    skos:definition "The Jewish transmission of an ascent through palaces guarded by gatekeepers, entered by seals and passwords, and of an adjuration by which knowledge is obtained without study."@en ;
-    skos:note "The Sar ha-Torah material states a learning capacity plainly enough to be tested: knowledge of Torah acquired by ritual rather than by study, in a stated time."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Hekhalot Rabbati; Hekhalot Zutarti; Sar ha-Torah; Šiʿur Qomah; 3 Enoch" .
-
 pmt:Hermetic a pm:Tradition ;
     rdfs:label "Hermetische Überlieferung"@de,
         "Hermetic transmission"@en ;
@@ -5352,6 +5421,14 @@ pmc:HalauConduct a pm:Conceptualizing ;
     skos:note "The list mixes conditions of different kinds without marking the difference, and the mixture is itself the finding. Propriety and rudeness are matters of judgement and could be argued about; contact with a corpse is an event that either happened or did not. A rule set in which only some members are decidable is the ordinary case in this collection, and it is what makes a transmission look stricter than it is testable."@en ;
     pm:withinTradition pmt:HawaiianCosmogony .
 
+pmc:HarbaDeMosheSecrecy a pm:Conceptualizing ;
+    rdfs:label "Die Verschwiegenheit, die das Schwert verlangt"@de,
+        "The secrecy the Sword requires"@en ;
+    dcterms:source "The Sword of Moses, ed. and trans. Moses Gaster (London: David Nutt, 1896), the opening instructions" ;
+    skos:definition "A condition of a different kind from the counts. No one is to know that the user intends to use the Sword, and it is not to be communicated except to the chaste and the pure, because in it are the mysteries of the universe and they are practised only in secret."@en ;
+    skos:note "The secrecy clause is the gate this project exists to remove, stated by the transmission in its own words, and it is worth holding as a node rather than as background: it names the criterion of admission, and the criterion is moral rather than lineal."@en ;
+    pm:withinTradition pmt:Hekhalot .
+
 pmc:HauOfTheGift a pm:Conceptualizing ;
     rdfs:label "Der Hau der Gabe"@de,
         "The hau of the gift"@en ;
@@ -5935,6 +6012,14 @@ pmc:Theologike a pm:Conceptualizing ;
     dcterms:source "Evagrius Ponticus, Praktikos 1" ;
     skos:definition "The third of the three parts, the knowledge of God."@en ;
     pm:withinTradition pmt:DesertMonasticism .
+
+pmc:TorahWithoutToil a pm:Conceptualizing ;
+    rdfs:label "Das Erlernen des Gesetzes ohne Mühe"@de,
+        "Learning the Law without toil"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 30, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:definition "The capacity claimed. The transmission puts it as a contrast and not as a degree: the voice of the academies sounds, and not with toil and not with weariness do they learn, but with the name of this seal. What is promised beside it is public standing of a specific kind - to seat academies, to expound what is prohibited and what is permitted, to declare the impure impure and the pure pure, to determine the months and the intercalation of years, to appoint judges and to anoint patriarchs."@en ;
+    skos:note "Set against it in the same passage is what the ordinary student must do without it, and the transmission puts that in the students' own prayer: may that which we have read remain in our possession, may that which we have studied remain in our possession. The claim is therefore not that learning is easier but that a different faculty is being offered in place of memory."@en ;
+    pm:withinTradition pmt:Hekhalot .
 
 pmc:TungusCandidateCondition a pm:Conceptualizing ;
     rdfs:label "Der Zustand des Anwärters"@de,
@@ -6606,6 +6691,14 @@ pmc:HawaiianChantExactness a pm:Conceptualizing ;
     skos:note "Beckwith gives the rule in her own voice and names her authorities for it: Kamakau for the manner of delivery, and Pukui's article of 1949 for the practice. Neither was opened in this run; the article is behind a paywall and the newspaper series was not reachable. The node therefore stands on Beckwith and says so."@en ;
     pm:withinTradition pmt:HawaiianCosmogony .
 
+pmc:HekhalotFitness a pm:Conceptualizing ;
+    rdfs:label "Die Eignung zum Abstieg zur Merkava"@de,
+        "Fitness to descend to the Merkavah"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:altLabel "hashmal"@en ;
+    skos:definition "The property the transmission holds to be decidable and to be decided at a particular place. The hashmal is said to divide, among those who descend, between those who were fit to descend and those who were not."@en ;
+    pm:withinTradition pmt:Hekhalot .
+
 pmc:InuitHiddenThings a pm:Conceptualizing ;
     rdfs:label "Die verborgenen Dinge"@de,
         "Hidden things"@en ;
@@ -6882,6 +6975,17 @@ pmp:DreamYoga a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:HarbaDeMoshe a pm:Practicing ;
+    rdfs:label "Das Schwert des Mose"@de,
+        "The Sword of Moses"@en ;
+    dcterms:source "The Sword of Moses, ed. and trans. Moses Gaster (London: David Nutt, 1896), the opening instructions" ;
+    skos:altLabel "Harba de-Moshe"@en,
+        "Sword of Moses"@en ;
+    skos:definition "An operative handbook whose opening instructions state the preparation in numbers. The user must free himself three days beforehand from accidental pollution and from everything unclean; eat and drink once every evening; take his bread from a pure man or wash his hands first; drink only water; bathe once on the first day and no more; pray three times daily; and in the first three hours of the morning mention the hundred sacred names and the mighty ones, whose sum is given as three hundred and four. He is not to approach a woman during the preparation."@en ;
+    skos:note "Three days, once a day, water only, one bath, three prayers, a hundred names summing to three hundred and four. A preparation given entirely in counts is checkable in a way a preparation given in dispositions is not, and this one has no clause about the state of mind of the user at all."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hekhalot .
+
 pmp:IfaCasting a pm:Practicing ;
     rdfs:label "Der Wurf der sechzehn Palmnüsse"@de,
         "Casting the sixteen palm nuts"@en ;
@@ -6933,6 +7037,17 @@ pmp:WitchDoctorMedicineEating a pm:Practicing ;
     skos:definition "Before a seance the performers eat some of their medicines. The medicine goes into the stomach and is shaken through the body by the dancing, where it is held to become an active agent. The whole apprenticeship consists in the slow transfer of the knowledge of which plants the medicines are made from, paid for in a long string of fees, and a plant is known by stalk and leaf and not by root, which is why laymen may sit at the communal meal without learning anything."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmp:YeridatMerkavah a pm:Practicing ;
+    rdfs:label "Der Abstieg zur Merkava"@de,
+        "The descent to the Merkavah"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:altLabel "yordei merkavah"@en,
+        "yored merkavah"@en ;
+    skos:definition "The passage through the palaces, called a descent although the traveller goes up. The transmission does not explain the word anywhere in the passages read."@en ;
+    skos:note "The term is kept in the tradition's own form and not translated as ascent, because a rendering that corrected the direction would remove the only trace of whatever the word once meant. That it is nowhere explained is itself worth recording: a technical term that its own literature never glosses has usually come from somewhere else."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hekhalot .
 
 pmt:GaudiyaVaisnava a pm:Tradition ;
     rdfs:label "Gauḍīya-vaiṣṇavische Überlieferung"@de,
@@ -7535,6 +7650,18 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
+pmt:Hekhalot a pm:Tradition ;
+    rdfs:label "Hekhalot- und Merkava-Literatur"@de,
+        "Hekhalot and Merkavah literature"@en ;
+    dcterms:source "Hekhalot Rabbati, chapters 26, 30 and 31, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr, against the Hebrew of the Wertheimer recension" ;
+    skos:definition "The Jewish transmission of a descent through palaces whose gatekeepers test the descender, and of an adjuration by which knowledge of the Law is obtained without study."@en ;
+    skos:note "How old the practice behind these texts is, and whether there is a practice behind them at all, is the open question of the field and is not decided here. The oldest manuscripts are of the thirteenth century and later, at least half a millennium after the composition anyone claims for the material. Two positions stand against each other and neither was read at the wording. See prima-materia#495."@en,
+        "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read at the wording: Hekhalot Rabbati, chapters 26, 30 and 31 in the Smith and Scholem translation edited by Karr, against the Hebrew of the Wertheimer recension; and the opening instructions of the Sword of Moses in Gaster's translation. Not opened: the Sar Torah paragraphs that carry the numbers, Maaseh Merkavah, Hekhalot Zutarti, Shiur Qomah, Sefer ha-Razim and 3 Enoch. The reasons stand in the issues named in the harvest note of prima-materia#492."@en,
+        "The paragraph numbering of this literature is Schäfer's, from an edition that could not be reached, and the translations read carry it in brackets. Where this file gives a chapter it is the chapter of the digital witness actually read, and where it gives a paragraph the paragraph is taken from that witness and not from the edition itself. That is a weaker citation than the rest of the graph uses and it is marked rather than smoothed. See prima-materia#493."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Hekhalot Rabbati; Hekhalot Zutarti; the Sar Torah material; Maaseh Merkavah; Shiur Qomah; 3 Enoch; the Sword of Moses" .
+
 pmt:Zoroastrian a pm:Tradition ;
     rdfs:label "Zoroastrische Überlieferung"@de,
         "Zoroastrian transmission"@en ;
@@ -7752,13 +7879,6 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -7778,10 +7898,12 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -7794,10 +7916,10 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -7837,6 +7959,11 @@ pm:Yielding a owl:Class ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
 pmt:SiberianShamanism a pm:Tradition ;
     rdfs:label "Sibirische Schamanenüberlieferung"@de,
         "Siberian shamanic transmission"@en ;
@@ -7860,19 +7987,19 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
         "Situating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
