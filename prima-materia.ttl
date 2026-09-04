@@ -246,6 +246,19 @@ pmc:BaraqelTeachesSignsOfLightning a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:BarasnumExamination a pm:Testing ;
+    rdfs:label "Die Reinigung, die es schlimmer macht"@de,
+        "The purification that makes it worse"@en ;
+    dcterms:source "Vendidad, fargard 9.47-49, trans. James Darmesteter, Sacred Books of the East 4, 2nd ed. (Oxford: Clarendon, 1895)" ;
+    skos:definition "A protocol taken from the transmission's own reasoning. The claim is not that an unqualified purification is ineffective but that it increases sickness and death in the world beyond what they were. That is a directional claim about an outcome outside the practitioner, and it separates two states of affairs that a later observer could tell apart."@en ;
+    skos:note "Entered at procedure without cases. No series has been collected, and none is available from within the transmission: the man who would provide the case is executed before the outcome could be recorded, which is itself a feature of the protocol worth stating rather than passing over."@en,
+        "The transmission supplies the falsifying condition without meaning to. It could have said that the wrong rite simply does not cleanse, which nothing would contradict; instead it named an effect in the opposite direction from the one intended, and thereby excluded an outcome. Where a claim of failure predicts nothing, this one predicts an increase."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A recorded series of purifications carried out by persons known to be unqualified, after which sickness and death in the affected place did not rise above the rate where the rite was performed correctly or not at all. The transmission asserts an increase, so a flat or falling rate falls due against it." ;
+    pm:protocolUpdated "2026-09-04"^^xsd:date ;
+    pm:tests pmc:BarasnumCaution .
+
 pmc:BengeAtFirstContact a pm:Conceptualizing ;
     rdfs:label "Die Giftprobe beim ersten dauerhaften Kontakt"@de,
         "The poison ordeal at the first sustained contact"@en ;
@@ -436,6 +449,17 @@ pmc:ChinToChestInTheChiefSeats a pm:Conceptualizing ;
     skos:note "This is the counterweight to any claim that the manual requires an erect spine throughout. The seats it recommends most warmly close the neck rather than extend it, and the same posture chapter has the tongue set against the roots of the upper teeth while the wind is drawn upward. Uprightness of the trunk is attested; uprightness carried through the neck and head is contradicted in the same work. See prima-materia#29."@en ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:CinwadPuhl a pm:Conceptualizing ;
+    rdfs:label "Die Činwad-Brücke"@de,
+        "The Chinvat bridge"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), 4.7 and 5.1" ;
+    skos:altLabel "Chinvat"@en,
+        "Cinvat"@en,
+        "Cinwad puhl"@en ;
+    skos:definition "The bridge at which the accounting falls due. In the account of the journey under mang it is called very wide and strong, and its width for the traveller who has passed becomes nine javelin-lengths."@en ;
+    skos:note "The measure is stated in a unit and is therefore comparable, which most of what the transmissions in this graph say about such passages is not. What the chapters read do not give is the counter-measure, the width for the one who fails; that stands in another book and was not opened here."@en ;
+    pm:withinTradition pmt:Zoroastrian .
+
 pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
     rdfs:label "Das klare Licht liegt an der Schlafschwelle"@de,
         "The clear light is placed at the sleep threshold"@en ;
@@ -572,6 +596,24 @@ pmc:CrookedLimbsIfTheOfficeIsRefused a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:TungusMasteringOfSpirits ;
     pm:withinTradition pmt:SiberianShamanism .
+
+pmc:Daena a pm:Conceptualizing ;
+    rdfs:label "Daēnā"@de,
+        "Daena"@en ;
+    dcterms:source "Hadhoxt Nask, fragment 2.7-11, trans. James Darmesteter, Sacred Books of the East 23 (Oxford: Clarendon, 1883)" ;
+    skos:altLabel "daena"@en,
+        "den"@en ;
+    skos:definition "What meets the soul at the end of the third night after death, in the shape of a woman. The oldest witness read here fixes three things a later reader can hold the transmission to: the moment, the end of the third night, after a wind that comes sweet-scented from the south; the appearance, of the size of a maid in her fifteenth year, fair, bright, white-armed, strong, tall-formed, high-standing, thick-breasted, beautiful of body, noble, of a glorious seed; and the answer she gives when asked who she is, that she is the soul's own conscience."@en ;
+    skos:note "The account of the journey under mang describes the same encounter and gives the figure no age at all. The fifteenth year stands in the older Avestan fragment and not in the Pahlavi book, and the two are kept apart here rather than merged, because a reader who takes the age from one and the setting from the other is reading a text no witness gives."@en ;
+    pm:withinTradition pmt:Zoroastrian .
+
+pmc:DaenaCounterpart a pm:Conceptualizing ;
+    rdfs:label "Das Gegenstück, das die Seele des Bösen trifft"@de,
+        "The counterpart met by the soul of the wicked"@en ;
+    dcterms:source "Hadhoxt Nask, fragments 2.15 and 3.25-33, trans. James Darmesteter, Sacred Books of the East 23 (Oxford: Clarendon, 1883)" ;
+    skos:definition "The same structure with every term reversed: at the end of the third night a foul-scented wind from the north, and four steps that lead to the hell of evil thought, of evil word, of evil deed, and to endless darkness, against the four that lead to the paradise of good thought, good word, good deed, and endless lights."@en ;
+    skos:note "Entered because the symmetry is the point. A transmission that gives both outcomes in the same form, with the same number of steps and the same sequence, is making a claim with two branches rather than a promise; the passages read state the second as fully as the first."@en ;
+    pm:withinTradition pmt:Zoroastrian .
 
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
@@ -1645,6 +1687,14 @@ pmc:Mana a pm:Conceptualizing ;
     skos:definition "An efficacy that belongs to someone. In the passages read it is always somebody's: a father's, which may inspire the son so that he becomes the living representative of that mana and of the karakia with it; or an opponent's, which is asked for by name in an invocation before a stroke is made."@en ;
     skos:note "What the witness does not show is the thing the term is famous for elsewhere. In these passages mana is never a quantity of impersonal force at large in the world; it is held, inherited, represented, and asked for from a named holder. The reading that made it an impersonal power belongs to a later literature and to a different archipelago, and it is not entered here because that literature has not yet been opened at the wording. See prima-materia#103 for the origination and prima-materia#105 for the philological dispute over the word itself."@en ;
     pm:withinTradition pmt:Maori .
+
+pmc:MangIWistaspanLocus a pm:Situating ;
+    rdfs:label "Die Reise verortet das Bewusstsein außerhalb des Körpers"@de,
+        "The journey places the awareness away from the body"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:displacedLocus ;
+    pm:situatedNode pmp:MangIWistaspan ;
+    pm:situationGround "The body stays on the carpet and is watched for seven days by named persons, while what travels sees, is addressed and is guided elsewhere, and returns to that body on the seventh day. The transmission does not treat the two as one place at any point of the account." .
 
 pmc:ManguMayRemainInoperative a pm:Conceptualizing ;
     rdfs:label "Die Substanz kann kühl bleiben"@de,
@@ -3163,6 +3213,17 @@ pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:ZoroastrianReturnPresupposesWatch a pm:Presupposing ;
+    rdfs:label "Die Rückkehr setzt die ununterbrochene Wache über dem Körper voraus"@de,
+        "The return presupposes the unbroken watch over the body"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), 2.18-33 and 3.2" ;
+    skos:note "Entered at prescribed order and not at stated necessity, and the difference is the finding rather than a formality. The transmission prescribes the watch in full detail and never says what would follow if it lapsed. There is no sentence anywhere in the chapters read about what happens if the traveller does not return, none about a condition under which the journey fails, and none about a body left unwatched. The risk is conceded in practice, by the testament made before drinking and by the undertaking given to the sisters, and it is not conceded in doctrine. A procedure this exact about what to do, and this silent about what goes wrong, is the shape a claim takes when nobody has been in a position to report a failure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:WirazReturn ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:WirazWatch ;
+    pm:withinTradition pmt:Zoroastrian .
+
 pmc:ZuniEfficacyPresupposesExactness a pm:Presupposing ;
     rdfs:label "Das öffentlich gesprochene Gebet setzt buchstabengetreue Wiedergabe voraus"@de,
         "The public prayer presupposes letter-perfect delivery"@en ;
@@ -3889,6 +3950,17 @@ pmp:Pranayama a pm:Practicing ;
     skos:definition "The regulation of the breath as a distinct limb of practice, following posture and preceding the withdrawal of the senses."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmp:Sagdid a pm:Practicing ;
+    rdfs:label "Sagdīd, der Blick des Hundes"@de,
+        "Sagdid, the gaze of the dog"@en ;
+    dcterms:source "Vendidad, fargard 8.16-18, trans. James Darmesteter, Sacred Books of the East 4, 2nd ed. (Oxford: Clarendon, 1895)" ;
+    skos:altLabel "sag-did"@en,
+        "sagdid"@en ;
+    skos:definition "The driving out of the corpse-demon by having a dog look at the body. The dog is specified: a yellow dog with four eyes, or a white dog with yellow ears. The way is to be traversed three times; if the dog will not go, six times; and if it still will not, nine times. The transmission states what follows: the demon flies away to the regions of the north in the shape of a raging fly, with knees and tail sticking out."@en ;
+    skos:note "A rare case of a procedure whose success is defined by an event nobody can observe and whose failure is defined by one that anybody can: the demon's flight is unobservable, but the dog's refusal to walk the way is not, and the refusal is what multiplies the requirement from three to six to nine. The transmission has built its escalation on the one part of the operation that is public."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Zoroastrian .
 
 pmp:SeparativeEndStateExamination a pm:Testing ;
     rdfs:label "Ob der absondernde Endzustand überhaupt geprüft wurde"@de,
@@ -4987,15 +5059,6 @@ pmt:Yogacara a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Asaṅga, Yogācārabhūmi, particularly the Śrāvakabhūmi; Vasubandhu, Triṃśikā" .
 
-pmt:Zoroastrian a pm:Tradition ;
-    rdfs:label "Zoroastrische Überlieferung"@de,
-        "Zoroastrian transmission"@en ;
-    skos:definition "The Iranian transmission of a dualist cosmology, of xvarənah as a conferred radiance, and of a soul journey undertaken and reported."@en ;
-    skos:note "Ardā Wīrāz Nāmag is a substance-induced journey with a named traveller, a preparation and a report, and therefore closer to a protocol than most of what the graph holds."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Avesta (Gāthās, Yasna, Vīdēvdād); Bundahišn; Dēnkard; Ardā Wīrāz Nāmag" .
-
 pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     rdfs:label "Schmuck und Kosmetik"@de,
         "Adornment and cosmetics"@en ;
@@ -5054,6 +5117,16 @@ pmc:AvertingTheAngerOfTheHuacas a pm:Conceptualizing ;
     dcterms:source "Pablo Joseph de Arriaga, Extirpación de la idolatría del Pirú (Lima: Gerónymo de Contreras, 1621), cap. V" ;
     skos:definition "What the confession is made for: the faults of a man are held to anger his ancestors and his huacas, and the anger to be the reason he falls sick. The confession, the blowing of the powders, the rubbing with the pardon-stone and the washing of the head are done so that the anger is turned aside and the sickness with it."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:BarasnumCaution a pm:Cautioning ;
+    rdfs:label "Gegen die Reinigung durch einen Unkundigen"@de,
+        "Against undertaking the purification without knowing the rites"@en ;
+    dcterms:source "Vendidad, fargard 9.47-49, trans. James Darmesteter, Sacred Books of the East 4, 2nd ed. (Oxford: Clarendon, 1895)" ;
+    skos:definition "The transmission's warning against the man who takes on the purification without the knowledge for it. The penalty stated for him is death: they shall cut the head off his neck and give over his corpse to the vultures. The reason given is not that the rite is wasted but that it works the wrong way: through such cleansing the sickness and the death that were in the world become stronger than they were before."@en ;
+    skos:note "This is the strongest thing of its kind the graph holds. Most transmissions say that a botched procedure fails; this one says that it makes the harm greater than if nothing had been done, and it stakes a man's life on the rule. A claim that a wrong performance actively worsens the world is decidable in a way that a claim of mere failure is not, because the two predict opposite directions of the same measurable thing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Barasnum ;
+    pm:withinTradition pmt:Zoroastrian .
 
 pmc:BeautyItself a pm:Conceptualizing ;
     rdfs:label "Die Schönheit selbst"@de,
@@ -5967,6 +6040,14 @@ pmc:WeaponsOfDeath a pm:Conceptualizing ;
     skos:definition "Shield, breastplate and the sword for slaughter, disclosed as instruments of killing rather than as craft."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:WirazReturn a pm:Conceptualizing ;
+    rdfs:label "Die Rückkehr des Reisenden am siebten Tag"@de,
+        "The return of the traveller on the seventh day"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), 3.2-3 and 3.15-26" ;
+    skos:definition "The outcome the undertaking names. On the seventh day the traveller rises, and the transmission compares it to rising from a pleasant sleep. He asks first for food and drink, and after that for a writer who is wise and learned."@en ;
+    skos:note "The order of the two requests is worth keeping: the body first, the record second. The writing down is fixed at the moment of return and not at the end of the vision, which makes the report a part of the procedure rather than a later literary act."@en ;
+    pm:withinTradition pmt:Zoroastrian .
+
 pmc:WordsAtBirthYieldReturnAfterDeath a pm:Yielding ;
     rdfs:label "Die bei der Geburt gesprochenen Worte sollen das Wiederaufleben ermöglichen"@de,
         "Words spoken at birth are said to make the return after death possible"@en ;
@@ -6114,6 +6195,17 @@ pmp:BabalawoPupilage a pm:Practicing ;
     pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
     pm:withinTradition pmt:Ifa .
 
+pmp:Barasnum a pm:Practicing ;
+    rdfs:label "Das Barašnūm der neun Nächte"@de,
+        "The Barashnum of the nine nights"@en ;
+    dcterms:source "Vendidad, fargard 9.7-14, 9.31-38, trans. James Darmesteter, Sacred Books of the East 4, 2nd ed. (Oxford: Clarendon, 1895)" ;
+    skos:altLabel "Barasnum i no shab"@en,
+        "barasnum"@en,
+        "baresnum"@en ;
+    skos:definition "The great purification, stated throughout in numbers. Six holes are dug for the bull's urine and three more for the water, a pace apart; twelve furrows are drawn around them; the liquid is poured with a spoon of iron or of lead, so that the purifier does not touch. At the first water hole there is one washing, at the second two, at the third three. The whole runs nine nights, in three periods of three, with a washing of body and clothes after each. The fee is graded by station: for a priest a blessing of the just, for a lord of a province a camel of high value, for a master of a house a cow of three years."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Zoroastrian .
+
 pmp:BengeCorroborativeTest a pm:Practicing ;
     rdfs:label "Der bestätigende zweite Test am Giftorakel"@de,
         "The corroborative second test at the poison oracle"@en ;
@@ -6189,6 +6281,18 @@ pmp:Makutu a pm:Practicing ;
     skos:note "The operation runs through the same transmissibility by contact that tapu runs through, which is why the two belong in one file and not in two."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Maori .
+
+pmp:MangIWistaspan a pm:Practicing ;
+    rdfs:label "Der Trunk aus Wein und dem Mang des Wischtasp"@de,
+        "The drinking of wine and the mang of Wishtasp"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), 1.28-43 and 2.18-31" ;
+    skos:altLabel "bang"@en,
+        "mang"@en,
+        "mang i Wishtaspan"@en ;
+    skos:definition "A procedure for sending a soul out of a living body and getting a report back. The transmission states it as a sequence with numbers. From the whole assembly seven men without doubt are set apart, from the seven three, from the three one; the lot is cast three times, under the names good thought, good word and good deed, and all three fall to the same man. He prays for the departed, eats, makes his testament, washes head and body, puts on new clothes, perfumes himself, has a clean carpet spread on a prepared couch, consecrates the dron and remembers the souls, and eats again. Then three golden cups of wine and the mang of Wishtasp are given him, one spoken over with each of the three names."@en ;
+    skos:note "The order in which the preparation is given differs slightly between the verses as numbered and the sequence a reader reconstructs; the testament stands close to the prayer, and the second meal after the consecration. What is fixed and not reconstructed is the count: seven, three, one, three lots, three cups."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Zoroastrian .
 
 pmp:MayaIdolCarving a pm:Practicing ;
     rdfs:label "Das Schnitzen der Götterbilder im Monat Mol"@de,
@@ -6304,6 +6408,15 @@ pmp:Tummo a pm:Practicing ;
     skos:definition "The generation of inner heat, presented in three components: the channels, the syllables, and the heat meditation itself."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmp:WirazWatch a pm:Practicing ;
+    rdfs:label "Die siebentägige Wache über dem Körper"@de,
+        "The seven days' watch over the body"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), 2.18 and 2.31-33" ;
+    skos:definition "What is done while the traveller is gone. The dasturs give the seven sisters an undertaking in a number: they will deliver him back safe and sound in seven days. The body remains on the carpet; the dasturs, the priests and the seven sisters keep watch around it for seven days and nights, with fire and fumigation, reciting the Avesta and the Zand, going through the Nasks and chanting the Gathas, and they keep watch in the dark."@en ;
+    skos:note "This is the part of the procedure that an outside observer could check, and it is stated in a form that could fail: a named man, a named place, a stated number of days, and a promise made to named women that he will be given back alive."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Zoroastrian .
 
 pmp:Xingqi a pm:Practicing ;
     rdfs:label "Zirkulation des Qi"@de,
@@ -7124,13 +7237,6 @@ pm:StateDuration a owl:Class,
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
 
-pm:displacedLocus a pm:AwarenessLocus,
-        pm:AwarenessValue ;
-    rdfs:label "Verlagert"@de,
-        "Displaced"@en ;
-    skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
-    skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
-
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
         "Initiation into the second degree"@en ;
@@ -7221,6 +7327,13 @@ pm:MethodOrientation a owl:Class,
     skos:note "Held apart from pm:TelicOrientation deliberately, and that separation is the whole reason both classes exist. The two vary independently: a path can take the forbidden as its vehicle and still aim at dissolution into what exceeds the self. A scheme with one axis cannot state that case, and the terms that carry one axis — right-hand path, left-hand path — therefore report a transgressive means as though it were a separative goal. See prima-materia#52."@en,
         "Three cases, and they must not read alike. Absence of pm:methodOrientation on a node means nobody has put the question to the source. pm:methodNotStated means somebody has, and the source does not answer it. pm:normDistinctionDeclined means the source answers by rejecting the distinction, which is a positive claim and carries the same burden as any other. None of the three is the middle value; there is no middle value."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:displacedLocus a pm:AwarenessLocus,
+        pm:AwarenessValue ;
+    rdfs:label "Verlagert"@de,
+        "Displaced"@en ;
+    skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
+    skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -7422,6 +7535,18 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
+pmt:Zoroastrian a pm:Tradition ;
+    rdfs:label "Zoroastrische Überlieferung"@de,
+        "Zoroastrian transmission"@en ;
+    dcterms:source "The Book of Arda Viraf, ed. and trans. Martin Haug, E. W. West and Hoshang Jamaspji Asa (Bombay and London: Trübner, 1872), chapters 1-5" ;
+    skos:definition "The Iranian transmission of a dualist cosmology, of a soul journey undertaken under a named preparation and reported on return, of an accounting at a bridge whose width answers to the traveller, and of purifications stated in numbers of holes, washings and nights."@en ;
+    skos:note "Registered at corpus named until this file was written, and moved here on the first passages actually read. What was read at the wording: Arda Wiraz Namag, chapters 1 to 5, in the Haug and West translation; Hadhoxt Nask, fragments 2 and 3, in Darmesteter's translation; Vendidad, fargards 8 and 9, in Darmesteter's translation. Not opened: Yasht 19 on the glory, Menog i Xrad, Dadestan i Denig, the Denkard, and the Kirdir inscriptions. The reasons stand in the issues named in the harvest note of prima-materia#489."@en,
+        "The contact route stays at disputed and is not moved, but the reason is now sharper than at registration. The earliest dated Iranian witness of an otherworld journey is not literary but epigraphic, in the inscriptions of the mage Kirdir under Wahram the Second, that is 274 to 293; the Book of the Watchers is third or second century before the era. Every Pahlavi book read here reached its surviving shape in the ninth century or later. Whoever wants to read the Iranian material as the source of the Jewish and Christian ascent literature must argue from the Avestan passages and not from these books. See prima-materia#490."@en,
+        "Two editions stand behind the wording used here and they are of different weight. Haug and West of 1872 rests on a single, partly Pazand-contaminated witness; Gignoux 1984 and Vahman 1986 are the critical editions and were not reachable in full. Where a number in this file matters, it was read in the Haug and West text and the note on the node says so."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
+
 pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
         "Contact route absent"@en ;
@@ -7622,22 +7747,17 @@ pmt:Midewiwin a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
 
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:contactRouteDisputed a pm:ContactRoute ;
-    rdfs:label "Kontaktweg strittig"@de,
-        "Contact route disputed"@en ;
-    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -7657,6 +7777,11 @@ pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -7712,11 +7837,6 @@ pm:Yielding a owl:Class ;
     skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
     skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pmt:SiberianShamanism a pm:Tradition ;
     rdfs:label "Sibirische Schamanenüberlieferung"@de,
         "Siberian shamanic transmission"@en ;
@@ -7729,6 +7849,11 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
