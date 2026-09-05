@@ -186,6 +186,64 @@ pmc:ArmarosTeachesLoosingOfSpells a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:ArsNotoriaCrimenKautel a pm:Cautioning ;
+    rdfs:label "Wer durch ein Verbrechen behindert ist, darf sie nicht sprechen"@de,
+        "No one impeded by crime may presume to say it"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
+    skos:definition "The warning that no man impeded or corrupted with any crime ought to presume to say the oration; on a day on which he is so impeded he may only call it to mind in his heart."@en ;
+    skos:note "The caution is the closest thing in this witness to a condition of failure, and it is worth naming what it does not do: it names who may not say the words, not what happens to one who says them anyway. The distinction decides whether the condition is examinable or absorbing, and the text leaves it on the safer side of that line."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaEbrietasKautel a pm:Cautioning ;
+    rdfs:label "Nicht nach Trunk oder Ausschweifung, und nicht nüchtern ohne Bedacht"@de,
+        "Not after drink or luxury, and not fasting without discretion"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), p. 44, ed. Peterson" ;
+    skos:definition "The warning that no man presume to say any of the oration after too much drinking or luxury, nor fasting, without great reverence and discretion, and that it be treated only at certain determinate and appointed times."@en ;
+    skos:note "Fasting appears on both sides of the corpus: it is prescribed for the first day of a rehearsal and warned against here without reverence and discretion. The two passages are held apart rather than reconciled; whether the witness contradicts itself or distinguishes two situations is not decided from what was read."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaHorae a pm:Conceptualizing ;
+    rdfs:label "Die Tagesstunden und die Zahl der Wiederholungen"@de,
+        "The hours of the day and the count of repetitions"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 13-14, ed. Peterson" ;
+    skos:definition "The division of the day the orations follow: once in the morning, once about the third hour, once about the ninth hour and once at evening; where a great work presses, twice in the morning and twice about the ninth hour."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaPresupposesLunationes a pm:Presupposing ;
+    rdfs:label "Die Wirkung setzt den bestimmten Tag voraus"@de,
+        "The effect presupposes the appointed day"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 14, p. 12, ed. Peterson" ;
+    skos:note "Prescribed order and not stated necessity. The text says the orations are to be pronounced at certain determinate times of the moon and are not to be undertaken without consideration of the end; it does not say what follows if the day is missed. The strength is set to what the passage carries and no higher."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:ArsNotoriaFacundia ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ArsNotoriaLunationes ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaPresupposesSolitudo a pm:Presupposing ;
+    rdfs:label "Die Wirkung setzt Alleinsein und die gesenkte Stimme voraus"@de,
+        "The effect presupposes solitude and the lowered voice"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), p. 14, ed. Peterson" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:ArsNotoriaFacundia ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ArsNotoriaSolitudo ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaSecretumKautel a pm:Cautioning ;
+    rdfs:label "Das unentschuldbare Verbot der Weitergabe"@de,
+        "The inexcusable prohibition on passing it on"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 17, p. 16, ed. Peterson" ;
+    skos:definition "The warning, ascribed in the text to the angel who declared the oration, that the holder presume neither to give it to another nor to expound anything out of it, neither himself, nor any one by him, nor any one after him."@en ;
+    skos:note "This is the gate the project's criterion is directed at, stated by the transmission in its own words and attributed to an angel so that no holder can lift it. It stands here as a claim of the tradition and not as an instruction; the text it guards has been in print since sixteen fifty-seven."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:withinTradition pmt:ArsNotoria .
+
 pmc:AscentPresupposesTheRungs a pm:Presupposing ;
     rdfs:label "Die Schau der Schönheit selbst setzt den Aufstieg über die Stufen voraus"@de,
         "The vision of beauty itself presupposes the ascent by rungs"@en ;
@@ -4196,6 +4254,19 @@ pmp:NavajoSacredSong a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NavajoCeremonial .
 
+pmp:NotoryArtOneMonthExamination a pm:Testing ;
+    rdfs:label "Ob die Wissenschaften binnen des genannten Monats eintreffen"@de,
+        "Whether the sciences arrive within the month the art names"@en ;
+    skos:definition "A protocol on the claim that whoever pronounces the orations at the appointed times, setting all other occasions aside, profits in all the sciences within one month. It is examinable because the claim names a regimen, a term and an outcome that a third party can measure."@en ;
+    skos:note "No case has been collected. The obstacle is named rather than left to be inferred, and it is not the difficulty of the regimen: the witness in print omits the notae, so nobody working from it can keep the procedure the text prescribes. A negative result obtained from this witness alone would therefore not tell against the art, only against half of it. That is a property of the transmission and belongs in the protocol, because it is exactly the kind of gap a later reader would otherwise supply on his own."@en,
+        "The clause that would absorb every outcome is present in the corpus but not in this claim. Elsewhere the text bars the man impeded by crime from saying the orations at all; here nothing says that a failure shows the speaker was unworthy. Whether a fuller recension closes that gap is unread, and it would change the state of this protocol rather than its subject."@en,
+        "The measurement is the weak point and is stated so: profiting in all the sciences is not a quantity, and any protocol has to choose one art and one instrument before the month begins. Choosing them afterwards would let the outcome pick its own measure, which is the failure mode pm:claimDoesNotDiscriminate records after the fact and which is cheaper to prevent here."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passages recorded in traditions/ars-notoria.ttl" ;
+    pm:falsifiedBy "One person who keeps the full regimen for a lunation — the orations on the fourth, eighth, twelfth, sixteenth, twenty-fourth, twenty-eighth and thirtieth day of the moon, at the four hours, alone and in the prescribed manner — and who at the end of the month scores no higher on a test of a liberal art set before the month began than a person matched for prior knowledge who did not keep it. The claim is universal in form and admits no degree, so a single such case refutes it as stated." ;
+    pm:protocolUpdated "2026-09-05" ;
+    pm:tests pmc:ArsNotoriaOratioYieldsFacundia .
+
 pmp:PostMortemForWitchcraftSubstance a pm:Practicing ;
     rdfs:label "Die Leichenschau auf die Hexereisubstanz"@de,
         "The post-mortem for witchcraft substance"@en ;
@@ -4357,15 +4428,6 @@ pmt:ArabicAlchemy a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Jābirian corpus; al-Rāzī, Sirr al-Asrār" .
-
-pmt:ArsNotoria a pm:Tradition ;
-    rdfs:label "Ars Notoria"@de,
-        "Ars Notoria"@en ;
-    skos:definition "The medieval transmission of prayers and figures held to confer the liberal arts and a retentive memory upon a practitioner who keeps a stated schedule."@en ;
-    skos:note "One of the few pre-modern western claims formulated so that it could fail: a named capacity, a named period, a named regimen."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
 
 pmt:AshtarTransmission a pm:Tradition ;
     rdfs:label "Ashtar-Überlieferung"@de,
@@ -5330,6 +5392,31 @@ pmc:Armaros a pm:Naming ;
     pm:nameForm "Armârôs" ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
+
+pmc:ArsNotoriaLunationes a pm:Conceptualizing ;
+    rdfs:label "Die Mondtage, an denen die Orationen gesprochen werden"@de,
+        "The days of the moon on which the orations are said"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 15, p. 12, ed. Peterson" ;
+    skos:definition "The seven days of the lunation on which the orations are to be put in operation: the fourth, the eighth, the twelfth, the sixteenth, the twenty-fourth, the twenty-eighth and the thirtieth day of the moon."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaOratioYieldsFacundia a pm:Yielding ;
+    rdfs:label "Die Orationen bringen die Wissenschaften binnen eines Monats"@de,
+        "The orations confer the sciences within one month"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 14, p. 12, ed. Peterson" ;
+    skos:note "The term is the part that matters. Whoever pronounces the words at the determinate appointed time, setting all other occasions aside, shall profit in all the sciences in one month. A promise with a stated interval can be missed; the same promise without one cannot, and the corpus this graph holds gives intervals very rarely."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ArsNotoriaOratio ;
+    pm:withinTradition pmt:ArsNotoria ;
+    pm:yieldsCapacity pmc:ArsNotoriaFacundia .
+
+pmc:ArsNotoriaSolitudo a pm:Conceptualizing ;
+    rdfs:label "Allein, und kaum sich selbst hörbar"@de,
+        "Alone, and scarcely audible to himself"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), p. 14, ed. Peterson" ;
+    skos:definition "The condition that the oration be spoken secretly, that the speaker be alone, and that he pronounce it with so low a voice that he scarcely hears himself; with fasting on the first day of the rehearsal and a chaste and devout life."@en ;
+    skos:note "The condition is on the manner of speaking and not on the words. It is the counterpart of the exactness demands the graph holds elsewhere: there the wording carries the effect, here it is the inaudibility that is prescribed, and the two are not the same requirement."@en ;
+    pm:withinTradition pmt:ArsNotoria .
 
 pmc:AscentThroughEachCentre a pm:Conceptualizing ;
     rdfs:label "Der Aufstieg, der in einer Bewegung jedes Zentrum durchläuft"@de,
@@ -7353,6 +7440,13 @@ pmc:Ahwal a pm:Conceptualizing ;
     skos:note "No prerequisite claim is entered for these. The tradition holds that they cannot be worked for, which is a claim about the limits of any ordering and not an omission in this record."@en ;
     pm:withinTradition pmt:Sufism .
 
+pmc:ArsNotoriaFacundia a pm:Conceptualizing ;
+    rdfs:label "Das Zunehmen in allen Wissenschaften"@de,
+        "Profiting in all the sciences"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 14, p. 12, ed. Peterson" ;
+    skos:definition "The capacity claimed for the art: to profit in all the sciences and to attain them in an extraordinary manner, with memory, understanding and eloquence increased and established in the speaker."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
 pmc:AstangaLimbs a pm:Conceptualizing ;
     rdfs:label "Die acht Glieder"@de,
         "The eight limbs"@en ;
@@ -7652,6 +7746,15 @@ pm:cededAgency a pm:AgencyHolding,
         "Ceded agency"@en ;
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
+
+pmp:ArsNotoriaOratio a pm:Practicing ;
+    rdfs:label "Das Sprechen der Orationen"@de,
+        "The saying of the orations"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), §§ 14-15 and pp. 13-14, ed. Peterson" ;
+    skos:definition "Pronouncing the orations of the art on the prescribed days of the moon, at the prescribed hours and with the prescribed number of repetitions, alone, secretly and in a voice barely audible to the speaker, having fasted on the first day and living chastely."@en ;
+    skos:note "The procedure the text prescribes is larger than this node: the orations accompany the notae, and the witness read carries none of them. What is entered is the part the witness gives."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:ArsNotoria .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -7985,6 +8088,17 @@ pm:contactRouteAbsent a pm:ContactRoute ;
         "Contact route absent"@en ;
     skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
+pmt:ArsNotoria a pm:Tradition ;
+    rdfs:label "Ars Notoria"@de,
+        "Ars Notoria"@en ;
+    dcterms:source "Ars Notoria: The Notory Art of Solomon, trans. Robert Turner (London: J. Cottrel, 1657), in the digital edition of Joseph H. Peterson" ;
+    skos:definition "The transmission of a set of orations, said on prescribed days of the moon and at prescribed hours, held to confer the liberal arts, eloquence, memory and understanding within a stated term, and bound to conditions of solitude, silence, fasting and freedom from crime."@en ;
+    skos:note "Read for the first time in Robert Turner's English translation, London 1657, in the digital edition of Joseph H. Peterson, which carries the printed pagination and the Latin of the Agrippa text beside it; the wording of every passage cited here was additionally checked against the optical text of the 1657 printing itself. Liber Juratus Honorii was not opened, and neither was the critical Latin edition of Véronèse."@en,
+        "The version read is incomplete in a way that bears on every claim in this file. Both Turner's translation and the Latin of the Agrippa printing omit the notae, the figures which the text itself calls the centre of the art; the orations are given and the drawings they accompany are not. What was read is therefore the verbal half of a procedure whose other half is missing, and no claim entered here can be carried out from this witness alone."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
+
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -8258,24 +8372,10 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
@@ -8294,6 +8394,20 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
