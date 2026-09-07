@@ -478,6 +478,20 @@ pmc:CautionAgainstTheSightItself a pm:Cautioning ;
     pm:cautionsAbout pmc:DistantSight ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmc:CautionAgainstTheWrongPresence a pm:Cautioning ;
+    rdfs:label "Die falsche Anwesenheit zerstört die Kraft der Sache"@de,
+        "The wrong presence destroys the power of the thing"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 252",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 143 and p. 145 and p. 92" ;
+    skos:definition "Both recorders report that a ceremony or a medicine is undone by who is present. The first states that no ceremony will be efficacious if a woman is present during her menstrual flow or if the influences that surround her at that time are present, that such influences remain about a tipi she has occupied until it is taken down and set up again, and that the conductor of the Buffalo ceremony walked the lodge scanning the women to find such a one and the men to find an unworthy one, and would have ordered either to withdraw. The second states that the presence of the wrong kind of person in the lodge was believed to affect the efficacy of a medicine, and that if it were exposed to such influence for any considerable time its power would be entirely destroyed."@en ;
+    skos:note "The caution is entered against the imparted potency rather than against any single rite, because that is the thing both sources say is destroyed: the first speaks of a ceremony that will not be efficacious, the second of a medicine whose power is entirely destroyed, and what the two have in common is the potency the rite is supposed to put to work."@en,
+        "The measure the first source prescribes is worth recording exactly, because it is physical and datable: the tipi in which the young woman had lived alone was taken down by her mother and immediately set up again on the same spot, and that act is what made it fit for the ceremony."@en,
+        "This is the failure condition that does the most work in the file, because it is prior to every other: it can be invoked after the fact against any rite that did not take, and it needs no evidence beyond the assertion that somebody was there. Entered as a caution and not as a mere doctrine because both sources give it in the imperative, with an action to be taken."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmc:Sicun ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:CautionAgainstTouchingTheBurialGear a pm:Cautioning ;
     rdfs:label "Was am Grab bleibt, nicht anrühren"@de,
         "Do not touch what is left at the grave"@en ;
@@ -486,6 +500,26 @@ pmc:CautionAgainstTouchingTheBurialGear a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:TungusParaphernalia ;
     pm:withinTradition pmt:SiberianShamanism .
+
+pmc:CautionOnTheCandidatesConduct a pm:Cautioning ;
+    rdfs:label "Die acht Regeln, die einen Kandidaten binden"@de,
+        "The eight rules that govern a candidate"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 71 and p. 93" ;
+    skos:definition "The invariable rules taught to a candidate for the second, third or fourth form: he must subordinate himself to his mentor, meditate continually on his undertaking, speak little with others than his mentor, and use only his consecrated implements and utensils; he must not become angry, must not hear ribald speech, must not go into the water, and must not have sexual intercourse. A candidate who disregards any of them must do such penance as his mentor prescribes before he can proceed."@en ;
+    skos:note "A warning with a remedy rather than a forfeit: the breach does not void the undertaking, it interrupts it until a penance set by another man has been done. That is a different shape from the taboos which are said to destroy an instrument outright, and the two stand in the same corpus."@en,
+        "Two further restrictions belong to the same regime and are entered here rather than as separate nodes: the consecrated clothing, implements and utensils may be used by no one else until the dance is danced, and from the beginning of his last day in the sacred lodge the candidate must fast and take no drink until he has danced. Only a shaman can release him from any requirement of his conduct in the sacred lodge."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmp:WiwanyangWacipi ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmc:CedarWardsTheWingedGod a pm:Conceptualizing ;
+    rdfs:label "Zedernholz hält den Geflügelten Gott fern"@de,
+        "Cedar keeps the Winged God away"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 70 and p. 110 and p. 133" ;
+    skos:definition "The rack set at the foot of the candidate's bed of sage is of cedar because the cedar is favoured by the Winged God, who will not visit one protected by it nor cause such a one to act foolishly. Cedar leaves and twigs are also sprinkled over the altar in the dance lodge, where they are said to ward against the contrary conduct of the Winged God and of the heyoka."@en ;
+    skos:note "The claim is worth holding because it is the counter-move to the obligation on the neighbouring node: the same transmission that says a communication can bind a man for life also names a material that prevents it. A third means is named in the Hunka ceremony, where the waved wands are said to shield a man from seeing the person of the Winged God and so from being made heyoka. Three protections against one outcome, from three different rites, all in the same paper."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:Chilan a pm:Conceptualizing ;
     rdfs:label "Chilan"@de,
@@ -546,6 +580,19 @@ pmc:ColdAsSourceProtocol a pm:Testing ;
     pm:falsifiedBy "Practitioners exposed to cold are found to expend less energy, or to end the exposure with greater substrate reserves, than matched participants at thermoneutrality."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
     pm:tests pmc:EnergyTakenFromCold .
+
+pmc:CommunicationMustBeInterpretedByAShaman a pm:Presupposing ;
+    rdfs:label "Die Mitteilung setzt einen Deuter voraus"@de,
+        "The communication presupposes an interpreter"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 68-69" ;
+    skos:note "Entered at prescribed order and not at stated necessity: the source says that the seeker ought to consult a shaman even where the communication is apparently intelligible and easily understood, and that a candidate for the Sun dance must consult his mentor and be guided by him, but it names no consequence for the man who interprets his own. What it does name is one possible content of the interpretation, and that is entered in the definition because it is a stop rule."@en,
+        "The stop rule: the communication may prohibit the candidate from dancing the Sun dance, and if it does he is to proceed no further in the matter. A ceremony that can be called off by the very thing it is undertaken to obtain is unusual enough in this graph to be recorded where it stands."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:dependentStep pmc:Wowihanble ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:ShamanicInterpretation ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:CompletionPresupposesGeneration a pm:Presupposing ;
     rdfs:label "Die Vollendungsstufe setzt die Erzeugungsstufe voraus"@de,
@@ -673,6 +720,19 @@ pmc:DaenaCounterpart a pm:Conceptualizing ;
     skos:note "Entered because the symmetry is the point. A transmission that gives both outcomes in the same form, with the same number of steps and the same sequence, is making a claim with two branches rather than a promise; the passages read state the second as fully as the first."@en ;
     pm:withinTradition pmt:Zoroastrian .
 
+pmc:DancingPresupposesOfferingAndFlowingBlood a pm:Presupposing ;
+    rdfs:label "Der Tanz setzt eine Gabe und eine blutende Wunde voraus"@de,
+        "The dance presupposes an offering and a wound that bleeds"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 61 and p. 93" ;
+    skos:note "Entered at stated necessity: the corpus does not merely order the two before the dance but says what their absence costs. The wound may be as small as the skin of a louse in the first form and as large as the dancer wills."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:consequenceOfSkipping "Before beginning to dance the candidate must make an acceptable offering to the Sun and have a wound that will cause his blood to flow while he dances; when the blood flows as a token it is the surest guarantee of sincerity, and without such a guarantee the people or the Sun may doubt the professed purposes of the dancer."@en ;
+    pm:dependentStep pmp:WiwanyangWacipi ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:OfferingAndWoundBeforeTheDance ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
         "The descent presupposes the depth that gathers the breath"@en ;
@@ -730,8 +790,9 @@ pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
     rdfs:label "Wahrnehmung des Unerreichbaren aus einem willentlich betretenen Zustand"@de,
         "Perception of what is out of range, from a state entered at will"@en ;
     skos:note "No pm:Testing points at this node, and that is its function rather than a defect. SPEC §16 makes the untested generalizations the queue for the examining layer; this one heads it, because it rests on more attested claims and more widely separated transmissions than anything else the holding can currently form."@en,
-        "Six attested claims from four transmissions: the Sámi journey made while the body lies still, two applications of saṃyama in the Yogasūtra, two of the graded degrees of the Midewiwin, and the Iglulik spirit calling. Each names its own work and passage; this node names none, because none of them says what it says."@en,
+        "Seven attested claims from five transmissions: the Sámi journey made while the body lies still, two applications of saṃyama in the Yogasūtra, two of the graded degrees of the Midewiwin, the Iglulik spirit calling, and the Lakota sending of the sacred stones. Each names its own work and passage; this node names none, because none of them says what it says."@en,
         "The derivation is contestable at two points and both are left visible. First, whether the four transmissions describe one kind of practice at all: the Sámi journey, saṃyama, the Midewiwin degrees and the Iglulik calling agree in that the state is entered deliberately and differ in almost everything else. Second, whether reporting on a distant place and reading another mind are one effect or two — the sources treat them as neighbouring and this node treats them as one, which is a decision and not a finding."@en,
+        "The seventh claim was added after the sixth and its addition is the only one that changed the shape of the derivation, so it is recorded rather than absorbed. The Lakota case is the first in this set that comes with narrated cases attached: a stone sent to find a rifle dropped into a river at a named place, and a stone sent to bring a buffalo in front of a fur trader who had staked ten articles against it. Cases do not make evidence — nobody devised the procedure and nobody recorded an outcome that could have been checked by a third party — but they are what a protocol would have to address, and no other claim under this node has any. Against that stands the same objection as for the Midewiwin material, since the recording is of nineteen eleven to nineteen fourteen; and beside it the fact that the same transmission names the cause to which a failure of the instrument is attributed, so that its own successes cannot be counted as a run."@en,
         "Why the wording is as heavy as it is. The traditions say that the capacity is reached; a statement that repeated that could not fail at anything. What can fail is a comparison, so the statement is written as one, with the comparison group named — people working from the same prior information without the state. Whoever thinks the sentence overreaches should attack that clause, because it is the clause that carries the whole claim."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:FourthDegreeYieldsThoughtReading,
@@ -739,7 +800,8 @@ pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
         pmc:SamyamaYieldsDivyaSrotra,
         pmc:SamyamaYieldsParacittaJnana,
         pmc:SecondDegreeYieldsDistantHearing,
-        pmc:SpiritCallingYieldsRecoveryOfLostThings ;
+        pmc:SpiritCallingYieldsRecoveryOfLostThings,
+        pmc:TunkanYieldsDistantKnowledge ;
     pm:generalizedStatement "Where a practitioner enters a stated inner state at will and then reports on a person, place or object outside the range of ordinary perception, the reports agree with independently established facts more often than reports produced, from the same prior information, by people who have not entered such a state."@en .
 
 pmc:DistinctionDesEsprits a pm:Conceptualizing ;
@@ -1078,6 +1140,15 @@ pmc:FabricationRatherThanMisreport a pm:Conceptualizing ;
         "The sanction is stated and is not merely moral: the king sends for the elder, tells him he is a cheat and a liar, and bars him from ever again conducting official consultations."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:FailureOfTheStonesAttributedToTheOwner a pm:Conceptualizing ;
+    rdfs:label "Ein Stein, der nicht gehorcht, liegt am Besitzer"@de,
+        "A stone that will not obey is the owner's fault"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 207" ;
+    skos:definition "A man who had owned a sacred stone for many years but had not been able to command it as the medicine men do attributed the failure to himself, saying that he does not place his faith wholly upon it but believes in the help of many other agencies."@en ;
+    skos:note "It is also the reason the two printed cases at pmc:TunkanDistantKnowledge cannot be counted as a run of successes: the corpus records the failures under a heading that removes them from the count."@en,
+        "The counterpart of the eight causes at pmc:BengeFailureCauses in the Azande file: an instrument that fails is not thereby discredited, because the transmission has a place to put the failure. Here the place is the owner's divided faith, which cannot be inspected from outside and which no outcome can clear. It is entered beside the capacity it protects and not away from it, because the two only mean anything together."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:FastKeptWellIsAlsoChecked a pm:Conceptualizing ;
     rdfs:label "Ob das Fasten gehalten wurde, wird nachträglich geprüft"@de,
         "Whether the fast was kept is checked afterwards"@en ;
@@ -1267,6 +1338,17 @@ pmc:GreaterPresupposeLesser a pm:Presupposing ;
     pm:priorStep pmc:LesserMysteries ;
     pm:withinTradition pmt:EleusinianMysteries .
 
+pmc:HanblapiYieldsWowihanble a pm:Yielding ;
+    rdfs:label "Das Suchen bringt die Mitteilung hervor"@de,
+        "The quest yields the communication"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 68" ;
+    skos:note "Not circular in the sense SPEC §11 forbids: the practice is a stated bodily regime in a stated place, and the capacity is a communication with a content that the seeker is afterwards to be governed by. The transmission also states that the two do not always go together, which is on the neighbouring node."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:Hanblapi ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual ;
+    pm:yieldsCapacity pmc:Wowihanble .
+
 pmc:HandSideTransferProtocol a pm:Testing ;
     rdfs:label "Ob die Seite der Hand einen Unterschied macht"@de,
         "Whether the side of the hand makes a difference"@en ;
@@ -1408,6 +1490,15 @@ pmc:HermeticPolarityOfMentalStates a pm:Originating ;
     pm:circulatesAs "A study of the Hermetic philosophy of ancient Egypt and Greece, so described on its own title page and taken by its readers for a transmission from Hermes Trismegistus rather than for a work of its own decade." ;
     pm:originatedBy "Three Initiates, the pseudonymous authorship under which the work appeared" .
 
+pmc:HeyokaFromTheWingedGod a pm:Conceptualizing ;
+    rdfs:label "Die Mitteilung, die den Empfänger zum widernatürlichen Handeln verpflichtet"@de,
+        "The communication that obliges the receiver to act contrarily"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 68 and pp. 83-84" ;
+    skos:definition "A communication that appears in the form of one of the messengers of the Winged God is held to have been granted by him, and the one to whom it speaks must thereafter become heyoka and speak and act contrarily, or as a buffoon, for the rest of his life. A candidate to dance the Sun dance who receives such a communication must act as a clown in the dance lodge, appear to enjoy the tortures and make sport of his fellow dancers. Seeing the substance of the Winged God himself has the same effect; seeing the god Heyoka, who may appear in the form of a bent man, does not."@en ;
+    skos:note "An obligation imposed by the outcome of a procedure and binding for life, entered because it is the sharpest cost this transmission attaches to a communication. The heyoka must also set the door of his tipi so that it does not face the centre of the camp circle."@en,
+        "The list of the messengers is given twice in the same paper and the two lists do not agree. The first names the dog, the shore lark, the swallow, the night hawk, the frog, the lizard and the dragon fly; the second names the dog, the swallow, the snowbird, the night hawk, the lizard, the frog and the dragon fly. Whether the shore lark and the snowbird are one bird under two English names, or whether one of the two places is a slip, is not decidable from the paper and is held as an issue rather than smoothed away here."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:HicksEmotionalGuidanceScale a pm:Originating ;
     rdfs:label "Die Skala der emotionalen Führung"@de,
         "The emotional guidance scale"@en ;
@@ -1433,6 +1524,17 @@ pmc:HorripilationCorrespondence a pm:Converging ;
     pm:independentAttestation pmt:SanskritDramaturgy,
         pmt:Theravada ;
     pm:transmissionPath "Both codifications arise within the Indian cultural sphere; independence holds at the level of genre and subject matter, not at the level of culture." .
+
+pmc:HowManyTheGreatMysteriousAre a pm:Disputing ;
+    rdfs:label "Wie viele die Große Geheimnisvolle sind, und ob die Sonne der Große Geist ist"@de,
+        "How many the Great Mysterious are, and whether the Sun is the Great Spirit"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 153",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 154-155" ;
+    skos:definition "Two informants in the same volume give the count differently. The one whose written Lakota underlies the doctrinal texts gives sixteen names in four groups of four and says that the term of the shamans differs from the common term only in considering all the benevolent gods, four of each of four classes, as one whole. The other, questioned directly, names eight, then says there is but one, then reduces the eight to four by pairing them, saying that the Sun and the Moon are the same, the Sky and the Wind the same, the Rock and the Winged the same, and the Earth and the Beautiful Woman the same. On a second point the same informant contradicts the people rather than the other informant: many of the people hold that the Sun and the Moving are one and the same, and he says that the shamans know it is not so, because the Sun is in the sky only half the time and the Moving is there all the time."@en ;
+    skos:note "The argument the second informant gives for his denial is worth keeping separate from the denial: it is an argument from the observed availability of the two, not from authority or from lineage. That form is rare in this corpus."@en,
+        "The dispute is entered because the graph would otherwise hold the scheme of the first informant as the doctrine of the transmission, which the second informant does not confirm and the compiler himself declines to claim. It is a disagreement between two witnesses of the same transmission and not between two traditions, which is the commoner and less visible kind."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:WalkerSystematizationOfTheGods .
 
 pmc:HuacaAsAddressedPower a pm:Conceptualizing ;
     rdfs:label "Die Huaca als angesprochene Macht"@de,
@@ -1591,6 +1693,19 @@ pmc:IndoTibetanReception a pm:Converging ;
         pmc:Kundalini,
         pmc:Rtsa ;
     pm:transmissionPath "The six yogas reach Tibet from the Indian mahāsiddha Nāropa through Marpa the translator; the transmission is named in the Tibetan sources themselves." .
+
+pmc:InipiPresupposesTheCustomaryBuild a pm:Presupposing ;
+    rdfs:label "Die Hütte muss nach dem Brauch gebaut sein, sonst wirkt die Zeremonie nicht"@de,
+        "The lodge must be built after the custom or the ceremony is of no avail"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 156" ;
+    skos:note "Entered at stated necessity because the source does not prescribe the build and stop there: it names what follows if the build is wrong, and what follows is total. The sentence is from the text written in Lakota by Sword and translated, not from the compiler's exposition."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:consequenceOfSkipping "The ceremony must be performed in an ini ti; the ini ti must be made according to Lakota custom, otherwise the ceremony would be of no avail."@en ;
+    pm:dependentStep pmp:Inipi ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:IniTiConstruction ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:InitiationPresupposesSaktipata a pm:Presupposing ;
     rdfs:label "Die Initiation setzt die Herabkunft der Kraft voraus"@de,
@@ -1864,6 +1979,15 @@ pmc:LovePresupposesApatheia a pm:Presupposing ;
     pm:priorStep pmc:Agape,
         pmc:Apatheia ;
     pm:withinTradition pmt:DesertMonasticism .
+
+pmc:MaidenDeclarationDecidedByASnake a pm:Conceptualizing ;
+    rdfs:label "Eine bestrittene Erklärung entscheidet eine Schlange"@de,
+        "A contested declaration is decided by a snake"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 99" ;
+    skos:definition "The maidens who wish to attend the dancers are called by name and each declares that she has never had carnal intercourse with a man. Anyone may challenge the declaration. If the challenged maiden is silent she is held not to be a maiden; if she repeats the declaration and bites a snakeskin or the effigy of a snake and the challenger then keeps silence, her declaration is held true. If the challenge is repeated the challenger must bite the snake too; if he does not, his challenge is held a slander. If he does, the decision is held in abeyance until a snake decides it by biting the one who gave false testimony, as the corpus says a snake will surely do."@en ;
+    skos:note "It is also the only ordeal in this file in which both parties are put at risk, and the only one in which the transmission provides that the accuser may lose by refusing the same test."@en,
+        "The most nearly falsifiable procedure in this file. It has a named outcome, a named agent, and a defined pair of contestants, and it does not resolve until the outcome occurs. What it does not have is a term, and that is the whole difference between it and the Sun dance promise on the node above: the verdict of the snake can be waited for indefinitely, so no length of silence tells against it."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:MakutuCaution a pm:Cautioning ;
     rdfs:label "Nicht spucken in Gegenwart eines Kundigen"@de,
@@ -2326,6 +2450,20 @@ pmc:PolarityHarvestThresholds a pm:Originating ;
     pm:circulatesAs "A cosmology of great antiquity, received from a source outside the authors, rather than a text composed between 1981 and 1984." ;
     pm:originatedBy "Carla Rueckert as instrument, with Don Elkins as questioner and Jim McCarty as scribe (L/L Research)" .
 
+pmc:PotencyPresupposesTheSongsThatBelongToIt a pm:Presupposing ;
+    rdfs:label "Das Gebieten über eine Potenz setzt ihre Lieder voraus"@de,
+        "Commanding a potency presupposes its songs"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 211",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 158 and pp. 158-159" ;
+    skos:note "Entered at stated necessity: two informants in the same volume make obedience conditional on the songs and not merely customary, and the second witness reports the same rule attached to a particular stone, whose song was transferred with it and was to be sung whenever a request was made of it. The consequence is stated as a condition on the obedience rather than as a punishment, which is the strongest form this corpus uses."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:consequenceOfSkipping "The chosen potency must do as it is directed by the one who chose it, but the chooser must know the songs that belong to it; a man should know the songs, and if he sings them his potency will do as he wishes."@en ;
+    pm:dependentStep pmc:Sicun ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:SingingTheSongsOfAPotency ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:PracticePresupposesInitiation a pm:Presupposing ;
     rdfs:label "Die Praxis setzt die Initiation voraus"@de,
         "The practice presupposes initiation"@en ;
@@ -2382,6 +2520,15 @@ pmc:ProphesyingPresupposesMedicineEating a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:WitchDoctorMedicineEating ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmc:ProvisionForTheQuestThatYieldsNothing a pm:Conceptualizing ;
+    rdfs:label "Was geschieht, wenn keine Mitteilung gewährt wird"@de,
+        "What is done when no communication is granted"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 68" ;
+    skos:definition "The seeker is to wait until he receives the communication or until he is so exhausted that he cannot wait longer without danger of losing his life. One who receives it returns to his tipi singing a song of victory; one to whom it is not granted is to come away from the quest meekly and as privately as possible."@en ;
+    skos:note "It also fixes the abort condition on the practitioner and not on the clock: the quest ends at exhaustion, not after a set number of days. The corpus read here gives no number of days for this quest, which is the point at which the popular reports of it differ most sharply from it."@en,
+        "The passage is the reason this transmission was opened before others in the registry. A procedure that names an exit for its own non-occurrence, and prescribes a different bearing for it, is stating that the non-occurrence happens and is expected. Nothing else read in this run says as plainly that the promised thing may fail to come."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     rdfs:label "Das Hören mit dem Qi setzt das Leeren des Herzens voraus"@de,
@@ -2939,6 +3086,29 @@ pmc:SuccessPresupposesNadiPurification a pm:Presupposing ;
     pm:priorStep pmc:NadiPurification ;
     pm:withinTradition pmt:Hathayoga .
 
+pmc:SunDanceWeatherDispute a pm:Disputing ;
+    rdfs:label "Ob das Wetter bei einem Sonnentanz je versagte"@de,
+        "Whether the weather ever failed at a Sun dance"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 99",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 100 and p. 105" ;
+    skos:definition "The two recorders of this transmission report opposite things about the same ceremony. The first prints a rule for the days on which the Sun does not show his face, assigns such a day to an offence in the camp, and provides that the day be struck from the count of four, which presupposes that such days occurred. The second reports that the medicine men prayed for fair weather for a month beforehand, that their efforts were always successful, and that the oldest men could not remember the falling of rain during a Sun dance."@en ;
+    skos:note "Neither report is a study and neither can be preferred on its face. What separates them is not doctrine but memory of events: the first states a contingency and the second denies that the contingency ever arose. The dispute is entered because the second statement is checkable in principle against the recorded weather of the years and places at which the ceremony was held, and because the first would be untestable without it."@en,
+        "The two are not equally situated. The first was written down at Pine Ridge from shamans who conducted the ceremony, the second at Standing Rock from men who danced in it, and the last tribal Sun dance the second witness names was held in eighteen eighty-one. A reader who wants to resolve this has to decide whether never having rained is a claim about the weather or a claim about what the rule on the other side was for."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:TheSunHidesHisFaceOverAnOffence .
+
+pmc:SunDanceYieldsCommunicationFromTheSun a pm:Yielding ;
+    rdfs:label "Das Zuendetanzen bringt eine Mitteilung von der Sonne hervor"@de,
+        "Dancing to completion yields a communication from the Sun"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 61 and p. 115 and p. 120" ;
+    skos:note "The dancers of the buffalo dance are told the same thing in the praise the herald proclaims over them: that they now belong to the people of the Sun, that they will not have to pay the price when they take a wife, that they will have many children who will honour them, and that they may now receive a communication from the Sun. The four are given together, which is worth noting because only the last of them has a term."@en,
+        "The strongest form in which this transmission makes a claim that could fail, and the reason the tradition was taken from the registry. The practice is public and its completion is witnessed by the camp; the promised effect is a communication; the term within which it is to arrive is named. What the corpus does not say is what follows if the term passes empty, and that silence is a property of the corpus and is recorded rather than filled."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WiwanyangWacipi ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual ;
+    pm:yieldsCapacity pmc:CommunicationFromTheSun .
+
 pmc:SuperimpositionUnderliesEveryPath a pm:Conceptualizing ;
     rdfs:label "Die Überlagerung trägt jeden Weg, auch die Texte über die Befreiung"@de,
         "Superimposition underlies every path, including the texts on release"@en ;
@@ -2982,6 +3152,25 @@ pmc:TheEatersOfMen a pm:Conceptualizing ;
     skos:note "The recorder states how the class came to be known and the account is unusually traceable for this file: it was not established until one man volunteered it after his examination was over, naming others, who were then arrested and examined singly and against one another. Sixty-three were found culpable in four villages of the coast, none at all in the highland villages at that time, and more later in two other provinces. He also reports the confessions in the words of the accused, including one who said he had been made to eat by force and threatened with death if he did not come again."@en,
         "The whole of it was obtained under an examination conducted by a tribunal with the power to punish, and the recorder says the punishment given during the visitation was deliberately light in order to keep them quiet until a heavier one could be arranged. What such an examination produces is a well-known thing and the count of sixty-three is not evidence of sixty-three witches. It is entered because it is what the record says the transmission says about itself, and because the shape of the claim — the night assembly, the taking of a little blood, the eating of the soul, the death within two or three days — is the material a comparison is made from, not because the events are credited."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:TheFirstMenstrualBundle a pm:Conceptualizing ;
+    rdfs:label "Das Bündel des ersten Flusses und was seine Störung bewirken soll"@de,
+        "The bundle of the first flow and what disturbing it is said to cause"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 143 and p. 162" ;
+    skos:definition "The young woman wraps her first menstrual discharge and places the bundle in a plum tree, high enough that coyotes cannot reach it. The reasons given are three: the plum is the emblem of fruitfulness preferred by the Buffalo God; anyone or anything obtaining part of a first discharge thereby gains an influence over the woman that may be used to make her do foolish or shameful things; and the bundle has a potency of its own, so that if it is disturbed it may cause eruptive diseases of the skin and the falling of the hair."@en ;
+    skos:note "The corpus adds elsewhere that the menstrual flow is very wakan and will cause diseases of the skin and the genitals, that some medicine men make a love medicine of it if they invoke the right spirits, and that its influence gives paralysis. The three passages are consistent with each other and are cited together."@en,
+        "The last clause is the reason this node is in the file. The corpus does not leave the claim as a doctrine: it names the evidence it rests on, in the form see young men with pimply faces and many coyotes without hair. That is an appeal to a distribution in the world, made by the transmission itself, and it is the only one of its kind found in this run. It is also plainly checkable and plainly weak, and both belong in the record."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmc:TheOrderOfExitsForADisease a pm:Conceptualizing ;
+    rdfs:label "Die Rangordnung der Wege, auf denen eine Krankheit ausgetrieben wird"@de,
+        "The ranked ways a disease is driven out"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), pp. 251-252",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 163" ;
+    skos:definition "All diseases are things that have got into the body and do violence to it, and the thing to do is to get them out. The medicines drive the disease out in the sweat, in the breath, in the defecation, in the urine or in the vomit, and the corpus ranks these: in the sweat is the best and easiest, in the breath the next best, then the defecation, then the urine, and the vomit is very hard although some diseases will come out no other way. Where the cause is an influence a shaman cures best; where it is something else, a medicine man does; and if the sickness is of long duration someone should seek a communication and learn what to do."@en ;
+    skos:note "A ranked therapeutics with a stated criterion, given by a named informant whose father was a medicine man. It is entered because a ranking of routes is a claim that can be wrong in a way that a list cannot."@en,
+        "The second witness has the same rule from a different man on a different reservation, put as a regime rather than a ranking: the first thing a sick person should do is take a sweat bath so that the body will respond to remedies, then a lighter diet and rest, and no unnecessary exertion. He adds a limit that the first witness does not — that if the disease is not too far advanced the person usually recovers — and a caution that the sick person did not jump into cold water afterwards, as is sometimes stated, but was covered with furs and allowed to cool gradually."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     rdfs:label "Der Fachmann wird bezahlt, und gut bezahlt"@de,
@@ -3204,6 +3393,14 @@ pmc:TungusTrialInTheFrost a pm:Conceptualizing ;
         "It stands inside a clan narrative told to the recorder and not in an account of a procedure he watched. The narrative also carries a live burial, a decapitation and a series of deaths, and no part of it is separable from the rest by anything in the text."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:Tunkan a pm:Conceptualizing ;
+    rdfs:label "Tunkan, die heiligen Steine"@de,
+        "Tunkan, the sacred stones"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), pp. 204-206 and pp. 208-211" ;
+    skos:definition "Small stones of native brown sandstone, usually spherical, regular in outline and untouched by any tool, found on the tops of high buttes and not buried. To dream of one was held to be a sign of great import, meaning that the dreamer who fulfilled the requirements of the dream would become possessed of a power exercised through the stones. The word is said to be an abbreviation of the word for grandfather and belongs to the sacred speech."@en ;
+    skos:note "The stones are kept wrapped, one of them in eagle down, of which it was said that there is something between the down and the stone, because when surrounded by down it cannot get away. A stone sold to another remains subject to recall by the man who dreamed it."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:Turiya a pm:Conceptualizing ;
     rdfs:label "Das Vierte"@de,
         "The fourth"@en ;
@@ -3371,6 +3568,15 @@ pmc:WaterQuestionCaution a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:YeridatMerkavah ;
     pm:withinTradition pmt:Hekhalot .
+
+pmc:WhatCeremonyCannotReach a pm:Conceptualizing ;
+    rdfs:label "Die Götter, die keine Zeremonie beeinflussen kann"@de,
+        "The gods that ceremony cannot influence"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 82 and p. 83 and p. 88 and p. 158" ;
+    skos:definition "The corpus names three limits on its own means. The Moon fixes the time for the more important undertakings of mankind but is indifferent to ceremonies and cannot be influenced by them, and her potency can be imparted to nothing. The Wind cannot be influenced by sacrifice or ceremony and his potency can be imparted to nothing. And the Sun's potency abides in fire and can be imparted to no other thing, so that since fire cannot be clothed in wrappings, a fetish having the potency of the Sun cannot be prepared at all; a second informant puts the same thing as a refusal rather than an impossibility, saying that no one ever had the potency of the Sun for his own, for the Sun will not be that for anyone."@en ;
+    skos:note "A fourth is recorded beside them without being one of them: a fetish carrying the potency of the Great Spirit is said to be able to prevail in all things and to be not permissible to mankind. That is a prohibition and not a limit of the means, and it is not entered as one."@en,
+        "Statements of what does not work are scarcer in this graph than statements of what does, and they are worth more per line, because a transmission that names the boundary of its own instrument is making a claim that its own practice could refute. Here there are three of them in a corpus that elsewhere ascribes very wide powers to a shaman."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:WhatLiesStillWhileHeTravels a pm:Conceptualizing ;
     rdfs:label "Was da stillliegt"@de,
@@ -3801,16 +4007,6 @@ pm:falsifiedBy a owl:DatatypeProperty ;
         "falsified by"@en ;
     rdfs:domain pm:Testing ;
     skos:definition "The stated condition under which the claim counts as refuted."@en .
-
-pm:fieldAttestation a pm:Attesting ;
-    rdfs:label "Feldzeugnis"@de,
-        "Field attestation"@en ;
-    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
-    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
-        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
-        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
-        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
-        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
 pm:fieldRecord a owl:DatatypeProperty ;
     rdfs:label "Aufnahmelage"@de,
@@ -4882,15 +5078,6 @@ pmt:KoreanMuism a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The published muga song transcriptions; Akiba and Akamatsu's collected materials" .
 
-pmt:LakotaRitual a pm:Tradition ;
-    rdfs:label "Lakota-Ritualüberlieferung"@de,
-        "Lakota ritual transmission"@en ;
-    skos:definition "The Lakota transmission of the seven rites, of the vision sought under fasting, and of the pipe as the instrument of address."@en ;
-    skos:note "The best known account passed through two editors, and the difference between what was said and what was printed is itself documented. The tradition should enter the graph together with that dispute, not before it."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Brown, The Sacred Pipe; Neihardt, Black Elk Speaks; DeMallie, The Sixth Grandfather, as the record of the mediation" .
-
 pmt:LatinAlchemy a pm:Tradition ;
     rdfs:label "Lateinische Alchemie"@de,
         "Latin alchemy"@en ;
@@ -5488,6 +5675,14 @@ pmc:CastingYieldsForeknowledge a pm:Yielding ;
     pm:byPractice pmp:IfaCasting ;
     pm:withinTradition pmt:Ifa ;
     pm:yieldsCapacity pmc:IfaForeknowledge .
+
+pmc:CommunicationFromTheSun a pm:Conceptualizing ;
+    rdfs:label "Eine Mitteilung von der Sonne"@de,
+        "A communication from the Sun"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 61 and pp. 119-120" ;
+    skos:definition "What one who has danced the Sun dance to its completion may expect: a communication granted by the chief of the gods, in a vision, at any place and time before the dispersion of the next winter camp. The corpus also states what the completion is worth in degrees: tearing the sticks from the wounds unaided is the most effective manner, being freed after a swoon the least effective, and being released at the dawn of the next day counts as a rescue and is as meritorious as an escape."@en ;
+    skos:note "The term is the reason this node is here. A promise with a deadline can fail; a promise without one cannot. The corpus fixes it as the dispersion of the next winter camp, which is a date that everyone in the camp shares and that arrives whether or not anything has come."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:CompletionStage a pm:Conceptualizing ;
     rdfs:label "Vollendungsstufe"@de,
@@ -6312,6 +6507,14 @@ pmc:TestingOfThoughts a pm:Testing ;
     pm:tests pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:TheSunHidesHisFaceOverAnOffence a pm:Conceptualizing ;
+    rdfs:label "Die Sonne verbirgt ihr Gesicht, solange ein Unwürdiger im Lager ist"@de,
+        "The Sun hides his face while an unworthy person is in the camp"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 100 and p. 105" ;
+    skos:definition "It is proclaimed at the dawn of each holy day that one who knows himself unworthy to appear before the face of the Sun must not enter the ceremonial camp circle, because if such a one appears the Sun will hide his face with a veil of clouds until the offender withdraws or until the Winged God sweeps or washes away the offence. If the face is hidden at sunrise the marshals seek the cause of offence and expel it, and the people wait until the Sun shows his face. If on any day he does not show it, that day is not counted as a holy day, and enough days are counted to make four."@en ;
+    skos:note "A sign read off the weather, with a stated cause, a stated remedy and a stated procedure for the case where the sign appears. It is the closest thing in this file to a falsifying condition applied in public, and it is also the clearest case in this file of a condition that cannot fail: an overcast morning is assigned to an offender, and if no offender is found the day is struck from the count instead. Both halves are in the corpus and both are entered."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:Theologike a pm:Conceptualizing ;
     rdfs:label "Theologikē"@de,
         "Knowledge of God"@en ;
@@ -6395,6 +6598,26 @@ pmc:TungusToli a pm:Conceptualizing ;
         "The mirror carries the contact route on its face. The recorder states that it is widely used in Lamaism as one of the indispensable components of the altar, and that mirrors are either found in the earth, or received from predecessor shamans, or bought from the Mongols, who receive them from China and Tibet. The animals on the back are interpreted by each group according to its own imagination."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:TunkanDistantKnowledge a pm:Conceptualizing ;
+    rdfs:label "Wissen um das, was jenseits des Blicks liegt, durch die Steine"@de,
+        "Knowledge of what lies beyond sight, through the stones"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 205 and p. 210" ;
+    skos:definition "The power said to follow the fulfilled dream of a sacred stone, given by the recorder in three parts: an ability to cure sickness, to predict future events, and to tell the location of objects beyond the range of the possessor's natural vision."@en ;
+    skos:note "The first case has a sceptic, a stake and a witness, which is as close to a set procedure as anything in this file; the second has a locatable object and a named place. Neither is evidence in the sense of SPEC §14 — no procedure was devised and no outcome was recorded that could have gone otherwise for a third party — and both are entered as what they are, first-person reports taken down at the time."@en,
+        "The third part is the one that matters to this graph, because it names a fact of the world that somebody else can check. Two cases are printed with it, both told in the first person by the man who performed them. In one, a fur trader who had said that all the medicine men did was sleight of hand offered ten articles if a buffalo were called to the spot where they stood; the stones were sent, the trader watched through field glasses, and a buffalo came near enough to be shot from where they stood. In the other, a white man dropped a rifle from a ferry into the river near the present site of Pierre in South Dakota and made no effort to recover it; the teller took the stones out on the water, dove where they told him to, found the rifle on the bed of the river, and afterwards returned it to its owner."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmc:TunkanYieldsDistantKnowledge a pm:Yielding ;
+    rdfs:label "Das Aussenden der Steine bringt Wissen um Unerreichbares hervor"@de,
+        "Sending the stones yields knowledge of what is out of range"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 210" ;
+    skos:note "Entered at first-person report and not at field attestation, because the two cases that carry it were told by the man who says he did them, in his own words, to the recorder. What the recorder supplies is the setting; the claim is his informant's."@en,
+        "This is the outside-sphere witness this graph has been short of. The generalization at pmc:DistantPerceptionFromAVoluntaryState rested on four transmissions, of which one was North American; this adds a second, from a different language family and a different region, with a stated instrument and two reported cases. The independence is not thereby established: the recording is of nineteen eleven to nineteen fourteen and the objection raised about the Midewiwin material applies here too. What it is not subject to is the mission route that governs the doctrinal nodes of this file, since the recorder notes of one of these informants that the missionaries had made no impression on him."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:TunkanSending ;
+    pm:withinTradition pmt:LakotaRitual ;
+    pm:yieldsCapacity pmc:TunkanDistantKnowledge .
+
 pmc:TziteAnswer a pm:Conceptualizing ;
     rdfs:label "Die Antwort des Loses über die Holzmenschen"@de,
         "The answer the lot gave about the men of wood"@en ;
@@ -6423,6 +6646,16 @@ pmc:Vespasian a pm:Conceptualizing ;
     dcterms:source "Tacitus, Historiae IV.81" ;
     skos:definition "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."@en ;
     pm:withinTradition pmt:GraecoRoman .
+
+pmc:WalkerSystematizationOfTheGods a pm:Systematizing ;
+    rdfs:label "Das Vier-mal-vier-Schema der Götter als Ordnungsakt"@de,
+        "The four-times-four scheme of the gods as an ordering act"@en ;
+    dcterms:date "1917" ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 56 and pp. 79-81 and pp. 154-155" ;
+    skos:definition "The arrangement of the Lakota gods into four classes of four, the superior, the associate, the subordinate and the god-like, gathered again into four groups of four called the Chief God, the Great Spirit, the Creator and the Executive, and those four taken as one. The compiler states that the shamans recognized a scheme and a system but had never formulated them into a single whole, that no one shaman was found who could give them in a comprehensive or sequential manner, that the scheme was formulated with their aid, and that it was afterwards approved by every informant to whom it was submitted."@en ;
+    skos:note "Entered because the corpus says so itself, in the introduction, and because a reader who takes the scheme for a transmitted doctrine will read every node that mentions a god wrongly. Approval after the fact is not authorship: the informants were asked whether an arrangement was right, which is a different act from producing it."@en,
+        "The interview with Finger, printed in the same paper and taken a few days before the compiler left the reservation, does not reproduce the scheme. Asked how many there are he names eight, then says there is but one, then says there are four and that the other four are the same as those four. The compiler notes of that interview that there was no opportunity for verifying the information."@en ;
+    pm:compiledBy "J. R. Walker, agency physician at Pine Ridge, with the Oglala shamans who approved the scheme after it was formulated" .
 
 pmc:WeaponsOfDeath a pm:Conceptualizing ;
     rdfs:label "Die Waffen des Todes"@de,
@@ -6522,11 +6755,6 @@ pm:durationNotStated a pm:AwarenessValue,
     rdfs:label "Dauer nicht angegeben"@de,
         "Duration not stated"@en ;
     skos:definition "The source was read for this question and does not answer it."@en .
-
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pm:individuatingTelos a pm:TelicOrientation ;
     rdfs:label "Individuierendes Ziel"@de,
@@ -6676,6 +6904,36 @@ pmp:FourteenfoldMastery a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Theravada .
 
+pmp:Hanblapi a pm:Practicing ;
+    rdfs:label "Hanblapi, das Suchen einer Mitteilung"@de,
+        "Hanblapi, seeking a communication"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 68 and p. 218" ;
+    skos:definition "The seeker strips and wears only a robe, a breechclout and moccasins, takes a pipe, smoking material and a knife, and goes to the top of a high place where others are not likely to intrude. There he clears a space of every living or growing thing large enough to sit or lie on, and on entering it invokes the Four Winds that they may not bring inclement weather upon him. He may stand, sit or lie, awake or asleep, and may smoke as often as he wishes, but he must not leave the space he has prepared and must neither eat nor drink while the quest lasts."@en ;
+    skos:note "The second account in the same volume, given as the origin of the Buffalo ceremony, prescribes four passages through the vitalizing lodge first and sends the seeker up naked with a robe, a pipe and willow bark, and has him invoke four named gods and then call the spirit of the buffalo. The two accounts differ in the clothing and in the number of purifications and agree on the solitude, the high place, the fasting and the waiting. Both are printed in the same paper and neither is preferred here."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmp:IniTiConstruction a pm:Practicing ;
+    rdfs:label "Das Errichten der Ini ti"@de,
+        "Building the ini ti"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 66-67" ;
+    skos:definition "The making of the lodge itself: slender saplings thrust into the ground in a circle whose diameter is a little longer than the height of a tall man, their tops bent and bound to form a dome, the whole covered with robes so as to confine the vapour, and an opening large enough for a man to crawl through made anywhere on the border except toward the north, and closable."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmp:Inipi a pm:Practicing ;
+    rdfs:label "Inipi, die Belebungshütte"@de,
+        "Inipi, the vitalizing lodge"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 98",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 66-67 and p. 156" ;
+    skos:definition "Saplings set in a circle a little wider than a tall man is high, bent and bound into a dome and covered so as to hold the vapour, with an opening anywhere on the border except toward the north. The one who vitalizes strips and crawls in naked with a pipe and tobacco; assistants heat stones outside, pass them and the water in and close the opening; those inside place the stones at the centre and pour water on them at intervals, and what rises is held to be the released spirit-like of the water, which cannot escape upward and must therefore enter the bodies exposed to it. What comes out again on the skin carries the harmful things with it and is wiped or washed away. In the simplest form it lasts as long as two pipefuls take to smoke, and it may be prolonged for a day and a night or longer."@en ;
+    skos:note "The name is given in the corpus both as Inipi and as Ini kaga, and the lodge as ini ti. The second witness calls it the vapor lodge and reports one built by each band beside its camp at the Sun dance for the use of those who took part."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmp:InuitWordsSpokenAtBirth a pm:Practicing ;
     rdfs:label "Die bei der Geburt gesprochenen Worte"@de,
         "The words spoken at a birth"@en ;
@@ -6757,6 +7015,15 @@ pmp:Mulabandha a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
+pmp:OfferingAndWoundBeforeTheDance a pm:Practicing ;
+    rdfs:label "Die Gabe an die Sonne und die blutende Wunde"@de,
+        "The offering to the Sun and the wound that bleeds"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 61 and pp. 116-117" ;
+    skos:definition "What is done before a candidate begins to dance: an offering acceptable to the Sun, of as much value as the candidate can afford, and a wound cut in his person that will cause his blood to flow while he dances. In the first form the wound must not be smaller than that made by cutting away a bit of skin as large as a louse and may be as large as the candidate wills; in the other three the wounds are those through which the sticks are thrust."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmp:OloliuhquiConsultation a pm:Practicing ;
     rdfs:label "Das Trinken des Ololiuhqui, um es zu befragen"@de,
         "Drinking the ololiuhqui in order to question it"@en ;
@@ -6812,6 +7079,25 @@ pmp:SaktipataTransmission a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmp:ShamanicInterpretation a pm:Practicing ;
+    rdfs:label "Das Deuten einer Mitteilung durch einen Schamanen"@de,
+        "Having a communication interpreted by a shaman"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 68-69 and p. 135" ;
+    skos:definition "The consultation in which a shaman renders what a communication means. The doctrine holds that shamans are the vicars of the gods, that communications from them are usually in mystic form, and that the shaman's interpretation is authoritative."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
+pmp:SingingTheSongsOfAPotency a pm:Practicing ;
+    rdfs:label "Das Singen der Lieder, die zu einer Potenz gehören"@de,
+        "Singing the songs that belong to a potency"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), p. 211",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 88 and pp. 158-159" ;
+    skos:definition "The songs attached to a particular imparted potency, learned with it and sung when a request is made of it. The corpus states that a shaman preparing a fetish devises a formula which must be repeated to invoke its powers, that a medicine man knows the songs of his medicines and that those songs are his potency, and that a stone transferred from one man to another was transferred together with the song that was to be sung whenever a request was made of it."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmp:Sitali a pm:Practicing ;
     rdfs:label "Śītalī"@de,
         "Śītalī"@en ;
@@ -6827,6 +7113,16 @@ pmp:Tummo a pm:Practicing ;
     skos:definition "The generation of inner heat, presented in three components: the channels, the syllables, and the heat meditation itself."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmp:TunkanSending a pm:Practicing ;
+    rdfs:label "Das Aussenden der heiligen Steine"@de,
+        "Sending the sacred stones"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), pp. 205-207" ;
+    skos:definition "A medicine man who has dreamed of the stones sends them long distances to obtain information. After a time they return and give it to him; he alone can understand what they say and repeats their message to the man who asked the question. During a treatment of the sick in a darkened lodge the stones are said to fly through the air and sometimes to strike those who have refused to believe in them."@en ;
+    skos:note "The men who furnished this were named and were distinguished by the recorder according to their relation to the stones: those who had dreamed of them and used them, those who owned one and believed themselves helped by it, one who owned one and could not command it, one who had sung at another man's demonstrations, and those who had only witnessed them. That classification is the recorder's and is unusually careful for the material, which is why it is repeated here."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Teton men who had themselves danced or doctored, among them Red Weasel, Chased-by-Bears, Brave Buffalo, Goose, Charging Thunder and Two Shields; recorded by Frances Densmore for the Bureau of American Ethnology at Standing Rock, 1911 to 1914, with Robert P. Higheagle interpreting; given in Lakota, and the bulletin carries the Lakota of the song texts but prints the spoken accounts in English only." ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmp:WirazWatch a pm:Practicing ;
     rdfs:label "Die siebentägige Wache über dem Körper"@de,
@@ -7197,6 +7493,14 @@ pmc:Shemihazah a pm:Naming ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Sicun a pm:Conceptualizing ;
+    rdfs:label "Sicun, verliehene Potenz"@de,
+        "Sicun, imparted potency"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 87-88 and p. 158" ;
+    skos:definition "The potency of a human being and the emitted potency of a god. One is imparted to each person at birth and stays with him until death, enabling him to do what the beasts cannot and giving courage and fortitude; it may be pleased or displeased with its possessor and may be operative or inoperative at its own pleasure, may be invoked by ceremony or prayer, and can be imparted to no other person or thing. Most gods can emit their potencies, and an emitted potency can be put into a material thing by a shaman with a proper ceremony correctly performed. A potency so imparted is operative only when it is wrapped and hidden; wrapping, material and potency together make a wasicun, which the corpus renders as fetish."@en ;
+    skos:note "A man may choose further potencies during his life, and the corpus says an evil man cannot secure a good one but may secure an evil one. The shaman who prepares a fetish devises a formula that must be repeated to invoke its powers."@en ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmc:TummoYieldsInnerHeat a pm:Yielding ;
     rdfs:label "Tummo bringt innere Hitze hervor"@de,
         "Tummo yields inner heat"@en ;
@@ -7231,6 +7535,14 @@ pmc:Watchfulness a pm:Conceptualizing ;
         "Philokalia I, Hesychios of Sinai, On Watchfulness and Holiness" ;
     skos:definition "The guarding of the heart and the attention to what arises in it, treated as the groundwork on which the prayer of the heart is built."@en ;
     pm:withinTradition pmt:Hesychasm .
+
+pmc:Wowihanble a pm:Conceptualizing ;
+    rdfs:label "Wowihanble, eine empfangene Mitteilung"@de,
+        "Wowihanble, a communication received"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 68 and p. 156" ;
+    skos:definition "What the corpus calls a supernatural communication and the English of the recorders calls a vision: a thing seen or heard, waking or asleep, in the form of anything that breathes or of something inanimate, which makes known by what it says or does that it is the thing sought. It may speak intelligibly, or in words the receiver does not understand, or in the language of birds and beasts."@en ;
+    skos:note "The term is printed in the corpus as Wowihanble and the seeking as hanblapi. The digitised copies read from render the second word with an initial th, which is a known confusion of the scanning and not a variant of the print; the identifier follows the reading hanblapi. A check against a printed copy is held as an issue."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:XeperAsSelfGeneration a pm:Originating ;
     rdfs:label "Xeper als das Wort der Selbsthervorbringung"@de,
@@ -7308,6 +7620,11 @@ pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
         "Counter-search found opposition"@en ;
     skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
+
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pm:notByEffort a pm:AwarenessValue,
         pm:StateAcquisition ;
@@ -7649,6 +7966,18 @@ pmp:RunicDrumConsultation a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmp:WiwanyangWacipi a pm:Practicing ;
+    rdfs:label "Wiwanyang wacipi, der Sonnenschautanz"@de,
+        "Wiwanyang wacipi, the sun-gazing dance"@en ;
+    dcterms:source "Frances Densmore, Teton Sioux Music (Bureau of American Ethnology Bulletin 61, Washington, 1918), pp. 88-90 and pp. 98-99",
+        "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 60-62 and pp. 92-93 and pp. 116-120" ;
+    skos:definition "A ceremony in four graded forms, undertaken to fulfil a vow, to secure supernatural aid for another, to secure it for oneself, or to gain supernatural powers for oneself; the fourth purpose requires the fourth form. The candidate takes a mentor, is vitalized, seeks a communication, is consecrated with his tipi and implements, keeps eight rules until the dance begins, fasts and takes no drink from the beginning of his last day in the sacred lodge, and dances gazing at the sun and sounding a whistle while bound by thongs passed through wounds cut in his flesh, until he tears himself free. The forms differ only in the wounds and in what the thongs are made fast to: nothing, buffalo skulls, four stakes, or the sacred pole, with or without the dancer's feet leaving the ground."@en ;
+    skos:note "The corpus distinguishes the ceremony from the dance and calls the dance the culminating rite of it. The whole is timed by four signs read off the world and not by a count of days: when the buffalo are fat, when new sprouts of sage are a span long, when the chokecherries are ripening, and when the moon is rising as the sun is going down. The second witness gives the time as the full moon of midsummer, when the trees are in full leaf, the June berries are ripe and the wild sage is fully grown."@en,
+        "The second witness names the men who danced and how often, with the counts they gave: one who acted as intercessor four times and danced four times, once suspended; one who received a hundred cuts on his arms at twenty-four; one who danced four times at twenty-one, twenty-three, twenty-four and twenty-five, with about twenty of the last hundred cuts made on the chest for want of room on the arms. Counts of this kind are rare in this graph and are recorded because they are what a later reader can weigh."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
+    pm:withinTradition pmt:LakotaRitual .
+
 pmt:EleusinianMysteries a pm:Tradition ;
     rdfs:label "Eleusinische Mysterien"@de,
         "Eleusinian mysteries"@en ;
@@ -7918,12 +8247,6 @@ pm:ExaminationState a owl:Class,
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -7954,6 +8277,12 @@ pmt:ZuniRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteAbsent ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pm:TelicOrientation a owl:Class,
         pm:Scale ;
@@ -8054,6 +8383,11 @@ pmt:Spiritism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums; Kardec, L'Évangile selon le spiritisme; Kardec, La Genèse; the Revue Spirite, 1858-1869" .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
@@ -8082,11 +8416,6 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
-
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
@@ -8221,12 +8550,15 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -8261,6 +8593,13 @@ pmt:SamiNoaidi a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
@@ -8377,11 +8716,6 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pmt:SiberianShamanism a pm:Tradition ;
     rdfs:label "Sibirische Schamanenüberlieferung"@de,
         "Siberian shamanic transmission"@en ;
@@ -8395,12 +8729,24 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
+pmt:LakotaRitual a pm:Tradition ;
+    rdfs:label "Lakota-Ritualüberlieferung"@de,
+        "Lakota ritual transmission"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), pp. 55-59" ;
+    skos:definition "The Lakota transmission of a vitalizing lodge that precedes every other rite, of a solitary fasting quest undertaken for a communication, of a graded sun-gazing ceremony whose completion is said to be answered within a stated term, and of small stones held to be sent out and to bring back word of what lies beyond sight."@en ;
+    skos:note "A second witness was opened for the counter-search and is cited wherever it carries something: the bulletin of nineteen eighteen, recorded on the Standing Rock reservation from named men who had themselves danced. It is a different recorder, a different reservation and a partly different division of the tribe, and on one point it contradicts the first witness outright. Read in it at the wording: the Sun dance chapter, printed pages eighty-four to one hundred and fifty-one, the chapter on the sacred stones, printed pages two hundred and four to two hundred and eleven, and the account of Goose on printed pages two hundred and fifty-one and two hundred and fifty-two. The remainder, which is mostly musical analysis, was not read."@en,
+        "Chosen from the registry on the testability entrance rather than on demand. This transmission states a term within which the promised communication is to arrive, provides in as many words for the case in which the quest yields nothing, hangs the validity of its greatest ceremony on a sign in the weather, decides a contested declaration by an ordeal with a named outcome, and names the cause to which a failure of its instrument is attributed. Little else in this graph carries a deadline and a stated non-occurrence side by side."@en,
+        "Read in this run at the wording: the paper of nineteen seventeen in its expository part in full, printed pages fifty-one to one hundred and sixty-three, that is the Sun dance from the choosing of the mentor to the completion of the ceremony, the Hunka ceremony, the Buffalo ceremony, and the translated texts of Sword, Tyon, No-flesh and One-star together with the interview with Finger; and printed pages two hundred and seventeen to two hundred and nineteen, the two legends of the origin of the Buffalo ceremony. Left unread at the wording: the narratives on printed pages one hundred and sixty-four to two hundred and sixteen, which were passed over with a search for the four owed kinds and yielded none that the expository part does not already carry. That is a decision and not an exhaustion, and it is recorded so that a later reader can overturn it."@en,
+        "The contact route is entered as documented and no longer as absent, and the correction is the finding of this run. It is documented three times over and each time from inside the corpus. The compiler of the paper of nineteen seventeen states that Wakan Tanka, two words in the old speech designating a class of gods, has become one word in modern Lakota designating the God of the Christians, so the central term of the doctrine was already contaminated when it was written down. His chief informant wrote an autobiography saying that in war with the white people he found their Wakan Tanka superior, that he took the name Sword, joined the church and is a deacon in it. And the editor of the volume identifies the Hunka ceremony with the Pawnee Hako and notes that the Lakota year name which dates its present form corresponds to eighteen hundred and five and turns on the tail of a horse, so that the ceremony took that form after the horse. The route is single-valued and the value entered is the one that governs the doctrinal nodes; that the informants of the second witness on the sacred stones were medicine men on whom the missionaries had made no impression is recorded on those nodes and does not change it."@en,
+        "The recorder problem is stated here rather than left in the sources. The compiler writes that no one shaman was found who could give the mythology in a comprehensive or sequential manner, that the scheme was formulated with their aid, and that it was afterwards submitted to the informants for approval. A scheme formulated by the recorder and approved afterwards is an ordering act and not a transmitted doctrine, and it is entered below as one. The lodge, the quest, the ceremony, the ordeal and the stones carry their own passages and are untouched by it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
@@ -8408,6 +8754,13 @@ pm:Cautioning a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
@@ -8460,15 +8813,15 @@ pm:Practicing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An operative procedure enacted within a tradition."@en .
 
-pm:contactRouteDocumented a pm:ContactRoute ;
-    rdfs:label "Kontaktweg belegt"@de,
-        "Contact route documented"@en ;
-    skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
-
 pm:corpusNamed a pm:CoverageState ;
     rdfs:label "Korpus benannt"@de,
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
+pm:contactRouteDocumented a pm:ContactRoute ;
+    rdfs:label "Kontaktweg belegt"@de,
+        "Contact route documented"@en ;
+    skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
