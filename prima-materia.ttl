@@ -234,6 +234,15 @@ pmc:ArsNotoriaPresupposesSolitudo a pm:Presupposing ;
     pm:priorStep pmc:ArsNotoriaSolitudo ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmc:ArsNotoriaRepetitioYieldsGradatio a pm:Yielding ;
+    rdfs:label "Die wiederholte Oration bringt Beredsamkeit nach Maß hervor"@de,
+        "The repeated oration yields eloquence by measure"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ArsNotoriaOratioRepetita ;
+    pm:withinTradition pmt:ArsNotoria ;
+    pm:yieldsCapacity pmc:ArsNotoriaGradatioFacundiae .
+
 pmc:ArsNotoriaSecretumKautel a pm:Cautioning ;
     rdfs:label "Das unentschuldbare Verbot der Weitergabe"@de,
         "The inexcusable prohibition on passing it on"@en ;
@@ -242,6 +251,26 @@ pmc:ArsNotoriaSecretumKautel a pm:Cautioning ;
     skos:note "This is the gate the project's criterion is directed at, stated by the transmission in its own words and attributed to an angel so that no holder can lift it. It stands here as a claim of the tradition and not as an instruction; the text it guards has been in print since sixteen fifty-seven."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaTerminusMortisDisputatus a pm:Disputing ;
+    rdfs:label "Ob der Tod auf den folgenden Tag oder nur auf bald gesetzt ist"@de,
+        "Whether the death is set for the morrow or only soon"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30a, p. 25, ed. Peterson",
+        "Ars notoria, the Latin of the Beringos printing appended to the Agrippa Opera, § 30a, printed beside the translation in the edition of Peterson" ;
+    skos:note "Held as a dispute and not resolved. Resolving it would need the medieval recensions, which were not opened; that the two readings stand side by side in one edition is a reason to record the divergence, not to prefer either."@en,
+        "The Latin of the printing Turner worked from says of the sick man who answers badly that he is proculdubio in proximo moriturum, that is that he will die shortly, with no day named. Turner's English says: then doubtless conclude, He will dye on the morrow. Both stand in the edition read, on facing sides of the same passage."@en,
+        "The difference falls on the only part of the claim that could be missed. A death that must come tomorrow can be watched for and can fail to arrive; a death that will come shortly has no last day, and no outcome ever refutes it. The English is therefore the examinable version and the Latin is not, and a protocol has to say which of the two it tests."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:ArsNotoriaInterrogatioAegroti ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaVirtusNonExNatura a pm:Conceptualizing ;
+    rdfs:label "Das Wunder geht nicht aus deiner eigenen Natur hervor"@de,
+        "The miracle proceeds not from your own nature"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
+    skos:definition "The statement the text makes about its own procedure: that this miracle proceeds not from the operator's nature but from the nature and virtues of the holy angels, it being a part of their office wonderfully to reveal these things to him."@en ;
+    skos:note "A transmission that says outright where it locates the acting is uncommon, and this one says it in the middle of an instruction rather than in a prologue. It is why the placement on the agency axis beside this file rests on the wording and not on a reading of it."@en ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:AscentPresupposesTheRungs a pm:Presupposing ;
@@ -3029,6 +3058,14 @@ pmc:SitaliYieldsCooling a pm:Yielding ;
     pm:withinTradition pmt:Hathayoga ;
     pm:yieldsCapacity pmc:CoolingAndQuenching .
 
+pmc:SituatingArsNotoriaPrognosisAgency a pm:Situating ;
+    rdfs:label "Die Prognose wird bei abgetretener Handlung verortet"@de,
+        "The prognosis is placed at ceded agency"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:cededAgency ;
+    pm:situatedNode pmc:ArsNotoriaOratioYieldsCognitioAegritudinis ;
+    pm:situationGround "The text states the coordinate itself rather than describing a condition from which it has to be inferred: know that this miracle proceeds not from your own nature, but from the nature and virtues of the holy angels, it being a part of their office to reveal these things to you. The operator says the words and asks the question; what is said to act is named as someone else." .
+
 pmc:SituatingEthiopianAsmatAgency a pm:Situating ;
     rdfs:label "Der Schutz der Namen wird bei abgetretener Handlung verortet"@de,
         "The protection of the names is placed at ceded agency"@en ;
@@ -4384,6 +4421,35 @@ pmp:AndeanDreamDivination a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
 
+pmp:ArsNotoriaPrognosisExamination a pm:Testing ;
+    rdfs:label "Ob die Antwort des Kranken entscheidet, was die Kunst sagt"@de,
+        "Whether the answer of the sick man decides what the art says it decides"@en ;
+    skos:definition "A protocol on the claim that after the oration of the physical art is said three times, the sick man's answer to the question how he feels tells without doubt whether he will recover or die."@en ;
+    skos:note "One escape the corpus takes elsewhere is absent here. The art bars the man impeded by crime from saying the orations at all, and that condition is recorded as a caution; nothing in this passage says that a wrong prognosis shows the speaker was unworthy. Whether a fuller recension closes that gap is unread and would change the state of this protocol rather than its subject."@en,
+        "The obstacle to cases is not the difficulty of the procedure but who would keep the record. The judgement has to be written before the outcome and by someone who is not the person nursing the patient; the corpus offers no such series, and none has been looked for outside this graph."@en,
+        "The third branch is excluded from the falsifying condition on purpose. A patient who says he does not know is covered by dying and by getting worse together, and no fate he can meet falls outside that pair. Testing the rule as a whole would let that branch absorb every case the other two got wrong, which is exactly how a claim that says nothing comes to look confirmed."@en,
+        "Which reading is being tested has to be said, and this protocol tests the English. The Latin of the same printing says of the badly answering patient only that he will die shortly; Turner says he will die on the morrow. Shortly has no last day and therefore no outcome that could arrive too late, so the Latin branch is not examinable at all. The divergence stands as pmc:ArsNotoriaTerminusMortisDisputatus and it is the reason this protocol names its witness rather than the tradition."@en ;
+    pm:baseRate "Unknown and not a single number: whether a person who lies languishing recovers depends on the illness, and the rule is stated for illness in general. Any protocol has to fix the population before it starts, because a rule applied to a ward of the nearly recovered and a rule applied to a ward of the dying score differently without either being right." ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passages recorded in traditions/ars-notoria.ttl" ;
+    pm:falsifiedBy "One sick person who answers that he is at good ease or begins to mend and then dies of that illness, or who answers that he is grievously ill or worse and worse and then recovers, with the answer and the judgement written down before the outcome. The first two branches each name one outcome and exclude the other, and the text says without doubt and doubtless, so a single such case refutes the rule as stated." ;
+    pm:protocolUpdated "2026-09-07" ;
+    pm:tests pmc:ArsNotoriaOratioYieldsCognitioAegritudinis .
+
+pmp:ArsNotoriaSexPredictionExamination a pm:Testing ;
+    rdfs:label "Ob die Oration das Geschlecht des ungeborenen Kindes offenbart"@de,
+        "Whether the oration reveals the sex of the unborn child"@en ;
+    skos:definition "A protocol on the claim that saying the oration while touching the pulse of a pregnant woman reveals whether she will bring forth a male or a female. It is the claim in this corpus that comes closest to being ready for a count: a binary outcome, a known base rate, a public result, and a prediction that can be fixed in writing beforehand."@en ;
+    skos:note "No case has been collected, and the obstacle here is not the record but the era: the claim is from a work in print since sixteen fifty-seven and nobody appears to have counted. That is a property of the attention the claim has had and not of the claim, which is why the state is procedure-without-cases."@en,
+        "The passage that carries this claim also carries the sentence that would explain a failure away, and it explains it away in the wrong direction: the miracle proceeds not from the operator's nature but from the angels, whose office it is to reveal these things. That locates the acting elsewhere but sets no condition on the operator, so it does not absorb a wrong answer. Nothing in the passage does."@en,
+        "What a protocol would have to guard against is not the operator's honesty but the moment of prediction. Touching the pulse puts the operator in front of the woman, and a prediction made late in a pregnancy by someone who can see her is not a prediction from the oration. The prediction has to be sealed and the point in the pregnancy fixed, or the protocol measures ordinary observation."@en ;
+    pm:baseRate "About one half. The sex ratio at birth in human populations runs a little above parity for males, so an operator predicting at random scores close to fifty in a hundred, and a series has to be long enough to distinguish a real excess from that. This is the only claim the run met whose base rate is known in advance rather than having to be estimated from the same data that test the claim." ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passage recorded in traditions/ars-notoria.ttl" ;
+    pm:falsifiedBy "A series of predictions recorded before each birth, by an operator keeping the conditions the text sets, whose proportion correct does not exceed what guessing would give on the same series. The claim is stated without degree and without exception, so a single wrong prediction refutes it as it stands; the weaker form, that the operator does better than chance, is what a series would actually settle, and it is stated here because the strong form is the one the text makes and the weak form is the one worth measuring." ;
+    pm:protocolUpdated "2026-09-07" ;
+    pm:tests pmc:ArsNotoriaOratioYieldsSexusInfantis .
+
 pmp:BinaryPredatesItsReportersExamination a pm:Testing ;
     rdfs:label "Ob die Zweiteilung älter ist als ihre Berichterstatter"@de,
         "Whether the two-way division is older than the reports of it"@en ;
@@ -5704,6 +5770,31 @@ pmc:Armaros a pm:Naming ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
 
+pmc:ArsNotoriaCognitioAegritudinis a pm:Conceptualizing ;
+    rdfs:label "Vollkommene Kenntnis, ob eine Krankheit zum Tod oder zum Leben führt"@de,
+        "Perfect knowledge whether a disease tends to death or life"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), §§ 26, 30a-30b, pp. 24-25, ed. Peterson" ;
+    skos:definition "The capacity claimed for the oration of the physical art: to have the perfect knowledge of any disease, whether the same tend to death or to life, including for a sick person who is far off and named only, and for one who dissembles and hides his infirmity."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaGradatioFacundiae a pm:Conceptualizing ;
+    rdfs:label "Nach der Zahl der Wiederholungen zugemessene Beredsamkeit"@de,
+        "Eloquence measured out by the count of repetitions"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
+    skos:definition "The graded effect the text attaches to the number of repetitions: said once by a man troubled or involved in a great business, eloquence shall be added to him as much as is needed; said twice, great eloquence shall be given to him; said three times by a man who desires to be made eloquent, he shall be made eloquent."@en ;
+    skos:note "A dose and its effect, which the corpus this graph holds gives almost nowhere else. The interest is not the promise but the monotony: more of the same act is said to produce more of the same effect, and a monotony can be examined without the underlying claim being settled first."@en,
+        "The order in the passage does not rise. Three times stands for the man who wishes to become eloquent, once and twice for the man under pressure, so the text may be setting out three separate applications rather than one scale. Which of the two it is decides whether there is a dose-response claim here at all, and the passage read does not decide it; the Latin beside it is no clearer."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
+pmc:ArsNotoriaInterrogatioAegroti a pm:Conceptualizing ;
+    rdfs:label "Die Entscheidungsregel an der Antwort des Kranken"@de,
+        "The rule of decision on the sick man's answer"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30a, pp. 24-25, ed. Peterson" ;
+    skos:definition "The rule the text lays down for reading the answer: if he says he is at good ease or begins to mend, judge without doubt that he shall recover; if he says he is grievously ill or worse and worse, conclude that he will die; if he says he does not know whether he is better or worse, he will either die or the disease will change for the worse. Where the sick man is a child too young to answer, or too ill to answer, the oration is said three times and what first arises in the speaker's mind is the judgement."@en ;
+    skos:note "The fallback for the silent patient moves the sign from the sick man to the speaker, and with it the whole character of the procedure: what is read is then the operator's own first thought and not anything the patient did."@en,
+        "Three answers, and only two of them decide. The third covers dying and getting worse together, so no fate the sick man can meet falls outside it, and that branch alone cannot fail. The first two are not like that: each names one outcome and excludes the other."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
 pmc:ArsNotoriaLunationes a pm:Conceptualizing ;
     rdfs:label "Die Mondtage, an denen die Orationen gesprochen werden"@de,
         "The days of the moon on which the orations are said"@en ;
@@ -5721,12 +5812,30 @@ pmc:ArsNotoriaOratioYieldsFacundia a pm:Yielding ;
     pm:withinTradition pmt:ArsNotoria ;
     pm:yieldsCapacity pmc:ArsNotoriaFacundia .
 
+pmc:ArsNotoriaOratioYieldsSexusInfantis a pm:Yielding ;
+    rdfs:label "Die Oration offenbart das Geschlecht des ungeborenen Kindes"@de,
+        "The oration reveals the sex of the unborn child"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ArsNotoriaOratioPhysicae ;
+    pm:withinTradition pmt:ArsNotoria ;
+    pm:yieldsCapacity pmc:ArsNotoriaSexusInfantis .
+
+pmc:ArsNotoriaSexusInfantis a pm:Conceptualizing ;
+    rdfs:label "Das Geschlecht des ungeborenen Kindes am Puls"@de,
+        "The sex of the unborn child at the pulse"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
+    skos:definition "The claim that if the same oration is said while touching the pulse of a woman with child, it shall be revealed whether she shall bring forth a male or a female."@en ;
+    skos:note "The most examinable claim the run found in this corpus, and it is examinable for a reason that has nothing to do with how strongly it is asserted: the outcome is binary, its base rate is known and close to even, it becomes public within months, and the prediction can be recorded before it does. Nothing in the passage makes the result depend on the operator's worthiness."@en ;
+    pm:withinTradition pmt:ArsNotoria .
+
 pmc:ArsNotoriaSolitudo a pm:Conceptualizing ;
     rdfs:label "Allein, und kaum sich selbst hörbar"@de,
         "Alone, and scarcely audible to himself"@en ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), p. 14, ed. Peterson" ;
     skos:definition "The condition that the oration be spoken secretly, that the speaker be alone, and that he pronounce it with so low a voice that he scarcely hears himself; with fasting on the first day of the rehearsal and a chaste and devout life."@en ;
-    skos:note "The condition is on the manner of speaking and not on the words. It is the counterpart of the exactness demands the graph holds elsewhere: there the wording carries the effect, here it is the inaudibility that is prescribed, and the two are not the same requirement."@en ;
+    skos:note "It is also not the same requirement as the one it most resembles in this graph. The European folk-magic condition recorded at pmc:EuropeanFolkMagicUnbeschrauen forbids the act to be called at and spoken of, that is it regulates what other people say about it; this one regulates how loudly the operator says the words himself. One shields the act from other voices, the other shields the voice from other ears, and a correspondence between them would be built out of the single word silence. Held apart here rather than joined, which settles the second question of prima-materia#530 in the negative; whether either has a counterpart outside the European sphere is unsearched."@en,
+        "The condition is on the manner of speaking and not on the words. It is the counterpart of the exactness demands the graph holds elsewhere: there the wording carries the effect, here it is the inaudibility that is prescribed, and the two are not the same requirement."@en ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:AscentThroughEachCentre a pm:Conceptualizing ;
@@ -6982,6 +7091,14 @@ pmp:Ailolo a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:HawaiianRitual .
 
+pmp:ArsNotoriaOratioRepetita a pm:Practicing ;
+    rdfs:label "Die ein-, zwei- oder dreimal wiederholte Oration"@de,
+        "The oration repeated once, twice or three times"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
+    skos:definition "Pronouncing the oration on any day on which the speaker is not hindered by a criminal sin, with confession of heart and mouth preceding and early in the morning: three times if he desires to be made eloquent, once if an evil thing troubles him or he is involved in some great business, twice for the greater measure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:ArsNotoria .
+
 pmp:BabalawoPupilage a pm:Practicing ;
     rdfs:label "Die Lehrzeit des Anwärters auf das Amt des Babalawo"@de,
         "The pupilage of a candidate for the office of babalawo"@en ;
@@ -7425,6 +7542,16 @@ pmc:Apatheia a pm:Conceptualizing ;
     skos:definition "Freedom from the disturbance of the passions, called the flower of ascetic labour."@en ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:ArsNotoriaOratioYieldsCognitioAegritudinis a pm:Yielding ;
+    rdfs:label "Die Oration der Heilkunst bringt die Kenntnis von Tod oder Leben hervor"@de,
+        "The oration of the physical art yields the knowledge of death or life"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), §§ 26-30a, pp. 24-25, ed. Peterson" ;
+    skos:note "This is the shortest way in the witness from an act to an outcome a third party can check. The outcome is binary, it arrives in days, it is recorded anyway, and the judgement can be written down before it arrives. The claim the tradition is known for, the sciences within a month, needs a measuring instrument that has first to be chosen; this one needs none."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ArsNotoriaOratioPhysicae ;
+    pm:withinTradition pmt:ArsNotoria ;
+    pm:yieldsCapacity pmc:ArsNotoriaCognitioAegritudinis .
+
 pmc:Asana a pm:Conceptualizing ;
     rdfs:label "Sitzhaltung"@de,
         "Posture"@en ;
@@ -7861,6 +7988,15 @@ pm:sleepThreshold a pm:AwarenessValue,
         "Sleep threshold"@en ;
     skos:definition "The passage between waking and sleeping in either direction, in which the sensory channel is partly detached and the body may already be immobile while awareness continues."@en ;
     skos:note "Set this where the source describes the condition rather than the clock: sleep departing and waking beginning, an inability to move, a luminosity at the moment of falling asleep. The holdings already carry the finding that this state is well attested as a place of reception and not as a place where a faculty is exercised; see convergences/threshold-of-sleep.ttl."@en .
+
+pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
+    rdfs:label "Die Oration der Heilkunst, vor dem Kranken gesprochen"@de,
+        "The oration of the physical art said before the sick"@en ;
+    dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), §§ 26-30a, pp. 24-25, ed. Peterson" ;
+    skos:definition "Standing before a sick person who lies languishing and saying the oration of the physical art three times with great reverence, and then asking him how he feels himself."@en ;
+    skos:note "The asking is part of the procedure and not an afterthought. Without it the oration yields nothing that could be read, and with it the reading is fixed in advance: the text sets out the answers and what each of them decides."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:ArsNotoria .
 
 pmp:ConfessionBeforeTheIchuri a pm:Practicing ;
     rdfs:label "Die Beichte während des Fastens"@de,
@@ -8395,13 +8531,6 @@ pm:MethodOrientation a owl:Class,
         "Three cases, and they must not read alike. Absence of pm:methodOrientation on a node means nobody has put the question to the source. pm:methodNotStated means somebody has, and the source does not answer it. pm:normDistinctionDeclined means the source answers by rejecting the distinction, which is a positive claim and carries the same burden as any other. None of the three is the middle value; there is no middle value."@en ;
     pm:scaleFamily pm:subjectAxis .
 
-pm:cededAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Abgetretene Trägerschaft"@de,
-        "Ceded agency"@en ;
-    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
-    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
-
 pm:displacedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Verlagert"@de,
@@ -8479,6 +8608,13 @@ pm:ExaminationState a owl:Class,
     skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en ;
     pm:scaleFamily pm:recordScale .
+
+pm:cededAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Abgetretene Trägerschaft"@de,
+        "Ceded agency"@en ;
+    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
+    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -8650,17 +8786,6 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
 
-pmt:ArsNotoria a pm:Tradition ;
-    rdfs:label "Ars Notoria"@de,
-        "Ars Notoria"@en ;
-    dcterms:source "Ars Notoria: The Notory Art of Solomon, trans. Robert Turner (London: J. Cottrel, 1657), in the digital edition of Joseph H. Peterson" ;
-    skos:definition "The transmission of a set of orations, said on prescribed days of the moon and at prescribed hours, held to confer the liberal arts, eloquence, memory and understanding within a stated term, and bound to conditions of solitude, silence, fasting and freedom from crime."@en ;
-    skos:note "Read for the first time in Robert Turner's English translation, London 1657, in the digital edition of Joseph H. Peterson, which carries the printed pagination and the Latin of the Agrippa text beside it; the wording of every passage cited here was additionally checked against the optical text of the 1657 printing itself. Liber Juratus Honorii was not opened, and neither was the critical Latin edition of Véronèse."@en,
-        "The version read is incomplete in a way that bears on every claim in this file. Both Turner's translation and the Latin of the Agrippa printing omit the notae, the figures which the text itself calls the centre of the art; the orations are given and the drawings they accompany are not. What was read is therefore the verbal half of a procedure whose other half is missing, and no claim entered here can be carried out from this witness alone."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
-
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -8827,13 +8952,6 @@ pmt:SamiNoaidi a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
         "Originating"@en ;
@@ -8853,6 +8971,13 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:MayaRitual a pm:Tradition ;
     rdfs:label "Maya-Ritualüberlieferung"@de,
@@ -8894,6 +9019,17 @@ pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
+
+pmt:ArsNotoria a pm:Tradition ;
+    rdfs:label "Ars Notoria"@de,
+        "Ars Notoria"@en ;
+    dcterms:source "Ars Notoria: The Notory Art of Solomon, trans. Robert Turner (London: J. Cottrel, 1657), in the digital edition of Joseph H. Peterson" ;
+    skos:definition "The transmission of a set of orations, said on prescribed days of the moon and at prescribed hours, held to confer the liberal arts, eloquence, memory and understanding within a stated term, and bound to conditions of solitude, silence, fasting and freedom from crime."@en ;
+    skos:note "Read for the first time in Robert Turner's English translation, London 1657, in the digital edition of Joseph H. Peterson, which carries the printed pagination and the Latin of the Agrippa text beside it; the wording of every passage cited here was additionally checked against the optical text of the 1657 printing itself. Liber Juratus Honorii was not opened, and neither was the critical Latin edition of Véronèse."@en,
+        "The version read is incomplete in a way that bears on every claim in this file. Both Turner's translation and the Latin of the Agrippa printing omit the notae, the figures which the text itself calls the centre of the art; the orations are given and the drawings they accompany are not. What was read is therefore the verbal half of a procedure whose other half is missing, and no claim entered here can be carried out from this witness alone."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -8969,11 +9105,6 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pmt:LakotaRitual a pm:Tradition ;
     rdfs:label "Lakota-Ritualüberlieferung"@de,
         "Lakota ritual transmission"@en ;
@@ -8987,6 +9118,11 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
@@ -9024,13 +9160,6 @@ pm:Situating a owl:Class ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
@@ -9038,6 +9167,13 @@ pmt:Enochic a pm:Tradition ;
     skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
