@@ -113,6 +113,15 @@ pmc:AhwalAreTransient a pm:Situating ;
     pm:situatedNode pmc:Ahwal ;
     pm:situationGround "The same passage has them pass as well as descend, and the two are separate claims: a gift may be kept. The Sufi material answers both questions the same way, which is why one axis sufficed until a tradition answered them differently."@en .
 
+pmc:AmuletFailureIsAlwaysExcused a pm:Conceptualizing ;
+    rdfs:label "Für ein versagendes Amulett findet sich immer eine Ausrede"@de,
+        "A failed amulet is never at a loss for an excuse"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 92" ;
+    skos:definition "The witness states the failure case in its sharpest form and reports the response as a rule: if the amulet fails to defend the wearer from the one danger it was made to avert, so that an amulet consecrated to the fire god fails to protect its wearer from a disaster by fire, they are never at a loss for some excuse to account for its inefficacy."@en ;
+    skos:note "It is also the recorder's summary rather than a quoted informant, and it is entered as such. What would settle it is a named excuse in a named case, and none was found in the works opened."@en,
+        "The passage names the response and not its content, so the graph can hold the shape of the move and not the move itself. That is worth having, because it is the third transmission in this holding of which the same shape is recorded: the Kongo corpus assigns a failed object to neglect or exhaustion, the Lakota corpus assigns a stone that will not obey to the owner's divided faith, and here the excuse is reported without being specified."@en ;
+    pm:withinTradition pmt:Vodun .
+
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
         "Mindfulness of breathing yields rapture"@en ;
@@ -1266,6 +1275,40 @@ pmc:EzeqeelTeachesKnowledgeOfClouds a pm:Attributing ;
     pm:ascribedTo pmc:Ezeqeel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:FaCameFromTheYoruba a pm:Conceptualizing ;
+    rdfs:label "Das Orakel soll von den Yoruba stammen"@de,
+        "The oracle is said to have come from the Yoruba"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 97",
+        "Richard F. Burton, A Mission to Gelele, King of Dahome (2nd ed., London: Tinsley Brothers, 1864), vol. II, p. 143" ;
+    skos:definition "Two statements from two witnesses who did not work from one another. The first says that among the eastern Ewe tribes divination is always practised after the manner of Ife, the Yoruba god of divination, and elsewhere that those tribes have their notion of the passage of souls from their Yoruba-speaking neighbours. The second identifies the Fon practitioner of the oracle with the babalawo of the Egba, and reports that the figure names are the same."@en ;
+    skos:note "This is the node that carries the contact route of the file. It has a consequence for counting and not only for history: the graph already holds the Ifá casting in traditions/ifa.ttl, and an agreement between the two is the same statement twice, not two witnesses. Whether the chain runs further back, to the sand divination of the Arabic-speaking world, is asserted by one of the witnesses in a passage that lies in a volume this run could not reach, and is held as an issue."@en ;
+    pm:withinTradition pmt:Vodun .
+
+pmc:FaForeknowledgeProtocol a pm:Testing ;
+    rdfs:label "Protokoll: der angesagte Ausgang gegen das Ereignis"@de,
+        "Protocol: the announced outcome against the event"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), pp. 379-380" ;
+    skos:definition "A protocol against the claim that the casting of the nuts makes known the outcome of the business asked about."@en ;
+    skos:note "One case, and it is entered as one case and not as a rate. The king's complaint of 1871 names a prediction of an easy victory and a defeat, which is a deviation; what it does not supply is how many consultations he had, how many were borne out, or what the base rate of victory was for the campaigns of that reign. A single failure reported by an aggrieved client is evidence that the claim can fail and no evidence at all about how often."@en,
+        "The counter-search was carried inside the works opened and is recorded below. It found no case of a consultation whose outcome was reported as borne out; what it found instead is the remedy at pmp:VoSisa, which absorbs a bad prediction, and the observation that the oracle is the most lucrative branch of the priesthood. Both belong to the protocol rather than against it: the first says why cases are hard to count, the second says who has an interest in there being no count."@en ;
+    pm:caseCount 1 ;
+    pm:counterSearch pm:counterSearchFoundNothing ;
+    pm:counterSearchNote "Searched in the three works opened in this run for a reported consultation whose prediction was borne out, and for any reply to the king's complaint of 1871: Skertchly 1874 records the complaint and no vindicating case; Burton 1864, vol. II, records the remedy for an evil prediction and the saying that the oracle pays best, but no case; Ellis 1890 does not describe the procedure at all and refers the reader to his Yoruba volume. Nothing was found that reports a Fa prediction as confirmed by the event."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia compiler, from the wording of Skertchly 1874, pp. 379-380 and 474-476, with the search stated in the counter-search note" ;
+    pm:falsifiedBy "A consultation whose stated outcome is contradicted by the event, reported by the person who consulted."@en ;
+    pm:protocolUpdated "2026-09-08"^^xsd:date ;
+    pm:tests pmc:FaYieldsForeknowledge .
+
+pmc:FaVoidThrowRule a pm:Conceptualizing ;
+    rdfs:label "Ein Wurf, bei dem mehr als zwei Nüsse bleiben, ist ungültig"@de,
+        "A throw that leaves more than two nuts is void"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), p. 475" ;
+    skos:definition "The casting rule carries its own condition of nullity: if more than two nuts remain in the hand, the throw does not count and yields no mark."@en ;
+    skos:note "It also has an opposite side that belongs beside it. One or two nuts are dropped on purpose during the throw, so the number remaining is not left wholly to the cast; how much that leaves to the caster is not stated in the source and is not asserted here."@en,
+        "The only stated void condition found in this run in the travellers' literature on the oracle, and the reason this transmission was worth opening before others in the registry. A procedure that can produce a non-answer is not the same as one whose every outcome is an answer, and the difference is exactly what makes a count possible: the admissible answers can be fixed before the consultation."@en ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:FabricationRatherThanMisreport a pm:Conceptualizing ;
     rdfs:label "Die Lüge ist eine erfundene Befragung, nie eine falsch berichtete"@de,
@@ -3489,6 +3532,15 @@ pmc:TheFirstMenstrualBundle a pm:Conceptualizing ;
         "The last clause is the reason this node is in the file. The corpus does not leave the claim as a doctrine: it names the evidence it rests on, in the form see young men with pimply faces and many coyotes without hair. That is an appeal to a distribution in the world, made by the transmission itself, and it is the only one of its kind found in this run. It is also plainly checkable and plainly weak, and both belong in the record."@en ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmc:TheKingSaysTheDivinersLied a pm:Conceptualizing ;
+    rdfs:label "Der König sagt öffentlich, die Wahrsager hätten ihn belogen"@de,
+        "The king says publicly that the diviners lied to him"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), pp. 379-380" ;
+    skos:definition "At a named ceremony in 1871, before the assembled army and the priesthood, the king of Dahomey complained that his Muslims with their Arabic inscriptions and charms had deceived him, that his cult people made all sorts of mistakes, and that the diviners who cast lots to learn the will of the gods told him many lies. He set the complaint against what he had paid: he gave them everything in his power and everything they asked for, cowries, cattle, goats, slaves and wives, and still they did not tell him the truth. The instance he named is a war: the diviners told him he would go out and meet an easy victory, and he was beaten back and disgraced."@en ;
+    skos:note "The exit the king takes is the one this graph has now seen in three transmissions: the fault is put on the practitioners and not on the procedure. He says they lied, not that the casting does not answer. The Kongo corpus states the same division as a rule, that doubt of the practitioners costs nothing and doubt of the ordeal costs a life."@en,
+        "The most valuable single passage found in this run. It is a failure of the oracle reported by the client, in public, with the prediction, the outcome and the fee all named, and it was taken down by a European who was present and had no stake in the complaint."@en ;
+    pm:withinTradition pmt:Vodun .
+
 pmc:TheMissionEnteredTheNkisiCategory a pm:Conceptualizing ;
     rdfs:label "Die Mission trat in die Kategorie des geladenen Dings ein"@de,
         "The mission entered the category of the charged thing"@en ;
@@ -3498,6 +3550,15 @@ pmc:TheMissionEnteredTheNkisiCategory a pm:Conceptualizing ;
     skos:note "It also fixes the date. A term in liturgical use since the end of the fifteenth century cannot be treated as untouched in a corpus written down between eighteen eighty-seven and nineteen fourteen, and any agreement between this transmission and the Christian material this graph holds is reception until somebody shows otherwise."@en,
         "This is the node that carries the contact route of the whole file, and it is entered as a node rather than as a note on the tradition because a note would not survive a query. It shows the route in the direction that matters here: not that the mission borrowed a word, which would be a fact about the mission, but that the objects of the mission were classified by the transmission under its own category, which is a fact about the transmission."@en ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmc:TheOmenDischargedOnTheBird a pm:Conceptualizing ;
+    rdfs:label "Der Hahn wird getötet, damit das Vorzeichen an ihm selbst eintritt"@de,
+        "The cock is killed so that the omen falls on itself"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 96 and p. 98" ;
+    skos:definition "It is a bad omen for a cock to crow in the middle of the night, and the bird is immediately killed in order that the omen may be fulfilled at its own expense."@en ;
+    skos:note "A procedure for discharging a prediction on a substitute, and thereby the cleanest case in this file of a claim that cannot come out wrong: the bad thing foretold has happened, to the bird. The graph holds nothing else of this shape."@en,
+        "The witness draws his own conclusion two pages later, that to these people there is no such thing as an accident. That is his sentence and not the transmission's, and it is recorded here rather than entered as a claim."@en ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:TheOrdealGiverMustStandTheOtherOrdeals a pm:Conceptualizing ;
     rdfs:label "Der Betreiber muss die übrigen Proben selbst bestehen"@de,
@@ -3517,6 +3578,18 @@ pmc:TheOrderOfExitsForADisease a pm:Conceptualizing ;
     skos:note "A ranked therapeutics with a stated criterion, given by a named informant whose father was a medicine man. It is entered because a ranking of routes is a claim that can be wrong in a way that a list cannot."@en,
         "The second witness has the same rule from a different man on a different reservation, put as a regime rather than a ranking: the first thing a sick person should do is take a sweat bath so that the body will respond to remedies, then a lighter diet and rest, and no unnecessary exertion. He adds a limit that the first witness does not — that if the disease is not too far advanced the person usually recovers — and a caution that the sick person did not jump into cold water afterwards, as is sometimes stated, but was covered with furs and allowed to cool gradually."@en ;
     pm:withinTradition pmt:LakotaRitual .
+
+pmc:ThePythonProhibition a pm:Cautioning ;
+    rdfs:label "Das Töten einer Python, auch aus Versehen"@de,
+        "Killing a python, even by accident"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), pp. 57-59" ;
+    skos:definition "Among the tribes of this worship a native who kills a python of the sacred kind, even by accident, is by custom liable to be burned alive, and a European to be beheaded. A child who touches or is touched by one of the pythons must be kept a whole year in the seminaries of the god at the expense of its parents and taught the songs and dances of the worship; adults, and particularly women, were formerly liable in the same way, and the witness states that the scandals this produced and the decline of priestly power have let the practice fall into disuse."@en ;
+    skos:note "A named case is printed with it, from a French cleric on the coast: a young enslaved woman crushed a python under a door, the priests demanded her, her owner declined to pay the composition, and she and five men were shut in the hut. Four of the men had bribed the escort and were brought through the crowd unharmed with her; the fifth, who had not paid or could not, was beaten until he escaped into a cask in the lagoon. What the transmission prescribes and what it enforces are two different things, and the difference is measured here in bribes."@en,
+        "The penalty is the finding, because the source records it in the act of becoming a form. Fifty years before the writing a native was invariably burned to death; at the time of writing the appearance of the sentence is preserved and the culprit escapes with his life. A hut of dried grass is built, the man is thrust inside unbound and the hut is fired, so that he breaks out long before the flames reach him, and the worshippers waiting outside beat him with clubs until he has purified himself by reaching running water."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmc:DanhGbi ;
+    pm:fieldRecord "Spoken by Ewe and Fon informants at Whydah, unnamed, with one case taken from the published account of the Abbé Bouche and one from Des Marchais of 1731, both named by the recorder as he uses them; recorded by A. B. Ellis, colonial officer on the West African coast, published 1890; given in Ewe and Fon, of which the work prints the terms, the accounts in English." ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     rdfs:label "Der Fachmann wird bezahlt, und gut bezahlt"@de,
@@ -3895,6 +3968,14 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
     pm:independentAttestation pmt:Daoist,
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
+
+pmc:VoSesa a pm:Conceptualizing ;
+    rdfs:label "Vo-sesa, das gebundene Amulett"@de,
+        "Vo-sesa, the bound amulet"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), pp. 92-93" ;
+    skos:definition "An amulet belonging to a god, of which every god has his own kind. Its power is said not to rest on an indwelling spirit but on its consecration: it lets the god recognise and protect his own. Neither prayer nor sacrifice is offered to it. Only the priests of a god know how to make the amulets of that god, and they sell them at a high price. The word is derived from the verb to bind, which is used only of amulets, because the priest binds them on the person or the property of the buyer."@en ;
+    skos:note "The transmission attaches a public and checkable claim to these: crops standing in the bush and goods left for sale beside a frequented path are put under an amulet on a stick, with a few cowries on each article to show the price, and are said to be quite safe from pillage. Whether that held is a question about a distribution in the world, and it is the kind of claim this graph is short of."@en ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:WatchfulnessIsUnbound a pm:Situating ;
     rdfs:label "Die Wachsamkeit ist an keinen Zustand gebunden"@de,
@@ -4723,6 +4804,16 @@ pmp:CritiqueRigoureuse a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
 
+pmp:DivinationByThrownThings a pm:Practicing ;
+    rdfs:label "Wahrsagen durch geworfene Dinge"@de,
+        "Divination by things thrown on the ground"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 97" ;
+    skos:definition "The commoner form outside the oracle proper: short sticks a few inches long, pieces of knotted cord, or a handful of cowries or nuts are thrown on the ground and the answer is drawn from the position in which they fall. A less common mode is named beside it, in which a fowl or an animal is impaled and the answer drawn from how long it takes to die."@en ;
+    skos:note "The second mode is the reason for the node. An answer read off the time a creature takes to die is fixed to an outcome the operator does not steer, like the poison ordeal and the casting, but it is measured in duration rather than in a binary sign, and this graph holds no other case of that."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
+    pm:withinTradition pmt:Vodun .
+
 pmp:EthiopianSpokenNamesSpearExamination a pm:Testing ;
     rdfs:label "Ob die gesprochenen Namen einen Speer zurückwenden"@de,
         "Whether the spoken names turn a spear back"@en ;
@@ -4882,6 +4973,16 @@ pmp:NotoryArtOneMonthExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-05" ;
     pm:tests pmc:ArsNotoriaOratioYieldsFacundia .
 
+pmp:OrdealByOdumDecoction a pm:Practicing ;
+    rdfs:label "Das Ordal mit dem Sud aus Odum-Holz"@de,
+        "The ordeal by a decoction of odum wood"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 97" ;
+    skos:definition "Where human ingenuity fails to establish the truth of a charge, the decision is transferred to the gods. The commonest ordeal among these tribes is stated to be the drinking of a decoction of odum wood."@en ;
+    skos:note "Entered although the source gives no reading rule, because the absence is itself informative: the graph now holds a poison ordeal from the Lower Congo with twenty-seven doses and a stated verdict rule, and here the same institution is named in one sentence by a witness who describes much else in detail. What is missing is the rule, not the practice."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
+    pm:withinTradition pmt:Vodun .
+
 pmp:PostMortemForWitchcraftSubstance a pm:Practicing ;
     rdfs:label "Die Leichenschau auf die Hexereisubstanz"@de,
         "The post-mortem for witchcraft substance"@en ;
@@ -4974,6 +5075,16 @@ pmp:Ujjayi a pm:Practicing ;
     skos:definition "A retention in which the mouth is held closed and the breath is drawn through both nostrils so that it grazes the throat and sounds as it passes."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:VoSisa a pm:Practicing ;
+    rdfs:label "Vo-sisa, was bei schlechtem Spruch zu tun ist"@de,
+        "Vo-sisa, what is done when the oracle answers badly"@en ;
+    dcterms:source "Richard F. Burton, A Mission to Gelele, King of Dahome (2nd ed., London: Tinsley Brothers, 1864), vol. II, pp. 143-144" ;
+    skos:definition "When the oracle predicts evil the enquirer must perform the remedy. Ground is cleared near the house or in the bush, a mat is spread and a short thick peg driven through it, and the enquirer with his practitioner, who taps a small cymbal with an iron rod, pours on the wood first water and then the blood of a fowl. The body of the fowl falls to the practitioner. The witness states that there are many different forms of the remedy."@en ;
+    skos:note "The remedy is what turns a bad prediction into an action, and it is the point at which the oracle stops being falsifiable by the event: a predicted evil that does not occur is then the remedy working, and one that occurs is the prediction. The same witness reports the saying that the practitioner who is most cunning takes to the oracle, because it pays best."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by Fon informants and interpreters at Abomey, unnamed in this passage and following an order the recorder says his interpreters dictated; recorded by Richard F. Burton on the mission of 1863 to 1864; given in Fon, of which the work prints the terms, the account itself in English." ;
+    pm:withinTradition pmt:Vodun .
 
 pmp:Whakahokitu a pm:Practicing ;
     rdfs:label "Whakahokitu"@de,
@@ -5904,14 +6015,6 @@ pmt:VedicRitual a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
 
-pmt:Vodun a pm:Tradition ;
-    rdfs:label "Fon-Vodun-Überlieferung"@de,
-        "Fon vodun transmission"@en ;
-    skos:definition "The Fon transmission of vodun as powers received into a person, with an initiation understood as a death and a return under a new name."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey" .
-
 pmt:Waidan a pm:Tradition ;
     rdfs:label "Waidan, äußere Alchemie"@de,
         "Waidan external alchemy"@en ;
@@ -6176,6 +6279,14 @@ pmc:CourseOfTheMoon a pm:Conceptualizing ;
     skos:definition "Knowledge of the moon's path, the calendrical rather than divinatory form of lunar knowledge."@en ;
     pm:withinTradition pmt:Enochic .
 
+pmc:DanhGbi a pm:Conceptualizing ;
+    rdfs:label "Danh-gbi, die heilige Python"@de,
+        "Danh-gbi, the python held sacred"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), pp. 57-58" ;
+    skos:definition "A python of one particular kind, held to be a god and kept in a temple at Whydah with free exit through holes in the walls, so that the animals move about the town and the bush. They are carried back only when they have entered a profane place, such as the house of a European, and then by a priest who purifies himself by rubbing fresh green leaves between his palms and prostrates himself before the animal before taking it up. Every python of this kind is to be treated with veneration wherever met, and a man of Whydah who meets one in his path prostrates himself, rubs his forehead in the earth and addresses it as master, father and mother."@en ;
+    skos:note "Held apart from the boa said to be the messenger of the rainbow god, of which the same source states that only certain individuals are to be respected. The distinction matters for the prohibition on the neighbouring node: it applies to a kind and not to a single animal."@en ;
+    pm:withinTradition pmt:Vodun .
+
 pmc:DetectionOfTheNdoki a pm:Conceptualizing ;
     rdfs:label "Das Aufdecken des ndoki"@de,
         "The detection of the witch"@en ;
@@ -6401,6 +6512,17 @@ pmc:Ezeqeel a pm:Naming ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
 
+pmc:FaYieldsForeknowledge a pm:Yielding ;
+    rdfs:label "Der Wurf bringt die Antwort hervor"@de,
+        "Casting the nuts yields the answer"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), pp. 475-476" ;
+    skos:note "The same form of claim the graph holds from the Zande poison oracle, the Ifá casting and, since the Kongo file, the bark ordeal: the answer is read off an outcome the operator is said not to steer. Here the route to one of the others is documented and stated on the tradition instance, so this node may not be counted as a further independent witness for it."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:Fa ;
+    pm:fieldRecord "Spoken by Fon practitioners at Abomey and Whydah, unnamed in this passage; recorded by the naturalist J. A. Skertchly during his detention in Dahomey in 1871, published 1874; given in Fon, of which the work prints the figure names and a few terms, the account itself in English." ;
+    pm:withinTradition pmt:Vodun ;
+    pm:yieldsCapacity pmc:ForeknowledgeFromFa .
+
 pmc:FirstWeek a pm:Conceptualizing ;
     rdfs:label "Die erste Woche"@de,
         "The first week"@en ;
@@ -6414,6 +6536,14 @@ pmc:FiveHindrances a pm:Conceptualizing ;
     dcterms:source "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
     skos:definition "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt, whose abandoning the discourse describes immediately before entry into the first absorption."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:ForeknowledgeFromFa a pm:Conceptualizing ;
+    rdfs:label "Was Fa kundtun soll"@de,
+        "What Fa is said to make known"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), pp. 475-476",
+        "Richard F. Burton, A Mission to Gelele, King of Dahome (2nd ed., London: Tinsley Brothers, 1864), vol. II, p. 143" ;
+    skos:definition "Two things, according to the witnesses. Where a mother is cast, the day denoted by its symbol is the propitious day for the business asked about, and where a child is cast no day is more propitious than another; and the oracle is said to predict evil, in which case a prescribed remedy follows. Simple answers of yes and no are said to be obtainable by anybody, while more stands with the practitioner."@en ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:FourthDegreeYieldsThoughtReading a pm:Yielding ;
     rdfs:label "Der vierte Grad bringt das Gedankenlesen hervor"@de,
@@ -7295,22 +7425,12 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
         "Conjugal telos"@en ;
     skos:definition "The path claims that the bounded self is neither dissolved nor kept apart but carried into a union of two that preserves both parties to it, so that what is transformed persists as one side of a relation rather than as an absolute or as nothing."@en ;
     skos:note "Distinct from pm:separativeTelos for the same reason from the other side: what persists here is not its own absolute but a party to a bond, and it is transformed on the way rather than fortified."@en,
         "Distinct from pm:unitiveTelos, and the distinction is not verbal. A dissolution has one term at the end; a marriage has two. A record that files a bridal end state as unitive reports the disappearance of something the source keeps."@en .
-
-pm:counterSearchFoundNothing a pm:CounterSearchState ;
-    rdfs:label "Gegensuche ohne Fund"@de,
-        "Counter-search found nothing"@en ;
-    skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
 
 pm:dreamingWithin a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -7487,6 +7607,17 @@ pmp:EuropeanFolkMagicWachholderbusch a pm:Practicing ;
     skos:definition "Going before sunrise to a juniper bush, bending it towards the rising sun with the left hand while telling it that it will be bent and pressed until the thief has carried the stolen goods back, then laying a stone on the bush and the skull of a malefactor beneath stone and bush."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:EuropeanFolkMagic .
+
+pmp:Fa a pm:Practicing ;
+    rdfs:label "Fa, der Wurf der sechzehn Palmnüsse"@de,
+        "Fa, the casting of the sixteen palm nuts"@en ;
+    dcterms:source "J. A. Skertchly, Dahomey as it is (London: Chapman and Hall, 1874), pp. 474-476" ;
+    skos:definition "Palm nuts are held in one hand and thrown into the other, one or two being dropped on purpose during the throw; if one nut is left a single mark is made and if two are left a double mark. Sixteen principal figures are called mothers and are set down with their marks and a symbol apiece; further figures called children are formed by taking the right side of one mother and the left side of another. The first and the last of the mothers are held to be the most powerful, and their children the most important."@en ;
+    skos:note "The figure names are given by both witnesses in nearly the same forms, from the first, called the mother of all, to the sixteenth, called the father of all. They are the names of the Ifá figures, which is one half of the reason the contact route on this tradition is entered as documented."@en,
+        "The second witness, who says he was himself taught the craft, gives the same casting with a differently proportioned board and puts the marks the other way round, adding of his own accord that the contrary may be the case. Two travellers who did not work from one another thus agree on the procedure and disagree on the reading rule, and the file keeps both."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by Fon practitioners at Abomey and Whydah, unnamed in this passage; recorded by the naturalist J. A. Skertchly during his detention in Dahomey in 1871, published 1874; given in Fon, of which the work prints the figure names and a few terms, the account itself in English." ;
+    pm:withinTradition pmt:Vodun .
 
 pmp:FastBeforeTakingOffice a pm:Practicing ;
     rdfs:label "Das Fasten vor dem Antritt eines höheren Amtes"@de,
@@ -8253,6 +8384,16 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
+pm:counterSearchFoundNothing a pm:CounterSearchState ;
+    rdfs:label "Gegensuche ohne Fund"@de,
+        "Counter-search found nothing"@en ;
+    skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
+
 pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
         "Counter-search found opposition"@en ;
@@ -8994,6 +9135,11 @@ pm:Systematizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
         "Counter-search not carried"@en ;
@@ -9011,11 +9157,6 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -9188,6 +9329,19 @@ pmt:TibetanTantric a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
+pmt:Vodun a pm:Tradition ;
+    rdfs:label "Fon-Vodun-Überlieferung"@de,
+        "Fon vodun transmission"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), p. 97" ;
+    skos:definition "The Fon and Ewe transmission of powers received into a person and of bound objects that act, together with the Fa oracle, in which sixteen palm nuts are cast until a figure is read off the count that remains in the hand."@en ;
+    skos:note "Chosen from the registry on the independence entrance, and the reading corrected that entrance. The contact route is entered as documented and no longer as absent, and the route runs to a transmission this graph already holds: the eastern Ewe are said to divine after the manner of the Yoruba god of divination, and the Fa practitioner is identified by a second and independent witness with the Egba babalawo. An agreement between the Fa figures and the Ifá figures is therefore reception and may not be counted twice."@en,
+        "Read in this run at the wording: Ellis 1890, printed pages fifty-seven to fifty-nine, ninety-one to ninety-eight; Skertchly 1874, printed pages three hundred and seventy-nine to three hundred and eighty and four hundred and seventy-three to four hundred and seventy-six; Burton 1864, volume two, printed pages one hundred and forty-three to one hundred and forty-five. The remainder of each work was searched by term and not read continuously."@en,
+        "The recorder problem. Two of the three are visitors of weeks or months who wrote for a European public and did not command the language; the third is a colonial officer and linguist who corrects the other two on terminology and who was himself in the country. Where they agree the agreement is worth something, because they did not work from one another on these points; where they differ, as they do on the width of the divining board and on the reading of the marks, the difference is recorded rather than smoothed."@en,
+        "Two works that carry the centre of this transmission were not reachable in this run and the corpus names them all the same. The chapter in which Burton describes the casting in detail stands in volume one, and neither reachable digitisation of that volume carries it; the volume-two text read here refers to it. The systematic work on the oracle, Maupoil 1943, has no free full text at all, and the Fa chapter of Herskovits 1938 stands in a volume two that is available only on loan. The file therefore rests on two travellers and one missionary-linguist, which is a thinner base than the Kongo file has, and says so."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa; Burton, A Mission to Gelele, King of Dahome; Skertchly, Dahomey as it is; Spieth, Die Ewe-Stämme, and Die Religion der Eweer in Süd-Togo; Le Hérissé, L'ancien royaume du Dahomey; Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey: An Ancient West African Kingdom" .
+
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
         "Naming"@en ;
@@ -9340,16 +9494,6 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
-pm:fieldAttestation a pm:Attesting ;
-    rdfs:label "Feldzeugnis"@de,
-        "Field attestation"@en ;
-    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
-    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
-        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
-        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
-        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
-        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
@@ -9419,6 +9563,16 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
 pmt:LakotaRitual a pm:Tradition ;
     rdfs:label "Lakota-Ritualüberlieferung"@de,
