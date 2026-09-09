@@ -780,6 +780,30 @@ pmc:ContestOfTwoNoaidi a pm:Conceptualizing ;
         "What the source does not say is how the victory of a painted reindeer is determined — whether by the ring, by the movement of the drum, or otherwise. Without that the procedure cannot be reconstructed, only recorded, and no protocol node is written on it."@en ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmc:ConvergingDescentAcquires a pm:Converging ;
+    rdfs:label "Was die Seele trägt, wurde beim Abstieg aufgenommen"@de,
+        "What the soul carries was taken on during the descent"@en ;
+    skos:definition "The correspondence between the hermetic account of the descent, in which each of the seven rulers gives Man a share of his own ordering, and the ophite account in which the ascending soul must give back or show what belongs to each ruler's realm."@en ;
+    skos:note "Recorded because the asymmetry is the finding. A reader who meets the ophite speeches alone cannot tell whether the symbols are acquired, innate or conferred by a rite, and the received accounts settle that question with a doctrine borrowed from the other side of this node."@en,
+        "This is the assumption that makes the seven-station ascent intelligible at all, and only one of the two witnesses states it. The hermetic treatise says outright that the rulers gave shares and that Man became a sharer in their nature; the ophite speeches presuppose that something is owed or shown at each gate and never say where it came from. The correspondence is therefore asymmetrical in evidence, not only in wording."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:HermeticDescensusPerHarmoniam,
+        pmc:OphiteSymbolumOstensum ;
+    pm:transmissionPath "Same milieu as above: Graeco-Egyptian, second to third century. No priority is asserted between the two accounts, and the dating of the Poimandres is itself disputed." .
+
+pmc:ConvergingGradedAscent a pm:Converging ;
+    rdfs:label "Die Seele durchläuft sieben Stationen einzeln, und an jeder wird etwas verhandelt"@de,
+        "The soul passes seven stations one at a time, and something is transacted at each"@en ;
+    skos:definition "The correspondence between the ophite gate speeches and the hermetic surrender of energies: in both, the ascent after death is divided into seven stations that are passed singly and in order, and at each one a particular thing is transacted rather than the passage being granted as a whole."@en ;
+    skos:note "A second difference decides whether either can be examined. The hermetic passage names the seven things; the ophite speeches name the gates and never the passions. Every table that pairs an ophite archon with a vice is therefore doing what this node refuses to do: filling one witness from the other."@en,
+        "The correspondence is asserted by the compiler and by neither source. What is shared is the form — seven, singly, in order, with a transaction at each — and it is worth naming because it is not the trivial part. A doctrine of ascent does not have to be graded: it could be one passage, or a judgement, or a threshold. These two divide it the same way."@en,
+        "What is not shared is what is transacted, and the difference runs in opposite directions. The ophite passer brings something and names it: a symbol of life, his own beard, the spirit of a virgin, the symbol of the mother. The hermetic one leaves something and it is named for him: growth and waning, the device of evils, the guile of the desires, arrogance, daring, the striving for wealth, ensnaring falsehood. One ascends by asserting what he has, the other by being emptied of what he was given. Reading the two as one doctrine of shedding garments takes the hermetic half and supplies it to the other."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:HermeticRedditioEnergiarum,
+        pmc:OphiteSymbolumOstensum,
+        pmc:OphiteTransitusLiber ;
+    pm:transmissionPath "Both corpora are Graeco-Egyptian of the second and third centuries and circulate in the same milieu; the hermetic writings and the diagram Origen obtained are separated by neither language, region nor period, and the ophite material carries names Origen himself derives partly from magic and partly from the Hebrew scriptures, which is the same pool the hermetic and papyrological material draws on. No transmission from one text to the other is claimed; what is documented is that no route needs to be found." .
+
 pmc:CrookedLimbsIfTheOfficeIsRefused a pm:Presupposing ;
     rdfs:label "Das verweigerte Amt wird am Leib bezahlt"@de,
         "The office refused is paid for in the body"@en ;
@@ -1709,6 +1733,36 @@ pmc:HekhalotDescentPresupposesFitness a pm:Presupposing ;
     pm:priorStep pmc:HekhalotFitness ;
     pm:withinTradition pmt:Hekhalot .
 
+pmc:HermeticDaemonUltor a pm:Cautioning ;
+    rdfs:label "Der rächende Daimon tritt an die Stelle des Mind"@de,
+        "The avenging daimon takes the place of Mind"@en ;
+    dcterms:source "Corpus Hermeticum I.23 (trans. G. R. S. Mead)" ;
+    skos:definition "The warning that to the mindless, the wicked and depraved, the envious and covetous, Mind is far off and yields its place to the avenging daimon, who sharpens the fire and torments him, rushes upon him through his senses, renders him readier for transgressions so that he meets with greater torment, and leaves him never ceasing to desire inordinate appetites, insatiably striving in the dark."@en ;
+    skos:note "It also inverts the usual reading of such warnings. The daimon does not punish the transgression; he makes the transgression more likely so that the punishment increases. The mechanism is a spiral and not a sentence, and a summary that calls it hell loses that."@en,
+        "The counterpart of the ascent and the nearest this treatise comes to a stated outcome of failure. It is worth keeping apart from the seven zones: the tormented one is not turned back at a gate, he is never described as arriving at one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:HermeticVitaPia ;
+    pm:withinTradition pmt:Hermetic .
+
+pmc:HermeticDissolutioAnte a pm:Presupposing ;
+    rdfs:label "Der Aufstieg setzt die Auflösung des Körpers voraus"@de,
+        "The ascent presupposes the dissolution of the body"@en ;
+    dcterms:source "Corpus Hermeticum I.24-25 (trans. G. R. S. Mead)" ;
+    skos:note "Prescribed order and not stated necessity. The treatise sets the sequence — first the body is surrendered, then the way of life to the daimon, then the senses return to their sources, and thereafter the man speeds upward through the Harmony — and never says what would follow from taking it in another order, because it does not envisage another order."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:HermeticRedditioEnergiarum ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:HermeticDissolutioCorporis ;
+    pm:withinTradition pmt:Hermetic .
+
+pmc:HermeticOgdoas a pm:Conceptualizing ;
+    rdfs:label "Die achte Natur, und was über ihr liegt"@de,
+        "The eighth nature, and what lies above it"@en ;
+    dcterms:source "Corpus Hermeticum I.26 (trans. G. R. S. Mead)" ;
+    skos:definition "The state reported after the seven: stripped of all the energisings of the harmony and clothed in his proper power, the ascending one comes to the nature belonging to the Eighth and there hymns the Father with those that are; they welcome him, he is made like to them, and he further hears the powers above the eighth nature singing to God in a language of their own."@en ;
+    skos:note "Two stages and not one, and the second is only heard. The passage marks a boundary the ascent does not cross by the same means: what lies above the Eighth is audible before it is entered, and entering it is described in the next sentence as a surrender of self rather than a further passage."@en ;
+    pm:withinTradition pmt:Hermetic .
+
 pmc:HermeticPolarityOfMentalStates a pm:Originating ;
     rdfs:label "Die Polarität der Gemütszustände"@de,
         "The polarity of mental states"@en ;
@@ -1720,6 +1774,24 @@ pmc:HermeticPolarityOfMentalStates a pm:Originating ;
         "What the later scales do inherit is the direction. The positive pole is said to stand at a higher degree than the negative and to dominate it, and a practitioner is described as raising his own vibration and inducing the change in another. Sixty years separate that from a numbered ladder, and the step is still undated."@en ;
     pm:circulatesAs "A study of the Hermetic philosophy of ancient Egypt and Greece, so described on its own title page and taken by its readers for a transmission from Hermes Trismegistus rather than for a work of its own decade." ;
     pm:originatedBy "Three Initiates, the pseudonymous authorship under which the work appeared" .
+
+pmc:HermeticSeptemGubernatores a pm:Conceptualizing ;
+    rdfs:label "Die sieben Herrscher, deren Herrschaft die Menschen Schicksal nennen"@de,
+        "The seven rulers whose rule men call Fate"@en ;
+    dcterms:source "Corpus Hermeticum I.9 (trans. G. R. S. Mead)" ;
+    skos:definition "The claim that a second Mind, itself brought forth by the Mind that is God, and being of fire and spirit, formed seven rulers who enclose the world the senses perceive, and that what men call Fate is the ruling of these seven."@en ;
+    skos:note "The identification is made by the source and not by a reader: Fate is not likened to the seven, it is said to be their rule. That is the reason this node stands here rather than as a compiler's reading of a cosmology."@en ;
+    pm:withinTradition pmt:Hermetic .
+
+pmc:HermeticVitaPiaYieldsAscensus a pm:Yielding ;
+    rdfs:label "Das fromme Leben bringt den Aufstieg und die Einung hervor"@de,
+        "The pious life yields the ascent and the union"@en ;
+    dcterms:source "Corpus Hermeticum I.22 and I.26 (trans. G. R. S. Mead)" ;
+    skos:note "The claim is stated as the good end for those who have gained gnosis, and the treatise names both what precedes it and what happens to those who do not. That is more than the ophite witness gives, and it is still not a falsifying condition: nothing here could be observed to fail, because the whole of it is placed after death."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:HermeticVitaPia ;
+    pm:withinTradition pmt:Hermetic ;
+    pm:yieldsCapacity pmc:HermeticFinisBonus .
 
 pmc:HeyokaFromTheWingedGod a pm:Conceptualizing ;
     rdfs:label "Die Mitteilung, die den Empfänger zum widernatürlichen Handeln verpflichtet"@de,
@@ -2890,15 +2962,6 @@ pmc:OphiteSuriel a pm:Naming ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:nameForm "Suriel" ;
     pm:nameRole "second of the seven ruling demons of the diagram, bull-like" ;
-    pm:withinTradition pmt:OphiteGnosis .
-
-pmc:OphiteSymbolumOstensum a pm:Conceptualizing ;
-    rdfs:label "Was der Sprechende ans Tor mitbringt"@de,
-        "What the speaker brings to the gate"@en ;
-    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
-    skos:definition "The thing each speech names as already belonging to the speaker: the symbol of life borne in the character of a type at the seventh; his own beard as symbol at the second Iao; a faultless symbol preserved by the stamp of an image, and a body liberated by a pentad, at the fifth; purification with the spirit of a virgin at the third gate; the symbol of the mother at the second; and at the first, a symbol sculptured on the figure of the tree of life and formed in the likeness of innocence."@en ;
-    skos:note "That reading must not be pressed further than the wording bears, and the wording pulls both ways. Every one of the speeches ends with a request: let grace be with me, O father, let it be with me. A description of the speeches as assertion of identity rather than supplication holds for their body and not for their close, and a file that recorded only the first half would be selecting."@en,
-        "The speeches are not petitions to be granted something. Each of them states a condition the speaker is already in and asks that it be seen: look upon me, seeing thou beholdest, bearing now mine own beard as symbol. Whether the ruler could withhold what is asked is a question the passage never raises."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OphiteThauthabaoth a pm:Naming ;
@@ -5832,15 +5895,6 @@ pmt:Hasidism a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Toledot Yaakov Yosef; Keter Shem Tov; Shneur Zalman, Tanya" .
 
-pmt:Hermetic a pm:Tradition ;
-    rdfs:label "Hermetische Überlieferung"@de,
-        "Hermetic transmission"@en ;
-    skos:definition "The Graeco-Egyptian transmission of an ascent through the spheres in which the ascending one sheds a vice at each, and of a rebirth reported as having happened to the speaker."@en ;
-    skos:note "The Discourse on the Eighth and the Ninth is an initiation with a sequence, a moment of change and a demand that the initiate confirm what he now sees. It has no equivalent in what the graph currently holds."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Corpus Hermeticum; Asclepius; the Stobaean excerpts including Korē Kosmou; Nag Hammadi VI,6" .
-
 pmt:HittiteRitual a pm:Tradition ;
     rdfs:label "Hethitisch-anatolisches Ritual"@de,
         "Hittite and Anatolian ritual"@en ;
@@ -7025,6 +7079,30 @@ pmc:HeatWithoutForcefulBreath a pm:Positing ;
     skos:note "Entered because it is the point where the method draft parts company with the transmission it draws on. The transmission prescribes the forceful breath; the draft says it can be left out. That is a claim about the draft's own variant and belongs to nobody else, which is why it is posited and not sourced."@en ;
     pm:positedIn "prima-materia#318" .
 
+pmc:HermeticDescensusPerHarmoniam a pm:Conceptualizing ;
+    rdfs:label "Jeder Herrscher gibt einen Anteil seiner eigenen Ordnung"@de,
+        "Each ruler gives a share of his own ordering"@en ;
+    dcterms:source "Corpus Hermeticum I.13-15 (trans. G. R. S. Mead)" ;
+    skos:definition "The account of the descent: Man, changing his state to the formative sphere, gazed on the creatures of his brother, and they loved him and each gave him a share of his own ordering; having learned their essence and become a sharer in their nature, he broke through the boundary of their spheres and showed the fair form of God to downward Nature. He is then said to be above the Harmony and within the Harmony a slave."@en ;
+    skos:note "The descent is not a fall through disobedience and is not punished; it is granted by the Father and driven by love. The vices given back at the ascent are therefore not sins acquired against the order but shares of an ordering that was handed over. That distinction is lost in every summary that calls this a fall."@en ;
+    pm:withinTradition pmt:Hermetic .
+
+pmc:HermeticDissolutioCorporis a pm:Conceptualizing ;
+    rdfs:label "Was vor den Zonen abgegeben wird"@de,
+        "What is given up before the zones"@en ;
+    dcterms:source "Corpus Hermeticum I.24 (trans. G. R. S. Mead)" ;
+    skos:definition "The three surrenders that precede the ascent: the body is given to the work of change and the form one had vanishes; the way of life, void of its energy, is given to the daimon; and the body's senses pass back into their sources, becoming separate and rising again as energies, while passion and desire withdraw to the nature that is void of reason."@en ;
+    skos:note "The way of life goes to a daimon before the zones are reached, and the treatise does not say which daimon or whether it is the avenging one of I.23. The silence is left standing here rather than filled."@en ;
+    pm:withinTradition pmt:Hermetic .
+
+pmc:HermeticFinisBonus a pm:Conceptualizing ;
+    rdfs:label "Eins werden mit Gott"@de,
+        "To be made one with God"@en ;
+    dcterms:source "Corpus Hermeticum I.26 (trans. G. R. S. Mead)" ;
+    skos:definition "The end named for those who have gained gnosis: they go in a band to the Father, of their own selves make surrender of themselves to the powers, and becoming powers are in God."@en ;
+    skos:note "Placed on the telic axis as pm:unitiveTelos would be a reading and is not made here; the wording carries both a becoming-powers and a being-in-God, and which of the two is the end is exactly what a placement would have to decide. Left unsituated deliberately, so that the absence means nobody has decided rather than that the source is silent."@en ;
+    pm:withinTradition pmt:Hermetic .
+
 pmc:HulaKnowledgeRetained a pm:Conceptualizing ;
     rdfs:label "Die Gesänge und die Schulung bleiben beim Schüler"@de,
         "The songs and the training stay with the pupil"@en ;
@@ -7285,13 +7363,6 @@ pmc:OphiteMichael a pm:Naming ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:nameForm "Michael" ;
     pm:nameRole "first of the seven ruling demons of the diagram, lion-like; honoured in scripture as the angel of the Creator" ;
-    pm:withinTradition pmt:OphiteGnosis .
-
-pmc:OphiteTransitusLiber a pm:Conceptualizing ;
-    rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
-        "Free passage through the realm of a ruler"@en ;
-    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
-    skos:definition "The outcome the speeches ask for: that the gate be opened and the speaker pass through the realm of its ruler, in the wording of the first of them, again in freedom."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OpposedDirectionsOfPranaAndApana a pm:Conceptualizing ;
@@ -8579,6 +8650,16 @@ pmc:HekhalotFitness a pm:Conceptualizing ;
     skos:definition "The property the transmission holds to be decidable and to be decided at a particular place. The hashmal is said to divide, among those who descend, between those who were fit to descend and those who were not."@en ;
     pm:withinTradition pmt:Hekhalot .
 
+pmc:HermeticRedditioEnergiarum a pm:Conceptualizing ;
+    rdfs:label "Was an jeder der sieben Zonen zurückgegeben wird"@de,
+        "What is surrendered at each of the seven zones"@en ;
+    dcterms:source "Corpus Hermeticum I.25 (trans. G. R. S. Mead)" ;
+    skos:definition "The list given for the upward journey through the Harmony: to the first zone the energy of growth and waning; to the second, the device of evils, now de-energized; to the third, the guile of the desires, de-energized; to the fourth, domineering arrogance, de-energized; to the fifth, unholy daring and the rashness of audacity, de-energized; to the sixth, the striving for wealth by evil means, deprived of its aggrandizement; and to the seventh, ensnaring falsehood, de-energized."@en ;
+    skos:note "Read against the ophite speeches, this is the complement and not the parallel. There the passer names what he brings and the gate opens; here he names nothing and leaves one thing behind at each stage. One is a liturgy of assertion, the other an inventory of divestment, and the sequence of seven is what they have in common."@en,
+        "The repeated de-energized is the load-bearing word and is easy to read past. What is handed over is not the vice but the vice already stripped of its working: the surrender is described as the last step of something that has happened, not as the act that undoes it. Whether the undoing is the dying itself or the life that preceded it, the passage does not say."@en,
+        "The zones are not named, numbered to planets, or assigned rulers here, although the same treatise says at I.9 that the seven rulers govern what men call Fate. The pairing of zone with planet is therefore as absent in this witness as the pairing of archon with planet is in the ophite one, and for the same kind of reader it is supplied just as readily."@en ;
+    pm:withinTradition pmt:Hermetic .
+
 pmc:InuitHiddenThings a pm:Conceptualizing ;
     rdfs:label "Die verborgenen Dinge"@de,
         "Hidden things"@en ;
@@ -8668,6 +8749,22 @@ pmc:NavajoSongExactness a pm:Conceptualizing ;
     dcterms:source "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), section 41, p. 24" ;
     skos:definition "The requirement that the songs be known in a most exact manner, down to the syllable, no important mistake being tolerated."@en ;
     pm:withinTradition pmt:NavajoCeremonial .
+
+pmc:OphiteSymbolumOstensum a pm:Conceptualizing ;
+    rdfs:label "Was der Sprechende ans Tor mitbringt"@de,
+        "What the speaker brings to the gate"@en ;
+    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:definition "The thing each speech names as already belonging to the speaker: the symbol of life borne in the character of a type at the seventh; his own beard as symbol at the second Iao; a faultless symbol preserved by the stamp of an image, and a body liberated by a pentad, at the fifth; purification with the spirit of a virgin at the third gate; the symbol of the mother at the second; and at the first, a symbol sculptured on the figure of the tree of life and formed in the likeness of innocence."@en ;
+    skos:note "That reading must not be pressed further than the wording bears, and the wording pulls both ways. Every one of the speeches ends with a request: let grace be with me, O father, let it be with me. A description of the speeches as assertion of identity rather than supplication holds for their body and not for their close, and a file that recorded only the first half would be selecting."@en,
+        "The speeches are not petitions to be granted something. Each of them states a condition the speaker is already in and asks that it be seen: look upon me, seeing thou beholdest, bearing now mine own beard as symbol. Whether the ruler could withhold what is asked is a question the passage never raises."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
+pmc:OphiteTransitusLiber a pm:Conceptualizing ;
+    rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
+        "Free passage through the realm of a ruler"@en ;
+    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:definition "The outcome the speeches ask for: that the gate be opened and the speaker pass through the realm of its ruler, in the wording of the first of them, again in freedom."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
 
 pmc:Penemue a pm:Conceptualizing ;
     rdfs:label "Penemue"@de,
@@ -8928,6 +9025,15 @@ pmp:HarbaDeMoshe a pm:Practicing ;
     skos:note "Three days, once a day, water only, one bath, three prayers, a hundred names summing to three hundred and four. A preparation given entirely in counts is checkable in a way a preparation given in dispositions is not, and this one has no clause about the state of mind of the user at all."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hekhalot .
+
+pmp:HermeticVitaPia a pm:Practicing ;
+    rdfs:label "Das fromme Leben unter der Gegenwart des Mind"@de,
+        "The pious life under the presence of Mind"@en ;
+    dcterms:source "Corpus Hermeticum I.22 (trans. G. R. S. Mead)" ;
+    skos:definition "The conduct the treatise describes for those with whom Mind is present: living piously, pure and merciful, winning the Father's love by pure lives, giving thanks and chanting hymns intent on him with ardent love, and turning from the body's sensations before giving it up to its proper death."@en ;
+    skos:note "Mead's Mind is here an agent and not a faculty: it is said to be present with the good, to become an aid, to close up the entrances as a door-keeper and to cut off the mental actions that base energies induce. What the practitioner does and what is done to him are not separated in the passage."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Hermetic .
 
 pmp:IfaCasting a pm:Practicing ;
     rdfs:label "Der Wurf der sechzehn Palmnüsse"@de,
@@ -9670,6 +9776,18 @@ pmt:Hekhalot a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Hekhalot Rabbati; Hekhalot Zutarti; the Sar Torah material; Maaseh Merkavah; Shiur Qomah; 3 Enoch; the Sword of Moses" .
 
+pmt:Hermetic a pm:Tradition ;
+    rdfs:label "Hermetische Überlieferung"@de,
+        "Hermetic transmission"@en ;
+    dcterms:source "Corpus Hermeticum I (Poimandres), in the translation of G. R. S. Mead" ;
+    skos:definition "The Graeco-Egyptian transmission of an ascent through the spheres in which the ascending one sheds a vice at each, and of a rebirth reported as having happened to the speaker."@en ;
+    skos:note "Mead's diction is Victorian and interpretive in places where the Greek is disputed; his zone list in particular has been rendered differently by later translators. What is entered here is what one named translation says, which is the standard this project sets, and it is why the edition stands on every node rather than in this header alone."@en,
+        "The Discourse on the Eighth and the Ninth is an initiation with a sequence, a moment of change and a demand that the initiate confirm what he now sees. It has no equivalent in what the graph currently holds."@en,
+        "The three decisions that precede a tradition file. Route of contact: documented in every direction that matters here — the corpus is Graeco-Egyptian of the first three centuries, and the traditions it would be compared with in this graph, the ophite diagram and the magical papyri, stand in the same milieu. Nothing entered from this file may be counted as an independent witness against them. Edition: read in the translation of G. R. S. Mead, public domain, named on every node; Nock and Festugière and the translation of Copenhaver were not consulted, and where Mead's wording carries a decision it is flagged. Number of citable passages: the first treatise only, and within it the ascent."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Corpus Hermeticum; Asclepius; the Stobaean excerpts including Korē Kosmou; Nag Hammadi VI,6" .
+
 pmt:Zoroastrian a pm:Tradition ;
     rdfs:label "Zoroastrische Überlieferung"@de,
         "Zoroastrian transmission"@en ;
@@ -9703,16 +9821,6 @@ pmt:Ifa a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
-
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
-        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
-        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
-        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
@@ -9761,6 +9869,16 @@ pmt:Dogon a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
+        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
+        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
+        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
 pm:Positing a owl:Class ;
     rdfs:label "Setzen"@de,
@@ -10145,16 +10263,16 @@ pm:Presupposing a owl:Class ;
     skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
     skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pm:Practicing a owl:Class ;
     rdfs:label "Praktizieren"@de,
         "Practicing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An operative procedure enacted within a tradition."@en .
-
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
 
 pm:contactRouteDocumented a pm:ContactRoute ;
     rdfs:label "Kontaktweg belegt"@de,
