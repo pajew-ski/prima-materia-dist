@@ -2223,18 +2223,6 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
 
-pmc:KalikapuranaLeftAndRightMethods a pm:Conceptualizing ;
-    rdfs:label "Die rechts- und linkshändige Methode, wie das Purāṇa sie angibt"@de,
-        "The right and left hand methods as the purāṇa states them"@en ;
-    dcterms:source "Kālikāpurāṇa, at the announcement of the orthodox and heterodox (right and left hand) methods following the yonimudrā verses (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
-        "Kālikāpurāṇa, at the closing statement of the Tripurā-kavaca chapter that the left hand and right hand methods of worshipping the goddess have now been stated (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
-        "Kālikāpurāṇa, at the verses on the Bhairava image (204-205a) and on the left images of Sūrya and Gaṇeśa (212-218) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
-    skos:definition "A pair of methods of worship announced by the text as the orthodox and the heterodox, and closed by it as the right and left hand methods of worshipping the goddess. The text defines both terms itself. Worship performed strictly by the prescribed rules, with the five sacrifices that repay the debts to sages, gods, ancestors, men and the elements, is called the state of dakṣiṇa, and it is so called because the worshipper becomes humble towards gods and ancestors and the goddess is favourably disposed towards him. Vāmā is the goddess who, when worshipped, takes the share of the sacrifice for herself before all other gods, and one who worships in that method should himself be a vāma, whether or not he performs the five sacrifices. Which method applies is often decided by the deity rather than by the worshipper: Bhairava, who says he assumed his form for the sake of meat, wine and intercourse at will, is to be worshipped in the left hand method always; the left images of Sūrya and Gaṇeśa likewise; and the text keeps the five great brahmanical sacrifices standing alongside."@en ;
-    skos:note "Chapter numbering is not recoverable from the copy read, which is an OCR of a printed translation whose running heads the scan does not carry reliably. Work, translator, part and verse numbers are named, and the passages sit in the chapters on the worship of Tripurā; a later reader working from another edition should expect a different chapter count. Same limitation as at pmc:AcaraLadder. See prima-materia#45."@en,
-        "It stands beside two other divisions already held here and agrees with neither. pmc:AcaraLadder gives seven ascending steps with the left above the right; pmc:BhavaClassification gives three dispositions that decide what a person is competent for. This purāṇa gives two methods assigned by the object of worship. Three texts, three different shapes, and the only element common to all three is that none of them is the pair as the West received it."@en,
-        "This is the passage the project had been unable to produce, and it changes the state of the question rather than settling it. A pre-colonial Indian text does announce a two-way division in these terms, so the sharpest form of the claim that the pair is an entirely Victorian imposition does not hold. What the text does not supply is the thing the Western pair carries: there is no moral polarity between the two, no camp a person joins, and no criterion of union against self-deification. The division sorts deities and rites, not practitioners."@en ;
-    pm:withinTradition pmt:SaivaSakta .
-
 pmc:Kandu a pm:Conceptualizing ;
     rdfs:label "Kandu, das Zeichen, das den Fluch ankündigt"@de,
         "Kandu, the token that announces a curse"@en ;
@@ -5403,6 +5391,12 @@ pm:corpusHarvested a pm:CoverageState ;
         "Corpus harvested"@en ;
     skos:definition "The harvest has been carried out for the works actually opened, and what was left unread is recorded. The state claims completeness for what was opened, never for the corpus."@en .
 
+pm:corpusUnreachable a pm:SearchOutcome ;
+    rdfs:label "Korpus nicht erreichbar"@de,
+        "Corpus unreachable"@en ;
+    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
+    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
+
 pm:counterSearch a owl:ObjectProperty ;
     rdfs:label "Gegensuche"@de,
         "counter-search"@en ;
@@ -5638,6 +5632,50 @@ pm:scaleFamily a owl:ObjectProperty ;
     rdfs:domain pm:Scale ;
     rdfs:range pm:ScaleFamily ;
     skos:definition "The family a scale belongs to."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
+
+pm:searchOutcome a owl:ObjectProperty ;
+    rdfs:label "Ausgang der Suche"@de,
+        "search outcome"@en ;
+    rdfs:domain pm:Searching ;
+    rdfs:range pm:SearchOutcome ;
+    skos:definition "What the search returned."@en .
+
+pm:searchTerms a owl:DatatypeProperty ;
+    rdfs:label "Suchbegriffe"@de,
+        "search terms"@en ;
+    rdfs:domain pm:Searching ;
+    skos:definition "The terms actually used, in the original language and in the transliterations tried. What decides whether a negative finding is worth anything: a search in one transliteration is a statement about that spelling."@en .
+
+pm:searchYieldedNode a owl:ObjectProperty ;
+    rdfs:label "Suche ergab Knoten"@de,
+        "search yielded node"@en ;
+    rdfs:domain pm:Searching ;
+    skos:definition "The node the found passage became. Required wherever the outcome is pm:searchFoundPlace, enforced by pm:SearchFoundPlaceRequiresNodeShape."@en ;
+    skos:note "Its absence is what makes the class useful. The searches carrying no node are the gaps the holding knows about and has not filled, and they are addressable by anyone — which is a gate removed, in the sense of SPEC §0: a stranger can see where the work stopped and take it up."@en .
+
+pm:searchedBy a owl:DatatypeProperty ;
+    rdfs:label "gesucht von"@de,
+        "searched by"@en ;
+    rdfs:domain pm:Searching ;
+    skos:definition "Who carried the search. An unaccountable negative finding is worth nothing, for the same reason an unaccountable protocol is."@en .
+
+pm:searchedCorpus a owl:DatatypeProperty ;
+    rdfs:label "durchsuchter Korpus"@de,
+        "searched corpus"@en ;
+    rdfs:domain pm:Searching ;
+    skos:definition "The corpus that was searched, named as literature so that a later reader can repeat the search in the same place."@en .
+
+pm:searchedFor a owl:DatatypeProperty ;
+    rdfs:label "gesucht nach"@de,
+        "searched for"@en ;
+    rdfs:domain pm:Searching ;
+    skos:definition "The question that was put to the corpus, stated so that somebody else could put the same one."@en ;
+    skos:note "A literal and not a reference, deliberately. The typical object of a fruitful search is a claim the holding does not contain, and a property pointing at a node would restrict the class to questions already answered."@en .
 
 pm:selfBoundaryDeclined a pm:TelicOrientation ;
     rdfs:label "Abgelehnte Selbstgrenze"@de,
@@ -5938,6 +5976,18 @@ pmp:FireAndWaterRite a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
 
+pmp:FourthWayStatesAntecedentSearch a pm:Searching ;
+    rdfs:label "Ob der Vierte Weg für seine vier Zustände einen Vorgänger nennt"@de,
+        "Whether the Fourth Way names an antecedent for its four states"@en ;
+    dcterms:date "2026-09-09" ;
+    skos:note "Its weight is the weight of the terms above and no more. A search in Latin transliteration finds nothing about a doctrine the author might have named in Russian, and the scanned text is an OCR whose failures are unknown. Anyone with a better copy can overturn this in an afternoon, which is the point of writing it down."@en,
+        "The finding is a silence and not a refutation. The work names no antecedent for the states, while naming four terminologies for the bodies in the same volume; a route to the theosophical or Vedantic material may still exist outside it. What the node records is that this corpus was asked and did not supply one, which is a different thing from nobody having asked. See prima-materia#653."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Full-text search of the whole work for: Theosoph (ten occurrences, all concerning bodies, planes or societies); Vedanta, Vedantic; turiya, Turiya; Mandukya; Upanishad." ;
+    pm:searchedBy "prima-materia, 2026-09-09" ;
+    pm:searchedCorpus "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (one-volume English text as scanned in the Internet Archive full-text mirror)" ;
+    pm:searchedFor "Whether the work derives its fourfold ordering of states of consciousness from an earlier source, as it derives its fourfold division of bodies from four named terminologies at pmc:FourBodiesAcrossTerminologies." .
+
 pmp:HawaiianRedundantMemorising a pm:Practicing ;
     rdfs:label "Das Auswendiglernen eines Gesangs durch mehrere Rezitatoren"@de,
         "Memorising a chant with more than one reciter"@en ;
@@ -6032,6 +6082,19 @@ pmp:MithraicCoronaRecusata a pm:Practicing ;
         "The witness is hostile and says why he is telling it: he wants Christians shamed by a comparison with a soldier of Mithras. That cuts both ways for reliability. He has no motive to invent a rite that makes his opponents look steadfast, and every motive to sharpen the detail that does. What he reports as an enduring mark — never crowned again — is the kind of claim a contemporary reader could have checked."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:Mithraic .
+
+pmp:MorallyPolarisedBinarySearch a pm:Searching ;
+    rdfs:label "Ob eine vorkoloniale indische Quelle die beiden Methoden moralisch polt"@de,
+        "Whether a pre-colonial Indian source polarises the two methods morally"@en ;
+    dcterms:date "2026-09-09" ;
+    skos:note "One corpus, one translation, one spelling set. The corpora that would carry the polarity if anything does — the Kaula tantras, the Śākta digests of the Bengal schools — were not opened for this question, and this node says so rather than letting the silence of the tracker say it."@en,
+        "The search was for the polarity and found the pair without it. That is the productive outcome and the one an unrecorded search loses entirely: a run that only enters what it set out to find reports its own question back to itself. The passages became pmc:KalikapuranaLeftAndRightMethods and the four nodes around it."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Full-text search of the translation for: vama, vamacara, vamachara, daksina, daksinacara; left hand, right hand, left-hand, orthodox, heterodox." ;
+    pm:searchYieldedNode pmc:KalikapuranaLeftAndRightMethods ;
+    pm:searchedBy "prima-materia, 2026-09-09" ;
+    pm:searchedCorpus "Kālikāpurāṇa (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    pm:searchedFor "A pre-colonial Indian passage presenting dakṣiṇa and vāma as a clean two-way division with a moral polarity, using union with the divine against self-deification as the criterion that separates them — the falsifying condition of pmp:BinaryPredatesItsReportersExamination." .
 
 pmp:MuambaFelling a pm:Practicing ;
     rdfs:label "Das Fällen des Muamba-Baums für eine Nagelfigur"@de,
@@ -7853,6 +7916,18 @@ pmc:JourneyYieldsDistantSight a pm:Yielding ;
     pm:withinTradition pmt:SamiNoaidi ;
     pm:yieldsCapacity pmc:DistantSight .
 
+pmc:KalikapuranaLeftAndRightMethods a pm:Conceptualizing ;
+    rdfs:label "Die rechts- und linkshändige Methode, wie das Purāṇa sie angibt"@de,
+        "The right and left hand methods as the purāṇa states them"@en ;
+    dcterms:source "Kālikāpurāṇa, at the announcement of the orthodox and heterodox (right and left hand) methods following the yonimudrā verses (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
+        "Kālikāpurāṇa, at the closing statement of the Tripurā-kavaca chapter that the left hand and right hand methods of worshipping the goddess have now been stated (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
+        "Kālikāpurāṇa, at the verses on the Bhairava image (204-205a) and on the left images of Sūrya and Gaṇeśa (212-218) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "A pair of methods of worship announced by the text as the orthodox and the heterodox, and closed by it as the right and left hand methods of worshipping the goddess. The text defines both terms itself. Worship performed strictly by the prescribed rules, with the five sacrifices that repay the debts to sages, gods, ancestors, men and the elements, is called the state of dakṣiṇa, and it is so called because the worshipper becomes humble towards gods and ancestors and the goddess is favourably disposed towards him. Vāmā is the goddess who, when worshipped, takes the share of the sacrifice for herself before all other gods, and one who worships in that method should himself be a vāma, whether or not he performs the five sacrifices. Which method applies is often decided by the deity rather than by the worshipper: Bhairava, who says he assumed his form for the sake of meat, wine and intercourse at will, is to be worshipped in the left hand method always; the left images of Sūrya and Gaṇeśa likewise; and the text keeps the five great brahmanical sacrifices standing alongside."@en ;
+    skos:note "Chapter numbering is not recoverable from the copy read, which is an OCR of a printed translation whose running heads the scan does not carry reliably. Work, translator, part and verse numbers are named, and the passages sit in the chapters on the worship of Tripurā; a later reader working from another edition should expect a different chapter count. Same limitation as at pmc:AcaraLadder. See prima-materia#45."@en,
+        "It stands beside two other divisions already held here and agrees with neither. pmc:AcaraLadder gives seven ascending steps with the left above the right; pmc:BhavaClassification gives three dispositions that decide what a person is competent for. This purāṇa gives two methods assigned by the object of worship. Three texts, three different shapes, and the only element common to all three is that none of them is the pair as the West received it."@en,
+        "This is the passage the project had been unable to produce, and it changes the state of the question rather than settling it. A pre-colonial Indian text does announce a two-way division in these terms, so the sharpest form of the claim that the pair is an entirely Victorian imposition does not hold. What the text does not supply is the thing the Western pair carries: there is no moral polarity between the two, no camp a person joins, and no criterion of union against self-deification. The division sorts deities and rites, not practitioners."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:Kasdeja a pm:Conceptualizing ;
     rdfs:label "Kasdeja"@de,
         "Kasdeja"@en ;
@@ -8727,6 +8802,16 @@ pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
     skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pm:sourceModalityScale a pm:ScaleFamily ;
     rdfs:label "Quellenmodalitätsskala"@de,
@@ -10394,6 +10479,15 @@ pm:MethodOrientation a owl:Class,
         "Three cases, and they must not read alike. Absence of pm:methodOrientation on a node means nobody has put the question to the source. pm:methodNotStated means somebody has, and the source does not answer it. pm:normDistinctionDeclined means the source answers by rejecting the distinction, which is a positive claim and carries the same burden as any other. None of the three is the middle value; there is no middle value."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:SearchOutcome a owl:Class,
+        pm:Scale ;
+    rdfs:label "Ausgang der Suche"@de,
+        "Search Outcome"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "What a carried search returned. Four outcomes, of which three are findings about the corpus and one is a finding about access to it."@en ;
+    skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
+    pm:scaleFamily pm:recordScale .
+
 pm:displacedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Verlagert"@de,
@@ -10405,12 +10499,6 @@ pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
         "No procedure devised"@en ;
     skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
-
-pm:recordScale a pm:ScaleFamily ;
-    rdfs:label "Aufzeichnungsskala"@de,
-        "Record scale"@en ;
-    skos:definition "A scale that reports how far the work of recording, searching and examining has been carried. Its values describe what has been done to the subject matter, never the subject matter itself."@en ;
-    skos:note "The cardinal error this family exists to prevent is the collapse of a state that reports absent work into one that reports a finding: a claim for which no procedure was devised and a claim examined and unsupported are different findings and must never read alike."@en .
 
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
@@ -10483,6 +10571,12 @@ pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
         "Contact route absent"@en ;
     skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
+pm:recordScale a pm:ScaleFamily ;
+    rdfs:label "Aufzeichnungsskala"@de,
+        "Record scale"@en ;
+    skos:definition "A scale that reports how far the work of recording, searching and examining has been carried. Its values describe what has been done to the subject matter, never the subject matter itself."@en ;
+    skos:note "The cardinal error this family exists to prevent is the collapse of a state that reports absent work into one that reports a finding: a claim for which no procedure was devised and a claim examined and unsupported are different findings and must never read alike."@en .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -10559,6 +10653,15 @@ pm:Attesting a owl:Class,
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
     pm:scaleFamily pm:recordScale .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:SensoryAnchoring a owl:Class,
         pm:Scale ;
@@ -10797,12 +10900,6 @@ pm:Positing a owl:Class ;
     skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
     skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
-pm:Scale a owl:Class ;
-    rdfs:label "Skala"@de,
-        "Scale"@en ;
-    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
-    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
-
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -10834,6 +10931,12 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
+
+pm:Scale a owl:Class ;
+    rdfs:label "Skala"@de,
+        "Scale"@en ;
+    skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
+    skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
 pmt:Mithraic a pm:Tradition ;
     rdfs:label "Mithras-Mysterien"@de,
@@ -11052,11 +11155,6 @@ pmt:Theravada a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
         "Naming"@en ;
@@ -11066,6 +11164,11 @@ pm:Naming a owl:Class ;
         "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
+
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pmt:KongoNkisi a pm:Tradition ;
     rdfs:label "Kongolesische Nkisi-Überlieferung"@de,
