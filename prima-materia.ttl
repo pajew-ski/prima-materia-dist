@@ -3258,16 +3258,6 @@ pmc:OphiteThauthabaoth a pm:Naming ;
     pm:nameRole "fifth of the seven ruling demons of the diagram, bear-like" ;
     pm:withinTradition pmt:OphiteGnosis .
 
-pmc:Panchatattva a pm:Conceptualizing ;
-    rdfs:label "Die fünf Tattvas des heroischen Ritus"@de,
-        "The five tattvas of the heroic rite"@en ;
-    dcterms:source "Mahānirvāṇa Tantra I.58-59 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)",
-        "Mahānirvāṇa Tantra I.61 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)" ;
-    skos:definition "The five elements of the rite belonging to heroic practice, named in the source as wine, meat, fish, parched grain, and the union of man and woman."@en ;
-    skos:note "The fourth element is parched grain and not a ritual gesture. Wilson renders the same list in 1832 with mudrā glossed as gesticulations of the fingers and maithuna as women; the divergence is his and not the text's, and it matters because grain makes that element a food where a gesture would make it an act. Recorded so that the current gloss can be checked against a verse instead of against another summary. See prima-materia#53."@en,
-        "The same passage carries its own caution, and the caution is not a Western addition: the source says that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it, and lose the distinction of right and wrong. The warning against the rite stands inside the text that prescribes it."@en ;
-    pm:withinTradition pmt:SaivaSakta .
-
 pmc:ParacittaJnanaIsWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die Kenntnis fremden Bewusstseins wird in abgezogener Vertiefung geübt"@de,
         "Knowledge of another mind is exercised in withdrawn absorption"@en ;
@@ -4010,6 +4000,19 @@ pmc:SelfRememberingYieldsTheThirdState a pm:Yielding ;
     pm:byPractice pmp:SelfRemembering ;
     pm:withinTradition pmt:FourthWay ;
     pm:yieldsCapacity pmc:FourStatesOfConsciousness .
+
+pmc:SelfWarningStandsInsideThePrescription a pm:Generalizing ;
+    rdfs:label "Die Warnung vor einer Praxis steht in der Stelle, die sie vorschreibt"@de,
+        "The warning against a practice stands inside the passage prescribing it"@en ;
+    skos:note "A finding of the opposite shape already stands in the holding and is not a counterexample to this one, because it concerns a different thing: prima-materia#640 records seven opened works carrying twelve announced signs of success and not one condition of failure. Signs of success and self-directed cautions are counted separately for the reason SPEC §15 gives, and a tradition can be generous with the first while saying nothing under the second. What this generalization claims is narrower and about the caution alone."@en,
+        "It is falsified by a transmission that prescribes such a practice, whose earliest witness carries no warning against the practitioner's own approval, and where the warning is demonstrably first added by a commentator or a later recension. One such case refutes it. The candidates are not hard to name: the tantric material has a heavy commentarial layer, and whether a given caution belongs to the base text or to its readers is exactly the question the editions were read for in prima-materia#45."@en,
+        "No pm:Testing points at this node, and that is its position in the queue rather than a defect. Two attested claims is the floor; a third witness with no route to either would raise it out of the range where a shared physiology or a common institutional form could account for the agreement on its own."@en,
+        "The two claims it is formed from have no route between them and say the same thing about their own practitioners. The Fourth Way holds that in identifying a person is absorbed into what occupies him and becomes a thing, and that those who observe the state in themselves regularly take it for a merit, calling it enthusiasm, zeal, passion or inspiration. The Mahānirvāṇa, in the verses prescribing the five elements of the heroic rite, says in the same breath that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it and lose the distinction of right and wrong."@en,
+        "What makes it worth stating as a claim rather than as an observation is that it excludes something. It says the caution is not an outside correction: a tradition of this kind does not have to be caught by its critics, it catches itself, and it does so at the point of prescribing. A commentary layer supplying the warning afterwards would be a different history — the practice would then have been transmitted innocent and moralised later, which is what the reception literature usually assumes."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:IdentifyingTakenForItsOpposite,
+        pmc:Panchatattva ;
+    pm:generalizedStatement "Where a transmission prescribes a practice that the practitioner is liable to value for the wrong reason, the warning against that valuing stands inside the prescribing passage itself, in the same source, and is not supplied by a later commentator or an outside critic."@en .
 
 pmc:SendingOrganProtocol a pm:Testing ;
     rdfs:label "Ob der berührende Körperteil einen Unterschied macht"@de,
@@ -7836,18 +7839,6 @@ pmc:IdentificationOfTheWitch a pm:Conceptualizing ;
     skos:definition "What the poison oracle is chiefly consulted for: to learn whether witchcraft threatens an undertaking or a person's health, and if so which neighbour is at this moment exercising it, so that he may be approached and asked to withdraw it. The question is never whether a man is a witch but whether he is now bewitching the questioner."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
-pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
-    rdfs:label "Der aufzulösende Zustand wird für den erstrebten gehalten"@de,
-        "The state to be undone is mistaken for the state to be sought"@en ;
-    dcterms:date "1949" ;
-    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (London 1950), in the passage on identifying and the names given to it" ;
-    skos:definition "The claim that in identifying a person is absorbed into what occupies them and becomes a thing, and that those who observe this state in themselves regularly take it for a merit, calling it enthusiasm, zeal, passion, spontaneity or inspiration, and believing that good work is possible only in it."@en ;
-    skos:note "It stands beside the self-caution recorded at pmc:Panchatattva, where a text prescribes a rite and warns in the same breath that men of the age will take it up for pleasure. Two traditions with no route between them both place the danger inside the practitioner's own approval. Not asserted as a convergence here; noted as a second instance of the same shape."@en,
-        "Recorded as a caution that names its own misrecognition, which is the form worth collecting. The warning is not that the state is unpleasant — it is that the state is valued, under names that make it sound like the goal. A caution of this shape cannot be tested by asking practitioners how they feel, since the claim predicts they will report it favourably."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:circulatesAs "An observation of the school, reported as long known." ;
-    pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
-
 pmc:IfaForeknowledge a pm:Conceptualizing ;
     rdfs:label "Vorauswissen über den Ausgang einer Sache"@de,
         "Foreknowledge of how a matter will fall out"@en ;
@@ -8168,6 +8159,16 @@ pmc:PalmsAreTheSendingOrgan a pm:Positing ;
     skos:definition "The claim that what passes from one person to another passes through the palms, and not through some other part indifferently."@en ;
     skos:note "The force of the claim is in the exclusion. That the hands are used in transmission is reported widely and is not at issue; that they are the organ, so that another part would not serve, is the draft's addition and the part that can fail."@en ;
     pm:positedIn "prima-materia#314" .
+
+pmc:Panchatattva a pm:Conceptualizing ;
+    rdfs:label "Die fünf Tattvas des heroischen Ritus"@de,
+        "The five tattvas of the heroic rite"@en ;
+    dcterms:source "Mahānirvāṇa Tantra I.58-59 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)",
+        "Mahānirvāṇa Tantra I.61 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)" ;
+    skos:definition "The five elements of the rite belonging to heroic practice, named in the source as wine, meat, fish, parched grain, and the union of man and woman."@en ;
+    skos:note "The fourth element is parched grain and not a ritual gesture. Wilson renders the same list in 1832 with mudrā glossed as gesticulations of the fingers and maithuna as women; the divergence is his and not the text's, and it matters because grain makes that element a food where a gesture would make it an act. Recorded so that the current gloss can be checked against a verse instead of against another summary. See prima-materia#53."@en,
+        "The same passage carries its own caution, and the caution is not a Western addition: the source says that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it, and lose the distinction of right and wrong. The warning against the rite stands inside the text that prescribes it."@en ;
+    pm:withinTradition pmt:SaivaSakta .
 
 pmc:ParalysisIsTheRegularShutdown a pm:Positing ;
     rdfs:label "Die Lähmung ist die reguläre Abschaltung der Motorik am Schlafübergang"@de,
@@ -9517,6 +9518,18 @@ pmc:HermeticRedditioEnergiarum a pm:Conceptualizing ;
         "The zones are not named, numbered to planets, or assigned rulers here, although the same treatise says at I.9 that the seven rulers govern what men call Fate. The pairing of zone with planet is therefore as absent in this witness as the pairing of archon with planet is in the ophite one, and for the same kind of reader it is supplied just as readily."@en ;
     pm:withinTradition pmt:Hermetic .
 
+pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
+    rdfs:label "Der aufzulösende Zustand wird für den erstrebten gehalten"@de,
+        "The state to be undone is mistaken for the state to be sought"@en ;
+    dcterms:date "1949" ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (London 1950), in the passage on identifying and the names given to it" ;
+    skos:definition "The claim that in identifying a person is absorbed into what occupies them and becomes a thing, and that those who observe this state in themselves regularly take it for a merit, calling it enthusiasm, zeal, passion, spontaneity or inspiration, and believing that good work is possible only in it."@en ;
+    skos:note "It stands beside the self-caution recorded at pmc:Panchatattva, where a text prescribes a rite and warns in the same breath that men of the age will take it up for pleasure. Two traditions with no route between them both place the danger inside the practitioner's own approval. Still not a convergence, which would assert that the concepts correspond; the pattern is now stated as a claim that can fail, at pmc:SelfWarningStandsInsideThePrescription."@en,
+        "Recorded as a caution that names its own misrecognition, which is the form worth collecting. The warning is not that the state is unpleasant — it is that the state is valued, under names that make it sound like the goal. A caution of this shape cannot be tested by asking practitioners how they feel, since the claim predicts they will report it favourably."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:circulatesAs "An observation of the school, reported as long known." ;
+    pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
+
 pmc:InuitHiddenThings a pm:Conceptualizing ;
     rdfs:label "Die verborgenen Dinge"@de,
         "Hidden things"@en ;
@@ -10459,16 +10472,6 @@ pm:CoverageState a owl:Class,
     skos:definition "How far the corpus of a tradition has been carried into the graph. The scale exists so that a transmission nobody has opened and a transmission whose corpus is genuinely thin never read alike."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
 pm:MethodOrientation a owl:Class,
         pm:Scale ;
     rdfs:label "Ausrichtung der Methode"@de,
@@ -10559,6 +10562,16 @@ pm:ExaminationState a owl:Class,
     skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en ;
     pm:scaleFamily pm:recordScale .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:cededAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
