@@ -461,6 +461,14 @@ pmc:BirchBarkRecord a pm:Conceptualizing ;
     skos:note "Two things follow from this and both bear on how the rest of the file is to be read. The society keeps a written record by its own means, which is unusual among the transmissions this graph registers as lacking a corpus. And the capacities of the degrees are stated as readings of marks on such a chart, so what the report carries is an informant's exegesis of a pictograph and not a free verbal account; that is a different kind of witness, and arguably a firmer one, because the marks were there before the question was asked."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:BothMethodsReachSiddhiForKamakhya a pm:Conceptualizing ;
+    rdfs:label "Für Kāmeśvarī und Kāmākhyā erreicht jede der beiden Methoden die Kraft"@de,
+        "For Kāmeśvarī and Kāmākhyā either method attains the power"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses on worshipping Kāmeśvarī and Kāmākhyā by either method (139b-140a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "The claim that the goddesses Kāmeśvarī and Kāmākhyā may be worshipped at will following either the orthodox or the heterodox method, and that the doer attains siddhi doing it either way."@en ;
+    skos:note "The passage that most directly rules out reading the pair as two camps. The choice is left to the worshipper, both methods reach the same attainment, and the text sees no need to rank them. Whatever the division does in this work, it does not sort people into parties and it does not make one method the true one."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:BrowContactProtocol a pm:Testing ;
     rdfs:label "Ob der Ort der Berührung einen Unterschied macht"@de,
         "Whether the place of contact makes a difference"@en ;
@@ -1859,6 +1867,17 @@ pmc:HermeticVitaPiaYieldsAscensus a pm:Yielding ;
     pm:withinTradition pmt:Hermetic ;
     pm:yieldsCapacity pmc:HermeticFinisBonus .
 
+pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
+    rdfs:label "Die heterodoxe Methode tilgt die Schuld nie"@de,
+        "The heterodox method never clears the debt"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses stating that heterodox worship never clears the debt (132-133a) and that liberation comes only after a very long time with repeated rebirth (133b-135a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "The warning that because the goddess takes for herself the share offered to others, worship performed in the heterodox method never results in clearing the debt to ancestors, sages, gods and the human race; and that one who becomes an expert in the tripurā practice attains liberation only after a very long time and is reborn on this earth again and again, having been visited by the sin arising from the uncleared debt."@en ;
+    skos:note "A failure condition of the kind this project looks for, and an unusually exact one: the source states the price of its own path, names the mechanism, and says what remains unattained. It does not warn against the rite. It says what the rite costs, which is the harder thing for a tradition to write down about itself."@en,
+        "It also settles what the two methods are weighed on in this text. Not purity, not moral standing, not the direction of the will: the debt. The orthodox method discharges it and is rewarded in due course; the heterodox method leaves it standing and pays immediately instead. Whoever takes the left hand path here for the faster route has read half of it — it is the faster route to power and the slower one to liberation, and the source says both in the same breath."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VamaWorship ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:HeyokaFromTheWingedGod a pm:Conceptualizing ;
     rdfs:label "Die Mitteilung, die den Empfänger zum widernatürlichen Handeln verpflichtet"@de,
         "The communication that obliges the receiver to act contrarily"@en ;
@@ -2210,7 +2229,7 @@ pmc:KalikapuranaLeftAndRightMethods a pm:Conceptualizing ;
     dcterms:source "Kālikāpurāṇa, at the announcement of the orthodox and heterodox (right and left hand) methods following the yonimudrā verses (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
         "Kālikāpurāṇa, at the closing statement of the Tripurā-kavaca chapter that the left hand and right hand methods of worshipping the goddess have now been stated (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
         "Kālikāpurāṇa, at the verses on the Bhairava image (204-205a) and on the left images of Sūrya and Gaṇeśa (212-218) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
-    skos:definition "A pair of methods of worship announced by the text as the orthodox and the heterodox, and closed by it as the right and left hand methods of worshipping the goddess. Which one applies is decided by the deity and not by the worshipper: Bhairava, who says he assumed his form for the sake of meat, wine and intercourse at will, is to be worshipped in the left hand method always; the left images of Sūrya and Gaṇeśa likewise; and the text keeps the five great brahmanical sacrifices standing alongside."@en ;
+    skos:definition "A pair of methods of worship announced by the text as the orthodox and the heterodox, and closed by it as the right and left hand methods of worshipping the goddess. The text defines both terms itself. Worship performed strictly by the prescribed rules, with the five sacrifices that repay the debts to sages, gods, ancestors, men and the elements, is called the state of dakṣiṇa, and it is so called because the worshipper becomes humble towards gods and ancestors and the goddess is favourably disposed towards him. Vāmā is the goddess who, when worshipped, takes the share of the sacrifice for herself before all other gods, and one who worships in that method should himself be a vāma, whether or not he performs the five sacrifices. Which method applies is often decided by the deity rather than by the worshipper: Bhairava, who says he assumed his form for the sake of meat, wine and intercourse at will, is to be worshipped in the left hand method always; the left images of Sūrya and Gaṇeśa likewise; and the text keeps the five great brahmanical sacrifices standing alongside."@en ;
     skos:note "Chapter numbering is not recoverable from the copy read, which is an OCR of a printed translation whose running heads the scan does not carry reliably. Work, translator, part and verse numbers are named, and the passages sit in the chapters on the worship of Tripurā; a later reader working from another edition should expect a different chapter count. Same limitation as at pmc:AcaraLadder. See prima-materia#45."@en,
         "It stands beside two other divisions already held here and agrees with neither. pmc:AcaraLadder gives seven ascending steps with the left above the right; pmc:BhavaClassification gives three dispositions that decide what a person is competent for. This purāṇa gives two methods assigned by the object of worship. Three texts, three different shapes, and the only element common to all three is that none of them is the pair as the West received it."@en,
         "This is the passage the project had been unable to produce, and it changes the state of the question rather than settling it. A pre-colonial Indian text does announce a two-way division in these terms, so the sharpest form of the claim that the pair is an entirely Victorian imposition does not hold. What the text does not supply is the thing the Western pair carries: there is no moral polarity between the two, no camp a person joins, and no criterion of union against self-deification. The division sorts deities and rites, not practitioners."@en ;
@@ -4834,6 +4853,16 @@ pmc:ValidVerdictPresupposesCorroboration a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:BengeCorroborativeTest ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmc:VamaWorshipYieldsWorldlyPowers a pm:Yielding ;
+    rdfs:label "Der heterodoxe Ritus bringt die weltlichen Vermögen hervor"@de,
+        "The heterodox rite brings about the worldly powers"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses on the fruits of the rite (135b-138a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:note "Entered on the strength of the passage alone. Whether anything of the kind occurs is a separate question and would need a pm:Testing node; the claim here is that the source says so, and for that the place is the whole of the evidence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:VamaWorship ;
+    pm:withinTradition pmt:SaivaSakta ;
+    pm:yieldsCapacity pmc:WorldlyPowersOfTheLeftHandRite .
 
 pmc:VengeanceSystemVeiledBySilence a pm:Conceptualizing ;
     rdfs:label "Das Racheverfahren trägt nur, solange die Opfer ungenannt bleiben"@de,
@@ -8600,6 +8629,15 @@ pmc:WorldPathTraversal a pm:Conceptualizing ;
     skos:note "This is the old form of the claim that attention placed in a centre opens an assigned layer. The layers here are worlds, bhuvana, and they belong to a cosmology written into the body, not to a list of psychological qualities. The distance between the two is the whole point of the mapping node above. See prima-materia#39."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:WorldlyPowersOfTheLeftHandRite a pm:Conceptualizing ;
+    rdfs:label "Die weltlichen Vermögen, die der heterodoxe Ritus verleihen soll"@de,
+        "The worldly powers the heterodox rite is said to confer"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses on the fruits of the rite (135b-138a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "A set of capacities named as the fruit of the rite: happiness and prosperity, standing everywhere, a body resembling Madana, the subduing of kings together with their kingdoms and subjects, the drawing of all women, the subduing of lions, tigers, hyenas, bhūtas, pretas and piśācas, and movement everywhere like the wind."@en ;
+    skos:note "Held as one set and not split into eight nodes, because the source gives them as a single list in one place and attaches no separate condition to any of them. Splitting would make the graph report eight claims where the text makes one."@en,
+        "They are worldly and immediate, and that is the contrast the same passage draws. The orthodox side is not said to confer them; it is said to clear the debts and to be rewarded in due course. The difference between the two methods is stated here as a difference of what is obtained and when, not as a difference of moral standing. That is a fourth criterion beside rank, competence and deity, and it comes closer than any of them to what the Western pair was later made to carry — without ever carrying it."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:WritingWithInk a pm:Conceptualizing ;
     rdfs:label "Schreiben mit Tinte"@de,
         "Writing with ink"@en ;
@@ -9815,6 +9853,14 @@ pmp:TungusFormalRecognition a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmp:VamaWorship a pm:Practicing ;
+    rdfs:label "Verehrung in der heterodoxen Methode"@de,
+        "Worship in the heterodox method"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses defining vāmā and prescribing that the worshipper be a vāma while worshipping in that method (130-131) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "The rite performed as vāma: the worshipper takes the position of one whose goddess claims the share of the offering before all other gods, and performs the worship in that method whether or not he also performs the five sacrifices."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmp:WitchDoctorMedicineEating a pm:Practicing ;
     rdfs:label "Das Essen der Medizinen der Hexendoktoren"@de,
         "Eating the medicines of the witch-doctors"@en ;
@@ -10823,16 +10869,6 @@ pmt:PatanjalaYoga a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
-pmt:SaivaSakta a pm:Tradition ;
-    rdfs:label "Śaiva- und Śākta-Tantra"@de,
-        "Śaiva and Śākta tantra"@en ;
-    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
-    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
-    skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
-        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
-
 pmt:SamiNoaidi a pm:Tradition ;
     rdfs:label "Samische Noaidi-Überlieferung"@de,
         "Sámi noaidi transmission"@en ;
@@ -10914,6 +10950,16 @@ pmt:EthiopianOrthodoxMagic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Lefafa Sedeq; the asmat scroll corpus; the Geez canon" .
+
+pmt:SaivaSakta a pm:Tradition ;
+    rdfs:label "Śaiva- und Śākta-Tantra"@de,
+        "Śaiva and Śākta tantra"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
+    skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
+        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
 
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
@@ -11108,19 +11154,19 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
         "Situating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
