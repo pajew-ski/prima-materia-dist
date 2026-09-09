@@ -802,6 +802,19 @@ pmc:ConvergingDescentAcquires a pm:Converging ;
         pmc:OphiteSymbolumOstensum ;
     pm:transmissionPath "Same milieu as above: Graeco-Egyptian, second to third century. No priority is asserted between the two accounts, and the dating of the Poimandres is itself disputed." .
 
+pmc:ConvergingGatedAscentInOneWitness a pm:Converging ;
+    rdfs:label "Dieselbe Sieben-Tor-Architektur, zweimal in einem Buch, und nur einmal mit Planeten"@de,
+        "The same seven-gate architecture, twice in one book, and only once with planets"@en ;
+    skos:definition "The correspondence between the Mithraic ladder of metal gates and the ophite gate speeches: both divide the ascent of the soul into gates passed one at a time in a fixed order, and both are preserved in the sixth book of one refutation, nine chapters apart. Only the Mithraic account assigns a planet to each gate; only the ophite account gives the words spoken there."@en ;
+    skos:note "The order is what a transfer would have to explain. Lead-Saturn, tin-Venus, bronze-Jupiter, iron-Mercury, alloy-Mars, silver-Moon, gold-Sun is not the sequence in which the ophite speaker meets his gates, and it is not the received order by distance either. A borrowing that reversed or reshuffled the order while keeping the pairing is a larger claim than a borrowing, and nobody has made it."@en,
+        "There is no independence here of any kind. One author set the two side by side to make a polemical point, and a second author preserved both while calling the pairing tendentious. The whole correspondence therefore lies inside a single channel, and it counts as one occurrence for any purpose that counts witnesses."@en,
+        "This node exists to keep the two apart, not to join them. The architecture is shared and the halves are complementary in a way that invites exactly the merger this graph refuses: one account has the planets and no speeches, the other the speeches and no planets, and a table that seats each ophite ruler on a planet is the merger, performed silently. See prima-materia#595."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:convergingConcept pmc:MithraicKlimaxHeptapylos,
+        pmc:MithraicPylaiPlanetarum,
+        pmc:OphiteTransitusLiber ;
+    pm:transmissionPath "Both accounts stand in Origen, Contra Celsum VI, at chapters 22 and 31, and both are quoted from the same lost work of Celsus, who adduces the Mithraic ladder expressly so that the Christian rites may be examined alongside it. No transmission between the two cults is claimed; what is documented is that the pairing itself is the work of the reporting author." .
+
 pmc:ConvergingGradedAscent a pm:Converging ;
     rdfs:label "Die Seele durchläuft sieben Stationen einzeln, und an jeder wird etwas verhandelt"@de,
         "The soul passes seven stations one at a time, and something is transacted at each"@en ;
@@ -2640,6 +2653,16 @@ pmc:Migis a pm:Conceptualizing ;
     skos:definition "The sacred shell of the society, said in the origin account to have been shot into the body of the first recipient so that he might have immortality and be able to confer the secrets on his kinsmen."@en ;
     skos:note "The shell is not a token of membership but the vehicle of the transfer: the account makes the entry of the shell into the body the act by which the capacity passes, and the same act is repeated at every degree."@en ;
     pm:withinTradition pmt:Midewiwin .
+
+pmc:MithraicComparatioImposita a pm:Conceptualizing ;
+    rdfs:label "Der Vergleich der beiden Diagramme wird vom Zeugen selbst verlangt"@de,
+        "The comparison of the two diagrams is demanded by the witness"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)" ;
+    skos:definition "The frame in which both accounts reach us: Celsus adduces the Persian mysteries in order to say that whoever examines the Christian mysteries alongside them, and unveils the rites of the Christians, will see the difference; Origen answers that the comparison was chosen for polemical use, that Eleusis, Aegina, Egypt, Cappadocia, Thrace and Rome would have served as well, and that Celsus never says which sect uses the diagram he describes."@en ;
+    skos:note "Held as a node because it decides how much the two accounts can be worth to each other. They are not two independent reports that happen to agree; they are one author's pairing, preserved by a second author who thought the pairing tendentious. Any correspondence between them is therefore at most a second occurrence in one channel, never a second witness — the same rule that keeps the star-formula of PGM IV apart from the ophite speeches."@en,
+        "Origen's complaint carries a fact worth keeping: Celsus, who names sects wherever he can, does not name the one whose diagram he has. The ophite attribution of that diagram is not in the witness."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Mithraic .
 
 pmc:MouthToMouthOnly a pm:Conceptualizing ;
     rdfs:label "Das Wesentliche geht von Mund zu Mund und wird nicht geschrieben"@de,
@@ -7690,6 +7713,27 @@ pmc:MideForesight a pm:Conceptualizing ;
     skos:definition "The capacity to see what is to come, ascribed to a priest of the second degree and marked in the pictographic chart by lines drawn upward from the eyes."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:MithraicKlimaxHeptapylos a pm:Conceptualizing ;
+    rdfs:label "Die Leiter mit sieben Toren und einem achten darüber"@de,
+        "The ladder of seven gates with an eighth above it"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)" ;
+    skos:definition "The symbol Celsus reports from the mysteries: a ladder of gates with a further gate at its top, standing for the two celestial revolutions — that of the fixed sphere and that of the planets — and for the passage of the soul through them. The first gate is of lead, the second of tin, the third of bronze, the fourth of iron, the fifth of an alloy, the sixth of silver, the seventh of gold."@en ;
+    skos:note "It is a representation and not an instruction. The witness says what the symbol shows; he does not say that anyone climbs it, what is said at a gate, or what happens to a soul that fails at one. Beside the ophite speeches, which give the words, this is the same architecture with the operative half missing."@en,
+        "The count of seven rests on a conjecture. The manuscript reading is a ladder of lofty gates; a seven-gated ladder is Bouherel's emendation, printed in the notes of the translation used and repeated ever since without the qualification. Seven metals are then listed, so the emendation is well motivated — but the phrase in which the number is usually quoted is not the transmitted one, and every argument that counts this ladder as a seven-station ascent is counting the metals, not reading the word."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicPylaiPlanetarum a pm:Conceptualizing ;
+    rdfs:label "Jedes Tor einem Planeten zugeordnet, mit einer Begründung aus seinem Metall"@de,
+        "Each gate assigned to one planet, with a reason from its metal"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)" ;
+    skos:definition "The assignment Celsus reports gate by gate: the leaden gate to Saturn for the slowness of that star, the tin one to Venus for brightness and softness, the bronze one to Jupiter as firm-based and solid, the iron one to Mercury because iron and Mercury alike endure every work, make money and are laborious, the alloyed one to Mars because a mixture is uneven and varied, the silver one to the Moon and the golden one to the Sun, after the colours of the two."@en ;
+    skos:note "Celsus gave the reason for the sequence and the witness withheld it. Origen reports that he went on to examine why the stars stand in this order, that musical reasons out of Persian theology were adduced, and that a second musical explanation followed — and then declines to quote any of it as beneath him. What is lost is exactly the part that would say whether the order is arbitrary, harmonic or observational. The project's own criterion names this gate: an order held back is a gate, and here it was held back by the transmitter rather than by the tradition."@en,
+        "The order is the test, not the resemblance. Saturn, Venus, Jupiter, Mercury, Mars, Moon, Sun is neither the received planetary sequence by distance nor the order in which the ophite speaker meets his gates. A transfer from here to there would have had to change the order while keeping the idea, which is a stronger claim than a borrowing and is not made by anyone yet."@en,
+        "This is the only place in the whole ascent material of this graph where a late antique witness distributes planets over seven gates one at a time. The ophite diagram does not: it counts by gates and realms, and the single heavenly body named anywhere in it is Phainon, in sympathy with the lion-shaped ruler of the other, differently named hebdomad. Irenaeus I.30.9 equates the hebdomad with the planets collectively and never pairs a name with a star. Every modern table that seats Ialdabaoth on Saturn is therefore filling one witness from another, and this is the nearest candidate for where the filling came from — nine chapters earlier in the same book, in a passage whose author expressly invites the comparison of the two diagrams. See prima-materia#595 and prima-materia#641."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
 pmc:MulabandhaYieldsInnerFire a pm:Yielding ;
     rdfs:label "Das Wurzelsiegel bringt das entfachte innere Feuer hervor"@de,
         "The root seal yields the kindled inner fire"@en ;
@@ -9194,13 +9238,6 @@ pmc:OphiteSymbolumOstensum a pm:Conceptualizing ;
         "The speeches are not petitions to be granted something. Each of them states a condition the speaker is already in and asks that it be seen: look upon me, seeing thou beholdest, bearing now mine own beard as symbol. Whether the ruler could withhold what is asked is a question the passage never raises."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
-pmc:OphiteTransitusLiber a pm:Conceptualizing ;
-    rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
-        "Free passage through the realm of a ruler"@en ;
-    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
-    skos:definition "The outcome the speeches ask for: that the gate be opened and the speaker pass through the realm of its ruler, in the wording of the first of them, again in freedom."@en ;
-    pm:withinTradition pmt:OphiteGnosis .
-
 pmc:Penemue a pm:Conceptualizing ;
     rdfs:label "Penemue"@de,
         "Penemue"@en ;
@@ -9706,6 +9743,13 @@ pmc:Maqamat a pm:Conceptualizing ;
     skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
     pm:withinTradition pmt:Sufism .
 
+pmc:OphiteTransitusLiber a pm:Conceptualizing ;
+    rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
+        "Free passage through the realm of a ruler"@en ;
+    dcterms:source "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:definition "The outcome the speeches ask for: that the gate be opened and the speaker pass through the realm of its ruler, in the wording of the first of them, again in freedom."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
 pmc:Physike a pm:Conceptualizing ;
     rdfs:label "Physikē"@de,
         "Contemplation of nature"@en ;
@@ -9856,6 +9900,18 @@ pmt:EleusinianMysteries a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The citation names the corpus in which the inscription is edited, which for an epigraphic source is the edition; what is not recorded is whether the text was read in that corpus or in a secondary report of it, and that is to be established before the reading of face C is relied on."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pmt:Mithraic a pm:Tradition ;
+    rdfs:label "Mithras-Mysterien"@de,
+        "Mysteries of Mithras"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)" ;
+    skos:definition "The initiatory cult of the Roman empire, organised in graded degrees and practised in artificial caves, whose own transmission is almost entirely monumental and epigraphic rather than literary."@en ;
+    skos:note "The lopsidedness of the corpus is the first thing to say about it. This tradition left several hundred sanctuaries, reliefs and inscriptions and no book of its own; every connected account of what it taught comes from someone outside it, and mostly from someone attacking it. That is the opposite of every other tradition in this graph's ascent material, where a text survives and the material remains do not, and it is the reason the tradition can matter here as a witness independent of the heresiological channel — once the material rather than the reports is opened."@en,
+        "The name Mithras appears in this graph twice over, and the two occurrences are not the same thing. Here it is the cult. In traditions/greek-magical-papyri.ttl it is a modern title given in 1903 to PGM IV.475-829, and whether that piece is Mithraic at all is disputed in the scholarship. Nothing in this file rests on that identification."@en,
+        "What was read: Origen, Contra Celsum VI.22, in the Ante-Nicene Fathers translation with the Greek of the disputed words in its notes. Nothing else of the corpus is opened, and this one place is not a Mithraic text but a report about Mithraists inside a Christian refutation."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
 pmt:Platonic a pm:Tradition ;
     rdfs:label "Platonische Überlieferung"@de,
@@ -10411,16 +10467,6 @@ pmt:Dogon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
 
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
-        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
-        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
-        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
-
 pm:Positing a owl:Class ;
     rdfs:label "Setzen"@de,
         "Positing"@en ;
@@ -10455,6 +10501,16 @@ pmt:Vodun a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa; Burton, A Mission to Gelele, King of Dahome; Skertchly, Dahomey as it is; Spieth, Die Ewe-Stämme, and Die Religion der Eweer in Süd-Togo; Le Hérissé, L'ancien royaume du Dahomey; Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey: An Ancient West African Kingdom" .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
+        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
+        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
+        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
@@ -10629,11 +10685,6 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
         "Azande oracular transmission"@en ;
@@ -10679,6 +10730,11 @@ pm:Naming a owl:Class ;
         "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
+
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
 pmt:KongoNkisi a pm:Tradition ;
     rdfs:label "Kongolesische Nkisi-Überlieferung"@de,
