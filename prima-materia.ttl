@@ -310,6 +310,19 @@ pmc:AscentPresupposesTheRungs a pm:Presupposing ;
     pm:priorStep pmc:BeautyOfOneBody ;
     pm:withinTradition pmt:Platonic .
 
+pmc:AwakeningPresupposesAnotherWhoDoesNotSleep a pm:Presupposing ;
+    rdfs:label "Das Erwachen setzt einen voraus, der nicht schläft"@de,
+        "Awakening presupposes another who does not sleep"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the passage on the impossibility of awakening alone (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)",
+        "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eleven, at the talk on the chief feature and the teacher (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:note "The prerequisite is not a rule of etiquette towards teachers but follows from the caution below: the sleeper cannot detect his own lapse, so the detection has to come from outside him. A second and narrower form of the same claim stands in the talks on groups, where the chief fault of a person is said to be findable only by a teacher and never by the person himself, and the source calls that practically a law."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "A person cannot awaken alone; and an agreement among twenty to wake one another is still insufficient, because all twenty may fall asleep at the same time and dream that they are waking. Without someone who does not fall asleep as easily and who is charged with waking them, awakening is held to be impossible."@en ;
+    pm:dependentStep pmp:SelfRemembering ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:FourStatesOfConsciousness ;
+    pm:withinTradition pmt:FourthWay .
+
 pmc:AzazelTeachesAdornment a pm:Attributing ;
     rdfs:label "Azazel offenbart Schmuck und Kosmetik"@de,
         "Azazel discloses adornment and cosmetics"@en ;
@@ -1953,18 +1966,6 @@ pmc:IddhiPresupposesFourthJhana a pm:Presupposing ;
     pm:priorStep pmc:FourthJhana ;
     pm:withinTradition pmt:Theravada .
 
-pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
-    rdfs:label "Der aufzulösende Zustand wird für den erstrebten gehalten"@de,
-        "The state to be undone is mistaken for the state to be sought"@en ;
-    dcterms:date "1949" ;
-    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (London 1950), in the passage on identifying and the names given to it" ;
-    skos:definition "The claim that in identifying a person is absorbed into what occupies them and becomes a thing, and that those who observe this state in themselves regularly take it for a merit, calling it enthusiasm, zeal, passion, spontaneity or inspiration, and believing that good work is possible only in it."@en ;
-    skos:note "It stands beside the self-caution recorded at pmc:Panchatattva, where a text prescribes a rite and warns in the same breath that men of the age will take it up for pleasure. Two traditions with no route between them both place the danger inside the practitioner's own approval. Not asserted as a convergence here; noted as a second instance of the same shape."@en,
-        "Recorded as a caution that names its own misrecognition, which is the form worth collecting. The warning is not that the state is unpleasant — it is that the state is valued, under names that make it sound like the goal. A caution of this shape cannot be tested by asking practitioners how they feel, since the claim predicts they will report it favourably."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:circulatesAs "An observation of the school, reported as long known." ;
-    pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
-
 pmc:IfaGeomanticIdentificationDispute a pm:Disputing ;
     rdfs:label "Ob die sechzehn Figuren der Apparat der Geomantie sind"@de,
         "Whether the sixteen figures are the apparatus of geomancy"@en ;
@@ -2351,6 +2352,17 @@ pmc:Kumulipo a pm:Conceptualizing ;
     skos:note "The prose note prefixed to the chant makes two datable claims beside the genealogical ones: that the chant was recited to Alapai-wahine at Koko on Oahu while Keeaumoku lay dying, and that it is the chant Puou recited to Cook at the heiau of Hikiau at Kealakekua. Those are historical assertions and not claims of efficacy, and they are the only part of the text that an outside record could meet or miss."@en,
         "The text this edition rests on is disputed, and the dispute is not entered as a node because neither side was read at the wording in this run. It stands at prima-materia#472."@en ;
     pm:withinTradition pmt:HawaiianRitual .
+
+pmc:LapseInSelfRememberingGoesUnnoticed a pm:Cautioning ;
+    rdfs:label "Der Aussetzer wird nicht bemerkt, solange er dauert"@de,
+        "The lapse is not noticed while it lasts"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter seven, at the walk along the Nevsky and the waking two hours later (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:definition "The warning that the exercise fails without the practitioner noticing: the recorder reports holding the divided attention along a street, losing it at a single ordinary thought, and coming to two hours later in another part of the city, having in the meantime left a shop, made a telephone call and written two letters, and only then remembering that he had forgotten to remember himself."@en ;
+    skos:note "This is the shape of failure condition the project looks for, and it is unusually strong: the failure is not merely predicted but predicted to be invisible from inside, and the report performs it. It rules out the obvious procedure. Asking practitioners how long they sustained the exercise measures what they remember of it, and the claim says exactly that this is the faculty which fails."@en,
+        "What it does not yield on its own is a duration. The account gives one lapse and no figure for how long the state can be held, so nothing here fixes a threshold a later examination could measure against. See prima-materia#654."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmp:SelfRemembering ;
+    pm:withinTradition pmt:FourthWay .
 
 pmc:LeftHandPathTwoBranches a pm:Originating ;
     rdfs:label "Der linke Pfad, über sein Ziel bestimmt, mit zwei nach der Methode unterschiedenen Zweigen"@de,
@@ -2899,6 +2911,15 @@ pmc:NoQuantitativeVerification a pm:Cautioning ;
     pm:attestedBy pm:compilerInference ;
     pm:cautionsAbout pmc:TestingOfThoughts .
 
+pmc:NoTwoKindsOfDoing a pm:Conceptualizing ;
+    rdfs:label "Es gibt nicht zwei Arten des Tuns"@de,
+        "There are not two kinds of doing"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eleven, at the answer on black magic and the two kinds of doing (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:definition "The claim that there is no red, green or yellow magic: there is mechanics, which is what happens, and there is doing, which is magic, and doing can be of one kind only. What looks like a second kind is an imitation of the outward appearance of doing and yields no objective result."@en ;
+    skos:note "It stands beside pmc:FourWaysAtConstantGoal, where the same source varies only the means and holds the goal fixed. Both point the same way: this transmission classifies by completeness and by genuineness of operation, and it declines to classify by direction of the will. See prima-materia#65."@en,
+        "Recorded because it is this tradition's answer to the question the right-hand and left-hand path terms are built to ask, and the answer is that the question has no second term. The refusal is directed at a division of kinds of operation, not at a norm about means and not at an end state, so it is held as a claim in its own right rather than as a value on pm:MethodOrientation or pm:TelicOrientation."@en ;
+    pm:withinTradition pmt:FourthWay .
+
 pmc:Noa a pm:Conceptualizing ;
     rdfs:label "Noa"@de,
         "Noa"@en ;
@@ -2934,6 +2955,18 @@ pmc:NothingTiedMayEnterTheTown a pm:Cautioning ;
     pm:cautionsAbout pmp:NkindaAEvata ;
     pm:fieldRecord "Spoken by Bakongo of the Lower Congo at San Salvador and in the Ngombe Lutete district, mostly unnamed in this passage; recorded by the Baptist missionary John H. Weeks over some thirty years of residence, the book closed in 1913; given in Kikongo, of which the work prints the terms in the text while the accounts themselves are printed in English only." ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmc:ObjectiveConsciousnessPresupposesSelfConsciousness a pm:Presupposing ;
+    rdfs:label "Der objektive Zustand setzt den dritten voraus"@de,
+        "The objective state presupposes the third"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the passage on the only right way to objective consciousness (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:note "Recorded at stated necessity and not at prescribed order, because the source names what befalls the one who arrives without the prior step rather than merely setting a sequence. The consequence is a loss of the result and not a punishment, which is the form a prerequisite claim takes when it is about capacity."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "An ordinary person brought into the objective state artificially and returned will remember nothing of it and will believe he lost consciousness for a time; only from within the third state can flashes of the fourth be retained."@en ;
+    pm:dependentStep pmc:FourStatesOfConsciousness ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:SelfRemembering ;
+    pm:withinTradition pmt:FourthWay .
 
 pmc:OfficePresupposesTheFast a pm:Presupposing ;
     rdfs:label "Das Amt setzt das Fasten voraus"@de,
@@ -3919,6 +3952,45 @@ pmc:SeizureTakenAsCall a pm:Conceptualizing ;
     skos:definition "When a man or woman is struck by a sudden illness, loses judgement and is left as if mad, the senior ministers say that this has come because the huacas want him for their villac and priest; and on his coming to himself they make him fast and learn the office. The ground given is that they themselves lose judgement when they speak with the huacas. From this all who fall in fits are counted as chosen for these ministries."@en ;
     skos:note "The transmission gives its own explanation of the sign, and the explanation is an inference from the practitioner's state back to the novice's: the office is recognised by the symptom that the office produces. The recorder adds his own competing explanation, that the loss of judgement comes from the devil or from the strength of the chicha they drink before speaking with the huaca. Both are recorded; neither is the graph's."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:SelfRememberingAnchoring a pm:Situating ;
+    rdfs:label "Selbsterinnern wird im äußeren Wachen ausgeführt"@de,
+        "Self-remembering is performed in outward waking"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:outwardWaking ;
+    pm:situatedNode pmp:SelfRemembering ;
+    pm:situationGround "The source sets the exercise in the middle of ordinary activity and reports it while walking a street, entering a shop and telephoning; withdrawal is refused rather than unmentioned, since the whole classification of ways in this teaching turns on not leaving life."@en .
+
+pmc:SelfRememberingLocus a pm:Situating ;
+    rdfs:label "Das Bewusstsein bleibt beim Selbsterinnern im Körper"@de,
+        "Awareness stays in the body during self-remembering"@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:embodiedLocus ;
+    pm:situatedNode pmp:SelfRemembering ;
+    pm:situationGround "The one arrowhead of attention stays on the observed thing and the second turns on the observer, who is walking and speaking where he stands; nothing in the account has the practitioner perceive from a place other than his body."@en .
+
+pmc:SelfRememberingPresupposesNonIdentification a pm:Presupposing ;
+    rdfs:label "Selbsterinnern setzt das Nicht-Identifizieren voraus"@de,
+        "Self-remembering presupposes not identifying"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the passage naming identifying the chief obstacle to self-remembering (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:note "This is the step that was missing while the graph held only the diagnosis. pmc:IdentifyingTakenForItsOpposite records that the state to be undone is regularly valued under names such as enthusiasm and inspiration; this node records what the same source prescribes against it, and names the exercise the diagnosis exists for."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "One who identifies with anything is unable to remember himself, and remains the slave of whatever can happen to him."@en ;
+    pm:dependentStep pmp:SelfRemembering ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:IdentifyingTakenForItsOpposite ;
+    pm:withinTradition pmt:FourthWay .
+
+pmc:SelfRememberingYieldsTheThirdState a pm:Yielding ;
+    rdfs:label "Selbsterinnern bringt den dritten Zustand hervor"@de,
+        "Self-remembering brings about the third state"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapters seven and eight, at the definition of the third state and at the account of memory and self-remembering (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:definition "The claim that the divided attention of self-remembering is the third state of consciousness itself, that it occurs in ordinary life only as rare flashes, and that it can be made more or less lasting by deliberate training."@en ;
+    skos:note "A second capacity is claimed in the same passage and is stated separately here because it is the one that could be counted: that memory retains only those moments in which a person remembered himself, and that the poverty of ordinary recollection follows from that. The recorder tests it against his own earliest memories and reports that they are moments of self-remembering. That is one case, reported by the person who formed the claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:SelfRemembering ;
+    pm:withinTradition pmt:FourthWay ;
+    pm:yieldsCapacity pmc:FourStatesOfConsciousness .
 
 pmc:SendingOrganProtocol a pm:Testing ;
     rdfs:label "Ob der berührende Körperteil einen Unterschied macht"@de,
@@ -5329,13 +5401,6 @@ pm:durationDeclined a pm:AwarenessValue,
         "Duration distinction declined"@en ;
     skos:definition "The tradition holds that the distinction between a passing and an abiding condition does not apply to what it teaches."@en .
 
-pm:embodiedLocus a pm:AwarenessLocus,
-        pm:AwarenessValue ;
-    rdfs:label "Im Körper"@de,
-        "Embodied"@en ;
-    skos:definition "Awareness is located where the body is, whatever it perceives at a distance."@en ;
-    skos:note "Distant sight reported from a motionless practitioner is embodied. The axis asks where the seer is, not how far he sees."@en .
-
 pm:evidenceFrom a owl:DatatypeProperty ;
     rdfs:label "Evidenz aus"@de,
         "evidence from"@en ;
@@ -6395,15 +6460,6 @@ pmt:FinnicIncantation a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Suomen Kansan Vanhat Runot; the loitsurunot collections" .
-
-pmt:FourthWay a pm:Tradition ;
-    rdfs:label "Der Vierte Weg"@de,
-        "The Fourth Way"@en ;
-    skos:definition "The transmission of Gurdjieff's teaching: a claim that ordinary waking is a form of sleep, and a work on attention conducted in the middle of ordinary life."@en ;
-    skos:note "The graph already holds the Fourth Way anthropology as an origination, because material from it circulates under ancient ascription. Registering the transmission does not touch that finding: the tradition transmits, and the pedigree remains unsupported."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
 
 pmt:GoldenDawn a pm:Tradition ;
     rdfs:label "Hermetic Order of the Golden Dawn"@de,
@@ -7672,6 +7728,18 @@ pmc:IdentificationOfTheWitch a pm:Conceptualizing ;
     skos:definition "What the poison oracle is chiefly consulted for: to learn whether witchcraft threatens an undertaking or a person's health, and if so which neighbour is at this moment exercising it, so that he may be approached and asked to withdraw it. The question is never whether a man is a witch but whether he is now bewitching the questioner."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
+    rdfs:label "Der aufzulösende Zustand wird für den erstrebten gehalten"@de,
+        "The state to be undone is mistaken for the state to be sought"@en ;
+    dcterms:date "1949" ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (London 1950), in the passage on identifying and the names given to it" ;
+    skos:definition "The claim that in identifying a person is absorbed into what occupies them and becomes a thing, and that those who observe this state in themselves regularly take it for a merit, calling it enthusiasm, zeal, passion, spontaneity or inspiration, and believing that good work is possible only in it."@en ;
+    skos:note "It stands beside the self-caution recorded at pmc:Panchatattva, where a text prescribes a rite and warns in the same breath that men of the age will take it up for pleasure. Two traditions with no route between them both place the danger inside the practitioner's own approval. Not asserted as a convergence here; noted as a second instance of the same shape."@en,
+        "Recorded as a caution that names its own misrecognition, which is the form worth collecting. The warning is not that the state is unpleasant — it is that the state is valued, under names that make it sound like the goal. A caution of this shape cannot be tested by asking practitioners how they feel, since the claim predicts they will report it favourably."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:circulatesAs "An observation of the school, reported as long known." ;
+    pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
+
 pmc:IfaForeknowledge a pm:Conceptualizing ;
     rdfs:label "Vorauswissen über den Ausgang einer Sache"@de,
         "Foreknowledge of how a matter will fall out"@en ;
@@ -8587,6 +8655,13 @@ pm:durationNotStated a pm:AwarenessValue,
     rdfs:label "Dauer nicht angegeben"@de,
         "Duration not stated"@en ;
     skos:definition "The source was read for this question and does not answer it."@en .
+
+pm:embodiedLocus a pm:AwarenessLocus,
+        pm:AwarenessValue ;
+    rdfs:label "Im Körper"@de,
+        "Embodied"@en ;
+    skos:definition "Awareness is located where the body is, whatever it perceives at a distance."@en ;
+    skos:note "Distant sight reported from a motionless practitioner is embodied. The axis asks where the seer is, not how far he sees."@en .
 
 pm:individuatingTelos a pm:TelicOrientation ;
     rdfs:label "Individuierendes Ziel"@de,
@@ -9588,24 +9663,12 @@ pm:counterSearchFoundNothing a pm:CounterSearchState ;
         "Counter-search found nothing"@en ;
     skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pm:notByEffort a pm:AwarenessValue,
         pm:StateAcquisition ;
     rdfs:label "Nicht durch Anstrengung"@de,
         "Not by effort"@en ;
     skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
     skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
-
-pm:outwardWaking a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Nach außen gerichtetes Wachen"@de,
-        "Outward waking"@en ;
-    skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
-    skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
 
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
@@ -9859,6 +9922,16 @@ pmc:FourAbsorptions a pm:Conceptualizing ;
     skos:definition "A graded series in which each stage is reached by letting go of a factor still present in the one before it."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:FourStatesOfConsciousness a pm:Conceptualizing ;
+    rdfs:label "Die vier Bewusstseinszustände"@de,
+        "The four states of consciousness"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the talk on the four states of consciousness (one-volume English text as scanned in the Internet Archive full-text mirror; the scan does not carry its imprint, so the edition is left unstated rather than guessed)" ;
+    skos:definition "An ordering of four states held to be possible for a person: sleep; the state ordinarily called waking, which the source holds to be a second form of sleep in which people walk the streets, write books and kill one another; self-consciousness, which is self-remembering; and an objective state in which things are seen as they are. The source holds that ordinary people live in the two lowest only, that flashes of the third occur but cannot be produced by wish or decision, and that the fourth is reached solely through the third."@en ;
+    skos:note "The claim carries its own account of why it is resisted: the chief obstacle is said to be that people believe they already possess the third state, together with a permanent I, will and the ability to do. A claim of this shape cannot be tested by asking people whether they have the state, because it predicts the affirmative answer."@en,
+        "The ordering is fourfold and is not the Indian one. It does not count waking, dream and deep sleep with a fourth beyond them; it counts degrees of presence within waking, and it puts the ordinary waking state on the lower half of its own scale. Two of its four terms therefore have no counterpart on pm:SensoryAnchoring, whose values were drawn from the Māṇḍūkya. See prima-materia#653."@en,
+        "The source names no antecedent for this ordering, and that silence is itself worth recording. The same book gives the fourfold division of bodies under four sets of names and asserts that comparable tables stand in most systems, which is held at pmc:FourBodiesAcrossTerminologies. For the states it names nobody. Whether a route to the theosophical or Vedantic material can be shown is open; the work does not supply one."@en ;
+    pm:withinTradition pmt:FourthWay .
+
 pmc:InnerHeat a pm:Conceptualizing ;
     rdfs:label "Innere Hitze"@de,
         "Inner heat"@en ;
@@ -9991,6 +10064,13 @@ pm:locusNotStated a pm:AwarenessLocus,
     rdfs:label "Ort nicht angegeben"@de,
         "Locus not stated"@en ;
     skos:definition "The source was read for this question and does not answer it."@en .
+
+pm:outwardWaking a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Nach außen gerichtetes Wachen"@de,
+        "Outward waking"@en ;
+    skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
+    skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
 
 pm:ownAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
@@ -10146,6 +10226,11 @@ pm:StateDuration a owl:Class,
         "State Duration"@en ;
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pmp:ArsNotoriaOratio a pm:Practicing ;
     rdfs:label "Das Sprechen der Orationen"@de,
@@ -10384,6 +10469,17 @@ pm:subjectAxis a pm:ScaleFamily ;
     skos:definition "A coordinate on which a tradition, a practice, a capacity or a claim is placed. The axis belongs to no tradition; sources describe a condition and do not name a coordinate, so every placement is an act of the compiler and carries pm:compilerInference."@en ;
     skos:note "Two values are owed on every subject axis beyond the substantive ones. A declining value, for a tradition that rejects the distinction the axis draws: without it a rejection is recorded as an omission, which turns a doctrine into a gap. And a not-stated value, for a source that was read for the question and does not answer it: without it a node nobody tagged cannot be told from a source that was asked and stayed silent, and every query of the form 'only in X' reports the state of the tagging instead of the state of the traditions."@en .
 
+pmp:SelfRemembering a pm:Practicing ;
+    rdfs:label "Selbsterinnern"@de,
+        "Self-remembering"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter seven, at the account of the first attempts at self-remembering and the division of attention (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:definition "An exercise in dividing attention: attention is directed at the observed thing and at the one observing at the same time, so that the sense of I is held alongside the perception rather than lost in it. It is performed in the middle of ordinary activity, walking a street or entering a shop, and not in withdrawal."@en ;
+    skos:note "A sign of success is named and is kept apart from the exercise on purpose: a state of inner peace and confidence said to follow great efforts of this kind. It is recorded as a sign and not as evidence. The practitioner is told beforehand what to expect, so his report of it is not independent of the instruction, and there is no base rate for the same state without the instruction."@en,
+        "The novelty of the exercise is disputed inside the source itself. A contemporary told the recorder that it is apperception as Wundt defines it and nothing further; the recorder answers that Wundt came close and went elsewhere. Held as a note and not as a pm:Disputing node, because Wundt has not been read here and a dispute node would need both sides at their own wording."@en,
+        "The recorder distinguishes it in the same passage from two neighbouring things, and both distinctions are the tradition's own. It is not the stopping of thought described in the yoga literature he had already tried, because there the whole of attention goes to the effort of admitting no thoughts, whereas here attention is split, one part to that effort and one to the feeling of self. And it is not self-analysis or self-feeling."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:withinTradition pmt:FourthWay .
+
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
         "Christian ascetic discernment"@en ;
@@ -10427,6 +10523,17 @@ pm:mediatedAttestation a pm:Attesting ;
     skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
+pmt:FourthWay a pm:Tradition ;
+    rdfs:label "Der Vierte Weg"@de,
+        "The Fourth Way"@en ;
+    skos:definition "The transmission of Gurdjieff's teaching: a claim that ordinary waking is a form of sleep, and a work on attention conducted in the middle of ordinary life."@en ;
+    skos:note "Edition finding. The passages in traditions/fourth-way.ttl were read in the Internet Archive full-text scan of the one-volume English text, which carries no imprint and no reliable pagination. Work and chapter are named, which meets findability; the edition is left unstated rather than guessed, as in traditions/saiva-sakta.ttl. The five origination nodes drawn from the same work cite London 1950 and were entered before this rule was applied to them; the discrepancy stands until somebody opens a copy with an imprint."@en,
+        "Only Ouspensky has been opened. Beelzebub's Tales stands in the principal corpus and is unread, so the state below claims places entered and not a harvested corpus."@en,
+        "The graph already holds the Fourth Way anthropology as an origination, because material from it circulates under ancient ascription. Registering the transmission does not touch that finding: the tradition transmits, and the pedigree remains unsupported."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
 
 pmp:Samyama a pm:Practicing ;
     rdfs:label "Saṃyama"@de,
@@ -10985,19 +11092,19 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:Situating a owl:Class ;
-    rdfs:label "Verorten"@de,
-        "Situating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
-    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:Situating a owl:Class ;
+    rdfs:label "Verorten"@de,
+        "Situating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
+    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
