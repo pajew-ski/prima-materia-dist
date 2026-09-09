@@ -2664,6 +2664,19 @@ pmc:MithraicComparatioImposita a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Mithraic .
 
+pmc:MithraicDisputatioGraduum a pm:Disputing ;
+    rdfs:label "Drei Zeugen, drei unvereinbare Auskünfte über die Grade"@de,
+        "Three witnesses, three incompatible accounts of the grades"@en ;
+    dcterms:source "Jerome, Epistula 107.2 (trans. A. S. Geden, London 1925)",
+        "Nonnus the Mythographer, commentary on Gregory Nazianzen (trans. A. S. Geden, London 1925)",
+        "Porphyry, De abstinentia IV.16 (trans. A. S. Geden, London 1925)" ;
+    skos:definition "The conflict between the accounts of initiation this graph holds: seven named grades in a Latin letter of about 400, four animal ranks including women in a Greek report drawn from a lost history of the cult, and eighty ascending and descending disciplines in a Greek commentary of the sixth or seventh century."@en ;
+    skos:note "None of the three knows of the others, and none is arguing. The conflict is the compiler's observation, and it is recorded because the seven-grade list is quoted everywhere as if it were the account rather than one of three. The others are not obviously worse witnesses: the four-name list comes from someone who had read a multi-volume history of the cult that is now lost, and the seven-name list from a bishop making a rhetorical point about a relative's baptism."@en,
+        "What would decide it is not another text. The grades are attested outside the literary channel altogether, on a mosaic floor and in painted inscriptions, and that material is unread here. Until it is, this node is the honest state: the number of grades in the Mithraic mysteries is not established by anything in this graph."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:MithraicGradusSeptem ;
+    pm:withinTradition pmt:Mithraic .
+
 pmc:MithraicLeonticaMelle a pm:Practicing ;
     rdfs:label "Honig über die Hände derer, die in die Löwenweihe aufgenommen werden"@de,
         "Honey poured on the hands of those initiated in the rites of the Lion"@en ;
@@ -2673,6 +2686,27 @@ pmc:MithraicLeonticaMelle a pm:Practicing ;
         "The substitution is the operative part. Water is what hands are washed with; honey is what preserves against decay, which is the property Porphyry has spent the surrounding pages establishing. The gesture therefore says that these hands are to be kept from corruption, not merely cleaned, and the alternative purification by fire says the same thing with the other means."@en,
         "Two further Mithraic details stand in the same passage and are held here rather than as separate nodes: the Persians offer honey to the guardian of fruits as a symbol of a preserving and warding power, and a bowl stands beside Mithras in place of a spring."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicNominaAnimalium a pm:Conceptualizing ;
+    rdfs:label "Ein anderer Satz von Gradnamen, und Frauen darunter"@de,
+        "A different set of grade names, and women among them"@en ;
+    dcterms:source "Porphyry, De abstinentia IV.16, reporting Eubulus (trans. A. S. Geden, Select Passages Illustrating Mithraism, London 1925)" ;
+    skos:definition "The account Porphyry takes from Eubulus, who wrote a history of Mithraism in many books: that those who take part in the rites are called lions, the women lionesses or hyenas, the servants crows, and the fathers eagles and hawks; that the one invested with the character of the lion takes on the various forms of living creatures; and that the animal names signify the passage of human souls through various bodies, which the mysteries hold in common with the doctrine of the three grades of magi."@en ;
+    skos:note "The reason given for the names is the transmigration of souls, and it is given as the cult's own reason rather than the reporter's. That makes the animal names a doctrine and not a taxonomy of ranks — an entirely different thing from a ladder of degrees, and one more reason not to merge this list with the other."@en,
+        "This list is not Jerome's list. It has four ranks where his has seven, it names the fathers eagles and hawks, and it includes women — which the received account of this cult denies. Either the witness is describing a different stage of the cult, or a local form, or he is wrong; nothing in the text decides, and the graph does not decide either."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicProbatioLetalis a pm:Cautioning ;
+    rdfs:label "Übersteht er es, die höchste Weihe; erliegt er, ein Begräbnis"@de,
+        "If he survives, the highest initiation; if he succumbs, a burial"@en ;
+    dcterms:source "Nonnus the Mythographer, commentary on Gregory Nazianzen, with Historia Augusta, Life of Commodus 9 (trans. A. S. Geden, Select Passages Illustrating Mithraism, London 1925)" ;
+    skos:definition "The outcome attached to the ordeals in the same report: after passing through all of them in succession the candidate at last receives the highest initiation if he is still alive, and an honourable burial if he has succumbed."@en ;
+    skos:note "A stated condition of failure, and the scarcest kind in this graph: not a sign to watch for but an outcome that excludes the other. Almost everything else the ascent material holds tells the practitioner what he will see; this tells him what happens if it does not work, and the answer is that he dies. That it comes from a late and hostile commentator is the reason it is held here with the caution and not as an established practice — but a Christian polemicist has no incentive to invent an ordeal his opponents survive."@en,
+        "The Augustan History cuts the other way and is worth holding beside it: the rites, it says, normally involved saying or feigning something that would produce an impression of terror, and Commodus defiled them by killing for real. If that is right, the ordeals were mimed and the deaths were not expected — and the eighty-grade report has mistaken the mime for the thing."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:cautionsAbout pmp:MithraicProbationes ;
     pm:withinTradition pmt:Mithraic .
 
 pmc:MithraicSedesAequinoctialis a pm:Conceptualizing ;
@@ -5844,6 +5878,17 @@ pmp:LungReading a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
 
+pmp:MithraicCoronaRecusata a pm:Practicing ;
+    rdfs:label "Der auf dem Schwert dargebotene Kranz, mit einem Satz zurückgewiesen"@de,
+        "The crown offered on a sword, refused with a saying"@en ;
+    dcterms:source "Tertullian, De corona 15, with De praescriptione haereticorum 40 (trans. A. S. Geden, Select Passages Illustrating Mithraism, London 1925)" ;
+    skos:definition "The initiation of the soldier grade as Tertullian describes it to shame Christian soldiers: in a cave, a crown is offered to the candidate on the point of a sword and set on his head, whereupon he is required to lift it off with his own hand and move it to his shoulder, saying that Mithras is his crown. From then on he is never crowned; and if he is ever put on trial about his religion, this is the mark by which he is known — he throws the crown away and says that he has his crown in his god."@en ;
+    skos:note "The nearest thing to a passing formula that this graph holds outside the gnostic material, and it is the shape the Passierformeln project is looking for: an assertion of what the speaker has, not a request for anything. Nothing is asked of Mithras and nothing is granted by him. The sentence does not open a door; it identifies the speaker, and it does so under interrogation, where a wrong answer costs something."@en,
+        "The same author elsewhere adds, from memory and saying so, that Mithras marks his soldiers on the forehead, celebrates an offering of bread, brings in an image of resurrection, opens the way to the crown with a sword, restricts his high priest to a single marriage, and keeps virgins and continents. Held here rather than as separate nodes because the author hedges the whole list."@en,
+        "The witness is hostile and says why he is telling it: he wants Christians shamed by a comparison with a soldier of Mithras. That cuts both ways for reliability. He has no motive to invent a rite that makes his opponents look steadfast, and every motive to sharpen the detail that does. What he reports as an enduring mark — never crowned again — is the kind of claim a contemporary reader could have checked."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
 pmp:MuambaFelling a pm:Practicing ;
     rdfs:label "Das Fällen des Muamba-Baums für eine Nagelfigur"@de,
         "The felling of the muamba tree for a nail figure"@en ;
@@ -7778,6 +7823,17 @@ pmc:MideForesight a pm:Conceptualizing ;
     skos:definition "The capacity to see what is to come, ascribed to a priest of the second degree and marked in the pictographic chart by lines drawn upward from the eyes."@en ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:MithraicGradusSeptem a pm:Conceptualizing ;
+    rdfs:label "Sieben Grade, benannt nach den Bildern, die ein Präfekt zerschlug"@de,
+        "Seven grades, named from the images a prefect destroyed"@en ;
+    dcterms:source "Jerome, Epistula 107.2, to Laeta (trans. A. S. Geden, Select Passages Illustrating Mithraism, London 1925)" ;
+    skos:definition "The list Jerome gives in passing while urging a mother not to despair of her father's conversion: that her kinsman Gracchus, as prefect of the city, overthrew and broke up a cave of Mithras with all the monstrous images by which the initiates are named — raven, a second name, soldier, lion, Persian, sun-runner and father — and sent them ahead of him as hostages to obtain baptism."@en ;
+    skos:note "The most quoted list in the study of this cult, and the second name in it is not transmitted. The manuscripts read nymphius, bridegroom, or gryphus, griffin; the standard edition prints cryphius, hidden one, on the strength of inscriptions and against the manuscripts. That is the same shape of thing as the seven-gated ladder at Contra Celsum VI.22: two of the load-bearing data points of this tradition rest on emendations made because the emended text agrees better with what is known from elsewhere."@en,
+        "The translations wobble too. One English rendering of the passage produces eight items by splitting one grade in two, so a reader working from that version counts eight grades. The seven are secure only because the epigraphic and iconographic material has seven; the text alone would not settle the number."@en,
+        "What the passage does not do is assign planets. Jerome names the grades and nothing else — no tutelary star, no order of ascent, no doctrine. Every table pairing a grade with a planet is drawing on the mosaics and inscriptions, not on this witness. That matters for prima-materia#595, because it means the two ancient literary sources for anything sevenfold in this cult, VI.22 and this letter, do not overlap: one has planets and no grades, the other grades and no planets."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
 pmc:MithraicKlimaxHeptapylos a pm:Conceptualizing ;
     rdfs:label "Die Leiter mit sieben Toren und einem achten darüber"@de,
         "The ladder of seven gates with an eighth above it"@en ;
@@ -8800,6 +8856,15 @@ pmp:MideInitiationFirstDegree a pm:Practicing ;
     skos:note "The report says candidates sometimes spend a number of years in preparation and impoverish themselves in the payment of fees and the preparation of the feast. The cost is stated as a fact of the institution and not as a warning."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Midewiwin .
+
+pmp:MithraicProbationes a pm:Practicing ;
+    rdfs:label "Gestufte Proben durch Feuer, Kälte, Hunger und Durst"@de,
+        "Graded ordeals of fire, cold, hunger and thirst"@en ;
+    dcterms:source "Nonnus the Mythographer, commentary on Gregory Nazianzen, Invectives against Julian (trans. A. S. Geden, Select Passages Illustrating Mithraism, London 1925)" ;
+    skos:definition "The training a late Greek commentator reports: that nobody may share in the rites without first passing through the disciplines in succession, of which eighty are counted, ascending and descending, easier at first and then harder — fasting alone in a desert place, immersion in deep water for many days, throwing oneself into fire, prolonged exertion, and the like. One version gives a schedule: fasting about fifty days, then two days of extreme heat, then twenty days in snow, the severity increased by stages."@en ;
+    skos:note "Eighty grades, not seven. The number is irreconcilable with every other account and the source is late, derivative and hostile, so the graph holds it as what it is: a claim about this cult made centuries after it ended, by someone commenting on an invective. Two lexica repeat it in abbreviated form, which multiplies the copies and not the witnesses."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
 
 pmp:MocharTheHuaca a pm:Practicing ;
     rdfs:label "Mochar: der Akt der Anrede"@de,
@@ -10248,19 +10313,6 @@ pmt:GraecoRoman a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered .
 
-pmt:Mithraic a pm:Tradition ;
-    rdfs:label "Mithras-Mysterien"@de,
-        "Mysteries of Mithras"@en ;
-    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)",
-        "Porphyry, De antro nympharum (trans. Thomas Taylor, London 1917)" ;
-    skos:definition "The initiatory cult of the Roman empire, organised in graded degrees and practised in artificial caves, whose own transmission is almost entirely monumental and epigraphic rather than literary."@en ;
-    skos:note "The lopsidedness of the corpus is the first thing to say about it. This tradition left several hundred sanctuaries, reliefs and inscriptions and no book of its own; every connected account of what it taught comes from someone outside it, and mostly from someone attacking it. That is the opposite of every other tradition in this graph's ascent material, where a text survives and the material remains do not, and it is the reason the tradition can matter here as a witness independent of the heresiological channel — once the material rather than the reports is opened."@en,
-        "The name Mithras appears in this graph twice over, and the two occurrences are not the same thing. Here it is the cult. In traditions/greek-magical-papyri.ttl it is a modern title given in 1903 to PGM IV.475-829, and whether that piece is Mithraic at all is disputed in the scholarship. Nothing in this file rests on that identification."@en,
-        "What was read: Origen, Contra Celsum VI.22, in the Ante-Nicene Fathers translation with the Greek of the disputed words in its notes; and Porphyry, De antro nympharum, complete, in Thomas Taylor's translation (London 1917). Neither is a Mithraic text. The first is a report about Mithraists inside a Christian refutation; the second is a Platonist reading Homer, who reaches for the cult four times because it suits his argument about the descent of souls."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
-
 pmt:NavajoCeremonial a pm:Tradition ;
     rdfs:label "Navajo-Zeremonialüberlieferung"@de,
         "Navajo ceremonial transmission"@en ;
@@ -10494,6 +10546,19 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
+
+pmt:Mithraic a pm:Tradition ;
+    rdfs:label "Mithras-Mysterien"@de,
+        "Mysteries of Mithras"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)",
+        "Porphyry, De antro nympharum (trans. Thomas Taylor, London 1917)" ;
+    skos:definition "The initiatory cult of the Roman empire, organised in graded degrees and practised in artificial caves, whose own transmission is almost entirely monumental and epigraphic rather than literary."@en ;
+    skos:note "The lopsidedness of the corpus is the first thing to say about it. This tradition left several hundred sanctuaries, reliefs and inscriptions and no book of its own; every connected account of what it taught comes from someone outside it, and mostly from someone attacking it. That is the opposite of every other tradition in this graph's ascent material, where a text survives and the material remains do not, and it is the reason the tradition can matter here as a witness independent of the heresiological channel — once the material rather than the reports is opened."@en,
+        "The name Mithras appears in this graph twice over, and the two occurrences are not the same thing. Here it is the cult. In traditions/greek-magical-papyri.ttl it is a modern title given in 1903 to PGM IV.475-829, and whether that piece is Mithraic at all is disputed in the scholarship. Nothing in this file rests on that identification."@en,
+        "What was read: Origen, Contra Celsum VI.22, in the Ante-Nicene Fathers translation with the Greek of the disputed words in its notes; and Porphyry, De antro nympharum, complete, in Thomas Taylor's translation (London 1917). Neither is a Mithraic text. The first is a report about Mithraists inside a Christian refutation; the second is a Platonist reading Homer, who reaches for the cult four times because it suits his argument about the descent of souls."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
 pmt:PistisSophia a pm:Tradition ;
     rdfs:label "Pistis Sophia"@de,
@@ -10851,11 +10916,6 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
         "Ophite gnosis"@en ;
@@ -10876,6 +10936,11 @@ pm:statedNecessity a pm:PrerequisiteStrength ;
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
@@ -10886,19 +10951,19 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
         "Situating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
