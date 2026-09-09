@@ -860,6 +860,15 @@ pmc:DescentPresupposesDepth a pm:Presupposing ;
     pm:priorStep pmc:XingqiDepth ;
     pm:withinTradition pmt:Daoist .
 
+pmc:DieshiYieldsZhilai a pm:Yielding ;
+    rdfs:label "Das Abzählen bringt das Wissen des Kommenden hervor"@de,
+        "The counting yields the knowledge of what is coming"@en ;
+    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion and the section on prognostication, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Dieshi ;
+    pm:withinTradition pmt:ChineseDivination ;
+    pm:yieldsCapacity pmc:JishuZhilai .
+
 pmc:DirectKnowledgesPresupposeConcentration a pm:Presupposing ;
     rdfs:label "Die höheren Kenntnisse setzen die Sammlung voraus"@de,
         "The direct knowledges presuppose concentration"@en ;
@@ -1396,6 +1405,16 @@ pmc:FailureOfTheStonesAttributedToTheOwner a pm:Conceptualizing ;
         "The counterpart of the eight causes at pmc:BengeFailureCauses in the Azande file: an instrument that fails is not thereby discredited, because the transmission has a place to put the failure. Here the place is the owner's divided faith, which cannot be inspected from outside and which no outcome can clear. It is entered beside the capacity it protects and not away from it, because the two only mean anything together."@en ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmc:FanshiYoudao a pm:Cautioning ;
+    rdfs:label "Die vier Bedingungen, unter denen nicht befragt wird"@de,
+        "The four conditions under which one does not consult"@en ;
+    dcterms:source "Yang Xiong, Taixuanjing, Xuan shu, the eleventh, with the commentary of Fan Wang, juan 8, Sibu congkan facsimile" ;
+    skos:definition "The same chapter states four conditions, and they are the ones the Changes leave unsaid. There is a way in consulting: who is not gathered does not consult; who does not doubt does not consult; who is not within the rule does not consult; and who will not act on the prognostication had better not have consulted. Before the casting a charge is spoken twice over, borrowing the Supreme Mystery and putting the matter in doubt before the spirits."@en ;
+    skos:note "The fourth condition is the one that does work a graph can use. It makes the consultation pointless where the enquirer will not follow the answer, which is a statement about the enquirer and not about the world; and it thereby rules out the cheapest test of a divination, which is to consult and then do the opposite. Together with the prohibition on asking twice in the Changes, this transmission has now been found to close both of the two obvious tests, in two different works, by two different means."@en,
+        "The second condition cuts the other way and is worth keeping separate: who does not doubt does not consult. That excludes the control case in which a consultation is made about a question whose answer is already known, and a control case is what an examination of this practice would need first."@en ;
+    pm:cautionsAbout pmp:XuanShu ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:FastKeptWellIsAlsoChecked a pm:Conceptualizing ;
     rdfs:label "Ob das Fasten gehalten wurde, wird nachträglich geprüft"@de,
         "Whether the fast was kept is checked afterwards"@en ;
@@ -1858,6 +1877,14 @@ pmc:HulaRetentionPresupposesKeptVows a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:HalauConduct ;
     pm:withinTradition pmt:HawaiianRitual .
+
+pmc:HuoBuXuanri a pm:Conceptualizing ;
+    rdfs:label "Das Unheil dreht keinen Tag"@de,
+        "The misfortune does not turn a day"@en ;
+    dcterms:source "Zangshu, outer section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The one interval the book states. Where the configuration is favourable and the shape unfavourable, one may still hope for a single day of fortune; where the configuration is unfavourable and the shape favourable, the misfortune does not turn a day. The commentary says that this is put so strongly in order to say how fast the answer comes, and elsewhere the book has a burial made at the hollow in the morning and wept for in the evening."@en ;
+    skos:note "This is the most examinable sentence found in the transmission and the reason the corpus was opened from the testability side. A doctrine that placed its effects a generation away could never be caught; this one places one class of them within a day of the burial, and the burial is a public and dated event."@en ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die übernatürlichen Kräfte werden in abgezogener Vertiefung ausgeübt"@de,
@@ -4522,6 +4549,16 @@ pmc:YuruguPursuit a pm:Conceptualizing ;
     skos:note "The pursuit that never arrives is the same figure as the orbit that never closes on its centre. Whether the star is the image of the myth or the myth the reading of the star is exactly the question the article declines to raise."@en ;
     pm:withinTradition pmt:Dogon .
 
+pmc:ZaisanDu a pm:Cautioning ;
+    rdfs:label "Zwei- und dreimal fragen entweiht, und entweiht antwortet es nicht"@de,
+        "Asking twice and three times defiles, and defiled it does not tell"@en ;
+    dcterms:source "Zhouyi, hexagram 4, the judgement and the commentary on the judgement, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "The judgement on the fourth hexagram states the only condition the canon attaches to consulting: at the first consultation it tells; asked twice and three times, that is defilement, and defiled it does not tell. The commentary on the judgement repeats the words and glosses the defilement as defiling the ignorance itself."@en ;
+    skos:note "Held as a caution and not as a prerequisite because nothing is said to be reached or missed. The consequence is stated, unusually for this corpus, and the file records it in the definition for want of a predicate; see prima-materia#621."@en,
+        "This is the node that decides how far this transmission can be examined at all, and it is worth having precisely because it is not a procedural rule. Nothing here says that a second casting is void, or wrong, or that the operator has erred. It says that repeating the question is an offence and that the answer is then withheld. The obvious test of any oracle is to put the same question twice and compare; the canon forbids exactly that and attaches no cost to the doctrine when the second answer differs, because by its own rule there should not be a second answer."@en ;
+    pm:cautionsAbout pmp:Dieshi ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:ZandeOracleSetDispute a pm:Disputing ;
     rdfs:label "Welche Orakel die Überlieferung als die ihren zählt"@de,
         "Which oracles the transmission counts as its own"@en ;
@@ -4532,6 +4569,39 @@ pmc:ZandeOracleSetDispute a pm:Disputing ;
         "The two accounts also differ on who receives the poison. The Belgian ethnography, written sixteen years earlier and on the other side of the border, gives the ordeal as administered to a suspected person or to a fowl, in the present tense and without qualification. The monograph gives administration to human beings as a thing of the past and very rare even then. Whether that is a change over sixteen years, a difference between the two administrations, or a difference of observation is not decidable from the two passages."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:OracleRankOrder .
+
+pmc:ZangYieldsYin a pm:Yielding ;
+    rdfs:label "Die Bestattung auf dem lebendigen Qi bringt die Beschirmung der Nachkommen hervor"@de,
+        "Burial on the living qi yields the shading of the descendants"@en ;
+    dcterms:source "Zangshu, inner section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination ;
+    pm:yieldsCapacity pmc:YitiShouyin .
+
+pmc:ZangshuDispute a pm:Disputing ;
+    rdfs:label "Ob die Wahl von Grab und Tag das Geschick der Nachkommen entscheidet"@de,
+        "Whether the choice of grave and day decides the fortune of the descendants"@en ;
+    dcterms:source "Jiu Tangshu 79, the memorial of Lü Cai on the burial books, juan 79, Wenyuange Siku quanshu text",
+        "Zangshu, inner and miscellaneous sections, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "A memorial preserved in the dynastic history sets seven numbered objections against the burial books, on an imperial commission to revise the divinatory literature. The rites fix the interval between death and burial by rank, so the burial has a set time and no year or month is to be chosen; the books call one day of the sexagenary cycle the most inauspicious of all for a burial, and a check of the classical annals turns up more than twenty burials on that day, so the day is not chosen either; the hour is fixed by what each dynasty honoured, so the hour is not chosen; one house kept its succession and another lost its sacrifices without either turning on a burial; the ancients buried north of their capitals in one fixed place, without the surname doctrine, and their descendants were not the poorer for it; a grave once made is never altered while rank rises and falls without rest, so office is not what a burial confers; and the practice makes mourners choose ground in hope of an office and a season in hope of money, so that the books corrupt the customs."@en ;
+    skos:note "The defending side is the book itself and the commentary printed with it, which cites two cases the other way: a reader of graves who saw a general's tomb and said the clan would be wiped out, and it was; and a duke of the annals who moved his capital against a prognostication that it would benefit the people and not the ruler, and died in the fifth month. Both are anecdotes reported by the defence and neither was traced to the works they name."@en,
+        "The sixth objection is the one worth naming, because it is an argument of a form the graph can reuse: the cause is invariant and the effect fluctuates, therefore the cause is not that cause. The second is of another form again and is treated as evidence rather than as testimony, in the protocol beside this file."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:YitiShouyin ;
+    pm:withinTradition pmt:ChineseDivination .
+
+pmc:ZhanbuDispute a pm:Disputing ;
+    rdfs:label "Ob Stengel und Schale überhaupt antworten"@de,
+        "Whether the stalks and the shell answer at all"@en ;
+    dcterms:source "Wang Chong, Lunheng, the treatise on divining, juan 24, Sibu congkan facsimile",
+        "Zhouyi, Xici A, the sections on prognostication and on what the Changes are without, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "A treatise of the first century sets itself against the claim that the Changes penetrate the grounds of everything under heaven. Its arguments, in the order it gives them: the names of the stalk and the shell mean the aged and the old, so that consulting them means consulting the aged, and neither is spiritlike; heaven, if it has no ears, is not a body but a vapour, and a vapour cannot tell anybody anything; the dead stalk and the dead shell are asked about the living; and, reading the very passage of the great expansion, the division into two images heaven and earth, the counting by fours images the seasons and the remainder images the intercalation, which is imaging by likeness in order to set up the number of the figures, and says nothing about heaven and earth answering a man. Its own account of the hits is coincidence: what the shell is said to meet and the stalks to encounter is what was met with, not what was brought about, and following the answer does not necessarily bring fortune nor going against it misfortune."@en ;
+    skos:note "Held as a dispute and not as a refutation because that is what it is: two works, one asserting and one denying, both read at the wording in this run, neither carrying a case. The value of having it as a node is that the denying side reads the same passage the asserting side rests on, and reads it as a construction by analogy rather than as a channel."@en,
+        "The strongest move in the denying work is not an argument but a condition, and it is held separately as a protocol in examinations/. It is not in this node because a dispute records two positions and a condition is a third kind of thing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:JishuZhilai ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:ZhenrenZhirenShengrenXianren a pm:Conceptualizing ;
     rdfs:label "Die vier gestuften Personen des ersten Kapitels"@de,
@@ -5202,6 +5272,22 @@ pmp:BrahmaviharaBhavana a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Theravada .
 
+pmp:BurialDayExamination a pm:Testing ;
+    rdfs:label "Ob Tag und Jahreszeit der Bestattung etwas entscheiden"@de,
+        "Whether the day and season of a burial decide anything"@en ;
+    skos:definition "A protocol on the second of the six adversities of the burial book, that a going wrong of the year and the season makes the burial adverse however favourable the ground. A memorial of the seventh century, written on an imperial commission to revise the divinatory literature, sets against it a count: the burial books call one day of the sexagenary cycle the most inauspicious of all for a burial, and a check of the classical annals turns up more than twenty burials on that day."@en ;
+    skos:note "The count is treated as evidence and not as testimony, and the reason is the functional line SPEC §14 draws rather than the date. It is a procedure with an outcome that could have gone otherwise: the annals might have shown no burial on that day, and then the memorial would have had nothing. That it was carried in the seventh century does not make it a witness to a transmission; it makes it an early instance of the only kind of check this doctrine admits."@en,
+        "The state stays at procedure-without-cases all the same, and the distinction is the one this protocol exists to hold. What the count establishes is that the classical corpus, which the doctrine claims as its warrant, buried on the forbidden day more than twenty times. That is a case against the antiquity of the rule and not against its effect: the memorial does not say what became of those twenty houses. Setting the state to cases-with-deviation here would report the reach of a philological check as a result about the world."@en,
+        "Two things a later run would have to establish before the count could be used at all, and neither was done here. Which day of the cycle the memorial names, and whether the burial books it checked are the recension of the burial book this graph holds — it speaks of a hundred and twenty houses of the art, and the text in the graph is a redaction of the fourteenth century. Until both are settled the evidence points at the doctrine and not yet at this node."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched for the defending side within the works opened, and it is there. The burial book itself supplies the sixth adversity, whose commentary lists the delays, quarrels, poverty, wars, lawsuits and neglect through which a burial fails to happen, so that a favourable grave without a fortune is always attributable; and the commentary cites two cases the other way, a reader of graves who foretold the extinction of a general's clan and a duke of the annals who moved against a prognostication and died in the fifth month. Neither was traced to the works it names. Not searched: whether anyone answered the memorial itself in writing, and whether the later burial literature took up its count." ;
+    pm:evidenceFrom "Jiu Tangshu 79, the memorial of Lü Cai on the burial books, juan 79, Wenyuange Siku quanshu text" ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Lü Cai, in the memorial on the burial books recorded in Jiu Tangshu 79, seventh century; recorded here from the passage in traditions/chinese-divination.ttl" ;
+    pm:falsifiedBy "A comparison of what followed burials made on the day the books forbid with what followed burials made on days they allow, over a set of burials fixed before the outcomes are known. The doctrine claims a difference; no difference falls against it, and a difference in the wrong direction falls against it twice." ;
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:SanjiLiuxiong .
+
 pmp:CarriedBookletProtectionExamination a pm:Testing ;
     rdfs:label "Ob der Schutz des getragenen Büchleins etwas ausschließt"@de,
         "Whether the protection of the carried booklet excludes anything"@en ;
@@ -5241,6 +5327,19 @@ pmp:DivinationByThrownThings a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
+
+pmp:EmptyConsultationExamination a pm:Testing ;
+    rdfs:label "Ob das Zeichen erscheint, wenn die Befragung nicht ernst gemeint ist"@de,
+        "Whether the sign appears when the consultation is not meant"@en ;
+    skos:definition "A protocol on the claim that the counting of the stalks makes known what is coming. The condition is not this project's: a treatise of the first century puts it as the decisive case. Let a diviner bore the shell emptily and count the stalks in vain, making sport of heaven and earth, and he still gets an omen and a number; let a man curse heaven while he bores and strike the earth while he counts, and he still gets an omen and a number. The treatise draws the conclusion that the omen and the number are therefore not an answer, and adds the counterfactual that if they were, the fire should go out, the hand be scorched and the fingers shake so that the count is spoiled."@en ;
+    skos:note "The state is procedure-without-cases and the reason is exact. The treatise says that the empty and the abusive consultation still yield a figure; it does not report having made one. The wording is a supposition put to the reader, and a supposition is not a case however confident it sounds. Whoever raises this protocol beyond its present state has to make the runs, not to quote the passage more loudly."@en,
+        "The two obvious refinements are both blocked from inside the transmission, and that is the finding this protocol carries. Asking the same question twice and comparing is forbidden by the judgement on the fourth hexagram, which calls repetition defilement and withholds the answer. Consulting where the answer is already known is excluded by the Supreme Mystery, which says that who does not doubt does not consult. A control arm therefore has no sanctioned form in either work, and the treatise's empty consultation is the only one that was ever proposed."@en,
+        "What the protocol would not settle even if it ran. That a figure appears under mockery tells against the figure being an answer given by something; it does not tell against the weaker claim that the figures of earnest consultations correspond to what comes. That weaker claim needs outcomes and a count, which is the other protocol beside this one."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "Wang Chong, in the treatise on divining of the Lunheng, first century; recorded here from the passage in traditions/chinese-divination.ttl" ;
+    pm:falsifiedBy "A run of the counting performed emptily, in mockery or under abuse, which yields no figure, or yields figures distinguishable as a class from those of consultations meant in earnest. The claim as the classic states it — without thought, without doing, touched and thereupon penetrating — offers no place for the manner of the consultation to enter, so a difference between the two classes would fall against the treatise and no difference falls against the classic." ;
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:JishuZhilai .
 
 pmp:EthiopianSpokenNamesSpearExamination a pm:Testing ;
     rdfs:label "Ob die gesprochenen Namen einen Speer zurückwenden"@de,
@@ -5764,15 +5863,6 @@ pmt:ChaosMagic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Spare, The Book of Pleasure; Carroll, Liber Null and Psychonaut" .
-
-pmt:ChineseDivination a pm:Tradition ;
-    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
-        "Chinese divinatory and siting transmission"@en ;
-    skos:definition "The transmission of change-based divination, of fate calculation from birth data and of the siting of dwellings and graves."@en ;
-    skos:note "Claims here attach to datable outcomes, which makes them among the few in the corpus that could be falsified without a laboratory."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Guo Pu, Zangshu" .
 
 pmt:ChristianTheosophy a pm:Tradition ;
     rdfs:label "Christliche Theosophie"@de,
@@ -7543,6 +7633,17 @@ pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:ParacittaJnana .
 
+pmc:SanjiLiuxiong a pm:Cautioning ;
+    rdfs:label "Drei Glücksfälle und sechs Unglücksfälle"@de,
+        "Three felicities and six adversities"@en ;
+    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book closes with three conditions under which a hollow is felicitous and six under which the burial is adverse. The six: a discordance of yin and yang; a going wrong of the year and the season; a small strength that plans a great thing; a reliance on present fortune and standing power; an overreaching above or a falling short below; and a strange appearance among the responses. The classic is quoted for the conclusion that a felicitous hollow with an adverse burial is the same as abandoning the corpse."@en ;
+    skos:note "The second adversity is separately consequential, because it is the one an outside witness attacked with a count. It requires the year and the season of the burial to be right, and the memorial recorded in the dynastic history sets against that a tally of burials in the classical annals on the day the burial books call most inauspicious."@en,
+        "The sixth adversity is the reason this node stands here and not among the ordinary cautions. The commentary printed with it enumerates what the strange appearances are, and the list is a list of ways in which nothing happens: the site is right and the family delays the burial; a quarrel prevents it; poverty and sickness together make it impossible; the master dies before he can return; the coffin stands for years and a war intervenes; the descendants do not agree; a lawsuit or a prison ends it; the days pass in neglect until the thing is abandoned. Every one of these is a reason a favourable grave produced no fortune, and every one is available after the fact."@en,
+        "What the graph gains here is not a warning but a shape of claim. Beside the interval that does not turn a day, this file now holds the machinery that keeps that interval from ever being read as a refutation, in the same book and a few folios apart."@en ;
+    pm:cautionsAbout pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:SecondDegreeYieldsDistantHearing a pm:Yielding ;
     rdfs:label "Der zweite Grad bringt das Fernhören hervor"@de,
         "The second degree yields hearing at a distance"@en ;
@@ -8420,6 +8521,14 @@ pmp:Xingqi a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Daoist .
 
+pmp:XuanShu a pm:Practicing ;
+    rdfs:label "Das Abzählen des Höchsten Geheimnisses"@de,
+        "The counting of the Supreme Mystery"@en ;
+    dcterms:source "Yang Xiong, Taixuanjing, Xuan shu, the eleventh, with the commentary of Fan Wang, juan 8, Sibu congkan facsimile" ;
+    skos:definition "A parallel counting on a different modulus. Thirty-six are looked to for the stalks; heaven divides by three and ends at six completions, hence eighteen, and since heaven does not give and earth does not complete, the number is doubled and earth leaves three empty against heaven's eighteen. One is separated and hung on the little finger of the left hand, the rest is divided in the middle and searched through by threes, and the remainder is set beside the notch. After one notch the remainder is counted: seven counts as one, eight as two, nine as three, and at six reckonings the way of the stalks is exhausted. The four positions so obtained give one of eighty-one heads, and each head carries nine appraisals ranked as thought, fortune and misfortune, each in a lower, middle and upper degree."@en ;
+    skos:note "The interest is the contrast with the Changes, and it is exact: the same act of reading a figure off an ungoverned remainder, on a modulus of three instead of four, over four positions instead of six, into eighty-one figures instead of sixty-four. Two traditions in one language, three centuries apart, differing in the arithmetic and agreeing in the form. That is the strongest internal evidence this file holds that the form is not the content."@en ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmp:ZhidaoYangsheng a pm:Practicing ;
     rdfs:label "Das Regimen derer, die den Weg kannten"@de,
         "The regimen of those who knew the way"@en ;
@@ -8890,6 +8999,14 @@ pmc:XingqiDescent a pm:Conceptualizing ;
     skos:note "The inscription assigns direction to a place in a sequence, not to a phase of breathing. Descent follows gathering and extension; ascent follows sprouting and growing. The closing lines set the two directions against the two powers, the dynamism of heaven showing in what rises and that of earth in what descends. Nothing here binds a direction to inhaling or to exhaling. See prima-materia#27 and prima-materia#28."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:YitiShouyin a pm:Conceptualizing ;
+    rdfs:label "Die Gebeine empfangen das Qi und die Nachkommen werden beschirmt"@de,
+        "The bones receive the qi and the descendants are shaded"@en ;
+    dcterms:source "Zangshu, inner section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The claim the whole doctrine rests on: a person receives his body from his parents, and when the root bones obtain the qi the body left behind is shaded. The classic is quoted for it — the qi is touched and responds, and the fortune of the dead reaches the living — and the resonance is illustrated by the bronze mountain that collapsed in the west while the numinous bell answered in the east."@en ;
+    skos:note "The claim is transitive across a generation and across death, which is what makes it examinable in principle: it predicts something about descendants from something about a grave. What it does not carry is a way of telling the shading from its absence in any single case, and the commentary printed with the text takes the transitivity further rather than bounding it, extending the shading to adopted children and to the sons of a second mother."@en ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:ZuniPrayerExactness a pm:Conceptualizing ;
     rdfs:label "Buchstabengetreue Wiedergabe"@de,
         "Letter-perfect delivery"@en ;
@@ -8944,11 +9061,6 @@ pm:counterSearchFoundNothing a pm:CounterSearchState ;
         "Counter-search found nothing"@en ;
     skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
         "First-person report"@en ;
@@ -8997,6 +9109,15 @@ pmp:ConfessionBeforeTheIchuri a pm:Practicing ;
     skos:note "It is also done outside the feasts, when a man is sick, because they understand that their ancestors and huacas are angry at their faults and that this is why they fall ill. Some purify themselves without telling anyone, by rubbing the head with the pasca and washing it in a river, saying that the water carries the faults away; and one man said the specialist took him and his wife to a large ditch, washed them, made them put on new clothes and leave the old ones on the road, saying that their faults stayed there and that whoever took the clothes would take them."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
+
+pmp:Dieshi a pm:Practicing ;
+    rdfs:label "Das Abzählen der Schafgarbenstengel"@de,
+        "The counting of the yarrow stalks"@en ;
+    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "The number of the great expansion is fifty, and forty-nine of them are used. They are divided into two to image the two; one is hung between the fingers to image the three; they are counted through by fours to image the four seasons; the remainder is returned between the fingers to image the intercalary month, and because five years hold two intercalations there are two such returns before the next hanging. Four operations complete a change, eighteen changes complete a hexagram, and the eight trigrams are a small completion."@en ;
+    skos:note "The chapter as it stands does not say what the remainder means. It gives four operations and eighteen changes and nowhere says that three changes make one line, nor how a remainder is read off as a value; the string for three changes does not occur in the section at all. The rule that makes the procedure executable is later, and stands in the Song commentary rather than in the canon. This file records what the canon gives and leaves the completion to the issue that carries it, because a node that printed the Song rule as canonical would report as ancient a step the classic does not take."@en,
+        "Two numbers stand in the same passage and only one of them is the famous one. The stalks of the two parts are eleven thousand five hundred and twenty, matching the number of the things; that is in the text. Four thousand and ninety-six is not, and belongs to a commentary."@en ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmp:DreamYoga a pm:Practicing ;
     rdfs:label "Traumyoga"@de,
@@ -9098,6 +9219,13 @@ pmp:YeridatMerkavah a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hekhalot .
 
+pmp:Zang a pm:Practicing ;
+    rdfs:label "Bestattung, die das lebendige Qi reitet"@de,
+        "Burial that rides the living qi"@en ;
+    dcterms:source "Zangshu, inner section, opening, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book opens with the sentence that burying is riding the living qi. The five qi run within the earth and issue forth to generate the ten thousand things; the qi scatters when it rides the wind and halts where it is bounded by water, and because the ancients gathered it so that it would not scatter and moved it so that it would halt, the thing is called wind and water. The living is a gathering of qi which congeals into bone and remains alone after death, so that burying is the method of returning the qi into the bone in order to shade what it generated."@en ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmt:GaudiyaVaisnava a pm:Tradition ;
     rdfs:label "Gauḍīya-vaiṣṇavische Überlieferung"@de,
         "Gauḍīya Vaiṣṇava transmission"@en ;
@@ -9194,6 +9322,14 @@ pmc:InuitSecondSight a pm:Conceptualizing ;
     skos:note "The English term is the translator's. What the node carries is the claim reported under it and not the term's own history in Scottish and Scandinavian usage; whether the Inuktitut word behind it has that range is not decidable from the portion read."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmc:JishuZhilai a pm:Conceptualizing ;
+    rdfs:label "Die Zahlen erschöpfen, um das Kommende zu wissen"@de,
+        "Exhausting the numbers to know what is coming"@en ;
+    dcterms:source "Zhouyi, Xici A, the sections on prognostication and on what the Changes are without, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "What the Changes are said to do, stated twice in the same treatise. To exhaust the numbers and thereby to know what is coming is called prognostication, and what yin and yang do not sound out is called spirit. And: the Changes are without thought and without doing, still and unmoving; touched, they thereupon penetrate the grounds of everything under heaven. The same section says that whoever is not the most spiritlike thing under heaven could not do this, and that the Changes receive a charge as an echo receives a sound."@en ;
+    skos:note "The formulation is the strongest in this file and the least examinable, and both for the same reason. Without thought and without doing means that nothing about the operator's state is offered as a condition, so no failure can be assigned to him; and knowing what is coming is not tied to any statement that could turn out false. What the corpus does supply against this is the one condition on repetition, below, and the counter-argument from a work of the first century, held as a dispute."@en ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:Manomayakaya a pm:Conceptualizing ;
     rdfs:label "Geistgemachter Körper"@de,
         "Mind-made body"@en ;
@@ -9285,6 +9421,11 @@ pm:claimDoesNotDiscriminate a pm:ExaminationState ;
     skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
         "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
         "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
@@ -9623,6 +9764,11 @@ pm:cededAgency a pm:AgencyHolding,
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
         "Graeco-Roman testimony"@en ;
@@ -9663,11 +9809,6 @@ pm:TelicOrientation a owl:Class,
     skos:note "The values name what a source claims, not what happens. Nothing on this axis is examined by holding it; where somebody takes up the examination, that is a pm:Testing node pointing at the claim, and the examination states of the two values are not symmetric."@en,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
-
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
 
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
@@ -9845,6 +9986,20 @@ pmt:Maori a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
+
+pmt:ChineseDivination a pm:Tradition ;
+    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
+        "Chinese divinatory and siting transmission"@en ;
+    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "The Chinese transmission of divination by counting stalks down to a remainder, of a parallel counting on a different modulus, and of the siting of graves on the doctrine that the bones of the parents receive the qi of the ground and that the descendants are shaded by it."@en ;
+    skos:note "A second reason the old value could not stand. The works read span the first century before the common era to a redaction of the fourteenth: the burial book as read is the recension Wu Cheng made from the eight sections Cai Yuanding had left of twenty, and it is first attested in the Song bibliography. Absent asks whether a route was available at the time the corpus was fixed, and for that end of the corpus the answer is not the same as for the Xici."@en,
+        "Chosen from the registry on the testability entrance, and the reading bore the registration out on both halves. Fristen and stated outcomes are dense here: the burial book says that where the configuration is inauspicious the misfortune does not turn a day, and it names what a given shape of ground brings to the descendants, down to the extinction of the line. What the registration did not say is that the same book carries six adversities under which a favourable site produces nothing, and that the commentary on the sixth enumerates the delays, disputes, poverty and wars through which a burial fails to happen at all. Every non-occurrence has a place to go."@en,
+        "Edition note. The Changes were read in the digital text of the Kanseki Repository in the Wang Bi and Han Kangbo recension; that text names no printing, and the citations say so rather than inventing one. The Taixuanjing and the Lunheng were read in the Sibu congkan facsimiles, the Zangshu and the Jiu Tangshu in the Wenyuange Siku quanshu text."@en,
+        "Read in this run at the wording, in the Chinese: Zhouyi, Xici A, sections on the great expansion and on what the Changes are without; Zhouyi, hexagram 4; Taixuanjing, Xuan shu, the eleventh; Zangshu, the whole of the single juan of the Siku recension, inner, outer and miscellaneous sections with its interlinear commentary; Lunheng 24, the treatise on divining; Jiu Tangshu 79, the memorial on the burial books. The Taixuanjing outside the counting chapter, and the rest of the Lunheng, were searched by term and not read continuously."@en,
+        "The contact route is entered as disputed and no longer as absent, and the dispute is in the literature rather than in the sources. The graph already holds three transmissions that read a figure off an ungoverned remainder — the Ifá casting, the Fa casting and the geomantic tradition — and the counting of the Changes has the same form on a different modulus. One side derives the Arabic sand art from Chinese material through Needham's transmission routes; the other reconstructs it inside Abbasid Mesopotamia and states that the Chinese derivation was tried and dropped. Neither side was read at the wording in this run, and nothing here decides it; what the value records is that the question is contested and open, which is the opposite of what absent asserted."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
 
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
@@ -10028,18 +10183,6 @@ pmt:EthiopianOrthodoxMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Lefafa Sedeq; the asmat scroll corpus; the Geez canon" .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
-pm:contactRouteDisputed a pm:ContactRoute ;
-    rdfs:label "Kontaktweg strittig"@de,
-        "Contact route disputed"@en ;
-    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
-
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
         "Ars Notoria"@en ;
@@ -10050,6 +10193,18 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
+
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -10216,19 +10371,19 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
         "Situating"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
