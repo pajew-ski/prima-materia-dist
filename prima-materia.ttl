@@ -617,6 +617,32 @@ pmc:CinwadPuhl a pm:Conceptualizing ;
     skos:note "The measure is stated in a unit and is therefore comparable, which most of what the transmissions in this graph say about such passages is not. What the chapters read do not give is the counter-measure, the width for the one who fails; that stands in another book and was not opened here."@en ;
     pm:withinTradition pmt:Zoroastrian .
 
+pmc:CizhenPresupposesJingshen a pm:Presupposing ;
+    rdfs:label "Die Nadelung setzt voraus, dass der Geist da ist"@de,
+        "Needling presupposes that the spirit is present"@en ;
+    dcterms:source "Huangdi neijing lingshu 8 (Ben shen), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2",
+        "Huangdi neijing suwen 14 (Tang ye lao li lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 4" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Two passages state it and both state a consequence rather than a degree. Where the essence-spirit does not go forward and the intent is not ordered, the illness cannot be cured, and the body worn out and the blood exhausted the treatment establishes nothing. Where the five, essence, spirit, hun, po and the intent, are damaged, the needle cannot treat him at all."@en ;
+    pm:dependentStep pmp:Cizhen ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:Jingshen ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:CizhongIntervalDispute a pm:Disputing ;
+    rdfs:label "Wie lange nach dem Treffer ins Depot der Tod eintreten soll"@de,
+        "How long after a depot is struck death is said to follow"@en ;
+    dcterms:source "Huangdi neijing suwen 16 (Zhen yao jing zhong lun), with the Xin jiao zheng collation notes, in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 4",
+        "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14",
+        "Huangfu Mi, Zhenjiu jiayi jing, juan 5 (Zhen jiu jin ji), in the Wenyuange Siku quanshu text" ;
+    skos:definition "Three places in the same canon give different intervals for the same strike, and a fourth witness gives a fourth set. The needling-prohibition chapter has the kidney at six days, the lung at three and the spleen at ten. The chapter on the essentials of examination has the heart dying within one circuit rather than in one day, the spleen at five days, the kidney at seven, the lung at five, and adds a strike through the diaphragm after which the patient dies within the year however well he seems to recover. The Zhenjiu jiayi jing has the kidney at three days, the spleen at fifteen, and gives the liver's sign as a different character from the one the received Suwen prints. The Song editors record in their collation notes that the older recension of Quan Yuanqi agreed with the Jiayi jing on both numbers, and that Wang Bing changed the liver's sign."@en ;
+    skos:note "The commentators do not treat the numbers as observations. The note beside the spleen argues from ten being the completion number of earth, and other commentators have wanted to correct liver and lung to the generation numbers of wood and metal. A number defended from a numerology is not thereby false, but it is not evidence of a counted interval either, and a protocol on this claim would have to begin there."@en,
+        "The consequence for this graph is narrower than the dispute. Nothing here says that the intervals are wrong; what it says is that a citation naming one chapter conceals that the same canon carries three answers, and that the earliest reachable witness disagrees with the received text at two of the six places."@en,
+        "The dispute is entered because the transmitted text states it about itself and states a verdict on it. The collation note printed with the chapter on the essentials of examination says that these three discourses are all the words of Qi Bo and that their differing is an error of transmission. That is one party's account of the divergence and not a neutral finding, and the graph keeps it as such."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:CizhongWuzang ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
     rdfs:label "Das klare Licht liegt an der Schlafschwelle"@de,
         "The clear light is placed at the sleep threshold"@en ;
@@ -3074,6 +3100,15 @@ pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     pm:priorStep pmc:EmptyingOfTheHeart ;
     pm:withinTradition pmt:Daoist .
 
+pmc:QizhiYouxiao a pm:Conceptualizing ;
+    rdfs:label "Das Ankommen des Qi und das zurückgewiesene Zeichen"@de,
+        "The arrival of the qi, and the sign that is refused"@en ;
+    dcterms:source "Huangdi neijing lingshu 9 (Zhong shi), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2" ;
+    skos:definition "The Lingshu states what it means for the qi to have arrived and to have had effect, and states it as a rule over the vessel and not over the patient. Where the operation drained, the vessel is to be as large as before but no longer hard; if it is hard as before, then although the patient says it is as it was, the illness has not gone. Where the operation supplemented, the vessel is to be as large as before and harder; if it is as before and not hard, then although the patient says he feels relieved, the illness has not gone. The chapter closes the rule from the other side: even where the pain does not follow the needle, the illness must be in retreat."@en ;
+    skos:note "The reason for entering this rather than the many other success signs in the corpus. A success sign told to the practised beforehand is worth little, because he will report it; this passage names such a report and refuses it twice over, in the same sentence in which it gives the criterion that replaces it. The corpus therefore holds a stated distinction between what a patient says and what counts as the operation having taken, and the distinction runs against the interest of the operator."@en,
+        "What the passage does not supply is a way of reading the vessel that two examiners would read alike. The criterion is hardness under the finger, which is why this is entered as a sign the tradition names and not as a procedure the graph can use."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:QuestionDEpreuve a pm:Conceptualizing ;
     rdfs:label "Die Prüfungsfrage"@de,
         "The test question"@en ;
@@ -3432,6 +3467,24 @@ pmc:ShemihazahTeachesSpellCasting a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:Shenbushi a pm:Conceptualizing ;
+    rdfs:label "Der Geist gibt sich nicht her"@de,
+        "The spirit does not lend itself"@en ;
+    dcterms:source "Huangdi neijing suwen 14 (Tang ye lao li lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 4" ;
+    skos:definition "The term the corpus gives to the case in which the body is worn out and the blood exhausted and the treatment establishes nothing. Asked why that happens, the answer is that the spirit does not lend itself. Needle and stone, the passage continues, are a way; where the essence-spirit does not go forward and the intent is not ordered, the illness cannot be cured; and where the essence is ruined and the spirit gone, the constructive and defensive qi can no longer be gathered back, because desire is without end and grief without cease."@en ;
+    skos:note "This is the failure condition of this corpus that is hardest to test and most worth recording, because it is located in the patient and not in the operation. Any outcome of a treatment can be assigned to it after the fact, and the passage supplies no mark by which its presence could be established beforehand. Recorded as the tradition's own account of why a correct procedure fails, and marked here as the shape of claim that absorbs every outcome."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:ShierjinZhongshi a pm:Cautioning ;
+    rdfs:label "Die zwölf Verbote und was ihr Bruch bewirken soll"@de,
+        "The twelve prohibitions, and what is said to follow from breaking them"@en ;
+    dcterms:source "Huangdi neijing lingshu 9 (Zhong shi), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2" ;
+    skos:definition "The needling chapter of the Lingshu states the same prohibitions as a two-sided rule and adds a state the other list does not have. Newly after intercourse do not needle, and newly needled do not lie together; already drunk do not needle, and already needled do not get drunk; newly angered, newly exhausted, already filled, already hungry, already thirsty, each in the same double form. On great fright and great fear the rule is not a prohibition at all but a condition: settle the qi first, then needle. Two further clauses set waiting times by the manner of arrival, the time of a meal for one who came by cart and the time of walking ten li for one who came on foot. The chapter then names what breaking the twelve does: the vessels are disordered and the qi scattered, a yang illness enters the yin and a yin illness comes out as yang, the evil qi is generated afresh, and the text calls it hewing at the body, wasting the brain marrow and losing the qi."@en ;
+    skos:note "The relation to the Suwen list is not similarity but disagreement, and the Song collation note printed with the Suwen chapter says so in as many words: it states that the seven clauses there and the Lingshu clauses go in and out of one another, and it prints the Lingshu wording beside them so that a reader can see it. The two differ on fright, which one forbids and the other admits after a delay, and on intercourse, which only the Lingshu has."@en,
+        "This is also the passage in this corpus that comes closest to a stated failure condition for the operator rather than the patient. It says what the transgression produces, in the body, and names the direction of the change."@en ;
+    pm:cautionsAbout pmp:Cizhen ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:SiddhisAsObstacle a pm:Cautioning ;
     rdfs:label "Die Kräfte sind Hindernisse für samādhi"@de,
         "The powers are obstacles to samādhi"@en ;
@@ -3494,6 +3547,15 @@ pmc:SituatingArsNotoriaPrognosisAgency a pm:Situating ;
     pm:axisValue pm:cededAgency ;
     pm:situatedNode pmc:ArsNotoriaOratioYieldsCognitioAegritudinis ;
     pm:situationGround "The text states the coordinate itself rather than describing a condition from which it has to be inferred: know that this miracle proceeds not from your own nature, but from the nature and virtues of the holy angels, it being a part of their office to reveal these things to you. The operator says the words and asks the question; what is said to act is named as someone else." .
+
+pmc:SituatingDujianAnchoring a pm:Situating ;
+    rdfs:label "Das Alleinsehen wird bei abgezogener Vertiefung verortet"@de,
+        "Seeing alone is placed at withdrawn absorption"@en ;
+    dcterms:source "Huangdi neijing suwen 26 (Ba zheng shen ming lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 8" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:withdrawnAbsorption ;
+    pm:situatedNode pmc:Dujian ;
+    pm:situationGround "The passage names the withdrawal of the ordinary channel itself and does not leave it to be inferred: the ear does not hear, and where all look he alone sees. The practitioner is awake and at work on a patient throughout, so what is set aside is the reliance on what the senses report and not waking itself. That is the criterion this coordinate names."@en .
 
 pmc:SituatingEthiopianAsmatAgency a pm:Situating ;
     rdfs:label "Der Schutz der Namen wird bei abgetretener Handlung verortet"@de,
@@ -4316,6 +4378,15 @@ pmc:WoundsSharedWithTheAnimal a pm:Conceptualizing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:NahuaRitual .
 
+pmc:WucijinQizhuang a pm:Cautioning ;
+    rdfs:label "Die sieben Zustände, in denen nicht genadelt wird"@de,
+        "The seven states in which one does not needle"@en ;
+    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "Seven conditions of the person are named in which the needle is not to be used, and the first two carry their consequence with them: do not needle one greatly drunk, it makes the qi disordered; do not needle one greatly angered, it makes the qi go against its course; do not needle one greatly exhausted, nor one newly filled with food, nor one greatly hungry, nor one greatly thirsty, nor one greatly startled."@en ;
+    skos:note "The consequence is stated for the first two and withheld for the remaining five, which the file keeps as it stands rather than extending the pattern. Where a later chapter of the same corpus states consequences for the whole list, that is a second and differently worded passage and it is entered separately."@en ;
+    pm:cautionsAbout pmp:Cizhen ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:XingqiInscriptionDispute a pm:Disputing ;
     rdfs:label "Datierung und Lesung der Jadeinschrift"@de,
         "The dating and reading of the jade inscription"@en ;
@@ -4326,6 +4397,15 @@ pmc:XingqiInscriptionDispute a pm:Disputing ;
     skos:note "Held as a node rather than as a remark, because the dating decides whether this is the earliest datable witness to deliberate circulation of the qi or one witness among several, and because a citation that names only the inscription conceals that anything is at issue."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmp:Xingqi .
+
+pmc:YangshengYieldsDubaisui a pm:Yielding ;
+    rdfs:label "Das Regimen bringt die volle Spanne hervor"@de,
+        "The regimen yields the full span"@en ;
+    dcterms:source "Huangdi neijing suwen 1 (Shang gu tian zhen lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 1" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ZhidaoYangsheng ;
+    pm:withinTradition pmt:ChineseMedicalCanon ;
+    pm:yieldsCapacity pmc:DubaisuiNaiqu .
 
 pmc:YuruguPursuit a pm:Conceptualizing ;
     rdfs:label "Yourougou in Verfolgung Yasiguis"@de,
@@ -4345,6 +4425,23 @@ pmc:ZandeOracleSetDispute a pm:Disputing ;
         "The two accounts also differ on who receives the poison. The Belgian ethnography, written sixteen years earlier and on the other side of the border, gives the ordeal as administered to a suspected person or to a fowl, in the present tense and without qualification. The monograph gives administration to human beings as a thing of the past and very rare even then. Whether that is a change over sixteen years, a difference between the two administrations, or a difference of observation is not decidable from the two passages."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:OracleRankOrder .
+
+pmc:ZhenrenZhirenShengrenXianren a pm:Conceptualizing ;
+    rdfs:label "Die vier gestuften Personen des ersten Kapitels"@de,
+        "The four graded persons of the first chapter"@en ;
+    dcterms:source "Huangdi neijing suwen 1 (Shang gu tian zhen lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 1" ;
+    skos:definition "Four grades, each with a stated reach and each ascribed to a conduct rather than to a birth. The true persons of high antiquity lifted and held heaven and earth, grasped the yin and the yang, breathed the essence-qi, stood alone and guarded the spirit, and their flesh was as one, so that their years wore out heaven and earth and had no ending time. Next the perfected persons, whose virtue was whole, who were in accord with yin and yang and in tune with the four seasons, who left the age and departed from custom, who accumulated the essence and made the spirit whole, who roamed between heaven and earth and whose seeing and hearing went beyond the eight reaches. Next the sages, who dwelt in the harmony of heaven and earth and followed the pattern of the eight winds, whose bodily form was not worn out and whose essence and spirit were not scattered, and who likewise could be counted in hundreds. Last the worthies, who took heaven and earth for their rule and modelled themselves on sun and moon, and who could lengthen their years but had a limit."@en ;
+    skos:note "Nothing in the chapter says that the two upper grades were observed, and nothing says how one would tell a perfected person from a worthy. The grades are entered as what the corpus claims and not as a scale the graph can place anyone on."@en,
+        "The two upper grades carry the claims that make this a capacity list rather than a moral one: a lifespan coextensive with heaven and earth and without end, and a seeing and hearing that reaches beyond the eight quarters. The two lower grades carry no such claim and are bounded in the text itself, the third at a count in hundreds and the fourth explicitly at a limit."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:ZhenxiaReHan a pm:Conceptualizing ;
+    rdfs:label "Wärme und Kälte unter der Nadel"@de,
+        "Heat and cold under the needle"@en ;
+    dcterms:source "Huangdi neijing suwen 54 (Zhen jie pian), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "A second sign, stated in the chapter that explains the nine needles: where emptiness is to be filled, it is warm under the needle, for the qi becomes full and then it is warm; where fullness is to be drained, it is cold under the needle, for the qi becomes empty and then it is cold. The same chapter makes the warmth the criterion for withdrawal, saying that in needling an emptiness one waits for the fullness, and that when the yang qi has arrived in force and it is warm under the needle, then the needle is taken out."@en ;
+    skos:note "Held apart from the vessel criterion above, and the difference is the point. This one is felt by the operator at the needle and is not stated to be checkable by anybody else; the other is a rule over a finding that at least two people can take. A tradition that carries both is a tradition that has not settled which of them decides, and the file does not settle it either."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
     rdfs:label "Ziqel offenbart die Zeichen der Sternschnuppen"@de,
@@ -4919,6 +5016,14 @@ pmp:AndeanDreamDivination a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
 
+pmp:AnguiShi a pm:Practicing ;
+    rdfs:label "Die Probe an der Schildkröte"@de,
+        "The pressing of the turtle"@en ;
+    dcterms:source "Huangdi neijing lingshu 73 (Guan neng), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 11" ;
+    skos:definition "The procedure the chapter gives for deciding whether a person has the poisonous hand. A turtle is placed under a vessel and the person presses on the vessel from above. If his hand is poisonous, the turtle is dead in fifty days; if his hand is sweet, it lives on as before."@en ;
+    skos:note "Entered as a practice in its own right because of what it is: a discrimination procedure, stated by the tradition, over a claim about a person, with a fixed term and two outcomes that are not the same. Nothing else read in this corpus in this run has that shape, and the reason for opening the corpus from the testability side was the expectation of finding it."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmp:ArsNotoriaPrognosisExamination a pm:Testing ;
     rdfs:label "Ob die Antwort des Kranken entscheidet, was die Kunst sagt"@de,
         "Whether the answer of the sick man decides what the art says it decides"@en ;
@@ -5198,6 +5303,20 @@ pmp:OrdealByOdumDecoction a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
+
+pmp:PoisonousHandTurtleExamination a pm:Testing ;
+    rdfs:label "Ob die Probe an der Schildkröte die giftige Hand unterscheidet"@de,
+        "Whether the pressing of the turtle discriminates the poisonous hand"@en ;
+    skos:definition "A protocol on the claim that a person whose hand is poisonous kills a turtle within fifty days by pressing on the vessel it is held under, while a person whose hand is sweet leaves it living as before. The claim is examinable in the form the source gives it: the term is fixed, the arrangement is described, and the two outcomes are stated as different."@en ;
+    skos:note "A protocol that ever ran would also have to say what the corpus does not: whether the term begins at the first pressing or at the last, and how often the pressing is repeated within the fifty days. The passage gives neither, and a run that fixed them would be fixing them, not reading them."@en,
+        "No case has been collected, and the obstacle is not the scarcity of turtles. It is that the source does not say what it is about the pressing that is supposed to act, so the arrangement it describes has no condition under which the pressing is present and the poison absent. A run of the procedure would establish that a turtle held under a pressed vessel for fifty days dies or does not; whether the hand made the difference needs a second arm the source does not describe, and devising one is the work this state is waiting on."@en,
+        "The state is procedure-without-cases and not no-procedure-devised, and the difference is the whole reason this node exists. The tradition devised the procedure; nobody has carried it. Recording that as though nobody had thought of a test would report the reach of this project's instruments as a property of the corpus."@en,
+        "What the claim does not do is the thing most claims of this kind do. It does not say that the poisonous hand harms only where the intent is wrong, or only in a person unprepared, or only where the practitioner is not seen. There is no absorbing clause in the sentence, and that absence is what makes the fifty days mean anything."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passage recorded in traditions/chinese-medical-canon.ttl" ;
+    pm:falsifiedBy "A person named as having the poisonous hand who presses as described and whose turtle is alive and unchanged after fifty days; or a person named as having the sweet hand whose turtle dies within the term. The source states the outcomes as a pair and attaches no clause under which either could still be counted as confirming, so a case on either side falls against the claim." ;
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:Shoudu .
 
 pmp:PostMortemForWitchcraftSubstance a pm:Practicing ;
     rdfs:label "Die Leichenschau auf die Hexereisubstanz"@de,
@@ -5547,14 +5666,6 @@ pmt:ChineseDivination a pm:Tradition ;
     pm:contactRoute pm:contactRouteAbsent ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Guo Pu, Zangshu" .
-
-pmt:ChineseMedicalCanon a pm:Tradition ;
-    rdfs:label "Chinesischer medizinischer Kanon"@de,
-        "Chinese medical canon"@en ;
-    skos:definition "The canonical Chinese account of qi, the channels and the spirits resident in the organs, framed as a clinical rather than a soteriological doctrine."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing" .
 
 pmt:ChristianTheosophy a pm:Tradition ;
     rdfs:label "Christliche Theosophie"@de,
@@ -6449,6 +6560,16 @@ pmc:CastingYieldsForeknowledge a pm:Yielding ;
     pm:withinTradition pmt:Ifa ;
     pm:yieldsCapacity pmc:IfaForeknowledge .
 
+pmc:CizhongWuzang a pm:Cautioning ;
+    rdfs:label "Der Treffer ins Depot: die Frist und das Zeichen"@de,
+        "Striking a depot: the interval and the sign"@en ;
+    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "A needle driven into one of the depots is said to kill after a stated interval, and each interval is paired with a bodily sign by which the strike is to be recognised. The heart: death in one day, the movement belching. The liver: five days, speech. The kidney: six days, sneezing. The lung: three days, coughing. The spleen: ten days, swallowing. The gall bladder: a day and a half, vomiting. The same chapter continues with strikes that maim rather than kill and names the outcome for each: into the brain through the occipital opening, death on the spot; the vessel in the face, blindness; the marrow between the vertebrae, a bent back; the knee cap, lameness; the arm's great yin vessel, immediate death from loss of blood."@en ;
+    skos:note "Entered because of the form and not the content. This is a claim that names an outcome it excludes: a person struck in the heart who is alive on the third day is not covered by any weaker reading of the sentence, and the sign attached to each interval says what the strike is supposed to look like while the interval runs. Very little in this graph is stated that way."@en,
+        "The intervals are not stable across the witnesses, and the transmitted text says so about itself. That is held in the dispute node below rather than in this definition, which gives the numbers as the recension read prints them."@en ;
+    pm:cautionsAbout pmp:Cizhen ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:CommunicationFromTheSun a pm:Conceptualizing ;
     rdfs:label "Eine Mitteilung von der Sonne"@de,
         "A communication from the Sun"@en ;
@@ -6539,6 +6660,22 @@ pmc:DrumWoodTurningWithTheSun a pm:Conceptualizing ;
         "The direction is stated twice in this file in frames that do not obviously agree. Here the sun's course is the grain winding from the right hand to the left as it rises; at pmc:SunCourseRule it is the ring travelling round towards the right hand. Whether a spiral seen along a rising trunk and a ring seen on a flat skin describe one direction or two is not decidable from the passages, and is left standing rather than harmonised."@en,
         "The recorder gives the sun-acceptability as his own conjecture — 'from this perhaps they believe' — not as something told to him. The requirement is reported; its reason is his."@en ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:DubaisuiNaiqu a pm:Conceptualizing ;
+    rdfs:label "Die vollständig gelebten hundert Jahre"@de,
+        "The hundred years fully lived out"@en ;
+    dcterms:source "Huangdi neijing suwen 1 (Shang gu tian zhen lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 1" ;
+    skos:definition "The outcome the same chapter attaches to that conduct: form and spirit together, the heaven-given years carried to their end, a hundred years passed through and then departure. Against it stands the stated outcome of the counter-case, decline at half a hundred."@en ;
+    skos:note "Held as a capacity claim and not as a piece of cosmology because the chapter states both arms and states them in the same terms. It is nonetheless not a claim any protocol reaches from here: the antecedent is a manner of living over a lifetime and the corpus supplies no way of establishing that it was kept."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:Dujian a pm:Conceptualizing ;
+    rdfs:label "Allein sehen, wo alle hinsehen"@de,
+        "Seeing alone where all are looking"@en ;
+    dcterms:source "Huangdi neijing suwen 26 (Ba zheng shen ming lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 8" ;
+    skos:definition "The corpus is asked what it means by spirit and answers with a description of a perception that precedes the senses. The ear does not hear; the eye is bright and the heart opens and the intent goes first; he understands alone and clearly and the mouth cannot say it; all look and he alone sees; it is as though dark, and he alone is bright, as when wind blows the clouds away. The chapter sets this against the corresponding account of form, where what is sought is found by asking after the illness and searching it in the vessels."@en ;
+    skos:note "Entered because it is the clearest statement in this corpus that a capacity of the practitioner is meant and not a technique. It is also the least examinable: the passage says in the same breath that the mouth cannot say it, so nothing in the description could be set against an outcome."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmc:EmmeYaTolo a pm:Conceptualizing ;
     rdfs:label "Emme ya tolo, der Weibliche-Hirse-Stern"@de,
@@ -6904,6 +7041,13 @@ pmc:InuitSewingProhibitionOnOqshoriaq a pm:Conceptualizing ;
     skos:definition "A prohibition attached to a named place: garments of new caribou skin may not be sewn on the island of Oqshoriaq."@en ;
     skos:note "The prohibition is local and specific, which distinguishes it from the general taboo system the later chapters of the volume set out. Whether it is a case of that system or a rule of its own cannot be decided from the portion read."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:Jingshen a pm:Conceptualizing ;
+    rdfs:label "Essenzgeist und Absicht des Kranken"@de,
+        "The essence-spirit and the intent of the sick person"@en ;
+    dcterms:source "Huangdi neijing lingshu 8 (Ben shen), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2" ;
+    skos:definition "The condition of the patient on which the corpus makes the whole operation depend: the essence and the spirit, and with them the intent, held to be present or absent and to be won or lost. The Lingshu instructs the needler to observe the bearing of the sick person in order to know whether essence, spirit, hun and po are present or gone; where these five are damaged, it says, the needle cannot treat him."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmc:JourneyYieldsDistantSight a pm:Yielding ;
     rdfs:label "Die Reise bringt das Wissen um den fernen Ort hervor"@de,
@@ -7293,6 +7437,14 @@ pmc:Shamsiel a pm:Naming ;
     pm:nameForm "Shamsiêl" ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
+
+pmc:Shoudu a pm:Conceptualizing ;
+    rdfs:label "Die giftige Hand"@de,
+        "The poisonous hand"@en ;
+    dcterms:source "Huangdi neijing lingshu 73 (Guan neng), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 11" ;
+    skos:definition "A property of a person's hands, named in the chapter that assigns offices according to fitness: some have bitter nails and poisonous hands and in doing things are apt to injure, and such a person is to be set to pressing on accumulations and holding down numbness. The chapter opposes it to the sweet hand. It stands in a list beside the assignment of the well-jointed and supple-sinewed to the leading and pulling of the qi, and of the sharp-tongued and slighting to the spitting on abscesses and the incanting of illnesses."@en ;
+    skos:note "The claim is that the difference is a property of the person and not of what he does, since the chapter assigns offices by it and says that where the person is not the right one the work does not succeed and his teacher goes without a name."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmc:SignsOfLightning a pm:Conceptualizing ;
     rdfs:label "Zeichen der Blitze"@de,
@@ -8134,6 +8286,13 @@ pmp:Xingqi a pm:Practicing ;
     skos:note "The two axes of disagreement belong to the claim and are recorded with it. Dating: Harper places the inscription in the late fourth or early third century BCE, Needham in the middle of the sixth. Reading: Harper takes the opening two characters as the title and begins the text at the second line, where Roth counts and construes differently. A citation that names only the inscription conceals both."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Daoist .
+
+pmp:ZhidaoYangsheng a pm:Practicing ;
+    rdfs:label "Das Regimen derer, die den Weg kannten"@de,
+        "The regimen of those who knew the way"@en ;
+    dcterms:source "Huangdi neijing suwen 1 (Shang gu tian zhen lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 1" ;
+    skos:definition "The conduct the opening chapter ascribes to the people of high antiquity who knew the way: they took the yin and the yang as their model and were in accord with the arts and the numbers, they were measured in food and drink and regular in rising and resting, and they did not work recklessly. The chapter states the counter-case in the same breath, of the people of the present who take wine for water, take the reckless for the regular, enter the bedchamber drunk, exhaust their essence in desire and are without measure in rising and resting."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmp:ZuyuaThan a pm:Practicing ;
     rdfs:label "Das Verhör in der Sprache von Zuyua"@de,
@@ -9120,6 +9279,13 @@ pmp:ArsNotoriaOratio a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmp:Cizhen a pm:Practicing ;
+    rdfs:label "Nadelung"@de,
+        "Needling"@en ;
+    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "The insertion of a needle at a named place on the body to a stated depth, held to move the qi of a depot or a vessel either towards fullness or towards emptiness. The corpus treats it throughout as an operation that can go wrong, and states the going wrong in the same register as the going right."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
         "Initiation into the second degree"@en ;
@@ -9330,6 +9496,11 @@ pm:TelicOrientation a owl:Class,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:contactRouteAbsent a pm:ContactRoute ;
+    rdfs:label "Kein Kontaktweg"@de,
+        "Contact route absent"@en ;
+    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
         "Subject axis"@en ;
@@ -9367,11 +9538,6 @@ pm:Systematizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
-pm:contactRouteAbsent a pm:ContactRoute ;
-    rdfs:label "Kein Kontaktweg"@de,
-        "Contact route absent"@en ;
-    skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
-
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
         "Counter-search not carried"@en ;
@@ -9384,13 +9550,6 @@ pm:mediatedAttestation a pm:Attesting ;
     skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
-pm:withdrawnAbsorption a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Abgezogene Vertiefung"@de,
-        "Withdrawn absorption"@en ;
-    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
-    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
 
 pmp:Samyama a pm:Practicing ;
     rdfs:label "Saṃyama"@de,
@@ -9429,6 +9588,13 @@ pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
+pm:withdrawnAbsorption a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Abgezogene Vertiefung"@de,
+        "Withdrawn absorption"@en ;
+    skos:definition "Awake and not asleep, with the senses withdrawn from their objects and attention held on a single one. The condition the handbooks of concentration describe and require."@en ;
+    skos:note "Set this where the source binds the act to a named degree of absorption, to a suspension of the breath, or to a prayer of the heart held past the point at which the outward senses report. This value has no counterpart in the fourfold list, which is the main reason that list could not be used."@en .
 
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
@@ -9613,6 +9779,19 @@ pmt:SamiNoaidi a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
 
+pmt:ChineseMedicalCanon a pm:Tradition ;
+    rdfs:label "Chinesischer medizinischer Kanon"@de,
+        "Chinese medical canon"@en ;
+    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "The canonical Chinese transmission of needling, of the qi and the vessels, and of the spirits held to reside in the depots, set out as dialogues between the Yellow Lord and his interlocutors and carrying, alongside the doctrine, its own prohibitions, its own intervals to death and its own signs by which an operation is said to have taken."@en ;
+    skos:note "Chosen from the registry on the independence entrance, and the reading corrected that entrance. The contact route is entered as documented and no longer as absent, and the route runs to a transmission this graph already holds. The received text is not the Han-period text but the recension Wang Bing completed in seven hundred and sixty-two as the editors of ten sixty-seven passed it on, and that recension is constituted by its commentary: the commentary printed with the opening chapter quotes the Laozi twice and names the Heshanggong commentary on it, and the commentary elsewhere in the same juan quotes the Zhuangzi. The Laozi and the Zhuangzi are the corpus the Daoist file in this graph rests part of its material on. An agreement between this file and that one is therefore not two witnesses at the level of the transmitted text, whatever may hold of the stratum beneath it."@en,
+        "Edition note. Both classics were read in the Sibu congkan facsimiles, which is the received text and not a critical edition: for the Suwen the Chongguang buzhu Huangdi neijing suwen with Wang Bing's commentary and the Song collation notes, for the Lingshu the Huangdi suwen lingshu jing. The digitisation used names the collection and not the printing within it, and the citations say so by naming the collection. Where a reading is contested the contest is entered as a node and not smoothed into the citation."@en,
+        "Read in this run at the wording, in the Chinese: Suwen 1, 14, 16, 26, 52 and 54, and Lingshu 8, 9 and 73, each in the juan named in the citations below. The Song editors' collation notes printed with Suwen 16 and Suwen 52 were read with them and carry the dispute node in this file. The parallel in the Zhenjiu jiayi jing was opened for the same passage and is cited as the second witness there. The remainder of both classics, and the whole of the Nanjing, were searched by term and not read continuously; what that turned up and did not verify stands in the issues named in the harvest note, not here."@en,
+        "The correction is narrower than the value can express, and the difference matters for any convergence built on this file. What is documented is a route at the point where the corpus was fixed in the form read, in the eighth century and again in the eleventh. Whether the first-century material that the compilation rests on had such a route is a separate question, and it is not decided here; the predicate is single-valued and cannot hold both answers. The corresponding question for the Indian and the Greek material was searched and stands as its own issue."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing; Huangfu Mi, Zhenjiu jiayi jing; Yang Shangshan, Huangdi neijing taisu" .
+
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
         "Originating"@en ;
@@ -9633,13 +9812,6 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pmt:MayaRitual a pm:Tradition ;
     rdfs:label "Maya-Ritualüberlieferung"@de,
         "Maya ritual transmission"@en ;
@@ -9651,6 +9823,13 @@ pmt:MayaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -9843,17 +10022,17 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
