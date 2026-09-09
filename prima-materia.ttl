@@ -339,6 +339,17 @@ pmc:BadMideCaution a pm:Cautioning ;
         pmc:MideSoulSeizing ;
     pm:withinTradition pmt:Midewiwin .
 
+pmc:BaopuziAgainstTheZhuangzi a pm:Disputing ;
+    rdfs:label "Ob Laozi und Zhuangzi den Weg zu den Unsterblichen tragen"@de,
+        "Whether the Laozi and the Zhuangzi carry the way to the transcendents"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8",
+        "Zhuangzi 4, in James Legge (trans.), The Sacred Books of China: The Texts of Tâoism, Part I, Sacred Books of the East vol. XXXIX (Oxford: Clarendon Press, 1891), Book IV, par. 2, pp. 208-210" ;
+    skos:definition "The eighth chapter sets itself against the books this file also rests on. Of the five thousand words it says that they are general and cursory throughout and nowhere set out a matter from head to tail so that it could be taken up and followed, and that to recite the classic by heart without the essential way is labour thrown away. Of Wenzi, Zhuangzi and Yin Xi it says that their writing derives from the Yellow Lord and Laozi and follows their broad intent but never states the decisive word, and that where they level life and death, call them no different, treat being alive as a corvée and dying as a rest, they are already a hundred thousand million li away from the transcendents. Their parables it allows for small uses only."@en ;
+    skos:note "This is a dispute inside one tradition and inside one file, and it is worth a node because the graph would otherwise carry the Zhuangzi passage and the Baopuzi passage side by side as though they belonged together. The most systematic practitioner in the corpus says they do not. Whoever builds a convergence on Daoist material has to say which of the two sides he is counting."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:EmptyingOfTheHeart ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:BaraqelTeachesAstrology a pm:Attributing ;
     rdfs:label "Baraqel offenbart die Astrologie"@de,
         "Baraqel discloses astrology"@en ;
@@ -1573,6 +1584,16 @@ pmc:GadreelTeachesWeaponsOfDeath a pm:Attributing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
 
+pmc:GeXuanInTheDeep a pm:Attributing ;
+    rdfs:label "Der Großonkel, der einen Tag auf dem Grund eines Teiches lag"@de,
+        "The great-uncle who lay a day at the bottom of a pool"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "The author ascribes to his own great-uncle, the Immortal Duke, that whenever he was very drunk or the summer heat was great he would go into the bottom of a deep pool and come out after about a day, and that this was possible precisely because he could close off the breath and practise the embryonic breathing."@en ;
+    skos:note "Held as an ascription and not as a report because the author says it of another and not of himself, and because he names the reason as well as the feat. The attestation is third-party for the same cause. It is also the only place in the chapter where a named person is given for a claim, which is what makes the length of the stay quotable at all."@en ;
+    pm:ascribedCapacity pmc:Taixi ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:GradedAttainmentYieldsDistantPerceptionAndOtherMinds a pm:Converging ;
     rdfs:label "Eine gestufte Erlangung soll Fernhören und Kenntnis fremden Bewusstseins hervorbringen"@de,
         "A graded attainment is said to yield hearing at a distance and knowledge of other minds"@en ;
@@ -2003,14 +2024,6 @@ pmc:ImperfectionsOfInsight a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:Piti ;
     pm:withinTradition pmt:Theravada .
-
-pmc:InaudibleAndUnevenBreath a pm:Conceptualizing ;
-    rdfs:label "Der für den Übenden selbst unhörbare Atem, kürzer aus als ein"@de,
-        "The breath inaudible to its own bearer and shorter out than in"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 8" ;
-    skos:definition "Two marks set on the practice: one is not to hear the sound of one's own breathing, and a feather held before nose and mouth is not to stir; and one is always to give out less than one has taken in."@en ;
-    skos:note "The intake is at the nose and the release at the mouth. The distribution is the reverse of the one a modern draft assigns, which treats mouth breathing as a fault on the intake and says nothing of the release. The passage also fixes the pace by an external test rather than by a count of seconds, which is what makes it examinable at all. See prima-materia#26."@en ;
-    pm:withinTradition pmt:Daoist .
 
 pmc:IndoTibetanReception a pm:Converging ;
     rdfs:label "Indo-tibetische Rezeption, keine Konvergenz"@de,
@@ -2564,6 +2577,14 @@ pmc:Migis a pm:Conceptualizing ;
     skos:definition "The sacred shell of the society, said in the origin account to have been shot into the body of the first recipient so that he might have immortality and be able to confer the secrets on his kinsmen."@en ;
     skos:note "The shell is not a token of membership but the vehicle of the transfer: the account makes the entry of the shell into the body the act by which the capacity passes, and the same act is repeated at every degree."@en ;
     pm:withinTradition pmt:Midewiwin .
+
+pmc:MouthToMouthOnly a pm:Conceptualizing ;
+    rdfs:label "Das Wesentliche geht von Mund zu Mund und wird nicht geschrieben"@de,
+        "The essential is passed from mouth to mouth and not written"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "Of the bedchamber arts the chapter says that the great essential lies in one thing, and that this method is passed by the true men from mouth to mouth and is fundamentally not written down; that whoever takes the famed medicines without knowing this essential does not attain long life either; and that the older authorities set down only the coarse matters and never put the essential on paper."@en ;
+    skos:note "Entered because it is a statement the graph can use about its own limits rather than about a capacity. A transmission that says its decisive step was never written is telling every later reader, including this project, that the written corpus is not the transmission. The claim is unfalsifiable and its being so is the point; it is recorded as what the source says, not as an obstacle discovered here."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:Mpangu a pm:Conceptualizing ;
     rdfs:label "Mpangu, das ererbte Verbot"@de,
@@ -3609,6 +3630,15 @@ pmc:Shenbushi a pm:Conceptualizing ;
     skos:note "This is the failure condition of this corpus that is hardest to test and most worth recording, because it is located in the patient and not in the operation. Any outcome of a treatment can be assigned to it after the fact, and the passage supplies no mark by which its presence could be established beforehand. Recorded as the tradition's own account of why a correct procedure fails, and marked here as the shape of claim that absorbs every outcome."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
+pmc:ShengqiSiqi a pm:Conceptualizing ;
+    rdfs:label "Die lebendigen und die toten Stunden"@de,
+        "The living hours and the dead hours"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "The circulation is to be done in the hours of living qi and not in the hours of dead qi. The day and night hold twelve hours; the six from midnight to noon are living qi and the six from noon to midnight are dead qi, and in the hours of dead qi, the chapter says, circulating the qi is of no benefit."@en ;
+    skos:note "It is also, read the other way, the cheapest possible defence: any session without result can be assigned to the hour. Both readings are true of the same sentence, and which of them the transmission intends is not decided here."@en,
+        "This is the sentence for which the chapter was worth opening. It states a condition under which the practice does nothing, it binds the condition to the clock rather than to the practitioner, and it therefore names an outcome the practice excludes: a benefit obtained in the afternoon. Almost nothing else in this file does that."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:ShierjinZhongshi a pm:Cautioning ;
     rdfs:label "Die zwölf Verbote und was ihr Bruch bewirken soll"@de,
         "The twelve prohibitions, and what is said to follow from breaking them"@en ;
@@ -4532,6 +4562,33 @@ pmc:XingqiInscriptionDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmp:Xingqi .
 
+pmc:XingqiProhibitions a pm:Cautioning ;
+    rdfs:label "Nicht viel essen, und nicht zürnen"@de,
+        "Not much food, and no anger"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "Two prohibitions with their stated consequences. One is not to eat much, and not to eat raw vegetables or fat and fresh things, because they make a man's qi strong and hard to close off. And anger is forbidden: much anger disorders the qi, and since it then cannot flow over, it may set a man coughing. The chapter adds that few can do the thing at all, because men are by nature restless and few can be still enough to cultivate the way."@en ;
+    skos:note "Both consequences are physical and immediate and neither is a misfortune sent from outside, which distinguishes these from most of the prohibitions this graph holds. The second also names a mechanism: anger does not spoil the practice directly, it makes the qi unable to overflow, and the cough is what follows from that."@en ;
+    pm:cautionsAbout pmp:XingqiBaopuzi ;
+    pm:withinTradition pmt:Daoist .
+
+pmc:XingqiYieldsCapacities a pm:Yielding ;
+    rdfs:label "Die Zirkulation des Qi bringt jene Vermögen hervor"@de,
+        "Circulating the qi yields those capacities"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:XingqiBaopuzi ;
+    pm:withinTradition pmt:Daoist ;
+    pm:yieldsCapacity pmc:XingqiCapacities .
+
+pmc:XuZhu a pm:Conceptualizing ;
+    rdfs:label "Das Anblasen von Wasser, Feuer, Tieren und Wunden"@de,
+        "Blowing on water, fire, beasts and wounds"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "What one who is good at using the qi is said to do. He blows at water and the water runs backwards several paces; he blows at fire and the fire goes out; he blows at a tiger or a wolf and it crouches and cannot rise; he blows at a snake or a viper and it coils and cannot go. If another has been wounded by a blade, he blows at it and the blood stops at once. Where he hears that someone has been struck by a venomous creature, he blows and incants at a distance without seeing the person, over his own hand, the left for a man and the right for a woman, and though the other be a hundred li away he is healed on the spot. And for a sudden seizure it is enough to swallow the qi of the three nines, and it passes at once."@en ;
+    skos:note "The distant healing is stated with a distance and an immediacy, a hundred li and on the spot, and with no condition attached to the patient. That makes it the most examinable claim in the chapter and the one furthest from anything the chapter offers to check it with."@en,
+        "The laterality is the part this graph should not lose: the practitioner blows over his own left hand for a male patient and his own right for a female. A rule of that shape is not a description of an experience but an instruction that can be got wrong, and it is the kind of detail a later station adds rather than invents."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:YangshengYieldsDubaisui a pm:Yielding ;
     rdfs:label "Das Regimen bringt die volle Spanne hervor"@de,
         "The regimen yields the full span"@en ;
@@ -5246,8 +5303,9 @@ pmp:BinaryPredatesItsReportersExamination a pm:Testing ;
 pmp:Biqi a pm:Practicing ;
     rdfs:label "Das Verschließen des Atems"@de,
         "Closing off the breath"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 8" ;
-    skos:definition "A retention counted in heartbeats: the breath is drawn in through the nose and held, then released in the smallest quantities through the mouth, the count being raised only by degrees."@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "The beginner draws the qi in at the nose and closes it off, counting silently in the mind to one hundred and twenty, and then lets it out at the mouth. Neither the drawing in nor the letting out is to be audible to the practitioner himself, and always more is to be taken in than given out. With practice the count is raised by degrees, and in the long run it may reach a thousand; at a thousand, the passage says, the old grow younger and a day is given back for a day."@en ;
+    skos:note "Correction, and the reason the edition rule exists. The earlier wording of this definition said that the retention is counted in heartbeats and gave no number. The chapter counts in the mind, not at the pulse, and it names both ends of the scale, one hundred and twenty at the start and a thousand in the long run. Neither could be checked while the citation named no edition, which is the harm SPEC §10 describes; the citation now names the one that was read. See prima-materia#45."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Daoist .
 
@@ -5366,6 +5424,19 @@ pmp:EthiopianWornNamesSpearExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-07" ;
     pm:tests pmc:EthiopianWornAsmatYieldsDeliverance ;
     pm:undividedOutcomes "A wearer of the names who escapes his enemy, and a wearer of the names who is struck down by him. The first is deliverance by the will of God; the second is a deliverance that was not willed. The sentence covers both and forbids neither, so no observation of a wearer's fate can bear on it." .
+
+pmp:FeatherAtTheNostrilExamination a pm:Testing ;
+    rdfs:label "Ob der Flaum an Nase und Mund stillsteht"@de,
+        "Whether the down at nose and mouth stays still"@en ;
+    skos:definition "A protocol on the mark the eighth chapter of the Baopuzi sets on the closing off of the breath: a goose down is laid on the nose and the mouth, and that it does not stir while the qi is let out is the sign. The passage gives this as the criterion by which the practitioner knows he is doing the thing, alongside the rule that he is not to hear his own breathing and that he is always to take in more than he gives out."@en ;
+    skos:note "The scale beside the sign belongs in any run. The chapter starts the beginner at a silent count of one hundred and twenty and says the count may in the long run reach a thousand, and it attaches to the thousand a claim that does not belong to the down at all: that the old grow younger and a day is given back for a day. A protocol that measured the count and reported the second claim as tested would be measuring one thing and reporting another."@en,
+        "The state is procedure-without-cases and not no-procedure-devised, and here the procedure was devised by the source rather than by this project. Nothing stands in the way of running it: the down is cheap, the observation needs no instrument, and the criterion is binary. What has not been done is the running."@en,
+        "What such a run would and would not settle. It would settle whether a person can exhale below the threshold at which a goose down moves, which is a question about airflow and not about the qi; the chapter treats the two as one, and this protocol does not. It would not touch the second and larger claim of the same passage, the embryonic breathing that uses neither nose nor mouth, for which the down criterion is satisfied by construction and therefore says nothing."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, working from the passage recorded in traditions/daoist.ttl" ;
+    pm:falsifiedBy "A practitioner who claims the attainment and whose down stirs on the exhalation, observed by someone other than himself. The source states the sign without qualification and attaches no condition of hour, place or state to it, so a stirring falls against the claim as the chapter makes it. The converse does not establish the doctrine: a down that lies still shows a slow exhalation and nothing about the qi." ;
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:InaudibleAndUnevenBreath .
 
 pmp:FireAndWaterRite a pm:Practicing ;
     rdfs:label "Der Ritus mit Feuer und Wasser bei einer Geburt"@de,
@@ -7232,6 +7303,15 @@ pmc:IfaSixteenMothers a pm:Conceptualizing ;
     skos:definition "The sixteen figures the casting can produce, named mothers in the account of eighteen ninety-four. A figure formed by taking one column from one mother and one column from another is named a child."@en ;
     pm:withinTradition pmt:Ifa .
 
+pmc:InaudibleAndUnevenBreath a pm:Conceptualizing ;
+    rdfs:label "Der für den Übenden selbst unhörbare Atem, kürzer aus als ein"@de,
+        "The breath inaudible to its own bearer and shorter out than in"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "Two marks set on the practice: one is not to hear the sound of one's own breathing, and a feather held before nose and mouth is not to stir; and one is always to give out less than one has taken in."@en ;
+    skos:note "Reopened and confirmed at the wording, with the test made exact. The chapter names the material and the place: a goose down is laid on the nose and the mouth, and that it does not stir while the qi is let out is the sign. Nothing is said about the intake. That is an outcome a second person can observe, which is rare enough in this graph to carry a protocol of its own."@en,
+        "The intake is at the nose and the release at the mouth. The distribution is the reverse of the one a modern draft assigns, which treats mouth breathing as a fault on the intake and says nothing of the release. The passage also fixes the pace by an external test rather than by a count of seconds, which is what makes it examinable at all. See prima-materia#26."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:IntentionReplacesMusculature a pm:Positing ;
     rdfs:label "Die Absicht ersetzt die Muskulatur, der Ortswechsel geschieht durch Wollen des Ortes"@de,
         "Intention replaces the musculature and the change of place happens by willing it"@en ;
@@ -7765,6 +7845,14 @@ pmc:SunCourseRule a pm:Conceptualizing ;
         "Two recorders, ninety years apart, one compiling from priests' reports in Uppsala and one living among the people, give the same reading rule tied to the same physical direction. It is the best-attested single claim in this file."@en ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmc:Taixi a pm:Conceptualizing ;
+    rdfs:label "Embryonalatmung"@de,
+        "Embryonic breathing"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "The chapter names it the great essential of the whole art: whoever has obtained the embryonic breathing can breathe without using nose or mouth, as though he were within the womb, and then the way is complete."@en ;
+    skos:note "The definition is stated as a threshold and not as a degree, which is unusual in this collection: not better breathing but breathing without the two openings. It is also the point at which the chapter stops being examinable from outside, because the sign it gives for the lower stage, the down that does not stir, would be satisfied trivially by someone who had reached this one."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:Tapu a pm:Conceptualizing ;
     rdfs:label "Tapu"@de,
         "Tapu"@en ;
@@ -8003,6 +8091,14 @@ pmc:XibalbaSurvival a pm:Conceptualizing ;
     dcterms:source "Popol Vuh: The Sacred Book of the Ancient Quiché Maya, English version by Delia Goetz and Sylvanus G. Morley from the Spanish translation of Adrián Recinos (Norman: University of Oklahoma Press, 1950), part II, chapter 9" ;
     skos:definition "The outcome the ordeals decide. The transmission treats it as the thing at stake in each house and reports both outcomes for named persons rather than only the successful one."@en ;
     pm:withinTradition pmt:MayaRitual .
+
+pmc:XingqiCapacities a pm:Conceptualizing ;
+    rdfs:label "Was die Zirkulation des Qi vermögen soll"@de,
+        "What the circulation of the qi is said to accomplish"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "A list given in one breath: circulating the qi may cure the hundred illnesses, may take one into a place of pestilence, may hold off snakes and tigers, may stop the blood of a wound, may let one stay in water, may let one go on water, may keep off hunger and thirst, and may lengthen the years."@en ;
+    skos:note "Eight items, of which the middle ones are decidable and the outer ones are not. Staying in water, going on water and holding off a tiger are outcomes a witness could report; curing the hundred illnesses and lengthening the years are not, in this form. The list is recorded whole rather than filtered, because a transmission that puts both kinds in one sentence is telling something about itself."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:XingqiDepth a pm:Conceptualizing ;
     rdfs:label "Die Tiefe als erste Stufe"@de,
@@ -8700,15 +8796,6 @@ pmc:Diksa a pm:Conceptualizing ;
     skos:definition "The rite by which a person is admitted to the practice, set out in the tantra and reproduced with commentary in the Kashmirian exegesis."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
-pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
-    rdfs:label "Fasten des Herzens"@de,
-        "Fasting of the heart"@en ;
-    dcterms:source "Zhuangzi 4, in James Legge (trans.), The Sacred Books of China: The Texts of Tâoism, Part I, Sacred Books of the East vol. XXXIX (Oxford: Clarendon Press, 1891), Book IV, par. 2, pp. 208-210" ;
-    skos:definition "A graded emptying set out in three steps. The pupil is told not to wait for the hearing of his ears but for the hearing of his mind; then not to wait even for the hearing of his mind, but for the hearing of the third term. The hearing of the ears is to rest with the ears and the mind to rest in its own verification; the third term is free of all pre-occupation and so waits for things to appear. Where the way is, there is that freedom, and that freedom is the fasting of the mind."@en ;
-    skos:note "The name is a second case of the same thing. The tradition's term is xinzhai, the fasting of the xin, and the label here says heart where the edition read says mind. Both are the same character, and the graph carries the German and English labels of an earlier run beside a source that translates it otherwise. The label is left standing and the divergence is recorded, because renaming it would hide that the term does not resolve into either word."@en,
-        "The third term is where the translations part, and the passage was reopened in this run because of it. The edition read renders it 'the spirit' in the body of the text and states in its own footnote that the character standing there is qi, 'the breath'. Whoever reads only the translation gets a graded ascent from ears to mind to spirit; whoever reads the footnote gets an ascent that ends in the breath, which is what the whole of this file is about. The earlier wording of this definition ended with the way gathering in emptiness alone, which is a third rendering again and follows a translation this file could not name. All three are recorded rather than harmonised."@en ;
-    pm:withinTradition pmt:Daoist .
-
 pmc:EthiopianProtectionOfTheSuckling a pm:Conceptualizing ;
     rdfs:label "Die Bewahrung des Kindes an der Brust"@de,
         "The preserving of the child at the breast"@en ;
@@ -9208,6 +9295,13 @@ pmp:WitchDoctorMedicineEating a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmp:XingqiBaopuzi a pm:Practicing ;
+    rdfs:label "Die Zirkulation des Qi, wie das achte Kapitel sie darstellt"@de,
+        "The circulation of the qi as the eighth chapter sets it out"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "One of three things the chapter names as the essentials, beside the guarding of the essence and the taking of the one great medicine. It says of itself that there are several methods within it, that no method is given whole at the first teaching, and that the essential is told only to one who has not slackened."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmp:YeridatMerkavah a pm:Practicing ;
     rdfs:label "Der Abstieg zur Merkava"@de,
         "The descent to the Merkavah"@en ;
@@ -9290,6 +9384,15 @@ pmc:DivyaCaksus a pm:Conceptualizing ;
     dcterms:source "Patañjali, Yogasūtra III.26" ;
     skos:definition "Perception of what is distant, hidden or obstructed."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:EmptyingOfTheHeart a pm:Conceptualizing ;
+    rdfs:label "Fasten des Herzens"@de,
+        "Fasting of the heart"@en ;
+    dcterms:source "Zhuangzi 4, in James Legge (trans.), The Sacred Books of China: The Texts of Tâoism, Part I, Sacred Books of the East vol. XXXIX (Oxford: Clarendon Press, 1891), Book IV, par. 2, pp. 208-210" ;
+    skos:definition "A graded emptying set out in three steps. The pupil is told not to wait for the hearing of his ears but for the hearing of his mind; then not to wait even for the hearing of his mind, but for the hearing of the third term. The hearing of the ears is to rest with the ears and the mind to rest in its own verification; the third term is free of all pre-occupation and so waits for things to appear. Where the way is, there is that freedom, and that freedom is the fasting of the mind."@en ;
+    skos:note "The name is a second case of the same thing. The tradition's term is xinzhai, the fasting of the xin, and the label here says heart where the edition read says mind. Both are the same character, and the graph carries the German and English labels of an earlier run beside a source that translates it otherwise. The label is left standing and the divergence is recorded, because renaming it would hide that the term does not resolve into either word."@en,
+        "The third term is where the translations part, and the passage was reopened in this run because of it. The edition read renders it 'the spirit' in the body of the text and states in its own footnote that the character standing there is qi, 'the breath'. Whoever reads only the translation gets a graded ascent from ears to mind to spirit; whoever reads the footnote gets an ascent that ends in the breath, which is what the whole of this file is about. The earlier wording of this definition ended with the way gathering in emptiness alone, which is a third rendering again and follows a translation this file could not name. All three are recorded rather than harmonised."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:EuropeanFolkMagicGichterHeilung a pm:Conceptualizing ;
     rdfs:label "Das Weichen der Gichter"@de,
@@ -10001,17 +10104,6 @@ pmt:ChineseDivination a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
 
-pmt:Daoist a pm:Tradition ;
-    rdfs:label "Daoistische Überlieferung"@de,
-        "Daoist tradition"@en ;
-    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
-    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en ;
-    skos:note "Deliberately not documented. From the arrival of Buddhism in China the route is plain and the file's material lies mostly after it; for the earlier strata it is not, and the whole independence value of the Chinese material hangs on where that line falls."@en,
-        "Edition finding, prima-materia#45. The citations of the jade inscription name the work they were read in. Three passages stood without an edition because it was no longer recoverable, and the file said so rather than guessing. One of the three has since been reopened: Zhuangzi 4 was read at the wording in Legge's translation of eighteen ninety-one and now carries it, and the reopening turned up three renderings of the term the passage ends on. Baopuzi neipian 8 and Chen Zhixu's Jindan dayao are still unopened; for the Jindan dayao the juan division is itself edition-dependent."@en,
-        "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered .
-
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
         "Dogon transmission"@en ;
@@ -10199,12 +10291,17 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+pmt:Daoist a pm:Tradition ;
+    rdfs:label "Daoistische Überlieferung"@de,
+        "Daoist tradition"@en ;
+    dcterms:source "Xingqi yupei ming (jade inscription on circulating the qi)" ;
+    skos:definition "The transmission of Chinese texts and practices concerned with the cultivation and circulation of qi."@en ;
+    skos:note "Deliberately not documented. From the arrival of Buddhism in China the route is plain and the file's material lies mostly after it; for the earlier strata it is not, and the whole independence value of the Chinese material hangs on where that line falls."@en,
+        "Edition finding, prima-materia#45. The citations of the jade inscription name the work they were read in. Three passages stood without an edition because it was no longer recoverable, and the file said so rather than guessing. Two of the three have since been reopened: Zhuangzi 4 was read at the wording in Legge's translation of eighteen ninety-one and now carries it, and the reopening turned up three renderings of the term the passage ends on; and Baopuzi neipian 8 was read at the wording in the Daozang text on 2026-09-09, which corrected one reading and added ten nodes below. Chen Zhixu's Jindan dayao is still unopened, and for it the juan division is itself edition-dependent."@en,
+        "The file is no longer thin only by necessity. The eighth chapter of the Baopuzi, opened on 2026-09-09, gave what the earlier runs had gone looking for elsewhere: a list of what the circulation of the qi is said to accomplish, an external sign of the breathing, a condition under which the practice is said to have no benefit at all, two prohibitions with a stated consequence, and a passage in which the author sets his own tradition against the Zhuangzi this file also holds. What stays out is what stayed out before: the absorption of solar and stellar qi and the abstention from grain are at prima-materia#17, not here."@en,
+        "Thin on purpose, and the thinness is the finding. Of the material this tradition is credited with, two places could be run down to a text that names its own words: the jade inscription, which is the earliest datable witness located for a deliberate circulation of qi through the body, and the eighth chapter of the Baopuzi, which states the manner of the breathing in terms an examination could take hold of. How early the inscription is remains contested, and the dispute node holds that. What is widely reported and was not run down to a citable passage stays out rather than being approximated: the absorption of solar, lunar and stellar qi (fuqi) and the abstention from grain (bigu) are recorded at prima-materia#17, not here."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -10224,6 +10321,13 @@ pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
@@ -10354,15 +10458,15 @@ pm:statedNecessity a pm:PrerequisiteStrength ;
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
