@@ -2204,6 +2204,18 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
 
+pmc:KalikapuranaLeftAndRightMethods a pm:Conceptualizing ;
+    rdfs:label "Die rechts- und linkshändige Methode, wie das Purāṇa sie angibt"@de,
+        "The right and left hand methods as the purāṇa states them"@en ;
+    dcterms:source "Kālikāpurāṇa, at the announcement of the orthodox and heterodox (right and left hand) methods following the yonimudrā verses (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
+        "Kālikāpurāṇa, at the closing statement of the Tripurā-kavaca chapter that the left hand and right hand methods of worshipping the goddess have now been stated (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)",
+        "Kālikāpurāṇa, at the verses on the Bhairava image (204-205a) and on the left images of Sūrya and Gaṇeśa (212-218) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "A pair of methods of worship announced by the text as the orthodox and the heterodox, and closed by it as the right and left hand methods of worshipping the goddess. Which one applies is decided by the deity and not by the worshipper: Bhairava, who says he assumed his form for the sake of meat, wine and intercourse at will, is to be worshipped in the left hand method always; the left images of Sūrya and Gaṇeśa likewise; and the text keeps the five great brahmanical sacrifices standing alongside."@en ;
+    skos:note "Chapter numbering is not recoverable from the copy read, which is an OCR of a printed translation whose running heads the scan does not carry reliably. Work, translator, part and verse numbers are named, and the passages sit in the chapters on the worship of Tripurā; a later reader working from another edition should expect a different chapter count. Same limitation as at pmc:AcaraLadder. See prima-materia#45."@en,
+        "It stands beside two other divisions already held here and agrees with neither. pmc:AcaraLadder gives seven ascending steps with the left above the right; pmc:BhavaClassification gives three dispositions that decide what a person is competent for. This purāṇa gives two methods assigned by the object of worship. Three texts, three different shapes, and the only element common to all three is that none of them is the pair as the West received it."@en,
+        "This is the passage the project had been unable to produce, and it changes the state of the question rather than settling it. A pre-colonial Indian text does announce a two-way division in these terms, so the sharpest form of the claim that the pair is an entirely Victorian imposition does not hold. What the text does not supply is the thing the Western pair carries: there is no moral polarity between the two, no camp a person joins, and no criterion of union against self-deification. The division sorts deities and rites, not practitioners."@en ;
+    pm:withinTradition pmt:SaivaSakta .
+
 pmc:Kandu a pm:Conceptualizing ;
     rdfs:label "Kandu, das Zeichen, das den Fluch ankündigt"@de,
         "Kandu, the token that announces a curse"@en ;
@@ -5737,14 +5749,18 @@ pmp:BinaryPredatesItsReportersExamination a pm:Testing ;
     rdfs:label "Ob die Zweiteilung älter ist als ihre Berichterstatter"@de,
         "Whether the two-way division is older than the reports of it"@en ;
     skos:definition "A protocol on the claim that the naming of two Śākta branches as a right-hand and a left-hand ritual reports a division the Indian material carries, rather than imposing one it does not."@en ;
-    skos:note "No case answering the condition has been found so far, and two passages read for other purposes tell against it. The Kulārṇava gives a ladder of seven steps, not a pair, and ranks the left above the right; the Mahānirvāṇa divides practitioners into three dispositions rather than two paths. Neither was sought as a counterexample, which is what makes them worth recording here — they came out of a search for something else."@en,
-        "The modern scholarship that argues the same point — the construction of the category by nineteenth-century orientalism — has not been read and is therefore not cited at pm:evidenceFrom. Naming it unread would make this protocol look better supported than it is. See prima-materia#71."@en,
-        "What this protocol does not establish. It has not searched the Indian corpus exhaustively, and absence of a case in two texts is not absence in the corpus. The state is procedure-without-cases and not cases-without-deviation, and the difference matters: the first says the search has begun, the second would say it has been carried."@en ;
-    pm:examinationState pm:procedureWithoutCases ;
-    pm:examinedBy "prima-materia, working from the passages recorded in traditions/saiva-sakta.ttl" ;
+    skos:note "The state moved from procedure-without-cases past cases-without-deviation and to non-discrimination, and the middle step was deliberately not taken. A case has now been read, so the first state no longer fits; but reporting it as a case without deviation would say the claim survived a test, when what happened is that the test could not tell the two possible worlds apart. The finding is about the wording of the claim and not about the Indian material."@en,
+        "Three divisions now stand in the graph and no two of them agree: seven ascending ācāras with the left above the right (pmc:AcaraLadder), three dispositions deciding competence (pmc:BhavaClassification), and two methods assigned by the deity worshipped (pmc:KalikapuranaLeftAndRightMethods). That is the shape of the actual answer, and it is more interesting than either yes or no: the material carries divisions in abundance, and none of them is the one the West received."@en,
+        "What is still not established. The corpus has not been searched exhaustively, the tantras of the Kaula stream have not been opened for this question, and the modern scholarship on the construction of the category has been used only through the one work cited at pm:evidenceFrom. A reformulated claim is owed before this protocol can return anything but non-discrimination. See prima-materia#71."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched for the opposite of the claim: a pre-colonial Indian source carrying the two-way division. Opposition was found and is now in the graph. Urban's account of the Kālikāpurāṇa led to the passages, which were then read in the Shastri translation rather than taken from him; the purāṇa announces the orthodox and heterodox methods as a pair, prescribes the left hand method for particular deities, and closes by saying both have now been stated. Urban also reports that across most Tantric traditions the pair marks a literal against a symbolic reading of the same prohibited substances — a second division, again without moral polarity. What was not found in either is a criterion of union against self-deification, or a division of practitioners into camps."@en ;
+    pm:evidenceFrom "H. B. Urban, The Power of Tantra: Religion, Sexuality and the Politics of South Asian Studies (I.B. Tauris, London 2010), in the chapter on the sacrifice of desire, at the section on the origins of sexual rites and the right and left-hand paths" ;
+    pm:examinationState pm:claimDoesNotDiscriminate ;
+    pm:examinedBy "prima-materia, working from the passages recorded in traditions/saiva-sakta.ttl and from the Kālikāpurāṇa in the Shastri translation" ;
     pm:falsifiedBy "A pre-colonial Indian source that presents dakṣiṇa and vāma as a clean two-way division with a moral polarity, using union with the divine against self-deification as the criterion that separates them. One such passage refutes the claim that the division was imposed rather than found." ;
-    pm:protocolUpdated "2026-08-29" ;
-    pm:tests pmc:RightAndLeftHandNomenclature .
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:RightAndLeftHandNomenclature ;
+    pm:undividedOutcomes "The claim treats two findings alike that are not alike. In the one, no pre-colonial text divides at all, and the naming invents its object. In the other, a pre-colonial text does announce a two-way division of methods in these very terms, and the naming keeps the pair while attaching a moral charge the text does not carry. The falsification condition below is met by neither, so the protocol returned the same verdict for both — and the second is now the established case (pmc:KalikapuranaLeftAndRightMethods)."@en .
 
 pmp:Biqi a pm:Practicing ;
     rdfs:label "Das Verschließen des Atems"@de,
@@ -8153,7 +8169,7 @@ pmc:RightAndLeftHandNomenclature a pm:Systematizing ;
     dcterms:source "H. H. Wilson, Sketch of the Religious Sects of the Hindus, Asiatic Researches XVII (Calcutta 1832), the sections headed Dakshinas, or Bhaktas and Vamis, or Vamacharis" ;
     skos:definition "The English naming of the dakṣiṇācāra and vāmācāra divisions of the Śākta sect as the followers of a right hand and a left hand ritual, together with the characterisation of the second as impure, as running contrary to what is usual, and as something its adherents will not publicly avow."@en ;
     skos:note "Held as an ordering act because the naming is regularly credited to Blavatsky, who wrote in 1877 and in 1888. It stands in Wilson forty-five years earlier, in the volume of the Asiatic Researches for 1832, in those terms and with the moral charge already attached. Whoever first coined it, it was not she, and a record that repeats the later attribution reports a reception as an origin. See prima-materia#57."@en,
-        "No pm:ordersClaim is given, because the division it orders is not yet in the graph as a claim of its own: that would need a passage in a tantra rather than a passage in Wilson. See prima-materia#53."@en,
+        "No pm:ordersClaim is given, and the reason has changed. It used to be that the division this naming orders stood nowhere in the graph as a claim of its own. Since pmc:KalikapuranaLeftAndRightMethods it does, in a pre-colonial text, and the naming is therefore no longer the only witness to a pair. What is still missing is the link: Wilson orders what he found in Bengali Śākta circles of his own century, and that it is the same division the Assamese purāṇa states has not been shown. Asserting the link would make a shared vocabulary into a shared claim, which is the error this file exists to record. See prima-materia#53."@en,
         "The same section carries a ranking the naming does not survive. Wilson translates a passage he ascribes to the Kulārṇava that grades the Veda lowest and ascends through the Vaiṣṇava and the Śaiva to the right hand Śākta, then sets the left hand above the right, the Siddhānta above that, and the Kaula above all. In the material being ordered, the left is therefore the higher of the two; the English rendering keeps the pair and reverses the valuation. The verse is not located in an edition of the Kulārṇava here and is not held as a claim of that work. See prima-materia#56."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:compiledBy "Horace Hayman Wilson" .
@@ -10046,19 +10062,6 @@ pm:byEffort a pm:AwarenessValue,
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
 
-pm:claimDoesNotDiscriminate a pm:ExaminationState ;
-    rdfs:label "Behauptung unterscheidet nicht"@de,
-        "Claim does not discriminate"@en ;
-    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
-    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
-        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
-        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
-
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Ort nicht angegeben"@de,
@@ -10226,6 +10229,19 @@ pm:StateDuration a owl:Class,
         "State Duration"@en ;
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:claimDoesNotDiscriminate a pm:ExaminationState ;
+    rdfs:label "Behauptung unterscheidet nicht"@de,
+        "Claim does not discriminate"@en ;
+    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
+    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
+        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
+        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
@@ -10786,16 +10802,6 @@ pmt:Mithraic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
-pmt:SaivaSakta a pm:Tradition ;
-    rdfs:label "Śaiva- und Śākta-Tantra"@de,
-        "Śaiva and Śākta tantra"@en ;
-    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
-    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
-    skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
-        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered .
-
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -10814,6 +10820,16 @@ pmt:PatanjalaYoga a pm:Tradition ;
     dcterms:source "Patañjali, Yogasūtra" ;
     skos:definition "The transmission of the Yogasūtra of Patañjali and its commentarial literature."@en ;
     skos:note "Edition finding, prima-materia#45. Only Yogasūtra III.38 carries the edition it was read from; it was reopened in the Sanskrit for that purpose. For every other citation in this file, and for the Yogabhāṣya, the edition or translation the passage was read from is not recoverable: the session that entered them did not record it, and it cannot be reconstructed from the wording of the nodes. It is stated here rather than guessed, because an edition entered by inference would be a claim about the compiler's work that is not true. Until the passages are reopened, the verse numbers in this file stand on the received four-pāda division and nothing further."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered .
+
+pmt:SaivaSakta a pm:Tradition ;
+    rdfs:label "Śaiva- und Śākta-Tantra"@de,
+        "Śaiva and Śākta tantra"@en ;
+    dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
+    skos:definition "The transmission of the Śaiva and Śākta tantric corpus and its Kashmirian exegesis."@en ;
+    skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
+        "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
 
@@ -11072,6 +11088,11 @@ pmt:OphiteGnosis a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
 
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
+
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
@@ -11086,11 +11107,6 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
