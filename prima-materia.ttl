@@ -2682,6 +2682,14 @@ pmc:OphiteAstaphaeus a pm:Naming ;
     pm:nameRole "ruler of the third gate, overseer of the first principle of water, who sees the essence of the world and before whom the speaker is purified with the spirit of a virgin" ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmc:OphiteDescensusPerSeptem a pm:Conceptualizing ;
+    rdfs:label "Der Abstieg durch die sieben Himmel in der Gestalt ihrer Söhne"@de,
+        "The descent through the seven heavens in the likeness of their sons"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.12 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)" ;
+    skos:definition "The claim that Christ descended through the seven heavens, having assumed the likeness of their sons, and emptied them of their power by degrees, so that the whole besprinkling of light rushed to him."@en ;
+    skos:note "The counter-movement to the ascent of the speeches, and the only passage in either witness that says what passing through a sphere does to it. It works by likeness: the descending one takes the form of what holds each heaven, and that is the same logic the speeches use when the speaker names what he already bears. Whether the two are one doctrine seen from both ends is not asserted here."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
 pmc:OphiteDiagrammaDescriptum a pm:Conceptualizing ;
     rdfs:label "Die Kreise des Diagramms und ihre Inschriften"@de,
         "The circles of the diagram and their inscriptions"@en ;
@@ -2716,13 +2724,28 @@ pmc:OphiteGabriel a pm:Naming ;
     pm:nameRole "fourth of the seven ruling demons of the diagram, eagle-like" ;
     pm:withinTradition pmt:OphiteGnosis .
 
-pmc:OphiteHebdomasNominata a pm:Conceptualizing ;
-    rdfs:label "Die sieben Namen der Hebdomas und ihre Tore"@de,
-        "The seven names of the hebdomad and their gates"@en ;
-    dcterms:source "Origen, Contra Celsum VI.31-32 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
-    skos:definition "The set of seven names the diagram gives the rulers of the gates: Ialdabaoth, Iao, Sabaoth, Adonaeus, Astaphaeus, Aloaeus and Horaeus. Origen adds that three of them, Ialdabaoth, Astaphaeus and Horaeus, are taken from magic, and four, Iao, Sabaoth, Adonaeus and Eloaeus, from the Hebrew scriptures, where they are names of one and the same God."@en ;
-    skos:note "Aloaeus and Eloaeus are taken here as one bearer under two spellings of the printed text, since VI.31 addresses Aloaeus and VI.32 lists Eloaeus among the seven while omitting Aloaeus. The identification is the compiler's and is stated so that it can be denied."@en,
-        "The gates are counted from below. Horaeus holds the first, Aloaeus the second, Astaphaeus the third, Sabaoth the fifth realm, and Ialdabaoth is addressed as first and seventh. The fourth and the sixth are never numbered in the passage."@en ;
+pmc:OphiteGenerationesIrenaei a pm:Conceptualizing ;
+    rdfs:label "Die Sieben als Zeugungskette"@de,
+        "The seven as a chain of generations"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.5 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)" ;
+    skos:definition "The account in which the same seven names appear not as gatekeepers but as a descent: the first offspring of the mother is Ialdabaoth, from him Iao, from him Sabaoth, the fourth Adoneus, the fifth Eloeus, the sixth Oreus, and the seventh and last Astanphaeus. They are said to sit in heaven in the order of their generation and to rule invisibly over things celestial and terrestrial; the mother holds the eighth place."@en ;
+    skos:note "The witness carries no speeches and no gates. What the first witness gives as a liturgy of passage, this one gives as a genealogy, and the only thing common to both is the set of names. That is the finding: the names are attested twice, the practice once."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
+pmc:OphiteHebdomasInferior a pm:Conceptualizing ;
+    rdfs:label "Die untere Hebdomas der herabgestürzten Schlange"@de,
+        "The lower hebdomad of the cast-down serpent"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.8 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)" ;
+    skos:definition "The second group of seven in this witness: the serpent, cast down into the lower world, subdues the angels there and begets six sons, himself forming the seventh, after the example of the hebdomad that surrounds the father. These are called the seven mundane demons, said always to oppose and resist the human race."@en ;
+    skos:note "The doubling is therefore attested twice and independently of the diagram. Where the first witness has two lists side by side in one drawing and never equates them, this one states outright that the lower seven are formed after the pattern of the upper seven and are not the same beings. See pmc:OphiteDuaeHebdomades."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
+pmc:OphiteHebdomasPlanetae a pm:Conceptualizing ;
+    rdfs:label "Die heilige Hebdomas sind die sieben Sterne, die sie Planeten nennen"@de,
+        "The holy hebdomad is the seven stars they call planets"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.9 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)" ;
+    skos:definition "The identification the second witness makes: that the holy hebdomad is the seven stars which they call planets. It is made of the group as a whole and is never broken down; no name in the list is paired with a star."@en ;
+    skos:note "This is the exact state of the evidence that the received tables overwrite in both directions. Whoever says the ophites had no planetary doctrine has not read this sentence; whoever prints a column pairing Ialdabaoth with Saturn and Horaios with the Moon has supplied what the sentence withholds. A collective identification without a distribution is a third thing, and it is the thing the witnesses give."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OphiteHebdomasTheriomorpha a pm:Conceptualizing ;
@@ -2765,13 +2788,15 @@ pmc:OphiteIao a pm:Naming ;
     pm:nameRole "second, who shines by night, ruler of the secret mysteries of son and father, first prince of death and portion of the innocent" ;
     pm:withinTradition pmt:OphiteGnosis .
 
-pmc:OphiteMichael a pm:Naming ;
-    rdfs:label "Michael, der Löwengestaltige"@de,
-        "Michael the lion-like"@en ;
-    dcterms:source "Origen, Contra Celsum VI.30 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+pmc:OphiteMichaelDisputatus a pm:Disputing ;
+    rdfs:label "Ob Michael ein Herrscher des Diagramms ist oder ein Name der gefallenen Schlange"@de,
+        "Whether Michael is a ruler of the diagram or a name of the fallen serpent"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.9 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)",
+        "Origen, Contra Celsum VI.30 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:note "Origen's diagram gives Michael as the first of the seven ruling demons, lion-like, and adds that scripture honours him as the angel of the Creator. Irenaeus says the serpent that was cast down bears two names, Michael and Samael. The same name therefore stands once at the head of the ruling seven and once on the adversary they were formed against."@en,
+        "The disagreement is worth keeping because it falls on the name and not on a concept. A name is a harder identity than a resemblance, and two transmissions putting one name in two incompatible places is a finding about the transmissions rather than about the bearer."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
-    pm:nameForm "Michael" ;
-    pm:nameRole "first of the seven ruling demons of the diagram, lion-like; honoured in scripture as the angel of the Creator" ;
+    pm:disputedClaim pmc:OphiteMichael ;
     pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OphiteNullaOrdinatioPlanetaria a pm:Conceptualizing ;
@@ -2780,7 +2805,7 @@ pmc:OphiteNullaOrdinatioPlanetaria a pm:Conceptualizing ;
     dcterms:source "Origen, Contra Celsum VI.22 and VI.30-32 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
     skos:definition "The finding that the passage nowhere assigns a planet to a gate or to a named ruler. The rulers are counted by gates and realms; the only celestial body named in the whole of the diagram material is Phaenon, and it is put in sympathy with the lion-like ruler of the other heptad."@en ;
     skos:note "The planetary ladder does stand in the same book, and it is expressly other material. At VI.22 Celsus reports it from the mysteries of Mithras, with seven gates of metals assigned to Saturn, Venus, Jupiter, Mercury, Mars, the Moon and the Sun, and Origen treats the quotation as an intrusion from a foreign cult. Celsus himself adds that the order is explained by musical reasons rather than by the planets. Reading the ophite gates through that ladder joins two things the text keeps apart, and it changes the order into the bargain: the Mithraic sequence is not the sequence of the gates."@en,
-        "This is a statement about one witness and not about the transmission. Whether an assignment stands in Irenaeus, in the Nag Hammadi material or in the scholarship that reconstructed the diagram is not decided here, and it is not decided by this file. See prima-materia#595."@en ;
+        "This is a statement about one witness and not about the transmission. The second witness does make the identification, and it makes it in a form nobody reports: Irenaeus has the holy hebdomad be the seven stars they call planets, collectively, and never says which name belongs to which star. See pmc:OphiteHebdomasPlanetae. What is unattested in both witnesses is therefore not the planetary reading as such but the table that pairs each name with one planet. See prima-materia#595."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OphiteOnoel a pm:Naming ;
@@ -2803,6 +2828,25 @@ pmc:OphiteOratioYieldsTransitus a pm:Yielding ;
     pm:byPractice pmp:OphiteTransitusOratio ;
     pm:withinTradition pmt:OphiteGnosis ;
     pm:yieldsCapacity pmc:OphiteTransitusLiber .
+
+pmc:OphiteOrdoDisputatus a pm:Disputing ;
+    rdfs:label "Wer von den Sieben zuletzt steht"@de,
+        "Which of the seven stands last"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.5 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)",
+        "Origen, Contra Celsum VI.31 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:note "Irenaeus makes Ialdabaoth the first and Astanphaeus the seventh and last, in a chain where each is begotten by the one before. Origen has the soul address Ialdabaoth as first and seventh, and puts Astaphaeus at the third gate, with Horaeus at the first. The two orders cannot both be read off one diagram: one counts downwards from the mother, the other counts gates upwards from the earth, and Ialdabaoth stands at the far end in each."@en,
+        "Whether that is a real disagreement between two branches or the same scheme read from two directions is not decidable from the translations used. It is entered as a dispute rather than harmonised, because a resolution here would settle by preference what the witnesses settle differently."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:disputedClaim pmc:OphiteHebdomasNominata ;
+    pm:withinTradition pmt:OphiteGnosis .
+
+pmc:OphiteProphetaeDistributi a pm:Conceptualizing ;
+    rdfs:label "Die Verteilung der Propheten auf die Sieben"@de,
+        "The prophets distributed among the seven"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30.11 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)" ;
+    skos:definition "The assignment of the Hebrew prophets to the seven: Moses, Joshua, Amos and Habakkuk to Ialdabaoth; Samuel, Nathan, Jonah and Micah to Iao; Elijah, Joel and Zechariah to Sabaoth; Isaiah, Ezekiel, Jeremiah and Daniel to Adonai; Tobias and Haggai to Eloi; Michaiah and Nahum to Oreus; Esdras and Zephaniah to Astanphaeus. Each is said to glorify his own father as god."@en ;
+    skos:note "The only place in either witness where the seven are individuated by content rather than by rank. It is also the only distribution the sources actually make across the seven, and it is a distribution of prophets and not of planets — which is worth saying beside pmc:OphiteHebdomasPlanetae, where a distribution is exactly what is missing."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
 
 pmc:OphiteRaphael a pm:Naming ;
     rdfs:label "Raphael, der Schlangengestaltige"@de,
@@ -7225,6 +7269,24 @@ pmc:OloliuhquiAnswer a pm:Conceptualizing ;
     skos:definition "The capacity the consultation is undertaken for: to be told whatever the questioners wish to know, with no restriction of subject stated in the passage."@en ;
     pm:withinTradition pmt:NahuaRitual .
 
+pmc:OphiteHebdomasNominata a pm:Conceptualizing ;
+    rdfs:label "Die sieben Namen der Hebdomas und ihre Tore"@de,
+        "The seven names of the hebdomad and their gates"@en ;
+    dcterms:source "Origen, Contra Celsum VI.31-32 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:definition "The set of seven names the diagram gives the rulers of the gates: Ialdabaoth, Iao, Sabaoth, Adonaeus, Astaphaeus, Aloaeus and Horaeus. Origen adds that three of them, Ialdabaoth, Astaphaeus and Horaeus, are taken from magic, and four, Iao, Sabaoth, Adonaeus and Eloaeus, from the Hebrew scriptures, where they are names of one and the same God."@en ;
+    skos:note "Aloaeus and Eloaeus are taken here as one bearer under two spellings of the printed text, since VI.31 addresses Aloaeus and VI.32 lists Eloaeus among the seven while omitting Aloaeus. The identification is the compiler's and is stated so that it can be denied."@en,
+        "The gates are counted from below. Horaeus holds the first, Aloaeus the second, Astaphaeus the third, Sabaoth the fifth realm, and Ialdabaoth is addressed as first and seventh. The fourth and the sixth are never numbered in the passage."@en ;
+    pm:withinTradition pmt:OphiteGnosis .
+
+pmc:OphiteMichael a pm:Naming ;
+    rdfs:label "Michael, der Löwengestaltige"@de,
+        "Michael the lion-like"@en ;
+    dcterms:source "Origen, Contra Celsum VI.30 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:nameForm "Michael" ;
+    pm:nameRole "first of the seven ruling demons of the diagram, lion-like; honoured in scripture as the angel of the Creator" ;
+    pm:withinTradition pmt:OphiteGnosis .
+
 pmc:OphiteTransitusLiber a pm:Conceptualizing ;
     rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
         "Free passage through the realm of a ruler"@en ;
@@ -9824,13 +9886,6 @@ pmt:MayaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
         "Midewiwin"@en ;
@@ -9855,6 +9910,13 @@ pmt:EthiopianOrthodoxMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Lefafa Sedeq; the asmat scroll corpus; the Geez canon" .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
@@ -9870,11 +9932,6 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
-
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -9895,24 +9952,16 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
-pmt:OphiteGnosis a pm:Tradition ;
-    rdfs:label "Ophitische Gnosis"@de,
-        "Ophite gnosis"@en ;
-    dcterms:source "Origen, Contra Celsum VI.24-38 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
-    skos:definition "The transmission behind a diagram of circles and gates in which the soul, rising after death, says a set speech to the ruler of each gate, naming what it brings and asking to pass."@en ;
-    skos:note "Origen states that the bearers are not Christians, that they admit nobody who has not first cursed Jesus, and that they name one Euphrates as the author of their opinions; he also says the sect is very small and that he never met anyone anywhere who believed the diagram. The size claim comes from a hostile witness with a reason to make it and is recorded, not adopted."@en,
-        "Read in the Ante-Nicene Fathers translation of Frederick Crombie. Neither the critical Greek of Koetschau nor Chadwick's translation was consulted, and no claim in this file rests on a word whose Greek was checked. The edition is named on every node for that reason."@en,
-        "The caution that governs every node in this file. The whole of it is read out of an opponent. Origen is refuting Celsus and holds both of them in contempt; he says he obtained the diagram himself out of a love of learning, and he prints the speeches in order to show that he knows what he rejects. Every node therefore carries pm:thirdPartyAscription, and none of them may be read as a statement the bearers of this transmission made about themselves."@en,
-        "The report is nonetheless of an unusual kind, and the difference is worth stating because it is what makes the file worth having. Origen is not summarising a doctrine: he is copying out of a document he possessed, and he says twice that he is doing so where Celsus could not or would not. What is entered here is closer to a transcribed liturgy inside a polemic than to a heresiological paraphrase."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
-
 pm:Attributing a owl:Class ;
     rdfs:label "Zuschreiben"@de,
         "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -10011,6 +10060,21 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pmt:OphiteGnosis a pm:Tradition ;
+    rdfs:label "Ophitische Gnosis"@de,
+        "Ophite gnosis"@en ;
+    dcterms:source "Irenaeus, Adversus Haereses I.30 (trans. A. Roberts and W. Rambaut, Ante-Nicene Fathers I, Buffalo 1885)",
+        "Origen, Contra Celsum VI.24-38 (trans. F. Crombie, Ante-Nicene Fathers IV, Edinburgh 1885)" ;
+    skos:definition "The transmission behind a diagram of circles and gates in which the soul, rising after death, says a set speech to the ruler of each gate, naming what it brings and asking to pass."@en ;
+    skos:note "Origen states that the bearers are not Christians, that they admit nobody who has not first cursed Jesus, and that they name one Euphrates as the author of their opinions; he also says the sect is very small and that he never met anyone anywhere who believed the diagram. The size claim comes from a hostile witness with a reason to make it and is recorded, not adopted."@en,
+        "Read in the Ante-Nicene Fathers translation of Frederick Crombie. Neither the critical Greek of Koetschau nor Chadwick's translation was consulted, and no claim in this file rests on a word whose Greek was checked. The edition is named on every node for that reason."@en,
+        "The caution that governs every node in this file. The whole of it is read out of an opponent. Origen is refuting Celsus and holds both of them in contempt; he says he obtained the diagram himself out of a love of learning, and he prints the speeches in order to show that he knows what he rejects. Every node therefore carries pm:thirdPartyAscription, and none of them may be read as a statement the bearers of this transmission made about themselves."@en,
+        "The report is nonetheless of an unusual kind, and the difference is worth stating because it is what makes the file worth having. Origen is not summarising a doctrine: he is copying out of a document he possessed, and he says twice that he is doing so where Celsus could not or would not. What is entered here is closer to a transcribed liturgy inside a polemic than to a heresiological paraphrase."@en,
+        "The second witness was opened afterwards and is a different kind of report. Irenaeus gives no speeches: he tells a myth, and the seven names appear in it as a chain of generations rather than as gatekeepers. Where the two accounts touch, they are entered side by side and their divergences are held as disputes, because an averaged account would report a witness neither of them gives."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
 
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
