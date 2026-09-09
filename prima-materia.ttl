@@ -2672,7 +2672,8 @@ pmc:MithraicDisputatioGraduum a pm:Disputing ;
         "Porphyry, De abstinentia IV.16 (trans. A. S. Geden, London 1925)" ;
     skos:definition "The conflict between the accounts of initiation this graph holds: seven named grades in a Latin letter of about 400, four animal ranks including women in a Greek report drawn from a lost history of the cult, and eighty ascending and descending disciplines in a Greek commentary of the sixth or seventh century."@en ;
     skos:note "None of the three knows of the others, and none is arguing. The conflict is the compiler's observation, and it is recorded because the seven-grade list is quoted everywhere as if it were the account rather than one of three. The others are not obviously worse witnesses: the four-name list comes from someone who had read a multi-volume history of the cult that is now lost, and the seven-name list from a bishop making a rhetorical point about a relative's baptism."@en,
-        "What would decide it is not another text. The grades are attested outside the literary channel altogether, on a mosaic floor and in painted inscriptions, and that material is unread here. Until it is, this node is the honest state: the number of grades in the Mithraic mysteries is not established by anything in this graph."@en ;
+        "The wall brings its own disagreement with it. Its planetary guardianships do not match those of the mosaic floor at Ostia, so the material channel is not the single voice the literary one lacks. See pmc:MithraicTutelaePlanetarum."@en,
+        "What would decide it is not another text. The grades are attested outside the literary channel altogether, on a mosaic floor and in painted inscriptions, and one of those is now read: the painted procession at Santa Prisca has seven, labelled one by one, which settles the number for that room in 220 and against the eighty. It does not settle the four animal ranks, which name women and may describe another thing entirely."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:MithraicGradusSeptem ;
     pm:withinTradition pmt:Mithraic .
@@ -2686,6 +2687,27 @@ pmc:MithraicLeonticaMelle a pm:Practicing ;
         "The substitution is the operative part. Water is what hands are washed with; honey is what preserves against decay, which is the property Porphyry has spent the surrounding pages establishing. The gesture therefore says that these hands are to be kept from corruption, not merely cleaned, and the alternative purification by fire says the same thing with the other means."@en,
         "Two further Mithraic details stand in the same passage and are held here rather than as separate nodes: the Persians offer honey to the guardian of fruits as a symbol of a preserving and warding power, and a bowl stands beside Mithras in place of a spring."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicNamaAcclamatio a pm:Conceptualizing ;
+    rdfs:label "Heil den Vätern, vom Aufgang bis zum Untergang"@de,
+        "Hail to the fathers, from the east to the west"@en ;
+    dcterms:source "Mithraeum of Santa Prisca, Rome, upper-layer dipinto above the seated figure, south wall (CIMRM 480, after Ferrua and Vermaseren-van Essen 1965)" ;
+    skos:definition "The form of the painted captions: a Persian word of greeting, then the grade in the dative plural, then the guardianship. The one at the head of the procession extends the greeting in space — hail to the fathers from the east to the west, under the guardianship of Saturn."@en ;
+    skos:note "It is also the cult using a Persian word in a Latin sentence, in Rome, on a wall painted by Syrians. The word is not translated and not explained, which is how a term of address behaves when everyone in the room knows it."@en,
+        "The grammar is the finding. The acclamation is addressed to the grade and not spoken by its holder, and it is addressed to all of them at once, in the plural: not to this father in this room but to the fathers, as far as the sun goes. What the wall records is therefore not a formula the initiate says but the standing of the rank he is entering, said over him."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicNatalisInitiationis a pm:Conceptualizing ;
+    rdfs:label "Geboren beim ersten Licht, am Saturntag, der Mond achtzehn Tage alt"@de,
+        "Born at first light, on Saturn's day, the moon eighteen days old"@en ;
+    dcterms:source "Mithraeum of Santa Prisca, Rome, graffito beside the cult niche (CIMRM 476, after Vermaseren-van Essen 1965)" ;
+    skos:definition "The graffito scratched beside the cult niche of the same mithraeum: born at first light, in the consulship of the two Augusti Severus and Antoninus, on the twelfth day before the kalends of December, the day of Saturn, the eighteenth of the moon. It records an initiation, dated as a birth, on 20 November 202."@en ;
+    skos:note "The most concrete single thing this tradition has left in its own hand, and three of its properties are worth keeping. It calls the initiation a birth without qualifying the word. It records the moment to the hour, with the consular year, the weekday and the age of the moon — that is the apparatus of a horoscope, cast for the second birth rather than the first. And it does not give a name."@en,
+        "The omission of the name is what makes it more than a date. A man who writes his birth on a wall and leaves himself out of it is recording the event and not himself, and that is consistent with everything else this cult wrote down: the wall greets the fathers, not a father."@en,
+        "The reckoning is exact enough to be checked against an ephemeris, which is unusual in this graph. Whether the eighteenth of the moon actually fell on that Saturday in 202 has not been checked here."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Mithraic .
 
 pmc:MithraicNominaAnimalium a pm:Conceptualizing ;
@@ -2727,6 +2749,18 @@ pmc:MithraicSpelaeumImagoMundi a pm:Conceptualizing ;
     skos:note "The chain of hands is three long and the middle link is lost. Porphyry reports Eubulus, whose work on Mithras does not survive; Eubulus reports the Persians. The graph holds the outermost link only, and every statement here about what Zoroaster did is at that distance."@en,
         "This is the only statement in the graph that a ritual space is laid out to scale. It does not merely say that the cave means the world; it says the interval between two things in it corresponds to the interval between two things in the world. A claim of that shape is checkable against a surviving sanctuary in a way that an allegory is not, and the check has not been made here — the seven semicircles of the mithraeum at Ostia are the obvious place to make it, and they are unread. See prima-materia#642."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Mithraic .
+
+pmc:MithraicTutelaePlanetarum a pm:Conceptualizing ;
+    rdfs:label "Jeder Grad unter der Obhut eines Planeten, neben seinen Träger gemalt"@de,
+        "Each grade under the guardianship of one planet, painted beside its bearer"@en ;
+    dcterms:source "Mithraeum of Santa Prisca, Rome, upper-layer dipinti of the south wall (CIMRM 480, after Ferrua and Vermaseren-van Essen 1965)" ;
+    skos:definition "The captions painted above the procession of the seven grades on the south wall of the mithraeum beneath Santa Prisca in Rome, each naming a grade in the dative and the planet whose guardianship it stands under: the father under Saturn, the sun-runner under the Sun, the Persian under Mercury, the lion under Jupiter, the soldier under Mars, the bridegroom under Venus; the raven, of whom only traces remain, under the Moon."@en ;
+    skos:note "And the wall does not agree with the other wall. At Ostia the Persian stands under the Moon and the raven under Mercury; here the two are exchanged, the Persian under Mercury and the raven under the Moon. The catalogue entry records the divergence in a footnote and moves on. It is not a small thing: the received table follows Ostia, drops this one, and presents the result as the Mithraic order."@en,
+        "This is where the pairing of grade and planet actually comes from. No literary source has it: Jerome names the grades without stars, and the only ancient text that distributes planets over a sevenfold Mithraic structure, Contra Celsum VI.22, distributes them over gates and not over grades. Every modern table that seats a grade on a planet is reading a wall."@en,
+        "Three Mithraic orderings are now in this graph and no two agree. The ladder of Contra Celsum VI.22 ascends Saturn, Venus, Jupiter, Mercury, Mars, Moon, Sun. This wall descends Saturn, Sun, Mercury, Jupiter, Mars, Venus, Moon. Ostia gives a third by exchanging two of them. Whatever governs the sequence, it is not one fixed doctrine, and an argument that derives any other seven-station scheme from the Mithraic order has to say which of the three it means. See prima-materia#595."@en,
+        "What was read: the transcription of the seven dipinti in the catalogue entry for this monument, which itself depends in part on Ferrua's record of details already lost when the modern excavation began. Not the wall, not a photograph, and not the excavation report. Three of the seven captions are restored in part, and the seventh is a reconstruction from traces."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Mithraic .
 
 pmc:MouthToMouthOnly a pm:Conceptualizing ;
@@ -10547,19 +10581,6 @@ pmt:Maori a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ngā Mōteatea; Best, The Maori; Best, Tuhoe" .
 
-pmt:Mithraic a pm:Tradition ;
-    rdfs:label "Mithras-Mysterien"@de,
-        "Mysteries of Mithras"@en ;
-    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)",
-        "Porphyry, De antro nympharum (trans. Thomas Taylor, London 1917)" ;
-    skos:definition "The initiatory cult of the Roman empire, organised in graded degrees and practised in artificial caves, whose own transmission is almost entirely monumental and epigraphic rather than literary."@en ;
-    skos:note "The lopsidedness of the corpus is the first thing to say about it. This tradition left several hundred sanctuaries, reliefs and inscriptions and no book of its own; every connected account of what it taught comes from someone outside it, and mostly from someone attacking it. That is the opposite of every other tradition in this graph's ascent material, where a text survives and the material remains do not, and it is the reason the tradition can matter here as a witness independent of the heresiological channel — once the material rather than the reports is opened."@en,
-        "The name Mithras appears in this graph twice over, and the two occurrences are not the same thing. Here it is the cult. In traditions/greek-magical-papyri.ttl it is a modern title given in 1903 to PGM IV.475-829, and whether that piece is Mithraic at all is disputed in the scholarship. Nothing in this file rests on that identification."@en,
-        "What was read: Origen, Contra Celsum VI.22, in the Ante-Nicene Fathers translation with the Greek of the disputed words in its notes; and Porphyry, De antro nympharum, complete, in Thomas Taylor's translation (London 1917). Neither is a Mithraic text. The first is a report about Mithraists inside a Christian refutation; the second is a Platonist reading Homer, who reaches for the cult four times because it suits his argument about the descent of souls."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
-
 pmt:PistisSophia a pm:Tradition ;
     rdfs:label "Pistis Sophia"@de,
         "Pistis Sophia"@en ;
@@ -10644,6 +10665,19 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
+
+pmt:Mithraic a pm:Tradition ;
+    rdfs:label "Mithras-Mysterien"@de,
+        "Mysteries of Mithras"@en ;
+    dcterms:source "Origen, Contra Celsum VI.22 (trans. F. Crombie, Ante-Nicene Fathers IV)",
+        "Porphyry, De antro nympharum (trans. Thomas Taylor, London 1917)" ;
+    skos:definition "The initiatory cult of the Roman empire, organised in graded degrees and practised in artificial caves, whose own transmission is almost entirely monumental and epigraphic rather than literary."@en ;
+    skos:note "The lopsidedness of the corpus is the first thing to say about it. This tradition left several hundred sanctuaries, reliefs and inscriptions and no book of its own; every connected account of what it taught comes from someone outside it, and mostly from someone attacking it. That is the opposite of every other tradition in this graph's ascent material, where a text survives and the material remains do not, and it is the reason the tradition can matter here as a witness independent of the heresiological channel — once the material rather than the reports is opened."@en,
+        "The name Mithras appears in this graph twice over, and the two occurrences are not the same thing. Here it is the cult. In traditions/greek-magical-papyri.ttl it is a modern title given in 1903 to PGM IV.475-829, and whether that piece is Mithraic at all is disputed in the scholarship. Nothing in this file rests on that identification."@en,
+        "What was read: Origen, Contra Celsum VI.22, in the Ante-Nicene Fathers translation with the Greek of the disputed words in its notes; and Porphyry, De antro nympharum, complete, in Thomas Taylor's translation (London 1917). Neither is a Mithraic text. The first is a report about Mithraists inside a Christian refutation; the second is a Platonist reading Homer, who reaches for the cult four times because it suits his argument about the descent of souls."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
 pmt:SaivaSakta a pm:Tradition ;
     rdfs:label "Śaiva- und Śākta-Tantra"@de,
