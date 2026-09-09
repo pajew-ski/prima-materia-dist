@@ -4360,18 +4360,6 @@ pmc:TestingTheMarkedAnimals a pm:Testing ;
     pm:protocolUpdated "2026-09-03"^^xsd:date ;
     pm:tests pmc:TungusMarkedAnimals .
 
-pmc:TestingTheProcedureVoidsItsAnswer a pm:Generalizing ;
-    rdfs:label "Das Verfahren verbietet die Frage, die es prüfen würde"@de,
-        "The procedure forbids the question that would test it"@en ;
-    skos:note "Falsified by a transmission of the same kind whose earliest witness permits or requires repeated consultation, and treats disagreement between consultations as a finding about the procedure rather than about the questioner. One such case refutes it, and the divinatory literature is wide enough that it may well exist."@en,
-        "Read as a claim about the traditions it is unremarkable; read as a claim about examinability it is sharp. A rule of this shape makes the ordinary test — ask again and compare — a violation of the procedure, so that a failure to replicate is always attributable to the asking. It is not evidence that the procedures are empty; it is a statement about why the question has stayed open."@en,
-        "The most consequential of the four for this project, because it names the mechanism that keeps a procedure out of reach of examination. The Zhouyi attaches exactly one condition to consulting: at the first asking it tells; asked twice and three times, that is defilement, and defiled it does not tell. The spiritist manual instructs that questions put from curiosity or from a motive of test are not to be answered, and that the spirits addressed withdraw from them."@en,
-        "The two witnesses are far apart in time and unequal in kind: a canonical judgement fixed in the first millennium BCE and a French manual of 1861. A route between them is not documented and is also not needed for the claim, which asserts a recurring form and not an independent attestation. Whoever wants the second must show the manual's author had no access to the sinological literature of his century."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:EpreuveCaution,
-        pmc:ZaisanDu ;
-    pm:generalizedStatement "Transmissions that obtain an answer from a procedure state a condition that excludes the repeated or testing question, and give as the reason that the answer is spoiled by it rather than that the questioner is unworthy."@en .
-
 pmc:TheEatersOfMen a pm:Conceptualizing ;
     rdfs:label "Die Menschenesser"@de,
         "The eaters of men"@en ;
@@ -6193,6 +6181,22 @@ pmp:Sitkari a pm:Practicing ;
     skos:definition "A retention in which the breath is drawn in through the mouth with the tongue between the lips, producing a hissing sound, and is not let out the same way."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:TestingProhibitionExamination a pm:Testing ;
+    rdfs:label "Ob Überlieferungen, die eine Auskunft aus einem Verfahren beziehen, die prüfende Frage verbieten"@de,
+        "Whether transmissions obtaining an answer from a procedure forbid the testing question"@en ;
+    skos:definition "A protocol on the claim that transmissions obtaining an answer from a procedure state a condition excluding the repeated or testing question, and give the spoiling of the answer as the reason rather than the unworthiness of the questioner."@en ;
+    skos:note "It is worse for the claim than an ordinary counterexample, because the Zande rule inverts the mechanism the generalization described. There the second asking spoils the answer; here the absence of a second asking leaves the answer without standing. Two transmissions obtaining an answer from an outcome the operator does not control take opposite positions on the same question, so the position is not a property of that kind of procedure at all."@en,
+        "The deviation. The Zande poison oracle requires a second, corroborative consultation and makes the validity of the verdict depend on it: across the two tests one fowl must die and the other must live. If both die or both live, the verdict is contradictory and void, and the matter is put to the oracle again on another occasion. That answers every clause of the falsifying condition — repetition required rather than forbidden, the outcome of the pair read as a finding about the verdict, and the response to a voided consultation being to ask again."@en,
+        "The finding about this project's own procedure is the more expensive one and belongs here rather than in a report nobody reads. The counter-search for the four generalizations of prima-materia#665 was not carried before they were written; had it been, this case would have surfaced from the holding at no cost. SPEC §15 requires the search for the negation of every claim, and a generalization is a claim like any other. The three remaining nodes of that file stand under the same suspicion until each has been searched against the holding, and the searches are owed."@en,
+        "What survives and what does not. The two witnesses the generalization was formed from say what they were reported as saying; the Zhouyi and the spiritist manual are untouched, and their nodes stand. What fails is the quantifier over kinds of transmission. A narrower claim about a subset — perhaps those whose answer is delivered by a speaker rather than read off an outcome — might hold, and would have to be formed and examined on its own rather than rescued from this one by adding a clause."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched the holding's own oracular material for a transmission requiring rather than forbidding the second question, by walking every node of the Zande, Ifá, Fon, Chinese divinatory, Nahua, Maya and Kongo registrations. The Zande case answers the falsifying condition on all three counts and stands at pmc:BengeValidVerdictRule and pmp:BengeCorroborationProtocol. Not searched: the wider divinatory literature outside this holding, and no modern study was consulted, so no pm:evidenceFrom is set."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-09-09" ;
+    pm:falsifiedBy "A transmission of the same kind whose earliest witness permits or requires repeated consultation on the same matter, and treats agreement or disagreement between the consultations as a finding about the procedure rather than about the questioner. One such case refutes the claim."@en ;
+    pm:protocolUpdated "2026-09-09" ;
+    pm:tests pmc:TestingTheProcedureVoidsItsAnswer .
 
 pmp:Tzite a pm:Practicing ;
     rdfs:label "Das Losen mit Maiskörnern und Tzite-Samen"@de,
@@ -8550,6 +8554,19 @@ pmc:TestingOfThoughts a pm:Testing ;
     pm:tests pmc:DiscernmentOfOrigins ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
+pmc:TestingTheProcedureVoidsItsAnswer a pm:Generalizing ;
+    rdfs:label "Das Verfahren verbietet die Frage, die es prüfen würde"@de,
+        "The procedure forbids the question that would test it"@en ;
+    skos:note "Falsified by a transmission of the same kind whose earliest witness permits or requires repeated consultation, and treats disagreement between consultations as a finding about the procedure rather than about the questioner. One such case refutes it, and the divinatory literature is wide enough that it may well exist."@en,
+        "Read as a claim about the traditions it is unremarkable; read as a claim about examinability it is sharp. A rule of this shape makes the ordinary test — ask again and compare — a violation of the procedure, so that a failure to replicate is always attributable to the asking. It is not evidence that the procedures are empty; it is a statement about why the question has stayed open."@en,
+        "Refuted on the day it was written, from material this holding already carried. pmp:TestingProhibitionExamination reports the deviation: the Zande poison oracle requires the second consultation and makes the verdict's validity depend on it, which inverts the mechanism this claim describes. The node stands because a refuted claim with its protocol beside it is a finding, and deleting it would leave the next reader to form it again."@en,
+        "The most consequential of the four for this project, because it names the mechanism that keeps a procedure out of reach of examination. The Zhouyi attaches exactly one condition to consulting: at the first asking it tells; asked twice and three times, that is defilement, and defiled it does not tell. The spiritist manual instructs that questions put from curiosity or from a motive of test are not to be answered, and that the spirits addressed withdraw from them."@en,
+        "The two witnesses are far apart in time and unequal in kind: a canonical judgement fixed in the first millennium BCE and a French manual of 1861. A route between them is not documented and is also not needed for the claim, which asserts a recurring form and not an independent attestation. Whoever wants the second must show the manual's author had no access to the sinological literature of his century."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:EpreuveCaution,
+        pmc:ZaisanDu ;
+    pm:generalizedStatement "Transmissions that obtain an answer from a procedure state a condition that excludes the repeated or testing question, and give as the reason that the answer is spoiled by it rather than that the questioner is unworthy."@en .
+
 pmc:TheNamedManDiesWithinTenDays a pm:Conceptualizing ;
     rdfs:label "Der Gerufene stirbt binnen zehn Tagen"@de,
         "The man whose name is called dies within ten days"@en ;
@@ -9854,11 +9871,6 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:counterSearchFoundNothing a pm:CounterSearchState ;
     rdfs:label "Gegensuche ohne Fund"@de,
         "Counter-search found nothing"@en ;
@@ -10255,6 +10267,11 @@ pm:byEffort a pm:AwarenessValue,
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Ort nicht angegeben"@de,
@@ -10431,11 +10448,6 @@ pm:claimDoesNotDiscriminate a pm:ExaminationState ;
         "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
         "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
         "First-person report"@en ;
@@ -10539,6 +10551,11 @@ pm:SearchOutcome a owl:Class,
     skos:definition "What a carried search returned. Four outcomes, of which three are findings about the corpus and one is a finding about access to it."@en ;
     skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
     pm:scaleFamily pm:recordScale .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:displacedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
