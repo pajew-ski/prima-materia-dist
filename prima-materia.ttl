@@ -5208,17 +5208,6 @@ pmc:Wuguo a pm:Cautioning ;
     pm:cautionsAbout pmp:Cizhen ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
-pmc:WulaoSuoshang a pm:Cautioning ;
-    rdfs:label "Die fünf Erschöpfungen und was jede schädigt"@de,
-        "The five exhaustions and what each injures"@en ;
-    dcterms:source "Huangdi neijing lingshu 78 (Jiu zhen lun), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 12",
-        "Huangdi neijing suwen 23 (Xuan ming wu qi), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 7" ;
-    skos:definition "The corpus's one general statement that a thing done too long injures, with the injury named for each: looking long injures the blood, lying long injures the qi, sitting long injures the flesh, standing long injures the bone, walking long injures the sinews. The Suwen closes the list by naming it the five injuries of exhaustion; the Lingshu prints the same five clauses and calls them the illnesses of the five long exhaustions."@en ;
-    skos:note "Entered as the answer this corpus gives to a question the graph asks of many transmissions: whether the excess of a practice is said to harm and whether a measure is prescribed. The answer here is general in form and has a stated consequence for each case, which is more than most. What it does not say is that the excess of a prescribed practice harms; the five things it names are ordinary postures and not techniques, and the corpus's rule about its own operation is the bare clause about measure entered beside this."@en,
-        "The doublet is not a variant. Both classics carry the same five clauses with the same organs and the same order, one under the heading of the five exhaustions and one in the chapter on the nine needles; the wording of the closing formula differs and the list does not."@en ;
-    pm:cautionsAbout pmp:ZhidaoYangsheng ;
-    pm:withinTradition pmt:ChineseMedicalCanon .
-
 pmc:WuliErshiwu a pm:Cautioning ;
     rdfs:label "Fünfmal fünf am Wuli, und die Zuflüsse sind erschöpft"@de,
         "Five times five at the wuli, and the transports are drained"@en ;
@@ -5882,11 +5871,6 @@ pm:scaleFamily a owl:ObjectProperty ;
     rdfs:range pm:ScaleFamily ;
     skos:definition "The family a scale belongs to."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pm:searchOutcome a owl:ObjectProperty ;
     rdfs:label "Ausgang der Suche"@de,
         "search outcome"@en ;
@@ -6244,6 +6228,21 @@ pmp:FourthWayStatesAntecedentSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-09-09" ;
     pm:searchedCorpus "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching (one-volume English text as scanned in the Internet Archive full-text mirror)" ;
     pm:searchedFor "Whether the work derives its fourfold ordering of states of consciousness from an earlier source, as it derives its fourfold division of bodies from four named terminologies at pmc:FourBodiesAcrossTerminologies." .
+
+pmp:GeneralRuleAgainstExcessSearch a pm:Searching ;
+    rdfs:label "Ob der medizinische Kanon eine allgemeine Maßregel gegen das Übermaß der Praxis nennt"@de,
+        "Whether the medical canon states a general rule against excess of practice"@en ;
+    dcterms:date "2026-09-10" ;
+    skos:note "See prima-materia#240. The issue keeps its korpus:huangdi-neijing label and stays open, because four further corpora named there have not been asked."@en,
+        "The result is a general rule and not the general rule the claim asks for, and the difference is worth keeping. The five exhaustions state that a thing done too long injures, name the injury in each case, and stand twice in the corpus; but the five things are looking, lying, sitting, standing and walking, which are postures and not prescribed techniques. The corpus's own rule about its own operation is a single clause with no quantity and no consequence, and it is entered separately."@en,
+        "What the search settles for this corpus is therefore narrower than the issue asks and sharper than a silence would have been. The transmission does have the form of claim the question is after, applies it to ordinary conduct, and declines to give it any content where its own technique is concerned. That asymmetry is a finding about the corpus and would not have been visible from either half alone."@en,
+        "Written a day after the search, because the node it names could not be reached from any branch on which it would have validated. The guard in tests/test_publication.py refused a part that points at a node it does not name, which is the condition of SPEC §1 and which held. What that shows about this class is worth keeping: a pm:Searching with a find is bound to the node it yields and travels with it, so such a search belongs in the same change as its find and not in a batch of searches."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of both classics for: 過度 (six hits, all about excess of exertion or of pleasure and cold and heat, none about a practice); 無過其度 (one hit, Lingshu 61); 五勞所傷 (Suwen 23); 久視傷 (Lingshu 78, the same five clauses); 不妄作勞 (Suwen 1)." ;
+    pm:searchYieldedNode pmc:WulaoSuoshang ;
+    pm:searchedBy "prima-materia, 2026-09-10" ;
+    pm:searchedCorpus "Huangdi neijing, Suwen in the Chongguang buzhu recension and Lingshu in the Huangdi suwen lingshu jing, both in the Sibu congkan facsimile; searched over both classics in the Chinese, with the chapters carrying a hit read at the wording" ;
+    pm:searchedFor "A general rule, not a single case, that too much of a prescribed practice injures and that a measure is therefore to be kept — the claim of prima-materia#240, which reaches this corpus among five." .
 
 pmp:HawaiianRedundantMemorising a pm:Practicing ;
     rdfs:label "Das Auswendiglernen eines Gesangs durch mehrere Rezitatoren"@de,
@@ -9159,6 +9158,17 @@ pmc:Wujin a pm:Cautioning ;
     pm:cautionsAbout pmp:Cizhen ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
+pmc:WulaoSuoshang a pm:Cautioning ;
+    rdfs:label "Die fünf Erschöpfungen und was jede schädigt"@de,
+        "The five exhaustions and what each injures"@en ;
+    dcterms:source "Huangdi neijing lingshu 78 (Jiu zhen lun), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 12",
+        "Huangdi neijing suwen 23 (Xuan ming wu qi), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 7" ;
+    skos:definition "The corpus's one general statement that a thing done too long injures, with the injury named for each: looking long injures the blood, lying long injures the qi, sitting long injures the flesh, standing long injures the bone, walking long injures the sinews. The Suwen closes the list by naming it the five injuries of exhaustion; the Lingshu prints the same five clauses and calls them the illnesses of the five long exhaustions."@en ;
+    skos:note "Entered as the answer this corpus gives to a question the graph asks of many transmissions: whether the excess of a practice is said to harm and whether a measure is prescribed. The answer here is general in form and has a stated consequence for each case, which is more than most. What it does not say is that the excess of a prescribed practice harms; the five things it names are ordinary postures and not techniques, and the corpus's rule about its own operation is the bare clause about measure entered beside this."@en,
+        "The doublet is not a variant. Both classics carry the same five clauses with the same organs and the same order, one under the heading of the five exhaustions and one in the chapter on the nine needles; the wording of the closing formula differs and the list does not."@en ;
+    pm:cautionsAbout pmp:ZhidaoYangsheng ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:XibalbaSurvival a pm:Conceptualizing ;
     rdfs:label "Das lebende Verlassen der Häuser von Xibalbá"@de,
         "Coming out of the houses of Xibalba alive"@en ;
@@ -9269,6 +9279,11 @@ pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
     skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pm:sourceModalityScale a pm:ScaleFamily ;
     rdfs:label "Quellenmodalitätsskala"@de,
@@ -11266,15 +11281,6 @@ pmt:Spiritism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums; Kardec, L'Évangile selon le spiritisme; Kardec, La Genèse; the Revue Spirite, 1858-1869" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
@@ -11332,6 +11338,15 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
