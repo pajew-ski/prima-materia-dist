@@ -5076,6 +5076,32 @@ pmc:ZangshuDispute a pm:Disputing ;
     pm:disputedClaim pmc:YitiShouyin ;
     pm:withinTradition pmt:ChineseDivination .
 
+pmc:ZangshuRecensionHistory a pm:Systematizing ;
+    rdfs:label "Wie das hier gelesene Buch entstanden ist"@de,
+        "How the book read here was made"@en ;
+    dcterms:date "1781" ;
+    dcterms:source "Zangshu, the editors' prefatory summary in the Wenyuange Siku quanshu text, dated the tenth month of the forty-sixth year of Qianlong" ;
+    skos:definition "The account the editors of the imperial collection give of the text they are printing. The attribution to Guo Pu of the fourth century is a received one and the book is not among the works his biography names; a burial book under his name first appears in the Song bibliography. Practitioners afterwards competed in embellishing it until it ran to twenty pian; Cai Yuanding, finding it overgrown, struck out twelve and kept eight; Wu Cheng, holding that Cai had not gone to the bottom of it, took what was purest as the inner section, what was half fine and half coarse as the outer, and what should have gone but was kept for the time being as the miscellaneous. Liu Zezhang of Xinyu received the text from Wu and annotated it, though whether the annotation printed here is his cannot be determined. The Song bibliography called it the burial book, and later admirers renamed it the burial classic, a change the editors decline to follow."@en ;
+    skos:note "Entered because every node in this file that cites the burial book cites a text of that history, and because the ordering is not a scholarly aside but the thing being cited. The material a reader meets as one doctrine was selected twice, by two named men four generations apart, on the criterion of purity; what was cut is not preserved, so the graph cannot say what the transmission said before the cuts."@en,
+        "The miscellaneous section carries the outcome sentences and the six adversities, that is to say the two bodies of material this file draws most heavily on. In Wu Cheng's own arrangement that is the section he judged coarse, kept provisionally and would have removed. The citations name the section for that reason."@en ;
+    pm:compiledBy "Cai Yuanding, who reduced twenty pian to eight; Wu Cheng, who divided the remainder into inner, outer and miscellaneous sections; and the editors of the Siku quanshu, who report both and settle the title" ;
+    pm:ordersClaim pmc:SanjiLiuxiong,
+        pmc:WuBukezang,
+        pmc:XingshiJixiong .
+
+pmc:ZangshuZhuDispute a pm:Disputing ;
+    rdfs:label "Der mitgedruckte Kommentar widerspricht den Ausgängen des Buches selbst"@de,
+        "The commentary printed with the book contradicts the book's own outcomes"@en ;
+    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text",
+        "Zangshu, the annotation printed beneath the miscellaneous and inner sections in the Wenyuange Siku quanshu text of the Wu Cheng recension" ;
+    skos:definition "The annotation printed beneath the text in this edition does not defend the outcome sentences; at several of them it names cases going the other way and tells the reader not to follow the book. Where the text says that a form like a crosswise stool cuts off the sons and kills the grandsons, the note answers that where the true stool form is obtained it is a transformation of water and produces literary distinction and success in the examinations, and names three families whose ancestral graves were of that form: the forebear of a chief councillor Lu, of the prodigy Yang, and of a eunuch Fang. Where the text says that a form like a lying sword brings execution and extermination, the note answers that there are sword forms that have produced the eminent, and names one. Where the text places the flying serpent among the inauspicious, the note asks how many sites of serpent form have been used from antiquity to now, and whether they can all be set aside as dangerous. The same hand qualifies four of the five prohibited mountains in the same way, each time with the formula that there is a further kind which is not to be rejected on that ground."@en ;
+    skos:note "The form of the qualification is the part worth having. The note never denies the rule; it denies that the case at hand was an instance of it, on the ground that the form was only apparently that form. That move preserves every sentence of the text against every counter-example, and it is the same machinery this file already records at the six adversities, one level up: there the failures of a correct burial are absorbed, here the successes of an incorrect one."@en,
+        "This is a dispute inside one book and one printing, and the two sides are the text and its annotation. It is entered because the graph would otherwise carry the outcome sentences as the position of this transmission, when the transmission as it is actually handed on carries the sentences and their systematic qualification on the same page."@en,
+        "Who wrote the annotation is not established, and the edition itself says so. The prefatory summary of the imperial collection states that Cai Yuanding cut the twenty pian to eight, that Wu Cheng afterwards divided what he had into the inner, outer and miscellaneous sections, that Liu Zezhang of Xinyu received the text from Wu and annotated it, and that whether the note in this printing is Liu's cannot be determined. The graph therefore has the counter-examples as an anonymous later hand and not as a named party."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:XingshiJixiong ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:ZhanbuDispute a pm:Disputing ;
     rdfs:label "Ob Stengel und Schale überhaupt antworten"@de,
         "Whether the stalks and the shell answer at all"@en ;
@@ -8373,17 +8399,6 @@ pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:ParacittaJnana .
 
-pmc:SanjiLiuxiong a pm:Cautioning ;
-    rdfs:label "Drei Glücksfälle und sechs Unglücksfälle"@de,
-        "Three felicities and six adversities"@en ;
-    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    skos:definition "The book closes with three conditions under which a hollow is felicitous and six under which the burial is adverse. The six: a discordance of yin and yang; a going wrong of the year and the season; a small strength that plans a great thing; a reliance on present fortune and standing power; an overreaching above or a falling short below; and a strange appearance among the responses. The classic is quoted for the conclusion that a felicitous hollow with an adverse burial is the same as abandoning the corpse."@en ;
-    skos:note "The second adversity is separately consequential, because it is the one an outside witness attacked with a count. It requires the year and the season of the burial to be right, and the memorial recorded in the dynastic history sets against that a tally of burials in the classical annals on the day the burial books call most inauspicious."@en,
-        "The sixth adversity is the reason this node stands here and not among the ordinary cautions. The commentary printed with it enumerates what the strange appearances are, and the list is a list of ways in which nothing happens: the site is right and the family delays the burial; a quarrel prevents it; poverty and sickness together make it impossible; the master dies before he can return; the coffin stands for years and a war intervenes; the descendants do not agree; a lawsuit or a prison ends it; the days pass in neglect until the thing is abandoned. Every one of these is a reason a favourable grave produced no fortune, and every one is available after the fact."@en,
-        "What the graph gains here is not a warning but a shape of claim. Beside the interval that does not turn a day, this file now holds the machinery that keeps that interval from ever being read as a refutation, in the same book and a few folios apart."@en ;
-    pm:cautionsAbout pmp:Zang ;
-    pm:withinTradition pmt:ChineseDivination .
-
 pmc:SecondDegreeYieldsDistantHearing a pm:Yielding ;
     rdfs:label "Der zweite Grad bringt das Fernhören hervor"@de,
         "The second degree yields hearing at a distance"@en ;
@@ -8776,6 +8791,16 @@ pmc:WritingWithInk a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:9 (Ethiopic; Charles 1912)" ;
     skos:definition "The art of fixing speech in ink on paper, treated in the text as a transgression rather than a gift."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:WuBukezang a pm:Cautioning ;
+    rdfs:label "Die fünf Berge, auf denen nicht bestattet werden darf"@de,
+        "The five mountains on which one may not bury"@en ;
+    dcterms:source "Zangshu, inner section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "Five prohibitions, each stated as a consequence of a premise the book has already laid down. Because the qi comes about through the harmonious generation of things, a bald mountain may not be buried on. Because the qi comes by way of the form, a broken mountain may not be buried on. Because the qi travels by way of the earth, a stone mountain may not be buried on. Because the qi is stopped by the configuration, a mountain that merely passes through may not be buried on. Because the qi gathers where the dragons meet, a solitary mountain may not be buried on. The classic is then quoted for the conclusion: bald, broken, stone, passing and solitary generate new misfortune and extinguish the fortune already there."@en ;
+    skos:note "The closing formula is stronger than a warning and is why this is entered as one. It does not say that such a burial fails to help; it says that it generates new misfortune and cancels fortune the family already had, so the claim is that the operation done wrongly is worse than not done."@en,
+        "The five are the only prohibitions in this book whose ground is stated, and each ground is a clause of the doctrine rather than a rule of its own. That makes them the place where the transmission is most nearly deductive: given what it has said the qi is, these five follow, and a reader who accepted the premises and rejected a prohibition would be contradicting himself and not merely disagreeing."@en ;
+    pm:cautionsAbout pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:XibalbaSurvival a pm:Conceptualizing ;
     rdfs:label "Das lebende Verlassen der Häuser von Xibalbá"@de,
@@ -9718,6 +9743,17 @@ pmc:PrayerOfTheHeart a pm:Conceptualizing ;
     skos:definition "The continuous inward prayer that gives the tradition its practice."@en ;
     pm:withinTradition pmt:Hesychasm .
 
+pmc:SanjiLiuxiong a pm:Cautioning ;
+    rdfs:label "Drei Glücksfälle und sechs Unglücksfälle"@de,
+        "Three felicities and six adversities"@en ;
+    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book closes with three conditions under which a hollow is felicitous and six under which the burial is adverse. The six: a discordance of yin and yang; a going wrong of the year and the season; a small strength that plans a great thing; a reliance on present fortune and standing power; an overreaching above or a falling short below; and a strange appearance among the responses. The classic is quoted for the conclusion that a felicitous hollow with an adverse burial is the same as abandoning the corpse."@en ;
+    skos:note "The second adversity is separately consequential, because it is the one an outside witness attacked with a count. It requires the year and the season of the burial to be right, and the memorial recorded in the dynastic history sets against that a tally of burials in the classical annals on the day the burial books call most inauspicious."@en,
+        "The sixth adversity is the reason this node stands here and not among the ordinary cautions. The commentary printed with it enumerates what the strange appearances are, and the list is a list of ways in which nothing happens: the site is right and the family delays the burial; a quarrel prevents it; poverty and sickness together make it impossible; the master dies before he can return; the coffin stands for years and a war intervenes; the descendants do not agree; a lawsuit or a prison ends it; the days pass in neglect until the thing is abandoned. Every one of these is a reason a favourable grave produced no fortune, and every one is available after the fact."@en,
+        "What the graph gains here is not a warning but a shape of claim. Beside the interval that does not turn a day, this file now holds the machinery that keeps that interval from ever being read as a refutation, in the same book and a few folios apart."@en ;
+    pm:cautionsAbout pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:Sariel a pm:Naming ;
     rdfs:label "Sariel"@de,
         "Sariel"@en ;
@@ -9818,6 +9854,15 @@ pmc:XingqiDescent a pm:Conceptualizing ;
     skos:definition "The stage at which the gathered and extended breath goes downward, after which it settles and becomes firm; the sequence then turns and rises."@en ;
     skos:note "The inscription assigns direction to a place in a sequence, not to a phase of breathing. Descent follows gathering and extension; ascent follows sprouting and growing. The closing lines set the two directions against the two powers, the dynamism of heaven showing in what rises and that of earth in what descends. Nothing here binds a direction to inhaling or to exhaling. See prima-materia#27 and prima-materia#28."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:XingshiJixiong a pm:Conceptualizing ;
+    rdfs:label "Gestalt und Lage, jede mit benanntem Ausgang"@de,
+        "The configuration and the form, each with a named outcome"@en ;
+    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book's longest run of decidable sentences, in two series. By configuration: like ten thousand horses coming down from heaven, the burial of a king; like great waves with ridge behind ridge, the burial of a lord of a thousand chariots; like a descending dragon with the water winding and the clouds attending, rank and emolument of the three highest offices; like storeyed houses with lush grass and tall trees, the opening of a government and the founding of a state; like a startled snake, crooked and slanting, the ruin of house and state; like spear and halberd, death by arms and imprisonment of the form; like running water, the living all become ghosts. By form: like a screened seat with a ridge standing in the middle, buried where it stops, princes and lords arise; like a swallow's nest, buried at the bend, land is granted and rank divided; like a fallen mound with the ridge coming from far behind and the answer in front curving round, the nine thorns and three sophoras of high office; like an upturned cauldron, its ridge can make rich; like a planted cap, lasting prosperity and joy; like scattered counting rods, all affairs are confounded; like disordered clothing, jealous daughters and licentious wives; like a bag of ashes, the house burns and the granary with it; like an upturned boat, the women fall ill and the men go to prison; like a crosswise stool, the sons are cut off and the grandsons die; like a lying sword, execution and extermination; like an upturned knife, misfortune and flight into hiding. The series closes with rules over the two: where configuration and form run together it is auspicious and where they run against each other inauspicious; a good configuration with a bad form leaves one hope in a hundred; a bad configuration with a good form brings the misfortune before the day turns. And of the whole art it says that the configuration is the hardest to judge, the form next, and the compass direction last of all."@en ;
+    skos:note "The clause about a bad configuration with a good form is a second interval claim beside the one this file already holds. It places the misfortune within a day, in a different pairing from the one at the node about the misfortune that does not turn a day, and the commentary glosses it as saying that the response is immediate. Two independent places of the same book therefore put one class of its effects inside twenty-four hours of the burial."@en,
+        "These are the most examinable single sentences this graph holds about any practice. Each names a visible feature of ground and a public, datable event in a family — an office, an execution, a fire, a line dying out — and the ground is there to be seen before the event. What decides whether they could ever be tested is not the outcome but the antecedent: who fixes which of these forms a given hill has, and when. The book itself says the configuration is the hardest of the three to judge, which is as close as it comes to conceding the point."@en ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:YitiShouyin a pm:Conceptualizing ;
     rdfs:label "Die Gebeine empfangen das Qi und die Nachkommen werden beschirmt"@de,
@@ -10045,13 +10090,6 @@ pmp:YeridatMerkavah a pm:Practicing ;
     skos:note "The term is kept in the tradition's own form and not translated as ascent, because a rendering that corrected the direction would remove the only trace of whatever the word once meant. That it is nowhere explained is itself worth recording: a technical term that its own literature never glosses has usually come from somewhere else."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hekhalot .
-
-pmp:Zang a pm:Practicing ;
-    rdfs:label "Bestattung, die das lebendige Qi reitet"@de,
-        "Burial that rides the living qi"@en ;
-    dcterms:source "Zangshu, inner section, opening, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    skos:definition "The book opens with the sentence that burying is riding the living qi. The five qi run within the earth and issue forth to generate the ten thousand things; the qi scatters when it rides the wind and halts where it is bounded by water, and because the ancients gathered it so that it would not scatter and moved it so that it would halt, the thing is called wind and water. The living is a gathering of qi which congeals into bone and remains alone after death, so that burying is the method of returning the qi into the bone in order to shade what it generated."@en ;
-    pm:withinTradition pmt:ChineseDivination .
 
 pmt:GaudiyaVaisnava a pm:Tradition ;
     rdfs:label "Gauḍīya-vaiṣṇavische Überlieferung"@de,
@@ -10348,6 +10386,13 @@ pmp:WiwanyangWacipi a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
     pm:withinTradition pmt:LakotaRitual .
+
+pmp:Zang a pm:Practicing ;
+    rdfs:label "Bestattung, die das lebendige Qi reitet"@de,
+        "Burial that rides the living qi"@en ;
+    dcterms:source "Zangshu, inner section, opening, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book opens with the sentence that burying is riding the living qi. The five qi run within the earth and issue forth to generate the ten thousand things; the qi scatters when it rides the wind and halts where it is bounded by water, and because the ancients gathered it so that it would not scatter and moved it so that it would halt, the thing is called wind and water. The living is a gathering of qi which congeals into bone and remains alone after death, so that burying is the method of returning the qi into the bone in order to shade what it generated."@en ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmt:EleusinianMysteries a pm:Tradition ;
     rdfs:label "Eleusinische Mysterien"@de,
@@ -10739,12 +10784,6 @@ pm:SensoryAnchoring a owl:Class,
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
     pm:scaleFamily pm:subjectAxis .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
         "Counter-search not carried"@en ;
@@ -10768,6 +10807,12 @@ pmt:FourthWay a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmp:Samyama a pm:Practicing ;
     rdfs:label "Saṃyama"@de,
@@ -10945,20 +10990,6 @@ pmt:PistisSophia a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Pistis Sophia in the Askew Codex, British Museum MS Add. 5114; ed. and trans. Carl Schmidt, Koptisch-gnostische Schriften I, GCS 13 (Leipzig 1905)" .
 
-pmt:ChineseDivination a pm:Tradition ;
-    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
-        "Chinese divinatory and siting transmission"@en ;
-    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
-    skos:definition "The Chinese transmission of divination by counting stalks down to a remainder, of a parallel counting on a different modulus, and of the siting of graves on the doctrine that the bones of the parents receive the qi of the ground and that the descendants are shaded by it."@en ;
-    skos:note "A second reason the old value could not stand. The works read span the first century before the common era to a redaction of the fourteenth: the burial book as read is the recension Wu Cheng made from the eight sections Cai Yuanding had left of twenty, and it is first attested in the Song bibliography. Absent asks whether a route was available at the time the corpus was fixed, and for that end of the corpus the answer is not the same as for the Xici."@en,
-        "Chosen from the registry on the testability entrance, and the reading bore the registration out on both halves. Fristen and stated outcomes are dense here: the burial book says that where the configuration is inauspicious the misfortune does not turn a day, and it names what a given shape of ground brings to the descendants, down to the extinction of the line. What the registration did not say is that the same book carries six adversities under which a favourable site produces nothing, and that the commentary on the sixth enumerates the delays, disputes, poverty and wars through which a burial fails to happen at all. Every non-occurrence has a place to go."@en,
-        "Edition note. The Changes were read in the digital text of the Kanseki Repository in the Wang Bi and Han Kangbo recension; that text names no printing, and the citations say so rather than inventing one. The Taixuanjing and the Lunheng were read in the Sibu congkan facsimiles, the Zangshu and the Jiu Tangshu in the Wenyuange Siku quanshu text."@en,
-        "Read in this run at the wording, in the Chinese: Zhouyi, Xici A, sections on the great expansion and on what the Changes are without; Zhouyi, hexagram 4; Taixuanjing, Xuan shu, the eleventh; Zangshu, the whole of the single juan of the Siku recension, inner, outer and miscellaneous sections with its interlinear commentary; Lunheng 24, the treatise on divining; Jiu Tangshu 79, the memorial on the burial books. The Taixuanjing outside the counting chapter, and the rest of the Lunheng, were searched by term and not read continuously."@en,
-        "The contact route is entered as disputed and no longer as absent, and the dispute is in the literature rather than in the sources. The graph already holds three transmissions that read a figure off an ungoverned remainder — the Ifá casting, the Fa casting and the geomantic tradition — and the counting of the Changes has the same form on a different modulus. One side derives the Arabic sand art from Chinese material through Needham's transmission routes; the other reconstructs it inside Abbasid Mesopotamia and states that the Chinese derivation was tried and dropped. Neither side was read at the wording in this run, and nothing here decides it; what the value records is that the question is contested and open, which is the opposite of what absent asserted."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
-
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
         "Dogon transmission"@en ;
@@ -11029,6 +11060,20 @@ pmt:Mithraic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
+
+pmt:ChineseDivination a pm:Tradition ;
+    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
+        "Chinese divinatory and siting transmission"@en ;
+    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "The Chinese transmission of divination by counting stalks down to a remainder, of a parallel counting on a different modulus, and of the siting of graves on the doctrine that the bones of the parents receive the qi of the ground and that the descendants are shaded by it."@en ;
+    skos:note "A second reason the old value could not stand. The works read span the first century before the common era to a redaction of the fourteenth: the burial book as read is the recension Wu Cheng made from the eight sections Cai Yuanding had left of twenty, and it is first attested in the Song bibliography. Absent asks whether a route was available at the time the corpus was fixed, and for that end of the corpus the answer is not the same as for the Xici."@en,
+        "Chosen from the registry on the testability entrance, and the reading bore the registration out on both halves. Fristen and stated outcomes are dense here: the burial book says that where the configuration is inauspicious the misfortune does not turn a day, and it names what a given shape of ground brings to the descendants, down to the extinction of the line. What the registration did not say is that the same book carries six adversities under which a favourable site produces nothing, and that the commentary on the sixth enumerates the delays, disputes, poverty and wars through which a burial fails to happen at all. Every non-occurrence has a place to go."@en,
+        "Edition note. The Changes were read in the digital text of the Kanseki Repository in the Wang Bi and Han Kangbo recension; that text names no printing, and the citations say so rather than inventing one. The Taixuanjing and the Lunheng were read in the Sibu congkan facsimiles, the Zangshu and the Jiu Tangshu in the Wenyuange Siku quanshu text."@en,
+        "Read in this run at the wording, in the Chinese: Zhouyi, Xici A, sections on the great expansion and on what the Changes are without; Zhouyi, hexagram 4; Taixuanjing, Xuan shu, the eleventh; Zangshu, the whole of the single juan of the Siku recension, inner, outer and miscellaneous sections with its interlinear commentary; Lunheng 24, the treatise on divining; Jiu Tangshu 79, the memorial on the burial books. The Taixuanjing outside the counting chapter, and the rest of the Lunheng, were searched by term and not read continuously."@en,
+        "The contact route is entered as disputed and no longer as absent, and the dispute is in the literature rather than in the sources. The graph already holds three transmissions that read a figure off an ungoverned remainder — the Ifá casting, the Fa casting and the geomantic tradition — and the counting of the Changes has the same form on a different modulus. One side derives the Arabic sand art from Chinese material through Needham's transmission routes; the other reconstructs it inside Abbasid Mesopotamia and states that the Chinese derivation was tried and dropped. Neither side was read at the wording in this run, and nothing here decides it; what the value records is that the question is contested and open, which is the opposite of what absent asserted."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -11190,18 +11235,18 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -11343,13 +11388,6 @@ pm:Situating a owl:Class ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
@@ -11357,6 +11395,13 @@ pmt:Enochic a pm:Tradition ;
     skos:definition "The transmission of the Enoch literature: the Book of the Watchers, the Astronomical Book, the Book of Dreams, the Epistle and, in the Ethiopic canon alone, the Book of Parables."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
