@@ -432,6 +432,19 @@ pmc:BhavaClassification a pm:Conceptualizing ;
     skos:note "This is the tradition's own answer to the question why one person takes one way and another another: not by choosing, but by what he is held competent for. The text presses the point polemically — it argues that if the bound disposition cannot exist in this age, the divine cannot either, and that only the heroic rites bear visible fruit. A record that reports the two paths as a choice between camps reports the later Western reading and not this one. See prima-materia#54."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:BiansuiDispute a pm:Disputing ;
+    rdfs:label "Ob irgendein Ausgang gegen die Kunst zählen könnte"@de,
+        "Whether any outcome could count against the art"@en ;
+    dcterms:source "Wang Chong, Lunheng, the treatise on distinguishing calamities (Bian sui), juan 24, Sibu congkan facsimile",
+        "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The same treatise sets out, in the chapter on distinguishing calamities, what happens to a counter-example put to a practitioner of these arts, and it does so by carrying one out three times. Suppose ten people in one household who move nothing, break no ground, change no dwelling, and choose auspicious days for every sacrifice, marriage and journey from spring to winter, offending against no prohibition: in a hundred years, can they avoid dying? The diviner, the treatise says, will then answer that a dwelling has its flourishing and its decay, and that the year-breaker and the direct-symbol were not avoided. Suppose then that they consult the practitioners at each turn, stay where the dwelling flourishes and leave where it decays, and move the whole household whenever the year-breaker falls: in a hundred years, can they avoid dying? He will then answer that moving offends against the time and that going and coming were not auspicious. Suppose they consult on that too: in a hundred years, can they avoid dying? He will then answer that the allotted span was simply at an end. The treatise concludes that on that showing life and death have their own term after all, and that no offence against year or month brought them about. It names the interest behind the regress in the same chapter: seeing a misfortune, the practitioners of the art point to the taboo and say nothing of the rest; hearing of a fortune, they keep it back and let it go unreported; they heap up misfortunes to alarm the careless and set out fortunes to hearten those who fear the times. And it puts three mass cases against the doctrine: the city of Liyang, which sank in one evening and became a lake, whose people had not all offended against the year and the month; the forty thousand of the Zhao army buried alive at Changping, who had not all left home at an unchosen hour; and the thousand prisons of the empire with ten thousand inmates, who had not all transgressed a taboo."@en ;
+    skos:note "The second argument, about which cases the practitioners report, is a statement of selection in the record. It is the one argument in the treatise that a modern protocol could take over unchanged, and it is prior to any count: where only the confirmations are collected, a count of confirmations establishes nothing."@en,
+        "The three mass cases are weaker than they look and the treatise does not notice why. Each says that a large group shared an outcome without sharing a cause, which refutes a doctrine claiming that the cause is necessary; the burial book does not claim that, and its annotation would be free to say that each of the drowned of Liyang had his own reason. The regress above is the stronger instrument precisely because it needs no case at all."@en,
+        "This is the most valuable thing read in the treatise and the reason for opening it. It is a first-century description of an immunising regress, carried out step by step against a living practitioner, and it ends where such regresses end, at a clause that covers every remaining case. The graph holds the same machinery from the inside, at the six adversities of the burial book, whose annotation enumerates the ways in which nothing happens. Here it is described from the outside, six hundred years earlier, by someone who put it to a practitioner."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:ZangYieldsYin ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:BirchBarkRecord a pm:Conceptualizing ;
     rdfs:label "Die Birkenrindenkarte"@de,
         "The birchbark chart"@en ;
@@ -1890,14 +1903,6 @@ pmc:HulaRetentionPresupposesKeptVows a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:HalauConduct ;
     pm:withinTradition pmt:HawaiianRitual .
-
-pmc:HuoBuXuanri a pm:Conceptualizing ;
-    rdfs:label "Das Unheil dreht keinen Tag"@de,
-        "The misfortune does not turn a day"@en ;
-    dcterms:source "Zangshu, outer section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    skos:definition "The one interval the book states. Where the configuration is favourable and the shape unfavourable, one may still hope for a single day of fortune; where the configuration is unfavourable and the shape favourable, the misfortune does not turn a day. The commentary says that this is put so strongly in order to say how fast the answer comes, and elsewhere the book has a burial made at the hollow in the morning and wept for in the evening."@en ;
-    skos:note "This is the most examinable sentence found in the transmission and the reason the corpus was opened from the testability side. A doctrine that placed its effects a generation away could never be caught; this one places one class of them within a day of the burial, and the burial is a public and dated event."@en ;
-    pm:withinTradition pmt:ChineseDivination .
 
 pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die übernatürlichen Kräfte werden in abgezogener Vertiefung ausgeübt"@de,
@@ -5055,23 +5060,17 @@ pmc:ZandeOracleSetDispute a pm:Disputing ;
     pm:attestedBy pm:compilerInference ;
     pm:disputedClaim pmc:OracleRankOrder .
 
-pmc:ZangYieldsYin a pm:Yielding ;
-    rdfs:label "Die Bestattung auf dem lebendigen Qi bringt die Beschirmung der Nachkommen hervor"@de,
-        "Burial on the living qi yields the shading of the descendants"@en ;
-    dcterms:source "Zangshu, inner section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Zang ;
-    pm:withinTradition pmt:ChineseDivination ;
-    pm:yieldsCapacity pmc:YitiShouyin .
-
 pmc:ZangshuDispute a pm:Disputing ;
     rdfs:label "Ob die Wahl von Grab und Tag das Geschick der Nachkommen entscheidet"@de,
         "Whether the choice of grave and day decides the fortune of the descendants"@en ;
     dcterms:source "Jiu Tangshu 79, the memorial of Lü Cai on the burial books, juan 79, Wenyuange Siku quanshu text",
+        "Wang Chong, Lunheng, the treatise on frugal burial (Bo zang), juan 23, Sibu congkan facsimile",
         "Zangshu, inner and miscellaneous sections, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
     skos:definition "A memorial preserved in the dynastic history sets seven numbered objections against the burial books, on an imperial commission to revise the divinatory literature. The rites fix the interval between death and burial by rank, so the burial has a set time and no year or month is to be chosen; the books call one day of the sexagenary cycle the most inauspicious of all for a burial, and a check of the classical annals turns up more than twenty burials on that day, so the day is not chosen either; the hour is fixed by what each dynasty honoured, so the hour is not chosen; one house kept its succession and another lost its sacrifices without either turning on a burial; the ancients buried north of their capitals in one fixed place, without the surname doctrine, and their descendants were not the poorer for it; a grave once made is never altered while rank rises and falls without rest, so office is not what a burial confers; and the practice makes mourners choose ground in hope of an office and a season in hope of money, so that the books corrupt the customs."@en ;
-    skos:note "The defending side is the book itself and the commentary printed with it, which cites two cases the other way: a reader of graves who saw a general's tomb and said the clan would be wiped out, and it was; and a duke of the annals who moved his capital against a prognostication that it would benefit the people and not the ruler, and died in the fifth month. Both are anecdotes reported by the defence and neither was traced to the works they name."@en,
-        "The sixth objection is the one worth naming, because it is an argument of a form the graph can reuse: the cause is invariant and the effect fluctuates, therefore the cause is not that cause. The second is of another form again and is treated as evidence rather than as testimony, in the protocol beside this file."@en ;
+    skos:note "A second and much older objector was added on 2026-09-10, and it attacks the premise rather than the practice. The first-century treatise on frugal burial argues that the dead have no knowledge: that while a parent lives his child seeks the diviner and calls the physician, in hope that the misfortune may be dispelled and the drug do good, but that once he is dead, though the diviner were as discerning as Wu Xian and the physician as skilled as Bian Que, he does not live again, because with the qi cut off there is no further benefit at all; and that the soul of a dead parent assuredly knows nothing. On that account there is no channel from the bones to the grandson, which is the premise this file holds as the ground of the whole art. The treatise is arguing against lavish burial and not against siting, so the objection is a consequence of its position and not its target; that is why it is entered here as a side and not as its own dispute."@en,
+        "The defending side is the book itself and the commentary printed with it, which cites two cases the other way: a reader of graves who saw a general's tomb and said the clan would be wiped out, and it was; and a duke of the annals who moved his capital against a prognostication that it would benefit the people and not the ruler, and died in the fifth month. Both are anecdotes reported by the defence and neither was traced to the works they name."@en,
+        "The sixth objection is the one worth naming, because it is an argument of a form the graph can reuse: the cause is invariant and the effect fluctuates, therefore the cause is not that cause. The second is of another form again and is treated as evidence rather than as testimony, in the protocol beside this file."@en,
+        "The two objectors do not agree with each other and the graph should not merge them. The memorial concedes that a grave is chosen and argues that the choice decides nothing; the treatise denies the mechanism that would make any choice matter. A defender who has answered one has not answered the other."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:YitiShouyin ;
     pm:withinTradition pmt:ChineseDivination .
@@ -5085,7 +5084,8 @@ pmc:ZangshuRecensionHistory a pm:Systematizing ;
     skos:note "Entered because every node in this file that cites the burial book cites a text of that history, and because the ordering is not a scholarly aside but the thing being cited. The material a reader meets as one doctrine was selected twice, by two named men four generations apart, on the criterion of purity; what was cut is not preserved, so the graph cannot say what the transmission said before the cuts."@en,
         "The miscellaneous section carries the outcome sentences and the six adversities, that is to say the two bodies of material this file draws most heavily on. In Wu Cheng's own arrangement that is the section he judged coarse, kept provisionally and would have removed. The citations name the section for that reason."@en ;
     pm:compiledBy "Cai Yuanding, who reduced twenty pian to eight; Wu Cheng, who divided the remainder into inner, outer and miscellaneous sections; and the editors of the Siku quanshu, who report both and settle the title" ;
-    pm:ordersClaim pmc:SanjiLiuxiong,
+    pm:ordersClaim pmc:HuoBuXuanri,
+        pmc:SanjiLiuxiong,
         pmc:WuBukezang,
         pmc:XingshiJixiong .
 
@@ -5100,6 +5100,22 @@ pmc:ZangshuZhuDispute a pm:Disputing ;
         "Who wrote the annotation is not established, and the edition itself says so. The prefatory summary of the imperial collection states that Cai Yuanding cut the twenty pian to eight, that Wu Cheng afterwards divided what he had into the inner, outer and miscellaneous sections, that Liu Zezhang of Xinyu received the text from Wu and annotated it, and that whether the note in this printing is Liu's cannot be determined. The graph therefore has the counter-examples as an anonymous later hand and not as a named party."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:XingshiJixiong ;
+    pm:withinTradition pmt:ChineseDivination .
+
+pmc:ZeriDispute a pm:Disputing ;
+    rdfs:label "Ob der gewählte Tag über irgendetwas entscheidet"@de,
+        "Whether the day chosen decides anything"@en ;
+    dcterms:source "Wang Chong, Lunheng, the treatise on censuring days (Ji ri), juan 24, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on interrogating the art (Jie shu), juan 25, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on objecting to the year star (Nan sui), juan 24, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on the four taboos (Si hui), juan 23, Sibu congkan facsimile",
+        "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "A treatise of the first century attacks the choosing of days across four chapters, and the arguments are of three kinds. First, comparisons within the practice: encoffining, which puts the corpse in the box, is done on no chosen day, while burial, which puts the box in the ground, is; and grave, field and dwelling are equally the ground of a man's fortune, yet only the westward extension of a dwelling is forbidden. Second, a count: in the age of the annals the deaths of kings, lords and great officers ran to hundreds and thousands, and their burial days do not agree with the calendars; the rites fix the interval by rank, so that the parity of the month follows from the rank and not from a choice; and where a burial was postponed the annals give rain as the reason and not a day. Third, a case in which one day carries two outcomes: King Wu won his battle on a jiazi day and the tyrant lost his on the same jiazi day, the two armies facing one another with their standards in sight, one day and two fates. The same treatise adds that washing, combing, cutting cloth, building and moving house each have their own calendar, that water and wood are both of the five phases yet only the one is subject to a day, and that a man who kills is punished whatever day he chose."@en ;
+    skos:note "It is a party and not an instance, and the difference matters for the claim it disputes. The treatise argues; it does not count anything it gathered itself, except the burials in the annals, and that count is a reading of a text and not a series of cases. Where it counts, it is evidence and belongs at a protocol; where it argues, it is a witness like the book it attacks, and that is how it is held here."@en,
+        "The dispute has a shape worth noting beside the burial book's own. The critic never says that the ground or the hour has no effect and then names what would show it; he shows that the rule is not followed where it would be if it were believed. That leaves the doctrine intact for anyone willing to say that his contemporaries were careless, which is the answer the burial book's own annotation gives in a different connection."@en,
+        "The third argument is the one this graph should keep, because it is the only one that discriminates rather than compares. Two parties, one date, opposite outcomes: whatever the day is supposed to decide, it did not decide that. The others show that the practice is applied inconsistently, which embarrasses the practitioners without touching the doctrine."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:SanjiLiuxiong ;
     pm:withinTradition pmt:ChineseDivination .
 
 pmc:ZhanbuDispute a pm:Disputing ;
@@ -7859,6 +7875,14 @@ pmc:HulaKnowledgeRetained a pm:Conceptualizing ;
     skos:definition "What the school promises the pupil who keeps his vows: that memory will be strong and that the training, the knowledge and the songs will stay."@en ;
     pm:withinTradition pmt:HawaiianRitual .
 
+pmc:HuoBuXuanri a pm:Conceptualizing ;
+    rdfs:label "Das Unheil dreht keinen Tag"@de,
+        "The misfortune does not turn a day"@en ;
+    dcterms:source "Zangshu, outer section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The one interval the book states. Where the configuration is favourable and the shape unfavourable, one may still hope for a single day of fortune; where the configuration is unfavourable and the shape favourable, the misfortune does not turn a day. The commentary says that this is put so strongly in order to say how fast the answer comes, and elsewhere the book has a burial made at the hollow in the morning and wept for in the evening."@en ;
+    skos:note "This is the most examinable sentence found in the transmission and the reason the corpus was opened from the testability side. A doctrine that placed its effects a generation away could never be caught; this one places one class of them within a day of the burial, and the burial is a public and dated event."@en ;
+    pm:withinTradition pmt:ChineseDivination .
+
 pmc:HusbandHasSecondSight a pm:Attributing ;
     rdfs:label "Dem Mann der Erzählerin wird das zweite Gesicht zugeschrieben"@de,
         "The narrator's husband is said to have the gift of second sight"@en ;
@@ -8834,6 +8858,15 @@ pmc:ZaisanDu a pm:Cautioning ;
     pm:cautionsAbout pmp:Dieshi ;
     pm:withinTradition pmt:ChineseDivination .
 
+pmc:ZangYieldsYin a pm:Yielding ;
+    rdfs:label "Die Bestattung auf dem lebendigen Qi bringt die Beschirmung der Nachkommen hervor"@de,
+        "Burial on the living qi yields the shading of the descendants"@en ;
+    dcterms:source "Zangshu, inner section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination ;
+    pm:yieldsCapacity pmc:YitiShouyin .
+
 pmc:Ziqel a pm:Naming ;
     rdfs:label "Ziqel"@de,
         "Ziqel"@en ;
@@ -9743,17 +9776,6 @@ pmc:PrayerOfTheHeart a pm:Conceptualizing ;
     skos:definition "The continuous inward prayer that gives the tradition its practice."@en ;
     pm:withinTradition pmt:Hesychasm .
 
-pmc:SanjiLiuxiong a pm:Cautioning ;
-    rdfs:label "Drei Glücksfälle und sechs Unglücksfälle"@de,
-        "Three felicities and six adversities"@en ;
-    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    skos:definition "The book closes with three conditions under which a hollow is felicitous and six under which the burial is adverse. The six: a discordance of yin and yang; a going wrong of the year and the season; a small strength that plans a great thing; a reliance on present fortune and standing power; an overreaching above or a falling short below; and a strange appearance among the responses. The classic is quoted for the conclusion that a felicitous hollow with an adverse burial is the same as abandoning the corpse."@en ;
-    skos:note "The second adversity is separately consequential, because it is the one an outside witness attacked with a count. It requires the year and the season of the burial to be right, and the memorial recorded in the dynastic history sets against that a tally of burials in the classical annals on the day the burial books call most inauspicious."@en,
-        "The sixth adversity is the reason this node stands here and not among the ordinary cautions. The commentary printed with it enumerates what the strange appearances are, and the list is a list of ways in which nothing happens: the site is right and the family delays the burial; a quarrel prevents it; poverty and sickness together make it impossible; the master dies before he can return; the coffin stands for years and a war intervenes; the descendants do not agree; a lawsuit or a prison ends it; the days pass in neglect until the thing is abandoned. Every one of these is a reason a favourable grave produced no fortune, and every one is available after the fact."@en,
-        "What the graph gains here is not a warning but a shape of claim. Beside the interval that does not turn a day, this file now holds the machinery that keeps that interval from ever being read as a refutation, in the same book and a few folios apart."@en ;
-    pm:cautionsAbout pmp:Zang ;
-    pm:withinTradition pmt:ChineseDivination .
-
 pmc:Sariel a pm:Naming ;
     rdfs:label "Sariel"@de,
         "Sariel"@en ;
@@ -10272,6 +10294,17 @@ pmc:Samadhi a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga I.7-I.11 (trans. Ñāṇamoli 1956)" ;
     skos:definition "The second of the three trainings, named in the handbook as the condition for the six direct knowledges."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:SanjiLiuxiong a pm:Cautioning ;
+    rdfs:label "Drei Glücksfälle und sechs Unglücksfälle"@de,
+        "Three felicities and six adversities"@en ;
+    dcterms:source "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "The book closes with three conditions under which a hollow is felicitous and six under which the burial is adverse. The six: a discordance of yin and yang; a going wrong of the year and the season; a small strength that plans a great thing; a reliance on present fortune and standing power; an overreaching above or a falling short below; and a strange appearance among the responses. The classic is quoted for the conclusion that a felicitous hollow with an adverse burial is the same as abandoning the corpse."@en ;
+    skos:note "The second adversity is separately consequential, because it is the one an outside witness attacked with a count. It requires the year and the season of the burial to be right, and the memorial recorded in the dynastic history sets against that a tally of burials in the classical annals on the day the burial books call most inauspicious."@en,
+        "The sixth adversity is the reason this node stands here and not among the ordinary cautions. The commentary printed with it enumerates what the strange appearances are, and the list is a list of ways in which nothing happens: the site is right and the family delays the burial; a quarrel prevents it; poverty and sickness together make it impossible; the master dies before he can return; the coffin stands for years and a war intervenes; the descendants do not agree; a lawsuit or a prison ends it; the days pass in neglect until the thing is abandoned. Every one of these is a reason a favourable grave produced no fortune, and every one is available after the fact."@en,
+        "What the graph gains here is not a warning but a shape of claim. Beside the interval that does not turn a day, this file now holds the machinery that keeps that interval from ever being read as a refutation, in the same book and a few folios apart."@en ;
+    pm:cautionsAbout pmp:Zang ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:Sigui a pm:Conceptualizing ;
     rdfs:label "Sigui"@de,
@@ -11061,20 +11094,6 @@ pmt:Mithraic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
-pmt:ChineseDivination a pm:Tradition ;
-    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
-        "Chinese divinatory and siting transmission"@en ;
-    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
-    skos:definition "The Chinese transmission of divination by counting stalks down to a remainder, of a parallel counting on a different modulus, and of the siting of graves on the doctrine that the bones of the parents receive the qi of the ground and that the descendants are shaded by it."@en ;
-    skos:note "A second reason the old value could not stand. The works read span the first century before the common era to a redaction of the fourteenth: the burial book as read is the recension Wu Cheng made from the eight sections Cai Yuanding had left of twenty, and it is first attested in the Song bibliography. Absent asks whether a route was available at the time the corpus was fixed, and for that end of the corpus the answer is not the same as for the Xici."@en,
-        "Chosen from the registry on the testability entrance, and the reading bore the registration out on both halves. Fristen and stated outcomes are dense here: the burial book says that where the configuration is inauspicious the misfortune does not turn a day, and it names what a given shape of ground brings to the descendants, down to the extinction of the line. What the registration did not say is that the same book carries six adversities under which a favourable site produces nothing, and that the commentary on the sixth enumerates the delays, disputes, poverty and wars through which a burial fails to happen at all. Every non-occurrence has a place to go."@en,
-        "Edition note. The Changes were read in the digital text of the Kanseki Repository in the Wang Bi and Han Kangbo recension; that text names no printing, and the citations say so rather than inventing one. The Taixuanjing and the Lunheng were read in the Sibu congkan facsimiles, the Zangshu and the Jiu Tangshu in the Wenyuange Siku quanshu text."@en,
-        "Read in this run at the wording, in the Chinese: Zhouyi, Xici A, sections on the great expansion and on what the Changes are without; Zhouyi, hexagram 4; Taixuanjing, Xuan shu, the eleventh; Zangshu, the whole of the single juan of the Siku recension, inner, outer and miscellaneous sections with its interlinear commentary; Lunheng 24, the treatise on divining; Jiu Tangshu 79, the memorial on the burial books. The Taixuanjing outside the counting chapter, and the rest of the Lunheng, were searched by term and not read continuously."@en,
-        "The contact route is entered as disputed and no longer as absent, and the dispute is in the literature rather than in the sources. The graph already holds three transmissions that read a figure off an ungoverned remainder — the Ifá casting, the Fa casting and the geomantic tradition — and the counting of the Changes has the same form on a different modulus. One side derives the Arabic sand art from Chinese material through Needham's transmission routes; the other reconstructs it inside Abbasid Mesopotamia and states that the Chinese derivation was tried and dropped. Neither side was read at the wording in this run, and nothing here decides it; what the value records is that the question is contested and open, which is the opposite of what absent asserted."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
-
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -11129,6 +11148,20 @@ pm:Originating a owl:Class ;
     skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
+
+pmt:ChineseDivination a pm:Tradition ;
+    rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
+        "Chinese divinatory and siting transmission"@en ;
+    dcterms:source "Zhouyi, Xici A, the section beginning with the number of the great expansion, in the Wang Bi and Han Kangbo recension; read in the digital text of the Kanseki Repository, which names no printing" ;
+    skos:definition "The Chinese transmission of divination by counting stalks down to a remainder, of a parallel counting on a different modulus, and of the siting of graves on the doctrine that the bones of the parents receive the qi of the ground and that the descendants are shaded by it."@en ;
+    skos:note "A second reason the old value could not stand. The works read span the first century before the common era to a redaction of the fourteenth: the burial book as read is the recension Wu Cheng made from the eight sections Cai Yuanding had left of twenty, and it is first attested in the Song bibliography. Absent asks whether a route was available at the time the corpus was fixed, and for that end of the corpus the answer is not the same as for the Xici."@en,
+        "Chosen from the registry on the testability entrance, and the reading bore the registration out on both halves. Fristen and stated outcomes are dense here: the burial book says that where the configuration is inauspicious the misfortune does not turn a day, and it names what a given shape of ground brings to the descendants, down to the extinction of the line. What the registration did not say is that the same book carries six adversities under which a favourable site produces nothing, and that the commentary on the sixth enumerates the delays, disputes, poverty and wars through which a burial fails to happen at all. Every non-occurrence has a place to go."@en,
+        "Edition note. The Changes were read in the digital text of the Kanseki Repository in the Wang Bi and Han Kangbo recension; that text names no printing, and the citations say so rather than inventing one. The Taixuanjing and the Lunheng were read in the Sibu congkan facsimiles, the Zangshu and the Jiu Tangshu in the Wenyuange Siku quanshu text."@en,
+        "Read in this run at the wording, in the Chinese: Zhouyi, Xici A, sections on the great expansion and on what the Changes are without; Zhouyi, hexagram 4; Taixuanjing, Xuan shu, the eleventh; Zangshu, the whole of the single juan of the Siku recension, inner, outer and miscellaneous sections with its interlinear commentary; Lunheng 24, the treatise on divining; Jiu Tangshu 79, the memorial on the burial books. The Taixuanjing outside the counting chapter, and the rest of the Lunheng, were searched by term and not read continuously."@en,
+        "The contact route is entered as disputed and no longer as absent, and the dispute is in the literature rather than in the sources. The graph already holds three transmissions that read a figure off an ungoverned remainder — the Ifá casting, the Fa casting and the geomantic tradition — and the counting of the Changes has the same form on a different modulus. One side derives the Arabic sand art from Chinese material through Needham's transmission routes; the other reconstructs it inside Abbasid Mesopotamia and states that the Chinese derivation was tried and dropped. Neither side was read at the wording in this run, and nothing here decides it; what the value records is that the question is contested and open, which is the opposite of what absent asserted."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Zhouyi with the Xici commentary; Yang Xiong, Taixuanjing; Zangshu, in the recension of Wu Cheng; Wang Chong, Lunheng; the memorials of Lü Cai in Jiu Tangshu 79" .
 
 pmt:EuropeanFolkMagic a pm:Tradition ;
     rdfs:label "Europäische Volksmagie"@de,
@@ -11241,13 +11274,6 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
         "Azande oracular transmission"@en ;
@@ -11278,6 +11304,13 @@ pmt:Theravada a pm:Tradition ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
