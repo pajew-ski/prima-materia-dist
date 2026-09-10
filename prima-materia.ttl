@@ -1614,6 +1614,20 @@ pmc:FurtherTestsAfterAnAcquittal a pm:Conceptualizing ;
     skos:note "Entered because it is the mechanism by which a procedure said to be beyond the operator's control is brought back under it, and because the corpus states the mechanism itself: the tests are set after the verdict is known and are chosen so that a dazed man will fail them."@en ;
     pm:withinTradition pmt:KongoNkisi .
 
+pmc:FushiSuccessSearch a pm:Searching ;
+    rdfs:label "Ob jemand als durch die Mineralelixiere lebend berichtet wird"@de,
+        "Whether anybody is reported as having lived by the mineral elixirs"@en ;
+    dcterms:date "2026-09-10" ;
+    skos:note "Found in the transmission: exactly one claimed success, and it is the one the fourth chapter offers as its whole evidence. A scholar of the end of the Han is said to have become an immortal by the Great Clarity elixir and to have written down more than forty others he knew of. It is second-hand by its own account, reported by an author who states in the same chapter that he never compounded the drug, and it is held at pmc:YinjunDexian."@en,
+        "Found in the witness's own collection, and unlooked for: a poem in which the author of the case series begs a friend for a knife-point of the golden elixir to save his sick body. The commentators of the edition argue from it over whether he took mineral drugs himself, and the dispute is held at pmc:HanyuFushiDispute. This is why a counter-search is run over the witness and not only over the claim."@en,
+        "What the search did not find is worth saying: in neither corpus is there a named person reported as having taken a mineral elixir and lived out an ordinary span in good health. The positive cases in the Baopuzi are immortals, that is to say persons who are said to have left the ordinary span altogether, and no report was located of the intermediate outcome the transmission also promises at half an ounce of the golden liquor, in which the taker keeps wife, children and office."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Searched for the terms for obtaining immortality, for ingesting drugs, for mineral drugs, for sulphur and for the golden elixir. The first is frequent across the Baopuzi and the places naming a person together with an elixir are in juan 4; in the Han Yu collection the terms for ingesting drugs, for mineral drugs and for sulphur occur only at the epitaph itself and at the poem to the supernumerary of Suizhou."@en ;
+    pm:searchYieldedNode pmc:YinjunDexian ;
+    pm:searchedBy "prima-materia, 2026-09-10" ;
+    pm:searchedCorpus "Ge Hong, Baopuzi neipian, twenty juan, in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185; and Han Yu, Wubaijia zhu Changli wenji, forty-one juan, Wenyuange Siku quanshu text. Whole-text search over both, in the Chinese."@en ;
+    pm:searchedFor "The counter-search owed by the protocol at pmc:YiyaoBaizhe: a report, in either corpus, of a named person who took a mineral elixir and lived long or did not die of it, which is the outcome the case series says did not occur."@en .
+
 pmc:FusionOfTheFourInformants a pm:Systematizing ;
     rdfs:label "Vier Gewährsleute zu einer Darstellung verschmolzen"@de,
         "Four informants fused into one account"@en ;
@@ -1725,6 +1739,19 @@ pmc:HandSideTransferProtocol a pm:Testing ;
     pm:falsifiedBy "Practitioners blinded to which hand is in contact report or show no difference between left-hand and right-hand contact beyond chance."@en ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
     pm:tests pmc:EnergyTakenFromAPersonThroughTheLeftHand .
+
+pmc:HanyuFushiDispute a pm:Disputing ;
+    rdfs:label "Ob der Mann, der das Zeitalter warnte, die Mittel selbst nahm"@de,
+        "Whether the man who warned the age took the drugs himself"@en ;
+    dcterms:source "Han Yu, a further poem sent to the supernumerary of Suizhou, with the commentary printed with it, in Wubaijia zhu Changli wenji, Wenyuange Siku quanshu text, juan 10",
+        "Han Yu, epitaph for the late Erudite of the Grand Academy Li, in Wubaijia zhu Changli wenji, Wenyuange Siku quanshu text, juan 34" ;
+    skos:definition "The commentators of the edition read here argue the question in two places and reach opposite answers. On one side: a poem of the author's to a friend, sent while both were old, ends with the lines that since their parting he knows the friend has had the golden elixir transmitted to him, and that he begs a knife-point of it to save this sick body; the commentary adds that the friend was fond of the golden elixir and its ingestion, and that a letter to him on ingesting drugs for long life stands in the collected works of a contemporary. To this some add a line of Bai Juyi's poem on thinking of old friends, that the author took sulphur and never recovered from the illness. On the other side, a commentator answers that the author died in the fourth year of Changqing and that in the third he wrote this very epitaph, enumerating six or seven men ruined by drugs as a warning to the age; and asks how one can pass that over and merely say what the others say."@en ;
+    skos:note "The dispute is entered because it bears on the standing of the only case series this collection holds against the elixir, and not because the private conduct of a ninth-century official is of interest. A witness who assembled seven deaths and then asked a friend for a dose of the same class of preparation is not thereby wrong about the seven; he is a witness whose own practice does not follow from his finding, and a record that hid that would be reporting on the strength of its evidence rather than on the evidence."@en,
+        "The poem does not say that he took anything. It says that he asked. The strongest reading the text supports is a request made in a poem to a friend, and the further step to ingestion is taken by the commentators from Bai Juyi's line and not from the collection itself."@en,
+        "What the answering commentator offers is not evidence but a consideration of character: that a man who wrote the warning would not have done the thing. That is an argument of the same kind as the one it answers, and neither side of this dispute rests on a witness to the act."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:YiyaoBaizhe ;
+    pm:withinTradition pmt:Waidan .
 
 pmc:HarbaDeMosheCaution a pm:Cautioning ;
     rdfs:label "Was den trifft, der sich nicht daran hält"@de,
@@ -2296,15 +2323,6 @@ pmc:JindanFeiyong a pm:Conceptualizing ;
     skos:note "A stated price is a rare thing to find in this collection and it does two things at once. It puts the operation inside the economy, where it can be reached by anyone with the sum, and it explains why the author of the chapter never reached it. He says elsewhere in the same chapter that he received the scriptures more than twenty years ago and had not so much as a picul of means to do it with."@en,
         "The minimum-batch rule closes the cheapest way to attempt the operation and does so with an analogy that is true of brewing. It is also a second condition under which a failed run says nothing about the recipe, since a run that failed can be assigned to a batch that was too small."@en ;
     pm:withinTradition pmt:Waidan .
-
-pmc:JindanYieldsCapacities a pm:Yielding ;
-    rdfs:label "Das Goldelixier bringt jene Vermögen hervor"@de,
-        "The golden elixir yields those capacities"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 4 (Jindan), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 4" ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:Jindan ;
-    pm:withinTradition pmt:Waidan ;
-    pm:yieldsCapacity pmc:JindanCapacities .
 
 pmc:JingmaiQijue a pm:Conceptualizing ;
     rdfs:label "Das Abreißen des Leitbahn-Qi, sein Zeichen und sein Stammtag"@de,
@@ -5375,16 +5393,14 @@ pmc:YangshengYieldsDubaisui a pm:Yielding ;
     pm:withinTradition pmt:ChineseMedicalCanon ;
     pm:yieldsCapacity pmc:DubaisuiNaiqu .
 
-pmc:YinjunDexian a pm:Attributing ;
-    rdfs:label "Der Gelehrte aus Xinye, der es durch dieses Elixier erlangt haben soll"@de,
-        "The scholar of Xinye who is said to have got it by this elixir"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 4 (Jindan), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 4" ;
-    skos:definition "The chapter names one man. Lord Yin of Xinye, in recent times at the end of the Han, obtained immortality by this Great Clarity elixir. He was by origin a Confucian scholar, of talent and reflection, and wrote poems and a eulogy on the elixir scriptures with a preface, setting out the beginning and end of his own study under his teacher and listing the men he knew of who had obtained immortality, more than forty of them, very clearly."@en ;
-    skos:note "The one detail that would count differently is that the man is said to have written down the beginning and end of his own study under a named teacher. An account of an operation by the person who ran it is the thing this collection everywhere lacks, and this node records that such a document is named as having existed."@en,
-        "This is the whole of the evidence the chapter offers that anybody ever succeeded, and its shape is worth keeping. The immortality of the one man is asserted; the forty are a list he is said to have made, reported at second hand by an author who did not perform the operation himself. What is offered as confirmation is therefore a document about a document, and the chapter presents it as very clear."@en ;
-    pm:ascribedCapacity pmc:JindanCapacities ;
-    pm:ascribedTo "Lord Yin of Xinye, a Confucian scholar of the end of the Han" ;
-    pm:attestedBy pm:thirdPartyAscription ;
+pmc:YaodongGuBing a pm:Conceptualizing ;
+    rdfs:label "Das Mittel wirkt, darum die Krankheit"@de,
+        "The drug is moving, therefore the illness"@en ;
+    dcterms:source "Han Yu, epitaph for the late Erudite of the Grand Academy Li, in Wubaijia zhu Changli wenji, Wenyuange Siku quanshu text, juan 34" ;
+    skos:definition "What the takers say, reported by the man who assembled the case series against them, and reported as two sentences that come at different moments. Of the dead who went before: those who died all failed to get the method; I am not like them. Of their own sickness, at its onset: the drug is moving, and that is why the illness; when the illness goes and the drug takes effect, one will not die. And when they are themselves about to die, he adds, they repent again."@en ;
+    skos:note "Held as a claim of this transmission although no text of it printed here says so, because the whole of the file above is a transmission and this is the sentence that keeps it standing. The two moves are complementary and between them cover every case: the deaths of others are assigned to their method, and one's own symptoms are assigned to the drug working. Nothing can then be a failure of the drug."@en,
+        "One instance is reported and not merely the rule. When the commissioner of Xiangyang had been ill a year, a member of his household said that the drug he had taken before was the wrong one, that he was about to purge it, and that when purged he would be well. He was ill two years and died."@en,
+        "The same machinery is printed as instruction at pmc:JinchengYaocheng, where a run that yields no gold is to be fired again, and at pmc:HedanTiaojian, where a drug that does not form may be blamed on an unbeliever's slander. Here it is not the instruction but the speech of the men taking it, written down by an outsider who had watched seven of them die. The graph therefore holds this form from three sides: as recipe, as excuse, and as observation."@en ;
     pm:withinTradition pmt:Waidan .
 
 pmc:YuruguPursuit a pm:Conceptualizing ;
@@ -8373,6 +8389,15 @@ pmc:JeuLiberatioAbArchonte a pm:Conceptualizing ;
     skos:definition "The outcome claimed: that the hearer is saved from the ruler of this aeon and his persecutions, to which there is no end; that the ruler will not fight with him, having found no commandment of his own in the speaker; and that the hearer is made free and becomes whole through a freedom in which there is no blemish."@en ;
     pm:withinTradition pmt:BooksOfJeu .
 
+pmc:JindanYieldsCapacities a pm:Yielding ;
+    rdfs:label "Das Goldelixier bringt jene Vermögen hervor"@de,
+        "The golden elixir yields those capacities"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 4 (Jindan), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 4" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Jindan ;
+    pm:withinTradition pmt:Waidan ;
+    pm:yieldsCapacity pmc:JindanCapacities .
+
 pmc:Jingshen a pm:Conceptualizing ;
     rdfs:label "Essenzgeist und Absicht des Kranken"@de,
         "The essence-spirit and the intent of the sick person"@en ;
@@ -9322,6 +9347,37 @@ pmc:XuZhu a pm:Conceptualizing ;
     skos:note "The distant healing is stated with a distance and an immediacy, a hundred li and on the spot, and with no condition attached to the patient. That makes it the most examinable claim in the chapter and the one furthest from anything the chapter offers to check it with."@en,
         "The laterality is the part this graph should not lose: the practitioner blows over his own left hand for a male patient and his own right for a female. A rule of that shape is not a description of an experience but an instruction that can be got wrong, and it is the kind of detail a later station adds rather than invents."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:YinjunDexian a pm:Attributing ;
+    rdfs:label "Der Gelehrte aus Xinye, der es durch dieses Elixier erlangt haben soll"@de,
+        "The scholar of Xinye who is said to have got it by this elixir"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 4 (Jindan), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 4" ;
+    skos:definition "The chapter names one man. Lord Yin of Xinye, in recent times at the end of the Han, obtained immortality by this Great Clarity elixir. He was by origin a Confucian scholar, of talent and reflection, and wrote poems and a eulogy on the elixir scriptures with a preface, setting out the beginning and end of his own study under his teacher and listing the men he knew of who had obtained immortality, more than forty of them, very clearly."@en ;
+    skos:note "The one detail that would count differently is that the man is said to have written down the beginning and end of his own study under a named teacher. An account of an operation by the person who ran it is the thing this collection everywhere lacks, and this node records that such a document is named as having existed."@en,
+        "This is the whole of the evidence the chapter offers that anybody ever succeeded, and its shape is worth keeping. The immortality of the one man is asserted; the forty are a list he is said to have made, reported at second hand by an author who did not perform the operation himself. What is offered as confirmation is therefore a document about a document, and the chapter presents it as very clear."@en ;
+    pm:ascribedCapacity pmc:JindanCapacities ;
+    pm:ascribedTo "Lord Yin of Xinye, a Confucian scholar of the end of the Han" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:Waidan .
+
+pmc:YiyaoBaizhe a pm:Testing ;
+    rdfs:label "Die sieben Männer, die das Mittel zugrunde richtete"@de,
+        "The seven men ruined by the drug"@en ;
+    dcterms:source "Han Yu, epitaph for the late Erudite of the Grand Academy Li, in Wubaijia zhu Changli wenji, Wenyuange Siku quanshu text, juan 34" ;
+    skos:definition "A case series assembled in 823 against the claim that mineral elixirs confer deathlessness, and stated as such. The author writes that he does not know from what age the doctrine of taking these things arose, that the men it has killed cannot be counted, and that the world's longing for it only grows. He then states his inclusion rule: what is recorded in documents and what is heard at second hand he passes over, and takes only those he saw with his own eyes and personally associated with and who were ruined by the drug, six or seven gentlemen, to serve as a warning to the age. He names seven, all of them men of rank whom the world knows. The Erudite for whom the epitaph is written met a fangshi while serving in the southeast, received the drug method, took it, passed blood repeatedly, and after four years, the illness growing acute, died at forty-eight; the method is given as a cauldron filled with lead, hollowed in the middle and filled with mercury, sealed at the four edges and fired to make cinnabar. Of the seven: the Minister of Works, having eaten mercury, fell ill and described it himself as a burning iron staff driven from the crown down through him, breaking into fire and shooting out at the apertures and joints, so that he howled with mad pain and begged to be let die; mercury was found on his bedding, and when it broke out the pain stopped; he spat blood for more than ten years and so perished. The Palace Censor died of an abscess that broke out on his back. The Minister of Justice, dying, said to the author: I was misled by the drug. That man's younger brother, a Vice-Minister, died in a single morning with no illness. The commissioner of Xiangyang met the author by boat, sent the others away, said that he had obtained a secret drug and could not alone escape death, and left him a vessel of it to be taken as pills with jujube flesh; a year later he was ill, and someone from his household reported that the drug he had taken before was the wrong one, that he was about to purge it, and that when purged he would be well; he was ill two years and died. The Censor-in-chief of Dongchuan, dying, passed blood and flesh with his urine, in pain past bearing, and begged for death. The General of the Golden Guard ate the same fangshi's drug and died in exile by the sea."@en ;
+    skos:note "The author says six or seven and names seven. The approximation is left as he wrote it rather than corrected to the count, because a series whose author was not sure of his own number is reporting from memory and not from a list, which is a fact about the series."@en,
+        "The edition's commentary carries the case that would have counted most and that the epitaph itself leaves unsaid. The fangshi who supplied the drug was recommended to the reigning emperor through a favourite; he prepared the cinnabar preparation; the emperor took it and, in the commentary's phrase, suddenly abandoned the myriad states; on the next reign the fangshi was handed to the metropolitan prefecture and put to death, and the man who had recommended him was demoted and died of the drug in his place of exile. That the ruling house both took the preparation and executed its maker is the sharpest thing in the apparatus, and it is in the apparatus and not in the text."@en,
+        "The inclusion rule is the reason this is a protocol and not a polemic. It excludes exactly the two classes of report that make a case series worthless: what stands written elsewhere, and what the author was told. Nothing in this collection, ancient or modern, states a cleaner criterion, and it is stated in the ninth century by a man writing a funeral inscription."@en,
+        "What the series can and cannot settle. It reports seven men who took mineral preparations and died, four of them with a course of illness that the report ties to the taking, and two with symptoms that a modern reader will recognise without the graph needing to say so. It does not establish a rate, because the denominator is missing: how many took such preparations and did not die of them is not asked, and the author's own selection is of the ruined. What it does establish is that the outcome the transmission excludes did occur, repeatedly, in men the author knew."@en ;
+    pm:baseRate "The span and manner of death of men of the same rank and period who did not take mineral preparations, which this series does not supply." ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Carried on 2026-09-10 over the two corpora this file rests on and recorded as a node at pmc:FushiSuccessSearch. Two things came back. In the transmission itself, one success is claimed: the fourth chapter of the Baopuzi names a scholar of the end of the Han said to have become an immortal by the Great Clarity elixir and to have listed more than forty others, which this graph holds at pmc:YinjunDexian and which is second-hand by its own account. In the witness's own collected works, a poem to a friend says that since their parting he knows the friend has had the golden elixir transmitted to him, and begs a knife-point of it to save his sick body; the edition's commentators argue over whether that shows the author of this series took mineral drugs himself. Both findings weaken the series, the first by supplying a claimed positive case and the second by unsettling the witness, and both are recorded rather than set aside."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "Han Yu, in the epitaph for the late Erudite of the Grand Academy Li, written in 823; the protocol is his and not the compiler's" ;
+    pm:falsifiedBy "Men who take the mineral preparations live at or beyond the ordinary span and die of causes unconnected with the taking, with no course of illness following it." ;
+    pm:protocolUpdated "2026-09-10" ;
+    pm:tests pmc:JindanYieldsCapacities ;
+    pm:withinTradition pmt:Waidan .
 
 pmc:ZaisanDu a pm:Cautioning ;
     rdfs:label "Zwei- und dreimal fragen entweiht, und entweiht antwortet es nicht"@de,
@@ -10468,11 +10524,6 @@ pm:searchFoundNothing a pm:SearchOutcome ;
         "Search found nothing"@en ;
     skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pm:sleepThreshold a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Schlafschwelle"@de,
@@ -10870,11 +10921,6 @@ pm:byEffort a pm:AwarenessValue,
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Ort nicht angegeben"@de,
@@ -10887,6 +10933,11 @@ pm:outwardWaking a pm:AwarenessValue,
         "Outward waking"@en ;
     skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
     skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -11066,6 +11117,11 @@ pm:StateDuration a owl:Class,
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
 pm:claimDoesNotDiscriminate a pm:ExaminationState ;
     rdfs:label "Behauptung unterscheidet nicht"@de,
         "Claim does not discriminate"@en ;
@@ -11180,11 +11236,6 @@ pm:SearchOutcome a owl:Class,
     skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:displacedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Verlagert"@de,
@@ -11270,6 +11321,11 @@ pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
         "Contact route absent"@en ;
     skos:definition "No route is available for the period in which the corpus was fixed. Agreement with traditions already held is a candidate for independent attestation."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:recordScale a pm:ScaleFamily ;
     rdfs:label "Aufzeichnungsskala"@de,
@@ -11502,15 +11558,6 @@ pm:Generalizing a owl:Class ;
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pmt:DesertMonasticism a pm:Tradition ;
     rdfs:label "Wüstenmönchtum"@de,
         "Desert monasticism"@en ;
@@ -11533,6 +11580,15 @@ pmt:Ifa a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:GreekMagicalPapyri a pm:Tradition ;
     rdfs:label "Griechische und demotische Zauberpapyri"@de,
@@ -11597,18 +11653,6 @@ pmt:Dogon a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
-
-pmt:Waidan a pm:Tradition ;
-    rdfs:label "Waidan, äußere Alchemie"@de,
-        "Waidan external alchemy"@en ;
-    skos:definition "The Chinese transmission of elixirs compounded from mineral substances, with an explicit catalogue of the capacities each elixir is said to confer."@en ;
-    skos:note "Edition note. Read in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, in the same digitisation as the chapters held in traditions/daoist.ttl, so that the two files cite one text and any divergence between them is a divergence in the work and not in the copy."@en,
-        "Ge Hong's inner chapters list attainments in the same enumerated form as the siddhi lists and were compiled without access to them. The comparison is one of the sharpest tests the project can set itself."@en,
-        "Read at the wording on 2026-09-10, in the Chinese: Baopuzi neipian 4, on the golden elixir, whole. The remaining chapters bearing on this transmission, above all 16 on gold and silver and 11 on the drugs of immortality, are searched by term and not read; the Zhouyi cantong qi is not opened. The harvest still owed at the opened work is recorded at prima-materia#633."@en,
-        "The finding of the opening run, and it is one sentence set against another in the same chapter. The author states that he received the elixir scriptures more than twenty years ago and has never compounded them, having not so much as a picul of means, and that all he has is a long sigh. Thirteen leaves later he prices the operation: about four hundred thousand cash for one preparation, enough for eight men. The chapter that calls the golden elixir the utmost of the way therefore rests, in its own author's hands, on an operation he could not afford to perform. Nothing in the file below is reported by a man who carried it out."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
 
 pm:Positing a owl:Class ;
     rdfs:label "Setzen"@de,
@@ -11703,6 +11747,19 @@ pmt:SamiNoaidi a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Schefferus, Lapponia, in the English edition The History of Lapland; Leem, Beskrivelse over Finmarkens Lapper; the eighteenth-century missionary manuscripts of Skanke and Randulf; Jessen, De religione paganorum Fennorum et Lapponum" .
+
+pmt:Waidan a pm:Tradition ;
+    rdfs:label "Waidan, äußere Alchemie"@de,
+        "Waidan external alchemy"@en ;
+    skos:definition "The Chinese transmission of elixirs compounded from mineral substances, with an explicit catalogue of the capacities each elixir is said to confer."@en ;
+    skos:note "Edition note. Read in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, in the same digitisation as the chapters held in traditions/daoist.ttl, so that the two files cite one text and any divergence between them is a divergence in the work and not in the copy."@en,
+        "Ge Hong's inner chapters list attainments in the same enumerated form as the siddhi lists and were compiled without access to them. The comparison is one of the sharpest tests the project can set itself."@en,
+        "Read at the wording on 2026-09-10, in the Chinese, for the examination and not for the transmission: Han Yu's epitaph for the late Erudite of the Grand Academy Li, and the poem to the supernumerary of Suizhou with the commentary printed with it, both in the Wubaijia zhu Changli wenji in the Wenyuange Siku quanshu text. What they carry stands in examinations/elixir-deaths.ttl. The rest of that collection was searched by term and not read."@en,
+        "Read at the wording on 2026-09-10, in the Chinese: Baopuzi neipian 4, on the golden elixir, whole. The remaining chapters bearing on this transmission, above all 16 on gold and silver and 11 on the drugs of immortality, are searched by term and not read; the Zhouyi cantong qi is not opened. The harvest still owed at the opened work is recorded at prima-materia#633."@en,
+        "The finding of the opening run, and it is one sentence set against another in the same chapter. The author states that he received the elixir scriptures more than twenty years ago and has never compounded them, having not so much as a picul of means, and that all he has is a long sigh. Thirteen leaves later he prices the operation: about four hundred thousand cash for one preparation, enough for eight men. The chapter that calls the golden elixir the utmost of the way therefore rests, in its own author's hands, on an operation he could not afford to perform. Nothing in the file below is reported by a man who carried it out."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
 
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
@@ -11927,13 +11984,6 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
         "Ophite gnosis"@en ;
@@ -11948,6 +11998,13 @@ pmt:OphiteGnosis a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
@@ -12026,19 +12083,19 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
