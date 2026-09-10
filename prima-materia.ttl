@@ -5111,15 +5111,6 @@ pmc:XingqiYieldsCapacities a pm:Yielding ;
     pm:withinTradition pmt:Daoist ;
     pm:yieldsCapacity pmc:XingqiCapacities .
 
-pmc:XuZhu a pm:Conceptualizing ;
-    rdfs:label "Das Anblasen von Wasser, Feuer, Tieren und Wunden"@de,
-        "Blowing on water, fire, beasts and wounds"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
-    skos:definition "What one who is good at using the qi is said to do. He blows at water and the water runs backwards several paces; he blows at fire and the fire goes out; he blows at a tiger or a wolf and it crouches and cannot rise; he blows at a snake or a viper and it coils and cannot go. If another has been wounded by a blade, he blows at it and the blood stops at once. Where he hears that someone has been struck by a venomous creature, he blows and incants at a distance without seeing the person, over his own hand, the left for a man and the right for a woman, and though the other be a hundred li away he is healed on the spot. And for a sudden seizure it is enough to swallow the qi of the three nines, and it passes at once."@en ;
-    skos:note "The distant healing is stated with a distance and an immediacy, a hundred li and on the spot, and with no condition attached to the patient. That makes it the most examinable claim in the chapter and the one furthest from anything the chapter offers to check it with."@en,
-        "The laterality is the part this graph should not lose: the practitioner blows over his own left hand for a male patient and his own right for a female. A rule of that shape is not a description of an experience but an instruction that can be got wrong, and it is the kind of detail a later station adds rather than invents."@en ;
-    pm:withinTradition pmt:Daoist .
-
 pmc:YangshengYieldsDubaisui a pm:Yielding ;
     rdfs:label "Das Regimen bringt die volle Spanne hervor"@de,
         "The regimen yields the full span"@en ;
@@ -6222,6 +6213,21 @@ pmp:OrdealByOdumDecoction a pm:Practicing ;
     pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
 
+pmp:PalmsAsSendingOrganSearch a pm:Searching ;
+    rdfs:label "Ob der Baopuzi die Handflächen zum Sendeorgan macht"@de,
+        "Whether the Baopuzi makes the palms the organ of sending"@en ;
+    dcterms:date "2026-09-10" ;
+    skos:note "Added after the seventeenth juan was read at the wording later the same day: the rule stands there a second time, in a different operation. Blowing the qi at a snakebite ten and more li away, the practitioner calls the man's surname and name and invokes over his own left hand for a man and his own right for a woman, exactly as in the eighth. What the search found is therefore not a formula of one chapter but a rule the work sets twice, and the office it assigns to the hand is the same both times."@en,
+        "Recorded as an outcome and not as a refutation. The claim may still stand in the corpora the issue names beside this one; what this node says is that this work was asked and answered with something else. See prima-materia#314."@en,
+        "The chapter has the hand in exactly one operation and puts it in the other role. The practitioner who has heard that someone at a distance was struck by a venomous creature blows and incants over his own hand, the left for a man and the right for a woman, and the other is healed though a hundred li away. The hand is what the blowing is directed at and not what does the sending; the sending is the blowing, which the same passage uses on water, on fire, on a tiger and on a wound with no hand in it at all. What the search found is a near neighbour of the claim that assigns the office elsewhere."@en,
+        "The laterality is the part of the find that matters to the issue, and it points away from it as well. Left and right are distinguished by the sex of the patient and not by a function of the two hands, so the passage cannot be cited for a rule about which hand transmits. The node it yielded carries the wording."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "The whole of juan 8 read at the wording; term search over all twenty juan for 掌, 掌心, 手心, 勞宮, 出氣, 發氣, 以手." ;
+    pm:searchYieldedNode pmc:XuZhu ;
+    pm:searchedBy "prima-materia, 2026-09-10" ;
+    pm:searchedCorpus "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8; read at the wording, with the remaining nineteen juan searched by term" ;
+    pm:searchedFor "A passage making the palms the place at which the qi leaves the body in an operation on another person or thing — the claim of prima-materia#314." .
+
 pmp:PoisonousHandTurtleExamination a pm:Testing ;
     rdfs:label "Ob die Probe an der Schildkröte die giftige Hand unterscheidet"@de,
         "Whether the pressing of the turtle discriminates the poisonous hand"@en ;
@@ -6344,6 +6350,19 @@ pmp:Ujjayi a pm:Practicing ;
     skos:definition "A retention in which the mouth is held closed and the breath is drawn through both nostrils so that it grazes the throat and sounds as it passes."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:UptakeThroughTheHandSearch a pm:Searching ;
+    rdfs:label "Ob der Baopuzi ein Aufnehmen von Qi aus einem anderen Menschen über die Hand kennt"@de,
+        "Whether the Baopuzi has qi taken up out of another person through the hand"@en ;
+    dcterms:date "2026-09-10" ;
+    skos:note "See prima-materia#328. The issue keeps its korpus:daoistisch label and stays open, because the label is the record of coverage and this search adds one corpus to it rather than exhausting the plausible ones."@en,
+        "The direction is the finding, and it is uniform. Every operation in this work in which the hand and the qi appear together sends outward: the blowing over one's own hand at a distance in juan 8, and the subduing of a snake in juan 17, where the practitioner faces the sun, takes three breaths and holds them, props the tongue against the palate and pinches a hand posture. Nothing takes anything in, and nothing takes anything out of a person. A transmission that describes the outward operation in detail and never mentions the inward one is saying something, and it is not the same thing as a transmission nobody has asked."@en,
+        "What the search cannot say. It was carried in the Chinese over one edition and one set of characters, and a technical term for the intake that this vocabulary does not contain would not have been found. The one result that would carry beyond this work is the absence of 勞宮 anywhere in it, since that is the term the claim would be expected to attach to; but the term belongs to the medical corpus, and its absence here bears on this work only."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all twenty juan for: 掌 (palm, seven hits, all figurative or lexical: ruling in the palm, holding in the palm, dragon's liver and tiger's palm as a drug name); 掌心 and 手心 (palm centre, none); 勞宮 (the point in the palm centre, none); 取人 (four hits, all about taking a man's position, wealth or wife, in the list of transgressions of juan 6 and in juan 10); 受人, 布炁, 奪人炁 (none); 以手 (one hit, juan 17); 摩 (rubbing, five hits, all pharmaceutical or lexical)." ;
+    pm:searchedBy "prima-materia, 2026-09-10" ;
+    pm:searchedCorpus "Ge Hong, Baopuzi neipian, twenty juan, in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185; searched over the whole work in the Chinese, and read at the wording where a hit fell" ;
+    pm:searchedFor "A passage in which qi, energy or vitality is taken up out of another person, with the hand as the place of entry — the claim of prima-materia#328, whose second half is that the entry point is the left hand." .
 
 pmp:VoSisa a pm:Practicing ;
     rdfs:label "Vo-sisa, was bei schlechtem Spruch zu tun ist"@de,
@@ -8944,6 +8963,15 @@ pmc:XingqiDepth a pm:Conceptualizing ;
     skos:definition "The opening stage of the inscription: the breath is taken deeply, whereupon it gathers."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:XuZhu a pm:Conceptualizing ;
+    rdfs:label "Das Anblasen von Wasser, Feuer, Tieren und Wunden"@de,
+        "Blowing on water, fire, beasts and wounds"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8" ;
+    skos:definition "What one who is good at using the qi is said to do. He blows at water and the water runs backwards several paces; he blows at fire and the fire goes out; he blows at a tiger or a wolf and it crouches and cannot rise; he blows at a snake or a viper and it coils and cannot go. If another has been wounded by a blade, he blows at it and the blood stops at once. Where he hears that someone has been struck by a venomous creature, he blows and incants at a distance without seeing the person, over his own hand, the left for a man and the right for a woman, and though the other be a hundred li away he is healed on the spot. And for a sudden seizure it is enough to swallow the qi of the three nines, and it passes at once."@en ;
+    skos:note "The distant healing is stated with a distance and an immediacy, a hundred li and on the spot, and with no condition attached to the patient. That makes it the most examinable claim in the chapter and the one furthest from anything the chapter offers to check it with."@en,
+        "The laterality is the part this graph should not lose: the practitioner blows over his own left hand for a male patient and his own right for a female. A rule of that shape is not a description of an experience but an instruction that can be got wrong, and it is the kind of detail a later station adds rather than invents."@en ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:ZaisanDu a pm:Cautioning ;
     rdfs:label "Zwei- und dreimal fragen entweiht, und entweiht antwortet es nicht"@de,
         "Asking twice and three times defiles, and defiled it does not tell"@en ;
@@ -9023,16 +9051,6 @@ pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
     skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
-
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pm:sourceModalityScale a pm:ScaleFamily ;
     rdfs:label "Quellenmodalitätsskala"@de,
@@ -10067,6 +10085,16 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
 
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
+
 pm:sleepThreshold a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Schlafschwelle"@de,
@@ -10931,15 +10959,6 @@ pm:Attesting a owl:Class,
     skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pm:SensoryAnchoring a owl:Class,
         pm:Scale ;
     rdfs:label "Sinnesbindung"@de,
@@ -11031,6 +11050,15 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
