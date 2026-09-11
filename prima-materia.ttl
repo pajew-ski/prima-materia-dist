@@ -1774,18 +1774,6 @@ pmc:HawaiianKoCaution a pm:Cautioning ;
     pm:cautionsAbout pmp:Ailolo ;
     pm:withinTradition pmt:HawaiianRitual .
 
-pmc:HawaiianWelfarePresupposesExactChanting a pm:Presupposing ;
-    rdfs:label "Das Wohlergehen der besungenen Familie setzt den fehlerlosen Gesang voraus"@de,
-        "The good fortune of the honoured family presupposes a chant without fault"@en ;
-    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, p. 35" ;
-    skos:note "The transfer of the harm is what distinguishes this witness from the others the graph holds on the same rule. Where the Maori address is simply said to lose its efficacy and the Navajo ceremony is broken off, here the reciter is not the one who suffers. That makes the rule harder to test from inside the tradition, because the person who could report the fault and the person who bears the consequence are different people."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:consequenceOfSkipping "A breath taken before the close of a phrase, a mistake, or even hesitation in pronouncing a word was a sign of ill-luck to the person or family thus honoured. The harm is named, it is transferred, and it falls on the party who did not commit the fault." ;
-    pm:dependentStep pmc:HawaiianChantWelfare ;
-    pm:prerequisiteStrength pm:statedNecessity ;
-    pm:priorStep pmc:HawaiianChantExactness ;
-    pm:withinTradition pmt:HawaiianRitual .
-
 pmc:HeatWithoutBreathProtocol a pm:Testing ;
     rdfs:label "Ob die sanftere Form dieselbe Hitze erzeugt"@de,
         "Whether the gentler form produces the same heat"@en ;
@@ -1885,17 +1873,6 @@ pmc:HermeticVitaPiaYieldsAscensus a pm:Yielding ;
     pm:byPractice pmp:HermeticVitaPia ;
     pm:withinTradition pmt:Hermetic ;
     pm:yieldsCapacity pmc:HermeticFinisBonus .
-
-pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
-    rdfs:label "Die heterodoxe Methode tilgt die Schuld nie"@de,
-        "The heterodox method never clears the debt"@en ;
-    dcterms:source "Kālikāpurāṇa, at the verses stating that heterodox worship never clears the debt (132-133a) and that liberation comes only after a very long time with repeated rebirth (133b-135a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
-    skos:definition "The warning that because the goddess takes for herself the share offered to others, worship performed in the heterodox method never results in clearing the debt to ancestors, sages, gods and the human race; and that one who becomes an expert in the tripurā practice attains liberation only after a very long time and is reborn on this earth again and again, having been visited by the sin arising from the uncleared debt."@en ;
-    skos:note "A failure condition of the kind this project looks for, and an unusually exact one: the source states the price of its own path, names the mechanism, and says what remains unattained. It does not warn against the rite. It says what the rite costs, which is the harder thing for a tradition to write down about itself."@en,
-        "It also settles what the two methods are weighed on in this text. Not purity, not moral standing, not the direction of the will: the debt. The orthodox method discharges it and is rewarded in due course; the heterodox method leaves it standing and pays immediately instead. Whoever takes the left hand path here for the faster route has read half of it — it is the faster route to power and the slower one to liberation, and the source says both in the same breath."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout pmp:VamaWorship ;
-    pm:withinTradition pmt:SaivaSakta .
 
 pmc:HeyokaFromTheWingedGod a pm:Conceptualizing ;
     rdfs:label "Die Mitteilung, die den Empfänger zum widernatürlichen Handeln verpflichtet"@de,
@@ -4442,6 +4419,69 @@ pmc:ShangqingHuangguanzi a pm:Conceptualizing ;
         "The passage bears on the contact route recorded on the tradition instance and pulls the other way from the borrowing at 6.6a-6.10a. A transmission that reproduces a Buddhist text in the mouths of its own Perfected and in the same juan denies that Buddhist practice achieves anything is doing two things at once, and both are in the file because both were read."@en ;
     pm:withinTradition pmt:Shangqing .
 
+pmc:ShangqingHuangtingBaiershi a pm:Conceptualizing ;
+    rdfs:label "Bis hundertzwanzig Jahre, danach das Elixier"@de,
+        "Up to a hundred and twenty years, and after that the elixir"@en ;
+    dcterms:source "Huangting neijing yujing 33 (Ganqi zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "In the chapter on the liver breath the work sets a limit on itself. Up to a hundred and twenty years a man may still be turned back; past that, to hold to the Way is truly very hard, and one must then wait upon the ninefold-cycled and the eight-gem elixir. It adds that one must still return to careful thought and hold the seven origins, and that the blossom of sun and moon rescues what is old and worn."@en ;
+    skos:note "The clause also bears on the recitation claim above, and the two are not easy to reconcile. The first chapter promises that the chanting puts off old age and draws out the years without qualification; this chapter says the turning back is possible only up to a stated age. The work does not say which governs."@en,
+        "Very little in this holding does what this sentence does. A transmission that names an age past which its own method no longer works, and refers the case to a different method belonging to a different transmission, has stated a boundary that a claim could fall outside. The referral is to the external alchemy, which this graph holds separately at traditions/waidan.ttl, and it is made without polemic."@en ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingHuangtingFangzhong a pm:Cautioning ;
+    rdfs:label "Das eine, was das Werk dringend nennt"@de,
+        "The one thing the work calls urgent"@en ;
+    dcterms:source "Huangting neijing yujing 21 (Qiongshi zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 22 (Changnian zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "Long life is most cautious and the chamber is the urgent matter: why act so as to die and make the spirits weep? To make light of it is the land of calamity and the three numina perish. Breathe in the breath and take down the essence, and a plot of a foot may be made to yield a living; but let the sea be breached and the hundred watercourses drained, the leaf goes and the tree withers and loses its green, the breath is gone and the fluid leaks away and the form is no longer one's own. The next chapter repeats it as an order: guard the chamber of the essence urgently and do not let it out at random, close it and treasure it and one may live long."@en ;
+    skos:note "Entered because the work states the consequence in its own terms rather than as a prohibition with a penalty attached. The form ceasing to be one's own is not a punishment imposed by an office; it is described as what happens to a tree whose root has been cut, which is the same register in which the rest of the work describes the body."@en ;
+    pm:cautionsAbout pmp:ShangqingHuangtingCunshen ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingHuangtingJinji a pm:Cautioning ;
+    rdfs:label "Der Totenhauch, und das Korn des Bodens"@de,
+        "The dead breath, and the grain of the ground"@en ;
+    dcterms:source "Huangting neijing yujing 27 (Xuanyuan zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 30 (Baigu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "Two prohibitions stated as such. The chapter on the mysterious origin names what is most to be avoided: the breath of the dead and all that is defiled and base. The chapter on the hundred grains says that the fruit of the hundred grains is the essence of the soil and that the five flavours, fair on the outside, are the rankness of demons: they foul the spirits and the embryo-breath is emptied out, and how then should one turn back from age and return to the infant, when the three cloud-souls are unsettled and the white-souls crushed? It sets against them the eating of breath and the great harmony, by which one does not die."@en ;
+    pm:cautionsAbout pmp:ShangqingHuangtingCunshen ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingHuangtingLinjue a pm:Yielding ;
+    rdfs:label "Den Gott im letzten Atemzug rufen"@de,
+        "Calling the god at the last breath"@en ;
+    dcterms:source "Huangting neijing yujing 10 (Xinbu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 11 (Ganbu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "Two chapters state the same claim of two different gods. Of the heart god the work says that at the point of expiring one calls upon him and even then revives. Of the liver god it says that when one is on the point of expiring, to think of the god brings the dead back to life, and that the cloud-souls are gathered and the white-souls returned so that there is no falling away. A third chapter, of the spleen lord, says that calling one's own name three times makes the god get through of itself."@en ;
+    skos:note "The most checkable claim in the work and the one on which no protocol is written here. What would tell against it is a person at the point of death on whom the transmission's own people perform the actualisation and who dies; that is an observation and not an intervention, and it would require watching the dying, which is not a procedure this project devises. The claim is entered with its falsifying condition stated and the protocol left undevised rather than stubbed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ShangqingHuangtingCunshen ;
+    pm:withinTradition pmt:Shangqing ;
+    pm:yieldsCapacity pmc:ShangqingHuangtingCapacity .
+
+pmc:ShangqingHuangtingShen a pm:Conceptualizing ;
+    rdfs:label "Die dreizehn Götter, mit Namen und Beinamen"@de,
+        "The thirteen gods, with their names and their courtesy names"@en ;
+    dcterms:source "Huangting neijing yujing 7 (Zhidao zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 8 (Xinshen zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "Two closed lists. Of the face and head, seven: the god of the hair, Azure Blossom, courtesy name Great Origin; of the brain, Essence Root, courtesy name Mud Pellet; of the eyes, Bright Above, courtesy name Blossoming Mystery; of the nose, Jade Mound, courtesy name Numinous Firmness; of the ears, Empty Leisure, courtesy name Hidden Field; of the tongue, Penetrating Fate, courtesy name Fivefold Order; of the teeth, Cliff Point, courtesy name Net of Thousands. All seven are subject to the Mud Pellet. Of the viscera, six: of the heart, Cinnabar Origin, courtesy name Guarding the Numen; of the lungs, White Blossom, courtesy name Empty Completion; of the liver, Dragon Smoke, courtesy name Holding Brightness; of the kidneys, Dark Obscurity, courtesy name Nurturing the Infant; of the spleen, Ever Present, courtesy name Resting Cloud-Soul; of the gall bladder, Dragon Radiance, courtesy name Awesome Brightness. The six receptacles and the five depots are said to have their spirit-bodies' essence all within the heart, turning the heavenly warp, and to be held there day and night for long life."@en ;
+    skos:note "Every god carries two names, a name and a courtesy name, exactly as a person of the period would. Nothing in the chapter explains why, and the file does not supply a reason; what it records is that a transmission which elsewhere works with impersonal breaths here works with a named household."@en,
+        "The count is thirteen and not twelve because the gall bladder is reckoned with the depots, which the chapter says in as many words. It is worth keeping because a roster with a stated membership is the kind of thing a later recension can be checked against, and this one can: the work devotes a further six chapters to the lung, heart, liver, kidney, spleen and gall bladder in turn, each with its own robe, its own outward correspondence and its own effect."@en ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingHuangtingWanbian a pm:Yielding ;
+    rdfs:label "Zehntausend Rezitationen, und was die Zahl bringen soll"@de,
+        "Ten thousand recitations, and what the count is said to bring"@en ;
+    dcterms:source "Huangting neijing yujing 1 (Shangqing zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 36 (Muyu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The first chapter states the reward in a single line: chant it ten thousand times and ascend the Three Heavens, a thousand calamities are thereby dispelled and a hundred illnesses cured, one need not fear the ferocity of tiger and wolf, and old age is put off and the years drawn out. The last chapter states the procedure and the completion: recite in the chamber facing east until about ten thousand times, and the sense grows clear of itself; when the tally of readings is finished, the body and the spirits are refined, the Yellow Blossom Jade Maiden tells the practitioner her mind, the Perfected arrive and set the six ding at his service, and the Great Cavern scripture is then conferred on him."@en ;
+    skos:note "It also states its own condition of failure in the closing chapter, and the condition is not about the count. Bathing and purity are required, the fat and the pungent are to be put aside, the hair is to be loosened and one is to be without desire; the five flavours are then said to come right and the correct breath to return. A practitioner who reached the count without these has not met the prescription, which is where a null result would be sent."@en,
+        "The second witness in this holding to the ten thousand recitations, and it is the work the Zhen'gao prescribes at 9.23b, so the two are not independent. What this one adds is the sitting: ten readings and four bows make one pass, which puts the ten thousand at a thousand sittings and makes the count something a practitioner could keep track of."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ShangqingHuangtingSongjing ;
+    pm:withinTradition pmt:Shangqing ;
+    pm:yieldsCapacity pmc:ShangqingHuangtingCapacity .
+
 pmc:ShangqingJiuhuan a pm:Cautioning ;
     rdfs:label "Die neun Gebrechen des Lernenden"@de,
         "The nine afflictions of the student"@en ;
@@ -4499,6 +4539,15 @@ pmc:ShangqingXiedao a pm:Cautioning ;
     skos:note "Its bearing on this holding is the same as the clause about speaking of death. A transmission that treats disclosure as a cause of failure has a reason available for every unsuccessful run that does not require the method to be examined, and this one supplies it twice over in adjacent passages."@en,
         "The prohibition reaches the ordinary conduct of a household. The same section forbids letting a person who is not of the Way see one comb one's hair, eat, or put on shoes, on the ground that the corpse-souls of the ordinary man come in at those moments and assail the spirits of the practitioner."@en ;
     pm:cautionsAbout pmp:ShangqingXuedao ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingXuHuiChaoJing a pm:Attributing ;
+    rdfs:label "Wer das Huangting aus der Überlieferung der Dame Wei abschrieb"@de,
+        "Who copied the Huangting out of the Traditions of Lady Wei"@en ;
+    dcterms:source "Tao Hongjing, Zhen'gao 20.4a (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 20" ;
+    skos:definition "The compiler of the Zhen'gao, listing where the autographs of the three men had got to, records that the younger Xu copied the Huangting jing out of the Traditions of Lady Wei, together with some further sheets of received matter, that these were formerly with a man of the Shan mountains, and that after his death they should be with his woman disciple and a fellow student. The ascription is therefore not of the scripture to Lady Wei but of one copy of it to the hand of a named man, out of a named book, with the later whereabouts given."@en ;
+    skos:note "This is the sentence that places the work in this file rather than in one of its own. It is an ascription of a copy and not of a composition, and the file does not take it for more: the scripture's own first chapter names the Most High Great Way Lord of the Jade Dawn as its speaker, not Lady Wei."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Shangqing .
 
 pmc:ShangqingYeshu a pm:Yielding ;
@@ -6583,6 +6632,20 @@ pmp:CritiqueRigoureuse a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
 
+pmp:DisplacedPenaltyCounterSearch a pm:Searching ;
+    rdfs:label "Ob eine verschobene Strafe die Regel dem Prüfen entzieht"@de,
+        "Whether a displaced penalty puts the rule beyond checking"@en ;
+    dcterms:date "2026-09-11" ;
+    skos:note "Limits. This was a search of the holding and not of any corpus, so every proportion in it is a proportion of what has been entered, which is a selection made by earlier runs of this project for reasons of their own. A shape that is a minority in the holding may be the majority in the world, or the reverse. The statement is accordingly falsified by a count and says so."@en,
+        "The answer to the first question was that the displaced form is real and that the witnesses cluster in two corpora, the burial literature and the needling canon, with scattered instances elsewhere. The answer to the second was a proportion: four of forty stated consequences of a skipped prerequisite displace outright, and nine to eleven of some fifty cautions, so the displaced form is a substantial minority and not the rule. Both answers went into the statement."@en,
+        "The answer to the third question was yes, and it removed the half of the statement that had been the reason for writing it. A purification performed by the unqualified is said to make the sickness and the death in the world stronger than before, and the holding already notes that a claim of active worsening is decidable where a claim of failure is not. A burial doctrine that fixes a class of its effects within a day of a public dated event had a count of more than twenty such burials set against it in a seventh-century memorial. A felling prohibition names the man, sets ten days and denies the natural explanation in advance. The common feature is a direction and a term, and that feature became the closing clause of the statement instead of the claim it replaced."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Sweep of all sixty-six tradition files and the four further data directories, over the forty instances of pm:consequenceOfSkipping and the roughly fifty nodes of class pm:Cautioning, and a literal-level scan for the co-occurrence of a fault with a harm borne by a named other party, using among others: falls on, ill-luck, penalty, harm, descendants, ancestors, generations, family, the dead, rebirth, debt, curse, misfortune, barren, sickness." ;
+    pm:searchYieldedNode pmc:ThePenaltyLaidOnAnotherParty ;
+    pm:searchedBy "prima-materia, 2026-09-11" ;
+    pm:searchedCorpus "The compiled prima-materia holding as it stood on 2026-09-11: all tradition files, the examinations, the generalizations, the convergences and the originations, read at the literals of skos:definition, skos:note and pm:consequenceOfSkipping" ;
+    pm:searchedFor "Three questions put together before writing pmc:ThePenaltyLaidOnAnotherParty. First, further witnesses in which the stated cost of a faulty or improperly transmitted performance falls on someone other than the performer. Second, the counter-cases in which it falls squarely on the performer, in order to learn the proportion and so the strength the statement could carry. Third, and this is the one that mattered, whether the holding contains a case in which a displaced penalty is nevertheless checked, reported back or made observable, which would falsify the second half of the statement as drafted." .
+
 pmp:DivinationByThrownThings a pm:Practicing ;
     rdfs:label "Wahrsagen durch geworfene Dinge"@de,
         "Divination by things thrown on the ground"@en ;
@@ -6697,6 +6760,32 @@ pmp:HuacaFeast a pm:Practicing ;
     skos:definition "The senior specialist gives notice when the time comes, the chicha is brewed, and he goes through the households collecting the offerings. On the appointed day he goes with his assistants to the principal huaca and makes the offering, then to the lesser huacas and the ancestor bodies. On his return nobody sleeps that night: they sing, dance and tell tales, and children are beaten if they fall asleep. This night is called the pacaricuc, and from it the fast begins — no salt, no chilli, no sleeping with wives — lasting five days in some places and longer in others according to different traditions. Three such feasts are held in the year, tied to the Pleiades, to the first rains and to the maize harvest."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
+
+pmp:HuangtingKouchiSearch a pm:Searching ;
+    rdfs:label "Ob das Huangting neijing jing das Zähneklappern vorschreibt"@de,
+        "Whether the Huangting neijing jing prescribes the tooth-clapping"@en ;
+    dcterms:date "2026-09-11" ;
+    skos:note "Limits. This establishes an absence in one recension of one scripture and nothing more. The outer scripture stands in the same volume of this reproduction and was not searched; neither were the commentaries, which is where the practice is expected to be and where a positive finding would be no surprise. An absence in a work of some two and a half thousand characters of verse is a weak thing to build on, and it is entered as a statement about the wording of this text, not about the transmission that carries it."@en,
+        "What the work has in the place where the clapping would stand is the swallowing, and it is counted: the thirty-six swallowings in the Jade Pond by which the hundred vessels open. The one number the received practice and the canon text share is therefore attached in the text to a different act from the one the practice attaches it to."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all thirty-six chapters for the compound 叩齒 (no hits) and for the single graph 齒 (five hits, every one of them read: the tooth god and his courtesy name in chapter seven, the teeth as the granary attended by the two bright lads in chapter eight, the washing of hair and teeth in chapter twenty, the thirty-six swallowings that follow the essence of hair and teeth in chapter twenty-one, and the teeth made firm and the hair kept black in the same chapter). Searched further for 扣 and 擊 as alternative graphs for the striking, with no hits, and for the counts 三十六 and 二十四 in order to see what the work does count." ;
+    pm:searchYieldedNode pmc:ShangqingHuangtingKouchi ;
+    pm:searchedBy "prima-materia, 2026-09-11" ;
+    pm:searchedCorpus "Huangting neijing yujing, thirty-six chapters in one juan (DZ 331), Zhengtong Daozang, Hanfenlou facsimile; searched over the whole work in the Chinese, with every hit read at the wording, the work being short enough that the search and the reading cover the same text" ;
+    pm:searchedFor "The tooth-clapping, with its counts of three, twelve, twenty-four and thirty-six, which the compiler expected to find in this work and did not. The question put was whether the canon text of the scripture prescribes it at all. Where the practice does come from, if not from here, is a further question and one this search does not answer, because it was carried in the canon text alone and in no commentary." .
+
+pmp:HuangtingLocationSearch a pm:Searching ;
+    rdfs:label "Ob das Huangting neijing jing sagt, wo der Gelbe Hof liegt"@de,
+        "Whether the Huangting neijing jing says where the Yellow Court is"@en ;
+    dcterms:date "2026-09-11" ;
+    skos:note "Limits. A negative finding on a spelling is a finding about that spelling, and this work is written in a deliberately allusive register in which a thing may be named by a figure rather than by its word: a line that says where the Yellow Court is without saying Yellow Court would not be reached by any term list. What the search does establish is that the two places where the work uses the words of its own title do not carry a location and are not adjacent to one."@en,
+        "The work is not vague about the body. It gives the upper palace nine chambers of one square inch each, it names thirteen organ gods with their own courtesy names and colours of dress, it routes the fluid from the dark gullet through the bright hall to the throat. The term in its title is the one thing in it that receives no place, and it is unlocated not by omission in a thin text but by omission in a text that locates everything else."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all thirty-six chapters for 黄庭 in both graphs of the first character, seven hits, of which five are the titles at the head and foot of the volume and the chapter heading, leaving two in the verse. Searched then for the spatial terms the work does use, in order to see whether any of them stands beside it: 泥丸 and its variant spelling 泥九 (eight hits between them), 明堂 (four), 洞房 (two), 丹田 (one), 三田 (one), 脾 (eight), 寸 (six). Each hit was read at the wording and the two verse occurrences of the title term were read in their chapters entire." ;
+    pm:searchYieldedNode pmc:ShangqingHuangtingKouchi ;
+    pm:searchedBy "prima-materia, 2026-09-11" ;
+    pm:searchedCorpus "Huangting neijing yujing, thirty-six chapters in one juan (DZ 331), Zhengtong Daozang, Hanfenlou facsimile; searched over the whole work in the Chinese, with every hit read at the wording" ;
+    pm:searchedFor "A passage in which the work locates the thing it is named after, whether in the head, the heart, the spleen, the lower field or anywhere else. The question was put because the secondary accounts disagree about it and each of them cites this scripture." .
 
 pmp:Huikala a pm:Practicing ;
     rdfs:label "Huikala"@de,
@@ -8754,6 +8843,18 @@ pmc:HawaiianChantWelfare a pm:Conceptualizing ;
     skos:definition "What the correct rendering is held to secure. The transmission places the outcome not with the reciter but with the party the chant is made for, which is the unusual part of this witness."@en ;
     pm:withinTradition pmt:HawaiianRitual .
 
+pmc:HawaiianWelfarePresupposesExactChanting a pm:Presupposing ;
+    rdfs:label "Das Wohlergehen der besungenen Familie setzt den fehlerlosen Gesang voraus"@de,
+        "The good fortune of the honoured family presupposes a chant without fault"@en ;
+    dcterms:source "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, p. 35" ;
+    skos:note "The transfer of the harm is what distinguishes this witness from the others the graph holds on the same rule. Where the Maori address is simply said to lose its efficacy and the Navajo ceremony is broken off, here the reciter is not the one who suffers. That makes the rule harder to test from inside the tradition, because the person who could report the fault and the person who bears the consequence are different people."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "A breath taken before the close of a phrase, a mistake, or even hesitation in pronouncing a word was a sign of ill-luck to the person or family thus honoured. The harm is named, it is transferred, and it falls on the party who did not commit the fault." ;
+    pm:dependentStep pmc:HawaiianChantWelfare ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HawaiianChantExactness ;
+    pm:withinTradition pmt:HawaiianRitual .
+
 pmc:HawkinsConsciousnessScale a pm:Originating ;
     rdfs:label "Die Ordnung der Affekte nach gemessener Stufe"@de,
         "The ranking of emotions by measured level"@en ;
@@ -8804,6 +8905,17 @@ pmc:HermeticFinisBonus a pm:Conceptualizing ;
     skos:definition "The end named for those who have gained gnosis: they go in a band to the Father, of their own selves make surrender of themselves to the powers, and becoming powers are in God."@en ;
     skos:note "Placed on the telic axis as pm:unitiveTelos would be a reading and is not made here; the wording carries both a becoming-powers and a being-in-God, and which of the two is the end is exactly what a placement would have to decide. Left unsituated deliberately, so that the absence means nobody has decided rather than that the source is silent."@en ;
     pm:withinTradition pmt:Hermetic .
+
+pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
+    rdfs:label "Die heterodoxe Methode tilgt die Schuld nie"@de,
+        "The heterodox method never clears the debt"@en ;
+    dcterms:source "Kālikāpurāṇa, at the verses stating that heterodox worship never clears the debt (132-133a) and that liberation comes only after a very long time with repeated rebirth (133b-135a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
+    skos:definition "The warning that because the goddess takes for herself the share offered to others, worship performed in the heterodox method never results in clearing the debt to ancestors, sages, gods and the human race; and that one who becomes an expert in the tripurā practice attains liberation only after a very long time and is reborn on this earth again and again, having been visited by the sin arising from the uncleared debt."@en ;
+    skos:note "A failure condition of the kind this project looks for, and an unusually exact one: the source states the price of its own path, names the mechanism, and says what remains unattained. It does not warn against the rite. It says what the rite costs, which is the harder thing for a tradition to write down about itself."@en,
+        "It also settles what the two methods are weighed on in this text. Not purity, not moral standing, not the direction of the will: the debt. The orthodox method discharges it and is rewarded in due course; the heterodox method leaves it standing and pays immediately instead. Whoever takes the left hand path here for the faster route has read half of it — it is the faster route to power and the slower one to liberation, and the source says both in the same breath."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VamaWorship ;
+    pm:withinTradition pmt:SaivaSakta .
 
 pmc:HulaKnowledgeRetained a pm:Conceptualizing ;
     rdfs:label "Die Gesänge und die Schulung bleiben beim Schüler"@de,
@@ -9456,6 +9568,19 @@ pmc:ShangqingGuijiuShenling a pm:Conceptualizing ;
         "Its value is that it shows the transmission capable of the move at all. A corpus that never distinguishes a self-inflicted failure from a failure of the operation cannot be asked which it means; this one makes the distinction once, on the side that costs it nothing."@en ;
     pm:withinTradition pmt:Shangqing .
 
+pmc:ShangqingHuangtingMengjin a pm:Presupposing ;
+    rdfs:label "Das Pfand bei der Übergabe, und wer für eine falsche zahlt"@de,
+        "The pledge at the handing on, and who pays for a wrong one"@en ;
+    dcterms:source "Huangting neijing yujing 36 (Muyu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The closing chapter sets the terms of transmission. The one who gives is called master and the one who receives swears; cloud-brocade, phoenix gauze and a golden clasp are bound up in place of cutting the hair, so that skin and flesh stay whole; the two go up the mountain hand in hand and smear the cinnabar liquid, and only then may the golden writing and jade scene be declared. And the sanction: let the handing on be examined and reported to the three palaces, and let it not be that seven ancestral generations receive the affliction."@en ;
+    skos:note "The penalty for a transmission carried out wrongly falls on the dead ascendants of the transmitter and not on him, which is the feature that distinguishes this clause from the oath in gold at pmc:ShangqingMengjin and from the two witnesses of pmc:TheRestrictionOnPassingItOn. A sanction on seven generations already dead cannot be observed by anyone and cannot be reported absent. It is on this feature that the clause is one of the three witnesses of pmc:ThePenaltyLaidOnAnotherParty."@en,
+        "The textile pledge replacing the cutting of the hair is stated as a substitution in the text itself, which is rare enough to keep: the work says in one clause what the older form was and that this one stands in its place."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:ShangqingHuangtingSongjing ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:ShangqingXuedao ;
+    pm:withinTradition pmt:Shangqing .
+
 pmc:ShangqingJinri a pm:Cautioning ;
     rdfs:label "Die verbotenen Tage, und der Schaden, den man nicht bemerkt"@de,
         "The forbidden days, and the harm one does not notice"@en ;
@@ -9797,6 +9922,22 @@ pmc:TheOrderOfExitsForADisease a pm:Conceptualizing ;
     skos:note "A ranked therapeutics with a stated criterion, given by a named informant whose father was a medicine man. It is entered because a ranking of routes is a claim that can be wrong in a way that a list cannot."@en,
         "The second witness has the same rule from a different man on a different reservation, put as a regime rather than a ranking: the first thing a sick person should do is take a sweat bath so that the body will respond to remedies, then a lighter diet and rest, and no unnecessary exertion. He adds a limit that the first witness does not — that if the disease is not too far advanced the person usually recovers — and a caution that the sick person did not jump into cold water afterwards, as is sometimes stated, but was covered with furs and allowed to cool gradually."@en ;
     pm:withinTradition pmt:LakotaRitual .
+
+pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
+    rdfs:label "Die Strafe für den Fehler wird dem auferlegt, der ihn nicht begangen hat"@de,
+        "The penalty for the fault is laid on someone who did not commit it"@en ;
+    skos:note "Falsified by a count. If a survey of the operative transmission clauses across the holding's corpora found the displaced form to be the majority rather than the minority, the statement would have understated the shape and should be rewritten as a rule; if it found the displaced form confined to the two clusters named above and absent everywhere else, the statement would have overstated it and should be withdrawn to a remark about two corpora. Falsified in the other direction by an operative text that lays the penalty on a third party and in the same clause gives the performer a means of confirming that it arrived, without a direction or a term: that would break the condition the fourth note states."@en,
+        "The consequence for how such material is read is small and exact. A rule whose penalty is displaced cannot be tested by asking the practitioner whether it came true, because he is not the one it would come true to, and the absence of a report of the harm is not evidence that the harm did not occur. Anyone building a protocol on a transmission of this kind has to find the bearer before he can find the outcome, and in the case of the dead ascendants there is no bearer to find. That is a statement about what can be examined and not about what is the case."@en,
+        "The second half of an earlier draft of this statement said that the displacement puts the rule beyond checking, and the counter-search killed it. Three kinds of case in the holding refuse it. A purification performed by the unqualified is said to make the sickness and death in the world stronger than they were, which is a directional claim about a countable thing and therefore decidable in a way that mere failure is not. A burial doctrine that placed its effects a generation away could never be caught, but one line of it fixes a class of effects within a day of a burial, and burials are public and dated; a seventh-century memorial accordingly set a count of more than twenty recorded burials against it. And a felling prohibition names the man who will die, sets ten days, and denies the obvious natural explanation in advance. What all three have that the three witnesses lack is a direction and a term. That is the condition under which a displaced consequence comes back within reach, and it is stated here as a finding and not as a hope."@en,
+        "The three witnesses displace to three different distances, and the range is the point. In the Hawaiian case a breath taken before the close of a phrase is ill-luck to the person or family the chant honours, who are alive and can be watched, so that only the attribution and not the observation is out of reach. In the Chinese transmission clause the affliction of a wrongly conducted handing on is reported to the three palaces and falls on seven generations of ancestors, who cannot be examined at all and cannot be reported unafflicted. In the Sanskrit case the debt to ancestors, sages, gods and the human race is simply never cleared, and the price is paid in repeated rebirth, which places the consequence outside the life in which the fault was committed."@en,
+        "The witnesses also cluster rather than distribute, and a reader should not take this for a cross-traditional regularity. Two corpora carry the displacement as their normal form: the burial literature, in which a badly sited or badly dated grave cuts off the sons and kills the grandsons, and the needling canon, in which the operator's error is paid for by the patient within a stated number of days. Outside those two the instances are scattered, and the three witnesses above were chosen from three unconnected transmissions in order not to rest the statement on either cluster."@en,
+        "Two further cases bear on the first half rather than the second and are worth naming so that the claim is not read too strongly. In one tradition the audience at the public night ceremony knows the songs well enough to catch a deviation, so the fault is reported by people other than the performer even though the displaced ill-luck is not; and in another the displaced consequence is reported by the transmission itself as having been seen to arrive, in two anecdotes that the defending commentary supplies and that were never traced to the works they name. The first shows that displacement of the consequence does not entail displacement of the observation of the fault. The second shows what an unfalsifiable displaced claim looks like when the tradition does try to confirm it."@en,
+        "What the counter-search established about proportion should be kept with the claim, because it is the reason the statement says a substantial minority and not a rule. Of the forty stated consequences of a skipped prerequisite in the holding, four displace outright; of some fifty cautions, nine to eleven do. The commoner form by a wide margin is the penalty that falls on the practitioner's own body, memory, standing or attainment, and where that form is used the tradition can in principle be contradicted from inside, as one of the holding's own nodes says of itself."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:HawaiianWelfarePresupposesExactChanting,
+        pmc:HeterodoxWorshipNeverClearsTheDebt,
+        pmc:ShangqingHuangtingMengjin ;
+    pm:generalizedStatement "Where a transmission states what a defective or improperly transmitted performance costs, the cost is in a substantial minority of cases laid not on the performer but on a third party: the family or lineage the rite is done for, the dead ascendants of the person transmitting, or a class of beings to whom a debt is owed. The displacement separates the person positioned to notice the fault from the party who bears its consequence, and it does so in the operative text and not in a later gloss. It does not by itself make the rule unexaminable. It removes the consequence from the reach of the one person certain to know that the fault occurred, which is a different and weaker thing, and the check is restored wherever the displaced consequence is given a direction and a term."@en .
 
 pmc:TheSunHidesHisFaceOverAnOffence a pm:Conceptualizing ;
     rdfs:label "Die Sonne verbirgt ihr Gesicht, solange ein Unwürdiger im Lager ist"@de,
@@ -11129,6 +11270,25 @@ pmc:SeeingWitchcraft a pm:Conceptualizing ;
     skos:definition "The capacity ascribed to the witch-doctors: to see what is unseen, to tell who the witches are, to see the emanations of witchcraft floating about as small lights invisible to the uninitiated, and to resist a fatigue that the source says could not otherwise be borne."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:ShangqingHuangtingCapacity a pm:Conceptualizing ;
+    rdfs:label "Der Name oben eingetragen, unten gestrichen"@de,
+        "The name entered above and struck out below"@en ;
+    dcterms:source "Huangting neijing yujing 24 (Yinying zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 34 (Feizhi zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "What the work says is obtained: the name enters upper Clarity and is struck from the register of the dead; the white head is turned back to the infant; the body brings forth light and a breath fragrant as orchid; the teeth are firm and the hair black without turning white; the colour of the face has a lustre of gold and jade; the bones are green, the sinews red and the marrow like frost; and ten thousand spirits are set to work and pay court to the three origins."@en ;
+    pm:withinTradition pmt:Shangqing .
+
+pmc:ShangqingHuangtingKouchi a pm:Conceptualizing ;
+    rdfs:label "Was die Schrift nicht enthält"@de,
+        "What the scripture does not contain"@en ;
+    dcterms:source "Huangting neijing yujing 3 (Kouwei zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile",
+        "Huangting neijing yujing 34 (Feizhi zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The tooth-clapping that is commonly associated with this scripture is not in this work. The thirty-six chapters were searched for it at the wording and it does not occur once. What the work has instead is the swallowing: the mouth as the Jade Pond and hall of great harmony, where rinsing and swallowing the numinous fluid keeps calamity off; the dark spring and the hidden gate-towers; holding and rinsing the golden must and swallowing the jade blossom; the knotted pearl that holds the essence fast, the mouth closed and the tongue bent to feed on the embryo-fluid; drawing the fluid from the dark gullet into the bright hall to water the throat; and the one counted instance, thirty-six swallowings in the Jade Pond, by which the hundred vessels are opened and the blood and fluid begin."@en ;
+    skos:note "Entered as a finding about the work and not as a claim of the work, which is why it carries no yielding and no caution. What the node establishes is exactly one thing: the canon text of the inner scripture does not contain the act. Where the practice does come from is not established here, because neither the commentaries nor the liturgical manuals were opened in this run, and the file does not assert a layer it has not read. The one count the canon text does carry is the thirty-six swallowings, and it is in the definition above. The search that establishes the absence is pmp:HuangtingKouchiSearch."@en,
+        "The same holds for the location of the Yellow Court itself, which the work names in its title and never fixes. Nothing in the thirty-six chapters says where it is. That the later tradition places it variously in the brain, the heart, the spleen, the lower field or nowhere at all is not recorded here as a claim of this work; what is recorded is that the work leaves its own central term without a referent. In the verse the term stands twice. At the opening it names what the seven-syllable lines themselves are, the inner chapters made out of the transformation of the myriad spirits; in the fourth chapter it names a dweller, the person within, robed in brocade. The work has a full spatial vocabulary for the body and uses it freely, the upper palace and its nine chambers of one square inch, the bright hall, the cavern chamber, the cinnabar field, the three fields; none of it is ever attached to the term in the title. The search is pmp:HuangtingLocationSearch."@en,
+        "The wording of this node was narrowed by the self-check at the close of the run of 2026-09-11. Two earlier formulations quantified over things the run had not read, that the act stands in every account of this transmission, and that its counts belong to the ritual and commentary layer. Both were written from recollection and neither had a passage under it, which is the condition of admission this project works to. They are struck rather than sourced, because the negative finding does not need them: an absence in a text that was read is worth exactly what the reading is worth, and an assertion about texts that were not read would have cost it that."@en ;
+    pm:withinTradition pmt:Shangqing .
+
 pmc:ShangqingYunjiaCapacity a pm:Conceptualizing ;
     rdfs:label "Vom Wolkenwagen geholt werden"@de,
         "Being fetched by the cloud chariot"@en ;
@@ -11289,11 +11449,6 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pm:sleepThreshold a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Schlafschwelle"@de,
@@ -11445,6 +11600,13 @@ pmp:ShangqingFuriyue a pm:Practicing ;
         "Ingesting the images of sun and moon"@en ;
     dcterms:source "Tao Hongjing, Zhen'gao 9.22a-9.22b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 9" ;
     skos:definition "An image the size of a coin held red in the heart with nine rays rising from it to the teeth and turning back into the stomach, the eyes half closed until heart and stomach are seen clearly, then breath expelled and the fluid swallowed thirty-nine times, three times a day; the moon performed at night in the upper cinnabar field with ten white rays. The corpus gives several versions of this and says at 9.21b that the Perfected who have already obtained the Way go on performing it."@en ;
+    pm:withinTradition pmt:Shangqing .
+
+pmp:ShangqingHuangtingSongjing a pm:Practicing ;
+    rdfs:label "Das Huangting bis zur Zahl rezitieren"@de,
+        "Reciting the Huangting to its count"@en ;
+    dcterms:source "Huangting neijing yujing 36 (Muyu zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The closing chapter sets the procedure: bathe thoroughly and put aside the fat and the pungent, enter the chamber facing east and recite the jade text; loosen the hair and be without desire; ten readings and four bows make a sitting, the Most High saluted first and the Thearch after, then a turn to the north. The count to be reached is ten thousand."@en ;
     pm:withinTradition pmt:Shangqing .
 
 pmp:ShangqingSongjing a pm:Practicing ;
@@ -11802,6 +11964,13 @@ pmp:RunicDrumConsultation a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmp:ShangqingHuangtingCunshen a pm:Practicing ;
+    rdfs:label "Die Körpergötter beim Namen vergegenwärtigen"@de,
+        "Actualising the gods of the body by name"@en ;
+    dcterms:source "Huangting neijing yujing 7 (Zhidao zhang) (DZ 331), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "Holding the resident gods of the parts of the body before the inner sight, each by its name and its courtesy name, each in its own chamber of a square inch, all robed in purple with flying gauze skirts. The work states that it is enough to think of the whole company for the lifespan to be without end, that they do not dwell apart but are ranged in order within the brain facing outward, and that where they are held in the heart they answer to one another of themselves."@en ;
+    pm:withinTradition pmt:Shangqing .
+
 pmp:Shouyi a pm:Practicing ;
     rdfs:label "Das Bewahren des Einen"@de,
         "Guarding the One"@en ;
@@ -11950,6 +12119,11 @@ pm:ownAgency a pm:AgencyHolding,
     rdfs:label "Eigene Trägerschaft"@de,
         "Own agency"@en ;
     skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmp:ArsNotoriaOratio a pm:Practicing ;
     rdfs:label "Das Sprechen der Orationen"@de,
@@ -12176,24 +12350,12 @@ pm:recordScale a pm:ScaleFamily ;
     skos:definition "A scale that reports how far the work of recording, searching and examining has been carried. Its values describe what has been done to the subject matter, never the subject matter itself."@en ;
     skos:note "The cardinal error this family exists to prevent is the collapse of a state that reports absent work into one that reports a finding: a claim for which no procedure was devised and a claim examined and unsupported are different findings and must never read alike."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pmp:NeidanHuohou a pm:Practicing ;
     rdfs:label "Die Feuerphasen"@de,
         "The fire phases"@en ;
     dcterms:source "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 30a" ;
     skos:definition "The regulation of the work by a schedule of advancing and withdrawing: the yang fire raised from one point of the cycle, the yin tally applied from the opposite point, the whole run through in a set number of intervals. The corpus treats the schedule as the operative part of the operation and as the part that is not written down."@en ;
     pm:withinTradition pmt:Neidan .
-
-pmp:ShangqingXuedao a pm:Practicing ;
-    rdfs:label "Der Gang des Lernens"@de,
-        "The course of study"@en ;
-    dcterms:source "Tao Hongjing, Zhen'gao 5.12a-5.12b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 5" ;
-    skos:definition "The whole undertaking as this corpus conceives it: a course entered under a master, held to over decades, sustained against the trials, and assessed at its end by an office that grades the outcome. The corpus speaks of it as a single thing with its own conditions of failure, distinct from any one of the techniques carried out within it."@en ;
-    pm:withinTradition pmt:Shangqing .
 
 pmt:GraecoRoman a pm:Tradition ;
     rdfs:label "Griechisch-römisches Zeugnis"@de,
@@ -12237,6 +12399,11 @@ pm:TelicOrientation a owl:Class,
         "This is the axis the Western terms were built to carry, and the axis they carry badly, because they carry the other one at the same time. A record that wants to state where a path claims to end has to be able to state that without also stating how it proceeds. See prima-materia#52."@en ;
     pm:scaleFamily pm:subjectAxis .
 
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
+
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
         "Subject axis"@en ;
@@ -12253,6 +12420,13 @@ pmp:SelfRemembering a pm:Practicing ;
         "The recorder distinguishes it in the same passage from two neighbouring things, and both distinctions are the tradition's own. It is not the stopping of thought described in the yoga literature he had already tried, because there the whole of attention goes to the effort of admitting no thoughts, whereas here attention is split, one part to that effort and one to the feeling of self. And it is not self-analysis or self-feeling."@en ;
     pm:attestedBy pm:firstPersonReport ;
     pm:withinTradition pmt:FourthWay .
+
+pmp:ShangqingXuedao a pm:Practicing ;
+    rdfs:label "Der Gang des Lernens"@de,
+        "The course of study"@en ;
+    dcterms:source "Tao Hongjing, Zhen'gao 5.12a-5.12b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 5" ;
+    skos:definition "The whole undertaking as this corpus conceives it: a course entered under a master, held to over decades, sustained against the trials, and assessed at its end by an office that grades the outcome. The corpus speaks of it as a single thing with its own conditions of failure, distinct from any one of the techniques carried out within it."@en ;
+    pm:withinTradition pmt:Shangqing .
 
 pmt:ChristianAsceticDiscernment a pm:Tradition ;
     rdfs:label "Christliche Unterscheidung der Geister"@de,
@@ -12556,16 +12730,6 @@ pmt:Mithraic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -12614,14 +12778,15 @@ pmt:Waidan a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
@@ -12654,6 +12819,15 @@ pmt:MayaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -12785,12 +12959,6 @@ pmt:Theravada a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
 
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
-
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
         "Naming"@en ;
@@ -12800,6 +12968,12 @@ pm:Naming a owl:Class ;
         "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
+
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -12919,28 +13093,15 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
-pmt:Shangqing a pm:Tradition ;
-    rdfs:label "Shangqing"@de,
-        "Shangqing"@en ;
-    dcterms:source "Tao Hongjing, Zhen'gao 6.6a-6.10a (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 6" ;
-    skos:definition "The Daoist transmission of visualised journeys, of deities resident in the body, and of nocturnal encounters recorded as they were received, carrying alongside the instructions a dense layer of stated intervals, prohibitions and conditions under which a practice is said to produce nothing."@en ;
-    skos:note "Chosen from the registry on the testability criterion, and the reading corrected the contact route. The registration entered it as disputed. It is entered here as documented, and the ground is inside the text that was read rather than in the scholarship. At 6.6a-6.10a the work places in the mouths of five named Perfected a sequence of sayings that is recognisable, clause by clause, as the Buddhist Scripture in Forty-Two Sections: practising the Way is bitter and not practising it is bitter; the root of craving plucked like beads from a string; the man under the Way like an ox in deep mud; the question how long a life lasts, answered first in days, then in the time of a meal, then in a breath; the Way tasted like honey, sweet through the whole mouth; the slanderer who spits at heaven and fouls himself; the household held worse than fetters; the log floating to the sea without touching either bank; and the lute string, slack, taut and rightly tuned. At 9.19b-9.20a the work carries the dream of Emperor Ming of Han and the embassy that fetched the scripture in forty-two sections, and at 9.20b-9.21b the Fangzhu islands are set out as an eastern and older home of that same teaching, with monks, stupas and men who do not die. A transmission that reproduces another's text and then claims to be its source has a route to it, whatever the direction of the claim."@en,
-        "Corpus note. The corpus read is one work of the three the registration named, and it is the one that carries the record. The Huangting neijing jing and the Dadong zhenjing were not opened; the Zhen'gao speaks of both, prescribes the recitation of the first at 9.23b and makes the second the highest of its methods at 5.11b and 5.14b-15a, and those places are entered below as this work's claims about them and not as places in them."@en,
-        "The compiler says part of this himself, and the two places where he does are the reason the correction rests on the reading and not on an inference from resemblance. At 9.20a-9.20b he notes that the account of the dream agrees in rough outline with the outer books, that is with writings that are not revelations, adds that there was a Buddha in Chang'an long before, objects that the scripture came from India and not from the Yuezhi, and concludes that this passage may not be a genuine receiving at all but Yang Xi copying an old story, while maintaining that the writings of the Perfected do repeatedly treat Buddhist matters. At 6.10a, under the whole block of sayings, he notes that the five Perfected named as speakers descend very seldom, that he suspects the block is those speakers recounting old matter, and that it was not necessarily received by Yang Xi in person."@en,
-        "What the correction does not settle. The route is documented at the point at which the material stands in the received text, which is the recension Tao Hongjing assembled around the turn of the sixth century out of autographs, copies and matter he could not place. Whether the sessions of the three hundred and sixties had such a route is a different question and is not decided here; the predicate holds one value and this is the one the reading supports. The received text is besides not the whole of what once stood, and the file says where it can see that."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
@@ -12962,6 +13123,20 @@ pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
+pmt:Shangqing a pm:Tradition ;
+    rdfs:label "Shangqing"@de,
+        "Shangqing"@en ;
+    dcterms:source "Tao Hongjing, Zhen'gao 6.6a-6.10a (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 6" ;
+    skos:definition "The Daoist transmission of visualised journeys, of deities resident in the body, and of nocturnal encounters recorded as they were received, carrying alongside the instructions a dense layer of stated intervals, prohibitions and conditions under which a practice is said to produce nothing."@en ;
+    skos:note "Chosen from the registry on the testability criterion, and the reading corrected the contact route. The registration entered it as disputed. It is entered here as documented, and the ground is inside the text that was read rather than in the scholarship. At 6.6a-6.10a the work places in the mouths of five named Perfected a sequence of sayings that is recognisable, clause by clause, as the Buddhist Scripture in Forty-Two Sections: practising the Way is bitter and not practising it is bitter; the root of craving plucked like beads from a string; the man under the Way like an ox in deep mud; the question how long a life lasts, answered first in days, then in the time of a meal, then in a breath; the Way tasted like honey, sweet through the whole mouth; the slanderer who spits at heaven and fouls himself; the household held worse than fetters; the log floating to the sea without touching either bank; and the lute string, slack, taut and rightly tuned. At 9.19b-9.20a the work carries the dream of Emperor Ming of Han and the embassy that fetched the scripture in forty-two sections, and at 9.20b-9.21b the Fangzhu islands are set out as an eastern and older home of that same teaching, with monks, stupas and men who do not die. A transmission that reproduces another's text and then claims to be its source has a route to it, whatever the direction of the claim."@en,
+        "Corpus note. Two of the three works the registration named have now been opened. The Zhen'gao was read on 2026-09-11 and carries the greater part of this file; the Huangting neijing jing was read entire on the same day and carries the section at the end of this file. The Dadong zhenjing has not been opened; the Zhen'gao makes it the highest of its methods at 5.11b and 5.14b-15a and those places are entered as this work's claims about it and not as places in it."@en,
+        "Edition note for the Huangting neijing jing, which is a second work in a second recension and is cited by chapter. Read in the Zhengtong Daozang text as reproduced in the Hanfenlou facsimile (DZ 331), thirty-six chapters of seven-syllable verse, each chapter titled by its own opening two characters and a number in the manner of the chapter titles of the Laozi. The citations give chapter number and title, because the folio count of this reproduction runs across both the inner and the outer scripture in one volume and the chapter division is the only unit the witnesses share. The reproduction read carries a number of scribal variants against the readings the literature usually prints, and they were noticed at the wording rather than taken from an apparatus: the tongue god's courtesy name as wulun and not zhenglun in chapter seven; eye for self in the closing line of chapter eight; the title of chapter twenty-four as the hidden shadow and not the hidden scene; old for discard in the opening line of chapter thirty-six; the three palaces and not the three offices, and a banquet affliction for a dark affliction, in its closing lines. None of them changes a claim in this file, and they are listed because a reader collating against another printing will meet them. Three further irregularities belong to the chapter apparatus of this reproduction rather than to its readings. All thirty-six headings are present, but five of them do not write the two words for chapter and ordinal in the usual characters: chapters nineteen, twenty-four and twenty-nine write the younger-brother graph for the ordinal, chapter thirty-four writes a further variant of it, and chapter twenty-six writes a graph for chapter that is not the one the other thirty-five use. Chapter thirty-five is numbered twenty-five, repeating the number the fifth-from-last chapter already bears, so that a reader counting headings alone will find the sequence broken twice. And the name of the upper palace is written with the numeral nine in four places and with the pellet graph in four others, in the same reproduction and once within a single line, so that a term search in either spelling reaches only half of its occurrences."@en,
+        "The compiler says part of this himself, and the two places where he does are the reason the correction rests on the reading and not on an inference from resemblance. At 9.20a-9.20b he notes that the account of the dream agrees in rough outline with the outer books, that is with writings that are not revelations, adds that there was a Buddha in Chang'an long before, objects that the scripture came from India and not from the Yuezhi, and concludes that this passage may not be a genuine receiving at all but Yang Xi copying an old story, while maintaining that the writings of the Perfected do repeatedly treat Buddhist matters. At 6.10a, under the whole block of sayings, he notes that the five Perfected named as speakers descend very seldom, that he suspects the block is those speakers recounting old matter, and that it was not necessarily received by Yang Xi in person."@en,
+        "What the correction does not settle. The route is documented at the point at which the material stands in the received text, which is the recension Tao Hongjing assembled around the turn of the sixth century out of autographs, copies and matter he could not place. Whether the sessions of the three hundred and sixties had such a route is a different question and is not decided here; the predicate holds one value and this is the one the reading supports. The received text is besides not the whole of what once stood, and the file says where it can see that."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
