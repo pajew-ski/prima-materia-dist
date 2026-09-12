@@ -302,6 +302,20 @@ pmc:AscentPresupposesTheRungs a pm:Presupposing ;
     pm:priorStep pmc:BeautyOfOneBody ;
     pm:withinTradition pmt:Platonic .
 
+pmc:AttainmentRelievesOnlyTheOutwardCondition a pm:Generalizing ;
+    rdfs:label "Was die Erlangung erlassen darf, ist die außerhalb des Übenden festgesetzte Bedingung"@de,
+        "What attainment is allowed to waive is the condition fixed outside the practitioner"@en ;
+    skos:note "Falsified by a passage in any operative transmission granting an experienced practitioner relief from a bodily or conduct condition — a fast, a term of continence, a washing, a dietary rule — on the ground of his attainment, stated as a waiver of a rule the same text imposes on others. One such passage and the statement is gone. It is deliberately easy to break, because the interest of the statement is entirely in the asymmetry: a transmission that calls its astrology a pedagogy for beginners and will not say the same of its fasting is telling a reader which of the two it believes is doing the work."@en,
+        "The counter-search was carried against the compiled holding before this was written, for waivers granted on attainment and for any case in which the thing waived is a rule of the body. The nearest case found does not refute the statement and does bound it: the Mahānirvāṇa Tantra divides practitioners into the bound, the heroic and the divine and makes the division govern which rites a person is competent for, so that the bound one may neither look at a Śūdra nor think of a woman while the heroic one performs a rite with wine, meat, fish, grain and union. That is not one practitioner released from a condition the transmission sets for all; it is a transmission that sets different conditions for different classes from the outset, and the wording above says relieves of one of its own prescribed conditions in order to keep the two apart. Whether the distinction holds under pressure is the first thing a later run should attack."@en,
+        "The third witness is the negative half and it is the one that makes the statement more than a coincidence of two. The Zhen'gao states the loss from emission in a countable form and adds that even a person entered in the jade registers is not thereby exempt. There the question of a waiver for the advanced is raised explicitly, about a bodily condition, and answered no."@en,
+        "The witnesses. The Key of Solomon says that so exact a preparation of days and hours is not necessary for those who are adepts in the art, and gives as the ground that beginners lack faith in the experiments; it waives nothing else, and a search of both books for a corresponding relief from the nine days, the fast, the bath or the confession came back empty. The eighteenth chapter of the Baopuzi says that one who can guard the One need not divine the day or choose the hour, no longer consults the siting calendars, and does not avoid the year star or the taboos of his year and fate. Both waivers are granted for attainment and both fall on the calendar."@en,
+        "What it does not say. It does not say the waived condition is idle, nor that the unwaived one is effective; both are claims about efficacy and this is a claim about how transmissions talk. And the count is two positive witnesses and one negative, which is thin. The two are separated by nine centuries and by any route anyone has proposed, which is worth something; it is not worth a general law, and the statement is worded as a regularity in what gets waived and not as a rule about all transmissions."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:ClaviculaAdeptiExempti,
+        pmc:ShangqingYijieQingyao,
+        pmc:ShouyiMianLiri ;
+    pm:generalizedStatement "Where an operative transmission relieves a practitioner of one of its own prescribed conditions on the ground of what he has attained, the condition relieved is one fixed outside him — a day, an hour, a calendar, a star — and not one bearing on his body or his conduct. Where the same transmissions speak of a bodily condition and attainment together, they say that the attainment does not relieve it."@en .
+
 pmc:AwakeningPresupposesAnotherWhoDoesNotSleep a pm:Presupposing ;
     rdfs:label "Das Erwachen setzt einen voraus, der nicht schläft"@de,
         "Awakening presupposes another who does not sleep"@en ;
@@ -649,6 +663,76 @@ pmc:CizhongIntervalDispute a pm:Disputing ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:CizhongWuzang ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:ClaviculaCausaeNonAdventus a pm:Conceptualizing ;
+    rdfs:label "Die vier Ursachen, denen das Buch ein Ausbleiben zuschreibt"@de,
+        "The four causes to which the book assigns a non-appearance"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapters I and XXI, with Book I chapters III and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "Besides the fault of the operator the book names three further causes, and no others. The weather: they will not come when the air is troubled or agitated by winds, seeing that spirits have neither flesh nor bones and are created of different substances, and the three last days of preparation should therefore be calm, without wind and without clouds rushing over the sky. A rival: supposing that they were being conjured in some other place or part of the universe by some other exorcist by the same conjuration, the master should add that they at least send messengers to declare where they are, how employed, and the reason why they cannot come. And their nature: even if the angels and spirits appear not at the consecration of the book, be not thou astonished thereat, seeing that they are of a pure nature and have much difficulty in familiarising themselves with men who are inconstant and impure; the ceremonies being correctly carried out with perseverance, they will be constrained to come."@en ;
+    skos:note "Not one of the four is a property of the procedure. Two lie in the operator, one in the sky, one in a person elsewhere in the world whom nobody present can identify. Between them they cover every way a session can end without a spirit in it."@en,
+        "The rival clause is the only one of the four that leaves anything behind. It concedes that the spirits may be genuinely unable to come and therefore requires a substitute deliverable — messengers who state where they are and why — so that the session still ends with something the operator must receive. The concession and the repair are in the same sentence."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaGradusConiurationum a pm:Conceptualizing ;
+    rdfs:label "Die gestuften Beschwörungen, jede betreten, weil die vorige nichts hervorbrachte"@de,
+        "The graded conjurations, each entered because the last produced nothing"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapters V, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The book sets its conjurations in a series and makes the trigger of each the failure of the one before. If they then immediately appear, it is well; if not, the master uncovers the pentacles. If they do not yet appear, he strikes the air with the knife and repeats a stronger conjuration. This he says facing east, and if they appear not he repeats it to the south, the west and the north, four times in all. If they appear not even then, he signs the foreheads of his companions with Tau and says a further one. If they appear not yet, he is told not to lose courage, for there is nothing in the world stronger to overawe the spirits than constancy; he re-examines and reforms the circle, casts dust to the four quarters, kneels, and conjures again. The last conjuration is declared to be of such efficacy that even spirits bound with chains of iron and fire could not delay to come."@en ;
+    skos:note "The series has no term at which the operator is told to stop. Non-appearance never counts as an outcome of the procedure; it is the instruction to proceed to the next stage, and the stages run out into a curse and a burning of names which, the text says, brings them assuredly and in great haste. A transmission built this way cannot register a failed run, because a run is not over until it has succeeded."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaNovemDies a pm:Presupposing ;
+    rdfs:label "Neun Tage Enthaltung vor dem Kreis, davon die letzten drei ein Fasten"@de,
+        "Nine days of continence before the circle, of which the last three are a fast"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapter III, with Book II chapters IV and XIII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "Before commencing, master and disciples must abstain with great and thorough continence for nine days from sensual pleasures and from vain and foolish conversation; the second book repeats the term and adds that during the last three days one eats fasting diet once a day, better bread and water only, and on the last day nothing at all. Within the same nine days every instrument must be made, consecrated and exorcised, so that nothing remains to be prepared when the day and hour of the work arrive."@en ;
+    skos:note "The dependent step and the prior step are the same practice because the book makes the preparation part of the operation rather than a separate act with its own name. What the node holds is the term: nine days, with three inside them, fixed in advance and countable by anyone present. It is entered at stated necessity and not at prescribed order because the consequence is quoted and not inferred — but the consequence is the general clause, not a penalty peculiar to this step, and that is the whole difficulty this file is about."@en,
+        "The term is not the same length in every witness of this corpus. Mathers notes that the paragraph carrying the nine days is omitted in Lansdowne 1202. The Heptameron printed in the Turner collection of 1655 sets nine days and three within them in the same shape, which was read at the wording in that book; the routes between these texts are documented, so the agreement is reception and not a second witness."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "If thou doest ill in one single point, these experiments or these Arts will not be verified (Book II chapter I); and, of the order of hours and days and of the position of the Moon, without the operation of which thou canst effect nothing (Book I chapter I)."@en ;
+    pm:dependentStep pmp:ClaviculaOperatioCirculi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:ClaviculaOperatioCirculi ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaScotDisputatio a pm:Disputing ;
+    rdfs:label "Ob die salomonischen Beschwörungen überhaupt etwas bewirken"@de,
+        "Whether the Solomonic conjurations do anything at all"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapter I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889",
+        "Reginald Scot, The Discoverie of Witchcraft, Book XV chapter 5, in the reprint of the edition of 1584 edited by Brinsley Nicholson, London: Elliot Stock, 1886, pages 329-330" ;
+    skos:definition "The book holds that whoever fears God and prepares the order of hours and days and the position of the moon may easily and thoroughly arrive at the effect and end he desires, and that the spirits, being conjured, come and give what is asked. A work printed in London in 1584 denies it and gives a ground that is neither scriptural nor demonological but a count of the practitioners: he that can be persuaded that these things are true may soon be brought to believe that the moon is made of green cheese; of whom yet was never seen any rich man, or at least that gained any thing that way, or any unlearned man that became learned by that means, or any happy man that could with the help of this art either deliver himself or his friends from adversity, or add unto his estate any point of felicity — yet these men, in all worldly happiness, must needs exceed all others, if such things could be accomplished as it is presupposed."@en ;
+    skos:note "The same chapter of 1584 elsewhere reproduces a necromancy of the Solomonic shape — first fast and pray three days and abstain from all filthiness — in order to expose it, and glosses the fasting term of another handbook with the remark that so the cozenage may best be handled. The reading of the term as stagecraft is that author's and is not entered as a node."@en,
+        "The second side is worth having because of the form of its argument and not its verdict. It does not dispute that the spirits exist or that the ceremonies are impious; it takes the capacities the books promise — wealth, learning, deliverance — and observes that the people who work the art do not have them. That is an outcome the transmission's own claims predict and it is checkable from outside the session, which is more than the transmission offers anywhere except at the mark on the thief's face."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:ClaviculaOperatioYieldsImperium .
+
+pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
+    rdfs:label "Die Zeichen, an denen das Kommen der Geister angesagt wird"@de,
+        "The signs by which the coming of the spirits is announced"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapters XIII and I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The book tells the operator in advance what he will perceive. When the pentacles are shown to each quarter, there shall be noises and rushings. The manner of coming is said to differ by the substance the spirits were created from: those of fire come always with great noise and with the terrible nature of fire; those of water with great rains, thunder, hail, lightning and thunderbolts; those of clouds with great deformity, in a horrible form, to strike fear into the invocator; those of wind with exceeding swift motion; those of air with a kind of gentle breeze; those of solar vapours in a very beautiful and excellent form but filled with pride and vanity. The master is to exhort the companions beforehand that they shall behold kings of kings and emperors of emperors with a great crowd of followers and all sorts of musical instruments, and that nothing should be feared."@en ;
+    skos:note "Entered under the separate count that SPEC §15 requires for signs of success, and this is the case the rule was made for. The signs are announced to the participants by name before the session and include the whole range of weather and noise a night in the open can supply. Read as evidence they can only confirm; the reason they are here is that a transmission which announces its signs in advance is a fact about the transmission."@en,
+        "Mathers notes that the chapter carrying the noises and rushings and the speech of the emperor of the spirits is given in Add. 10862 alone."@en,
+        "The count for this work: one sign of success against no condition of failure. Against the six kinds of appearance and the promised noises and rushings, the chapters read state not one observation that would show an operation had not worked. Every non-occurrence is assigned by pmc:ClaviculaDefectusOperantis or pmc:ClaviculaCausaeNonAdventus before it can become one."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaSociorumPericulum a pm:Cautioning ;
+    rdfs:label "Der Schüler, der nicht gehorcht, leidet und stirbt zuweilen"@de,
+        "The disciple who disobeys suffers, and sometimes dies"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapters III and XIII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The companions are to be bound by oath to do all that the master orders. Those who shall act otherwise shall suffer and endure many pains and labours, and run into many dangers, which the spirits will cause and procure for them, and for this cause sometimes they shall even die. Conversely, wearing the consecrated pentacles at the breast, they shall be exempt and free from all perils and dangers, provided that they obey the commands of the master and do all that he ordains them. Within the circle they are on no cause whatsoever to move from their assigned places."@en ;
+    skos:note "The protection and the penalty share one condition and it is obedience to a person present. That makes the master, not the procedure, the party whose account decides afterwards whether a harm that occurred was a breach or a visitation — and a harm is the only outcome of the two that leaves evidence."@en ;
+    pm:cautionsAbout pmp:ClaviculaOperatioCirculi ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaThesauriPericulum a pm:Cautioning ;
+    rdfs:label "Die Erdgeister warnen den Schatzgräber und töten ihn, wenn er weitermacht"@de,
+        "The earth-spirits warn the treasure-digger, and kill him if he persists"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapter XIV, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "Men who undertake a search for hidden treasures are molested and sometimes put to death by the spirits called gnomes. This is not done through avarice, a spirit being incapable of possessing anything; the spirits are enemies of the passions and foresee the evil ends for which the treasure will be used. When they slightly disturb the workers it is a warning to cease from the work, and if the greedy importunity of the workers obliges them to continue notwithstanding the warnings, the spirits, irritated by their despising the same, frequently put the workmen to death."@en ;
+    skos:note "A caution that supplies its own reading of the evidence in both directions. A disturbance during the digging is a warning; a death is the penalty for having ignored one. Nothing that can happen at the site is left over to count against the account, and the men who would have to report the warnings are the men the workers are told not to be disturbed by."@en ;
+    pm:cautionsAbout pmc:ClaviculaCeteraeVirtutes ;
+    pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
     rdfs:label "Das klare Licht liegt an der Schlafschwelle"@de,
@@ -3090,7 +3174,8 @@ pmc:Nlongo a pm:Conceptualizing ;
 pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
     rdfs:label "Der misslungene Durchgang wird anderswohin zugewiesen als an die Operation"@de,
         "The failed run is assigned somewhere other than to the operation"@en ;
-    skos:note "A seventh witness was added on 2026-09-11 and it is the limiting case of the statement. Where the others supply a condition under which a run that produced nothing counts as no failure, the Zhen'gao supplies a rule of reading under which the outcome that would end the practitioner's participation altogether — his death — is classified as the attainment, and it does so for every state a corpse can be found in, the intact and the putrefied alike. The condition has there been moved from the run to the observation, which is one step further than any of the six."@en,
+    skos:note "A ninth witness was added on 2026-09-12 from the Clavicula Salomonis, and it is the limiting case of the statement rather than another instance of it. The others supply a condition under which an empty run counts as no failure; this one supplies the condition in advance and in general, for every operation in the book: an experiment performed with due observance of days, hours and requisite solemnities which is found unsuccessful must in some manner be false and defective, and the operator must assuredly have failed in some matter. The same clause stands in three chapters of the work. Where the other eight name a party or a circumstance to which a particular non-occurrence goes, this one names the operator for all of them at once and adds that the whole book depends on the chapter that says so."@en,
+        "A seventh witness was added on 2026-09-11 and it is the limiting case of the statement. Where the others supply a condition under which a run that produced nothing counts as no failure, the Zhen'gao supplies a rule of reading under which the outcome that would end the practitioner's participation altogether — his death — is classified as the attainment, and it does so for every state a corpse can be found in, the intact and the putrefied alike. The condition has there been moved from the run to the observation, which is one step further than any of the six."@en,
         "An eighth witness was added on 2026-09-11 and it is the only one that states the rule instead of instancing it. The internal alchemy puts the practitioner's question — he has held to the work and seen no result — at the head of its chapter on the signs of verification, and answers it twice in four characters: it is not that the Way has failed the man. In its place it supplies two conditions, both in the operator, an unenlightened master and ignorance of the times. Where the other seven have to be read off a doctrine, this one is the doctrine, and it names the possibility it excludes."@en,
         "Counter-search, carried against this holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Sami material reports two practitioners who set a period, named in advance the sign they demanded, received nothing and destroyed the instrument without explaining the failure away; it does not refute, because it reports conduct and not a rule of the transmission, and the node itself flags that both cases stand in a missionary's chapter on conversion. The Zande material prescribes a corroborative second test whose contradiction voids the verdict, which is an outcome a further run can establish and looks at first like the counter-case; it does not refute either, because the same transmission carries the eight causes beside it, so that the internal check and the external excuse coexist. What that pair shows is worth more than a clean confirmation: a transmission can hold a real check and an unlimited excuse at once, and the check then bounds nothing."@en,
         "Falsified by a transmission of the kind described whose earliest witness names an outcome that would count against the operation and supplies no condition assigning a failed run to the operator, the person operated on, the material or a third party. One such case refutes it. The likeliest places to look are the transmissions this holding carries that already name an observable sign of success, since a sign that can be present can also be absent: the feather at the nostril of the eighth chapter of the Baopuzi, the gold-coloured body of the golden liquor, and the ten-day term of the medical canon."@en,
@@ -3101,6 +3186,7 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:AmuletFailureIsAlwaysExcused,
         pmc:BengeFailureCauses,
+        pmc:ClaviculaDefectusOperantis,
         pmc:FailureIsSulkinessOrLostPower,
         pmc:JinchengYaocheng,
         pmc:NeidanFeidaofuren,
@@ -4561,16 +4647,6 @@ pmc:ShangqingYeshu a pm:Yielding ;
     pm:withinTradition pmt:Shangqing ;
     pm:yieldsCapacity pmc:ShangqingYeshuCapacity .
 
-pmc:ShangqingYijieQingyao a pm:Cautioning ;
-    rdfs:label "Ein Beischlaf löscht ein Jahr der Arznei"@de,
-        "One act cancels one year of the drug"@en ;
-    dcterms:source "Tao Hongjing, Zhen'gao 10.18b-10.19a (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 10",
-        "Tao Hongjing, Zhen'gao 10.23b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 10" ;
-    skos:definition "The corpus states the loss in a countable form: for one who is nourishing life, one act of intercourse overturns one year of the drug's force, two acts overturn two years, and beyond three the whole of what has been taken is lost from the body. A second passage in the same juan gives a parallel reckoning from another hand: one act overturns one year of the drug's force, and one who practises the chamber arts while taking nothing at all has thirty years struck from his reckoning. A third states that frequent emission fouls the vapour, destroys the spirit and exhausts the essence, so that even a person entered in the jade registers is not thereby exempt."@en ;
-    skos:note "Entered for its arithmetic. A rule in this form makes any null result recoverable: a practitioner who has taken the drug for years and has nothing to show has only to be asked about his conduct, and the balance can be made to come out at nothing without the drug being questioned. It is the same device as the merit reckoning at pmc:ShangqingGongman, applied to the failure side instead of to the success side."@en ;
-    pm:cautionsAbout pmp:ShangqingFushi ;
-    pm:withinTradition pmt:Shangqing .
-
 pmc:ShangqingZhongsongDispute a pm:Disputing ;
     rdfs:label "Aus welcher Ecke des Grabes die Heimsuchung kommt"@de,
         "Which quarter of the tomb the affliction comes from"@en ;
@@ -4640,16 +4716,6 @@ pmc:ShengxianZaiShendan a pm:Disputing ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:XingqiYieldsCapacities ;
     pm:withinTradition pmt:Waidan .
-
-pmc:ShouyiMianLiri a pm:Conceptualizing ;
-    rdfs:label "Wer das Eine bewahrt, steht nicht mehr unter dem Kalender"@de,
-        "He who guards the One is no longer under the calendar"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
-    skos:definition "The chapter states an exemption and states it as a consequence of the attainment. One who can guard the One travels ten thousand li, goes into an army, crosses great rivers, and need not divine the day or choose the hour; in beginning works, in moving house, in entering a new dwelling, he no longer consults the siting calendars; he does not avoid the year star, the general of the great yin, the killing and wasting spirits of the month establishment or the taboos of his year and fate; and in the end he never meets with calamity. It closes by calling this a way that the worthies of former times tested one after another and found to hold."@en ;
-    skos:note "It also names the interest the exemption serves inside the work. The chapter is arguing that guarding the One replaces several thousand other methods, and an exemption from the calendar is one more thing the reader no longer has to do. That is a reason for caution about the claim and not a reason to leave it out."@en,
-        "This is the passage that keeps the same work from speaking with one voice about the calendar. Its eighth chapter binds the circulation of the qi to the hours of living qi and says that in the hours of dead qi it is of no benefit; its seventeenth binds the entering of mountains to years, months and days and states the harm that follows; and its eighteenth says that a man of one particular attainment is under none of it. The exemption is granted by a state of the operator, which is exactly what a calendrical condition is otherwise said not to depend on."@en,
-        "What it does not say is that an operation done outside its window works. It says that this man no longer chooses days at all, which is a claim about who stands under the rule and not about what the rule does. The difference decides whether it refutes the generalization in generalizations/efficacy-bound-to-the-calendar.ttl or only narrows it, and the note there records that it narrows it."@en ;
-    pm:withinTradition pmt:Daoist .
 
 pmc:ShouyiYieldsCapacities a pm:Yielding ;
     rdfs:label "Das Bewahren des Einen bringt jene Vermögen hervor"@de,
@@ -6623,6 +6689,58 @@ pmp:ChannelPurification a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:ClaviculaFailureConditionSearch a pm:Searching ;
+    rdfs:label "Ob der Schlüssel irgendeinen Ausgang nennt, der gegen seine Operationen zählte"@de,
+        "Whether the Key states any outcome that would count against its operations"@en ;
+    dcterms:date "2026-09-12" ;
+    skos:note "Limits. English text, one editor, seven manuscripts blended; and a failure condition could be phrased without any of the twenty terms above — as a time after which the operator departs, say. Against that, the chapters that would carry such a rule if any did, the three graded conjurations of the first book and the first chapter of the second, were read continuously and not only searched."@en,
+        "Nothing came back, and the shape of what came back instead is the finding. Every hit that touches an operation at all is an assignment rather than a condition: a fault in one point, a troubled air, a rival exorcist, the purity of the spirits, and — from the introduction, which the search turned up and the reading had not — the profanation of the secrets by disclosure, after which no effect can follow. Five routes out and no exit. The nearest thing to a stopping rule in either book runs the other way: we shall not desist from our work until the accomplishment of our will."@en,
+        "The search is the ground of pmp:ClaviculaVerificationExamination and the reason that protocol could be set at pm:claimDoesNotDiscriminate rather than at the weaker pm:procedureWithoutCases. Without a node saying which terms were put and what came back, the verdict would rest on an impression formed while reading."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of both books for: in vain (five hits, none of an operation: four are the imprecation against taking the Name of God in vain, one is the angel telling Solomon his prayer is not in vain); fruitless, of no effect, faileth, shall fail, leave off, give over (none); no effect (one hit, in the introduction, of secrets profaned by disclosure); useless (two, of speech); avail (four, none of an operation's outcome); wilt fail (one, of the operator's hand in writing characters); failure (one, inside a conjuration, of the spirits executing the will without failure); abandon, cease from, desist (four, of God abandoning the unbeliever, of the treasure-diggers being warned to cease, and of the exorcist who shall not desist until the accomplishment of his will)." ;
+    pm:searchedBy "prima-materia, 2026-09-12" ;
+    pm:searchedCorpus "Clavicula Salomonis, both books entire, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889; searched over the whole text and read at the wording where a hit fell" ;
+    pm:searchedFor "A passage naming a result of a correctly prepared operation under which the operator is to conclude that the operation did not work — a term after which he is to stop, a sign that the spirits will not come, a number of attempts beyond which the art is not to be pressed. This is the material SPEC §15 calls a condition of failure and the only material from which a pm:falsifiedBy can be formed out of a transmission's own mouth." .
+
+pmp:ClaviculaPurificationWaiverSearch a pm:Searching ;
+    rdfs:label "Ob der Schlüssel seine Reinigung für Adepten ebenso erlässt wie seine Stunden"@de,
+        "Whether the Key waives its purification for adepts as it waives its hours"@en ;
+    dcterms:date "2026-09-12" ;
+    skos:note "Limits, and they are not small. The text searched is the editor's synthesis of seven manuscripts and the chapters of the first book after the eighth are absent from one of them entirely; a waiver standing in a branch Mathers did not follow would not have been reached. The search was carried in English, so a term of art surviving only in the Latin or Italian witnesses was out of reach by construction. What the node establishes is that this text, which is the one most readers have, contains no such passage."@en,
+        "The finding is an asymmetry and not a silence, which is why it is worth a node. The book does relieve the adept, in terms, and the relief it grants is bounded by its own wording to the preparation of days and hours; the ground it gives is that beginners lack faith in the experiments. Everything the same chapters require of the body — nine days, three days of fasting, the last day without food, the bath in exorcised water, the confession — is left standing for everyone. A transmission willing to call its own astrology a pedagogy and unwilling to say the same of its purification is saying something about which of the two it takes to be doing the work."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of both books for: Adept and adept (two hits, both in the one sentence of Book II chapter I); not necessary (two hits, one the same sentence, one distinguishing the experiments that need no circle); need not (one hit, of a sportsman killing no game); dispense (one hit, of what may be added to or left out of an experiment's apparatus, with no object named); exempt (one hit, of companions exempt from perils on condition of obedience); unnecessary (none). Further reading at the wording of every occurrence of fast, bath, continence and purify." ;
+    pm:searchedBy "prima-materia, 2026-09-12" ;
+    pm:searchedCorpus "Clavicula Salomonis, both books entire, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889; searched over the whole text and read at the wording where a hit fell" ;
+    pm:searchedFor "A passage relieving anyone — adept, master, or operator in haste — of the nine days of continence, the fast of the last three days, the bath, the confession or the white linen, corresponding to the relief the second book grants from the exactness of days and hours. The question decides whether the transmission treats its purification as a condition of the operation or, like its astrology, as a discipline for beginners." .
+
+pmp:ClaviculaThiefMarkExamination a pm:Testing ;
+    rdfs:label "Ob das im Wasser geschnittene Zeichen am Dieb erscheint"@de,
+        "Whether the mark cut in the water appears on the thief"@en ;
+    skos:definition "A protocol on the claim that after the sieve has been spun and the water stilled, the gazer sees the form of the thief, and that a sign cut with the sword of art across the face seen in the water shall be really found thereafter upon the person of that man. The procedure is fully specified by the chapter and the outcome lies outside the session: a named person, not present, is said to bear afterwards a mark he did not bear before."@en ;
+    skos:note "Entered at procedure-without-cases because that is exactly what it is. The book supplies the procedure and the outcome; this holding supplies no run, no report of a run, and no trial record in which the claim was put. The state says so rather than letting the absence read as a verdict."@en,
+        "Provenance of the chapter matters more here than elsewhere. Mathers notes that the remainder of the chapter, which is where this procedure stands, comes from Lansdowne 1203 alone. The claim is therefore one manuscript's, and a run that found nothing would have refuted a branch rather than the transmission."@en,
+        "The chapter offers no way out that the other chapters would have offered. There is no clause here that a wrongly done point voids the sighting, no term within which the mark must be sought, and no statement that an unmarked face means the operator erred. That is unusual for this book and it is the reason the protocol could be written."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, 2026-09-12; the condition is the chapter's own, no case is on record here" ;
+    pm:falsifiedBy "The person whose face was seen, examined after the operation by someone who did not attend it, bearing no mark where the cut was made; or bearing one where the operator cut nothing. The claim as the chapter states it leaves no room for degree: the sign shall be really found upon his own person." ;
+    pm:protocolUpdated "2026-09-12" ;
+    pm:tests pmc:ClaviculaFurisVisio .
+
+pmp:ClaviculaVerificationExamination a pm:Testing ;
+    rdfs:label "Ob eine misslungene Operation überhaupt gegen den Schlüssel zählen könnte"@de,
+        "Whether an unsuccessful operation could count against the Key at all"@en ;
+    skos:definition "A protocol on the claim that the operation of the circle brings the spirits to appear and obey. The verdict is read off the wording of the claim and not off cases, and the wording is the book's own: an experiment performed with due observance of days, hours and requisite solemnities which is found unsuccessful must in some manner be false, ill-arranged and defective, and the operator must assuredly have failed in some matter. The same clause stands twice more, in the chapter on invisibility and in the chapter on favour. Beside it the book sets three further assignments for a non-appearance — wind, a rival exorcist elsewhere in the universe, and the difficulty pure spirits have with impure men — and a series of conjurations in which non-appearance is the instruction to proceed to the next stage rather than the end of the run."@en ;
+    skos:note "The one place this verdict does not reach is in the same book, and it is the second protocol below. The chapter on theft states that a mark cut with the sword in the water where the thief's face appears shall be really found thereafter upon his own person. That is an outcome outside the session and it discriminates. A transmission can hold an unfalsifiable general claim and a falsifiable particular one at once, and this one does."@en,
+        "The state is set from the claim and not from evidence, which is what pm:claimDoesNotDiscriminate is for. No study was cited and none was needed: the chapter that carries the clause says outright that the whole Key depends upon it, so the transmission is not being convicted of an implication it would disown."@en,
+        "What a later run should look for before treating this as a property of the transmission rather than of one edition. The clause was read in a text assembled by an editor in 1889 from seven manuscripts; it should be checked against a single manuscript, and against the Colorno and Abognazar branches separately, since the chapters of the first book after the eighth are absent from Lansdowne 1202 altogether."@en ;
+    pm:examinationState pm:claimDoesNotDiscriminate ;
+    pm:examinedBy "prima-materia, 2026-09-12, from the chapters read at the wording in traditions/solomonic-grimoire.ttl" ;
+    pm:falsifiedBy "A passage in any witness of this transmission that names an outcome of a correctly prepared operation under which the operation is to be counted as having failed, without assigning that outcome to the operator, to the weather, to a third party or to the nature of the spirits. One such passage would put the claim back among those an outcome can reach, and this verdict would fall." ;
+    pm:protocolUpdated "2026-09-12" ;
+    pm:tests pmc:ClaviculaOperatioYieldsImperium ;
+    pm:undividedOutcomes "A session prepared and conducted as the third chapter of the first book prescribes, in which the participants perceive an appearance, and a session prepared and conducted in the same way in which they perceive nothing. The book covers both: the first is the claim coming true, the second is proof that a point was done ill, or that the air was troubled, or that another exorcist was calling them, or that the spirits found the men too impure — and in any case the instruction is to conjure again." .
+
 pmp:CritiqueRigoureuse a pm:Practicing ;
     rdfs:label "Die strenge Kritik einer Mitteilung"@de,
         "Rigorous critique of a communication"@en ;
@@ -7972,14 +8090,6 @@ pmt:Shugendo a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Shozan engi; the Shugendō shūyō himitsu shū" .
 
-pmt:SolomonicGrimoire a pm:Tradition ;
-    rdfs:label "Salomonische Grimoire-Tradition"@de,
-        "Solomonic grimoire transmission"@en ;
-    skos:definition "The transmission of ritual handbooks for the constraint of spirits, carrying preparation, circle, seal, adjuration and dismissal as a fixed sequence."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
-
 pmt:SpiritualistAutomaticWriting a pm:Tradition ;
     rdfs:label "Spiritistisches automatisches Schreiben"@de,
         "Spiritualist automatic writing"@en ;
@@ -8408,6 +8518,52 @@ pmc:CizhongWuzang a pm:Cautioning ;
         "The intervals are not stable across the witnesses, and the transmitted text says so about itself. That is held in the dispute node below rather than in this definition, which gives the numbers as the recension read prints them."@en ;
     pm:cautionsAbout pmp:Cizhen ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
+    rdfs:label "Die Genauigkeit von Tagen und Stunden ist für Adepten nicht nötig"@de,
+        "The exactness of days and hours is not necessary for adepts"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapter I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "So exact a preparation of days and hours is not necessary for those who are adepts in the art, but it is extremely necessary for apprentices and beginners, seeing that those who have been little or not at all instructed do not have as much faith in the experiments as those who are adepts and have practised them. The wise should observe only the precepts of the art which are necessary."@en ;
+    skos:note "The exemption is asymmetrical, and the asymmetry was the object of a search carried in this run. It covers days and hours and nothing else. No passage of the chapters read waives the bath, the fast, the continence or the confession for anyone, adept or beginner. The transmission is willing to call its astrology a pedagogy and is not willing to call its purification one. See pmp:ClaviculaPurificationWaiverSearch."@en,
+        "The ground the text gives for the exemption is the faith of the operator and not anything about the hours. That makes the astrological term, by the book's own account, a device for producing confidence in beginners rather than a condition of the world — and it is the sharpest statement against its own timing rules that this corpus contains."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaCeteraeVirtutes a pm:Conceptualizing ;
+    rdfs:label "Die weiteren Vermögen des ersten Buches"@de,
+        "The further capacities named in the first book"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapters X, XI, XII, XIII, XIV, XV and XVI, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "Entered together because the first book names them in one run of chapters and states each in a sentence. To become invisible at will, by an image of yellow wax made in January in the day and hour of Saturn, buried in a cavern and carried in the left pocket. To hinder a sportsman from killing any game for the rest of a day, by a stick of green elder laid in his path. To travel far in a few days and without fatigue, by garters of stag-skin filled with mugwort gathered before sunrise on the twenty-fifth of June. To hear distinctly the answer to whatever is asked, by lying prostrate under a carpet of new white wool between midnight and daybreak at full or new moon. To be made partaker in a treasure the earth-spirits hold. To obtain any grace or favour so that it shall not be denied. To deceive the senses of onlookers so that they seem to see what they see not and hear what they hear not."@en ;
+    skos:note "Four of the seven carry a term the operator cannot move: a month, a day and hour of a planet, a date in June, a phase of the moon, a span between midnight and daybreak. Two of the seven carry an outcome another person could check within a day — the sportsman who kills nothing, the journey accomplished — and both were left by the text without any statement of what would follow if the outcome were otherwise."@en,
+        "Mathers records chapters XI, XII, XIII and XIV as taken from Lansdowne 1203 alone, and chapter XV from Add. 10862 alone. The run of capacities is therefore not the common stock of the transmission but the sum of what several manuscripts each contribute."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaDefectusOperantis a pm:Conceptualizing ;
+    rdfs:label "Ein misslungenes Experiment beweist, dass der Operierende in irgendeinem Punkt versagt hat"@de,
+        "An unsuccessful experiment proves the operator failed in some matter"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapter I, with Book I chapters X and XV, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "If by chance it should happen that having performed an experiment with due observance of days, hours and requisite solemnities, thou shalt find it unsuccessful, it must be in some manner false, ill-arranged and defective, and thou must assuredly have failed in some matter; for if thou doest ill in one single point, these experiments or these arts will not be verified. Upon this chapter, the text adds, depends the whole Key: although every solemnity be rightly observed, no experiment will be verified unless the meaning of this chapter is penetrated."@en ;
+    skos:note "A fifth assignment stands in the introduction and was found by the search rather than by the reading: what is revealed to any must be kept by them to themselves, otherwise the secrets are profaned and no effect can follow. Disclosure thus joins the operator's fault, the wind, the rival and the purity of the spirits, and it is the one of the five that can be alleged of a session by someone who was not at it."@en,
+        "It is not a single lapse. The same clause stands twice more in the first book, in the chapters on invisibility and on favour: if thou lettest any of these things escape thee, or if thou despiseth them, never shalt thou be able to arrive at thy proposed end; and, but if thou doest not the experiment carefully and rightly, assuredly thou shalt not succeed in any manner. Three chapters, three manuscript groups, one rule."@en,
+        "The sentence is a biconditional in the guise of an instruction. It takes the case in which the conditions were met and nothing happened, and rules that case out by assigning it to an unnoticed fault. There is then no state of the world under which the arts could be found not to work, and the chapter says so of itself: the whole Key depends on it."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaFurisVisio a pm:Conceptualizing ;
+    rdfs:label "Der Dieb wird im Wasser gesehen, und das dort geschnittene Zeichen findet sich an seinem Leib"@de,
+        "The thief is seen in the water and the mark cut there is found on his body"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapter IX, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "A sieve is hung by a cord with which a man has been hanged, characters written within its rim in blood; a brass basin is filled with spring water; at the words Dies mies yeschet benedoefet Donnima Metemauz the sieve is spun with the left hand and the water stirred the contrary way with a twig of green laurel. When the water is still and the sieve no longer whirls, the gazer sees the form of him who committed the theft; and, that he may be recognised the more easily, the gazer marks him somewhere on the face with the sword of art, for that sign which has been cut in the water shall be really found thereafter upon his own person."@en ;
+    skos:note "Mathers notes that the remainder of this chapter, which is where both procedures stand, is from Lansdowne 1203 alone."@en,
+        "The chapter carries a second and weaker procedure with the sieve and shears: at the naming of the guilty person the sieve turns of itself without its being able to stop it. That outcome is inside the session and depends on two people holding the rings on their thumbnails, so it discriminates nothing; it is recorded here and not given its own node."@en,
+        "This is the most examinable sentence in the book and the only one in the chapters read that states an outcome outside the session. Everything else the transmission promises is established inside the operation by the operator; here a mark made in water is said to appear on the body of a person who was not present, and a bystander could look at the face named and see whether it is there. The examination node beside this file takes it as the falsifying condition for the transmission as a whole, and it is the reason that node could be written at all."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaImperiumSpirituum a pm:Conceptualizing ;
+    rdfs:label "Die Geister kommen, sprechen wie ein Freund zum Freunde und geben, was verlangt wird"@de,
+        "The spirits come, speak as friend to friend, and give what is asked"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapters VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The capacity the whole book is built around. When the conjuration succeeds, they will immediately talk with thee as a friend speaketh unto a friend; ask of them all that thou desirest, with constancy, firmness and assurance, and they will obey thee. At the final stage the master uncovers the pentacles and demands all that he shall wish of the king of the spirits, and dismisses them with a license to depart."@en ;
+    skos:note "Nothing in the chapters read limits what may be asked. The one restriction the text places is on the conditions of asking, never on the content of the request, and that is a difference from the transmissions in this holding that bound a petition to a class of subject matter."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:CommunicationFromTheSun a pm:Conceptualizing ;
     rdfs:label "Eine Mitteilung von der Sonne"@de,
@@ -9673,6 +9829,16 @@ pmc:ShangqingYeshuCapacity a pm:Conceptualizing ;
     skos:definition "The ability to write without light, given in this corpus as the plain consequence of clear eyes and not as a vision or a state. A saying of the Perfected quoted in the same passage puts it as a maxim: if you would write by night, cultivate the constant abode, the name the corpus gives to the hollow behind the eyebrows."@en ;
     pm:withinTradition pmt:Shangqing .
 
+pmc:ShangqingYijieQingyao a pm:Cautioning ;
+    rdfs:label "Ein Beischlaf löscht ein Jahr der Arznei"@de,
+        "One act cancels one year of the drug"@en ;
+    dcterms:source "Tao Hongjing, Zhen'gao 10.18b-10.19a (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 10",
+        "Tao Hongjing, Zhen'gao 10.23b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 10" ;
+    skos:definition "The corpus states the loss in a countable form: for one who is nourishing life, one act of intercourse overturns one year of the drug's force, two acts overturn two years, and beyond three the whole of what has been taken is lost from the body. A second passage in the same juan gives a parallel reckoning from another hand: one act overturns one year of the drug's force, and one who practises the chamber arts while taking nothing at all has thirty years struck from his reckoning. A third states that frequent emission fouls the vapour, destroys the spirit and exhausts the essence, so that even a person entered in the jade registers is not thereby exempt."@en ;
+    skos:note "Entered for its arithmetic. A rule in this form makes any null result recoverable: a practitioner who has taken the drug for years and has nothing to show has only to be asked about his conduct, and the balance can be made to come out at nothing without the drug being questioned. It is the same device as the merit reckoning at pmc:ShangqingGongman, applied to the failure side instead of to the success side."@en ;
+    pm:cautionsAbout pmp:ShangqingFushi ;
+    pm:withinTradition pmt:Shangqing .
+
 pmc:ShangqingZhonglingJiaojieDispute a pm:Disputing ;
     rdfs:label "Ob die versammelten numinosen Mächte es gesagt haben"@de,
         "Whether the assembled numinous powers said it"@en ;
@@ -9746,6 +9912,16 @@ pmc:ShouyiCapacities a pm:Conceptualizing ;
     dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
     skos:definition "On land it turns aside evil beasts, on water it repels the jiaolong; there is no fear of the wangliang or of venomous creatures, ghosts dare not approach and a blade dares not strike. With the bare blade at the neck, thinking the One obtains life. In a ghost temple, under the trees of a mountain, in a place of great pestilence, among graves, in the thicket of tigers and wolves, in the haunt of vipers, guarding the One without slackening drives every evil far off. Where soldiers or bandits have surrounded a man and there is no ground of life left, he enters at once into the yin of the six jia, lies hidden and guards the One, and the five weapons cannot reach him."@en ;
     skos:note "The list is of the same kind as the eight things the circulation of the qi is said to accomplish in the eighth chapter, and it has the same mixture: some items name an outcome a witness could report, the blade that does not cut and the encirclement escaped, and others are dispositions of the world that nothing could count against. It is recorded whole for the same reason as the other."@en ;
+    pm:withinTradition pmt:Daoist .
+
+pmc:ShouyiMianLiri a pm:Conceptualizing ;
+    rdfs:label "Wer das Eine bewahrt, steht nicht mehr unter dem Kalender"@de,
+        "He who guards the One is no longer under the calendar"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
+    skos:definition "The chapter states an exemption and states it as a consequence of the attainment. One who can guard the One travels ten thousand li, goes into an army, crosses great rivers, and need not divine the day or choose the hour; in beginning works, in moving house, in entering a new dwelling, he no longer consults the siting calendars; he does not avoid the year star, the general of the great yin, the killing and wasting spirits of the month establishment or the taboos of his year and fate; and in the end he never meets with calamity. It closes by calling this a way that the worthies of former times tested one after another and found to hold."@en ;
+    skos:note "It also names the interest the exemption serves inside the work. The chapter is arguing that guarding the One replaces several thousand other methods, and an exemption from the calendar is one more thing the reader no longer has to do. That is a reason for caution about the claim and not a reason to leave it out."@en,
+        "This is the passage that keeps the same work from speaking with one voice about the calendar. Its eighth chapter binds the circulation of the qi to the hours of living qi and says that in the hours of dead qi it is of no benefit; its seventeenth binds the entering of mountains to years, months and days and states the harm that follows; and its eighteenth says that a man of one particular attainment is under none of it. The exemption is granted by a state of the operator, which is exactly what a calendrical condition is otherwise said not to depend on."@en,
+        "What it does not say is that an operation done outside its window works. It says that this man no longer chooses days at all, which is a claim about who stands under the rule and not about what the rule does. The difference decides whether it refutes the generalization in generalizations/efficacy-bound-to-the-calendar.ttl or only narrows it, and the note there records that it narrows it."@en ;
     pm:withinTradition pmt:Daoist .
 
 pmc:SignsOfLightning a pm:Conceptualizing ;
@@ -10984,6 +11160,15 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:ClaviculaOperatioYieldsImperium a pm:Yielding ;
+    rdfs:label "Die Operation im Kreis bringt hervor, dass die Geister erscheinen und gehorchen"@de,
+        "The operation of the circle brings the spirits to appear and obey"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapters III, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ClaviculaOperatioCirculi ;
+    pm:withinTradition pmt:SolomonicGrimoire ;
+    pm:yieldsCapacity pmc:ClaviculaImperiumSpirituum .
+
 pmc:ControleUniversel a pm:Conceptualizing ;
     rdfs:label "Die allgemeine Kontrolle der Geisterlehre"@de,
         "The universal control of the teaching of the spirits"@en ;
@@ -12120,11 +12305,6 @@ pm:ownAgency a pm:AgencyHolding,
         "Own agency"@en ;
     skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmp:ArsNotoriaOratio a pm:Practicing ;
     rdfs:label "Das Sprechen der Orationen"@de,
         "The saying of the orations"@en ;
@@ -12133,6 +12313,14 @@ pmp:ArsNotoriaOratio a pm:Practicing ;
     skos:note "The procedure the text prescribes is larger than this node: the orations accompany the notae, and the witness read carries none of them. What is entered is the part the witness gives."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:ArsNotoria .
+
+pmp:ClaviculaOperatioCirculi a pm:Practicing ;
+    rdfs:label "Die Operation im Kreis"@de,
+        "The operation within the circle"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapter III, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The book divides its experiments in two: those that can be performed without a circle, for which only the chapter of the particular operation is to be observed, and those that cannot be brought to perfection without one. The second kind runs: nine days of continence for master and disciples; after the sixth day frequent prayer and confession; on the seventh the master alone bathes in exorcised water and puts on white linen, then pours the same water over the naked disciples; the last three days a fast; on the last day a washing at running water, the confession, the kiss, the absolution, the distribution of the instruments; then the circle, traced with the consecrated knife, with the letter Tau at the four quarters, four hexagonal pentacles and the divine names between them, two squares circumscribed and four further circles at the outer angles; then the fumigation, the placing of the disciples at the four quarters, and the conjurations."@en ;
+    skos:note "The second kind is what makes the transmission examinable at all: it fixes in advance what counts as having done the thing, down to the number of days, the material of the garment and the position of each participant. A procedure specified to that depth can be departed from in a way a witness could name. What follows below is the account the book gives of what happens when it is not departed from and nothing occurs."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -12245,14 +12433,6 @@ pm:SearchOutcome a owl:Class,
     skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:claimDoesNotDiscriminate a pm:ExaminationState ;
-    rdfs:label "Behauptung unterscheidet nicht"@de,
-        "Claim does not discriminate"@en ;
-    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
-    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
-        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
-        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
-
 pm:displacedLocus a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Verlagert"@de,
@@ -12334,6 +12514,14 @@ pm:cededAgency a pm:AgencyHolding,
     skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
     skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
+pm:claimDoesNotDiscriminate a pm:ExaminationState ;
+    rdfs:label "Behauptung unterscheidet nicht"@de,
+        "Claim does not discriminate"@en ;
+    skos:definition "Cases have been recorded, they show no deviation, and the claim is nonetheless uninformative: it is worded so that outcomes which differ from one another all satisfy it equally."@en ;
+    skos:note "The distinction that decides which of the two applies is not how strong the evidence is but whether an outcome exists that the claim would have ruled out. If the claim covers a result and its opposite alike, it discriminates nothing and belongs here, however well the cases fit."@en,
+        "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
+        "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
+
 pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
         "Contact route absent"@en ;
@@ -12349,6 +12537,11 @@ pm:recordScale a pm:ScaleFamily ;
         "Record scale"@en ;
     skos:definition "A scale that reports how far the work of recording, searching and examining has been carried. Its values describe what has been done to the subject matter, never the subject matter itself."@en ;
     skos:note "The cardinal error this family exists to prevent is the collapse of a state that reports absent work into one that reports a finding: a claim for which no procedure was devised and a claim examined and unsupported are different findings and must never read alike."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmp:NeidanHuohou a pm:Practicing ;
     rdfs:label "Die Feuerphasen"@de,
@@ -12671,6 +12864,19 @@ pmt:Dogon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
 
+pmt:SolomonicGrimoire a pm:Tradition ;
+    rdfs:label "Salomonische Grimoire-Tradition"@de,
+        "Solomonic grimoire transmission"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapter I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The transmission of ritual handbooks for the constraint of spirits, carrying preparation, circle, seal, adjuration and dismissal as a fixed sequence."@en ;
+    skos:note "Dating and attribution. The ascription to Solomon is not held by any modern position and is contradicted by the material record: the oldest witnesses of the work are late medieval. This was not read at the wording in this run and is not entered as a node; what the run did read is a work of 1584 that rejects the ascription in terms, and that stands below as one side of the dispute. The question of a Greek antecedent — whether the Hygromanteia is the ancestor of the Latin and Italian text or a parallel branch — was not decided here and no node claims it."@en,
+        "Edition decision, and it is the awkward one. The text read is the English of S. L. MacGregor Mathers, London 1889, and that is not an edition of a work but a text assembled by its editor out of seven manuscripts of the British Museum: Add. 10862 in Latin, Sloane 1307 in Italian, Sloane 3091, Harleian 3981, King's 288, Lansdowne 1202 and 1203 in French. No critical edition of the Latin Clavicula with a stemma exists. The citations here therefore name the book and chapter and say in the same breath whose text it is, and where Mathers records that a passage stands in one manuscript only, the note says which. Anyone who obtains a single manuscript can overturn a node here, and the notes are written so that he can see which one to obtain."@en,
+        "Read in this run at the wording, all in the Mathers text: Book I chapters I, III, V, VI, VII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII; Book II chapters I, III, IV, XIII, XXI. Not read: Book I chapters II, IV, VIII, XVIII, and Book II chapters II, V to XII, XIV to XX, XXII, which carry the tables of hours, the prayers, the pentacles, the instruments and their consecrations. The chapters left unread are the apparatus; the chapters read are the ones that state what the operations do, on what terms, and what follows when they do not."@en,
+        "What the citations cannot do. Mathers' apparatus is thin and his own datings are disputed: he places Add. 10862 at the end of the sixteenth century and holds it the oldest witness, while the modern description puts it in the seventeenth. Two chapters entered here stand in one manuscript each by his own footnote, and are marked as such at the node. The single-manuscript chapters are not weaker as claims about what a Solomonic book says; they are weaker as claims about what the transmission holds in common."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
+
 pm:Positing a owl:Class ;
     rdfs:label "Setzen"@de,
         "Positing"@en ;
@@ -12820,15 +13026,6 @@ pmt:MayaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
         "Midewiwin"@en ;
@@ -12890,6 +13087,15 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Vijñānabhairava; Mālinīvijayottaratantra; Abhinavagupta, Tantrāloka and Tantrasāra; Kulārṇava Tantra; Kālikāpurāṇa; Mahānirvāṇa Tantra; Pūrṇānanda, Ṣaṭcakranirūpaṇa" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
@@ -13093,15 +13299,15 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
