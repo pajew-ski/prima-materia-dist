@@ -325,19 +325,6 @@ pmc:AttainmentRelievesOnlyTheOutwardCondition a pm:Generalizing ;
         pmc:ShouyiMianLiri ;
     pm:generalizedStatement "Where an operative transmission relieves a practitioner of one of its own prescribed conditions on the ground of what he has attained, the condition relieved is one fixed outside him — a day, an hour, a calendar, a star — and not one bearing on his body or his conduct. Where the same transmissions speak of a bodily condition and attainment together, they say that the attainment does not relieve it."@en .
 
-pmc:AwakeningPresupposesAnotherWhoDoesNotSleep a pm:Presupposing ;
-    rdfs:label "Das Erwachen setzt einen voraus, der nicht schläft"@de,
-        "Awakening presupposes another who does not sleep"@en ;
-    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the passage on the impossibility of awakening alone (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)",
-        "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eleven, at the talk on the chief feature and the teacher (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
-    skos:note "The prerequisite is not a rule of etiquette towards teachers but follows from the caution below: the sleeper cannot detect his own lapse, so the detection has to come from outside him. A second and narrower form of the same claim stands in the talks on groups, where the chief fault of a person is said to be findable only by a teacher and never by the person himself, and the source calls that practically a law."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:consequenceOfSkipping "A person cannot awaken alone; and an agreement among twenty to wake one another is still insufficient, because all twenty may fall asleep at the same time and dream that they are waking. Without someone who does not fall asleep as easily and who is charged with waking them, awakening is held to be impossible."@en ;
-    pm:dependentStep pmp:SelfRemembering ;
-    pm:prerequisiteStrength pm:statedNecessity ;
-    pm:priorStep pmc:FourStatesOfConsciousness ;
-    pm:withinTradition pmt:FourthWay .
-
 pmc:AzazelTeachesAdornment a pm:Attributing ;
     rdfs:label "Azazel offenbart Schmuck und Kosmetik"@de,
         "Azazel discloses adornment and cosmetics"@en ;
@@ -642,6 +629,15 @@ pmc:ChuiqiJinshe a pm:Conceptualizing ;
     skos:note "The last clause repeats the rule of the eighth chapter word for word in its operative part: the practitioner blows and incants over his own hand, left for a male patient and right for a female, at a distance, on someone he does not see. It is therefore not a single formula of one chapter but a rule the work states twice, in two different operations, and it is what a search for the palms as an organ of transmission finds instead."@en,
         "The sending organ in both places is the breath, and the hand is where the breath is directed. The chapter has the qi do the work throughout — over the grass, over the snake, over the wound, over the distance — and gives the hand no office except in the distant case, where it is the thing blown upon."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:ChukcheeColdWaterEndsInspiration a pm:Conceptualizing ;
+    rdfs:label "Kaltes Wasser auf den Kopf beendet die Eingebung"@de,
+        "Cold water on the head ends the inspiration"@en ;
+    dcterms:source "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), p. 433" ;
+    skos:definition "The stated means of breaking off the state: the application of cold water to the head of a practitioner in the very heat of his performance would suddenly bring his inspiration to an end, and at ceremonials his neighbours may sprinkle him for that purpose when he practises too long or seems excited to a dangerous pitch."@en ;
+    skos:note "Entered because it is a failing condition of the rarest kind: one that a bystander can bring about deliberately, in the middle of the act, with a stated and immediate effect. Most conditions in this holding are set before the act and can only be observed afterwards."@en,
+        "The recorder marks his own distance at this one place: he was told this, where the surrounding paragraphs report what he saw. The node keeps the difference rather than levelling it into the rest of the account."@en ;
+    pm:withinTradition pmt:ChukcheeShamanism .
 
 pmc:CinwadPuhl a pm:Conceptualizing ;
     rdfs:label "Die Činwad-Brücke"@de,
@@ -3268,6 +3264,318 @@ pmc:NoaidiJourneyIsDisplaced a pm:Situating ;
     pm:situatedNode pmp:NoaidiJourney ;
     pm:situationGround "The practice is named for it: the journey is made while the body lies still, and a token is brought back from where the body was not. The placement records the account the tradition gives and not a verdict on it — the same compilation carries three positions on what actually lies there, and its author rejects the departure of the soul on doctrinal grounds rather than from anything he was told. See pmc:WhatLiesStillWhileHeTravels."@en .
 
+pmc:NorseAtjandaKautel a pm:Cautioning ;
+    rdfs:label "Alles ist besser, was einer allein kann"@de,
+        "All is better that one alone knows"@en ;
+    dcterms:source "Hávamál 163 (Guðni Jónsson; 164-165 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The caution the catalogue closes on: the eighteenth song is never taught to maid nor to another man's wife, except to the one who lies in the speaker's arms or to his sister, for all is better which one alone knows."@en ;
+    skos:note "A caution about disclosure and not about performance, and the only one in the transmission that names the persons to whom disclosure is allowed. It is also the exact opposite of this project's own criterion, which is why it is worth having in the holding: here is a transmission stating in its own words that the gate is the point."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseAtjandaLjod a pm:Conceptualizing ;
+    rdfs:label "Das achtzehnte, das ich niemals lehre"@de,
+        "The eighteenth, which I never teach"@en ;
+    dcterms:source "Hávamál 163 (Guðni Jónsson; 164-165 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The eighteenth song, of which the poem states no effect at all and states instead that the speaker teaches it neither to maid nor to any man's wife, save to her alone who holds him in her arms or who is his sister; with the ground that all is better which one alone knows, and the remark that this follows the end of the songs."@en ;
+    skos:note "Entered although it names no effect, because leaving it out would make the catalogue seventeen and the poem counts eighteen. What it carries instead of an effect is a rule of transmission, and that rule is the one testable thing about the whole list: a catalogue whose last member is withheld cannot be complete in any hand but the speaker's."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseFimbulljodNiu a pm:Conceptualizing ;
+    rdfs:label "Die neun Zauberlieder und der Trunk aus Óðrerir"@de,
+        "The nine mighty songs and the draught of Óðrerir"@en ;
+    dcterms:source "Hávamál 140-141 (Guðni Jónsson; 141-142 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "Nine mighty songs taken from the famed son of Bǫlþorn, Bestla's father, and a draught of the precious mead poured out of Óðrerir, after which the speaker began to thrive and to be wise, and to grow and to fare well."@en ;
+    skos:note "A second acquisition beside the runes and from a named giver, which the runes were not. Nine again, as the nights were nine, and the number is the only thing the two acquisitions have in common in the wording."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseFleinnPresupposesSjonum a pm:Presupposing ;
+    rdfs:label "Das Anhalten des Schaftes setzt voraus, dass er mit Augen gesehen wird"@de,
+        "The staying of the shaft presupposes that it is seen with the eyes"@en ;
+    dcterms:source "Hávamál 150 (Guðni Jónsson; 151 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "One of only two stated necessities this transmission carries, and the only one in the catalogue. Seventeen of the eighteen songs name an effect without a condition; this one names a condition that can be absent at the moment of use and is determinable by the user."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The stanza sets the condition as the limit of the claim: it flies not so hard that I do not stay it, if I see it with my eyes. Outside sight the song claims nothing, and the clause stands in the same line as the effect rather than beside it."@en ;
+    pm:dependentStep pmc:NorseFleinnStodvadr ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHamskiptiAnchoring a pm:Situating ;
+    rdfs:label "Der Gestaltwechsel wird an der Schlafschwelle verortet"@de,
+        "The shape-changing is placed at the sleep threshold"@en ;
+    skos:note "Placed on the sleep threshold rather than in withdrawn absorption because the source's own comparison is sleep and death, not an inward gathering of the senses. A source that had meant absorption had the word for it and did not use it."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:sleepThreshold ;
+    pm:situatedNode pmc:NorseHamskiptiYieldsFjarlaegLond ;
+    pm:situationGround "The body is said to lie sem sofinn eða dauðr, as if asleep or dead, for the duration of the operation. The source gives the condition by comparison with sleep and gives no other."@en .
+
+pmc:NorseHamskiptiLocus a pm:Situating ;
+    rdfs:label "Der Gestaltwechsel wird am versetzten Ort verortet"@de,
+        "The shape-changing is placed at a displaced locus"@en ;
+    skos:note "The placement is the compiler's and the source names no coordinate. It is unusually well carried here, because the text states the condition of the abandoned body rather than leaving it to be inferred, which is what most sources on this axis do not do."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:displacedLocus ;
+    pm:situatedNode pmc:NorseHamskiptiYieldsFjarlaegLond ;
+    pm:situationGround "The source separates the two explicitly and in one sentence: the trunk lay as if asleep or dead, and he himself was then a bird or a beast, a fish or a serpent, and went to far lands. What acts is not where the body is."@en .
+
+pmc:NorseHangaPresupposesFasta a pm:Presupposing ;
+    rdfs:label "Das Aufnehmen setzt weder Brot noch Horn voraus"@de,
+        "The taking up presupposes neither bread nor horn"@en ;
+    dcterms:source "Hávamál 139 (Guðni Jónsson; 140 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "Held apart from the nine nights because it is a different kind of condition and because it is the one the poem states negatively: they cheered me with no loaf nor with any horn. A withholding by others, not an act of the sufferer and not an injury."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:NorseRunarUppNema ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:NorseHangaAVindgaMeidi ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHangaPresupposesNiuNaetr a pm:Presupposing ;
+    rdfs:label "Das Aufnehmen setzt neun Nächte, den Speer und die Selbstgabe voraus"@de,
+        "The taking up presupposes nine nights, the spear and the self-offering"@en ;
+    dcterms:source "Hávamál 138 (Guðni Jónsson; 139 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "Prescribed order and not stated necessity, because the poem narrates a single case and names no consequence of a shorter hanging or of a hanging without the wound. It says what was done and what followed, not what would have followed otherwise."@en,
+        "The self-offering is doubled in the wording and the doubling is the point: given to Óðinn, oneself to oneself. Giver, receiver and offering are the same, so the exchange the next caution below makes the measure of all offering is here reduced to one party."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:NorseRunarUppNema ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:NorseHangaAVindgaMeidi ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHangaYieldsRunar a pm:Yielding ;
+    rdfs:label "Das Hängen bringt die Runen hervor"@de,
+        "The hanging yields the runes"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 139-140",
+        "Hávamál 138-139 (Guðni Jónsson; 139-140 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "Attested as a first-person report and not as a textual attestation of a doctrine, because the stanzas are in the first person throughout and the speaker is the god: I know that I hung, I peered down, I took up the runes, I fell back. The poem gives no third-person account of the event anywhere beside it."@en,
+        "The stated conditions are all deprivations or injuries and none of them is an action: nine nights, a spear-wound, being given, no bread, no horn, and a tree whose root is unknown. What the practitioner does is peer and take; everything before that is what is done to him or withheld from him. That is unusual in this holding, where a prerequisite is normally something performed."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseHangaAVindgaMeidi ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseRunarUppNema .
+
+pmc:NorseLjodYieldsAsaOkAlfaSkil a pm:Yielding ;
+    rdfs:label "Das vierzehnte Lied gibt die Unterschiede der Asen und Alben"@de,
+        "The fourteenth song gives the distinctions of gods and elves"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 160",
+        "Hávamál 159 (Guðni Jónsson; 160 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseAsaOkAlfaSkil .
+
+pmc:NorseLjodYieldsEggjarDeyfi a pm:Yielding ;
+    rdfs:label "Das dritte Lied stumpft die Schneiden des Feindes"@de,
+        "The third song blunts the edges of the enemy"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 149",
+        "Hávamál 148 (Guðni Jónsson; 149 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseEggjarDeyfi .
+
+pmc:NorseLjodYieldsFjoturrSprettr a pm:Yielding ;
+    rdfs:label "Das vierte Lied löst die Fessel"@de,
+        "The fourth song looses the fetter"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 150",
+        "Hávamál 149 (Guðni Jónsson; 150 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseFjoturrSprettr .
+
+pmc:NorseLjodYieldsFleinnStodvadr a pm:Yielding ;
+    rdfs:label "Das fünfte Lied hält den fliegenden Schaft an"@de,
+        "The fifth song stays the flying shaft"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 151",
+        "Hávamál 150 (Guðni Jónsson; 151 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseFleinnStodvadr .
+
+pmc:NorseLjodYieldsGedOkGaman a pm:Yielding ;
+    rdfs:label "Das sechzehnte Lied wendet das ganze Gefühl einer Frau"@de,
+        "The sixteenth song turns a woman's whole feeling"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 162",
+        "Hávamál 161 (Guðni Jónsson; 162 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseGedOkGaman .
+
+pmc:NorseLjodYieldsHatrBaett a pm:Yielding ;
+    rdfs:label "Das achte Lied legt den Hass unter Fürstensöhnen bei"@de,
+        "The eighth song betters hate among princes' sons"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 154",
+        "Hávamál 153 (Guðni Jónsson; 154 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseHatrBaett .
+
+pmc:NorseLjodYieldsHeilirHildar a pm:Yielding ;
+    rdfs:label "Das elfte Lied bringt die Freunde heil aus der Schlacht"@de,
+        "The eleventh song brings friends whole from the battle"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 157",
+        "Hávamál 156 (Guðni Jónsson; 157 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseHeilirHildar .
+
+pmc:NorseLjodYieldsHjalp a pm:Yielding ;
+    rdfs:label "Das erste Lied hilft gegen Klagen und Sorgen"@de,
+        "The first song helps against suits and sorrows"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 147",
+        "Hávamál 146 (Guðni Jónsson; 147 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseHjalp .
+
+pmc:NorseLjodYieldsLaeknar a pm:Yielding ;
+    rdfs:label "Das zweite Lied ist, was Heiler brauchen"@de,
+        "The second song is what healers need"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 148",
+        "Hávamál 147 (Guðni Jónsson; 148 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseLaeknar .
+
+pmc:NorseLjodYieldsMeinAftrSnuit a pm:Yielding ;
+    rdfs:label "Das sechste Lied kehrt das Übel auf den Absender"@de,
+        "The sixth song turns the harm on the sender"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 152",
+        "Hávamál 151 (Guðni Jónsson; 152 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseMeinAftrSnuit .
+
+pmc:NorseLjodYieldsSalrLogi a pm:Yielding ;
+    rdfs:label "Das siebte Lied löscht den Hallenbrand"@de,
+        "The seventh song quenches the hall-fire"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 153",
+        "Hávamál 152 (Guðni Jónsson; 153 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseSalrLogi .
+
+pmc:NorseLjodYieldsSeintFirrask a pm:Yielding ;
+    rdfs:label "Das siebzehnte Lied lässt die junge Maid nur langsam meiden"@de,
+        "The seventeenth song makes the young maid slow to shun"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 163",
+        "Hávamál 162 (Guðni Jónsson; 163 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseSeintFirrask .
+
+pmc:NorseLjodYieldsThjodrerisLjod a pm:Yielding ;
+    rdfs:label "Das fünfzehnte Lied gibt Kraft, Ruhm und Verstand"@de,
+        "The fifteenth song gives might, fame and understanding"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 161",
+        "Hávamál 160 (Guðni Jónsson; 161 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseThjodrerisLjod .
+
+pmc:NorseLjodYieldsTunridurVillar a pm:Yielding ;
+    rdfs:label "Das zehnte Lied führt die Zaunreiterinnen irre"@de,
+        "The tenth song sends the hedge-riders astray"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 156",
+        "Hávamál 155 (Guðni Jónsson; 156 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseTunridurVillar .
+
+pmc:NorseLjodYieldsVatniVerpa a pm:Yielding ;
+    rdfs:label "Das dreizehnte Lied bewahrt den Besprengten vor dem Fall"@de,
+        "The thirteenth song keeps the sprinkled man from falling"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 159",
+        "Hávamál 158 (Guðni Jónsson; 159 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseVatniVerpa .
+
+pmc:NorseLjodYieldsVindKyrring a pm:Yielding ;
+    rdfs:label "Das neunte Lied stillt Wind und See"@de,
+        "The ninth song stills wind and sea"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 155",
+        "Hávamál 154 (Guðni Jónsson; 155 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseVindKyrring .
+
+pmc:NorseLjodYieldsVirgilnaMaelir a pm:Yielding ;
+    rdfs:label "Das zwölfte Ritzen bringt den Gehenkten zum Sprechen"@de,
+        "The twelfth carving makes the hanged man speak"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 158",
+        "Hávamál 157 (Guðni Jónsson; 158 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:NorseLjodatal ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseVirgilnaMaelir .
+
+pmc:NorseOfblotit a pm:Cautioning ;
+    rdfs:label "Besser ungebeten als zu viel geopfert"@de,
+        "Better unasked than over-offered"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 146",
+        "Hávamál 145 (Guðni Jónsson; 146 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The caution the poem sets against the four operations: better it is unasked than that it be over-offered, ever does a gift look to its return; better unsent than that it be over-slain."@en ;
+    skos:note "The consequence named is not a punishment but a reversal of sign: excess is worse than omission. Between the two halves of the stanza stands the ground, that a gift ever looks to its return, so the measure is the exchange and excess is what destroys it while omission does not."@en,
+        "Two paired verbs and not four separate ones. Asking pairs with offering, sending with slaying, and the caution is built twice over the same shape. A transmission that states the failure of a rite as too much rather than too little is uncommon in this holding, where cautions overwhelmingly name a shortfall."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:NorseBidjaOkBlota ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeidrYieldsAudsyni a pm:Yielding ;
+    rdfs:label "Der Vollzug macht das Verborgene offenbar"@de,
+        "The performance makes the hidden plain"@en ;
+    dcterms:source "Eirik the Red's Saga, chapter 4, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "The narrative marks the before and after without comment. When the seeress arrives, the farmer asks her to run her eyes over household, herd and buildings, and she is fámálug um allt, sparing of speech about everything. Nothing is told until the song has been sung."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:NorseFremjaSeidinn ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseAudsynir .
+
+pmc:NorseSeidrYieldsOrlog a pm:Yielding ;
+    rdfs:label "Die Kunst bringt Wissen um Schicksale und Macht über Menschen hervor"@de,
+        "The craft yields knowledge of fates and power over men"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:NorseSeidrIthrott ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseSeidrOrlogOkUordna .
+
+pmc:NorseSeidrYieldsSpa a pm:Yielding ;
+    rdfs:label "Der Vollzug bringt die Vorhersage mit ihrer Frist hervor"@de,
+        "The performance yields the prediction with its term"@en ;
+    dcterms:source "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "Held apart from the general making-plain above, because a term is a different kind of claim from a state of knowledge. The saga reports the answer and, in this chapter, not the outcome; whether the spring came as told is not said here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:NorseFremjaSeidinn ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseHallaerisSpa .
+
+pmc:NorseSpakonuMegin a pm:Conceptualizing ;
+    rdfs:label "Hellere Strahlen, als ich die Kraft habe, sie deutlich zu sehen"@de,
+        "Brighter rays than I have strength to see clearly"@en ;
+    dcterms:source "Eirik the Red's Saga, chapter 4, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The limit the seeress states on her own sight, in the fate she gives Guðríðr: over your kindreds shine brighter rays than I have strength to see such a thing clearly."@en ;
+    skos:note "A transmission stating where its own instrument ends, in the mouth of the practitioner and at the height of the performance. That is a different thing from a caution: nothing is warned against, and no condition is set. What is given is a ceiling."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
 pmc:NothingTiedMayEnterTheTown a pm:Cautioning ;
     rdfs:label "Nichts Gebündeltes darf in den Ort"@de,
         "Nothing tied in a bundle may enter the town"@en ;
@@ -5169,6 +5477,21 @@ pmc:TheOmenDischargedOnTheBird a pm:Conceptualizing ;
         "The witness draws his own conclusion two pages later, that to these people there is no such thing as an accident. That is his sentence and not the transmission's, and it is recorded here rather than entered as a claim."@en ;
     pm:withinTradition pmt:Vodun .
 
+pmc:TheOneWhoStaysOutsideTheState a pm:Generalizing ;
+    rdfs:label "Der zweite Beteiligte, der den Zustand nicht betritt"@de,
+        "The second participant who does not enter the state"@en ;
+    skos:note "Falsified by a transmission that has its practitioner enter such a condition, states a means of checking the operation that only the practitioner himself could apply, and names no second person — or, more sharply, by one that requires solitude for an operation in which the practitioner is said to lose command of himself. The second shape is the one to look for first, and the corpora most likely to hold it are the solitary vigil and the fast: the Lakota hanblapi, the incubation literature, and the desert material, all of which this holding already carries and none of which has been asked this question."@en,
+        "The counter-search was carried against the compiled holding before this was written, and it came back full, which is why the statement has a second clause. The Ars notoria requires the orations to be pronounced alone, secretly, and in a voice barely audible to the speaker; the great Paris papyrus states that its rite is for one person alone, who is to raise himself, and that the mysteries may be handed on by a father to a son and to no one else. Both are genuine opposites of the first clause and neither is a counterexample to it, because in both the effect is bound to something the operator monitors himself: the exactness of the wording, the number of repetitions, the day of the moon and the hour. Where self-checking is possible the transmissions ask for solitude; where it is not, they ask for a second person. The statement was rewritten to say that, instead of the first clause alone, which the holding would have refuted on the day it was written."@en,
+        "The three witnesses, each stating the condition in its own way and each stating a consequence. In Greenland the seeress asks for women who know the lore called Varðlokkur, none is found, the household is searched, and after the song is finally sung by a Christian woman who says she is no practitioner at all, the seeress reports that the spirits had before this wished to part from them and give them no obedience, and that things now lie plain that were hidden. Among the Chukchee the recorder puts it as an incapacity: without one who gives answering calls, a shaman considers himself unable to perform his calling in a proper way, and novices induce a brother or a sister to respond. In the Fourth Way material the impossibility is argued rather than reported: a person cannot awaken alone, and an agreement among twenty to wake one another is still insufficient, because all twenty may fall asleep at the same time and dream that they are waking."@en,
+        "Weakened, without being refuted, if the three turn out to be reachable from one another. No route between them has been proposed and the two older ones lie far apart; the third is modern and its recorder was a man of letters in Saint Petersburg and Constantinople, so a route from the ethnographic literature of his own decades to his account cannot be excluded and has not been examined. That is the weakest of the three legs and the statement rests on it for the argued form of the claim rather than for the claim itself."@en,
+        "What it does not say. It says nothing about whether these operations produce anything, and nothing about whether a second person makes any difference to what they produce. It is a statement about the shape a transmission takes, and it can be settled by reading, which is why it stands here and not at a protocol."@en,
+        "What the three have in common is the reason, and in the third case the source states it: the sleeper cannot detect his own lapse, so the detection has to come from outside him. The same holds in the other two without being spelled out, because in both the practitioner is by then in the state the operation consists in. That is why the second person is not an assistant in the ordinary sense — nothing in any of the three has him fetch, hold or prepare anything. His office is to remain in the condition the practitioner has left."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AwakeningPresupposesAnotherWhoDoesNotSleep,
+        pmc:ChukcheePresupposesAnsweringCalls,
+        pmc:NorseSeidrPresupposesVardlokkur ;
+    pm:generalizedStatement "Where a transmission has its practitioner enter, during the operation, a condition in which he can no longer check whether the operation is going as it should, it names a second person who stays outside that condition and makes the outcome depend on him, and it states that without that person the operation does not come off. Where the transmission instead binds the effect to something the operator can check on himself while he does it — an exact wording, a count, a prescribed hour — it names no such person and may require him to be alone."@en .
+
 pmc:TheOrdealGiverMustStandTheOtherOrdeals a pm:Conceptualizing ;
     rdfs:label "Der Betreiber muss die übrigen Proben selbst bestehen"@de,
         "The practitioner must stand the other ordeals himself"@en ;
@@ -6599,11 +6922,6 @@ pm:withinTradition a owl:ObjectProperty ;
     rdfs:range pm:Tradition ;
     skos:definition "Associates a process instance with the tradition in which it is situated."@en .
 
-pm:workOpened a pm:CoverageState ;
-    rdfs:label "Werk geöffnet"@de,
-        "Work opened"@en ;
-    skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
-
 pm:yieldsCapacity a owl:ObjectProperty ;
     rdfs:label "bringt Vermögen hervor"@de,
         "yields capacity"@en ;
@@ -7046,6 +7364,20 @@ pmp:LungReading a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
 
+pmp:MenWithoutShameInSeidrSearch a pm:Searching ;
+    rdfs:label "Ob der altnordische Bestand Männer kennt, die seiðr ohne Schande üben"@de,
+        "Whether the Norse corpus has men practising seiðr without shame"@en ;
+    dcterms:date "2026-09-13" ;
+    skos:note "The search is recorded because its outcome changed what was written and not only what was known. Without it the caution would have gone into the holding as a rule of the transmission; with it, it goes in as one side of a dispute that the transmission carries within a single chapter. This is the case the class exists for on the productive side."@en,
+        "Three passages came back and two of them from the same chapter as the caution. The sentence that introduces the craft says Óðinn performed it himself; two sentences after the clause about shame, the same chapter says he taught most of his crafts to the blótgoðar, who are men. The third is in the later saga: the king's own son learned sorcery and became a seiðmaðr, and Vitgeirr in Hǫrðaland answered the royal order to stop with a public verse pointing at him."@en,
+        "What it does not settle. Vitgeirr's answer shows a man not ashamed; the same chapter ends with the king's other son burning the first indoors together with eighty seiðmenn, and the deed much praised. A norm enforced by killing is evidence for the norm. The dispute node says so and does not resolve it."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Term search of both sagas for: seið, seiðr, seiðmaðr, seiðmenn, fjölkyngi, fjölkunnig, ergi, gyðjum, blótgoðum, Vitgeirr, Rögnvaldr; the chapters carrying the hits read in full." ;
+    pm:searchYieldedNode pmc:NorseSeidrErgiStrittig ;
+    pm:searchedBy "prima-materia, 2026-09-13" ;
+    pm:searchedCorpus "Snorri Sturluson, Heimskringla, in the normalised Old Norse text of Guðni Jónsson: Ynglinga saga read at the wording in chapters six and seven, Haralds saga ins hárfagra searched by term over the whole saga and the hits read at the wording" ;
+    pm:searchedFor "A passage telling against the caution at pmc:NorseSeidrErgi, which states that so much ergi goes with the craft that men could not deal with it without shame and that it was therefore taught to the priestesses: that is, men practising it, and practising it without the shame the clause asserts." .
+
 pmp:MithraicCoronaRecusata a pm:Practicing ;
     rdfs:label "Der auf dem Schwert dargebotene Kranz, mit einem Satz zurückgewiesen"@de,
         "The crown offered on a sword, refused with a saying"@en ;
@@ -7241,6 +7573,20 @@ pmp:Sagdid a pm:Practicing ;
     skos:note "A rare case of a procedure whose success is defined by an event nobody can observe and whose failure is defined by one that anybody can: the demon's flight is unobservable, but the dog's refusal to walk the way is not, and the refusal is what multiplies the requirement from three to six to nine. The transmission has built its escalation on the one part of the operation that is public."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Zoroastrian .
+
+pmp:SecondSingerOutsideTheNorthSearch a pm:Searching ;
+    rdfs:label "Ob eine Überlieferung außerhalb des Nordens eine Sitzung an einen Zweiten bindet"@de,
+        "Whether a transmission outside the north binds a séance to a second person"@en ;
+    dcterms:date "2026-09-13" ;
+    skos:note "Not searched, and they are the obvious next places: the Koryak volume of the same expedition, which the same recorder's colleague wrote and which reports a neighbouring practice; the Yukaghir material, where the secondary literature reports the practitioner's wife as his supporting staff; and the Iglulik records, where the drum is named as that by which the spirits are called up. All three were reached in the landscape stage and none was opened."@en,
+        "The difference between the two cases is in the finding and is kept in the node. Greenland states an outcome: the spirits withheld obedience and the things now plain were hidden before. Bogoras states an incapacity: the practitioner considers himself unable to perform properly. The second is the weaker of the two and the generalization is worded so that it carries both."@en,
+        "The find was entered rather than left as an address, which meant registering and opening a transmission this holding did not have. Three pages of one work stand in traditions/chukchee.ttl and the coverage state says work opened and nothing more."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Term search of the whole volume, with the text normalised to letters because the digitisation damages the transcription of Chukchee words, for: ocitkolin, ecitkolin, citkolin, answering call, assistant, respond, shamanistic performance, unable to perform, encouraging the zeal. The Chukchee term itself was not findable in any spelling and the passage was reached through the English gloss." ;
+    pm:searchYieldedNode pmc:ChukcheePresupposesAnsweringCalls ;
+    pm:searchedBy "prima-materia, 2026-09-13" ;
+    pm:searchedCorpus "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), searched by term over the whole volume and the section on the shamanistic performance, pp. 433-435, read at the wording" ;
+    pm:searchedFor "A transmission outside the North Atlantic sphere in which a proceeding of this kind is stated to depend on a second, competent participant, as Eiríks saga rauða states of the song called Varðlokkur — the outside-the-sphere search SPEC §15 requires before pmc:NorseSeidrPresupposesVardlokkur may be generalized from." .
 
 pmp:SeparativeEndStateExamination a pm:Testing ;
     rdfs:label "Ob der absondernde Endzustand überhaupt geprüft wurde"@de,
@@ -8008,15 +8354,6 @@ pmt:NewThought a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Quimby, The Quimby Manuscripts; Emma Curtis Hopkins, Scientific Christian Mental Practice; Troward, The Edinburgh Lectures on Mental Science" .
 
-pmt:NorseSeidr a pm:Tradition ;
-    rdfs:label "Altnordische Ritualüberlieferung"@de,
-        "Old Norse ritual transmission"@en ;
-    skos:definition "The Norse transmission of runic and sung operations and of a divinatory practice performed from a raised seat with a stated arrangement of singers and questioners."@en ;
-    skos:note "Hávamál names eighteen effects in list form, which is a capacity catalogue in the same shape as the siddhi lists. Written down by Christians centuries after the practice, so the contact question is a question about the recording hand."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Hávamál; Grímnismál; Snorri, Ynglinga saga; Eiríks saga rauða" .
-
 pmt:Onmyodo a pm:Tradition ;
     rdfs:label "Onmyōdō"@de,
         "Onmyōdō"@en ;
@@ -8474,6 +8811,19 @@ pmc:AvertingTheAngerOfTheHuacas a pm:Conceptualizing ;
     skos:definition "What the confession is made for: the faults of a man are held to anger his ancestors and his huacas, and the anger to be the reason he falls sick. The confession, the blowing of the powders, the rubbing with the pardon-stone and the washing of the head are done so that the anger is turned aside and the sickness with it."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:AwakeningPresupposesAnotherWhoDoesNotSleep a pm:Presupposing ;
+    rdfs:label "Das Erwachen setzt einen voraus, der nicht schläft"@de,
+        "Awakening presupposes another who does not sleep"@en ;
+    dcterms:source "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eight, at the passage on the impossibility of awakening alone (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)",
+        "P. D. Ouspensky, In Search of the Miraculous: Fragments of an Unknown Teaching, chapter eleven, at the talk on the chief feature and the teacher (one-volume English text as scanned in the Internet Archive full-text mirror; edition left unstated)" ;
+    skos:note "The prerequisite is not a rule of etiquette towards teachers but follows from the caution below: the sleeper cannot detect his own lapse, so the detection has to come from outside him. A second and narrower form of the same claim stands in the talks on groups, where the chief fault of a person is said to be findable only by a teacher and never by the person himself, and the source calls that practically a law."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "A person cannot awaken alone; and an agreement among twenty to wake one another is still insufficient, because all twenty may fall asleep at the same time and dream that they are waking. Without someone who does not fall asleep as easily and who is charged with waking them, awakening is held to be impossible."@en ;
+    pm:dependentStep pmp:SelfRemembering ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:FourStatesOfConsciousness ;
+    pm:withinTradition pmt:FourthWay .
+
 pmc:BarasnumCaution a pm:Cautioning ;
     rdfs:label "Gegen die Reinigung durch einen Unkundigen"@de,
         "Against undertaking the purification without knowing the rites"@en ;
@@ -8564,6 +8914,14 @@ pmc:CautionAgainstTheSightItself a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:DistantSight ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
+    rdfs:label "Die Antwortrufe und der, der sie gibt"@de,
+        "The answering calls and the one who gives them"@en ;
+    dcterms:source "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), p. 434" ;
+    skos:definition "The exclamations a listener throws in from time to time during the performance — an interjection of wonder, of course, certainly — for which the transmission has a word of its own, to give answering calls, and a participle naming the one who gives them."@en ;
+    skos:note "The Chukchee word is given twice on the page and the digitised copy used here damages it in both places, once as oTitkek for the verb and once as ocitkedm for the participle. The secondary literature reads the participle ocitkolin. What the reading here rests on is the English gloss, which is unambiguous, and not on the transcription."@en ;
+    pm:withinTradition pmt:ChukcheeShamanism .
 
 pmc:CizhongWuzang a pm:Cautioning ;
     rdfs:label "Der Treffer ins Depot: die Frist und das Zeichen"@de,
@@ -9505,6 +9863,197 @@ pmc:Nkisi a pm:Conceptualizing ;
     skos:note "Entered as a container and not as an object of worship because the corpus says so in as many words: there is held to be no idea of worship in the sacrifice made to one, and no prayers are offered with it. The Vili witness makes the same separation in his own terms, dividing the people who serve the charged figures from the priests of the sacred groves and holding that the old Portuguese took the first for the whole."@en,
         "The name is written nkisi by Weeks, nkixi in Bentley's dictionary of eighteen eighty-seven, and nkici with the plural zinkici by Dennett, who sets out his own orthography and warns that his x stands for a different sound than Bentley's. The identifier follows the form of the Lower Congo works."@en ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmc:NorseAsaOkAlfaSkil a pm:Conceptualizing ;
+    rdfs:label "Das Kennen der Unterschiede aller Asen und Alben"@de,
+        "Knowing the distinctions of all gods and elves"@en ;
+    dcterms:source "Hávamál 159 (Guðni Jónsson; 160 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The fourteenth song: if the speaker must tell over the gods before a company of men, he knows the distinctions of all the Æsir and elves; few unwise men know so."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseEggjarDeyfi a pm:Conceptualizing ;
+    rdfs:label "Das Stumpfen der Schneiden des Feindes"@de,
+        "Blunting the edges of the enemy"@en ;
+    dcterms:source "Hávamál 148 (Guðni Jónsson; 149 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The third song, for when there is great need of a fetter against foemen: the speaker blunts the edges of his adversaries, and neither weapon nor staff bites on them."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseFjarlaegLond a pm:Conceptualizing ;
+    rdfs:label "In einem Augenblick in ferne Länder fahren"@de,
+        "Going in one moment to far lands"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The capacity claimed for the shape-changing: to go in a single moment to distant lands, on one's own errands or on another man's, in the form of a bird, a beast, a fish or a serpent."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseFjoturrSprettr a pm:Conceptualizing ;
+    rdfs:label "Der Fessel springt von den Füßen"@de,
+        "The fetter springs from the feet"@en ;
+    dcterms:source "Hávamál 149 (Guðni Jónsson; 150 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The fourth song, for when men lay bonds on the speaker's limbs: he chants so that he may walk, the fetter springs from his feet and the shackle from his hands."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseGedOkGaman a pm:Conceptualizing ;
+    rdfs:label "Das Gewinnen des ganzen Sinnes und Vergnügens einer klugen Frau"@de,
+        "Winning the whole mind and pleasure of a wise woman"@en ;
+    dcterms:source "Hávamál 161 (Guðni Jónsson; 162 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The sixteenth song: if the speaker will have the whole mind and pleasure of a wise maid, he turns the thought of the white-armed woman and changes all her feeling."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHallaerisSpa a pm:Conceptualizing ;
+    rdfs:label "Die Teuerung währt nicht länger als diesen Winter"@de,
+        "The dearth will not last beyond this winter"@en ;
+    dcterms:source "Eirik the Red's Saga, chapter 4, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The prediction given after the song: that this dearth will not hold longer than through the winter and the season will better as spring comes, and that the sickness which has lain on them will also mend sooner than looked for."@en ;
+    skos:note "A prediction with a term in it, which is what separates it from the rest of the chapter. It names a season by which the change must have come and a comparison, sooner than expected, for the second half. Both could have failed within the year, in front of the household that heard them."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHatrBaett a pm:Conceptualizing ;
+    rdfs:label "Das Beilegen des Hasses unter den Fürstensöhnen"@de,
+        "Bettering hate among the sons of princes"@en ;
+    dcterms:source "Hávamál 153 (Guðni Jónsson; 154 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The eighth song, which the poem says it is useful for all to learn: wherever hate grows among the sons of a prince, the speaker can better it straightway."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHeilirHildar a pm:Conceptualizing ;
+    rdfs:label "Heil zur Schlacht und heil von ihr"@de,
+        "Whole to the battle and whole from it"@en ;
+    dcterms:source "Hávamál 156 (Guðni Jónsson; 157 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The eleventh song: if the speaker must lead old friends into battle, he chants under the shields, and they fare in power whole to the fight and whole from the fight, and come whole from wherever they go."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHjalp a pm:Conceptualizing ;
+    rdfs:label "Hilfe gegen Klagen und Sorgen"@de,
+        "Help against suits and sorrows"@en ;
+    dcterms:source "Hávamál 146 (Guðni Jónsson; 147 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The first song, called Help, which will help against suits and sorrows and every kind of grief. The stanza adds that the song is known neither to a king's wife nor to any man's son."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseLaeknar a pm:Conceptualizing ;
+    rdfs:label "Was die brauchen, die als Heiler leben wollen"@de,
+        "What those need who would live as leeches"@en ;
+    dcterms:source "Hávamál 147 (Guðni Jónsson; 148 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The second song, which the sons of men need who would live as leeches. The stanza states the need and not the effect, and is the only one of the eighteen that does so."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseMeinAftrSnuit a pm:Conceptualizing ;
+    rdfs:label "Das Übel frisst den Absender statt mich"@de,
+        "The harm eats the sender rather than me"@en ;
+    dcterms:source "Hávamál 151 (Guðni Jónsson; 152 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The sixth song: if a man wounds the speaker with the roots of a raw tree, the harm eats that man who called down hatred on him rather than the speaker."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSalrLogi a pm:Conceptualizing ;
+    rdfs:label "Das Löschen des Hallenbrandes über den Bankgenossen"@de,
+        "Quenching the hall-fire over the benchmates"@en ;
+    dcterms:source "Hávamál 152 (Guðni Jónsson; 153 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The seventh song: if the speaker sees a high flame over the hall of his benchmates, it does not burn so broad that he cannot save them; he knows that charm to chant."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeidrErgi a pm:Cautioning ;
+    rdfs:label "So viel ergi folgt der Kunst, dass Männer sie nicht ohne Schande ausüben konnten"@de,
+        "So much ergi goes with the craft that men could not use it without shame"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson",
+        "The Heimskringla, translated by Samuel Laing (London 1844), Ynglinga saga, chapter 7" ;
+    skos:definition "The caution Snorri attaches to the craft: with this sorcery, when it is performed, goes so much ergi that it did not seem to men without shame to deal with it, and the craft was taught to the priestesses."@en ;
+    skos:note "Laing renders ergi as weakness, which is too mild to carry the clause: the word denotes unmanliness in the sexually passive and dishonouring sense, which is why the consequence is shame and not incapacity. The German label keeps the Norse word for the same reason the identifier does."@en,
+        "The consequence named is social and not operative: not that the craft fails in a man's hands, but that a man cannot handle it skammlaust, without shame. What follows from it in the text is a redirection of the teaching and not a limit on the effect."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:cautionsAbout pmp:NorseSeidrIthrott ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeidrErgiStrittig a pm:Disputing ;
+    rdfs:label "Ob Männer die Kunst ausübten"@de,
+        "Whether men practised the craft"@en ;
+    dcterms:source "Snorri Sturluson, Haralds saga ins hárfagra, chapter 36, in Heimskringla, the normalised Old Norse text of Guðni Jónsson",
+        "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson",
+        "The Heimskringla, translated by Samuel Laing (London 1844), Ynglinga saga chapter 7 and Harald Harfager's saga chapter 36" ;
+    skos:note "The counter-search was carried against the caution and it came back full, from the same author and in part from the same chapter. Three passages tell against it. The sentence that introduces the craft says that Óðinn performed it himself, ok framdi sjálfr, immediately before the clause about shame. Two sentences after the clause, the same chapter says he taught most of his crafts to the blótgoðar, the sacrificing priests, who are men, and that they were next to him in all lore and sorcery. And Haralds saga ins hárfagra has male practitioners in the open: Rǫgnvaldr réttilbeini, the king's own son, learned sorcery and became a seiðmaðr on Haðaland, and Vitgeirr in Hǫrðaland answered the king's order to stop with a public verse saying it is small harm that we practise it, children of churls and of old women, when Rǫgnvaldr réttilbeini does, Haraldr's own son, on Haðaland."@en,
+        "The dispute is not resolved here and the two sides are not of the same kind. What the caution states is a norm; what the narratives show is the norm being broken and enforced, since the same chapter ends with Eiríkr burning his brother indoors together with eighty seiðmenn, and the deed much praised. A norm with a death penalty attached is evidence for the norm and not against it."@en,
+        "The part that is genuinely against the caution is Vitgeirr's answer, because he is not ashamed. He replies in verse, publicly, to a king, and his defence is not denial but comparison. That is a man treating the craft as ordinary and saying so where it could be heard."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:NorseSeidrErgi ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeidrOrlogOkUordna a pm:Conceptualizing ;
+    rdfs:label "Das Wissen um die Schicksale der Menschen und das noch nicht Geschehene"@de,
+        "Knowing men's fates and what has not come to pass"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson",
+        "The Heimskringla, translated by Samuel Laing (London 1844), Ynglinga saga, chapter 7" ;
+    skos:definition "What Snorri says the craft called seiðr gave: by it he could know the fates of men and things that had not yet happened, and also bring men death, misfortune or sickness, and take wit or strength from men and give it to others."@en ;
+    skos:note "Four capacities in one sentence and they fall into two kinds: knowing, and transferring. The second kind is the only place in this transmission where a quantity is said to be taken from one person and given to another."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeidrPresupposesVardlokkur a pm:Presupposing ;
+    rdfs:label "Der seiðr setzt einen zweiten Kundigen voraus, der das Lied kann"@de,
+        "The seiðr presupposes a second person who knows the song"@en ;
+    dcterms:source "Eirik the Red's Saga, chapter 4, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:note "The hostile frame strengthens rather than weakens the node. The same chapter has Guðríðr refuse at first because she is a Christian woman and has her father leave the house while such hindrvitni is practised. A recorder who disapproves has no reason to invent a condition that makes the proceeding depend on a Christian woman's help."@en,
+        "The load-bearing node of this file and the reason the work was opened. A practice whose outcome is stated to depend on a second, competent participant is rare, and this one names the failure twice: once as a condition asked for in advance and once as a report of what the spirits did before it was met."@en,
+        "The one who supplies the condition is not a practitioner. Guðríðr says outright that she is neither versed in magic nor a woman of knowledge, and she agrees only under pressure from her host and after being told she would be no worse a woman for it. What the condition requires is the song, not the office."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The seeress states the consequence in her own words after the fact: before the song, the spirits wished to part from us and to give us no obedience, and the things now plain to her were hidden. The narrative states it a second time by acting on it, since the séance halts and the whole farm is searched for anyone who knows the song."@en ;
+    pm:dependentStep pmc:NorseAudsynir ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:NorseVardlokkur ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseSeintFirrask a pm:Conceptualizing ;
+    rdfs:label "Die junge Maid wird mich nur langsam meiden"@de,
+        "The young maid will be slow to shun me"@en ;
+    dcterms:source "Hávamál 162 (Guðni Jónsson; 163 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The seventeenth song, that the young maid will be slow to shun him; to which the stanza adds that Loddfáfnir will long be in want of these songs, though they would be good for him if he got them, useful if he took them, needful if he received them."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseThjodrerisLjod a pm:Conceptualizing ;
+    rdfs:label "Kraft den Asen, Ruhm den Alben, Verstand dem Hroptatýr"@de,
+        "Might to the Æsir, fame to the elves, thought to Hroptatýr"@en ;
+    dcterms:source "Hávamál 160 (Guðni Jónsson; 161 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The fifteenth song, which the dwarf Þjóðrerir chanted before the doors of Delling: he chanted might to the Æsir, fame to the elves, and understanding to Hroptatýr."@en ;
+    skos:note "The only one of the eighteen attributed to a named singer other than the speaker, and the only one whose beneficiaries are not men."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseTunridurVillar a pm:Conceptualizing ;
+    rdfs:label "Das Irreführen der Zaunreiterinnen aus ihren eigenen Gestalten"@de,
+        "Sending the hedge-riders astray from their own shapes"@en ;
+    dcterms:source "Hávamál 155 (Guðni Jónsson; 156 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The tenth song: if the speaker sees hedge-riders playing aloft, he so works that they go astray from their own home-shapes and their own home-minds."@en ;
+    skos:note "The one song in the catalogue whose object is another practitioner in flight, and the only place in it where the poem names a state the counterpart must return to: a home-shape and a home-mind. The displacement is assumed and the harm is that the return fails."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseVardlokkur a pm:Conceptualizing ;
+    rdfs:label "Das Lied namens Varðlokkur"@de,
+        "The song called Varðlokkur"@en ;
+    dcterms:source "Eiríks saga rauða, chapter 4, in Hauksbók, AM 544 4to, in the diplomatic edition of Finnur Jónsson (Copenhagen 1892-1896)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The lore needed for the seiðr, called Varðlokkur, which the seeress asks for by name and which no woman on the place knows; Guðríðr has it from her foster-mother Halldís in Iceland and calls herself neither versed in magic nor a woman of knowledge."@en ;
+    skos:note "Hauksbók calls what Halldís taught a kvæði, a poem, and Skálholtsbók calls it fræði, lore. The difference matters for what is required of the second participant: a poem can be recited from memory, lore has to be understood."@en,
+        "Hauksbók writes Varðlokkvr with a double k, which is the reading verified here in the diplomatic print of Finnur Jónsson; Skálholtsbók is written varð lokr in two words and is normalised by its editor. The two spellings carry two derivations — from loka, to lock the spirits in, or from lokka, to entice them — and the narrative supports the second, since the spirits are said to have come to it."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseVatniVerpa a pm:Conceptualizing ;
+    rdfs:label "Der mit Wasser Besprengte fällt nicht in der Schlacht"@de,
+        "The man sprinkled with water does not fall in battle"@en ;
+    dcterms:source "Hávamál 158 (Guðni Jónsson; 159 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The thirteenth song: if the speaker must sprinkle a young man with water, he shall not fall though he come into the host, and that warrior shall not sink before swords."@en ;
+    skos:note "The one claim in the catalogue with an outcome that a later generation could check, because the man either falls in battle or does not. The sprinkling is done once and the protection is stated without a term."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseVindKyrring a pm:Conceptualizing ;
+    rdfs:label "Das Stillen des Windes und Einschläfern der See"@de,
+        "Stilling the wind and putting the sea to sleep"@en ;
+    dcterms:source "Hávamál 154 (Guðni Jónsson; 155 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The ninth song: if need presses the speaker to save his ship afloat, he stills the wind on the wave and puts the whole sea to sleep."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseVirgilnaMaelir a pm:Conceptualizing ;
+    rdfs:label "Der Gehenkte geht und spricht mit mir"@de,
+        "The hanged man walks and speaks with me"@en ;
+    dcterms:source "Hávamál 157 (Guðni Jónsson; 158 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The twelfth song: if the speaker sees a corpse of the gallows swinging up in a tree, he so cuts and colours in runes that the man walks and speaks with him."@en ;
+    skos:note "The only one of the eighteen that names the operation as well as the effect, and it is carving and colouring rather than singing. It is also the only one whose outcome is a report from a second party, which is what makes it the most examinable of the catalogue in principle and the least reachable in fact."@en ;
+    pm:withinTradition pmt:NorseSeidr .
 
 pmc:OccultaVidere a pm:Conceptualizing ;
     rdfs:label "Sehen, was sich verbirgt, und jeden sehen"@de,
@@ -10603,6 +11152,11 @@ pm:transientState a pm:AwarenessValue,
     skos:definition "The source has the condition pass of itself, so that it must be entered again rather than merely kept."@en ;
     skos:note "A capacity said to come and go is a different object of examination from one said to last: it is tested against frequency and occasion, not against a course of training."@en .
 
+pm:workOpened a pm:CoverageState ;
+    rdfs:label "Werk geöffnet"@de,
+        "Work opened"@en ;
+    skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
+
 pmp:Ailolo a pm:Practicing ;
     rdfs:label "Ailolo"@de,
         "Ailolo"@en ;
@@ -10672,6 +11226,16 @@ pmp:BengeTaboos a pm:Practicing ;
     skos:note "A man asked to operate who has not kept the sexual taboo says that he has eaten the first of the two vegetables, and everyone understands the euphemism. The source adds that he may use the same words when he simply does not want the work, which makes the phrase a refusal as well as a confession."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
+
+pmp:ChukcheeShamanisticPerformance a pm:Practicing ;
+    rdfs:label "Der Vollzug im geschlossenen Innenraum"@de,
+        "The performance in the closed inner room"@en ;
+    dcterms:source "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), pp. 433-434" ;
+    skos:definition "The proceeding after the evening meal: the kettles and trays are carried out, everyone who wishes to be present enters the inner room, which is closed for the night; the practitioner sits at the master's place by the back wall with free space left around him, goes over the drum and tightens its head, strips to the waist and often takes off shoes and stockings; the light is put out, and he beats the drum and sings tunes without words, at first low and then filling the room, using the drum to change the place his voice appears to come from, until after a quarter of an hour or more the spirits first appear."@en ;
+    skos:note "The darkness and the closed room are stated as conditions of the proceeding and not as atmosphere: the light is put out before the operating begins, and the recorder describes what the sound does to listeners who can no longer place its source."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Recorded by Waldemar Bogoras among the Reindeer and Maritime Chukchee of northeastern Siberia in the field of the Jesup North Pacific Expedition and published in English between 1904 and 1909; the speakers are not named at this place and the account is the recorder's own from attendance rather than a quoted informant; the Chukchee terms are carried in his transcription beside the English, and a separate volume of texts in the language stands beside the monograph."@en ;
+    pm:withinTradition pmt:ChukcheeShamanism .
 
 pmp:DreamDivination a pm:Practicing ;
     rdfs:label "Traumdivination"@de,
@@ -10932,6 +11496,24 @@ pmp:NkindaAEvata a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Bakongo of the Lower Congo at San Salvador and in the Ngombe Lutete district, mostly unnamed in this passage; recorded by the Baptist missionary John H. Weeks over some thirty years of residence, the book closed in 1913; given in Kikongo, of which the work prints the terms in the text while the accounts themselves are printed in English only." ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmp:NorseBidjaOkBlota a pm:Practicing ;
+    rdfs:label "Bitten und Opfern, Senden und Schlachten"@de,
+        "Asking and offering, sending and slaying"@en ;
+    dcterms:source "Hávamál 144 (Guðni Jónsson; 145 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The four operations the poem puts as questions in one stanza, beside carving, reading and colouring the runes: knowest thou how one shall ask, how one shall offer, how one shall send, how one shall slay."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmp:NorseHamskipti a pm:Practicing ;
+    rdfs:label "Der Gestaltwechsel, während der Leib wie schlafend daliegt"@de,
+        "Changing shapes while the body lies as if asleep"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson",
+        "The Heimskringla, or Chronicle of the Kings of Norway, translated by Samuel Laing (London 1844), Ynglinga saga, chapter 7" ;
+    skos:definition "The operation Snorri ascribes to Óðinn: he changed shapes, and then the body lay as if asleep or dead, while he himself was a bird or a beast, a fish or a serpent, and went in one moment to far lands on his own errands or those of other men."@en ;
+    skos:note "A third-party ascription and not a textual attestation of a practice: Snorri is writing in the thirteenth century about a figure he is euhemerising into a king, and the chapter is a catalogue of what the man is said to have known. What it reports is the tradition's claim about him and not an instruction anyone could follow."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:NorseSeidr .
 
 pmp:OfferingAndWoundBeforeTheDance a pm:Practicing ;
     rdfs:label "Die Gabe an die Sonne und die blutende Wunde"@de,
@@ -11277,6 +11859,20 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
     pm:withinTradition pmt:Theravada .
 
+pmc:ChukcheePresupposesAnsweringCalls a pm:Presupposing ;
+    rdfs:label "Der Vollzug setzt einen voraus, der antwortet"@de,
+        "The performance presupposes someone who answers"@en ;
+    dcterms:source "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), p. 434" ;
+    skos:note "The limit of the claim, and it is the difference from the North Atlantic case. What the recorder says is that the practitioner holds himself unable to perform properly. He does not say that the spirits stay away, and nothing here states an outcome the absence of the answerer would produce. The seeress in Greenland says exactly that, and this transmission does not."@en,
+        "What the passage adds beyond the rule is the behaviour that follows from it: novices learning the practice usually induce a brother or a sister to respond, so as to encourage the zeal of the performer. A rule that people arrange their households around is a rule that was in force, and the arrangement is reported without being asked for."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:consequenceOfSkipping "The recorder states it as an incapacity and not as a preference: without one who gives answering calls, a Chukchee shaman considers himself unable to perform his calling in a proper way. The sentence names the office, not the crowd."@en ;
+    pm:dependentStep pmp:ChukcheeShamanisticPerformance ;
+    pm:fieldRecord "Recorded by Waldemar Bogoras among the Reindeer and Maritime Chukchee of northeastern Siberia in the field of the Jesup North Pacific Expedition and published in English between 1904 and 1909; the statement is given as what a Chukchee shaman considers, without a named speaker, in the recorder's English with the Chukchee term beside it."@en ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:ChukcheeAnsweringCalls ;
+    pm:withinTradition pmt:ChukcheeShamanism .
+
 pmc:ClaviculaOperatioYieldsImperium a pm:Yielding ;
     rdfs:label "Die Operation im Kreis bringt hervor, dass die Geister erscheinen und gehorchen"@de,
         "The operation of the circle brings the spirits to appear and obey"@en ;
@@ -11522,6 +12118,30 @@ pmc:NeidanShengtaiCapacity a pm:Conceptualizing ;
     skos:definition "A body said to form within the practitioner as the work proceeds, described in the preface as flesh and bone growing clear, the skin becoming transparent, substance arising where there was none, and the embryo-breath congealing until the infant shows its form; and in the twentieth quatrain as a child born after one year who rides the crane out through the upper cinnabar field."@en ;
     pm:withinTradition pmt:Neidan .
 
+pmc:NorseAudsynir a pm:Conceptualizing ;
+    rdfs:label "Was verborgen war, wird offenbar"@de,
+        "Things become plain that were hidden"@en ;
+    dcterms:source "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The effect the seeress states after the song: many spirits have now come to it and thought it fair to hear, who before wished to part from us and give us no obedience, and many things are now plain to her that were hidden before, and many others besides."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseFleinnStodvadr a pm:Conceptualizing ;
+    rdfs:label "Das Anhalten des fliegenden Schaftes"@de,
+        "Staying the shaft in flight"@en ;
+    dcterms:source "Hávamál 150 (Guðni Jónsson; 151 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The fifth song: if the speaker sees a shaft shot in malice flying into the host, it does not fly so hard that he cannot stay it, provided he sees it with his eyes."@en ;
+    skos:note "The condition of sight is stated in the stanza itself and is the sharpest failing condition in the catalogue: the song does not work on what is not seen. It is entered as its own prerequisite below."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmc:NorseHamskiptiYieldsFjarlaegLond a pm:Yielding ;
+    rdfs:label "Der Gestaltwechsel trägt ihn in ferne Länder"@de,
+        "The shape-changing carries him to far lands"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:NorseHamskipti ;
+    pm:withinTradition pmt:NorseSeidr ;
+    pm:yieldsCapacity pmc:NorseFjarlaegLond .
+
 pmc:OphiteSymbolumOstensum a pm:Conceptualizing ;
     rdfs:label "Was der Sprechende ans Tor mitbringt"@de,
         "What the speaker brings to the gate"@en ;
@@ -11751,13 +12371,6 @@ pm:presentationOrder a pm:PrerequisiteStrength ;
         "Presentation order"@en ;
     skos:definition "The source only presents the material in a sequence. Any necessity is the reader's, and belongs to whoever read it that way."@en .
 
-pm:sleepThreshold a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Schlafschwelle"@de,
-        "Sleep threshold"@en ;
-    skos:definition "The passage between waking and sleeping in either direction, in which the sensory channel is partly detached and the body may already be immobile while awareness continues."@en ;
-    skos:note "Set this where the source describes the condition rather than the clock: sleep departing and waking beginning, an inability to move, a luminosity at the moment of falling asleep. The holdings already carry the finding that this state is well attested as a place of reception and not as a place where a faculty is exercised; see convergences/threshold-of-sleep.ttl."@en .
-
 pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     rdfs:label "Die Oration der Heilkunst, vor dem Kranken gesprochen"@de,
         "The oration of the physical art said before the sick"@en ;
@@ -11889,6 +12502,25 @@ pmp:NeidanZhengyanXingchi a pm:Practicing ;
     dcterms:source "Zhong-Lü chuandao ji, Lun zhengyan 18, in the Chongkan Daozang jiyao recension (JY 149), juan 3, fol. 55a" ;
     skos:definition "The course the corpus sets out as twelve numbered methods in three vehicles, from the matching of yin and yang through the gathering and dispersing of water and fire, the coupling of dragon and tiger, the firing of the medicine, the flying of the metal essence up the spine, the two returns and the two refinings of the form, the refining of breath at the court of the origin, the exchange in inner observation, to the shedding and division of the form."@en ;
     pm:withinTradition pmt:Neidan .
+
+pmp:NorseFremjaSeidinn a pm:Practicing ;
+    rdfs:label "Das Vollziehen des seiðr vom Gerüst"@de,
+        "Performing the seiðr from the platform"@en ;
+    dcterms:source "Eirik the Red's Saga, chapter 4, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, chapter 4, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The proceeding at Þorkell's farm in Greenland in a year of dearth: the seeress is fetched and seated on a high seat with a cushion stuffed with hen's feathers; she comes in a blue mantle set with stones to the hem, glass beads at her neck, a black lambskin hood lined with white catskin, a staff with a knob mounted in brass and set with stones, a belt of touchwood carrying a great pouch in which she keeps the charms she needs for her knowledge, shaggy calfskin shoes with long thongs and great tin knobs, and catskin gloves white and furred within; she is given porridge of kid's milk and the hearts of every kind of beast on the place; on the following evening the gear she needs is set up for her, the women strike a ring about the platform and she sits upon it, and the song is sung."@en ;
+    skos:note "The belt is a hnjóskulindi, a belt of touchwood with the pouch on it, and not a belt with a tinder-box. Sephton renders it a girdle of soft hair and Vigfusson a girdle of puff-balls; Reeves has touch-wood, which is the word. The divergence is noted because the object is regularly listed in secondary accounts from the weaker translations."@en,
+        "The platform is a hjallr in the text of Guðni Jónsson, which follows Hauksbók; the compound seiðhjallr, the word usually quoted for it, is the reading of Skálholtsbók. The Hauksbók line is the one read here and the plain word is what it gives."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NorseSeidr .
+
+pmp:NorseSeidrIthrott a pm:Practicing ;
+    rdfs:label "Die Kunst, die seiðr heißt"@de,
+        "The craft called seiðr"@en ;
+    dcterms:source "Snorri Sturluson, Ynglinga saga, chapter 7, in Heimskringla, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The craft Snorri names as the one with which the greatest power went and which Óðinn performed himself, called seiðr, taught by him to the priestesses and, in the same chapter, most of his crafts to the sacrificing priests."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:NorseSeidr .
 
 pmp:ShangqingAnmo a pm:Practicing ;
     rdfs:label "Die Reibeordnung"@de,
@@ -12108,6 +12740,13 @@ pmc:Maqamat a pm:Conceptualizing ;
     skos:definition "Stages of the path attained by effort and held by the one who reaches them, enumerated in the handbooks in a set order."@en ;
     pm:withinTradition pmt:Sufism .
 
+pmc:NorseRunarUppNema a pm:Conceptualizing ;
+    rdfs:label "Das Aufnehmen der Runen"@de,
+        "Taking up the runes"@en ;
+    dcterms:source "Hávamál 139 and 141 (Guðni Jónsson; 140 and 142 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The acquisition claimed for the hanging: the runes are taken up from below, and with them, in the stanzas that follow, a thriving and a growing wise in which word sought word for him and work sought work."@en ;
+    pm:withinTradition pmt:NorseSeidr .
+
 pmc:OphiteTransitusLiber a pm:Conceptualizing ;
     rdfs:label "Freier Durchgang durch das Reich eines Herrschers"@de,
         "Free passage through the realm of a ruler"@en ;
@@ -12215,10 +12854,12 @@ pm:outwardWaking a pm:AwarenessValue,
     skos:definition "Awareness turned to the senses and to the world they report, with the body in ordinary use."@en ;
     skos:note "Set this where the source has the act performed openly, in the world, among others: an invocation spoken aloud, a divination read off an object, a healing performed by touch. The Māṇḍūkya calls this jāgrat."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
+pm:sleepThreshold a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Schlafschwelle"@de,
+        "Sleep threshold"@en ;
+    skos:definition "The passage between waking and sleeping in either direction, in which the sensory channel is partly detached and the body may already be immobile while awareness continues."@en ;
+    skos:note "Set this where the source describes the condition rather than the clock: sleep departing and waking beginning, an inability to move, a luminosity at the moment of falling asleep. The holdings already carry the finding that this state is well attested as a place of reception and not as a place where a faculty is exercised; see convergences/threshold-of-sleep.ttl."@en .
 
 pmp:Anapanasati a pm:Practicing ;
     rdfs:label "Ānāpānasati"@de,
@@ -12246,6 +12887,15 @@ pmp:Evocation a pm:Practicing ;
     skos:definition "The putting of questions to a spirit through a medium. The founder makes the form of the question part of the operation: it is to be clear, precise and put in a logical order, and the answer given depends on how it was asked."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
+
+pmp:NorseHangaAVindgaMeidi a pm:Practicing ;
+    rdfs:label "Das Hängen am windigen Baum"@de,
+        "Hanging on the windy tree"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 139-140",
+        "Hávamál 138-139 (Guðni Jónsson; 139-140 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "Hanging nine whole nights on a windy tree, wounded with a spear and given to Óðinn, oneself to oneself, on the tree of which no man knows from what roots it runs; then peering down and taking up the runes, taking them up screaming, and falling back from there."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:NorseSeidr .
 
 pmp:PgmIvSpiritusTractus a pm:Practicing ;
     rdfs:label "Atem aus den Strahlen ziehen, dreimal so tief wie möglich"@de,
@@ -12411,16 +13061,16 @@ pm:casesWithDeviation a pm:ExaminationState ;
         "Cases with deviation"@en ;
     skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pm:ownAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
     rdfs:label "Eigene Trägerschaft"@de,
         "Own agency"@en ;
     skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmp:ArsNotoriaOratio a pm:Practicing ;
     rdfs:label "Das Sprechen der Orationen"@de,
@@ -12468,6 +13118,18 @@ pmp:ShangqingFushi a pm:Practicing ;
     dcterms:source "Tao Hongjing, Zhen'gao 10.4a-10.4b (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile, juan 10" ;
     skos:definition "The compounding and taking of prepared substances: atractylodes boiled down with honey and dates, sesame oil rendered with leek, mineral preparations taken by the knife-point measure. The corpus gives quantities, sequences of steps, daily doses and a graded timetable of effects, and it gives beside them the conditions under which the same drug is said to do nothing."@en ;
     pm:withinTradition pmt:Shangqing .
+
+pmt:ChukcheeShamanism a pm:Tradition ;
+    rdfs:label "Tschuktschische Schamanenüberlieferung"@de,
+        "Chukchee shamanic transmission"@en ;
+    dcterms:source "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Leiden: E. J. Brill, 1904-1909), pp. 433-435" ;
+    skos:definition "The northeastern Siberian transmission of a performance held in a closed and darkened sleeping-room, in which the practitioner drums and sings without words until the spirits appear, and in which a second person present answers him."@en ;
+    skos:note "Registered and worked in the same act, which SPEC §14 allows and which is stated here rather than glossed over: a registration claims only that the transmission exists and where it lies, and this file goes past that for three pages and no further."@en,
+        "The contact route is entered as documented and toward one transmission this graph already holds. The recorder states that the use of unmixed tobacco as a stimulant before the performance is copied from the Tungus shamans, and pmt:SiberianShamanism is the Tungus file. That is a route in the material and not a geographical guess; it does not touch the North Atlantic question, for which no route of any kind is known in either direction."@en,
+        "The lie of the corpus. One recorder, working in the field of the Jesup North Pacific Expedition around the turn of the twentieth century among the Reindeer and the Maritime Chukchee, publishing in English with the Chukchee terms in his own transcription and with a separate volume of texts in the language. He is the first fixation in writing of what he reports, which is what makes him a witness here and not a secondary summary; what he is not is a chorus, and a second recorder would be worth more than a second reading of him."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:workOpened ;
+    pm:principalCorpus "Waldemar Bogoras, The Chukchee, Memoir of the American Museum of Natural History vol. VII (Jesup North Pacific Expedition vol. 7), Leiden and New York 1904-1909; Bogoras, Chukchee Materials" .
 
 pmt:Hesychasm a pm:Tradition ;
     rdfs:label "Hesychasmus"@de,
@@ -12549,13 +13211,6 @@ pm:SearchOutcome a owl:Class,
     skos:definition "What a carried search returned. Four outcomes, of which three are findings about the corpus and one is a finding about access to it."@en ;
     skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
     pm:scaleFamily pm:recordScale .
-
-pm:displacedLocus a pm:AwarenessLocus,
-        pm:AwarenessValue ;
-    rdfs:label "Verlagert"@de,
-        "Displaced"@en ;
-    skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
-    skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
 
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
@@ -12649,6 +13304,13 @@ pm:counterSearchFoundOpposition a pm:CounterSearchState ;
         "Counter-search found opposition"@en ;
     skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
+pm:displacedLocus a pm:AwarenessLocus,
+        pm:AwarenessValue ;
+    rdfs:label "Verlagert"@de,
+        "Displaced"@en ;
+    skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
+    skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
+
 pm:recordScale a pm:ScaleFamily ;
     rdfs:label "Aufzeichnungsskala"@de,
         "Record scale"@en ;
@@ -12709,11 +13371,6 @@ pm:searchFoundNothing a pm:SearchOutcome ;
         "Search found nothing"@en ;
     skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
         "Subject axis"@en ;
@@ -12768,6 +13425,11 @@ pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
         "Counter-search not carried"@en ;
     skos:definition "No attempt has been made to find work that contradicts, fails to replicate, or supersedes the evidence cited."@en .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmt:FourthWay a pm:Tradition ;
     rdfs:label "Der Vierte Weg"@de,
@@ -13135,15 +13797,15 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+pmp:NorseLjodatal a pm:Practicing ;
+    rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
+        "Knowing and singing the eighteen songs"@en ;
+    dcterms:source "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Hovamol 147-165",
+        "Hávamál 146-163 (Guðni Jónsson; 147-165 in Bellows), in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The operation the catalogue reports without giving its content: the speaker knows a song and, at need, sings, chants or carves. Three of the eighteen add a condition to the singing — that the flying shaft be seen with the eyes, that the runes be cut for the hanged man, that the young man be sprinkled with water — and the remaining fifteen state the knowing alone."@en ;
+    skos:note "That the words are withheld is the transmission's own arrangement and not a loss in the manuscript. The poem says at the end of the catalogue that all is better which one alone knows, and it names an addressee, Loddfáfnir, who is told the effects and not the songs."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:withinTradition pmt:NorseSeidr .
 
 pmt:MayaRitual a pm:Tradition ;
     rdfs:label "Maya-Ritualüberlieferung"@de,
@@ -13156,6 +13818,16 @@ pmt:MayaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
@@ -13235,14 +13907,10 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -13262,6 +13930,15 @@ pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -13345,16 +14022,6 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
 
-pm:fieldAttestation a pm:Attesting ;
-    rdfs:label "Feldzeugnis"@de,
-        "Field attestation"@en ;
-    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
-    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
-        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
-        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
-        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
-        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
-
 pmt:LakotaRitual a pm:Tradition ;
     rdfs:label "Lakota-Ritualüberlieferung"@de,
         "Lakota ritual transmission"@en ;
@@ -13383,6 +14050,16 @@ pmt:OphiteGnosis a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
+
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
@@ -13413,10 +14090,10 @@ pmt:ChineseMedicalCanon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing; Huangfu Mi, Zhenjiu jiayi jing; Yang Shangshan, Huangdi neijing taisu" .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
@@ -13425,27 +14102,20 @@ pm:Disputing a owl:Class ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
-pm:Situating a owl:Class ;
-    rdfs:label "Verorten"@de,
-        "Situating"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
-    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
@@ -13456,10 +14126,33 @@ pmt:Enochic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
 
+pm:Situating a owl:Class ;
+    rdfs:label "Verorten"@de,
+        "Situating"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
+    skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
+pmt:NorseSeidr a pm:Tradition ;
+    rdfs:label "Altnordische Ritualüberlieferung"@de,
+        "Old Norse ritual transmission"@en ;
+    dcterms:source "Eirik the Red's Saga, translated by J. Sephton (Liverpool: D. Marples, 1880)",
+        "Eiríks saga rauða, in Íslendinga sögur, the normalised Old Norse text of Guðni Jónsson",
+        "Henry Adams Bellows, The Poetic Edda (New York: American-Scandinavian Foundation, 1923), Scandinavian Classics XXI-XXII",
+        "Hávamál, in Eddukvæði. Sæmundar-Edda, the normalised Old Norse text of Guðni Jónsson",
+        "Snorri Sturluson, Ynglinga saga and Haralds saga ins hárfagra, in Heimskringla, the normalised Old Norse text of Guðni Jónsson" ;
+    skos:definition "The Norse transmission of runic and sung operations and of a divinatory practice performed from a raised seat with a stated arrangement of singers and questioners."@en ;
+    skos:note "The eighteen songs of the Ljóðatal are the reason this transmission was opened rather than any other on the register. They are a numbered list of effects, one to a stanza, given without the words of the songs themselves, and the numbering is the poem's own: I know a first, I know a second, and so to the eighteenth. Every one of them is entered below."@en,
+        "The recording hand is Christian and says so. Eiríks saga rauða has Guðríðr refuse at first because she is a Christian woman, and calls the proceeding hindrvitni, superstition, in the mouth of her father. The narrator frames the séance and does not delete it, which is what makes it usable: a hostile recorder has no motive to invent the condition that the séance fails without the song."@en,
+        "The texts were read in the normalised Old Norse of Guðni Jónsson for all three works, in its electronic reproduction, and the readings were checked against the diplomatic print of Hauksbók by Finnur Jónsson and against two English translations. The stanza numbering of the Hávamál nodes is Guðni Jónsson's, which is also Finnur Jónsson's and Evans's: Rúnatal at one hundred and thirty-eight to one hundred and forty-five, Ljóðatal at one hundred and forty-six to one hundred and sixty-three. Bellows numbers them one hundred and thirty-nine to one hundred and forty-six and one hundred and forty-seven to one hundred and sixty-five, because he moves the closing stanza forward with Müllenhoff. Both numbers stand in every source line below, so that a reader with either edition finds the place."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Hávamál; Grímnismál; Snorri, Ynglinga saga; Eiríks saga rauða" .
 
 pmt:Shangqing a pm:Tradition ;
     rdfs:label "Shangqing"@de,
@@ -13482,13 +14175,6 @@ pm:Testing a owl:Class ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
-pm:Yielding a owl:Class ;
-    rdfs:label "Hervorbringen"@de,
-        "Yielding"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
-    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -13501,6 +14187,13 @@ pm:compilerInference a pm:Attesting ;
         "Compiler inference"@en ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
+pm:Yielding a owl:Class ;
+    rdfs:label "Hervorbringen"@de,
+        "Yielding"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a named practice produces a named capacity."@en ;
+    skos:note "Held as a node and not as an edge for the same reason pm:Attributing is: only a node can carry its own source, its own mode of attestation, and a protocol that tries to fail it. A bare edge would make every such claim look alike, whatever it rests on, and would leave nothing for pm:Testing to point at. The question of which capacities a practice actually develops is answerable only where the pairing itself is addressable."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
