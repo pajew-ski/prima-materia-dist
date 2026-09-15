@@ -316,6 +316,94 @@ pmc:AscentPresupposesTheRungs a pm:Presupposing ;
     pm:priorStep pmc:BeautyOfOneBody ;
     pm:withinTradition pmt:Platonic .
 
+pmc:AsipuAnointingYieldsProtection a pm:Yielding ;
+    rdfs:label "Die Salbung hält Schaden vom Beschwörer ab"@de,
+        "The anointing keeps harm from the exorcist"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 30-31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsipuRamanaPasasu ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsipuMimmaLemnuLaTehi .
+
+pmc:AsipuCautionAgainstUnprotectedApproach a pm:Cautioning ;
+    rdfs:label "Nicht ungeschützt zum Kranken gehen"@de,
+        "Do not go to the patient unprotected"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 29-31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:note "A caution that a transmission addresses to its own operator rather than to the person operated on, and one that names what it protects against by list. The list is the same list of demons the incantations of the series drive away from the patient, which makes the exorcist, for the length of the visit, a second patient."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:AsipuLemnuAnaAsipiTehu ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuLearnsTheRitesByDivineDecision a pm:Conceptualizing ;
+    rdfs:label "Die Götter beschlossen, dass er ihre Riten lernen solle"@de,
+        "The gods decided that he should learn their rituals"@en ;
+    dcterms:source "Udug-hul 12: 39 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The claim the twelfth tablet puts in the speaker's mouth: they decided about me that I should learn their rituals and their ways."@en ;
+    skos:note "Acquisition and gift stand in one sentence and neither cancels the other: the learning is his and the decision that he should learn is not. That is a shape the holding's axes cannot yet place, because the acquisition axis asks whether the source presents the state as earned or as given and this source presents it as both, at two different levels. The node is entered without an axis placement rather than forced onto one; no placement is a different record from a placement on the not-stated value, and here the source does state something."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuMashultuppuYieldsRemoval a pm:Yielding ;
+    rdfs:label "Der Sündenbock trägt das Übel fort"@de,
+        "The scapegoat carries the evil away"@en ;
+    dcterms:source "Udug-hul 12: 77-112 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsipuMashultuppu ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsipuLemnuIntoTheNetherworld .
+
+pmc:AsipuSelfProtectionBeforeApproach a pm:Presupposing ;
+    rdfs:label "Die Salbung geht dem Herantreten voraus"@de,
+        "The anointing comes before the approach"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 29-31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:note "The strength is set at stated necessity and the reason for the doubt is recorded rather than hidden. The text gives a purpose clause and not a threat: anoint yourself, so that nothing bad will approach you. The consequence of omission is therefore the contrapositive of what stands written and not a sentence of the transmission, and a later reader who holds that this is one step short of a stated necessity would be arguing about the same words and not about a missing reading. What tips it is the rubric immediately above, which names the harm by list and by name; a purpose clause backed by a named harm says what is at stake if the step is left out."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The ritual states the anointing as what secures that nothing bad approaches the exorcist when he approaches the patient; what is claimed for the omission is therefore that the demons of the rubric — Sheriff and Bailiff demon, epilepsy, the accessory to evil, the Alu-demon, the falling illness — approach him instead."@en ;
+    pm:dependentStep pmp:AsipuAnaMarsiTehu ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:AsipuRamanaPasasu ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuSpellOnSelfBeforeApproach a pm:Presupposing ;
+    rdfs:label "Die Selbstbeschwörung geht dem Herantreten voraus"@de,
+        "The spell on oneself comes before the approach"@en ;
+    dcterms:source "Sakikku (diagnostic series) Tablet 2, colophon (R. Labat, Traite akkadien de diagnostics et pronostics medicaux, Paris and Leiden 1951, pp. 18-19 n. 27)" ;
+    skos:note "Prescribed order and not stated necessity, although the wording is the sharper of the two: it is a prohibition and not a recommendation. What it lacks is the consequence. The colophon says you should not approach, and says nothing about what befalls the one who does; the ritual of the Assur tablet, which is weaker in form, is the one that names the harm. The pair is worth keeping side by side for that reason, because it shows that the firmness of a wording and the presence of a stated consequence vary independently in one and the same craft."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:dependentStep pmp:AsipuAnaMarsiTehu ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:AsipuSiptaAnaRamaniNadu ;
+    pm:readVia "M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (BAM 8, Boston/Berlin: De Gruyter 2016), p. 40" ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsiputuLamaduYieldsIsipputu a pm:Yielding ;
+    rdfs:label "Das Studium bringt die Beherrschung des Reinigungskorpus hervor"@de,
+        "The study yields mastery of the corpus of purification"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 36 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsiputuLamadu ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsiputuIskaruMasmassuti .
+
+pmc:AsiputuMasteryBeforeJudgement a pm:Presupposing ;
+    rdfs:label "Das Korpus wird beherrscht, bevor die Ansichten gewogen werden"@de,
+        "The corpus is mastered before the views are weighed"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 36-37 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    skos:note "The order is given by the word afterwards standing at the head of the second stage, and by the clause until you master the entire corpus closing the first. No consequence is stated for taking the second stage first, so the strength stays at prescribed order; what the manual does state, at the end, is the reward for completing both, namely that the protective deity establish the student and that his name be mentioned forever."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:AsiputuSitulti ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:AsiputuLamadu ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsiputuSitultiYieldsMithurtu a pm:Yielding ;
+    rdfs:label "Die zweite Stufe bringt das Wägen widerstreitender Ansichten hervor"@de,
+        "The second stage yields the weighing of conflicting views"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 37-40 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsiputuSitulti ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsiputuMithurtu .
+
 pmc:AtharvanMedha a pm:Conceptualizing ;
     rdfs:label "Die Weisheit, zuerst gerufen und gebeten einzutreten"@de,
         "Wisdom called first, and asked to enter"@en ;
@@ -818,16 +906,6 @@ pmc:ClaviculaScotDisputatio a pm:Disputing ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:ClaviculaOperatioYieldsImperium .
 
-pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
-    rdfs:label "Die Zeichen, an denen das Kommen der Geister angesagt wird"@de,
-        "The signs by which the coming of the spirits is announced"@en ;
-    dcterms:source "Clavicula Salomonis, Book II chapters XIII and I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
-    skos:definition "The book tells the operator in advance what he will perceive. When the pentacles are shown to each quarter, there shall be noises and rushings. The manner of coming is said to differ by the substance the spirits were created from: those of fire come always with great noise and with the terrible nature of fire; those of water with great rains, thunder, hail, lightning and thunderbolts; those of clouds with great deformity, in a horrible form, to strike fear into the invocator; those of wind with exceeding swift motion; those of air with a kind of gentle breeze; those of solar vapours in a very beautiful and excellent form but filled with pride and vanity. The master is to exhort the companions beforehand that they shall behold kings of kings and emperors of emperors with a great crowd of followers and all sorts of musical instruments, and that nothing should be feared."@en ;
-    skos:note "Entered under the separate count that SPEC §15 requires for signs of success, and this is the case the rule was made for. The signs are announced to the participants by name before the session and include the whole range of weather and noise a night in the open can supply. Read as evidence they can only confirm; the reason they are here is that a transmission which announces its signs in advance is a fact about the transmission."@en,
-        "Mathers notes that the chapter carrying the noises and rushings and the speech of the emperor of the spirits is given in Add. 10862 alone."@en,
-        "The count for this work: one sign of success against no condition of failure. Against the six kinds of appearance and the promised noises and rushings, the chapters read state not one observation that would show an operation had not worked. Every non-occurrence is assigned by pmc:ClaviculaDefectusOperantis or pmc:ClaviculaCausaeNonAdventus before it can become one."@en ;
-    pm:withinTradition pmt:SolomonicGrimoire .
-
 pmc:ClaviculaSociorumPericulum a pm:Cautioning ;
     rdfs:label "Der Schüler, der nicht gehorcht, leidet und stirbt zuweilen"@de,
         "The disciple who disobeys suffers, and sometimes dies"@en ;
@@ -973,15 +1051,6 @@ pmc:ConsultationPresupposesTaboos a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:BengeTaboos ;
     pm:withinTradition pmt:AzandeOracle .
-
-pmc:ContestOfTwoNoaidi a pm:Conceptualizing ;
-    rdfs:label "Der Wettstreit zweier Praktiker"@de,
-        "The contest of two practitioners"@en ;
-    dcterms:source "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, p. 477" ;
-    skos:definition "When two noaidi wished to know which of them excelled the other in the art, they painted on a drum two reindeer striking each other with their horns, and he whose reindeer had the victory was the better."@en ;
-    skos:note "A procedure with a stated criterion, applied by practitioners to practitioners, with an outcome that could fall either way and that neither controls. Nothing else in this file, and very little in this graph, has that shape."@en,
-        "What the source does not say is how the victory of a painted reindeer is determined — whether by the ring, by the movement of the drum, or otherwise. Without that the procedure cannot be reconstructed, only recorded, and no protocol node is written on it."@en ;
-    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:ConvergingDescentAcquires a pm:Converging ;
     rdfs:label "Was die Seele trägt, wurde beim Abstieg aufgenommen"@de,
@@ -1331,6 +1400,17 @@ pmc:Dvadasanta a pm:Conceptualizing ;
     skos:note "The count itself fluctuates. What is verse 50 in the numbering used here appears as 51 in other editions, and the following verse shifts with it. A reader working from a different edition should expect the two verses cited here to sit one number further on."@en,
         "Two things this node deliberately does not say. It does not fix the unit: the base text says end-of-twelve, and the reading that makes this twelve finger-breadths from the tip of the nose belongs to the commentarial layer, not to the verse. And it does not fix the place: the exegesis of Lakṣmaṇjoo counts several such limits in the body, at the crown, the brows, the throat, the base of the heart and the navel, and the verse that follows says outright that it may be reached in any manner and in any place. Nothing here yields a fixed radius. See prima-materia#38."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:EaAndMardukInstructTheExorcist a pm:Attributing ;
+    rdfs:label "Ea unterwies den Beschwörer und legte ihm die Beschwörung in den Mund"@de,
+        "Ea instructed the exorcist and put the incantation in his mouth"@en ;
+    dcterms:source "KAR 31 (VAT 8803) obv. 1-4 and rev. 26; Udug-hul 8: 25-26 and 30-31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, pp. 38-40)" ;
+    skos:note "Stated by the exorcist about himself, in the first person, inside the text he recites: I am the messenger of the great gods, Ea and Marduk have instructed me comprehensively, I orally render their pure incantation, I carry out the words they say. The eighth tablet has him say it of himself in the same words and then name the transfer exactly: the great lord Ea has sent me and made his incantation acceptable for my mouth."@en,
+        "The ascription is to a god and the attesting mode is textual and not third-party, because what was read is the passage in which the claim stands and not a report that somebody made it. Whether the office was in fact instructed by Ea is not a question this graph can put; that the transmission grounds the office there rather than in a lineage of teachers is."@en ;
+    pm:ascribedCapacity pmc:AsipuKapirigEridu ;
+    pm:ascribedTo pmc:Ea ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:EighthHogonTeaching a pm:Attributing ;
     rdfs:label "Der achte Häuptling lehrte die Menschen die Merkmale des Sterns"@de,
@@ -2592,14 +2672,6 @@ pmc:InnerHeatFromBreathAndDirectedAttention a pm:Generalizing ;
         pmc:TummoYieldsInnerHeat ;
     pm:generalizedStatement "Practices that combine a retained or forcefully driven breath with attention directed to a named region of the trunk raise the practitioner's measured peripheral temperature above what the same person shows at rest under the same ambient conditions, and by more than the breathing alone produces in a person not trained in the practice."@en .
 
-pmc:InuitForkSignOfSurvival a pm:Conceptualizing ;
-    rdfs:label "Das an der Gabel gelesene Zeichen"@de,
-        "The sign read from the fork"@en ;
-    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 24" ;
-    skos:definition "The stated reading of the divination: if the fork falls the sick person will die, if it stays upright she will live. In the case related the fork settled upright and the sick child lived."@en ;
-    skos:note "Entered because the sign is stated in advance and in both directions, which is rare in the material this graph holds. A divination that names its own failure condition before the outcome is known is examinable; one that is interpreted afterwards is not. The single case related is of course selected by the narrator's survival."@en ;
-    pm:withinTradition pmt:InuitAngakkuq .
-
 pmc:InuitHelpingSpirits a pm:Conceptualizing ;
     rdfs:label "Hilfsgeister"@de,
         "Helping spirits"@en ;
@@ -3206,6 +3278,17 @@ pmc:MaqamatAreByEffort a pm:Situating ;
     pm:axisValue pm:byEffort ;
     pm:situatedNode pmc:Maqamat ;
     pm:situationGround "The handbooks describe these as attained by effort and enumerated in a set order. The order is why prerequisite claims are found here and not at the other end of the axis."@en .
+
+pmc:Marduk a pm:Naming ;
+    rdfs:label "Marduk"@de,
+        "Marduk"@en ;
+    dcterms:source "Udug-hul 8: 26; KAR 31 (VAT 8803) obv. 2 and rev. 26 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:altLabel "Asalluhi"@en ;
+    skos:definition "The god who in the recurring dialogue of the series asks Ea what is to be done and is told to go and do it, and whose part the exorcist takes when he performs the instructed rite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:nameForm "Marduk" ;
+    pm:nameRole "the god sent by Ea to carry out the rite, and the one in whose role the exorcist acts" ;
+    pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:MayaAjSignExamination a pm:Testing ;
     rdfs:label "Das gepflanzte Rohr als Meldung eines Todes andernorts"@de,
@@ -4790,15 +4873,6 @@ pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     pm:priorStep pmc:EmptyingOfTheHeart ;
     pm:withinTradition pmt:Daoist .
 
-pmc:QizhiYouxiao a pm:Conceptualizing ;
-    rdfs:label "Das Ankommen des Qi und das zurückgewiesene Zeichen"@de,
-        "The arrival of the qi, and the sign that is refused"@en ;
-    dcterms:source "Huangdi neijing lingshu 9 (Zhong shi), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2" ;
-    skos:definition "The Lingshu states what it means for the qi to have arrived and to have had effect, and states it as a rule over the vessel and not over the patient. Where the operation drained, the vessel is to be as large as before but no longer hard; if it is hard as before, then although the patient says it is as it was, the illness has not gone. Where the operation supplemented, the vessel is to be as large as before and harder; if it is as before and not hard, then although the patient says he feels relieved, the illness has not gone. The chapter closes the rule from the other side: even where the pain does not follow the needle, the illness must be in retreat."@en ;
-    skos:note "The reason for entering this rather than the many other success signs in the corpus. A success sign told to the practised beforehand is worth little, because he will report it; this passage names such a report and refuses it twice over, in the same sentence in which it gives the criterion that replaces it. The corpus therefore holds a stated distinction between what a patient says and what counts as the operation having taken, and the distinction runs against the interest of the operator."@en,
-        "What the passage does not supply is a way of reading the vessel that two examiners would read alike. The criterion is hardness under the finger, which is why this is entered as a sign the tradition names and not as a procedure the graph can use."@en ;
-    pm:withinTradition pmt:ChineseMedicalCanon .
-
 pmc:QuestionDEpreuve a pm:Conceptualizing ;
     rdfs:label "Die Prüfungsfrage"@de,
         "The test question"@en ;
@@ -5917,6 +5991,29 @@ pmc:TestingTheMarkedAnimals a pm:Testing ;
     pm:protocolUpdated "2026-09-03"^^xsd:date ;
     pm:tests pmc:TungusMarkedAnimals .
 
+pmc:TheCriterionNoPartyControls a pm:Generalizing ;
+    rdfs:label "Wo keine Partei den Ausgang bestimmen kann, werden beide Seiten des Kriteriums genannt"@de,
+        "Where no party can fix the outcome, both sides of the criterion are stated"@en ;
+    skos:note "Falsified by a transmission that fixes the judgement of a performance to an event no party can produce at will and states the success side alone — a divination whose text says what the favourable fall means and is silent on the unfavourable one, an ordeal that names the sign of guilt and not the sign of innocence. Falsified in the other direction by a set of announced signs of verification that states, in the same passage, what the absence of a sign would show about the work. Weakened, without being refuted, if the seven turn out to be selected by the reading: five of the six transmissions entered the holding through ethnographic corpora, and a recorder who found a stated criterion interesting is a plausible filter on what got written down."@en,
+        "Its second pass removed a stronger clause that the holding refutes: that a transmission stating both sides is one that abides by the verdict. The ordeal tree says otherwise in the same passage that supplies the witness. The recorder states that although the omens may be in favour of the accused the ordeal-giver proceeds all the same, that the results are not infrequently quite contrary to the omens, and that the belief is unaffected by the discrepancy. Two-sidedness is therefore a property of the wording and not of the practice, and the statement above claims only the wording. That limit is the most useful thing in this node, because it marks exactly how far a reader may carry a criterion found in a text."@en,
+        "The counter-search was run against the compiled holding before this was written, and its first pass removed the word public from the statement. The criterion of the Lingshu is the hardness of a vessel under a finger, which is not public and is read by one person, and the criterion of the drum contest is the victory of a painted reindeer, which the source does not say how anybody determined. What the seven share is not that a bystander could check them but that nobody who has an interest in the outcome can produce the event; that is a weaker property and it is the one the witnesses actually carry."@en,
+        "The seven witnesses of the first clause, and what each of them fixes the judgement to. The fork of the Iglulik divination falls or stands: if it falls the sick person will die, if it stays upright she will live, and the reading is given before the fork is dropped. The kite spirit of the Manchu clan history eats the liver of an ox and the shaman must then leave his assistant; if he falls down without being able to keep on his legs, the sacrifice counts as rejected. The two Sámi practitioners who wish to know which of them excels paint two reindeer striking each other on a drum, and he whose reindeer has the victory is the better. The needling chapter of the Lingshu states what it is for the qi to have arrived as a rule over the vessel and then refuses the patient's own report twice in the same sentence: although he says it is as it was, although he says he feels relieved, the illness has not gone. The prohibition chapter of the Suwen pairs each depot with an interval and a bodily sign, so that a man struck in the heart who is alive on the third day is not covered by the sentence. The ordeal-giver of the Lower Congo cuts the tree with a formula that names both outcomes, the blade bending if the accused is a witch and entering if he is not. And the Zande poison oracle requires a second fowl told what the first answer was, which must come out the opposite way."@en,
+        "The spread, stated so that the count of predecessors does not overstate it. Seven witnesses for the first clause, but the Lingshu and the Suwen are one transmission, so the count of transmissions is six: Iglulik Inuit, Manchu-Tungus, Sámi, the Chinese medical canon, Lower Congo and Zande. No route has been proposed between the first, the third, the fourth, the fifth and the sixth, which makes this the widest spread in this directory. The two witnesses of the second clause are a Latin grimoire and a Chinese internal alchemy, between which no route has been proposed either. The wide spread is the reason the statement is worth having and is also its own warning: a form that turns up in six unconnected places is a candidate for a structural necessity of the thing rather than for a shared insight, and SPEC §14 names that as one of the three sources of agreement independence does not protect against."@en,
+        "Untested. No pm:Testing points here, which is the state and not an omission; the queue it belongs to is derivable from the absence and is not to be written down. What a protocol would have to do first is name the population, and that is the hard part: the unit is a transmission and not a case, so the denominator is the set of transmissions that fix a judgement to an uncontrollable event, which nobody has enumerated."@en,
+        "What the search did not find, and this is what makes the first clause a claim rather than an observation. No transmission in the holding fixes a judgement to an event outside every party's control and then names only the success side. Nine candidates were read at the node and none of them does; four are named here: the maiden's declaration decided by a snake states that the challenger loses if he refuses the same test; the Andean confession test states that the confession is void and must be made again; the Māori hair-cutting names the cut scalp as the detector of a breach nobody admitted; the Sámi journey states an upper bound of twenty-four hours as well as the rule that the time tracks the distance. If a case exists it will be a plain refutation, and a reader who has one needs nothing from this graph to bring it."@en,
+        "What the two witnesses of the second clause do instead, and why they are in the same node rather than in a file of their own. The Solomonic book tells the operator in advance what he will perceive when the pentacles are shown — noises and rushings, and six manners of coming sorted by the substance the spirits were made from, from great rains and thunderbolts to a gentle breeze. The internal alchemy announces its signs of verification in order, each introduced as coming next after the one before. Both are events nobody can produce at will either; a night in the open supplies weather, and a body under a regimen supplies sensations. What separates them from the seven is not controllability but that they are announced to the participant beforehand, and neither states what would have to appear for the work to have failed. The clause is in the statement because without it the first clause would be a remark about a handful of cases instead of a claim about a division."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CizhongWuzang,
+        pmc:ClaviculaSignaAdventus,
+        pmc:ContestOfTwoNoaidi,
+        pmc:InuitForkSignOfSurvival,
+        pmc:NeidanZhengyan,
+        pmc:QizhiYouxiao,
+        pmc:TungusSacrificeRejected,
+        pmp:BengeCorroborativeTest,
+        pmp:NkasaTreeCutting ;
+    pm:generalizedStatement "Where a transmission fixes the judgement of a single performance to a physical event that neither the operator nor the person operated on can produce at will, it states what the event would have to be for the performance to have failed and not only what it would be for the performance to have succeeded; where the criterion is instead an appearance announced to the participants before the session, the transmission states the success side alone."@en .
+
 pmc:TheEatersOfMen a pm:Conceptualizing ;
     rdfs:label "Die Menschenesser"@de,
         "The eaters of men"@en ;
@@ -6308,14 +6405,6 @@ pmc:TungusOriginTestimony a pm:Conceptualizing ;
         "What he holds the older complex to have contained is reported with the same care: only the spirit of heaven, buga, which he says shows no direct sign of alien influence and is recognised by all Tungus as their own, and the managing of the souls of the dead. The Birarcen are quoted saying that before, the Tungus had only buga and buni. He then argues against his own inference, that other complexes may have been lost and forgotten, and calls the scepticism perhaps too great."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
-pmc:TungusSacrificeRejected a pm:Conceptualizing ;
-    rdfs:label "Das Zeichen des zurückgewiesenen Opfers"@de,
-        "The sign that a sacrifice was refused"@en ;
-    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, Case 2, p. 347" ;
-    skos:definition "In the Manchu clan history recorded by the author, the kite spirit is said to be able to eat the whole liver of an ox. After eating, the shaman must leave his assistant; if he falls down without being able to keep on his legs, the sacrifice is considered as rejected by the spirit."@en ;
-    skos:note "A condition of failure with a physical criterion, stated in advance, decidable on the spot by everyone present, and not in the performer's gift. Very little in this graph has that shape, and it is the reason the passage is entered although it stands inside a narrative."@en ;
-    pm:withinTradition pmt:SiberianShamanism .
-
 pmc:TungusShamanCannotHunt a pm:Conceptualizing ;
     rdfs:label "Amt und Jagd schließen einander aus"@de,
         "The office and the hunt exclude each other"@en ;
@@ -6399,6 +6488,23 @@ pmc:UbbegaPiti a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "The fourth of the five degrees of rapture, described as strong enough to lift the body."@en ;
     pm:withinTradition pmt:Theravada .
+
+pmc:UdughulPatientNotNamed a pm:Conceptualizing ;
+    rdfs:label "Der Kranke der Serie ist keine Person"@de,
+        "The patient of the series is not a person"@en ;
+    dcterms:source "Udug-hul, form of address throughout the series, with the exception of the appendix to Tablet 1 and of Tablet 16 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The form in which the series refers to the sick throughout: the man, son of his god, with no place where a name is to be inserted."@en ;
+    skos:note "The contrast is drawn inside the edition read and is a matter of the wording on both sides. The apotropaic rituals of the other kind write So-and-so, son of So-and-so, at the place where the reciter was to say the name of the person in front of him. The sixteen tablets of this series do not, with the exception of an appendix to the first and of the sixteenth, where the sick man is the king. A formula with no slot for a name is a formula that was not addressed to a case, and whether it was ever recited over one is a question the series does not answer about itself."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:UdughulProhibitionsAddressTheDemon a pm:Conceptualizing ;
+    rdfs:label "Die Verbote der Serie richten sich an den Dämon"@de,
+        "The prohibitions of the series are addressed to the demon"@en ;
+    dcterms:source "Udug-hul 4: 179-189', with the duplicates at 5: 69-74 and 6: 181'-187'; 6: 31-33; 9: 56', 94 and 111 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The form every prohibition in the series takes: it is spoken to the demon and not to the operator or the patient. You must not place your head upon his head; you must not touch him with your hand; you must not enter the house with him; you must not lean out of the window to him; you must not look behind you; you must not blow in with the wind and heat towards him."@en ;
+    skos:note "Read off the wording of every occurrence in the series and not from a statement about it. The prohibitions were searched for across all sixteen tablets in the edition read; each one found stands in the second person addressed to a demon, and none is addressed to the person carrying out the rite. What the operator must do and must not do is therefore stated nowhere inside the series and only in the appended ritual of an Assur tablet and in a colophon of the diagnostic series, both entered above."@en,
+        "The consequence for examination is worth stating beside the observation, because this is the point at which the two halves of this transmission come apart. A prohibition addressed to a demon cannot be obeyed or broken by anybody whose conduct could be observed, so no case can be assigned to a breach of it. The prohibitions addressed to the exorcist can be, and there are two of them in the whole of what was read."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:UnchosenSendingProtocol a pm:Testing ;
     rdfs:label "Ob der ungewählte Zustand übergeht"@de,
@@ -7521,6 +7627,23 @@ pmp:ArsNotoriaSexPredictionExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-07" ;
     pm:tests pmc:ArsNotoriaOratioYieldsSexusInfantis .
 
+pmp:AsipuEruKakku a pm:Practicing ;
+    rdfs:label "Das Halten des e'ru-Szepters und des Dattelpalmwedels"@de,
+        "Holding the e'ru-wood sceptre and the date-palm frond"@en ;
+    dcterms:source "Udug-hul 3: 66 and 152-154 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "Holding in the hand, during the recitation, the mighty e'ru-wood sceptre of Anu, together with the plans of Ea and the date-palm frond of the major rituals."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsipuSuluhSebisu a pm:Practicing ;
+    rdfs:label "Siebenmaliges Reinigen des Kranken mit Flusswasser"@de,
+        "Cleansing the patient seven times with river water"@en ;
+    dcterms:source "Udug-hul 1: 39' (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "Purifying and cleansing the patient seven times over with a hand-washing rite of water, namely with water of the Tigris and water of the Euphrates."@en ;
+    skos:note "A counted repetition with a named number and named material, which is the shape a later run can compare against the counted thresholds the holding carries elsewhere. Nothing in the passage says what follows if the count is short."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
 pmp:AtharvanRecitationFaultSearch a pm:Searching ;
     rdfs:label "Ob die Atharvaveda-Saṃhitā einen Rezitationsfehler zur Ursache eines misslungenen Zaubers macht"@de,
         "Whether the Atharvaveda Saṃhitā makes a faulty recitation the cause of a failed charm"@en ;
@@ -8171,16 +8294,6 @@ pmp:NeidanMuyu a pm:Practicing ;
     skos:definition "The pause in the fire, prescribed at two points of the cycle, during which the heat is to be withheld; the corpus states that adding fire at that point overturns the work."@en ;
     pm:withinTradition pmt:Neidan .
 
-pmp:NkasaTreeCutting a pm:Practicing ;
-    rdfs:label "Das Schlagen des Ordalbaums, mit Formel und Zeichen"@de,
-        "The cutting of the ordeal tree, with its formula and its sign"@en ;
-    dcterms:source "John H. Weeks, Among the Primitive Bakongo (London: Seeley, Service and Co., 1914), p. 262" ;
-    skos:definition "The tree is never cut for any other purpose, and only the ordeal-giver may cut it, using a set formula: that if the person for whom he is cutting is really a witch the blade should bend at the stroke, and if he is not, the blade should enter and the wind stop blowing. The corpus adds the reading of the sign in the world: the air is often quite still for two or three hours before a storm, and that stillness is credited to someone, somewhere, cutting the ordeal tree."@en ;
-    skos:note "Two conditions of failure are stated here before the ordeal begins, and the corpus then records what is done with them. The recorder states that although the omens may be in favour of the accused the ordeal-giver proceeds all the same, that the results are not infrequently quite contrary to the omens, and that the belief is unaffected by the discrepancy. A sign that is read, contradicted and kept is a different thing from a sign that is never tested, and the file holds it as the first."@en ;
-    pm:attestedBy pm:fieldAttestation ;
-    pm:fieldRecord "Spoken by Bakongo of the Lower Congo, unnamed in this passage; recorded by the Baptist missionary John H. Weeks over some thirty years of residence, the book closed in 1913; given in Kikongo, of which the work prints the terms while the accounts are printed in English only." ;
-    pm:withinTradition pmt:KongoNkisi .
-
 pmp:NotoryArtOneMonthExamination a pm:Testing ;
     rdfs:label "Ob die Wissenschaften binnen des genannten Monats eintreffen"@de,
         "Whether the sciences arrive within the month the art names"@en ;
@@ -8377,6 +8490,19 @@ pmp:Sitkari a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
+pmp:TermForAPromisedOutcomeSearch a pm:Searching ;
+    rdfs:label "Ob eine Überlieferung, die einen Nutzen zu einer Frist verspricht, sagt, was bei Fristablauf geschieht"@de,
+        "Whether a transmission that promises a benefit by a term says what happens at the term"@en ;
+    dcterms:date "2026-09-15" ;
+    skos:note "The lesson of the search is the one SPEC §16 draws and is worth repeating from a second case. The candidate was formed while reading the class its examples came from, and the class that refutes it — the promises of the outer alchemy and of the notory art — was elsewhere and cost one query. Reading the class the evidence comes from does not count as reading the holding."@en,
+        "Two nodes in the holding refute the candidate outright and a third weakens it. The nine elixirs of the outer alchemy each carry a term and each carries the benefit at that term: the first is made in thirty-six days and in seven days one is an immortal; the second acts in a hundred days; the eighth acts on the day it is taken. That is a promised outcome with a stated term and no persevering. The notory art promises that whoever says the orations at the appointed times profits in all the sciences within one month, which is why the holding already carries a protocol on it with a falsifying condition written out. The Sámi journey states an upper bound of twenty-four hours on the time the practitioner lies still, whatever the distance, which is a term with an outcome of a third kind. The candidate is therefore false as stated and was not written."@en,
+        "What survives of it is smaller and is not a generalization. The mesmeric manual does name two terms and does state no outcome at either — five days before one may presume the operation does not act, nearly a month for the case of no effect at all — and the holding's own nodes say why: the sentence after the number replaces the criterion, and the paragraph after the month removes the only case that could end the treatment quickly. That is a statement about one transmission, and one transmission is not a generalization. It is left where it already stands, at the nodes themselves."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Query over the merged graph for definitions containing: within a month; in one month; thirty days; twenty-four hour; in three days; seven days; nine days; hundred days; a year and. Then each hit read at its node. The candidate's own side was drawn from pmc:PresqueUnMois, pmc:CinqJoursAvantDePresumer and pmc:MaidenDeclarationDecidedByASnake, each of which names a term and states no outcome at it; the harm side from pmc:CizhongWuzang and pmc:JingmaiQijue." ;
+    pm:searchedBy "prima-materia, 2026-09-15" ;
+    pm:searchedCorpus "The compiled holding of prima-materia as of main at e2a66ae, all directories, queried over the merged graph" ;
+    pm:searchedFor "The counter-case to a candidate generalization: that where a transmission fixes a term to an outcome it promises, it states how long to persevere and not what follows if the term passes, while a term fixed to an outcome it does not want — an injury, a death — carries a stated outcome at the term. The counter-case would be a transmission that promises a benefit by a named term and states the outcome at that term." .
+
 pmp:TestingProhibitionExamination a pm:Testing ;
     rdfs:label "Ob Überlieferungen, die eine Auskunft aus einem Verfahren beziehen, die prüfende Frage verbieten"@de,
         "Whether transmissions obtaining an answer from a procedure forbid the testing question"@en ;
@@ -8401,6 +8527,32 @@ pmp:Tzite a pm:Practicing ;
     skos:note "The same procedure survives in the highlands as the office of the ajq'ij, the daykeeper who counts tzite seeds. The colonial spellings tzite and tzité and the modern tz'ite' stand for one word and one seed of the coral tree; a search under only one of them misses most of the literature."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:MayaRitual .
+
+pmp:UdughulFailureConditionSearch a pm:Searching ;
+    rdfs:label "Ob die kanonische Dämonenserie eine Misslingensbedingung nennt"@de,
+        "Whether the canonical evil-demon series names a condition of failure"@en ;
+    dcterms:date "2026-09-15" ;
+    skos:note "One interval was found and it is not a term: the twelfth tablet has an operation persist for one day and the scapegoat drawn to the body in the evening. A duration prescribed for an act is not a deadline after which the act counts as failed, and the difference is the whole of what this search was for."@en,
+        "The reading of the must not occurrences is the part of this search worth keeping, and it became a node of its own at pmc:UdughulProhibitionsAddressTheDemon. A prohibition spoken to a demon cannot be obeyed or broken by anyone whose conduct could be observed, so no case can ever be assigned to a breach of it. The series therefore has prohibitions in quantity and none that bears on whether a performance was correct."@en,
+        "The two conditions the craft does put on its operator were found outside the series and are entered at the tradition: the ritual appended to an Assur tablet, which has the exorcist anoint himself before approaching, and the colophon of the second tablet of the diagnostic series, which forbids approaching before the spell has been cast on oneself. Both protect the exorcist and neither says anything about whether the treatment took."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-volume search of the English translation and apparatus, in both the spaced and the unspaced normalisation, for: in vain; no avail; without success; fruitless; ineffective; has no effect; does not work; if it does not; if he does not; fail; failure; unsuccessful; repeat the ritual; repeat the incantation; recite it again; a second time; twice more; if the demon returns; returns again. Zero hits for every term except a second time, which occurs twice, both times in the editor's notes on manuscript duplication and not in a rite. Separately, every occurrence of must not in the volume was read in context: all of them are addressed to the demon and none to the operator or the patient." ;
+    pm:searchedBy "prima-materia, 2026-09-15" ;
+    pm:searchedCorpus "Udug-hul / Utukku Lemnutu, all sixteen canonical tablets in the complete critical edition with English translation: M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (BAM 8, Boston/Berlin: De Gruyter 2016), searched over the whole volume in the open-access full text" ;
+    pm:searchedFor "A place at which the series says what it would look like for one of its rites not to have worked: a sign of non-effect, a term after which nothing further is to be expected, an instruction to repeat because the first attempt did not take, or a named fault in the performance that voids it. Anything, that is, from which a pm:falsifiedBy could be formed." .
+
+pmp:UdughulPrognosisSearch a pm:Searching ;
+    rdfs:label "Ob die kanonische Dämonenserie eine Prognose stellt"@de,
+        "Whether the canonical evil-demon series states a prognosis"@en ;
+    dcterms:date "2026-09-15" ;
+    skos:note "Its weight is the weight of the terms and of one translation. Everything searched was English: a prognosis phrased in the Akkadian of the partitur without an English rendering beside it would not have been caught, and neither would one the editor rendered in wording nobody would search for. The negative is entered at that strength and not above it."@en,
+        "The finding is a silence and a sharp one, because the same craft has a prognostic corpus and this series is not it. The diagnostic series, redacted inside this tradition and attributed to a named editor, consists of little else than statements of the form he will recover and he will die. The two stand in one curriculum, listed one after another in the exorcist's manual. What the search establishes is that the prediction lives in one of the two and not in the other, so that the craft's examinable half and its operative half are different texts."@en,
+        "What the search does not cover, and it is the more important gap: the diagnostic series itself was not opened. Its standard edition and its modern re-edition are both print-only for this workstation, and only the catalogue of the series is open access. The silence recorded here is the silence of the incantation series, never of the craft."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-volume search of the English translation and apparatus for: recover; he will live; he will die; will get well; get well; be well; become well; well again; convalesce; survive; restore to health; third day; seventh day; on the third; after three days; prognosis; apodosis; death of the patient. Each term was run twice, once over the text normalised to letters and spaces and once over the text with all spacing removed, because the full text loses word boundaries in places and renders some capitals as lower-case letters, so that a search on a spaced form alone would report a silence that belongs to the scan. Three hits for be well, none of them a prediction; two for prognosis, both in the editor's own discussion of the diagnostic series; zero for every other term, in both passes." ;
+    pm:searchedBy "prima-materia, 2026-09-15" ;
+    pm:searchedCorpus "Udug-hul / Utukku Lemnutu, all sixteen canonical tablets in the complete critical edition with English translation: M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (BAM 8, Boston/Berlin: De Gruyter 2016), 729 pages, searched over the whole volume in the open-access full text" ;
+    pm:searchedFor "A place in the series at which the outcome of an affliction or of a treatment is predicted: that the patient will recover, that he will live, that he will die, or that either will happen by a stated day. This is the form the diagnostic series of the same craft is built out of, and the question is whether the incantation series carries it too." .
 
 pmp:Ujjayi a pm:Practicing ;
     rdfs:label "Ujjāyī"@de,
@@ -9021,15 +9173,6 @@ pmt:Manichaean a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Kephalaia; Cologne Mani Codex; the Coptic psalms and the Turfan fragments" .
 
-pmt:MesopotamianExorcism a pm:Tradition ;
-    rdfs:label "Mesopotamische Beschwörungskunst"@de,
-        "Mesopotamian exorcistic craft"@en ;
-    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
-    skos:note "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
-
 pmt:ModernVipassana a pm:Tradition ;
     rdfs:label "Moderne Vipassanā-Bewegung"@de,
         "Modern vipassanā movement"@en ;
@@ -9526,6 +9669,57 @@ pmc:AscentThroughEachCentre a pm:Conceptualizing ;
     skos:note "The two phrases that carry this are praticakram, at each centre, and kramāt kramam, step by step. Recorded because it settles two questions at once. It gives a body measure in the base text, three fists for the upward reach, where a modern draft gives an arm's length; and it makes the passage through several centres a single exercise, where the same draft allows one centre per session and calls a change of centre a break. See prima-materia#38 and prima-materia#40."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:AsipuKapirigEridu a pm:Conceptualizing ;
+    rdfs:label "Der Beschwörer von Eridu, dessen Mund gereinigt ist"@de,
+        "The exorcist of Eridu whose mouth is cleansed"@en ;
+    dcterms:source "Udug-hul 3: 124-126 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:altLabel "KA.PIRIG"@en,
+        "asipu"@en ;
+    skos:definition "The office the speaker of the third tablet claims for himself in the first person: the incantation priest who heals the land, the chief exorcist who walks about the city, the exorcist of Eridu whose mouth is cleansed."@en ;
+    skos:note "The cleansed mouth is a qualification and not a metaphor here: the manuscripts vary between the cleansed hand and the cleansed mouth, and the same variation runs through the rubrics of the mouth-washing ritual, which is itself listed in the exorcist's manual as one of the compositions to be learned. What the office is therefore defined by, in its own words, is a completed procedure performed on the operator."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuLemnuAnaAsipiTehu a pm:Conceptualizing ;
+    rdfs:label "Was den Kranken befällt, kann den Beschwörer treffen"@de,
+        "What afflicts the patient may come upon the exorcist"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 29, rubric (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:definition "The danger the rubric of the Assur incantation names: that the Sheriff-demon, the Bailiff-demon, epilepsy, the accessory-to-evil demon, the Alu-demon, the falling illness and whatever else of the kind should approach the exorcist himself."@en ;
+    skos:note "The claim is about the practitioner and not about the patient, and it is the reason the craft has a procedure performed on the operator before any procedure is performed on the sick. It is also the only respect in which this transmission makes its own operation hazardous: nothing read here says that a failed treatment harms the patient further."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuLemnuIntoTheNetherworld a pm:Conceptualizing ;
+    rdfs:label "Das mit dem Fell hinabgetragene Übel"@de,
+        "The evil carried down with the hide"@en ;
+    dcterms:source "Udug-hul 12: 108-112 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The outcome claimed for carrying off the hide: that Whatever Evil be removed into the Netherworld, that the enormous be turned into the trivial, and that the evil Alu-demon inflicted on the man be taken into the Netherworld."@en ;
+    skos:note "The transfer is stated as a wish throughout and never as a report. Every clause of the passage is precative, and the goat that is to hold the evil is asked not to be released from the patient's head. A transmission that states its own outcome in the optative has said nothing that a case could contradict, and that observation belongs beside the passage rather than in a protocol, because it is a property of the wording."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuMimmaLemnuLaTehi a pm:Conceptualizing ;
+    rdfs:label "Dem gesalbten Beschwörer naht nichts Böses"@de,
+        "Nothing bad approaches the anointed exorcist"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:definition "The outcome the ritual states for the anointing: that when he approaches the patient, nothing bad will approach him."@en ;
+    skos:note "Stated without reservation and without a condition on the operator's state, his worthiness or the will of a god. The only condition in the sentence is that the anointing come first."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsiputuIskaruMasmassuti a pm:Conceptualizing ;
+    rdfs:label "Das Korpus der Beschwörungskunst, vollständig benannt"@de,
+        "The corpus of exorcism, named in its entirety"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 1-35 (M. J. Geller, 'The Exorcist's Manual (KAR 44)', in U. Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, Berlin and Boston: De Gruyter 2018, pp. 296-302)" ;
+    skos:definition "What the manual presents itself as: the incipits of the exorcism compositions, established for recensions and for reading, named in their entirety. The list runs from the brick-laying and mouth-washing rituals through the prayer genres, the diagnostic and physiognomic omen series, the incantation series including the evil-demon series and the burning series, the rituals of the bath house and the house of enclosures, the spells for undoing witchcraft and a broken oath, to the treatises on paralysis, palsy and the afflictions named Hand of the god, Hand of the goddess and Hand of a ghost."@en ;
+    skos:note "A transmission that publishes its own syllabus and claims completeness for it. Four centuries and four cities are represented in the manuscripts of this one tablet — Assur in the seventh century, Sippar, Babylon in the fourth, Uruk at the end of the fifth — so the claim was not the property of one library."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsiputuMithurtu a pm:Conceptualizing ;
+    rdfs:label "Das Erwägen der widerstreitenden Ansichten"@de,
+        "Considering the conflicting views"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 40 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    skos:altLabel "mithurtu"@en ;
+    skos:definition "The capacity the manual places at the end of the whole curriculum and after everything else has been understood: to think through and weigh the views that conflict."@en ;
+    skos:note "The last thing the craft asks of its own practitioners is not a power and not a purity but a judgement between disagreeing authorities, and it is placed after mastery rather than before it. The holding has no second transmission that ends its syllabus this way, and that is the reason the node is entered separately from the practice it belongs to rather than folded into its definition."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
 pmc:Astrology a pm:Conceptualizing ;
     rdfs:label "Astrologie"@de,
         "Astrology"@en ;
@@ -9676,16 +9870,6 @@ pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
     skos:note "The Chukchee word is given twice on the page and the digitised copy used here damages it in both places, once as oTitkek for the verb and once as ocitkedm for the participle. The secondary literature reads the participle ocitkolin. What the reading here rests on is the English gloss, which is unambiguous, and not on the transcription."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
-pmc:CizhongWuzang a pm:Cautioning ;
-    rdfs:label "Der Treffer ins Depot: die Frist und das Zeichen"@de,
-        "Striking a depot: the interval and the sign"@en ;
-    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
-    skos:definition "A needle driven into one of the depots is said to kill after a stated interval, and each interval is paired with a bodily sign by which the strike is to be recognised. The heart: death in one day, the movement belching. The liver: five days, speech. The kidney: six days, sneezing. The lung: three days, coughing. The spleen: ten days, swallowing. The gall bladder: a day and a half, vomiting. The same chapter continues with strikes that maim rather than kill and names the outcome for each: into the brain through the occipital opening, death on the spot; the vessel in the face, blindness; the marrow between the vertebrae, a bent back; the knee cap, lameness; the arm's great yin vessel, immediate death from loss of blood."@en ;
-    skos:note "Entered because of the form and not the content. This is a claim that names an outcome it excludes: a person struck in the heart who is alive on the third day is not covered by any weaker reading of the sentence, and the sign attached to each interval says what the strike is supposed to look like while the interval runs. Very little in this graph is stated that way."@en,
-        "The intervals are not stable across the witnesses, and the transmitted text says so about itself. That is held in the dispute node below rather than in this definition, which gives the numbers as the recension read prints them."@en ;
-    pm:cautionsAbout pmp:Cizhen ;
-    pm:withinTradition pmt:ChineseMedicalCanon .
-
 pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
     rdfs:label "Die Genauigkeit von Tagen und Stunden ist für Adepten nicht nötig"@de,
         "The exactness of days and hours is not necessary for adepts"@en ;
@@ -9741,6 +9925,16 @@ pmc:ClaviculaImperiumSpirituum a pm:Conceptualizing ;
     skos:note "Nothing in the chapters read limits what may be asked. The one restriction the text places is on the conditions of asking, never on the content of the request, and that is a difference from the transmissions in this holding that bound a petition to a class of subject matter."@en ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
+pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
+    rdfs:label "Die Zeichen, an denen das Kommen der Geister angesagt wird"@de,
+        "The signs by which the coming of the spirits is announced"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapters XIII and I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The book tells the operator in advance what he will perceive. When the pentacles are shown to each quarter, there shall be noises and rushings. The manner of coming is said to differ by the substance the spirits were created from: those of fire come always with great noise and with the terrible nature of fire; those of water with great rains, thunder, hail, lightning and thunderbolts; those of clouds with great deformity, in a horrible form, to strike fear into the invocator; those of wind with exceeding swift motion; those of air with a kind of gentle breeze; those of solar vapours in a very beautiful and excellent form but filled with pride and vanity. The master is to exhort the companions beforehand that they shall behold kings of kings and emperors of emperors with a great crowd of followers and all sorts of musical instruments, and that nothing should be feared."@en ;
+    skos:note "Entered under the separate count that SPEC §15 requires for signs of success, and this is the case the rule was made for. The signs are announced to the participants by name before the session and include the whole range of weather and noise a night in the open can supply. Read as evidence they can only confirm; the reason they are here is that a transmission which announces its signs in advance is a fact about the transmission."@en,
+        "Mathers notes that the chapter carrying the noises and rushings and the speech of the emperor of the spirits is given in Add. 10862 alone."@en,
+        "The count for this work: one sign of success against no condition of failure. Against the six kinds of appearance and the promised noises and rushings, the chapters read state not one observation that would show an operation had not worked. Every non-occurrence is assigned by pmc:ClaviculaDefectusOperantis or pmc:ClaviculaCausaeNonAdventus before it can become one."@en ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
 pmc:CommunicationFromTheSun a pm:Conceptualizing ;
     rdfs:label "Eine Mitteilung von der Sonne"@de,
         "A communication from the Sun"@en ;
@@ -9772,6 +9966,15 @@ pmc:Constellations a pm:Conceptualizing ;
     dcterms:source "1 Enoch 8:3 (Ethiopic; Charles 1912)" ;
     skos:definition "Knowledge of the fixed groupings of stars."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:ContestOfTwoNoaidi a pm:Conceptualizing ;
+    rdfs:label "Der Wettstreit zweier Praktiker"@de,
+        "The contest of two practitioners"@en ;
+    dcterms:source "Knud Leem, An Account of the Laplanders of Finmark, in John Pinkerton (ed.), A General Collection of the Best and Most Interesting Voyages and Travels, vol. I (London: Longman, Hurst, Rees and Orme, 1808), chap. XXI, p. 477" ;
+    skos:definition "When two noaidi wished to know which of them excelled the other in the art, they painted on a drum two reindeer striking each other with their horns, and he whose reindeer had the victory was the better."@en ;
+    skos:note "A procedure with a stated criterion, applied by practitioners to practitioners, with an outcome that could fall either way and that neither controls. Nothing else in this file, and very little in this graph, has that shape."@en,
+        "What the source does not say is how the victory of a painted reindeer is determined — whether by the ring, by the movement of the drum, or otherwise. Without that the procedure cannot be reconstructed, only recorded, and no protocol node is written on it."@en ;
+    pm:withinTradition pmt:SamiNoaidi .
 
 pmc:CoolingAndQuenching a pm:Conceptualizing ;
     rdfs:label "Kühlung und das Stillen von Hunger und Durst"@de,
@@ -9856,6 +10059,17 @@ pmc:Dujian a pm:Conceptualizing ;
     skos:definition "The corpus is asked what it means by spirit and answers with a description of a perception that precedes the senses. The ear does not hear; the eye is bright and the heart opens and the intent goes first; he understands alone and clearly and the mouth cannot say it; all look and he alone sees; it is as though dark, and he alone is bright, as when wind blows the clouds away. The chapter sets this against the corresponding account of form, where what is sought is found by asking after the illness and searching it in the vessels."@en ;
     skos:note "Entered because it is the clearest statement in this corpus that a capacity of the practitioner is meant and not a technique. It is also the least examinable: the passage says in the same breath that the mouth cannot say it, so nothing in the description could be set against an outcome."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:Ea a pm:Naming ;
+    rdfs:label "Ea"@de,
+        "Ea"@en ;
+    dcterms:source "Udug-hul 3: 152 and 8: 25-26, 30-31; KAR 31 (VAT 8803) obv. 1-4 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:altLabel "Enki"@en ;
+    skos:definition "The god named in the series as the one whose plans the exorcist holds, whose incantation is placed in the exorcist's mouth, and who instructs Marduk in the recurring dialogue that introduces the rituals."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:nameForm "Ea" ;
+    pm:nameRole "the god who devises the incantations and instructs the exorcist" ;
+    pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:EmmeYaTolo a pm:Conceptualizing ;
     rdfs:label "Emme ya tolo, der Weibliche-Hirse-Stern"@de,
@@ -10404,6 +10618,14 @@ pmc:IntentionReplacesMusculature a pm:Positing ;
     skos:note "The claim carries an implication it does not state: if willing the place is what moves, the movement has no duration that depends on the distance. That implication is what makes it comparable to what the transmissions report."@en ;
     pm:positedIn "prima-materia#305" .
 
+pmc:InuitForkSignOfSurvival a pm:Conceptualizing ;
+    rdfs:label "Das an der Gabel gelesene Zeichen"@de,
+        "The sign read from the fork"@en ;
+    dcterms:source "Knud Rasmussen, Intellectual Culture of the Iglulik Eskimos, Report of the Fifth Thule Expedition 1921-24, VII.1, trans. W. Worster (Copenhagen: Gyldendalske Boghandel, Nordisk Forlag, 1929), p. 24" ;
+    skos:definition "The stated reading of the divination: if the fork falls the sick person will die, if it stays upright she will live. In the case related the fork settled upright and the sick child lived."@en ;
+    skos:note "Entered because the sign is stated in advance and in both directions, which is rare in the material this graph holds. A divination that names its own failure condition before the outcome is known is examinable; one that is interpreted afterwards is not. The single case related is of course selected by the narrator's survival."@en ;
+    pm:withinTradition pmt:InuitAngakkuq .
+
 pmc:InuitRecoveryOfLostThings a pm:Conceptualizing ;
     rdfs:label "Das Wiederfinden verlorener Dinge"@de,
         "The recovery of lost things"@en ;
@@ -10696,16 +10918,6 @@ pmc:NeidanThreeStages a pm:Conceptualizing ;
     skos:definition "Refining essence into breath, breath into spirit, and spirit back into emptiness."@en ;
     skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
     pm:withinTradition pmt:Daoist .
-
-pmc:NeidanZhengyan a pm:Conceptualizing ;
-    rdfs:label "Die Zeichen der Bewährung, der Reihe nach"@de,
-        "The signs of verification, in order"@en ;
-    dcterms:source "Zhong-Lü chuandao ji, Lun zhengyan 18, in the Chongkan Daozang jiyao recension (JY 149), juan 3, fol. 55b-57a" ;
-    skos:definition "An ordered sequence of signs said to follow the work, each introduced as coming next after the one before. Lewd conduct ceases and the outward observances are kept; the metal essence fills and the mind clears; the fluid of the heart rises and there is a sweet taste in the mouth; yin and yang strike together and a sound of wind and thunder is heard in the belly; the cloud-souls and white-souls are unsettled and dreams are full of alarm; small ailments of the six receptacles and the four limbs heal without treatment; the cinnabar field warms of itself at night and the face is clear by day; in a dark room the eyes show a light of their own; in dreams one is bold, nothing can harm one, and one comes back carrying an infant; the golden bar and jade lock are sealed and there is no more emission in sleep; a single clap of thunder, the joints connect, and one starts awake bathed in sweat; the fluid is decocted to a curd; the numinous liquid becomes a paste and one comes to shun the smell of flesh; the bones lighten, the yang spirit changes, the step outruns a galloping horse; one meets things without desire; the true breath entering a thing can cure another's illness; inner observation is bright and no longer dim; the pupils are like lacquer, the lined face fills out and dark hair grows again; the true breath fills so that one seems always sated, eats little, drinks without measure and is never drunk; the body has a lustre, a strange fragrance stays about the mouth and nose; one sees a fine hair at a hundred paces; old scars and blemishes vanish of themselves, and there is no more spittle, tears or sweat; the embryo is complete and food is left off; the nine worms below and the three corpses above die; there are no more dreams and no difference between night and day; the frame does not feel cold or heat; life and death cannot reach one; the merit is full and the hidden reckoning answers, and coming events can be known beforehand; the embryo-immortal appears as a body outside the body; the breath is pure yang and can dry mercury outside the body by being breathed on it; an auspicious light arises in the sleeping room; music is heard in stillness; ordinary men, however rich, smell rank at close quarters; a golden colour shows through the bones; the spirits come of themselves to pay court and go where they are bidden; purple mist fills the eyes and a golden light covers the body; the body turns into a fire dragon and flies, which is the shedding of the frame; and thereafter coloured clouds, strange flowers falling as rain, a jade maiden descending with a heavenly writ, and the return to Penglai."@en ;
-    skos:note "Entered as signs and counted as signs, kept apart from the failure side above, which is what SPEC §15 requires and which this corpus makes easy by doing it itself: the difficulties and the demons are chapter seventeen, the signs are chapter eighteen, and the practitioner's question at the head of eighteen is what joins them."@en,
-        "The list also contains its own refutation of the idea that these are private experiences. Drying mercury outside the body by breathing on it, curing another's illness with the breath, spirits coming when bidden, and a golden colour showing through the bones are all public; and the last item but one has the practitioner's body turn into a fire dragon in front of whoever is there."@en,
-        "The sequence is announced to the practitioner in advance and in order, which is precisely the condition under which a sign is reported because it was expected. Two items in it are of another kind and are worth separating out, because a bystander could check them: seeing a fine hair at a hundred paces, and the disappearance of old scars. The protocol built on the first stands in examinations/neidan-signs.ttl."@en ;
-    pm:withinTradition pmt:Neidan .
 
 pmc:Nkisi a pm:Conceptualizing ;
     rdfs:label "Nkisi, das geladene Ding"@de,
@@ -11085,6 +11297,15 @@ pmc:PrincipeDeLaDoctrine a pm:Conceptualizing ;
     dcterms:source "Allan Kardec, La Genèse, les miracles et les prédictions selon le spiritisme, chapitre I, articles 51-54" ;
     skos:definition "What the control decides. The transmission holds that the teaching had to be collective and not individual, that the spirits divided the work by scattering the subjects of study across many places, and that a centre formed of itself to compare what came in and to distinguish an individual opinion from the general teaching."@en ;
     pm:withinTradition pmt:Spiritism .
+
+pmc:QizhiYouxiao a pm:Conceptualizing ;
+    rdfs:label "Das Ankommen des Qi und das zurückgewiesene Zeichen"@de,
+        "The arrival of the qi, and the sign that is refused"@en ;
+    dcterms:source "Huangdi neijing lingshu 9 (Zhong shi), in Huangdi suwen lingshu jing, Sibu congkan facsimile, juan 2" ;
+    skos:definition "The Lingshu states what it means for the qi to have arrived and to have had effect, and states it as a rule over the vessel and not over the patient. Where the operation drained, the vessel is to be as large as before but no longer hard; if it is hard as before, then although the patient says it is as it was, the illness has not gone. Where the operation supplemented, the vessel is to be as large as before and harder; if it is as before and not hard, then although the patient says he feels relieved, the illness has not gone. The chapter closes the rule from the other side: even where the pain does not follow the needle, the illness must be in retreat."@en ;
+    skos:note "The reason for entering this rather than the many other success signs in the corpus. A success sign told to the practised beforehand is worth little, because he will report it; this passage names such a report and refuses it twice over, in the same sentence in which it gives the criterion that replaces it. The corpus therefore holds a stated distinction between what a patient says and what counts as the operation having taken, and the distinction runs against the interest of the operator."@en,
+        "What the passage does not supply is a way of reading the vessel that two examiners would read alike. The criterion is hardness under the finger, which is why this is entered as a sign the tradition names and not as a procedure the graph can use."@en ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
 
 pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
     rdfs:label "Das Zurückhalten des herabfließenden Nektars"@de,
@@ -11693,6 +11914,14 @@ pmc:TungusReliefOfSpiritAffliction a pm:Conceptualizing ;
     skos:note "The recorder adds his own explanation, that this is the result of an empiric experimentation of the Tungus on themselves reached through a long adaptation, and that the shaman functions as a safety valve of the clan. That reading is his. What is reported is the claim that the office relieves and the fact that people seek it."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:TungusSacrificeRejected a pm:Conceptualizing ;
+    rdfs:label "Das Zeichen des zurückgewiesenen Opfers"@de,
+        "The sign that a sacrifice was refused"@en ;
+    dcterms:source "S. M. Shirokogoroff, Psychomental Complex of the Tungus (London: Kegan Paul, Trench, Trubner & Co., 1935), chap. XXVIII, sect. 128, Case 2, p. 347" ;
+    skos:definition "In the Manchu clan history recorded by the author, the kite spirit is said to be able to eat the whole liver of an ox. After eating, the shaman must leave his assistant; if he falls down without being able to keep on his legs, the sacrifice is considered as rejected by the spirit."@en ;
+    skos:note "A condition of failure with a physical criterion, stated in advance, decidable on the spot by everyone present, and not in the performer's gift. Very little in this graph has that shape, and it is the reason the passage is entered although it stands inside a narrative."@en ;
+    pm:withinTradition pmt:SiberianShamanism .
+
 pmc:TungusShamanDrum a pm:Conceptualizing ;
     rdfs:label "Die Trommel als Werkzeug der Selbsterregung"@de,
         "The drum as the instrument of self-excitation"@en ;
@@ -12029,6 +12258,26 @@ pmp:ArsNotoriaOratioRepetita a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmp:AsipuMashultuppu a pm:Practicing ;
+    rdfs:label "Der an den Leib des Kranken gebrachte Sündenbock"@de,
+        "The scapegoat drawn to the patient's body"@en ;
+    dcterms:source "Udug-hul 12: 77-98 and 108-112 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:altLabel "mas-hul-dub-ba"@en ;
+    skos:definition "Making a healthy goat into a scapegoat and sacrificing it as one; reciting an incantation over its hide; drawing the goat to the body of the man in the evening and binding its sash on his head; then carrying the hide off from the man's body and removing it quietly from the square."@en ;
+    skos:note "The one interval anywhere in the tablets read: the preceding operation is to persist for one day, and the goat is drawn to the body in the evening. It is a duration for the act and not a term after which the treatment counts as failed, which is the distinction the two searches at this tradition turn on."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsipuSiptaAnaRamaniNadu a pm:Practicing ;
+    rdfs:label "Die Beschwörung über sich selbst sprechen"@de,
+        "Casting the spell upon oneself"@en ;
+    dcterms:source "Sakikku (diagnostic series) Tablet 2, colophon (R. Labat, Traite akkadien de diagnostics et pronostics medicaux, Paris and Leiden 1951, pp. 18-19 n. 27; re-edited N. Heessel, Archiv fuer Orientforschung 48/49, 2001-02, p. 37)" ;
+    skos:definition "Reciting the incantation over oneself before going in to a patient, given as the standing instruction in the colophon of the second tablet of the diagnostic series: if you are to approach a patient, until you cast the spell on yourself, you should not approach the patient."@en ;
+    skos:note "Second-hand, and the reason is a property of the works and not of this run. The edition that carries the colophon and the monograph that re-edits it are both print-only for this workstation; the passage was read in the quotation given by the edition of the incantation series, which prints it in transliteration and in translation. The node is an open post and the mode is to be raised to textual attestation when either volume is obtained."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:readVia "M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (BAM 8, Boston/Berlin: De Gruyter 2016), p. 40, quoting the colophon in transliteration and translation" ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
 pmp:BabalawoPupilage a pm:Practicing ;
     rdfs:label "Die Lehrzeit des Anwärters auf das Amt des Babalawo"@de,
         "The pupilage of a candidate for the office of babalawo"@en ;
@@ -12063,15 +12312,6 @@ pmp:BauKiaNkasa a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Bakongo of the Lower Congo, in this passage largely unnamed, and in the second work by a man who had himself administered the ordeal; recorded by the Baptist missionaries John H. Weeks and W. Holman Bentley during their residence at San Salvador, Wathen and in the Ngombe Lutete district from 1879 onwards; given in Kikongo, of which Bentley compiled the dictionary of 1887, and printed in English with the Kikongo terms." ;
     pm:withinTradition pmt:KongoNkisi .
-
-pmp:BengeCorroborativeTest a pm:Practicing ;
-    rdfs:label "Der bestätigende zweite Test am Giftorakel"@de,
-        "The corroborative second test at the poison oracle"@en ;
-    dcterms:source "E. E. Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande, abridged by Eva Gillies (Oxford: Clarendon Press, 1976), pp. 138-140" ;
-    skos:definition "A second question, put with a second fowl, in which the oracle is told what its first answer was and asked to confirm it by the opposite outcome. The first test is called bambata sima and the second gingo. If the first fowl died the second must survive, and if the first survived the second must die."@en ;
-    skos:note "The two tests may be made at one seance where the poison suffices, and are often separated by weeks or months. The transmission names six situations in which a single test is accepted instead, among them the case where the answer came decisively and the case where a lesser oracle had already been asked; but two tests are said to be indispensable in any question concerning the relations between two persons, and especially where a legal issue is involved."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:AzandeOracle .
 
 pmp:BengeTaboos a pm:Practicing ;
     rdfs:label "Die Tabus vor der Berührung des Orakelgifts"@de,
@@ -12360,6 +12600,16 @@ pmp:NeidanNeiguan a pm:Practicing ;
     dcterms:source "Zhong-Lü chuandao ji, Lun neiguan 16 and Lun monan 17, in the Chongkan Daozang jiyao recension (JY 149), juan 3, fol. 51a-51b" ;
     skos:definition "The stage at which the practitioner observes inwardly to gather the yang spirit, named as the sixteenth of the eighteen discourses and as the condition under which the spirit is sent out through the heavenly gate."@en ;
     pm:withinTradition pmt:Neidan .
+
+pmp:NkasaTreeCutting a pm:Practicing ;
+    rdfs:label "Das Schlagen des Ordalbaums, mit Formel und Zeichen"@de,
+        "The cutting of the ordeal tree, with its formula and its sign"@en ;
+    dcterms:source "John H. Weeks, Among the Primitive Bakongo (London: Seeley, Service and Co., 1914), p. 262" ;
+    skos:definition "The tree is never cut for any other purpose, and only the ordeal-giver may cut it, using a set formula: that if the person for whom he is cutting is really a witch the blade should bend at the stroke, and if he is not, the blade should enter and the wind stop blowing. The corpus adds the reading of the sign in the world: the air is often quite still for two or three hours before a storm, and that stillness is credited to someone, somewhere, cutting the ordeal tree."@en ;
+    skos:note "Two conditions of failure are stated here before the ordeal begins, and the corpus then records what is done with them. The recorder states that although the omens may be in favour of the accused the ordeal-giver proceeds all the same, that the results are not infrequently quite contrary to the omens, and that the belief is unaffected by the discrepancy. A sign that is read, contradicted and kept is a different thing from a sign that is never tested, and the file holds it as the first."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Spoken by Bakongo of the Lower Congo, unnamed in this passage; recorded by the Baptist missionary John H. Weeks over some thirty years of residence, the book closed in 1913; given in Kikongo, of which the work prints the terms while the accounts are printed in English only." ;
+    pm:withinTradition pmt:KongoNkisi .
 
 pmp:NkindaAEvata a pm:Practicing ;
     rdfs:label "Nkind' a evata, das Setzen des Ortszaubers"@de,
@@ -12746,6 +12996,16 @@ pmc:ChukcheePresupposesAnsweringCalls a pm:Presupposing ;
     pm:priorStep pmc:ChukcheeAnsweringCalls ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
+pmc:CizhongWuzang a pm:Cautioning ;
+    rdfs:label "Der Treffer ins Depot: die Frist und das Zeichen"@de,
+        "Striking a depot: the interval and the sign"@en ;
+    dcterms:source "Huangdi neijing suwen 52 (Ci jin lun), in Chongguang buzhu Huangdi neijing suwen, Sibu congkan facsimile, juan 14" ;
+    skos:definition "A needle driven into one of the depots is said to kill after a stated interval, and each interval is paired with a bodily sign by which the strike is to be recognised. The heart: death in one day, the movement belching. The liver: five days, speech. The kidney: six days, sneezing. The lung: three days, coughing. The spleen: ten days, swallowing. The gall bladder: a day and a half, vomiting. The same chapter continues with strikes that maim rather than kill and names the outcome for each: into the brain through the occipital opening, death on the spot; the vessel in the face, blindness; the marrow between the vertebrae, a bent back; the knee cap, lameness; the arm's great yin vessel, immediate death from loss of blood."@en ;
+    skos:note "Entered because of the form and not the content. This is a claim that names an outcome it excludes: a person struck in the heart who is alive on the third day is not covered by any weaker reading of the sentence, and the sign attached to each interval says what the strike is supposed to look like while the interval runs. Very little in this graph is stated that way."@en,
+        "The intervals are not stable across the witnesses, and the transmitted text says so about itself. That is held in the dispute node below rather than in this definition, which gives the numbers as the recension read prints them."@en ;
+    pm:cautionsAbout pmp:Cizhen ;
+    pm:withinTradition pmt:ChineseMedicalCanon .
+
 pmc:ClaviculaOperatioYieldsImperium a pm:Yielding ;
     rdfs:label "Die Operation im Kreis bringt hervor, dass die Geister erscheinen und gehorchen"@de,
         "The operation of the circle brings the spirits to appear and obey"@en ;
@@ -13006,6 +13266,16 @@ pmc:NeidanShengtaiCapacity a pm:Conceptualizing ;
         "The sage embryo"@en ;
     dcterms:source "Zhang Boduan (ascr.), Jindan sizi, preface and verse 20, with Huang Ziru's commentary (DZ 1081), Zhengtong Daozang, Hanfenlou facsimile, fol. 3b and fol. 11b" ;
     skos:definition "A body said to form within the practitioner as the work proceeds, described in the preface as flesh and bone growing clear, the skin becoming transparent, substance arising where there was none, and the embryo-breath congealing until the infant shows its form; and in the twentieth quatrain as a child born after one year who rides the crane out through the upper cinnabar field."@en ;
+    pm:withinTradition pmt:Neidan .
+
+pmc:NeidanZhengyan a pm:Conceptualizing ;
+    rdfs:label "Die Zeichen der Bewährung, der Reihe nach"@de,
+        "The signs of verification, in order"@en ;
+    dcterms:source "Zhong-Lü chuandao ji, Lun zhengyan 18, in the Chongkan Daozang jiyao recension (JY 149), juan 3, fol. 55b-57a" ;
+    skos:definition "An ordered sequence of signs said to follow the work, each introduced as coming next after the one before. Lewd conduct ceases and the outward observances are kept; the metal essence fills and the mind clears; the fluid of the heart rises and there is a sweet taste in the mouth; yin and yang strike together and a sound of wind and thunder is heard in the belly; the cloud-souls and white-souls are unsettled and dreams are full of alarm; small ailments of the six receptacles and the four limbs heal without treatment; the cinnabar field warms of itself at night and the face is clear by day; in a dark room the eyes show a light of their own; in dreams one is bold, nothing can harm one, and one comes back carrying an infant; the golden bar and jade lock are sealed and there is no more emission in sleep; a single clap of thunder, the joints connect, and one starts awake bathed in sweat; the fluid is decocted to a curd; the numinous liquid becomes a paste and one comes to shun the smell of flesh; the bones lighten, the yang spirit changes, the step outruns a galloping horse; one meets things without desire; the true breath entering a thing can cure another's illness; inner observation is bright and no longer dim; the pupils are like lacquer, the lined face fills out and dark hair grows again; the true breath fills so that one seems always sated, eats little, drinks without measure and is never drunk; the body has a lustre, a strange fragrance stays about the mouth and nose; one sees a fine hair at a hundred paces; old scars and blemishes vanish of themselves, and there is no more spittle, tears or sweat; the embryo is complete and food is left off; the nine worms below and the three corpses above die; there are no more dreams and no difference between night and day; the frame does not feel cold or heat; life and death cannot reach one; the merit is full and the hidden reckoning answers, and coming events can be known beforehand; the embryo-immortal appears as a body outside the body; the breath is pure yang and can dry mercury outside the body by being breathed on it; an auspicious light arises in the sleeping room; music is heard in stillness; ordinary men, however rich, smell rank at close quarters; a golden colour shows through the bones; the spirits come of themselves to pay court and go where they are bidden; purple mist fills the eyes and a golden light covers the body; the body turns into a fire dragon and flies, which is the shedding of the frame; and thereafter coloured clouds, strange flowers falling as rain, a jade maiden descending with a heavenly writ, and the return to Penglai."@en ;
+    skos:note "Entered as signs and counted as signs, kept apart from the failure side above, which is what SPEC §15 requires and which this corpus makes easy by doing it itself: the difficulties and the demons are chapter seventeen, the signs are chapter eighteen, and the practitioner's question at the head of eighteen is what joins them."@en,
+        "The list also contains its own refutation of the idea that these are private experiences. Drying mercury outside the body by breathing on it, curing another's illness with the breath, spirits coming when bidden, and a golden colour showing through the bones are all public; and the last item but one has the practitioner's body turn into a fire dragon in front of whoever is there."@en,
+        "The sequence is announced to the practitioner in advance and in order, which is precisely the condition under which a sign is reported because it was expected. Two items in it are of another kind and are worth separating out, because a bystander could check them: seeing a fine hair at a hundred paces, and the disappearance of old scars. The protocol built on the first stands in examinations/neidan-signs.ttl."@en ;
     pm:withinTradition pmt:Neidan .
 
 pmc:NorseAudsynir a pm:Conceptualizing ;
@@ -13269,6 +13539,49 @@ pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     skos:note "The asking is part of the procedure and not an afterthought. Without it the oration yields nothing that could be read, and with it the reading is fixed in advance: the text sets out the answers and what each of them decides."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:ArsNotoria .
+
+pmp:AsipuAnaMarsiTehu a pm:Practicing ;
+    rdfs:label "Die Abfolge am Krankenbett"@de,
+        "The bedside sequence at the patient"@en ;
+    dcterms:source "Udug-hul 3: 129-136 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The ordered series of acts the exorcist names in the first person as what he does at the patient: he approaches him, studies his flesh, examines his limbs, sprinkles the water of Ea on him, frightens him, slaps his cheek, calls out over him, and casts the Eridu incantation."@en ;
+    skos:note "Eight acts in one uninterrupted conditional chain, each introduced by when. Two of them are examination and not treatment — studying the flesh and examining the limbs — and they stand before every operative act in the list. That is the order the diagnostic tradition of this craft presupposes, stated inside an incantation rather than in a handbook."@en,
+        "Two of the acts are done to the patient and not for him: he is frightened and his cheek is slapped. The edition read remarks that it is not clear why the exorcist needed to frighten the patient and suggests it was to alarm the demon. That is the editor's reading and not the text's, and it is recorded here as his and not entered as a claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsipuRamanaPasasu a pm:Practicing ;
+    rdfs:label "Sich salben, bevor man an den Kranken herantritt"@de,
+        "Anointing oneself before approaching the patient"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 30-31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:definition "The ritual appended to the Assur incantation: grinding up male and female nikiptu-plant, mixing it in honey and ghee, and anointing oneself with it at the moment of approaching the patient."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsiputuLamadu a pm:Practicing ;
+    rdfs:label "Das Korpus studieren, bis es beherrscht ist"@de,
+        "Studying the corpus until it is mastered"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 36 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    skos:definition "The first stage of the training the manual prescribes: studying the listed compositions until the student masters the entire corpus of purification and discovers the secrets."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsiputuSitulti a pm:Practicing ;
+    rdfs:label "Die zweite Stufe: die Listen, dann die widerstreitenden Ansichten"@de,
+        "The second stage: the lists, then the conflicting views"@en ;
+    dcterms:source "The Exorcist's Manual, KAR 44: 37-40 (Geller, in Steinert (ed.), Assyrian and Babylonian Scholarly Text Catalogues, BAM 9, De Gruyter 2018, p. 301)" ;
+    skos:definition "What the manual prescribes afterwards: by way of the lexical lists, the translations and the synonym lists, to grasp how to examine Sumerian and Akkadian rituals; and when the tithes, the chills, the anxiety, the celestial omen series and the terrestrial omen series are understood, to think through and consider the conflicting views."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:BengeCorroborativeTest a pm:Practicing ;
+    rdfs:label "Der bestätigende zweite Test am Giftorakel"@de,
+        "The corroborative second test at the poison oracle"@en ;
+    dcterms:source "E. E. Evans-Pritchard, Witchcraft, Oracles and Magic among the Azande, abridged by Eva Gillies (Oxford: Clarendon Press, 1976), pp. 138-140" ;
+    skos:definition "A second question, put with a second fowl, in which the oracle is told what its first answer was and asked to confirm it by the opposite outcome. The first test is called bambata sima and the second gingo. If the first fowl died the second must survive, and if the first survived the second must die."@en ;
+    skos:note "The two tests may be made at one seance where the poison suffices, and are often separated by weeks or months. The transmission names six situations in which a single test is accepted instead, among them the case where the answer came decisively and the case where a lesser oracle had already been asked; but two tests are said to be indispensable in any question concerning the relations between two persons, and especially where a legal issue is involved."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:AzandeOracle .
 
 pmp:ConfessionBeforeTheIchuri a pm:Practicing ;
     rdfs:label "Die Beichte während des Fastens"@de,
@@ -14413,14 +14726,6 @@ pmt:FourthWay a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
 
-pm:mediatedAttestation a pm:Attesting ;
-    rdfs:label "Vermitteltes Zeugnis"@de,
-        "Mediated attestation"@en ;
-    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
-    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
-        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
-        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
-
 pmp:Cizhen a pm:Practicing ;
     rdfs:label "Nadelung"@de,
         "Needling"@en ;
@@ -14495,11 +14800,6 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
         "Hekhalot and Merkavah literature"@en ;
@@ -14536,10 +14836,18 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -14635,6 +14943,11 @@ pmt:PistisSophia a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Pistis Sophia in the Askew Codex, British Museum MS Add. 5114; ed. and trans. Carl Schmidt, Koptisch-gnostische Schriften I, GCS 13 (Leipzig 1905)" .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -14821,16 +15134,6 @@ pmt:Midewiwin a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
 pmt:ChineseDivination a pm:Tradition ;
     rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
         "Chinese divinatory and siting transmission"@en ;
@@ -14880,6 +15183,16 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Vijñānabhairava; Mālinīvijayottaratantra; Abhinavagupta, Tantrāloka and Tantrasāra; Kulārṇava Tantra; Kālikāpurāṇa; Mahānirvāṇa Tantra; Pūrṇānanda, Ṣaṭcakranirūpaṇa" .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
@@ -14949,21 +15262,18 @@ pmt:Theravada a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
 
-pm:Naming a owl:Class ;
-    rdfs:label "Benennen"@de,
-        "Naming"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of naming an addressable being: the name as a received work gives it, together with what that work takes the bearer to be."@en ;
-    skos:note "Not a substance class in disguise. What is held is the act of naming and what a transmission says under that name, not a being asserted to exist. The graph reports that a work names Asael and calls him a watcher; it asserts no watcher."@en,
-        "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
-        "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
-        "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
-
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+pmt:MesopotamianExorcism a pm:Tradition ;
+    rdfs:label "Mesopotamische Beschwörungskunst"@de,
+        "Mesopotamian exorcistic craft"@en ;
+    dcterms:source "Udug-hul (canonical Utukku Lemnutu) Tablets 1, 3 and 12, and KAR 31 (VAT 8803), in M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (Die babylonisch-assyrische Medizin in Texten und Untersuchungen 8, Boston/Berlin: De Gruyter 2016)" ;
+    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
+    skos:note "Read for the first time in two modern critical editions, both open access and both read at the wording of the English translation printed beside the text. First, the complete edition of the canonical series Udug-hul / Utukku Lemnutu in all sixteen tablets: Chapter One on the ritual content of the incantations, Chapter Three on the exorcist as diagnostician with its edition of KAR 31, and the partitur of Tablets 1, 3 and 12 at the places entered here. Second, the edition of the exorcist's manual KAR 44 in the volume of scholarly text catalogues, read in full from line 1 to the colophons."@en,
+        "The contact route stays disputed and the reading did not move it. The registration argued the dispute from the age of the corpus alone, which settles the direction of any derivation without settling whether there was one. The position the graph would need in order to decide it is the one that asks of each proposed borrowing whether it is specific, exceptional and co-occurrent with others, and reports that most claimed dependencies of the Greek magical papyri on this material fail those tests; that position was reached in the landscape stage of this run and not read at the wording, so it is named in an issue and not asserted here."@en,
+        "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en,
+        "What was not read, and it is the larger part. Of the principal corpus, Maqlu and Surpu were not opened: the standard editions of both are the ones a reader would have to be given, and neither is open access, while the nineteenth-century editions that are — Tallqvist for Maqlu, Zimmern for Surpu — are superseded and would enter the graph as an edition nobody now cites. The Diagnostic Handbook, which is where a prognosis in this craft would stand, was not opened either and for the same reason; only its second tablet's colophon is entered here, and that one at second hand. Ludlul bel nemeqi and Enuma Anu Enlil were not opened. Of the work that was opened, the partitur of Tablets 2, 4 to 11 and 13 to 16 was read only where a search led and not line by line. The whole of it was searched, which is a different claim and is made as such at the two search nodes."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -14998,14 +15308,21 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
     rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+
+pm:Naming a owl:Class ;
+    rdfs:label "Benennen"@de,
+        "Naming"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of naming an addressable being: the name as a received work gives it, together with what that work takes the bearer to be."@en ;
+    skos:note "Not a substance class in disguise. What is held is the act of naming and what a transmission says under that name, not a being asserted to exist. The graph reports that a work names Asael and calls him a watcher; it asserts no watcher."@en,
+        "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
+        "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
+        "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
 
 pmt:LakotaRitual a pm:Tradition ;
     rdfs:label "Lakota-Ritualüberlieferung"@de,
@@ -15045,6 +15362,15 @@ pm:fieldAttestation a pm:Attesting ;
         "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
         "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
         "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:Mesmerism a pm:Tradition ;
     rdfs:label "Mesmerismus"@de,
@@ -15154,11 +15480,6 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; the Old English Herbarium of pseudo-Apuleius; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
         "Old Norse ritual transmission"@en ;
@@ -15189,6 +15510,11 @@ pmt:Shangqing a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
 
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
@@ -15203,16 +15529,16 @@ pm:Cautioning a owl:Class ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pm:compilerInference a pm:Attesting ;
     rdfs:label "Schluss des Bearbeiters"@de,
         "Compiler inference"@en ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
-
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
@@ -15233,17 +15559,17 @@ pm:contactRouteDocumented a pm:ContactRoute ;
         "Contact route documented"@en ;
     skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
-pm:Practicing a owl:Class ;
-    rdfs:label "Praktizieren"@de,
-        "Practicing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An operative procedure enacted within a tradition."@en .
-
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
         "Tradition"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+
+pm:Practicing a owl:Class ;
+    rdfs:label "Praktizieren"@de,
+        "Practicing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An operative procedure enacted within a tradition."@en .
 
 pm:textualAttestation a pm:Attesting ;
     rdfs:label "Textzeugnis"@de,
