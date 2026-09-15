@@ -351,6 +351,15 @@ pmc:AsipuMashultuppuYieldsRemoval a pm:Yielding ;
     pm:withinTradition pmt:MesopotamianExorcism ;
     pm:yieldsCapacity pmc:AsipuLemnuIntoTheNetherworld .
 
+pmc:AsipuProvisionedDismissalYieldsDeparture a pm:Yielding ;
+    rdfs:label "Die mit Zehrung versehene Entlassung schickt die Geister in die Steppe"@de,
+        "The provisioned dismissal sends the ghosts to the steppe"@en ;
+    dcterms:source "Udug-hul 7: 152-156 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsipuNaruqqaLeqe ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsipuLemnuAnaSerika .
+
 pmc:AsipuSelfProtectionBeforeApproach a pm:Presupposing ;
     rdfs:label "Die Salbung geht dem Herantreten voraus"@de,
         "The anointing comes before the approach"@en ;
@@ -7644,6 +7653,17 @@ pmp:AsipuSuluhSebisu a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
+pmp:AsipuZisurru a pm:Practicing ;
+    rdfs:label "Das an Tor und Tür gestreute Mehl"@de,
+        "The flour scattered at the gate and the door"@en ;
+    dcterms:source "Udug-hul 7: 49-51 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:altLabel "zidubdubbu"@en,
+        "zisurru"@en ;
+    skos:definition "Scattering the zisurru-flour, called the mighty guardian, and scattering the flour of the magic circle at the outer gate; then sprinkling the zidubdubbu-flour at the door of the sick man's house and at the door bolt."@en ;
+    skos:note "A boundary laid on a building and not on a person, and the only instruction of the series read here that takes effect where the patient is not. The flour is addressed as a guardian in its own right, so the line is both an instruction and an invocation of the material used."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
 pmp:AtharvanRecitationFaultSearch a pm:Searching ;
     rdfs:label "Ob die Atharvaveda-Saṃhitā einen Rezitationsfehler zur Ursache eines misslungenen Zaubers macht"@de,
         "Whether the Atharvaveda Saṃhitā makes a faulty recitation the cause of a failed charm"@en ;
@@ -9685,6 +9705,14 @@ pmc:AsipuLemnuAnaAsipiTehu a pm:Conceptualizing ;
     dcterms:source "KAR 31 (VAT 8803) rev. 29, rubric (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
     skos:definition "The danger the rubric of the Assur incantation names: that the Sheriff-demon, the Bailiff-demon, epilepsy, the accessory-to-evil demon, the Alu-demon, the falling illness and whatever else of the kind should approach the exorcist himself."@en ;
     skos:note "The claim is about the practitioner and not about the patient, and it is the reason the craft has a procedure performed on the operator before any procedure is performed on the sick. It is also the only respect in which this transmission makes its own operation hazardous: nothing read here says that a failed treatment harms the patient further."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuLemnuAnaSerika a pm:Conceptualizing ;
+    rdfs:label "Jeder Dämon in seine eigene Steppe"@de,
+        "Each demon to its own steppe"@en ;
+    dcterms:source "Udug-hul 7: 152-153 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "The outcome the dismissal states, one clause to each named being: evil Utukku-demon to your steppe, evil Alu-demon to your steppe, evil ghost to your steppe, evil Sheriff-demon to your steppe."@en ;
+    skos:note "Stated in the imperative and to the demon, like the prohibitions of the series entered below, and with the same consequence for examination: a departure commanded of a being nobody can see is not an event at which anything could be found to have gone wrong. What distinguishes it from the prohibitions is only that the flour and the provisions are things the operator does, and those could be observed."@en ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:AsipuLemnuIntoTheNetherworld a pm:Conceptualizing ;
@@ -12265,6 +12293,15 @@ pmp:AsipuMashultuppu a pm:Practicing ;
     skos:altLabel "mas-hul-dub-ba"@en ;
     skos:definition "Making a healthy goat into a scapegoat and sacrificing it as one; reciting an incantation over its hide; drawing the goat to the body of the man in the evening and binding its sash on his head; then carrying the hide off from the man's body and removing it quietly from the square."@en ;
     skos:note "The one interval anywhere in the tablets read: the preceding operation is to persist for one day, and the goat is drawn to the body in the evening. It is a duration for the act and not a term after which the treatment counts as failed, which is the distinction the two searches at this tradition turn on."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsipuNaruqqaLeqe a pm:Practicing ;
+    rdfs:label "Die mit Beutel und Zehrung fortgeschickten Geister"@de,
+        "The ghosts sent off with their pouch and their rations"@en ;
+    dcterms:source "Udug-hul 7: 152-156 (canonical Utukku Lemnutu; critical edition M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016)" ;
+    skos:definition "Dismissing the demons and ghosts by naming each one and sending it to its own steppe, and telling it to take its leather pouch, to take its daily food rations, and to take its leather bag."@en ;
+    skos:note "Provisioning and not compulsion, and the difference is worth holding because the rest of the series drives the demon out by force. Here the departure is furnished: the thing addressed is given a bag and a day's food for the road. It is the one place in the tablets read where the transmission treats the affliction as a party with needs rather than as an enemy with none."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
@@ -15262,19 +15299,6 @@ pmt:Theravada a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
 
-pmt:MesopotamianExorcism a pm:Tradition ;
-    rdfs:label "Mesopotamische Beschwörungskunst"@de,
-        "Mesopotamian exorcistic craft"@en ;
-    dcterms:source "Udug-hul (canonical Utukku Lemnutu) Tablets 1, 3 and 12, and KAR 31 (VAT 8803), in M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (Die babylonisch-assyrische Medizin in Texten und Untersuchungen 8, Boston/Berlin: De Gruyter 2016)" ;
-    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
-    skos:note "Read for the first time in two modern critical editions, both open access and both read at the wording of the English translation printed beside the text. First, the complete edition of the canonical series Udug-hul / Utukku Lemnutu in all sixteen tablets: Chapter One on the ritual content of the incantations, Chapter Three on the exorcist as diagnostician with its edition of KAR 31, and the partitur of Tablets 1, 3 and 12 at the places entered here. Second, the edition of the exorcist's manual KAR 44 in the volume of scholarly text catalogues, read in full from line 1 to the colophons."@en,
-        "The contact route stays disputed and the reading did not move it. The registration argued the dispute from the age of the corpus alone, which settles the direction of any derivation without settling whether there was one. The position the graph would need in order to decide it is the one that asks of each proposed borrowing whether it is specific, exceptional and co-occurrent with others, and reports that most claimed dependencies of the Greek magical papyri on this material fail those tests; that position was reached in the landscape stage of this run and not read at the wording, so it is named in an issue and not asserted here."@en,
-        "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en,
-        "What was not read, and it is the larger part. Of the principal corpus, Maqlu and Surpu were not opened: the standard editions of both are the ones a reader would have to be given, and neither is open access, while the nineteenth-century editions that are — Tallqvist for Maqlu, Zimmern for Surpu — are superseded and would enter the graph as an edition nobody now cites. The Diagnostic Handbook, which is where a prognosis in this craft would stand, was not opened either and for the same reason; only its second tablet's colophon is entered here, and that one at second hand. Ludlul bel nemeqi and Enuma Anu Enlil were not opened. Of the work that was opened, the partitur of Tablets 2, 4 to 11 and 13 to 16 was read only where a search led and not line by line. The whole of it was searched, which is a different claim and is made as such at the two search nodes."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
-
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
         "Process"@en ;
@@ -15337,6 +15361,19 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pmt:MesopotamianExorcism a pm:Tradition ;
+    rdfs:label "Mesopotamische Beschwörungskunst"@de,
+        "Mesopotamian exorcistic craft"@en ;
+    dcterms:source "Udug-hul (canonical Utukku Lemnutu) Tablets 1, 3 and 12, and KAR 31 (VAT 8803), in M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (Die babylonisch-assyrische Medizin in Texten und Untersuchungen 8, Boston/Berlin: De Gruyter 2016)" ;
+    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
+    skos:note "Read for the first time in two modern critical editions, both open access and both read at the wording of the English translation printed beside the text. First, the complete edition of the canonical series Udug-hul / Utukku Lemnutu in all sixteen tablets: Chapter One on the ritual content of the incantations, Chapter Three on the exorcist as diagnostician with its edition of KAR 31, and the partitur of Tablets 1, 3 and 12 at the places entered here. Second, the edition of the exorcist's manual KAR 44 in the volume of scholarly text catalogues, read in full from line 1 to the colophons."@en,
+        "The contact route stays disputed and the reading did not move it. The registration argued the dispute from the age of the corpus alone, which settles the direction of any derivation without settling whether there was one. The position the graph would need in order to decide it is the one that asks of each proposed borrowing whether it is specific, exceptional and co-occurrent with others, and reports that most claimed dependencies of the Greek magical papyri on this material fail those tests; that position was reached in the landscape stage of this run and not read at the wording, so it is named in an issue and not asserted here."@en,
+        "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en,
+        "What was not read, and it is the larger part. Of the principal corpus, Maqlu and Surpu were not opened: the standard editions of both are the ones a reader would have to be given, and neither is open access, while the nineteenth-century editions that are — Tallqvist for Maqlu, Zimmern for Surpu — are superseded and would enter the graph as an edition nobody now cites. The Diagnostic Handbook, which is where a prognosis in this craft would stand, was not opened either and for the same reason; only its second tablet's colophon is entered here, and that one at second hand. Ludlul bel nemeqi and Enuma Anu Enlil were not opened. Of the work that was opened, the partitur of Tablets 2, 4 to 11 and 13 to 16 was read only where a search led and not line by line. The whole of it was searched, which is a different claim and is made as such at the two search nodes."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
 
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
