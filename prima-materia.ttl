@@ -6210,23 +6210,6 @@ pmc:TestingTheMarkedAnimals a pm:Testing ;
     pm:protocolUpdated "2026-09-03"^^xsd:date ;
     pm:tests pmc:TungusMarkedAnimals .
 
-pmc:TheBodyOfThePartiesIsAStatedCondition a pm:Generalizing ;
-    rdfs:label "Die Regeln an den Ausführenden beginnen bei dem, was er gegessen hat, und wie ihm zumute ist"@de,
-        "The rules addressed to the operator begin with what he has eaten and how he feels"@en ;
-    skos:note "Falsified by a transmission that prescribes a bodily operation, carries rules for the persons performing it — purity, dress, posture, hour — and carries none about what they have eaten, drunk or felt. The grimoire literature is the place to look, because it is dense in operator rules of every other kind, and one such case refutes the statement."@en,
-        "Four transmissions in four corpora with no route among them. The Chinese medical canon names seven states in which the needle is not to be used: greatly drunk, greatly angered, greatly exhausted, newly filled with food, greatly hungry, greatly thirsty, greatly startled. The nourishing-life chapter of the Baopuzi forbids eating much and forbids anger to the man circulating his breath. The Ars Notoria warns that no man presume to say the oration after too much drinking or luxury, nor fasting, without reverence and discretion. The magnetic manual instructs that one is not to operate after having eaten heartily nor during digestion, and that whoever undertakes a treatment ought in general to live temperately."@en,
-        "Not yet examined, and no pm:Testing points at it. Of the two statements in this file it is the one an examination could actually address, because the condition it names is one an experiment can set."@en,
-        "The counter-search was run against this holding before the statement was written. It found one transmission that prescribes an operation on a body and names no such condition: the canonical Mesopotamian incantation series, in which every prohibition read is addressed to the demon and not to the operator, and in which what the operator must do and must not do is stated nowhere inside the series. That is why the antecedent carries the clause about addressing any rule at all to the persons taking part — the exorcistic series fails it, and the statement is about transmissions that have operator-facing rules in the first place. The other near miss is the whole class of calendar-bound conditions, which state the condition of the day rather than of a person and are generalized separately at pmc:AdmissibilityBoundToTheCalendar."@en,
-        "The last clause is the part that can fail and is therefore the part worth having. Two of the four state a consequence and both state it as a disorder of the body: needling the greatly drunk makes the qi disordered, needling the greatly angered makes the qi go against its course, and much anger disorders the qi so that it cannot flow over and may set a man coughing. The other two state no consequence at all. A transmission of this kind whose penalty for the full stomach is that the operation does not come off, rather than that the practitioner is harmed, would break the clause without touching the rest."@en,
-        "This is the class of condition a protocol can control for, and that is the whole reason to hold the statement. The other conditions this holding carries in quantity — a defect of the operator nobody noticed, a state of faith, the sympathy of the bystanders, a trial set at what the candidate's mind does not grasp — cannot be established before the operation or checked after it. Time since the last meal, quantity of drink and a reported state of anger or fright can be. A run that wanted to build an examination of any of these four transmissions would have here the only entry the sources themselves supply."@en,
-        "Which person the condition is stated of varies and the statement is worded to carry the variation. In the medical canon it is the person needled; in the nourishing-life chapter and in the Latin oration it is the practitioner working on himself; in the magnetic manual it is the operator working on another. What does not vary is that the condition attaches to a body in the room."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:ArsNotoriaEbrietasKautel,
-        pmc:CautionAgainstOperatingAfterEating,
-        pmc:WucijinQizhuang,
-        pmc:XingqiProhibitions ;
-    pm:generalizedStatement "Where a transmission prescribes an operation on a body, whether the operator's own or another's, and addresses any rule at all to the persons taking part in it, those rules include states of recent intake and of strong feeling — drink, a full stomach, hunger, thirst, exhaustion, anger, fright — under which the operation is not to be performed. The condition is stated of a person present, and not of the day, the place or the material. Where such a transmission states what follows from proceeding anyway, what it states is a disorder of the body and not a failure of the operation."@en .
-
 pmc:TheCriterionNoPartyControls a pm:Generalizing ;
     rdfs:label "Wo keine Partei den Ausgang bestimmen kann, werden beide Seiten des Kriteriums genannt"@de,
         "Where no party can fix the outcome, both sides of the criterion are stated"@en ;
@@ -7948,6 +7931,24 @@ pmp:BlueVitriolToothacheExamination a pm:Testing ;
     pm:falsifiedBy "A series of applications on hollow teeth in which the pain is recorded before the application and at a fixed interval after it, with the failures kept alongside, showing no larger fall than in teeth left untreated over the same interval. The source's own ratio of one failure in more than sixty is the figure to beat and is not itself such a series, because it carries no untreated arm and no interval." ;
     pm:protocolUpdated "2026-09-05" ;
     pm:tests pmc:EuropeanFolkMagicVitriolYieldsStillung .
+
+pmp:BodilyConditionDirectionExamination a pm:Testing ;
+    rdfs:label "Ob die Aufnahmebedingung immer als Verbot gesetzt ist"@de,
+        "Whether the intake condition is always stated as a prohibition"@en ;
+    skos:definition "A protocol on the claim that where a transmission prescribes an operation on a body and addresses any rule to the persons taking part, those rules include states of recent intake and of strong feeling under which the operation is not to be performed. The question put to the holding was not whether the variable recurs — the claim was formed from four witnesses that it does — but whether the direction does."@en ;
+    skos:note "One corpus carries both directions and it is already one of the four witnesses, which is the sharpest form the deviation could take. The Ars Notoria warns that no man presume to say the oration after too much drinking or luxury, nor fasting, without great reverence and discretion; and the same corpus prescribes fasting for the first day of a rehearsal. The node that carries the warning said so when it was written and left the two passages unreconciled. A claim formed from that witness and reading only its prohibitive half took the witness at half its word."@en,
+        "The deviation, stated as the cases. The Solomonic operator does not avoid an empty stomach, he is required to reach one: nine days of continence before the circle, the last three on fasting diet once a day, better bread and water only, and nothing at all on the last, with the general clause of the book quoted as the cost of any defect (pmc:ClaviculaNovemDies). Whoever enters a greater Andean office fasts a month, in other places six, in others a year, without salt and without chilli (pmp:FastBeforeTakingOffice, pmc:OfficePresupposesTheFast). The Maya fast before the first month has a stated floor of thirteen days, with continence and the giving up of salt and chili added, and a stated consequence for breaking one begun (pmp:MayaNewYearFast, pmc:MayaSafetyPresupposesUnbrokenFast). The Jain transmission counts its fasting in meals rather than days and puts the abstention from well-dressed food and from eating to excess among the ten conditions of its celibacy, with a named consequence at each (pmp:JainaMahaviraUpadhana, pmp:JainaDashaBrahmacaryasamadhi, pmc:JainaBrahmacaryabhangaPhala)."@en,
+        "The finding about this project's procedure, which is the same one prima-materia#667 recorded and is therefore not new but recurrent. The counter-search for this claim was carried before it was written, as SPEC §16 requires, and it was carried in the wrong layer: it asked which transmissions name no such condition and it did not ask which name it the other way round. A counter-search that looks only for the absence of the antecedent will never find a case that satisfies the antecedent and reverses the consequent. The general form is worth keeping: for a claim of the shape where X, the rule is Y, the negation to search is not only no rule but also the rule not-Y."@en,
+        "The third sentence of the claim is untouched by this protocol and is not thereby confirmed. It says that where such a transmission states what follows from proceeding anyway, it states a disorder of the body and not a failure of the operation. Two of the deviating cases state a consequence and neither is a bodily disorder: the Solomonic clause makes the experiment not verified, and the Maya one makes evil come upon the faster or his house. That is contrary material and it is recorded here rather than folded into the deviation above, because the two clauses fail for different reasons and a later reader should be able to take them apart."@en,
+        "What survives. The first two sentences of the claim stand and are strengthened rather than weakened: the variable is recent intake and strong feeling, it attaches to a person present rather than to the day, the place or the material, and it recurs across transmissions with no route between them — now across nine and not four. The clause that fails is the one that fixes the direction, and it fails because it was read off a set of witnesses selected from the caution layer. A claim formed from cautions will find prohibitions, which is a property of where one looked and not of what transmissions do."@en,
+        "What the protocol is worth for examination, which is the reason to run it at all. The reformulated variable is still the one an experiment can set, and the deviating cases make it more so, because several of them carry a countable term: nine days with three inside them, thirteen days at the least, one month or six or a year, the sixth meal or the eighth or the tenth. One of them is even checked after the fact by the transmission itself — the Andean guinea-pig inspection that reads off whether the fast was kept (pmc:FastKeptWellIsAlsoChecked). A transmission that checks its own participants supplies the procedure a protocol would otherwise have to invent."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched the holding for every transmission carrying a rule about eating, drinking, continence or strong feeling addressed to a person taking part in an operation, by term over all tradition files and by reading the nodes returned. Twelve files carry such rules. Of those read, four state the condition as a prohibition and are the witnesses the claim was formed from; five state it as a prescription and are the deviation; one corpus states it in both directions within itself. Not searched: the grimoire and ritual literature outside this holding, where the falsifying case the claim names would have to be found, and no modern study was consulted, so no pm:evidenceFrom is set."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-09-16" ;
+    pm:falsifiedBy "A transmission that prescribes a bodily operation, carries rules for the persons performing it — purity, dress, posture, hour — and carries none about what they have eaten, drunk or felt. That is the condition the claim itself named, and it was not met by anything found here. The deviation reported below falsifies a different clause, the one that fixes the direction."@en ;
+    pm:protocolUpdated "2026-09-16" ;
+    pm:tests pmc:TheBodyOfThePartiesIsAStatedCondition .
 
 pmp:BrahmaviharaBhavana a pm:Practicing ;
     rdfs:label "Kultivierung der göttlichen Verweilungen"@de,
@@ -12285,6 +12286,23 @@ pmc:TestingTheProcedureVoidsItsAnswer a pm:Generalizing ;
         pmc:ZaisanDu ;
     pm:generalizedStatement "Transmissions that obtain an answer from a procedure state a condition that excludes the repeated or testing question, and give as the reason that the answer is spoiled by it rather than that the questioner is unworthy."@en .
 
+pmc:TheBodyOfThePartiesIsAStatedCondition a pm:Generalizing ;
+    rdfs:label "Die Regeln an den Ausführenden beginnen bei dem, was er gegessen hat, und wie ihm zumute ist"@de,
+        "The rules addressed to the operator begin with what he has eaten and how he feels"@en ;
+    skos:note "Falsified by a transmission that prescribes a bodily operation, carries rules for the persons performing it — purity, dress, posture, hour — and carries none about what they have eaten, drunk or felt. The grimoire literature is the place to look, because it is dense in operator rules of every other kind, and one such case refutes the statement."@en,
+        "Four transmissions in four corpora with no route among them. The Chinese medical canon names seven states in which the needle is not to be used: greatly drunk, greatly angered, greatly exhausted, newly filled with food, greatly hungry, greatly thirsty, greatly startled. The nourishing-life chapter of the Baopuzi forbids eating much and forbids anger to the man circulating his breath. The Ars Notoria warns that no man presume to say the oration after too much drinking or luxury, nor fasting, without reverence and discretion. The magnetic manual instructs that one is not to operate after having eaten heartily nor during digestion, and that whoever undertakes a treatment ought in general to live temperately."@en,
+        "Not yet examined, and no pm:Testing points at it. Of the two statements in this file it is the one an examination could actually address, because the condition it names is one an experiment can set."@en,
+        "The counter-search was run against this holding before the statement was written. It found one transmission that prescribes an operation on a body and names no such condition: the canonical Mesopotamian incantation series, in which every prohibition read is addressed to the demon and not to the operator, and in which what the operator must do and must not do is stated nowhere inside the series. That is why the antecedent carries the clause about addressing any rule at all to the persons taking part — the exorcistic series fails it, and the statement is about transmissions that have operator-facing rules in the first place. The other near miss is the whole class of calendar-bound conditions, which state the condition of the day rather than of a person and are generalized separately at pmc:AdmissibilityBoundToTheCalendar."@en,
+        "The last clause is the part that can fail and is therefore the part worth having. Two of the four state a consequence and both state it as a disorder of the body: needling the greatly drunk makes the qi disordered, needling the greatly angered makes the qi go against its course, and much anger disorders the qi so that it cannot flow over and may set a man coughing. The other two state no consequence at all. A transmission of this kind whose penalty for the full stomach is that the operation does not come off, rather than that the practitioner is harmed, would break the clause without touching the rest."@en,
+        "This is the class of condition a protocol can control for, and that is the whole reason to hold the statement. The other conditions this holding carries in quantity — a defect of the operator nobody noticed, a state of faith, the sympathy of the bystanders, a trial set at what the candidate's mind does not grasp — cannot be established before the operation or checked after it. Time since the last meal, quantity of drink and a reported state of anger or fright can be. A run that wanted to build an examination of any of these four transmissions would have here the only entry the sources themselves supply."@en,
+        "Which person the condition is stated of varies and the statement is worded to carry the variation. In the medical canon it is the person needled; in the nourishing-life chapter and in the Latin oration it is the practitioner working on himself; in the magnetic manual it is the operator working on another. What does not vary is that the condition attaches to a body in the room."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:ArsNotoriaEbrietasKautel,
+        pmc:CautionAgainstOperatingAfterEating,
+        pmc:WucijinQizhuang,
+        pmc:XingqiProhibitions ;
+    pm:generalizedStatement "Where a transmission prescribes an operation on a body, whether the operator's own or another's, and addresses any rule at all to the persons taking part in it, those rules include states of recent intake and of strong feeling — drink, a full stomach, hunger, thirst, exhaustion, anger, fright — under which the operation is not to be performed. The condition is stated of a person present, and not of the day, the place or the material. Where such a transmission states what follows from proceeding anyway, what it states is a disorder of the body and not a failure of the operation."@en .
+
 pmc:TheNamedManDiesWithinTenDays a pm:Conceptualizing ;
     rdfs:label "Der Gerufene stirbt binnen zehn Tagen"@de,
         "The man whose name is called dies within ten days"@en ;
@@ -15150,11 +15168,6 @@ pm:SearchOutcome a owl:Class,
     skos:note "The fourth value is the reason the scale is not a boolean. A corpus that could not be reached and a corpus that was read and stayed silent are opposite findings, and without a value for the first they would both be entered as the second — which would report as a property of the transmission what is a property of a library."@en ;
     pm:scaleFamily pm:recordScale .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:noProcedureDevised a pm:ExaminationState ;
     rdfs:label "Kein Verfahren ersonnen"@de,
         "No procedure devised"@en ;
@@ -15221,6 +15234,11 @@ pm:ExaminationState a owl:Class,
     skos:definition "The standing of a protocol: how far the attempt to fail a claim has actually been carried."@en ;
     skos:note "The first two states and the third must never collapse into one another. A claim nobody has devised a way to examine is not a claim that has been examined and found wanting. A record that reports both as unsupported would not be reporting on the claims but on the reach of its own instruments."@en ;
     pm:scaleFamily pm:recordScale .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pm:contactRouteAbsent a pm:ContactRoute ;
     rdfs:label "Kein Kontaktweg"@de,
@@ -15304,11 +15322,6 @@ pm:claimDoesNotDiscriminate a pm:ExaminationState ;
         "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
         "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pm:searchFoundPlace a pm:SearchOutcome ;
     rdfs:label "Suche mit Fund"@de,
         "Search found a place"@en ;
@@ -15372,6 +15385,11 @@ pm:SensoryAnchoring a owl:Class,
         "Sensory Anchoring"@en ;
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
