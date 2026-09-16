@@ -1989,6 +1989,54 @@ pmc:FinerBodiesNotInnate a pm:Originating ;
     pm:circulatesAs "The most important feature of an ancient teaching, lost by the systems that preserved its divisions, rather than a claim first published in this form in 1949." ;
     pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
 
+pmc:FinnicLuontoPresupposesTheWork a pm:Presupposing ;
+    rdfs:label "Die Natur wird erhoben, ehe der Kranke beschworen wird"@de,
+        "The Nature is raised before the sick are conjured"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 12 a-c, pp. 83-84" ;
+    skos:note "Prescribed order. The occasion of the formula is stated — while conjuring the sick and removing obstacles — and no consequence is stated for conjuring without it. What raises this above a bare ordering is that the formula is addressed to the operator's own condition and not to the patient's, which makes it the same kind of condition as the intake rules this holding carries from four other transmissions, and in the same direction as most of them: a state to be reached and not one to be avoided."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:FinnicSynnynLukeminen ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:FinnicLuonnonNostatus ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicManauksenPortaat a pm:Conceptualizing ;
+    rdfs:label "Dieselbe Bedingung innerhalb einer Beschwörung"@de,
+        "The same conditional inside an exorcism"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 17 g, pp. 97-98" ;
+    skos:definition "The construction recurs where the collection does not announce it. An exorcism sends the evil home to its master by nightfall and tells it, on arrival, to kill the mare on the cattle-stand, crush the horse in the stall and the horned ox in the cattle-shed; and then continues: if little should result therefrom, draw the window-shutter back, transfer thyself within, fly into the room like a whirlwind, seize the masters in the farthest nook and the mistresses in the door-corner, break the master's neck and smash the mistress's head."@en ;
+    skos:note "Two things follow and both bear on examination. The conditional is a feature of the corpus and not of one formula type, so the menacing formula is a class with a number rather than a peculiarity. And the escalation here is not of the operator's means but of the harm demanded of the evil, directed at the household of whoever sent it — which places the next observable event at a house the operator is not in."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicSyntyPresupposesKnowingIt a pm:Presupposing ;
+    rdfs:label "Der Ursprung muss gewusst sein, ehe er gesprochen werden kann"@de,
+        "The origin must be known before it can be pronounced"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 5 a, p. 73, with the order of recitation at pp. 4-5" ;
+    skos:note "Prescribed order and not stated necessity. The collection places the discovery formula before the origins in its order of recitation and says it is said in order to discover the origin; nothing read states what befalls the operator who recites an origin he has not got right. The strength is set at what the wording carries, and the search that establishes the absence stands at pmp:FinnicExactnessSearch."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:FinnicSynnynLukeminen ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:FinnicSyynTiedustus ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicSyntyYieldsExpulsion a pm:Yielding ;
+    rdfs:label "Das Aussprechen des Ursprungs treibt das Übel aus"@de,
+        "Pronouncing the origin expels the evil"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 210 a, p. 332" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:FinnicSynnynLukeminen ;
+    pm:withinTradition pmt:FinnicIncantation ;
+    pm:yieldsCapacity pmc:FinnicPahanPoisto .
+
+pmc:FinnicUhkauksenPortaat a pm:Conceptualizing ;
+    rdfs:label "Sechs Stufen, jede auf dem Ausbleiben der vorigen"@de,
+        "Six rungs, each on the last having produced nothing"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 16 a, pp. 92-93" ;
+    skos:definition "The construction of the menacing formula, read off its own conditionals. If thou remove not speedily, the speaker will interrogate the addressee's mother. If thou shouldst pay no heed thereto, he will belabour it with willows, rowan shoots and tips of fir. If that be not enough, he will raise a ram with twisted horns and an ox with outspread horns to butt at it. If little should result therefrom, he will take the hands of one deceased from under the ground and claw with them. If that be not enough, he will take the claws of an eagle, then of a bear. And last: now, if it pay no heed thereto, I still remember other means, I know more words of magic power and mightier antagonists — followed by the black dog with a burning mouth that has eaten a hundred men."@en ;
+    skos:note "It is the same shape this holding carries from the first-century Chinese treatise that puts the regress to a practitioner from outside, and from the nine accounts a run that produced nothing may be assigned to. What is different here is the position: there the regress is described by a critic or inferred from a doctrine, here it is the script, in the second person, in the operative text. A transmission that hands its operator the words for the fifth failure has made the sequence of failures part of the practice rather than an embarrassment to it."@en,
+        "The ladder does not end in a failure. Its last rung is the assertion that further means exist and are known, which is a rung of a different kind from the five below it: those name a thing to be done, this one names a reserve. A practitioner who has said the whole formula and seen nothing has, by the text he has just recited, not run out of procedure."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
+
 pmc:FivefoldPrimaryRasaRanking a pm:Conceptualizing ;
     rdfs:label "Die fünf primären Hingabeverhältnisse, nach Rang"@de,
         "The five primary devotional relations, ranked"@en ;
@@ -3326,6 +3374,17 @@ pmc:LimbPracticeYieldsLightOfKnowledge a pm:Yielding ;
     pm:byPractice pmp:PracticeOfTheLimbs ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:LightOfKnowledge .
+
+pmc:LonnrotJarjestys a pm:Systematizing ;
+    rdfs:label "Die achtzehn Formelklassen und die Reihenfolge des Vortrags"@de,
+        "The eighteen classes of formula and the order of recitation"@en ;
+    dcterms:date "1880" ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), pp. 2-6" ;
+    skos:definition "The ordering the collector set over the material and the translator reports from him. The formulae are divided into eighteen classes by occasion, among them the preliminary, the defensive, those against envy, those to discover the cause, the reparation of harm, the expulsion, the posting, the reproaching, the falling into ecstasy, the boasting, the menacing, the exorcism and the making fast. The order of recitation is given as: the vapour formula where there is an open wound, then the preliminary and defensive formulae and those against envy; then, where the injury is of a known kind, the recitation of its origin, and where it is not, the formula to discover the cause; and thereafter the remaining classes in no particular order, as the operator remembered them or thought them useful. The account adds that the work was done in the vapour-bath house, heated as secretly as possible so that no envious person should get wind of it."@en ;
+    skos:note "Held as an ordering act and not as a claim of the transmission, for the reason the registration of this tradition already gave about the Kalevala. The collector states himself that it is hard to say in what order the songs were recited and that if there was an order at all it was not everywhere uniform. An ordering offered with that reservation is exactly what this class is for."@en,
+        "It is the source of two things this file needs and could not take from a song: that the menacing formula has its occasion after a failed expulsion, and that the discovery formula has its place before the origins. Both are entered above with this node standing behind them, and a later reader who wants the songs alone should subtract them."@en ;
+    pm:compiledBy "Elias Lönnrot, in the preface to Suomen Kansan Muinaisia Loitsurunoja (Helsinki: SKS, 1880), reported and translated by John Abercromby in 1898" ;
+    pm:withinTradition pmt:FinnicIncantation .
 
 pmc:LovePresupposesApatheia a pm:Presupposing ;
     rdfs:label "Liebe setzt Apatheia voraus, Erkenntnis die Liebe"@de,
@@ -6396,9 +6455,12 @@ pmc:TheTrialWithNoFailingGrade a pm:Generalizing ;
 pmc:TheUnsympatheticWitnessAsStatedCauseOfFailure a pm:Generalizing ;
     rdfs:label "Der anwesende Unbeteiligte als genannte Ursache des Misslingens"@de,
         "The person present who is not in sympathy, named as the cause of failure"@en ;
-    skos:note "Falsified by a transmission of the first kind — one person operating on another, witnesses admitted, the outcome certifiable only by operator or subject — which names no unsympathetic witness among its causes of failure, or which prescribes that the operation be shown to a doubter as a proof. Sharper still, and the shape to look for first: one which states that the effect holds in the presence of a hostile observer. The corpora likeliest to carry it are the ones in this holding where a practitioner heals another before a village, and the Azande witch-doctor material and the Kongo and Ifa corpora have not been asked this question."@en,
+    skos:note "A third witness was added on 2026-09-16, from a transmission with no route to either of the first two, and it answers the weakness this node states of itself further down. That complaint was that the derivation leaned on one rule and one report, a rule being the stronger kind of evidence for a claim about what transmissions provide. The Finnic case is a rule, and more than a rule: it is an operative formula with its own number in the collection, said against whoever looks with jealousy, looks pryingly with eyes askew, casts resentful glances or prepares some malevolence — its speaker opening with the admission that he cannot guard against envy nor shield himself from opponents while dealing with these toilsome tasks."@en,
+        "Falsified by a transmission of the first kind — one person operating on another, witnesses admitted, the outcome certifiable only by operator or subject — which names no unsympathetic witness among its causes of failure, or which prescribes that the operation be shown to a doubter as a proof. Sharper still, and the shape to look for first: one which states that the effect holds in the presence of a hostile observer. The corpora likeliest to carry it are the ones in this holding where a practitioner heals another before a village, and the Azande witch-doctor material and the Kongo and Ifa corpora have not been asked this question."@en,
+        "It fits the statement in the first clause and departs from it in the second, and the departure is the interesting part. The danger named is the same and it is located in the same place, in the disposition of a person present rather than in his presence: the formula asks that whoever looks without envy be blessed with honeyed eyes, so the onlooker as such is not the variable. What the transmission does about it is not exclusion. It curses the envious looker in advance — may the slag of Hiisi fill his eyes, may a fiery bung plug up his mouth — and blesses the other. Exclusion appears in this corpus only outside the songs, in the collector's account that the bath-house was heated as secretly as possible so that no envious person should get wind of it."@en,
         "Its relation to pmc:TheOneWhoStaysOutsideTheState is inversion and not contradiction, and the two turn on one property between them. There the practitioner enters a condition in which he cannot check his own performance, so a second person outside it is required and the operation fails without him. Here the outcome cannot be checked from outside at all, so a second person outside the communication is excluded and the operation fails with him. Both statements are decided by where the capacity to check the operation lies, and a reader who wants to press either should press that: the first predicts a second person where the operator cannot monitor himself, the second predicts exclusion where nobody else can monitor the result."@en,
         "So the deciding property is not the strangeness of the operation, nor the presence of witnesses, but whether the thing claimed can be established by somebody other than the parties to it. Where it can, the transmission has nothing to lose by an audience and gains a public record; where it cannot, the audience is the one circumstance under which the absence of the effect would have to be admitted, and the transmission accounts for that absence in advance. The second clause of the statement is the counter-search written into the claim rather than appended to it."@en,
+        "So the statement should now be read as two claims that have come apart in a third case: that such transmissions name the unsympathetic person as a cause of failure, which all three witnesses support, and that they prescribe his exclusion rather than a trial before him, which two support and the third meets by a different means. Whether acting on the onlooker and removing him are one provision or two is a question for a protocol and not for this node, and it is the first thing a protocol on this claim should settle."@en,
         "The counter-search over the compiled holding, and the finding that shaped the statement. The Zande poison oracle is a transmission in which one man questions and another administers the poison to a fowl, the consultation is held in public, the bystanders may interrupt the questioner to have a point put that he has left out, and the transmission names eight causes to which a failure of the oracle is attributed — the wrong variety of the creeper, a breach of taboo, witchcraft, the anger of the owners of the forest, the age of the poison, the anger of the ghosts, sorcery, and use. Not one of the eight is a person present who is not in sympathy. The same transmission requires a second, corroborative consultation and holds two tests indispensable wherever the relations between two persons are at issue. That is a genuine opposite of the first clause and no counterexample to it, and the reason is the outcome: the fowl dies or it does not, and every bystander sees which."@en,
         "The two witnesses, each stating the condition in its own terms and each stating what follows. Among the Tungus, where too many of those present are not susceptible the audience reacts too slowly and the performance may fail; it may still be carried out formally, as a sequence of well known actions, without attaining its aim; and the presence of a single person who remains outside may suffice to disturb the rest. In the French manual only one witness is to be admitted, always the same and in communication with the operator, and all the curious and especially all the incredulous are to be banished, because where the stranger is incredulous, suspects the subject's sincerity or makes a jest of what he sees, the subject is troubled and loses his lucidity."@en,
         "The weakness of the derivation, stated because a reader would otherwise have to find it. It stands on two claims, which is the floor the class sets and not a recommendation. The two are far apart and no route between them has been proposed, but they are not equally strong: the Tungus claim is a recorder's report of a stated cause of failure, with the recorder adding, as his own reading, that public opinion is nonetheless inclined to see the cause in the shaman; the French claim is a rule written by a practitioner for practitioners. A rule and a report are not the same kind of evidence for a statement about what transmissions provide, and the statement rests on the rule more heavily than on the report."@en,
@@ -6406,6 +6468,7 @@ pmc:TheUnsympatheticWitnessAsStatedCauseOfFailure a pm:Generalizing ;
         "What the two have in common is not a complaint about scepticism, and the French case makes that plain: the witness the manual most sharply excludes is a physician who is not hostile but merely unfamiliar with the practice, on the ground that the subject would wish to convince him, would conduct his conversation with address, and would lose the simplicity his clairvoyance requires. The author gives a case of his own in which a sympathetic expert — a pupil of Mesmer, invited to instruct him — deranged the whole course of the somnambulism without touching the subject. The rule is about a person outside the communication and not about a person with an opinion."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:CautionAgainstWitnesses,
+        pmc:FinnicCautionAgainstTheEnvious,
         pmc:PerformanceFailsWithoutASusceptibleAudience ;
     pm:generalizedStatement "Where a transmission has its operation performed by one person upon or through another, admits witnesses to it, and makes the outcome a condition of a person that only the operator or the subject can certify, it names the presence of a person not in sympathy with the operation as a sufficient cause of its failure, and prescribes the exclusion of such persons rather than a trial conducted before them. Where instead the outcome is a discrete event that any bystander present can read off independently of the operator's report, it names no such cause, admits the bystanders, and may build the check into the procedure."@en .
 
@@ -8144,6 +8207,55 @@ pmp:FeatherAtTheNostrilExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-09" ;
     pm:tests pmc:InaudibleAndUnevenBreath .
 
+pmp:FinnicExactnessSearch a pm:Searching ;
+    rdfs:label "Ob der finnische Bestand die genaue Rezitation zur Bedingung macht"@de,
+        "Whether the Finnic corpus makes exact recitation a condition"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "Nothing came back. In a corpus whose central line makes the expulsion follow from pronouncing a deep origin, words that are handed down, no passage read states that the words must be exact, and none names a consequence for the operator who errs, forgets or does not know them. The nearest thing to a rule for not knowing is the formula to discover the cause, which is a remedy and not a penalty."@en,
+        "The one statement in the volume about exactness runs the other way and is the editor's, not the transmission's: he holds that one or only a very few of the songs stand in the shape in which they were sung, and that the singers, through failure of memory, did not recite them precisely the same on each occasion but unconsciously made small changes. That is an observation about the practice by the man who printed it, and it is recorded here as his."@en,
+        "Why the empty result is worth having. The holding asserts a convergence at pmc:ExactnessAsConditionOfEfficacy over four transmissions in which exactness is stated as the condition of efficacy. This is a fifth transmission of the same kind — spoken words, an operator, a claimed effect — in which the condition is not stated at all. That does not refute a convergence, which claims agreement among its members and not universality; it fixes the boundary of the agreement, and a later run that wants to say anything general about exactness now has a case outside it to account for."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the whole volume, on the normalised text, for: wrongly, mistake, mistaken, forget, forgets, forgetting, forgot, wrong word, err, erred, error, fail, fails, failed, failure, unless, if he does not, who knows not, not know. Every hit read in its place." ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "John Abercromby, The Pre- and Proto-historic Finns, vol. II: The Magic Songs of the West Finns (London: David Nutt, 1898), searched whole by term and the hits read at the wording; the editor's account of the collection at pp. 1-6 read in full" ;
+    pm:searchedFor "A passage stating that the words must be said exactly, or naming what follows if the operator errs, forgets or does not know them. The holding carries a convergence asserting that exactness is set as the condition of efficacy in four transmissions, and this corpus makes the handed-down words the whole ground of the operation, so it is the obvious place to ask." .
+
+pmp:FinnicSignOfSuccessSearch a pm:Searching ;
+    rdfs:label "Ob ein finnischer Spruch ein wahrnehmbares Zeichen des Wirkens nennt"@de,
+        "Whether a Finnish charm names a perceptible sign of having worked"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "Everything else the search returned was a mark on a body, a heraldic or weather word in a simile, or the editor's own prose. The volume has no equivalent of the ordered sign-sequences this holding carries from the Chinese inner alchemy, and no equivalent of a warmth or a light reported by the practitioner."@en,
+        "Exactly one passage in the volume demands a sign, and it demands it in the one place where nobody is standing. The evil, sent home to whoever fashioned it, is to give a sign on arrival, a secret signal, a crash like a thunder-clap and a glare like a lightning-flash — at that house, not at the bath-house where the operation was performed. The count for this corpus is therefore one sign of success, and it is not one the operator could report absent."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Term search of the whole volume, on the text normalised to single spaces because the scan breaks lines inside words, for: sign, signal, token, omen, mark, appear, appears, glare, crash, flash, smoke, warmth, light. Every hit read in its place." ;
+    pm:searchYieldedNode pmc:FinnicMerkkiKotona ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "John Abercromby, The Pre- and Proto-historic Finns, vol. II: The Magic Songs of the West Finns (London: David Nutt, 1898), searched whole by term and the hits read at the wording" ;
+    pm:searchedFor "A passage telling the operator or the patient what will be perceived when a charm has taken effect, which SPEC §15 requires to be harvested and counted separately from the conditions of failure." .
+
+pmp:FinnicStatedTermSearch a pm:Searching ;
+    rdfs:label "Ob ein finnischer Spruch eine Frist setzt, bis zu der er gewirkt haben muss"@de,
+        "Whether a Finnish charm sets a term by which it must have worked"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "One term came back and it is set on the wrong event. The evil is to reach its master's seat ere the close of day, ere the setting of the sun; nothing is said about when the sick man is to be better, and nothing about what follows if the sun sets and he is not. The formula's own provision for that case is the conditional two clauses later, which escalates instead of concluding."@en,
+        "This is the same finding the Jain run of the same day made in another corpus and it is worth stating as a pattern to be watched rather than a coincidence: terms are common, terms on the result are not. What a transmission times is the journey of the thing expelled, the length of the preparation, the number of the repetitions — and not the interval within which the promised effect is to appear."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Term search of the whole volume, on the normalised text, for: ere the close, ere the setting, sunset, sundown, before the sun, three days, three times, nine days, nine times, within a, by the morrow, by morning, this night. Every hit read in its place." ;
+    pm:searchYieldedNode pmc:FinnicAurinkoonMennessa ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "John Abercromby, The Pre- and Proto-historic Finns, vol. II: The Magic Songs of the West Finns (London: David Nutt, 1898), searched whole by term and the hits read at the wording" ;
+    pm:searchedFor "A term after which the charm is to have taken effect, which is the form the testability-driven entrance of SPEC §14 looks for and which would make a failure condition constructible." .
+
+pmp:FinnicUhkaus a pm:Practicing ;
+    rdfs:label "Die Drohformel, gesprochen nach einer Austreibung, die nichts bewirkt hat"@de,
+        "The menacing formula, said after an expulsion that produced nothing"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 16 a, pp. 92-93, with the occasion stated at p. 3" ;
+    skos:altLabel "uhkasanoja"@en ;
+    skos:definition "A formula with its own number and its own occasion in the collection: it is used after an expulsion formula, if the expulsion has proved of no avail."@en ;
+    skos:note "The occasion is the point. This is not a stronger version of the expulsion, to be chosen instead of it; it is what is said afterwards, in the case the expulsion was performed and nothing followed. The transmission has given that case a name, a number and a text."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
+
 pmp:FireAndWaterRite a pm:Practicing ;
     rdfs:label "Der Ritus mit Feuer und Wasser bei einer Geburt"@de,
         "The rite of fire and water at a birth"@en ;
@@ -9274,15 +9386,6 @@ pmt:EgyptianRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
-
-pmt:FinnicIncantation a pm:Tradition ;
-    rdfs:label "Finnische Zaubersprüche"@de,
-        "Finnic incantation"@en ;
-    skos:definition "The Finnish and Karelian transmission of the tietäjä, in which power over a thing follows from knowing and reciting its origin."@en ;
-    skos:note "Kalevala is a nineteenth-century compilation and belongs in the record as an ordering act, not as the corpus. The corpus is the collected incantations."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Suomen Kansan Vanhat Runot; the loitsurunot collections" .
 
 pmt:GoldenDawn a pm:Tradition ;
     rdfs:label "Hermetic Order of the Golden Dawn"@de,
@@ -10721,6 +10824,49 @@ pmc:FailureIsSulkinessOrLostPower a pm:Conceptualizing ;
     skos:note "The same corpus records the second, wider form of the move: when a man is not helped, he as a rule does not blame the practitioner but concludes that the diagnosis was wrong and that his trouble is not under the control of that particular charged thing, and simply changes practitioners, his confidence in the order untouched. The transmission thus has two exits from a failure before any question about the practice arises."@en,
         "This is the node the file is built around. It is a complete account of non-occurrence that never reaches the claim: whatever happens, the outcome is assigned to the state of the instrument and not to the question whether the instrument works. It costs a fee in either branch."@en ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmc:FinnicAurinkoonMennessa a pm:Conceptualizing ;
+    rdfs:label "Vor dem Ende des Tages, vor dem Untergang der Sonne"@de,
+        "Ere the close of day, ere the setting of the sun"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 17 g, p. 97" ;
+    skos:definition "The one term in what was read. The exorcism orders the evil to go, if it has a master, to its master's seat, and if a mistress, to its mistress's feet, to the mouth of its brother's door and the end of its sister's floor — ere the close of day, ere the setting of the sun."@en ;
+    skos:note "A term set on the departure and not on the recovery of the patient. Nothing in the passage says what is to be concluded if the sun sets and the sick man is unchanged; the formula's own provision for that case is the conditional two clauses further on."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicCautionAgainstTheEnvious a pm:Cautioning ;
+    rdfs:label "Gegen den neidischen Zuschauer"@de,
+        "Against the envious onlooker"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 3 a-b, pp. 70-71" ;
+    skos:note "The caution is an operative formula and not a rule about who may attend, which is the form this holding has the same claim in from the French magnetic manual. Here there is no instruction to exclude anyone; there is a curse laid on the envious onlooker in advance — may the slag of Hiisi fill his eyes and a fiery bung plug up his mouth — and a blessing on the one who looks without envy. The transmission answers the same danger by acting on the onlooker rather than by removing him."@en,
+        "The collection adds the exclusion elsewhere and by a different route, in the editor's account of how the work was done rather than in a song: the vapour-bath house was heated as secretly as possible so that no envious or malevolent person should get wind of it and injure the operation. That sentence is the compiler's and is entered at pmc:LonnrotJarjestys, not here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:FinnicKateus ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicKateus a pm:Conceptualizing ;
+    rdfs:label "Der neidische Blick, der die Arbeit verdirbt"@de,
+        "The envious look that spoils the work"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 3 a-c, pp. 70-72" ;
+    skos:definition "What the formula against envy names: whoever looks with jealousy, looks pryingly with eyes askew, casts resentful glances or prepares some malevolence — and, in the second variant, whoever keeps turning round with a jealous eye, causes bewitchment with his mouth or imprecates with words. The speaker opens by saying that he cannot guard against envy nor shield himself from opponents while dealing with these toilsome tasks."@en ;
+    skos:note "The distinction the formula draws is between the envious look and the look without envy, and it is drawn inside the same passage: whoever looks without envy is to be blessed so that he shall have honeyed eyes, and whoever happens to overlook or stares from one side is asked to look with a honeyed glance. The disposition of the onlooker and not his presence is what the formula treats as the variable."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicMerkkiKotona a pm:Conceptualizing ;
+    rdfs:label "Das Zeichen wird gefordert, und anderswo gefordert"@de,
+        "The sign is demanded, and demanded elsewhere"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 17 g, pp. 97-98" ;
+    skos:definition "The one sign in what was read. The same exorcism tells the evil that on its arrival at the abode of him that fashioned it, it is to give a sign, a secret signal on reaching home, to cause a crash like a thunder-clap and a glare like a lightning-flash."@en ;
+    skos:note "Entered under the separate count SPEC §15 requires for signs of success, and it is the case that shows why the count is kept separate. The sign is perceptible, it is named in advance, and it is to occur at the house of whoever sent the evil — that is, at a place where neither the operator nor the patient is, and at an hour when they are elsewhere. A transmission that names its only confirming event outside the room has stated something no participant could report absent."@en,
+        "It is the counterpart of the deadline above and belongs beside it: the term is set on the same journey, and the sign is what would mark its completion. Together they are a complete verification procedure with no one at the place of verification."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmc:FinnicPahanPoisto a pm:Conceptualizing ;
+    rdfs:label "Das unnötige Übel wird ausgetrieben"@de,
+        "The needless evil is expelled"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 210 a, p. 332" ;
+    skos:definition "The outcome the song states of the recitation, in one line and without a condition attached: by pronouncing a deep origin, words that are handed down, a needless evil is expelled."@en ;
+    skos:note "The line is the whole of the transmission's own statement of its central doctrine, and it is worth noticing how little it says. It names no interval, no repetition, no sign, and no state of either party. Everything else this holding will carry about the synty comes from what the operator does when it does not work."@en ;
+    pm:withinTradition pmt:FinnicIncantation .
 
 pmc:FirstWeek a pm:Conceptualizing ;
     rdfs:label "Die erste Woche"@de,
@@ -12964,6 +13110,27 @@ pmp:FastBeforeTakingOffice a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Andean .
 
+pmp:FinnicLuonnonNostatus a pm:Practicing ;
+    rdfs:label "Das Erheben der eigenen Natur vor der Arbeit"@de,
+        "Raising one's own Nature before the work"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 12 a-c, pp. 83-84, with the occasion stated at p. 3" ;
+    skos:altLabel "haltia"@en,
+        "luonnon nostatus"@en,
+        "luonto"@en ;
+    skos:definition "A formula the operator says over himself and not over the patient. He calls his Nature from its hole and his genius from under a fallen tree, from beneath a stone, from out the moss; he calls his Nature that is hard as stone and his hair that is tough as iron, and the Nature of his mother, his father and his ancestor in addition to his own; he asks to be clothed with a burning coat and with furs of fiery red. The collection names the occasion: it is said for steeling the nerves while conjuring the sick and removing obstacles."@en ;
+    skos:note "Two of its lines are the transmission's own account of what the operator brings to the work, and they are inherited rather than acquired: his mother's Nature and his father's and his ancestor's are called up beside his own. That is a prerequisite located in descent, which is not a condition anyone could set, and it stands in the same formula as the one condition anyone could — that the man says these words before he begins."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
+
+pmp:FinnicSyynTiedustus a pm:Practicing ;
+    rdfs:label "Die Formel, wenn der Ursprung nicht bekannt ist"@de,
+        "The formula said when the origin is not known"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 5 a-c, pp. 73-75" ;
+    skos:definition "The formula for the case in which the operator does not know what he is dealing with. Its speaker says outright that he does not know who the maker of the hurt is, and undertakes to get to know its origin and to ascertain its birthplace; it then puts the alternatives to the hurt itself, whether it is the Creator's work or a man's."@en ;
+    skos:note "A transmission whose doctrine is that knowing the origin gives power, and which carries a standing procedure for not knowing it, has admitted the ordinary case into its own apparatus. The formula is not an emergency measure: it has a number and a place in the order of recitation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
+
 pmp:FireReading a pm:Practicing ;
     rdfs:label "Das Lesen am Verbrennen von Fett und Coca"@de,
         "Reading the burning of fat and coca"@en ;
@@ -14792,6 +14959,16 @@ pmp:Evocation a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
 
+pmp:FinnicSynnynLukeminen a pm:Practicing ;
+    rdfs:label "Das Aussprechen des Ursprungs der Sache"@de,
+        "Pronouncing the origin of the thing"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 210 a, p. 332" ;
+    skos:altLabel "synnyn sanat"@en,
+        "synty"@en ;
+    skos:definition "Reciting, to the cause of a hurt, the account of how it came to be: its birth, its parentage and its descent, in the words that are handed down. The songs treat it as a thing the operator either has or lacks, and the collection carries a separate formula for the case in which he lacks it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
+
 pmp:JainaBhaktapratyakhyana a pm:Practicing ;
     rdfs:label "Der Verzicht auf alle Nahrung"@de,
         "Renouncing all food"@en ;
@@ -15322,11 +15499,6 @@ pm:claimDoesNotDiscriminate a pm:ExaminationState ;
         "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
         "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
         "Subject axis"@en ;
@@ -15407,6 +15579,11 @@ pmt:FourthWay a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
 
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
+
 pmp:Cizhen a pm:Practicing ;
     rdfs:label "Nadelung"@de,
         "Needling"@en ;
@@ -15470,12 +15647,6 @@ pmt:Spiritism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums; Kardec, L'Évangile selon le spiritisme; Kardec, La Genèse; the Revue Spirite, 1858-1869" .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
@@ -15516,6 +15687,12 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
@@ -15658,11 +15835,6 @@ pm:Positing a owl:Class ;
     skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
     skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -15701,6 +15873,25 @@ pm:Scale a owl:Class ;
         "Scale"@en ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
+pmt:FinnicIncantation a pm:Tradition ;
+    rdfs:label "Finnische Zaubersprüche"@de,
+        "Finnic incantation"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II: The Magic Songs of the West Finns (London: David Nutt, 1898), § 210 a, p. 332, translating Elias Lönnrot (ed.), Suomen Kansan Muinaisia Loitsurunoja (Helsinki: SKS, 1880)" ;
+    skos:definition "The Finnish and Karelian transmission of the tietäjä, in which power over a thing follows from knowing and reciting its origin."@en ;
+    skos:note "Kalevala is a nineteenth-century compilation and belongs in the record as an ordering act, not as the corpus. The corpus is the collected incantations."@en,
+        "Read in one work and at the wording of its English: John Abercromby, The Pre- and Proto-historic Finns, vol. II, The Magic Songs of the West Finns (London: David Nutt, 1898), which translates 639 pieces of Elias Lönnrot's collection of 1880. Read in full: the editor's account of the eighteen classes of formula and of the order of recitation, pp. 2-6; § 3 Against Envy, pp. 70-72; § 5 To Discover the Cause, pp. 73-75; § 12 Falling into Ecstasy, pp. 83-84; § 16 Menacing, pp. 92-94; § 17 Exorcisms at a to h, pp. 94-99; § 210 a, p. 332. The whole volume searched by term for signs of success and for stated terms, and every hit read in its place."@en,
+        "The contact route stays disputed and the reading moved it only by adding the translator's own judgement, which is recorded as his and not entered as a claim. He states that the origin or genealogy passage occurs about a hundred and fifty times in the songs and is also found in Estonian charms, which closely resemble the Finnish, but not elsewhere so far as he knows — and that a different structural element, the narrative precedent, is probably borrowed from the Latvians. That is a scholar comparing corpora in 1898 and belongs at a protocol or in an issue, not in a node of this file."@en,
+        "The edition read is a translation of a compilation, and the difficulty is in the compilation and not in the translation. Lönnrot gives no place of recording and contaminates as many as twenty variants into one text, which the translator states in his own opening pages. A node in this file therefore names a formula type and not an aufzeichnung: it says that this is how the type runs in the standard collection, not that any one singer sang it so. The corpus that would carry the second claim is Suomen Kansan Vanhat Runot, which prints the recordings singly with their place, collector and date, and it was not opened in this run because no public-domain English translation of it exists."@en,
+        "What was not read, and it is the larger part. Of the volume's 233 numbered sections, seven were read; the origins themselves, §§ 183-233, were read only at § 210. Volume I was not opened. Neither Suomen Kansan Vanhat Runot nor Lönnrot's own edition was opened. The Kalevala was deliberately not used, for the reason the registration gives: it is an ordering act and not the corpus."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Suomen Kansan Vanhat Runot; the loitsurunot collections" .
 
 pmt:Mithraic a pm:Tradition ;
     rdfs:label "Mithras-Mysterien"@de,
@@ -16079,15 +16270,6 @@ pmt:Daoist a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Xingqi yupei ming, the jade inscription on circulating the qi; Zhuangzi; Ge Hong, Baopuzi neipian; Chen Zhixu, Jindan dayao" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pmt:ChineseMedicalCanon a pm:Tradition ;
     rdfs:label "Chinesischer medizinischer Kanon"@de,
         "Chinese medical canon"@en ;
@@ -16101,6 +16283,15 @@ pmt:ChineseMedicalCanon a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing; Huangfu Mi, Zhenjiu jiayi jing; Yang Shangshan, Huangdi neijing taisu" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
