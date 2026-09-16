@@ -1184,12 +1184,16 @@ pmc:DirectionIsNotThePhaseOfBreathing a pm:Converging ;
     rdfs:label "Die Richtung trägt eine gestufte Bahn, nicht die Atemphase"@de,
         "Direction is carried by a graded course, not by the phase of breathing"@en ;
     dcterms:source "Svātmārāma, Haṭhayogapradīpikā II.47 (Sanskrit vulgate; Sinh 1915)",
-        "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125" ;
+        "Xingqi yupei ming, in D. Harper, Early Chinese Medical Literature (1998), p. 125",
+        "Zhangjiashan Yinshu, slips 36 to 37, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
     skos:definition "Two traditions assign direction inside the body to something other than inhaling and exhaling. One assigns it to two winds driven against each other in a single operation; the other to a place in a graded sequence, with descent in the middle of it and ascent at its end. Neither pairs a direction with a phase of the breath."@en ;
     skos:note "A second correspondence sits alongside this one and is deliberately not asserted as a separate node yet: both traditions sanction the wrong handling of the breath with death, the one saying that the breath kills the practitioner who forces it, the other that going against the sequence is to die. Two death sanctions are a thinner finding than they look, since a warning of death is the commonest form a strong prohibition takes anywhere, and the two do not agree on what the fault is: one names haste and force, the other names reversal of order. Recorded here so that the next reader can weigh it rather than rediscover it."@en,
-        "The independence is asymmetric and the node says so rather than claiming more than it has. The jade inscription is dated to the fourth or third century before the common era on the reading this collection follows, which is earlier than any documented transmission of Indian breath technique into China; for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions, so its side of the correspondence cannot be declared contact-free with the same confidence. What the two share is therefore better read as one early independent witness and one late witness of uncertain independence, which is weaker than a convergence of two early ones and stronger than a citation chain."@en ;
+        "A third member was added on 2026-09-16 and it changes the asymmetry the note above reports. The Pulling Book from tomb 247 at Zhangjiashan states a direction taken inside the body and the outcome of its taking it: with a staff in one hand, the face to a wall and the breath held, one foot treading the wall, when the qi of the head flows downward the foot will not be numb, the head will not swell and the nose will not be blocked (pmc:YinshuQiXiaXing). The breath is held throughout, so the direction is not carried by a phase of it; what is varied is the posture and the side. The agreement is on the denial and not on what takes the denial's place — the manual has two winds driven against each other, the jade inscription a graded course, and this one a posture — and the node is worded for the denial, so the third member belongs to it."@en,
+        "The independence is asymmetric and the node says so rather than claiming more than it has. The jade inscription is dated to the fourth or third century before the common era on the reading this collection follows, which is earlier than any documented transmission of Indian breath technique into China; for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions, so its side of the correspondence cannot be declared contact-free with the same confidence. What the two share is therefore better read as one early independent witness and one late witness of uncertain independence, which is weaker than a convergence of two early ones and stronger than a citation chain."@en,
+        "What the third member is worth is its date and the way its date is known. The jade inscription is dated on a reading of its script and its content, which is a scholarly judgement and can be revised. This manuscript is dated by the tomb it was sealed in, between 186 and 156 before this era, and nothing was written into it after that. For the independence question that is a different kind of ground: the earlier reasoning had to argue that no route of contact is documented, and this one can say that no route could have reached the object after a fixed year. It does not make the fifteenth-century manual independent, and the asymmetry below still holds; what it does is put two early witnesses on the side that was carrying one."@en ;
     pm:convergingConcept pmc:OpposedDirectionsOfPranaAndApana,
-        pmc:XingqiDescent ;
+        pmc:XingqiDescent,
+        pmc:YinshuQiXiaXing ;
     pm:independenceGround "One side carries the claim and the other has been withdrawn from it. The jade inscription is dated to the fourth or third century before the common era, earlier than any documented transmission of Indian breath technique into China, and for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions; it cannot be declared contact-free, and it was listed here as an independent attestation until this ground was required, which is what the requirement is for. Neither witness is an ethnographic gathering, so no recorder's feedback is at issue." ;
     pm:independentAttestation pmt:Daoist .
 
@@ -7116,6 +7120,92 @@ pmc:YaodongGuBing a pm:Conceptualizing ;
         "The same machinery is printed as instruction at pmc:JinchengYaocheng, where a run that yields no gold is to be fired again, and at pmc:HedanTiaojian, where a drug that does not form may be blamed on an unbeliever's slander. Here it is not the instruction but the speech of the men taking it, written down by an outsider who had watched seven of them die. The graph therefore holds this form from three sides: as recipe, as excuse, and as observation."@en ;
     pm:withinTradition pmt:Waidan .
 
+pmc:YinshuBaJingYieldsWuBing a pm:Yielding ;
+    rdfs:label "Das Ziehen der acht Schüsse bringt Krankheitsfreiheit hervor"@de,
+        "The pull of the Eight Warps yields freedom from illness"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 104 to 105, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:YinshuBaJing ;
+    pm:withinTradition pmt:Yangsheng ;
+    pm:yieldsCapacity pmc:YinshuWuBing .
+
+pmc:YinshuBingYuan a pm:Conceptualizing ;
+    rdfs:label "Warum ein Mensch krank wird"@de,
+        "Why a person becomes ill"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 103 to 104, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The list the third text opens with, given as invariable: the reasons why a person becomes ill are heat, damp, wind, cold, rain and dew; the opening and closing of the patterns of the skin; lack of harmony in eating and drinking; and not being able to respond to cold and heat in getting up and going to sleep. It adds that between the four seasons chaotic qi bump against each other, so that people cannot avoid being in the middle of it themselves."@en ;
+    skos:note "Four of the five members are outside the person and the fifth is his conduct, and the closing clause says that the outside part cannot be avoided. An aetiology built that way leaves the conduct as the only thing the instruction can address, which is what the rest of the text does."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuDaoyinYieldsShanYu a pm:Yielding ;
+    rdfs:label "Das Ziehen bringt den Nutzen für den ihm zugeordneten Teil hervor"@de,
+        "Pulling yields the benefit of the part named for it"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 99 to 102, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:YinshuDaoyin ;
+    pm:withinTradition pmt:Yangsheng ;
+    pm:yieldsCapacity pmc:YinshuShanYu .
+
+pmc:YinshuGuiJianYiBing a pm:Conceptualizing ;
+    rdfs:label "Der Vornehme und der Geringe erkranken aus verschiedenen Gründen, und beide aus dem eigenen"@de,
+        "The noble and the lowly fall ill for different reasons, and both for their own"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 106 to 110, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The passage that closes the third text, which divides the causation of illness by rank. The nobility fall ill because they do not harmonise their joys and their passions: if they are joyful the Yang qi is in excess, if they are angry the Yin qi is in excess; those who follow the Way exhale the warm breath quickly when joyful and puff out the moist breath the more when angry, in order to harmonise it. The lowly fall ill from exhaustion at their labour, from hunger and thirst, and because when the hundred sweats cease they plunge themselves into water and then lie down in a cold and empty place; they do not know to put on more clothes, and they also do not know to expel air and breathe out to get rid of it, and on account of this they have many illnesses and die easily. Before both stands the general statement that people are born into their nature and do not know how to be sparing with their qi, and therefore often become ill and die easily."@en ;
+    skos:note "It is also a social claim and not only a medical one, and the graph should not smooth that away. The text explains why the people who work are the people who are ill, and it explains it by their ignorance rather than by their labour, although it names the labour first."@en,
+        "The operative word in both halves is knowing, and it is where the failure is put. The noble man's illness is a failure of moderation and the lowly man's is a failure of knowledge — he does not know to dress warmly, he does not know to breathe it out. Every illness the passage accounts for is thereby accounted for by something the sick person did or did not know, and the remedy in both halves is the same breath the text has just taught. The corpus has stated its own immunising clause in the plainest possible form, and it stated it in the second century before this era."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuPengzuDao a pm:Conceptualizing ;
+    rdfs:label "Erzeugen, wachsen, ernten, bewahren: der Weg des Peng Zu"@de,
+        "Generate, grow, harvest, preserve: the way of Peng Zu"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slip 1, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The opening line of the work, which puts the whole regimen under one figure: in the spring generate, in the summer grow, in the autumn harvest, in the winter preserve, this is the way of Peng Zu."@en ;
+    skos:note "The four terms are the year of a plant and the year of a farmer, applied to a body. The work names no other authority anywhere, and it names this one in its first sentence, which is where a transmission with a lineage would put the lineage."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuRiyongYieldsChangshou a pm:Yielding ;
+    rdfs:label "Die jahreszeitliche Tagesordnung bringt langes Leben hervor"@de,
+        "The day's order in its season yields long life"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slip 2, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:YinshuSijieRiyong ;
+    pm:withinTradition pmt:Yangsheng ;
+    pm:yieldsCapacity pmc:YinshuChangshou .
+
+pmc:YinshuShiRi a pm:Conceptualizing ;
+    rdfs:label "Tausendmal viermal am Tag, nach zehn Tagen aufhören"@de,
+        "A thousand times four times a day, stop after ten days"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 40 to 42 and slip 48, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The one place where the work puts a term in days on a treatment, and it does it twice with the same numbers. For feet whose steps cannot be coordinated, with the knees tending to hurt and the lower legs to cold, a shaved piece of wood four chi long is hung on new twist four chi from the ground; the patient sits on it and jumps the legs alternately a thousand times in the morning, a thousand at midday, a thousand in the evening and a thousand at midnight, and stops after ten days. For two hands with too little qi in them, the arms unequal and the fingertips tending to numbness, the elbows are held as if bound to the sides and swung vigorously, a thousand times in the morning, at midday and at midnight, and stops after ten days."@en ;
+    skos:note "This is the shape from which a failure condition can be made, and it is rare enough in this holding to be worth naming as such. A count, a frequency and a term together say what would have to be done before anyone could say the treatment had been given its chance. What the work does not add is the other half: it nowhere says what follows if the ten days pass and the steps are still uncoordinated."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuYiZeShangQi a pm:Cautioning ;
+    rdfs:label "Mehr davon schädigt das Qi"@de,
+        "Increasing it will harm the qi"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 3, 5 and 7, with the autumn paragraph at slip 6, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The sanction the work attaches to the timed member of the day's order, in the same five graphs each time and set on its own slip: when it is time, cease; increasing it will harm the qi."@en ;
+    skos:note "It stands three times and not four. Spring, summer and winter each carry it; the autumn paragraph carries no hour, no stopping rule and no sanction, and says instead that the body's desires are to be indulged in eating and drinking and that entering the chamber whenever the body derives comfort from it is the way of benefit. The asymmetry is in the text and is not a lacuna: the autumn slip is whole and ends with its own closing formula. A transmission that suspends its one sanction for one quarter of the year has said something about what the sanction is for."@en,
+        "What is named as harmed is the qi and not the practitioner's chances. The cost of exceeding is a state of the body, which is the same place three other transmissions in this holding put it, and it is entered here in its own right rather than as a case of that."@en ;
+    pm:cautionsAbout pmp:YinshuRushi ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuZaoShiHanRe a pm:Conceptualizing ;
+    rdfs:label "Welcher Atem welchem Wetter antwortet"@de,
+        "Which breath answers which weather"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 111 to 112, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The closing rule of the work, which sets the breath against the state of the air in four cases: if it is dry, breathe the dry breath out frequently and lie down frequently; if it is damp, puff out the moist breath frequently, do not lie down, and make the Yin substantial; if it is hot, concentrate exclusively on exhaling the warm breath; when it is cold, work the body. This, it says, is the way to align dry, damp, cold and heat with one another."@en ;
+    skos:note "A rule with four branches and a criterion the practitioner does not set, which is unusual in this holding: the weather decides which branch applies, and the weather is the same for everybody present. It is the nearest thing the work offers to a procedure another person could check him against."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuZhuRen a pm:Conceptualizing ;
+    rdfs:label "Die zweite Person im Raum, und was geschieht, wenn der Kranke sich nicht heben kann"@de,
+        "The other person in the room, and what is done when the patient cannot rise"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 32, 49, 60 and 72, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "Four treatments require somebody else and name what he does. For the neck that cannot turn, others raise the head from in front and behind as far as it will go, and then the patient is slowly straightened and rested. For bowel flushing, the patient lies prostrate with the chin on a pillow and instructs a person to step on the small of his back. For urine retention, another person is directed at the small of the back while the patient embraces a column. For abdominal pain, someone raises a strung wooden board to a height of one chi for the patient to stand on. The treatment for bowel flushing then states what to do where the illness has gone so far that the patient cannot raise himself: the other person raises the buttocks using the clothes."@en ;
+    skos:note "The last clause is the reason for the node. A prescription that provides for the case in which the patient is too ill to do his own part is providing for its own procedure failing at the body of the person it is addressed to, and it answers with a substitution rather than with an excuse. This holding carries a great deal of the second kind and very little of the first."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
 pmc:YuruguPursuit a pm:Conceptualizing ;
     rdfs:label "Yourougou in Verfolgung Yasiguis"@de,
         "Yourougou in pursuit of Yasigui"@en ;
@@ -9070,6 +9160,44 @@ pmp:WordsBeforeDoctorsExamination a pm:Testing ;
         "The sufferer does not recover after the words and the physician does not help either, which the sentence takes as confirming itself."@en,
         "The sufferer recovers after the words, which the sentence takes as confirming the words."@en .
 
+pmp:YangshengContactSearch a pm:Searching ;
+    rdfs:label "Ob das Ziehbuch eine Quelle außerhalb seiner selbst nennt"@de,
+        "Whether the Pulling Book names any source outside itself"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "Not one of the terms occurs. The work names exactly one person, in its first sentence, and names him as the owner of the way rather than as a teacher who handed it on: in the spring generate, in the summer grow, in the autumn harvest, in the winter preserve, this is the way of Peng Zu. Everything else it grounds in heaven, earth and the four seasons. There is no colophon, no line of transmission, no scripture cited and no authority appealed to."@en,
+        "What the empty result is worth, and what it is not worth. It does not prove that nothing reached this material from outside; an absence of names is what most technical manuals of any period show. What it does is remove the one thing that would have settled the question the other way. The manuscript went into a tomb between 186 and 156 before this era and came out in 1984, so a route of contact, if there is one, has to be argued from the practices themselves and cannot be read off a citation. For a holding whose every convergence so far has been open to the objection of reception, that is the condition it has been looking for and it is why this corpus was opened before the two that were not reachable."@en,
+        "Where a later run should go next with this. The two Mawangdui manuscripts named in the registration, the Daoyin tu and the Quegu shiqi, are from the same century and the same practice, and neither was reachable in a public-domain or freely readable English edition in this run. They would double the witness. The Huangting jing would not: it is centuries later and stands downstream of the traffic the early manuscripts stand before."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the whole translation, case-insensitive, for: India, Indian, Buddha, Buddhist, yoga, Sanskrit, prana, foreign, barbarian, western regions, Hu, monk, master, teacher, transmitted, received from, handed down. Every occurrence of a personal name in the translation read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "The Zhangjiashan Yinshu in full, all 113 slips, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)."@en ;
+    pm:searchedFor "Any naming of a source, an authority or an origin for the regimen that lies outside the work: a teacher, a lineage, a received scripture, a foreign people, a place beyond the Chinese world, or a technical term this holding carries from the Indian material. The registration of this transmission rested on the burial date rather than on the wording, and the wording had not been checked."@en .
+
+pmp:YangshengPrerequisiteSearch a pm:Searching ;
+    rdfs:label "Ob eine Praxis des Ziehbuchs zur Bedingung einer anderen gemacht wird"@de,
+        "Whether one practice of the Pulling Book is made the condition of another"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "Order is everywhere in the work and it is always order inside one prescription. Extend the left foot, then raise the right arm; do the counted part, then hold the breath until the sweat comes; on rising make the movement wide, on lying down pull as far as it will go. Every occurrence of must governs a treatment and not a career: at this moment you must treat it with the pull of the Eight Warps. Nothing says that a practitioner who has not done one thing may not do another."@en,
+        "The finding is about the shape of the transmission and not about a gap in the reading. A corpus of forty-one exercises each indexed to a complaint does not need a ladder, because nothing in it is reserved: the entry condition for any one of them is having the complaint it treats. The graded sequences this holding carries from the Baopuzi, from the Shangqing material and from the internal alchemy are later, and they come with what this text has none of — a lineage, a transmission restricted to the worthy, and an attainment at the top. An exhibited gap here is therefore worth more than a found passage would have been."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the whole translation for: before, first, only after, unless, must, cannot, not until, when you have, having. Every hit read in its place, and the three texts read through in order for an unmarked sequence."@en ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "The Zhangjiashan Yinshu in full, all 113 slips, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)."@en ;
+    pm:searchedFor "A passage making one of the work's practices the prerequisite of another: an exercise to be mastered before a second may be attempted, a purification before the breath, a stage that cannot be reached without a prior one. Prerequisite chains are one of the four kinds the harvest owes, and this holding carries them in quantity from the Chinese material of later centuries, so their absence in the earliest witness had to be established rather than assumed."@en .
+
+pmp:YangshengSignOfSuccessSearch a pm:Searching ;
+    rdfs:label "Ob das Ziehbuch ein wahrnehmbares Zeichen des Gelingens nennt"@de,
+        "Whether the Pulling Book names a perceptible sign that a treatment has worked"@en ;
+    dcterms:date "2026-09-16" ;
+    skos:note "One sign and it is a sign of the procedure rather than of the cure. Under held breath, after a while, sweat comes out of the patterns of the skin, and that is the point at which the instruction turns from a count to as long as possible. Everything else stops at a number: ten times, thirty, three hundred, a thousand, or ten days. The distinction matters for what can be checked. Sweat under a held breath follows from doing the thing correctly, so a practitioner who sees it knows he performed the procedure and knows nothing yet about his neck."@en,
+        "The second-nearest thing was read and set aside as not a sign. Three outcomes are stated of the wall-and-staff treatment as things that will be the case when the qi of the head flows downward — the foot not numb, the head not swollen, the nose not blocked — and they are the complaints themselves in the negative. A transmission that says the treatment works when the symptom is gone has named a criterion and not a sign, and the difference is that a criterion of that kind is the ordinary one any medicine offers."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Term search of the whole translation for: sweat, sign, know, feel, appears, until, then the, will not, cured, recover, better, warm, light. Every hit read in its place; the stopping formulae of all forty-one exercises compared."@en ;
+    pm:searchYieldedNode pmc:YinshuHanChu ;
+    pm:searchedBy "prima-materia, 2026-09-16" ;
+    pm:searchedCorpus "The Zhangjiashan Yinshu in full, all 113 slips, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)."@en ;
+    pm:searchedFor "A passage telling the practitioner what he will perceive when a treatment has taken effect, as against how many times to do it. The five kinds the harvest owes count signs of success separately, and this holding has had to record their absence in several corpora with full capacity catalogues."@en .
+
 pmp:ZhengaoBuddhistStratumSearch a pm:Searching ;
     rdfs:label "Wo das Zhen'gao buddhistisches Material führt"@de,
         "Where the Zhen'gao carries Buddhist material"@en ;
@@ -9900,15 +10028,6 @@ pmt:VedicRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
-
-pmt:Yangsheng a pm:Tradition ;
-    rdfs:label "Yangsheng-Überlieferung"@de,
-        "Yangsheng nourishing-life transmission"@en ;
-    skos:definition "The early Chinese transmission of breath circulation, guided stretching and dietary regimen for the prolongation of life, with illustrated postures."@en ;
-    skos:note "The Mawangdui and Zhangjiashan manuscripts are dated by their burial, which puts the breath material before any documented contact with Indian practice. This is the single most valuable registration in the file for the independence question."@en ;
-    pm:contactRoute pm:contactRouteAbsent ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The Mawangdui manuscripts, including Daoyin tu and Quegu shiqi; the Zhangjiashan Yinshu; Huangting jing" .
 
 pmt:Yarsan a pm:Tradition ;
     rdfs:label "Yarsanische Überlieferung"@de,
@@ -11547,6 +11666,7 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         "The failed run is assigned somewhere other than to the operation"@en ;
     skos:note "A ninth witness was added on 2026-09-12 from the Clavicula Salomonis, and it is the limiting case of the statement rather than another instance of it. The others supply a condition under which an empty run counts as no failure; this one supplies the condition in advance and in general, for every operation in the book: an experiment performed with due observance of days, hours and requisite solemnities which is found unsuccessful must in some manner be false and defective, and the operator must assuredly have failed in some matter. The same clause stands in three chapters of the work. Where the other eight name a party or a circumstance to which a particular non-occurrence goes, this one names the operator for all of them at once and adds that the whole book depends on the chapter that says so."@en,
         "A seventh witness was added on 2026-09-11 and it is the limiting case of the statement. Where the others supply a condition under which a run that produced nothing counts as no failure, the Zhen'gao supplies a rule of reading under which the outcome that would end the practitioner's participation altogether — his death — is classified as the attainment, and it does so for every state a corpse can be found in, the intact and the putrefied alike. The condition has there been moved from the run to the observation, which is one step further than any of the six."@en,
+        "A tenth witness was added on 2026-09-16 and it is the oldest of them by four centuries. A single slip of the Pulling Book from tomb 247 at Zhangjiashan carries the instruction in two clauses: on waking, knocking the teeth prevents tooth decay; if there is tooth decay, knock them more. The first clause offers an outcome any practitioner could look for in his own mouth and the second says what to do when it is not there, and what it says is to do more of the same. That is the construction of the assay of the fourth chapter of the Baopuzi in miniature, and the two are separated by some four hundred years. The witness is worth listing apart from the other nine for one reason: it was buried between 186 and 156 before this era and read in 1984, so nobody added the second clause later in answer to anyone. The immunising clause is not a defensive move made when critics appeared; it was already in the instructions."@en,
         "An eighth witness was added on 2026-09-11 and it is the only one that states the rule instead of instancing it. The internal alchemy puts the practitioner's question — he has held to the work and seen no result — at the head of its chapter on the signs of verification, and answers it twice in four characters: it is not that the Way has failed the man. In its place it supplies two conditions, both in the operator, an unenlightened master and ignorance of the times. Where the other seven have to be read off a doctrine, this one is the doctrine, and it names the possibility it excludes."@en,
         "Counter-search, carried against this holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Sami material reports two practitioners who set a period, named in advance the sign they demanded, received nothing and destroyed the instrument without explaining the failure away; it does not refute, because it reports conduct and not a rule of the transmission, and the node itself flags that both cases stand in a missionary's chapter on conversion. The Zande material prescribes a corroborative second test whose contradiction voids the verdict, which is an outcome a further run can establish and looks at first like the counter-case; it does not refute either, because the same transmission carries the eight causes beside it, so that the internal check and the external excuse coexist. What that pair shows is worth more than a clean confirmation: a transmission can hold a real check and an unlimited excuse at once, and the check then bounds nothing."@en,
         "Falsified by a transmission of the kind described whose earliest witness names an outcome that would count against the operation and supplies no condition assigning a failed run to the operator, the person operated on, the material or a third party. One such case refutes it. The likeliest places to look are the transmissions this holding carries that already name an observable sign of success, since a sign that can be present can also be absent: the feather at the nostril of the eighth chapter of the Baopuzi, the gold-coloured body of the golden liquor, and the ten-day term of the medical canon."@en,
@@ -11563,7 +11683,8 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         pmc:NeidanFeidaofuren,
         pmc:SanjiLiuxiong,
         pmc:ShangqingShijieZhengbian,
-        pmc:Shenbushi ;
+        pmc:Shenbushi,
+        pmc:YinshuKouchi ;
     pm:generalizedStatement "Where a transmission prescribes an operation whose success cannot be established apart from the operation itself, the same transmission supplies a condition under which a run that produced nothing counts as no failure of the operation, and it locates that condition in the operator, in the person operated on, in the material, or in a third party, rather than in an outcome that a further run could establish."@en .
 
 pmc:NorseAsaOkAlfaSkil a pm:Conceptualizing ;
@@ -12814,6 +12935,52 @@ pmc:YinjunDexian a pm:Attributing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:Waidan .
 
+pmc:YinshuChangshou a pm:Conceptualizing ;
+    rdfs:label "Dadurch kann man lange leben"@de,
+        "By this you may live a long life"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slip 2, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The outcome the first text states of the morning order, once, in the spring paragraph and not repeated in the other three: go to meet the purity of the early morning dew, receive the quintessence of heaven, and after drink one cup of water, and in this way you may live a long life."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuHanChu a pm:Conceptualizing ;
+    rdfs:label "Bis der Schweiß aus den Mustern der Haut tritt"@de,
+        "Until the sweat comes out of the patterns of the skin"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 31 to 32 and slips 36 to 37, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The one stopping rule in the work that is set by something perceived rather than by a count. In the treatment for a neck that hurts and cannot be turned, after the counted part is done the patient covers the mouth forcibly and does not breathe, and after a while sweat comes out of the patterns of the skin; the instruction is then to do it as long as possible and stop. Two further outcomes are stated of another treatment in the same terms, as things that will be the case when the qi of the head flows downward: the foot will not be immobile and numb, the head will not swell, and the nose will not be stuffed up."@en ;
+    skos:note "A sign of success and an observable one, which the harvest counts separately and which this holding has often had to record as absent. It is worth noticing what kind of sign it is. Sweat under held breath is a thing the body does, so the sign is available to anyone who performs the procedure correctly and says nothing about whether the complaint is gone. The corpus never names a perceptible mark of the cure itself."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuKouchi a pm:Conceptualizing ;
+    rdfs:label "Die Zähne schlagen; und ist schon Karies da, mehr schlagen"@de,
+        "Knock the teeth; and if there is decay already, knock them more"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slip 98, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "A single slip carrying both halves of one instruction: on waking, knocking the teeth prevents tooth decay; if there is tooth decay, knock them more."@en ;
+    skos:note "Two clauses, and the second withdraws what the first offers to a check. The first states a preventive with an outcome anybody could look for in his own mouth. The second says what to do when the outcome is not there, and what it says is to do more of the same, so that no mouth full of decay ever tells against the knocking. This holding carries the identical construction from the assay of the fourth chapter of the Baopuzi — where the gold does not form, seal it and fire it again for the same count of days, and then there is no case in which it does not form — and this slip is some four hundred years older and came out of a closed tomb."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuQiXiaXing a pm:Conceptualizing ;
+    rdfs:label "Das Qi des Kopfes geht abwärts, und die Haltung schickt es"@de,
+        "The qi of the head goes downward, and the posture is what sends it"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 36 to 37, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The one place in the work that states a direction taken by the qi inside the body and the outcome of its taking it. The patient grasps a staff in the right hand, faces a wall and does not breathe; with the left foot he treads on the wall and rests when tired, then the same with the hands and feet exchanged. When the qi of the head flows downwards, the foot will not be immobile and numb, the head will not swell, and the nose will not be stuffed up. Whenever there is free time, it adds, practise it frequently."@en ;
+    skos:note "The direction is not carried by a phase of the breath. The breath is held throughout, and what is varied is the posture, the wall, the staff and the side. The claim in convergences/breath-direction.ttl is that direction inside the body is assigned to a graded course and not to inhaling and exhaling, and this passage assigns it to a posture instead, which is the same denial from a third corpus and an early one."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuShanYu a pm:Conceptualizing ;
+    rdfs:label "Wofür jede Bewegung gut ist"@de,
+        "What each movement is good for"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 99 to 102, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The catalogue that closes the second text, in which some twenty of the named exercises are each assigned a part of the body: holding the breath is good for the coital sinew; Praying Mantis for the constant channel; Snake Shake for the great brain; Wild Duck Bathing for the head; Encircling Channels for the patterns of the skin and for the heels and head; Follow to the Side for the ear; Looking in a Yang direction for the eyes; looking up with the mouth open for the nose; roaring without emitting a sound for the mouth; stroking the heart and raising the chin for the throat and gullet; Owl Shivers for the neck; Tiger Looks Back for the neck and buttocks; Pull the Back for the shoulder muscles; Limbs Falling for the armpits; Chicken Stretch for the shoulders and arms; Backward Waving for the abdomen and heart; Backwards Swirling for the two ribs; Bear Warp for the muscles of the back; Repeating Holds for the small of the back; the Pace of Yu for between the thighs; Forward Stumble for the thighs and knees; Rotating the Ankles for the sole of the foot; Squeezing the Toes for the qi of the feet; Knocking the Heels for the chest. For these, it says, stop after three times."@en ;
+    skos:note "This is a capacity catalogue in the strict sense the harvest asks for: it is closed, it is stated by the transmission itself rather than read off its practice, and every item has the same form. What it does not contain is as uniform as what it does. No item names a faculty, a perception, a power over anything outside the practitioner's own body, or an outcome beyond the part treated. A transmission that lists twenty-four capacities and lists no capacity of that other kind has stated a boundary, and it is the boundary that makes the corpus worth the independence question."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmc:YinshuWuBing a pm:Conceptualizing ;
+    rdfs:label "Und deshalb wird es keine Krankheit geben"@de,
+        "And therefore there will be no illness"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 105 and 108, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The outcome the third text states of the pull of the Eight Warps, in one clause and without a term or a qualification: by these means seek conformity with heaven and earth, and therefore there will be no illness. The same claim is made a second time of the breath alone: if they breathe in the quintessential qi of heaven and earth to make the Yin substantial, then they will be able to avoid illness."@en ;
+    pm:withinTradition pmt:Yangsheng .
+
 pmc:YiyaoBaizhe a pm:Testing ;
     rdfs:label "Die sieben Männer, die das Mittel zugrunde richtete"@de,
         "The seven men ruined by the drug"@en ;
@@ -13596,6 +13763,44 @@ pmp:Yansheng a pm:Practicing ;
     skos:definition "The countermeasure taken by a household that finds itself in the quarter eaten, as the same chapter reports it. An object of one of the five phases is hung up in the house: metal where the west is eaten, charcoal where the east is. Beside it stand two other remedies, a sacrifice set out to remove the ill and the vacating of the dwelling until the danger has passed. The chapter says the practice was copied from neighbour to neighbour and that everyone held it to be so."@en ;
     skos:note "The procedure is decided by direction alone. It names which phase is to be hung and says nothing of how much of it, which is the opening the critic goes through and the reason this practice is held as a node of its own rather than as a clause of the doctrine."@en ;
     pm:withinTradition pmt:ChineseDivination .
+
+pmp:YinshuBaJing a pm:Practicing ;
+    rdfs:label "Das Ziehen der acht Schüsse, mit den drei Atemarten"@de,
+        "The pull of the Eight Warps, with the three breaths"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 104 to 106, with the same procedure prescribed for incipient exhaustion at slip 33, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The general procedure the third text prescribes against every cause of illness it has just listed: treat it with the pull of the Eight Warps — puff out the moist breath, exhale the warm breath, breathe the quintessential qi of heaven and earth, extend the belly and straighten the small of the back, vigorously extend the hands and feet, stroke the heels and curl the fingers and toes. On rising the movement is to be made wide and large, and on lying down the pull is to be taken as far as it will go. The three breaths are then given counts that change with the season: on spring days the warm breath twice, the dry breath once, the moist breath once; on summer days the dry breath twice, the warm once, the moist once; on winter days the moist twice, the warm once, the dry once."@en ;
+    skos:note "The autumn count is not on the slips. Spring, summer and winter are given and the fourth is absent, in the same text whose first part suspends its sanction in autumn."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmp:YinshuDaoyin a pm:Practicing ;
+    rdfs:label "Das Ziehen"@de,
+        "Pulling"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 8 to 102, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:altLabel "daoyin"@en,
+        "yin"@en ;
+    skos:definition "The forty-one set exercises of the second text. Each is a named posture or sequence — Crossing the Thigh, the Inch Worm, Wild Duck Bathing, Tiger Looks Back, the Gibbon Hold, Bear Warp, the Pace of Yu — carried out for a stated count and then stopped: ten times, thirty, three hundred, a thousand. Where an exercise treats a named complaint it is called pulling that complaint, and the instruction takes the form of a prescription: which limb to extend, which hand holds what, how many times, and when to stop. Several require an implement — a wooden staff, a board, a column, a piece of shaved wood hung on new twist at a fixed height — and several require another person."@en ;
+    skos:note "The counts are the part a later reader will most easily pass over and they are the most exact thing in the work. The complaints are addressed by site and by side: where the pain is in the left foot the left foot is extended and the right thigh raised, and where it is in the right the instruction is given again with the sides exchanged, in full, rather than by saying to reverse it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmp:YinshuRushi a pm:Practicing ;
+    rdfs:label "Das Eintreten in die Kammer zur Stunde, die die Jahreszeit ihm gibt"@de,
+        "Entering the chamber, in the hour the season gives it"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 2, 4, 6 and 7, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The one member of the day's order that the work times differently in each season and attaches a stopping rule to. In spring and in summer: enter the chamber between dusk and midnight. In winter: between dusk and the hours before midnight. In autumn the hour is not given at all, and the instruction is instead to enter whenever the body is nourished and derives comfort from it."@en ;
+    skos:note "The Chinese phrase is the early verbal form of a standing euphemism for sexual activity, and the translator says so at the first occurrence. It is entered as a practice and not as a circumstance because the work times it, bounds it and states what follows from exceeding it, which is what it does for its exercises and for nothing else in the day's order."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Yangsheng .
+
+pmp:YinshuSijieRiyong a pm:Practicing ;
+    rdfs:label "Die Tagesordnung, nach der Jahreszeit gesetzt"@de,
+        "The day's order, set by the season"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slips 2, 4, 6 and 7, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014)" ;
+    skos:definition "The regimen of the first text, given four times over with the same members in a different arrangement. On spring days: rise early, pass water, cleanse the hands and mouth, clean the teeth, breathe out, loosen the hair, ramble in front of the house, go to meet the purity of the early morning dew, receive the quintessence of heaven, and afterwards drink one cup of water. On summer days: wash the hair more and bathe less, do not sleep late, eat more vegetables, then the same morning order and a cup of water after a while. On autumn days: bathe and wash the hair frequently, and in drinking and eating your fill indulge the body's desires. On winter days: bathe and wash the hair frequently, keep the hands cold and the feet warm, the face cold and the body warm, rise late from rest, and in lying down and stretching be straight."@en ;
+    skos:note "The four are not four different regimens but one regimen with the dials turned. What moves between them is the frequency of washing, the hour of rising, the temperature the body is to be held at and the licence given to appetite. That is a claim a reader can check against the text and not a summary of it: the members recur verbatim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:Yangsheng .
 
 pmp:Yubu a pm:Practicing ;
     rdfs:label "Der Schritt des Yu"@de,
@@ -15599,11 +15804,6 @@ pm:counterSearchFoundOpposition a pm:CounterSearchState ;
         "Counter-search found opposition"@en ;
     skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmp:Cizhen a pm:Practicing ;
     rdfs:label "Nadelung"@de,
         "Needling"@en ;
@@ -15671,6 +15871,11 @@ pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
@@ -15894,11 +16099,6 @@ pm:Scale a owl:Class ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:FinnicIncantation a pm:Tradition ;
     rdfs:label "Finnische Zaubersprüche"@de,
         "Finnic incantation"@en ;
@@ -15974,6 +16174,11 @@ pmt:Waidan a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
 
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
         "Using out of this book for a sufferer"@en ;
@@ -16025,6 +16230,19 @@ pmt:Midewiwin a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The birchbark scroll record; Hoffman, The Midewiwin or Grand Medicine Society of the Ojibwa" .
+
+pmt:Yangsheng a pm:Tradition ;
+    rdfs:label "Yangsheng-Überlieferung"@de,
+        "Yangsheng nourishing-life transmission"@en ;
+    dcterms:source "Zhangjiashan Yinshu, slip 1, in Vivienne Lo (trans.), How to do the Gibbon Walk: A Translation of the Pulling Book (ca. 186 BCE), Needham Research Institute Working Papers 3 (Cambridge: Needham Research Institute, 2014), translating the transcript of Zhangjiashan Han mu zhujian (Beijing: Wenwu chubanshe, 2001)" ;
+    skos:definition "The early Chinese transmission of breath circulation, guided stretching and dietary regimen for the prolongation of life, with illustrated postures."@en ;
+    skos:note "Read in one work and read whole: the Zhangjiashan Yinshu, in Vivienne Lo's annotated translation of 2014, which prints the Chinese transcript of the Wenwu edition of 2001 slip by slip beside the English. All 113 slips were read in the English, and the three texts the translator distinguishes were read as three: the year's regimen in four seasons at slips 1 to 7, the forty-one exercises at slips 8 to 102, and the treatise on the causes of illness at slips 103 to 113. The whole translation was searched by term for cautions, stated terms, signs and failure conditions, and every hit read in its place."@en,
+        "The contact route stays absent, and after the reading that is a finding and no longer an assumption. The work names one authority for its regimen, Peng Zu, and otherwise grounds itself in heaven, earth and the four seasons. Nothing in the 113 slips names a teacher, a lineage, a foreign source or a term this holding carries from the Indian material; the search that establishes it stands at pmp:YangshengContactSearch. The burial date makes the question decidable in a way it almost never is: whatever agreement this material has with practice elsewhere cannot have been received after 156 before this era, because the slips were in the ground."@en,
+        "The source is an excavated manuscript and not a transmitted work, which is new in this holding and is stated here rather than left to be noticed. The rule of SPEC 10 asks for a work with the place that carries the claim and excludes links, videos, wikis and summaries standing in for a passage; an excavated text in a published transcript with a published translation meets what the rule is for, and it meets it better than a transmitted text does in one respect, because nothing was copied into or out of it after the tomb was closed. What it lacks is a transmission history, so a node from it says what stood on those slips and not what a lineage taught."@en,
+        "What was not reached, and it is the part the registration was made for as much as this one. The Mawangdui Daoyin tu and Quegu shiqi were not opened: no public-domain or freely readable English edition of either was found, and the transcripts stand in modern scholarship this run could not obtain. The Huangting jing was not opened. The coverage state therefore says places entered and not corpus harvested, and it says it of one manuscript out of three named."@en ;
+    pm:contactRoute pm:contactRouteAbsent ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The Mawangdui manuscripts, including Daoyin tu and Quegu shiqi; the Zhangjiashan Yinshu; Huangting jing" .
 
 pmt:ChineseDivination a pm:Tradition ;
     rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
@@ -16304,6 +16522,13 @@ pmt:ChineseMedicalCanon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing; Huangfu Mi, Zhenjiu jiayi jing; Yang Shangshan, Huangdi neijing taisu" .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
         "Searching"@en ;
@@ -16312,13 +16537,6 @@ pm:Searching a owl:Class ;
     skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
         "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
         "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:procedureWithoutCases a pm:ExaminationState ;
     rdfs:label "Verfahren ohne Fälle"@de,
