@@ -4,6 +4,7 @@
 @prefix pmc: <https://pajew.ski/prima-materia/concepts/> .
 @prefix pmp: <https://pajew.ski/prima-materia/practices/> .
 @prefix pmt: <https://pajew.ski/prima-materia/traditions/> .
+@prefix pmw: <https://pajew.ski/prima-materia/works/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -235,6 +236,7 @@ pmc:ArsNotoriaCrimenKautel a pm:Cautioning ;
     skos:note "The caution is the closest thing in this witness to a condition of failure, and it is worth naming what it does not do: it names who may not say the words, not what happens to one who says them anyway. The distinction decides whether the condition is examinable or absorbing, and the text leaves it on the safer side of that line."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaHorae a pm:Conceptualizing ;
@@ -242,6 +244,7 @@ pmc:ArsNotoriaHorae a pm:Conceptualizing ;
         "The hours of the day and the count of repetitions"@en ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 13-14, ed. Peterson" ;
     skos:definition "The division of the day the orations follow: once in the morning, once about the third hour, once about the ninth hour and once at evening; where a great work presses, twice in the morning and twice about the ninth hour."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaPresupposesLunationes a pm:Presupposing ;
@@ -251,6 +254,7 @@ pmc:ArsNotoriaPresupposesLunationes a pm:Presupposing ;
     skos:note "Prescribed order and not stated necessity. The text says the orations are to be pronounced at certain determinate times of the moon and are not to be undertaken without consideration of the end; it does not say what follows if the day is missed. The strength is set to what the passage carries and no higher."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:ArsNotoriaFacundia ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:ArsNotoriaLunationes ;
     pm:withinTradition pmt:ArsNotoria .
@@ -261,6 +265,7 @@ pmc:ArsNotoriaPresupposesSolitudo a pm:Presupposing ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), p. 14, ed. Peterson" ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:ArsNotoriaFacundia ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:ArsNotoriaSolitudo ;
     pm:withinTradition pmt:ArsNotoria .
@@ -271,6 +276,7 @@ pmc:ArsNotoriaRepetitioYieldsGradatio a pm:Yielding ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:ArsNotoriaOratioRepetita ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria ;
     pm:yieldsCapacity pmc:ArsNotoriaGradatioFacundiae .
 
@@ -284,6 +290,7 @@ pmc:ArsNotoriaTerminusMortisDisputatus a pm:Disputing ;
         "The difference falls on the only part of the claim that could be missed. A death that must come tomorrow can be watched for and can fail to arrive; a death that will come shortly has no last day, and no outcome ever refutes it. The English is therefore the examinable version and the Latin is not, and a protocol has to say which of the two it tests."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:ArsNotoriaInterrogatioAegroti ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaVirtusNonExNatura a pm:Conceptualizing ;
@@ -292,6 +299,7 @@ pmc:ArsNotoriaVirtusNonExNatura a pm:Conceptualizing ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
     skos:definition "The statement the text makes about its own procedure: that this miracle proceeds not from the operator's nature but from the nature and virtues of the holy angels, it being a part of their office wonderfully to reveal these things to him."@en ;
     skos:note "A transmission that says outright where it locates the acting is uncommon, and this one says it in the middle of an instruction rather than in a prologue. It is why the placement on the agency axis beside this file rests on the wording and not on a reading of it."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:AscentPresupposesTheRungs a pm:Presupposing ;
@@ -909,6 +917,7 @@ pmc:ClaviculaGradusConiurationum a pm:Conceptualizing ;
     dcterms:source "Clavicula Salomonis, Book I chapters V, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
     skos:definition "The book sets its conjurations in a series and makes the trigger of each the failure of the one before. If they then immediately appear, it is well; if not, the master uncovers the pentacles. If they do not yet appear, he strikes the air with the knife and repeats a stronger conjuration. This he says facing east, and if they appear not he repeats it to the south, the west and the north, four times in all. If they appear not even then, he signs the foreheads of his companions with Tau and says a further one. If they appear not yet, he is told not to lose courage, for there is nothing in the world stronger to overawe the spirits than constancy; he re-examines and reforms the circle, casts dust to the four quarters, kneels, and conjures again. The last conjuration is declared to be of such efficacy that even spirits bound with chains of iron and fire could not delay to come."@en ;
     skos:note "The series has no term at which the operator is told to stop. Non-appearance never counts as an outcome of the procedure; it is the instruction to proceed to the next stage, and the stages run out into a curse and a burning of names which, the text says, brings them assuredly and in great haste. A transmission built this way cannot register a failed run, because a run is not over until it has succeeded."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaNovemDies a pm:Presupposing ;
@@ -921,6 +930,7 @@ pmc:ClaviculaNovemDies a pm:Presupposing ;
     pm:attestedBy pm:textualAttestation ;
     pm:consequenceOfSkipping "If thou doest ill in one single point, these experiments or these Arts will not be verified (Book II chapter I); and, of the order of hours and days and of the position of the Moon, without the operation of which thou canst effect nothing (Book I chapter I)."@en ;
     pm:dependentStep pmp:ClaviculaOperatioCirculi ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:ClaviculaOperatioCirculi ;
     pm:withinTradition pmt:SolomonicGrimoire .
@@ -934,7 +944,9 @@ pmc:ClaviculaScotDisputatio a pm:Disputing ;
     skos:note "The same chapter of 1584 elsewhere reproduces a necromancy of the Solomonic shape — first fast and pray three days and abstain from all filthiness — in order to expose it, and glosses the fasting term of another handbook with the remark that so the cozenage may best be handled. The reading of the term as stagecraft is that author's and is not entered as a node."@en,
         "The second side is worth having because of the form of its argument and not its verdict. It does not dispute that the spirits exist or that the ceremonies are impious; it takes the capacities the books promise — wealth, learning, deliverance — and observes that the people who work the art do not have them. That is an outcome the transmission's own claims predict and it is checkable from outside the session, which is more than the transmission offers anywhere except at the mark on the thief's face."@en ;
     pm:attestedBy pm:textualAttestation ;
-    pm:disputedClaim pmc:ClaviculaOperatioYieldsImperium .
+    pm:disputedClaim pmc:ClaviculaOperatioYieldsImperium ;
+    pm:fromWork pmw:ClaviculaSalomonis,
+        pmw:ScotDiscoverieOfWitchcraft .
 
 pmc:ClaviculaSociorumPericulum a pm:Cautioning ;
     rdfs:label "Der Schüler, der nicht gehorcht, leidet und stirbt zuweilen"@de,
@@ -943,6 +955,7 @@ pmc:ClaviculaSociorumPericulum a pm:Cautioning ;
     skos:definition "The companions are to be bound by oath to do all that the master orders. Those who shall act otherwise shall suffer and endure many pains and labours, and run into many dangers, which the spirits will cause and procure for them, and for this cause sometimes they shall even die. Conversely, wearing the consecrated pentacles at the breast, they shall be exempt and free from all perils and dangers, provided that they obey the commands of the master and do all that he ordains them. Within the circle they are on no cause whatsoever to move from their assigned places."@en ;
     skos:note "The protection and the penalty share one condition and it is obedience to a person present. That makes the master, not the procedure, the party whose account decides afterwards whether a harm that occurred was a breach or a visitation — and a harm is the only outcome of the two that leaves evidence."@en ;
     pm:cautionsAbout pmp:ClaviculaOperatioCirculi ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaThesauriPericulum a pm:Cautioning ;
@@ -952,6 +965,7 @@ pmc:ClaviculaThesauriPericulum a pm:Cautioning ;
     skos:definition "Men who undertake a search for hidden treasures are molested and sometimes put to death by the spirits called gnomes. This is not done through avarice, a spirit being incapable of possessing anything; the spirits are enemies of the passions and foresee the evil ends for which the treasure will be used. When they slightly disturb the workers it is a warning to cease from the work, and if the greedy importunity of the workers obliges them to continue notwithstanding the warnings, the spirits, irritated by their despising the same, frequently put the workmen to death."@en ;
     skos:note "A caution that supplies its own reading of the evidence in both directions. A disturbance during the digging is a warning; a death is the penalty for having ignored one. Nothing that can happen at the site is left over to count against the account, and the men who would have to report the warnings are the men the workers are told not to be disturbed by."@en ;
     pm:cautionsAbout pmc:ClaviculaCeteraeVirtutes ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
@@ -7744,6 +7758,14 @@ pm:corpusHarvested a pm:CoverageState ;
         "Corpus harvested"@en ;
     skos:definition "The harvest has been carried out for the works actually opened, and what was left unread is recorded. The state claims completeness for what was opened, never for the corpus."@en .
 
+pm:corpusWork a owl:ObjectProperty ;
+    rdfs:label "Korpuswerk"@de,
+        "corpus work"@en ;
+    rdfs:domain pm:Tradition ;
+    rdfs:range dcterms:BibliographicResource ;
+    skos:definition "A work in which this transmission is chiefly carried, as an identifier. The identifier counterpart of pm:principalCorpus, which stays as the readable listing."@en ;
+    skos:note "Says nothing about whether the work was read. That follows from whether any node points at the work with pm:fromWork."@en .
+
 pm:counterSearch a owl:ObjectProperty ;
     rdfs:label "Gegensuche"@de,
         "counter-search"@en ;
@@ -7815,6 +7837,13 @@ pm:fieldRecord a owl:DatatypeProperty ;
     skos:definition "How the cited passage was taken down: who spoke, or that the speaker is expressly withheld; who recorded; when and where; in which language; and whether the wording in the language of the telling is carried in the work or only a translation."@en ;
     skos:note "It names the gathering of this passage, not the standing of the corpus. The situation of a whole ethnographic tradition — span of the fieldwork against the year of publication, how many informants, whether the same people were revisited, whether material was delivered between visits, whether the recorder stood in a milieu already expecting what he found — belongs as a skos:note on the pm:Tradition instance. See prima-materia#260. The two are needed together: one says how far this sentence stands from its speaker, the other how far the corpus stands from the transmission."@en,
         "Required wherever pm:attestedBy is pm:fieldAttestation, enforced by pm:FieldAttestationShape. Prose and not a scale, for the reason pm:independenceGround is prose: there is no threshold at which a gathering becomes sound, and a scale would counterfeit a check. What the sentence is worth is decided by whoever reads it."@en .
+
+pm:fromWork a owl:ObjectProperty ;
+    rdfs:label "aus Werk"@de,
+        "from work"@en ;
+    rdfs:range dcterms:BibliographicResource ;
+    skos:definition "The work that a dcterms:source of this node lies in. A node whose sources lie in two works carries both."@en ;
+    skos:note "It does not replace dcterms:source. The source keeps the passage and the edition; this carries only the identity of the work, which a literal cannot carry without a string comparison."@en .
 
 pm:generalizedFrom a owl:ObjectProperty ;
     rdfs:label "verallgemeinert aus"@de,
@@ -7927,7 +7956,8 @@ pm:principalCorpus a owl:DatatypeProperty ;
     rdfs:label "principal corpus"@en ;
     rdfs:domain pm:Tradition ;
     skos:definition "The works in which this transmission is chiefly carried, named so that a later reader can find them."@en ;
-    skos:note "Deliberately not dcterms:source. A source carries a passage that was read, with its place and its edition; this names a corpus that was not read. Using dcterms:source here would let a registration claim a textual knowledge it does not have. The literature rule applies all the same: a work, never a URL."@en .
+    skos:note "Deliberately not dcterms:source. A source carries a passage that was read, with its place and its edition; this names a corpus that was not read. Using dcterms:source here would let a registration claim a textual knowledge it does not have. The literature rule applies all the same: a work, never a URL."@en,
+        "Kept as the readable listing once a tradition names its works with pm:corpusWork. The literal is what a reader sees; the identifiers are what a query can join."@en .
 
 pm:priorStep a owl:ObjectProperty ;
     rdfs:label "vorausgesetzter Schritt"@de,
@@ -10425,6 +10455,7 @@ pmc:ArsNotoriaCognitioAegritudinis a pm:Conceptualizing ;
         "Perfect knowledge whether a disease tends to death or life"@en ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), §§ 26, 30a-30b, pp. 24-25, ed. Peterson" ;
     skos:definition "The capacity claimed for the oration of the physical art: to have the perfect knowledge of any disease, whether the same tend to death or to life, including for a sick person who is far off and named only, and for one who dissembles and hides his infirmity."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaEbrietasKautel a pm:Cautioning ;
@@ -10435,6 +10466,7 @@ pmc:ArsNotoriaEbrietasKautel a pm:Cautioning ;
     skos:note "Fasting appears on both sides of the corpus: it is prescribed for the first day of a rehearsal and warned against here without reverence and discretion. The two passages are held apart rather than reconciled; whether the witness contradicts itself or distinguishes two situations is not decided from what was read."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaGradatioFacundiae a pm:Conceptualizing ;
@@ -10444,6 +10476,7 @@ pmc:ArsNotoriaGradatioFacundiae a pm:Conceptualizing ;
     skos:definition "The graded effect the text attaches to the number of repetitions: said once by a man troubled or involved in a great business, eloquence shall be added to him as much as is needed; said twice, great eloquence shall be given to him; said three times by a man who desires to be made eloquent, he shall be made eloquent."@en ;
     skos:note "A dose and its effect, which the corpus this graph holds gives almost nowhere else. The interest is not the promise but the monotony: more of the same act is said to produce more of the same effect, and a monotony can be examined without the underlying claim being settled first."@en,
         "The order in the passage does not rise. Three times stands for the man who wishes to become eloquent, once and twice for the man under pressure, so the text may be setting out three separate applications rather than one scale. Which of the two it is decides whether there is a dose-response claim here at all, and the passage read does not decide it; the Latin beside it is no clearer."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaInterrogatioAegroti a pm:Conceptualizing ;
@@ -10453,6 +10486,7 @@ pmc:ArsNotoriaInterrogatioAegroti a pm:Conceptualizing ;
     skos:definition "The rule the text lays down for reading the answer: if he says he is at good ease or begins to mend, judge without doubt that he shall recover; if he says he is grievously ill or worse and worse, conclude that he will die; if he says he does not know whether he is better or worse, he will either die or the disease will change for the worse. Where the sick man is a child too young to answer, or too ill to answer, the oration is said three times and what first arises in the speaker's mind is the judgement."@en ;
     skos:note "The fallback for the silent patient moves the sign from the sick man to the speaker, and with it the whole character of the procedure: what is read is then the operator's own first thought and not anything the patient did."@en,
         "Three answers, and only two of them decide. The third covers dying and getting worse together, so no fate the sick man can meet falls outside it, and that branch alone cannot fail. The first two are not like that: each names one outcome and excludes the other."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaLunationes a pm:Conceptualizing ;
@@ -10460,6 +10494,7 @@ pmc:ArsNotoriaLunationes a pm:Conceptualizing ;
         "The days of the moon on which the orations are said"@en ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 15, p. 12, ed. Peterson" ;
     skos:definition "The seven days of the lunation on which the orations are to be put in operation: the fourth, the eighth, the twelfth, the sixteenth, the twenty-fourth, the twenty-eighth and the thirtieth day of the moon."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaOratioYieldsFacundia a pm:Yielding ;
@@ -10469,6 +10504,7 @@ pmc:ArsNotoriaOratioYieldsFacundia a pm:Yielding ;
     skos:note "The term is the part that matters. Whoever pronounces the words at the determinate appointed time, setting all other occasions aside, shall profit in all the sciences in one month. A promise with a stated interval can be missed; the same promise without one cannot, and the corpus this graph holds gives intervals very rarely."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:ArsNotoriaOratio ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria ;
     pm:yieldsCapacity pmc:ArsNotoriaFacundia .
 
@@ -10478,6 +10514,7 @@ pmc:ArsNotoriaOratioYieldsSexusInfantis a pm:Yielding ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:ArsNotoriaOratioPhysicae ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria ;
     pm:yieldsCapacity pmc:ArsNotoriaSexusInfantis .
 
@@ -10489,6 +10526,7 @@ pmc:ArsNotoriaSecretumKautel a pm:Cautioning ;
     skos:note "This is the gate the project's criterion is directed at, stated by the transmission in its own words and attributed to an angel so that no holder can lift it. It stands here as a claim of the tradition and not as an instruction; the text it guards has been in print since sixteen fifty-seven."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:ArsNotoriaOratio ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaSexusInfantis a pm:Conceptualizing ;
@@ -10497,6 +10535,7 @@ pmc:ArsNotoriaSexusInfantis a pm:Conceptualizing ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 30b, p. 25, ed. Peterson" ;
     skos:definition "The claim that if the same oration is said while touching the pulse of a woman with child, it shall be revealed whether she shall bring forth a male or a female."@en ;
     skos:note "The most examinable claim the run found in this corpus, and it is examinable for a reason that has nothing to do with how strongly it is asserted: the outcome is binary, its base rate is known and close to even, it becomes public within months, and the prediction can be recorded before it does. Nothing in the passage makes the result depend on the operator's worthiness."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:ArsNotoriaSolitudo a pm:Conceptualizing ;
@@ -10506,6 +10545,7 @@ pmc:ArsNotoriaSolitudo a pm:Conceptualizing ;
     skos:definition "The condition that the oration be spoken secretly, that the speaker be alone, and that he pronounce it with so low a voice that he scarcely hears himself; with fasting on the first day of the rehearsal and a chaste and devout life."@en ;
     skos:note "It is also not the same requirement as the one it most resembles in this graph. The European folk-magic condition recorded at pmc:EuropeanFolkMagicUnbeschrauen forbids the act to be called at and spoken of, that is it regulates what other people say about it; this one regulates how loudly the operator says the words himself. One shields the act from other voices, the other shields the voice from other ears, and a correspondence between them would be built out of the single word silence. Held apart here rather than joined, which settles the second question of prima-materia#530 in the negative; whether either has a counterpart outside the European sphere is unsearched."@en,
         "The condition is on the manner of speaking and not on the words. It is the counterpart of the exactness demands the graph holds elsewhere: there the wording carries the effect, here it is the inaudibility that is prescribed, and the two are not the same requirement."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:AscentThroughEachCentre a pm:Conceptualizing ;
@@ -10740,6 +10780,7 @@ pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
     skos:definition "So exact a preparation of days and hours is not necessary for those who are adepts in the art, but it is extremely necessary for apprentices and beginners, seeing that those who have been little or not at all instructed do not have as much faith in the experiments as those who are adepts and have practised them. The wise should observe only the precepts of the art which are necessary."@en ;
     skos:note "The exemption is asymmetrical, and the asymmetry was the object of a search carried in this run. It covers days and hours and nothing else. No passage of the chapters read waives the bath, the fast, the continence or the confession for anyone, adept or beginner. The transmission is willing to call its astrology a pedagogy and is not willing to call its purification one. See pmp:ClaviculaPurificationWaiverSearch."@en,
         "The ground the text gives for the exemption is the faith of the operator and not anything about the hours. That makes the astrological term, by the book's own account, a device for producing confidence in beginners rather than a condition of the world — and it is the sharpest statement against its own timing rules that this corpus contains."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaCausaeNonAdventus a pm:Conceptualizing ;
@@ -10749,6 +10790,7 @@ pmc:ClaviculaCausaeNonAdventus a pm:Conceptualizing ;
     skos:definition "Besides the fault of the operator the book names three further causes, and no others. The weather: they will not come when the air is troubled or agitated by winds, seeing that spirits have neither flesh nor bones and are created of different substances, and the three last days of preparation should therefore be calm, without wind and without clouds rushing over the sky. A rival: supposing that they were being conjured in some other place or part of the universe by some other exorcist by the same conjuration, the master should add that they at least send messengers to declare where they are, how employed, and the reason why they cannot come. And their nature: even if the angels and spirits appear not at the consecration of the book, be not thou astonished thereat, seeing that they are of a pure nature and have much difficulty in familiarising themselves with men who are inconstant and impure; the ceremonies being correctly carried out with perseverance, they will be constrained to come."@en ;
     skos:note "Not one of the four is a property of the procedure. Two lie in the operator, one in the sky, one in a person elsewhere in the world whom nobody present can identify. Between them they cover every way a session can end without a spirit in it."@en,
         "The rival clause is the only one of the four that leaves anything behind. It concedes that the spirits may be genuinely unable to come and therefore requires a substitute deliverable — messengers who state where they are and why — so that the session still ends with something the operator must receive. The concession and the repair are in the same sentence."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaCeteraeVirtutes a pm:Conceptualizing ;
@@ -10758,6 +10800,7 @@ pmc:ClaviculaCeteraeVirtutes a pm:Conceptualizing ;
     skos:definition "Entered together because the first book names them in one run of chapters and states each in a sentence. To become invisible at will, by an image of yellow wax made in January in the day and hour of Saturn, buried in a cavern and carried in the left pocket. To hinder a sportsman from killing any game for the rest of a day, by a stick of green elder laid in his path. To travel far in a few days and without fatigue, by garters of stag-skin filled with mugwort gathered before sunrise on the twenty-fifth of June. To hear distinctly the answer to whatever is asked, by lying prostrate under a carpet of new white wool between midnight and daybreak at full or new moon. To be made partaker in a treasure the earth-spirits hold. To obtain any grace or favour so that it shall not be denied. To deceive the senses of onlookers so that they seem to see what they see not and hear what they hear not."@en ;
     skos:note "Four of the seven carry a term the operator cannot move: a month, a day and hour of a planet, a date in June, a phase of the moon, a span between midnight and daybreak. Two of the seven carry an outcome another person could check within a day — the sportsman who kills nothing, the journey accomplished — and both were left by the text without any statement of what would follow if the outcome were otherwise."@en,
         "Mathers records chapters XI, XII, XIII and XIV as taken from Lansdowne 1203 alone, and chapter XV from Add. 10862 alone. The run of capacities is therefore not the common stock of the transmission but the sum of what several manuscripts each contribute."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaDefectusOperantis a pm:Conceptualizing ;
@@ -10768,6 +10811,7 @@ pmc:ClaviculaDefectusOperantis a pm:Conceptualizing ;
     skos:note "A fifth assignment stands in the introduction and was found by the search rather than by the reading: what is revealed to any must be kept by them to themselves, otherwise the secrets are profaned and no effect can follow. Disclosure thus joins the operator's fault, the wind, the rival and the purity of the spirits, and it is the one of the five that can be alleged of a session by someone who was not at it."@en,
         "It is not a single lapse. The same clause stands twice more in the first book, in the chapters on invisibility and on favour: if thou lettest any of these things escape thee, or if thou despiseth them, never shalt thou be able to arrive at thy proposed end; and, but if thou doest not the experiment carefully and rightly, assuredly thou shalt not succeed in any manner. Three chapters, three manuscript groups, one rule."@en,
         "The sentence is a biconditional in the guise of an instruction. It takes the case in which the conditions were met and nothing happened, and rules that case out by assigning it to an unnoticed fault. There is then no state of the world under which the arts could be found not to work, and the chapter says so of itself: the whole Key depends on it."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaFurisVisio a pm:Conceptualizing ;
@@ -10778,6 +10822,7 @@ pmc:ClaviculaFurisVisio a pm:Conceptualizing ;
     skos:note "Mathers notes that the remainder of this chapter, which is where both procedures stand, is from Lansdowne 1203 alone."@en,
         "The chapter carries a second and weaker procedure with the sieve and shears: at the naming of the guilty person the sieve turns of itself without its being able to stop it. That outcome is inside the session and depends on two people holding the rings on their thumbnails, so it discriminates nothing; it is recorded here and not given its own node."@en,
         "This is the most examinable sentence in the book and the only one in the chapters read that states an outcome outside the session. Everything else the transmission promises is established inside the operation by the operator; here a mark made in water is said to appear on the body of a person who was not present, and a bystander could look at the face named and see whether it is there. The examination node beside this file takes it as the falsifying condition for the transmission as a whole, and it is the reason that node could be written at all."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaImperiumSpirituum a pm:Conceptualizing ;
@@ -10786,6 +10831,7 @@ pmc:ClaviculaImperiumSpirituum a pm:Conceptualizing ;
     dcterms:source "Clavicula Salomonis, Book I chapters VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
     skos:definition "The capacity the whole book is built around. When the conjuration succeeds, they will immediately talk with thee as a friend speaketh unto a friend; ask of them all that thou desirest, with constancy, firmness and assurance, and they will obey thee. At the final stage the master uncovers the pentacles and demands all that he shall wish of the king of the spirits, and dismisses them with a license to depart."@en ;
     skos:note "Nothing in the chapters read limits what may be asked. The one restriction the text places is on the conditions of asking, never on the content of the request, and that is a difference from the transmissions in this holding that bound a petition to a class of subject matter."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
@@ -10796,6 +10842,7 @@ pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
     skos:note "Entered under the separate count that SPEC §15 requires for signs of success, and this is the case the rule was made for. The signs are announced to the participants by name before the session and include the whole range of weather and noise a night in the open can supply. Read as evidence they can only confirm; the reason they are here is that a transmission which announces its signs in advance is a fact about the transmission."@en,
         "Mathers notes that the chapter carrying the noises and rushings and the speech of the emperor of the spirits is given in Add. 10862 alone."@en,
         "The count for this work: one sign of success against no condition of failure. Against the six kinds of appearance and the promised noises and rushings, the chapters read state not one observation that would show an operation had not worked. Every non-occurrence is assigned by pmc:ClaviculaDefectusOperantis or pmc:ClaviculaCausaeNonAdventus before it can become one."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:CommunicationFromTheSun a pm:Conceptualizing ;
@@ -13495,6 +13542,7 @@ pmp:ArsNotoriaOratioRepetita a pm:Practicing ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), pp. 46-47, ed. Peterson" ;
     skos:definition "Pronouncing the oration on any day on which the speaker is not hindered by a criminal sin, with confession of heart and mouth preceding and early in the morning: three times if he desires to be made eloquent, once if an evil thing troubles him or he is involved in some great business, twice for the greater measure."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmp:AsipuMashultuppu a pm:Practicing ;
@@ -14277,6 +14325,28 @@ pmt:ValentinianGnosis a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Irenaeus, Adversus Haereses I, which is the heresiological report through which this transmission is reached" .
 
+pmw:Abramelin a dcterms:BibliographicResource ;
+    rdfs:label "Das Buch Abramelin"@de,
+        "The Book of Abramelin"@en .
+
+pmw:Heptameron a dcterms:BibliographicResource ;
+    rdfs:label "Heptameron"@de,
+        "Heptameron"@en ;
+    skos:note "The tradition node records that the nine days of continence were read at the wording in the Heptameron of the Turner collection of 1655, but no node names it as a source. Until one does, the work reads as unopened, which is what the graph can vouch for."@en .
+
+pmw:Lemegeton a dcterms:BibliographicResource ;
+    rdfs:label "Lemegeton (Clavicula Salomonis Regis)"@de,
+        "Lemegeton (Clavicula Salomonis Regis)"@en ;
+    skos:note "Unopened in this holding. The harvest of its third book, the Ars Paulina, and of the Ars Nova is prima-materia#736."@en .
+
+pmw:LiberIuratusHonorii a dcterms:BibliographicResource ;
+    rdfs:label "Liber Iuratus Honorii"@de,
+        "Liber Iuratus Honorii"@en .
+
+pmw:ScotDiscoverieOfWitchcraft a dcterms:BibliographicResource ;
+    rdfs:label "Reginald Scot, The Discoverie of Witchcraft"@de,
+        "Reginald Scot, The Discoverie of Witchcraft"@en .
+
 pmc:Agape a pm:Conceptualizing ;
     rdfs:label "Liebe"@de,
         "Love"@en ;
@@ -14299,6 +14369,7 @@ pmc:ArsNotoriaOratioYieldsCognitioAegritudinis a pm:Yielding ;
     skos:note "This is the shortest way in the witness from an act to an outcome a third party can check. The outcome is binary, it arrives in days, it is recorded anyway, and the judgement can be written down before it arrives. The claim the tradition is known for, the sciences within a month, needs a measuring instrument that has first to be chosen; this one needs none."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:ArsNotoriaOratioPhysicae ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria ;
     pm:yieldsCapacity pmc:ArsNotoriaCognitioAegritudinis .
 
@@ -14406,6 +14477,7 @@ pmc:ClaviculaOperatioYieldsImperium a pm:Yielding ;
     dcterms:source "Clavicula Salomonis, Book I chapters III, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:ClaviculaOperatioCirculi ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire ;
     pm:yieldsCapacity pmc:ClaviculaImperiumSpirituum .
 
@@ -15002,6 +15074,7 @@ pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     skos:definition "Standing before a sick person who lies languishing and saying the oration of the physical art three times with great reverence, and then asking him how he feels himself."@en ;
     skos:note "The asking is part of the procedure and not an afterthought. Without it the oration yields nothing that could be read, and with it the reading is fixed in advance: the text sets out the answers and what each of them decides."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmp:AsipuAnaMarsiTehu a pm:Practicing ;
@@ -15342,6 +15415,7 @@ pmc:ArsNotoriaFacundia a pm:Conceptualizing ;
         "Profiting in all the sciences"@en ;
     dcterms:source "Ars Notoria, trans. Robert Turner (London, 1657), § 14, p. 12, ed. Peterson" ;
     skos:definition "The capacity claimed for the art: to profit in all the sciences and to attain them in an extraordinary manner, with memory, understanding and eloquence increased and established in the speaker."@en ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmc:AstangaLimbs a pm:Conceptualizing ;
@@ -15900,6 +15974,7 @@ pmp:ArsNotoriaOratio a pm:Practicing ;
     skos:definition "Pronouncing the orations of the art on the prescribed days of the moon, at the prescribed hours and with the prescribed number of repetitions, alone, secretly and in a voice barely audible to the speaker, having fasted on the first day and living chastely."@en ;
     skos:note "The procedure the text prescribes is larger than this node: the orations accompany the notae, and the witness read carries none of them. What is entered is the part the witness gives."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
 pmp:ClaviculaOperatioCirculi a pm:Practicing ;
@@ -15908,6 +15983,7 @@ pmp:ClaviculaOperatioCirculi a pm:Practicing ;
     dcterms:source "Clavicula Salomonis, Book I chapter III, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
     skos:definition "The book divides its experiments in two: those that can be performed without a circle, for which only the chapter of the particular operation is to be observed, and those that cannot be brought to perfection without one. The second kind runs: nine days of continence for master and disciples; after the sixth day frequent prayer and confession; on the seventh the master alone bathes in exorcised water and puts on white linen, then pours the same water over the naked disciples; the last three days a fast; on the last day a washing at running water, the confession, the kiss, the absolution, the distribution of the instruments; then the circle, traced with the consecrated knife, with the letter Tau at the four quarters, four hexagonal pentacles and the divine names between them, two squares circumscribed and four further circles at the outer angles; then the fumigation, the placing of the disciples at the four quarters, and the conjurations."@en ;
     skos:note "The second kind is what makes the transmission examinable at all: it fixes in advance what counts as having done the thing, down to the number of days, the material of the garment and the position of each participant. A procedure specified to that depth can be departed from in a way a witness could name. What follows below is the account the book gives of what happens when it is not departed from and nothing occurs."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
@@ -16525,7 +16601,12 @@ pmt:SolomonicGrimoire a pm:Tradition ;
         "Read in this run at the wording, all in the Mathers text: Book I chapters I, III, V, VI, VII, IX, X, XI, XII, XIII, XIV, XV, XVI, XVII; Book II chapters I, III, IV, XIII, XXI. Not read: Book I chapters II, IV, VIII, XVIII, and Book II chapters II, V to XII, XIV to XX, XXII, which carry the tables of hours, the prayers, the pentacles, the instruments and their consecrations. The chapters left unread are the apparatus; the chapters read are the ones that state what the operations do, on what terms, and what follows when they do not."@en,
         "What the citations cannot do. Mathers' apparatus is thin and his own datings are disputed: he places Add. 10862 at the end of the sixteenth century and holds it the oldest witness, while the modern description puts it in the seventeenth. Two chapters entered here stand in one manuscript each by his own footnote, and are marked as such at the node. The single-manuscript chapters are not weaker as claims about what a Solomonic book says; they are weaker as claims about what the transmission holds in common."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:Abramelin,
+        pmw:ClaviculaSalomonis,
+        pmw:Heptameron,
+        pmw:Lemegeton ;
     pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
     pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
 
 pm:Positing a owl:Class ;
@@ -16648,6 +16729,10 @@ pmt:Waidan a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ge Hong, Baopuzi neipian; Zhouyi cantong qi" .
+
+pmw:ClaviculaSalomonis a dcterms:BibliographicResource ;
+    rdfs:label "Clavicula Salomonis"@de,
+        "Clavicula Salomonis"@en .
 
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
@@ -16796,7 +16881,10 @@ pmt:ArsNotoria a pm:Tradition ;
     skos:note "Read for the first time in Robert Turner's English translation, London 1657, in the digital edition of Joseph H. Peterson, which carries the printed pagination and the Latin of the Agrippa text beside it; the wording of every passage cited here was additionally checked against the optical text of the 1657 printing itself. Liber Juratus Honorii was not opened, and neither was the critical Latin edition of Véronèse."@en,
         "The version read is incomplete in a way that bears on every claim in this file. Both Turner's translation and the Latin of the Agrippa printing omit the notae, the figures which the text itself calls the centre of the art; the orations are given and the drawings they accompany are not. What was read is therefore the verbal half of a procedure whose other half is missing, and no claim entered here can be carried out from this witness alone."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:ArsNotoria,
+        pmw:LiberIuratusHonorii ;
     pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:ArsNotoria ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
 
 pm:Generalizing a owl:Class ;
@@ -16822,6 +16910,11 @@ pmt:Andean a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Huarochirí manuscript; Arriaga, Extirpación de la idolatría del Pirú; Molina, Relación de las fábulas y ritos de los incas; Guaman Poma de Ayala, Nueva corónica y buen gobierno; Polo de Ondegardo, Los errores y supersticiones de los indios; Cobo, Historia del Nuevo Mundo, book XIII" .
+
+pmw:ArsNotoria a dcterms:BibliographicResource ;
+    rdfs:label "Ars Notoria"@de,
+        "Ars Notoria"@en ;
+    skos:note "One identifier for the work across its recensions and printings. The witness a node was read in stays in its dcterms:source; the divergence between the Latin of the printing and Turner's English is held as a dispute and not as two works."@en .
 
 pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
