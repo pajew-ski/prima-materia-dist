@@ -412,6 +412,16 @@ pmc:AtharvanMedha a pm:Conceptualizing ;
         "Whitney records that the Paippalāda has only verses 1, 2 and 5 of this hymn. The verse carrying the three classes who know wisdom is therefore transmitted in one recension of the two."@en ;
     pm:withinTradition pmt:Atharvavedic .
 
+pmc:AtrarpePatraic a pm:Conceptualizing ;
+    rdfs:label "Patrick verwarf sie, und wer sie übt, hat weder Himmel noch Erde"@de,
+        "Patrick abolished these, and whoever practises them has neither heaven nor earth"@en ;
+    dcterms:source "Prologue to the Senchas Már, in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), p. 45",
+        "Sanas Cormaic s.v. Imbas forosnai, Irish text in Stokes, Three Irish Glossaries (London 1862), p. 25, English in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 95" ;
+    skos:definition "The sentence the glossary appends to the procedure. Patrick abolished this and the teinm laegda, and he adjudged that whoever should practise them should have neither heaven nor earth, because it was renouncing baptism. The law prologue states the same abolition of the three things among the poets when they believed, as they were profane rites, and gives the ground that teinm laegha and imus forosna could not be performed without offering to idol-gods."@en ;
+    skos:note "The consequence is stated and it falls on the operator: neither heaven nor earth. It is a consequence of performing and not of performing badly, which is the opposite direction from every other stated consequence in this file."@en,
+        "The ground is the offering and never the outcome. Neither witness says that the procedures do not work, that they had failed, or that what they revealed was false; both say that they cannot be performed without an offering to demons and that the offering is what is forbidden. A prohibition of that shape is an attestation of efficacy by the prohibiting party, and the search that establishes there is no denial anywhere in what was read stands at pmp:CelticEfficacyDenialSearch."@en ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmc:AttainmentRelievesOnlyTheOutwardCondition a pm:Generalizing ;
     rdfs:label "Was die Erlangung erlassen darf, ist die außerhalb des Übenden festgesetzte Bedingung"@de,
         "What attainment is allowed to waive is the condition fixed outside the practitioner"@en ;
@@ -425,6 +435,28 @@ pmc:AttainmentRelievesOnlyTheOutwardCondition a pm:Generalizing ;
         pmc:ShangqingYijieQingyao,
         pmc:ShouyiMianLiri ;
     pm:generalizedStatement "Where an operative transmission relieves a practitioner of one of its own prescribed conditions on the ground of what he has attained, the condition relieved is one fixed outside him — a day, an hour, a calendar, a star — and not one bearing on his body or his conduct. Where the same transmissions speak of a bodily condition and attainment together, they say that the attainment does not relieve it."@en .
+
+pmc:Awenyddion a pm:Conceptualizing ;
+    rdfs:label "Die awenyddion, befragt über einen zweifelhaften Ausgang"@de,
+        "The awenyddion, consulted upon a doubtful event"@en ;
+    dcterms:source "Giraldus Cambrensis, Descriptio Kambriae I.16, in The Historical Works of Giraldus Cambrensis, trans. Thomas Wright (London: Bohn, 1863), pp. 501-502" ;
+    skos:altLabel "awenyddion"@en,
+        "awenydhyon"@en ;
+    skos:definition "What the Welsh archdeacon reports of them in 1194. When consulted upon any doubtful event they roar out violently, are rendered beside themselves, and become as it were possessed by a spirit. They do not deliver the answer in a connected manner, but the person who skilfully observes them will find, after many preambles and many incoherent though ornamented speeches, the desired explanation conveyed in some turn of a word. They are then roused from their ecstasy as from a deep sleep and compelled as it were by violence to return to their senses; they do not recover until violently shaken by other people; and they cannot remember the replies they have given. The gifts are usually conferred upon them in dreams: some seem to have sweet milk or honey poured on their lips, others that a written schedule is applied to their mouths, and on waking they publicly declare that they have received the gift."@en ;
+    skos:note "Reported by an outsider who is a churchman and who supplies his own aetiology, deriving the gift from Trojan descent and comparing it to Calchas and Cassandra. The report is entered for what it describes and not for what it explains, and the mode is set accordingly."@en,
+        "Three elements match the Irish procedure closely enough to be worth naming and not close enough to be joined: a state entered for a question put by someone else, a return from it compared to waking from deep sleep, and a second party who must shake the practitioner out of it. The differences are as sharp: nothing is chewed, nothing is offered, there is no term, and the gift is not acquired by a procedure at all but conferred in a dream."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:InsularCeltic .
+
+pmc:AwenyddionAithchuinge a pm:Conceptualizing ;
+    rdfs:label "Zweimal zum selben Punkt befragt, antworten sie ganz verschieden"@de,
+        "Consulted twice on the same point, they answer in wholly different terms"@en ;
+    dcterms:source "Giraldus Cambrensis, Descriptio Kambriae I.16, in The Historical Works of Giraldus Cambrensis, trans. Thomas Wright (London: Bohn, 1863), pp. 501-502" ;
+    skos:definition "The sentence the same chapter adds after the description: if consulted a second or third time upon the same point, they will make use of expressions totally different; perhaps they speak by the means of fanatic and ignorant spirits."@en ;
+    skos:note "A stated failure of reproducibility, put by the reporter as an observation and not as a rule of the art, and it is the rarest sentence in this file. The repeated question is the cheapest test there is, somebody evidently ran it, and what came back is recorded as having come back different. The transmissions this holding carries mostly forbid the repeated question; here it was asked and answered, and the answer did not hold."@en,
+        "It is an outsider's report and he attaches his own explanation to it, that they may speak by ignorant spirits. The explanation is his; the result of the repetition is what the node holds."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmc:AzazelTeachesAdornment a pm:Attributing ;
     rdfs:label "Azazel offenbart Schmuck und Kosmetik"@de,
@@ -735,6 +767,15 @@ pmc:CautionAgainstWakingSuddenly a pm:Cautioning ;
     pm:cautionsAbout pmc:MagnetismeSomnambulisme ;
     pm:withinTradition pmt:Mesmerism .
 
+pmc:CautionAtrarpePatraic a pm:Cautioning ;
+    rdfs:label "Gegen die beiden Verfahren, wegen des Opfers"@de,
+        "Against the two procedures, on the ground of the offering"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25, and in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 95" ;
+    skos:note "A warning transmitted in the same entry as the prescription it forbids, by the hand that copied the prescription. The glossary sets out the procedure in full and in the present tense and then abolishes it, and neither the setting out nor the abolition is abridged for the other's sake."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ImbasForosnai ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmc:CautionOnTheCandidatesConduct a pm:Cautioning ;
     rdfs:label "Die acht Regeln, die einen Kandidaten binden"@de,
         "The eight rules that govern a candidate"@en ;
@@ -921,6 +962,15 @@ pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
     pm:axisValue pm:sleepThreshold ;
     pm:situatedNode pmc:ClearLightOfSleep ;
     pm:situationGround "The treatise places the luminosity at the moment of falling asleep and trains the practitioner to hold it rather than pass through it unconscious. The file's own note already separates this from a body whose motor system has shut down while the mind stays awake; both fall on this coordinate, and the difference between them belongs in the nodes, not in the axis."@en .
+
+pmc:CoCendNomaide a pm:Conceptualizing ;
+    rdfs:label "Bis zum Ende einer nómad, oder zweier, oder dreier"@de,
+        "To the end of a nómad, or of two, or of three"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, Irish text in Stokes, Three Irish Glossaries (London 1862), p. 25, English in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 94" ;
+    skos:definition "The term the entry puts on the sleep. The poet is watched until everything he is engaged upon is revealed to him, to the end of a nómad or of two or of three, or as long as he was reckoned to be at the offering."@en ;
+    skos:note "A counted term with a second clause that uncounts it. The first half gives a unit and three lengths in it; the second half replaces the count with a quantity fixed by something else entirely, the length of time he was supposed to be at the offering. A practitioner whose revelation has not come at the end of the third unit is therefore not out of time, because the alternative clause is still running, and this holding has the same construction from other transmissions under the generalisation that the counted threshold never falls due."@en,
+        "The unit is not established here, and the disagreement between the two obtainable translations is recorded at the tradition instance rather than resolved. What is established is that the transmission counts something, that the count runs to three, and that it supplies a second measure that makes the count non-binding."@en ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmc:ColdAsSourceProtocol a pm:Testing ;
     rdfs:label "Ob Kälte Quelle oder Widerstand ist"@de,
@@ -1930,6 +1980,15 @@ pmc:FailureOfTheStonesAttributedToTheOwner a pm:Conceptualizing ;
         "The counterpart of the eight causes at pmc:BengeFailureCauses in the Azande file: an instrument that fails is not thereby discredited, because the transmission has a place to put the failure. Here the place is the owner's divided faith, which cannot be inspected from outside and which no outcome can clear. It is entered beside the capacity it protects and not away from it, because the two only mean anything together."@en ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmc:FaireInFili a pm:Conceptualizing ;
+    rdfs:label "Er wird bewacht, damit ihn niemand wende und niemand störe"@de,
+        "He is watched so that no one turns him and no one disturbs him"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25, and in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 94" ;
+    skos:definition "The second party the entry requires. While the poet sleeps with his palms on his cheeks he is watched, in order that no one may turn him over and no one interrupt or disturb him, until everything about which he is engaged is revealed to him."@en ;
+    skos:note "The operation puts its operator in a condition in which he cannot check it, and the entry supplies a person outside that condition whose office is to keep it undisturbed. This holding carries the shape of that arrangement as a generalisation from other transmissions; here the watcher has no other function, no share in the result, and no stated way of telling whether the sleep is working."@en,
+        "The watcher is also the only person in the entry who could report anything about the session from outside, and the transmission gives him nothing to report. He is told what to prevent and not what to observe."@en ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmc:FanshiYoudao a pm:Cautioning ;
     rdfs:label "Die vier Bedingungen, unter denen nicht befragt wird"@de,
         "The four conditions under which one does not consult"@en ;
@@ -2170,6 +2229,27 @@ pmc:GeXuanInTheDeep a pm:Attributing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:Daoist .
 
+pmc:GlamDicennPresupposesTroscud a pm:Presupposing ;
+    rdfs:label "Die Verweigerung, das Fasten und der Rat gehen der Höhe voraus"@de,
+        "The refusal, the fast and the council come before the hill"@en ;
+    dcterms:source "Mittelirische Verslehren III, section 155, ed. Thurneysen, Irische Texte III/1 (Leipzig 1891), p. 96, English in Stokes, Revue Celtique 12 (1891), p. 119" ;
+    skos:note "Prescribed order and not stated necessity, and the tract comes closer to a necessity here than anywhere else without reaching it. It makes the refusal of the reward the occasion, the fast and the council the preliminaries, and the prevention of the satire after the refusal an offence; it does not say what happens to a satire made without them. The one consequence it does state, the earth swallowing the poets, is attached to being in the wrong and not to skipping a step."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:GlamDicenn ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:TalamDiaSlugadh ;
+    pm:withinTradition pmt:InsularCeltic .
+
+pmc:GlamDicennYieldsTalamDiaSlugadh a pm:Yielding ;
+    rdfs:label "Die Satire bringt die Erde über die Partei im Unrecht"@de,
+        "The satire brings the earth down on the party in the wrong"@en ;
+    dcterms:source "Mittelirische Verslehren III, section 155, ed. Thurneysen, Irische Texte III/1 (Leipzig 1891), pp. 96-97, English in Stokes, Revue Celtique 12 (1891), pp. 120-121" ;
+    skos:note "The capacity claimed is not the harming of an enemy but the sorting of a dispute, and the node keeps that wording because the tract does. What the operation is said to produce is an outcome that follows the right of the matter and not the intent of the operator."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:GlamDicenn ;
+    pm:withinTradition pmt:InsularCeltic ;
+    pm:yieldsCapacity pmc:TalamDiaSlugadh .
+
 pmc:GradedAttainmentYieldsDistantPerceptionAndOtherMinds a pm:Converging ;
     rdfs:label "Eine gestufte Erlangung soll Fernhören und Kenntnis fremden Bewusstseins hervorbringen"@de,
         "A graded attainment is said to yield hearing at a distance and knowledge of other minds"@en ;
@@ -2231,6 +2311,20 @@ pmc:GreaterPresupposeLesser a pm:Presupposing ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:LesserMysteries ;
     pm:withinTradition pmt:EleusinianMysteries .
+
+pmc:GubrethForfeitsImbas a pm:Presupposing ;
+    rdfs:label "Ein Dichter, der ein falsches Urteil spricht, kann sie nicht mehr ausführen"@de,
+        "A poet who passes a false judgment can no longer perform them"@en ;
+    dcterms:source "Prologue to the Senchas Már, in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), pp. 24-25" ;
+    skos:note "It also makes the faculty publicly forfeitable in a way that no bystander could check on its own terms. Whether a given poet still has it is settled by whether he has judged falsely, and the transmission supplies for that question the marks at pmc:BolgaGubrethe rather than any test of the procedure."@en,
+        "Stated necessity, and the consequence is quotable and specific: the honour-price, the profession and the two named operations, in that order. What earns the strength is that the loss is attached to a single act and not to a manner of life."@en,
+        "The disqualifying fault lies outside the operation. A false judgment is given in court and has nothing to do with chewing flesh, sleeping under a watch, or keeping a sequence; a poet could perform the procedure faultlessly and still not be able to perform it, because of something he did elsewhere. That is the reverse of a technical prerequisite and it is entered as a prerequisite all the same, because the transmission makes it the condition of the faculty."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Not a man of them had honor-price who passed false judgment, and he was deprived of his profession, and was unable to perform Teinm Laodhu, or Imbas for osna. The law text states this of the named poets of the island and of the poets of Erin generally."@en ;
+    pm:dependentStep pmp:ImbasForosnai ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:TreideNeimthigedarFilid ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmc:GuishenDispute a pm:Disputing ;
     rdfs:label "Ob Geister mit dem Verfahren etwas zu tun haben"@de,
@@ -2384,18 +2478,6 @@ pmc:HedanTiaojian a pm:Cautioning ;
         "Three of these conditions cannot be checked before the attempt and cannot be cleared after it. Whether an unbeliever heard of the work, whether anyone slandered it, and whether the operator has the bone of an immortal are all settled by whether the elixir formed. Together with the reseal-and-refire rule at the assay, they leave the recipe with no way of being wrong."@en ;
     pm:cautionsAbout pmp:Jindan ;
     pm:withinTradition pmt:Waidan .
-
-pmc:HekhalotDescentPresupposesFitness a pm:Presupposing ;
-    rdfs:label "Das Bestehen am sechsten Palast setzt die Eignung zum Abstieg voraus"@de,
-        "Passing the sixth palace presupposes fitness to descend"@en ;
-    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
-    skos:note "Entered at stated necessity because the consequence is quotable and because the passage sets no lesser outcome beside it: no second attempt, no purification that would restore the failed descender, no return."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:consequenceOfSkipping "The transmission states the consequence in a sequence and states it as violence, not as exclusion. The doorkeepers run after him and stone him; they name him of the seed of them that kissed the calf and unfit to see the King and his throne in his beauty; a voice from the seventh heaven confirms that they have said well; and he does not move from the spot before they place on him a thousand thousands of pieces of iron." ;
-    pm:dependentStep pmp:YeridatMerkavah ;
-    pm:prerequisiteStrength pm:statedNecessity ;
-    pm:priorStep pmc:HekhalotFitness ;
-    pm:withinTradition pmt:Hekhalot .
 
 pmc:HermeticDaemonUltor a pm:Cautioning ;
     rdfs:label "Der rächende Daimon tritt an die Stelle des Mind"@de,
@@ -2636,6 +2718,40 @@ pmc:IfaVerseCorpus a pm:Conceptualizing ;
     pm:attestedBy pm:mediatedAttestation ;
     pm:readVia "R. E. Dennett, At the Back of the Black Man's Mind (London: Macmillan, 1906), appendix, extract from Yoruba Heathenism" ;
     pm:withinTradition pmt:Ifa .
+
+pmc:ImbasForosnaiYieldsFaillsiugud a pm:Yielding ;
+    rdfs:label "Das Verfahren bringt die Offenbarung des Gesuchten"@de,
+        "The procedure brings the revelation of what is sought"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25, and in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), pp. 94-95" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ImbasForosnai ;
+    pm:withinTradition pmt:InsularCeltic ;
+    pm:yieldsCapacity pmc:ImbasForosnaiFaillsiugud .
+
+pmc:ImbasPresupposesIdbart a pm:Presupposing ;
+    rdfs:label "Das Opfer geht dem Schlaf voraus"@de,
+        "The offering comes before the sleep"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25" ;
+    skos:note "Prescribed order and not stated necessity. The entry sets the steps in a fixed sequence and says outright that the procedure is done in this way; it states nothing about what befalls a poet who omits the offering or takes the steps out of order. The one place in this material where an omission carries a stated consequence is the prohibition, and there the consequence attaches to doing the thing and not to doing it wrong."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:ImbasForosnaiFaillsiugud ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:ImbasForosnai ;
+    pm:withinTradition pmt:InsularCeltic .
+
+pmc:ImbasVidhiDispute a pm:Disputing ;
+    rdfs:label "Drei Beschreibungen, wie das benannte Verfahren ausgeführt wird"@de,
+        "Three descriptions of how the named procedure is performed"@en ;
+    dcterms:source "Prologue to the Senchas Már, in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), pp. 44-45",
+        "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25",
+        "Senchas Már in the codex H. 3. 18, printed and translated by Kuno Meyer, Finn and the Man in the Tree, Revue Celtique 25 (1904), pp. 344-347" ;
+    skos:definition "The transmitted literature describes the operation under this name in three ways that do not reduce to one another. The glossary has the poet chew raw flesh, lay it behind the door, offer it, sleep with his palms on his cheeks and be watched. The prologue to the Senchas Már says that before Patrick's time the poet placed his staff upon the person's body or upon his head and found out his name and the name of his father and mother and discovered every unknown thing proposed to him, and that this is teinm laegha or imus forosna, the same thing being revealed by means of them, but performed in different ways, a different kind of offering being made at each. The version of the Senchas Már in the vellum codex H. 3. 18 gives a narrative as an example of the practice called imbas forosnai in which Finn puts his thumb into his mouth and, on taking it out, his imbas illumines him and he chants."@en ;
+    skos:note "The third description is the one a reader is most likely to miss, because it is not in a glossary or a tale but in a legal manuscript, printed by its editor with the remark that it is given there as an example of the practice of incantation called imbas forosnai and has not been preserved elsewhere."@en,
+        "This is not a dispute between a source and a modern reader. All three descriptions are in the transmitted material, two of them in the same law book, and the law prologue itself acknowledges that the two named operations were performed after a different manner without saying which manner belongs to which. A holding that entered one of the three as the procedure would be choosing among its own witnesses."@en,
+        "What the divergence costs and what it does not. It does not touch the term, the watching or the prohibition, which stand in the glossary alone and are not contradicted anywhere. It touches exactly the part a person would have to do, which is the part that would have to be fixed before the operation could be tried."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmp:ImbasForosnai ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmc:ImmediateReturnProtocol a pm:Testing ;
     rdfs:label "Ob die Rückkehr sich von der Hinreise unterscheidet"@de,
@@ -4961,18 +5077,6 @@ pmc:PgmIvSpiritusYieldsSublatio a pm:Yielding ;
     pm:withinTradition pmt:GreekMagicalPapyri ;
     pm:yieldsCapacity pmc:PgmIvSublatio .
 
-pmc:PgmIvTerInAnno a pm:Cautioning ;
-    rdfs:label "Dreimal im Jahr, und verwirkt für den, der die Anweisung überhört"@de,
-        "Three times a year, and forfeited by whoever disregards the instruction"@en ;
-    dcterms:source "PGM IV.723-834, the appended instruction for magical use (ed. A. Dieterich, Eine Mithrasliturgie, 2nd ed. by R. Wünsch, Leipzig 1910)" ;
-    skos:definition "The clause appended to the rite: this immortalization takes place three times in the year, and if anyone should wish, after the instruction has been given, to disregard it, it will no longer come about for him."@en ;
-    skos:note "It stands outside the liturgy proper, in the instruction for magical use that follows it in the papyrus, which is why a reading that stops at the end of the liturgy reports the rite as carrying no condition of failure. The same appendix later has the god himself change the frequency: no longer three times a year but once a month at the full moon, and with the ointment thrown into a river rather than used. A rule that the text alters within itself is a rule that somebody was following."@en,
-        "The one stated condition of failure in this piece, and it is not a sign to be watched for but a forfeiture. It does not say that the operator will see something different when it fails; it says that the thing will not happen at all, and it names the cause — disregard of the instruction after receiving it. That is checkable in the weak sense that the tradition can be held to it, and it is more than the announced sights offer, since none of them can fail to arrive in a way the text acknowledges."@en,
-        "Two further constraints stand with it and are not conditions of success: for a second person to hear what is said, that person breathes with the operator for seven days and abstains from animal food and the bath; and the operator, when the god answers, is drained in soul and not in himself, while remembering unerringly what was said even if the oracle ran to ten thousand lines."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout pmp:PgmIvSpiritusTractus ;
-    pm:withinTradition pmt:GreekMagicalPapyri .
-
 pmc:PgmIvVocesSepties a pm:Conceptualizing ;
     rdfs:label "Die Vokalkette, siebenmal durchgesprochen"@de,
         "The vowel chain, uttered through seven times"@en ;
@@ -6353,12 +6457,15 @@ pmc:TestingTheMarkedAnimals a pm:Testing ;
 pmc:TheCriterionNoPartyControls a pm:Generalizing ;
     rdfs:label "Wo keine Partei den Ausgang bestimmen kann, werden beide Seiten des Kriteriums genannt"@de,
         "Where no party can fix the outcome, both sides of the criterion are stated"@en ;
-    skos:note "Falsified by a transmission that fixes the judgement of a performance to an event no party can produce at will and states the success side alone — a divination whose text says what the favourable fall means and is silent on the unfavourable one, an ordeal that names the sign of guilt and not the sign of innocence. Falsified in the other direction by a set of announced signs of verification that states, in the same passage, what the absence of a sign would show about the work. Weakened, without being refuted, if the seven turn out to be selected by the reading: five of the six transmissions entered the holding through ethnographic corpora, and a recorder who found a stated criterion interesting is a plausible filter on what got written down."@en,
+    skos:note "An eighth witness was added to the first clause on 2026-09-17, from a transmission that had no node in this holding when the statement was written, and it is the strongest of them. The insular Celtic satire performed on a hill at the boundary of seven lands fixes its judgement to the earth of the hill opening, and it names both sides in consecutive clauses: if it were they that were in the wrong, the earth of the hill would swallow them up; if it were the king that was in the wrong, the earth would swallow up him and his wife and his son and his horse and his arms and his dress and his hound. Nobody can make the earth of a hill open, the poets are the operators, and the failing side of the criterion falls on them."@en,
+        "Falsified by a transmission that fixes the judgement of a performance to an event no party can produce at will and states the success side alone — a divination whose text says what the favourable fall means and is silent on the unfavourable one, an ordeal that names the sign of guilt and not the sign of innocence. Falsified in the other direction by a set of announced signs of verification that states, in the same passage, what the absence of a sign would show about the work. Weakened, without being refuted, if the seven turn out to be selected by the reading: five of the six transmissions entered the holding through ethnographic corpora, and a recorder who found a stated criterion interesting is a plausible filter on what got written down."@en,
         "Its second pass removed a stronger clause that the holding refutes: that a transmission stating both sides is one that abides by the verdict. The ordeal tree says otherwise in the same passage that supplies the witness. The recorder states that although the omens may be in favour of the accused the ordeal-giver proceeds all the same, that the results are not infrequently quite contrary to the omens, and that the belief is unaffected by the discrepancy. Two-sidedness is therefore a property of the wording and not of the practice, and the statement above claims only the wording. That limit is the most useful thing in this node, because it marks exactly how far a reader may carry a criterion found in a text."@en,
         "The counter-search was run against the compiled holding before this was written, and its first pass removed the word public from the statement. The criterion of the Lingshu is the hardness of a vessel under a finger, which is not public and is read by one person, and the criterion of the drum contest is the victory of a painted reindeer, which the source does not say how anybody determined. What the seven share is not that a bystander could check them but that nobody who has an interest in the outcome can produce the event; that is a weaker property and it is the one the witnesses actually carry."@en,
         "The seven witnesses of the first clause, and what each of them fixes the judgement to. The fork of the Iglulik divination falls or stands: if it falls the sick person will die, if it stays upright she will live, and the reading is given before the fork is dropped. The kite spirit of the Manchu clan history eats the liver of an ox and the shaman must then leave his assistant; if he falls down without being able to keep on his legs, the sacrifice counts as rejected. The two Sámi practitioners who wish to know which of them excels paint two reindeer striking each other on a drum, and he whose reindeer has the victory is the better. The needling chapter of the Lingshu states what it is for the qi to have arrived as a rule over the vessel and then refuses the patient's own report twice in the same sentence: although he says it is as it was, although he says he feels relieved, the illness has not gone. The prohibition chapter of the Suwen pairs each depot with an interval and a bodily sign, so that a man struck in the heart who is alive on the third day is not covered by the sentence. The ordeal-giver of the Lower Congo cuts the tree with a formula that names both outcomes, the blade bending if the accused is a witch and entering if he is not. And the Zande poison oracle requires a second fowl told what the first answer was, which must come out the opposite way."@en,
         "The spread, stated so that the count of predecessors does not overstate it. Seven witnesses for the first clause, but the Lingshu and the Suwen are one transmission, so the count of transmissions is six: Iglulik Inuit, Manchu-Tungus, Sámi, the Chinese medical canon, Lower Congo and Zande. No route has been proposed between the first, the third, the fourth, the fifth and the sixth, which makes this the widest spread in this directory. The two witnesses of the second clause are a Latin grimoire and a Chinese internal alchemy, between which no route has been proposed either. The wide spread is the reason the statement is worth having and is also its own warning: a form that turns up in six unconnected places is a candidate for a structural necessity of the thing rather than for a shared insight, and SPEC §14 names that as one of the three sources of agreement independence does not protect against."@en,
+        "The transmission it comes from is one for which no route has been proposed to any of the six, so the spread of the first clause is now seven transmissions. Its contact route in this holding is entered as documented, but the route that is documented runs to the Christian material and not to the Inuit, Tungus, Sámi, Chinese, Congo or Zande witnesses, and it therefore does not touch the independence of this agreement."@en,
         "Untested. No pm:Testing points here, which is the state and not an omission; the queue it belongs to is derivable from the absence and is not to be written down. What a protocol would have to do first is name the population, and that is the hard part: the unit is a transmission and not a case, so the denominator is the set of transmissions that fix a judgement to an uncontrollable event, which nobody has enumerated."@en,
+        "What the eighth witness adds beyond a count. In the seven it joins, the failure side falls on the person operated on or on nobody in particular; here it falls on the operator, and the transmission says so in the same breath as the success. That is the form of a trial rather than of a curse, and it narrows a possible objection to the first clause: a reader could have said that stating the failure side is cheap where the failure costs the operator nothing. In this witness it costs him everything, and the clause is stated anyway."@en,
         "What the search did not find, and this is what makes the first clause a claim rather than an observation. No transmission in the holding fixes a judgement to an event outside every party's control and then names only the success side. Nine candidates were read at the node and none of them does; four are named here: the maiden's declaration decided by a snake states that the challenger loses if he refuses the same test; the Andean confession test states that the confession is void and must be made again; the Māori hair-cutting names the cut scalp as the detector of a breach nobody admitted; the Sámi journey states an upper bound of twenty-four hours as well as the rule that the time tracks the distance. If a case exists it will be a plain refutation, and a reader who has one needs nothing from this graph to bring it."@en,
         "What the two witnesses of the second clause do instead, and why they are in the same node rather than in a file of their own. The Solomonic book tells the operator in advance what he will perceive when the pentacles are shown — noises and rushings, and six manners of coming sorted by the substance the spirits were made from, from great rains and thunderbolts to a gentle breeze. The internal alchemy announces its signs of verification in order, each introduced as coming next after the one before. Both are events nobody can produce at will either; a night in the open supplies weather, and a body under a regimen supplies sensations. What separates them from the seven is not controllability but that they are announced to the participant beforehand, and neither states what would have to appear for the work to have failed. The clause is in the statement because without it the first clause would be a remark about a handful of cases instead of a claim about a division."@en ;
     pm:attestedBy pm:compilerInference ;
@@ -6368,6 +6475,7 @@ pmc:TheCriterionNoPartyControls a pm:Generalizing ;
         pmc:InuitForkSignOfSurvival,
         pmc:NeidanZhengyan,
         pmc:QizhiYouxiao,
+        pmc:TalamDiaSlugadh,
         pmc:TungusSacrificeRejected,
         pmp:BengeCorroborativeTest,
         pmp:NkasaTreeCutting ;
@@ -8223,6 +8331,46 @@ pmp:CarriedBookletProtectionExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-05" ;
     pm:tests pmc:EuropeanFolkMagicBuechleinSchutz .
 
+pmp:CelticCriticalEditionSearch a pm:Searching ;
+    rdfs:label "Ob die maßgebliche kritische Ausgabe des Glossars erreichbar ist"@de,
+        "Whether the standard critical edition of the glossary can be reached"@en ;
+    dcterms:date "2026-09-17" ;
+    skos:note "A second and free path was found for the manuscript wording and is named here because it is not a work and cannot be cited as one: the Early Irish Glossaries Database of the Cambridge department, which prints diplomatic transcriptions of all witnesses with their manuscript places. It is a way to the readings and never a citation, by the same rule that keeps every URL out of a source."@en,
+        "The ways SPEC 15 names were tried. Other volumes of the same series are digitised and were found, which is what makes the absence of this one a fact about the item and not about the series. Another transliteration of the title was tried in five forms. The series is cited inconsistently in the literature, as volume IV of 1912 and as volume 5 of 1913, and both were searched. The only digital record found is a catalogue entry for a modern reprint, in limited view, which is a rights restriction on a twentieth-century edition and not a path."@en,
+        "What this costs the file, stated so that a later reader can size it. The Irish text of the entry was read in Stokes's edition of 1862 from the Leabhar Breac and the English in O'Donovan's translation of 1868; both are printed from the shorter recension, and every citation in traditions/insular-celtic.ttl names which. What has not been checked is whether the longer recension carries the same wording of the term, of the prohibition, and of the clause about the ends of the bones, all three of which this run found to be places where the translations diverge."@en ;
+    pm:searchOutcome pm:corpusUnreachable ;
+    pm:searchTerms "Searched under Sanas Cormaic, Sanas Chormaic, Cormac's Glossary, Anecdota from Irish Manuscripts, Anecdota IV, Anecdota volume 4, Anecdota volume 5, Meyer 1912, Meyer 1913, and under the companion volumes of the same series, which are present."@en ;
+    pm:searchedBy "prima-materia, 2026-09-17" ;
+    pm:searchedCorpus "Kuno Meyer (ed.), Sanas Cormaic. An Old-Irish Glossary compiled by Cormac úa Cuilennáin, in Anecdota from Irish Manuscripts IV (Halle and Dublin: Hodges and Figgis, 1912), pp. 1-128, which alone prints the longer recension of the Yellow Book of Lecan and is the edition the field cites by section number."@en ;
+    pm:searchedFor "A readable text of the edition that carries the entry as section 756, so that the Irish entered in traditions/insular-celtic.ttl from the shorter Leabhar Breac recension could be checked against the longer one. The two recensions differ in length by about six hundred entries, and a holding that has read only the shorter one has read the shorter one."@en .
+
+pmp:CelticEfficacyDenialSearch a pm:Searching ;
+    rdfs:label "Ob das inselkeltische Material irgendwo bestreitet, dass die Verfahren wirken"@de,
+        "Whether the insular Celtic material anywhere denies that the procedures work"@en ;
+    dcterms:date "2026-09-17" ;
+    skos:note "Nothing came back in that direction, and the absence is the finding. Both prohibiting witnesses give a ground and both grounds are about the offering. The glossary: whoever should practise them should have neither heaven nor earth, because it was renouncing baptism. The law prologue: they were abolished as profane rites, for teinm laegha and imus forosna could not be performed without offering to idol-gods. Neither says that the procedures failed, that they revealed anything false, or that the poets were pretending."@en,
+        "The one thing in the neighbourhood that looks like a denial is not one. The editor of the verse tract remarks in 1891 that the whole treatise makes a young and arbitrary impression and doubts whether the description of the glám dícenn rests on old tradition, adding that the passage speaks in the imperfect and therefore of something no longer usual. That is a modern scholar on the age of a description, not a source on the working of a procedure, and it is recorded at pmc:TalamDiaSlugadh rather than entered."@en,
+        "What that leaves standing is the strongest attestation of efficacy in the material, and it comes from the party with the least reason to give it. The one operation the prohibition keeps, díchetal do chennaib, is kept on a ground about its mechanism and not about its results: it requires no offering to demons, and it was acquired through great knowledge and application. A transmitting hand that sorts three procedures by what they require and forbids two of them without ever saying they do not work has attested them in the act of suppressing them."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Searched for: false, falsehood, lie, lying, deceit, deceive, deception, fraud, imposture, vain, in vain, no effect, without effect, nothing, avail, availed, pretend, pretended, feign, folly, foolish, empty, idle, superstition, superstitious, credulous, believe not. Every hit read in its place, and the whole of the glossary entry, the whole of the law prologue between pages 24 and 46, and the whole of the Welsh chapter read in full."@en ;
+    pm:searchedBy "prima-materia, 2026-09-17" ;
+    pm:searchedCorpus "Sanas Cormaic in the Irish of Whitley Stokes, Three Irish Glossaries (London 1862), and in the English of John O'Donovan, Cormac's Glossary, ed. Stokes (Calcutta 1868), both searched whole. Ancient Laws of Ireland, vol. I, the Senchas Már with its prologue and the editors' notes (Dublin: HMSO, 1865), searched whole. Rudolf Thurneysen, Mittelirische Verslehren, in Irische Texte III/1 (Leipzig 1891), searched whole, text and commentary. Kuno Meyer, The Triads of Ireland (Dublin 1906). Kuno Meyer, Finn and the Man in the Tree, Revue Celtique 25 (1904). Giraldus Cambrensis, Descriptio Kambriae I.16, in Thomas Wright's translation (London 1863)."@en ;
+    pm:searchedFor "A passage in which the transmission, or the churchmen who transmit it, say that the procedures do not work: that they had been tried and failed, that what they revealed was false, that the poets deceived, or that the revelation came from the poet's own invention. The prohibition is the natural place for such a statement, and this holding needed to know whether it is there or whether the ground is something else entirely."@en .
+
+pmp:CelticSuccessSignSearch a pm:Searching ;
+    rdfs:label "Ob das inselkeltische Material ein wahrnehmbares Zeichen des Gelingens nennt"@de,
+        "Whether the insular Celtic material names a perceptible sign that a procedure has worked"@en ;
+    dcterms:date "2026-09-17" ;
+    skos:note "One consequence for the file. The absence of a success sign is what makes the outcome of the glám dícenn stand out: it is the only place in this material where the transmission names an event by which a performance could be judged, and it is an event that falls on somebody rather than an appearance shown to somebody."@en,
+        "The finding is entered as opposing rather than as a find because it tells against the question as it was put. The transmission puts its bodily signs on the fault of a judge, where a bystander can read them, and puts none on the success of a seer, where a bystander cannot. That division is worth more than the sign would have been: it shows the transmission is capable of stating a legible criterion and does not do it for the operations this file is about."@en,
+        "The question came back answered about the wrong office. No sign of a successful divination was found anywhere: the glossary says that everything is revealed to the poet and stops, the law prologue says that he discovered every unknown thing proposed to him and stops, and the Welsh chapter has the answer buried in a turn of a word that a skilful observer must pick out, which is the opposite of a sign. What the search did find is a set of signs attached to judging: three permanent blotches on Sencha's face for each false judgment, a chain that tightened on Morann's neck when he judged falsely and expanded when he judged truly, and perfect fruit on the trees when Fachtna judged truly."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Searched for: sign, signs, token, mark, marks, blotch, blotches, blemish, light, shining, radiance, glow, heat, warmth, cold, sound, voice, appears, appeared, apparition, vision, knew, knows, revealed, revelation, colour, face, countenance, swelling, blister. Every hit read in its place."@en ;
+    pm:searchYieldedNode pmc:BolgaGubrethe ;
+    pm:searchedBy "prima-materia, 2026-09-17" ;
+    pm:searchedCorpus "The same corpus as pmp:CelticEfficacyDenialSearch: Sanas Cormaic in Stokes 1862 and O'Donovan 1868; Ancient Laws of Ireland, vol. I (Dublin 1865); Thurneysen, Mittelirische Verslehren, Irische Texte III/1 (Leipzig 1891); Meyer, The Triads of Ireland (Dublin 1906); Meyer, Finn and the Man in the Tree, Revue Celtique 25 (1904); Giraldus, Descriptio Kambriae I.16, trans. Wright (London 1863)."@en ;
+    pm:searchedFor "A passage telling the operator or a bystander what would be perceived when one of these procedures has taken effect: a light, a warmth, a sound, a mark on the body, a change in the sleeper. This holding treats signs of success as their own harvest category and counts them apart from conditions of failure, and a transmission with four named operations and no sign at all would be a finding of its own."@en .
+
 pmp:ChannelPurification a pm:Practicing ;
     rdfs:label "Reinigung der Kanäle"@de,
         "Purification of the channels"@en ;
@@ -8292,6 +8440,19 @@ pmp:CritiqueRigoureuse a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
 
+pmp:DicetalDoChennaib a pm:Practicing ;
+    rdfs:label "Díchetal do chennaib, der Vortrag aus den Enden"@de,
+        "Díchetal do chennaib, the recital from the ends"@en ;
+    dcterms:source "Prologue to the Senchas Már, in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), p. 45",
+        "Sanas Cormaic s.v. Imbas forosnai, Irish text in Stokes, Three Irish Glossaries (London 1862), p. 25, English in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 95" ;
+    skos:altLabel "dicetal do chendaib"@en,
+        "díchetal do chennaib"@en ;
+    skos:definition "The third of the three, and the one the prohibition leaves standing. The glossary says it was left to be composed in right of the art, and gives the reason: it is not necessary in it to make an offering to demons, but there is a revelation at once from the ends. The law prologue describes what remained after the abolition: when the poet sees the person or thing before him he makes a verse at once with the ends of his fingers, or in his mind without studying, and he composes and repeats at the same time."@en ;
+    skos:note "The Irish of the glossary at this place reads do chennaib cnáime, from the ends of the bones, where the English of 1868 has from the ends of the poet's fingers. The difference is not settled here; it is recorded because the two readings put the operation in different parts of the body and because the name of the procedure is built on the word at issue."@en,
+        "The exemption is argued and not merely declared, and the argument is about the mechanism. Two procedures are forbidden because they require an offering; this one is kept because it does not, and the law prologue adds a second ground, that it was acquired through great knowledge and application. A transmission that sorts its own operations by what they require rather than by what they achieve has stated a criterion a later reader can apply to the other two."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmp:DisplacedPenaltyCounterSearch a pm:Searching ;
     rdfs:label "Ob eine verschobene Strafe die Regel dem Prüfen entzieht"@de,
         "Whether a displaced penalty puts the rule beyond checking"@en ;
@@ -8305,6 +8466,21 @@ pmp:DisplacedPenaltyCounterSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-09-11" ;
     pm:searchedCorpus "The compiled prima-materia holding as it stood on 2026-09-11: all tradition files, the examinations, the generalizations, the convergences and the originations, read at the literals of skos:definition, skos:note and pm:consequenceOfSkipping" ;
     pm:searchedFor "Three questions put together before writing pmc:ThePenaltyLaidOnAnotherParty. First, further witnesses in which the stated cost of a faulty or improperly transmitted performance falls on someone other than the performer. Second, the counter-cases in which it falls squarely on the performer, in order to learn the proportion and so the strength the statement could carry. Third, and this is the one that mattered, whether the holding contains a case in which a displaced penalty is nevertheless checked, reported back or made observable, which would falsify the second half of the statement as drafted." .
+
+pmp:DisqualifyingFaultOutsideTheOperationSearch a pm:Searching ;
+    rdfs:label "Ob der Fehler, der dem Übenden sein Vermögen kostet, stets außerhalb des Verfahrens liegt"@de,
+        "Whether the fault that costs a practitioner his faculty always lies outside the operation"@en ;
+    dcterms:date "2026-09-17" ;
+    skos:note "The candidate was refuted and was not written. Two nodes that had stood in the holding for weeks put the disqualifying fault squarely inside the operation. At the gate of the sixth palace the descender is stoned and declared unfit for asking a question about the water, which is an act performed in the middle of the procedure and nowhere else. And the appended instruction of the Mithras rite states that the immortalization takes place three times in the year and that whoever, having received the instruction, disregards it, will have it come about for him no longer — a forfeiture attached to the frequency of the operation itself."@en,
+        "The verdict is worth keeping because the mistake behind it is repeatable. The two witnesses the candidate was formed from were both read in the same two runs, one of them this one, and both happened to be transmissions in which the operative capacity belongs to an office with a legal or monastic standing beside it. Generalizing from them was generalizing from the class the reading had just been in, which is the exact confusion SPEC 16 records for the four generalizations of 2026-09-09."@en,
+        "What survives of the candidate is narrower and is not a generalization. Two transmissions in this holding attach the loss of an operative capacity to a fault adjudicated in another forum, and the insular Celtic case is the sharper of the two because the fault is a false judgment given in court and the loss is of imbas forosnai and teinm laída by name. That is a pair and not a pattern, and it is recorded here so that a third case would be recognised if one turns up."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "The compiled graph searched over every literal for: forfeit, forfeited, disqualify, disqualified, unfit, deprived, debarred, no longer, loses, lost the, may not practise, ceases to be. Every hit read at its node."@en ;
+    pm:searchYieldedNode pmc:HekhalotDescentPresupposesFitness,
+        pmc:PgmIvTerInAnno ;
+    pm:searchedBy "prima-materia, 2026-09-17" ;
+    pm:searchedCorpus "The compiled holding as of 2026-09-17, queried over all traditions, examinations, convergences and originations for claims in which a practitioner is said to lose, forfeit or be barred from an operative capacity."@en ;
+    pm:searchedFor "Counter-material to a generalization this run had formed and had not yet written: that where a transmission makes an operative capacity depend on the standing of the practitioner, the fault that costs him the capacity is one committed and judged outside the operation — a judgement given in court, a motive for exercising the art, a breach of the rule of an order — rather than an error in the performance. The insular Celtic law prologue and the Jain penalty on living by the arts had supplied the two witnesses; SPEC 16 requires that the counter-search run against the holding before the node is written."@en .
 
 pmp:DivinationByThrownThings a pm:Practicing ;
     rdfs:label "Wahrsagen durch geworfene Dinge"@de,
@@ -9125,6 +9301,17 @@ pmp:Sitkari a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
+pmp:TeinmLaida a pm:Practicing ;
+    rdfs:label "Teinm laída"@de,
+        "Teinm laída"@en ;
+    dcterms:source "Sanas Cormaic s.v. Orc tréith, in Cormac's Glossary, trans. O'Donovan, ed. Stokes (Calcutta 1868), pp. 129-130" ;
+    skos:altLabel "teinm laegda"@en,
+        "teinm laída"@en ;
+    skos:definition "The second of the two procedures the prohibition names, and the glossary nowhere describes it. Where it is shown at work, it is shown as a gesture and not as a course: Finn, finding a headless body, puts his thumb into his mouth, and when he takes it out again he speaks through teinm laegdha and names the dead man and says that enemies have taken his head."@en ;
+    skos:note "The entry that prohibits it treats it as a thing everyone knows; the entry that shows it gives one motion and no preparation, no offering, no sleep and no watcher. If the two are the same operation, the glossary has described the one and demonstrated the other."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmp:TermForAPromisedOutcomeSearch a pm:Searching ;
     rdfs:label "Ob eine Überlieferung, die einen Nutzen zu einer Frist verspricht, sagt, was bei Fristablauf geschieht"@de,
         "Whether a transmission that promises a benefit by a term says what happens at the term"@en ;
@@ -9725,15 +9912,6 @@ pmt:InnerAsianTengrism a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Secret History of the Mongols; the Orkhon inscriptions; the published Manas cycle" .
-
-pmt:InsularCeltic a pm:Tradition ;
-    rdfs:label "Inselkeltische Überlieferung"@de,
-        "Insular Celtic transmission"@en ;
-    skos:definition "The Irish and Welsh transmission of poetic knowledge as an acquired faculty, with named divinatory procedures and the ecclesiastical prohibitions attached to them."@en ;
-    skos:note "The prohibitions are in the same manuscripts as the procedures, so procedure and counter-testimony arrive together."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The legal and glossarial material on imbas forosnai, teinm laída and díchetal do chennaib; the immrama; the Book of Taliesin" .
 
 pmt:IslamicLetterMagic a pm:Tradition ;
     rdfs:label "Islamische Buchstaben- und Namensmagie"@de,
@@ -10454,6 +10632,15 @@ pmc:BeautyOfOneBody a pm:Conceptualizing ;
     dcterms:source "Plato, Symposium 210a-211c" ;
     skos:definition "The first object of the ascent, from which the climb begins."@en ;
     pm:withinTradition pmt:Platonic .
+
+pmc:BolgaGubrethe a pm:Conceptualizing ;
+    rdfs:label "Drei Flecken für jedes falsche Urteil, und eine Kette, die sich zusammenzieht"@de,
+        "Three blotches for each false judgment, and a chain that tightens"@en ;
+    dcterms:source "Prologue to the Senchas Már, in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), pp. 24-25" ;
+    skos:definition "The marks the same passage reports of the judges. Sencha mac Aililla never pronounced a false judgment without getting three permanent blotches on his face for each judgment. Morann never pronounced a judgment without having a chain around his neck: when he pronounced a false judgment the chain tightened round his neck, and when he passed a true one it expanded down upon him. Of Fachtna Tulbrethach the same passage says that when he gave a true judgment the fruit was perfect on the trees."@en ;
+    skos:note "Three claims of the form this holding looks for and rarely finds: a fault of a named kind produces a physical mark that a person other than the judge can see, and in two of the three the mark is present in both directions, tightening for the false and expanding for the true. There is no announcement to the participants beforehand, and nothing in the sign depends on the judge's report of his own state."@en,
+        "What weakens them is that they are told of three named men in the past and not laid down as a rule of the office. The text is explaining how false judgment used to be caught, not prescribing a test a court could run. A later reader who wants to build on it should notice that the passage which states the loss of the faculty and the passage which states the marks are the same passage, and that the marks are on the judges and not on the poets."@en ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmc:BrowContactOpensTheBrow a pm:Positing ;
     rdfs:label "Die Brauenöffnung eines anderen erfolgt durch Kontakt zwischen dessen Brauen"@de,
@@ -11248,6 +11435,18 @@ pmc:HeatWithoutForcefulBreath a pm:Positing ;
     skos:definition "The claim that the gentler form of the practice, without the forceful breathing, produces the same effect as the form the tradition prescribes."@en ;
     skos:note "Entered because it is the point where the method draft parts company with the transmission it draws on. The transmission prescribes the forceful breath; the draft says it can be left out. That is a claim about the draft's own variant and belongs to nobody else, which is why it is posited and not sourced."@en ;
     pm:positedIn "prima-materia#318" .
+
+pmc:HekhalotDescentPresupposesFitness a pm:Presupposing ;
+    rdfs:label "Das Bestehen am sechsten Palast setzt die Eignung zum Abstieg voraus"@de,
+        "Passing the sixth palace presupposes fitness to descend"@en ;
+    dcterms:source "Hekhalot Rabbati, chapter 26, trans. Morton Smith, corrected by Gershom Scholem, ed. Don Karr" ;
+    skos:note "Entered at stated necessity because the consequence is quotable and because the passage sets no lesser outcome beside it: no second attempt, no purification that would restore the failed descender, no return."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The transmission states the consequence in a sequence and states it as violence, not as exclusion. The doorkeepers run after him and stone him; they name him of the seed of them that kissed the calf and unfit to see the King and his throne in his beauty; a voice from the seventh heaven confirms that they have said well; and he does not move from the spot before they place on him a thousand thousands of pieces of iron." ;
+    pm:dependentStep pmp:YeridatMerkavah ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:HekhalotFitness ;
+    pm:withinTradition pmt:Hekhalot .
 
 pmc:HermeticDescensusPerHarmoniam a pm:Conceptualizing ;
     rdfs:label "Jeder Herrscher gibt einen Anteil seiner eigenen Ordnung"@de,
@@ -12135,6 +12334,18 @@ pmc:PgmIvSublatio a pm:Conceptualizing ;
     skos:note "Stated as what will happen and not as what may. The withdrawal of hearing and of earthly sight is given first and the vision second, which makes the sensory cut the condition rather than a side effect."@en ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
+pmc:PgmIvTerInAnno a pm:Cautioning ;
+    rdfs:label "Dreimal im Jahr, und verwirkt für den, der die Anweisung überhört"@de,
+        "Three times a year, and forfeited by whoever disregards the instruction"@en ;
+    dcterms:source "PGM IV.723-834, the appended instruction for magical use (ed. A. Dieterich, Eine Mithrasliturgie, 2nd ed. by R. Wünsch, Leipzig 1910)" ;
+    skos:definition "The clause appended to the rite: this immortalization takes place three times in the year, and if anyone should wish, after the instruction has been given, to disregard it, it will no longer come about for him."@en ;
+    skos:note "It stands outside the liturgy proper, in the instruction for magical use that follows it in the papyrus, which is why a reading that stops at the end of the liturgy reports the rite as carrying no condition of failure. The same appendix later has the god himself change the frequency: no longer three times a year but once a month at the full moon, and with the ointment thrown into a river rather than used. A rule that the text alters within itself is a rule that somebody was following."@en,
+        "The one stated condition of failure in this piece, and it is not a sign to be watched for but a forfeiture. It does not say that the operator will see something different when it fails; it says that the thing will not happen at all, and it names the cause — disregard of the instruction after receiving it. That is checkable in the weak sense that the tradition can be held to it, and it is more than the announced sights offer, since none of them can fail to arrive in a way the text acknowledges."@en,
+        "Two further constraints stand with it and are not conditions of success: for a second person to hear what is said, that person breathes with the operator for seven days and abstains from animal food and the bath; and the operator, when the god answers, is drained in soul and not in himself, while remembering unerringly what was said even if the oracle ran to ten thousand lines."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:PgmIvSpiritusTractus ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
 pmc:PgmIvTraditioClausa a pm:Cautioning ;
     rdfs:label "Ein Vater darf es weitergeben, und nur an einen Sohn"@de,
         "A father may hand it on, and only to a son"@en ;
@@ -12798,6 +13009,14 @@ pmc:TorahWithoutToil a pm:Conceptualizing ;
     skos:note "Set against it in the same passage is what the ordinary student must do without it, and the transmission puts that in the students' own prayer: may that which we have read remain in our possession, may that which we have studied remain in our possession. The claim is therefore not that learning is easier but that a different faculty is being offered in place of memory."@en ;
     pm:withinTradition pmt:Hekhalot .
 
+pmc:TreideNeimthigedarFilid a pm:Conceptualizing ;
+    rdfs:label "Drei Dinge, die einen Dichter ausmachen"@de,
+        "Three things that constitute a poet"@en ;
+    dcterms:source "The Triads of Ireland, section 123, ed. and trans. Kuno Meyer (Dublin: Hodges and Figgis, 1906), pp. 16-17" ;
+    skos:definition "The triad that makes the three operations the qualification of the office rather than an accomplishment beside it: three things that constitute a poet, the knowledge that illumines, teinm laeda, improvisation."@en ;
+    skos:note "Entered because it fixes the standing of the other nodes in this file. These are not powers a poet might have; they are what the transmission says a poet is. That is what makes the loss of them at pmc:GubrethForfeitsImbas a loss of the office and not of an ornament."@en ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmc:TungusCandidateCondition a pm:Conceptualizing ;
     rdfs:label "Der Zustand des Anwärters"@de,
         "The condition of the candidate"@en ;
@@ -13198,12 +13417,6 @@ pm:conjugalTelos a pm:TelicOrientation ;
     skos:definition "The path claims that the bounded self is neither dissolved nor kept apart but carried into a union of two that preserves both parties to it, so that what is transformed persists as one side of a relation rather than as an absolute or as nothing."@en ;
     skos:note "Distinct from pm:separativeTelos for the same reason from the other side: what persists here is not its own absolute but a party to a bond, and it is transformed on the way rather than fortified."@en,
         "Distinct from pm:unitiveTelos, and the distinction is not verbal. A dissolution has one term at the end; a marriage has two. A record that files a bridal end state as unitive reports the disappearance of something the source keeps."@en .
-
-pm:corpusUnreachable a pm:SearchOutcome ;
-    rdfs:label "Korpus nicht erreichbar"@de,
-        "Corpus unreachable"@en ;
-    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
-    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
 
 pm:dreamingWithin a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -14294,6 +14507,14 @@ pmc:IdentifyingTakenForItsOpposite a pm:Originating ;
     pm:circulatesAs "An observation of the school, reported as long known." ;
     pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
 
+pmc:ImbasForosnaiFaillsiugud a pm:Conceptualizing ;
+    rdfs:label "Es erschließt alles, was der Dichter offenbaren will"@de,
+        "It discovers everything the poet wishes to manifest"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, in Stokes, Three Irish Glossaries (London 1862), p. 25, and in Cormac's Glossary, trans. O'Donovan (Calcutta 1868), p. 94" ;
+    skos:definition "What the glossary states the procedure is for, in the sentence that opens the entry: it discovers everything which the poet likes and which he desires to manifest."@en ;
+    skos:note "An unrestricted object. The entry names no class of question the procedure cannot answer, no condition on what may be asked, and no case in which the answer would be withheld. What bounds it in the entry is the term and the watching, not the subject matter."@en ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmc:InuitHiddenThings a pm:Conceptualizing ;
     rdfs:label "Die verborgenen Dinge"@de,
         "Hidden things"@en ;
@@ -14735,6 +14956,12 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
+pm:corpusUnreachable a pm:SearchOutcome ;
+    rdfs:label "Korpus nicht erreichbar"@de,
+        "Corpus unreachable"@en ;
+    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
+    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
+
 pm:counterSearchFoundNothing a pm:CounterSearchState ;
     rdfs:label "Gegensuche ohne Fund"@de,
         "Counter-search found nothing"@en ;
@@ -14850,6 +15077,18 @@ pmp:EuropeanFolkMagicFallendeKrankheitZettel a pm:Practicing ;
     skos:definition "Writing backwards on a slip of paper the words that all is accomplished, once only and not more; laying the writing in a little scarlet-red cloth and a linen cloth over it; and hanging it on unbeschrauen on the first Friday in the new light, with the linen cloth and the thread unbleached."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:EuropeanFolkMagic .
+
+pmp:GlamDicenn a pm:Practicing ;
+    rdfs:label "Glám dícenn, die Satire auf der Höhe der sieben Gebiete"@de,
+        "Glám dícenn, the satire performed on the hill of seven lands"@en ;
+    dcterms:source "Mittelirische Verslehren III, section 155, ed. Rudolf Thurneysen, Irische Texte III/1 (Leipzig: Hirzel, 1891), pp. 96-97, with his German at pp. 124-125; the same passage from the Book of Ballymote p. 284a, ed. and trans. Whitley Stokes, The Second Battle of Moytura, Revue Celtique 12 (1891), pp. 119-121" ;
+    skos:altLabel "glam digend"@en,
+        "glám dícenn"@en ;
+    skos:definition "The procedure the verse tract sets out for the case in which a prince withholds from the poet the fixed reward for a poem delivered. There is fasting on the land of the king for whom the poem was composed, and a council of thirty laymen and thirty bishops and thirty poets about the making of the satire afterwards; and it was a crime for them to prevent the satire once the reward had been refused. The poet then goes in a company of seven, himself and six holding the six poetic grades, at sunrise, to a hilltop on the boundary of seven lands. The face of each grade is turned towards his own land and the face of the ollam towards the land of the king he would satirise; the backs of all are turned to a hawthorn growing on the top of the hill; the wind is from the north; each man holds a slingstone and a thorn of the hawthorn in his hand; each sings a stave in the prescribed metre into the two objects, the ollam first and the rest together after him; and each puts his stone and his thorn at the butt of the hawthorn."@en ;
+    skos:note "Six conditions that can be got wrong and that a bystander could check: the hour, the place, the number and grades of the company, the direction each man faces, the direction of the wind, and the objects in the hands. The transmission attaches no consequence to getting any one of them wrong, which is why the prerequisite below is entered at prescribed order; but it has specified enough that a performance could be said not to have been this performance."@en,
+        "The occasion is a debt and not an enmity. The procedure is triggered by the refusal of a stipulated payment, the council is convened about making the satire and not about whether to make it, and preventing it after the refusal is itself an offence. The transmission has put the operation inside a legal remedy."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pmp:HarbaDeMoshe a pm:Practicing ;
     rdfs:label "Das Schwert des Mose"@de,
@@ -15300,6 +15539,16 @@ pmc:SoulJourney a pm:Conceptualizing ;
         "Pliny, Naturalis Historia VII.174" ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
     pm:withinTradition pmt:GraecoRoman .
+
+pmc:TalamDiaSlugadh a pm:Conceptualizing ;
+    rdfs:label "Die Erde verschlingt, wer im Unrecht war"@de,
+        "The earth swallows whichever side was in the wrong"@en ;
+    dcterms:source "Mittelirische Verslehren III, section 155, ed. Thurneysen, Irische Texte III/1 (Leipzig 1891), pp. 96-97, English in Stokes, The Second Battle of Moytura, Revue Celtique 12 (1891), pp. 120-121" ;
+    skos:definition "The outcome the tract states in two clauses. If it were they that were in the wrong, the earth of the hill would swallow them up. But if it were the king that was in the wrong, the earth would swallow up him and his wife and his son and his horse and his arms and his dress and his hound. The tract then distributes the seven curses over the seven objects: the satire of the mac fuirmid falls on the hound, of the fochloc on the dress, of the doss on the arms, of the cana on the wife, of the clí on the son, of the anrad on the land, and of the ollam on the king."@en ;
+    skos:note "The distribution of the seven curses over the seven objects is the part that makes an outcome readable. It says which member of the household is answerable to which grade of poet, so that a partial outcome would be interpretable rather than merely disappointing, and it commits the procedure to effects on a hound, a dress and a horse that anybody could look at."@en,
+        "The editor of the tract doubted in 1891 that the description rests on old tradition, and gave a reason worth carrying: the passage speaks in the imperfect, of what used to be done and is no longer usual. That is a judgement about the age of the description and not about its content, it is a modern scholar's and not a source's, and it is recorded here rather than entered as a claim."@en,
+        "This is the form the project looks for and finds seldom. The criterion is a single physical event; it is not announced to the participants as a sign to be recognised, it is not a state either party could report of himself, and above all it is two-sided: the same event decides against the operators if they were the ones in the wrong. A satire that can swallow the satirist is not a curse but a trial, and the transmission has made it one by naming the losing side on both ends."@en ;
+    pm:withinTradition pmt:InsularCeltic .
 
 pm:Receiving a owl:Class ;
     rdfs:label "Empfangen"@de,
@@ -15784,6 +16033,18 @@ pmp:HathaPranayama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
+pmp:ImbasForosnai a pm:Practicing ;
+    rdfs:label "Imbas forosnai, das erleuchtende Wissen"@de,
+        "Imbas forosnai, the knowledge that illumines"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, Irish text in Whitley Stokes, Three Irish Glossaries (London: Williams and Norgate, 1862), p. 25, English in Sanas Chormaic: Cormac's Glossary, trans. John O'Donovan, ed. Whitley Stokes (Calcutta 1868), pp. 94-95" ;
+    skos:altLabel "himbas forosnai"@en,
+        "imbas forosnai"@en ;
+    skos:definition "The procedure the glossary sets out in order and in the present tense. The poet chews a piece of the flesh of a red pig, or of a dog, or of a cat. He puts it afterwards on the flagstone behind the door. He chants an incantation over it and offers it to idol-gods. He calls his idols to him and does not find them on the morrow. He chants incantations over his two palms and calls his idol-gods to him again, that his sleep may not be disturbed. He lays his two palms on his two cheeks and falls asleep. He is watched, so that no one may turn him over and no one disturb him, until everything he is engaged upon is revealed to him."@en ;
+    skos:note "One sentence in the sequence is read two ways by the two translators and neither reading is adopted here. Stokes has the idols brought to him, and he finds them not on the morrow. O'Donovan has him invoke his idols, and if he obtains not his desire on the day following, he pronounces incantations over both his palms. The second makes the palm-chant a second attempt after a failure and the first makes it the next step; the difference decides whether the procedure contains a built-in repetition, and the Irish as printed does not settle it here."@en,
+        "The glossary closes the entry with its own etymology, and the etymology is of the posture and not of the knowledge: therefore it is called imbas, that is, his two palms about him, a palm over and a palm from the other side upon his cheeks. A transmission that derives the name of the faculty from the position of the hands has made the posture the defining element rather than the flesh or the offering."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:InsularCeltic .
+
 pmp:TungusShamanizing a pm:Practicing ;
     rdfs:label "Das Schamanisieren"@de,
         "Shamanizing"@en ;
@@ -16115,11 +16376,6 @@ pm:Systematizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pm:searchFoundPlace a pm:SearchOutcome ;
     rdfs:label "Suche mit Fund"@de,
         "Search found a place"@en ;
@@ -16219,6 +16475,11 @@ pmt:PistisSophia a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Pistis Sophia in the Askew Codex, British Museum MS Add. 5114; ed. and trans. Carl Schmidt, Koptisch-gnostische Schriften I, GCS 13 (Leipzig 1905)" .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -16412,6 +16673,20 @@ pmt:MayaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
 
+pmt:InsularCeltic a pm:Tradition ;
+    rdfs:label "Inselkeltische Überlieferung"@de,
+        "Insular Celtic transmission"@en ;
+    dcterms:source "Sanas Cormaic s.v. Imbas forosnai, Irish text in Whitley Stokes, Three Irish Glossaries (London: Williams and Norgate, 1862), p. 25" ;
+    skos:definition "The Irish and Welsh transmission of poetic knowledge as an acquired faculty, with named divinatory procedures and the ecclesiastical prohibitions attached to them."@en ;
+    skos:note "One philological point governs every citation in this file and is stated once here. The two public-domain translations of the glossary entry render the same Irish clause differently, and the clause is the one that carries the term. The Irish of the Leabhar Breac text printed by Stokes reads cocend nómaide no a dó no a tri. Stokes renders it to the end of a nómad (?) or two or three, leaving the unit untranslated and marking it doubtful; O'Donovan renders it a minute or two or three; the editors of the Ancient Laws print a minute at the parallel place while noting in their own footnote that the reading there is corrupt and that the glossary has the right one. This holding does not decide the length of a nómad, which would need a dictionary it has not opened. It records that a unit stands there, that it is counted, and that the two renderings a reader can obtain disagree about what it is."@en,
+        "Read in the public-domain editions, 2026-09-17, and at the wording of the Irish where the Irish is printed. Sanas Cormaic s.v. Imbas forosnai: the Irish text in Whitley Stokes, Three Irish Glossaries (London: Williams and Norgate, 1862), p. 25, with Stokes's own rendering in the preface at p. xxxvi, and the English of John O'Donovan in Sanas Chormaic: Cormac's Glossary, ed. Whitley Stokes (Calcutta: O. T. Cutter, 1868), pp. 94-95. The same glossary s.v. Orc tréith, at 1868 pp. 129-130. The prologue to the Senchas Már in Ancient Laws of Ireland, vol. I (Dublin: HMSO, 1865), pp. 24-25 and 44-45 with the editors' notes there. The instance of imbas forosnai from the version of the Senchas Már in the vellum codex H. 3. 18, printed and translated by Kuno Meyer, Finn and the Man in the Tree, Revue Celtique 25 (1904), pp. 344-349. The glám dícenn at Mittelirische Verslehren III, section 155, in Rudolf Thurneysen's edition, Irische Texte III/1 (Leipzig 1891), pp. 96-97, with his German at pp. 124-125, and the same passage from the Book of Ballymote in Whitley Stokes, The Second Battle of Moytura, Revue Celtique 12 (1891), pp. 119-121. The triad at Kuno Meyer, The Triads of Ireland (Dublin: Hodges and Figgis, 1906), sections 123, pp. 16-17. Giraldus Cambrensis, Descriptio Kambriae I.16, in the English of Thomas Wright, The Historical Works of Giraldus Cambrensis (London: Bohn, 1863), pp. 501-502."@en,
+        "The contact route is moved from disputed to documented, and the move is a finding of this reading rather than a tidying. Everything entered here reaches us inside a Christian Latin frame that the sources do not conceal: the glossary is an etymological work in the Isidorean manner, the law text is a prologue written to place the native law under a Christian settlement, and the prohibition of two of the three procedures is attributed in both to Patrick by name. A route between this transmission and the Christian material this holding already carries is therefore not merely plausible but present in the witnesses themselves. Agreement with that material counts as reception. What the move does not decide is the age of what the frame carries, and nothing here is entered as pre-Christian."@en,
+        "The prohibitions are in the same manuscripts as the procedures, so procedure and counter-testimony arrive together."@en,
+        "What was not read, and it is the larger part. The standard critical edition of the glossary, Kuno Meyer's Sanas Cormaic in Anecdota from Irish Manuscripts IV (Halle 1912), which alone prints the longer recension of the Yellow Book of Lecan, is not digitally available and was not obtained; that search stands at pmp:CelticCriticalEditionSearch. Uraicecht na Ríar, Bretha Nemed in either recension, and the Corpus Iuris Hibernici are in print only and were not opened, so the legal grading of the poets is here only as the law prologue and the verse tracts give it. The immrama and the Book of Taliesin, both named in the registration as principal corpus, were not opened: the one available public-domain translation of the Taliesin poems is judged unusable by the field and would have supplied words without warrant."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "The legal and glossarial material on imbas forosnai, teinm laída and díchetal do chennaib; the immrama; the Book of Taliesin" .
+
 pmt:Midewiwin a pm:Tradition ;
     rdfs:label "Midewiwin"@de,
         "Midewiwin"@en ;
@@ -16436,6 +16711,11 @@ pmt:Yangsheng a pm:Tradition ;
     pm:contactRoute pm:contactRouteAbsent ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Mawangdui manuscripts, including Daoyin tu and Quegu shiqi; the Zhangjiashan Yinshu; Huangting jing" .
+
+pm:contactRouteDisputed a pm:ContactRoute ;
+    rdfs:label "Kontaktweg strittig"@de,
+        "Contact route disputed"@en ;
+    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
 pmt:ChineseDivination a pm:Tradition ;
     rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
@@ -16486,11 +16766,6 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Vijñānabhairava; Mālinīvijayottaratantra; Abhinavagupta, Tantrāloka and Tantrasāra; Kulārṇava Tantra; Kālikāpurāṇa; Mahānirvāṇa Tantra; Pūrṇānanda, Ṣaṭcakranirūpaṇa" .
-
-pm:contactRouteDisputed a pm:ContactRoute ;
-    rdfs:label "Kontaktweg strittig"@de,
-        "Contact route disputed"@en ;
-    skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
@@ -16735,6 +17010,11 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
         "Searching"@en ;
@@ -16743,11 +17023,6 @@ pm:Searching a owl:Class ;
     skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
         "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
         "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
@@ -16758,15 +17033,15 @@ pmt:Enochic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
