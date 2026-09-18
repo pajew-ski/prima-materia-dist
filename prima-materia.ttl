@@ -89,6 +89,7 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         "The date, and not either party, decides whether the operation may be done"@en ;
     skos:note "A counter-doctrine was found on 2026-09-11 and is recorded here rather than in a file of its own, because it bounds this statement without refuting it. The internal alchemy denies the binding in the stream where the binding is otherwise general: the thirteenth quatrain of the Jindan sizi holds that the fire phases use no hour and that the winter solstice is not at zi, and its commentary adds that one may not be bound to the four seasons. That is not a transmission that binds an operation to a calendar and would have to say where the failure lies; it is a transmission that refuses to bind and puts the condition in the practitioner. The statement above is about the first kind and this is the second, so the antecedent is not met — but a stream that contains both is a reminder that the class is not a property of a culture. What makes the case sharp is that the same corpus holds both positions: the Zhong-Lü chuandao ji binds throughout and makes ignorance of the times a sufficient cause of total failure, and the Wuzhen pian does both within one juan of one recension. See pmc:NeidanHuohouDispute."@en,
         "A fourth witness was added on 2026-09-11 from the Zhen'gao, and it does not merely repeat the others. Its prohibited days are given with the reckoning behind them, the woman's palace in shen and the man's in yin standing in mutual punishment, so the condition is located in the date and in the relation of the two signs and in neither party; and the passage adds that the person does not notice the harm while the body has already been damaged, which places the failure beyond the reach of either party's report as well. That is the statement above in its strongest available form."@en,
+        "A seventh witness was added on 2026-09-18, and it tests the statement rather than repeating it. The demotic manual of London and Leiden binds nine of its operations to a time — a half-month of the moon from the fourth day to the fifteenth, the fifteenth day when the moon fills the uzat, the third and the fourteenth of the lunar month, midday, the seventh hour of the day, the third hour of the evening, the moment of the sun rising entire, a named constellation, and the moon in Leo — and the condition is in every case the date and never a state of either party, which is the first half of the statement. The second half it does not supply: it states no consequence for acting outside any of the nine windows. The witness therefore confirms the antecedent nine times over and leaves the consequent unattested, which is worth entering because the statement is a conditional and a case that meets the antecedent without meeting the consequent is where it would break. It does not break here — the statement claims only that where such a consequence is stated it lies in the time — but the case shows how much of the class is silent."@en,
         "Both new witnesses carry the first clause and neither carries the second, so they change the count and not the balance: the handbook names the day and the quarter and says nothing about what befalls an act done outside them, and the Herbarium does the same. The holding therefore has four witnesses for how the condition is stated and two for where the failure is located, and the second clause still rests on the Chinese material alone."@en,
         "Falsified by a transmission of this kind whose earliest witness names a compensating act — a substitute rite, a correction, a second attempt — that restores the effect for an operation performed outside the window, or one that makes the window itself depend on a state of the operator, since either would put the decision back into a party's hands. Weakened, without being refuted, if the windows of two such transmissions turn out to be derived from one another rather than arrived at separately; the two here are both Chinese and a route between them is not excluded, which is why the statement claims a recurring form and not an independent attestation."@en,
         "It narrows the statement and does not refute it, and the difference is worth being exact about. The chapter does not say that an operation performed outside its window works; it says that a man of this attainment no longer chooses days at all, which is a claim about who stands under the rule. Had it said that the practice takes effect in the hours of dead qi for such a man, the first clause would be gone."@en,
@@ -105,6 +106,7 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:EuropeanFolkMagicAsterionPresupposesFenster,
         pmc:EuropeanFolkMagicMondfenster,
+        pmc:PdmHoraEtLuna,
         pmc:SanjiLiuxiong,
         pmc:ShangqingJinri,
         pmc:ShengqiSiqi,
@@ -862,16 +864,6 @@ pmc:ChukcheeColdWaterEndsInspiration a pm:Conceptualizing ;
         "The recorder marks his own distance at this one place: he was told this, where the surrounding paragraphs report what he saw. The node keeps the difference rather than levelling it into the rest of the account."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
-pmc:CinqJoursAvantDePresumer a pm:Conceptualizing ;
-    rdfs:label "Fünf Tage, bevor auf Unwirksamkeit geschlossen wird"@de,
-        "Five days before presuming that it does not act"@en ;
-    dcterms:source "J. P. F. Deleuze, Practical Instruction in Animal Magnetism, trans. Thomas C. Hartshorn, revised ed. (New York: D. Appleton & Co., 1843), chap. III, p. 42" ;
-    skos:definition "Patients on whom the operation does not act exist but are said to be very rare; it is less rare that the communication cannot be established until after several sittings, whence one cannot presume that it does not act until after a trial of five days. To found the presumption even after that lapse of time it is not enough that the patient has felt nothing: it is to be considered whether he has experienced no change in his condition, whether he does not find himself better, and whether his disease is not rendered worse by pursuing the ordinary course."@en ;
-    skos:note "A stopping rule with a number, stated in the chapter on effects and their indications, and the second sentence takes it back in the same paragraph. The number would make the claim due on the sixth day; the qualification replaces the criterion of sensation with a criterion of condition, which the same chapter says may improve without any sensation at all. What is left is a term after which the operator is to consult a sign the transmission has already declared unnecessary."@en,
-        "It is nonetheless a real rule and the reason this file exists: it names a term, and a term can be kept. Anyone holding a register of five-day trials with the patients' own reports of change could settle what the passage asserts, and the register is what the transmission never keeps."@en ;
-    pm:falsifiedBy "A recorded series of five-day trials, carried by operators conforming to the conditions this work sets, in which the proportion of patients reporting either sensation or a change in condition does not exceed the proportion among matched patients given the same attendance without the passes. The claim is that the trial establishes something about the agent, so an outcome indistinguishable from attendance alone falls due against it."@en ;
-    pm:withinTradition pmt:Mesmerism .
-
 pmc:CinwadPuhl a pm:Conceptualizing ;
     rdfs:label "Die Činwad-Brücke"@de,
         "The Chinvat bridge"@en ;
@@ -910,15 +902,6 @@ pmc:CizhongIntervalDispute a pm:Disputing ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:CizhongWuzang ;
     pm:withinTradition pmt:ChineseMedicalCanon .
-
-pmc:ClaviculaGradusConiurationum a pm:Conceptualizing ;
-    rdfs:label "Die gestuften Beschwörungen, jede betreten, weil die vorige nichts hervorbrachte"@de,
-        "The graded conjurations, each entered because the last produced nothing"@en ;
-    dcterms:source "Clavicula Salomonis, Book I chapters V, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
-    skos:definition "The book sets its conjurations in a series and makes the trigger of each the failure of the one before. If they then immediately appear, it is well; if not, the master uncovers the pentacles. If they do not yet appear, he strikes the air with the knife and repeats a stronger conjuration. This he says facing east, and if they appear not he repeats it to the south, the west and the north, four times in all. If they appear not even then, he signs the foreheads of his companions with Tau and says a further one. If they appear not yet, he is told not to lose courage, for there is nothing in the world stronger to overawe the spirits than constancy; he re-examines and reforms the circle, casts dust to the four quarters, kneels, and conjures again. The last conjuration is declared to be of such efficacy that even spirits bound with chains of iron and fire could not delay to come."@en ;
-    skos:note "The series has no term at which the operator is told to stop. Non-appearance never counts as an outcome of the procedure; it is the instruction to proceed to the next stage, and the stages run out into a curse and a burning of names which, the text says, brings them assuredly and in great haste. A transmission built this way cannot register a failed run, because a run is not over until it has succeeded."@en ;
-    pm:fromWork pmw:ClaviculaSalomonis ;
-    pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClaviculaNovemDies a pm:Presupposing ;
     rdfs:label "Neun Tage Enthaltung vor dem Kreis, davon die letzten drei ein Fasten"@de,
@@ -2606,17 +2589,6 @@ pmc:HuacaAsAddressedPower a pm:Conceptualizing ;
     skos:definition "What is addressed falls into two kinds. The fixed, which cannot be taken away because they do not move: the sun, the moon, the Pleiades, the lightning, the sea, the earth, springs, rivers, snow peaks, high hills and certain very large stones, and the pacarina, the place each lineage says it came out of. And the movable, which are the ordinary huacas of a place: mostly stone, mostly without a figure, each with its own name, each belonging to a lineage, each with its own priests. Beside them stand the malquis, the bones or whole bodies of the ancestors, held to be children of the huacas and given the same offerings; and the conopas, held in each house and inherited by the eldest son, which are the same worship made private."@en ;
     skos:note "The division is the recorder's and it is his working distinction as an extirpator: the movable ones could be seized and burned and the fixed ones had to be taken out of the heart instead. It is entered because it is also a real division in the practice — a lineage huaca is public and a conopa is secret — and not because his purpose was neutral."@en ;
     pm:withinTradition pmt:Andean .
-
-pmc:HuitJoursConsecutifs a pm:Conceptualizing ;
-    rdfs:label "Acht aufeinanderfolgende Tage, und was das Urteil dann entscheiden darf"@de,
-        "Eight consecutive days, and what the judgment may then decide"@en ;
-    dcterms:source "A. Teste, A Practical Manual of Animal Magnetism, trans. D. Spillan (London: H. Bailliere, 1843), chap. VI, Of the Number and the Hour of the Sittings, pp. 171-172" ;
-    skos:definition "From a second work of the tradition. It rarely happens that the magnetic sleep is produced at the first sitting, and the first effects are often so little marked that they pass unnoticed, which is no reason to conclude the subject incapable of entering somnambulism. The operator is to begin again the following day, then the day after, then eight days consecutively, and only then will he be able to form a definitive judgment. Each sitting ought to last twenty minutes at least, and the experiments are to be made every day at the same hour."@en ;
-    skos:note "It stands beside pmc:TroisOuQuatreSeances and pmc:PresqueUnMois as a third witness inside one tradition for the same structure, and it is the strongest of the three because it is the most explicit. Whether the three together can carry a generalization of their own is the open question named in the pull request that entered this file; they are three nodes from two works of one transmission, which is thin for the class, and the second witness a generalization would need is being sought in prima-materia#708."@en,
-        "Only this section of the work was read. The volume carries a large catalogue of claimed capacities in its chapter on lucid somnambulism, with named witnesses per sitting, and none of it was opened here."@en,
-        "The sharpest stopping rule the tradition produced, and it is sharper than the four in Deleuze because it names both a count and what the count settles. What it settles, however, is stated in the same sentence and is the whole finding: the judgment should involve only one single fact — the degree of the operator's magnetic power, or of his complete want of power relatively to such a person. Eight days of nothing therefore establish something about this operator with this subject, and nothing whatever about the agent."@en,
-        "Two clauses in the same pages keep even that from being reached. The operator is warned on every occasion against allowing himself to be discouraged by one or two failures, and especially against betraying any sign of the discouragement, since that would deprive him of the confidence others might have in him. And the beginner is instructed, as emphatically as the author can put it, to attempt his experiments first only on persons who present favourable conditions for succeeding, or he will yield to discouragement and be stopped on his way. A rule that counts to eight, then reads the result as a fact about the operator, and is applied only to subjects selected in advance for their likelihood of success, cannot return a negative that means anything."@en ;
-    pm:withinTradition pmt:Mesmerism .
 
 pmc:HulaRetentionPresupposesKeptVows a pm:Presupposing ;
     rdfs:label "Das Behalten der Gesänge setzt das Halten der Gelübde voraus"@de,
@@ -5001,6 +4973,110 @@ pmc:PatanjalaCapacityDurationNotStated a pm:Situating ;
     pm:situatedNode pmc:ParakayaPravesa ;
     pm:situationGround "The sūtras that carry the capacities of this chapter were read for the question and are silent on it: each names an object of saṃyama and the knowledge or entry that follows, and none says whether what follows passes or remains. The sūtra that weighs the capacities weighs them for what they are worth and not for how long they last."@en .
 
+pmc:PdmCautioAspectus a pm:Cautioning ;
+    rdfs:label "Lass ihn nirgends anders hinsehen, sonst fürchtet er sich"@de,
+        "Do not let him look elsewhere, or he is afraid"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XVII/16-20, with col. XIV/27-30, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The one instruction in the work whose breach is given a named consequence in the medium. The boy is to look towards the lamp and towards nothing else; if he does not look towards it, then he is afraid. Where that has happened the operator is to do all these things, cease from the inquiry, return, make the boy close his eyes, and recite a further invocation over him if the gods go away and the boy ceases to see them, asking that the boy not be frightened, terrified or scared and be made to return to his original path. A separate formula dismisses the god to his home at the end of a successful session, and the lamp, the vessel and the cloth are then taken off the child."@en ;
+    skos:note "The caution is about the medium and not about the operator or the god, and the harm it names is fright. It is the only place in the work where an inquiry is broken off, and the reason given is the state of the boy; a run ended this way is therefore not an inquiry that produced nothing but a boy who was not fit at that moment."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:PdmShenHbs ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmDonatoresNominati a pm:Conceptualizing ;
+    rdfs:label "Der Zusammensteller nennt, wer ihm das Verfahren gab"@de,
+        "The compiler names who gave him the procedure"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. I/1, col. VIII/12, col. XIV/1 and col. XVIII/7, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The work repeatedly says where a recipe came from, in the first person. A vessel-divination which a physician of the nome of Pemze gave to me; another vessel-inquiry which a physician in the Oxyrhynchus nome gave me; that which another man said to me; a direct inquiry by the voice of Pasash the priest of Kes, he the informant telling it. Beside the donors it cites competing copies: another roll says, as says another book, another volume saith, another says, another book gives this name instead."@en ;
+    skos:note "A compiler who marks his sources and his variants is doing in the third century what this graph does now, and the marks are the reason several of its claims can be attributed at all. Two of the four named donors are physicians, which places the divination and the medicine of the verso in the same hands and not merely in the same manuscript."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmPodagraInterrogatio a pm:Conceptualizing ;
+    rdfs:label "Du fragst den Mann drei Tage lang, ob es gehört hat"@de,
+        "You ask the man for three days whether it has hearkened"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. verso VIII/1-8, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The gout treatment of the verso sets the man down with clay under his feet, and then: you ask the man, saying, Has it hearkened? for three days. Thereafter a further course of anointing follows, with an ant cooked in oil of henna, then figs, dried grapes and potentilla pounded with wine, and the operator blows on him with his mouth."@en ;
+    skos:note "A term and a question, which is more than any inquiry in the work carries, and it is put to the patient rather than to a sign. What follows the three days is not a verdict but the next remedy, so the interval orders the treatment and does not close it. It is entered because a stated interval with a stated question is the raw material of a condition of failure, and because the work has three of them in its medical half and none in its divinatory one."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmProbatumNovies a pm:Conceptualizing ;
+    rdfs:label "Erprobt, und neunmal erprobt"@de,
+        "Tested, and tested nine times"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. IV/23, col. V/3, col. VIII/12, col. XIV/31, col. XXIV/1 and col. XXIX/1, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The work marks certain procedures as having been tried, and twice attaches a number. A question-form, tested. A method of lucky-shadows, that is tested. A direct inquiry by the voice of Pasash the priest of Kes, he tells it, saying it is tested, nine times. You do it also by vessel-inquiry alone, excellent, tried, tested nine times. Behold a form of inquiry of the sun, of which they say it is well tested. A medicament, when you wish to drug a man — tested. Elsewhere the marks are bare praise: very excellent, very good, there is nothing in the world better than it, excellent and tried."@en ;
+    skos:note "Nowhere does the work say who tried, on what question, against what afterwards, or what an unsuccessful trial would have looked like. The mark is attached to the recipe and never to an outcome, and it sits in the same manuscript as the graded compulsions that make an unsuccessful trial unrecordable. A claim of nine trials from a transmission that has no way of counting a failure is a claim about nine performances and not about nine results."@en,
+        "The editors read the phrase as a formula rather than as a count: nine times tried seems proverbial, they note, comparing the two places where it stands. That reading is theirs and is entered as theirs; what the text carries is the number, twice, at two unconnected recipes, and once as a report of what somebody else said about a third."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmResponsumPerSomnium a pm:Conceptualizing ;
+    rdfs:label "Die Antwort, die statt dessen im Schlaf kommt"@de,
+        "The answer that comes in sleep instead"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. V/6-8 and col. V/29-31, with col. verso XVII/3-4, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A second outlet the same procedures provide: after the invocation the operator lies down on a rush mat without speaking to anyone on earth, and the god makes answer to him by dream. In one recipe the two are offered as alternatives in one sentence — either the figure of a god stands behind the lamp and speaks concerning the question, or the operator lies down and the god comes to him. A separate short recipe writes a name on a rush-leaf, places it under the head, and is said both to make dreams and to send them, the sending being done by laying the leaf on the mouth of a mummy."@en ;
+    skos:note "The alternative is what makes the session hard to end empty. A god who has not appeared at the lamp has not yet failed to answer, because the sleep that follows is part of the same procedure and its outcome is reported by the sleeper the next day. This is the same construction as the graded compulsions at pmc:PdmCompulsioNonAdventus, reached by a different route."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmResponsumPresupponitPuritatem a pm:Presupposing ;
+    rdfs:label "Die Antwort setzt die Reinheit voraus"@de,
+        "The answer presupposes purity"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XVII/26, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:note "Entered at stated necessity because the source states the failure in the same clause as the requirement and in the plainest available form: it does not succeed. This is the rare case in this graph where a general condition is given a general consequence rather than being left to be read off a recipe."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "If it be that you do not apply purity to it, it does not succeed; its chief matter is purity."@en ;
+    pm:dependentStep pmc:PdmResponsumVerum ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:PdmPuritas ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmShenHnePresupponitPuerum a pm:Presupposing ;
+    rdfs:label "Die Gefäßbefragung mit Medium setzt den unberührten und geprüften Knaben voraus"@de,
+        "The vessel-inquiry with a medium presupposes the untouched and tested boy"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. III/10-15 and col. X/14-15, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:note "Entered at prescribed order and not higher, deliberately. The work says who is to be brought and it says that the child must have been tested in his ears beforehand, but it nowhere says what happens if an untested or an unchaste boy is used; the nearest thing to a consequence is the grading of the test itself, which says that a boy whose left ear speaks is bad, and that is the outcome of the test and not of skipping it. The distinction is the one SPEC §17 keeps between an order and a necessity, and it is the commonest way a modern reading acquires a warrant the text does not give."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:PdmShenHne ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:PdmPuerIntactus ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmShenHneYieldsResponsum a pm:Yielding ;
+    rdfs:label "Die Gefäßbefragung bringt den Gott zum Antworten"@de,
+        "The vessel-inquiry brings the god in to answer"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. II/24-III/5, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:note "Entered as the claim of the transmission and not as a result. What makes the pairing worth a node of its own is that the claimed effect is an event in one person's visual field, reported by that person, and that the person is chosen and graded by the operator before the session."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:PdmShenHne ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri ;
+    pm:yieldsCapacity pmc:PdmResponsumVerum .
+
+pmc:PdmSignaAdventus a pm:Conceptualizing ;
+    rdfs:label "Was dem Knaben vorher angesagt wird, dass er es sehen werde"@de,
+        "What the boy is told beforehand that he will see"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. II/1-3 and II/24-27, col. VI/6, col. XIV/24-25, col. XVII/12-15, col. XIX/25-32 and col. XXVII/16-19, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The signs announced in advance, in the order in which the recipes expect them. The light appears and grows in the flame of the lamp; the boy says I see the light; Anubis comes in and takes his stand; the shadow of the god appears about the lamp; the gods are brought in, seated at a table, and eat and drink; the god who will answer stands up and tells his name; and in the variant done alone, the operator sees the god behind him while standing or lying down. In one recipe the boy is first asked what he sees and answers that he sees a darkness, and is then told the sentence he is to say next."@en ;
+    skos:note "Entered under the separate count SPEC §15 requires for signs of success. Every one of them is told to the medium before the session by the person who will afterwards ask him whether it happened, and in the darkness-answer the text supplies the boy's next line as well. Read as evidence they can only confirm; the reason they are here is that a transmission which announces its signs in advance, in this detail, is itself a finding about the transmission."@en,
+        "The count for this work, which is the point of keeping the two apart. Seven or eight announced signs of arrival against the conditions of failure listed at pmc:PdmCompulsioNonAdventus, of which not one is a verdict on the operation. The two procedures in this file that do state a verdict on both sides — the pregnancy test and the assay of the stone — are the two that have nothing to do with an apparition."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmVirtutesCeterae a pm:Conceptualizing ;
+    rdfs:label "Die weiteren Vermögen, die der Papyrus beansprucht"@de,
+        "The further capacities the papyrus claims"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XI, col. XIII, col. XV/24-31, col. XIX-XX, col. XXIII/1-20, col. XXIV, and col. verso V, VIII-X, XV, XVII, XX, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "Beside the inquiries the work claims, each with its own recipe: to obtain praise, love and reverence before every man, and before a king and his host; to avert the anger of a superior who will not parley; to see the bark of Phre; to make the moon or a god in the moon appear and speak; to see the shadow of every god and every goddess; to put the heart of a woman after a man and to separate a man and a woman; to bring a woman at once by a ring laid on a lighted lamp; to blind, to send a skin disease that shall not be healed, to make a man sleep for two days, and to kill; to heal the bite of a dog, a sting, poison in the heart, a bone in the throat, gout, water in the ear, ophthalmia and fever; to save a ship about to founder; and to know whether a woman will conceive."@en ;
+    skos:note "Listed in one node and not split, because the individual recipes are the material of a later run and the list itself is the finding: the same manual that carries the divination carries the poisons, the erotica and the medicine, and the editors' own table of contents sets them side by side under six headings. What that means for this graph is that the boundary between a procedure that claims an apparition and one that claims a physiological effect is not a boundary the transmission draws."@en,
+        "Two of them are separated out below because they state both sides of a criterion, which almost nothing else in the work does: the pregnancy test at pmc:PdmProbatioGraviditatis and the assay of the stone at pmc:PdmProbatioLapidis."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
 pmc:PenemueTeachesBitterAndSweet a pm:Attributing ;
     rdfs:label "Penemue offenbart bitter und süß"@de,
         "Penemue discloses bitter and sweet"@en ;
@@ -5042,6 +5118,7 @@ pmc:PgmIvIdentitasAstri a pm:Conceptualizing ;
     skos:definition "The second utterance, said after silence and before the disk expands: that the speaker is a star whose course runs with the course of those addressed, shining anew out of the depth."@en ;
     skos:note "A bare statement of what the speaker is, addressed to powers, with no request attached. It is the same shape as the ophite speeches without their closing petition, and it stands in a corpus with a documented route to that one rather than at a distance from it — so it is a second occurrence and not a second witness."@en,
         "The claim is of kinship in motion and not in rank: the course is the same course. Whether that is what the ophite speaker means when he names the symbol he already bears is exactly the question this file cannot settle, and it is why the two are held apart."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvImmortalitasHorae a pm:Conceptualizing ;
@@ -5051,6 +5128,7 @@ pmc:PgmIvImmortalitasHorae a pm:Conceptualizing ;
     skos:definition "The capacity claimed: that the operator, one out of so many tens of thousands, is transformed to immortality in this same hour; that his human soul-power subsists for a little while in purity and will afterwards be transmitted back to him; and, in the closing salutation, that being born again he passes away in being made great, and having been made great he dies."@en ;
     skos:note "The last sentence is not a flourish. Being made great and dying are put in sequence and the second follows from the first, which places the death inside the attainment rather than after it."@en,
         "The promise carries its own term, and the term is short. A rite that says the state lasts an hour and then returns the operator to his necessity is making a smaller claim than the ascents this graph holds elsewhere, and a more checkable one: it says the practitioner will be back."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvSalutatioNominatim a pm:Conceptualizing ;
@@ -5062,6 +5140,7 @@ pmc:PgmIvSalutatioNominatim a pm:Conceptualizing ;
         "This is the nearest thing in the corpus to a gate formula that names its keeper. The requirement is explicit — each is to be greeted with the name proper to it — and the order is fixed, so what is transmitted is a sequence of fourteen names in two ranks, not an invocation that could be paraphrased. In the translation read first, all fourteen stand as obeli; they are in the edition."@en,
         "Whether the names belong to the rite is the question the edition itself raises and does not close. Its editor holds that names must have stood in exactly these two places, which is a reconstruction from the shape of the passage rather than a mark in the manuscript, and he holds most other barbarous names in the piece to be interchangeable stock. One of the fourteen is read as Egyptian and as certainly belonging to the received text; that is the only one of them with an argument attached."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvSignaSuccessus a pm:Conceptualizing ;
@@ -5071,6 +5150,7 @@ pmc:PgmIvSignaSuccessus a pm:Conceptualizing ;
     skos:definition "The sequence of announced sights, each given before the stage at which it is to occur: the disposition of the gods, some ascending and some descending; the pipe depending from the disk from which the wind comes; the gods bearing down and then desisting; a thunder-clap that startles; the disk expanding; a host of five-pointed stars filling the air; an infinite encircling with doors of fire fast closed; the doors thrown open; a god with locks of flame in a white tunic and scarlet mantle; seven virgins with serpent faces and golden sceptres; seven gods with the faces of black bulls; and a descending god holding the golden shoulder of the calf."@en ;
     skos:note "Held as one node and kept apart from anything that could be tested, for the reason SPEC §15 gives: these are signs of success, they are told to the operator in advance, and there is no base rate for a sight nobody measures without the telling. A corpus this rich in announced sights and this empty of stated failures is itself the finding."@en,
         "The second half of that finding is withdrawn. This node said until 2026-09-09 that the rite carries no condition of failure at all, and that was a statement about the translation that had been read, not about the text: Mead breaks off with the liturgy, and the forfeiture clause stands in the magical appendix that follows it in the papyrus. What holds is the imbalance, and it is large — a dozen announced sights against one clause. What does not hold is the zero. See pmc:PgmIvTerInAnno and prima-materia#643."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvSilentiumAvertit a pm:Conceptualizing ;
@@ -5079,6 +5159,7 @@ pmc:PgmIvSilentiumAvertit a pm:Conceptualizing ;
     dcterms:source "PGM IV.475-829, first utterance (trans. G. R. S. Mead, London 1907)" ;
     skos:definition "The exchange at the first threshold: the operator sees the gods gazing intently at him and bearing down upon him, lays his right finger on his lips and says Silence three times, calling silence the symbol of the living god beyond decay and asking it to protect him, then hisses long and puffs; whereupon the gods are said to gaze benignly and to bear down no longer, going about their proper order of doings."@en ;
     skos:note "A formula with an announced effect on a hostile power, and the effect is not passage but the withdrawal of pressure. The gods are not opened, moved or persuaded: they return to their own business. Beside the ophite gates, where a speech obtains a passage, this is a smaller and more precise claim."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvSpiritusYieldsSublatio a pm:Yielding ;
@@ -5088,6 +5169,7 @@ pmc:PgmIvSpiritusYieldsSublatio a pm:Yielding ;
     skos:note "The pairing is as tight as this graph holds anywhere: a named bodily act, a stated count, and an outcome that arrives in the same hour. What it still lacks is the other half — the text nowhere says what the operator sees or fails to see if it does not work."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:PgmIvSpiritusTractus ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri ;
     pm:yieldsCapacity pmc:PgmIvSublatio .
 
@@ -5098,6 +5180,7 @@ pmc:PgmIvVocesSepties a pm:Conceptualizing ;
     skos:definition "The one chain of vowels the translation prints in full, invoked as the deathless names innate with life which have not yet descended to mortal nature nor been made articulate by human tongue, with the instruction to utter them all with fire and spirit once to the end and then begin again, until the seven immortal gods of the cosmos are completed."@en ;
     skos:note "A dose and a stopping rule, which is rare. The chain is not said once but run through until a count of seven is reached, and the count is given by the gods rather than by the operator; the announced consequence is thunder and crashing in the surround, felt in the body at every crash."@en,
         "The claim the words make about themselves is worth separating from their use. They are called names that have not yet come down to mortal nature and have never been made articulate by a human tongue — that is, the text asserts that what it prints cannot be what is meant. Any comparison of these syllables with the chains of the Jeu material or of the Pistis Sophia runs into that before it runs into the transliterations. See prima-materia#607."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvVocesSineLege a pm:Conceptualizing ;
@@ -5109,6 +5192,7 @@ pmc:PgmIvVocesSineLege a pm:Conceptualizing ;
         "The contrast is what makes this worth a node. Where a comparable arrangement is inscribed for the seven archangels of the planets in a theatre in Asia Minor, the rule is trivial and visible at a glance: the leading vowel of each row moves to the end of the next. The chain in this papyrus does not do that, and it does not do anything else that has been found. Either it is corrupt, or its rule is not positional, or there is none and the sequence is the point."@en,
         "The recitation carries a manner as well as a count: the whole is to be said with fire and with breath, run through to the end and begun again until the seven are completed. The prescribed non-verbal sounds sit in the same layer — a long hiss and a clucking of the lips — and are reported by the edition as an old stratum of address, attested for lightning in fifth-century Athens and for calling snakes, not as an invention of the magicians."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PingrenJuegu a pm:Conceptualizing ;
@@ -6599,6 +6683,26 @@ pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
 
+pmc:TheStrongerAddress a pm:Generalizing ;
+    rdfs:label "Wo das Ergebnis eine Erscheinung ist, gibt es keinen Punkt zum Aufhören"@de,
+        "Where the result is an apparition, there is no point at which to stop"@en ;
+    skos:note "Counter-search against the compiled holding, carried before this was written. Every node whose wording prescribes what to do when a promised result does not arrive was drawn and read at its place, and the terms searched over the holding were cease, desist, abandon, stop, leave off, give up, in vain, definitive judgment, does not come and never comes. No transmission of the first kind was found that names a term. Three near-misses came back and none of them meets the antecedent."@en,
+        "Falsified by a transmission that makes the appearance of a being its result and states a term, a count of addresses or a sign at which the operator is to conclude that nothing will come — a grimoire that sends the company home at dawn, a manual that gives the inquiry three attempts and no more. One such case refutes the first clause as stated. Falsified in the other direction by a transmission whose result is a reported change in a second person and which prescribes, in place of any term, a stronger address repeated without limit. The likeliest places to look for the first are the transmissions this holding carries that already fix an operation to an hour or a day, since a bounded hour is the nearest thing to a bounded session: the demotic manual itself carries nine such datings at pmc:PdmHoraEtLuna and states no consequence for any of them."@en,
+        "The near-misses, because each of them looks at first like a refutation. The Ars Notoria states a term of one month and an outcome due at the end of it, but its result is knowledge in the operator and not the appearance of anything, so it belongs to neither column; the protocol on it stands at examinations/notory-art-one-month.ttl. The Shangqing sun held in the heart names one year, five years and eighteen years, and what is due at the term is a property of the practitioner's own body in daylight, which is again a third kind. And the ascent ritual of the Greek papyrus carries a forfeiture clause — three times in the year, and no longer coming about for whoever disregards the instruction after it has been given — which is a rule about who may have it and not a rule about a session that produced nothing; the same piece prescribes nothing at all for a non-appearance in either direction, and that silence is recorded as its own search rather than counted here."@en,
+        "The route between the two witnesses of the first clause is not clean and is stated rather than passed over. The demotic manual of the third century and the Latin grimoire of the late Middle Ages stand in one stream: the Greek and demotic handbooks of Egypt, the Byzantine Hygromanteia and the Latin Clavicula are connected by a transmission history that this holding does not claim to have established but does not pretend is absent either, and the tradition instance of the grimoire carries pm:contactRouteDocumented. Two witnesses on one cable is the floor of SPEC §16 and no more than the floor. The three witnesses of the second clause stand in a nineteenth-century European medical polemic with no proposed route to either, so the division the statement asserts runs across a contact route and not along one, and that is what makes the division worth stating at all."@en,
+        "The three witnesses of the second clause, all from the animal magnetism and two of its works. Five days before one may presume that the operation does not act, and then a second criterion to consult. Three or four sittings of nervous irritation, after which one may presume that the operation is not good for this patient and ought not to persist. Eight consecutive days of twenty minutes at the same hour, after which the operator will be able to form a definitive judgment. All three name a count; all three say what the count settles; and what it settles in every case is something about this operator or this pairing and never about the agent, which is the finding those three nodes already carry."@en,
+        "The two witnesses of the first clause and what each does with an empty session. The demotic manual takes it up in six places and every one of them prescribes speech: the boy who does not see the light is made to close his eyes and called to again; obduracy is met by the summons, which is the god's compulsion; obstinacy with the god unseen is met by the compulsion; a god who delays so as not to come in is met by a further cry; a light that has not come forth is met by having the boy address the lamp himself; a light slow to come within is met by a name said seven times, incense, and a great name uttered forwards and backwards; and gods who are inside and give no answer are met by another name said nine times until they inquire truthfully. The Latin grimoire sets its conjurations in a series and makes the trigger of each the failure of the one before, running through the four quarters, the signing of the foreheads, the re-forming of the circle and a final conjuration declared strong enough that spirits bound with chains of iron and fire could not delay to come."@en,
+        "Untested. No pm:Testing points here, which is the state and not an omission. What a protocol would have to do first is fix the population, and the hard part is the second column: this holding carries exactly one transmission in it, so the clause is at present a statement about the animal magnetism wearing the grammar of a class. A second transmission whose result is a reported change in a second person would settle whether there is a division here or only a contrast between two files."@en,
+        "What the statement does not claim. It does not say that the transmissions of the second column abide by their terms, and the three witnesses show they largely do not: the five-day rule replaces its own criterion in the following sentence, the three-or-four-sittings rule prescribes trying two or three further operators, and the eight-day rule is to be applied only to subjects selected beforehand for their likelihood of succeeding. What the second clause claims is that the term is stated, which is a property of the wording; the first clause claims that in the other column it is not stated at all, and that is the asymmetry."@en,
+        "What the two have in common beyond the escalation is the absence, and the absence is the half that does the work. Neither names a number of addresses after which the operator is to stop, neither names a sign that the being will not come, and neither gives the session a length. A run is therefore not over until it has succeeded, which is why no run can be counted as having failed."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CinqJoursAvantDePresumer,
+        pmc:ClaviculaGradusConiurationum,
+        pmc:HuitJoursConsecutifs,
+        pmc:PdmCompulsioNonAdventus,
+        pmc:TroisOuQuatreSeances ;
+    pm:generalizedStatement "Where a transmission makes the appearance of a being the result of its operation, it meets a non-appearance with a further and stronger address of the same kind and states no term, count or sign at which the operator is to conclude that nothing will come; where a transmission instead makes its result a change in the condition of a second person which that person reports, it states such a term, gives it as a count of sittings or of days, and names what the term settles."@en .
+
 pmc:TheTestOfAPersonIsRefused a pm:Generalizing ;
     rdfs:label "Wo das Vermögen in einer Person liegt, ist seine absichtliche Prüfung verboten"@de,
         "Where the capacity is in a person, the deliberate test of it is forbidden"@en ;
@@ -6813,15 +6917,6 @@ pmc:TroisIssuesALaPremiereQuestion a pm:Conceptualizing ;
     skos:note "Its weakness is that the amnesia is asked for after the operator has spent the sitting telling the patient what to expect, and the same chapter has the operator forbid the somnambulist, while in the state, to meddle after waking with what he has said. A criterion of amnesia administered by the person who instructed the subject to forget is not a criterion. The transmission states both halves and does not connect them."@en,
         "The one discriminating test the work contains, and the only sign of the state anywhere in it that somebody other than the operator could read. Its criterion is not the answering but the amnesia afterwards, which is a report the patient makes in the ordinary state and which a second person in the room can take down. Everything else in this file is certified either by the operator's own perception or by the subject while in the state whose reality is at issue."@en ;
     pm:falsifiedBy "A recorded series in which subjects who answer without waking are, after waking, as able to recall what was said to them as subjects given the same instructions and the same expectation without the passes; or in which the recall differs according to whether the operator had told the subject, during the state, not to occupy himself with it afterwards. The claim is that the absence of recollection establishes the reality of the state, so either outcome falls due against it."@en ;
-    pm:withinTradition pmt:Mesmerism .
-
-pmc:TroisOuQuatreSeances a pm:Conceptualizing ;
-    rdfs:label "Drei oder vier Sitzungen mit Reizung, dann aufhören"@de,
-        "Three or four sittings of irritation, then stop"@en ;
-    dcterms:source "J. P. F. Deleuze, Practical Instruction in Animal Magnetism, trans. Thomas C. Hartshorn, revised ed. (New York: D. Appleton & Co., 1843), chap. III, pp. 50-51" ;
-    skos:definition "Where the operation produces in a patient a nervous irritation that leaves him uneasy after the sittings, the most soothing action is to be used and the operator is to act from a distance. If after three or four sittings the same effect takes place, one may presume that the operation is not good for this patient, or that the fluid of this operator does not agree with him, and one ought not to persist in it. One might merely try, two or three times, other operators."@en ;
-    skos:note "That structure is what generalizations/counted-thresholds.ttl describes from three Chinese claims, arrived at here independently in a French work of 1825, and it widens that generalization beyond the stream it was formed in. The widening is recorded on this node rather than by editing the generalization, because its stated scope is a count at which an effect is to take effect and this is a count after which absence of effect is to be acted on. The two are mirror images and a later reader should decide whether they belong under one statement."@en,
-        "The cleanest stopping rule in the work: a count, an outcome to look for, and an instruction to desist. It is also the clearest case in this holding of a rule that names a count and assigns the shortfall away from the operation — the presumption offered is that the agent is not good for this patient or that this pairing does not suit, never that the agent does nothing. And the last sentence prescribes continuation with two or three further operators, so the count is reached and the trial goes on."@en ;
     pm:withinTradition pmt:Mesmerism .
 
 pmc:TroisQuartsDesMalades a pm:Conceptualizing ;
@@ -8289,12 +8384,15 @@ pmp:BothSidesOfTheCriterionExamination a pm:Testing ;
     rdfs:label "Ob das unbeherrschbare Kriterium stets seine Misslingensseite trägt"@de,
         "Whether the uncontrollable criterion always carries its failing side"@en ;
     skos:definition "A protocol on the claim that a transmission which fixes the judgement of a single performance to a physical event neither party can produce at will states what the event would have to be for the performance to have failed, and that a transmission whose criterion is an appearance announced beforehand states the succeeding side alone. The population is the set of criterion statements in the compiled holding; every node whose wording fixes an outcome of a single performance to a perceptible event was drawn and read at its place, and each was classified on two axes, whether a party to the operation could produce the event at will and whether the text states the other side."@en ;
-    skos:note "A tenth predecessor entered the claim on the day this protocol was written, from the insular Celtic satire whose stated outcome falls on the poets if the poets were in the wrong; it arrives with prima-materia#733 and is not counted among the cases above, because a witness added in the same run as the examination is not a case the examination found."@en,
+    skos:note "A second opposition to the second clause was found on 2026-09-18, in a corpus this holding had opened at one piece and not at this work, and it is harder than the first. The demotic manual of London and Leiden carries a direct inquiry ascribed to a named priest in which the two answers are bound to two distinct appearances before anything is seen: if the thing shall happen the god is to come in his form of a priest, in his figure of a servant of the temple; if it shall not come to pass, in his form of a Kalashire. The criterion is an announced appearance, which puts it in the second column; both sides are stated, in consecutive clauses, which the second clause says does not happen there; and no further attempt is prescribed that would dissolve the reading, so the escape the corrected statement above left open is not available here. See pmc:PdmRamshauFormaDuplex and pmp:PdmBothSidesSearch."@en,
+        "A tenth predecessor entered the claim on the day this protocol was written, from the insular Celtic satire whose stated outcome falls on the poets if the poets were in the wrong; it arrives with prima-materia#733 and is not counted among the cases above, because a witness added in the same run as the examination is not a case the examination found."@en,
         "Eight confirming cases beyond the seven the claim was built on, all found in the first search and all read at their places. The verdict rule of the Lower Congo ordeal names both outcomes and then names four further ways of not clearing oneself, which is more of the failing side than the claim requires. The Maya cane planted before a journey states both readings in advance and instructs the grandmother what to say in each case. The Mithraic report gives the highest initiation to the candidate who is still alive after the ordeals and an honourable burial to the one who has succumbed. The proxy dosing of the accused states what follows when none of the boys shows the signs, and what follows is not an acquittal but a fresh appointment of representatives. The reversed rule for theft and adultery states both sides of the same bark with the sides exchanged. The severed-channel prognosis of the Lingshu pairs each channel with a sign and a day. And the Sámi drum rule of sixteen seventy-four states health for the ring travelling with the sun and sickness for it travelling against."@en,
         "The corrected statement, written out here and not carried back into the node, because a claim is corrected where it is examined. Where a transmission fixes the judgement of a single performance to an event no party can produce at will, it states the other side; where the criterion is an appearance announced beforehand, it either states no other side or states one that a further attempt dissolves. What distinguishes the two columns is therefore not whether the other side is stated but whether the transmission lets a single performance settle anything, and in both columns the cases in which it does are the cases in which somebody other than the operator reads the event."@en,
         "The deviation, and it is a third thing the claim's two columns do not have room for. The assay in the fourth chapter of the Baopuzi fixes the judgement of the whole operation to a physical event: two hundred and forty zhu of the elixir joined with a hundred catties of mercury and put to the fire make gold, and where the gold forms the drug is complete. Nobody can make gold form at will, so the criterion is in the first column. The chapter then states the other side and cancels it in the same clause: where the gold does not form, the drug is to be sealed again and fired again for the same count of days, and then there is no case in which it does not form. The failing side is named and abolished, which is neither stating it nor omitting it."@en,
         "The opposition to the second clause, and it is the more interesting of the two findings because the claim asserts a silence and a silence is cheap to break. The magnetic literature announces to the operator in advance what he will perceive at the first question, and it names three outcomes and not one: the subject wakes, or he continues to sleep without answering, or he answers without waking. Of the first it says outright that somnambulism has not taken place and is not to be thought of again during that sitting. That is an announced criterion with its failing side stated, which the second clause says does not happen."@en,
+        "The same search brought two witnesses for the first clause out of the same manuscript, and they bound the finding rather than adding to it. The pregnancy test of the verso — the woman's water on a herb overnight, scorched for no conception and flourishing for conception — and the assay that tells a genuine stone by whether a little of it ground with water removes the skin are both uncontrollable criteria with both sides stated, and both stand in the medical and pharmacological half of the work. The transmission that cannot register a failed inquiry states a falsifiable prognosis three columns later, and the difference is not the culture and not the century but what kind of thing is being judged."@en,
         "Three near-misses, recorded because they bound the claim without touching it. The Sámi drum rule is given by two recorders and the later one weakens the negative side, augury of a favourable event with the sun and a doubt arising against it, so that two-sidedness can be a property of a recorder rather than of a transmission. The Shangqing account of the four men who compounded the elixir has two of them die of it and reads their death as the attainment, which is the failing side of an uncontrollable criterion being reinterpreted after the event rather than before it. And the sign of the closed breath in the eighth chapter of the Baopuzi, a goose down that does not stir, was set aside as outside the population: the operator controls his own breath, so the criterion is in neither column."@en,
+        "What survives of the second clause after it, and it is less than after the magnetic case. The corrected statement said that an announced criterion either states no other side or states one that a further attempt dissolves; this witness states one and dissolves nothing. What can still be said is narrower and is about who reads the event: the two forms appear in a vision or a dream belonging to one person, that person is the operator himself, and the manual makes no provision for the case in which neither form comes. So the criterion discriminates in its wording and is certified by the only party with an interest in it — which is the property the corrected statement identified as the real divider, arrived at here from the second column instead of the first."@en,
         "What the protocol does not establish, and it is the same limit the claim states about itself. The sample is this holding, the holding was assembled by runs that found stated criteria interesting, and a criterion stated one-sidedly is exactly the kind a compiler passes over. The state is set at cases-with-deviation and not higher for that reason: what has been shown is that within a body of material selected for its criteria, the uncontrollable ones carry their other side, and that at least one of them carries it in a form that decides nothing."@en,
         "What the same corpus does with that statement two works later is the reason the second clause survives in a narrowed form. It rarely happens, the other work says, that the magnetic sleep is produced at the first sitting, and the first effects are often so little marked that they pass unnoticed, which is no reason to conclude the subject incapable; the operator is to begin again the following day, and the day after, for eight consecutive days, and only then may he form a definitive judgment. The failing side of the first sitting is therefore stated and then made non-binding, exactly as the alchemical assay makes its own non-binding. The two findings of this protocol are the same finding, arrived at from the two halves of the claim."@en,
         "Why that is a deviation and not a refutation, stated exactly. The claim says that the transmission states what the event would have to be for the performance to have failed; this transmission does state it, in the words where the gold does not form, and then denies that the case exists. A reader of the claim would expect from those words a judgement against the operation and would not get one. The correction the protocol recommends is to split the first column in two: criteria whose failing side is a verdict, and criteria whose failing side is a repetition. This holding already carries the second shape under its own generalization about counted thresholds, and the two statements meet here."@en ;
@@ -8303,7 +8401,7 @@ pmp:BothSidesOfTheCriterionExamination a pm:Testing ;
     pm:examinationState pm:casesWithDeviation ;
     pm:examinedBy "prima-materia, 2026-09-17" ;
     pm:falsifiedBy "A transmission that fixes the judgement of a performance to an event no party can produce at will and states the succeeding side alone, with no wording for the case in which the event does not occur. That is the condition the claim names for itself. It was not met: every uncontrollable criterion read in this protocol says something about the other side, and the deviation below is that one of them says something that is not a failing verdict."@en ;
-    pm:protocolUpdated "2026-09-17" ;
+    pm:protocolUpdated "2026-09-18" ;
     pm:tests pmc:TheCriterionNoPartyControls .
 
 pmp:BrahmaviharaBhavana a pm:Practicing ;
@@ -9166,6 +9264,89 @@ pmp:PalmsAsSendingOrganSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-09-10" ;
     pm:searchedCorpus "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8; read at the wording, with the remaining nineteen juan searched by term" ;
     pm:searchedFor "A passage making the palms the place at which the qi leaves the body in an operation on another person or thing — the claim of prima-materia#314." .
+
+pmp:PdmBothSidesSearch a pm:Searching ;
+    rdfs:label "Ob das Handbuch irgendwo beide Seiten eines Kriteriums nennt"@de,
+        "Whether the manual anywhere states both sides of a criterion"@en ;
+    dcterms:date "2026-09-18" ;
+    skos:note "The one in the divinatory half is the reason this search was worth carrying. pmc:TheCriterionNoPartyControls asserts that where a criterion is an appearance announced to the participants beforehand, the transmission states the success side alone; here two distinct appearances are announced in advance and each is bound to one of the two answers before anything is seen. That is opposition to the second clause and is recorded at the protocol on it, pmp:BothSidesOfTheCriterionExamination, where a claim is corrected."@en,
+        "Three places in a manual of sixty-two columns, and their distribution is the finding. The pregnancy test and the assay of the stone are in the medical and pharmacological half of the verso, where nothing is being invoked; the third, the priest's inquiry at VIII/12-16, is in the divinatory half and is the only one there. Against those three stand the seven or eight announced signs of arrival at pmc:PdmSignaAdventus, none of which has a failing side, and the six escalations at pmc:PdmCompulsioNonAdventus, which make one impossible."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Every conditional clause of the translation was read at its place; searched additionally for: if he says, if it be that, if you find, if thou, then she will, will not, shall not come to pass, otherwise, on the contrary. Three hundred and more conditionals stand in the work and almost all of them are instructions, not readings." ;
+    pm:searchYieldedNode pmc:PdmProbatioGraviditatis,
+        pmc:PdmProbatioLapidis,
+        pmc:PdmRamshauFormaDuplex ;
+    pm:searchedBy "prima-materia, 2026-09-18" ;
+    pm:searchedCorpus "Papyrus of London and Leiden (PDM xiv), recto columns I to XXIX and verso columns I to XXXIII entire, in the translation of F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    pm:searchedFor "A passage that fixes an outcome to a perceptible event and says what the event would be in each of the two cases — the form pmc:TheCriterionNoPartyControls describes, and in particular the form its second clause says does not occur, an appearance announced to the participant beforehand that carries the failing side as well as the succeeding one." .
+
+pmp:PdmFailureConditionSearch a pm:Searching ;
+    rdfs:label "Ob das demotische Handbuch irgendeinen Ausgang nennt, der gegen eine Befragung zählte"@de,
+        "Whether the demotic manual names any outcome that would count against an inquiry"@en ;
+    dcterms:date "2026-09-18" ;
+    skos:note "It is the ground of the first clause of pmc:TheStrongerAddress, and it is recorded rather than summarised for the reason the class exists: without a node saying which terms were put and what came back, that clause would rest on an impression formed while reading, and a reader who suspects the impression would have to read the manual again."@en,
+        "Limits. One translation, one editor, one optical transcription, and a stopping rule could be phrased without any of the twenty-three terms above — as an hour at which the operator departs, say. Against that, the nine datings collected at pmc:PdmHoraEtLuna were read continuously for exactly that possibility and none of them states a consequence, and the columns that carry the graded compulsions were read in full and not only searched."@en,
+        "Nothing came back, and what came back instead is the finding. Every hit that touches an inquiry at all is an escalation or an assignment: the compulsion, the further cry, the name said nine times until they answer truthfully, and the two general assignments to purity and to the boy's fright. The one place where a session is broken off is broken off because of the medium and not because of the god. The manual takes up the empty session six times and does not once treat it as a result."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of the translation, over a whitespace-normalised copy, for: in vain, fruitless, of no effect, no effect, useless, unsuccessful, leave off, give over, give up, break off, desist (none of them occurs); fail (two hits, one inside an invocation of the speaker's own strength, one the phrase without fail); faileth (one, inside an invocation); cease (eight; the only two that touch an operation are at XVII/17, where the operator ceases from the inquiry because the boy has looked away, and the clause about the gods going away and the boy ceasing to see them); abandon (one, in the editors' introduction); stop (four, all of stopping a vessel's mouth or staunching blood); not succeed (one, the purity clause at XVII/26); delay, obduracy, obstinacy, slow to come, do not come, not come (thirteen between them, every one of which is answered by a further formula and none by an end)." ;
+    pm:searchedBy "prima-materia, 2026-09-18" ;
+    pm:searchedCorpus "Papyrus of London and Leiden (PDM xiv), recto columns I to XXIX and verso columns I to XXXIII entire, in the translation of F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    pm:searchedFor "A passage naming a result of a correctly prepared inquiry under which the operator is to conclude that it did not work: a term after which he is to stop, a number of addresses beyond which the god is not to be pressed, or a sign that nothing will come. This is the material from which a pm:falsifiedBy can be formed out of a transmission's own mouth, and the same question was put to the Clavicula at pmp:ClaviculaFailureConditionSearch." .
+
+pmp:PdmProbatioAurium a pm:Practicing ;
+    rdfs:label "Die Prüfung des Knaben an seinen Ohren"@de,
+        "The testing of the boy in his ears"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. III/16-20, with col. X/14-15, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A test carried on the boy before the vessel is used, to learn whether he will be profitable in going to the vessel. The operator recites a short formula down into the boy's head seven times, asking that he be purified in the manner of the noble ibis, falcon and hawk; then the boy's ears speak. If both ears speak he is very good; if it is his right ear, he is good; if it is his left ear, he is bad."@en ;
+    skos:note "The graded outcome is the reason this is a practice of its own and not a clause of the vessel-inquiry. A later column requires that the child brought to the vessel be one that has been tested in his ears before, so the test is a standing precondition and not a flourish of one recipe."@en,
+        "What the test measures is not the boy's accuracy about anything. No question with a knowable answer is put to him, and nothing he reports is checked against a fact; the whole of it is an event in his own body, reported by himself, in three grades, after the operator has told him what the grades are. That is worth stating because the procedure looks at first like a control and works like an initiation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmp:PdmProbatumQuidSearch a pm:Searching ;
+    rdfs:label "Ob das Handbuch sagt, worin seine neun Erprobungen bestanden"@de,
+        "Whether the manual says what its nine trials consisted in"@en ;
+    dcterms:date "2026-09-18" ;
+    skos:note "Not one of the six marks carries anything behind it. The mark is attached to the recipe and never to an outcome; no question is named, no answer is checked, and no trial is described. In one of the two numbered cases the number is not even the compiler's own — it is what he reports the informant as having said. The claim of nine trials therefore stands in a manual that pmp:PdmFailureConditionSearch shows has no way of counting an unsuccessful one."@en,
+        "The finding is entered as a search and not as a node because it is an absence in the work, and the node it bears on, pmc:PdmProbatumNovies, carries what the work does say. The distinction matters here more than usual: a reader who meets tested nine times in a translation will supply the missing half by himself unless something in the record says it is missing."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search for: tested, tried, proved, approved, tries, trial, times tried, nine times, true and tried. The six marks are at IV/23, V/3, VIII/12, XIV/31, XXIV/1 and XXIX/1; each was read at its place together with the recipe it stands over and the recipe following it. Read as well: the editors' note to VIII/12, which compares the phrase with XIV/31 and XXIX/1 and holds nine times tried to be proverbial." ;
+    pm:searchedBy "prima-materia, 2026-09-18" ;
+    pm:searchedCorpus "Papyrus of London and Leiden (PDM xiv), recto columns I to XXIX and verso columns I to XXXIII entire, in the translation of F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    pm:searchedFor "At the six places where the manual marks a procedure as tested, tried or well tested, and at the two where it gives the number nine: who carried the trials, on what question, against what the answer was afterwards set, and what an unsuccessful trial would have looked like." .
+
+pmp:PdmReworkingSearch a pm:Searching ;
+    rdfs:label "Ob der Zusammensteller sagt, was er an einem übernommenen Verfahren geändert hat"@de,
+        "Whether the compiler says what he changed in a procedure he received"@en ;
+    dcterms:date "2026-09-18" ;
+    skos:note "The compiler names his donors and sets his variants beside one another, and nowhere says that he changed anything or why one reading is preferred. The two comparative judgments the work does make are about procedures and not about versions: that this vessel-inquiry of the lamp is better than the beginning, and that there is none better than the amulet of the sixteen-thread band. Neither names what the worse one lacked."@en,
+        "The finding bears on how much a chain of copies is worth. This manual is at the near end of the demotic and Greek handbook tradition and at the far end of the grimoire stream, and it hands on procedures from at least four named persons without recording a single alteration. pm:Reworking counts the stations at which somebody took an instruction, carried it out and wrote down what was not in the exemplar; on the evidence of this work, this station is not one of them."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Every place where the work names a source or a variant was read at its wording: gave to me (I/1 and XVIII/7), said to me (XIV/1), he tells it (VIII/12), another roll says, another book says, another volume saith, another says, as says another book, otherwise said. Searched additionally for: I added, I found, I corrected, I have proved, better than, stronger than, is better." ;
+    pm:searchedBy "prima-materia, 2026-09-18" ;
+    pm:searchedCorpus "Papyrus of London and Leiden (PDM xiv), recto columns I to XXIX and verso columns I to XXXIII entire, in the translation of F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    pm:searchedFor "An addition the compiler makes to a procedure he says he received from somebody else — a term, a caution, a sign, a condition of failure that the donor's version is said not to have had. That is the material of pm:Reworking, and a manual that names four donors and cites competing rolls is the likeliest place in this holding to find it." .
+
+pmp:PdmShenPre a pm:Practicing ;
+    rdfs:label "Die Sonnenbefragung"@de,
+        "The inquiry of the sun"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XXIX/1-30, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A divination made facing the rising sun. A young pure boy is stood on a new brick at the moment the sun rises and comes up entire with the whole disk, a new mat of linen behind him and his eyes shut; the operator stands over him, recites down into his head, strikes down on his head with the Ra-finger of his right hand, and has first filled the boy's eye with a prepared paint. A variant has the boy gaze at the sun when it fills the uzat instead of at its rising, and a further variant has the operator do it alone with the paint in his own eyes and his eyes open towards the sun."@en ;
+    skos:note "The last words of the recto are the plainest statement in the work of what it holds the whole apparatus to depend on, and they are said of this procedure: its chief point is purity, and it is profitable for the boy and profitable for the operator acting alone. The same sentence therefore states the condition and says that the condition is indifferent to which of the two persons carries the perception."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmp:PdmUnctioOculorum a pm:Practicing ;
+    rdfs:label "Das Füllen der Augen, das den Knaben entbehrlich macht"@de,
+        "The filling of the eyes, which lets the operator dispense with the boy"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. V/24-31, with col. IV/23-24 and col. verso XXII/2-8, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A preparation put into the eyes so that the operator himself perceives what the boy would otherwise perceive. Several are given. The chief one is made from flowers of the Greek bean bought from the garland-seller or the lupin-seller, shut into a glass vessel in a hidden dark place for twenty days, at which point a pair of testicles with a phallus is said to be found in it, and for forty days more, at which point it is said to have become bloody; the blood is what the eyes are filled with. Others are a hawk's egg with myrrh, the head and blood of a hoopoe, and a paint of green eye-paint and stibium ground with further ingredients."@en ;
+    skos:note "It is the hinge of the whole apparatus. Wherever the papyrus offers to do an inquiry alone it offers this and nothing else in place of the boy, so the second person is replaceable by a substance while the purity, the hour, the new brick and the count are not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmp:PoisonousHandTurtleExamination a pm:Testing ;
     rdfs:label "Ob die Probe an der Schildkröte die giftige Hand unterscheidet"@de,
@@ -10773,6 +10954,16 @@ pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
     skos:note "The Chukchee word is given twice on the page and the digitised copy used here damages it in both places, once as oTitkek for the verb and once as ocitkedm for the participle. The secondary literature reads the participle ocitkolin. What the reading here rests on is the English gloss, which is unambiguous, and not on the transcription."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
+pmc:CinqJoursAvantDePresumer a pm:Conceptualizing ;
+    rdfs:label "Fünf Tage, bevor auf Unwirksamkeit geschlossen wird"@de,
+        "Five days before presuming that it does not act"@en ;
+    dcterms:source "J. P. F. Deleuze, Practical Instruction in Animal Magnetism, trans. Thomas C. Hartshorn, revised ed. (New York: D. Appleton & Co., 1843), chap. III, p. 42" ;
+    skos:definition "Patients on whom the operation does not act exist but are said to be very rare; it is less rare that the communication cannot be established until after several sittings, whence one cannot presume that it does not act until after a trial of five days. To found the presumption even after that lapse of time it is not enough that the patient has felt nothing: it is to be considered whether he has experienced no change in his condition, whether he does not find himself better, and whether his disease is not rendered worse by pursuing the ordinary course."@en ;
+    skos:note "A stopping rule with a number, stated in the chapter on effects and their indications, and the second sentence takes it back in the same paragraph. The number would make the claim due on the sixth day; the qualification replaces the criterion of sensation with a criterion of condition, which the same chapter says may improve without any sensation at all. What is left is a term after which the operator is to consult a sign the transmission has already declared unnecessary."@en,
+        "It is nonetheless a real rule and the reason this file exists: it names a term, and a term can be kept. Anyone holding a register of five-day trials with the patients' own reports of change could settle what the passage asserts, and the register is what the transmission never keeps."@en ;
+    pm:falsifiedBy "A recorded series of five-day trials, carried by operators conforming to the conditions this work sets, in which the proportion of patients reporting either sensation or a change in condition does not exceed the proportion among matched patients given the same attendance without the passes. The claim is that the trial establishes something about the agent, so an outcome indistinguishable from attendance alone falls due against it."@en ;
+    pm:withinTradition pmt:Mesmerism .
+
 pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
     rdfs:label "Die Genauigkeit von Tagen und Stunden ist für Adepten nicht nötig"@de,
         "The exactness of days and hours is not necessary for adepts"@en ;
@@ -10822,6 +11013,15 @@ pmc:ClaviculaFurisVisio a pm:Conceptualizing ;
     skos:note "Mathers notes that the remainder of this chapter, which is where both procedures stand, is from Lansdowne 1203 alone."@en,
         "The chapter carries a second and weaker procedure with the sieve and shears: at the naming of the guilty person the sieve turns of itself without its being able to stop it. That outcome is inside the session and depends on two people holding the rings on their thumbnails, so it discriminates nothing; it is recorded here and not given its own node."@en,
         "This is the most examinable sentence in the book and the only one in the chapters read that states an outcome outside the session. Everything else the transmission promises is established inside the operation by the operator; here a mark made in water is said to appear on the body of a person who was not present, and a bystander could look at the face named and see whether it is there. The examination node beside this file takes it as the falsifying condition for the transmission as a whole, and it is the reason that node could be written at all."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:ClaviculaGradusConiurationum a pm:Conceptualizing ;
+    rdfs:label "Die gestuften Beschwörungen, jede betreten, weil die vorige nichts hervorbrachte"@de,
+        "The graded conjurations, each entered because the last produced nothing"@en ;
+    dcterms:source "Clavicula Salomonis, Book I chapters V, VI and VII, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "The book sets its conjurations in a series and makes the trigger of each the failure of the one before. If they then immediately appear, it is well; if not, the master uncovers the pentacles. If they do not yet appear, he strikes the air with the knife and repeats a stronger conjuration. This he says facing east, and if they appear not he repeats it to the south, the west and the north, four times in all. If they appear not even then, he signs the foreheads of his companions with Tau and says a further one. If they appear not yet, he is told not to lose courage, for there is nothing in the world stronger to overawe the spirits than constancy; he re-examines and reforms the circle, casts dust to the four quarters, kneels, and conjures again. The last conjuration is declared to be of such efficacy that even spirits bound with chains of iron and fire could not delay to come."@en ;
+    skos:note "The series has no term at which the operator is told to stop. Non-appearance never counts as an outcome of the procedure; it is the instruction to proceed to the next stage, and the stages run out into a curse and a burning of names which, the text says, brings them assuredly and in great haste. A transmission built this way cannot register a failed run, because a run is not over until it has succeeded."@en ;
     pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
@@ -11524,6 +11724,17 @@ pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
     pm:cautionsAbout pmp:VamaWorship ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:HuitJoursConsecutifs a pm:Conceptualizing ;
+    rdfs:label "Acht aufeinanderfolgende Tage, und was das Urteil dann entscheiden darf"@de,
+        "Eight consecutive days, and what the judgment may then decide"@en ;
+    dcterms:source "A. Teste, A Practical Manual of Animal Magnetism, trans. D. Spillan (London: H. Bailliere, 1843), chap. VI, Of the Number and the Hour of the Sittings, pp. 171-172" ;
+    skos:definition "From a second work of the tradition. It rarely happens that the magnetic sleep is produced at the first sitting, and the first effects are often so little marked that they pass unnoticed, which is no reason to conclude the subject incapable of entering somnambulism. The operator is to begin again the following day, then the day after, then eight days consecutively, and only then will he be able to form a definitive judgment. Each sitting ought to last twenty minutes at least, and the experiments are to be made every day at the same hour."@en ;
+    skos:note "It stands beside pmc:TroisOuQuatreSeances and pmc:PresqueUnMois as a third witness inside one tradition for the same structure, and it is the strongest of the three because it is the most explicit. Whether the three together can carry a generalization of their own is the open question named in the pull request that entered this file; they are three nodes from two works of one transmission, which is thin for the class, and the second witness a generalization would need is being sought in prima-materia#708."@en,
+        "Only this section of the work was read. The volume carries a large catalogue of claimed capacities in its chapter on lucid somnambulism, with named witnesses per sitting, and none of it was opened here."@en,
+        "The sharpest stopping rule the tradition produced, and it is sharper than the four in Deleuze because it names both a count and what the count settles. What it settles, however, is stated in the same sentence and is the whole finding: the judgment should involve only one single fact — the degree of the operator's magnetic power, or of his complete want of power relatively to such a person. Eight days of nothing therefore establish something about this operator with this subject, and nothing whatever about the agent."@en,
+        "Two clauses in the same pages keep even that from being reached. The operator is warned on every occasion against allowing himself to be discouraged by one or two failures, and especially against betraying any sign of the discouragement, since that would deprive him of the confidence others might have in him. And the beginner is instructed, as emphatically as the author can put it, to attempt his experiments first only on persons who present favourable conditions for succeeding, or he will yield to discouragement and be stopped on his way. A rule that counts to eight, then reads the result as a fact about the operator, and is applied only to subjects selected in advance for their likelihood of success, cannot return a negative that means anything."@en ;
+    pm:withinTradition pmt:Mesmerism .
+
 pmc:HulaKnowledgeRetained a pm:Conceptualizing ;
     rdfs:label "Die Gesänge und die Schulung bleiben beim Schüler"@de,
         "The songs and the training stay with the pupil"@en ;
@@ -12058,6 +12269,7 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         "A seventh witness was added on 2026-09-11 and it is the limiting case of the statement. Where the others supply a condition under which a run that produced nothing counts as no failure, the Zhen'gao supplies a rule of reading under which the outcome that would end the practitioner's participation altogether — his death — is classified as the attainment, and it does so for every state a corpse can be found in, the intact and the putrefied alike. The condition has there been moved from the run to the observation, which is one step further than any of the six."@en,
         "A tenth witness was added on 2026-09-16 and it is the oldest of them by four centuries. A single slip of the Pulling Book from tomb 247 at Zhangjiashan carries the instruction in two clauses: on waking, knocking the teeth prevents tooth decay; if there is tooth decay, knock them more. The first clause offers an outcome any practitioner could look for in his own mouth and the second says what to do when it is not there, and what it says is to do more of the same. That is the construction of the assay of the fourth chapter of the Baopuzi in miniature, and the two are separated by some four hundred years. The witness is worth listing apart from the other nine for one reason: it was buried between 186 and 156 before this era and read in 1984, so nobody added the second clause later in answer to anyone. The immunising clause is not a defensive move made when critics appeared; it was already in the instructions."@en,
         "An eighth witness was added on 2026-09-11 and it is the only one that states the rule instead of instancing it. The internal alchemy puts the practitioner's question — he has held to the work and seen no result — at the head of its chapter on the signs of verification, and answers it twice in four characters: it is not that the Way has failed the man. In its place it supplies two conditions, both in the operator, an unenlightened master and ignorance of the times. Where the other seven have to be read off a doctrine, this one is the doctrine, and it names the possibility it excludes."@en,
+        "An eleventh witness was added on 2026-09-18 from the demotic magical manual of London and Leiden, and it is the most repetitive of them. The work takes up the empty session six times in six different wordings and never once lets it stand: the boy who does not see the light, obduracy, obstinacy with the god unseen, a god who delays so as not to come in, a light that has not come forth, a light slow to come within, and gods who are inside and give no answer are each met by a further and stronger form of address. Where it does name a cause it names purity, which it calls its chief matter twice, and the fright of the boy who looked away. Both lie in the two people in the room and neither is anything an onlooker could check. What it adds to the ten is the count: this is not one excusing clause in a doctrine but the standing shape of every recipe in a working manual."@en,
         "Counter-search, carried against this holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Sami material reports two practitioners who set a period, named in advance the sign they demanded, received nothing and destroyed the instrument without explaining the failure away; it does not refute, because it reports conduct and not a rule of the transmission, and the node itself flags that both cases stand in a missionary's chapter on conversion. The Zande material prescribes a corroborative second test whose contradiction voids the verdict, which is an outcome a further run can establish and looks at first like the counter-case; it does not refute either, because the same transmission carries the eight causes beside it, so that the internal check and the external excuse coexist. What that pair shows is worth more than a clean confirmation: a transmission can hold a real check and an unlimited excuse at once, and the check then bounds nothing."@en,
         "Falsified by a transmission of the kind described whose earliest witness names an outcome that would count against the operation and supplies no condition assigning a failed run to the operator, the person operated on, the material or a third party. One such case refutes it. The likeliest places to look are the transmissions this holding carries that already name an observable sign of success, since a sign that can be present can also be absent: the feather at the nostril of the eighth chapter of the Baopuzi, the gold-coloured body of the golden liquor, and the ten-day term of the medical canon."@en,
         "The claim is about where the failure is put and not about whether the operations work. A transmission that supplies such a clause is not thereby making a false claim; it is making one that the ordinary check cannot reach, because the check's negative outcome has been given a home in advance. That is the difference this project exists to record, and it is a property of the wording rather than of the world."@en,
@@ -12071,6 +12283,7 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         pmc:FailureIsSulkinessOrLostPower,
         pmc:JinchengYaocheng,
         pmc:NeidanFeidaofuren,
+        pmc:PdmCompulsioNonAdventus,
         pmc:SanjiLiuxiong,
         pmc:ShangqingShijieZhengbian,
         pmc:Shenbushi,
@@ -12358,6 +12571,62 @@ pmc:ParalysisPrecedesItsNotice a pm:Positing ;
     skos:note "Split deliberately from the weaker claim that sleep paralysis is the regular shutdown of motor control at the sleep transition, which is prima-materia#137 and stands on its own. This one adds the two things that make it testable: a universality and an explanation of why a universal thing is rarely reported."@en ;
     pm:positedIn "prima-materia#138" .
 
+pmc:PdmHoraEtLuna a pm:Conceptualizing ;
+    rdfs:label "Stunde und Mondtag, an denen der Vorgang geschehen darf"@de,
+        "The hour and the day of the moon on which the operation may be done"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. III/15, col. VI/7, col. IX/17, col. X/21-22, col. XXI/19, col. XXIII/22-23, col. XXVII/37, col. XXIX/2-3 and col. verso IX/12, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The work fixes several of its operations to a time and not to a state of either party. The vessel-inquiry with the eye-ointment is done from the fourth day of the lunar month until the fifteenth, which is the half-month when the moon fills the uzat. The divination opposite the moon is addressed to it on the fifteenth day when it fills the uzat, the operator having been pure for three days beforehand. The inquiry of the lamp must be done at midday in a place without light. The vessel-inquiry with the boy is carried until the time of the seventh hour of the day; another is done at the third hour of the evening. The inquiry of the sun is made at the moment the sun rises and comes up entire with the whole disk. Outside the inquiries: the priest's procedure is said opposite the Shoulder constellation on the third day of the month; the scarab is done at the rising of the sun, and repeated on the third of the lunar month; a love charm is done on the fourteenth of the lunar month; and the amulet for a gouty foot is made when the moon is in the constellation of Leo."@en ;
+    skos:note "Nine datings in one manual, and not one of them is stated with a consequence for acting outside the window. The work binds the operation to a time as firmly as any transmission in this holding and says nothing at all about what going outside the time would produce, which is the half of the construction that a reader supplies by himself if the node does not say so."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmProbatioGraviditatis a pm:Conceptualizing ;
+    rdfs:label "Wie man an einer Frau erkennt, ob sie schwanger ist"@de,
+        "The way to know of a woman whether she is with child"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. verso V/4-8, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A test standing among the medical recipes of the verso. The woman passes her water on a named herb in the evening; when the morning comes, if the plant is found scorched she will not conceive, and if it is found flourishing she will conceive. Both readings are stated, in consecutive clauses, and the outcome is a state of a plant on the following morning."@en ;
+    skos:note "The identity of the herb is not established here. The translation says on this herb as above again, referring back to a plant described in the preceding entries of the same column, and the editors note a similar prescription in a nineteenth-dynasty text. What the node claims is the form of the test and its two readings, which is what the wording carries; the botanical identification and the modern work on this test were not opened in this run and are prima-materia#740."@en,
+        "The most checkable claim in the whole work and the only one in it whose criterion neither party can produce at will, whose two sides are both stated, and whose verdict falls due at a named time without any further address being prescribed. It stands in the same manuscript as the inquiries, written by the same hand, which is why it is worth a node beside them rather than in a file of medicine: the transmission that cannot register a failed inquiry can state a falsifiable prognosis three columns later."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmProbatioLapidis a pm:Conceptualizing ;
+    rdfs:label "Wie man erkennt, dass der Stein echt ist"@de,
+        "The way to know that the stone is genuine"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. verso III/7-13, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "An assay of a material, given in the plant and drug list of the verso. Of the white stone called foam of the moon the text says that there is another sort which is made into lime, and that the way to know it that it is genuine is this: you grind a little with water, you rub it on the skin of a man for a short time, then it removes the skin."@en ;
+    skos:note "A stated procedure with a stated outcome on a body other than the operator's, applied to the ingredient rather than to the operation. The work thus contains the form of a test and applies it to what it buys and not to what it does. That contrast is the finding, and it is the same one the pregnancy test makes from the other direction."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmPuerIntactus a pm:Conceptualizing ;
+    rdfs:label "Der Knabe, der noch nicht bei einer Frau war"@de,
+        "The boy who has not yet gone with a woman"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. III/11, col. XXV/20-21 and col. XXVII/15, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The condition fixed on the medium and repeated in three separate recipes: a boy, pure, before he has gone with a woman; a boy who has not yet gone with a woman is he whom you make come before you; the boy standing before the lamp, he being pure and not having gone with a woman. A fourth passage requires in addition that the child be one who has been tested in his ears before."@en ;
+    skos:note "A condition of the body that cannot be acquired and that the boy himself is the only witness to. Set beside the ear test, the two requirements on the medium are a state he cannot demonstrate and a sign he reports from inside his own head; neither is anything an onlooker could check, and together they are the whole of his qualification. Nothing in the work asks whether he has answered correctly before."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmPuritas a pm:Conceptualizing ;
+    rdfs:label "Die Reinheit, zweimal als die Hauptsache genannt"@de,
+        "Purity, named twice as the chief matter"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XVII/26 and col. XXIX/30, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The condition the work names above all others, and the only one for which it states the consequence of the want in plain words: if it be that you do not apply purity to it, it does not succeed, its chief matter is purity; and at the end of the recto, of the inquiry of the sun, its chief point is purity. What the word covers in the recipes is a room cleansed with natron water, new and untouched objects, a boy who has not gone with a woman, and an operator who is pure and who in several places has spoken to no one on earth since rising."@en ;
+    skos:note "The papyrus nowhere says how purity is to be ascertained, by whom, or what would show that it had lapsed. It is therefore the perfect assignment for an empty run: available in every case, verifiable in none, and named by the text itself as the one thing everything depends on."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmRamshauFormaDuplex a pm:Conceptualizing ;
+    rdfs:label "Komm als Priester, wenn es geschieht, als Kalashire, wenn nicht"@de,
+        "Come as a priest if it will happen, as a Kalashire if it will not"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. VIII/12-16 and col. IX/17-18, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A direct inquiry ascribed to the voice of Pasash the priest of Kes, which the informant is said to report as tested nine times. The operator declares himself Ramshau son of Tapshau and lays down in advance which of two appearances is to mean which answer: if the thing in question shall happen, the god is not to come with his face of Pekhe but in his form of a priest, in his figure of a servant of the temple; but if it shall not come to pass, he is to come in his form of a Kalashire. The formula is said seven times opposite the Shoulder constellation on the third day of the month, over a clove of three-lobed white garlic pierced by three iron needles, which is then put at the operator's head; then he attends to the operator and speaks with him."@en ;
+    skos:note "The criterion is announced to the participant before the session and states both sides, which is the combination this holding had found nowhere. In the ten witnesses gathered at pmc:TheCriterionNoPartyControls the two-sidedness always belongs to the other column, the one where the deciding event is a physical process; where the criterion is an announced appearance the transmissions state the success side alone. Here the appearance is announced, the two forms are distinct and mutually exclusive, and each is tied to one of the two answers before anything is seen."@en,
+        "What weakens it, stated so that it is not read as more than it is. The appearance occurs in a dream or a vision belonging to one person, so nobody but the operator can say which form came; there is no provision for the case in which neither form comes; and the promise that he attends to you and speaks with you means the session can still be carried by speech if the forms fail. The finding is therefore about the wording of the criterion and not about a practice that could be checked, which is the limit pmc:TheCriterionNoPartyControls states of itself."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
 pmc:PerformanceFailsWithoutASusceptibleAudience a pm:Conceptualizing ;
     rdfs:label "Die Vorstellung misslingt, wenn das Publikum nicht folgen kann"@de,
         "The performance fails if the audience cannot follow"@en ;
@@ -12373,6 +12642,7 @@ pmc:PgmIvSublatio a pm:Conceptualizing ;
     dcterms:source "PGM IV.475-829, first instruction (trans. G. R. S. Mead, London 1907)" ;
     skos:definition "The effect announced for the breathing: the operator will see himself raised aloft and soaring towards the height, so that he seems to be in the midst of air; he will hear nothing, neither man nor beast, and will see nothing of the sights upon the earth in that same hour, but everything he sees will be immortal."@en ;
     skos:note "Stated as what will happen and not as what may. The withdrawal of hearing and of earthly sight is given first and the vision second, which makes the sensory cut the condition rather than a side effect."@en ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvTerInAnno a pm:Cautioning ;
@@ -12385,6 +12655,7 @@ pmc:PgmIvTerInAnno a pm:Cautioning ;
         "Two further constraints stand with it and are not conditions of success: for a second person to hear what is said, that person breathes with the operator for seven days and abstains from animal food and the bath; and the operator, when the god answers, is drained in soul and not in himself, while remembering unerringly what was said even if the oracle ran to ten thousand lines."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:PgmIvSpiritusTractus ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PgmIvTraditioClausa a pm:Cautioning ;
@@ -12396,6 +12667,7 @@ pmc:PgmIvTraditioClausa a pm:Cautioning ;
         "The same gate the project's criterion is aimed at, in a third transmission after the Ars Notoria and the ophite requirement of a curse before admission. The restriction here is narrower than either: not an order, not a school, but one person to one person."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:PgmIvSpiritusTractus ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmc:PistisSophiaVestisNominum a pm:Conceptualizing ;
@@ -13084,6 +13356,15 @@ pmc:TreideNeimthigedarFilid a pm:Conceptualizing ;
     skos:definition "The triad that makes the three operations the qualification of the office rather than an accomplishment beside it: three things that constitute a poet, the knowledge that illumines, teinm laeda, improvisation."@en ;
     skos:note "Entered because it fixes the standing of the other nodes in this file. These are not powers a poet might have; they are what the transmission says a poet is. That is what makes the loss of them at pmc:GubrethForfeitsImbas a loss of the office and not of an ornament."@en ;
     pm:withinTradition pmt:InsularCeltic .
+
+pmc:TroisOuQuatreSeances a pm:Conceptualizing ;
+    rdfs:label "Drei oder vier Sitzungen mit Reizung, dann aufhören"@de,
+        "Three or four sittings of irritation, then stop"@en ;
+    dcterms:source "J. P. F. Deleuze, Practical Instruction in Animal Magnetism, trans. Thomas C. Hartshorn, revised ed. (New York: D. Appleton & Co., 1843), chap. III, pp. 50-51" ;
+    skos:definition "Where the operation produces in a patient a nervous irritation that leaves him uneasy after the sittings, the most soothing action is to be used and the operator is to act from a distance. If after three or four sittings the same effect takes place, one may presume that the operation is not good for this patient, or that the fluid of this operator does not agree with him, and one ought not to persist in it. One might merely try, two or three times, other operators."@en ;
+    skos:note "That structure is what generalizations/counted-thresholds.ttl describes from three Chinese claims, arrived at here independently in a French work of 1825, and it widens that generalization beyond the stream it was formed in. The widening is recorded on this node rather than by editing the generalization, because its stated scope is a count at which an effect is to take effect and this is a count after which absence of effect is to be acted on. The two are mirror images and a later reader should decide whether they belong under one statement."@en,
+        "The cleanest stopping rule in the work: a count, an outcome to look for, and an instruction to desist. It is also the clearest case in this holding of a rule that names a count and assigns the shortfall away from the operation — the presumption offered is that the agent is not good for this patient or that this pairing does not suit, never that the agent does nothing. And the last sentence prescribes continuation with two or three further operators, so the count is reached and the trial goes on."@en ;
+    pm:withinTradition pmt:Mesmerism .
 
 pmc:TungusCandidateCondition a pm:Conceptualizing ;
     rdfs:label "Der Zustand des Anwärters"@de,
@@ -14057,6 +14338,16 @@ pmp:OphiteTransitusOratio a pm:Practicing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmp:PdmShenHbs a pm:Practicing ;
+    rdfs:label "Die Lampenbefragung"@de,
+        "The lamp-inquiry"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. VI/1-10, with col. XXV/8-22 and col. XXVII/13-19, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A divination at a lamp. A clean dark cell without light is taken and a new hole dug in an east wall; a white lamp in which no minium or gum-water has been put is filled with clean genuine oil and a clean wick; the spells of praising Ra are recited at dawn and the lit lamp is held opposite the sun and recited to four times; the lamp and the boy are then carried into the cell, the operator being pure and the boy also, and the spells are said seven times to the boy with his eyes closed and the operator's finger on his head. The boy then opens his eyes towards the lamp and sees the shadow of the god about the lamp, and inquires on the operator's behalf. The wick and the oil are varied by the business: a wick of sail-cloth and butter for a damned spirit, a clean wick and pure oil for anything else, ointment of roses to bring a woman to a man."@en ;
+    skos:note "The one place in the procedure where the operator's choice is said to matter to the outcome is the wick and the filling, and it is fixed by the kind of question and not by the operator's state. That is an unusually specific instruction and it is also the only one in the three procedures that could be got wrong without anybody noticing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
 pmp:PracticeOfTheLimbs a pm:Practicing ;
     rdfs:label "Übung der Glieder"@de,
         "Practice of the limbs"@en ;
@@ -14342,6 +14633,16 @@ pmw:Lemegeton a dcterms:BibliographicResource ;
 pmw:LiberIuratusHonorii a dcterms:BibliographicResource ;
     rdfs:label "Liber Iuratus Honorii"@de,
         "Liber Iuratus Honorii"@en .
+
+pmw:PgmXII a dcterms:BibliographicResource ;
+    rdfs:label "PGM XII / PDM xii, der Leidener Papyrus J 384"@de,
+        "PGM XII / PDM xii, the Leiden papyrus J 384"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It is the second of the bilingual handbooks of the same find and stands to the Papyrus of London and Leiden as its nearest neighbour; a run that wants a second demotic witness for anything entered from PDM xiv goes here first."@en .
+
+pmw:PgmXIII a dcterms:BibliographicResource ;
+    rdfs:label "PGM XIII, der Leidener Papyrus J 395"@de,
+        "PGM XIII, the Leiden papyrus J 395"@en ;
+    skos:note "Named here as a work of the corpus and unopened."@en .
 
 pmw:ScotDiscoverieOfWitchcraft a dcterms:BibliographicResource ;
     rdfs:label "Reginald Scot, The Discoverie of Witchcraft"@de,
@@ -14846,6 +15147,25 @@ pmc:OphiteSymbolumOstensum a pm:Conceptualizing ;
         "The speeches are not petitions to be granted something. Each of them states a condition the speaker is already in and asks that it be seen: look upon me, seeing thou beholdest, bearing now mine own beard as symbol. Whether the ruler could withhold what is asked is a question the passage never raises."@en ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmc:PdmCompulsioNonAdventus a pm:Conceptualizing ;
+    rdfs:label "Es erschien nichts, und was der Text vorschreibt, ist ein stärkerer Name"@de,
+        "Nothing appeared, and what the text prescribes is a stronger name"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. II/3-4, col. VI/21-22, col. VIII/1 and VIII/27-28, col. XVII/12-15, col. XXIX/16-18 and col. verso XXVI/4-8, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The work takes up the case of an inquiry that produces nothing in at least six places and never once treats it as an outcome. If the boy opens his eyes and does not see the light, he is made to close them and the operator calls again. If obduracy takes place, the operator rises and recites the summons, which is the god's compulsion. If obstinacy appears, the boy not having seen the god, the operator turns round and pronounces the compulsion. If the god delays so as not to come in, a further cry is given. If the light has not come forth, the boy himself is made to speak to the lamp, and then the god reveals himself to him in the moment named. If the light is slow to come within, a seventh-times name is said, frankincense is put on the brazier, and a great name is uttered forwards and backwards four times. And if the gods give no answer once they are in, another name is recited nine times until they inquire for the operator truthfully."@en ;
+    skos:note "There is no term anywhere in the work at which the operator is told to stop. Non-appearance is never an outcome of the procedure; it is the instruction to proceed to a stronger address of the same kind, and the strongest of them is a formula of compulsion that asserts the speaker's identity with the god. A session is not over until it has succeeded, and the transmission therefore cannot register a failed run."@en,
+        "Where the work does assign a cause, it assigns it to the operator or to the medium and never to the procedure. The general assignment is purity at pmc:PdmPuritas; the particular one is at pmc:PdmCautioAspectus, where a boy who has looked away is afraid and the session is broken off. Both are conditions the only witnesses to which are the two people in the room."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmc:PdmResponsumVerum a pm:Conceptualizing ;
+    rdfs:label "Ein Gott kommt herein und antwortet auf jede Frage wahrhaftig"@de,
+        "A god comes in and answers every question truly"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. XXIII/2-5, with col. IX/28-29, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "The capacity the procedures are for: that a named god enters, gives his name when asked for it, and answers whatever the operator asks, in truth and without falsehood. One passage puts the scope of the answer in full — that the gods do not depart before they have been questioned concerning every word and have told the answer about heaven, earth and the underworld, a distant inquiry, water and the fields."@en ;
+    skos:note "The phrase truly without falsehood recurs through the work as a fixed demand of the invocations, together with the demand that the god not substitute a face for a face or a name for a true name. The transmission therefore knows the failure mode of a false answer from an impostor and addresses it by asking the god not to commit it, which is not a check."@en ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
+
 pmc:Penemue a pm:Conceptualizing ;
     rdfs:label "Penemue"@de,
         "Penemue"@en ;
@@ -15310,6 +15630,16 @@ pmp:NorseSeidrIthrott a pm:Practicing ;
     skos:definition "The craft Snorri names as the one with which the greatest power went and which Óðinn performed himself, called seiðr, taught by him to the priestesses and, in the same chapter, most of his crafts to the sacrificing priests."@en ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:NorseSeidr .
+
+pmp:PdmShenHne a pm:Practicing ;
+    rdfs:label "Die Gefäßbefragung"@de,
+        "The vessel-inquiry"@en ;
+    dcterms:source "Papyrus of London and Leiden (PDM xiv), col. III/5-15 and col. X/9-19, in F. Ll. Griffith and H. Thompson, The Demotic Magical Papyrus of London and Leiden, vol. I, London: H. Grevel & Co., 1904" ;
+    skos:definition "A divination into a vessel of oil. A dark clean room is sprinkled with river sand or purified with natron water; a new dish is filled with clear oil, or a bronze cup with water finished on its surface with oil; new bricks that have not been turned are set under the vessel and under the boy; seven clean loaves and seven lumps of salt are arranged around it; a boy who is pure and has not gone with a woman is laid or seated at the vessel with his eyes shut, and the operator recites the invocation down into his head seven times with his hand over the boy's eyes. The boy then opens his eyes and is asked what he sees, and the questioning proceeds through Anubis, who is sent to fetch the other gods, seat them at a table, give them food and drink, and produce the one god who will answer."@en ;
+    skos:note "The procedure is given in this papyrus more than a dozen times with variations of the vessel, the oil, the wick, the hour and the invocation, and the editors' own classification counts eleven places for the vessel alone. What is constant across them is the apparatus: a new or unused object at every point of contact, an odd count of repetitions, a boy at the vessel and the operator behind him."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PapyrusLondonLeiden ;
+    pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmp:ShangqingAnmo a pm:Practicing ;
     rdfs:label "Die Reibeordnung"@de,
@@ -15776,6 +16106,7 @@ pmp:PgmIvSpiritusTractus a pm:Practicing ;
     skos:definition "The first instruction of the rite: to take breath from the sun's rays, inhaling three times as deeply as the operator is able. Later stages prescribe the counter-movement — a prolonged bellowing like a horn-note, expelling the whole breath with pressure on the ribs, and a second bellowing with pressure on the belly to set the senses going all at once."@en ;
     skos:note "The most concrete bodily instruction in the whole of this graph's ascent material. It names the direction of the breath, its depth, its count and, at the exhalation, where the pressure is applied. Nothing in the ophite, hermetic or Jeu material comes near this, and it is the reason the register singled this corpus out."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
 pmp:RunicDrumConsultation a pm:Practicing ;
@@ -16473,11 +16804,6 @@ pm:Systematizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Abgezogene Vertiefung"@de,
@@ -16522,19 +16848,10 @@ pmt:Ifa a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
 
-pmt:GreekMagicalPapyri a pm:Tradition ;
-    rdfs:label "Griechische und demotische Zauberpapyri"@de,
-        "Greek and demotic magical papyri"@en ;
-    dcterms:source "PGM IV.475-829, in the translation of G. R. S. Mead, A Mithriac Ritual (London 1907)" ;
-    skos:definition "The working handbooks of late antique Egypt: procedures with materials, hours, purity requirements, spoken formulae and stated signs of success."@en ;
-    skos:note "Dieterich says himself where he is certain that the received text already carried its own names, and the list is short: the vowel groups for the seven planets, the point where the gods are appeased, the opening of the disk, the appearance of the sun god, the protective cry at the gates, and the adjuration that the god remain in the operator's soul. Those places are the ones on which a reconstruction of the sounds may be attempted; the rest of the barbarous names he holds to be interchangeable stock that the magicians supplied from their own apparatus, so that even a perfect reading of the papyrus would not recover what the rite said there."@en,
-        "Going behind Mead was done and lands on a third layer rather than on the papyrus. His source is Dieterich's edition, opened here in the second edition of 1910; Dieterich's source is Wessely's first reading of Paris papyrus 574. What Mead removed, Dieterich had already set in small type as the magicians' insertions, on his own judgement and not on any mark in the manuscript, and Mead's obeli are Dieterich's typography carried into English. The distinction between the liturgy and its magical redaction is therefore an editorial reconstruction from 1903, and every node in this file that speaks of what belongs to the rite is standing on it."@en,
-        "The name is a modern label twice over. Dieterich called the piece a liturgy in 1903; Mead objects that a liturgy has several participants while this is a rite for one person alone, and whether it is Mithraic at all is disputed in the scholarship. Neither question is settled here."@en,
-        "Two properties of the translation first used bear on the nodes that cite it, and Mead states both himself. He removes the barbarous names he judges to be later insertions by an Egyptian magical school and marks the rest with obeli, so most of the names in the ritual are not in the text read; the one long vowel chain that is printed survives because he holds it to belong to the ritual. And he renders one of the two prescribed sounds as puff rather than pop because he takes it to be connected with breath, which is a reading and not a translation."@en,
-        "What was read: the ascent ritual at PGM IV.475-829, in the translation of G. R. S. Mead, A Mithriac Ritual (Echoes from the Gnosis VI, London and Benares 1907), public domain. Nothing else of the corpus is opened, and this is a single piece out of a codex of thirty-six pages."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the ascent ritual at PGM IV.475-829" .
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
@@ -16638,6 +16955,11 @@ pmt:Vodun a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa; Burton, A Mission to Gelele, King of Dahome; Skertchly, Dahomey as it is; Spieth, Die Ewe-Stämme, and Die Religion der Eweer in Süd-Togo; Le Hérissé, L'ancien royaume du Dahomey; Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey: An Ancient West African Kingdom" .
+
+pmw:PgmIv a dcterms:BibliographicResource ;
+    rdfs:label "PGM IV, der grosse Zauberpapyrus von Paris (Bibliotheque nationale suppl. gr. 574)"@de,
+        "PGM IV, the great magical papyrus of Paris (Bibliotheque nationale suppl. gr. 574)"@en ;
+    skos:note "Opened at one piece, the ascent ritual at lines 475 to 829, in two layers: the English of Mead of 1907 and the edition of Dieterich in the second edition of 1910. The codex runs to thirty-six pages and the rest of it is unopened."@en .
 
 pm:Converging a owl:Class ;
     rdfs:label "Konvergieren"@de,
@@ -16751,11 +17073,6 @@ pm:Originating a owl:Class ;
     skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
-
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmp:NorseLjodatal a pm:Practicing ;
     rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
@@ -16873,6 +17190,11 @@ pmt:SaivaSakta a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Vijñānabhairava; Mālinīvijayottaratantra; Abhinavagupta, Tantrāloka and Tantrasāra; Kulārṇava Tantra; Kālikāpurāṇa; Mahānirvāṇa Tantra; Pūrṇānanda, Ṣaṭcakranirūpaṇa" .
 
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
         "Ars Notoria"@en ;
@@ -16886,16 +17208,6 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:ArsNotoria ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
-
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -16916,10 +17228,27 @@ pmw:ArsNotoria a dcterms:BibliographicResource ;
         "Ars Notoria"@en ;
     skos:note "One identifier for the work across its recensions and printings. The witness a node was read in stays in its dcterms:source; the divergence between the Latin of the printing and Turner's English is held as a dispute and not as two works."@en .
 
+pmw:PapyrusLondonLeiden a dcterms:BibliographicResource ;
+    rdfs:label "Papyrus von London und Leiden (PDM xiv)"@de,
+        "Papyrus of London and Leiden (PDM xiv)"@en ;
+    skos:note "One manuscript in two museums, of the third century of this era, twenty-nine columns on the recto and thirty-three short columns on the verso. Opened on 2026-09-18 in the edition of Griffith and Thompson, volume I of 1904, which prints transliteration, translation and notes; the translation was read throughout and the transliteration was not used. The editors state that the language makes it difficult to believe that any part of the work in its present redaction is more than a century or two older than the papyrus itself."@en,
+        "The nodes read off it stand in traditions/demotic-magical-papyri.ttl."@en,
+        "What the reading covered and what it left: the whole of the translation of the recto, columns I to XXIX, and of the verso, columns I to XXXIII, was read at the wording. Not read: the transliteration on the facing pages and the philological notes beneath both, except where a note bears on a passage entered; the introduction, apart from its account of the manuscript and its table of contents; and the glossary volume of 1909, which was not obtained. The digitised copy used is an optical transcription and its rendering of the transliterated demotic is not trustworthy at the level of single letters, which is why no node in this holding reproduces a demotic form from it."@en .
+
 pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
@@ -17063,6 +17392,26 @@ pm:fieldAttestation a pm:Attesting ;
         "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
         "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
+pmt:GreekMagicalPapyri a pm:Tradition ;
+    rdfs:label "Griechische und demotische Zauberpapyri"@de,
+        "Greek and demotic magical papyri"@en ;
+    dcterms:source "PGM IV.475-829, in the translation of G. R. S. Mead, A Mithriac Ritual (London 1907)" ;
+    skos:definition "The working handbooks of late antique Egypt: procedures with materials, hours, purity requirements, spoken formulae and stated signs of success."@en ;
+    skos:note "A second work of this corpus was opened on 2026-09-18 and its nodes stand in traditions/demotic-magical-papyri.ttl: the Papyrus of London and Leiden, read throughout in the translation of Griffith and Thompson of 1904. The registration named the demotic papyri from the start and nothing of them had been entered, so the tradition stood at pm:placesEntered on one piece of one Greek papyrus. The works are named as identifiers here from that date, which is what makes an unopened work of an opened tradition visible to a query at all (prima-materia#737)."@en,
+        "Dieterich says himself where he is certain that the received text already carried its own names, and the list is short: the vowel groups for the seven planets, the point where the gods are appeased, the opening of the disk, the appearance of the sun god, the protective cry at the gates, and the adjuration that the god remain in the operator's soul. Those places are the ones on which a reconstruction of the sounds may be attempted; the rest of the barbarous names he holds to be interchangeable stock that the magicians supplied from their own apparatus, so that even a perfect reading of the papyrus would not recover what the rite said there."@en,
+        "Going behind Mead was done and lands on a third layer rather than on the papyrus. His source is Dieterich's edition, opened here in the second edition of 1910; Dieterich's source is Wessely's first reading of Paris papyrus 574. What Mead removed, Dieterich had already set in small type as the magicians' insertions, on his own judgement and not on any mark in the manuscript, and Mead's obeli are Dieterich's typography carried into English. The distinction between the liturgy and its magical redaction is therefore an editorial reconstruction from 1903, and every node in this file that speaks of what belongs to the rite is standing on it."@en,
+        "The name is a modern label twice over. Dieterich called the piece a liturgy in 1903; Mead objects that a liturgy has several participants while this is a rite for one person alone, and whether it is Mithraic at all is disputed in the scholarship. Neither question is settled here."@en,
+        "Two properties of the translation first used bear on the nodes that cite it, and Mead states both himself. He removes the barbarous names he judges to be later insertions by an Egyptian magical school and marks the rest with obeli, so most of the names in the ritual are not in the text read; the one long vowel chain that is printed survives because he holds it to belong to the ritual. And he renders one of the two prescribed sounds as puff rather than pop because he takes it to be connected with breath, which is a reading and not a translation."@en,
+        "What was read: the ascent ritual at PGM IV.475-829, in the translation of G. R. S. Mead, A Mithriac Ritual (Echoes from the Gnosis VI, London and Benares 1907), public domain. Nothing else of the corpus is opened, and this is a single piece out of a codex of thirty-six pages."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:PapyrusLondonLeiden,
+        pmw:PgmIv,
+        pmw:PgmXII,
+        pmw:PgmXIII ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:PgmIv ;
+    pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the ascent ritual at PGM IV.475-829" .
+
 pmt:Mesmerism a pm:Tradition ;
     rdfs:label "Mesmerismus"@de,
         "Mesmerism"@en ;
@@ -17129,15 +17478,6 @@ pm:thirdPartyAscription a pm:Attesting ;
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
         "Enochic tradition"@en ;
@@ -17151,6 +17491,15 @@ pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
     skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
