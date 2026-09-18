@@ -6192,16 +6192,6 @@ pmc:ShengxianZaiShendan a pm:Disputing ;
     pm:disputedClaim pmc:XingqiYieldsCapacities ;
     pm:withinTradition pmt:Waidan .
 
-pmc:ShintoFutomaniCausaDefectus a pm:Conceptualizing ;
-    rdfs:label "Die Wahrsagung, die sagt, warum der Ritus einen Blutegel hervorbrachte"@de,
-        "The divination that says why the rite produced a leech"@en ;
-    dcterms:source "Nihongi, Book I, the Age of the Gods, in the English of W. G. Aston, vol. I, London 1896, pp. 15-16" ;
-    skos:definition "The first use the chronicle makes of the procedure, and it is put to a rite that went wrong. The two deities set up the pillar of heaven, agree to go round it from opposite sides, and meet; the female speaks first. Their first child is a leech, which is put in a reed-boat and set adrift, and their next is not counted among their children either. They return to heaven and report the circumstances, and the heavenly gods divine the matter by the Greater Divination and instruct them: it was by reason of the woman's having spoken first. They then divine a time, go down again, and the second attempt succeeds."@en ;
-    skos:note "Every element of the shape this holding calls the excusing clause is here and none of it is a later gloss: a procedure whose outcome cannot be judged apart from itself, an outcome that plainly did not come off, a cause located in a nameable act of one of the two operators, and a repetition that succeeds. What makes it worth a node rather than a mention is that the cause is not asserted by the operators but produced by a second procedure whose own outcome nobody could establish either. The excuse is itself divined."@en,
-        "The time of the second attempt is divined as well, which puts a calendar condition on the repetition. The chronicle does not say what would have followed from going down at another time."@en ;
-    pm:fromWork pmw:Nihonshoki ;
-    pm:withinTradition pmt:Shinto .
-
 pmc:ShintoHarahi a pm:Conceptualizing ;
     rdfs:label "Harahi, die Reinigung, die als Buße auferlegt wird"@de,
         "Harahi, the purification that is imposed as a penalty"@en ;
@@ -6243,16 +6233,6 @@ pmc:ShintoKukatachiYieldsDiscrimen a pm:Yielding ;
     pm:fromWork pmw:Nihonshoki ;
     pm:withinTradition pmt:Shinto ;
     pm:yieldsCapacity pmc:ShintoKukatachiCriterium .
-
-pmc:ShintoSujinIteratio a pm:Conceptualizing ;
-    rdfs:label "Er verehrte, wie ihm gesagt war, und es blieb ohne Wirkung"@de,
-        "He worshipped as he was told, but without effect"@en ;
-    dcterms:source "Nihongi, Book V, Sujin 7th year, 2nd and 8th months, in the English of W. G. Aston, vol. I, London 1896, pp. 151-153" ;
-    skos:definition "The chronicle's plainest case of an empty run. Calamities befall the country; the emperor assembles the deities and inquires by divination; a princess is inspired to answer that reverent worship would pacify the land of itself, and names the god who speaks. The emperor worshipped as he was told, but without effect. He then bathes, practises abstinence, purifies the interior of the hall, and prays again, asking whether the observance of due ceremonies is not yet complete and calling the non-acceptance cruel. That night the same god appears in a dream with a further instruction: let a named man be made master of the worship, and there will be peace at once. Three other people report the same dream, the man is found, the appointment is made, and the chronicle then says the country was at peace."@en ;
-    skos:note "The confirmation by three independent dreamers is the other half and is worth keeping in view: the second instruction is corroborated by three further people having the same dream on the same night. That is a check the transmission itself supplies, and it checks the instruction and not the outcome."@en,
-        "The sequence is the one generalizations/no-failed-run-counts.ttl describes, in narrative rather than in doctrine. An instruction is given by the procedure, carried out, and produces nothing; the emperor's own reading of the nothing is that his ceremonies were incomplete; and the remedy prescribed is a further and stronger address of the same kind, ending in a further instruction that supersedes the first without withdrawing it. At no point is the possibility raised that the first answer was wrong."@en ;
-    pm:fromWork pmw:Nihonshoki ;
-    pm:withinTradition pmt:Shinto .
 
 pmc:ShouyiYieldsCapacities a pm:Yielding ;
     rdfs:label "Das Bewahren des Einen bringt jene Vermögen hervor"@de,
@@ -8276,6 +8256,14 @@ pm:unitiveTelos a pm:TelicOrientation ;
     rdfs:label "Vereinigendes Ziel"@de,
         "Unitive telos"@en ;
     skos:definition "The path claims that the bounded self is dissolved into, or united with, something that exceeds it, and treats the persistence of the separate self as what is to be given up."@en .
+
+pm:uses a owl:ObjectProperty ;
+    rdfs:label "verwendet"@de,
+        "uses"@en ;
+    rdfs:range skos:Concept ;
+    skos:definition "A thing this process calls for by name: a substance, an instrument, or a fixed form of words. An identifier for joining, never a claim."@en ;
+    skos:note "Its absence means nobody has entered the materials of that procedure, not that it calls for none. The same asymmetry pm:Testing and pm:Searching keep, and for the same reason: stubs would destroy it."@en,
+        "Says nothing about whether the thing is necessary, whether it works, or what it does. Necessity is a pm:Presupposing node with its stated consequence; what the source says the thing is for stays in the definition of the process that calls for it."@en .
 
 pm:withinTradition a owl:ObjectProperty ;
     rdfs:label "within tradition"@en ;
@@ -12379,6 +12367,7 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
     skos:note "A ninth witness was added on 2026-09-12 from the Clavicula Salomonis, and it is the limiting case of the statement rather than another instance of it. The others supply a condition under which an empty run counts as no failure; this one supplies the condition in advance and in general, for every operation in the book: an experiment performed with due observance of days, hours and requisite solemnities which is found unsuccessful must in some manner be false and defective, and the operator must assuredly have failed in some matter. The same clause stands in three chapters of the work. Where the other eight name a party or a circumstance to which a particular non-occurrence goes, this one names the operator for all of them at once and adds that the whole book depends on the chapter that says so."@en,
         "A seventh witness was added on 2026-09-11 and it is the limiting case of the statement. Where the others supply a condition under which a run that produced nothing counts as no failure, the Zhen'gao supplies a rule of reading under which the outcome that would end the practitioner's participation altogether — his death — is classified as the attainment, and it does so for every state a corpse can be found in, the intact and the putrefied alike. The condition has there been moved from the run to the observation, which is one step further than any of the six."@en,
         "A tenth witness was added on 2026-09-16 and it is the oldest of them by four centuries. A single slip of the Pulling Book from tomb 247 at Zhangjiashan carries the instruction in two clauses: on waking, knocking the teeth prevents tooth decay; if there is tooth decay, knock them more. The first clause offers an outcome any practitioner could look for in his own mouth and the second says what to do when it is not there, and what it says is to do more of the same. That is the construction of the assay of the fourth chapter of the Baopuzi in miniature, and the two are separated by some four hundred years. The witness is worth listing apart from the other nine for one reason: it was buried between 186 and 156 before this era and read in 1984, so nobody added the second clause later in answer to anyone. The immunising clause is not a defensive move made when critics appeared; it was already in the instructions."@en,
+        "A twelfth and a thirteenth witness were added on 2026-09-18 from the Japanese chronicle of 720, and they were owed rather than found: both stood in the same run as the eleventh, in a strand whose branch could not touch this file. The debt is prima-materia#744 and it is settled here. What the two add is one thing the other eleven do not have. In the rite at the pillar of heaven the excusing clause is not asserted by anybody — the rite produces a leech, the heavenly gods are asked by the Greater Divination why, and the answer, that the woman spoke first, is itself the output of a second procedure whose outcome nobody can establish either. And in the reign of Sujin the emperor worships exactly as the oracle instructed him and it is without effect, whereupon he bathes, keeps abstinence, purifies the hall and asks whether his ceremonies are not yet complete; a dream then supersedes the first instruction without withdrawing it. In eleven witnesses the transmission supplies the excuse; in these two it divines it."@en,
         "An eighth witness was added on 2026-09-11 and it is the only one that states the rule instead of instancing it. The internal alchemy puts the practitioner's question — he has held to the work and seen no result — at the head of its chapter on the signs of verification, and answers it twice in four characters: it is not that the Way has failed the man. In its place it supplies two conditions, both in the operator, an unenlightened master and ignorance of the times. Where the other seven have to be read off a doctrine, this one is the doctrine, and it names the possibility it excludes."@en,
         "An eleventh witness was added on 2026-09-18 from the demotic magical manual of London and Leiden, and it is the most repetitive of them. The work takes up the empty session six times in six different wordings and never once lets it stand: the boy who does not see the light, obduracy, obstinacy with the god unseen, a god who delays so as not to come in, a light that has not come forth, a light slow to come within, and gods who are inside and give no answer are each met by a further and stronger form of address. Where it does name a cause it names purity, which it calls its chief matter twice, and the fright of the boy who looked away. Both lie in the two people in the room and neither is anything an onlooker could check. What it adds to the ten is the count: this is not one excusing clause in a doctrine but the standing shape of every recipe in a working manual."@en,
         "Counter-search, carried against this holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Sami material reports two practitioners who set a period, named in advance the sign they demanded, received nothing and destroyed the instrument without explaining the failure away; it does not refute, because it reports conduct and not a rule of the transmission, and the node itself flags that both cases stand in a missionary's chapter on conversion. The Zande material prescribes a corroborative second test whose contradiction voids the verdict, which is an outcome a further run can establish and looks at first like the counter-case; it does not refute either, because the same transmission carries the eight causes beside it, so that the internal check and the external excuse coexist. What that pair shows is worth more than a clean confirmation: a transmission can hold a real check and an unlimited excuse at once, and the check then bounds nothing."@en,
@@ -12398,6 +12387,8 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         pmc:SanjiLiuxiong,
         pmc:ShangqingShijieZhengbian,
         pmc:Shenbushi,
+        pmc:ShintoFutomaniCausaDefectus,
+        pmc:ShintoSujinIteratio,
         pmc:YinshuKouchi ;
     pm:generalizedStatement "Where a transmission prescribes an operation whose success cannot be established apart from the operation itself, the same transmission supplies a condition under which a run that produced nothing counts as no failure of the operation, and it locates that condition in the operator, in the person operated on, in the material, or in a third party, rather than in an outcome that a further run could establish."@en .
 
@@ -13165,6 +13156,26 @@ pmc:ShierjinZhongshi a pm:Cautioning ;
         "This is also the passage in this corpus that comes closest to a stated failure condition for the operator rather than the patient. It says what the transgression produces, in the body, and names the direction of the change."@en ;
     pm:cautionsAbout pmp:Cizhen ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:ShintoFutomaniCausaDefectus a pm:Conceptualizing ;
+    rdfs:label "Die Wahrsagung, die sagt, warum der Ritus einen Blutegel hervorbrachte"@de,
+        "The divination that says why the rite produced a leech"@en ;
+    dcterms:source "Nihongi, Book I, the Age of the Gods, in the English of W. G. Aston, vol. I, London 1896, pp. 15-16" ;
+    skos:definition "The first use the chronicle makes of the procedure, and it is put to a rite that went wrong. The two deities set up the pillar of heaven, agree to go round it from opposite sides, and meet; the female speaks first. Their first child is a leech, which is put in a reed-boat and set adrift, and their next is not counted among their children either. They return to heaven and report the circumstances, and the heavenly gods divine the matter by the Greater Divination and instruct them: it was by reason of the woman's having spoken first. They then divine a time, go down again, and the second attempt succeeds."@en ;
+    skos:note "Every element of the shape this holding calls the excusing clause is here and none of it is a later gloss: a procedure whose outcome cannot be judged apart from itself, an outcome that plainly did not come off, a cause located in a nameable act of one of the two operators, and a repetition that succeeds. What makes it worth a node rather than a mention is that the cause is not asserted by the operators but produced by a second procedure whose own outcome nobody could establish either. The excuse is itself divined."@en,
+        "The time of the second attempt is divined as well, which puts a calendar condition on the repetition. The chronicle does not say what would have followed from going down at another time."@en ;
+    pm:fromWork pmw:Nihonshoki ;
+    pm:withinTradition pmt:Shinto .
+
+pmc:ShintoSujinIteratio a pm:Conceptualizing ;
+    rdfs:label "Er verehrte, wie ihm gesagt war, und es blieb ohne Wirkung"@de,
+        "He worshipped as he was told, but without effect"@en ;
+    dcterms:source "Nihongi, Book V, Sujin 7th year, 2nd and 8th months, in the English of W. G. Aston, vol. I, London 1896, pp. 151-153" ;
+    skos:definition "The chronicle's plainest case of an empty run. Calamities befall the country; the emperor assembles the deities and inquires by divination; a princess is inspired to answer that reverent worship would pacify the land of itself, and names the god who speaks. The emperor worshipped as he was told, but without effect. He then bathes, practises abstinence, purifies the interior of the hall, and prays again, asking whether the observance of due ceremonies is not yet complete and calling the non-acceptance cruel. That night the same god appears in a dream with a further instruction: let a named man be made master of the worship, and there will be peace at once. Three other people report the same dream, the man is found, the appointment is made, and the chronicle then says the country was at peace."@en ;
+    skos:note "The confirmation by three independent dreamers is the other half and is worth keeping in view: the second instruction is corroborated by three further people having the same dream on the same night. That is a check the transmission itself supplies, and it checks the instruction and not the outcome."@en,
+        "The sequence is the one generalizations/no-failed-run-counts.ttl describes, in narrative rather than in doctrine. An instruction is given by the procedure, carried out, and produces nothing; the emperor's own reading of the nothing is that his ceremonies were incomplete; and the remedy prescribed is a further and stronger address of the same kind, ending in a further instruction that supersedes the first without withdrawing it. At no point is the possibility raised that the first answer was wrong."@en ;
+    pm:fromWork pmw:Nihonshoki ;
+    pm:withinTradition pmt:Shinto .
 
 pmc:ShintoUkehiVariaeLectiones a pm:Disputing ;
     rdfs:label "Derselbe Ausgang, vier Fassungen, und das Urteil wandert mit der Zurechnungsregel"@de,
