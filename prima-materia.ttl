@@ -147,6 +147,17 @@ pmc:AegyptiaAhi a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaAkenti a pm:Naming ;
+    rdfs:label "Akenti"@de,
+        "Akenti"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the seventh pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the seventh of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "akenti" ;
+    pm:nameRole "doorkeeper of the seventh pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaAmBesek a pm:Naming ;
     rdfs:label "Am-besek"@de,
         "Am-besek"@en ;
@@ -268,6 +279,19 @@ pmc:AegyptiaAriEmAbF a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaAriNefTchesef a pm:Naming ;
+    rdfs:label "Ari-nef-tchesef"@de,
+        "Ari-nef-tchesef"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300",
+        "Budge, A Hieroglyphic Vocabulary to the Theban Recension of the Book of the Dead, London: Kegan Paul, 1911, s.v. Ari-nef-tchesef" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    skos:note "Budge glosses the name in the chapter: he who made himself. His vocabulary to the same recension carries the headword separately and gives it a different sense — name of a plank or peg in the magical boat — so the volume that elsewhere identifies a bearer here identifies a piece of timber. The two readings are recorded side by side and neither is preferred."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "ari-nef-tchesef" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaAritaeEfficacia a pm:Yielding ;
     rdfs:label "Die Rezitation an den sieben Arits bringt den ungehinderten Durchgang hervor"@de,
         "The recitation at the seven arits yields unimpeded passage"@en ;
@@ -323,6 +347,31 @@ pmc:AegyptiaBennuTransformatio a pm:Conceptualizing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaErtatSebanqa a pm:Naming ;
+    rdfs:label "Ertat-Sebanqa"@de,
+        "Ertat-Sebanqa"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the third pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the third of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "ertat-sebanqa" ;
+    pm:nameRole "doorkeeper of the third pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaExaminatioRerum a pm:Systematizing ;
+    rdfs:label "Die Namensprüfung ist die allgemeine Form des Korpus, nicht die Form seiner Tore"@de,
+        "The naming examination is the corpus's general form, not the form of its gates"@en ;
+    dcterms:date "2026-09-19" ;
+    dcterms:source "Book of the Dead, chapters 99, 125, 146 and 147, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 297-302, 375-377, 464-472 and 473-479" ;
+    skos:definition "Four places in the corpus put the same examination, and only two of them are gates. At the hall of the two Maati every element of the doorway refuses passage unless told its name. At the seven arits three officers are named at each. At the secret pylons a god and, for the first ten, a doorkeeper are named. And in chapter 99 the parts of a boat ask, one after another, to be told their names. The common form is exact: the thing addressed asks, the answer is supplied in the same passage, and the knowing of the whole is what the attached rubric rewards."@en ;
+    skos:note "Systematizing rather than generalizing, and the distinction matters here. This is one tradition's arrangement of its own material, put together from four places in one corpus, and it is asserted as the shape of that corpus and of nothing else. A claim about transmissions in general would need witnesses outside this one and a counter-search behind it; that is the work at generalizations/ and it is not done here."@en,
+        "The compiler named below is this project and not an Egyptian. The four places are the corpus's; putting them in one row is an act of this holding, dated, and the class exists so that a reader is not left to mistake the row for a testimony."@en,
+        "What this settles about the first two files. The forty-two and the twenty-one were entered as the names of gatekeepers. They are better read as instances of a procedure the corpus applies to whatever the dead man must get past or use, gods and rigging alike, and the procedure is the object worth holding. See pmc:AegyptiaRubricaScientiae for what the knowing is said to obtain and pmc:AegyptiaPortaeNomina for the one place where the failure is stated."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:compiledBy "prima-materia" ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaFenti a pm:Naming ;
     rdfs:label "Fenti"@de,
         "Fenti"@en ;
@@ -356,6 +405,40 @@ pmc:AegyptiaHaKheru a pm:Naming ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:nameForm "ha-kheru" ;
     pm:nameRole "herald of the first arit" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaHapi a pm:Naming ;
+    rdfs:label "Hapi"@de,
+        "Hapi"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "hapi" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaHaqau a pm:Naming ;
+    rdfs:label "Haqau"@de,
+        "Haqau"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    skos:note "Budge glosses the name: he who leadeth away captive."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "haqau" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaHentiRequ a pm:Naming ;
+    rdfs:label "Henti-Requ"@de,
+        "Henti-Requ"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the fifth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the fifth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "henti-requ" ;
+    pm:nameRole "doorkeeper of the fifth pylon of the house of Osiris in Sekhet-Aanru" ;
     pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaHeptSeshet a pm:Naming ;
@@ -488,6 +571,17 @@ pmc:AegyptiaKhesefKhemi a pm:Naming ;
     pm:nameRole "herald of the seventh arit" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaKhuTchetF a pm:Naming ;
+    rdfs:label "Khu-tchet-f"@de,
+        "Khu-tchet-f"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the eighth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the eighth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "khu-tchet-f" ;
+    pm:nameRole "doorkeeper of the eighth pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaLibraIudicium a pm:Conceptualizing ;
     rdfs:label "Es ist durch die Probe in der großen Waage als wahr befunden worden"@de,
         "It hath been found true by trial in the Great Balance"@en ;
@@ -496,6 +590,18 @@ pmc:AegyptiaLibraIudicium a pm:Conceptualizing ;
     skos:note "Read together with pmc:AegyptiaCorNeTestetur and pmc:AegyptiaPortaeNomina this is the whole shape: an examination whose questions are published with their answers, whose one uncontrollable witness is neutralised by an amulet, and whose verdict is written in advance on the document the candidate carries."@en,
         "This is a procedure with an instrument, a criterion, an announced result and a bench of witnesses, written out in full, and it is one of the few things in this holding that looks like a protocol from the inside. What it is not is a case: it is the scene as the buyer of the papyrus wanted it inscribed for himself, with his own name in it and with the favourable outcome already written. The manuscript is the record of the verdict and the verdict is part of what the manuscript was bought to obtain."@en ;
     pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaMaaAnTef a pm:Naming ;
+    rdfs:label "Maa-an-tef"@de,
+        "Maa-an-tef"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    skos:note "Budge glosses the name: he who seeth what the father bringeth."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "maa-an-tef" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
     pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaMaaAntuF a pm:Naming ;
@@ -521,6 +627,42 @@ pmc:AegyptiaMaaFEmKhet a pm:Naming ;
     pm:nameForm "maa-f-em-khet" ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaMesPeh a pm:Naming ;
+    rdfs:label "Mes-Peh"@de,
+        "Mes-Peh"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the second pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:altLabel "Mes-Ptah"@en ;
+    skos:definition "The doorkeeper of the second of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    skos:note "Budge prints Mes-Peh (or Mes-Ptah); the edition gives both readings and decides between them nowhere."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "mes-peh" ;
+    pm:nameRole "doorkeeper of the second pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaMesthi a pm:Naming ;
+    rdfs:label "Mesthi"@de,
+        "Mesthi"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:altLabel "Mestha"@en ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "mesthi" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaNavisEfficacia a pm:Yielding ;
+    rdfs:label "Das Wissen der Namen des Bootes bringt das Gut in Sechet-Aaru hervor"@de,
+        "Knowing the names of the boat yields the estate in Sekhet-Aarru"@en ;
+    dcterms:source "Book of the Dead, chapter 99, rubric, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 301-302" ;
+    skos:note "Entered as the claim of the transmission. No term, no sign, no stated way for it to fail, and no case. The one thing this claim has which most in the corpus do not is a named labour force: the followers of Horus reap the barley, and the man who knows the chapter eats it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AegyptiaNavisNomina ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual ;
+    pm:yieldsCapacity pmc:AegyptiaNavisRubrica .
 
 pmc:AegyptiaNebAbui a pm:Naming ;
     rdfs:label "Neb-abui"@de,
@@ -619,6 +761,17 @@ pmc:AegyptiaNehebNefert a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaNekau a pm:Naming ;
+    rdfs:label "Nekau"@de,
+        "Nekau"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the fourth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the fourth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "nekau" ;
+    pm:nameRole "doorkeeper of the fourth pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaNekhennu a pm:Naming ;
     rdfs:label "Nekhennu"@de,
         "Nekhennu"@en ;
@@ -645,6 +798,28 @@ pmc:AegyptiaPuritasRecitantis a pm:Presupposing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmp:AegyptiaPeretEmHeru ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaPylonorumNomina a pm:Conceptualizing ;
+    rdfs:label "Die geheimen Pylone: was an jedem gewusst wird, und wo der Pförtner aufhört"@de,
+        "The secret pylons: what is known at each, and where the doorkeeper stops"@en ;
+    dcterms:source "Book of the Dead, chapter 146, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The form of chapter 146. At each pylon of the house of Osiris in Sekhet-Aanru the dead man says that he has made his way, that he knows the pylon, that he knows its name, and that he knows the name of the god who guards it. The pylon's name is then given as a long epithet — lady of tremblings with lofty walls, fire the lady of flames, blazing fire whose flame cannot be quenched — and after it, for the first ten pylons only, the name of the doorkeeper."@en ;
+    skos:note "How many pylons there are depends on the manuscript, and Budge says so in a footnote at the eleventh: the Papyrus of Ani enumerates ten only, the version Naville published has twenty vignettes, and the Turin papyrus gives fifteen. The chapter as printed runs to twenty-one. This is the same finding as the one at pmp:EgyptianAssessorNameSearch in another place — the number is a property of the copy and not of the thing counted."@en,
+        "The chapter has two halves and the seam is at the eleventh pylon. Up to the tenth the dead man knows the name of the god who guardeth you and a doorkeeper is named. From the eleventh he knows instead the name of her who is within thee, no doorkeeper is named at all, and every pylon closes with the same fixed clause: she hath the judgment of the feeble bandaged one. Two different things have been joined under one chapter number, and the join is visible in the wording."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaQebhSennuf a pm:Naming ;
+    rdfs:label "Qebh-sennuf"@de,
+        "Qebh-sennuf"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "qebh-sennuf" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
     pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaQererti a pm:Naming ;
@@ -695,6 +870,17 @@ pmc:AegyptiaSekhemetEmTesuSen a pm:Naming ;
     pm:nameRole "doorkeeper of the seventh arit" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaSekhenUr a pm:Naming ;
+    rdfs:label "Sekhen-ur"@de,
+        "Sekhen-ur"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the tenth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the tenth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "sekhen-ur" ;
+    pm:nameRole "doorkeeper of the tenth pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaSekheriu a pm:Naming ;
     rdfs:label "Sekheriu"@de,
         "Sekheriu"@en ;
@@ -717,6 +903,17 @@ pmc:AegyptiaSekhetHraAshtAru a pm:Naming ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:nameForm "sekhet-hra-asht-aru" ;
     pm:nameRole "doorkeeper of the first arit" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaSemamti a pm:Naming ;
+    rdfs:label "Semamti"@de,
+        "Semamti"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the sixth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the sixth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "semamti" ;
+    pm:nameRole "doorkeeper of the sixth pylon of the house of Osiris in Sekhet-Aanru" ;
     pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaSemetti a pm:Naming ;
@@ -837,6 +1034,17 @@ pmc:AegyptiaTaRet a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaTchesef a pm:Naming ;
+    rdfs:label "Tchesef"@de,
+        "Tchesef"@en ;
+    dcterms:source "Book of the Dead, chapter 146, the ninth pylon, Papyrus of Nu (British Museum No. 10,477, sheet 25), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 464-472" ;
+    skos:definition "The doorkeeper of the ninth of the pylons of chapter 146. The dead man says that he knows the pylon, its name and the name of the god who guards it; the pylon's own name is then given as a long epithet, and the doorkeeper's name is given last and alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "tchesef" ;
+    pm:nameRole "doorkeeper of the ninth pylon of the house of Osiris in Sekhet-Aanru" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaTcheserTep a pm:Naming ;
     rdfs:label "Tcheser-tep"@de,
         "Tcheser-tep"@en ;
@@ -887,12 +1095,35 @@ pmc:AegyptiaThenemiu a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaThetEmAua a pm:Naming ;
+    rdfs:label "Thet-em-Aua"@de,
+        "Thet-em-Aua"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    skos:note "Budge glosses the name: he who seizeth by violence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "thet-em-aua" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaTransformatioQuaelibet a pm:Conceptualizing ;
     rdfs:label "Sich in was immer er will zu verwandeln"@de,
         "Transforming himself into whatever he pleaseth"@en ;
     dcterms:source "Book of the Dead, chapter 76, Papyrus of Ani, in the English of E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, translation section, between the pages headed 329 and 333" ;
     skos:definition "The general capacity the series opens with: the chapter of a man transforming himself into whatever he pleaseth. The speaker enters the house of the king, has gathered together the great gods, is mighty, has made his way and has travelled along thereon. The rubric appended to it in the Papyrus of Ani is the two-sided one entered at pmc:AegyptiaRubricaBilateralis."@en ;
     pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaTuamautef a pm:Naming ;
+    rdfs:label "Tuamautef"@de,
+        "Tuamautef"@en ;
+    dcterms:source "Book of the Dead, chapter 99, the names of the parts of the boat, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 299-300" ;
+    skos:definition "One of the eight names answered together when the planks in the hull say tell us our names. The eight are given in one breath and in one order: Mesthi, Hapi, Tuamautef, Qebh-sennuf, Haqau, Thet-em-Aua, Maa-an-tef, Ari-nef-tchesef. The first four are the sons of Horus, who are named elsewhere in the corpus; the last four are named here and, so far as this run could find, nowhere else in it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:nameForm "tuamautef" ;
+    pm:nameRole "one of the eight planks in the hull of the boat of chapter 99" ;
     pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaTutuF a pm:Naming ;
@@ -11791,6 +12022,16 @@ pmc:AegyptiaFlammaeSignum a pm:Conceptualizing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaNavisRubrica a pm:Conceptualizing ;
+    rdfs:label "Er wird hervorgehen nach Sechet-Aaru, und die Gefolgsleute des Horus werden für ihn ernten"@de,
+        "He shall come forth into Sekhet-Aarru, and the followers of Horus shall reap for him"@en ;
+    dcterms:source "Book of the Dead, chapter 99, rubric, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 301-302" ;
+    skos:definition "What the rubric of chapter 99 says the knowing of it obtains. If this chapter be known by the deceased he shall come forth into Sekhet-Aarru; bread and wine and cakes shall be given unto him at the altar of the great god; and fields and an estate sown with wheat and barley, which the followers of Horus shall reap for him. He shall eat of that wheat and barley, his limbs shall be nourished therewith, his body shall be like unto the bodies of the gods, and he shall come forth into Sekhet-Aarru in any form whatsoever he pleaseth, regularly and continually."@en ;
+    skos:note "The condition is knowing and not doing, as at pmc:AegyptiaRubricaScientiae, and the chapter it attaches to is a list of names. What is promised is an estate with other people working it, which is the most concrete thing any rubric read in this corpus promises and the one least available to inspection."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaRubricaBilateralis a pm:Conceptualizing ;
     rdfs:label "Die eine Nachschrift, die sagt, was aus dem Nichtwissen folgt"@de,
         "The one rubric that states what follows from not knowing"@en ;
@@ -15269,6 +15510,18 @@ pm:workOpened a pm:CoverageState ;
         "Work opened"@en ;
     skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
 
+pmp:AegyptiaNavisNomina a pm:Practicing ;
+    rdfs:label "Das Boot herbeiführen: jedem seiner Teile den Namen sagen"@de,
+        "Bringing along the boat: answering every part of it by name"@en ;
+    dcterms:source "Book of the Dead, chapter 99, Papyrus of Nu (British Museum No. 10,477, sheets 21 and 22), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 297-302" ;
+    skos:definition "The operation of chapter 99. After an address to those who bring the boat over the back of Apep, the parts of the vessel put their question one after another, each in the same words — tell me my name, or tell us our names — and each is answered. The sequence runs through the wood, the rudder, the rope, the oar-rests, the hold, the mast, the lower deck, the upper post, the sail, the pieces of leather, the paddles, the matchabet, the planks of the hull, the bows, the hull, the rudder a second time, the keel, the sailor, the wind, the river, the river banks and the ground. A closing address to the divine beings with beautiful Kas is then recited before them."@en ;
+    skos:note "Budge's vocabulary to the same recension confirms the reading of the chapter from outside it, and supplies the corpus's own term for the vessel. It carries several of these answers as headwords in their own right and glosses them as parts of what it calls the magical boat: Ari-nef-tchesef as a plank or peg in it, Arisi as the leather bands in it. So the answers are not epithets invented for the dialogue; they are the names the tackle is held to have."@en,
+        "The examination is put by the equipment. The corpus applies to a rope and a plank the form it applies at the gate of the underworld, and it draws no distinction of kind between them: the keel asks in the same words as the doorkeeper and is answered out of the same book."@en,
+        "The rudder asks twice and is answered differently each time — Leg of Hapiu at the first asking, Aqa, the true one, at the second. Nothing in the chapter marks the repetition as an error or as two different rudders."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmp:AegyptiaPeretEmHeru a pm:Practicing ;
     rdfs:label "Das Herausgehen am Tage: das Rezitieren und das Wissen der Kapitel"@de,
         "Coming forth by day: the recitation and the knowing of the chapters"@en ;
@@ -18511,12 +18764,6 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Abgezogene Vertiefung"@de,
@@ -18560,6 +18807,12 @@ pmt:Ifa a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
@@ -19335,6 +19588,17 @@ pm:Testing a owl:Class ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
 pmt:EgyptianRitual a pm:Tradition ;
     rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
         "Pharaonic Egyptian ritual"@en ;
@@ -19362,10 +19626,12 @@ pmw:BookOfTheDead a dcterms:BibliographicResource ;
         "One place in this file is given without a page number, and the reason is a property of the copy and not of the work: in the scanned text of Budge 1895 the running heads are legible on some pages and not on others, and the rubric to chapter 76 falls in a stretch where they are not. It is located instead by chapter, by its printed heading Appendix 1, and by the chapter it stands immediately before. SPEC §10 measures a place by findability and not by numbering, and a page number guessed by interpolation would have looked better and been worth less."@en,
         "Opened on 2026-09-19 in two public-domain English translations: Budge 1901, three volumes, the Theban recension, base manuscripts named chapter by chapter, dominant among them the Papyrus of Nu, the Papyrus of Ani and the Papyrus of Nebseni; and Budge 1895, the Papyrus of Ani alone, with text, transliteration and translation. Renouf and Naville 1904, which translates from Naville's synoptic edition and refers to its manuscripts by sigla rather than by name, was used as the second translation and as the check on Budge."@en .
 
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
@@ -19376,19 +19642,6 @@ pm:Naming a owl:Class ;
         "Three things must not collapse into one, and this class holds only the first two. The bearer and the name form belong here. The operative claim — that invoking under this name does something — stays a pm:Yielding whose practice is the invocation, because that claim needs its own falsifying condition and its own protocol."@en,
         "Variants between recensions are not smoothed into a lead form. Where two editions give different names for what a reader takes to be one bearer, that is a pm:Disputing node, by the same rule SPEC §10 sets for diverging text: an averaged node reports a witness nobody gives."@en,
         "pm:ascribedTo deliberately keeps no rdfs:range. Where the bearer is a named being it points at an instance of this class; where it is humanity before a stated event, or a class of beings the source does not name, it points elsewhere, and a range would have forced those cases out of the record or into a name nobody gave them."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
-
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
