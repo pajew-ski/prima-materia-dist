@@ -113,6 +113,105 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         pmc:Wujin ;
     pm:generalizedStatement "Transmissions that bind an operation to a calendar state the condition as a date and not as a state of the operator or of the person operated on; and where such a transmission states a consequence for acting outside the window, it locates the failure in the time rather than in either party."@en .
 
+pmc:AegyptiaArcanumAmenti a pm:Cautioning ;
+    rdfs:label "Vollziehe dies vor keinem Menschen, denn es ist ein überaus großes Geheimnis"@de,
+        "Perform this before no human being, because it is an exceedingly great mystery"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 417-418",
+        "Book of the Dead, chapter 161, rubric, from the Turin text, in the English of Peter le Page Renouf and Édouard Naville, The Egyptian Book of the Dead, London: Society of Biblical Archaeology, 1904" ;
+    skos:definition "The secrecy clause of the same rubric: thou shalt not perform this ceremony before any human being except thine own self, or thy father, or thy son, because it is an exceedingly great mystery of Amentet and is a type of the hidden things of the underworld. The rubric adds that these things shall be done secretly in the underworld, and that they are mysteries of Neter-khert."@en ;
+    skos:note "No consequence is stated for breaking the clause in either translation. That is the ordinary state of this corpus and is recorded rather than filled in."@en,
+        "The exception is the finding, and it is edition-dependent. Budge admits the father and the son to the ceremony; Renouf, translating the Turin text under chapter 161, has the same clause exclude them by name — reveal it to no one, may he be thy father or thy son, except thyself. The two readings put the boundary of the transmission in different places, one at the lineage and one at the single person, and no reading of the Egyptian was available to this run to decide between them. The node therefore reports both and asserts neither."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AegyptiaQuattuorFlammae ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaBennuTransformatio a pm:Conceptualizing ;
+    rdfs:label "Verwandlung in den Bennu-Vogel, und was sie erlaubt"@de,
+        "Transformation into the Bennu bird, and what it permits"@en ;
+    dcterms:source "Book of the Dead, chapter 83, with its rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 268-269" ;
+    skos:definition "The speaker declares that he has germinated like the things which germinate, that he is of the germs of every god, that he is Yesterday of the four quarters and of the seven uraei which came into existence in Amentet, that he has come by day and risen in the footsteps of the gods, and that he is the god Khensu who driveth back all that oppose him. The rubric states what the state permits: he shall come forth pure by day after his death, he shall perform whatsoever transformations his heart desireth, he shall be in the following of Un-nefer, he shall be satisfied with the food of Osiris and with sepulchral meals, he shall see the disk, he shall be in good case upon earth before Ra, he shall be triumphant before Osiris, and no evil thing whatsoever shall have dominion over him for ever and ever."@en ;
+    skos:note "Entered singly and not in a list with the other transformations, because the harvest rule counts capacities strictly and because these are not one claim restated: each spell names a different form and a different set of permissions. Of the thirteen transformation spells only three were read at the wording in this run, and only two of those carry a rubric of their own."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaFlammaeEfficacia a pm:Yielding ;
+    rdfs:label "Die vier Flammen bringen die Gestalt und die Herrschaft des Gottes hervor"@de,
+        "The four flames yield the form and the dominion of the god"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 417-418" ;
+    skos:note "Entered as the claim of the transmission. The rubric states the operation, the materials, the personnel, the time of day and the outcome, which is more than most of this corpus states; what it does not state is any term or any way for the thing to come out otherwise."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AegyptiaQuattuorFlammae ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual ;
+    pm:yieldsCapacity pmc:AegyptiaFlammaeSignum .
+
+pmc:AegyptiaHirundoTransformatio a pm:Conceptualizing ;
+    rdfs:label "Verwandlung in eine Schwalbe, und was sie erlaubt"@de,
+        "Transformation into a swallow, and what it permits"@en ;
+    dcterms:source "Book of the Dead, chapter 86, with its rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 275-277" ;
+    skos:definition "The speaker declares that he is a swallow and the Scorpion, the daughter of Ra; that the beings who guard the doors are to make him a way, for he is like unto them; that he has come forth by day, journeyed on his legs and gained the mastery over his footsteps before the God of Light; that he knows the hidden ways and the doors of the Sekhet-Aarru; and that he has overthrown his enemies upon earth while his perishable body is in the grave. The rubric states what the state permits: he shall come forth by day, he shall not be turned back at any gate in the underworld, and he shall make his transformation into a swallow regularly and continually."@en ;
+    skos:note "The permission is the negation of the failure condition entered at pmc:AegyptiaPortaeNomina, and it is granted on the same ground: the speaker says he is like unto the guardians of the doors and knows the ways. The corpus keeps its instrument, its examination and its answer in one register."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaInventioLibri a pm:Disputing ;
+    rdfs:label "Wer das Kapitel fand, und unter welchem König"@de,
+        "Who found the chapter, and under which king"@en ;
+    dcterms:source "Book of the Dead, chapter 64, long version, rubric I, Papyrus of Nu sheet 13, in the English of E. A. Wallis Budge, London 1901, vol. I, p. 221",
+        "Book of the Dead, chapter 64, long version, rubric II, Papyrus of Nu sheet 21, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 221-222" ;
+    skos:definition "One chapter, two accounts of its discovery, in the same manuscript and separated by a few sheets. The rubric of the short version says that this chapter was found in the foundations of the shrine of the divine Hennu boat by the chief mason in the time of Semti, a king of the first dynasty, who carried it away as a mysterious object which had never before been seen or looked upon. The rubric of the long version says that this chapter was found in the city of Khemennu upon a block of iron of the south inlaid with letters of real lapis lazuli, under the feet of the god, in the time of Men-kau-Ra, by the royal son Heru-ta-ta-f, while he was journeying to make an inspection of the temples; one Nekht was with him and made him understand it; and he brought it to the king as a wonderful object when he saw that it was a thing of great mystery, which had never before been seen or looked upon. The same Hermopolis legend is attached in other manuscripts to chapter 30B and to chapter 148."@en ;
+    skos:note "Two dynasties, two places, two finders, and the identical closing formula about a thing never before seen. The editor of 1901 proposes in his introduction that both may be true because the long version is an amplification of the short; the editor of 1904 says of the same legend where it recurs at chapter 137A that it is told in imitation of the rubric of chapter 64, and calls the statement veracious in a tone that leaves no doubt. The second reading makes the find legend a form rather than a report, and the fact that the same legend travels between three different chapters is evidence for it."@en,
+        "Why a transmission tells such a story is a question this holding can put to other corpora: it is the claim that the text is older than any line of teachers, was written by the god himself, and was recovered rather than composed. Whatever else it does, it removes the text from the reach of anyone who might remember where it came from."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:AegyptiaRubricaScientiae ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaLibraIudicium a pm:Conceptualizing ;
+    rdfs:label "Es ist durch die Probe in der großen Waage als wahr befunden worden"@de,
+        "It hath been found true by trial in the Great Balance"@en ;
+    dcterms:source "Book of the Dead, the weighing of the heart, Papyrus of Ani, plate III, in the English of E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, p. 258" ;
+    skos:definition "The verdict, given in the corpus's own words at the scene of the weighing. Thoth, the righteous judge of the great company of the gods who are in the presence of Osiris, saith: Hear ye this judgment. The heart of Osiris hath in very truth been weighed, and his soul hath stood as a witness for him; it hath been found true by trial in the Great Balance. There hath not been found any wickedness in him; he hath not wasted the offerings in the temples; he hath not done harm by his deeds; and he uttered no evil reports while he was upon earth. The company of the gods reply that what cometh forth from his mouth hath been ordained."@en ;
+    skos:note "Read together with pmc:AegyptiaCorNeTestetur and pmc:AegyptiaPortaeNomina this is the whole shape: an examination whose questions are published with their answers, whose one uncontrollable witness is neutralised by an amulet, and whose verdict is written in advance on the document the candidate carries."@en,
+        "This is a procedure with an instrument, a criterion, an announced result and a bench of witnesses, written out in full, and it is one of the few things in this holding that looks like a protocol from the inside. What it is not is a case: it is the scene as the buyer of the papyrus wanted it inscribed for himself, with his own name in it and with the favourable outcome already written. The manuscript is the record of the verdict and the verdict is part of what the manuscript was bought to obtain."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaPuritasRecitantis a pm:Presupposing ;
+    rdfs:label "Zu sprechen von einem, der rein ist und weder Fleisch noch Fisch gegessen noch Frauen berührt hat"@de,
+        "Recited by one who is clean and hath not eaten flesh or fish or touched women"@en ;
+    dcterms:source "Book of the Dead, chapter 125, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 377-378",
+        "Book of the Dead, chapter 64, the three rubrics, Papyrus of Nu and Papyrus of Mes-em-neter, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 217-218 and 221-222" ;
+    skos:definition "The condition attached to chapter 64 in all three of its rubrics: this chapter shall be recited by a man who is ceremonially clean and pure, who hath not eaten the flesh of animals or fish, and who hath not had intercourse with women. Chapter 125 sets a longer list of the same kind before its own recitation: cleansed and purified, arrayed in apparel, shod with white leather sandals, the eyes painted with antimony, the body anointed with unguent of anti, and offerings of oxen, fowl, incense, cakes, ale and garden herbs; and the representation is to be drawn on a new tile moulded from earth upon which neither a pig nor other animals have trodden."@en ;
+    skos:note "Entered at prescribed order and not at stated necessity, and the reason is the finding. The corpus sets the condition three times over in the same chapter and never says what follows if it is broken. A reader who took the strength from the insistence rather than from the wording would enter a necessity the text does not state."@en,
+        "The tile untrodden by a pig is the one condition in the passage that a second person could have checked before the fact. Everything else on the list is a state of the reciter."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:AegyptiaRubricaScientiae ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:AegyptiaPeretEmHeru ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaScarabaeusEfficacia a pm:Yielding ;
+    rdfs:label "Der Skarabäus hält das Herz davon ab, seinem Träger genommen zu werden"@de,
+        "The scarab keeps the heart from being driven from its owner"@en ;
+    dcterms:source "Book of the Dead, chapter 30B with its rubric, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 150-152" ;
+    skos:note "The title of the chapter states the claim as plainly as any in this holding: the chapter of not letting the heart of the deceased be driven from him in the underworld."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AegyptiaScarabaeusCordis ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual ;
+    pm:yieldsCapacity pmc:AegyptiaCorNeTestetur .
+
+pmc:AegyptiaTransformatioQuaelibet a pm:Conceptualizing ;
+    rdfs:label "Sich in was immer er will zu verwandeln"@de,
+        "Transforming himself into whatever he pleaseth"@en ;
+    dcterms:source "Book of the Dead, chapter 76, Papyrus of Ani, in the English of E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, translation section, between the pages headed 329 and 333" ;
+    skos:definition "The general capacity the series opens with: the chapter of a man transforming himself into whatever he pleaseth. The speaker enters the house of the king, has gathered together the great gods, is mighty, has made his way and has travelled along thereon. The rubric appended to it in the Papyrus of Ani is the two-sided one entered at pmc:AegyptiaRubricaBilateralis."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AffectCouplingProtocol a pm:Testing ;
     rdfs:label "Ob die Verschiebung eintritt, und ob die Behauptung etwas über sie sagt"@de,
         "Whether the shift occurs, and whether the claim says anything about it"@en ;
@@ -3439,6 +3538,24 @@ pmc:KiyokaProtocol a pm:Testing ;
     pm:protocolUpdated "2026-09-08"^^xsd:date ;
     pm:tests pmc:Kiyoka .
 
+pmc:KnowingTheTextAsTheCondition a pm:Converging ;
+    rdfs:label "Die Erlangung hängt am Wissen eines Textes, und das Scheitern am Nichtwissen"@de,
+        "The attainment is attached to knowing a text, and the failure to not knowing it"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7 to iii,11 (xi,7 to xi,11), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge, Massachusetts 1920, pp. 169-172",
+        "Book of the Dead, chapters 64, 83, 86 and 125, rubrics and the address to the gods of the hall of the two Maati, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. I, pp. 217-218 and 221-222, and vol. II, pp. 269, 275-277 and 375-378",
+        "Śatapatha Brāhmaṇa XI,5,3,8-12 and XI,5,6,9 (Mādhyandina), in the English of Julius Eggeling, The Śatapatha-Brāhmaṇa, Sacred Books of the East 44, Oxford: Clarendon Press, 1900, pp. 82-85 and 99" ;
+    skos:definition "Two transmissions state the condition of their attainments in the same unusual place. Neither says that the man who performs the rite obtains the result; both say that the man who knows obtains it. The Egyptian corpus closes chapter after chapter with the clause that if this chapter be known by the deceased, such and such will follow — coming forth by day, passage at every gate, transformation into whatever form he pleases, flourishing children and the favour of the king. The Vedic corpus closes exposition after exposition with the clause that he who knows this attains a full life, offspring, cattle, prosperity, or escape from the death that comes again. And both state the reverse in the same terms. At the hall of the two Maati every part of the doorway refuses the dead man passage unless he tells its name; in the Vedic dialogue on the fires that go out, the eldest son dies, the master of the house dies, the cattle die, but only in the case of him who would not know this, while the man who knows has by dint of knowledge prevailed."@en ;
+    skos:note "A third witness stands near and is deliberately not counted. The Hekhalot literature in this graph has doorkeepers at the palaces, a stated fitness, and a penalty of violence for the descender who fails at the sixth gate; but what that gate tests is silence and not knowledge of a name, and the passages where names and seals are the condition of passage were not read at the wording in this run. It is named here so that the next run knows where the third leg would come from, and it is not in pm:convergingConcept."@en,
+        "Counter-material was looked for in this holding before the node was written, and one kind was found. Where a transmission deliberately keeps part of its operative content out of writing, the condition moves off the text: the internal alchemy says that the sages transmit the medicine and do not transmit the fire, and that the one aperture cannot be settled by one's own notion but must be handed on from mouth to mind. That does not contradict this correspondence, which is about two corpora that put everything into the text; it bounds it, and the bound is the useful part. It is stated as a claim at generalizations/the-text-and-what-is-withheld.ttl."@en,
+        "What the two do not share, and it is worth as much as what they do. The Egyptian condition is knowledge of a particular wording that can be written on a roll and buried with the man, and the corpus is that roll. The Vedic condition is knowledge of an identification — that this breath has entered that breath, that the year is Death — which the corpus states but which is not a formula to be recited. One is a password, the other an interpretation. A run that wanted to press the correspondence further would have to ask whether the Egyptian names are ever glossed as meanings rather than as names."@en,
+        "Why the correspondence is worth stating at all, given that caveat. It is not that two transmissions promise things for knowing — many do. It is that both of them state the failure in the same place and in the same grammar, so that the whole apparatus turns on one unobservable fact about a man. In the Egyptian case the gates ask a question whose answer the buyer has already purchased; in the Vedic case the same mishap kills one man's son and not another's, and what decides it is an equivalence held in the mind. In both, no third party at any time could tell the two cases apart."@en ;
+    pm:convergingConcept pmc:AegyptiaPortaeNomina,
+        pmc:AegyptiaRubricaScientiae,
+        pmc:VaidikaJnanenaJitam,
+        pmc:VaidikaYaEvamVeda ;
+    pm:independenceGround "Not a claim of priority in time. The Egyptian witness is the older by a wide margin: the Book of the Dead is attested from about sixteen hundred before this era and its clause-bearing predecessors earlier still, while the Śatapatha Brāhmaṇa in the Mādhyandina recension belongs to the first half of the following millennium. What carries the independence is that no route of contact has been established, in anything this run read or searched, between the Egyptian mortuary literature and the Vedic ritual exegesis for this feature; the disputed contact route entered on the Egyptian instance concerns the Graeco-Roman and hermetic material of a much later period and the demotic manuscripts of the Roman era, not the Indian side, and the documented route entered on the Vedic instance concerns its own Indic and Eurasian neighbourhood. Two things this ground does not settle and does not hide. Both corpora stand in one connected Old World in which contact of other kinds is abundantly documented, and absence of an established route for a feature is not the same as an established absence of route. And the feature is of a kind for which the structural alternative is strong: a transmission whose product is a text has a reason of its own to make knowing the text the condition, and that reason is available to anybody independently of anybody else. See the note below and generalizations/the-text-and-what-is-withheld.ttl, where the structural reading is what is actually put at risk." ;
+    pm:independentAttestation pmt:EgyptianRitual .
+
 pmc:KnowledgePresupposesContemplation a pm:Presupposing ;
     rdfs:label "Gotteserkenntnis setzt Naturschau voraus"@de,
         "Knowledge of God presupposes contemplation of nature"@en ;
@@ -4063,16 +4180,6 @@ pmc:NavajoPublicErrorDetection a pm:Conceptualizing ;
     skos:note "The part of the claim that makes it examinable rather than merely asserted. The tradition does not only say that an error destroys the effect; it names who notices, when, and what visibly follows. Neither of the two parallel witnesses in this bundle carries that."@en ;
     pm:withinTradition pmt:NavajoCeremonial .
 
-pmc:NeidanChuanyaoBuchuanhuo a pm:Conceptualizing ;
-    rdfs:label "Die Weisen überliefern die Arznei und nicht das Feuer"@de,
-        "The sages transmit the medicine and not the fire"@en ;
-    dcterms:source "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 30a",
-        "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 32a" ;
-    skos:definition "The Wuzhen pian states that one may know cinnabar and black lead and still, not knowing the fire phases, be as idle as before; that the whole thing rests on the force of the practice; and that a hair's breadth of difference makes no elixir. Weng Baoguang's comment draws the rule: the making of the golden elixir rests wholly on the metal, a hair's breadth of difference is a thousand li apart, and therefore the sages transmit the medicine and do not transmit the fire. A second poem in the same juan says that the pacts, treatises, scriptures and songs expound the ultimately true and do not set the fire phases down in writing, and that to know where the oral instruction reaches through to the mystery one must discuss it in detail with an immortal; the comment adds that the six hundred chapters of the Record of the Fire are each like the other, that what heaven keeps hidden no sage transmits in writing, and that one must meet a true master and not blunder on alone."@en ;
-    skos:note "The transmission is not concealing this; it is arguing for it, and the argument is about secrecy and not about failure. That the two come to the same thing is an observation of this file and is not in the text."@en,
-        "This is the structural counterpart of the thirty thousand marks. There the tolerance is nil; here the parameter against which the tolerance would be measured is by doctrine not written down. Together they make a system in which no written instruction can ever be shown to have been followed correctly, and in which a failure therefore always has somewhere to go."@en ;
-    pm:withinTradition pmt:Neidan .
-
 pmc:NeidanDuoshu a pm:Yielding ;
     rdfs:label "Zwanzigtausend Marken gegen dreißigtausend Jahre"@de,
         "Twenty thousand marks against thirty thousand years"@en ;
@@ -4133,20 +4240,6 @@ pmc:NeidanShimo a pm:Cautioning ;
     skos:note "The chapter tells the practitioner what to do when the appearance comes in inner observation, and the instruction is diagnostic in form: examine whether it is empty or solid, discriminate the true from the false, do not follow the wave and take the thief for your son, and raise the true fire of absorption to burn the body, at which the whole crowd of demons scatters at one sweep. What it does not supply is any mark by which the true would be told from the false, so the discrimination it demands has no criterion."@en,
         "The seventh is the one to keep. The appearance of the sages and the high gods in full procession is listed among the demons on the same footing as the appearance of wealth or of armed men, so that the arrival of what the practice promises is itself a form of its failure. A transmission that puts its own goal into the list of deceptions has stated something that costs it, and it is entered here for that reason."@en ;
     pm:cautionsAbout pmp:NeidanNeiguan ;
-    pm:withinTradition pmt:Neidan .
-
-pmc:NeidanYiqiao a pm:Presupposing ;
-    rdfs:label "Die eine Öffnung, die aus einem Mund kommen muss"@de,
-        "The one aperture, which must be had from a mouth"@en ;
-    dcterms:source "Zhang Boduan (ascr.), Jindan sizi, preface, with Huang Ziru's commentary (DZ 1081), Zhengtong Daozang, Hanfenlou facsimile, fol. 4a-4b" ;
-    skos:definition "The preface makes one thing the condition of everything else. There is in the body an aperture called the mysterious female; it is not the heart, not the kidneys, not the mouth or nose, not the spleen or stomach, not the grain passage, not the bladder, not the cinnabar field and not the upper cinnabar field. Whoever knows this one aperture has in it the winter solstice, the medicine, the fire phases, the bathing and the binding of the embryo. And the condition on the condition: this aperture may not be settled by one's own notion, it must be handed on from mind to mouth, and whoever does otherwise acts at random."@en ;
-    skos:note "Entered as a stated necessity because the consequence of missing it is stated for the whole work at once: without it the run is at random, which is the preface's own word. The construction is worth setting beside the fire-phase node below, since between them they remove both halves of the operation from the written record — the place is not to be found by thinking and the timing is not to be written down."@en,
-        "The nine denials are the operative part and are kept in the definition rather than summarised. A list that says where the aperture is not, and gives no positive location, cannot be followed by a reader; that is what makes the oral transmission necessary, and the necessity is stated in the same passage that creates it."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:consequenceOfSkipping "Whoever settles the aperture by his own notion rather than receiving it from mouth to mind is said to be acting at random; and since solstice, medicine, fire phases, bathing and the binding of the embryo are all said to lie in it, the whole operation goes with it." ;
-    pm:dependentStep pmp:NeidanHuohou ;
-    pm:prerequisiteStrength pm:statedNecessity ;
-    pm:priorStep pmp:NeidanZhengyanXingchi ;
     pm:withinTradition pmt:Neidan .
 
 pmc:NeidanYizaiShengtai a pm:Yielding ;
@@ -6576,6 +6669,18 @@ pmc:TheEatersOfMen a pm:Conceptualizing ;
         "The whole of it was obtained under an examination conducted by a tribunal with the power to punish, and the recorder says the punishment given during the visitation was deliberately light in order to keep them quiet until a heavier one could be arranged. What such an examination produces is a well-known thing and the count of sixty-three is not evidence of sixty-three witches. It is entered because it is what the record says the transmission says about itself, and because the shape of the claim — the night assembly, the taking of a little blood, the eating of the soul, the death within two or three days — is the material a comparison is made from, not because the events are credited."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:TheFailureConditionFollowsWhatIsWithheldExamination a pm:Testing ;
+    rdfs:label "Prüfprotokoll zum Sitz der Misslingensbedingung"@de,
+        "Protocol on where the failure condition sits"@en ;
+    skos:definition "An attempt to fail the statement that a transmission's failure condition sits on whatever it keeps out of writing. The protocol is a reading protocol: what is claimed is a relation between two features of operative texts, so it fails or holds against texts and not against practitioners."@en ;
+    skos:note "Entered at procedure without cases. The procedure is in the falsifier and is cheap to run on any corpus already open: establish whether the transmission declares its written text sufficient, then find its stated failure condition and ask whether a man holding the text could meet it determinately. Nobody has yet gone through a corpus with that pair of questions."@en,
+        "Two corpora in this holding are the obvious first cases and both are named in the counter-search note at the generalization: the Hekhalot handbook, whose preparation is stated in counts and whose penalty for breaking it is quotable, and the Clavicula, whose failure clause is general enough to cover everything. If either turns out to declare its text sufficient and to name a determinate further condition, the statement falls."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the six witnesses; no cases collected" ;
+    pm:falsifiedBy "An operative transmission that declares its written text the whole of its operation and nevertheless names a determinate further condition — a term, a bodily state, an observable sign — which a possessor of the text could fail to meet and could be seen to have failed; or one that expressly withholds part of its operation from writing and places its stated failure condition on the written part instead."@en ;
+    pm:protocolUpdated "2026-09-19"^^xsd:date ;
+    pm:tests pmc:TheFailureConditionFollowsWhatIsWithheld .
+
 pmc:TheFirstMenstrualBundle a pm:Conceptualizing ;
     rdfs:label "Das Bündel des ersten Flusses und was seine Störung bewirken soll"@de,
         "The bundle of the first flow and what disturbing it is said to cause"@en ;
@@ -7209,17 +7314,6 @@ pmc:VaidikaIstakasamkhya a pm:Presupposing ;
     pm:priorStep pmc:VaidikaSamkhyapurnata ;
     pm:withinTradition pmt:VedicRitual .
 
-pmc:VaidikaJnanenaJitam a pm:Conceptualizing ;
-    rdfs:label "Kraft des Wissens habe ich selbst obsiegt"@de,
-        "By dint of knowledge I myself have prevailed"@en ;
-    dcterms:source "Śatapatha Brāhmaṇa XI,5,3,8-12 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 82-85" ;
-    skos:definition "The clause attached to every one of the five cases, in the same words each time. The damage is stated for him who would not know this; and the man questioned adds of himself: but by dint of knowledge I myself have prevailed. The knowledge in each case is an identification of one breath with another — the breath of the mouth has entered the upward breathing, and so on — and the repair is an offering moved to a different fire."@en ;
-    skos:note "It is not a later apology either. The clause is not attached to a complaint that the rite failed; it stands in the first statement of the danger, in the mouth of the authority who states it, as part of what makes him an authority. The excusing condition and the threat are the same sentence."@en,
-        "This is the finding of the passage and it is the reason the tradition was worth taking off the register. The same mishap, the same fire, the same hour: the eldest son dies or he does not, and what decides it is what the offerer knows. No observation of the mishap distinguishes the two cases, and the knowledge is not a skill anybody could see exercised — it is an equivalence held in the mind and reported only by the man who holds it."@en,
-        "What the passage does supply against itself, and it is unusual: it says outright that the knowledge is rare. The exchange is a contest in which one party is repeatedly told that this much they know in common, until at the fifth case Śauceya answers that he did not know this. See pmc:VaidikaMurdhanvyapatana for what follows."@en ;
-    pm:fromWork pmw:SatapathaBrahmana ;
-    pm:withinTradition pmt:VedicRitual .
-
 pmc:VaidikaMurdhanvyapatana a pm:Cautioning ;
     rdfs:label "Hättest du nicht so gesprochen, wäre dir das Haupt abgeflogen"@de,
         "If thou hadst not spoken thus, thy head would have flown off"@en ;
@@ -7295,18 +7389,6 @@ pmc:VaidikaVasatkaraSantih a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:VaidikaVasatkara ;
     pm:fromWork pmw:AitareyaBrahmana ;
-    pm:withinTradition pmt:VedicRitual .
-
-pmc:VaidikaYaEvamVeda a pm:Conceptualizing ;
-    rdfs:label "Ya evaṃ veda: was dem versprochen wird, der dies weiß"@de,
-        "Ya evaṃ veda: what is promised to whoever knows this"@en ;
-    dcterms:source "Aitareya Brāhmaṇa iii,7, iii,8 and iii,10 (xi,7, xi,8 and xi,10), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 169-171",
-        "Śatapatha Brāhmaṇa X,4,3,1-2, XI,2,7,33, XI,5,6,9 and I,6,3,15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, p. 356, and 44, Oxford 1900, pp. 45-46 and 99, and 12, Oxford 1882, p. 167" ;
-    skos:definition "The recurring clause of this corpus, which attaches an attainment not to the performance but to the knowing of what the performance means. Every passage read in this run carries it, and the attainments are these. He who knows the year to be Death — that year does not destroy his life before old age, and he attains his full extent of life. He who knows the balance mounts it in this world and escapes being placed on it in the world beyond. He who studies at the four thunder-calls is freed from the death that comes again and attains community of nature with the Brahman. He who knows the meaning of the full-moon offering attains Indra's prosperity, is endowed with glory, and becomes such a consumer of food. In the Aitareya: he who knows the continuity of the vaṣaṭ call is united with offspring and cattle; he who knows its appeasing lives a full life; he who knows the placing of the Nivid is propagated with offspring and cattle and shines on all sides with the decoration of the sacrifice."@en ;
-    skos:note "Held in one node and not in seven, with the reason stated because the harvest rule of SPEC §15 is against exactly this kind of economy. What that rule protects is the count of distinct claims a corpus makes, and these are not distinct claims: they are one clause with one small set of outcomes — a full life, offspring, cattle, prosperity, glory — reattached at the end of each exposition to whatever that exposition explained. The distinct attainments of this corpus, escape from the death that comes again and the fixing of the balance, have their own nodes; what is held here is the form and the list of places, so that a later run can count them without reading the passages again."@en,
-        "The count is of the passages read and not of the corpus. Searching Eggeling's five volumes for knows this and knowing this, on the whitespace-normalised text, returns 268 occurrences: 74 in kāṇḍas I to II, 17 in III to IV, 14 in V to VII, 57 in VIII to X, 106 in XI to XIV. Nobody has gone through them, and this node does not stand for that work. The distribution is itself worth a run: the clause is commonest where the corpus turns the rite into knowledge, and it is nearly as common in the first two kāṇḍas, where it does not."@en,
-        "Why the form matters more than any one of its instances. The clause makes the attainment turn on an item of knowledge and not on anything done, so two men who perform identically are promised different things, and nothing about the performance shows which. That is the same construction as pmc:VaidikaJnanenaJitam on the side of the harm, and the two together are the corpus's characteristic move: knowledge decides, and knowledge is reported only by the man who has it."@en ;
-    pm:fromWork pmw:SatapathaBrahmana ;
     pm:withinTradition pmt:VedicRitual .
 
 pmc:ValentinianConsummation a pm:Conceptualizing ;
@@ -8813,6 +8895,34 @@ pmp:DivinationByThrownThings a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
+
+pmp:EgyptianMillionFormulaSearch a pm:Searching ;
+    rdfs:label "Ob die gemeinfreien Übersetzungen die Formel führen, ein Spruch sei millionenfach erprobt"@de,
+        "Whether the public-domain translations carry the formula that a spell is proved a million times"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Not in either translation as an efficacy claim. The one place in Budge 1901 with the words for millions of times is the rubric of chapter 72, where it modifies what the dead man shall do continually and regularly, not how often the spell has been tried. At the place in the rubric of chapter 137A where a later translator reads the formula, Budge has the words it is a great struggle — a rendering that shares nothing with it and that suggests the two are reading the same consonants differently."@en,
+        "The way to close it is named: a modern critical translation, or the hieroglyphic text of Budge 1898 and 1910 with a reader of Egyptian. Both are public domain; neither was usable by this run."@en,
+        "This is an exhibited gap in the access and not in the corpus, and the difference matters. The finding is that a claim widely reported of this tradition cannot be grounded from any translation this project may use. It is entered so that the next run does not spend the search again, and so that nobody enters the formula on the strength of having read about it."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all five volumes on the whitespace-normalised text for: million times; a matter a million times; proved a million; truly effective; hath been proved; tested; for millions of times; millions of years. The last two are frequent — one hit in Budge 1901 vol. II and a hundred and nine for millions of years across the five volumes — and every one inspected proved to be a duration and not an assertion of efficacy."@en ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "The Book of the Dead, Theban recension, in the English of E. A. Wallis Budge, London 1901, vols. I to III, complete; Budge, The Papyrus of Ani, London 1895, complete; and Renouf and Naville, The Egyptian Book of the Dead, London 1904, complete" ;
+    pm:searchedFor "The efficacy formula that later translators render as a thing proved a million times or truly effective a million times, which would be the only statement in this corpus asserting that its prescriptions have been tested rather than that they work. Whether the public-domain translations carry it decides whether this holding can enter the claim at all." .
+
+pmp:EgyptianNegativeRubricSearch a pm:Searching ;
+    rdfs:label "Ob eine Nachschrift sagt, was folgt, wenn ihre Bedingung nicht erfüllt ist"@de,
+        "Whether any rubric says what follows from not meeting its condition"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Limits. Two translations, both public domain, both a century and more old, and one of them by a translator whose English is not now considered reliable. The modern standard translations are under copyright and were not obtained, so a rubric that a later translator renders as a threat and Budge renders otherwise would not appear in this search. One such place is known and is entered at pmp:EgyptianMillionFormulaSearch."@en,
+        "The second find is not a rubric and is worth more than the first. In the hall of the two Maati the doorway itself refuses passage a dozen times over in the same form — I will not let thee enter, or pass over, or open to thee, or make mention of thee, unless thou tell my name — and that is a stated failure condition for the whole operation, given as dialogue rather than as postscript. A run that had searched only the rubrics would have reported a clean negative and missed the place where the corpus does say what happens to a man who does not know."@en,
+        "Two finds and one large silence, and the silence is where the run expected the finds. Among the rubrics proper there is exactly one two-sided statement in five volumes: the rubric printed as Appendix 1 to chapter 76 in the Papyrus of Ani, which says that if the chapter be known the dead man shall come forth by day and go in again, and that if it be not known he shall not enter in after he hath come forth, nor shall he come forth by day. No other rubric read in either translation states an adverse outcome for its own condition, and the purity condition of chapter 64, which is repeated three times over, states none at all."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of all five volumes on the whitespace-normalised text for: be not known; if he know not; if he knoweth not; who knoweth not; if it be not done; shall be of no effect; without effect; in vain; shall fail; doth not know this; knoweth it not; unless he; unless thou; if thou doest not; if he do not. Every hit was inspected. The four chapters that carry the densest condition lists — 30B, 64, 125, 137A — were read continuously in Budge 1901, and the transformation chapters 76 to 88 were read through in the same volume."@en ;
+    pm:searchYieldedNode pmc:AegyptiaPortaeNomina,
+        pmc:AegyptiaRubricaBilateralis ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "The Book of the Dead, Theban recension, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III, complete; Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, complete; and Peter le Page Renouf and Édouard Naville, The Egyptian Book of the Dead, London: Society of Biblical Archaeology, 1904, complete" ;
+    pm:searchedFor "A rubric that states an adverse outcome for the case in which its own condition is not met — the chapter not known, the object not made of the prescribed material, the purity not kept, the secrecy broken. The corpus states what knowing and doing obtain on almost every other page; whether it anywhere states the other half decides whether its claims exclude anything." .
 
 pmp:EmptyConsultationExamination a pm:Testing ;
     rdfs:label "Ob das Zeichen erscheint, wenn die Befragung nicht ernst gemeint ist"@de,
@@ -10330,15 +10440,6 @@ pmt:Dzogchen a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Nyingthig cycles; Longchenpa, Seven Treasuries" .
 
-pmt:EgyptianRitual a pm:Tradition ;
-    rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
-        "Pharaonic Egyptian ritual"@en ;
-    skos:definition "The transmission of heka as an operative power held by gods, kings and the transfigured dead, carried in mortuary and temple literature."@en ;
-    skos:note "The transformation spells are a capacity list in the strict sense: each states what the speaker becomes and what that state permits."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
-
 pmt:GoldenDawn a pm:Tradition ;
     rdfs:label "Hermetic Order of the Golden Dawn"@de,
         "Hermetic Order of the Golden Dawn"@en ;
@@ -10863,6 +10964,35 @@ pmc:AdornmentAndCosmetics a pm:Conceptualizing ;
     dcterms:source "1 Enoch 8:1 (Ethiopic; Charles 1912)" ;
     skos:definition "Knowledge of bracelets and ornaments, of antimony and the painting of the eyelids, of precious stones and colouring tinctures."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:AegyptiaCorNeTestetur a pm:Conceptualizing ;
+    rdfs:label "Mein Herz, meine Mutter: dass es sich nicht von mir trenne vor dem, der die Waage hält"@de,
+        "My heart my mother: let it not part from me before him who keepeth the scales"@en ;
+    dcterms:source "Book of the Dead, chapter 30B, Papyrus of Ani with additions from the Papyrus of Nebseni, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 150-151" ;
+    skos:definition "The words said over the scarab. The heart is addressed as mother and as the speaker's own ka, and asked for four things: that nothing stand up to oppose him at his judgment, that there be no opposition to him in the presence of the sovereign princes, that it not part from him in the presence of him that keepeth the balance, and that the officers of the court not cause his name to stink. The Nebseni manuscript adds: let not that which is false be uttered against me before the great god, the lord of Amentet."@en ;
+    skos:note "The construction is what this holding is built to record. The corpus stages a judgment whose instrument is the man's own heart, and then sells him an object, worn at the neck or laid in the body, whose stated purpose is to keep that instrument from testifying against him. The examination and the means of defeating it are transmitted in the same book and often on the same sheet."@en,
+        "Whether the object is asked to make the heart silent or to make it truthful is not decided by the wording read: the request is that it not part from him and that no lies be spoken. A run with a modern translation should take this up, because the two readings differ in whether the amulet is a defence against a false accusation or a defence against a true one."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaFlammaeSignum a pm:Conceptualizing ;
+    rdfs:label "Die Götter und die Toten sollen ihn in der Gestalt des Herrschers von Amenti sehen"@de,
+        "The gods and the dead shall see him in the form of the Governor of Amenti"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 417-418" ;
+    skos:definition "The outcome the rubric names, and it names it as something seen by others: when this ceremony hath been performed, the gods, and the Khus, and the dead shall see him in the form of the Governor of Amenti, and he shall have power and dominion like this god. The rubric adds a second criterion in the same place: he shall not have sentence of evil passed upon him on the day of the weighing of words before the god Osiris, for ever and ever. It also promises that he shall never, never fail, that he shall enter in through the hidden pylons and not be turned back, and that no limit to his journeying shall be set."@en ;
+    skos:note "This is the nearest thing to a criterion of success that the run found in the corpus, and it is worth exactly what its witnesses are worth: the parties who would see him are gods, transfigured spirits and the dead. The second criterion is better placed, because the weighing of words is a procedure the same corpus describes in detail and with a verdict; see pmc:AegyptiaLibraIudicium. What the rubric does not supply, here or anywhere else in the volumes read, is a sign that the ceremony failed."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaRubricaBilateralis a pm:Conceptualizing ;
+    rdfs:label "Die eine Nachschrift, die sagt, was aus dem Nichtwissen folgt"@de,
+        "The one rubric that states what follows from not knowing"@en ;
+    dcterms:source "Book of the Dead, chapter 76, the rubric printed as Appendix 1 to that chapter, immediately before the chapter of changing into a golden hawk, Papyrus of Ani, in the English of E. A. Wallis Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, translation section, between the pages headed 329 and 333" ;
+    skos:definition "Appended to the chapter of making the transformation into whatever form the speaker pleaseth, in the Papyrus of Ani: if this chapter be known by the deceased, he shall come forth by day in Neter-khert, and he shall go in again after he hath come forth. If this chapter be not known, he shall not enter in after he hath come forth, nor shall he come forth by day."@en ;
+    skos:note "It is also the weakest kind of two-sided statement, and the file does not pretend otherwise. The adverse outcome happens after death to a man who cannot report it, and the condition that produces it is the absence of an item of knowledge in that same man. Nothing here could be observed by anyone at any time. The search that found it is at examinations/searches-egyptian.ttl."@en,
+        "This is the only rubric in the volumes read that names both outcomes, and it was found by searching for it rather than by reading. Everywhere else the corpus states what knowing obtains and is silent about not knowing; here the two halves stand in one sentence, and the second is the exact negation of the first. What makes it worth a node of its own is that it shows the silence elsewhere to be a property of those rubrics and not of the genre: the form was available."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AffectCouplingShiftsTheCarrier a pm:Positing ;
     rdfs:label "Die Kopplung eines Zielzustands an einen starken Affekt verschiebt den Koppelnden"@de,
@@ -12517,6 +12647,16 @@ pmc:NeidanChengdi a pm:Conceptualizing ;
     skos:note "The same construction stands in traditions/shangqing.ttl at pmc:ShangqingShieryanshi, where three failures out of twelve trials cost the higher rank and leave the lesser. Two transmissions, both Chinese, both grading the failure rather than recording it, and in both the effect is that no course of practice ends in a plain failure. The generalization formed from the pair stands in generalizations/graded-failure.ttl."@en ;
     pm:withinTradition pmt:Neidan .
 
+pmc:NeidanChuanyaoBuchuanhuo a pm:Conceptualizing ;
+    rdfs:label "Die Weisen überliefern die Arznei und nicht das Feuer"@de,
+        "The sages transmit the medicine and not the fire"@en ;
+    dcterms:source "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 30a",
+        "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 32a" ;
+    skos:definition "The Wuzhen pian states that one may know cinnabar and black lead and still, not knowing the fire phases, be as idle as before; that the whole thing rests on the force of the practice; and that a hair's breadth of difference makes no elixir. Weng Baoguang's comment draws the rule: the making of the golden elixir rests wholly on the metal, a hair's breadth of difference is a thousand li apart, and therefore the sages transmit the medicine and do not transmit the fire. A second poem in the same juan says that the pacts, treatises, scriptures and songs expound the ultimately true and do not set the fire phases down in writing, and that to know where the oral instruction reaches through to the mystery one must discuss it in detail with an immortal; the comment adds that the six hundred chapters of the Record of the Fire are each like the other, that what heaven keeps hidden no sage transmits in writing, and that one must meet a true master and not blunder on alone."@en ;
+    skos:note "The transmission is not concealing this; it is arguing for it, and the argument is about secrecy and not about failure. That the two come to the same thing is an observation of this file and is not in the text."@en,
+        "This is the structural counterpart of the thirty thousand marks. There the tolerance is nil; here the parameter against which the tolerance would be measured is by doctrine not written down. Together they make a system in which no written instruction can ever be shown to have been followed correctly, and in which a failure therefore always has somewhere to go."@en ;
+    pm:withinTradition pmt:Neidan .
+
 pmc:NeidanHuohouBuyongshi a pm:Conceptualizing ;
     rdfs:label "Die Feuerphasen brauchen keine Stunde"@de,
         "The fire phases use no hour"@en ;
@@ -12549,6 +12689,20 @@ pmc:NeidanThreeStages a pm:Conceptualizing ;
     skos:definition "Refining essence into breath, breath into spirit, and spirit back into emptiness."@en ;
     skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:NeidanYiqiao a pm:Presupposing ;
+    rdfs:label "Die eine Öffnung, die aus einem Mund kommen muss"@de,
+        "The one aperture, which must be had from a mouth"@en ;
+    dcterms:source "Zhang Boduan (ascr.), Jindan sizi, preface, with Huang Ziru's commentary (DZ 1081), Zhengtong Daozang, Hanfenlou facsimile, fol. 4a-4b" ;
+    skos:definition "The preface makes one thing the condition of everything else. There is in the body an aperture called the mysterious female; it is not the heart, not the kidneys, not the mouth or nose, not the spleen or stomach, not the grain passage, not the bladder, not the cinnabar field and not the upper cinnabar field. Whoever knows this one aperture has in it the winter solstice, the medicine, the fire phases, the bathing and the binding of the embryo. And the condition on the condition: this aperture may not be settled by one's own notion, it must be handed on from mind to mouth, and whoever does otherwise acts at random."@en ;
+    skos:note "Entered as a stated necessity because the consequence of missing it is stated for the whole work at once: without it the run is at random, which is the preface's own word. The construction is worth setting beside the fire-phase node below, since between them they remove both halves of the operation from the written record — the place is not to be found by thinking and the timing is not to be written down."@en,
+        "The nine denials are the operative part and are kept in the definition rather than summarised. A list that says where the aperture is not, and gives no positive location, cannot be followed by a reader; that is what makes the oral transmission necessary, and the necessity is stated in the same passage that creates it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Whoever settles the aperture by his own notion rather than receiving it from mouth to mind is said to be acting at random; and since solstice, medicine, fire phases, bathing and the binding of the embryo are all said to lie in it, the whole operation goes with it." ;
+    pm:dependentStep pmp:NeidanHuohou ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:NeidanZhengyanXingchi ;
+    pm:withinTradition pmt:Neidan .
 
 pmc:NginduLeafNullifiesEveryCharm a pm:Conceptualizing ;
     rdfs:label "Ein Blatt hebt jedes geladene Ding im Haus auf"@de,
@@ -13649,6 +13803,23 @@ pmc:TheCriterionNoPartyControls a pm:Generalizing ;
         pmp:NkasaTreeCutting ;
     pm:generalizedStatement "Where a transmission fixes the judgement of a single performance to a physical event that neither the operator nor the person operated on can produce at will, it states what the event would have to be for the performance to have failed and not only what it would be for the performance to have succeeded; where the criterion is instead an appearance announced to the participants before the session, the transmission states the success side alone."@en .
 
+pmc:TheFailureConditionFollowsWhatIsWithheld a pm:Generalizing ;
+    rdfs:label "Die Misslingensbedingung sitzt auf dem, was die Überlieferung aus dem Text heraushält"@de,
+        "The failure condition sits on whatever the transmission keeps out of the text"@en ;
+    skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Hekhalot handbook states the preparation in exact counts — three days free of pollution, one bath, three prayers, a hundred names — and then names the penalty for the user who does not keep it, which is a failure condition a possessor of the text could meet; it does not refute, because the same corpus also withholds, and the run did not read the passages where names and seals are the condition of passage. The Clavicula supplies the general clause that an unsuccessful experiment must have been false and defective and the operator must have failed in some matter, which puts a failure condition on a possessor of the text; it does not refute either, because the clause names nothing in particular and so is not a condition anyone could fail determinately. Both are addresses for the run that presses this further."@en,
+        "Falsified by either of two cases. A transmission that puts its whole operation into a text obtainable by purchase or inheritance, and that nevertheless names a determinate further condition — a term, a bodily state, a sign — which a possessor of the text could fail to meet and could be seen to have failed. Or a transmission that withholds part of its operation from writing and nevertheless places its stated failure condition on the written part rather than on what it withheld. One clean case of either kind ends the statement."@en,
+        "Thin where it is thin. Two transmissions on the first side and one on the second, all three read in the last week, and the third from a corpus whose own contradictions about the fire phases this holding already records. Whether the relation holds across the holding would need a pass over every transmission that states both how much it writes and where the failure lies, and that pass has not been made."@en,
+        "What each side supplies, in the transmissions' own terms. On the first side: the Egyptian corpus, whose chapters close with the clause that if this chapter be known such and such will follow, and whose gates refuse passage unless the dead man tells the doorway its name — and every one of those names is printed on the same sheet as the question. And the Vedic corpus, whose expositions close with the clause that he who knows this obtains a full life, offspring, cattle, or escape from the death that comes again, and whose catalogue of mishaps at the fires states that the eldest son dies in the case of him who would not know this, while the man who knows has by dint of knowledge prevailed. Neither names a condition that a man holding the text could fail. On the second side: the internal alchemy, whose preface says that the one aperture may not be settled by one's own notion but must be handed on from mind to mouth, and whose commentary draws the rule that the sages transmit the medicine and do not transmit the fire, because a hair's breadth of difference in the fire phases makes no elixir. There the text is declared insufficient in the text, and the failure has been placed exactly where no reader can check it."@en,
+        "Why this is worth more than the correspondence it comes from. That two corpora make knowing the condition can be read as a family resemblance and excludes nothing. What the statement above claims is a relation between two features of the same transmission — how much it writes down, and where it puts the failure — and that relation can be looked for and can come out wrong. It also supplies the structural explanation the convergence node had to leave hanging: a transmission whose product is the text has every reason to make holding the text sufficient, and one that lives by initiation has every reason not to. The two witnesses on the first side are both funerary or exegetical corpora sold or performed for a client; the witness on the second is a lineage."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AegyptiaPortaeNomina,
+        pmc:AegyptiaRubricaScientiae,
+        pmc:NeidanChuanyaoBuchuanhuo,
+        pmc:NeidanYiqiao,
+        pmc:VaidikaJnanenaJitam,
+        pmc:VaidikaYaEvamVeda ;
+    pm:generalizedStatement "Where a transmission puts the whole of its operative content into a text that the practitioner obtains from others, it states the condition of the attainment as knowing that text and the condition of failure as not knowing it, and it names no further condition that a possessor of the text could fail to meet. Where a transmission instead keeps part of its operative content out of writing and requires that part to be received from a person, it states the failure condition on the withheld part, and the written text is then explicitly declared insufficient."@en .
+
 pmc:TheNamedManDiesWithinTenDays a pm:Conceptualizing ;
     rdfs:label "Der Gerufene stirbt binnen zehn Tagen"@de,
         "The man whose name is called dies within ten days"@en ;
@@ -14290,6 +14461,25 @@ pm:workOpened a pm:CoverageState ;
     rdfs:label "Werk geöffnet"@de,
         "Work opened"@en ;
     skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
+
+pmp:AegyptiaPeretEmHeru a pm:Practicing ;
+    rdfs:label "Das Herausgehen am Tage: das Rezitieren und das Wissen der Kapitel"@de,
+        "Coming forth by day: the recitation and the knowing of the chapters"@en ;
+    dcterms:source "Book of the Dead, chapter 64, short version, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 217-218" ;
+    skos:definition "The operation the corpus is built around. Its own title for itself is the chapters of coming forth by day, and what it prescribes is of two kinds: the recitation of a named chapter, sometimes over a named object and at a named time, and the knowing of it. The two are not the same, and the rubrics keep them apart: some say that this chapter shall be recited over such and such a thing, and others that if this chapter be known by the deceased, such and such will follow."@en ;
+    skos:note "The distinction is the reason this tradition was worth taking off the register. An operation that consists in knowing a text has no performance an onlooker could watch and no step that could be done wrongly in a way anyone could see. The corpus nevertheless states a failure condition for it, and states it in the same terms; see pmc:AegyptiaPortaeNomina."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaScarabaeusCordis a pm:Practicing ;
+    rdfs:label "Der Herzskarabäus aus grünem Stein"@de,
+        "The heart scarab of green stone"@en ;
+    dcterms:source "Book of the Dead, chapter 30B, rubric, Papyrus of Amen-hetep, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 151-152" ;
+    skos:definition "A scarab of green stone encircled with a band of refined copper and having a ring of silver, placed on the neck of the transfigured dead, over which the words of the chapter are said. The rubric of chapter 64 prescribes the same object in another form — a scarab of green stone washed with gold, placed in the heart of the man, which will perform for him the opening of the mouth, anointed with anti unguent and recited over with the words that follow."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmp:Ailolo a pm:Practicing ;
     rdfs:label "Ailolo"@de,
@@ -15147,6 +15337,11 @@ pmw:ApastambaSrautasutra a dcterms:BibliographicResource ;
         "Āpastamba Śrautasūtra"@en ;
     skos:note "Named here as a work of the corpus and unopened. Its ninth praśna is the expiation book of the other school. Garbe's edition of 1882 to 1902 is public domain."@en .
 
+pmw:CoffinTexts a dcterms:BibliographicResource ;
+    rdfs:label "Die Sargtexte"@de,
+        "The Coffin Texts"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It is the layer between the Pyramid Texts and the Book of the Dead, and the transition is dated by both editors to the coffins of Horhotep and of Queen Mentuhotep."@en .
+
 pmw:EngishikiNorito a dcterms:BibliographicResource ;
     rdfs:label "Die Norito des Engishiki"@de,
         "The norito of the Engishiki"@en ;
@@ -15176,6 +15371,11 @@ pmw:LiberIuratusHonorii a dcterms:BibliographicResource ;
     rdfs:label "Liber Iuratus Honorii"@de,
         "Liber Iuratus Honorii"@en .
 
+pmw:PapyrusWestcar a dcterms:BibliographicResource ;
+    rdfs:label "Papyrus Westcar"@de,
+        "Papyrus Westcar"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It is the one item of the registered corpus that reports magical acts as events with witnesses rather than prescribing them, and it is therefore the first place to go for a case rather than a claim."@en .
+
 pmw:PgmXII a dcterms:BibliographicResource ;
     rdfs:label "PGM XII / PDM xii, der Leidener Papyrus J 384"@de,
         "PGM XII / PDM xii, the Leiden papyrus J 384"@en ;
@@ -15185,6 +15385,11 @@ pmw:PgmXIII a dcterms:BibliographicResource ;
     rdfs:label "PGM XIII, der Leidener Papyrus J 395"@de,
         "PGM XIII, the Leiden papyrus J 395"@en ;
     skos:note "Named here as a work of the corpus and unopened."@en .
+
+pmw:PyramidTexts a dcterms:BibliographicResource ;
+    rdfs:label "Die Pyramidentexte"@de,
+        "The Pyramid Texts"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It is the oldest layer, inscribed from the fifth dynasty onward, and about a third of the Coffin Text spells are said to descend from it. Whoever opens it can say whether the knowledge rubric entered below is as old as the claims it attaches to, or whether it is a later addition to older spells — which is the question the editors of 1901 and 1904 both raise and neither answers."@en .
 
 pmw:ScotDiscoverieOfWitchcraft a dcterms:BibliographicResource ;
     rdfs:label "Reginald Scot, The Discoverie of Witchcraft"@de,
@@ -15852,12 +16057,35 @@ pmc:VaidikaAsadhimrtyu a pm:Conceptualizing ;
     pm:fromWork pmw:SatapathaBrahmana ;
     pm:withinTradition pmt:VedicRitual .
 
+pmc:VaidikaJnanenaJitam a pm:Conceptualizing ;
+    rdfs:label "Kraft des Wissens habe ich selbst obsiegt"@de,
+        "By dint of knowledge I myself have prevailed"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,3,8-12 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 82-85" ;
+    skos:definition "The clause attached to every one of the five cases, in the same words each time. The damage is stated for him who would not know this; and the man questioned adds of himself: but by dint of knowledge I myself have prevailed. The knowledge in each case is an identification of one breath with another — the breath of the mouth has entered the upward breathing, and so on — and the repair is an offering moved to a different fire."@en ;
+    skos:note "It is not a later apology either. The clause is not attached to a complaint that the rite failed; it stands in the first statement of the danger, in the mouth of the authority who states it, as part of what makes him an authority. The excusing condition and the threat are the same sentence."@en,
+        "This is the finding of the passage and it is the reason the tradition was worth taking off the register. The same mishap, the same fire, the same hour: the eldest son dies or he does not, and what decides it is what the offerer knows. No observation of the mishap distinguishes the two cases, and the knowledge is not a skill anybody could see exercised — it is an equivalence held in the mind and reported only by the man who holds it."@en,
+        "What the passage does supply against itself, and it is unusual: it says outright that the knowledge is rare. The exchange is a contest in which one party is repeatedly told that this much they know in common, until at the fifth case Śauceya answers that he did not know this. See pmc:VaidikaMurdhanvyapatana for what follows."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pmc:VaidikaPunarmrtyu a pm:Conceptualizing ;
     rdfs:label "Punarmṛtyu, der wiederkehrende Tod"@de,
         "Punarmṛtyu, the death that comes again"@en ;
     dcterms:source "Śatapatha Brāhmaṇa X,4,3,10 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
     skos:definition "The condition the transmission offers to remove: not death but its recurrence. Those who neither know nor perform the work come to life again when they have died, and become the food of Death time after time; those who know or perform it come to life again and come to immortal life."@en ;
     skos:note "Eggeling renders the term throughout as recurring or recurrent death and Keith as repeated death, so a search in one wording misses the other half of the corpus. This was the case in the searches carried in this run and is recorded at examinations/searches-vedic.ttl."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaYaEvamVeda a pm:Conceptualizing ;
+    rdfs:label "Ya evaṃ veda: was dem versprochen wird, der dies weiß"@de,
+        "Ya evaṃ veda: what is promised to whoever knows this"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7, iii,8 and iii,10 (xi,7, xi,8 and xi,10), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 169-171",
+        "Śatapatha Brāhmaṇa X,4,3,1-2, XI,2,7,33, XI,5,6,9 and I,6,3,15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, p. 356, and 44, Oxford 1900, pp. 45-46 and 99, and 12, Oxford 1882, p. 167" ;
+    skos:definition "The recurring clause of this corpus, which attaches an attainment not to the performance but to the knowing of what the performance means. Every passage read in this run carries it, and the attainments are these. He who knows the year to be Death — that year does not destroy his life before old age, and he attains his full extent of life. He who knows the balance mounts it in this world and escapes being placed on it in the world beyond. He who studies at the four thunder-calls is freed from the death that comes again and attains community of nature with the Brahman. He who knows the meaning of the full-moon offering attains Indra's prosperity, is endowed with glory, and becomes such a consumer of food. In the Aitareya: he who knows the continuity of the vaṣaṭ call is united with offspring and cattle; he who knows its appeasing lives a full life; he who knows the placing of the Nivid is propagated with offspring and cattle and shines on all sides with the decoration of the sacrifice."@en ;
+    skos:note "Held in one node and not in seven, with the reason stated because the harvest rule of SPEC §15 is against exactly this kind of economy. What that rule protects is the count of distinct claims a corpus makes, and these are not distinct claims: they are one clause with one small set of outcomes — a full life, offspring, cattle, prosperity, glory — reattached at the end of each exposition to whatever that exposition explained. The distinct attainments of this corpus, escape from the death that comes again and the fixing of the balance, have their own nodes; what is held here is the form and the list of places, so that a later run can count them without reading the passages again."@en,
+        "The count is of the passages read and not of the corpus. Searching Eggeling's five volumes for knows this and knowing this, on the whitespace-normalised text, returns 268 occurrences: 74 in kāṇḍas I to II, 17 in III to IV, 14 in V to VII, 57 in VIII to X, 106 in XI to XIV. Nobody has gone through them, and this node does not stand for that work. The distribution is itself worth a run: the clause is commonest where the corpus turns the rite into knowledge, and it is nearly as common in the first two kāṇḍas, where it does not."@en,
+        "Why the form matters more than any one of its instances. The clause makes the attainment turn on an item of knowledge and not on anything done, so two men who perform identically are promised different things, and nothing about the performance shows which. That is the same construction as pmc:VaidikaJnanenaJitam on the side of the harm, and the two together are the corpus's characteristic move: knowledge decides, and knowledge is reported only by the man who has it."@en ;
     pm:fromWork pmw:SatapathaBrahmana ;
     pm:withinTradition pmt:VedicRitual .
 
@@ -15967,6 +16195,15 @@ pm:transientState a pm:AwarenessValue,
         "Transient"@en ;
     skos:definition "The source has the condition pass of itself, so that it must be entered again rather than merely kept."@en ;
     skos:note "A capacity said to come and go is a different object of examination from one said to last: it is tested against frequency and occasion, not against a course of training."@en .
+
+pmp:AegyptiaQuattuorFlammae a pm:Practicing ;
+    rdfs:label "Die Zeremonie der vier lodernden Flammen"@de,
+        "The ceremony of the four blazing flames"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 417-419" ;
+    skos:definition "Four fires made of afma cloth anointed with hatet unguent of Thehennu are placed in the hands of four men who have the names of the pillars of Horus written upon their shoulders, and are burnt in the beautiful rays of Ra. The chapter is recited over them. Four further rubrics hang on the same chapter, each prescribing an object walled into one side of the tomb: a Tet of crystal on a green clay brick in the west wall, and three more."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     rdfs:label "Die Oration der Heilkunst, vor dem Kranken gesprochen"@de,
@@ -16329,6 +16566,16 @@ pmt:GaudiyaVaisnava a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Rūpa Gosvāmin, Bhaktirasāmṛtasindhu; Rūpa Gosvāmin, Ujjvalanīlamaṇi; Jīva Gosvāmin, Prīti-sandarbha" .
+
+pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
+    rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
+        "I will not let thee pass unless thou tell my name"@en ;
+    dcterms:source "Book of the Dead, chapter 125, the address to the gods of the hall of the two Maati, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 375-377" ;
+    skos:definition "The failure condition of the whole apparatus, stated as a dialogue and repeated part by part. At the hall of the two Maati every element of the doorway speaks in turn and refuses passage on the same terms: the bolt, the right lintel, the left lintel, the threshold, the fastening, the socket of the fastening, the guardian, the doorposts, the floor of the hall, the doorkeeper. Each says that it will not let him enter, or pass over, or open to him, or make mention of him, unless he tells its name; each name is then given; and each concludes that since he knows it he may pass. The floor of the hall adds a condition of its own — it will not be trodden on by one who does not know the names of its two feet — and the doorkeeper, who is called the discerner of hearts and searcher of the reins, will not announce him until he has named a further god."@en ;
+    skos:note "Here the corpus says what happens to a man who does not know, and it says it a dozen times in one chapter: he does not pass. Set beside pmc:AegyptiaRubricaScientiae this completes the construction — knowing is the operation, not knowing is the failure, the gates are the assay, and the book is what the buyer acquires against the assay. Nothing in the arrangement is left to chance except whether the man has the text."@en,
+        "Two things the passage does not do. It never says that anyone failed; the dialogue is written from the answer sheet, with every name supplied in the same breath as the question. And the same corpus prescribes an amulet to keep the heart from testifying at the weighing that follows, so the one element of the examination which the candidate cannot answer is provided for by an object rather than by knowledge. See pmc:AegyptiaCorNeTestetur."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:Ahwal a pm:Conceptualizing ;
     rdfs:label "Zustände"@de,
@@ -16807,6 +17054,16 @@ pmw:KausitakiBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Kauṣītaki-Brāhmaṇa"@de,
         "Kauṣītaki Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the same volume and translation as the Aitareya. Read at the wording: chapter xxvi, sections 4 to 6, which carry the named disagreement about whether a detected flaw in the recitation has to be repaired at all. The registration of this tradition did not name this work; it is added to the corpus at the instance because the reading found it there, and the coined identifier of the tradition is kept unchanged."@en .
+
+pmc:AegyptiaRubricaScientiae a pm:Conceptualizing ;
+    rdfs:label "Wenn dieses Kapitel gewusst wird: was das Wissen erlangt"@de,
+        "If this chapter be known: what knowing is said to obtain"@en ;
+    dcterms:source "Book of the Dead, chapters 64, 83, 86 and 125, rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. I, pp. 217-218 and 221-222, and vol. II, pp. 269, 276-277 and 377-378" ;
+    skos:definition "The recurring postscript that attaches an attainment to the knowing of a chapter. The places read carry these. Chapter 64: if this chapter be known, he shall be victorious both upon earth and in the underworld, he shall do whatsoever a man doeth who is upon the earth, and he shall perform all the deeds which those do who are alive; the longer version adds that he shall not be repulsed at any gate of the underworld, either in going in or in coming out, that he shall perform all the transformations which his heart shall desire, and that he shall not die. Chapter 83: he shall come forth pure by day after his death, he shall perform whatsoever transformations his heart desireth, and no evil thing whatsoever shall have dominion over him for ever and ever. Chapter 86: he shall come forth by day, he shall not be turned back at any gate in the underworld, and he shall make his transformation into a swallow regularly and continually. Chapter 125, after its conditions: he shall flourish, his children shall flourish, his name shall never fall into oblivion, and he shall be as one who filleth the heart of the king and of his princes."@en ;
+    skos:note "Read beside pmc:VaidikaYaEvamVeda in traditions/vedic-ritual.ttl, which is the same construction in a corpus with which no contact route is available. The correspondence is asserted at convergences/knowing-as-the-condition.ttl and not here."@en,
+        "Three things about the form, all of them in the wording and none of them read into it. The condition is knowledge and not performance, so two men buried with the same papyrus are promised different things and nothing distinguishes them. The attainments are of two kinds and the corpus does not separate them — passage and transformation after death, which nobody can report, and flourishing children and the favour of the king, which anybody can. And the rubric is attached to the chapter rather than contained in it, which matters because the rubrics move: the editors of 1901 and 1904 both note chapters whose rubric stands elsewhere in another manuscript, and one of them holds that the rubric of chapter 1 was originally the rubric of chapter 72."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:DivyaSrotra a pm:Conceptualizing ;
     rdfs:label "Göttliches Ohr"@de,
@@ -17583,11 +17840,6 @@ pm:searchFoundOpposing a pm:SearchOutcome ;
         "Search found opposing material"@en ;
     skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
         "Tibetan tantric tradition"@en ;
@@ -17621,21 +17873,16 @@ pmw:PgmIv a dcterms:BibliographicResource ;
         "PGM IV, the great magical papyrus of Paris (Bibliotheque nationale suppl. gr. 574)"@en ;
     skos:note "Opened at one piece, the ascent ritual at lines 475 to 829, in two layers: the English of Mead of 1907 and the edition of Dieterich in the second edition of 1910. The codex runs to thirty-six pages and the rest of it is unopened."@en .
 
-pm:Converging a owl:Class ;
-    rdfs:label "Konvergieren"@de,
-        "Converging"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
-    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
-        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
-        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
-        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
-
 pm:Scale a owl:Class ;
     rdfs:label "Skala"@de,
         "Scale"@en ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:FinnicIncantation a pm:Tradition ;
     rdfs:label "Finnische Zaubersprüche"@de,
@@ -17663,6 +17910,16 @@ pmt:Mithraic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
+
+pm:Converging a owl:Class ;
+    rdfs:label "Konvergieren"@de,
+        "Converging"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A structural correspondence observed across traditions, held as a node so that it can carry its routes of transmission and its counterexamples instead of asserting universality."@en ;
+    skos:note "Every instance is an ordering made by a compiler and carries pm:compilerInference, never textual attestation. No source says that the concepts correspond; the correspondence is the reading, and it is held as a node so that it can be argued with. Its sources are the sources of the concepts it brings together, and they attest those concepts and not their correspondence."@en,
+        "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
+        "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
+        "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -17734,6 +17991,25 @@ pm:Originating a owl:Class ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
+pmt:EgyptianRitual a pm:Tradition ;
+    rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
+        "Pharaonic Egyptian ritual"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu (British Museum 10.477), in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 417-418" ;
+    skos:definition "The transmission of heka as an operative power held by gods, kings and the transfigured dead, carried in mortuary and temple literature."@en ;
+    skos:note "Not opened: the Pyramid Texts, the Coffin Texts and Papyrus Westcar, which the registration names as parts of the principal corpus. They stand at the work identifiers as unopened rather than under the coverage state."@en,
+        "Read in this run at the wording, on 2026-09-19. The Theban recension in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, three volumes, London 1901, whose base manuscript changes from chapter to chapter and is named in each heading. Read closely: chapter 30B with its rubric (vol. I); the three rubrics of chapter 64, the short version and the two of the long version (vol. I); chapters 83 and 86 with their rubrics and the surrounding transformation spells (vol. II); the doorkeeper dialogue and the rubric of chapter 125 (vol. II); chapter 137A with its rubric and the four appended brick rubrics (vol. II). Beside them the Papyrus of Ani in Budge's English of 1895, plate III, the weighing of the heart with the verdict of Thoth, and the appendix rubric to chapter 76. The translation of Peter le Page Renouf and Édouard Naville, The Egyptian Book of the Dead, London 1904, was searched throughout and read at the places where it disagrees with Budge."@en,
+        "The contact route stays at disputed and this run did not settle it. What it did establish is which question the dispute is about. The demotic magical manuscripts of the Roman period share the trade, the ritual technique and part of the technical vocabulary of the pharaonic priesthood, and the graph holds them separately; what is not established anywhere the run looked is a textual filiation from the mortuary literature into the later magical corpora, and the strongest argument on the other side is that a priest writing for a hellenistic readership had reason to perform an expected Egyptianness. The dispute is about the direction and the mode of the contact and not about whether there was any."@en,
+        "The edition is the whole citation here and not a formality, because the two public-domain translations disagree in ways that change the claim. At chapter 137A Budge has the secrecy clause admit the father and the son — perform this before no human being except thine own self, or thy father, or thy son — while Renouf, from the Turin text and under chapter 161, has it exclude them: reveal it to no one, may he be thy father or thy son, except thyself. A node that gave the place without the edition would assert one of these against the other by accident. Every source string below therefore names translator, volume and page."@en,
+        "What kind of witness this is, and it is an unusual one. There is no Book of the Dead in the sense of a work: no manuscript carries all the chapters, the selection was made by the family and, as the editor of 1904 says in his introduction, by the number of chapters corresponding to the price they wished to pay. A fixed order appears only under the Saite kings, and the numbering used everywhere goes back to Lepsius of 1842 on one late Turin papyrus. A claim read here is a claim of one manuscript in one recension, and the sources say which."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:corpusWork pmw:BookOfTheDead,
+        pmw:CoffinTexts,
+        pmw:PapyrusWestcar,
+        pmw:PyramidTexts ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
+
 pmp:NorseLjodatal a pm:Practicing ;
     rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
         "Knowing and singing the eighteen songs"@en ;
@@ -17755,6 +18031,14 @@ pmt:MayaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
+
+pmw:BookOfTheDead a dcterms:BibliographicResource ;
+    rdfs:label "Das Totenbuch"@de,
+        "The Book of the Dead"@en ;
+    skos:note "Budge's translations are the weakest part of this reading and the file says so where it matters. The criticism is old and specific: contemporaries called his books filled with egregious errors, and the modern verdict is that the hieroglyphic editions remain usable while the English is not. Two places in this file rest on him alone because no public-domain alternative exists, and both carry a note. The standard modern translations — Faulkner 1972, Allen 1974, Hornung 1979, Quirke 2013 — are under copyright and were not obtained."@en,
+        "Not a work in the ordinary sense and the file treats it accordingly. Chapter numbers are Lepsius's of 1842, taken from one late Turin papyrus; Naville's edition of 1886 extends them from the manuscripts of the New Kingdom; Budge follows Naville and subdivides further, so that 30A and 30B, 81A and 81B, 136A and 136B, 137A and 137B are his divisions. A place is therefore given here as chapter number plus manuscript plus translation plus page, and nothing less will locate it."@en,
+        "One place in this file is given without a page number, and the reason is a property of the copy and not of the work: in the scanned text of Budge 1895 the running heads are legible on some pages and not on others, and the rubric to chapter 76 falls in a stretch where they are not. It is located instead by chapter, by its printed heading Appendix 1, and by the chapter it stands immediately before. SPEC §10 measures a place by findability and not by numbering, and a page number guessed by interpolation would have looked better and been worth less."@en,
+        "Opened on 2026-09-19 in two public-domain English translations: Budge 1901, three volumes, the Theban recension, base manuscripts named chapter by chapter, dominant among them the Papyrus of Nu, the Papyrus of Ani and the Papyrus of Nebseni; and Budge 1895, the Papyrus of Ani alone, with text, transliteration and translation. Renouf and Naville 1904, which translates from Naville's synoptic edition and refers to its manuscripts by sigla rather than by name, was used as the second translation and as the check on Budge."@en .
 
 pmt:InsularCeltic a pm:Tradition ;
     rdfs:label "Inselkeltische Überlieferung"@de,
@@ -18205,15 +18489,6 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; the Old English Herbarium of pseudo-Apuleius; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
 
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
         "Old Norse ritual transmission"@en ;
@@ -18243,6 +18518,15 @@ pmt:Shangqing a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
