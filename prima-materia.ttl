@@ -3807,16 +3807,6 @@ pmc:MayaIdolCarvingCaution a pm:Cautioning ;
     pm:cautionsAbout pmp:MayaIdolCarving ;
     pm:withinTradition pmt:MayaRitual .
 
-pmc:MayaIxRemedyYieldsAverting a pm:Yielding ;
-    rdfs:label "Die Abwehr befreit von den geweissagten Übeln"@de,
-        "The conjuring frees from the ills foretold"@en ;
-    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
-    skos:note "Entered with its own weakness stated, because the weakness is the finding. The witness names no sign by which the freeing would be recognised, no interval within which the ills would otherwise have come, and no consequence of omitting the procedure. The ills themselves are drawn wide enough to include drought and political discord together. Nothing in the passage marks out an outcome the claim would exclude, and the harvest rule keeps signs of success apart from conditions of failure exactly because a transmission can be rich in the first and empty of the second. This one is."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:byPractice pmp:MayaIxYearRemedy ;
-    pm:withinTradition pmt:MayaRitual ;
-    pm:yieldsCapacity pmc:MayaAvertingOfForetoldIlls .
-
 pmc:MayaIxYearRemedyAgency a pm:Situating ;
     rdfs:label "Die Abwehr der Übel wird dem Gott zugeschrieben, nicht den Feiernden"@de,
         "The averting of the foretold ills is credited to the god, not to the celebrants"@en ;
@@ -4177,14 +4167,6 @@ pmc:NeidanZhuMi a pm:Conceptualizing ;
     skos:definition "The fourteenth quatrain has the two components seized into one place and refined with fire, one grain and then another, from the minute to the manifest. The commentary makes it a schedule by weight: one grain the size of a millet seed is produced each day, so that in thirty days the weight is thirty-eight grains and four hundredths, and in three hundred days three hundred and eighty-four grains, which is a square inch and weighs one catty."@en ;
     skos:note "The number is the Cantong qi's, and the file says so: three hundred and eighty-four is the count of the lines of the hexagrams, which Weng Baoguang's commentary on the Wuzhen pian gives in the same breath as the three hundred and eighty-four grains of a catty. What is being weighed is therefore a correspondence and not a substance, and the daily increment cannot be checked because nothing is on a scale."@en ;
     pm:withinTradition pmt:Neidan .
-
-pmc:NginduLeafNullifiesEveryCharm a pm:Conceptualizing ;
-    rdfs:label "Ein Blatt hebt jedes geladene Ding im Haus auf"@de,
-        "One leaf annuls every charged thing in the house"@en ;
-    dcterms:source "John H. Weeks, Among the Primitive Bakongo (London: Seeley, Service and Co., 1914), p. 241" ;
-    skos:definition "A leaf of the ngindu-ngindu tree is held to counteract the influence of all charms and charged things, so that a practitioner who finds one in his house must reinvigorate everything he owns, the presence of the leaf having rendered them useless."@en ;
-    skos:note "Recorded because it is a physical and checkable condition of failure rather than a moral one, and because it is general: it does not annul one charged thing but the whole stock of them. What it shares with the other failure conditions is that it is discovered after the fact."@en ;
-    pm:withinTradition pmt:KongoNkisi .
 
 pmc:NineYearsForTheSuccessor a pm:Presupposing ;
     rdfs:label "Der Nachfolger binnen neun Jahren"@de,
@@ -6243,15 +6225,6 @@ pmc:ShouyiYieldsCapacities a pm:Yielding ;
     pm:withinTradition pmt:Daoist ;
     pm:yieldsCapacity pmc:ShouyiCapacities .
 
-pmc:ShouyiZhongnan a pm:Cautioning ;
-    rdfs:label "Nicht das Wissen ist schwer, sondern das Durchhalten"@de,
-        "Knowing it is not the hard part; ending in it is"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
-    skos:definition "The chapter states the difficulty as a matter of persistence and not of understanding: to know the One is not hard, the hard thing is in the ending; guard it without losing it and one may be without limit. It names what happens when it lapses and what is then to be done. If a man happens to forget the guarding and is harmed by the hundred ghosts, or is pressed down in his sleep, he goes out into the middle of the courtyard, looks at the assistant star, closes his hands and guards the One, and the ghost departs; and if it is overcast or raining he stays in the room, faces north and thinks the assistant star, and that is all."@en ;
-    skos:note "The remedy is the part worth having, and it is the shape a claim takes when the transmission expects its own practice to fail intermittently. It names the failure, names a sign of it that the practitioner does not have to interpret, prescribes a corrective act, and provides a fallback for the case in which the corrective act cannot be performed. Very little in this holding sets out a repair rather than a prohibition."@en ;
-    pm:cautionsAbout pmp:Shouyi ;
-    pm:withinTradition pmt:Daoist .
-
 pmc:SiddhisAsObstacle a pm:Cautioning ;
     rdfs:label "Die Kräfte sind Hindernisse für samādhi"@de,
         "The powers are obstacles to samādhi"@en ;
@@ -6675,6 +6648,18 @@ pmc:ThePythonProhibition a pm:Cautioning ;
     pm:cautionsAbout pmc:DanhGbi ;
     pm:fieldRecord "Spoken by Ewe and Fon informants at Whydah, unnamed, with one case taken from the published account of the Abbé Bouche and one from Des Marchais of 1731, both named by the recorder as he uses them; recorded by A. B. Ellis, colonial officer on the West African coast, published 1890; given in Ewe and Fon, of which the work prints the terms, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
+
+pmc:TheRepairWithoutASignExamination a pm:Testing ;
+    rdfs:label "Prüfprotokoll zur Wiedergutmachung ohne Zeichen"@de,
+        "Protocol on the repair without a sign"@en ;
+    skos:definition "An attempt to fail the statement that a repair carries a sign exactly where the harm it repairs was observable. The protocol is a reading protocol and not a field one: what is claimed is a regularity in what operative texts say, so it fails or holds against texts."@en ;
+    skos:note "Entered at procedure without cases and not at no procedure devised. The procedure exists and is stated in the falsifier: open an operative text that prescribes a repair for a fault, find the harm the fault is said to cause, and see whether the text says how the practitioner would know the repair took. Nobody has yet gone through a corpus with that question."@en,
+        "The first corpus to run it against is named at the generalization and is unopened: the Vedic expiation books of the Śrautasūtras. That is a good first case because the harm is already known from the exegesis, so only the second half of the question is open, and because a failure there would fall on the strongest of the four witnesses."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the four witnesses; no cases collected" ;
+    pm:falsifiedBy "An operative text that attaches an unobservable or deferred harm to a fault in its own procedure, prescribes a repair for the fault, and in the same text names either a sign by which the repair is known to have taken effect or a condition under which the repair fails."@en ;
+    pm:protocolUpdated "2026-09-19"^^xsd:date ;
+    pm:tests pmc:TheRepairWithoutASign .
 
 pmc:TheRestrictionOnPassingItOn a pm:Generalizing ;
     rdfs:label "Die Überlieferung beschränkt ihre eigene Weitergabe, im operativen Text selbst"@de,
@@ -7158,6 +7143,171 @@ pmc:UnsoughtCapacityCannotBeLaidDown a pm:Generalizing ;
     pm:generalizedFrom pmc:CautionAgainstLayingDownTheOffice,
         pmc:CautionAgainstTheSightItself ;
     pm:generalizedStatement "Where a transmission holds that a capacity or an office comes to a person without being sought, it also holds that the person cannot be rid of it at will, and it locates the impossibility in the capacity or in what conferred it rather than in a rule the person could choose to break."@en .
+
+pmc:VaidikaDarsapurnamasaSampad a pm:Yielding ;
+    rdfs:label "Das Vollmondopfer bringt jenen Wohlstand dem hervor, der dies weiß"@de,
+        "The full-moon offering yields that prosperity to whoever knows this"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,6,3,15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, p. 167" ;
+    skos:note "The condition is double and the second half is the corpus's own: performing it in this wise, and knowing this. See pmc:VaidikaYaEvamVeda."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:VaidikaDarsapurnamasa ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual ;
+    pm:yieldsCapacity pmc:VaidikaIndrasampad .
+
+pmc:VaidikaDosanivedananisedhah a pm:Cautioning ;
+    rdfs:label "Der Priester im Sadas soll auf einen Fehler nicht aufmerksam machen"@de,
+        "The priest in the Sadas must not call attention to a flaw"@en ;
+    dcterms:source "Kauṣītaki Brāhmaṇa xxvi,4, in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 497-498" ;
+    skos:definition "Prāgāhi holds that once the concluding call of the invitatory and offering verses has been made, a flaw noticed after that point has been passed over. Paiṅgya draws the rule from it: therefore the priest in the Sadas should not call attention to a flaw passed over at this time — he knocks into a pillar or falls into a pit or is put into one or perishes. Āruṇi holds that if the flaw is pointed out there must not be a repetition of what has been done; Śvetaketu, that there is loss of a secondary element. Paiṅgya repeats his rule twice more and adds: it is a tribulation to the sacrifice if the priest in the Sadas calls attention to a flaw passed over."@en ;
+    skos:note "A prohibition on reporting an error, with a consequence named for the reporter and not for the error. The office described is the one office at the rite whose business is to watch it, and the rule addressed to him is to keep quiet."@en,
+        "Worth keeping apart from the transmissions that forbid a testing question. Here nothing is being tested: the flaw is agreed to have occurred, and what is forbidden is saying so. The consequence — a pillar, a pit, perishing — falls on the man who speaks, which is the reverse of the arrangement everywhere else in this file, where the fault of one man is paid for by another."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaNivid,
+        pmp:VaidikaVasatkara ;
+    pm:fromWork pmw:KausitakiBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaDosavivadah a pm:Disputing ;
+    rdfs:label "Ob ein Fehler in der Rezitation zu heilen ist, oder ob es keinen gibt"@de,
+        "Whether a flaw in the recitation has to be repaired, or whether there is none"@en ;
+    dcterms:source "Kauṣītaki Brāhmaṇa xxvi,5, the position of Jātūkarṇya, in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, p. 498",
+        "Kauṣītaki Brāhmaṇa xxvi,5, the position of Kauṣītaki, in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, p. 498" ;
+    skos:definition "The corpus stages the question and names the parties. Daivodāsi Pratardana comes to a sacrificial session of the Naimiṣīyas and asks: if the priest in the Sadas should call attention to a flaw passed over, or any one of the priests should note it, how would you remove the flaw? They were silent. Their Brahman priest Alikayu Vācaspata says he does not know and will ask Jātūkarṇya, the aged teacher of those formerly. Jātūkarṇya answers that the mantra should be recited again, and, asked how much, that so much as is erroneous only need be repeated — a verse, or half verse, or quarter verse, or word, or letter. But Kauṣītaki used to say: he should not repeat the mantra, nor offer a libation; there is no flaw — for whatever flaw the Hotṛs make in the sacrifice through inattention, all that Agni as divine Hotṛ makes flawless."@en ;
+    skos:note "Keith notes that this passage has no parallel in the Aitareya and none in the Śatapatha, and that the exact sense of Prāgāhi's sentence is uncertain. The uncertainty is about when the flaw counts as passed over and not about the two answers, which are plain."@en,
+        "This is the most valuable thing the run read, and what makes it so is that both positions are held by named authorities inside one transmission. On one side the fault is real and repairable to the letter, which is as fine-grained a correction rule as any corpus in this holding states. On the other side there is no fault, because a god repairs whatever inattention produces. The second position is the immunising clause stated as doctrine and attributed by name, not reconstructed by an outsider."@en,
+        "What the two positions do to the exactness rule is the point. The whole apparatus entered above — the empty vaṣaṭ, the three faults of the Nivid, the misspoken formula — presupposes that an error has an effect. Kauṣītaki's sentence removes the effect of every error made through inattention, and with it every occasion on which the rule could be seen to hold or fail. The corpus therefore carries the strictest form of the exactness claim and its complete cancellation, two sections apart."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:VaidikaNividdosah ;
+    pm:fromWork pmw:KausitakiBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaIndrasatru a pm:Cautioning ;
+    rdfs:label "Wachse, der du Indra zum Feinde hast"@de,
+        "Grow thou, having Indra for thy foe"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,6,3,8-10 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, pp. 165-166" ;
+    skos:definition "The transmission's own demonstration that the wording of an offering formula decides the outcome. Tvaṣṭṛ, whose son Indra has killed and whose Soma Indra has drunk uninvited, pours what is left into the fire saying: Grow thou, having Indra for thy foe. What grows from the fire is Vṛtra. The passage then draws the lesson in one sentence: because he said Grow thou, having Indra for thy foe, therefore Indra slew him; had he said Grow thou, the foe of Indra, he would certainly have forthwith slain Indra."@en ;
+    skos:note "What the Śatapatha says and what it does not. It makes the outcome turn on the wording and gives the two wordings; it does not say that the fault lay in the accent. That is supplied by Eggeling's note from the Taittirīya-Saṃhitā II,4,12,1, where the compound is said to have been accented on the first member instead of the second. The Taittirīya was not opened in this run, and the accent is therefore reported here as the translator's note and not as a reading of this holding. The same legend is told again at Śatapatha V,5,4,2 and following, which this run did not read."@en,
+        "Who bears the fault is the finding. Tvaṣṭṛ speaks and Vṛtra dies. The speaker of the formula loses nothing by his mistake except the thing he produced with it, and the thing produced is what the mistake kills. See generalizations/displaced-penalties.ttl, where this is now a witness."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaDarsapurnamasa ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaIstakasamkhya a pm:Presupposing ;
+    rdfs:label "Die genaue Zahl der Steine und Ziegel, und die zwei Fehlschläge, die sie festsetzen"@de,
+        "The exact count of stones and bricks, and the two failures that establish it"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,4-8 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 356-357" ;
+    skos:definition "The transmission states the condition by reporting its own failure twice. The gods perform the Agnihotra, the new and full-moon sacrifices, the seasonal offerings, the animal sacrifice and the Soma-sacrifice: they did not attain immortality. They build a fire-altar with unlimited enclosing-stones and unlimited bricks, as some do to this day saying that the gods did so: they did not attain immortality. Prajāpati then names the fault — ye either make me too large or leave me defective, therefore ye do not become immortal — and the count: three hundred and sixty enclosing-stones, three hundred and sixty bricks laid with formulas and thirty-six more, and ten thousand eight hundred filling bricks. The gods laid down accordingly and thereafter became immortal."@en ;
+    skos:note "The numbers are the point and they are checkable in a way almost nothing else here is: a man either laid three hundred and sixty enclosing-stones or he did not. What is not checkable is the outcome attached to them, and the next paragraph of the same passage is where that is settled. See pmc:VaidikaNaSarirenaAmrtah."@en,
+        "This is the only place the run found in either work where a defective performance is reported as having actually failed and the fault is then named. It is a report about gods and not about men, which is why it is entered as the ground of the condition and not as a case."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Ye do not lay down all my forms; but ye either make me too large or leave me defective: therefore ye do not become immortal. Stated by Prajāpati in the passage itself, as the reason for two reported failures."@en ;
+    pm:dependentStep pmc:VaidikaAgnicayanaAmrtatva ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:VaidikaSamkhyapurnata ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaJnanenaJitam a pm:Conceptualizing ;
+    rdfs:label "Kraft des Wissens habe ich selbst obsiegt"@de,
+        "By dint of knowledge I myself have prevailed"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,3,8-12 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 82-85" ;
+    skos:definition "The clause attached to every one of the five cases, in the same words each time. The damage is stated for him who would not know this; and the man questioned adds of himself: but by dint of knowledge I myself have prevailed. The knowledge in each case is an identification of one breath with another — the breath of the mouth has entered the upward breathing, and so on — and the repair is an offering moved to a different fire."@en ;
+    skos:note "It is not a later apology either. The clause is not attached to a complaint that the rite failed; it stands in the first statement of the danger, in the mouth of the authority who states it, as part of what makes him an authority. The excusing condition and the threat are the same sentence."@en,
+        "This is the finding of the passage and it is the reason the tradition was worth taking off the register. The same mishap, the same fire, the same hour: the eldest son dies or he does not, and what decides it is what the offerer knows. No observation of the mishap distinguishes the two cases, and the knowledge is not a skill anybody could see exercised — it is an equivalence held in the mind and reported only by the man who holds it."@en,
+        "What the passage does supply against itself, and it is unusual: it says outright that the knowledge is rare. The exchange is a contest in which one party is repeatedly told that this much they know in common, until at the fifth case Śauceya answers that he did not know this. See pmc:VaidikaMurdhanvyapatana for what follows."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaMurdhanvyapatana a pm:Cautioning ;
+    rdfs:label "Hättest du nicht so gesprochen, wäre dir das Haupt abgeflogen"@de,
+        "If thou hadst not spoken thus, thy head would have flown off"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,3,13 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 85" ;
+    skos:definition "The close of the contest. Śauceya, having admitted that he did not know the fifth answer, says: here are logs for fuel, I will become thy pupil. Uddālaka replies: if thou hadst not spoken thus, thy head would have flown off; come, enter as my pupil. He then initiates him and teaches him that pain-conquering utterance, Truth."@en ;
+    skos:note "A penalty for asking beyond one's own knowledge, stated after the fact and cancelled by the submission that was offered before it was announced. The one act that averts it is acknowledging the other man as teacher, so the sanction protects the order of the school and not the rite."@en,
+        "The same sanction is stated twice more in the corpus, and neither place was read at the wording in this run: at Śatapatha XI,4,1,9, to which Eggeling's note refers, and at XIV,6,9,28, where Vidagdha Śākalya's head falls off. The addresses are recorded here so the next run does not have to find them again."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaAgnihotra ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaNaSarirenaAmrtah a pm:Conceptualizing ;
+    rdfs:label "Von nun an soll niemand mit dem Leibe unsterblich sein"@de,
+        "Henceforward no one shall be immortal with the body"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,9-10 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
+    skos:definition "The clause that follows the successful piling, and it is spoken by Death. He objects that on this wise all men will become immortal and asks what share will then be his. The gods answer: henceforward no one shall be immortal with the body; only when Death has taken the body as his share shall he who is to become immortal, either through knowledge or through holy work, become immortal after separating from the body. The passage then identifies both the knowledge and the holy work with this same fire-altar."@en ;
+    skos:note "It is also the sharpest instance in this holding of a construction that is usually reconstructed rather than read: a transmission that had a checkable promise, met an objection, and narrowed the promise in the same breath. The objector is a character in the story and the narrowing is presented as a concession to him."@en,
+        "What the sentence does is worth stating exactly, because the transmission does not hide it and a summary would. Three paragraphs earlier the claim had an outcome anyone could look for: the performers of the rite would not die. Here the outcome is moved past the death of the body by a rule stated inside the same passage, and the reason given for moving it is that Death would otherwise have no share. From this point the claim excludes nothing that could be observed of a performer."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaPranitavimocana a pm:Presupposing ;
+    rdfs:label "Das Wasser wird ausgegossen, sonst verletzt das Opfer den Opferherrn"@de,
+        "The water is poured out, or the sacrifice injures the sacrificer"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,9,2,32 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, p. 265" ;
+    skos:definition "At the close of the new and full-moon offering the priest walks round to the south and pours out the praṇītā-water. The reason is stated as a mechanism: when he spreads the sacrifice he yokes it; but were he not to pour out the water, the sacrifice, being unyoked, would in moving backward injure the sacrificer. In this way, however, the sacrifice does not injure the sacrificer."@en ;
+    skos:note "The plainest statement in the corpus of the shape this project looks for in a prerequisite: an act, an omission, and a named consequence of the omission, all in one sentence and with the consequence explained rather than asserted. The sacrifice is a yoked team; what is not unyoked at the end runs back over the man who drove it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "But were he not to pour out the praṇītā-water, the sacrifice, being unyoked, would, in moving backward, injure the sacrificer."@en ;
+    pm:dependentStep pmp:VaidikaDarsapurnamasa ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:VaidikaPranitavisarjanam ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaSkannamPrajananam a pm:Conceptualizing ;
+    rdfs:label "Die verschüttete Milch als Zeichen der Vermehrung gelesen"@de,
+        "The spilt milk read as a sign of increase"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,1,7 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 180" ;
+    skos:definition "The repair for spilling turns the mishap into a promise. He touches the spilt milk with the words: it hath been shed, it hath been implanted, birth hath ensued. The exegesis follows: this earth is a womb and the milk is seed, he thus implants seed in that womb, and forthwith that shed seed of him who so knows this is born forth. The paragraph ends by telling him what to conclude — let him therefore know that abundant production has accrued unto him, that he will be multiplied in offspring and cattle, and that he will become more prosperous."@en ;
+    skos:note "It stands two paragraphs from the general assurance at pmc:VaidikaPrayascittaEffectus and does a different job. There the repair removes the harm; here the mishap is reclassified. Both are in the same chapter and neither is presented as an exception."@en,
+        "The mishap and its opposite are now both favourable. Milk that stays in the vessel is a correct performance; milk that goes on the ground is abundant production accruing to the performer. The instruction is explicit that this is what he is to know from the event, so nothing about the event remains that could tell him the day went badly."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaSvarenaKarma a pm:Conceptualizing ;
+    rdfs:label "Durch die Tonhöhe des Rufes macht der Hotṛ den Opferherrn nach Belieben besser oder schlechter"@de,
+        "By the pitch of the call the Hotṛ makes the sacrificer better or worse at will"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7 (xi,7), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, p. 169" ;
+    skos:definition "A capacity claimed for the officiant over the man who employs him, with the procedure stated. Should he consider the good and evil of the sacrificer whose Hotṛ he is? He should do to him herein as he may desire. If he desires that the man be as he was before sacrificing, he says the vaṣaṭ call in the same tone as he recites the verse. If he desires that he be worse, he recites the verse in a more raised tone and says the call in a more depressed tone. If he desires that he be better, he recites in a more depressed tone and says the call in a more raised tone."@en ;
+    skos:note "Kept apart from pmc:VaidikaVasatkaraRiktah on purpose, although both turn on the delivery of the same call. One is a fault with a consequence, the other a technique with an intention; entering them as one node would have lost the fact that this corpus describes the same variation twice, once as damage and once as instrument."@en,
+        "This is a capacity in the sense this project looks for and an unusually well specified one: the operation is a relative pitch between two utterances, it is performed in the open in the presence of the person it acts on, and the three intended outcomes are named. What is not named is any sign by which the sacrificer or anyone else would know which of the three was done to him, and the transmission puts the choice in the Hotṛ's discretion without requiring him to declare it."@en ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaTulamana a pm:Conceptualizing ;
+    rdfs:label "Wer dies weiß, besteigt die Waage schon in dieser Welt"@de,
+        "He who knows this mounts the balance in this world"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,2,7,33 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 45-46" ;
+    skos:definition "The right edge of the altar-ground is the balance. Whatever good deed a man does is inside the altar-ground and whatever evil deed outside it; let him therefore sit down touching the right edge. For they place him on the balance in the world beyond, and whichever of the two rises he will follow, whether good or evil. And whosoever knows this mounts the balance even in this world and escapes being placed on the balance in the world beyond, for his good deed rises and not his evil deed."@en ;
+    skos:note "A weighing whose outcome is fixed in advance for whoever knows how to sit. The passage states the general rule — the rising pan decides — and in the same breath names a condition under which the outcome is not in doubt. Eggeling's note refers this to the Indian ordeal literature, which was not opened here."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaVasatkaraSantih a pm:Cautioning ;
+    rdfs:label "Der Ruf ist ein Donnerkeil und ist nach jedem Gebrauch zu besänftigen"@de,
+        "The call is a thunderbolt and must be appeased after every use"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,8 (xi,8), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 169-170" ;
+    skos:definition "The vaṣaṭ call is a thunderbolt; it shines when hurled if not appeased. Of it not every man as it were knows the appeasing nor the support. From it even now there is often as it were death. The appeasing of it, the support, is Speech; therefore after each vaṣaṭ call the Hotṛ should recite as accompaniment: O vaṣaṭ call, do not injure me; let me not injure thee. Appeased, it injures him not."@en ;
+    skos:note "The chapter then carries a disagreement about the countermeasure itself: an unnamed authority holds that the long formula is impotent and that Force, strength, force is what should accompany the call. Two remedies for one danger, with the second proposed against the first."@en,
+        "Three things stand in this short passage that rarely stand together. A present-tense claim of harm — from it even now there is often as it were death — which is not set in myth and not deferred. An admission that the countermeasure is not generally known. And a countermeasure to be applied after every single use, which is what a transmission does when it treats its own danger as real rather than as emphasis."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaVasatkara ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaYaEvamVeda a pm:Conceptualizing ;
+    rdfs:label "Ya evaṃ veda: was dem versprochen wird, der dies weiß"@de,
+        "Ya evaṃ veda: what is promised to whoever knows this"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7, iii,8 and iii,10 (xi,7, xi,8 and xi,10), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 169-171",
+        "Śatapatha Brāhmaṇa X,4,3,1-2, XI,2,7,33, XI,5,6,9 and I,6,3,15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, p. 356, and 44, Oxford 1900, pp. 45-46 and 99, and 12, Oxford 1882, p. 167" ;
+    skos:definition "The recurring clause of this corpus, which attaches an attainment not to the performance but to the knowing of what the performance means. Every passage read in this run carries it, and the attainments are these. He who knows the year to be Death — that year does not destroy his life before old age, and he attains his full extent of life. He who knows the balance mounts it in this world and escapes being placed on it in the world beyond. He who studies at the four thunder-calls is freed from the death that comes again and attains community of nature with the Brahman. He who knows the meaning of the full-moon offering attains Indra's prosperity, is endowed with glory, and becomes such a consumer of food. In the Aitareya: he who knows the continuity of the vaṣaṭ call is united with offspring and cattle; he who knows its appeasing lives a full life; he who knows the placing of the Nivid is propagated with offspring and cattle and shines on all sides with the decoration of the sacrifice."@en ;
+    skos:note "Held in one node and not in seven, with the reason stated because the harvest rule of SPEC §15 is against exactly this kind of economy. What that rule protects is the count of distinct claims a corpus makes, and these are not distinct claims: they are one clause with one small set of outcomes — a full life, offspring, cattle, prosperity, glory — reattached at the end of each exposition to whatever that exposition explained. The distinct attainments of this corpus, escape from the death that comes again and the fixing of the balance, have their own nodes; what is held here is the form and the list of places, so that a later run can count them without reading the passages again."@en,
+        "The count is of the passages read and not of the corpus. Searching Eggeling's five volumes for knows this and knowing this, on the whitespace-normalised text, returns 268 occurrences: 74 in kāṇḍas I to II, 17 in III to IV, 14 in V to VII, 57 in VIII to X, 106 in XI to XIV. Nobody has gone through them, and this node does not stand for that work. The distribution is itself worth a run: the clause is commonest where the corpus turns the rite into knowledge, and it is nearly as common in the first two kāṇḍas, where it does not."@en,
+        "Why the form matters more than any one of its instances. The clause makes the attainment turn on an item of knowledge and not on anything done, so two men who perform identically are promised different things, and nothing about the performance shows which. That is the same construction as pmc:VaidikaJnanenaJitam on the side of the harm, and the two together are the corpus's characteristic move: knowledge decides, and knowledge is reported only by the man who has it."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
 
 pmc:ValentinianConsummation a pm:Conceptualizing ;
     rdfs:label "Die Vollendung als Hochzeit, nicht als Verschmelzung"@de,
@@ -9735,6 +9885,47 @@ pmp:UptakeThroughTheHandSearch a pm:Searching ;
     pm:searchedCorpus "Ge Hong, Baopuzi neipian, twenty juan, in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185; searched over the whole work in the Chinese, and read at the wording where a hit fell" ;
     pm:searchedFor "A passage in which qi, energy or vitality is taken up out of another person, with the hand as the place of entry — the claim of prima-materia#328, whose second half is that the entry point is the left hand." .
 
+pmp:VedicExpiationSignSearch a pm:Searching ;
+    rdfs:label "Ob die Brāhmaṇas ein Zeichen dafür nennen, dass eine Sühne gewirkt hat"@de,
+        "Whether the Brāhmaṇas name a sign that an expiation has taken effect"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Limits, and they are real. The performance literature was not opened: the expiation is a book of its own in the Śrautasūtras, Kātyāyana 25 and Āpastamba 9, and Eggeling's notes refer to Kātyāyana at exactly the places searched. A manual written for the man who has to do the thing may well say when he may stop. The finding is about the exegesis and says nothing about the sūtras."@en,
+        "No sign anywhere, and one sentence in the opposite direction. The standing form of the expiation book is a question — they also say, if such and such were to happen, what rite and what expiation would there be in that case? — an act, and the closing formula this, then, is the rite performed in that case. Some twenty-two of these stand in four chapters. The only statement about efficacy the run found is general and unconditional: no hurt and no harm of any kind befalls where that expiation is made. Beside it stands the clause for everything not enumerated, the three utterances which the text calls all-expiatory and of which it says that he thus makes expiation with all this universe."@en,
+        "This is the exhibited gap the class exists for, and it is not a gap in the reading. A corpus that lists its accidents this carefully has plainly attended to the question of what can go wrong; the silence is about how one would know it had been put right, and it is complete over six volumes."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all six volumes on the whitespace-normalised text for: expiation (69 in the five Śatapatha volumes, 130 in Keith); expiatory (36 and 5); in vain (9 and 1, every one inspected and none about a rite that did not take); of no avail, did not avail, availed not, unavailing (none anywhere); failed (6 and 0, all inspected — five are the Vaiśvānara dialogue of Śatapatha X,6,1 and one is a simile about a stronghold gate); sign of (11 and 12); token (2 and 1); thereby he knows, he knows that the expiation, sign of the expiation (none). In addition the four chapters of the expiation book, Śatapatha XII,4,1 to XII,4,4, were read continuously, and so were Aitareya vii,2 to vii,12 in outline." ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "Śatapatha Brāhmaṇa (Mādhyandina) in the English of Julius Eggeling, Sacred Books of the East 12, 26, 41, 43 and 44, Oxford 1882-1900, kāṇḍas I to XIV complete; and Aitareya and Kauṣītaki Brāhmaṇas in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, complete" ;
+    pm:searchedFor "Anywhere in either corpus: a sign, mark or event by which a performer would know that a prescribed expiation had taken effect; or an interval within which the harm the expiation averts would otherwise have arrived; or a case in which an expiation was made and failed. The expiation is the corpus's own repair for its own accidents, and it is prescribed case by case with great care; whether it is also given a criterion decides whether the whole apparatus of stated failure conditions is examinable or only enumerable." .
+
+pmp:VedicPenaltyCaseSearch a pm:Searching ;
+    rdfs:label "Ob die Brāhmaṇas einen Fall berichten, in dem der angedrohte Schaden wirklich eintrat"@de,
+        "Whether the Brāhmaṇas report a case of the threatened harm actually arriving"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Limits. One translation each, and the Kāṇva recension of the Śatapatha, which is not a variant of the Mādhyandina numbering but a separate text, was not obtained in any form. Eggeling's rendering decides the search terms: he writes recurring death where Keith writes repeated death, and a search in either wording alone loses half the corpus."@en,
+        "One case in six volumes, and the search is the only reason it is in the holding: it stands in a chapter on the heads of the victims that no part of this run had any reason to read. Some obtain the heads without performing the animal sacrifice and put them on the altar; they who do this become mortal carcases; in this way they did put them on for Aṣāḍhi Sauśromateya, but quickly indeed he died after that."@en,
+        "What the negative half of the finding is worth. Four occurrences of the word died in fourteen kāṇḍas, of which one is a dyed ox-hide, one a wind dying away, one the immortality passage of X,4,3, and one this case. A corpus this insistent about what follows a fault records the following of it once. That is a statement about the genre — the Brāhmaṇas argue from equivalences and not from instances — and it bounds what any protocol built on them can expect to find."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of all six volumes on the whitespace-normalised text for: died (4 in the Śatapatha, 3 in Keith, every one inspected); he perished, came to ruin, was ruined, his cattle died, his eldest son died, the sacrificer died, his head flew off, head fell off (none anywhere); before long (5 in the Śatapatha, all in the dialogue of Śauceya and Uddālaka at XI,5,3, all of them statements of the rule and none a report); within a year, within the year, within a month, within ten days, on the tenth day (15 across the six volumes, inspected, none of them a term set to a penalty). The line-based counts before normalisation were 1 per volume for died, which is the artefact described in the header of this file."@en ;
+    pm:searchYieldedNode pmc:VaidikaAsadhimrtyu ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "Śatapatha Brāhmaṇa (Mādhyandina) in the English of Julius Eggeling, Sacred Books of the East 12, 26, 41, 43 and 44, Oxford 1882-1900, kāṇḍas I to XIV complete; and Aitareya and Kauṣītaki Brāhmaṇas in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, complete" ;
+    pm:searchedFor "A passage reporting that a named human being committed one of the ritual faults this corpus attaches a consequence to, and that the consequence followed. The corpus states such consequences by the dozen — the eldest son dies, the master of the house dies, the cattle die, the line fails, the sacrificer becomes worse, is confused, is likely to die — and a single reported instance is worth more to an examination than any number of further statements of the rule." .
+
+pmp:VedicPunarmrtyuWordingSearch a pm:Searching ;
+    rdfs:label "Ob das Entkommen vom wiederkehrenden Tod noch etwas anderem als dem Altar zugeschrieben wird"@de,
+        "Whether the escape from the death that comes again is credited to anything besides the altar"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Not searched: the Kāṇva recension, and the Upaniṣadic parts of kāṇḍa XIV beyond the passages the other searches touched, where the term is known to recur in a different argument."@en,
+        "Spread, and over a wide range of cost. Nine places in the six volumes, every one read at the wording. In the Śatapatha: the piled altar with its ten thousand eight hundred bricks at X,4,3; the altar built above the sun rather than on this side of it, in kāṇḍa X, where the building is said to be done thereabove by the builder's knowledge; two places in the same kāṇḍa where the escape is credited to knowing an equivalence and to nothing else, one of them adding that he attains the whole life; the daily recitation of one's lesson at XI,5,6,9, where a single divine word suffices on a day when nothing else is possible; a place in kāṇḍa XII where passing from the imperishable to the imperishable does it; and the Sautrāmaṇī at XII,9,3,11 and 12, which wards off the recurring death of a man's cattle and of his dead, and which does so for him for whom the rite is performed as well as for him who knows. In the Kauṣītaki, the Viṣuvant day: without it are hunger and repeated death, and they conquer hunger and repeated death who perform it, at xxv,1 in Keith's page 486."@en,
+        "The finding bears on the condition and not on the claim. X,4,3 is the only place where the corpus reports its own failures and names an exact count as what ends them, and it is the passage a reader would take for the corpus's considered position. Four other places give the same result for operations that meet no such condition. Whatever the count at X,4,3 is doing, it is not the condition on which escape from the death that comes again is generally made to depend."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of all six volumes on the whitespace-normalised text for: recurring death and recurrent death, which is Eggeling's rendering; repeated death, which is Keith's; death again, dies again, come to life again; immortality (29 in the Śatapatha volumes, inspected around the passages found). Eggeling's and Keith's renderings do not overlap, and a search in one alone returns nothing from the other corpus." ;
+    pm:searchYieldedNode pmc:VaidikaSvadhyayaPunarmrtyujaya ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "Śatapatha Brāhmaṇa (Mādhyandina) in the English of Julius Eggeling, Sacred Books of the East 12, 26, 41, 43 and 44, Oxford 1882-1900, kāṇḍas I to XIV complete; and Aitareya and Kauṣītaki Brāhmaṇas in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, complete" ;
+    pm:searchedFor "Every operation to which either corpus credits escape from punarmṛtyu, the death that comes again. The question is whether the claim is tied to the one expensive operation that states an exact condition — the piling of the fire-altar with its counted bricks — or is spread over operations of very different cost, because the second would mean that the condition stated at X,4,3 governs nothing." .
+
 pmp:VoSisa a pm:Practicing ;
     rdfs:label "Vo-sisa, was bei schlechtem Spruch zu tun ist"@de,
         "Vo-sisa, what is done when the oracle answers badly"@en ;
@@ -10641,14 +10832,6 @@ pmt:Varkari a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Jñāneśvarī; the abhaṅga of Tukārām, Nāmdev and Eknāth" .
 
-pmt:VedicRitual a pm:Tradition ;
-    rdfs:label "Vedische Ritualüberlieferung"@de,
-        "Vedic ritual transmission"@en ;
-    skos:definition "The solemn ritual and its exegesis, in which efficacy rests on stated equivalences between the act, the body and the world."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
-
 pmt:Yarsan a pm:Tradition ;
     rdfs:label "Yarsanische Überlieferung"@de,
         "Yarsan transmission"@en ;
@@ -11549,20 +11732,26 @@ pmc:EuropeanFolkMagicZahnschmerzStillung a pm:Conceptualizing ;
 pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
     rdfs:label "Die Genauigkeit der Rezitation ist als Bedingung ihrer Wirksamkeit gesetzt"@de,
         "The exactness of the recitation is set as the condition of its efficacy"@en ;
-    dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11",
+    dcterms:source "Aitareya Brāhmaṇa iii,11 (xi,11), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 171-172",
+        "Aitareya Brāhmaṇa iii,7 (xi,7), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, p. 169",
+        "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11",
         "Martha Warren Beckwith, The Kumulipo: A Hawaiian Creation Chant (Chicago: University of Chicago Press, 1951), chapter 7, pp. 35-36",
         "Ruth L. Bunzel, Zuni Ritual Poetry, in Forty-Seventh Annual Report of the Bureau of American Ethnology 1929-1930 (Washington: Government Printing Office, 1932), pp. 615-616",
         "Washington Matthews, Navaho Legends, Memoirs of the American Folk-Lore Society V (Boston and New York: Houghton, Mifflin, 1897), sections 41-42, pp. 24-25" ;
-    skos:definition "Four transmissions make the same claim about spoken ritual language: the effect is not obtained unless the words are rendered as they stand. Three of them also say what a lapse does. One holds that an error, and equally a hesitation, is fatal to the efficacy of the address. Another holds that an error in a song may be fatal to the ceremony and that in some cases a single syllable does irreparable harm. A third requires the publicly chanted parts to be letter perfect and, in the passages read, states no consequence. The fourth names a breath taken before the close of a phrase alongside mistake and hesitation, and says the ill-luck falls on the party the chant honours rather than on the reciter."@en ;
+    skos:definition "Four transmissions make the same claim about spoken ritual language: the effect is not obtained unless the words are rendered as they stand. Three of them also say what a lapse does. One holds that an error, and equally a hesitation, is fatal to the efficacy of the address. Another holds that an error in a song may be fatal to the ceremony and that in some cases a single syllable does irreparable harm. A third requires the publicly chanted parts to be letter perfect and, in the passages read, states no consequence. The fourth names a breath taken before the close of a phrase alongside mistake and hesitation, and says the ill-luck falls on the party the chant honours rather than on the reciter. The fifth and sixth come from one corpus and grade the fault: a syllable lost from the closing call empties the reciter and the man he recites for, and passing over, inverting or uniting the sentences of a formula are three faults with three consequences of rising severity, the last of them the likely death of the sacrificer."@en ;
     skos:note "A defect in the vocabulary shows at this node and is recorded rather than worked around. pm:contactRoute is a property of a single tradition, but contact is a relation between two. The value pm:contactRouteAbsent as the registry uses it means that no route runs to what the graph already held at the time of registration; it cannot answer whether a route runs between two registered traditions that are later brought together in one correspondence, which is exactly the question a convergence asks. See prima-materia#101 for the vocabulary defect and prima-materia#102 for the registry entries it affects."@en,
         "A fourth witness was added on 2026-09-04 and it is expressly not a fourth independent one. The Hawaiian transmission holds that a breath taken before the close of a phrase, a mistake, or even hesitation in pronouncing a word is a sign of ill-luck. It stands beside the Maori witness and not beyond it: both descend from one East Polynesian dispersal, dated archaeologically to the thirteenth century, so for the independence question the two Polynesian legs count as one. The count of transmissions carrying the rule goes from three to four; the count of independent ones does not move. Holding both numbers is what SPEC section 14 asks for, and this is the case that shows why one number alone would mislead."@en,
         "The counter-search did not produce a tradition that denies the claim. What it produced is of a different kind and belongs here: the recorded versions of the same Māori address differ from one another across the eighteen-forties to the early nineteen-hundreds, and which rendering was valid was disputed among Māori at the time. A doctrine of one correct wording and a transmission that visibly carries several are not a contradiction, but they are the point at which the claim becomes examinable instead of edifying. The place that says so has not been read at the wording and stands at prima-materia#110."@en,
+        "The sixth witness also carries the sharpest counter-material this node has met, and it stands in the same corpus two books away. The Kauṣītaki reports a session at which the question is put — if a flaw is noticed, how would you remove it? — and prints two named answers. Jātūkarṇya: recite again, and only so much as was erroneous, a verse or half verse or quarter verse or word or letter. Kauṣītaki: he should not repeat the mantra, nor offer a libation, there is no flaw, for whatever flaw the Hotṛs make through inattention, all that Agni as divine Hotṛ makes flawless. The second answer cancels the rule this node describes, inside the transmission that states the rule most precisely. It is entered at pmc:VaidikaDosavivadah and it is a reason to read this correspondence as a claim about what these transmissions say rather than about what any of them settles."@en,
         "Three witnesses agreeing on the form of a rule is a weaker finding than it looks unless the alternative is stated. The alternative exists and is common: traditions in which the sense of a prayer carries it and the wording may be varied, and traditions in which improvisation is the mark of the competent practitioner. That the three named here all fall on the fixed side is what the correspondence asserts. Where the rule holds and where it is absent has not been surveyed; the spheres left unsearched stand at prima-materia#116, the Indic parallel at prima-materia#109."@en,
+        "Two further witnesses were added on 2026-09-19 from the Vedic Brāhmaṇas, and they are expressly not two further independent ones: the contact route of that transmission is documented and it stands inside the sphere where this holding is already densest. The count of transmissions carrying the rule goes from four to six; the count of independent ones does not move. What they add is of three kinds. First, grading: where the other four state that an error is fatal, the Aitareya distinguishes passing over a sentence, inverting two and uniting two, and assigns them a break in the sacrifice, confusion of the sacrificer, and the likelihood of his death, in that order. A doctrine that only warned would not need to rank the ways of getting it wrong. Second, a mechanism: the sacrifice is a yoked team, and the call is a thunderbolt that must be appeased after every use with a formula the corpus says not every man knows. Third, the same corpus makes the very variation that is a fault when it happens into a technique when it is intended — by reciting the verse in a raised tone and the call in a depressed one the Hotṛ makes the man he sacrifices for worse, and by the reverse better, at his own discretion and without declaring it."@en,
         "What the fourth witness does add is a different thing, and it sharpens the correspondence rather than padding it. First, it names who suffers: the ill-luck falls on the person or family the chant honours and not on the reciter who made the fault, so the party that could report the lapse and the party that bears it are different people. Second, it names a countermeasure the transmission itself takes: a master of song gathers two or more of his fellows to edit and memorise the lines, and genealogies must be memorised by more than one reciter. A transmission that builds redundancy against its own stated failure condition has treated the condition as a real risk, which is evidence about the practice that a bare threat is not. Third, the same tradition sets the opposite rule for a different kind of utterance in the same file: at the consecration of the hula altar what must not lapse is the continuity of the voice, and the teacher is expressly free to change the prayer to avoid a silence. The exactness rule is therefore not a general doctrine about ritual speech even where it holds, and the correspondence should not be read as one."@en,
         "What the node claims and what it does not. Independent attestation is asserted for the two North American transmissions with respect to the Polynesian one and with respect to everything else this collection holds; no route of contact between the Pacific and the American Southwest is available for the periods in which any of these corpora were fixed. It is not asserted between those two: they are neighbours in one region, and a route between Pueblo and Athabaskan ceremonialism is neither absent nor established here. The Māori witness is therefore the third leg and not a third independent one, because its own contact route is entered as disputed."@en ;
     pm:convergingConcept pmc:HawaiianChantExactness,
         pmc:MaoriExactRecitation,
         pmc:NavajoSongExactness,
+        pmc:VaidikaNividdosah,
+        pmc:VaidikaVasatkaraRiktah,
         pmc:ZuniPrayerExactness ;
     pm:independenceGround "Not a claim of priority in time. The two American corpora were fixed in eighteen ninety-seven and, from fieldwork of the nineteen-twenties, in nineteen thirty-two, both after the Polynesian witness was printed in eighteen eighty-two. What carries the independence is that no route of contact between the Pacific and the American Southwest is available for the period in which any of the three corpora were fixed, so agreement between them cannot be one statement counted twice. Two things this ground does not settle and does not hide: both American corpora were gathered by ethnographers working in a discipline to which the rule of exact recitation was already familiar, and neither passage says whether the rule was volunteered in the field or asked for. The second is the gathering question and it stands open." ;
     pm:independentAttestation pmt:NavajoCeremonial,
@@ -12247,6 +12436,16 @@ pmc:MayaHouseholdUnharmed a pm:Conceptualizing ;
     skos:definition "The state the faster is held to keep by carrying a fast through, and to lose by breaking one he has begun. The witness reports the belief without endorsing it and without naming what the harm would be."@en ;
     pm:withinTradition pmt:MayaRitual .
 
+pmc:MayaIxRemedyYieldsAverting a pm:Yielding ;
+    rdfs:label "Die Abwehr befreit von den geweissagten Übeln"@de,
+        "The conjuring frees from the ills foretold"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
+    skos:note "Entered with its own weakness stated, because the weakness is the finding. The witness names no sign by which the freeing would be recognised, no interval within which the ills would otherwise have come, and no consequence of omitting the procedure. The ills themselves are drawn wide enough to include drought and political discord together. Nothing in the passage marks out an outcome the claim would exclude, and the harvest rule keeps signs of success apart from conditions of failure exactly because a transmission can be rich in the first and empty of the second. This one is."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:MayaIxYearRemedy ;
+    pm:withinTradition pmt:MayaRitual ;
+    pm:yieldsCapacity pmc:MayaAvertingOfForetoldIlls .
+
 pmc:Metalworking a pm:Conceptualizing ;
     rdfs:label "Metallverarbeitung und Waffenherstellung"@de,
         "Metalworking and weapon-making"@en ;
@@ -12350,6 +12549,14 @@ pmc:NeidanThreeStages a pm:Conceptualizing ;
     skos:definition "Refining essence into breath, breath into spirit, and spirit back into emptiness."@en ;
     skos:note "A dating warning belongs on this node. The sequence is routinely attributed to the Cantong qi or to the Wuzhen pian, but neither carries it as a fixed numbered progression; the Wuzhen pian sets only a precedence of vital force before inner nature, and of doing before non-doing. The earliest ordered witness located for the full triad is the Yuan-period Jindan dayao."@en ;
     pm:withinTradition pmt:Daoist .
+
+pmc:NginduLeafNullifiesEveryCharm a pm:Conceptualizing ;
+    rdfs:label "Ein Blatt hebt jedes geladene Ding im Haus auf"@de,
+        "One leaf annuls every charged thing in the house"@en ;
+    dcterms:source "John H. Weeks, Among the Primitive Bakongo (London: Seeley, Service and Co., 1914), p. 241" ;
+    skos:definition "A leaf of the ngindu-ngindu tree is held to counteract the influence of all charms and charged things, so that a practitioner who finds one in his house must reinvigorate everything he owns, the presence of the leaf having rendered them useless."@en ;
+    skos:note "Recorded because it is a physical and checkable condition of failure rather than a moral one, and because it is general: it does not annul one charged thing but the whole stock of them. What it shares with the other failure conditions is that it is discovered after the fact."@en ;
+    pm:withinTradition pmt:KongoNkisi .
 
 pmc:Nkisi a pm:Conceptualizing ;
     rdfs:label "Nkisi, das geladene Ding"@de,
@@ -13217,6 +13424,15 @@ pmc:ShouyiMianLiri a pm:Conceptualizing ;
         "What it does not say is that an operation done outside its window works. It says that this man no longer chooses days at all, which is a claim about who stands under the rule and not about what the rule does. The difference decides whether it refutes the generalization in generalizations/efficacy-bound-to-the-calendar.ttl or only narrows it, and the note there records that it narrows it."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmc:ShouyiZhongnan a pm:Cautioning ;
+    rdfs:label "Nicht das Wissen ist schwer, sondern das Durchhalten"@de,
+        "Knowing it is not the hard part; ending in it is"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
+    skos:definition "The chapter states the difficulty as a matter of persistence and not of understanding: to know the One is not hard, the hard thing is in the ending; guard it without losing it and one may be without limit. It names what happens when it lapses and what is then to be done. If a man happens to forget the guarding and is harmed by the hundred ghosts, or is pressed down in his sleep, he goes out into the middle of the courtyard, looks at the assistant star, closes his hands and guards the One, and the ghost departs; and if it is overcast or raining he stays in the room, faces north and thinks the assistant star, and that is all."@en ;
+    skos:note "The remedy is the part worth having, and it is the shape a claim takes when the transmission expects its own practice to fail intermittently. It names the failure, names a sign of it that the practitioner does not have to interpret, prescribes a corrective act, and provides a fallback for the case in which the corrective act cannot be performed. Very little in this holding sets out a repair rather than a prohibition."@en ;
+    pm:cautionsAbout pmp:Shouyi ;
+    pm:withinTradition pmt:Daoist .
+
 pmc:SigneMaterielCaution a pm:Cautioning ;
     rdfs:label "Kein materielles Zeichen beweist, wer spricht"@de,
         "No material sign proves who is speaking"@en ;
@@ -13455,9 +13671,11 @@ pmc:TheOrderOfExitsForADisease a pm:Conceptualizing ;
 pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
     rdfs:label "Die Strafe für den Fehler wird dem auferlegt, der ihn nicht begangen hat"@de,
         "The penalty for the fault is laid on someone who did not commit it"@en ;
-    skos:note "Falsified by a count. If a survey of the operative transmission clauses across the holding's corpora found the displaced form to be the majority rather than the minority, the statement would have understated the shape and should be rewritten as a rule; if it found the displaced form confined to the two clusters named above and absent everywhere else, the statement would have overstated it and should be withdrawn to a remark about two corpora. Falsified in the other direction by an operative text that lays the penalty on a third party and in the same clause gives the performer a means of confirming that it arrived, without a direction or a term: that would break the condition the fourth note states."@en,
+    skos:note "A fourth, fifth, sixth and seventh witness were added on 2026-09-19 from the Vedic Brāhmaṇas, and they form a cluster of the kind the third note warns about — in that corpus the displaced form is not a minority but the ordinary arrangement, and the four are listed so that the cluster is visible rather than so that the count looks better. What they add beyond number is four things the first three did not have. A grading: passing over a sentence of the formula makes the sacrificer worse, inverting two confuses him, uniting two makes him likely to die, and in all three the fault is the reciter's and the damage the patron's. A range: if the offering fire goes out the eldest son dies, if the householder's fire goes out the master of the house dies, if the southern fire goes out the cattle die, if all of them go out the family is without heirs. A prescribed transfer rather than a stated one: where the cow gives blood instead of milk, the repair is to give her to a Brahmaṇa whom the sacrificer does not intend to visit, because she milked blood after perceiving his suffering and evil, and he thus fastens that suffering and evil upon the recipient. And, once, a report: the heads of the victims obtained without the sacrifice were put on the altar for Aṣāḍhi Sauśromateya, by others, and quickly indeed he died after that."@en,
+        "Falsified by a count. If a survey of the operative transmission clauses across the holding's corpora found the displaced form to be the majority rather than the minority, the statement would have understated the shape and should be rewritten as a rule; if it found the displaced form confined to the two clusters named above and absent everywhere else, the statement would have overstated it and should be withdrawn to a remark about two corpora. Falsified in the other direction by an operative text that lays the penalty on a third party and in the same clause gives the performer a means of confirming that it arrived, without a direction or a term: that would break the condition the fourth note states."@en,
         "The consequence for how such material is read is small and exact. A rule whose penalty is displaced cannot be tested by asking the practitioner whether it came true, because he is not the one it would come true to, and the absence of a report of the harm is not evidence that the harm did not occur. Anyone building a protocol on a transmission of this kind has to find the bearer before he can find the outcome, and in the case of the dead ascendants there is no bearer to find. That is a statement about what can be examined and not about what is the case."@en,
         "The second half of an earlier draft of this statement said that the displacement puts the rule beyond checking, and the counter-search killed it. Three kinds of case in the holding refuse it. A purification performed by the unqualified is said to make the sickness and death in the world stronger than they were, which is a directional claim about a countable thing and therefore decidable in a way that mere failure is not. A burial doctrine that placed its effects a generation away could never be caught, but one line of it fixes a class of effects within a day of a burial, and burials are public and dated; a seventh-century memorial accordingly set a count of more than twenty recorded burials against it. And a felling prohibition names the man who will die, sets ten days, and denies the obvious natural explanation in advance. What all three have that the three witnesses lack is a direction and a term. That is the condition under which a displaced consequence comes back within reach, and it is stated here as a finding and not as a hope."@en,
+        "The seventh witness bears on the fifth note rather than on the statement. That note says what an unfalsifiable displaced claim looks like when a tradition tries to confirm it, and names two anecdotes supplied by a defending commentary and never traced. The Vedic case is of the same kind and is better placed: it stands in the chapter that forbids the shortcut, names one man and one outcome, gives the interval as quickly, and reports no instance in which the shortcut was taken and nothing followed. One anecdote in fourteen books, told by the rule against those who break it."@en,
         "The three witnesses displace to three different distances, and the range is the point. In the Hawaiian case a breath taken before the close of a phrase is ill-luck to the person or family the chant honours, who are alive and can be watched, so that only the attribution and not the observation is out of reach. In the Chinese transmission clause the affliction of a wrongly conducted handing on is reported to the three palaces and falls on seven generations of ancestors, who cannot be examined at all and cannot be reported unafflicted. In the Sanskrit case the debt to ancestors, sages, gods and the human race is simply never cleared, and the price is paid in repeated rebirth, which places the consequence outside the life in which the fault was committed."@en,
         "The witnesses also cluster rather than distribute, and a reader should not take this for a cross-traditional regularity. Two corpora carry the displacement as their normal form: the burial literature, in which a badly sited or badly dated grave cuts off the sons and kills the grandsons, and the needling canon, in which the operator's error is paid for by the patient within a stated number of days. Outside those two the instances are scattered, and the three witnesses above were chosen from three unconnected transmissions in order not to rest the statement on either cluster."@en,
         "Two further cases bear on the first half rather than the second and are worth naming so that the claim is not read too strongly. In one tradition the audience at the public night ceremony knows the songs well enough to catch a deviation, so the fault is reported by people other than the performer even though the displaced ill-luck is not; and in another the displaced consequence is reported by the transmission itself as having been seen to arrive, in two anecdotes that the defending commentary supplies and that were never traced to the works they name. The first shows that displacement of the consequence does not entail displacement of the observation of the fault. The second shows what an unfalsifiable displaced claim looks like when the tradition does try to confirm it."@en,
@@ -13465,8 +13683,28 @@ pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:HawaiianWelfarePresupposesExactChanting,
         pmc:HeterodoxWorshipNeverClearsTheDebt,
-        pmc:ShangqingHuangtingMengjin ;
+        pmc:ShangqingHuangtingMengjin,
+        pmc:VaidikaAgnyupasamana,
+        pmc:VaidikaAsadhimrtyu,
+        pmc:VaidikaNividdosah,
+        pmc:VaidikaRudhiradoha ;
     pm:generalizedStatement "Where a transmission states what a defective or improperly transmitted performance costs, the cost is in a substantial minority of cases laid not on the performer but on a third party: the family or lineage the rite is done for, the dead ascendants of the person transmitting, or a class of beings to whom a debt is owed. The displacement separates the person positioned to notice the fault from the party who bears its consequence, and it does so in the operative text and not in a later gloss. It does not by itself make the rule unexaminable. It removes the consequence from the reach of the one person certain to know that the fault occurred, which is a different and weaker thing, and the check is restored wherever the displaced consequence is given a direction and a term."@en .
+
+pmc:TheRepairWithoutASign a pm:Generalizing ;
+    rdfs:label "Die Wiedergutmachung trägt genau dann ein Zeichen, wenn der Schaden, den sie behebt, einer war, den der Übende sehen konnte"@de,
+        "The repair carries a sign exactly where the harm it repairs was one the practitioner could see"@en ;
+    skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Kongo diagnosis of a charged thing that fails — either it is sulky and wants a sacrifice or it has lost its power and wants renewing — is a repair for an unobservable harm and names no sign, so it falls on the same side as the witnesses rather than against them; it was left out of the derivation only because the harm there is the failure of the instrument and not a fault in a procedure. The Shangqing rule that reads a corpse in any condition as the attainment is the harder case, because it does supply a sign; but the sign is read off an event that ends the practitioner's participation, so it is not a sign the practitioner has. Neither breaks the statement."@en,
+        "Falsified by an operative transmission that attaches an unobservable or deferred harm to a fault in its own procedure, prescribes a repair, and in the same text names a sign by which the repair is known to have taken effect, or a condition under which the repair fails. One such case refutes it. The likeliest place to look is the performance literature rather than the exegesis: the Vedic expiation books of the Śrautasūtras, Kātyāyana 25 and Āpastamba 9, stand unopened in traditions/vedic-ritual.ttl, and a manual written for the man who has to do the thing has a reason to say when he may stop that a commentary explaining what the thing means does not."@en,
+        "The claim is about the wording and not about whether repairs work. A transmission that names no sign is not thereby making a false claim; it is making one whose failure has nowhere to show, and it usually does so without any sign of intending to — the Vedic book is manifestly trying to be thorough, and thoroughness about the list of mishaps is exactly what makes the silence about the outcome visible."@en,
+        "Thin where it is thin, and the thinness is on the observable side. Three witnesses stand on the silent side and one on the other, so what the statement really establishes is that the silence is not a necessity of the form. Whether it is the normal case would need a count across the holding's repairs, and no such count has been made."@en,
+        "Two cases in the holding were checked as possible refutations and are not. The Zande oracle prescribes a corroborative second consultation whose contradiction voids the verdict, which is a check with a stated outcome — but it is a check on an answer and not a repair of a fault, and nothing is being put right. The Navajo ceremony broken off as fruitless when a detected error is caught is the opposite arrangement and belongs to the other statement: there the fault is observed and no repair is offered at all."@en,
+        "What each witness supplies, in the transmission's own terms. The Vedic expiation book enumerates twenty-two mishaps of the daily milk oblation — the cow lying down, the cow giving blood, the milk spilt before and after ladling, the vessel overturned or broken, a fire gone out, the fires mingling, the sun risen over an uncarried offering — and prescribes an act for each; for what is not enumerated it supplies three syllables which it calls all-expiatory; and it closes with the sentence that no hurt and no harm of any kind befalls where that expiation is made. The harms it repairs are the death of the eldest son, of the master of the house, of the cattle, or the failure of the line, all of them stated as coming before long and none of them with a term. The Maya conjuring of the ills foretold for an Ix year answers ills that run from drought to political discord, and the witness names no sign by which the freeing would be recognised and no interval within which the ills would otherwise have come. The Kongo leaf renders every charged thing in a house useless, which is a condition discovered only after the fact, and the prescribed reinvigoration of the whole stock carries nothing to show it took. Against these the Baopuzi: the practitioner who forgets the guarding of the One is harmed by the hundred ghosts or pressed down in his sleep, which he notices himself; he goes into the courtyard, looks at the assistant star and guards the One, and the ghost departs; and if it is overcast he stays indoors, faces north and thinks the star, and that is all."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:MayaIxRemedyYieldsAverting,
+        pmc:NginduLeafNullifiesEveryCharm,
+        pmc:ShouyiZhongnan,
+        pmc:VaidikaPrayascittaSarvam ;
+    pm:generalizedStatement "Where the harm a transmission attaches to a fault in its own procedure is one the practitioner cannot observe — deferred past a term the text does not fix, laid on another party, or consisting in the mere absence of an effect — the repair it prescribes for that fault is asserted to work without exception and is given no sign by which it is known to have taken effect and no condition under which it fails. Where the harm is instead a present condition the practitioner notices in himself, the same kind of transmission states the repair's success as the ending of that condition, and provides for the case in which the repair cannot be carried out."@en .
 
 pmc:TheSunHidesHisFaceOverAnOffence a pm:Conceptualizing ;
     rdfs:label "Die Sonne verbirgt ihr Gesicht, solange ein Unwürdiger im Lager ist"@de,
@@ -13625,6 +13863,109 @@ pmc:UncreatedLight a pm:Conceptualizing ;
     skos:definition "A light held to be uncreated, and held to shine through the whole person, body as well as soul; the defence is explicitly that the body participates and is not merely the site of an event in the soul."@en ;
     skos:note "This is a claim about what shines through the practitioner, not about an emanation the practitioner produces or directs."@en ;
     pm:withinTradition pmt:Hesychasm .
+
+pmc:VaidikaAgnicayanaAmrtatva a pm:Yielding ;
+    rdfs:label "Der geschichtete Altar bringt das Entkommen vom wiederkehrenden Tod hervor"@de,
+        "The piled altar yields escape from the death that comes again"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,8-10 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
+    skos:note "Entered as the claim of the transmission. What makes it worth more than the ordinary promise of a rite is that the passage reports two failures of its own before it succeeds, which almost nothing else in this holding does. See pmc:VaidikaIstakasamkhya."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:VaidikaAgnicayana ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual ;
+    pm:yieldsCapacity pmc:VaidikaPunarmrtyu .
+
+pmc:VaidikaAgnyupasamana a pm:Cautioning ;
+    rdfs:label "Was eintritt, wenn ein Feuer erlischt, Feuer für Feuer"@de,
+        "What befalls when a fire goes out, fire by fire"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,3,8-12 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 82-85" ;
+    skos:definition "Śauceya Prācīnayogya puts five cases to Uddālaka Āruṇi in turn and Uddālaka names the damage for each. If the fires are taken out and the vessels brought down and the offering fire then goes out, before long the eldest son would die. If at that moment the householder's fire goes out, before long the master of the house would die. If the southern cooking fire goes out, before long all the cattle would die. If all the fires go out, before long the family would be without heirs. If all the fires go out and there is no wind blowing, unpleasant things would be seen in this world and unpleasant things in the world beyond. Each answer names an item of knowledge and a repair beside the damage."@en ;
+    skos:note "A graded catalogue of failure conditions for one rite, given in the transmission's own voice, with the damage named in each case and rising from one person to the whole household. Nothing else this holding has read states the consequences of a single kind of mishap in five degrees."@en,
+        "The damage falls on the eldest son, on the master of the house, on the cattle and on the line — never on the officiant who is speaking. Where the sacrificer is himself the offerer the second case reaches him, and it is the only one of the five that does."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaAgnihotra ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaIndrasampad a pm:Conceptualizing ;
+    rdfs:label "Der Wohlstand, zu dem Indra gelangte"@de,
+        "The prosperity Indra came to have"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,6,3,14-15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, p. 167" ;
+    skos:definition "The attainment the full-moon offering is said to obtain, defined by the legend it closes. Agni and Soma come over to Indra for the cake on eleven potsherds, and after them go all the gods, all the sciences, all glory, all nourishment, all prosperity: thus by offering that cake Indra became what Indra now is. The claim follows: he who, knowing this, performs the full-moon offering in this wise attains to the same state of prosperity, becomes thus endowed with glory, becomes such a consumer of food."@en ;
+    skos:note "Entered because the harvest rule counts attainments strictly and this is one, although it is the vaguest kind: prosperity, glory and the consumption of food, with no term, no sign and no amount. It is worth having beside the sharp claims of the same corpus rather than instead of them — the same book that fixes an altar at ten thousand eight hundred bricks also promises this."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaPranitavisarjanam a pm:Conceptualizing ;
+    rdfs:label "Das Ausgießen des Praṇītā-Wassers als das Ausspannen"@de,
+        "The pouring out of the praṇītā-water as the unyoking"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,9,2,32-33 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, p. 265" ;
+    skos:definition "The closing act. Having walked round from the north of the offering fire to the south, he pours the praṇītā-water out on the altar, with the words: who unyokes thee? he unyokes thee! for whom does he unyoke thee? for him he unyokes thee! for plenty! He pours it out with the same vessel with which he brought it forward, because the team is unyoked with the same tie by which it is yoked."@en ;
+    skos:note "The identification is what carries the prescription: spreading the sacrifice is yoking it, and the vessel is the yoke-tie. The prohibition at pmc:VaidikaPranitavimocana follows from the image and is stated as its consequence."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaPrayascittaEffectus a pm:Conceptualizing ;
+    rdfs:label "Kein Schaden und kein Übel irgendwelcher Art trifft den, bei dem jene Sühne vollzogen wird"@de,
+        "No hurt and no harm of any kind befalls where that expiation is made"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,4 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 196" ;
+    skos:definition "The effect claimed for the repair, in the transmission's own closing words to the chapter on the sun rising or setting over an uncarried offering: the import is the same as before, and verily, no hurt and no harm of any kind befalls where that expiation is made."@en ;
+    skos:note "The generality is in the sentence and not in the reading of it. It does not say that the particular harm of the particular mishap is averted; it says that no harm of any kind befalls. A claim of that shape has no outcome left over that could count against it."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaPrayascittaSarvam a pm:Yielding ;
+    rdfs:label "Die Sühne wirkt, in jedem Falle und ohne Zeichen"@de,
+        "The expiation is said to work, in every case and without a sign"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,1,8 and XII,4,4 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 180 and 196" ;
+    skos:note "Entered with its weakness stated, because the weakness is the finding. Twenty-two enumerated mishaps, a prescribed act for each, one general formula that covers whatever is not enumerated — the three utterances bhūr bhuvaḥ svar, of which the text says that these utterances are all-expiatory and that he thus makes expiation with all this universe — and one general assurance: no hurt and no harm of any kind befalls where that expiation is made. In four chapters the run found no sign by which a completed expiation is known to have taken effect, no interval within which the averted harm would otherwise have come, and no case in which an expiation failed. The search is at examinations/searches-vedic.ttl."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:VaidikaPrayascitta ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual ;
+    pm:yieldsCapacity pmc:VaidikaPrayascittaEffectus .
+
+pmc:VaidikaRudhiradoha a pm:Conceptualizing ;
+    rdfs:label "Die Kuh, die Blut gibt, und der Mann, dem das Übel angeheftet wird"@de,
+        "The cow that gives blood, and the man the evil is fastened on"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,2,1 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 183" ;
+    skos:definition "One of the enumerated mishaps, with a repair that moves the harm to a named person. If the Agnihotra cow were to milk blood, he says Disperse, has the southern fire enclosed, boils the blood on it and offers it silently and in an undefined way, because Prajāpati is undefined and the undefined means everything, so that he makes atonement with everything. At this offering he should give that cow to a Brahmaṇa whom he does not intend to visit; for she who milks blood milks it after perceiving the sacrificer's suffering and evil, and he thus fastens that suffering and evil upon this Brahmaṇa. He then offers with what other milk he can procure."@en ;
+    skos:note "The mishap is treated as a symptom and not as an accident: the cow is said to have perceived an evil that was already in the sacrificer. The repair does not remove the evil, it transfers it, and the instruction to choose a Brahmaṇa he does not intend to visit says plainly that the recipient is not to be seen again. This is the most explicit transfer of a ritual penalty to an uninvolved third party that this holding has read."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaSamkhyapurnata a pm:Conceptualizing ;
+    rdfs:label "Die Vollständigkeit der Zahl"@de,
+        "The completeness of the count"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,8 and X,4,3,12-13 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
+    skos:definition "The condition Prajāpati names and the gods then meet: three hundred and sixty enclosing-stones, three hundred and sixty bricks laid with formulas and thirty-six more, and ten thousand eight hundred filling bricks. The transmission reads each class against a division of the year — the stones for the nights, the formula-bricks for the days, half-moons, months and seasons, the filling bricks for the hours — and distributes the stones by hearth: twenty-one round the householder's fire, seventy-eight round the subsidiary hearths, two hundred and sixty-one round the offering fire."@en ;
+    skos:note "Entered as its own node because it is the one condition in this file that an onlooker could check while the work was going on. Everything else the corpus makes efficacy depend on is either a state of mind or an event after death."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaSvadhyayaPunarmrtyujaya a pm:Yielding ;
+    rdfs:label "Die tägliche Rezitation befreit vom wiederkehrenden Tod"@de,
+        "The daily recitation frees from the death that comes again"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,6,9 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 99" ;
+    skos:note "The same outcome the fire-altar is said to obtain, obtained here by recitation alone, with an occasion attached: the four vaṣaṭ calls of this sacrifice are the wind blowing, the lightning, the thunder and the rumbling, and he who knows this should study when they occur so as not to lose them. And a floor is set under it — should he be altogether unable to study, let him read a single divine word, and thus he is not shut out from beings."@en,
+        "Worth holding beside pmc:VaidikaAgnicayanaAmrtatva rather than merged with it. Two operations of very different cost are credited with the same result in the same corpus, and one of them can be discharged by one word on a day when nothing else is possible."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:VaidikaSvadhyaya ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual ;
+    pm:yieldsCapacity pmc:VaidikaPunarmrtyu .
+
+pmc:VaidikaVasatkaraRiktah a pm:Cautioning ;
+    rdfs:label "Der leere Ruf, in dem die Silbe ausfällt"@de,
+        "The empty call, in which the syllable fails"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7 (xi,7), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, p. 169" ;
+    skos:definition "The third of the three vaṣaṭ calls and the defective one: that one wherein the sat fails is the empty; he empties himself, he empties the sacrificer; the sayer of vaṣaṭ becomes worse, he becomes worse for whom he says vaṣaṭ. Therefore he should not desire it."@en ;
+    skos:note "A stated condition of failure located in a single syllable, with the damage named on both sides: on the reciter and on the man he recites for. The commentator Sāyaṇa, as Keith reports him, takes the loss to lie in a lowered pronunciation, so the fault is one of delivery and not of wording."@en,
+        "The same chapter makes the call an instrument of deliberate harm and benefit, which is entered separately at pmc:VaidikaSvarenaKarma. Read together, the two say that the same variation which is a fault when it happens is a technique when it is intended."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaVasatkara ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
 
 pmc:Vespasian a pm:Conceptualizing ;
     rdfs:label "Vespasian"@de,
@@ -14620,6 +14961,34 @@ pmp:TunkanSending a pm:Practicing ;
     pm:fieldRecord "Spoken by named Teton men who had themselves danced or doctored, among them Red Weasel, Chased-by-Bears, Brave Buffalo, Goose, Charging Thunder and Two Shields; recorded by Frances Densmore for the Bureau of American Ethnology at Standing Rock, 1911 to 1914, with Robert P. Higheagle interpreting; given in Lakota, and the bulletin carries the Lakota of the song texts but prints the spoken accounts in English only." ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmp:VaidikaAgnicayana a pm:Practicing ;
+    rdfs:label "Agnicayana, die Schichtung des Feueraltars"@de,
+        "Agnicayana, the piling of the fire-altar"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,8-13 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
+    skos:definition "The construction of a brick altar in five layers, treated by the transmission as the building of a body for the year, for death and for the sacrificer at once. The exegesis makes its efficacy depend on the completeness of the count: enclosing-stones for the nights, bricks laid with formulas for the days, half-moons, months and seasons, and plain filling bricks for the hours."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmp:VaidikaPrayascitta a pm:Practicing ;
+    rdfs:label "Prāyaścitta, die Wiedergutmachung eines Zwischenfalls im Ritus"@de,
+        "Prāyaścitta, the repair of a mishap in the rite"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,1 to XII,4,4 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, pp. 177-196" ;
+    skos:definition "The prescribed repair for a mishap during the performance. The transmission sets it out case by case in a standing form: they also say, if such and such were to happen, what rite and what expiation would there be in that case? — followed by the act to be done, and closed with: this, then, is the rite performed in that case. The cases read include a team or persons passing between the fires, unclean animals passing between them, milk spilt at the milking and milk spilt after ladling, the cow giving blood instead of milk, the vessel overturning or breaking, the fire going out after the offering, the loss of the householder's fire, the fires touching one another or an unclean fire, and the sun rising or setting before the offering is carried out."@en ;
+    skos:note "Some twenty-two of these stood in the four chapters read, the great majority in the standing form quoted above. What they show as a set is a corpus that has thought about its own accidents in detail; what they do not show is entered at pmc:VaidikaPrayascittaSarvam."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmp:VaidikaSvadhyaya a pm:Practicing ;
+    rdfs:label "Svādhyāya, die tägliche Rezitation des eigenen Pensums"@de,
+        "Svādhyāya, the daily recitation of one's own lesson"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XI,5,6,9 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 99" ;
+    skos:definition "The daily study and teaching of the Veda, which the transmission calls a sacrifice to the Brahman and sets out in the same terms as a fire-rite: it has its own oblations and its own vaṣaṭ calls, and it is to be performed whether or not any fire is lit."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pmp:WirazWatch a pm:Practicing ;
     rdfs:label "Die siebentägige Wache über dem Körper"@de,
         "The seven days' watch over the body"@en ;
@@ -14773,6 +15142,11 @@ pmw:Abramelin a dcterms:BibliographicResource ;
     rdfs:label "Das Buch Abramelin"@de,
         "The Book of Abramelin"@en .
 
+pmw:ApastambaSrautasutra a dcterms:BibliographicResource ;
+    rdfs:label "Āpastamba-Śrautasūtra"@de,
+        "Āpastamba Śrautasūtra"@en ;
+    skos:note "Named here as a work of the corpus and unopened. Its ninth praśna is the expiation book of the other school. Garbe's edition of 1882 to 1902 is public domain."@en .
+
 pmw:EngishikiNorito a dcterms:BibliographicResource ;
     rdfs:label "Die Norito des Engishiki"@de,
         "The norito of the Engishiki"@en ;
@@ -14782,6 +15156,11 @@ pmw:Heptameron a dcterms:BibliographicResource ;
     rdfs:label "Heptameron"@de,
         "Heptameron"@en ;
     skos:note "The tradition node records that the nine days of continence were read at the wording in the Heptameron of the Turner collection of 1655, but no node names it as a source. Until one does, the work reads as unopened, which is what the graph can vouch for."@en .
+
+pmw:KatyayanaSrautasutra a dcterms:BibliographicResource ;
+    rdfs:label "Kātyāyana-Śrautasūtra"@de,
+        "Kātyāyana Śrautasūtra"@en ;
+    skos:note "Named here as a work of the corpus and unopened. Its twenty-fifth adhyāya is the expiation book, and Eggeling's notes to the passages entered below refer to it by section at exactly the points where the Brāhmaṇa states a repair. Whoever opens it can say whether the performance manual carries a sign of a completed expiation where the exegesis carries none. Weber's edition of 1859 is public domain."@en .
 
 pmw:Kojiki a dcterms:BibliographicResource ;
     rdfs:label "Kojiki, die Aufzeichnung von 712"@de,
@@ -15462,6 +15841,26 @@ pmc:TungusMasteringOfSpirits a pm:Conceptualizing ;
         "The relation is named by a term the recorder gives in five dialect forms at once. The digitised copy used is an optical transcription and its rendering of these forms is not trustworthy at the level of single letters, so the forms are not reproduced here as if they had been read cleanly. What is reported without doubt is that one term covers the relation across the Manchu, Birarcen, Kumarcen, Nercinsk and Khingan dialects, and that the spirits are said to use it of their master through the shaman's mouth."@en ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmc:VaidikaAsadhimrtyu a pm:Conceptualizing ;
+    rdfs:label "Man tat es so für Aṣāḍhi Sauśromateya, und bald darauf starb er"@de,
+        "They did so for Aṣāḍhi Sauśromateya, and quickly he died after that"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa VI,2,1,37 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 41, Oxford 1894, pp. 170-171" ;
+    skos:definition "The victims' heads that go into the fire-altar are to come from an animal sacrifice performed for the purpose. The chapter states the rule by naming the shortcut and its price: some, having obtained those heads in that way — somehow or other, by buying or begging them, as the commentator glosses it — put them on the altar, thinking that either way they are animals; but they who do this become mortal carcases, for unpropitiated are those heads of theirs. Then the case: in this way, indeed, they did put them on for Aṣāḍhi Sauśromateya; but quickly indeed he died after that. The chapter goes on to reject gold heads as false bricks and earthen ones as a substitute for the man who knows neither the practice nor the theory."@en ;
+    skos:note "This is the only place in the five volumes read where the corpus reports that a stated consequence of a ritual fault actually arrived, and it came out of a search rather than a reading: the whole run was looking for such a case and had provisionally concluded there was none. The search and its terms stand at examinations/searches-vedic.ttl."@en,
+        "What the case is worth, stated exactly. It names a man, it names the fault, it names the outcome, and it gives an interval — quickly, and nothing more precise. It reports one instance and no others, gives no number of men who used bought heads and lived, and is told inside the chapter that forbids the shortcut. Nothing here is a count; it is the transmission's own confirming anecdote, which is a different thing and the reason this holding keeps a class for cases and a class for claims."@en,
+        "Who bore it is worth noting beside the rest. The heads were put on for Aṣāḍhi, by others; the sentence is in the plural for the doing and the singular for the dying. The fault is the officiants', the death is the patron's, which is the arrangement generalizations/displaced-penalties.ttl describes, here with the consequence reported as having been seen to arrive."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmc:VaidikaPunarmrtyu a pm:Conceptualizing ;
+    rdfs:label "Punarmṛtyu, der wiederkehrende Tod"@de,
+        "Punarmṛtyu, the death that comes again"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,10 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 43, Oxford 1897, pp. 357-358" ;
+    skos:definition "The condition the transmission offers to remove: not death but its recurrence. Those who neither know nor perform the work come to life again when they have died, and become the food of Death time after time; those who know or perform it come to life again and come to immortal life."@en ;
+    skos:note "Eggeling renders the term throughout as recurring or recurrent death and Keith as repeated death, so a search in one wording misses the other half of the corpus. This was the case in the searches carried in this run and is recorded at examinations/searches-vedic.ttl."@en ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pmc:Watchfulness a pm:Conceptualizing ;
     rdfs:label "Wachsamkeit"@de,
         "Watchfulness"@en ;
@@ -15861,6 +16260,24 @@ pmp:TungusFormalRecognition a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmp:VaidikaAgnihotra a pm:Practicing ;
+    rdfs:label "Agnihotra, die tägliche Milchspende"@de,
+        "Agnihotra, the daily milk oblation"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa XII,4,1,1 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 44, Oxford 1900, p. 177" ;
+    skos:definition "The oblation of milk poured into the fire morning and evening, which the transmission calls a sacrificial session entered upon for life and describes as ensuring death in old age. Three fires are kept for it: the offering fire, the householder's fire and the southern cooking fire."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmp:VaidikaNivid a pm:Practicing ;
+    rdfs:label "Die Rezitation der Nivid"@de,
+        "The recitation of the Nivid"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,10-11 (xi,10-11), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 171-172" ;
+    skos:definition "The insertion of a short formula of set sentences into a litany — before it at the morning pressing, in the middle at midday, at the end at the third pressing. The Aitareya calls the Nivids the embryos and the ornaments of the litanies, and recites them by sentences because the gods gathered the sacrifice together by quarters."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pmp:VamaWorship a pm:Practicing ;
     rdfs:label "Verehrung in der heterodoxen Methode"@de,
         "Worship in the heterodox method"@en ;
@@ -16157,6 +16574,18 @@ pmc:TalamDiaSlugadh a pm:Conceptualizing ;
         "This is the form the project looks for and finds seldom. The criterion is a single physical event; it is not announced to the participants as a sign to be recognised, it is not a state either party could report of himself, and above all it is two-sided: the same event decides against the operators if they were the ones in the wrong. A satire that can swallow the satirist is not a curse but a trial, and the transmission has made it one by naming the losing side on both ends."@en ;
     pm:withinTradition pmt:InsularCeltic .
 
+pmc:VaidikaNividdosah a pm:Cautioning ;
+    rdfs:label "Drei Weisen, die Nivid zu verfehlen, und drei abgestufte Folgen"@de,
+        "Three ways of misreciting the Nivid, and three graded consequences"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,11 (xi,11), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, pp. 171-172" ;
+    skos:definition "The transmission grades the fault and grades the damage with it. He should not pass over a sentence of the Nivid; if he were to pass over one, he would make a break in the sacrifice, and as the break grows the sacrificer becomes worse. He should not invert two sentences; if he were to invert two, he would confuse the sacrifice, and the sacrificer would be confused. He should not unite two sentences; if he were to unite two, he would contract the life of the sacrifice, and the sacrificer would be likely to die. A fourth follows the same form: inserting the Nivid at the third pressing with two verses left over instead of one injures the propagative power and deprives people of embryos."@en ;
+    skos:note "The grading is what makes this more than a threat. Omission, inversion and fusion are three different things a reciter can do to the same text, and the transmission assigns them consequences of different severity in a fixed order — worse, confused, likely to die. A doctrine that only warned would not need to rank them."@en,
+        "Three degrees of a fault in a recitation, three degrees of harm, and in all four cases the harm falls on the sacrificer and not on the reciter who made it. The reciter is the only person in a position to know that he passed over a sentence, and he is the one person named as suffering nothing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:VaidikaNivid ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pm:Receiving a owl:Class ;
     rdfs:label "Empfangen"@de,
         "Receiving"@en ;
@@ -16317,6 +16746,24 @@ pmp:Shouyi a pm:Practicing ;
         "The condition of transmission is stated as an operative condition and not as an etiquette: the blood of a white victim is smeared, the day is one of the ruling and assisting phases, white silk and white silver are the pledge, a metal tally is cut and divided, and where it is spoken of lightly or handed on wrongly, the spirit does not work. That is a stated failure condition attached to the transmission rather than to the performance, and this graph holds few of those."@en ;
     pm:withinTradition pmt:Daoist .
 
+pmp:VaidikaDarsapurnamasa a pm:Practicing ;
+    rdfs:label "Das Neu- und Vollmondopfer"@de,
+        "The new and full-moon offering"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa I,6,3,15 (Mādhyandina), in the English of Julius Eggeling, Sacred Books of the East 12, Oxford 1882, p. 167" ;
+    skos:definition "The paired offerings at the two turns of the moon, which the transmission treats as the model performance and to which it attaches both the legend of the misspoken formula and the closing act of unyoking. The exegesis states what the full-moon offering is worth to the performer in the same breath as the legend: he who, knowing this, performs it in this wise attains to the same state of prosperity as Indra did."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
+pmp:VaidikaVasatkara a pm:Practicing ;
+    rdfs:label "Der Vaṣaṭ-Ruf"@de,
+        "The vaṣaṭ call"@en ;
+    dcterms:source "Aitareya Brāhmaṇa iii,7 (xi,7), in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge, Massachusetts 1920, p. 169" ;
+    skos:definition "The call with which, at the end of the offering formula, the oblation is poured into the fire. The Aitareya treats it as an instrument in the Hotṛ's hand and distinguishes three: the thunderbolt, made aloud and forcibly, which is hurled at a rival; the hider of his abode, even and continuous and without loss of part of the verse, on which offspring and cattle depend; and the empty, in which the syllable sat fails."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AitareyaBrahmana ;
+    pm:withinTradition pmt:VedicRitual .
+
 pmp:WiwanyangWacipi a pm:Practicing ;
     rdfs:label "Wiwanyang wacipi, der Sonnenschautanz"@de,
         "Wiwanyang wacipi, the sun-gazing dance"@en ;
@@ -16355,6 +16802,11 @@ pmt:Platonic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Plato, Symposium" .
+
+pmw:KausitakiBrahmana a dcterms:BibliographicResource ;
+    rdfs:label "Kauṣītaki-Brāhmaṇa"@de,
+        "Kauṣītaki Brāhmaṇa"@en ;
+    skos:note "Opened on 2026-09-19 in the same volume and translation as the Aitareya. Read at the wording: chapter xxvi, sections 4 to 6, which carry the named disagreement about whether a detected flaw in the recitation has to be repaired at all. The registration of this tradition did not name this work; it is added to the corpus at the instance because the reading found it there, and the coined identifier of the tradition is kept unchanged."@en .
 
 pmc:DivyaSrotra a pm:Conceptualizing ;
     rdfs:label "Göttliches Ohr"@de,
@@ -16825,6 +17277,11 @@ pmt:ChristianAsceticDiscernment a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Evagrius Ponticus, Praktikos and On Thoughts; John Cassian, Collationes; Diadochus of Photice, Gnostic Chapters; Ignatius of Loyola, Spiritual Exercises" .
 
+pmw:AitareyaBrahmana a dcterms:BibliographicResource ;
+    rdfs:label "Aitareya-Brāhmaṇa"@de,
+        "Aitareya Brāhmaṇa"@en ;
+    skos:note "Opened on 2026-09-19 in the English of Arthur Berriedale Keith, Rigveda Brahmanas: The Aitareya and Kauṣītaki Brāhmaṇas of the Rigveda, Harvard Oriental Series 25, Cambridge, Massachusetts 1920. Read at the wording: the third pañcikā, chapters 7 to 11, on the vaṣaṭ call and the Nivid. The remaining seven pañcikās were searched and not read. Keith gives both the pañcikā count and the continuous adhyāya count in brackets, and the places below give both because the older literature uses the second."@en .
+
 pmc:MagnetismeSomnambulisme a pm:Conceptualizing ;
     rdfs:label "Magnetischer Somnambulismus"@de,
         "Magnetic somnambulism"@en ;
@@ -17030,11 +17487,6 @@ pmt:Ifa a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
         "Hawaiian transmission"@en ;
@@ -17130,6 +17582,11 @@ pm:searchFoundOpposing a pm:SearchOutcome ;
     rdfs:label "Suche mit Gegenfund"@de,
         "Search found opposing material"@en ;
     skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -17407,11 +17864,6 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:fromWork pmw:ArsNotoria ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -17443,6 +17895,19 @@ pm:AwarenessValue a owl:Class ;
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
 
+pm:mediatedAttestation a pm:Attesting ;
+    rdfs:label "Vermitteltes Zeugnis"@de,
+        "Mediated attestation"@en ;
+    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
+    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
+        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
+        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
 pm:Generalizing a owl:Class ;
     rdfs:label "Verallgemeinern"@de,
         "Generalizing"@en ;
@@ -17452,14 +17917,6 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
-pm:mediatedAttestation a pm:Attesting ;
-    rdfs:label "Vermitteltes Zeugnis"@de,
-        "Mediated attestation"@en ;
-    skos:definition "The claim stands in a received work at a passage that can be named, but the passage was read in a second work that quotes or reports it, because the first could not be obtained."@en ;
-    skos:note "Admissible only where the work itself is out of reach — not digitised, out of print, held internally, in a language not commanded. Effort is not a reason: the mode exists so that unreachable material can enter at its true strength, not so that reachable material can enter cheaply. See SPEC §10 and SPEC §15."@en,
-        "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
-        "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
 pmt:AzandeOracle a pm:Tradition ;
     rdfs:label "Azande-Orakelüberlieferung"@de,
@@ -17493,6 +17950,11 @@ pmt:Theravada a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
+
+pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
+    rdfs:label "Śatapatha-Brāhmaṇa"@de,
+        "Śatapatha Brāhmaṇa"@en ;
+    skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -17595,6 +18057,26 @@ pm:fieldAttestation a pm:Attesting ;
         "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
         "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
+pmt:VedicRitual a pm:Tradition ;
+    rdfs:label "Vedische Ritualüberlieferung"@de,
+        "Vedic ritual transmission"@en ;
+    dcterms:source "Śatapatha Brāhmaṇa X,4,3,4-8 (Mādhyandina), in the English of Julius Eggeling, The Śatapatha-Brāhmaṇa, Sacred Books of the East 43, Oxford: Clarendon Press, 1897, pp. 356-357" ;
+    skos:definition "The solemn ritual and its exegesis, in which efficacy rests on stated equivalences between the act, the body and the world."@en ;
+    skos:note "Not opened at all: the Śrautasūtras, which the registration names as the third part of the principal corpus, and which carry the expiation as a book of its own — Kātyāyana 25, Āpastamba 9. Eggeling cites Kātyāyana at exactly the places entered below, so the address is known and the work is not."@en,
+        "Read in this run at the wording, on 2026-09-19. The Śatapatha Brāhmaṇa in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900. Read closely: I,6,3 (the misspoken formula and Vṛtra); I,9,2 (the unyoking of the sacrifice); X,4,3 (the count of bricks and immortality); XI,2,7,33 (the balance); XI,5,3 (the dialogue of Śauceya and Uddālaka on what befalls when a fire goes out); XI,5,6,9 (the daily recitation); XII,4,1 to XII,4,4 (the expiations of the Agnihotra). The Aitareya and Kauṣītaki Brāhmaṇas in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920: read closely Aitareya iii,7 to iii,11 (the vaṣaṭ call and the Nivid) and Kauṣītaki xxvi,4 to xxvi,6 (the flaw in the recitation). Everything else in both works was searched but not read: the five Eggeling volumes hold fourteen kāṇḍas and the Keith volume two further Brāhmaṇas entire. This is five passages out of a corpus of some four thousand pages, and no claim of exhaustion is made for it."@en,
+        "The contact route stays at documented and this run found nothing to move it. What it did find is worth recording beside the value: the nearest formal parallel to this corpus's characteristic claim, that the knower of a formula obtains a named result, is the knowledge rubric of the Egyptian funerary literature, and the nearest parallel to its expiation book is the Mesopotamian namburbû. Neither was opened and no node here rests on either."@en,
+        "The recension is part of the citation and not a detail. Eggeling translates the Mādhyandina; the Kāṇva recension divides into seventeen kāṇḍas against fourteen and its numbering does not convert, so a Kāṇva place has to be given on its own. No free full translation of the Kāṇva was found in this run, and the Kāṇva readings entered below are those Eggeling reports in his notes and not readings this run has seen."@en,
+        "What kind of witness this is. The Brāhmaṇas are not a liturgy but the commentary that travels with one: they state what each act is for, what it is the counterpart of, and what happens if it is done wrong. That makes them unusually good evidence for what the tradition claimed and no evidence at all for what was done — the sūtras hold the performance and were not opened. A claim read here is a claim of the exegesis."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:AitareyaBrahmana,
+        pmw:ApastambaSrautasutra,
+        pmw:KatyayanaSrautasutra,
+        pmw:KausitakiBrahmana,
+        pmw:SatapathaBrahmana ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:SatapathaBrahmana ;
+    pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
+
 pmt:GreekMagicalPapyri a pm:Tradition ;
     rdfs:label "Griechische und demotische Zauberpapyri"@de,
         "Greek and demotic magical papyri"@en ;
@@ -17690,15 +18172,15 @@ pmt:Enochic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
@@ -17706,15 +18188,6 @@ pm:Situating a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:EuropeanFolkMagic a pm:Tradition ;
     rdfs:label "Europäische Volksmagie"@de,
@@ -17731,6 +18204,15 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; the Old English Herbarium of pseudo-Apuleius; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
@@ -17794,18 +18276,18 @@ pm:corpusNamed a pm:CoverageState ;
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
 
+pm:compilerInference a pm:Attesting ;
+    rdfs:label "Schluss des Bearbeiters"@de,
+        "Compiler inference"@en ;
+    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
+    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
+
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
     skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
-pm:compilerInference a pm:Attesting ;
-    rdfs:label "Schluss des Bearbeiters"@de,
-        "Compiler inference"@en ;
-    skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
-    skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
