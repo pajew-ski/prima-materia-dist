@@ -1944,14 +1944,6 @@ pmc:CautionOnTheCandidatesConduct a pm:Cautioning ;
     pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
     pm:withinTradition pmt:LakotaRitual .
 
-pmc:CedarWardsTheWingedGod a pm:Conceptualizing ;
-    rdfs:label "Zedernholz hält den Geflügelten Gott fern"@de,
-        "Cedar keeps the Winged God away"@en ;
-    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 70 and p. 110 and p. 133" ;
-    skos:definition "The rack set at the foot of the candidate's bed of sage is of cedar because the cedar is favoured by the Winged God, who will not visit one protected by it nor cause such a one to act foolishly. Cedar leaves and twigs are also sprinkled over the altar in the dance lodge, where they are said to ward against the contrary conduct of the Winged God and of the heyoka."@en ;
-    skos:note "The claim is worth holding because it is the counter-move to the obligation on the neighbouring node: the same transmission that says a communication can bind a man for life also names a material that prevents it. A third means is named in the Hunka ceremony, where the waved wands are said to shield a man from seeing the person of the Winged God and so from being made heyoka. Three protections against one outcome, from three different rites, all in the same paper."@en ;
-    pm:withinTradition pmt:LakotaRitual .
-
 pmc:CentumAutumni a pm:Conceptualizing ;
     rdfs:label "Die hundert Herbste und das Maß, das vor ihnen nicht wieder genommen werden darf"@de,
         "The hundred autumns, and the measure that may not be taken again before them"@en ;
@@ -7971,6 +7963,19 @@ pmc:TheOrdealGiverMustStandTheOtherOrdeals a pm:Conceptualizing ;
         "The bark is excepted, and the exception is the whole of the difference: the ordeal that kills is the one the practitioner does not have to take."@en ;
     pm:withinTradition pmt:KongoNkisi .
 
+pmc:TheProtectionAndWhatWouldShowItFailedExamination a pm:Testing ;
+    rdfs:label "Prüfprotokoll zum Schutz und woran sein Versagen zu sehen wäre"@de,
+        "Protocol on the protection and what would show it failed"@en ;
+    skos:definition "An attempt to fail the statement that transmissions naming the harms their protections avert mix the recordable with the unrecordable and never make the recordable ones the test. The protocol is a reading protocol: what is claimed is a regularity in what operative texts say, so it fails or holds against texts."@en ;
+    skos:note "A second and independent way to fail it: find a second transmission of the Fon kind, where a protection is attached to a single recordable harm with no companion. Two such cases would turn the other side of the statement from an existence proof into a class, and would raise the question the statement cannot now put — what distinguishes the transmissions that risk a checkable claim from those that do not."@en,
+        "Entered at procedure without cases. The procedure is stated in the falsifier and is cheap to run: take an operative text that promises protection, list the harms it names, sort them by whether a bystander could tell the harm had occurred, and see whether the text sorts them too. What is missing is not a method but a corpus gone through with it."@en,
+        "Where to run it first, and the choice is not neutral. The apotropaic literature written for practitioners rather than for buyers is the likeliest place to find the sorting, because a manual that has to answer a dissatisfied client has a reason to say in advance what the protection does not cover. The Mesopotamian namburbi rituals are the obvious corpus and stand unopened beside traditions/mesopotamian-asiputu.ttl, which this run entered only from the exorcist's self-protection."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the six witnesses; no cases collected" ;
+    pm:falsifiedBy "An operative transmission that names the harms its protection averts and does any one of three things: marks off the harms whose occurrence a bystander could establish from those whose occurrence nobody could record; names one of the recordable harms as the test of whether the protection held; or states a condition under which the protection is to be judged to have failed."@en ;
+    pm:protocolUpdated "2026-09-20"^^xsd:date ;
+    pm:tests pmc:TheProtectionAndWhatWouldShowItFailed .
+
 pmc:ThePythonProhibition a pm:Cautioning ;
     rdfs:label "Das Töten einer Python, auch aus Versehen"@de,
         "Killing a python, even by accident"@en ;
@@ -8707,14 +8712,6 @@ pmc:VitalEnergyCorrespondence a pm:Converging ;
     pm:independentAttestation pmt:Daoist,
         pmt:Upanisadic ;
     pm:transmissionPath "The Tibetan material reaches Tibet from the Indian mahāsiddha Nāropa through Marpa the translator and is therefore reception, not independent attestation. Buddhist and Daoist exchange along the trade routes is documented and forbids treating the Chinese and Buddhist testimony as wholly separate. The Greek and Hebrew items are neither route-linked nor operatively parallel." .
-
-pmc:VoSesa a pm:Conceptualizing ;
-    rdfs:label "Vo-sesa, das gebundene Amulett"@de,
-        "Vo-sesa, the bound amulet"@en ;
-    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), pp. 92-93" ;
-    skos:definition "An amulet belonging to a god, of which every god has his own kind. Its power is said not to rest on an indwelling spirit but on its consecration: it lets the god recognise and protect his own. Neither prayer nor sacrifice is offered to it. Only the priests of a god know how to make the amulets of that god, and they sell them at a high price. The word is derived from the verb to bind, which is used only of amulets, because the priest binds them on the person or the property of the buyer."@en ;
-    skos:note "The transmission attaches a public and checkable claim to these: crops standing in the bush and goods left for sale beside a frequented path are put under an amulet on a stick, with a few cowries on each article to show the price, and are said to be quite safe from pillage. Whether that held is a question about a distribution in the world, and it is the kind of claim this graph is short of."@en ;
-    pm:withinTradition pmt:Vodun .
 
 pmc:WatchfulnessIsUnbound a pm:Situating ;
     rdfs:label "Die Wachsamkeit ist an keinen Zustand gebunden"@de,
@@ -12568,18 +12565,6 @@ pmc:AegyptiaFlammaeSignum a pm:Conceptualizing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
-pmc:AegyptiaMalaAversa a pm:Conceptualizing ;
-    rdfs:label "Die Kapitel des Nicht: Vermögen, als abgewendete Schäden ausgesprochen"@de,
-        "The chapters of not: capacities stated as harms averted"@en ;
-    dcterms:source "Book of the Dead, the chapter titles of the Theban recension, chapters 5, 27, 28, 30, 30A, 31, 32, 34, 39, 40, 41, 42, 43, 44, 45, 46, 47, 53, 61, 63A, 85, 91, 93, 101, 154, 163, 175, 176, 182 and 189, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
-    skos:definition "Thirty-two of the hundred and thirty-two recovered titles name their capacity by the harm it prevents. Among them, in Budge's wording: of not letting the deceased do work in the underworld; of not letting the heart be taken from him; of not letting the head of a man be cut off from him; of not letting the soul of a man be taken from him; of not letting the soul be captive; of not letting the seat and throne be taken away; of not perishing and of becoming alive; of not dying a second time, which the corpus states twice under two numbers; of not eating filth and of not drinking foul water; of not being bitten by snakes; of not being burnt by fire; of not sailing to the east; of not allowing the body of a man to moulder away; of not letting a man make a journey being hungry. Beside them stand the chapters of driving back and repulsing: the eater of the ass, the serpent Rerek, the crocodile that cometh to carry off the charm, the slaughterings performed in the underworld, and Apshait."@en ;
-    skos:note "The count is of recovered titles. Where a title is lost to the scan its capacity is unclassified, and the proportion given here is a floor and not a measurement of the corpus."@en,
-        "The shape of the claim is what is entered here, not a judgement on it. A capacity whose whole content is that something does not happen is satisfied by the ordinary course of things and cannot be distinguished from it by any observation the corpus names. Read together with pmc:AegyptiaRubricaeAnatomia, which found that no rubric in the three volumes states a sign or a term, this is the same absence approached from the other side of the book: the ends are stated so that nothing would count against them, and the means are stated so that nothing would count for them."@en,
-        "Two of the negatives are unlike the rest and worth marking. Not eating filth and not drinking foul water name a state a living person could report of himself, and chapter 189 pairs the second with not making a journey being hungry. These are the only averted harms in the group that belong to the body rather than to the fate of the dead."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:BookOfTheDead ;
-    pm:withinTradition pmt:EgyptianRitual .
-
 pmc:AegyptiaNavisRubrica a pm:Conceptualizing ;
     rdfs:label "Er wird hervorgehen nach Sechet-Aaru, und die Gefolgsleute des Horus werden für ihn ernten"@de,
         "He shall come forth into Sekhet-Aarru, and the followers of Horus shall reap for him"@en ;
@@ -12815,14 +12800,6 @@ pmc:AsipuLemnuIntoTheNetherworld a pm:Conceptualizing ;
     skos:note "The transfer is stated as a wish throughout and never as a report. Every clause of the passage is precative, and the goat that is to hold the evil is asked not to be released from the patient's head. A transmission that states its own outcome in the optative has said nothing that a case could contradict, and that observation belongs beside the passage rather than in a protocol, because it is a property of the wording."@en ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
-pmc:AsipuMimmaLemnuLaTehi a pm:Conceptualizing ;
-    rdfs:label "Dem gesalbten Beschwörer naht nichts Böses"@de,
-        "Nothing bad approaches the anointed exorcist"@en ;
-    dcterms:source "KAR 31 (VAT 8803) rev. 31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
-    skos:definition "The outcome the ritual states for the anointing: that when he approaches the patient, nothing bad will approach him."@en ;
-    skos:note "Stated without reservation and without a condition on the operator's state, his worthiness or the will of a god. The only condition in the sentence is that the anointing come first."@en ;
-    pm:withinTradition pmt:MesopotamianExorcism .
-
 pmc:AsiputuIskaruMasmassuti a pm:Conceptualizing ;
     rdfs:label "Das Korpus der Beschwörungskunst, vollständig benannt"@de,
         "The corpus of exorcism, named in its entirety"@en ;
@@ -12988,6 +12965,14 @@ pmc:CautionAgainstWitnesses a pm:Cautioning ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:MagnetismeLucidite ;
     pm:withinTradition pmt:Mesmerism .
+
+pmc:CedarWardsTheWingedGod a pm:Conceptualizing ;
+    rdfs:label "Zedernholz hält den Geflügelten Gott fern"@de,
+        "Cedar keeps the Winged God away"@en ;
+    dcterms:source "J. R. Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota (Anthropological Papers AMNH, vol. XVI, part II, New York, 1917), p. 70 and p. 110 and p. 133" ;
+    skos:definition "The rack set at the foot of the candidate's bed of sage is of cedar because the cedar is favoured by the Winged God, who will not visit one protected by it nor cause such a one to act foolishly. Cedar leaves and twigs are also sprinkled over the altar in the dance lodge, where they are said to ward against the contrary conduct of the Winged God and of the heyoka."@en ;
+    skos:note "The claim is worth holding because it is the counter-move to the obligation on the neighbouring node: the same transmission that says a communication can bind a man for life also names a material that prevents it. A third means is named in the Hunka ceremony, where the waved wands are said to shield a man from seeing the person of the Winged God and so from being made heyoka. Three protections against one outcome, from three different rites, all in the same paper."@en ;
+    pm:withinTradition pmt:LakotaRitual .
 
 pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
     rdfs:label "Die Antwortrufe und der, der sie gibt"@de,
@@ -13327,14 +13312,6 @@ pmc:EthiopianDeliveranceByTheWillOfGod a pm:Conceptualizing ;
     dcterms:source "Budge (ed.), The Magical Prayers written for Za-Walda Hawaryat (London: W. Griggs, 1900), section 6, p. LVIII" ;
     skos:definition "The outcome claimed for the worn form: the names shall deliver the wearer from his enemy, and he shall escape from him by the will of God."@en ;
     skos:note "The clause at the end is the whole difference between this node and the one beside it. A man who wore the names and was struck has not shown that they failed; he has shown that it was not willed. The same volume states the same protection three lines earlier without that clause."@en ;
-    pm:withinTradition pmt:EthiopianOrthodoxMagic .
-
-pmc:EthiopianKeepingOfTheDevilsInRestraint a pm:Conceptualizing ;
-    rdfs:label "Die abgehaltenen Teufel und die fehlgehende Waffe"@de,
-        "The devils held off and the weapon missing"@en ;
-    dcterms:source "Budge (ed.), The Magical Prayers of Aheta Mikael (London: W. Griggs, 1900), Lady Meux MS No. 5, prayer I, p. 216" ;
-    skos:definition "The effect claimed for the names at the door: that no devil shall draw nigh, that the man shall be smitten neither by the arrows of his adversary nor by the stone hurled at him nor by the spear, and that the angels shall protect him and keep him in safety under their wings."@en ;
-    skos:note "Two kinds of harm stand in one sentence, and the second is the one that can be looked at. Whether a devil drew nigh is not an event anybody records; whether a man was struck by a stone or a spear is."@en ;
     pm:withinTradition pmt:EthiopianOrthodoxMagic .
 
 pmc:EthiopianSpearTurnedBack a pm:Conceptualizing ;
@@ -14323,13 +14300,6 @@ pmc:MayaAjSign a pm:Conceptualizing ;
     skos:altLabel "Aj"@en ;
     skos:definition "A sign set up before a journey from which the traveller may not return. Each of the two plants a cane in the middle of the house and states both readings in advance: if it dries, that is the sign of their death; if it sprouts again, they are living. The grandmother who stays behind is told what to say in each case."@en ;
     skos:note "Both branches are named before the outcome, the reader is a third party who was not present at the event, and the sign is not the thing it reports. That combination is rare in this collection: most signs a tradition names are read by the practitioner himself, during the practice, after being told what to expect."@en ;
-    pm:withinTradition pmt:MayaRitual .
-
-pmc:MayaAvertingOfForetoldIlls a pm:Conceptualizing ;
-    rdfs:label "Die Befreiung von den angekündigten Übeln"@de,
-        "Being freed from the ills indicated as to come"@en ;
-    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
-    skos:definition "The effect claimed for the procedure. The witness reports that the revels and the sacrifices were held to be very acceptable to the idols and remedial for freeing them from the ills indicated as to come."@en ;
     pm:withinTradition pmt:MayaRitual .
 
 pmc:MayaHouseholdUnharmed a pm:Conceptualizing ;
@@ -15640,6 +15610,25 @@ pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
         pmc:VaidikaRudhiradoha ;
     pm:generalizedStatement "Where a transmission states what a defective or improperly transmitted performance costs, the cost is in a substantial minority of cases laid not on the performer but on a third party: the family or lineage the rite is done for, the dead ascendants of the person transmitting, or a class of beings to whom a debt is owed. The displacement separates the person positioned to notice the fault from the party who bears its consequence, and it does so in the operative text and not in a later gloss. It does not by itself make the rule unexaminable. It removes the consequence from the reach of the one person certain to know that the fault occurred, which is a different and weaker thing, and the check is restored wherever the displaced consequence is given a direction and a term."@en .
 
+pmc:TheProtectionAndWhatWouldShowItFailed a pm:Generalizing ;
+    rdfs:label "Die Schäden, die ein Schutz abwendet, werden in beiden Arten zugleich genannt, und die feststellbaren sind nie die Probe"@de,
+        "The harms a protection averts are named in both kinds at once, and the recordable ones are never the test"@en ;
+    skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Every node in the traditions whose wording names an averting and also names a sign, a test or a term was read. No refutation and three near-misses. The Kongo kandu announces a curse before the theft and states a rule of fairness requiring the announcement, which is a two-sided arrangement — but it announces a harm rather than averting one, and the corpus itself notes that a curse announced in advance is one the announcement could bring about. The Ethiopian prayer for the suckling sets a term, until the years of childbearing are ended, but it is a term of the wearing and not a term within which the harm would otherwise have come; the holding already marks this at pmc:EthiopianSucklingProtectionPresupposesTheWearing, which is prescribed order and carries no consequence of breaking off. And the Lakota transmission names three different protections against one and the same outcome in three different rites, which multiplies the means without ever stating what would show any of them had failed."@en,
+        "Independence, and one confound named. Six witnesses from six transmissions with no contact route asserted between any pair in this holding. Five recorders: Budge, Landa through Gates, Walker, Geller, Ellis. Two of the six — the Egyptian and the Ethiopian — reach the graph through the same editor and translator, and the claim here is a claim about wording, so for this statement that pair counts as something closer to one witness than to two. The Lakota witness was sought for exactly that reason and is the one that carries the mixing side independently of Budge."@en,
+        "The one witness on the other side, and it is the reason the statement is not a truism about religious language. The Fon vo-sesa is bound to crops standing in the bush and to goods left for sale beside a frequented path, with a few cowries on each article to show the price, and they are said to be quite safe from pillage. One harm, no companion, and the harm is a theft or the absence of one. That claim is about a distribution in the world and could have come out against the transmission on any market day."@en,
+        "The strongest thing the counter-search found is not a near-miss but a contrast, and it bears on whether the silence is a property of these sources or of these claims. The same holding, and in the Inuit case the same kind of report by the same kind of recorder, does carry two-sided signs where the operation is a divination: the fork that falls means the sick person dies and the fork that stands upright means she lives, stated in advance and in both directions. A recorder who wrote that down would have written down a stated failure condition for a protection if the transmission had supplied one. It appears that they do not supply one."@en,
+        "Thin where it is thin. The other side of the statement rests on a single case, so what is established is that the arrangement is avoidable and not how often it is avoided. A count of the protections in the holding, sorted by whether the harms they name are recordable, has not been made and would settle the proportion."@en,
+        "What each witness supplies, in the transmission's own words. The Book of the Dead states thirty-two of its recovered chapter titles as harms averted and mixes them without a mark: not letting the head of a man be cut off, which a mourner would see, stands in the same list as not dying a second time, which nobody can report. The Ethiopian roll does it inside one sentence — that no devil shall draw nigh, and that the man shall be smitten neither by the arrows of his adversary nor by the stone hurled at him nor by the spear. The Lakota cedar does it in one clause and its continuation: the Winged God will not visit one protected by it, nor cause such a one to act foolishly; the visit is between the god and the man, the foolish conduct is what the camp sees and names. The Maya conjuring frees from the ills indicated as to come, and the ills run from drought to political discord. The Mesopotamian anointing has no list at all and says only that nothing bad will approach him, which is the same silence reached by the shorter road."@en,
+        "Why the mixing matters and what it is not. It is not an accusation of evasion. Nothing suggests the compilers arranged the lists so as to be safe; the Ethiopian prayer is plainly trying to cover everything that can happen to a nursing child, and covering everything is exactly what produces the mixture. The consequence holds regardless of the intention: once the unrecordable member is in the list, the recordable member never has to carry the claim, and a spear that does strike is not a refutation of a sentence that also promised that no devil would draw nigh."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AegyptiaMalaAversa,
+        pmc:AsipuMimmaLemnuLaTehi,
+        pmc:CedarWardsTheWingedGod,
+        pmc:EthiopianKeepingOfTheDevilsInRestraint,
+        pmc:MayaAvertingOfForetoldIlls,
+        pmc:VoSesa ;
+    pm:generalizedStatement "Where an operative transmission names the harms that its protection averts, it joins in one sentence or one list, and without marking the difference, harms whose occurrence any bystander would notice — a spear striking, a man behaving as a contrary, a head cut off, a drought, a named disease — to harms whose occurrence nobody could record — a devil drawing nigh, a god paying a visit, ills indicated as to come, anything bad approaching. The protection is claimed as satisfied whole, so no recordable harm is ever made the test of it, and none of these transmissions states a condition under which the protection would be judged to have failed. Where only one harm is named it is of the unrecordable kind. A protection attached to a single recordable harm and to nothing else occurs in the holding, and occurs once."@en .
+
 pmc:TheRepairWithoutASign a pm:Generalizing ;
     rdfs:label "Die Wiedergutmachung trägt genau dann ein Zeichen, wenn der Schaden, den sie behebt, einer war, den der Übende sehen konnte"@de,
         "The repair carries a sign exactly where the harm it repairs was one the practitioner could see"@en ;
@@ -15923,6 +15912,14 @@ pmc:Vespasian a pm:Conceptualizing ;
     dcterms:source "Tacitus, Historiae IV.81" ;
     skos:definition "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."@en ;
     pm:withinTradition pmt:GraecoRoman .
+
+pmc:VoSesa a pm:Conceptualizing ;
+    rdfs:label "Vo-sesa, das gebundene Amulett"@de,
+        "Vo-sesa, the bound amulet"@en ;
+    dcterms:source "A. B. Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa (London: Chapman and Hall, 1890), pp. 92-93" ;
+    skos:definition "An amulet belonging to a god, of which every god has his own kind. Its power is said not to rest on an indwelling spirit but on its consecration: it lets the god recognise and protect his own. Neither prayer nor sacrifice is offered to it. Only the priests of a god know how to make the amulets of that god, and they sell them at a high price. The word is derived from the verb to bind, which is used only of amulets, because the priest binds them on the person or the property of the buyer."@en ;
+    skos:note "The transmission attaches a public and checkable claim to these: crops standing in the bush and goods left for sale beside a frequented path are put under an amulet on a stick, with a few cowries on each article to show the price, and are said to be quite safe from pillage. Whether that held is a question about a distribution in the world, and it is the kind of claim this graph is short of."@en ;
+    pm:withinTradition pmt:Vodun .
 
 pmc:WalkerSystematizationOfTheGods a pm:Systematizing ;
     rdfs:label "Das Vier-mal-vier-Schema der Götter als Ordnungsakt"@de,
@@ -17266,6 +17263,18 @@ pmw:ScotDiscoverieOfWitchcraft a dcterms:BibliographicResource ;
     rdfs:label "Reginald Scot, The Discoverie of Witchcraft"@de,
         "Reginald Scot, The Discoverie of Witchcraft"@en .
 
+pmc:AegyptiaMalaAversa a pm:Conceptualizing ;
+    rdfs:label "Die Kapitel des Nicht: Vermögen, als abgewendete Schäden ausgesprochen"@de,
+        "The chapters of not: capacities stated as harms averted"@en ;
+    dcterms:source "Book of the Dead, the chapter titles of the Theban recension, chapters 5, 27, 28, 30, 30A, 31, 32, 34, 39, 40, 41, 42, 43, 44, 45, 46, 47, 53, 61, 63A, 85, 91, 93, 101, 154, 163, 175, 176, 182 and 189, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
+    skos:definition "Thirty-two of the hundred and thirty-two recovered titles name their capacity by the harm it prevents. Among them, in Budge's wording: of not letting the deceased do work in the underworld; of not letting the heart be taken from him; of not letting the head of a man be cut off from him; of not letting the soul of a man be taken from him; of not letting the soul be captive; of not letting the seat and throne be taken away; of not perishing and of becoming alive; of not dying a second time, which the corpus states twice under two numbers; of not eating filth and of not drinking foul water; of not being bitten by snakes; of not being burnt by fire; of not sailing to the east; of not allowing the body of a man to moulder away; of not letting a man make a journey being hungry. Beside them stand the chapters of driving back and repulsing: the eater of the ass, the serpent Rerek, the crocodile that cometh to carry off the charm, the slaughterings performed in the underworld, and Apshait."@en ;
+    skos:note "The count is of recovered titles. Where a title is lost to the scan its capacity is unclassified, and the proportion given here is a floor and not a measurement of the corpus."@en,
+        "The shape of the claim is what is entered here, not a judgement on it. A capacity whose whole content is that something does not happen is satisfied by the ordinary course of things and cannot be distinguished from it by any observation the corpus names. Read together with pmc:AegyptiaRubricaeAnatomia, which found that no rubric in the three volumes states a sign or a term, this is the same absence approached from the other side of the book: the ends are stated so that nothing would count against them, and the means are stated so that nothing would count for them."@en,
+        "Two of the negatives are unlike the rest and worth marking. Not eating filth and not drinking foul water name a state a living person could report of himself, and chapter 189 pairs the second with not making a journey being hungry. These are the only averted harms in the group that belong to the body rather than to the fate of the dead."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:Agape a pm:Conceptualizing ;
     rdfs:label "Liebe"@de,
         "Love"@en ;
@@ -17298,6 +17307,14 @@ pmc:Asana a pm:Conceptualizing ;
     dcterms:source "Svātmārāma, Haṭhayogapradīpikā I (Sanskrit vulgate; Sinh 1915)" ;
     skos:definition "The seat, treated in the first chapter as the first limb of the practice."@en ;
     pm:withinTradition pmt:Hathayoga .
+
+pmc:AsipuMimmaLemnuLaTehi a pm:Conceptualizing ;
+    rdfs:label "Dem gesalbten Beschwörer naht nichts Böses"@de,
+        "Nothing bad approaches the anointed exorcist"@en ;
+    dcterms:source "KAR 31 (VAT 8803) rev. 31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
+    skos:definition "The outcome the ritual states for the anointing: that when he approaches the patient, nothing bad will approach him."@en ;
+    skos:note "Stated without reservation and without a condition on the operator's state, his worthiness or the will of a god. The only condition in the sentence is that the anointing come first."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:Azazel a pm:Naming ;
     rdfs:label "Azazel"@de,
@@ -17430,6 +17447,14 @@ pmc:Diksa a pm:Conceptualizing ;
         "Mālinīvijayottaratantra VIII" ;
     skos:definition "The rite by which a person is admitted to the practice, set out in the tantra and reproduced with commentary in the Kashmirian exegesis."@en ;
     pm:withinTradition pmt:SaivaSakta .
+
+pmc:EthiopianKeepingOfTheDevilsInRestraint a pm:Conceptualizing ;
+    rdfs:label "Die abgehaltenen Teufel und die fehlgehende Waffe"@de,
+        "The devils held off and the weapon missing"@en ;
+    dcterms:source "Budge (ed.), The Magical Prayers of Aheta Mikael (London: W. Griggs, 1900), Lady Meux MS No. 5, prayer I, p. 216" ;
+    skos:definition "The effect claimed for the names at the door: that no devil shall draw nigh, that the man shall be smitten neither by the arrows of his adversary nor by the stone hurled at him nor by the spear, and that the angels shall protect him and keep him in safety under their wings."@en ;
+    skos:note "Two kinds of harm stand in one sentence, and the second is the one that can be looked at. Whether a devil drew nigh is not an event anybody records; whether a man was struck by a stone or a spear is."@en ;
+    pm:withinTradition pmt:EthiopianOrthodoxMagic .
 
 pmc:EthiopianProtectionOfTheSuckling a pm:Conceptualizing ;
     rdfs:label "Die Bewahrung des Kindes an der Brust"@de,
@@ -17672,6 +17697,13 @@ pmc:MaoriExactRecitation a pm:Conceptualizing ;
     dcterms:source "Edward Shortland, Maori Religion and Mythology (London: Longmans, Green, 1882), p. 11" ;
     skos:definition "The rendering of an invocation in which neither a mistake nor a pause occurs. The tradition sets the two on the same footing: hesitating is treated as failing, not as taking care."@en ;
     pm:withinTradition pmt:Maori .
+
+pmc:MayaAvertingOfForetoldIlls a pm:Conceptualizing ;
+    rdfs:label "Die Befreiung von den angekündigten Übeln"@de,
+        "Being freed from the ills indicated as to come"@en ;
+    dcterms:source "Diego de Landa, Yucatan Before and After the Conquest, translated by William Gates (Baltimore: The Maya Society, publication 20, 1937), section XXXVII, pp. 65-66" ;
+    skos:definition "The effect claimed for the procedure. The witness reports that the revels and the sacrifices were held to be very acceptable to the idols and remedial for freeing them from the ills indicated as to come."@en ;
+    pm:withinTradition pmt:MayaRitual .
 
 pmc:MideDistantHearing a pm:Conceptualizing ;
     rdfs:label "Hören dessen, was in großer Ferne geschieht"@de,
@@ -20113,6 +20145,11 @@ pmt:Theravada a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
 
+pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
+    rdfs:label "Śatapatha-Brāhmaṇa"@de,
+        "Śatapatha Brāhmaṇa"@en ;
+    skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
+
 pm:Generalizing a owl:Class ;
     rdfs:label "Verallgemeinern"@de,
         "Generalizing"@en ;
@@ -20122,11 +20159,6 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
-pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
-    rdfs:label "Śatapatha-Brāhmaṇa"@de,
-        "Śatapatha Brāhmaṇa"@en ;
-    skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
 
 pm:searchFoundNothing a pm:SearchOutcome ;
     rdfs:label "Suche ohne Fund"@de,
