@@ -7968,10 +7968,14 @@ pmc:TheProtectionAndWhatWouldShowItFailedExamination a pm:Testing ;
         "Protocol on the protection and what would show it failed"@en ;
     skos:definition "An attempt to fail the statement that transmissions naming the harms their protections avert mix the recordable with the unrecordable and never make the recordable ones the test. The protocol is a reading protocol: what is claimed is a regularity in what operative texts say, so it fails or holds against texts."@en ;
     skos:note "A second and independent way to fail it: find a second transmission of the Fon kind, where a protection is attached to a single recordable harm with no companion. Two such cases would turn the other side of the statement from an existence proof into a class, and would raise the question the statement cannot now put — what distinguishes the transmissions that risk a checkable claim from those that do not."@en,
-        "Entered at procedure without cases. The procedure is stated in the falsifier and is cheap to run: take an operative text that promises protection, list the harms it names, sort them by whether a bystander could tell the harm had occurred, and see whether the text sorts them too. What is missing is not a method but a corpus gone through with it."@en,
-        "Where to run it first, and the choice is not neutral. The apotropaic literature written for practitioners rather than for buyers is the likeliest place to find the sorting, because a manual that has to answer a dissatisfied client has a reason to say in advance what the protection does not cover. The Mesopotamian namburbi rituals are the obvious corpus and stand unopened beside traditions/mesopotamian-asiputu.ttl, which this run entered only from the exorcist's self-protection."@en ;
-    pm:examinationState pm:procedureWithoutCases ;
-    pm:examinedBy "prima-materia, protocol drawn from the wording of the six witnesses; no cases collected" ;
+        "The counter-search is the run itself and not a separate act, because the protocol is a reading protocol: the way to find work that contradicts a claim about what texts say is to read texts. Both volumes of Campbell Thompson were searched with the three-part falsifier and with eleven patterns chosen to catch a prognosis, a term or a sign, and every hit was read in context. The search returned nothing against the statement. It is entered as found nothing rather than as not carried, and the note above says what was searched so that a reader can judge how much that is worth: one edition, two volumes, one series of tablets."@en,
+        "The procedure is stated in the falsifier and is cheap to run: take an operative text that promises protection, list the harms it names, sort them by whether a bystander could tell the harm had occurred, and see whether the text sorts them too. It was entered at procedure without cases and moved to cases without deviation on the same day, when the first corpus was gone through with it."@en,
+        "What the state now records and what it does not. One corpus has been gone through and shows no deviation, which is a great deal less than the statement asserts: the statement is about operative transmissions in general and one edition of one series is one case. The namburbi rituals proper, which are the corpus this protocol first named, are edited in a copyrighted work and were not reached; they are still the strongest place for a second run, and a run there that also came back empty would be worth more than the first."@en,
+        "Where it was run first, and what came back. The apotropaic literature written for practitioners rather than for buyers was chosen on the reasoning that a manual which has to answer a dissatisfied client has a reason to say in advance what the protection does not cover. Campbell Thompson's two volumes of the Utukki Limnuti and the Fever Sickness and Headache series were read through on 2026-09-20 with the three-part falsifier in hand. No operative text in either volume names a sign, a term or a condition of failure, and the search instead produced a seventh witness on the mixing side. The run, its search terms and its limits are at pmp:ApotropaicHarmListSearch."@en ;
+    pm:counterSearch pm:counterSearchFoundNothing ;
+    pm:counterSearchNote "Searched: R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vols. XIV and XV, London 1903 and 1904, both volumes complete, on the whitespace-normalised text, with eleven patterns chosen to catch a prognosis, a term or a sign — shall recover, shall die, shall live, shall be healed, be cured, not be cured, thou shalt know, seventh day, third day, if he, unless — and with the protection formulae located by their own wording. Came back: nothing against the statement. No operative text in either volume names a sign, a term or a condition of failure; the only conditionals and the only terms in the two volumes stand in the editor's introduction and in the hemerology of unlucky days. The full run is at pmp:ApotropaicHarmListSearch." ;
+    pm:examinationState pm:casesWithoutDeviation ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the witnesses and run on 2026-09-20 against Campbell Thompson 1903-1904, both volumes complete; one corpus, no falsifier found" ;
     pm:falsifiedBy "An operative transmission that names the harms its protection averts and does any one of three things: marks off the harms whose occurrence a bystander could establish from those whose occurrence nobody could record; names one of the recordable harms as the test of whether the protection held; or states a condition under which the protection is to be judged to have failed."@en ;
     pm:protocolUpdated "2026-09-20"^^xsd:date ;
     pm:tests pmc:TheProtectionAndWhatWouldShowItFailed .
@@ -9294,11 +9298,6 @@ pm:caseCount a owl:DatatypeProperty ;
     rdfs:range xsd:integer ;
     skos:definition "The number of cases recorded under this protocol so far."@en .
 
-pm:casesWithoutDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle ohne Abweichung"@de,
-        "Cases without deviation"@en ;
-    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
-
 pm:cautionsAbout a owl:ObjectProperty ;
     rdfs:label "warnt vor"@de,
         "cautions about"@en ;
@@ -10001,6 +10000,23 @@ pmp:AnguiShi a pm:Practicing ;
     skos:definition "The procedure the chapter gives for deciding whether a person has the poisonous hand. A turtle is placed under a vessel and the person presses on the vessel from above. If his hand is poisonous, the turtle is dead in fifty days; if his hand is sweet, it lives on as before."@en ;
     skos:note "Entered as a practice in its own right because of what it is: a discrimination procedure, stated by the tradition, over a claim about a person, with a fixed term and two outcomes that are not the same. Nothing else read in this corpus in this run has that shape, and the reason for opening the corpus from the testability side was the expectation of finding it."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmp:ApotropaicHarmListSearch a pm:Searching ;
+    rdfs:label "Ob ein apotropäisches Korpus die Schäden sortiert, die es nennt"@de,
+        "Whether an apotropaic corpus sorts the harms it names"@en ;
+    dcterms:date "2026-09-20" ;
+    skos:note "A confirming case instead, and a sharper one than the statement had. The fixed litany of the Utukki Limnuti mixes the two kinds in the enumeration of what is adjured — pestilence, fever, sickness, death and disease standing in one list with spirit, demon, ghost, devil, god, fiend, Phantom of Night and Wraith of Night — and again in the enumeration of what is asked to be kept off: unto my body may they not draw nigh, before me may they wreak no evil, nor follow behind me, into my house may they not enter, my fence may they not break through, into my chamber may they not enter. A fence broken through is among the plainest facts any witness in this holding names, and it is set beside a wreaking of evil in the abstract with nothing to separate them."@en,
+        "Limits of this run, and they are the ordinary ones. One edition, and an old one: Campbell Thompson's readings of 1903 and 1904 are superseded almost everywhere, and the holding's other Mesopotamian nodes cite Geller's critical edition, which this run could not obtain. What the search establishes is a fact about an enumeration and not about a verb, and an enumeration is the part of a text that survives a bad translation best. The namburbi rituals proper, which the protocol also named, are edited in a copyrighted work and were not reached; they remain the strongest place for a second run."@en,
+        "No falsifier. Neither volume contains, in any operative text, a sign by which a protection would be known to have held, a term within which the harm would otherwise have come, or a condition under which the adjuration is to be judged to have failed. The search was designed to find one: the second volume is titled for fever, sickness and headache, and Babylonian diagnostic literature elsewhere is full of he shall recover and he shall die, so a prognosis attached to an incantation was the likely refutation. There is none in either volume. Every hit for shall recover and shall die was zero; the three hits for seventh day and the three for if he and unless all fall in the editor's introduction or in the hemerology of unlucky days, which is a calendar and not a test of a protection."@en,
+        "One thing the search found that the statement did not anticipate. Tablet III does not list what is present but disjoins what might be — whether thou be an evil Spirit or an evil Demon, or sickness, or death, or evil pestilence — so the operation is written not to require that the officiant establish which harm he is treating. That is a second and independent way of making the claim unfailable, and it is not the mixing of kinds; it is a refusal to identify the kind at all. It is held at pmc:AsipuNominisIncertitudo and is a reason to widen the protocol rather than to narrow the statement."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of both volumes on the whitespace-normalised text. For a term or a sign: shall recover, shall die, shall live, shall be healed, be cured, not be cured, thou shalt know, seventh day, third day, if he, unless. For the protection formulae themselves: come not nigh, draw not nigh, may they not enter, get thee, shall not approach, be thou removed. Every hit of every pattern was read in context. The recurring litany was located by its own wording and counted."@en ;
+    pm:searchYieldedNode pmc:AsipuLitaniaMalorum,
+        pmc:AsipuNominisIncertitudo,
+        pmc:AsipuUtukkiYieldsRemotio ;
+    pm:searchedBy "prima-materia, 2026-09-20" ;
+    pm:searchedCorpus "R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, being Babylonian and Assyrian incantations against the demons, ghouls, vampires, hobgoblins, ghosts and kindred evil spirits which attack mankind, Luzac's Semitic Text and Translation Series vols. XIV and XV (London: Luzac, 1903 and 1904), both volumes complete: the Utukki Limnuti series in volume I and the Fever Sickness and Headache series in volume II, with their introductions" ;
+    pm:searchedFor "The falsifier stated at pmc:TheProtectionAndWhatWouldShowItFailedExamination, in the corpus that protocol names as the place to run it first. Three things would have failed the statement: an operative text that marks off the harms whose occurrence a bystander could establish from those whose occurrence nobody could record; one that names a recordable harm as the test of whether the protection held; or one that states a condition under which the protection is to be judged to have failed." .
 
 pmp:ArsNotoriaPrognosisExamination a pm:Testing ;
     rdfs:label "Ob die Antwort des Kranken entscheidet, was die Kunst sagt"@de,
@@ -12799,6 +12815,26 @@ pmc:AsipuLemnuIntoTheNetherworld a pm:Conceptualizing ;
     skos:definition "The outcome claimed for carrying off the hide: that Whatever Evil be removed into the Netherworld, that the enormous be turned into the trivial, and that the evil Alu-demon inflicted on the man be taken into the Netherworld."@en ;
     skos:note "The transfer is stated as a wish throughout and never as a report. Every clause of the passage is precative, and the goat that is to hold the evil is asked not to be released from the patient's head. A transmission that states its own outcome in the optative has said nothing that a case could contradict, and that observation belongs beside the passage rather than in a protocol, because it is a property of the wording."@en ;
     pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuNominisIncertitudo a pm:Conceptualizing ;
+    rdfs:label "Wer immer du seist: die Beschwörung, die sich nicht festlegen muss"@de,
+        "Whether thou be: the adjuration written so as not to have to decide"@en ;
+    dcterms:source "Utukki Limnuti, Tablet III, lines 160-165, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
+    skos:definition "The form Tablet III gives the litany. It is not a list of things present but a disjunction over what might be: whether thou be an evil Spirit or an evil Demon, or an evil Ghost or an evil Devil, or an evil God or an evil Fiend, or sickness, or death, or Phantom of Night, or Wraith of Night, or disease, or evil pestilence — be thou removed from before me. The operation is stated so that the exorcist need not establish which of the twelve he is dealing with."@en ;
+    skos:note "The reason given for the form is the editor's and not the tablet's, and is entered as his. Campbell Thompson writes that the exorcist names every spirit any one of which may be the cause of the sickness, and by so doing impresses the demon that he is in possession of his name. Nothing in the translated lines says that, and a reader who took it from this node as the tradition's own account would be taking an 1903 explanation for an Assyrian one."@en,
+        "This is the strongest single thing the reading found, and it bears on the whole apparatus of naming that this holding has been entering from the Egyptian side. At the gate of the hall of the two Maati the dead man must produce the right name or he does not pass; here the officiant recites every name there is, and the recitation works whichever one is true. The two arrangements put the name to opposite uses: as a test that can be failed, and as a disjunction that cannot."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuUtukkiYieldsRemotio a pm:Yielding ;
+    rdfs:label "Die Beschwörung entfernt, was da ist, aus dem Leib des Mannes"@de,
+        "The adjuration removes whatever is present from the body of the man"@en ;
+    dcterms:source "Utukki Limnuti, Tablet V, lines 45-55, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
+    skos:note "Entered as the claim of the transmission. Two volumes of this edition were searched through for a sign, a term or a condition of failure attached to any adjuration, and there is none; the finding is at pmp:ApotropaicHarmListSearch. The claim is of the same shape as pmc:AsipuMimmaLemnuLaTehi, which says of the anointed exorcist only that nothing bad will approach him."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AsipuUtukkiLimnutiTuru ;
+    pm:withinTradition pmt:MesopotamianExorcism ;
+    pm:yieldsCapacity pmc:AsipuLitaniaMalorum .
 
 pmc:AsiputuIskaruMasmassuti a pm:Conceptualizing ;
     rdfs:label "Das Korpus der Beschwörungskunst, vollständig benannt"@de,
@@ -15613,15 +15649,18 @@ pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
 pmc:TheProtectionAndWhatWouldShowItFailed a pm:Generalizing ;
     rdfs:label "Die Schäden, die ein Schutz abwendet, werden in beiden Arten zugleich genannt, und die feststellbaren sind nie die Probe"@de,
         "The harms a protection averts are named in both kinds at once, and the recordable ones are never the test"@en ;
-    skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Every node in the traditions whose wording names an averting and also names a sign, a test or a term was read. No refutation and three near-misses. The Kongo kandu announces a curse before the theft and states a rule of fairness requiring the announcement, which is a two-sided arrangement — but it announces a harm rather than averting one, and the corpus itself notes that a curse announced in advance is one the announcement could bring about. The Ethiopian prayer for the suckling sets a term, until the years of childbearing are ended, but it is a term of the wearing and not a term within which the harm would otherwise have come; the holding already marks this at pmc:EthiopianSucklingProtectionPresupposesTheWearing, which is prescribed order and carries no consequence of breaking off. And the Lakota transmission names three different protections against one and the same outcome in three different rites, which multiplies the means without ever stating what would show any of them had failed."@en,
+    skos:note "A seventh witness was added the same day, and it was added by running the protocol rather than by browsing. The examination named the Mesopotamian apotropaic literature as the first corpus to attempt a refutation in; both volumes of Campbell Thompson 1903 and 1904 were read through for a sign, a term or a condition of failure, and there is none in any operative text of either. What came back instead was the sharpest instance of the mixing in the holding. The fixed litany of the Utukki Limnuti enumerates what is to be kept off in one breath: unto my body may they not draw nigh, before me may they wreak no evil, nor follow behind me, into my house may they not enter, my fence may they not break through, into my chamber may they not enter. A broken fence is as plain a fact as this holding contains, and it stands unseparated beside a wreaking of evil in the abstract. The run is at pmp:ApotropaicHarmListSearch."@en,
+        "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Every node in the traditions whose wording names an averting and also names a sign, a test or a term was read. No refutation and three near-misses. The Kongo kandu announces a curse before the theft and states a rule of fairness requiring the announcement, which is a two-sided arrangement — but it announces a harm rather than averting one, and the corpus itself notes that a curse announced in advance is one the announcement could bring about. The Ethiopian prayer for the suckling sets a term, until the years of childbearing are ended, but it is a term of the wearing and not a term within which the harm would otherwise have come; the holding already marks this at pmc:EthiopianSucklingProtectionPresupposesTheWearing, which is prescribed order and carries no consequence of breaking off. And the Lakota transmission names three different protections against one and the same outcome in three different rites, which multiplies the means without ever stating what would show any of them had failed."@en,
         "Independence, and one confound named. Six witnesses from six transmissions with no contact route asserted between any pair in this holding. Five recorders: Budge, Landa through Gates, Walker, Geller, Ellis. Two of the six — the Egyptian and the Ethiopian — reach the graph through the same editor and translator, and the claim here is a claim about wording, so for this statement that pair counts as something closer to one witness than to two. The Lakota witness was sought for exactly that reason and is the one that carries the mixing side independently of Budge."@en,
         "The one witness on the other side, and it is the reason the statement is not a truism about religious language. The Fon vo-sesa is bound to crops standing in the bush and to goods left for sale beside a frequented path, with a few cowries on each article to show the price, and they are said to be quite safe from pillage. One harm, no companion, and the harm is a theft or the absence of one. That claim is about a distribution in the world and could have come out against the transmission on any market day."@en,
+        "The same run turned up a second arrangement that this statement does not cover and should not be stretched to cover. Tablet III of the same series does not name what is present but disjoins what might be — whether thou be an evil Spirit or an evil Demon, or sickness, or death, or evil pestilence — so that the officiant need never establish which harm he is treating. That is not a list mixing two kinds; it is a refusal to identify the kind. It makes the claim unfailable by a different route and is held at pmc:AsipuNominisIncertitudo, where the next statement in this direction should start."@en,
         "The strongest thing the counter-search found is not a near-miss but a contrast, and it bears on whether the silence is a property of these sources or of these claims. The same holding, and in the Inuit case the same kind of report by the same kind of recorder, does carry two-sided signs where the operation is a divination: the fork that falls means the sick person dies and the fork that stands upright means she lives, stated in advance and in both directions. A recorder who wrote that down would have written down a stated failure condition for a protection if the transmission had supplied one. It appears that they do not supply one."@en,
         "Thin where it is thin. The other side of the statement rests on a single case, so what is established is that the arrangement is avoidable and not how often it is avoided. A count of the protections in the holding, sorted by whether the harms they name are recordable, has not been made and would settle the proportion."@en,
         "What each witness supplies, in the transmission's own words. The Book of the Dead states thirty-two of its recovered chapter titles as harms averted and mixes them without a mark: not letting the head of a man be cut off, which a mourner would see, stands in the same list as not dying a second time, which nobody can report. The Ethiopian roll does it inside one sentence — that no devil shall draw nigh, and that the man shall be smitten neither by the arrows of his adversary nor by the stone hurled at him nor by the spear. The Lakota cedar does it in one clause and its continuation: the Winged God will not visit one protected by it, nor cause such a one to act foolishly; the visit is between the god and the man, the foolish conduct is what the camp sees and names. The Maya conjuring frees from the ills indicated as to come, and the ills run from drought to political discord. The Mesopotamian anointing has no list at all and says only that nothing bad will approach him, which is the same silence reached by the shorter road."@en,
         "Why the mixing matters and what it is not. It is not an accusation of evasion. Nothing suggests the compilers arranged the lists so as to be safe; the Ethiopian prayer is plainly trying to cover everything that can happen to a nursing child, and covering everything is exactly what produces the mixture. The consequence holds regardless of the intention: once the unrecordable member is in the list, the recordable member never has to carry the claim, and a spear that does strike is not a refutation of a sentence that also promised that no devil would draw nigh."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:AegyptiaMalaAversa,
+        pmc:AsipuLitaniaMalorum,
         pmc:AsipuMimmaLemnuLaTehi,
         pmc:CedarWardsTheWingedGod,
         pmc:EthiopianKeepingOfTheDevilsInRestraint,
@@ -16190,6 +16229,11 @@ pm:Symbolizing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of one form standing for another within awareness."@en .
 
+pm:casesWithoutDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle ohne Abweichung"@de,
+        "Cases without deviation"@en ;
+    skos:definition "Cases have been recorded and show no deviation from the stated base rate."@en .
+
 pm:conjugalTelos a pm:TelicOrientation ;
     rdfs:label "Bräutliches Ziel"@de,
         "Conjugal telos"@en ;
@@ -16373,6 +16417,15 @@ pmp:AsipuSiptaAnaRamaniNadu a pm:Practicing ;
     skos:note "Second-hand, and the reason is a property of the works and not of this run. The edition that carries the colophon and the monograph that re-edits it are both print-only for this workstation; the passage was read in the quotation given by the edition of the incantation series, which prints it in transliteration and in translation. The node is an open post and the mode is to be raised to textual attestation when either volume is obtained."@en ;
     pm:attestedBy pm:mediatedAttestation ;
     pm:readVia "M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (BAM 8, Boston/Berlin: De Gruyter 2016), p. 40, quoting the colophon in transliteration and translation" ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmp:AsipuUtukkiLimnutiTuru a pm:Practicing ;
+    rdfs:label "Die Austreibung der bösen Geister: die Beschwörungsformel"@de,
+        "The exorcism of the evil spirits: the formula of adjuration"@en ;
+    dcterms:source "Utukki Limnuti, Tablet III, lines 170-186, and Tablet V, lines 26-38, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
+    skos:definition "The operation the series carries. The exorcist declares who he is — a sorcerer that giveth life unto the land, a potent wizard that patrolleth the city, a sorcerer of Eridu whose mouth is purified — and then adjures whatever is present to depart, by Heaven and by Earth and by a named succession of gods: Bel lord of the world, Beltis lady of the world, Ninib son of Esharra, Ishtar mistress of the world who enlighteneth the night. The adjuration closes with a term of deprivation rather than of time: until thou art removed, until thou departest from the body of the man, thou shalt have no food to eat, thou shalt have no water to drink."@en ;
+    skos:note "The one clause in the formula that looks like a term is not one. Until thou art removed, thou shalt have no food and no water sets a condition on the thing being expelled and not on the exorcist, and nothing in the passage says how long the withholding may go on or what is to be concluded if the sick man is no better."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
 pmp:BabalawoPupilage a pm:Practicing ;
@@ -18092,11 +18145,6 @@ pm:anchoringUnbound a pm:AwarenessValue,
     skos:note "Deliberately not added to the other three axes. There is no case in the holdings for an awareness that is unbound as to its locus or its agency, and a value written for a case nobody has met is vocabulary running past the matter rather than ahead of it."@en,
         "Distinct from pm:anchoringDeclined, and the difference is which claim the tradition makes. A tradition that declines the axis denies that the distinction applies to it at all; a tradition that prescribes unbroken prayer grants the distinction and says the practice spans it. The hesychast literature is the clear case: it knows perfectly well that a man sleeps and wakes, and requires the prayer through both. See prima-materia#440."@en .
 
-pm:counterSearchFoundNothing a pm:CounterSearchState ;
-    rdfs:label "Gegensuche ohne Fund"@de,
-        "Counter-search found nothing"@en ;
-    skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
-
 pm:protocolledPractice a pm:Attesting ;
     rdfs:label "Protokollierte Praxis"@de,
         "Protocolled practice"@en ;
@@ -18512,6 +18560,16 @@ pmc:ArsNotoriaFacundia a pm:Conceptualizing ;
     pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmc:AsipuLitaniaMalorum a pm:Conceptualizing ;
+    rdfs:label "Die feste Litanei: was die Beschwörung nennt, und in welcher Gesellschaft"@de,
+        "The fixed litany: what the adjuration names, and in what company"@en ;
+    dcterms:source "Utukki Limnuti, Tablet III, lines 100-107 and 160-165, and Tablet V, lines 26-27 and 40-55, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
+    skos:definition "The recurring enumeration of what is adjured, which the edition calls the constantly recurring line and which appears ten times in the first volume alone: evil Spirit, evil Demon, evil Ghost, evil Devil, evil God, evil Fiend. Where the series amplifies it, the additions are of two sorts at once. Tablet V sets before the six: pestilence and fever that ravage the land, sickness and woe that oppress the land, harmful to the flesh, unclean to the body; and after them: evil man, evil face, evil mouth, evil tongue. Tablet III sets the same six in a disjunction that runs on into sickness, death, Phantom of Night, Wraith of Night, disease, and evil pestilence."@en ;
+    skos:note "Entered as a witness at generalizations/the-protection-and-what-would-show-it-failed.ttl, where it is the seventh and the only one that names an intrusion into a building beside a wreaking of evil in the abstract."@en,
+        "What the litany asks to be kept off is enumerated in the same manner and is the part worth reading slowly. Unto my body may they not draw nigh; before me may they wreak no evil, nor follow behind me; into my house may they not enter; my fence may they not break through; into my chamber may they not enter. Three of those six are states of affairs nobody could establish and three are physical intrusions — a fence broken through is as plain a fact as this holding contains — and the series puts them in one breath and marks no difference between them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
 pmc:AstangaLimbs a pm:Conceptualizing ;
     rdfs:label "Die acht Glieder"@de,
         "The eight limbs"@en ;
@@ -18781,6 +18839,11 @@ pm:corpusUnreachable a pm:SearchOutcome ;
         "Corpus unreachable"@en ;
     skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
     skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
+
+pm:counterSearchFoundNothing a pm:CounterSearchState ;
+    rdfs:label "Gegensuche ohne Fund"@de,
+        "Counter-search found nothing"@en ;
+    skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
 
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
@@ -19897,11 +19960,6 @@ pmw:ClaviculaSalomonis a dcterms:BibliographicResource ;
     rdfs:label "Clavicula Salomonis"@de,
         "Clavicula Salomonis"@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
         "Using out of this book for a sufferer"@en ;
@@ -19924,6 +19982,11 @@ pm:Originating a owl:Class ;
     skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmp:NorseLjodatal a pm:Practicing ;
     rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
@@ -20218,19 +20281,6 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
 
-pmt:MesopotamianExorcism a pm:Tradition ;
-    rdfs:label "Mesopotamische Beschwörungskunst"@de,
-        "Mesopotamian exorcistic craft"@en ;
-    dcterms:source "Udug-hul (canonical Utukku Lemnutu) Tablets 1, 3 and 12, and KAR 31 (VAT 8803), in M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (Die babylonisch-assyrische Medizin in Texten und Untersuchungen 8, Boston/Berlin: De Gruyter 2016)" ;
-    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
-    skos:note "Read for the first time in two modern critical editions, both open access and both read at the wording of the English translation printed beside the text. First, the complete edition of the canonical series Udug-hul / Utukku Lemnutu in all sixteen tablets: Chapter One on the ritual content of the incantations, Chapter Three on the exorcist as diagnostician with its edition of KAR 31, and the partitur of Tablets 1, 3 and 12 at the places entered here. Second, the edition of the exorcist's manual KAR 44 in the volume of scholarly text catalogues, read in full from line 1 to the colophons."@en,
-        "The contact route stays disputed and the reading did not move it. The registration argued the dispute from the age of the corpus alone, which settles the direction of any derivation without settling whether there was one. The position the graph would need in order to decide it is the one that asks of each proposed borrowing whether it is specific, exceptional and co-occurrent with others, and reports that most claimed dependencies of the Greek magical papyri on this material fail those tests; that position was reached in the landscape stage of this run and not read at the wording, so it is named in an issue and not asserted here."@en,
-        "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en,
-        "What was not read, and it is the larger part. Of the principal corpus, Maqlu and Surpu were not opened: the standard editions of both are the ones a reader would have to be given, and neither is open access, while the nineteenth-century editions that are — Tallqvist for Maqlu, Zimmern for Surpu — are superseded and would enter the graph as an edition nobody now cites. The Diagnostic Handbook, which is where a prognosis in this craft would stand, was not opened either and for the same reason; only its second tablet's colophon is entered here, and that one at second hand. Ludlul bel nemeqi and Enuma Anu Enlil were not opened. Of the work that was opened, the partitur of Tablets 2, 4 to 11 and 13 to 16 was read only where a search led and not line by line. The whole of it was searched, which is a different claim and is made as such at the two search nodes."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
-
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
         "Ophite gnosis"@en ;
@@ -20300,6 +20350,19 @@ pmt:Mesmerism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Mesmer, Mémoire sur la découverte du magnétisme animal; Puységur, Mémoires pour servir à l'histoire du magnétisme animal; Deleuze, Instruction pratique sur le magnétisme animal" .
+
+pmt:MesopotamianExorcism a pm:Tradition ;
+    rdfs:label "Mesopotamische Beschwörungskunst"@de,
+        "Mesopotamian exorcistic craft"@en ;
+    dcterms:source "Udug-hul (canonical Utukku Lemnutu) Tablets 1, 3 and 12, and KAR 31 (VAT 8803), in M. J. Geller, Healing Magic and Evil Demons: Canonical Udug-hul Incantations (Die babylonisch-assyrische Medizin in Texten und Untersuchungen 8, Boston/Berlin: De Gruyter 2016)" ;
+    skos:definition "The scribal craft of the āšipu: a trained office with its own curriculum, treating affliction as an assault to be countered by named procedure."@en ;
+    skos:note "Read for the first time in two modern critical editions, both open access and both read at the wording of the English translation printed beside the text. First, the complete edition of the canonical series Udug-hul / Utukku Lemnutu in all sixteen tablets: Chapter One on the ritual content of the incantations, Chapter Three on the exorcist as diagnostician with its edition of KAR 31, and the partitur of Tablets 1, 3 and 12 at the places entered here. Second, the edition of the exorcist's manual KAR 44 in the volume of scholarly text catalogues, read in full from line 1 to the colophons."@en,
+        "The contact route stays disputed and the reading did not move it. The registration argued the dispute from the age of the corpus alone, which settles the direction of any derivation without settling whether there was one. The position the graph would need in order to decide it is the one that asks of each proposed borrowing whether it is specific, exceptional and co-occurrent with others, and reports that most claimed dependencies of the Greek magical papyri on this material fail those tests; that position was reached in the landscape stage of this run and not read at the wording, so it is named in an issue and not asserted here."@en,
+        "The oldest procedural corpus in writing anywhere, and older than every tradition the graph currently holds. Whatever it shares with the Greek and Jewish material is therefore a question of derivation running one way only."@en,
+        "What was not read, and it is the larger part. Of the principal corpus, Maqlu and Surpu were not opened: the standard editions of both are the ones a reader would have to be given, and neither is open access, while the nineteenth-century editions that are — Tallqvist for Maqlu, Zimmern for Surpu — are superseded and would enter the graph as an edition nobody now cites. The Diagnostic Handbook, which is where a prognosis in this craft would stand, was not opened either and for the same reason; only its second tablet's colophon is entered here, and that one at second hand. Ludlul bel nemeqi and Enuma Anu Enlil were not opened. Of the work that was opened, the partitur of Tablets 2, 4 to 11 and 13 to 16 was read only where a search led and not line by line. The whole of it was searched, which is a different claim and is made as such at the two search nodes."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:coverageState pm:placesEntered ;
+    pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
 
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
