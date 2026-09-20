@@ -2390,23 +2390,34 @@ pmc:DirectionIsNotThePhaseOfBreathing a pm:Converging ;
     pm:independenceGround "One side carries the claim and the other has been withdrawn from it. The jade inscription is dated to the fourth or third century before the common era, earlier than any documented transmission of Indian breath technique into China, and for that witness there is no route of contact to be had. The manual is fifteenth-century and stands downstream of centuries of Buddhist traffic in both directions; it cannot be declared contact-free, and it was listed here as an independent attestation until this ground was required, which is what the requirement is for. Neither witness is an ethnographic gathering, so no recorder's feedback is at issue." ;
     pm:independentAttestation pmt:Daoist .
 
-pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
-    rdfs:label "Wahrnehmung des Unerreichbaren aus einem willentlich betretenen Zustand"@de,
-        "Perception of what is out of range, from a state entered at will"@en ;
-    skos:note "No pm:Testing points at this node, and that is its function rather than a defect. SPEC §16 makes the untested generalizations the queue for the examining layer; this one heads it, because it rests on more attested claims and more widely separated transmissions than anything else the holding can currently form."@en,
-        "Seven attested claims from five transmissions: the Sámi journey made while the body lies still, two applications of saṃyama in the Yogasūtra, two of the graded degrees of the Midewiwin, the Iglulik spirit calling, and the Lakota sending of the sacred stones. Each names its own work and passage; this node names none, because none of them says what it says."@en,
-        "The derivation is contestable at two points and both are left visible. First, whether the four transmissions describe one kind of practice at all: the Sámi journey, saṃyama, the Midewiwin degrees and the Iglulik calling agree in that the state is entered deliberately and differ in almost everything else. Second, whether reporting on a distant place and reading another mind are one effect or two — the sources treat them as neighbouring and this node treats them as one, which is a decision and not a finding."@en,
-        "The seventh claim was added after the sixth and its addition is the only one that changed the shape of the derivation, so it is recorded rather than absorbed. The Lakota case is the first in this set that comes with narrated cases attached: a stone sent to find a rifle dropped into a river at a named place, and a stone sent to bring a buffalo in front of a fur trader who had staked ten articles against it. Cases do not make evidence — nobody devised the procedure and nobody recorded an outcome that could have been checked by a third party — but they are what a protocol would have to address, and no other claim under this node has any. Against that stands the same objection as for the Midewiwin material, since the recording is of nineteen eleven to nineteen fourteen; and beside it the fact that the same transmission names the cause to which a failure of the instrument is attributed, so that its own successes cannot be counted as a run."@en,
-        "Why the wording is as heavy as it is. The traditions say that the capacity is reached; a statement that repeated that could not fail at anything. What can fail is a comparison, so the statement is written as one, with the comparison group named — people working from the same prior information without the state. Whoever thinks the sentence overreaches should attack that clause, because it is the clause that carries the whole claim."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:FourthDegreeYieldsThoughtReading,
-        pmc:JourneyYieldsDistantSight,
-        pmc:SamyamaYieldsDivyaSrotra,
-        pmc:SamyamaYieldsParacittaJnana,
-        pmc:SecondDegreeYieldsDistantHearing,
-        pmc:SpiritCallingYieldsRecoveryOfLostThings,
-        pmc:TunkanYieldsDistantKnowledge ;
-    pm:generalizedStatement "Where a practitioner enters a stated inner state at will and then reports on a person, place or object outside the range of ordinary perception, the reports agree with independently established facts more often than reports produced, from the same prior information, by people who have not entered such a state."@en .
+pmc:DistantPerceptionAgainstAControlProtocol a pm:Testing ;
+    rdfs:label "Ob der Zustand eine Kontrollbedingung bei derselben Aufgabe schlägt"@de,
+        "Whether the state beats a control condition on the same task"@en ;
+    skos:definition "An examination of the comparison clause: not whether free-response reports about distant targets exceed chance, but whether reports made from a deliberately entered inner state exceed reports made without that state, at the same task and from the same prior information."@en ;
+    skos:note "A note on the evidence that could not be opened, because the state of this protocol depends on it. The two founding papers of the controversy, the critical appraisal of 1985 and the reply to it, and the joint communique of 1986, are in a journal with no open access and were not read; what this protocol says about them is therefore nothing. The same holds for the meta-analysis of free-response studies without altered states of 1997, whose reported effect size is higher than the ganzfeld figure of the study read here and which would bear directly on the comparison. A later run with access to that journal should read those four before the state above is moved in either direction."@en,
+        "One of those two omitted conditions is the sharpest single fact this examination turned up, and it is a fact about the comparison and not about psi. An experiment in the meta-analysis ran two conditions, one under hypnosis and one without: 45 hits in 120 four-choice trials under hypnosis, 37.5 percent, and 29 hits in 120 trials without it, 24.2 percent. The meta-analysis included the hypnosis condition and not the control. The one study in the set that had built the state comparison into a single experiment therefore entered the category contrast with only its state arm. Whether that was deliberate is not decided here and does not need to be: a meta-analysis that sorts studies by the state of the receiver, and takes one arm of a within-study state comparison, has measured something other than what it reports."@en,
+        "That study has to be read exactly, because it is the one most easily overstated in either direction. The authors themselves say what it does and does not settle: since no effect appeared in either condition, they cannot reach even a tentative conclusion about a differential advantage of the ganzfeld. A comparison between two nulls is uninformative about which would be larger if either were positive. What it does establish is that the comparison has been attempted with a design built for it, and that it did not come out; and that its own post hoc finding, a correlation of hits across the two conditions, points away from the method mattering and toward the person."@en,
+        "The case for the statement, and it is one case. Storm, Tressoldi and Di Risio sorted free-response studies from 1992 to 2008 into three groups by the state of the receiver: ganzfeld, other noise-reduction techniques such as hypnosis, meditation, relaxation and dreaming, and standard free response with no state induction at all. The three groups take the same task and the same chance level. Ganzfeld returned a mean effect size of 0.142 and, on trial counts, 483 hits in 1,498 trials, a 32.2 percent hit rate; the standard free-response group returned a mean effect size of -0.029 and 455 hits in 1,872 trials, a 24.3 percent hit rate. The contrast is tested and not merely displayed: an analysis of variance gives F(2, 53) = 6.08, p = .004 two-tailed, and a Tukey test gives the difference between those two groups at p = .005. That is the comparison clause, supported, at pp. 475 to 477 of the article."@en,
+        "The consequence for the generalization itself is a wording change and not a withdrawal, and it is proposed here rather than made, because the statement belongs to the node and this is its protocol. The clause people who have not entered such a state is doing more work than the evidence supports: in the one data set where the contrast holds, it holds only for participants selected for belief or practice, which means the contrast in hand is between selected-people-in-a-state and unselected-people-not-in-one. A statement that named that would be examinable by an experiment that exists in principle and, as far as this examination can tell, has been run once."@en,
+        "The first deviation is inside that same article and is not mentioned in its abstract. The category difference does not hold for the participants the transmissions would be about. Splitting by participant type, for unselected participants there is no difference between the three conditions, F(2, 27) = 1.44, p = .255; for participants selected as believers, meditators and the like there is, F(2, 26) = 6.83, p = .004, with the difference again between ganzfeld and standard free response. The authors state it themselves: the effect is attributable to participants in the ganzfeld only, and within the ganzfeld selected participants beat unselected ones, t(27) = -3.44, p = .002. So the state advantage in this data set is not separable from who was in the state. The generalization says a practitioner enters a state; it does not say that only practitioners already disposed to succeed do so."@en,
+        "The fourth line of evidence does not bear on the comparison at all but decides how much the supporting side is worth. A Bayes factor reanalysis of the very data set that carries the category contrast finds that studies randomising by hand outperform studies randomising by computer by about 6,350 to 1, and reads that as a flaw in the manual studies rather than as an effect, since no anomaly is needed to produce dependencies between trials that a hand procedure leaves in. With those studies excluded and two omitted conditions restored, the support for any psi effect in the set falls to at most 330 to 1."@en,
+        "The second deviation is the decade that followed. The same two authors carried the same three-way comparison forward with studies from 2009 to 2018 and reported the outcome against themselves. In the new data alone the standard free-response category, which is the control, returns a mean effect size of 0.050 while the non-ganzfeld state category returns 0.045 — the control outperforms the state. On the combined databases the control category returns 0.027 with a 95 percent confidence interval of -0.024 to 0.078, which includes zero, and the analysis of variance on the categories falls to F(2, 74) = 2.58, p = .082. The ganzfeld-versus-control contrast survives in the post hoc Tukey test at p = .012 and becomes clear again only in a reduced model that drops the other factors. A contrast that was p = .004 in 2010 and p = .082 in 2020, on more data, is not a finding that has been strengthened by replication."@en,
+        "The third deviation is the only experiment this examination found that runs the comparison the statement actually describes: the same people, the same task, with and without the state. Forty-one participants, each tested once in a ganzfeld condition and once in a condition equal to it in every respect except that the halved ping-pong balls, the red light, the headphones and the white noise were absent; the order of conditions randomised across participants; one target pool of eighty pictures; a hardware random number generator; a three-experimenter plan; and the methodological criticism of the preceding decade worked into the design on purpose. The success criterion was fixed in advance and had two parts, a significant difference between conditions and significant hitting in the ganzfeld condition alone. The result: no difference between the conditions, Wilcoxon T = 344.5, z = -0.11, p greater than .90, and no evidence of psi in either condition."@en,
+        "What the examination does not find, and the absence is the reason the state is deviation rather than refutation. It does not find a body of work that has tested the comparison and come out against it. It finds one direct test, null in both arms; one between-studies contrast that supported it in 2010 and weakened to marginal by 2020; a reanalysis that removes most of the weight from the supporting side; and, beneath all of it, a main effect whose own replication record is contested — thirty studies from seven laboratories under the agreed standards giving Stouffer z = 0.70, p = .24. The generalization is not refuted. It is close to untested, and the literature that looks as though it tested it mostly did not: the canonical series compares performance against chance, which is a different question with a similar shape."@en ;
+    pm:attestedBy pm:protocolledPractice ;
+    pm:baseRate "The score of the control condition at the same task. In the four-choice free-response design that carries most of this literature, chance is 25 percent by construction, and the standard free-response database of the meta-analysis read here returns 24.3 percent over 1,872 trials, which is the empirical control figure rather than the arithmetic one."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Carried on 2026-09-20 and it found opposition of three kinds, each read at the wording. First, a direct null: the only experiment found that runs the comparison within subjects reports no difference between the two conditions, and no effect in either of them. Second, a methodological attack on the one meta-analysis that does draw the contrast: a Bayes factor analysis of the same data set finds that studies with manual randomisation outperform those with computerised randomisation by a factor of about 6,350 to 1, which the authors read as a flaw in the manual studies rather than as an effect, and that two conditions from included reports were left out of the meta-analysis. Third, a large replication series that fails the underlying main effect altogether: thirty ganzfeld studies from seven laboratories following the agreed standards, Stouffer z = 0.70, p = .24 one-tailed, mean effect size 0.013. What the search did not find is a preregistered multi-laboratory experiment with a control condition; none appears to exist."@en ;
+    pm:evidenceFrom "A. C. van Dalen, L. R. B. Dias, J. M. J. Murre and S. A. Schouten, A prototypical ganzfeld psi experiment with a control condition, Parapsychology Laboratory, University of Utrecht, convention abstract, pp. 40-43, read in the declassified copy CIA-RDP96-00792R000700960003-3",
+        "J. Milton and R. Wiseman, Does psi exist? Lack of replication of an anomalous process of information transfer, Psychological Bulletin 125(4) (1999), pp. 387-391",
+        "J. N. Rouder, R. D. Morey and J. M. Province, A Bayes factor meta-analysis of recent extrasensory perception experiments: Comment on Storm, Tressoldi, and Di Risio (2010), Psychological Bulletin 139(1) (2013), pp. 241-247, doi:10.1037/a0029008",
+        "L. Storm and P. E. Tressoldi, Meta-analysis of free-response studies 2009-2018: Assessing the noise-reduction model ten years on, Journal of the Society for Psychical Research 84(4) (2020), pp. 193-219, read in the author preprint doi:10.31234/osf.io/3d7at",
+        "L. Storm, P. E. Tressoldi and L. Di Risio, Meta-analysis of free-response studies, 1992-2008: Assessing the noise reduction model in parapsychology, Psychological Bulletin 136(4) (2010), pp. 471-485, doi:10.1037/a0019457" ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "Not devised here. The comparison is the design of van Dalen, Dias, Murre and Schouten, who state the requirement in their own words, and the category contrast is the first hypothesis of Storm, Tressoldi and Di Risio" ;
+    pm:falsifiedBy "An experiment in which the same participants perform the same free-response task, with the same target pool and the same judging procedure, once in the named state and once in a condition differing from it only by the absence of that state, and in which the state condition does not score higher than the control condition."@en ;
+    pm:protocolUpdated "2026-09-20" ;
+    pm:tests pmc:DistantPerceptionFromAVoluntaryState .
 
 pmc:DistinctionDesEsprits a pm:Conceptualizing ;
     rdfs:label "Die Unterscheidung guter und schlechter Geister"@de,
@@ -13177,6 +13188,26 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
         pmc:Manomayakaya ;
     pm:withinTradition pmt:Theravada .
 
+pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
+    rdfs:label "Wahrnehmung des Unerreichbaren aus einem willentlich betretenen Zustand"@de,
+        "Perception of what is out of range, from a state entered at will"@en ;
+    skos:note "One consequence bears on the statement above and is recorded here rather than acted on. In the one data set in which the contrast holds, it holds only for participants selected as believers or practitioners: for unselected participants there is no difference between the conditions at all. The clause people who have not entered such a state therefore covers, in the evidence actually in hand, a comparison between selected people in a state and unselected people not in one. Narrowing the statement to say so is a change to a generalization and belongs to a run that takes that decision deliberately, not to the protocol that noticed it."@en,
+        "Seven attested claims from five transmissions: the Sámi journey made while the body lies still, two applications of saṃyama in the Yogasūtra, two of the graded degrees of the Midewiwin, the Iglulik spirit calling, and the Lakota sending of the sacred stones. Each names its own work and passage; this node names none, because none of them says what it says."@en,
+        "The derivation is contestable at two points and both are left visible. First, whether the four transmissions describe one kind of practice at all: the Sámi journey, saṃyama, the Midewiwin degrees and the Iglulik calling agree in that the state is entered deliberately and differ in almost everything else. Second, whether reporting on a distant place and reading another mind are one effect or two — the sources treat them as neighbouring and this node treats them as one, which is a decision and not a finding."@en,
+        "The seventh claim was added after the sixth and its addition is the only one that changed the shape of the derivation, so it is recorded rather than absorbed. The Lakota case is the first in this set that comes with narrated cases attached: a stone sent to find a rifle dropped into a river at a named place, and a stone sent to bring a buffalo in front of a fur trader who had staked ten articles against it. Cases do not make evidence — nobody devised the procedure and nobody recorded an outcome that could have been checked by a third party — but they are what a protocol would have to address, and no other claim under this node has any. Against that stands the same objection as for the Midewiwin material, since the recording is of nineteen eleven to nineteen fourteen; and beside it the fact that the same transmission names the cause to which a failure of the instrument is attributed, so that its own successes cannot be counted as a run."@en,
+        "This node headed the queue of untested generalizations, which SPEC §16 makes the queue for the examining layer, because it rests on more attested claims and more widely separated transmissions than anything else the holding can currently form. The protocol was taken up on 2026-09-20 and stands at examinations/distant-perception-against-a-control.ttl with the state pm:casesWithDeviation. The sentence that used to stand here, that no protocol pointed at this node and that this was its function rather than a defect, was true until then and is kept in this form rather than deleted, because a reader who meets the node first should know what changed and when."@en,
+        "What the protocol found, in one sentence, so that it is not read off the state alone: the comparison clause has been tested about four times in sixty years, the results do not agree, and the largest body of work that looks as though it tested the clause tested something else — performance against chance rather than performance against a control condition. The examinable part of this statement is therefore smaller than the number of predecessors suggests, and the protocol names the wording change that would make it larger."@en,
+        "Why the wording is as heavy as it is. The traditions say that the capacity is reached; a statement that repeated that could not fail at anything. What can fail is a comparison, so the statement is written as one, with the comparison group named — people working from the same prior information without the state. Whoever thinks the sentence overreaches should attack that clause, because it is the clause that carries the whole claim."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:FourthDegreeYieldsThoughtReading,
+        pmc:JourneyYieldsDistantSight,
+        pmc:SamyamaYieldsDivyaSrotra,
+        pmc:SamyamaYieldsParacittaJnana,
+        pmc:SecondDegreeYieldsDistantHearing,
+        pmc:SpiritCallingYieldsRecoveryOfLostThings,
+        pmc:TunkanYieldsDistantKnowledge ;
+    pm:generalizedStatement "Where a practitioner enters a stated inner state at will and then reports on a person, place or object outside the range of ordinary perception, the reports agree with independently established facts more often than reports produced, from the same prior information, by people who have not entered such a state."@en .
+
 pmc:DogonKnowledgeOfSiriusCompanion a pm:Originating ;
     rdfs:label "Die Dogon kannten den Begleiter des Sirius"@de,
         "The Dogon knew the companion of Sirius"@en ;
@@ -16195,11 +16226,6 @@ pm:individuatingTelos a pm:TelicOrientation ;
     skos:definition "The path claims that the creature's proper movement is to hold itself as itself against a dissolution that would end it, while denying that the movement is towards difference or towards becoming an absolute; what is sought is the creature's own being and not its distinction from others."@en ;
     skos:note "Between the two older values and reducible to neither. It refuses dissolution, so it is not unitive; and it refuses the striving after difference, so it is not separative. The distinction is fine and load-bearing: a scheme that reads every refusal of dissolution as self-deification cannot state it, and that misreading is common enough to be worth a term."@en .
 
-pm:protocolledPractice a pm:Attesting ;
-    rdfs:label "Protokollierte Praxis"@de,
-        "Protocolled practice"@en ;
-    skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
-
 pm:sourceModalityScale a pm:ScaleFamily ;
     rdfs:label "Quellenmodalitätsskala"@de,
         "Source modality scale"@en ;
@@ -18039,6 +18065,11 @@ pm:counterSearchFoundNothing a pm:CounterSearchState ;
         "Counter-search found nothing"@en ;
     skos:definition "A search for opposing or non-replicating work was carried and returned nothing. This is a statement about the search, and the note must say what was searched."@en .
 
+pm:protocolledPractice a pm:Attesting ;
+    rdfs:label "Protokollierte Praxis"@de,
+        "Protocolled practice"@en ;
+    skos:definition "A practice repeated under a stated procedure that records its failures alongside its successes."@en .
+
 pm:transientState a pm:AwarenessValue,
         pm:StateDuration ;
     rdfs:label "Vergehend"@de,
@@ -19425,11 +19456,6 @@ pm:SensoryAnchoring a owl:Class,
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
     pm:scaleFamily pm:subjectAxis .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
         "Counter-search not carried"@en ;
@@ -19445,6 +19471,11 @@ pmt:FourthWay a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmp:Cizhen a pm:Practicing ;
     rdfs:label "Nadelung"@de,
@@ -19514,11 +19545,6 @@ pm:contactRouteUndecided a pm:ContactRoute ;
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
         "Hekhalot and Merkavah literature"@en ;
@@ -19559,6 +19585,11 @@ pmw:GinzaRabba a dcterms:BibliographicResource ;
     rdfs:label "Ginzā Rabbā, der große Schatz"@de,
         "Ginzā Rabbā, the Great Treasure"@en ;
     skos:note "Opened on 2026-09-20 in the German of Mark Lidzbarski of 1925, which is the translation the scholarship cites and which carries the page and line of Petermann's Mandaic text of 1867 in its running heads. Every source string below therefore gives the Petermann reference and the page of the German, because the two count differently and a later reader needs both. Of the two the Petermann reference is the safer: the copy read here is a scan whose optical reading damages the page numerals in the running heads, turning twenty-two into ninety-two and one hundred and eighty-four into a brace and eighty-four, while the text references beside them survive. The page numbers below were reconstructed from the sequence of the heads and not read off single ones."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
