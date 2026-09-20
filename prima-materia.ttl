@@ -3762,15 +3762,6 @@ pmc:HundredArtsPresupposeYubu a pm:Presupposing ;
     pm:priorStep pmp:Yubu ;
     pm:withinTradition pmt:Daoist .
 
-pmc:HuwuZhiming a pm:Conceptualizing ;
-    rdfs:label "Den Namen des Dinges zu wissen nimmt ihm die Macht"@de,
-        "Knowing the thing's name takes away its power"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 17 (Dengshe), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 17" ;
-    skos:definition "A table by which a thing met in the mountains is identified from the branch of the day and the title it gives itself, so that it may be called by its true name. On a yin day one calling himself the tiger warden is a tiger and one calling himself lord of the road is a wolf; on a mao day one calling himself old man is a hare, one calling himself father of the eastern five is an elk, one calling himself queen mother of the west is a deer; on a chen day the rain master is a dragon, the earl of the river a fish, the gutless gentleman a crab; and so through the twelve branches to the chou day, on which one calling himself a student is an ox. The chapter closes the list with the rule: only know the thing's name, and it cannot do harm. The same operation is given for the mountain sprites, which are listed by shape rather than by day — one like a small child with a single foot that runs backwards, one like a drum and red with one foot, one nine feet tall in a fur robe and a hat, one like a dragon of five colours with red horns — with the same instruction, call them by the name and they dare do no harm."@en ;
-    skos:note "The claim is that a name is an operator and not a label, and it is stated as a rule rather than as an anecdote. What makes it examinable in principle is that it is a rule of identification with a stated key: the day and the self-designation together determine the answer, so two practitioners given the same encounter should return the same name. What makes it unexaminable in practice is that the encounters the key applies to are the ones in dispute."@en,
-        "The other half of the chapter answers the same encounters with objects rather than names: five talismans in cinnabar on peachwood at the door and the four quarters, a seal of jujube heartwood two inches square, the seal of the yellow spirit with its hundred and twenty characters, the mirror above, and realgar for the snakes. The naming rule is entered separately because it alone claims that knowledge does the work."@en ;
-    pm:withinTradition pmt:Daoist .
-
 pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die übernatürlichen Kräfte werden in abgezogener Vertiefung ausgeübt"@de,
         "The supernormal powers are exercised in withdrawn absorption"@en ;
@@ -7979,6 +7970,19 @@ pmc:TheProtectionAndWhatWouldShowItFailedExamination a pm:Testing ;
     pm:falsifiedBy "An operative transmission that names the harms its protection averts and does any one of three things: marks off the harms whose occurrence a bystander could establish from those whose occurrence nobody could record; names one of the recordable harms as the test of whether the protection held; or states a condition under which the protection is to be judged to have failed."@en ;
     pm:protocolUpdated "2026-09-20"^^xsd:date ;
     pm:tests pmc:TheProtectionAndWhatWouldShowItFailed .
+
+pmc:TheProvisionForNotKnowingExamination a pm:Testing ;
+    rdfs:label "Prüfprotokoll zur Vorsorge für das Nichtwissen"@de,
+        "Protocol on the provision for not knowing"@en ;
+    skos:definition "An attempt to fail the statement that a corpus which makes an operation depend on identifying what is dealt with also carries a standing way of proceeding without the identification. A reading protocol: the claim is about what operative corpora contain, so it fails or holds against corpora."@en ;
+    skos:note "Entered at procedure without cases. The procedure: take a corpus in which the operator must name, identify or trace the origin of what he is treating; establish that the requirement is stated and not merely implied; then read the whole of that corpus for a covering disjunction, a formula for the unknown case, a key of identification, or an apparatus that works without the name. The statement fails if the reading comes back empty."@en,
+        "One methodological trap, recorded because this run nearly fell into it. A corpus can look as though it has no provision simply because the holding entered only its strict passages. The Egyptian material carried the requirement for two weeks before the chapter that hands over the answers was read, and had the statement been written then it would have had a false refuter in it. The protocol therefore requires that the whole corpus be read, and not the nodes the holding happens to carry from it."@en,
+        "Run it on the Zande poison oracle first, for the reason given at the statement: it is the one corpus in the holding whose procedure takes the name from outside itself, and the ethnography that would settle it is a single well-known monograph rather than a scattered literature. A second target with the opposite property is the Finnish collection, where the provision is already known to exist and the open question is the reverse one — how often the origin-words are actually supplied, against how often the formula for not knowing them is."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol drawn from the wording of the witnesses; no cases collected" ;
+    pm:falsifiedBy "An operative corpus that makes an operation depend on naming, identifying or tracing the origin of what is being dealt with, states that requirement rather than implying it, and contains nowhere in itself a covering disjunction, a formula for the case of not knowing, a key by which the identification can be made, or an apparatus that answers the same encounters without a name."@en ;
+    pm:protocolUpdated "2026-09-20"^^xsd:date ;
+    pm:tests pmc:TheProvisionForNotKnowing .
 
 pmc:ThePythonProhibition a pm:Cautioning ;
     rdfs:label "Das Töten einer Python, auch aus Versehen"@de,
@@ -12816,16 +12820,6 @@ pmc:AsipuLemnuIntoTheNetherworld a pm:Conceptualizing ;
     skos:note "The transfer is stated as a wish throughout and never as a report. Every clause of the passage is precative, and the goat that is to hold the evil is asked not to be released from the patient's head. A transmission that states its own outcome in the optative has said nothing that a case could contradict, and that observation belongs beside the passage rather than in a protocol, because it is a property of the wording."@en ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
-pmc:AsipuNominisIncertitudo a pm:Conceptualizing ;
-    rdfs:label "Wer immer du seist: die Beschwörung, die sich nicht festlegen muss"@de,
-        "Whether thou be: the adjuration written so as not to have to decide"@en ;
-    dcterms:source "Utukki Limnuti, Tablet III, lines 160-165, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
-    skos:definition "The form Tablet III gives the litany. It is not a list of things present but a disjunction over what might be: whether thou be an evil Spirit or an evil Demon, or an evil Ghost or an evil Devil, or an evil God or an evil Fiend, or sickness, or death, or Phantom of Night, or Wraith of Night, or disease, or evil pestilence — be thou removed from before me. The operation is stated so that the exorcist need not establish which of the twelve he is dealing with."@en ;
-    skos:note "The reason given for the form is the editor's and not the tablet's, and is entered as his. Campbell Thompson writes that the exorcist names every spirit any one of which may be the cause of the sickness, and by so doing impresses the demon that he is in possession of his name. Nothing in the translated lines says that, and a reader who took it from this node as the tradition's own account would be taking an 1903 explanation for an Assyrian one."@en,
-        "This is the strongest single thing the reading found, and it bears on the whole apparatus of naming that this holding has been entering from the Egyptian side. At the gate of the hall of the two Maati the dead man must produce the right name or he does not pass; here the officiant recites every name there is, and the recitation works whichever one is true. The two arrangements put the name to opposite uses: as a test that can be failed, and as a disjunction that cannot."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:MesopotamianExorcism .
-
 pmc:AsipuUtukkiYieldsRemotio a pm:Yielding ;
     rdfs:label "Die Beschwörung entfernt, was da ist, aus dem Leib des Mannes"@de,
         "The adjuration removes whatever is present from the body of the man"@en ;
@@ -13842,6 +13836,15 @@ pmc:HusbandHasSecondSight a pm:Attributing ;
     pm:ascribedTo "Padloq, the narrator Takornâq's husband" ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:InuitAngakkuq .
+
+pmc:HuwuZhiming a pm:Conceptualizing ;
+    rdfs:label "Den Namen des Dinges zu wissen nimmt ihm die Macht"@de,
+        "Knowing the thing's name takes away its power"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 17 (Dengshe), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 17" ;
+    skos:definition "A table by which a thing met in the mountains is identified from the branch of the day and the title it gives itself, so that it may be called by its true name. On a yin day one calling himself the tiger warden is a tiger and one calling himself lord of the road is a wolf; on a mao day one calling himself old man is a hare, one calling himself father of the eastern five is an elk, one calling himself queen mother of the west is a deer; on a chen day the rain master is a dragon, the earl of the river a fish, the gutless gentleman a crab; and so through the twelve branches to the chou day, on which one calling himself a student is an ox. The chapter closes the list with the rule: only know the thing's name, and it cannot do harm. The same operation is given for the mountain sprites, which are listed by shape rather than by day — one like a small child with a single foot that runs backwards, one like a drum and red with one foot, one nine feet tall in a fur robe and a hat, one like a dragon of five colours with red horns — with the same instruction, call them by the name and they dare do no harm."@en ;
+    skos:note "The claim is that a name is an operator and not a label, and it is stated as a rule rather than as an anecdote. What makes it examinable in principle is that it is a rule of identification with a stated key: the day and the self-designation together determine the answer, so two practitioners given the same encounter should return the same name. What makes it unexaminable in practice is that the encounters the key applies to are the ones in dispute."@en,
+        "The other half of the chapter answers the same encounters with objects rather than names: five talismans in cinnabar on peachwood at the door and the four quarters, a seal of jujube heartwood two inches square, the seal of the yellow spirit with its hundred and twenty characters, the mirror above, and realgar for the snakes. The naming rule is entered separately because it alone claims that knowledge does the work."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:IdentificationOfTheWitch a pm:Conceptualizing ;
     rdfs:label "Die Benennung dessen, der gerade behext"@de,
@@ -15668,6 +15671,24 @@ pmc:TheProtectionAndWhatWouldShowItFailed a pm:Generalizing ;
         pmc:VoSesa ;
     pm:generalizedStatement "Where an operative transmission names the harms that its protection averts, it joins in one sentence or one list, and without marking the difference, harms whose occurrence any bystander would notice — a spear striking, a man behaving as a contrary, a head cut off, a drought, a named disease — to harms whose occurrence nobody could record — a devil drawing nigh, a god paying a visit, ills indicated as to come, anything bad approaching. The protection is claimed as satisfied whole, so no recordable harm is ever made the test of it, and none of these transmissions states a condition under which the protection would be judged to have failed. Where only one harm is named it is of the unrecordable kind. A protection attached to a single recordable harm and to nothing else occurs in the holding, and occurs once."@en .
 
+pmc:TheProvisionForNotKnowing a pm:Generalizing ;
+    rdfs:label "Die Überlieferung, die alles vom Namen abhängen lässt, führt auch einen Weg, ohne ihn zu arbeiten"@de,
+        "The transmission that makes everything depend on the name also carries a way of working without it"@en ;
+    skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Every node in the traditions whose wording makes knowing a name or an origin the condition of an operation was listed and read, and each was checked for a clause covering the case of not knowing. No refutation among those read, and two near-misses that are worth naming because both were candidates. The Mandaean watch-houses demand a name at every station, but the name demanded is the traveller's own and is conferred by a ceremony performed while alive, so there is nothing for him to fail to know; the holding already marks this at pmc:MandaeanNomenEtSignum. And the Shangqing requirement to know the names of the three times eight luminaries carries a stated consequence for not knowing them and no provision at all — but what is to be known there is the practitioner's own pantheon and not the identity of anything he is dealing with, so it falls outside the statement rather than against it."@en,
+        "The Egyptian corpus supplies both ends and is the reason the statement is worth making. At the hall of the two Maati every element of the doorway refuses passage unless told its name, which is the requirement in its strictest form; and chapter 147 hands the dead man the name of the doorkeeper, the watcher and the herald of each of the seven arits before he is asked for any of them. The provision there is not a clause but the book: what is sold to the buyer is the answer sheet to an examination the same book describes as unpassable without it. Twenty-one names entered at traditions/egyptian-arits.ttl are the whole content of that chapter."@en,
+        "The three forms, one witness each. The disjunction: the Babylonian adjuration runs whether thou be an evil Spirit or an evil Demon, or sickness, or death, or evil pestilence, and then removes whichever it is. The formula for not knowing: the Finnish collection makes the pronouncing of the origin the operation itself and treats it as a thing the operator either has or lacks, and it carries a separate formula for lacking it — one whose speaker says outright that he does not know who the maker of the hurt is, and which has a number and a place in the order rather than standing as an emergency measure. The apparatus of objects: the eighteenth chapter of the Baopuzi gives a key by which a thing met in the mountains is named from the day-branch and the title it gives itself, closes the list with the rule that only knowing the name takes away the harm, and then answers the same encounters in its other half with talismans in cinnabar on peachwood, a seal of jujube heartwood, the mirror and realgar, none of which requires the name."@en,
+        "Thin where it is thin, and it is thin in two places. Three traditions carry the three forms and a fourth carries both ends, which is four corpora and not a survey; and two of the four, the Babylonian and the Egyptian, were read in this same September, so the pattern was found by a reader who had just been looking at one of them. That is a reason to state the falsifier precisely and to run it in a corpus nobody chose for this purpose."@en,
+        "What the statement does not say. It does not say that the identification is a pretence, and it does not say the provisions were added later by people who found the requirement inconvenient; neither would follow from the wording and neither was investigated. It says that in every corpus read here the two stand together, and that the requirement therefore never bears the weight a reader of it alone would give it."@en,
+        "Where the statement is most likely to break, named here rather than left for a reader to find. The Zande poison oracle exists to name the one who is bewitching at this moment, and the question is put to it about a person the questioner has already named; a transmission whose whole apparatus needs a name supplied from outside is the shape that would refute this, if it also turns out to supply nothing for the case of having no name to put. The holding does not carry enough of the Zande consultation procedure to decide that, and a run that reads it would settle the statement one way or the other faster than any other corpus now in the graph."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AegyptiaPortaeNomina,
+        pmc:AsipuNominisIncertitudo,
+        pmc:HuwuZhiming,
+        pmp:AegyptiaSeptemAritae,
+        pmp:FinnicSynnynLukeminen,
+        pmp:FinnicSyynTiedustus ;
+    pm:generalizedStatement "Where a transmission makes an operation depend on identifying what is being dealt with — the name of the adversary, the origin of the hurt, the name of the thing met on the road — the same corpus carries a standing provision for proceeding without that identification, and the provision is not an emergency measure but has a place of its own. It takes one of three forms: a disjunction that names every candidate at once, so that the identification need not be made; a form of words for the case of not knowing, with a number and a fixed position in the order of recitation; or an apparatus of objects that answers the same encounters and does not require a name at all. In no case read here does the corpus that states the requirement leave the practitioner who cannot meet it with nothing."@en .
+
 pmc:TheRepairWithoutASign a pm:Generalizing ;
     rdfs:label "Die Wiedergutmachung trägt genau dann ein Zeichen, wenn der Schaden, den sie behebt, einer war, den der Übende sehen konnte"@de,
         "The repair carries a sign exactly where the harm it repairs was one the practitioner could see"@en ;
@@ -16352,16 +16373,6 @@ pmp:AegyptiaScarabaeusCordis a pm:Practicing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
-pmp:AegyptiaSeptemAritae a pm:Practicing ;
-    rdfs:label "Der Durchgang der sieben Arits: die drei Namen wissen und die Anrede sprechen"@de,
-        "The passage of the seven arits: knowing the three names and saying the address"@en ;
-    dcterms:source "Book of the Dead, chapter 147, Papyrus of Ani (British Museum No. 10,470, sheets 11 and 12), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 473-479" ;
-    skos:definition "The operation chapter 147 prescribes. At each of the seven arits the dead man is given three names — the doorkeeper, the watcher, the herald — and then says an address of his own, in which he states what he has done for Osiris and asks that the way be opened. The naming and the address are the whole of it. No object is handled, no material is named, no time of day is set, and no assistant is required."@en ;
-    skos:note "The structure is that of chapter 125 with the dialogue removed. There the doorway asks and the dead man answers; here the answers are supplied in advance and there is no question. Which of the two is the older arrangement this run cannot say, and the note is here rather than in a claim because nothing in either translation bears on it."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:BookOfTheDead ;
-    pm:withinTradition pmt:EgyptianRitual .
-
 pmp:AegyptiaTabulaCibi a pm:Practicing ;
     rdfs:label "Die Götter auf ein Brett gemalt, und die Speise vor ihnen, wenn Ra erscheint"@de,
         "The gods painted on a board, and the food set before them when Ra appears"@en ;
@@ -16598,15 +16609,6 @@ pmp:FinnicLuonnonNostatus a pm:Practicing ;
         "luonto"@en ;
     skos:definition "A formula the operator says over himself and not over the patient. He calls his Nature from its hole and his genius from under a fallen tree, from beneath a stone, from out the moss; he calls his Nature that is hard as stone and his hair that is tough as iron, and the Nature of his mother, his father and his ancestor in addition to his own; he asks to be clothed with a burning coat and with furs of fiery red. The collection names the occasion: it is said for steeling the nerves while conjuring the sick and removing obstacles."@en ;
     skos:note "Two of its lines are the transmission's own account of what the operator brings to the work, and they are inherited rather than acquired: his mother's Nature and his father's and his ancestor's are called up beside his own. That is a prerequisite located in descent, which is not a condition anyone could set, and it stands in the same formula as the one condition anyone could — that the man says these words before he begins."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:FinnicIncantation .
-
-pmp:FinnicSyynTiedustus a pm:Practicing ;
-    rdfs:label "Die Formel, wenn der Ursprung nicht bekannt ist"@de,
-        "The formula said when the origin is not known"@en ;
-    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 5 a-c, pp. 73-75" ;
-    skos:definition "The formula for the case in which the operator does not know what he is dealing with. Its speaker says outright that he does not know who the maker of the hurt is, and undertakes to get to know its origin and to ascertain its birthplace; it then puts the alternatives to the hurt itself, whether it is the Creator's work or a man's."@en ;
-    skos:note "A transmission whose doctrine is that knowing the origin gives power, and which carries a standing procedure for not knowing it, has admitted the ordinary case into its own apparatus. The formula is not an emergency measure: it has a number and a place in the order of recitation."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:FinnicIncantation .
 
@@ -17367,6 +17369,16 @@ pmc:AsipuMimmaLemnuLaTehi a pm:Conceptualizing ;
     dcterms:source "KAR 31 (VAT 8803) rev. 31 (M. J. Geller, Healing Magic and Evil Demons, BAM 8, De Gruyter 2016, p. 40)" ;
     skos:definition "The outcome the ritual states for the anointing: that when he approaches the patient, nothing bad will approach him."@en ;
     skos:note "Stated without reservation and without a condition on the operator's state, his worthiness or the will of a god. The only condition in the sentence is that the anointing come first."@en ;
+    pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:AsipuNominisIncertitudo a pm:Conceptualizing ;
+    rdfs:label "Wer immer du seist: die Beschwörung, die sich nicht festlegen muss"@de,
+        "Whether thou be: the adjuration written so as not to have to decide"@en ;
+    dcterms:source "Utukki Limnuti, Tablet III, lines 160-165, in the English of R. Campbell Thompson, The Devils and Evil Spirits of Babylonia, Luzac's Semitic Text and Translation Series vol. XIV (London: Luzac, 1903), vol. I" ;
+    skos:definition "The form Tablet III gives the litany. It is not a list of things present but a disjunction over what might be: whether thou be an evil Spirit or an evil Demon, or an evil Ghost or an evil Devil, or an evil God or an evil Fiend, or sickness, or death, or Phantom of Night, or Wraith of Night, or disease, or evil pestilence — be thou removed from before me. The operation is stated so that the exorcist need not establish which of the twelve he is dealing with."@en ;
+    skos:note "The reason given for the form is the editor's and not the tablet's, and is entered as his. Campbell Thompson writes that the exorcist names every spirit any one of which may be the cause of the sickness, and by so doing impresses the demon that he is in possession of his name. Nothing in the translated lines says that, and a reader who took it from this node as the tradition's own account would be taking an 1903 explanation for an Assyrian one."@en,
+        "This is the strongest single thing the reading found, and it bears on the whole apparatus of naming that this holding has been entering from the Egyptian side. At the gate of the hall of the two Maati the dead man must produce the right name or he does not pass; here the officiant recites every name there is, and the recitation works whichever one is true. The two arrangements put the name to opposite uses: as a test that can be failed, and as a disjunction that cannot."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:MesopotamianExorcism .
 
 pmc:Azazel a pm:Naming ;
@@ -18166,6 +18178,16 @@ pmp:AegyptiaQuattuorFlammae a pm:Practicing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmp:AegyptiaSeptemAritae a pm:Practicing ;
+    rdfs:label "Der Durchgang der sieben Arits: die drei Namen wissen und die Anrede sprechen"@de,
+        "The passage of the seven arits: knowing the three names and saying the address"@en ;
+    dcterms:source "Book of the Dead, chapter 147, Papyrus of Ani (British Museum No. 10,470, sheets 11 and 12), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 473-479" ;
+    skos:definition "The operation chapter 147 prescribes. At each of the seven arits the dead man is given three names — the doorkeeper, the watcher, the herald — and then says an address of his own, in which he states what he has done for Osiris and asks that the way be opened. The naming and the address are the whole of it. No object is handled, no material is named, no time of day is set, and no assistant is required."@en ;
+    skos:note "The structure is that of chapter 125 with the dialogue removed. There the doorway asks and the dead man answers; here the answers are supplied in advance and there is no question. Which of the two is the older arrangement this run cannot say, and the note is here rather than in a claim because nothing in either translation bears on it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     rdfs:label "Die Oration der Heilkunst, vor dem Kranken gesprochen"@de,
         "The oration of the physical art said before the sick"@en ;
@@ -18270,6 +18292,15 @@ pmp:EuropeanFolkMagicFallendeKrankheitZettel a pm:Practicing ;
     skos:definition "Writing backwards on a slip of paper the words that all is accomplished, once only and not more; laying the writing in a little scarlet-red cloth and a linen cloth over it; and hanging it on unbeschrauen on the first Friday in the new light, with the linen cloth and the thread unbleached."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:EuropeanFolkMagic .
+
+pmp:FinnicSyynTiedustus a pm:Practicing ;
+    rdfs:label "Die Formel, wenn der Ursprung nicht bekannt ist"@de,
+        "The formula said when the origin is not known"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 5 a-c, pp. 73-75" ;
+    skos:definition "The formula for the case in which the operator does not know what he is dealing with. Its speaker says outright that he does not know who the maker of the hurt is, and undertakes to get to know its origin and to ascertain its birthplace; it then puts the alternatives to the hurt itself, whether it is the Creator's work or a man's."@en ;
+    skos:note "A transmission whose doctrine is that knowing the origin gives power, and which carries a standing procedure for not knowing it, has admitted the ordinary case into its own apparatus. The formula is not an emergency measure: it has a number and a place in the order of recitation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
 
 pmp:GlamDicenn a pm:Practicing ;
     rdfs:label "Glám dícenn, die Satire auf der Höhe der sieben Gebiete"@de,
@@ -18532,16 +18563,6 @@ pmw:AlfTrisarSuialia a dcterms:BibliographicResource ;
     rdfs:label "Alf Trisar Šuialia, die tausendundzwölf Fragen"@de,
         "Alf Trisar Šuialia, the Thousand and Twelve Questions"@en ;
     skos:note "Named here as a work of the corpus and not obtainable in this run. It is the priestly manual, and one of its parts carries the title Mhita u-Asuta, blow and healing, that is, ritual faults and their remedy. Drower's edition of 1960 exists in print; the lending scan answers 401 to its text file and the transliteration at the Comprehensive Aramaic Lexicon refuses automated retrieval. Two claims below are entered second-hand through the field monograph because of this, and they are the two that would be worth checking first once a copy is at hand."@en .
-
-pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
-    rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
-        "I will not let thee pass unless thou tell my name"@en ;
-    dcterms:source "Book of the Dead, chapter 125, the address to the gods of the hall of the two Maati, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 375-377" ;
-    skos:definition "The failure condition of the whole apparatus, stated as a dialogue and repeated part by part. At the hall of the two Maati every element of the doorway speaks in turn and refuses passage on the same terms: the bolt, the right lintel, the left lintel, the threshold, the fastening, the socket of the fastening, the guardian, the doorposts, the floor of the hall, the doorkeeper. Each says that it will not let him enter, or pass over, or open to him, or make mention of him, unless he tells its name; each name is then given; and each concludes that since he knows it he may pass. The floor of the hall adds a condition of its own — it will not be trodden on by one who does not know the names of its two feet — and the doorkeeper, who is called the discerner of hearts and searcher of the reins, will not announce him until he has named a further god."@en ;
-    skos:note "Here the corpus says what happens to a man who does not know, and it says it a dozen times in one chapter: he does not pass. Set beside pmc:AegyptiaRubricaScientiae this completes the construction — knowing is the operation, not knowing is the failure, the gates are the assay, and the book is what the buyer acquires against the assay. Nothing in the arrangement is left to chance except whether the man has the text."@en,
-        "Two things the passage does not do. It never says that anyone failed; the dialogue is written from the answer sheet, with every name supplied in the same breath as the question. And the same corpus prescribes an amulet to keep the heart from testifying at the weighing that follows, so the one element of the examination which the candidate cannot answer is provided for by an object rather than by knowledge. See pmc:AegyptiaCorNeTestetur."@en ;
-    pm:fromWork pmw:BookOfTheDead ;
-    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:Ahwal a pm:Conceptualizing ;
     rdfs:label "Zustände"@de,
@@ -18904,16 +18925,6 @@ pmp:Evocation a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Spiritism .
 
-pmp:FinnicSynnynLukeminen a pm:Practicing ;
-    rdfs:label "Das Aussprechen des Ursprungs der Sache"@de,
-        "Pronouncing the origin of the thing"@en ;
-    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 210 a, p. 332" ;
-    skos:altLabel "synnyn sanat"@en,
-        "synty"@en ;
-    skos:definition "Reciting, to the cause of a hurt, the account of how it came to be: its birth, its parentage and its descent, in the words that are handed down. The songs treat it as a thing the operator either has or lacks, and the collection carries a separate formula for the case in which he lacks it."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:withinTradition pmt:FinnicIncantation .
-
 pmp:JainaBhaktapratyakhyana a pm:Practicing ;
     rdfs:label "Der Verzicht auf alle Nahrung"@de,
         "Renouncing all food"@en ;
@@ -19041,6 +19052,16 @@ pmw:KausitakiBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Kauṣītaki-Brāhmaṇa"@de,
         "Kauṣītaki Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the same volume and translation as the Aitareya. Read at the wording: chapter xxvi, sections 4 to 6, which carry the named disagreement about whether a detected flaw in the recitation has to be repaired at all. The registration of this tradition did not name this work; it is added to the corpus at the instance because the reading found it there, and the coined identifier of the tradition is kept unchanged."@en .
+
+pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
+    rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
+        "I will not let thee pass unless thou tell my name"@en ;
+    dcterms:source "Book of the Dead, chapter 125, the address to the gods of the hall of the two Maati, Papyrus of Nu, in the English of E. A. Wallis Budge, London 1901, vol. II, pp. 375-377" ;
+    skos:definition "The failure condition of the whole apparatus, stated as a dialogue and repeated part by part. At the hall of the two Maati every element of the doorway speaks in turn and refuses passage on the same terms: the bolt, the right lintel, the left lintel, the threshold, the fastening, the socket of the fastening, the guardian, the doorposts, the floor of the hall, the doorkeeper. Each says that it will not let him enter, or pass over, or open to him, or make mention of him, unless he tells its name; each name is then given; and each concludes that since he knows it he may pass. The floor of the hall adds a condition of its own — it will not be trodden on by one who does not know the names of its two feet — and the doorkeeper, who is called the discerner of hearts and searcher of the reins, will not announce him until he has named a further god."@en ;
+    skos:note "Here the corpus says what happens to a man who does not know, and it says it a dozen times in one chapter: he does not pass. Set beside pmc:AegyptiaRubricaScientiae this completes the construction — knowing is the operation, not knowing is the failure, the gates are the assay, and the book is what the buyer acquires against the assay. Nothing in the arrangement is left to chance except whether the man has the text."@en,
+        "Two things the passage does not do. It never says that anyone failed; the dialogue is written from the answer sheet, with every name supplied in the same breath as the question. And the same corpus prescribes an amulet to keep the heart from testifying at the weighing that follows, so the one element of the examination which the candidate cannot answer is provided for by an object rather than by knowledge. See pmc:AegyptiaCorNeTestetur."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaRubricaScientiae a pm:Conceptualizing ;
     rdfs:label "Wenn dieses Kapitel gewusst wird: was das Wissen erlangt"@de,
@@ -19194,6 +19215,16 @@ pmp:ClaviculaOperatioCirculi a pm:Practicing ;
     skos:note "The second kind is what makes the transmission examinable at all: it fixes in advance what counts as having done the thing, down to the number of days, the material of the garment and the position of each participant. A procedure specified to that depth can be departed from in a way a witness could name. What follows below is the account the book gives of what happens when it is not departed from and nothing occurs."@en ;
     pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
+
+pmp:FinnicSynnynLukeminen a pm:Practicing ;
+    rdfs:label "Das Aussprechen des Ursprungs der Sache"@de,
+        "Pronouncing the origin of the thing"@en ;
+    dcterms:source "John Abercromby, The Pre- and Proto-historic Finns, vol. II (London: David Nutt, 1898), § 210 a, p. 332" ;
+    skos:altLabel "synnyn sanat"@en,
+        "synty"@en ;
+    skos:definition "Reciting, to the cause of a hurt, the account of how it came to be: its birth, its parentage and its descent, in the words that are handed down. The songs treat it as a thing the operator either has or lacks, and the collection carries a separate formula for the case in which he lacks it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:withinTradition pmt:FinnicIncantation .
 
 pmp:MideInitiationSecondDegree a pm:Practicing ;
     rdfs:label "Einweihung in den zweiten Grad"@de,
@@ -20213,6 +20244,11 @@ pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
         "Śatapatha Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
 
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+
 pm:Generalizing a owl:Class ;
     rdfs:label "Verallgemeinern"@de,
         "Generalizing"@en ;
@@ -20222,11 +20258,6 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
