@@ -10203,6 +10203,22 @@ pmp:EgyptianAssessorNameSearch a pm:Searching ;
     pm:searchedCorpus "E. A. Wallis Budge, A Hieroglyphic Vocabulary to the Theban Recension of the Book of the Dead, London: Kegan Paul, 1911, complete, with its index; against the address sequence of chapter 125 in Budge, The Book of the Dead: The Papyrus of Ani, London: British Museum, 1895, plates XXXI-XXXII, complete" ;
     pm:searchedFor "Whether the forty-two gods of the hall of the two Maati are a fixed set of forty-two names, or forty-two places filled differently by different manuscripts. The question decides what the naming nodes may claim: a fixed set would make the list a name to be learned, and a variable one makes it a count." .
 
+pmp:EgyptianChapterTitleSurvey a pm:Searching ;
+    rdfs:label "Wofür jedes Kapitel des Totenbuchs sich selbst erklärt"@de,
+        "What every chapter of the Book of the Dead says it is for"@en ;
+    dcterms:date "2026-09-19" ;
+    skos:note "Limits, and they bound the counts rather than the finding. The counts are of recovered titles, so each is a floor. Budge's arrangement and numbering are Lepsius's of 1842 and not the order of any manuscript, so a class here is a class of the printed edition. And a title is what a chapter says it is for, which need not be what it does: chapter 190 carries a title and may be, as Budge says, only the rubric of the chapter before it."@en,
+        "One hundred and thirty-two usable titles out of a denominator of one hundred and seventy chapter numbers, the denominator itself established by two independent passes over the running heads which agreed on one hundred and seventy. The shortfall of thirty-eight has three causes and the search does not separate them: headings lost in the scan, chapters that carry no title in the Theban recension, and cross-references to another chapter."@en,
+        "The result that changed a standing claim. The registration described this corpus as a list of transformations. Eight transformation titles were recovered; fifteen titles are about food, drink and air; twenty-one about passing, entering or journeying; and thirty-two state their capacity in the negative. The largest class is provisioning, which the registration did not name at all."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Two passes on the whitespace-normalised text of all three volumes. The first took the tables of contents, splitting on the chapter number followed by a dash and taking the text up to the next number. The second took every occurrence of CHAPTER followed by a roman numeral and a bracket, and read forward for the phrase THE CHAPTER OF in Budge's several typographic renderings of it. The two results were merged, the table-of-contents form preferred where both had a chapter, and entries that are not titles were dropped by hand: See Chapter X, Another chapter, Without title, and the vignette-only entry for chapter 16."@en ;
+    pm:searchYieldedNode pmc:AegyptiaMalaAversa,
+        pmc:AegyptiaTituliCapacitatum,
+        pmc:AegyptiaVictusInferorum ;
+    pm:searchedBy "prima-materia, 2026-09-19" ;
+    pm:searchedCorpus "The Book of the Dead, Theban recension, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III: the tables of contents of all three volumes and every chapter heading in the body of all three" ;
+    pm:searchedFor "The capacity each chapter states for itself in its own title, for all the chapters Budge prints and not for a sample. The registration of this tradition claimed it was a capacity list in the strict sense; a claim of that shape is answerable only against the whole list, and until this search the holding had read fewer than twenty chapters." .
+
 pmp:EgyptianMillionFormulaSearch a pm:Searching ;
     rdfs:label "Ob die gemeinfreien Übersetzungen die Formel führen, ein Spruch sei millionenfach erprobt"@de,
         "Whether the public-domain translations carry the formula that a spell is proved a million times"@en ;
@@ -12314,6 +12330,18 @@ pmc:AegyptiaFlammaeSignum a pm:Conceptualizing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaMalaAversa a pm:Conceptualizing ;
+    rdfs:label "Die Kapitel des Nicht: Vermögen, als abgewendete Schäden ausgesprochen"@de,
+        "The chapters of not: capacities stated as harms averted"@en ;
+    dcterms:source "Book of the Dead, the chapter titles of the Theban recension, chapters 5, 27, 28, 30, 30A, 31, 32, 34, 39, 40, 41, 42, 43, 44, 45, 46, 47, 53, 61, 63A, 85, 91, 93, 101, 154, 163, 175, 176, 182 and 189, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
+    skos:definition "Thirty-two of the hundred and thirty-two recovered titles name their capacity by the harm it prevents. Among them, in Budge's wording: of not letting the deceased do work in the underworld; of not letting the heart be taken from him; of not letting the head of a man be cut off from him; of not letting the soul of a man be taken from him; of not letting the soul be captive; of not letting the seat and throne be taken away; of not perishing and of becoming alive; of not dying a second time, which the corpus states twice under two numbers; of not eating filth and of not drinking foul water; of not being bitten by snakes; of not being burnt by fire; of not sailing to the east; of not allowing the body of a man to moulder away; of not letting a man make a journey being hungry. Beside them stand the chapters of driving back and repulsing: the eater of the ass, the serpent Rerek, the crocodile that cometh to carry off the charm, the slaughterings performed in the underworld, and Apshait."@en ;
+    skos:note "The count is of recovered titles. Where a title is lost to the scan its capacity is unclassified, and the proportion given here is a floor and not a measurement of the corpus."@en,
+        "The shape of the claim is what is entered here, not a judgement on it. A capacity whose whole content is that something does not happen is satisfied by the ordinary course of things and cannot be distinguished from it by any observation the corpus names. Read together with pmc:AegyptiaRubricaeAnatomia, which found that no rubric in the three volumes states a sign or a term, this is the same absence approached from the other side of the book: the ends are stated so that nothing would count against them, and the means are stated so that nothing would count for them."@en,
+        "Two of the negatives are unlike the rest and worth marking. Not eating filth and not drinking foul water name a state a living person could report of himself, and chapter 189 pairs the second with not making a journey being hungry. These are the only averted harms in the group that belong to the body rather than to the fate of the dead."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaNavisRubrica a pm:Conceptualizing ;
     rdfs:label "Er wird hervorgehen nach Sechet-Aaru, und die Gefolgsleute des Horus werden für ihn ernten"@de,
         "He shall come forth into Sekhet-Aarru, and the followers of Horus shall reap for him"@en ;
@@ -12331,6 +12359,31 @@ pmc:AegyptiaRubricaBilateralis a pm:Conceptualizing ;
     skos:definition "Appended to the chapter of making the transformation into whatever form the speaker pleaseth, in the Papyrus of Ani: if this chapter be known by the deceased, he shall come forth by day in Neter-khert, and he shall go in again after he hath come forth. If this chapter be not known, he shall not enter in after he hath come forth, nor shall he come forth by day."@en ;
     skos:note "It is also the weakest kind of two-sided statement, and the file does not pretend otherwise. The adverse outcome happens after death to a man who cannot report it, and the condition that produces it is the absence of an item of knowledge in that same man. Nothing here could be observed by anyone at any time. The search that found it is at examinations/searches-egyptian.ttl."@en,
         "This is the only rubric in the volumes read that names both outcomes, and it was found by searching for it rather than by reading. Everywhere else the corpus states what knowing obtains and is silent about not knowing; here the two halves stand in one sentence, and the second is the exact negation of the first. What makes it worth a node of its own is that it shows the silence elsewhere to be a property of those rubrics and not of the genre: the form was available."@en ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaTituliCapacitatum a pm:Systematizing ;
+    rdfs:label "Was die Titel aussagen: die Klassen von Vermögen über die gewonnenen Kapitelüberschriften"@de,
+        "What the titles state: the classes of capacity across the recovered chapter headings"@en ;
+    dcterms:date "2026-09-19" ;
+    dcterms:source "Book of the Dead, the chapter titles of the Theban recension, from the tables of contents and the chapter headings of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
+    skos:definition "One hundred and thirty-two chapter titles were recovered from Budge 1901 and read for the capacity each states. The classes, with the count of recovered titles falling under each: provisioning with food, drink or air, fifteen; passing, entering, journeying or sailing, twenty-one; the soul, its unity with the body and its freedom, ten; the heart, its giving, its keeping and its not being carried off, eight; coming forth by day, ten; transformation into a named creature or state, eight; amulets given to the deceased, three. Thirty-two of the hundred and thirty-two state the capacity in the negative, as a harm not to be suffered or an assailant driven back; these overlap the other classes rather than standing beside them."@en ;
+    skos:note "Compiled by this project. The titles are Budge's; grouping them into classes and counting the classes is an act of this holding, with its date, and no Egyptian source arranges them so."@en,
+        "The counts are of recovered titles and not of chapters. Thirty-eight of the hundred and seventy chapter numbers yielded no title to this run, and the transformation group is the clearest casualty: chapters 76 to 88 are the transformation chapters in Budge's arrangement and only eight of them came back with a legible heading. A reader who took eight as the number of transformations in the corpus would be reading the scan and not the book."@en,
+        "The registration of this tradition described it as a capacity list in which each chapter states what the speaker becomes and what that state permits. The titles bear that out for the transformation group and for little else. What the majority of them state is not what the speaker becomes but what he keeps, reaches, eats, or is not subjected to."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:compiledBy "prima-materia" ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmc:AegyptiaVictusInferorum a pm:Conceptualizing ;
+    rdfs:label "Brot, Wasser und Luft: die größte Klasse der Titel"@de,
+        "Bread, water and air: the largest class of titles"@en ;
+    dcterms:source "Book of the Dead, the chapter titles of the Theban recension, chapters 53 to 63, 148, 182 and 189, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
+    skos:definition "Fifteen of the recovered titles are about provisioning, which makes it the largest single class. They cover the giving of air and of water in the underworld, the snuffing of the air, the drinking of water at the stream, the providing of the deceased with food, the eating of cakes and ale at the altar of the great god, and the two chapters that state the same concern negatively: of not eating filth and of not drinking foul water, and of not letting a man make a journey being hungry."@en ;
+    skos:note "The same concern runs through the outcomes of the rubrics: bread, wine and cakes at the altar of the great god at chapter 99, an estate sown with wheat and barley which the followers of Horus reap for him, cakes and ale at chapter 125. The class is not an artefact of the titles."@en,
+        "This is the class the registration of the tradition did not mention, and it is larger than the transformations it did. What the book is most often for, judged by its own headings, is that the dead man should breathe, drink and eat."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
@@ -19207,12 +19260,6 @@ pmt:Shinto a pm:Tradition ;
     pm:fromWork pmw:Nihonshoki ;
     pm:principalCorpus "Kojiki; Nihon shoki; the norito of the Engishiki" .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
         "Dogon transmission"@en ;
@@ -19250,6 +19297,12 @@ pm:Positing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A claim held in the graph solely so that a protocol has something to address. It witnesses no transmission, claims no source, and belongs to no tradition."@en ;
     skos:note "The class exists because a protocol needs an object and because the claims most worth examining are often the ones no received work carries. It is deliberately narrow: an instance may exist only where a pm:Testing points at it, enforced by pm:PositingRequiresExaminationShape. Without that restriction the class would become the channel through which an unpublished draft enters the record after all, and the direction the project runs in would be reversed."@en .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pm:searchFoundOpposing a pm:SearchOutcome ;
     rdfs:label "Suche mit Gegenfund"@de,
@@ -19332,11 +19385,6 @@ pm:Converging a owl:Class ;
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
         "Inuit angakkuq transmission"@en ;
@@ -19388,6 +19436,11 @@ pmt:Waidan a pm:Tradition ;
 pmw:ClaviculaSalomonis a dcterms:BibliographicResource ;
     rdfs:label "Clavicula Salomonis"@de,
         "Clavicula Salomonis"@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
