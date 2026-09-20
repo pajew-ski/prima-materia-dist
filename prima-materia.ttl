@@ -785,6 +785,20 @@ pmc:AegyptiaNekhennu a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaPuritasOperantis a pm:Presupposing ;
+    rdfs:label "Diese Dinge soll ein Mann vollziehen, der rein und zeremoniell lauter ist"@de,
+        "These things shall be performed by a man who is clean and ceremonially pure"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, the fourth of the four appended brick rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "The condition attached to the four brick rubrics of chapter 137A, stated once at the end of the fourth and governing all of them: these things shall be performed by a man who is clean and is ceremonially pure, one who hath eaten neither meat nor fish, and who hath not recently had intercourse with women; and offerings of cakes and ale shall be made and incense burnt on the fire of these gods."@en ;
+    skos:note "Entered at prescribed order rather than at stated necessity, for the same reason as pmc:AegyptiaPuritasRecitantis: three abstinences are named and no consequence of breaking any of them is stated. The two conditions are worded almost identically in chapters 64 and 137A, which makes the shared silence a feature of the form and not of one passage."@en,
+        "The condition attaches to the four bricks and not to the four flames, although the two sets stand in the same chapter and the flames carry the secrecy clause instead. The corpus divides its conditions between the two halves of one chapter rather than applying both to both."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:AegyptiaLaterSeptentrionalis ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:AegyptiaLaterOccidentalis ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaPuritasRecitantis a pm:Presupposing ;
     rdfs:label "Zu sprechen von einem, der rein ist und weder Fleisch noch Fisch gegessen noch Frauen berührt hat"@de,
         "Recited by one who is clean and hath not eaten flesh or fish or touched women"@en ;
@@ -848,6 +862,20 @@ pmc:AegyptiaRereti a pm:Naming ;
     pm:nameRole "one of the forty-two gods of the hall of the two Maati" ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmc:AegyptiaRubricaeAnatomia a pm:Systematizing ;
+    rdfs:label "Der Bau des Nachschriftenkorpus: dreiundfünfzig Nachschriften, zwei Arten, keine Probe"@de,
+        "The anatomy of the rubric corpus: fifty-three postscripts, two kinds, no test"@en ;
+    dcterms:date "2026-09-19" ;
+    dcterms:source "Book of the Dead, all fifty-three rubrics of the Theban recension, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vols. I to III" ;
+    skos:definition "All fifty-three passages headed RUBRIC in the three volumes of Budge 1901 were located and read. They fall into two kinds with no overlap. Thirty-four are execution rubrics: recite over an object, name its material, name where it is placed, sometimes name the day. Nineteen are knowledge rubrics: if this chapter be known, such and such follows, with no object and no act. Every execution rubric names at least a material and a placement; not one of the fifty-three names a sign, a term, or a condition under which the prescription would have failed."@en ;
+    skos:note "Compiled by this project from the fifty-three places, not stated anywhere by the corpus. The count and the two kinds are in the pages; the reading of what the count means is the act recorded here, with its date."@en,
+        "The proportion is the first result and it corrects the first reading of this corpus. The run that entered pmt:EgyptianRitual reported a tradition whose operation consists in knowing a text. That is true of nineteen rubrics. Thirty-four prescribe handling a thing, and they are the more specified of the two: the knowledge rubrics vary in what they promise, while the execution rubrics vary in stone, metal, cloth, colour, orientation and day."@en,
+        "The second result is the silence, and it is uniform. Thirty-four prescriptions name matter to the point of naming which lake the water came from and which quarter a figure faces, and none of them says what the officiant should see if the rite took. A tradition that can specify a brick of green clay with incense in its middle, smeared with pitch and set alight, and walled into the south wall facing north, is not a tradition that lacked the vocabulary for a criterion."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:compiledBy "prima-materia" ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmc:AegyptiaScarabaeusEfficacia a pm:Yielding ;
     rdfs:label "Der Skarabäus hält das Herz davon ab, seinem Träger genommen zu werden"@de,
         "The scarab keeps the heart from being driven from its owner"@en ;
@@ -858,6 +886,21 @@ pmc:AegyptiaScarabaeusEfficacia a pm:Yielding ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual ;
     pm:yieldsCapacity pmc:AegyptiaCorNeTestetur .
+
+pmc:AegyptiaSecretumOperis a pm:Cautioning ;
+    rdfs:label "Vollziehe es vor niemandem: die vier Geheimhaltungsklauseln und wie weit sie auseinandergehen"@de,
+        "Perform it before no one: the four secrecy clauses and how far they differ"@en ;
+    dcterms:source "Book of the Dead, chapters 137A, 148, 156 and 161, rubrics, in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vols. II and III" ;
+    skos:definition "Four rubrics restrict who may be present, and the four draw the line in four different places. Chapter 137A: thou shalt not perform this ceremony before any human being except thine own self, or thy father, or thy son. Chapter 148: thou shalt not recite this book of Un-nefer in the presence of any person except thine own self. Chapter 156: thou shalt not let any person who is with thee see it. Chapter 161: let none who is outside know it; thou shalt not do this in the presence of any person except thy father or thy son, or thyself alone."@en ;
+    skos:note "Chapter 161 is the strongest of the four and the least securely attested: Budge adds its rubric from the Saite recension and it is not in his Theban base text. A secrecy clause that reaches the graph only through a later recension is worth marking as such."@en,
+        "None of the four states a consequence of breaking the clause. They are entered as cautions because that is what they are in form, and the missing half is the same missing half as everywhere else in this corpus."@en,
+        "Put side by side the four disagree about the lineage. Chapters 137A and 161 admit the father and the son; chapter 148 admits nobody at all. And Renouf, translating the Turin text of the first of these under chapter 161, has it exclude the father and the son by name. The corpus does not hold one rule about who may watch; it holds four, and a fifth reading of one of them in another edition. The Renouf divergence is argued at pmc:AegyptiaArcanumAmenti."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AegyptiaFibulaCarneoli,
+        pmp:AegyptiaQuattuorVentorum,
+        pmp:AegyptiaTabulaCibi ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
 
 pmc:AegyptiaSekhemetEmTesuSen a pm:Naming ;
     rdfs:label "Sekhemet-em-tesu-sen"@de,
@@ -9510,6 +9553,255 @@ pm:yieldsCapacity a owl:ObjectProperty ;
     rdfs:range pm:Conceptualizing ;
     skos:definition "The capacity a yielding claim arrives at. That the tradition says so is the claim; that the practice produces it is not asserted."@en .
 
+pmp:AegyptiaAccipiterNovilunii a pm:Practicing ;
+    rdfs:label "Der Falke mit der weißen Krone und neun Göttern in Gelb auf neuer Tafel"@de,
+        "The hawk with the white crown and nine gods in yellow on a new plaque"@en ;
+    dcterms:source "Book of the Dead, chapter 134, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a hawk standing and having the white crown upon his head, and over figures of Tem, Shu, Tefnut, Seb, Nut, Osiris, Isis, Suti and Nephthys painted in yellow colour upon a new plaque, which shall be placed in a model of the boat of the sun along with a figure of the deceased. These shall be anointed with cedar oil, incense shall be offered to them on the fire, and feathered fowl shall be roasted."@en ;
+    skos:note "One colour for nine gods, one oil, one burnt offering and one roast. The rubric closes by calling the whole an act of praise to Ra as he journeyeth, which is the only place in the rubrics read where the compiler names the genus of the act rather than its effect."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaAnimaAurea a pm:Practicing ;
+    rdfs:label "Die goldene Seele mit Edelsteinen, auf der Brust"@de,
+        "The soul of gold inlaid with precious stones, on the breast"@en ;
+    dcterms:source "Book of the Dead, chapter 89, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say these words over a soul of gold inlaid with precious stones and placed on the breast of Osiris."@en ;
+    skos:note "The whole rubric, complete. One sentence, one object, one placement, no time, no outcome, no condition. It is the shortest execution rubric in the three volumes and shows what the form reduces to when nothing is promised."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaAnnulusAnkham a pm:Practicing ;
+    rdfs:label "Der Ring aus Anch-am-Blüten und der Ring im Byssus"@de,
+        "The ring of ankham flowers and the ring in byssus"@en ;
+    dcterms:source "Book of the Dead, chapter 13, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. I" ;
+    skos:definition "Recite over a ring made of ankham flowers, which shall be laid on the right ear of the khu, together with a second ring wrapped up in a strip of byssus cloth, on which the name of the deceased shall be written, on the day of sepulture."@en ;
+    skos:note "Two objects, one material each, two placements, one day. No outcome is stated at all: the rubric ends with the day of sepulture and says nothing about what the rings obtain. It is one of the shortest in the corpus and one of the few that promise nothing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaChartaNavis a pm:Practicing ;
+    rdfs:label "Die Zeichnung auf unbeschriebenem Papyrus mit Tinte aus grünem Abut und Anti-Wasser"@de,
+        "The design on unused papyrus in ink of green abut and anti water"@en ;
+    dcterms:source "Book of the Dead, chapter 100, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over the design which has been drawn above; it shall be written upon papyrus which has not been written upon, with ink made of grains of green abut mixed with anti water, and the papyrus shall be placed on the breast of the deceased. It shall not touch his members."@en ;
+    skos:note "The only negative handling instruction in the rubrics read: the papyrus is placed on the breast and must not touch the body. Nothing is said about what follows if it does."@en,
+        "The stated outcome: he shall go forth into the boat of Ra every day, and Thoth shall take account of him as he comes forth and goes in, regularly and continually, and he shall set up the Tet and stablish the buckle and sail with Ra wherever he wishes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaCoronaVictoriae a pm:Practicing ;
+    rdfs:label "Der Siegeskranz auf dem Gesicht, zweimal bei Tagesanbruch gesprochen"@de,
+        "The chaplet of victory on the face, said twice at dawn"@en ;
+    dcterms:source "Book of the Dead, chapter 19, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. I" ;
+    skos:definition "Recite over the divine chaplet which is laid upon the face of the deceased, and cast incense into the fire on his behalf. The chapter is to be said twice at dawn, regularly and continually."@en ;
+    skos:note "One of the very few rubrics that fixes a time of day and a number of repetitions. It also makes the only claim of its kind in the corpus read by this run: Budge renders it a never-failing charm. No sign of the charm working is named, and no case of it failing could be, since the claim excludes one."@en,
+        "The stated outcome is double and of two kinds: triumph over his enemies, dead or alive, and a place among the followers of Osiris with a hand stretched out to him bearing meat and drink."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaDeusManusElatae a pm:Practicing ;
+    rdfs:label "Der Gott der erhobenen Hand, in Lapislazuli und Gamai-Wasser gemalt, über dem Herzen"@de,
+        "The god of the lifted hand painted in lapis-lazuli and gamai water, over the heart"@en ;
+    dcterms:source "Book of the Dead, chapter 165, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "Recite over a figure of the god-of-the-lifted-hand having plumes upon its head, its legs wide apart and its middle portion in the form of a beetle, painted blue with lapis-lazuli mixed with gamai water; and over a second figure with a head like that of a man, its hands and arms stretched away from its body, with the head of a ram above each shoulder. Paint the first figure upon a piece of linen immediately over the heart, and the second over the breasts."@en ;
+    skos:note "Two placements on the body given by organ rather than by garment, which is unusual: the amulet rubrics say at the neck, and this one says over the heart and over the breasts."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaFasciaRegia a pm:Practicing ;
+    rdfs:label "Die Binde aus königlichem Leinen, mit Anti beschrieben, am Hals am Tag des Begräbnisses"@de,
+        "The bandlet of royal linen written with anti, at the neck on the day of burial"@en ;
+    dcterms:source "Book of the Dead, chapter 101, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a bandlet of the fine linen of kings upon which the chapter has been written with anti, which shall be laid upon the neck of the perfect khu on the day of the burial."@en ;
+    skos:note "The outcome is stated at unusual length and reaches into what an onlooker could in principle check: he shall be stablished as a star face to face with Septet (Sothis), the goddess Menqet shall make plants to germinate upon his body, and Thoth shall make the light rest upon his corruptible body at will. The first of these is an astronomical claim about a dead man and the second a claim about his corpse."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaFiguraInNavi a pm:Practicing ;
+    rdfs:label "Das Bild des Toten in der Modellbarke, und die Waschung des Rezitierenden"@de,
+        "The figure of the deceased in the model boat, and the washing of the reciter"@en ;
+    dcterms:source "Book of the Dead, chapter 136A, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over a figure of the deceased which shall be placed in a model of the boat of the sun. He that reciteth it shall be washed and shall be ceremonially pure, and shall have burnt incense before Ra and offered wine, cakes and roasted fowl for the journey of the deceased in the boat of Ra."@en ;
+    skos:note "One of the few rubrics that puts a condition on the living performer rather than on the dead beneficiary, and the only one in the group of boat rubrics that does. The condition is washing and ceremonial purity; no consequence of omitting it is stated."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaLaterMeridionalis a pm:Practicing ;
+    rdfs:label "Der beschriftete Ziegel mit Weihrauch in der Mitte, mit Pech bestrichen und entzündet"@de,
+        "The inscribed brick with incense in its middle, smeared with pitch and set alight"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, the third of the four appended brick rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a brick of green clay upon which the chapter has been inscribed. Place incense in the middle of it, smear it with pitch or resin and set light to it. Make a cavity in the south wall, turn the front of the brick towards the north within it, and wall it up. Words are then given to be spoken."@en ;
+    skos:note "The object is set on fire and then immured. Nothing in the rubric says how long it is to burn, or whether it is still burning when the cavity is closed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaLaterOrientalis a pm:Practicing ;
+    rdfs:label "Der Anubis aus grünem Ton mit Weihrauch geknetet, in die Ostwand vermauert, nach Westen gewandt"@de,
+        "The Anubis of green clay kneaded with incense, walled into the east wall facing west"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, the second of the four appended brick rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a figure of Anubis made of green clay kneaded with incense and set up on a brick of green clay upon which the chapter has been inscribed. Make a cavity in the east wall, turn the face of Anubis towards the west within it, and wall it up. Words are then given to be spoken."@en ;
+    skos:note "The material is a compound and the rubric says how it is made: green clay kneaded with incense. It is the only object in the corpus read here whose substance is prescribed as a mixture rather than named as a stone or a metal."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaLiberFestorum a pm:Practicing ;
+    rdfs:label "Das Buch, an sieben genannten Festen rezitiert"@de,
+        "The book recited on seven named festivals"@en ;
+    dcterms:source "Book of the Dead, chapter 190, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "This book shall be recited on the first day of the month, on the festival of the six, on the festival of Uak, on the festival of Thoth, on the birthday of Osiris, on the festival of Sekri, and on the festival of the night of Haker."@en ;
+    skos:note "Budge notes that this chapter may be merely the rubric of the preceding chapter in the Papyrus of Nu, given a title of its own; he prints it separately for convenience. The node follows his printing and records his doubt rather than resolving it."@en,
+        "Seven occasions named and nothing else prescribed: no object, no material, no place. It is the only rubric in the corpus read that fixes a calendar and leaves everything else open."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaMutTricipita a pm:Practicing ;
+    rdfs:label "Die dreiköpfige Mut mit Flügeln und Löwenklauen auf Leinenbinde, zwischen zwei Zwergen"@de,
+        "The three-headed Mut with wings and lion's claws on a linen bandage, between two dwarfs"@en ;
+    dcterms:source "Book of the Dead, chapter 164, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "Recite over a figure of Mut having three heads: the first like that of Pekhat and bearing plumes, the second like that of a man and bearing the crowns of the South and the North, the third like that of a vulture and bearing plumes. The figure shall have a phallus, a pair of wings and the claws of a lion, and shall be painted with ant and powder of watch mixed with yellow colour upon a bandage of fine linen. One dwarf shall stand in front of it and another behind; each shall wear plumes, shall have one hand and arm raised, shall have two faces, one of a hawk and one of a man, and shall have a fat body."@en ;
+    skos:note "The longest single specification in the corpus and the one least like a prescription for an act. Nothing is done to the figure and nothing is placed anywhere: the whole rubric describes what is to be drawn. It is a drawing instruction under the name of a rite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaNavisPicta a pm:Practicing ;
+    rdfs:label "Die Barke des Ra, an reinem Ort gemalt, mit den beiden Booten an ihren Seiten"@de,
+        "The boat of Ra painted in a pure place, with the two barques on its sides"@en ;
+    dcterms:source "Book of the Dead, chapter 130, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a boat of the god Ra which has been painted in colours in a pure place. Place a figure of the deceased in the bows of it, paint a Sektet boat upon its right side and an Atet boat upon its left side, and make offerings to them of bread, cakes, wine, oil and every kind of fair offering upon the birthday of Osiris."@en ;
+    skos:note "A prescribed orientation — one barque to the right, one to the left — and a prescribed date, the birthday of Osiris. The corpus fixes a day here and almost nowhere else."@en,
+        "The stated outcome: his soul shall have existence and shall live for ever and shall not die a second time. The Saite recension adds to this chapter a promise of knowing the hidden things of the underworld and a find legend under the reign of Semti; Budge prints that separately and it is not entered here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaNavisPorcellana a pm:Practicing ;
+    rdfs:label "Die Barke aus grünem Porzellan, vier Ellen lang, mit Natron und Weihrauch gereinigt"@de,
+        "The boat of green porcelain, four cubits long, purified with natron and incense"@en ;
+    dcterms:source "Book of the Dead, chapter 133, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a boat four cubits in its length and made of green porcelain, on which have been painted the divine sovereign chiefs of the cities, with a heaven and its stars also made. The whole shall be made ceremonially pure by means of natron and incense. An image of Ra in yellow colour shall be made upon a new plaque and set at the bows, and an image of the khu whom you wish to make perfect shall be placed in the boat and made to travel about in it."@en ;
+    skos:note "A measurement, and the manuscripts disagree about it: Budge's base text gives four cubits and the Papyrus of Ani gives seven. A prescription with a number in it is the kind that two copies can contradict, and here two do."@en,
+        "Two purifying agents are named, natron and incense, and they are applied to an object rather than to a person. The corpus purifies the man at chapter 125 and the boat here in the same vocabulary."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaPicturaPrincipum a pm:Practicing ;
+    rdfs:label "Die Fürsten in gelber Tinte auf die Barke des Ra gezeichnet, und das Bild, das an jedes Tor geschickt wird"@de,
+        "The sovereign chiefs drawn in yellow ink on the boat of Ra, and the figure sent to each gate"@en ;
+    dcterms:source "Book of the Dead, chapter 144, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over a drawing of the divine sovereign chiefs done in yellow ink on the boat of Ra, with offerings and oblations made to them and sacrifices of feathered fowl, and incense burnt before them. Make a figure of the deceased in their presence and make it come forth towards every one of the gates which are painted above. Recite the chapter at the door of each of the arits painted above, and at each one make offerings, namely the thigh, the head, the heart and other portions."@en ;
+    skos:note "The only rubric read in this corpus that prescribes a movement: the figure of the deceased is made to come forth towards each painted gate in turn, and the chapter is recited at each door. Everything else in the rubrics is a placing or an anointing."@en,
+        "The stated outcome connects it to the apparatus of names: he shall neither be repulsed nor turned back at the pylons of the underworld. See pmc:AegyptiaExaminatioRerum."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaScarabaeusViridis a pm:Practicing ;
+    rdfs:label "Der Skarabäus aus grünem Stein in Kupfer und Silber, am Hals"@de,
+        "The scarab of green stone in copper and silver, at the neck"@en ;
+    dcterms:source "Book of the Dead, chapter 30B, rubric, Papyrus of Amen-hetep, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. I" ;
+    skos:definition "Say these words over a scarab of green stone encircled with a band of refined copper and having a ring of silver, which shall be placed on the neck of the khu."@en ;
+    skos:note "The heart scarab of basalt set in gold is a different prescription and is held at pmp:AegyptiaScarabaeusCordis in traditions/egyptian-ritual.ttl."@en,
+        "Three materials named exactly and one placement. The rubric then turns into the find legend of the chapter, which is held separately at pmc:AegyptiaInventioLibri; the object and the legend travel together in this manuscript and are separated here only because they make different kinds of claim."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaSerpensUtchat a pm:Practicing ;
+    rdfs:label "Die Schlange mit Beinen und die beiden geflügelten Utchats, mit Anti auf Stein oder Leinen geschrieben"@de,
+        "The serpent with legs and the two winged Utchats, written with anti on stone or linen"@en ;
+    dcterms:source "Book of the Dead, chapter 163, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "Recite over a serpent having legs and wearing a disk and two horns, and over two Utchats having both eyes and wings. In the pupil of one Utchat there shall be a figure of the god-of-the-lifted-hand with the face of the divine soul, having plumes and a back like a hawk; in the pupil of the other, a figure of the same god with the face of the goddess Neith, having plumes and a back like a hawk. The chapter shall be written with anti either upon a meh stone or upon mother-of-emerald of the south dipped in water of the western lake of Qemt, or upon a bandage of watchet linen with which every limb should be swathed."@en ;
+    skos:note "Three alternative supports are offered for the same writing — a stone, a treated stone, a linen bandage — and the rubric does not rank them or say what turns on the choice. Alternatives without a criterion are rare here and worth marking: elsewhere the material is the prescription."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaTabulaMaati a pm:Practicing ;
+    rdfs:label "Die neue Tafel aus Erde, von keinem Schwein und keinem Tier betreten, in Farbe gezeichnet"@de,
+        "The new tile of earth untrodden by pig or beast, drawn in colour"@en ;
+    dcterms:source "Book of the Dead, chapter 125, rubric, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "The making of the representation of what shall happen in the Hall of the two Maati. The chapter is to be said after the deceased has been cleansed and purified, arrayed in apparel, shod with white leather sandals, his eyes painted with antimony and his body anointed with unguent of anti, and when he offers oxen, feathered fowl, incense, cakes, ale and garden herbs. Then the representation shall be drawn in colour upon a new tile moulded from earth upon which neither a pig nor any other animal has trodden, and the book written upon it."@en ;
+    skos:note "The most specified prescription in the corpus. Six preparations of the person, six classes of offering, one material for the ground, and one condition on that material which is a condition about the past of a lump of clay: no pig and no other animal may have walked on the earth it was moulded from. Whether that condition holds of a given tile cannot be established by looking at the tile."@en,
+        "The outcome is the one at pmc:AegyptiaRubricaScientiae: he shall flourish, his children shall flourish, his name shall never fall into oblivion, he shall be as one who filleth the heart of the king and of his princes, and he shall not be turned back at any door in Amentet."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaTetAureus a pm:Practicing ;
+    rdfs:label "Das goldene Tet auf Sykomore, in Anch-am-Blütenwasser eingelegt, am Hals"@de,
+        "The Tet of gold on sycamore steeped in water of ankham flowers, at the neck"@en ;
+    dcterms:source "Book of the Dead, chapter 155, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a Tet of gold set in a plinth of sycamore wood which has been steeped in water of ankham flowers, and place it at the neck of the deceased on the day of the funeral."@en ;
+    skos:note "The stated outcome is a state and a calendar: he shall become a perfect khu in the underworld, and at the new year festivals he shall be like those in the following of Osiris, continually and for ever."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaTorquisAureus a pm:Practicing ;
+    rdfs:label "Der gravierte goldene Halskragen, am Hals am Tag des Begräbnisses"@de,
+        "The collar of gold engraved, at the neck on the day of the funeral"@en ;
+    dcterms:source "Book of the Dead, chapter 158, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over a collar of gold upon which the chapter has been engraved, and place the collar on the neck of the deceased on the day of the funeral."@en ;
+    skos:note "The whole rubric. Object, material, inscription, placement, day; nothing promised."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaUatchSmaragdi a pm:Practicing ;
+    rdfs:label "Das Uatch aus Smaragdmutter, beschriftet, am Hals"@de,
+        "The Uatch of mother-of-emerald inscribed, at the neck"@en ;
+    dcterms:source "Book of the Dead, chapter 159, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over an Uatch of mother-of-emerald upon which the chapter has been inscribed, and place the Uatch on the neck of the deceased."@en ;
+    skos:note "The last rubric of the second volume, and the barest: no day, no preparation, no outcome."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaUtchatPlena a pm:Practicing ;
+    rdfs:label "Das Utchat aus Lapislazuli oder Mak-Stein, beim vollen Utchat im Monat Pert"@de,
+        "The Utchat of lapis-lazuli or mak stone, at the full Utchat in the month of pert"@en ;
+    dcterms:source "Book of the Dead, chapter 140, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over an Utchat of real lapis-lazuli or of mak stone plated with gold, before which every kind of fair and pure oblation shall be offered when Ra shows himself on the last day of the second month of the season pert. Make another Utchat of jasper and place it upon such part of the dead man's body as you please. While the chapter is recited and the offerings made, at the time when the Utchat is full, four altars shall be lighted for Ra-Tem and four for others."@en ;
+    skos:note "The most precisely dated prescription in the corpus: the last day of the second month of the season pert, at the moment Ra shows himself. It is also the only one whose placement is left to the officiant — the second Utchat goes on whatever part of the body he pleases — so the same rubric fixes the calendar to the day and leaves the anatomy open."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaVaccaAurea a pm:Practicing ;
+    rdfs:label "Die Kuh aus Feingold am Hals und das Kapitel auf neuem Papyrus unter dem Kopf"@de,
+        "The cow of fine gold at the neck and the chapter on new papyrus under the head"@en ;
+    dcterms:source "Book of the Dead, chapter 162, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "Recite over the image of a cow made in fine gold and placed at the neck of the deceased, and written upon new papyrus and placed under his head."@en ;
+    skos:note "The rubric grounds the prescription in a precedent rather than in an authority: it says the thing has exceedingly great protective power because it was made by the cow for her son Ra when he was setting and his habitation was surrounded by a company of beings of fire. A single stated case, and the case is a god's."@en,
+        "The stated outcome is the only one in the rubrics read that is a bodily state and not a status: abundant warmth shall be in him throughout, even like that which was in him when he was upon earth. It is also the only promised effect in this bundle that would be plain to anyone who touched the body."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaVulturAureus a pm:Practicing ;
+    rdfs:label "Der beschriftete goldene Geier, am Hals am Tag des Begräbnisses"@de,
+        "The vulture of gold inscribed, at the neck on the day of the funeral"@en ;
+    dcterms:source "Book of the Dead, chapter 157, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over a vulture of gold upon which the chapter has been inscribed, and place the vulture on the neck to protect the perfect deceased one on the day of the funeral, continually and regularly."@en ;
+    skos:note "One of four consecutive rubrics — 157, 158, 159 and 155 — that differ only in the object and the metal or stone. Set side by side they show the rubric as a form being filled rather than a report of anything done."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmp:AndeanDreamDivination a pm:Practicing ;
     rdfs:label "Wahrsagen durch Schlafen auf dem Kleidungsstück des Fragenden"@de,
         "Divining by sleeping on the questioner's garment"@en ;
@@ -15510,6 +15802,39 @@ pm:workOpened a pm:CoverageState ;
         "Work opened"@en ;
     skos:definition "A work of the corpus has been obtained and read and its edition is settled, but no passage has yet been entered as a node."@en .
 
+pmp:AegyptiaFibulaCarneoli a pm:Practicing ;
+    rdfs:label "Die Schnalle aus Karneol, in Anch-am-Blütenwasser eingelegt, am Hals"@de,
+        "The buckle of carnelian steeped in water of ankham flowers, at the neck"@en ;
+    dcterms:source "Book of the Dead, chapter 156, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Say over a buckle of carnelian which has been steeped in water of ankham flowers and set in a plinth of sycamore wood, and place it at the neck of the deceased on the day of the funeral."@en ;
+    skos:note "It carries its own secrecy clause, and a narrower one than most: thou shalt not let any person who is with thee see it. Held with the others at pmc:AegyptiaSecretumOperis."@en,
+        "The same preparation as the Tet of gold at chapter 155, with the stone changed. The corpus treats the treatment as transferable and the material as not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaLaterOccidentalis a pm:Practicing ;
+    rdfs:label "Das Tet aus Kristall auf grünem Ziegel, in die Westwand vermauert, nach Osten gewandt"@de,
+        "The Tet of crystal on a green brick, walled into the west wall facing east"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, the first of the four appended brick rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a Tet of crystal set up upon a brick made of green clay upon which this chapter has been inscribed. Make a cavity in the west wall, turn the front of the Tet towards the east within it, and wall it up with earth moistened with cedar juice. It will repulse the enemies of Osiris who set themselves at the east wall. Words are then given to be spoken."@en ;
+    skos:note "One of four, and the four are the most exactly specified objects in the corpus. Each names a material, a support, an inscription, a wall, a facing, and the quarter whose enemies it turns back; the four together box the chamber. The other three are pmp:AegyptiaLaterOrientalis, pmp:AegyptiaLaterMeridionalis and pmp:AegyptiaLaterSeptentrionalis."@en,
+        "The facing and the wall do not agree in the way a reader expects: the Tet goes into the west wall and faces east, and repulses those at the east wall. The rubric is consistent with itself and states the relation each time; whether the relation is the same for all four is a question this holding can now put to the four nodes rather than to the page."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaLaterSeptentrionalis a pm:Practicing ;
+    rdfs:label "Der beschriftete Ziegel mit einer Palme von sieben Fingern Höhe, deren Mund geöffnet wird"@de,
+        "The inscribed brick with a palm tree seven fingers high, its mouth opened"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, the fourth of the four appended brick rubrics, Papyrus of Nu, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "Recite over a brick of green clay upon which the chapter has been inscribed, along with a figure of a palm tree seven fingers in height; and open its mouth. Make a cavity in the north wall, turn the face of the figure towards the south within it, and wall it up."@en ;
+    skos:note "A measure in fingers, and a rite performed on a tree: the opening of the mouth, which the corpus elsewhere performs on a corpse, is here performed on a model palm."@en,
+        "This rubric carries the purity condition for all four; it is held at pmc:AegyptiaPuritasOperantis."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmp:AegyptiaNavisNomina a pm:Practicing ;
     rdfs:label "Das Boot herbeiführen: jedem seiner Teile den Namen sagen"@de,
         "Bringing along the boat: answering every part of it by name"@en ;
@@ -15532,6 +15857,17 @@ pmp:AegyptiaPeretEmHeru a pm:Practicing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmp:AegyptiaQuattuorVentorum a pm:Practicing ;
+    rdfs:label "Die vier Winde auf den Sarg gemalt, je einem von vier Göttern zugeordnet"@de,
+        "The four winds painted on the coffin, one to each of four gods"@en ;
+    dcterms:source "Book of the Dead, chapter 161, rubric, from the Saite recension as Budge prints it, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. III" ;
+    skos:definition "Every sahu for whom these divine figures have been painted upon his coffin shall make his way through these four entrances into heaven. That of the north wind belongs to Osiris, that of the south wind to Ra, that of the west wind to Isis, and that of the east wind to Nephthys. Each of these winds shall breathe into his nostrils as he enters in his daily course."@en ;
+    skos:note "A complete assignment: four quarters, four gods, one each, with no remainder and no overlap. It is the tidiest scheme in the corpus and one of the very few that can be stated without loss as a table."@en,
+        "It carries the strongest secrecy clause in the three volumes: let none who is outside know it, thou shalt not do this in the presence of any person except thy father or thy son, or thyself alone. Budge adds it from the Saite recension; it is not in his Theban base text. Held at pmc:AegyptiaSecretumOperis."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
 pmp:AegyptiaScarabaeusCordis a pm:Practicing ;
     rdfs:label "Der Herzskarabäus aus grünem Stein"@de,
         "The heart scarab of green stone"@en ;
@@ -15547,6 +15883,16 @@ pmp:AegyptiaSeptemAritae a pm:Practicing ;
     dcterms:source "Book of the Dead, chapter 147, Papyrus of Ani (British Museum No. 10,470, sheets 11 and 12), in the English of E. A. Wallis Budge, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 473-479" ;
     skos:definition "The operation chapter 147 prescribes. At each of the seven arits the dead man is given three names — the doorkeeper, the watcher, the herald — and then says an address of his own, in which he states what he has done for Osiris and asks that the way be opened. The naming and the address are the whole of it. No object is handled, no material is named, no time of day is set, and no assistant is required."@en ;
     skos:note "The structure is that of chapter 125 with the dialogue removed. There the doorway asks and the dead man answers; here the answers are supplied in advance and there is no question. Which of the two is the older arrangement this run cannot say, and the note is here rather than in a claim because nothing in either translation bears on it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:withinTradition pmt:EgyptianRitual .
+
+pmp:AegyptiaTabulaCibi a pm:Practicing ;
+    rdfs:label "Die Götter auf ein Brett gemalt, und die Speise vor ihnen, wenn Ra erscheint"@de,
+        "The gods painted on a board, and the food set before them when Ra appears"@en ;
+    dcterms:source "Book of the Dead, chapter 148, rubric, in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II" ;
+    skos:definition "These words shall be said when Ra appears, over figures of the gods written or painted in colour upon a board, with offerings and tchefau food placed before them: cakes, ale, flesh, feathered fowl and incense."@en ;
+    skos:note "The rubric closes with a secrecy clause: thou shalt not recite this book of Un-nefer in the presence of any person except thine own self. It is one of four such clauses in the corpus and is held with them at pmc:AegyptiaSecretumOperis."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
@@ -18808,12 +19154,6 @@ pmt:Ifa a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
         "Hawaiian transmission"@en ;
@@ -18866,6 +19206,12 @@ pmt:Shinto a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:Nihonshoki ;
     pm:principalCorpus "Kojiki; Nihon shoki; the norito of the Engishiki" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -19489,11 +19835,6 @@ pmt:Enochic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pm:statedNecessity a pm:PrerequisiteStrength ;
     rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
         "Stated necessity"@en ;
@@ -19505,6 +19846,11 @@ pm:Situating a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pmt:EuropeanFolkMagic a pm:Tradition ;
     rdfs:label "Europäische Volksmagie"@de,
@@ -19599,33 +19945,6 @@ pm:compilerInference a pm:Attesting ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
-pmt:EgyptianRitual a pm:Tradition ;
-    rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
-        "Pharaonic Egyptian ritual"@en ;
-    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu (British Museum 10.477), in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 417-418" ;
-    skos:definition "The transmission of heka as an operative power held by gods, kings and the transfigured dead, carried in mortuary and temple literature."@en ;
-    skos:note "Not opened: the Pyramid Texts, the Coffin Texts and Papyrus Westcar, which the registration names as parts of the principal corpus. They stand at the work identifiers as unopened rather than under the coverage state."@en,
-        "Read in this run at the wording, on 2026-09-19. The Theban recension in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, three volumes, London 1901, whose base manuscript changes from chapter to chapter and is named in each heading. Read closely: chapter 30B with its rubric (vol. I); the three rubrics of chapter 64, the short version and the two of the long version (vol. I); chapters 83 and 86 with their rubrics and the surrounding transformation spells (vol. II); the doorkeeper dialogue and the rubric of chapter 125 (vol. II); chapter 137A with its rubric and the four appended brick rubrics (vol. II). Beside them the Papyrus of Ani in Budge's English of 1895, plate III, the weighing of the heart with the verdict of Thoth, and the appendix rubric to chapter 76. The translation of Peter le Page Renouf and Édouard Naville, The Egyptian Book of the Dead, London 1904, was searched throughout and read at the places where it disagrees with Budge."@en,
-        "The contact route stays at disputed and this run did not settle it. What it did establish is which question the dispute is about. The demotic magical manuscripts of the Roman period share the trade, the ritual technique and part of the technical vocabulary of the pharaonic priesthood, and the graph holds them separately; what is not established anywhere the run looked is a textual filiation from the mortuary literature into the later magical corpora, and the strongest argument on the other side is that a priest writing for a hellenistic readership had reason to perform an expected Egyptianness. The dispute is about the direction and the mode of the contact and not about whether there was any."@en,
-        "The edition is the whole citation here and not a formality, because the two public-domain translations disagree in ways that change the claim. At chapter 137A Budge has the secrecy clause admit the father and the son — perform this before no human being except thine own self, or thy father, or thy son — while Renouf, from the Turin text and under chapter 161, has it exclude them: reveal it to no one, may he be thy father or thy son, except thyself. A node that gave the place without the edition would assert one of these against the other by accident. Every source string below therefore names translator, volume and page."@en,
-        "What kind of witness this is, and it is an unusual one. There is no Book of the Dead in the sense of a work: no manuscript carries all the chapters, the selection was made by the family and, as the editor of 1904 says in his introduction, by the number of chapters corresponding to the price they wished to pay. A fixed order appears only under the Saite kings, and the numbering used everywhere goes back to Lepsius of 1842 on one late Turin papyrus. A claim read here is a claim of one manuscript in one recension, and the sources say which."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:corpusWork pmw:BookOfTheDead,
-        pmw:CoffinTexts,
-        pmw:PapyrusWestcar,
-        pmw:PyramidTexts ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:BookOfTheDead ;
-    pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
-
-pmw:BookOfTheDead a dcterms:BibliographicResource ;
-    rdfs:label "Das Totenbuch"@de,
-        "The Book of the Dead"@en ;
-    skos:note "Budge's translations are the weakest part of this reading and the file says so where it matters. The criticism is old and specific: contemporaries called his books filled with egregious errors, and the modern verdict is that the hieroglyphic editions remain usable while the English is not. Two places in this file rest on him alone because no public-domain alternative exists, and both carry a note. The standard modern translations — Faulkner 1972, Allen 1974, Hornung 1979, Quirke 2013 — are under copyright and were not obtained."@en,
-        "Not a work in the ordinary sense and the file treats it accordingly. Chapter numbers are Lepsius's of 1842, taken from one late Turin papyrus; Naville's edition of 1886 extends them from the manuscripts of the New Kingdom; Budge follows Naville and subdivides further, so that 30A and 30B, 81A and 81B, 136A and 136B, 137A and 137B are his divisions. A place is therefore given here as chapter number plus manuscript plus translation plus page, and nothing less will locate it."@en,
-        "One place in this file is given without a page number, and the reason is a property of the copy and not of the work: in the scanned text of Budge 1895 the running heads are legible on some pages and not on others, and the rubric to chapter 76 falls in a stretch where they are not. It is located instead by chapter, by its printed heading Appendix 1, and by the chapter it stands immediately before. SPEC §10 measures a place by findability and not by numbering, and a page number guessed by interpolation would have looked better and been worth less."@en,
-        "Opened on 2026-09-19 in two public-domain English translations: Budge 1901, three volumes, the Theban recension, base manuscripts named chapter by chapter, dominant among them the Papyrus of Nu, the Papyrus of Ani and the Papyrus of Nebseni; and Budge 1895, the Papyrus of Ani alone, with text, transliteration and translation. Renouf and Naville 1904, which translates from Naville's synoptic edition and refers to its manuscripts by sigla rather than by name, was used as the second translation and as the check on Budge."@en .
-
 pm:Cautioning a owl:Class ;
     rdfs:label "Warnen"@de,
         "Cautioning"@en ;
@@ -19654,6 +19973,33 @@ pm:contactRouteDocumented a pm:ContactRoute ;
     rdfs:label "Kontaktweg belegt"@de,
         "Contact route documented"@en ;
     skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
+
+pmt:EgyptianRitual a pm:Tradition ;
+    rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
+        "Pharaonic Egyptian ritual"@en ;
+    dcterms:source "Book of the Dead, chapter 137A, rubric, Papyrus of Nu (British Museum 10.477), in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, London: Kegan Paul, Trench, Trübner, 1901, vol. II, pp. 417-418" ;
+    skos:definition "The transmission of heka as an operative power held by gods, kings and the transfigured dead, carried in mortuary and temple literature."@en ;
+    skos:note "Not opened: the Pyramid Texts, the Coffin Texts and Papyrus Westcar, which the registration names as parts of the principal corpus. They stand at the work identifiers as unopened rather than under the coverage state."@en,
+        "Read in this run at the wording, on 2026-09-19. The Theban recension in the English of E. A. Wallis Budge, The Book of the Dead: An English Translation of the Chapters, Hymns, etc., of the Theban Recension, three volumes, London 1901, whose base manuscript changes from chapter to chapter and is named in each heading. Read closely: chapter 30B with its rubric (vol. I); the three rubrics of chapter 64, the short version and the two of the long version (vol. I); chapters 83 and 86 with their rubrics and the surrounding transformation spells (vol. II); the doorkeeper dialogue and the rubric of chapter 125 (vol. II); chapter 137A with its rubric and the four appended brick rubrics (vol. II). Beside them the Papyrus of Ani in Budge's English of 1895, plate III, the weighing of the heart with the verdict of Thoth, and the appendix rubric to chapter 76. The translation of Peter le Page Renouf and Édouard Naville, The Egyptian Book of the Dead, London 1904, was searched throughout and read at the places where it disagrees with Budge."@en,
+        "The contact route stays at disputed and this run did not settle it. What it did establish is which question the dispute is about. The demotic magical manuscripts of the Roman period share the trade, the ritual technique and part of the technical vocabulary of the pharaonic priesthood, and the graph holds them separately; what is not established anywhere the run looked is a textual filiation from the mortuary literature into the later magical corpora, and the strongest argument on the other side is that a priest writing for a hellenistic readership had reason to perform an expected Egyptianness. The dispute is about the direction and the mode of the contact and not about whether there was any."@en,
+        "The edition is the whole citation here and not a formality, because the two public-domain translations disagree in ways that change the claim. At chapter 137A Budge has the secrecy clause admit the father and the son — perform this before no human being except thine own self, or thy father, or thy son — while Renouf, from the Turin text and under chapter 161, has it exclude them: reveal it to no one, may he be thy father or thy son, except thyself. A node that gave the place without the edition would assert one of these against the other by accident. Every source string below therefore names translator, volume and page."@en,
+        "What kind of witness this is, and it is an unusual one. There is no Book of the Dead in the sense of a work: no manuscript carries all the chapters, the selection was made by the family and, as the editor of 1904 says in his introduction, by the number of chapters corresponding to the price they wished to pay. A fixed order appears only under the Saite kings, and the numbering used everywhere goes back to Lepsius of 1842 on one late Turin papyrus. A claim read here is a claim of one manuscript in one recension, and the sources say which."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:corpusWork pmw:BookOfTheDead,
+        pmw:CoffinTexts,
+        pmw:PapyrusWestcar,
+        pmw:PyramidTexts ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:BookOfTheDead ;
+    pm:principalCorpus "Pyramid Texts; Coffin Texts; Book of the Dead; Papyrus Westcar; the demotic magical papyrus of London and Leiden" .
+
+pmw:BookOfTheDead a dcterms:BibliographicResource ;
+    rdfs:label "Das Totenbuch"@de,
+        "The Book of the Dead"@en ;
+    skos:note "Budge's translations are the weakest part of this reading and the file says so where it matters. The criticism is old and specific: contemporaries called his books filled with egregious errors, and the modern verdict is that the hieroglyphic editions remain usable while the English is not. Two places in this file rest on him alone because no public-domain alternative exists, and both carry a note. The standard modern translations — Faulkner 1972, Allen 1974, Hornung 1979, Quirke 2013 — are under copyright and were not obtained."@en,
+        "Not a work in the ordinary sense and the file treats it accordingly. Chapter numbers are Lepsius's of 1842, taken from one late Turin papyrus; Naville's edition of 1886 extends them from the manuscripts of the New Kingdom; Budge follows Naville and subdivides further, so that 30A and 30B, 81A and 81B, 136A and 136B, 137A and 137B are his divisions. A place is therefore given here as chapter number plus manuscript plus translation plus page, and nothing less will locate it."@en,
+        "One place in this file is given without a page number, and the reason is a property of the copy and not of the work: in the scanned text of Budge 1895 the running heads are legible on some pages and not on others, and the rubric to chapter 76 falls in a stretch where they are not. It is located instead by chapter, by its printed heading Appendix 1, and by the chapter it stands immediately before. SPEC §10 measures a place by findability and not by numbering, and a page number guessed by interpolation would have looked better and been worth less."@en,
+        "Opened on 2026-09-19 in two public-domain English translations: Budge 1901, three volumes, the Theban recension, base manuscripts named chapter by chapter, dominant among them the Papyrus of Nu, the Papyrus of Ani and the Papyrus of Nebseni; and Budge 1895, the Papyrus of Ani alone, with text, transliteration and translation. Renouf and Naville 1904, which translates from Naville's synoptic edition and refers to its manuscripts by sigla rather than by name, was used as the second translation and as the check on Budge."@en .
 
 pm:Yielding a owl:Class ;
     rdfs:label "Hervorbringen"@de,
