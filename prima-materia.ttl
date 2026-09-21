@@ -26,7 +26,9 @@ pmc:AbsorptionThresholdDispute a pm:Disputing ;
     skos:definition "A disagreement about what is required for absorption. The discourses describe it as reached in the ordinary course of the training; the handbook sets a far higher bar, remarking that only one in a hundred or a thousand accomplishes it."@en ;
     skos:note "The disagreement bears directly on every prerequisite in this file that runs through the fourth absorption. If the handbook's threshold is the right one, the capacities it makes conditional on that absorption are conditional on something very few reach; if the discourses' is, they are not."@en ;
     pm:attestedBy pm:textualAttestation ;
-    pm:disputedClaim pmc:FourAbsorptions .
+    pm:disputedClaim pmc:FourAbsorptions ;
+    pm:fromWork pmw:DighaNikaya,
+        pmw:Visuddhimagga .
 
 pmc:AbsorptionsAreGraded a pm:Presupposing ;
     rdfs:label "Jede Vertiefung setzt die vorhergehende voraus"@de,
@@ -36,6 +38,8 @@ pmc:AbsorptionsAreGraded a pm:Presupposing ;
     skos:note "The series is strictly graded in both canon and handbook, each stage defined by what it has let go of. No passage was found that forbids skipping in so many words, which is why this is recorded as an order and not as a necessity."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:FourthJhana ;
+    pm:fromWork pmw:DighaNikaya,
+        pmw:Visuddhimagga ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:FourAbsorptions ;
     pm:withinTradition pmt:Theravada .
@@ -1274,6 +1278,7 @@ pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     skos:note "Rapture appears in the handbook as a factor of absorption reached through the meditation subject, not as something aimed at directly. The pairing is recorded at that strength."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:Anapanasati ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada ;
     pm:yieldsCapacity pmc:Piti .
 
@@ -1333,6 +1338,8 @@ pmc:AristeasJourney a pm:Attributing ;
     skos:definition "A capacity ascribed to a figure who is not available to report it, in a historian's account of what was told of him."@en ;
     pm:ascribedCapacity pmc:SoulJourney ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:HerodotiHistoriai,
+        pmw:NaturalisHistoria ;
     pm:withinTradition pmt:GraecoRoman .
 
 pmc:ArmarosTeachesLoosingOfSpells a pm:Attributing ;
@@ -2440,6 +2447,16 @@ pmc:ChukcheeColdWaterEndsInspiration a pm:Conceptualizing ;
         "The recorder marks his own distance at this one place: he was told this, where the surrounding paragraphs report what he saw. The node keeps the difference rather than levelling it into the rest of the account."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
+pmc:CiceroNullaTabulaObservationum a pm:Conceptualizing ;
+    rdfs:label "Eine Behauptung von vierhundertsiebzigtausend Jahren Aufzeichnung, und keine Aufzeichnung"@de,
+        "A claim of four hundred and seventy thousand years of records, and no record"@en ;
+    dcterms:source "Cicero, De divinatione II.46-47, in the English of C. D. Yonge, The Treatises of M. T. Cicero, London: Bohn 1878, pp. 240-241" ;
+    skos:definition "Some pretend, the passage says, that the Chaldean astrologers have verified the nativities of children by calculations and experiments in the cases of all the children born for four hundred and seventy thousand years; and this is a mistake, for had they been in the habit of doing so they would never have given up the practice, and as it is no author remains who knows of such a thing being done now or ever having been done. The chapter closes with the counterpart from the other side: how many Chaldean prophecies were repeated to Pompey, Crassus and Caesar, according to which not one of them was to die except in old age, in domestic felicity and perfect renown."@en ;
+    skos:note "It has a counterpart in a corpus that could not have known it, and the pairing is the reason this node is separate. The rasāyana lesson of the Caraka states five times that its combinations are well tested by experience and reports no case; here a critic names the same gap in somebody else's practice and draws the consequence the Indian handbook does not draw about its own. Two corpora, one shape, and only one of them is looking at itself. See pmp:AyurvedaRasayanaPariksaSearch."@en,
+        "The argument is not that the record is bad but that it does not exist, and the ground given is behavioural: a practice that had such a record would still be keeping it. That is a test of a claim of verification by the presence of its own apparatus, and it is worth having as a form."@en ;
+    pm:fromWork pmw:DeDivinatione ;
+    pm:withinTradition pmt:GraecoRoman .
+
 pmc:CinwadPuhl a pm:Conceptualizing ;
     rdfs:label "Die Činwad-Brücke"@de,
         "The Chinvat bridge"@en ;
@@ -2607,6 +2624,7 @@ pmc:ConcentrationPresupposesVirtue a pm:Presupposing ;
     skos:note "The handbook is built as a commentary on a canonical verse in which the one established in virtue develops mind and understanding, and it glosses the order accordingly."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:Samadhi ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Sila ;
     pm:withinTradition pmt:Theravada .
@@ -2799,6 +2817,7 @@ pmc:DirectKnowledgesPresupposeConcentration a pm:Presupposing ;
         pmc:Dibbacakkhu,
         pmc:Dibbasota,
         pmc:Iddhividha ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmc:Samadhi ;
     pm:withinTradition pmt:Theravada .
@@ -4207,6 +4226,7 @@ pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
         "Buddhaghosa, Visuddhimagga XII.49 (trans. Ñāṇamoli 1956)" ;
     pm:attestedBy pm:compilerInference ;
     pm:axisValue pm:withdrawnAbsorption ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:situatedNode pmc:Iddhividha ;
     pm:situationGround "The handbook assigns the powers to a meditator who has reached the fourth absorption and calls that absorption their natural plane. The absorption is one of the four described as awake and turned from the senses to a single object, which is the criterion this coordinate names. The placement is of the exercise, not of the training that leads to it."@en .
 
@@ -4217,6 +4237,7 @@ pmc:IddhiPresupposesFourteenfoldMastery a pm:Presupposing ;
     pm:attestedBy pm:textualAttestation ;
     pm:consequenceOfSkipping "The handbook states that it is not possible for a meditator even to begin to accomplish transformation by supernormal power without having first completed the development of control of the mind in those fourteen ways." ;
     pm:dependentStep pmc:Iddhividha ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:FourteenfoldMastery ;
     pm:withinTradition pmt:Theravada .
@@ -4229,6 +4250,7 @@ pmc:IddhiPresupposesFourthJhana a pm:Presupposing ;
     skos:note "The handbook assigns the task to a meditator who has reached the fourth absorption and calls that absorption the natural plane for obtaining the power. It does not, at these places, say what happens to one who attempts it from elsewhere."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:Iddhividha ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:FourthJhana ;
     pm:withinTradition pmt:Theravada .
@@ -4838,6 +4860,7 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     skos:note "The discourse places the abandoning of the five immediately before entry into the first absorption in a fixed formula, without stating at that place what befalls one who enters otherwise."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:FourAbsorptions ;
+    pm:fromWork pmw:DighaNikaya ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
@@ -5492,6 +5515,7 @@ pmc:ManomayakayaIsDisplaced a pm:Situating ;
     dcterms:source "Dīgha Nikāya 2, Sāmaññaphala Sutta, DN i.77 (trans. Ṭhānissaro Bhikkhu)" ;
     pm:attestedBy pm:compilerInference ;
     pm:axisValue pm:displacedLocus ;
+    pm:fromWork pmw:DighaNikaya ;
     pm:situatedNode pmc:Manomayakaya ;
     pm:situationGround "The source has a second body, complete in its faculties, produced from this one and going where this one does not. That is the criterion for the displaced value; whether anything of the sort occurs is a separate question and not this one."@en .
 
@@ -7279,6 +7303,7 @@ pmc:SamadhiIsWithdrawnAbsorption a pm:Situating ;
     dcterms:source "Buddhaghosa, Visuddhimagga I.7-I.11 (trans. Ñāṇamoli 1956)" ;
     pm:attestedBy pm:compilerInference ;
     pm:axisValue pm:withdrawnAbsorption ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:situatedNode pmc:Samadhi ;
     pm:situationGround "The handbook names concentration as the condition of the direct knowledges and develops it as the four absorptions, which it describes as awake and turned from the senses to a single object. The coordinate is read off that development and not off the word itself; concentration in a weaker sense would not carry it."@en .
 
@@ -8056,6 +8081,7 @@ pmc:SixteenStepsOfBreathing a pm:Presupposing ;
     skos:note "Recorded at the weakest strength on purpose. The discourse sets out four tetrads of four steps and assigns them to the four foundations of mindfulness. It presents a progression; it does not say that a step is unreachable without the one before it, and the question whether the order is binding or expository is contested among practitioners to this day."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmp:Anapanasati ;
+    pm:fromWork pmw:MajjhimaNikaya ;
     pm:prerequisiteStrength pm:presentationOrder ;
     pm:priorStep pmp:Anapanasati ;
     pm:withinTradition pmt:Theravada .
@@ -8111,6 +8137,8 @@ pmc:SoulJourneyIsDisplaced a pm:Situating ;
         "Pliny, Naturalis Historia VII.174" ;
     pm:attestedBy pm:compilerInference ;
     pm:axisValue pm:displacedLocus ;
+    pm:fromWork pmw:HerodotiHistoriai,
+        pmw:NaturalisHistoria ;
     pm:situatedNode pmc:SoulJourney ;
     pm:situationGround "The reports have the soul leave the body and return to it. That is the criterion for this value, and it is what the accounts of Aristeas and Hermotimus turn on; whether anything of the sort occurred is a separate question and not this one."@en .
 
@@ -8245,6 +8273,19 @@ pmc:SunDanceYieldsCommunicationFromTheSun a pm:Yielding ;
     pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
     pm:withinTradition pmt:LakotaRitual ;
     pm:yieldsCapacity pmc:CommunicationFromTheSun .
+
+pmc:SunnaTiyaraLaTamnaka a pm:Conceptualizing ;
+    rdfs:label "Wenn ein böses Vorzeichen dich verwirrt, so halte es dich nicht von dem Werk ab, das du vorhattest"@de,
+        "If a bad omen throws you into perplexity, let it not hinder the work you intended"@en ;
+    dcterms:source "Mishkāt al-Maṣābīḥ, book xxi, chapter ii, as quoted in Thomas Patrick Hughes, A Dictionary of Islam, London 1885, pp. 87 and 125" ;
+    skos:definition "Muʿāwiya ibn Ḥakam relates that he told the Prophet of three things done in the time of ignorance and asked after each. Of consulting diviners about future events he was told that now that he had embraced Islam he must not consult them. Of taking bad omens he was told: if from a bad omen you are thrown into perplexity, let it not hinder you from doing the work you had intended to do. Of drawing lines on the ground he was told that one of the prophets used to draw lines, so that if he could draw a line like him it is good and otherwise it is vain. Beside it stands the saying that one is not to put faith in a bad omen but rather take a good one, and the report of Qatʿan ibn Qabīṣa that the Prophet forbade taking omens from the running of animals, the flight of birds and the throwing of pebbles."@en ;
+    skos:note "Limits, and they are severe. One paragraph, read in a compiler of 1885 who gives neither the Arabic nor a chapter number within the book he cites, and no isnād. The wording of the saying in the canonical collections was not checked against this. Nothing in this node should be cited as the text of a ḥadīṯ; it is what Hughes printed."@en,
+        "Set beside the neighbouring answers, the shape is deliberate. The diviner is forbidden outright, and the answer on diviners elsewhere in the same compiler's entry gives a mechanism — one of the jinn steals away the truth and carries it into the diviner's ear, and to that the diviner adds a hundred lies. For the omen no mechanism is given and no prohibition either. The transmission can argue when it wants to; here it declines to, and prescribes instead."@en,
+        "The ground is what makes this worth a node. The answer is not that the omen is false and not that the hearer is exempt from it. It is an instruction about what to do when the omen has already had its effect: go on with what you intended. The saying concedes the perplexity and refuses to let it govern the act, which is a rule of conduct and not a claim about the world at all."@en ;
+    pm:attestedBy pm:mediatedAttestation ;
+    pm:fromWork pmw:MishkatAlMasabih ;
+    pm:readVia "Thomas Patrick Hughes, A Dictionary of Islam, being a cyclopaedia of the doctrines, rites, ceremonies, and customs, together with the technical and theological terms, of the Muhammadan religion, London: W. H. Allen 1885, entry DIVINATION, p. 87, and entry FA'L, p. 125" ;
+    pm:withinTradition pmt:PropheticSunna .
 
 pmc:SuperimpositionUnderliesEveryPath a pm:Conceptualizing ;
     rdfs:label "Die Überlagerung trägt jeden Weg, auch die Texte über die Befreiung"@de,
@@ -8888,6 +8929,7 @@ pmc:UbbegaPiti a pm:Conceptualizing ;
         "Uplifting rapture"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "The fourth of the five degrees of rapture, described as strong enough to lift the body."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:UdughulPatientNotNamed a pm:Conceptualizing ;
@@ -9157,6 +9199,8 @@ pmc:VespasianHealing a pm:Attributing ;
     pm:ascribedCapacity pmc:HealingByTouch ;
     pm:ascribedTo pmc:Vespasian ;
     pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:DivusVespasianus,
+        pmw:TacitiHistoriae ;
     pm:withinTradition pmt:GraecoRoman .
 
 pmc:VitalEnergyCorrespondence a pm:Converging ;
@@ -9522,22 +9566,6 @@ pmc:ZangshuZhuDispute a pm:Disputing ;
         "Who wrote the annotation is not established, and the edition itself says so. The prefatory summary of the imperial collection states that Cai Yuanding cut the twenty pian to eight, that Wu Cheng afterwards divided what he had into the inner, outer and miscellaneous sections, that Liu Zezhang of Xinyu received the text from Wu and annotated it, and that whether the note in this printing is Liu's cannot be determined. The graph therefore has the counter-examples as an anonymous later hand and not as a named party."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:XingshiJixiong ;
-    pm:withinTradition pmt:ChineseDivination .
-
-pmc:ZeriDispute a pm:Disputing ;
-    rdfs:label "Ob der gewählte Tag über irgendetwas entscheidet"@de,
-        "Whether the day chosen decides anything"@en ;
-    dcterms:source "Wang Chong, Lunheng, the treatise on censuring days (Ji ri), juan 24, Sibu congkan facsimile",
-        "Wang Chong, Lunheng, the treatise on interrogating the art (Jie shu), juan 25, Sibu congkan facsimile",
-        "Wang Chong, Lunheng, the treatise on objecting to the year star (Nan sui), juan 24, Sibu congkan facsimile",
-        "Wang Chong, Lunheng, the treatise on the four taboos (Si hui), juan 23, Sibu congkan facsimile",
-        "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
-    skos:definition "A treatise of the first century attacks the choosing of days across four chapters, and the arguments are of three kinds. First, comparisons within the practice: encoffining, which puts the corpse in the box, is done on no chosen day, while burial, which puts the box in the ground, is; and grave, field and dwelling are equally the ground of a man's fortune, yet only the westward extension of a dwelling is forbidden. Second, a count: in the age of the annals the deaths of kings, lords and great officers ran to hundreds and thousands, and their burial days do not agree with the calendars; the rites fix the interval by rank, so that the parity of the month follows from the rank and not from a choice; and where a burial was postponed the annals give rain as the reason and not a day. Third, a case in which one day carries two outcomes: King Wu won his battle on a jiazi day and the tyrant lost his on the same jiazi day, the two armies facing one another with their standards in sight, one day and two fates. The same treatise adds that washing, combing, cutting cloth, building and moving house each have their own calendar, that water and wood are both of the five phases yet only the one is subject to a day, and that a man who kills is punished whatever day he chose."@en ;
-    skos:note "It is a party and not an instance, and the difference matters for the claim it disputes. The treatise argues; it does not count anything it gathered itself, except the burials in the annals, and that count is a reading of a text and not a series of cases. Where it counts, it is evidence and belongs at a protocol; where it argues, it is a witness like the book it attacks, and that is how it is held here."@en,
-        "The dispute has a shape worth noting beside the burial book's own. The critic never says that the ground or the hour has no effect and then names what would show it; he shows that the rule is not followed where it would be if it were believed. That leaves the doctrine intact for anyone willing to say that his contemporaries were careless, which is the answer the burial book's own annotation gives in a different connection."@en,
-        "The third argument is the one this graph should keep, because it is the only one that discriminates rather than compares. Two parties, one date, opposite outcomes: whatever the day is supposed to decide, it did not decide that. The others show that the practice is applied inconsistently, which embarrasses the practitioners without touching the doctrine."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:disputedClaim pmc:SanjiLiuxiong ;
     pm:withinTradition pmt:ChineseDivination .
 
 pmc:ZhanbuDispute a pm:Disputing ;
@@ -10695,12 +10723,27 @@ pmp:BothSidesOfTheCriterionExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-18" ;
     pm:tests pmc:TheCriterionNoPartyControls .
 
+pmp:BrahmajalaLowArtsGroundSearch a pm:Searching ;
+    rdfs:label "Welchen Grund die erste Lehrrede dafür angibt, sich des Wählens der Tage zu enthalten"@de,
+        "What ground the first discourse gives for holding aloof from the choosing of days"@en ;
+    dcterms:date "2026-09-21" ;
+    skos:note "Limits. One discourse in one translation of 1899, and the commentary of Buddhaghosa, which the translator quotes constantly in his notes, was not read as a text of its own."@en,
+        "No ground of any of the kinds looked for. The clause is the same in all seven paragraphs and it is about earning: while living on food provided by the faithful, earn their living by wrong means of livelihood. The choosing of days is refused as a trade and the discourse says nothing about whether the trade delivers what it promises."@en,
+        "One place in the same volume argues instead of listing, and it is not in this discourse. The translator's note at the paragraph on clothes gnawed by mice points to a birth story that laughs the superstition out of court, and another note points to a birth story that mocks the interpreters of dreams. The corpus therefore has the argumentative form available and puts it in its narrative literature, which is exactly where the forty-ninth birth story stands. The doctrinal text lists; the story argues."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of the volume for: lucky (inspected at every hit), unlucky, nakshatra, constellation, auspicious, low arts (the seven framing sentences read in full), wrong means of livelihood, holds aloof (all occurrences inspected), and the translator's notes at every one of the paragraphs in question. The lists at paragraphs 21, 22, 23, 24, 25, 26 and 27 were read item by item." ;
+    pm:searchYieldedNode pmc:TheravadaNakkhattaLowArt ;
+    pm:searchedBy "prima-materia, 2026-09-21" ;
+    pm:searchedCorpus "Digha Nikaya 1, Brahmajala Sutta, the Cula-, Majjhima- and Mahasila in full, paragraphs 8 to 27, DN i.4-12, in the English of T. W. Rhys Davids, Dialogues of the Buddha, Part I, Sacred Books of the Buddhists vol. II, London 1899, pp. 4-26, read continuously; the remainder of the discourse, on the sixty-two views, was read only as far as was needed to fix where the paragraphs on conduct end" ;
+    pm:searchedFor "Any ground at all, anywhere in the seven paragraphs of the low arts, for holding aloof from the arranging of lucky days and the foretelling by constellations: a statement that the art does not work, an occasion on which it failed, a cosmology that rules it out, an exemption granted to the attained, or a reason of any other kind beside the recurring clause about livelihood. The question decides whether this passage falsifies pmc:TheRefusalAndWhatItRestsOn, which names it as a likely counter-case." .
+
 pmp:BrahmaviharaBhavana a pm:Practicing ;
     rdfs:label "Kultivierung der göttlichen Verweilungen"@de,
         "Cultivation of the divine abidings"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga IX (trans. Ñāṇamoli 1956)" ;
     skos:definition "The deliberate raising and sustaining of a chosen affective state as a meditation subject in its own right."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmp:BurialDayExamination a pm:Testing ;
@@ -11819,6 +11862,37 @@ pmp:ProxyDosingOfTheAccused a pm:Practicing ;
     pm:attestedBy pm:fieldAttestation ;
     pm:fieldRecord "Spoken by Bakongo of the Lower Congo, unnamed in this passage; recorded by the Baptist missionary John H. Weeks over some thirty years of residence, the book closed in 1913; given in Kikongo, of which the work prints the terms while the accounts are printed in English only." ;
     pm:withinTradition pmt:KongoNkisi .
+
+pmp:RefusalGroundExamination a pm:Testing ;
+    rdfs:label "Ob eine Zurückweisung des Kalenders auf einem Fall oder auf einem Zustand des Übenden ruht, oder auf keinem von beiden"@de,
+        "Whether a refusal of the calendar rests on a case or on a state of the practitioner, or on neither"@en ;
+    skos:definition "A protocol on the claim that a transmission rejecting the choosing of a day from outside the practice grounds the rejection in a case, and that one rejecting it from inside grounds it in a state of the practitioner. The population is every node in the compiled holding whose wording rejects the choosing of a day, together with the three addresses the claim's own falsifier names as unread. The six nodes already in the holding were classified when the claim was formed; this protocol opened two of the three named addresses at the wording and classified what it found."@en ;
+    skos:note "The correction this protocol recommends. The claim should be restated over a narrower population and the third ground should be named beside the other two. First, over transmissions that dispute the art: those that dispute it from outside argue from an occasion, and this survives with the three witnesses it was built on and no exception found. Second, over transmissions that release a practitioner from an art they otherwise teach: they ground the release in a state of the practitioner, and this too survives with its three. Third, and new: a transmission may decline the art without disputing or teaching it, and then it grounds the declining in a rule of its own — of livelihood, or of how to act when already perplexed — and asserts nothing at all about whether the art works. Two witnesses in two spheres, both read on the day of this protocol."@en,
+        "The first deviation. The Mahasila runs seven paragraphs of one shape — whereas some recluses and brahmans, while living on food provided by the faithful, earn their living by wrong means of livelihood, by low arts, such as these, and then a list, and then Gotama the recluse holds aloof from such low arts. The choosing of days stands in two of the seven lists, among some two hundred items that include palmistry, snake charming and bringing forth flames from one's mouth. The discourse never says that the days do not fall out as the almanac has them. Its ground is that one who lives on the food of the faithful does not earn by this, which is a rule about the refuser and not a judgement on the art."@en,
+        "The second deviation, and it is the sharper of the two because it concedes what it refuses. Asked what to do about the bad omens he had taken in the time of ignorance, the Prophet is reported as answering: if from a bad omen you are thrown into perplexity, let it not hinder you from doing the work you had intended to do. The perplexity is granted. What is refused is that it should govern the act. That is neither an occasion nor an exemption but an instruction, and beside it in the same compiler stands the outright prohibition of diviners with a mechanism attached — one of the jinn steals away the truth and carries it into the diviner's ear — which shows that the transmission argues when it chooses to and declines to here."@en,
+        "What this protocol does not establish, stated plainly because the finding is fresh and thin. Two addresses out of three, one of them through a compiler and not at the wording of the source; the third address untouched and the transmission it belongs to absent from this holding. Two witnesses are enough to show that the claim's two grounds are not exhaustive and not nearly enough to say how the third ground distributes. The state is set at cases-with-deviation and not higher because both deviating cases were found by this run's own reading rather than by a search of the assembled holding, and a run that finds its own counter-cases has not yet been checked by anyone."@en,
+        "Why both count as deviations rather than as confirmations of the outside half. The claim's outside half says the refusal is grounded in a case: an occasion on which one date carried two outcomes, or one outcome many dates, or the rule was followed exactly and the follower lost what he sought. Neither of these two adduces any occasion. They also do not do what the falsifier expected, which was to ground the refusal in doctrine; a doctrine at least asserts something about the world, and neither of these asserts anything about the world. The right description of both is abstention, and the holding did not have the word."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Two corpus searches were carried, each recorded as its own node. The first read the whole of the Mahasila of the first discourse of the Digha in Rhys Davids's English and asked what ground the discourse gives for holding aloof from the choosing of days; the answer is the recurring clause wrong means of livelihood and nothing else, and the passage became pmc:TheravadaNakkhattaLowArt. The second searched a nineteenth-century compiler's whole text for the prophetic traditions on omens and found the entries FA'L and DIVINATION, which yielded pmc:SunnaTiyaraLaTamnaka; the same search for the tradition against the ill omen of the month of Safar came back empty in every edition reachable, and that failure is recorded as its own node with the outcome corpus-unreachable rather than as an absence in the corpus. Not searched: the Hebrew Bible, which is the third address the falsifier names and which this holding does not carry as a transmission at all. That is the largest thing this protocol did not do."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-09-21" ;
+    pm:falsifiedBy "A transmission that rejects the choosing of a day from outside the practice and grounds the rejection in doctrine alone, adducing no occasion; or one that rejects it from inside and does adduce an occasion. Neither was met. What was met instead was a third ground the claim has no room for, in two of the two addresses opened: the refuser's own rule of livelihood, and a rule of conduct for one already perplexed by an omen. The claim is not refuted by these, because it states what a refusal rests on and these do not rest on either of its two grounds; it is shown to be a statement about a narrower class than the one it appears to describe."@en ;
+    pm:protocolUpdated "2026-09-21" ;
+    pm:tests pmc:TheRefusalAndWhatItRestsOn .
+
+pmp:SafarOmenSearch a pm:Searching ;
+    rdfs:label "Ob die Überlieferung gegen das Vorzeichen des Safar in einer hier verwendbaren Ausgabe erreichbar ist"@de,
+        "Whether the tradition against the ill omen of Safar is reachable in an edition this holding may use"@en ;
+    dcterms:date "2026-09-21" ;
+    skos:note "The outcome is about the access path and not about the transmission. The tradition is well known to stand in the canonical collections; what could not be reached is a rendering of it that this holding may reproduce. The standard English versions are in copyright, the early nineteenth-century translation of the Mishkat did not resolve in the archive, and the 1885 compiler who does print many traditions on omens does not print this one under any of the words searched."@en,
+        "The outcome is set at corpus-unreachable and it is weaker than the term sounds, because the first stage of this search was thin and the run says so rather than letting the state stand unqualified. No survey was made of which English renderings of the canonical collections are out of copyright at all; three identifiers were tried in the open scan archive on the strength of names already known, and when they failed the run went to a compiler it happened to remember. A proper landscape stage would ask the question the other way round — which renderings may be reproduced, and which of them index the traditions on omens — and it was not asked. Anyone reopening this should treat the state as not reached rather than as not reachable."@en,
+        "This is an exhibited gap of the access kind and it should be closed by anyone who can reach a quotable text. Until then no node in this holding may be cited as carrying the wording of that tradition, and none does."@en,
+        "What the same search did find, and it is why the run did not come away empty. The dictionary's entries on omens and on divination print three sayings and one exchange on exactly the question at issue, and the exchange became pmc:SunnaTiyaraLaTamnaka. A refusal of the omen was therefore recovered from this sphere; it is simply not the one the falsifier named."@en ;
+    pm:searchOutcome pm:corpusUnreachable ;
+    pm:searchTerms "Whole-text search of the dictionary for: Safar (12 hits, every one inspected, all of them about the month as a calendar unit or about the feast of its last Wednesday), evil omen, no infection, contagion, bird of ill, omens, augury, auguries, lucky and unlucky. In the scan archive: Mishkat-ul-Masabih English translation Matthews; Sahih Bukhari English translation; A Manual of Hadith. The two scans that resolved carried no usable text." ;
+    pm:searchedBy "prima-materia, 2026-09-21" ;
+    pm:searchedCorpus "Thomas Patrick Hughes, A Dictionary of Islam, London: W. H. Allen 1885, whole text, some four and a half million characters; plus a search of the open scan archive for a public-domain English rendering of the canonical collections or of the Mishkat al-Masabih" ;
+    pm:searchedFor "The tradition in which the Prophet denies contagion, the bird of ill omen, the owl and the ill omen of the month of Safar, in any English version that a CC0 holding may quote. The claim's falsifier names this tradition as one of three places where pmc:TheRefusalAndWhatItRestsOn is likeliest to break, so its wording matters and a paraphrase from memory would not do." .
 
 pmp:Sagdid a pm:Practicing ;
     rdfs:label "Sagdīd, der Blick des Hundes"@de,
@@ -13636,6 +13710,16 @@ pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
     skos:note "The Chukchee word is given twice on the page and the digitised copy used here damages it in both places, once as oTitkek for the verb and once as ocitkedm for the participle. The secondary literature reads the participle ocitkolin. What the reading here rests on is the English gloss, which is unambiguous, and not on the transcription."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
+pmc:CiceroGeminiDiscrepantes a pm:Conceptualizing ;
+    rdfs:label "Eine Geburtsstunde und zwei Geschicke, ein Geschick und viele Geburtsstunden"@de,
+        "One nativity and two fates, one fate and many nativities"@en ;
+    dcterms:source "Cicero, De divinatione II.43 and II.47, in the English of C. D. Yonge, The Treatises of M. T. Cicero, London: Bohn 1878, pp. 237-238 and 240" ;
+    skos:definition "The two cases the second book puts against the calculation of nativities, and they cut in opposite directions. First, two born at one moment whose lives diverge: Procles and Eurysthenes, twin kings of the Lacedaemonians, did not live the same number of years, for Procles died a year before his brother and much excelled him in the glory of his actions. Second, many born at many moments who meet one end: were all those slain in the battle of Cannae born under the same constellation, since they met with one and the same end? The passage adds a third of the same form, that a multitude is born at every moment and yet no one has ever been like Homer."@en ;
+    skos:note "Held as what the transmission says and not as evidence. Nothing here is counted; two twins and one battle are instances adduced in an argument, and a protocol that wanted a rate would have to build it. SPEC §14 keeps such a work on the testimony side as long as it argues instead of counting, and this one argues."@en,
+        "The shape is what this holding is short of. Neither case argues that the stars have no power; each takes the practice at its word, finds a pair the rule must classify alike, and points at the outcome. That is a criterion the practice itself supplies, applied to a case it cannot have chosen. The treatise also names the arguments as Panaetius's and not Carneades's, which places them inside the Stoa rather than outside it."@en ;
+    pm:fromWork pmw:DeDivinatione ;
+    pm:withinTradition pmt:GraecoRoman .
+
 pmc:CinqJoursAvantDePresumer a pm:Conceptualizing ;
     rdfs:label "Fünf Tage, bevor auf Unwirksamkeit geschlossen wird"@de,
         "Five days before presuming that it does not act"@en ;
@@ -13815,6 +13899,8 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
         pmc:Dibbacakkhu,
         pmc:Dibbasota,
         pmc:Manomayakaya ;
+    pm:fromWork pmw:DighaNikaya,
+        pmw:VinayaPitaka ;
     pm:withinTradition pmt:Theravada .
 
 pmc:DistantPerceptionFromAVoluntaryState a pm:Generalizing ;
@@ -14251,6 +14337,7 @@ pmc:FiveHindrances a pm:Conceptualizing ;
         "The five hindrances"@en ;
     dcterms:source "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
     skos:definition "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt, whose abandoning the discourse describes immediately before entry into the first absorption."@en ;
+    pm:fromWork pmw:DighaNikaya ;
     pm:withinTradition pmt:Theravada .
 
 pmc:ForcedBreathCaution a pm:Cautioning ;
@@ -14358,6 +14445,8 @@ pmc:HealingByTouch a pm:Conceptualizing ;
     dcterms:source "Suetonius, Divus Vespasianus 7",
         "Tacitus, Historiae IV.81" ;
     skos:definition "The restoration of a withered hand and of sight, ascribed to the touch of a ruler in Alexandria."@en ;
+    pm:fromWork pmw:DivusVespasianus,
+        pmw:TacitiHistoriae ;
     pm:withinTradition pmt:GraecoRoman .
 
 pmc:HeatWithoutForcefulBreath a pm:Positing ;
@@ -14489,6 +14578,7 @@ pmc:ImperfectionsOfInsight a pm:Cautioning ;
     skos:note "The handbook illustrates the error with the monk who held himself awakened for sixty years. This is the tradition's own answer to the question of how a practitioner mistakes a state for a result."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:Piti ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:InaudibleAndUnevenBreath a pm:Conceptualizing ;
@@ -14730,6 +14820,7 @@ pmc:KhuddikaPiti a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "The least of the five degrees of rapture, described as able to raise the hairs of the body."@en ;
     skos:note "This is the passage that attests piloerection as a recognised concomitant of a meditative state, not as its object."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:KindledInnerFire a pm:Conceptualizing ;
@@ -15051,16 +15142,6 @@ pmc:NeidanChuanyaoBuchuanhuo a pm:Conceptualizing ;
     skos:definition "The Wuzhen pian states that one may know cinnabar and black lead and still, not knowing the fire phases, be as idle as before; that the whole thing rests on the force of the practice; and that a hair's breadth of difference makes no elixir. Weng Baoguang's comment draws the rule: the making of the golden elixir rests wholly on the metal, a hair's breadth of difference is a thousand li apart, and therefore the sages transmit the medicine and do not transmit the fire. A second poem in the same juan says that the pacts, treatises, scriptures and songs expound the ultimately true and do not set the fire phases down in writing, and that to know where the oral instruction reaches through to the mystery one must discuss it in detail with an immortal; the comment adds that the six hundred chapters of the Record of the Fire are each like the other, that what heaven keeps hidden no sage transmits in writing, and that one must meet a true master and not blunder on alone."@en ;
     skos:note "The transmission is not concealing this; it is arguing for it, and the argument is about secrecy and not about failure. That the two come to the same thing is an observation of this file and is not in the text."@en,
         "This is the structural counterpart of the thirty thousand marks. There the tolerance is nil; here the parameter against which the tolerance would be measured is by doctrine not written down. Together they make a system in which no written instruction can ever be shown to have been followed correctly, and in which a failure therefore always has somewhere to go."@en ;
-    pm:withinTradition pmt:Neidan .
-
-pmc:NeidanHuohouBuyongshi a pm:Conceptualizing ;
-    rdfs:label "Die Feuerphasen brauchen keine Stunde"@de,
-        "The fire phases use no hour"@en ;
-    dcterms:source "Zhang Boduan (ascr.), Jindan sizi, verse 13, with Huang Ziru's commentary (DZ 1081), Zhengtong Daozang, Hanfenlou facsimile, fol. 9a" ;
-    skos:definition "The thirteenth quatrain states it in four lines: the fire phases use no hour, the winter solstice is not at zi, and as for the method of the bathing, the mao and you hours are an empty likeness. The commentary spells it out: in general the fire phases are not the zi hour and the winter solstice, nor the wu hour and the summer solstice; and the bathing is not the mao hour and the spring equinox, nor the you hour and the autumn equinox. Once a man has started the fire on the circuit within his own body, the withdrawing and adding and the bathing are there of themselves, and one may not be bound to the four seasons."@en ;
-    skos:note "Its bearing on pmc:AdmissibilityBoundToTheCalendar is stated at that node and not claimed here. This is not a transmission that binds an operation to a calendar and locates the failure in the time; it is a transmission that refuses the binding, in a stream where the binding is otherwise general, and it puts the condition in the practitioner instead."@en,
-        "The doctrine has the preface behind it and is not an isolated aphorism. The preface has already said that whoever knows the one aperture has the winter solstice in it, the medicine in it, the fire phases in it and the bathing in it; the quatrain is the verse form of that sentence. The condition has been moved from the calendar into the body, and with it the answer to the question of when."@en,
-        "The wording of the received text is worth recording because it is contested in the literature. The Hanfenlou facsimile of DZ 1081 reads that the fire phases do not use the hour and that the winter solstice is not at zi; the variant that has them not requiring the hour and asks whether the solstice is at zi at all is not what this recension prints. The reading was checked at the wording for this reason."@en ;
     pm:withinTradition pmt:Neidan .
 
 pmc:NeidanHuohouDispute a pm:Disputing ;
@@ -16030,6 +16111,7 @@ pmc:Sila a pm:Conceptualizing ;
         "Virtue"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga I.1-I.8 (trans. Ñāṇamoli 1956)" ;
     skos:definition "The first of the three trainings, on which the handbook is built as a commentary on the verse about the tangle."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:SpellCasting a pm:Conceptualizing ;
@@ -16293,6 +16375,26 @@ pmc:TheProvisionForNotKnowing a pm:Generalizing ;
         pmp:FinnicSyynTiedustus ;
     pm:generalizedStatement "Where a transmission makes an operation depend on identifying what is being dealt with — the name of the adversary, the origin of the hurt, the name of the thing met on the road — the same corpus carries a standing provision for proceeding without that identification, and the provision is not an emergency measure but has a place of its own. It takes one of three forms: a disjunction that names every candidate at once, so that the identification need not be made; a form of words for the case of not knowing, with a number and a fixed position in the order of recitation; or an apparatus of objects that answers the same encounters and does not require a name at all. In no case read here does the corpus that states the requirement leave the practitioner who cannot meet it with nothing."@en .
 
+pmc:TheRefusalAndWhatItRestsOn a pm:Generalizing ;
+    rdfs:label "Die Zurückweisung von außen stützt sich auf einen Fall, die von innen auf einen Zustand des Übenden"@de,
+        "The refusal from outside rests on a case, the refusal from inside on a state of the practitioner"@en ;
+    skos:note "Examined on the day it was written, at two of the three addresses its falsifier names, and it did not come through unchanged. Both addresses deviate, and both in the same direction: the first discourse of the Dīgha refuses the choosing of days on the ground of livelihood, and the prophetic tradition on omens refuses it with a rule for one already perplexed. Neither grounds the refusal in a case and neither grants an exemption; neither says anything about whether the art works. A third ground is therefore in the holding that this statement has no room for, and the statement should be read as describing transmissions that dispute or teach the art, not every transmission that declines it. See pmp:RefusalGroundExamination, which carries the finding and the recommended restatement."@en,
+        "Falsified by a transmission that rejects the choosing of a day from outside the practice and grounds the rejection in doctrine alone, adducing no occasion — a cosmology, a scriptural prohibition, an argument from the nature of the heavens with no instance under it; or by one that rejects it from inside and does adduce an occasion, naming a practitioner who acted outside the window and reporting what followed. Either breaks it, and the first is the likelier: the scriptural prohibitions of the Hebrew Bible, the ḥadīṯ against the ill omen of the month of Ṣafar and the treatment of naksatra prognostication among the low arts in the first discourse of the Dīgha are all refusals from outside, none of them was read at the wording in this run, and any of them may well be doctrine without a case. They are named here so that the statement can be attacked at its weakest point rather than at its strongest."@en,
+        "The consequence for this holding, and it is the reason the node was written. The counter-material against pmc:AdmissibilityBoundToTheCalendar consisted, until 2026-09-21, of the two refusals from inside and of one critic. That is a body of counter-material that cannot discriminate: an exemption for the attained says nothing about whether an operation done on the wrong day works, and both of the earlier cases say in so many words that it does not. The three from outside do discriminate, and two of the three were read at the wording on the day this node was written. See pmp:CalendarFailureLocationExamination, whose own finding was that the sharpest argument in the holding came from a single Chinese critic."@en,
+        "The count is six claims in six transmissions and four spheres — Pāli, Latin, Chinese in two separate streams, and the Latin grimoire — with no proposed route between the three that argue from cases. That is a better spread than most statements here, and it is still six."@en,
+        "The three that refuse from inside, and not one of them names an occasion. The thirteenth quatrain of the Jindan sizi says that the fire phases use no hour and that the winter solstice is not at zi, and its commentary adds that once a man has started the fire on the circuit within his own body the withdrawing and adding are there of themselves and one may not be bound to the four seasons: the condition has been moved from the calendar into the body. The eighteenth chapter of the Baopuzi says that one who can guard the One need not divine the day or choose the hour and no longer consults the siting calendars: the exemption is granted by an attainment. The Key of Solomon says that so exact a preparation of days and hours is not necessary for those who are adepts in the art but is extremely necessary for apprentices and beginners, and gives as the ground that beginners lack faith in the experiments: the exemption is granted by a state of mind, and the text says so."@en,
+        "The three that refuse from outside, and all three argue from an occasion. The forty-ninth Jātaka tells one story twice: a family fixes a wedding day, asks its household ascetic afterwards whether the stars are favourable, is told they are not, stays at home, and loses the bride to somebody else — and the stanza that closes it says that the fool may watch for lucky days yet luck shall always miss, for it is luck itself that is luck's own star. The second book of Cicero's treatise sets two cases against the calculation of nativities and they cut in opposite directions: twin kings of the Lacedaemonians of whom one died a year before the other and much excelled him in glory, and the dead of Cannae, who met one end and cannot all have been born under one constellation. The first-century treatise against the choosing of days puts King Wu winning his battle on a jiazi day and the tyrant losing his on the same jiazi day, the two armies facing one another with their standards in sight."@en,
+        "Weakened, without being refuted, if the division turns out to track the genre and not the position of the speaker. Two of the three outside witnesses are narrative and argumentative literature, which is where cases live anyway, and two of the three inside ones are operative manuals, which state rules and not stories. A transmission that refuses from outside in the form of a manual, or from inside in the form of a story, would separate the two readings, and this holding carries neither."@en,
+        "Why the division is worth stating rather than the refusal. A refusal from outside has to persuade somebody who is still in the practice, and the only currency that buys that is an outcome the practice itself would have had to predict; a refusal from inside does not have to persuade anybody, because it is addressed to those who already accept the teacher, and it can therefore be granted as a privilege. The two are not weak and strong versions of one move. They are different moves, and only the first produces anything a protocol can take over."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CiceroGeminiDiscrepantes,
+        pmc:ClaviculaAdeptiExempti,
+        pmc:NeidanHuohouBuyongshi,
+        pmc:ShouyiMianLiri,
+        pmc:TheravadaNakkhatta,
+        pmc:ZeriDispute ;
+    pm:generalizedStatement "Where a transmission rejects the choosing of a day from outside the practice that chooses it, it grounds the rejection in a case: an occasion on which one date carried two outcomes, or one outcome many dates, or the rule was followed exactly and the follower lost what he sought. Where a transmission rejects the same choosing from inside the practice that teaches it, it grounds the rejection in a state of the practitioner — his attainment, his faith, the condition moved into his body — and adduces no case at all."@en .
+
 pmc:TheRepairWithoutASign a pm:Generalizing ;
     rdfs:label "Die Wiedergutmachung trägt genau dann ein Zeichen, wenn der Schaden, den sie behebt, einer war, den der Übende sehen konnte"@de,
         "The repair carries a sign exactly where the harm it repairs was one the practitioner could see"@en ;
@@ -16323,6 +16425,27 @@ pmc:Theologike a pm:Conceptualizing ;
     dcterms:source "Evagrius Ponticus, Praktikos 1" ;
     skos:definition "The third of the three parts, the knowledge of God."@en ;
     pm:withinTradition pmt:DesertMonasticism .
+
+pmc:TheravadaNakkhatta a pm:Conceptualizing ;
+    rdfs:label "Der Tor mag auf günstige Tage achten, und das Glück wird ihm immer entgehen"@de,
+        "The fool may watch for lucky days, and luck shall always miss"@en ;
+    dcterms:source "Jātaka 49, Nakkhatta-Jātaka, Fausbøll i.257-259, in the English of Robert Chalmers, ed. E. B. Cowell, The Jātaka or Stories of the Buddha's Former Births, vol. I, Cambridge University Press 1895, pp. 125-126" ;
+    skos:definition "The forty-ninth story, told twice, once of the present and once of the past, and both times as a run with an outcome. A family has fixed a wedding day and afterwards asks its household ascetic whether the stars are favourable for it. The ascetic, piqued at having been consulted second, answers that they are not and that great misfortune would follow; the family stays at home; the other side, having prepared everything, marries the girl to somebody else; and the party that obeyed the constellation goes home with nothing. A wise man passing through puts the argument in one stanza: the fool may watch for lucky days, yet luck shall always miss; it is luck itself that is luck's own star, and what can mere stars achieve."@en ;
+    skos:note "The motive matters and is stated in the text twice. The ascetic knows the stars are indifferent and says otherwise because he was asked second. A transmission that explains a false reading of the calendar by the reader's pique has located the failure in a party — which is exactly the location the holding's generalization about calendar-bound operations says these transmissions do not use. It does not refute that statement, because this is not a transmission that binds an operation to a calendar; it is one that reports somebody else's binding. The difference is recorded here so that a later run does not count it on the wrong side."@en,
+        "What makes this worth a node rather than a proverb is that the refusal is carried by a case and not by a doctrine. The transmission does not argue that constellations have no power; it reports an occasion on which the rule was followed exactly and the follower lost the thing he wanted, and it names the mechanism of the loss — an offended interpreter with a motive. The same corpus that supplies this puts nakṣatra prognostication among the low arts elsewhere, which is the doctrinal form; this is the other form, and it is the one a protocol can use."@en ;
+    pm:fromWork pmw:Jataka ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:TheravadaNakkhattaLowArt a pm:Conceptualizing ;
+    rdfs:label "Das Wählen der Tage unter den niederen Künsten, und der Grund ist der Lebensunterhalt"@de,
+        "The choosing of days among the low arts, and the ground is livelihood"@en ;
+    dcterms:source "Dīgha Nikāya 1, Brahmajāla Sutta, the Mahāsīla, paragraphs 21 to 27, DN i.9-12, in the English of T. W. Rhys Davids, Dialogues of the Buddha, Part I, Sacred Books of the Buddhists vol. II, London 1899, pp. 16-26; the days at paragraph 26, pp. 22-23, the constellations at paragraph 24, pp. 20-21" ;
+    skos:definition "The Mahāsīla of the first discourse runs seven paragraphs of the same shape: whereas some recluses and brahmans, while living on food provided by the faithful, earn their living by wrong means of livelihood, by low arts, such as these — a list — Gotama the recluse holds aloof from such low arts. Two of the seven lists carry the choosing of days. The twenty-sixth paragraph opens with arranging a lucky day for marriages in which the bride or bridegroom is brought home, arranging a lucky day for marriages in which the bride or bridegroom is sent forth, and fixing a lucky time for the conclusion of treaties of peace, for the outbreak of hostilities, for the calling in of debts and for the expenditure of money. The twenty-fourth lists the foretelling of eclipses of the moon, of the sun and of a star, of aberrations of the sun, the moon and the stars, and of their return to their usual paths."@en ;
+    skos:note "Read for the falsifier of pmc:TheRefusalAndWhatItRestsOn, which named this passage as one of three places where that statement is likeliest to break, and it does deviate — but not in the way the falsifier predicted. The falsifier expected a refusal from outside grounded in doctrine alone. What stands here is grounded in neither doctrine nor case: the recurring clause is wrong means of livelihood, and the list is a list of things a recluse holds aloof from. The discourse does not say that the days do not fall out as the almanac has them. It says that one who lives on food provided by the faithful does not earn by this."@en,
+        "That is a third kind of refusal and the holding did not have it named. A refusal from outside grounded in a case argues that the art fails; a refusal from inside grounded in a state of the practitioner grants an exemption from an art that works; this one withdraws from the art without judging it, on a ground that belongs entirely to the refuser's own vocation. It is abstention and not refutation, and a protocol can take nothing from it, because nothing here is a claim about the world."@en,
+        "Two further things the passage settles for anyone who counts it. It is a list and not an argument: the seven paragraphs enumerate some two hundred items, from palmistry and snake charming to bringing forth flames from one's mouth, and the choosing of days has no special standing among them. And the enumeration is of what others do for money, so even the reading that has the discourse rejecting the art reads it as rejecting a trade."@en ;
+    pm:fromWork pmw:DighaNikaya ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:TorahWithoutToil a pm:Conceptualizing ;
     rdfs:label "Das Erlernen des Gesetzes ohne Mühe"@de,
@@ -16575,6 +16698,7 @@ pmc:Vespasian a pm:Conceptualizing ;
         "Vespasian"@en ;
     dcterms:source "Tacitus, Historiae IV.81" ;
     skos:definition "The Roman emperor to whom the Alexandrian healings are ascribed by two independent historians."@en ;
+    pm:fromWork pmw:TacitiHistoriae ;
     pm:withinTradition pmt:GraecoRoman .
 
 pmc:VoSesa a pm:Conceptualizing ;
@@ -16830,6 +16954,22 @@ pmc:ZangYieldsYin a pm:Yielding ;
     pm:byPractice pmp:Zang ;
     pm:withinTradition pmt:ChineseDivination ;
     pm:yieldsCapacity pmc:YitiShouyin .
+
+pmc:ZeriDispute a pm:Disputing ;
+    rdfs:label "Ob der gewählte Tag über irgendetwas entscheidet"@de,
+        "Whether the day chosen decides anything"@en ;
+    dcterms:source "Wang Chong, Lunheng, the treatise on censuring days (Ji ri), juan 24, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on interrogating the art (Jie shu), juan 25, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on objecting to the year star (Nan sui), juan 24, Sibu congkan facsimile",
+        "Wang Chong, Lunheng, the treatise on the four taboos (Si hui), juan 23, Sibu congkan facsimile",
+        "Zangshu, miscellaneous section, in the recension of Wu Cheng, one juan, Wenyuange Siku quanshu text" ;
+    skos:definition "A treatise of the first century attacks the choosing of days across four chapters, and the arguments are of three kinds. First, comparisons within the practice: encoffining, which puts the corpse in the box, is done on no chosen day, while burial, which puts the box in the ground, is; and grave, field and dwelling are equally the ground of a man's fortune, yet only the westward extension of a dwelling is forbidden. Second, a count: in the age of the annals the deaths of kings, lords and great officers ran to hundreds and thousands, and their burial days do not agree with the calendars; the rites fix the interval by rank, so that the parity of the month follows from the rank and not from a choice; and where a burial was postponed the annals give rain as the reason and not a day. Third, a case in which one day carries two outcomes: King Wu won his battle on a jiazi day and the tyrant lost his on the same jiazi day, the two armies facing one another with their standards in sight, one day and two fates. The same treatise adds that washing, combing, cutting cloth, building and moving house each have their own calendar, that water and wood are both of the five phases yet only the one is subject to a day, and that a man who kills is punished whatever day he chose."@en ;
+    skos:note "It is a party and not an instance, and the difference matters for the claim it disputes. The treatise argues; it does not count anything it gathered itself, except the burials in the annals, and that count is a reading of a text and not a series of cases. Where it counts, it is evidence and belongs at a protocol; where it argues, it is a witness like the book it attacks, and that is how it is held here."@en,
+        "The dispute has a shape worth noting beside the burial book's own. The critic never says that the ground or the hour has no effect and then names what would show it; he shows that the rule is not followed where it would be if it were believed. That leaves the doctrine intact for anyone willing to say that his contemporaries were careless, which is the answer the burial book's own annotation gives in a different connection."@en,
+        "The third argument is the one this graph should keep, because it is the only one that discriminates rather than compares. Two parties, one date, opposite outcomes: whatever the day is supposed to decide, it did not decide that. The others show that the practice is applied inconsistently, which embarrasses the practitioners without touching the doctrine."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:SanjiLiuxiong ;
+    pm:withinTradition pmt:ChineseDivination .
 
 pmc:Ziqel a pm:Naming ;
     rdfs:label "Ziqel"@de,
@@ -17513,6 +17653,7 @@ pmp:FourteenfoldMastery a pm:Practicing ;
     dcterms:source "Buddhaghosa, Visuddhimagga XII.2 (trans. Ñāṇamoli 1956)" ;
     skos:definition "A numbered course of mastery over the meditation objects, among them the order of the kasiṇa and its reverse, skipping the absorption, skipping the object, and the definition of the object."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmp:Hanblapi a pm:Practicing ;
@@ -18098,6 +18239,19 @@ pmt:Madhyamaka a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Nāgārjuna, Mūlamadhyamakakārikā" .
 
+pmt:PropheticSunna a pm:Tradition ;
+    rdfs:label "Die prophetische Überlieferung über Vorzeichen und Wahrsager"@de,
+        "The prophetic tradition on omens and diviners"@en ;
+    dcterms:source "Mishkāt al-Maṣābīḥ, book xxi, as quoted in Thomas Patrick Hughes, A Dictionary of Islam, London: W. H. Allen 1885, pp. 125 and 87" ;
+    skos:definition "The transmission of sayings ascribed to the Prophet, here only in the part that bears on omens, auguries, the consulting of diviners and the taking of a day or a sign as favourable or unfavourable."@en ;
+    skos:note "Opened in this run at one place only and through a compiler: the entries FA'L and DIVINATION in Thomas Patrick Hughes, A Dictionary of Islam, London 1885, which print the traditions in Hughes's English and refer them to the Mishkāt al-Maṣābīḥ, book xxi. Nothing of the canonical collections was read. The transmission is entered at pm:placesEntered rather than pm:corpusNamed because a passage was read and taken in, not because the corpus was surveyed."@en,
+        "What this holding does not have, and it is most of what there is. The two ṣaḥīḥ collections, the four sunan, the Muwaṭṭaʾ and the Musnad are all unopened. The tradition this run originally went looking for — the denial of the ill omen of the month of Ṣafar, which stands in the canonical collections beside the denials of contagion, of the bird of ill omen and of the owl — was not found in any edition this run could reach and is not entered. Its absence is recorded at pmp:SafarOmenSearch and not papered over here."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:MishkatAlMasabih ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:MishkatAlMasabih ;
+    pm:principalCorpus "Ṣaḥīḥ al-Buḵārī; Ṣaḥīḥ Muslim; Mishkāt al-Maṣābīḥ" .
+
 pmt:SeferYetzirah a pm:Tradition ;
     rdfs:label "Sefer Jetzira"@de,
         "Sefer Yetzirah"@en ;
@@ -18367,6 +18521,7 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
         "Knowledge encompassing another mind"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:ChukcheePresupposesAnsweringCalls a pm:Presupposing ;
@@ -18393,16 +18548,6 @@ pmc:CizhongWuzang a pm:Cautioning ;
     pm:cautionsAbout pmp:Cizhen ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
-pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
-    rdfs:label "Die Genauigkeit von Tagen und Stunden ist für Adepten nicht nötig"@de,
-        "The exactness of days and hours is not necessary for adepts"@en ;
-    dcterms:source "Clavicula Salomonis, Book II chapter I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
-    skos:definition "So exact a preparation of days and hours is not necessary for those who are adepts in the art, but it is extremely necessary for apprentices and beginners, seeing that those who have been little or not at all instructed do not have as much faith in the experiments as those who are adepts and have practised them. The wise should observe only the precepts of the art which are necessary."@en ;
-    skos:note "The exemption is asymmetrical, and the asymmetry was the object of a search carried in this run. It covers days and hours and nothing else. No passage of the chapters read waives the bath, the fast, the continence or the confession for anyone, adept or beginner. The transmission is willing to call its astrology a pedagogy and is not willing to call its purification one. See pmp:ClaviculaPurificationWaiverSearch."@en,
-        "The ground the text gives for the exemption is the faith of the operator and not anything about the hours. That makes the astrological term, by the book's own account, a device for producing confidence in beginners rather than a condition of the world — and it is the sharpest statement against its own timing rules that this corpus contains."@en ;
-    pm:fromWork pmw:ClaviculaSalomonis ;
-    pm:withinTradition pmt:SolomonicGrimoire .
-
 pmc:ClaviculaOperatioYieldsImperium a pm:Yielding ;
     rdfs:label "Die Operation im Kreis bringt hervor, dass die Geister erscheinen und gehorchen"@de,
         "The operation of the circle brings the spirits to appear and obey"@en ;
@@ -18427,6 +18572,7 @@ pmc:Dibbacakkhu a pm:Conceptualizing ;
         "Divine eye"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Sight beyond the range of the physical eye."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:Dibbasota a pm:Conceptualizing ;
@@ -18434,6 +18580,7 @@ pmc:Dibbasota a pm:Conceptualizing ;
         "Divine ear"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Hearing beyond the range of the physical ear."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:Diksa a pm:Conceptualizing ;
@@ -18493,6 +18640,7 @@ pmc:FourthJhana a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga XII.1 (trans. Ñāṇamoli 1956)",
         "Buddhaghosa, Visuddhimagga XII.49 (trans. Ñāṇamoli 1956)" ;
     skos:definition "The absorption from which the handbook has the supernormal powers proceed, and which it calls their natural plane."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:GenerationStage a pm:Conceptualizing ;
@@ -18754,6 +18902,16 @@ pmc:NeidanFeidaofuren a pm:Conceptualizing ;
         "This is the rule of assignment stated as a rule, and stated at the one place where it has to be: at the head of the chapter that lists what success looks like, immediately after the practitioner has asked what happens if it does not come. The transmission names the possibility that the Way has failed the man, names it twice, and denies it twice, offering in its place two defects located in the man — his choice of teacher and his knowledge of the times."@en ;
     pm:withinTradition pmt:Neidan .
 
+pmc:NeidanHuohouBuyongshi a pm:Conceptualizing ;
+    rdfs:label "Die Feuerphasen brauchen keine Stunde"@de,
+        "The fire phases use no hour"@en ;
+    dcterms:source "Zhang Boduan (ascr.), Jindan sizi, verse 13, with Huang Ziru's commentary (DZ 1081), Zhengtong Daozang, Hanfenlou facsimile, fol. 9a" ;
+    skos:definition "The thirteenth quatrain states it in four lines: the fire phases use no hour, the winter solstice is not at zi, and as for the method of the bathing, the mao and you hours are an empty likeness. The commentary spells it out: in general the fire phases are not the zi hour and the winter solstice, nor the wu hour and the summer solstice; and the bathing is not the mao hour and the spring equinox, nor the you hour and the autumn equinox. Once a man has started the fire on the circuit within his own body, the withdrawing and adding and the bathing are there of themselves, and one may not be bound to the four seasons."@en ;
+    skos:note "Its bearing on pmc:AdmissibilityBoundToTheCalendar is stated at that node and not claimed here. This is not a transmission that binds an operation to a calendar and locates the failure in the time; it is a transmission that refuses the binding, in a stream where the binding is otherwise general, and it puts the condition in the practitioner instead."@en,
+        "The doctrine has the preface behind it and is not an isolated aphorism. The preface has already said that whoever knows the one aperture has the winter solstice in it, the medicine in it, the fire phases in it and the bathing in it; the quatrain is the verse form of that sentence. The condition has been moved from the calendar into the body, and with it the answer to the question of when."@en,
+        "The wording of the received text is worth recording because it is contested in the literature. The Hanfenlou facsimile of DZ 1081 reads that the fire phases do not use the hour and that the winter solstice is not at zi; the variant that has them not requiring the hour and asks whether the solstice is at zi at all is not what this recension prints. The reading was checked at the wording for this reason."@en ;
+    pm:withinTradition pmt:Neidan .
+
 pmc:NeidanShengtaiCapacity a pm:Conceptualizing ;
     rdfs:label "Der heilige Embryo"@de,
         "The sage embryo"@en ;
@@ -18920,16 +19078,6 @@ pmc:ShintoUkehiCriterium a pm:Conceptualizing ;
         "What the sentence leaves open is which children count as his, and the rest of the passage turns on exactly that. The criterion says the children which I produce; it does not say what produces a child — the breath that blows the fragments away, or the object the fragments came from. See pmc:ShintoUkehiVariaeLectiones."@en ;
     pm:fromWork pmw:Nihonshoki ;
     pm:withinTradition pmt:Shinto .
-
-pmc:ShouyiMianLiri a pm:Conceptualizing ;
-    rdfs:label "Wer das Eine bewahrt, steht nicht mehr unter dem Kalender"@de,
-        "He who guards the One is no longer under the calendar"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
-    skos:definition "The chapter states an exemption and states it as a consequence of the attainment. One who can guard the One travels ten thousand li, goes into an army, crosses great rivers, and need not divine the day or choose the hour; in beginning works, in moving house, in entering a new dwelling, he no longer consults the siting calendars; he does not avoid the year star, the general of the great yin, the killing and wasting spirits of the month establishment or the taboos of his year and fate; and in the end he never meets with calamity. It closes by calling this a way that the worthies of former times tested one after another and found to hold."@en ;
-    skos:note "It also names the interest the exemption serves inside the work. The chapter is arguing that guarding the One replaces several thousand other methods, and an exemption from the calendar is one more thing the reader no longer has to do. That is a reason for caution about the claim and not a reason to leave it out."@en,
-        "This is the passage that keeps the same work from speaking with one voice about the calendar. Its eighth chapter binds the circulation of the qi to the hours of living qi and says that in the hours of dead qi it is of no benefit; its seventeenth binds the entering of mountains to years, months and days and states the harm that follows; and its eighteenth says that a man of one particular attainment is under none of it. The exemption is granted by a state of the operator, which is exactly what a calendrical condition is otherwise said not to depend on."@en,
-        "What it does not say is that an operation done outside its window works. It says that this man no longer chooses days at all, which is a claim about who stands under the rule and not about what the rule does. The difference decides whether it refutes the generalization in generalizations/efficacy-bound-to-the-calendar.ttl or only narrows it, and the note there records that it narrows it."@en ;
-    pm:withinTradition pmt:Daoist .
 
 pmc:Sicun a pm:Conceptualizing ;
     rdfs:label "Sicun, verliehene Potenz"@de,
@@ -19547,6 +19695,16 @@ pmw:AlfTrisarSuialia a dcterms:BibliographicResource ;
         "Alf Trisar Šuialia, the Thousand and Twelve Questions"@en ;
     skos:note "Named here as a work of the corpus and not obtainable in this run. It is the priestly manual, and one of its parts carries the title Mhita u-Asuta, blow and healing, that is, ritual faults and their remedy. Drower's edition of 1960 exists in print; the lending scan answers 401 to its text file and the transliteration at the Comprehensive Aramaic Lexicon refuses automated retrieval. Two claims below are entered second-hand through the field monograph because of this, and they are the two that would be worth checking first once a copy is at hand."@en .
 
+pmw:Jataka a dcterms:BibliographicResource ;
+    rdfs:label "Jātaka"@de,
+        "Jātaka"@en ;
+    skos:note "Opened on 2026-09-21 at story 49 only, in the English of Robert Chalmers under E. B. Cowell's editorship, volume I of 1895. The remaining five hundred and forty-six stories were not read. All six volumes are public domain and reachable by the regular route, which makes this the cheapest continuation for anything the canon states as doctrine and the Jātaka reports as a case."@en .
+
+pmw:VinayaPitaka a dcterms:BibliographicResource ;
+    rdfs:label "Vinaya Piṭaka"@de,
+        "Vinaya Piṭaka"@en ;
+    skos:note "Opened at Cūḷavagga V.8. The edition is not recoverable; see prima-materia#45."@en .
+
 pmc:Ahwal a pm:Conceptualizing ;
     rdfs:label "Zustände"@de,
         "States"@en ;
@@ -19600,6 +19758,16 @@ pmc:AyurvedaOjovrddhi a pm:Conceptualizing ;
         "Worth holding as its own node because it is the claim that makes every other claim in the lesson unanswerable by an ordinary clinical observation: the population is people who are not ill, the outcome is a quantity not otherwise measured, and the span over which it is asserted is the rest of a life. A transmission that had wanted its promises checked would have started somewhere else."@en ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
+
+pmc:ClaviculaAdeptiExempti a pm:Conceptualizing ;
+    rdfs:label "Die Genauigkeit von Tagen und Stunden ist für Adepten nicht nötig"@de,
+        "The exactness of days and hours is not necessary for adepts"@en ;
+    dcterms:source "Clavicula Salomonis, Book II chapter I, in the English of S. L. MacGregor Mathers, The Key of Solomon the King, London: George Redway, 1889" ;
+    skos:definition "So exact a preparation of days and hours is not necessary for those who are adepts in the art, but it is extremely necessary for apprentices and beginners, seeing that those who have been little or not at all instructed do not have as much faith in the experiments as those who are adepts and have practised them. The wise should observe only the precepts of the art which are necessary."@en ;
+    skos:note "The exemption is asymmetrical, and the asymmetry was the object of a search carried in this run. It covers days and hours and nothing else. No passage of the chapters read waives the bath, the fast, the continence or the confession for anyone, adept or beginner. The transmission is willing to call its astrology a pedagogy and is not willing to call its purification one. See pmp:ClaviculaPurificationWaiverSearch."@en,
+        "The ground the text gives for the exemption is the faith of the operator and not anything about the hours. That makes the astrological term, by the book's own account, a device for producing confidence in beginners rather than a condition of the world — and it is the sharpest statement against its own timing rules that this corpus contains."@en ;
+    pm:fromWork pmw:ClaviculaSalomonis ;
+    pm:withinTradition pmt:SolomonicGrimoire .
 
 pmc:ClearLightOfSleep a pm:Conceptualizing ;
     rdfs:label "Das klare Licht des Schlafs"@de,
@@ -19662,6 +19830,8 @@ pmc:FourAbsorptions a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV (trans. Ñāṇamoli 1956)",
         "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
     skos:definition "A graded series in which each stage is reached by letting go of a factor still present in the one before it."@en ;
+    pm:fromWork pmw:DighaNikaya,
+        pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:FourStatesOfConsciousness a pm:Conceptualizing ;
@@ -19724,6 +19894,8 @@ pmc:Manomayakaya a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)",
         "Dīgha Nikāya 2, Sāmaññaphala Sutta, DN i.77 (trans. Ṭhānissaro Bhikkhu)" ;
     skos:definition "A second body, formed and complete in its faculties, said to be produced from this one; the classical form of the claim the modern draft calls exteriorisation."@en ;
+    pm:fromWork pmw:DighaNikaya,
+        pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:Maqamat a pm:Conceptualizing ;
@@ -19761,6 +19933,7 @@ pmc:Piti a pm:Conceptualizing ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "Rapture as a bodily felt state, graded in the handbook into five degrees of increasing pervasion."@en ;
     skos:note "The five degrees are khuddikā, khaṇikā, okkantikā, ubbegā and pharaṇā."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:Praktike a pm:Conceptualizing ;
@@ -19782,6 +19955,7 @@ pmc:Samadhi a pm:Conceptualizing ;
         "Concentration"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga I.7-I.11 (trans. Ñāṇamoli 1956)" ;
     skos:definition "The second of the three trainings, named in the handbook as the condition for the six direct knowledges."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:ShangqingShijieZhengbian a pm:Conceptualizing ;
@@ -19794,6 +19968,16 @@ pmc:ShangqingShijieZhengbian a pm:Conceptualizing ;
         "The corpus does rank the outcome rather than treating all as equal, which keeps it from being simply a blanket. Release through the corpse is said not to command the flowered canopy, ride the flying dragon, ascend to the Great Ultimate or roam the nine palaces; and daylight departure is said not to be a case of release through the corpse at all."@en,
         "This is the node the counter-search was carried for and the one it found; see pmp:ZhengaoShijieCountsSearch. The protocol that names the outcomes the rule treats alike stands in examinations/shangqing-intervals.ttl."@en ;
     pm:withinTradition pmt:Shangqing .
+
+pmc:ShouyiMianLiri a pm:Conceptualizing ;
+    rdfs:label "Wer das Eine bewahrt, steht nicht mehr unter dem Kalender"@de,
+        "He who guards the One is no longer under the calendar"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 18 (Dizhen), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 18" ;
+    skos:definition "The chapter states an exemption and states it as a consequence of the attainment. One who can guard the One travels ten thousand li, goes into an army, crosses great rivers, and need not divine the day or choose the hour; in beginning works, in moving house, in entering a new dwelling, he no longer consults the siting calendars; he does not avoid the year star, the general of the great yin, the killing and wasting spirits of the month establishment or the taboos of his year and fate; and in the end he never meets with calamity. It closes by calling this a way that the worthies of former times tested one after another and found to hold."@en ;
+    skos:note "It also names the interest the exemption serves inside the work. The chapter is arguing that guarding the One replaces several thousand other methods, and an exemption from the calendar is one more thing the reader no longer has to do. That is a reason for caution about the claim and not a reason to leave it out."@en,
+        "This is the passage that keeps the same work from speaking with one voice about the calendar. Its eighth chapter binds the circulation of the qi to the hours of living qi and says that in the hours of dead qi it is of no benefit; its seventeenth binds the entering of mountains to years, months and days and states the harm that follows; and its eighteenth says that a man of one particular attainment is under none of it. The exemption is granted by a state of the operator, which is exactly what a calendrical condition is otherwise said not to depend on."@en,
+        "What it does not say is that an operation done outside its window works. It says that this man no longer chooses days at all, which is a claim about who stands under the rule and not about what the rule does. The difference decides whether it refutes the generalization in generalizations/efficacy-bound-to-the-calendar.ttl or only narrows it, and the note there records that it narrows it."@en ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:Sigui a pm:Conceptualizing ;
     rdfs:label "Sigui"@de,
@@ -19808,6 +19992,8 @@ pmc:SoulJourney a pm:Conceptualizing ;
     dcterms:source "Herodotus, Histories IV.13-16",
         "Pliny, Naturalis Historia VII.174" ;
     skos:definition "The claim that the soul leaves the body and returns to it, reported of Aristeas of Proconnesus and of Hermotimus of Clazomenae."@en ;
+    pm:fromWork pmw:HerodotiHistoriai,
+        pmw:NaturalisHistoria ;
     pm:withinTradition pmt:GraecoRoman .
 
 pmc:TalamDiaSlugadh a pm:Conceptualizing ;
@@ -19857,12 +20043,6 @@ pm:byEffort a pm:AwarenessValue,
     skos:definition "The source has the condition attained by practice directed at attaining it."@en ;
     skos:note "This is the end of the axis where prerequisite chains are to be expected, and where their absence is worth a question. The Sufi handbooks call these maqāmāt and enumerate them in a set order."@en .
 
-pm:corpusUnreachable a pm:SearchOutcome ;
-    rdfs:label "Korpus nicht erreichbar"@de,
-        "Corpus unreachable"@en ;
-    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
-    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
-
 pm:counterSearchFoundNothing a pm:CounterSearchState ;
     rdfs:label "Gegensuche ohne Fund"@de,
         "Counter-search found nothing"@en ;
@@ -19907,6 +20087,8 @@ pmp:Anapanasati a pm:Practicing ;
         "Majjhima Nikāya 118" ;
     skos:definition "Mindfulness of in-breath and out-breath, set out as a sixteen-step progression in the discourse and as a meditation subject in the handbook."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:MajjhimaNikaya,
+        pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmp:AyurvedaAcararasayana a pm:Practicing ;
@@ -20061,10 +20243,30 @@ pmt:Platonic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Plato, Symposium" .
 
+pmw:DeDivinatione a dcterms:BibliographicResource ;
+    rdfs:label "Cicero, De divinatione"@de,
+        "Cicero, De divinatione"@en ;
+    skos:note "Opened on 2026-09-21 at Book II, chapters XLII to XLVII, in the English of C. D. Yonge, The Treatises of M. T. Cicero, Bohn's Classical Library, London 1878. Read continuously; the remainder of both books was not read. Unlike the other four works of this corpus the edition is recoverable, because this passage was read in this run and not inherited."@en .
+
+pmw:DivusVespasianus a dcterms:BibliographicResource ;
+    rdfs:label "Sueton, Divus Vespasianus"@de,
+        "Suetonius, Divus Vespasianus"@en ;
+    skos:note "Opened at chapter 7. The edition is not recoverable; see prima-materia#45."@en .
+
 pmw:KausitakiBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Kauṣītaki-Brāhmaṇa"@de,
         "Kauṣītaki Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the same volume and translation as the Aitareya. Read at the wording: chapter xxvi, sections 4 to 6, which carry the named disagreement about whether a detected flaw in the recitation has to be repaired at all. The registration of this tradition did not name this work; it is added to the corpus at the instance because the reading found it there, and the coined identifier of the tradition is kept unchanged."@en .
+
+pmw:MajjhimaNikaya a dcterms:BibliographicResource ;
+    rdfs:label "Majjhima Nikāya"@de,
+        "Majjhima Nikāya"@en ;
+    skos:note "Opened at sutta 118. The edition is not recoverable; see prima-materia#45."@en .
+
+pmw:MishkatAlMasabih a dcterms:BibliographicResource ;
+    rdfs:label "Mishkāt al-Maṣābīḥ"@de,
+        "Mishkāt al-Maṣābīḥ"@en ;
+    skos:note "Not opened. The work is known to this holding only through the passages Hughes quotes from its twenty-first book, and the quotation is his English and not a translation this run can check against an original."@en .
 
 pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
     rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
@@ -20131,6 +20333,7 @@ pmc:Iddhividha a pm:Conceptualizing ;
         "The kinds of supernormal power"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga XII (trans. Ñāṇamoli 1956)" ;
     skos:definition "Transformation by supernormal power, the first of the direct knowledges treated in the handbook."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:MagnetismeLucidite a pm:Conceptualizing ;
@@ -20212,6 +20415,12 @@ pm:StateDuration a owl:Class,
         "State Duration"@en ;
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:corpusUnreachable a pm:SearchOutcome ;
+    rdfs:label "Korpus nicht erreichbar"@de,
+        "Corpus unreachable"@en ;
+    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
+    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
 
 pm:ownAgency a pm:AgencyHolding,
         pm:AwarenessValue ;
@@ -20319,6 +20528,16 @@ pmt:Upanisadic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Chāndogya Upaniṣad; Māṇḍūkya Upaniṣad" .
+
+pmw:NaturalisHistoria a dcterms:BibliographicResource ;
+    rdfs:label "Plinius, Naturalis Historia"@de,
+        "Pliny, Naturalis Historia"@en ;
+    skos:note "Opened at VII.174. The edition is not recoverable; see prima-materia#45."@en .
+
+pmw:TacitiHistoriae a dcterms:BibliographicResource ;
+    rdfs:label "Tacitus, Historien"@de,
+        "Tacitus, Historiae"@en ;
+    skos:note "Opened at IV.81. The edition is not recoverable; see prima-materia#45."@en .
 
 pmc:AyurvedaDehasamhanana a pm:Conceptualizing ;
     rdfs:label "Der Körper dicht gemacht und von keinem Geschöpf angreifbar"@de,
@@ -20443,6 +20662,11 @@ pmt:Sufism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "al-Sarrāj, Kitāb al-Lumaʿ; al-Qushayrī, al-Risāla al-Qushayriyya" .
 
+pmw:HerodotiHistoriai a dcterms:BibliographicResource ;
+    rdfs:label "Herodot, Historien"@de,
+        "Herodotus, Histories"@en ;
+    skos:note "Opened at IV.13-16. The edition is not recoverable; see prima-materia#45."@en .
+
 pmc:ParakayaPravesa a pm:Conceptualizing ;
     rdfs:label "Eintritt in einen anderen Körper"@de,
         "Entering another body"@en ;
@@ -20501,17 +20725,6 @@ pmp:NeidanHuohou a pm:Practicing ;
     dcterms:source "Zhang Boduan, Wuzhen pian, in Wuzhen pian zhushi (DZ 145), Zhengtong Daozang, Hanfenlou facsimile, juan 2, fol. 30a" ;
     skos:definition "The regulation of the work by a schedule of advancing and withdrawing: the yang fire raised from one point of the cycle, the yin tally applied from the opposite point, the whole run through in a set number of intervals. The corpus treats the schedule as the operative part of the operation and as the part that is not written down."@en ;
     pm:withinTradition pmt:Neidan .
-
-pmt:GraecoRoman a pm:Tradition ;
-    rdfs:label "Griechisch-römisches Zeugnis"@de,
-        "Graeco-Roman testimony"@en ;
-    dcterms:source "Herodotus, Histories IV.13-16" ;
-    skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en,
-        "The file records that a route to Indian material has been proposed for the older Greek transmission and not shown. Disputed is therefore the state of the question, not a hedge."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "Herodotus, Histories; Tacitus, Historiae; Suetonius, Divus Vespasianus; Pliny, Naturalis Historia" .
 
 pmt:NavajoCeremonial a pm:Tradition ;
     rdfs:label "Navajo-Zeremonialüberlieferung"@de,
@@ -20639,6 +20852,23 @@ pmt:FourthWay a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
 
+pmt:GraecoRoman a pm:Tradition ;
+    rdfs:label "Griechisch-römisches Zeugnis"@de,
+        "Graeco-Roman testimony"@en ;
+    dcterms:source "Herodotus, Histories IV.13-16" ;
+    skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities, and of the argumentative literature that disputes them."@en ;
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en,
+        "The file records that a route to Indian material has been proposed for the older Greek transmission and not shown. Disputed is therefore the state of the question, not a hedge."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:corpusWork pmw:DeDivinatione,
+        pmw:DivusVespasianus,
+        pmw:HerodotiHistoriai,
+        pmw:NaturalisHistoria,
+        pmw:TacitiHistoriae ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:HerodotiHistoriai ;
+    pm:principalCorpus "Herodotus, Histories; Tacitus, Historiae; Suetonius, Divus Vespasianus; Pliny, Naturalis Historia; Cicero, De divinatione" .
+
 pmc:AyurvedaVayahsthapana a pm:Conceptualizing ;
     rdfs:label "Das Aufhalten des Alters, und die Rückkehr der Jugend zu einem bereits Alten"@de,
         "The arresting of age, and the return of youth to one already old"@en ;
@@ -20712,11 +20942,6 @@ pmt:Spiritism a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Kardec, Le Livre des Esprits; Kardec, Le Livre des Médiums; Kardec, L'Évangile selon le spiritisme; Kardec, La Genèse; the Revue Spirite, 1858-1869" .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
@@ -20758,6 +20983,11 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
 
+pmw:DighaNikaya a dcterms:BibliographicResource ;
+    rdfs:label "Dīgha Nikāya"@de,
+        "Dīgha Nikāya"@en ;
+    skos:note "Opened at suttas 1, 2 and 11. For sutta 1 the edition is recoverable, because the Mahāsīla was read at the wording in this run: T. W. Rhys Davids, Dialogues of the Buddha, Part I, Sacred Books of the Buddhists vol. II, London 1899, pp. 16-26. For suttas 2 and 11 the edition is not recoverable and prima-materia#45 records that."@en .
+
 pmw:GinzaRabba a dcterms:BibliographicResource ;
     rdfs:label "Ginzā Rabbā, der große Schatz"@de,
         "Ginzā Rabbā, the Great Treasure"@en ;
@@ -20771,6 +21001,11 @@ pmc:AyurvedaSmrtimedha a pm:Conceptualizing ;
     skos:note "Of the whole set of capacities this is the one a trial could touch tomorrow, and the lesson gives it no term, no measure and no procedure. It is also the one place where the wording of the claim is disputed inside the translation itself, which is why the translator's note is reported here rather than smoothed away."@en ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -20815,11 +21050,6 @@ pmt:Ifa a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
-
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:HawaiianRitual a pm:Tradition ;
     rdfs:label "Hawaiische Überlieferung"@de,
@@ -20873,6 +21103,11 @@ pmt:Shinto a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:Nihonshoki ;
     pm:principalCorpus "Kojiki; Nihon shoki; the norito of the Engishiki" .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -21074,11 +21309,6 @@ pm:Originating a owl:Class ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmp:NorseLjodatal a pm:Practicing ;
     rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
         "Knowing and singing the eighteen songs"@en ;
@@ -21100,6 +21330,11 @@ pmt:MayaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Popol Vuh in the Ximenez manuscript; the Books of Chilam Balam; the Dresden Codex; the Ritual of the Bacabs; Landa, Relacion de las cosas de Yucatan, as the account of an outside observer" .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:InsularCeltic a pm:Tradition ;
     rdfs:label "Inselkeltische Überlieferung"@de,
@@ -21298,6 +21533,16 @@ pmt:Hathayoga a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Svātmārāma, Haṭhayogapradīpikā" .
 
+pmw:Visuddhimagga a dcterms:BibliographicResource ;
+    rdfs:label "Buddhaghosa, Visuddhimagga"@de,
+        "Buddhaghosa, Visuddhimagga"@en ;
+    skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956."@en .
+
+pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
+    rdfs:label "Śatapatha-Brāhmaṇa"@de,
+        "Śatapatha Brāhmaṇa"@en ;
+    skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
+
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
         "Theravāda"@en ;
@@ -21305,13 +21550,14 @@ pmt:Theravada a pm:Tradition ;
     skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
     skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:DighaNikaya,
+        pmw:Jataka,
+        pmw:MajjhimaNikaya,
+        pmw:VinayaPitaka,
+        pmw:Visuddhimagga ;
     pm:coverageState pm:placesEntered ;
-    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas and the Vinaya; Buddhaghosa, Visuddhimagga" .
-
-pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
-    rdfs:label "Śatapatha-Brāhmaṇa"@de,
-        "Śatapatha Brāhmaṇa"@en ;
-    skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -21352,16 +21598,6 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
 pm:searchFoundNothing a pm:SearchOutcome ;
     rdfs:label "Suche ohne Fund"@de,
         "Search found nothing"@en ;
@@ -21380,6 +21616,16 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
@@ -21597,11 +21843,6 @@ pmt:Shangqing a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pmt:Jain a pm:Tradition ;
     rdfs:label "Jainistische Überlieferung"@de,
         "Jain transmission"@en ;
@@ -21616,6 +21857,11 @@ pmt:Jain a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ācārāṅga Sūtra; Umāsvāti, Tattvārthasūtra; Hemacandra, Yogaśāstra" .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
