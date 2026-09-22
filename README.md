@@ -30,4 +30,4 @@ without doing the research and without standing in a tradition.
 
 ## Licence
 
-CC0 1.0. Built from source commit `0d873c9b2b6517c08ac5b1973415a0f37894b48c`.
+CC0 1.0. Built from source commit `24ea7dd41b73b2295098edc164857d6789bec359`.
