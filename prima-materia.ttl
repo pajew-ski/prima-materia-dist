@@ -1252,6 +1252,86 @@ pmc:AffectCouplingProtocol a pm:Testing ;
     pm:tests pmc:AffectCouplingShiftsTheCarrier ;
     pm:undividedOutcomes "A threshold for risk that has been raised, and one that has been lowered. The claim covers both alike, so acting on it cannot tell the practitioner which of the two he has brought about."@en .
 
+pmc:AgrippaCensuraInEodemVolumine a pm:Conceptualizing ;
+    rdfs:label "Der Widerruf, gedruckt in dem Band, den er widerruft"@de,
+        "The retraction printed inside the volume it retracts"@en ;
+    dcterms:source "Agrippa, De occulta philosophia, the censure or retraction printed after book III (trans. J. F., London 1651)" ;
+    skos:definition "A structural fact of the volume, read at the wording. After the conclusion of the third book and two letters of the author there follows a piece headed as the censure or retraction of Henry Cornelius Agrippa concerning magic, after his declamation of the vanity of the sciences and the excellency of the word of God. It is not a withdrawal of the contents: it opens by saying that this place requires that we speak of magic, that he who professes magic without astrology does nothing but is altogether in error, and it then divides magic into natural and ceremonial and treats natural magic as the highest power of the natural sciences, naming the peoples who chiefly excelled in it."@en ;
+    skos:note "Entered because the arrangement decides how the work is to be read and is regularly reported the other way round. The retraction is not a later document set against the book; it is bound into the book, after the conclusion, in the same volume, and what stands under its heading is a further exposition of magic. A reader told that the author withdrew the work will find the withdrawal printed as one of its parts."@en,
+        "What was read is the heading, its place in the sequence, and the opening sections on magic in general and on natural magic. The rest of the piece was not read, and the declamation on the vanity of the sciences from which it is drawn was not opened."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaCredulitas a pm:Conceptualizing ;
+    rdfs:label "Beständige Leichtgläubigkeit wirkt Wunder in Meinungen und falschen Verrichtungen"@de,
+        "Constant credulity works miracles in opinions and false operations"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.4 (trans. J. F., London 1651)" ;
+    skos:definition "The third book states of superstition — which it defines as a resemblance of religion, imitating its miracles, sacraments, rites and observations — that it gets no small power from that imitation and no less strength from the credulity of the operator; that a constant credulity can do so great things as even to work miracles in opinions and false operations; and that whosoever in his religion, though false, yet believes most strongly that it is true, and raises his spirit by that credulity until it is assimilated to the leading spirits of that religion, may work those things which nature and reason do not discern. It adds that incredulity and diffidence weaken every work, not only in superstition but also in true religion, and enervate the desired effect even of the strongest experiments."@en ;
+    skos:note "It is not a critic's observation reported by the work; it is the work's premise for a practical warning. The chapter goes on to say that the old authors of the art were Chaldaeans, Egyptians, Assyrians, Persians and Arabians whose religion was polluted idolatry, and that their errors must not be allowed to war against the Catholic religion. The argument runs: since credulity works either way, the choice of what to be credulous about is a matter of piety and not of efficacy."@en,
+        "This is the sharpest sentence the holding carries on the point, and it is the work's own. The transmission states in its instructions that the truth of the doctrine is not what decides the outcome, and that the same condition produces the effect inside a religion its author holds to be false. Once that is said, no result can tell for or against any particular doctrine of the work, and the author says it while arguing that the reader should therefore be careful which religion he imitates."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaDignificatio a pm:Cautioning ;
+    rdfs:label "Viele treiben diese Kunst vergeblich, weil ihnen die Würdigung fehlt"@de,
+        "Many prosecute this art in vain, for want of being dignified to it"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.3 (trans. J. F., London 1651)" ;
+    skos:definition "The requirement the third book calls the beginning, the perfection and the key of all magical operations. The faculty requires in a man a wonderful dignifying, because the understanding, the highest faculty of the soul and the only worker of wonders, is not worthy of the command of divine substances when it is overwhelmed by too much commerce with the flesh; therefore, the work says, many prosecute this art in vain. Two things are to be meditated: how to leave carnal affections, frail sense and material passions, and by what means to ascend to an intellect pure and conjoined with the powers above. Natural dignity is the best disposition of the body and its organs and proceeds from the situation and influence of the celestial bodies at a man's generation; whoever is not born such must recompense the defect of nature by education and the right use of natural things."@en ;
+    skos:note "A second clause of the same kind was read in the third book, in the chapter on holy names: the manner and rules delivered by the first institutor must be observed, for they who are ignorant of these things lose their labour and work in vain. Which rules those are, and where they are delivered, is not said at that place."@en,
+        "The condition is partly fixed before birth, and the work says so in astrological terms: whether a man has it depends on the state of his ninth house at his generation. What is offered to the man who lacks it is a recompense by education with no stated point at which the recompense is complete. Between that and the reader's dulness of intellect at the conclusion, the work has assigned a failure to the operator's constitution at both ends."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaDuaeRationesEfficaciae a pm:Disputing ;
+    rdfs:label "Ob die Wirkung den Glauben des Handelnden verlangt, innerhalb eines Werkes bestritten"@de,
+        "Whether the effect requires the operator's belief, disputed inside one work"@en ;
+    dcterms:source "Agrippa, De occulta philosophia I.20 (trans. J. F., London 1651)",
+        "Agrippa, De occulta philosophia I.66 (trans. J. F., London 1651)" ;
+    skos:definition "The two sides the volume carries without joining them. On one side the operation requires a firm belief in the worker, doubt breaks the virtue of his mind, and a constant credulity works even in false operations. On the other side the virtue is seated in the substance of a thing or in one of its members and acts by mere touch or by being seen, with nothing required of anybody. The dispute is not between parties: it is between two chapters of the same book, and neither refers to the other at the places read."@en ;
+    skos:note "Entered as a dispute and not as a remark because the two sides have different consequences for everything else in the work. If the belief condition governs, then every failure is accounted for in advance and no operation of the work can be tested; if the substance doctrine governs, then a good part of the first book states claims that could be tried on a bench. A reader who wants to know which the work means has to decide, and the work does not decide for him at the places read."@en,
+        "The two sources of this node are two places in one volume rather than two works, which is unusual for this class in the holding and is the honest form here: what is in dispute is stated twice in one book. Whether the Latin of 1533 or the manuscript of 1510 joins them somewhere is open, and it is the first thing a run with the critical edition should look at, because the chapters carrying the belief condition are among those the manuscript is reported not to contain."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:AgrippaFides ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaHoraePlanetariae a pm:Conceptualizing ;
+    rdfs:label "Die ungleichen Stunden, und die Nachlässigkeit, durch die viele ihrer Wirkung beraubt werden"@de,
+        "The unequal hours, and the neglect by which many are defrauded of their effect"@en ;
+    dcterms:source "Agrippa, De occulta philosophia II.34 (trans. J. F., London 1651)" ;
+    skos:definition "The ground of the planetary hours as the second book gives it. Two things are to be observed: the motions, ascensions and windings of the stars as they truly are in the eighth sphere, through the neglect of which, the work says, it happens that many err in fabricating the celestial images and are defrauded of their desired effect; and the times of choosing the planetary hours, which are formed by dividing the span from sunrise to sunset into twelve equal parts and the span from sunset to sunrise likewise, and distributing those hours to the planets in order, the first hour of the day going always to the lord of that day."@en ;
+    skos:note "A named cause of failure that lies neither in the operator's belief nor in a third party but in a calculation, and it is the only one of that kind among the places read. It is also the only one a later reader could in principle audit: whether an image was made at a given hour, and whether that hour was computed in the eighth sphere, are questions about a record rather than about a state of mind."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaNonApprobo a pm:Cautioning ;
+    rdfs:label "Das Tor des Acheron ist in diesem Buch, und ich billige sie nicht"@de,
+        "The gate of Acheron is in this book, and I do not approve of them"@en ;
+    dcterms:source "Agrippa, De occulta philosophia, the address to the reader (trans. J. F., London 1651)" ;
+    skos:definition "The author's warning against his own book, in the address to the reader. Those who would take the name of magic in the worse sense are advised not to read his writings, nor understand them, nor remember them, for they are pernicious and full of poison; the gate of Acheron is in this book, and it speaks stones, so let them take heed that it does not beat out their brains. To the reader who comes without prejudice he says that if he finds anything that may not please him, he should let it alone and make no use of it, for the author does not approve of those things but declares them to him; and that he has written many things rather narratively than affirmatively."@en ;
+    skos:note "A self-warning standing inside the passage that publishes the thing, which is the shape this holding already carries from several transmissions; what is unusual here is that it is a warning of non-approval rather than of danger alone. The author reserves, in advance and without naming which, a portion of his own contents that he reports without endorsing. That leaves no way to tell an endorsed instruction from a reported one, and it leaves the author right whatever the reader finds."@en,
+        "The same address carries the retraction and the objection to it in the author's own voice: he says that being become a man he retracted what he did as a boy, and that in his book on the vanity of the sciences he for the most part retracted this book; he then puts the reader's obvious question — you wrote it young and have retracted it, what then have you published — and answers not by withdrawing anything but by an account of how an unfinished copy got loose in Italy, France and Germany. So the work is published as a thing its author has retracted, and the reason given for publishing is the control of the text and not its truth."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaVirtutesInSubstantia a pm:Conceptualizing ;
+    rdfs:label "Kräfte in der ganzen Substanz oder in einem Teil, wirkend durch Berührung oder Blick"@de,
+        "Virtues seated in the whole substance or in a part, working by touch or by sight"@en ;
+    dcterms:source "Agrippa, De occulta philosophia I.20 (trans. J. F., London 1651)" ;
+    skos:definition "The doctrine of the first book about where a natural virtue is seated. In some things it is in the whole substance or in all their parts — the little fish that is said to stop a ship by its mere touch, the plant good for the sight no more in the root than in the leaves and the seeds — and in other things only in a member: in the eyes of the basilisk a power to kill as soon as it sees, in the eyes of certain wolves a power to take away a man's voice if they see him first. The work adds that those who work by witchcraft use the eyes of such animals in their waters for that reason, and gives a list of further cases: ants fleeing the heart of one bird and not its head or eyes, the gall of one animal gathering weasels, the gall of another gathering frogs."@en ;
+    skos:note "Entered because it is the other theory of the same work and it is not reconciled with the first. Here the virtue is in the substance and acts by touch or by being seen; nothing is required of an operator, nothing is said of his belief, and in the clearest cases — the fish, the basilisk, the wolf — there is no operator at all. Set beside the condition of firm belief and the clause about credulity in false operations, the volume carries two accounts of how its own effects come about and joins them nowhere that was read."@en,
+        "The reason for keeping both and not choosing is that the choice is exactly what a later reader would supply. A holding that entered only the belief condition would report a psychological magic; one that entered only the substances would report a natural philosophy; the work is both, and which of the two a modern presentation quotes is the first thing to check about that presentation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
 pmc:AhwalAreNotByEffort a pm:Situating ;
     rdfs:label "Die Zustände werden nicht durch Anstrengung erlangt"@de,
         "The states are not attained by effort"@en ;
@@ -10624,6 +10704,20 @@ pmp:AegyptiaVulturAureus a pm:Practicing ;
     pm:fromWork pmw:BookOfTheDead ;
     pm:withinTradition pmt:EgyptianRitual .
 
+pmp:AgrippaSuccessSignSearch a pm:Searching ;
+    rdfs:label "Ob die drei Buecher ein wahrnehmbares Zeichen dafuer nennen, dass eine Verrichtung gewirkt hat"@de,
+        "Whether the three books name a perceptible sign that an operation has worked"@en ;
+    dcterms:date "2026-09-22" ;
+    skos:note "Not one sign of an operation. The fifteen terms produce seventeen hits in the whole volume and every one of them is something else: the translator's own preface telling the buyer that he shall see the possibility of these things confirmed by reason and example; the chapters on astrological judgement, where what shall appear is a prodigy or a configuration to be interpreted and not the result of anything done; a passage on extracting the name of a genius, where what shall appear is the star that governs a person; and scriptural quotations about seeking and finding and about faith as a grain of mustard seed."@en,
+        "The comparison that makes the count readable rather than impressive. The Greek magical papyrus this holding opened at the same time announces a dozen sights in order and states one forfeiture; this work states seven kinds of failure and no sight. They are opposite arrangements of the same silence, and neither gives the practitioner a criterion: the papyrus tells him what he will see and never what would show it had failed, and this work tells him what will have gone wrong and never what it looks like when nothing has."@en,
+        "What the empty result is worth, set against what the same volume does say. This work states that a firm belief is required and that doubt breaks the operation; that a constant credulity works miracles even in false operations; that the operator must be dignified and that many prosecute the art in vain for want of it; that nothing will be done without the assistance of the moon; that neglect of the true motions defrauds many of their desired effect; that publication destroys the experiment; and that a reader who does not obtain his desire should accuse himself. Seven places where a failure is accounted for, and no place where a success is recognised. A transmission arranged that way cannot be wrong at any point its own text admits."@en,
+        "Where a later run should go, and what it must not conclude. The fourth book that circulates under this author's name is reported to supply exactly what is missing here, in the form of the shapes in which the spirits of the planets appear; it is a work of 1559, twenty-four years after his death, it was not opened in this run, and nothing about it is claimed. If it does carry the signs, the interesting fact will be that the pseudepigraph supplies what the authentic work withholds."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the whole volume, case-insensitive, for: thou shalt see, you shall see, shall appear unto, will appear unto, sign that, a sign of, token of, thou shalt know, you shall know, shalt perceive, shall perceive, thou shalt find, shall feel, shall hear, if it be done rightly. Every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-09-22" ;
+    pm:searchedCorpus "Agrippa, De occulta philosophia, the whole of the volume in the English translation of 1651 — the three books, the address to the reader, the two letters and the censure printed after book III (trans. J. F., London 1651)."@en ;
+    pm:searchedFor "A passage telling the operator what he would perceive when an operation of the work has taken effect: an appearance, a light, a warmth, a voice, a state of the body, any observable announced in advance as the mark of success. The work states conditions of success in quantity and conditions of failure in quantity; whether it anywhere states a sign had to be established across the whole volume, because a run that read only the chapters on dignification and on celestial opportunity would have found none and learnt nothing from that."@en .
+
 pmp:AndeanDreamDivination a pm:Practicing ;
     rdfs:label "Wahrsagen durch Schlafen auf dem Kleidungsstück des Fragenden"@de,
         "Divining by sleeping on the questioner's garment"@en ;
@@ -13143,15 +13237,6 @@ pmt:Reiki a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Usui Reiki Ryōhō Hikkei; Hayashi, Reiki Ryōhō Shishin" .
 
-pmt:RenaissanceMagic a pm:Tradition ;
-    rdfs:label "Gelehrte Magie der Renaissance"@de,
-        "Renaissance learned magic"@en ;
-    skos:definition "The early modern attempt to give magic a philosophy: sympathies, images, memory as an operative art, and angelic communication kept as a record."@en ;
-    skos:note "Dee's diaries are a working log with dates, which makes them a different kind of witness from the treatises around them."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Ficino, De vita libri tres; Agrippa, De occulta philosophia; Bruno, De umbris idearum; Dee, Monas Hieroglyphica and the spiritual diaries" .
-
 pmt:Rosicrucian a pm:Tradition ;
     rdfs:label "Rosenkreuzerische Überlieferung"@de,
         "Rosicrucian transmission"@en ;
@@ -13361,6 +13446,7 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         "It matters for the spread as well as for the count. Six of the seven earlier witnesses stand in the Chinese and European spheres and the seventh in the Graeco-Egyptian; this one is West Asian, its contact route to the others is disputed rather than documented, and a run that wants to know whether the form is a property of a culture now has a fourth sphere to reckon with. What it does not do is make the second clause independent: the Mandaean rule reaches the graph through a field record of the nineteen-thirties, not through the scripture, and a search of the Ginzā and of the prayerbook for the same rule came back empty. See pmp:MandaeanGinzaTaxatioSearch."@en,
         "It narrows the statement and does not refute it, and the difference is worth being exact about. The chapter does not say that an operation performed outside its window works; it says that a man of this attainment no longer chooses days at all, which is a claim about who stands under the rule. Had it said that the practice takes effect in the hours of dead qi for such a man, the first clause would be gone."@en,
         "One of the two also marks a limit that the earlier witnesses did not show, and it is recorded here rather than left for a reader to notice. The handbook's slip against the falling sickness carries, in the same heading, a condition on the sufferer: the remedy is for one who has not yet fallen into fire or water. A calendar condition and a person-condition therefore stand on one prescription. That does not touch the statement, which says how a calendar condition is stated and not that a transmission may state nothing else; but it shows that the two kinds are not alternatives in practice, and a later run that reads the first clause as an exclusion of person-conditions would be reading it too widely."@en,
+        "Tenth witness, added on 2026-09-22 from Renaissance learned magic. The second book requires that a planet be placed in its dignities, fortunate, powerful and ruling in the day, in the hour and in the figure of the heaven, and that the moon be opportunely directed, and then says flatly that thou shalt do nothing without the assistance of the moon. The condition is a position of the luminaries and nothing is asked of either party; the consequence is stated as an impossibility and not as a diminution, which is the strong form of the second half of this statement. It comes with the difficulty the statement does not cover: the same page offers three separate celestial conditions, so a single failure has a choice of causes and the operator is given no way to tell which failed him."@en,
         "That narrowness is the reason for the two witnesses added on 2026-09-13, and they are the first from outside the Chinese sphere. The European folk-magic handbook binds a whole class of its acts to a named weekday, an hour before sunrise and a named quarter of the moon — Friday before sunrise in the waning moon for the knotting of twigs, the first Friday in the new light for the slip against the falling sickness, the last Friday in the old light for the letter against rheumatism. The Old English Herbarium binds one remedy for the same disease to two calendar conditions at once, the waning moon and the sun in the Virgin, which the text itself resolves into the month of August. Both were read at the wording; the second was found by a counter-search that was looking for something else. The spread is now three transmissions and two spheres between which no route has been proposed."@en,
         "The consequent it does not supply at all, and that silence is now the commonest case in the class. At none of the six does the lesson say what befalls a user who acts outside the window, which makes this the second witness after the demotic manual to confirm the antecedent many times over and leave the consequent unattested. Of nine witnesses four now state where the failure lies and five do not. A statement whose second clause is carried by fewer than half its predecessors should be read as two statements, and a later run may want to split it."@en,
         "The counter-search was run against the compiled holding before this was written, for transmissions that bind an operation to a time and for transmissions that refuse to. Nothing in the holding says of an operation of this kind that it works whatever the day. What the search did turn up is the case that keeps the second clause from being stated more strongly: the operative transmission of the science of letters prescribes seven days of the lunation on which its orations are to be said, and the holding already carries that at prescribed order rather than at stated necessity, on the ground that the text does not say what follows if a day is missed. A window with no stated failure is therefore a real and already recorded shape, and the statement is worded so that such a case does not falsify it."@en,
@@ -13373,7 +13459,8 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         "The witness also brings its own qualification, and it is sharper than the one the internal alchemy supplied. The same lesson offers, in the verse that names the chamber, a second route carrying no date at all, the route of wind and sun, and assigns it in its fourth section to everyone who is not strong, healthy, intellectual, self-controlled, forgiving and possessed of means; it then offers a third, the rasāyana of conduct, which has neither drug nor chamber nor date, and claims the same result for it. The binding and the release stand in one lesson, for one operation, and the release is given to the larger class of users. What the lesson does not do is say that the operation works on any day: the release is by omission and not by denial. See pmp:AyurvedaKalanirapeksaSearch, which put both questions, and pmc:TheWaiverRunsBothWays, which is the generalization formed from the release."@en,
         "Two of the three witnesses stand in the same tradition. The spread is therefore two transmissions and not three, and the claim is correspondingly weaker than the count of predecessors suggests. See prima-materia#666."@en ;
     pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:AyurvedaKutipravesaKala,
+    pm:generalizedFrom pmc:AgrippaSineLuna,
+        pmc:AyurvedaKutipravesaKala,
         pmc:EuropeanFolkMagicAsterionPresupposesFenster,
         pmc:EuropeanFolkMagicMondfenster,
         pmc:MandaeanDiesMbattal,
@@ -13484,6 +13571,53 @@ pmc:AffectCouplingShiftsTheCarrier a pm:Positing ;
     skos:definition "The claim that binding an intended state to a strong affect shifts what the person attends to, how ready they are to act, how they carry themselves, and where their threshold for risk lies."@en ;
     skos:note "Deliberately the weak reading. The neighbouring claim of the same section holds that the coupled state acts outside its carrier; that one is not examined here and nothing below bears on it. Separating them is the point: the weak reading is testable and the strong one is not, and running them together would let evidence for the first be read as evidence for the second."@en ;
     pm:positedIn "prima-materia#141" .
+
+pmc:AgrippaCulpaLectoris a pm:Cautioning ;
+    rdfs:label "Erlangt er sein Verlangen nicht, so klage er sich selbst an"@de,
+        "If he does not obtain his desire, let him accuse himself"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.65 (trans. J. F., London 1651)" ;
+    skos:definition "The clause closing the whole work. If any therefore through his incredulity or dulness of intellect does not obtain his desire, let him not impute the fault of his ignorance to the author, or say that he has erred or purposely written falsely and lied, but let him accuse himself, who does not understand the writings; for they are obscure and covered with divers mysteries, by which it will easily happen that many err and lose their sense. The author adds that he has folded up the truth of the science with many enigmas and dispersed it in divers places, and has delivered it in words which necessarily blind the foolish."@en ;
+    skos:note "It is placed where it does the most work: at the end, after two hundred chapters, as the conclusion of the whole work. Whoever has read that far and has nothing to show for it meets this sentence and no other account."@en,
+        "The failed run is assigned to the reader, and the two causes named — incredulity and dulness of intellect — are both properties of whoever complains. Neither can be cleared in advance and neither is anything the work undertakes to test. This is the same construction the holding carries from the burial book, from the elixir chapter and from the internal alchemy, arriving here from a learned author writing in print rather than from a lineage."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaFides a pm:Conceptualizing ;
+    rdfs:label "Der Glaube als festgesetzte Absicht, und der Handelnde, der gar nicht zweifeln darf"@de,
+        "Faith as a fixed intention, and the worker who must not doubt at all"@en ;
+    dcterms:source "Agrippa, De occulta philosophia I.66 (trans. J. F., London 1651)" ;
+    skos:definition "The condition stated of every operation in the first book. The mind effects things by faith, which the work defines as a firm adhesion, a fixed intention and a vehement application of the worker or the receiver to that which co-operates; in every work one is therefore to affect vehemently, imagine, hope and believe strongly. He that works in magic must be of a constant belief and not at all doubt of obtaining the effect. The medical analogy stands beside it: a strong belief, an undoubted hope and love towards the physician conduce much to health, sometimes more than the medicine itself."@en ;
+    skos:note "One word of the translation carries more than the Latin will bear and is therefore not built into this node. The print of 1651 has the worker be credulous, which in that English means trusting and in present English means gullible. What the node claims is the shape of the condition — firm belief required, doubt named as the cause of failure — which does not turn on that word."@en,
+        "The other half is the failure clause: distrust and doubting dissipate and break the virtue of the mind of the worker, whence it happens that he is frustrated of the desired influence of the superiors. A run that produced nothing therefore has an account waiting for it that does not touch the procedure, and the account is in the instructions."@en,
+        "The sentence that decides the standing of the whole work stands in the same paragraph and is not an aside: a firm and strong belief works wonderful things, the work says, although it be in false works. So the transmission states, of its own operations, that the condition it requires would produce the effect even where the operation is worthless — and it states this as an argument for the condition."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaSilentium a pm:Cautioning ;
+    rdfs:label "Durch Schweigen gestärkt, durch Veröffentlichung zerstört, und keine vollständige Wirkung folgt"@de,
+        "Strengthened by silence, destroyed by publication, and no complete effect follows"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.2 (trans. J. F., London 1651)" ;
+    skos:definition "The rule at the head of the third book. Those secrets which are among a few wise men and communicated by mouth only are not fit to be publicly written, and the author asks the reader's pardon for passing over in silence many and the chiefest secret mysteries of ceremonial magic; he supposes he has done enough if he opens what is necessary to be known. He then warns that every magical experiment flees the public, seeks to be hid and is strengthened by silence, but is destroyed by publication, neither does any complete effect follow after; and that the prating of a companion, his incredulity and unworthiness, hinders and disturbs the effect in every operation."@en ;
+    skos:note "The clause about the companion is the same displacement as the clause about the reader at the conclusion, one degree closer to the operation: a second person's talk, disbelief or unworthiness accounts for a failure, and none of the three is anything the operator could establish beforehand."@en,
+        "The failure condition sits on what the text keeps out of itself, which is the arrangement this holding already carries from three other transmissions. Here it is put twice over in one chapter: the chief mysteries are withheld, and the withholding is itself made a condition of the working. A reader who has the printed book therefore holds, by the book's own rule, a thing whose effect publication has destroyed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
+pmc:AgrippaSineLuna a pm:Cautioning ;
+    rdfs:label "Ohne den Beistand des Mondes wirst du nichts zustande bringen"@de,
+        "Thou shalt do nothing without the assistance of the Moon"@en ;
+    dcterms:source "Agrippa, De occulta philosophia II.29 (trans. J. F., London 1651)" ;
+    skos:definition "The rule on celestial opportunity in the second book. In every work the situation, motion and aspect of the stars and planets in signs and degrees are to be observed, and how these stand to the length and latitude of the climate. When working anything belonging to a planet, that planet must be placed in its dignities, fortunate and powerful, and ruling in the day, in the hour and in the figure of the heaven; and the moon must be observed as opportunely directed to the work, for, the work says, thou shalt do nothing without the assistance of the moon."@en ;
+    skos:note "A condition of failure fixed by the date and not by either party, which is the family of claims the holding has been collecting; and it is stated as a flat impossibility rather than as a diminution. What the clause does not carry is an account of how the operator would tell afterwards which condition had failed him, and the work supplies several candidates a page apart — the planet not in its dignities, the aspect not friendly, the moon not directed — so any one failure has a choice of causes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
 
 pmc:AmuletFailureIsAlwaysExcused a pm:Conceptualizing ;
     rdfs:label "Für ein versagendes Amulett findet sich immer eine Ausrede"@de,
@@ -15421,12 +15555,14 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         "An eleventh witness was added on 2026-09-18 from the demotic magical manual of London and Leiden, and it is the most repetitive of them. The work takes up the empty session six times in six different wordings and never once lets it stand: the boy who does not see the light, obduracy, obstinacy with the god unseen, a god who delays so as not to come in, a light that has not come forth, a light slow to come within, and gods who are inside and give no answer are each met by a further and stronger form of address. Where it does name a cause it names purity, which it calls its chief matter twice, and the fright of the boy who looked away. Both lie in the two people in the room and neither is anything an onlooker could check. What it adds to the ten is the count: this is not one excusing clause in a doctrine but the standing shape of every recipe in a working manual."@en,
         "Counter-search, carried against this holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Sami material reports two practitioners who set a period, named in advance the sign they demanded, received nothing and destroyed the instrument without explaining the failure away; it does not refute, because it reports conduct and not a rule of the transmission, and the node itself flags that both cases stand in a missionary's chapter on conversion. The Zande material prescribes a corroborative second test whose contradiction voids the verdict, which is an outcome a further run can establish and looks at first like the counter-case; it does not refute either, because the same transmission carries the eight causes beside it, so that the internal check and the external excuse coexist. What that pair shows is worth more than a clean confirmation: a transmission can hold a real check and an unlimited excuse at once, and the check then bounds nothing."@en,
         "Falsified by a transmission of the kind described whose earliest witness names an outcome that would count against the operation and supplies no condition assigning a failed run to the operator, the person operated on, the material or a third party. One such case refutes it. The likeliest places to look are the transmissions this holding carries that already name an observable sign of success, since a sign that can be present can also be absent: the feather at the nostril of the eighth chapter of the Baopuzi, the gold-coloured body of the golden liquor, and the ten-day term of the medical canon."@en,
+        "Fourteenth witness, added on 2026-09-22 from Renaissance learned magic, and it is the first from a printed book with a named author writing for a public. The conclusion of Agrippa's three books says that if any, through his incredulity or dulness of intellect, does not obtain his desire, he should not impute the fault to the author or say that the author erred or lied, but accuse himself, who does not understand the writings. The two causes named are properties of whoever complains, neither can be cleared in advance, and the sentence stands at the end of some two hundred chapters, where whoever has worked through them and has nothing to show meets it and no other account. What the witness adds to the statement is that the construction does not need a lineage, an initiation or a secret: it works in print, addressed to strangers."@en,
         "The claim is about where the failure is put and not about whether the operations work. A transmission that supplies such a clause is not thereby making a false claim; it is making one that the ordinary check cannot reach, because the check's negative outcome has been given a home in advance. That is the difference this project exists to record, and it is a property of the wording rather than of the world."@en,
         "The form was described from the outside, at the same period as two of the witnesses, by a first-century critic whose account this holding carries at pmc:BiansuiDispute: he put a counter-example to a practitioner three times and was answered three times with a fresh condition. Seeing the same form printed as instruction at pmc:JinchengYaocheng is what made the generalization worth forming. The description from outside is not counted among the witnesses, because a critic reporting the move is not a transmission supplying it."@en,
         "The witnesses are not of equal standing and the difference runs along one line. In the three Chinese cases the excusing clause is printed by the transmission itself, as part of the instruction or of the commentary that travels with it: nobody is being answered, and no outside observer is involved. In the three African cases it is the report of a European recorder, and two of the three recorders say so in their own voice — one holds that the practitioners themselves are responsible for the prohibitions because a prohibition leaves a reasonable excuse, and another summarises an attitude rather than quoting an informant. Observers of that period were looking for exactly this shape. The generalization therefore rests on the Chinese witnesses, where the clause is self-attested, and is corroborated with that caveat by the others."@en,
         "What each witness supplies, in the transmission's own terms. The golden elixir: where the assay yields no gold the drug is to be sealed and fired again for the same count of days, and then it never fails to form; and where it still does not form, an unbeliever may have slandered it. The medical canon: where the treatment establishes nothing, the spirit does not lend itself, and the passage supplies no mark by which the absence could have been seen beforehand. The burial book: the commentary on the sixth adversity enumerates the ways in which nothing happens, and every one of them is a circumstance of the family rather than of the site. The Kongo corpus: a charged thing that fails is either sulky and wants a sacrifice or has lost its power and wants renewing, and both branches cost a fee. The Zande oracle: eight named causes for a self-contradiction, from the wrong variety of creeper to the anger of the ghosts, and the recorder's summary that the errors as well as the sound judgements are taken as proof of its accuracy. The Slave Coast amulet: where the thing fails at the single danger it was made against, they are never at a loss for an excuse."@en ;
     pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:AmuletFailureIsAlwaysExcused,
+    pm:generalizedFrom pmc:AgrippaCulpaLectoris,
+        pmc:AmuletFailureIsAlwaysExcused,
         pmc:BengeFailureCauses,
         pmc:ClaviculaDefectusOperantis,
         pmc:FailureIsSulkinessOrLostPower,
@@ -16507,12 +16643,14 @@ pmc:TheFailureConditionFollowsWhatIsWithheld a pm:Generalizing ;
         "The failure condition sits on whatever the transmission keeps out of the text"@en ;
     skos:note "Counter-search, carried against the compiled holding before the statement was written, as SPEC §16 requires. Two near-misses and no refutation. The Hekhalot handbook states the preparation in exact counts — three days free of pollution, one bath, three prayers, a hundred names — and then names the penalty for the user who does not keep it, which is a failure condition a possessor of the text could meet; it does not refute, because the same corpus also withholds, and the run did not read the passages where names and seals are the condition of passage. The Clavicula supplies the general clause that an unsuccessful experiment must have been false and defective and the operator must have failed in some matter, which puts a failure condition on a possessor of the text; it does not refute either, because the clause names nothing in particular and so is not a condition anyone could fail determinately. Both are addresses for the run that presses this further."@en,
         "Falsified by either of two cases. A transmission that puts its whole operation into a text obtainable by purchase or inheritance, and that nevertheless names a determinate further condition — a term, a bodily state, a sign — which a possessor of the text could fail to meet and could be seen to have failed. Or a transmission that withholds part of its operation from writing and nevertheless places its stated failure condition on the written part rather than on what it withheld. One clean case of either kind ends the statement."@en,
+        "Seventh witness, added on 2026-09-22, and it falls on the second limb. The head of Agrippa's third book says that the secrets which are among a few wise men and communicated by mouth only are not fit to be publicly written, asks the reader's pardon for passing over in silence many and the chiefest secret mysteries of ceremonial magic, and then puts the failure condition on exactly the withheld part: every magical experiment is strengthened by silence but is destroyed by publication, neither does any complete effect follow after. All three elements the limb requires stand in one chapter — the part kept out of writing, the requirement that it be received from a person, and the declared insufficiency of what is written. The witness matters because it is the first on this limb from a transmission with no initiatory order behind it: the withholding is done by an author in a printed book, which makes the arrangement a property of the claim rather than of a school."@en,
         "Thin where it is thin. Two transmissions on the first side and one on the second, all three read in the last week, and the third from a corpus whose own contradictions about the fire phases this holding already records. Whether the relation holds across the holding would need a pass over every transmission that states both how much it writes and where the failure lies, and that pass has not been made."@en,
         "What each side supplies, in the transmissions' own terms. On the first side: the Egyptian corpus, whose chapters close with the clause that if this chapter be known such and such will follow, and whose gates refuse passage unless the dead man tells the doorway its name — and every one of those names is printed on the same sheet as the question. And the Vedic corpus, whose expositions close with the clause that he who knows this obtains a full life, offspring, cattle, or escape from the death that comes again, and whose catalogue of mishaps at the fires states that the eldest son dies in the case of him who would not know this, while the man who knows has by dint of knowledge prevailed. Neither names a condition that a man holding the text could fail. On the second side: the internal alchemy, whose preface says that the one aperture may not be settled by one's own notion but must be handed on from mind to mouth, and whose commentary draws the rule that the sages transmit the medicine and do not transmit the fire, because a hair's breadth of difference in the fire phases makes no elixir. There the text is declared insufficient in the text, and the failure has been placed exactly where no reader can check it."@en,
         "Why this is worth more than the correspondence it comes from. That two corpora make knowing the condition can be read as a family resemblance and excludes nothing. What the statement above claims is a relation between two features of the same transmission — how much it writes down, and where it puts the failure — and that relation can be looked for and can come out wrong. It also supplies the structural explanation the convergence node had to leave hanging: a transmission whose product is the text has every reason to make holding the text sufficient, and one that lives by initiation has every reason not to. The two witnesses on the first side are both funerary or exegetical corpora sold or performed for a client; the witness on the second is a lineage."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:AegyptiaPortaeNomina,
         pmc:AegyptiaRubricaScientiae,
+        pmc:AgrippaSilentium,
         pmc:NeidanChuanyaoBuchuanhuo,
         pmc:NeidanYiqiao,
         pmc:VaidikaJnanenaJitam,
@@ -18568,6 +18706,16 @@ pmw:CoffinTexts a dcterms:BibliographicResource ;
         "The Coffin Texts"@en ;
     skos:note "Named here as a work of the corpus and unopened. It is the layer between the Pyramid Texts and the Book of the Dead, and the transition is dated by both editors to the coffins of Horhotep and of Queen Mentuhotep."@en .
 
+pmw:DeUmbrisIdearum a dcterms:BibliographicResource ;
+    rdfs:label "Bruno, De umbris idearum"@de,
+        "Bruno, De umbris idearum"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It carries the memory art of this transmission, which nothing in the holding yet touches."@en .
+
+pmw:DeVitaLibriTres a dcterms:BibliographicResource ;
+    rdfs:label "Ficino, De vita libri tres"@de,
+        "Ficino, De vita libri tres"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It is the source the literature names for a part of the doctrine entered above, so it is the first place a run should go to ask whether the belief condition is this author's own or taken over."@en .
+
 pmw:DrasaDYahia a dcterms:BibliographicResource ;
     rdfs:label "Drāšā d-Yahia, das Johannesbuch"@de,
         "Drāšā d-Yahia, the Book of John"@en ;
@@ -18601,6 +18749,11 @@ pmw:Lemegeton a dcterms:BibliographicResource ;
 pmw:LiberIuratusHonorii a dcterms:BibliographicResource ;
     rdfs:label "Liber Iuratus Honorii"@de,
         "Liber Iuratus Honorii"@en .
+
+pmw:MonasHieroglyphica a dcterms:BibliographicResource ;
+    rdfs:label "Dee, Monas Hieroglyphica, mit den geistlichen Tagebüchern"@de,
+        "Dee, Monas Hieroglyphica, with the spiritual diaries"@en ;
+    skos:note "Named here as a work of the corpus and unopened. The registration singled the diaries out for a reason that still holds: they are a working log with dates, which makes them a different kind of witness from the treatises around them, and the only one in this corpus that could report what happened on a given day."@en .
 
 pmw:PapyrusWestcar a dcterms:BibliographicResource ;
     rdfs:label "Papyrus Westcar"@de,
@@ -20905,6 +21058,17 @@ pm:noProcedureDevised a pm:ExaminationState ;
         "No procedure devised"@en ;
     skos:definition "Nobody has stated a condition under which the claim would count as refuted. This is a statement about the means of examination, not about the claim."@en .
 
+pmp:AgrippaPraeparatioOraculi a pm:Practicing ;
+    rdfs:label "Wie sich einrichtet, wer Orakel empfangen will"@de,
+        "How one who would receive oracles disposes himself"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.53 (trans. J. F., London 1651)" ;
+    skos:definition "The preparation prescribed in the third book for whoever, desiring to come to the supreme state of the soul, goes to receive oracles. He must go chastely and devoutly disposed, pure and clean, his soul polluted with no filthiness and free from all guilt; he must purify mind and body as far as he may from all diseases and passions and all irrational conditions, which adhere as rust to iron, by rightly composing what belongs to the tranquillity of the mind. By this means, the work says, he shall receive the truer and more efficacious oracles. Three chapters follow on cleanness, on abstinence, fastings, chastity and solitariness, and on penitence."@en ;
+    skos:note "The four chapters were read at their headings and the first at its wording; the contents of the chapters on cleanness, abstinence and penitence were not read, and what they prescribe in detail is not entered."@en,
+        "The stated effect of the preparation is comparative and not a threshold: truer and more efficacious oracles, with no line below which an oracle would not be received at all. So the condition cannot fail in the way the moon clause fails, and a poor oracle is evidence of insufficient purity rather than of anything about the procedure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
 pmp:HathaPranayama a pm:Practicing ;
     rdfs:label "Atemregulierung im Haṭhayoga"@de,
         "Breath regulation in Haṭhayoga"@en ;
@@ -21381,6 +21545,26 @@ pmt:PistisSophia a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Pistis Sophia in the Askew Codex, British Museum MS Add. 5114; ed. and trans. Carl Schmidt, Koptisch-gnostische Schriften I, GCS 13 (Leipzig 1905)" .
 
+pmt:RenaissanceMagic a pm:Tradition ;
+    rdfs:label "Gelehrte Magie der Renaissance"@de,
+        "Renaissance learned magic"@en ;
+    dcterms:source "Agrippa, De occulta philosophia I.66 (trans. J. F., London 1651)",
+        "Agrippa, De occulta philosophia III.4 (trans. J. F., London 1651)" ;
+    skos:definition "The early modern attempt to give magic a philosophy: sympathies, images, memory as an operative art, and angelic communication kept as a record."@en ;
+    skos:note "The Latin of 1533 is reachable and was not read, and the distinction matters for what a later run has to do. Three digitised copies of the Latin print were taken and found legible in the body at the sentence, with the usual noise of an early modern scan; a run that wants to know whether a condition entered below stands in the Latin as it stands in the English has the text and needs no new acquisition. The chapters at issue are also the ones where that question has teeth: the literature reports that the manuscript of 1510 does not contain the chapters carrying the dignification doctrine, so the belief condition and the sentence about false operations may belong to the print of 1533 and not to the work as its author first gave it away."@en,
+        "Two layers stand between these nodes and the work, and both are named because the holding has been caught by an unnamed second layer before. The first is the translation of 1651, which is a translation and not the text; the second is the digital transcription of that print in which it was read, which carries the translator's English with the transcriber's corrections marked in brackets against the Latin. Nothing in bracket is treated here as the print's wording. As a control, the optical transcriptions of two copies of the same print of 1651 were taken from the full-text archive; both render the long s as f and break words badly enough that they are usable to confirm that a passage exists and not to read it, and they were used for that and nothing more."@en,
+        "What the translation of 1651 is good enough for, and what it is not. The nodes below turn on whether a condition is stated, on what is made to depend on what, and on where a failure is assigned. Those survive a translation. A node turning on a single word would not, and none is written; the one place where a single word decides something — the translator's credulous, which in 1651 means trusting and now means gullible — is recorded at the node itself rather than built into a claim."@en,
+        "What was read: Agrippa, De occulta philosophia, in the English translation of 1651, at nine places — the address to the reader in full; book I chapters 20, 66 and 67; book II chapters 29 and 34; book III chapters 2, 3, 4, 53 and 65; and the opening of the piece headed as the author's censure or retraction, printed after book III. Nothing else of the work is opened, and nothing of Ficino, Bruno or Dee."@en,
+        "Why it is not an independent witness, stated at the registration and unchanged. The author names his predecessors himself, and among them the Spanish Picatrix, so an agreement between this work and the Arabic astral magic is reception with a route and not two witnesses. What the work can carry is the other thing SPEC §14 asks for: it states conditions, terms, hours and failures, and it states them about operations it prescribes."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:DeOccultaPhilosophia,
+        pmw:DeUmbrisIdearum,
+        pmw:DeVitaLibriTres,
+        pmw:MonasHieroglyphica ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:principalCorpus "Ficino, De vita libri tres; Agrippa, De occulta philosophia; Bruno, De umbris idearum; Dee, Monas Hieroglyphica and the spiritual diaries" .
+
 pmt:Shinto a pm:Tradition ;
     rdfs:label "Shintō"@de,
         "Shintō"@en ;
@@ -21468,6 +21652,12 @@ pmt:Vodun a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ellis, The Ewe-speaking Peoples of the Slave Coast of West Africa; Burton, A Mission to Gelele, King of Dahome; Skertchly, Dahomey as it is; Spieth, Die Ewe-Stämme, and Die Religion der Eweer in Süd-Togo; Le Hérissé, L'ancien royaume du Dahomey; Maupoil, La géomancie à l'ancienne Côte des Esclaves; Herskovits, Dahomey: An Ancient West African Kingdom" .
+
+pmw:DeOccultaPhilosophia a dcterms:BibliographicResource ;
+    rdfs:label "Agrippa, De occulta philosophia libri tres"@de,
+        "Agrippa, De occulta philosophia libri tres"@en ;
+    skos:note "The three books, first printed complete in 1533 and read here in the English translation of 1651. Opened at nine places out of some two hundred chapters; the rest is unopened. The Latin print of 1533 was located in three digitised copies whose Latin body is legible at the sentence and was not read at those nine places; that is a debt and not an unreachability. The critical edition of 1992 is access-restricted, and until somebody has it the citations of this file name book and chapter of the English print without the edition's page."@en,
+        "The volume of 1651 contains more than the three books, and two of the additions are cited here: the author's address to the reader, and the piece headed as his censure or retraction, printed after book III together with two letters. The fourth book that circulates under the author's name is not part of this volume; it is first printed in 1559, twenty-four years after his death, and nothing of it is entered here."@en .
 
 pmw:Nihonshoki a dcterms:BibliographicResource ;
     rdfs:label "Nihon shoki (Nihongi), die Chronik von 720"@de,
@@ -22022,13 +22212,6 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
-
 pm:fieldAttestation a pm:Attesting ;
     rdfs:label "Feldzeugnis"@de,
         "Field attestation"@en ;
@@ -22043,6 +22226,13 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
