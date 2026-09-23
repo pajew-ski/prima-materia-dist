@@ -2633,6 +2633,305 @@ pmc:ClearLightIsAtTheSleepThreshold a pm:Situating ;
     pm:situatedNode pmc:ClearLightOfSleep ;
     pm:situationGround "The treatise places the luminosity at the moment of falling asleep and trains the practitioner to hold it rather than pass through it unconscious. The file's own note already separates this from a body whose motor system has shut down while the mind stays awake; both fall on this coordinate, and the difference between them belongs in the nodes, not in the axis."@en .
 
+pmc:CmBaibashijie a pm:Presupposing ;
+    rdfs:label "Ohne die hundertachtzig Gebote kann der Vollzieher keine Geister bändigen"@de,
+        "Without the hundred and eighty precepts the officiant cannot control spirits"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 007b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code cites a scripture to the effect that a Daoist who has not received the hundred and eighty precepts of the Lord Lao has no virtue in his person, is therefore not a Daoist, may not accept the obeisance of the people, and cannot take in hand the control of ghosts and spirits."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He is not a Daoist, may not accept the obeisance of the people, and cannot take in hand the control of ghosts and spirits." ;
+    pm:dependentStep "That an officiant can take in hand the control of ghosts and spirits" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep "That he has received the hundred and eighty precepts of the Lord Lao" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmBukaoRiwen a pm:Cautioning ;
+    rdfs:label "Nicht den Tag erwählen und nicht nach der Stunde fragen"@de,
+        "Do not divine the day or ask after the hour"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 008a-008b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states that under the pure covenant one does not divine the day or enquire after the hour for dwelling, for settling a tomb, for moving or for any undertaking, but acts as the heart directs, with nothing avoided and nothing sought; and that the books of siting and the geomancy of tombs, dwellings and foundations are things to be driven out by petition. It names among the present abuses the further keeping of a calendar and the picking of days and hours, calls it a folly grown worse, and says the correct code has made the matter plain and men will not follow it."@en ;
+    skos:note "A transmission refusing the condition that most of this holding's calendar-bound transmissions impose, and refusing it as a mark of identity rather than by silence. The refusal is placed in a list whose other members are sacrificing to ghosts, telling fortunes and observing taboos, so the calendar is classed with the practices the transmission defines itself against."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Choosing days and hours for undertakings, and consulting the books of siting" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmBuxindaoDispute a pm:Disputing ;
+    rdfs:label "Ob der ungeheilte Fall den fehlenden Glauben des Kranken zeigt oder die fehlende Wirkung des Verfahrens"@de,
+        "Whether the unhealed case shows the patient's want of faith or the method's want of effect"@en ;
+    dcterms:source "Sanguozhi 8.28a-28b, Dianlüe quoted in Pei Songzhi's commentary, Wenyuange Siku quanshu text (Zhonghua shuju 8.264)",
+        "Zhengyi fawen tianshi jiaojie kejing 018b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The Dianlüe reports the rule and rejects it in the same paragraph: the master had the sick person knock his head and reflect on his faults and then gave him talisman water to drink, and of those whose illness was of few days' standing and who recovered it was said that this man trusted the Way, while of those who did not recover it was said that they did not trust the Way; and the household of the sick person put out five pecks of rice as the standing charge. The chronicler's judgement follows directly: in truth it was of no benefit in the treatment of illness and was merely licentious delusion, yet the small people were benighted and foolish and vied with one another in serving it. The admonitions state the transmission's own version of the same rule, assigning the relapsing patient to badness of character and withdrawing treatment from him."@en ;
+    skos:note "One distinction the passage forces and the literature often blurs. The Dianlüe states the faith rule of Zhang Jue's way of great peace, and says of Zhang Xiu's way of five pecks of rice that its method was roughly the same with the quiet chamber added. The rule is therefore reported of this transmission by way of an equation the chronicler makes, and the admonitions supply the transmission's own parallel rule directly. Both are cited here and the difference is stated rather than smoothed."@en,
+        "The objection that this holding would raise against such a rule is here raised inside the third century, by a witness contemporary with the movement, and in the same words the holding would use: an outcome and its opposite are both accounted for by the disposition of the patient, and the chronicler names that as the reason the thing is of no benefit. The dispute is entered rather than the judgement, because the Dianlüe is a hostile source and its verdict is a verdict; what is not in question is that the rule was in use and that a contemporary saw what it did."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim "Whether a patient's failure to recover after confession and talisman water shows that he did not trust the Way" ;
+    pm:fromWork pmw:Sanguozhi,
+        pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmDaobujiu a pm:Cautioning ;
+    rdfs:label "Wiewohl er auf den Schutz des Dao hofft, rettet das Dao ihn nicht"@de,
+        "Though he looks to the Dao for protection, the Dao does not save him"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 006b-007a (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions ask why a household that serves the Dao nevertheless meets with calamity, illness, bereavement, summonses and quarrels, and answer that it is because the people are foolish and not diligent in the observance, knowing the Dao to be honourable and wishing to serve it while their disposition and conduct are no different from the common sort. Such a one, the text continues, is enrolled in name as a servant of the Dao and hopes that the Dao will protect him, and the Dao does not receive him; when calamity and sickness fall on his body, though he looks to the Dao for protection the Dao does not save him; and when evil spirits assail him the Dao does not drive them off."@en ;
+    skos:note "The passage is the transmission's own answer to the objection that its adherents suffer like everyone else, and it is given before the objection is raised against it. The condition it names — diligence, and a disposition different from the common sort — is not one that can be established independently of the outcome it explains."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Serving the Dao in name while the disposition and conduct remain those of the common sort" ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmJiatuoGuishen a pm:Cautioning ;
+    rdfs:label "Nicht die Autorität der Geister borgen, um Bedrängte zu schrecken"@de,
+        "Do not borrow the authority of ghosts and spirits to frighten people in difficulty"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 008b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions forbid using one's wits to cheat the ignorant, trading on one's standing to make false claims, borrowing the authority of ghosts and spirits, and frightening people who are in straits; and forbid, in the same list, having a little cleverness and making a great name of it, or slighting the ignorant."@en ;
+    skos:note "A self-warning of the kind SPEC 15 singles out: the transmission prohibits, as an abuse, the precise use to which its own apparatus lends itself, and it does so inside the document that establishes that apparatus."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Invoking ghosts and spirits in order to frighten people who are in difficulty" ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmJingshi a pm:Presupposing ;
+    rdfs:label "Die stille Kammer, vom Haus getrennt und mit vier Dingen darin"@de,
+        "The quiet chamber, separate from the house and holding four things"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 004b-005a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile",
+        "Sanguozhi 8.28a, Dianlüe quoted in Pei Songzhi's commentary, Wenyuange Siku quanshu text (Zhonghua shuju 8.264)" ;
+    skos:definition "The code states that the quiet chamber is the place where sincerity is brought, that its outside stands apart and does not adjoin any other building, that its inside is empty and holds nothing extraneous, that its door is not opened and shut carelessly, that it is swept and kept as though a god lived there, and that it holds four things and no more: an incense burner, an incense lamp, a petition table and a writing knife. It adds that its plain bareness can be had for a hundred-odd cash."@en ;
+    skos:note "The chamber is also the oldest datable element of the procedure. The Dianlüe of the third century gives it as Zhang Xiu's addition to a method otherwise shared with Zhang Jue: he added the setting up of a quiet chamber and had the sick person sit in it and reflect on his faults. Where this code states the rule, the chronicle reports the innovation, and the two are two centuries apart."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep "That the petition is sent up from a place fit to receive sincerity" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue,
+        pmw:Sanguozhi ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep "That a chamber is kept separate, empty and holding only the four objects" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmMingjiBenshi a pm:Presupposing ;
+    rdfs:label "Die Eingabe erreicht nichts, wenn sie nicht über den eigenen Meister geht"@de,
+        "The petition goes nowhere unless it is sent through the petitioner's own master"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 003b-004a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states that on the day of illness people go not to their own master but petition another officer; that the other officer does not trace where they belong and simply makes a petition for them; and that since the sick body was not in the register before and now suddenly has a petition, it does not belong to the household-guarding officer's charge, the three masters do not hold it, the register of the three heavens is empty of it and the Director of Destinies has no such name — so that the petitioner smashes his head on the ground to no purpose, the files pile up, and because the thing was not done according to the rule the Dao does not deliver."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He smashes his head on the ground to no purpose; the files pile up; it is not according to the rule, and the Dao does not deliver." ;
+    pm:dependentStep "That a petition sent up for illness is acted on" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep "That the petitioner stands in the register of his own master, through whom the petition is sent" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmMingxinBudao a pm:Presupposing ;
+    rdfs:label "Das jährliche Pfand hält den Namen im Register, und das Register hält den Schutz"@de,
+        "The yearly pledge keeps the name in the register, and the register keeps the protection"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 004a-004b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states that if the pledge of destiny does not arrive, the register of destiny is not sent up; that no separate additional pledge and no kitchen-feast makes good that lack; and that where a household has gone years without sending its pledge, the three heavens strike its name from the register, the household-guarding officer returns to the offices of heaven, the pneuma of the Dao no longer covers it, ghosts and robbers injure it, and bereavement, sickness, untimely death and blocked fortune follow — while the household never becomes aware of this and instead blames the master and holds a grievance against the Dao."@en ;
+    skos:note "The last clause is the part that bears on examination and not on doctrine. The transmission states that the people to whom the protection has lapsed cannot tell that it has lapsed, and that their reaction to the resulting misfortune will be to blame the master. It has thereby described in advance, and dismissed in advance, the only report a practitioner could make against it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The three heavens strike the name from the register; the household-guarding officer returns to the offices of heaven; the pneuma of the Dao no longer covers the house; ghosts and robbers injure it; bereavement, sickness and untimely death follow, and the household never perceives the cause." ;
+    pm:dependentStep "That the household-guarding officer continues to protect the household against calamity" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep "That the pledge of destiny arrives at the parish by the fifth day of the tenth month, so that the register of destiny is sent up" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmMoburShengquan a pm:Yielding ;
+    rdfs:label "Keiner von ihnen bleibt nicht am Leben"@de,
+        "Not one of them fails to be kept alive"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 001b-002a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The work states that where the sick person cannot bear decoction and needling, he takes only the talisman in water and confesses the faults committed from the year of birth onward; that those whose faults deserve death are all pardoned; and that of the long-sick and the gravely ill, not one fails to be kept whole and alive."@en ;
+    skos:note "The strongest efficacy claim in the file and the one with no failure side attached to it at the place where it stands. It is made in the sentence immediately before the author turns to the present state of the observance and announces that he will set out its illnesses, so that the unconditional claim and the catalogue of everything that goes wrong with it stand one line apart. Both are entered."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:CmShoufuYinshui ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:withinTradition pmt:CelestialMasters ;
+    pm:yieldsCapacity "Recovery from established and grave illness, and the remission of faults otherwise punishable by death" .
+
+pmc:CmRiwenDispute a pm:Disputing ;
+    rdfs:label "Ein Werk der Überlieferung verbietet die Tagwahl, ein anderes füllt vierzig Blatt damit"@de,
+        "One work of the transmission forbids choosing the day, another fills forty folios with it"@en ;
+    dcterms:source "Chisongzi zhangli 2.8a, 2.12b-13a and 2.16b (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2",
+        "Lu Xiujing, Lu xiansheng daomen kelüe 008a-008b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states, as part of what distinguishes the covenantal authority from heterodox practice, that in dwelling, in settling a tomb, in moving and in every undertaking one does not divine the day or enquire after the hour, but acts as the heart directs with nothing avoided and nothing sought; and it names the keeping of a calendar and the picking of days and hours as a folly grown worse, which the correct code has made plain and which men will not follow. The petition manual of the same transmission prints, for the sending of petitions, a monthly table of forbidden days, the days of the quarters and the full and new moons, the days of heaven's father on which no petition is sent up, the days of heaven's mother, the days of the killing of heaven which a petition must avoid, the days on which heaven's gate is closed to audience and no petition may be presented, and the days on which heaven and earth are shut."@en ;
+    skos:note "Bears on pmc:AdmissibilityBoundToTheCalendar, and it is the first case in the holding in which a transmission states the refusal as doctrine. The internal alchemy recorded there declines to bind and locates the condition in the practitioner; this code forbids the binding and assigns it to the opposing party. The petition manual is at the same time a new witness for the statement itself."@en,
+        "The two works are a matter of centuries apart and the manual is the later, so this may be a change in the transmission rather than a disagreement within it at one time. What makes it worth a node either way is the ground the code gives: it does not merely omit the calendar, it makes its absence the criterion by which the transmission is told apart from what it rejects. A later work of the same transmission then adopts the thing the criterion excluded, for the central rite, at length."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim "Whether the rite of this transmission is bound to a calendar of permitted and forbidden days" ;
+    pm:fromWork pmw:ChisongziZhangli,
+        pmw:LuxianshengDaomenKelue ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmSandeThreeGrades a pm:Yielding ;
+    rdfs:label "Drei Stufen der Erreichung für den Dienst"@de,
+        "Three grades of attainment for the observance"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 002a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile",
+        "Zhengyi fawen tianshi jiaojie kejing 003b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The transmission grades what the observance yields: the highest virtue becomes a divine immortal, the middle doubles its lifespan, the lowest extends its years. The admonitions give the same three and add the negative form, that by the precepts one who does evil does not live out his span but dies untimely."@en ;
+    skos:note "The grading is the same in both works and the wording of the third grade differs in a way worth keeping: the code says the lowest virtue lengthens its years, the admonitions say the lowest preparation increases its years and does not die untimely. The second is a claim about the absence of an event and is the weaker of the two in exactly the way this holding cares about — nobody can be shown not to have died untimely."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:CmShoufuYinshui ;
+    pm:fromWork pmw:LuxianshengDaomenKelue,
+        pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters ;
+    pm:yieldsCapacity "Immortality, a doubled lifespan, or added years according to the grade of the practitioner's virtue" .
+
+pmc:CmShibuShouqian a pm:Cautioning ;
+    rdfs:label "Die Gottheiten essen und trinken nicht, und der Meister nimmt kein Geld"@de,
+        "The gods do not eat and drink, and the master does not take money"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 001b and 007b-008a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states the rule twice in the same words: the gods do not eat and drink and the master does not take money, and this is what is called the pure covenant. At its second statement the rule is the criterion by which the covenantal authority is distinguished from what the code calls the inverted methods of heterodox and sorcerous practice, which sacrifice to ghosts and spirits and pray for blessings."@en ;
+    skos:note "The code reports in the same breath that the rule is broken. At 007b it describes officiants who indulge their greed and their appetite, who carry out the law of the Way without aiming at merit, whose intention on the day of a healing is not mercy but the hope of profit, and whose thought is on wine and food; at 008a it has them drunk at the altar and vomiting beside the table. The rule and the report of its breach are one paragraph apart, which is what this work is for."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Taking money for the rite, and feeding the spirits, as the mark by which the transmission is distinguished from the practice it rejects" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmWangqiuZhizhang a pm:Cautioning ;
+    rdfs:label "Wer eine Eingabe ohne das zugehörige Unglück erbittet, wird zu Arbeit verurteilt"@de,
+        "Asking for a petition without the calamity it is for is punished by labour"@en ;
+    dcterms:source "Chisongzi zhangli 2.19a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The manual states that where there is no such calamity or illness, this petition may not be recklessly asked for, and that one who offends is judged at the second grade of punishment; it then sets out the grades in labour, the second being to sweep the road and repair bridges, the fifth a fine of three thousand bundles of thatch for roofing the Celestial Master's parish, the sixth two thousand roof tiles, and gives the first as twenty days of road-sweeping."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Requesting a petition for a calamity that has not occurred" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmXijiaoHu a pm:Attributing ;
+    rdfs:label "Das Dao geht nach Westen und übergibt den Barbaren das Gesetz des Weges"@de,
+        "The Dao goes west and hands the barbarians the law of the Way"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 013b-014a (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions state that after the five thousand words were composed and entrusted to the keeper of the pass, the Dao went west among the barbarians and handed them the law of the Way, with the prohibition made especially severe there — no union of yin and yang, no killing of living things — because the barbarians could not be brought to trust the Way; that it then changed into a true immortal; and that the barbarians knocked their heads ten thousand times, shaved their heads and trimmed their beards, and asked to trust the true man, whereupon the true Way arose among them."@en ;
+    skos:note "Entered because it is a statement about a contact route made from inside, and it is the reason the route of this tradition stays disputed rather than being settled either way. A transmission that claims another's teaching descends from its own founder has said that it knows the other teaching; it has not said which way anything was borrowed, and its claim is the one a party would make. The passage is also the corpus's own account of why the two bodies of practice resemble one another, offered before anyone outside had raised the question."@en ;
+    pm:ascribedCapacity "The founding of the teaching that the barbarians received, by the same Dao that issued the five thousand words" ;
+    pm:ascribedTo "The Dao, in its western journey" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmYanhuiWuyi a pm:Cautioning ;
+    rdfs:label "Zu sagen, der Dienst am Dao nütze nichts, ist selbst ein Vergehen von dreitausend"@de,
+        "Saying that serving the Dao brings no benefit is itself an offence of three thousand"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 017b and 002b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions state that one who, on meeting calamity and harm, turns instead to resentment and falsely says that serving the Dao is of no benefit, thereby commits an offence of three thousand. The general admonition earlier states the same in another form: that when guilt arrives and a man does not blame himself and name his earlier fault, but instead cries out that serving the Dao is of no benefit and holds a grievance against august heaven, his transgression is deepened thereby."@en ;
+    skos:note "The rule makes the one report that would count as evidence against the procedure into a further offence, and it is stated in the operative text rather than in a commentary. Nothing else in this file so directly forecloses the practitioner's own testimony; the failure rules above explain the report away, and this one penalises it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Saying, after a calamity, that serving the Dao brings no benefit" ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmYehuiKe a pm:Presupposing ;
+    rdfs:label "Die Befleckungsfristen, in Tagen gezählt, während deren keine Eingabe gesendet werden darf"@de,
+        "The pollution intervals, counted in days, during which no petition may be sent"@en ;
+    dcterms:source "Chisongzi zhangli 2.23a-23b (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The manual cites the code of pollution: a death in the house, whether of an adult or a child, and a woman's childbirth, and a great mourning, pollute for a hundred days; a woman injured in her body at birth, a hundred days; entering the room of a woman who has given birth, three days; the death of a small child or of a bondservant, one month; the death of a domestic animal, one day; and one who was elsewhere is not polluted. A year's mourning pollutes for forty days; the lesser mournings, within the month; the pollution lifts when the month goes out. Going to a mourning house and weeping there pollutes for that day; an old mourning does not pollute. The food of a mourning household's offering, and the food of a woman in her three days and at her full month, are not to be eaten. And under all of these, no fast may be kept, no offering set out and no petition sent up; one who meets such a case elsewhere releases it with talisman water."@en ;
+    skos:note "The most exactly quantified condition in this file, and the one that behaves least like the others: the states it names are public, dated and countable, they are fixed before any outcome is known, and neither party to the rite can adjust them afterwards. A transmission that suspends its own remedy for a hundred days after a death in the house has stated a condition that could be checked against a register of cases."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep "That a fast, an offering or a petition may be performed at all" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep "That the stated interval of pollution has elapsed, counted from the death, the birth or the entry" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhangjueXiedao a pm:Disputing ;
+    rdfs:label "Der Korpus trennt sich von der Bewegung, deren Schrift ihm zugeschrieben wurde"@de,
+        "The corpus separates itself from the movement whose scripture it was credited with"@en ;
+    dcterms:source "Sanguozhi 8.28a, Dianlüe quoted in Pei Songzhi's commentary, Wenyuange Siku quanshu text (Zhonghua shuju 8.264)",
+        "Zhengyi fawen tianshi jiaojie kejing 014a (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions place the Yellow Turban rising among the causes of the ruin they are written after: men delighted in disorder, and so Zhang Jue and the Yellow Turbans made their rebellion, after which the dead were to be counted in the millions; and the text names a heterodox way that set the later heirs to dividing the pneuma and governing the people for forty-odd years in Hanzhong. The outside chronicle, by contrast, reports the two as one kind, describing Zhang Jue's way of great peace and Zhang Xiu's way of five pecks of rice in a single sentence and saying that the second's method was roughly the same as the first's."@en ;
+    skos:note "Entered as a dispute and not as a finding because the two sides are of unequal kinds and the graph should not decide between them by preferring the one it read second. The corpus is a party and has an interest in the separation; the chronicle is an outside observer with no stake in it but with the distance of a hostile onlooker who calls both movements bandits. What the dispute settles for this holding is narrower and sufficient: the transmission whose file this is does not own the Taiping jing, because it says of that movement's founder that he was a heterodox way."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim "Whether the way of great peace and the way of five pecks of rice are one transmission or two" ;
+    pm:fromWork pmw:Sanguozhi,
+        pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhangxin a pm:Presupposing ;
+    rdfs:label "Ohne das Pfand nehmen die Gottheiten die Eingabe nicht an"@de,
+        "Without the pledge the gods do not accept the petition"@en ;
+    dcterms:source "Chisongzi zhangli 1.1b-2a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 1" ;
+    skos:definition "The manual states that whoever sends up a petition must first prepare the pledge, and that if there is no pledge at all the gods do not accept, holding the sender to a mean and ungiving heart. It adds that a petition without the proper pledge is to be increased for the wealthy and reduced for the poor, and that a rich household which hopes for the merit but begrudges its goods and puts out the pledge of a poor man gains nothing by what it does."@en ;
+    skos:note "The manual immediately supplies the exception, and it is worth recording beside the rule because it is the one place in this file where the transmission relieves a party of a stated condition: the code, it says, provides that for one living in cold poverty and want who asks for a petition or an offering, the master puts out the ritual pledge on his behalf. The condition is therefore on the pledge's arrival and not on the petitioner's ability to pay it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The gods do not accept, and hold the sender to a mean and ungiving heart; a pledge below the sender's means is of no benefit to what he is doing." ;
+    pm:dependentStep "That the gods accept a petition sent up on someone's behalf" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep "That the pledge appointed for that petition is prepared and presented, or put out by the master for one too poor to present it" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhangziGuoduo a pm:Cautioning ;
+    rdfs:label "Zu viele Zeichen in der Eingabe, und die Beamten verderben die Sache"@de,
+        "Too many words in the petition and the officers bungle the business"@en ;
+    dcterms:source "Chisongzi zhangli 2.19a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The manual fixes the length of the declaration of merits by the gravity of the case: three or four hundred characters for a great matter, up to five hundred where the petitioner is at the point of death, one or two hundred for a small one; and states that where there are more, the correct pneuma is scattered in clamour and the officers and soldiers bungle the business."@en ;
+    skos:note "Entered among the cautions and not among the failure assignments because of the direction it runs in. It names a defect in the performance that is present, countable and knowable before the outcome — the characters can be counted — and attaches a stated consequence to it. That is the rarer of the two shapes this file holds."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Exceeding the prescribed length of the declaration of merits in a petition" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhengyiMengwei a pm:Attributing ;
+    rdfs:label "Das Dao übergibt die Bündnisvollmacht der rechten Einheit"@de,
+        "The Dao hands down the covenantal authority of orthodox unity"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 014a and 020b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The corpus states that the Dao brought out the way of the covenantal authority of orthodox unity on the first day of the fifth month of the first year of Han'an, at the Red Stone citadel of Qu Ting in Linqiong county of Shu commandery, making a bond with heaven and earth and setting up twenty-four parishes to distribute the mysterious, primal and initial pneumas and govern the people; and that the recipient was Zhang Daoling, appointed Celestial Master because the people feared ghosts and did not trust the Way."@en ;
+    skos:note "The date is given twice and not identically framed. At 014a it is the Dao that brings the way out, with Zhang Daoling named as the one the Lord Lao handed it to; at 020b the speaker gives it in the first person, receiving the way and its pneuma from the divine pneuma of the First Emperor of Han and taking five pecks of rice as the pledge. The second is the founding as the transmission's own voice tells it, and the pledge is in it from the start."@en ;
+    pm:ascribedCapacity "The receiving of a covenantal authority from the Dao, and with it the office of Celestial Master and the right to establish parishes" ;
+    pm:ascribedTo "Zhang Daoling" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhidaoBaibu a pm:Yielding ;
+    rdfs:label "Hundert Schritt ausgebesserter Weg tilgen die Verfehlung"@de,
+        "A hundred paces of road repaired removes the fault"@en ;
+    dcterms:source "Sanguozhi 8.28b, Dianlüe quoted in Pei Songzhi's commentary, Wenyuange Siku quanshu text (Zhonghua shuju 8.264)" ;
+    skos:definition "The chronicle reports that Zhang Lu taught his people to keep their small faults to themselves, and that one who had committed a small fault was to repair a hundred paces of road, whereupon the fault was removed."@en ;
+    skos:note "A quantified penance, and the only one in this file whose performance and completion are both public and countable. It is entered under the tradition although the witness is an outside chronicle, because the chronicle is here describing the movement's own rule rather than judging it; the judging sentences of the same passage are entered separately at the dispute below."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:CmShoufuYinshui ;
+    pm:fromWork pmw:Sanguozhi ;
+    pm:withinTradition pmt:CelestialMasters ;
+    pm:yieldsCapacity "Removal of a small fault" .
+
+pmc:CmZhiliaoDispute a pm:Disputing ;
+    rdfs:label "Zwei Werke einer Überlieferung beantworten den ungeheilten Fall entgegengesetzt"@de,
+        "Two works of one transmission answer the unhealed case in opposite ways"@en ;
+    dcterms:source "Chisongzi zhangli 2.18b-19a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2",
+        "Zhengyi fawen tianshi jiaojie kejing 018b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions instruct the libationer to stop: where the illness clears and returns, the patient is a bad person and is not to be treated further. The petition manual instructs him to continue: where the petition does not heal, a further and different petition is to be sent up, through some fourteen named stages, with no stage at which the series ends in a verdict."@en ;
+    skos:note "The two are not reconcilable by saying that one addresses the patient and the other the procedure, because both are answering the same question — what to do when the treatment has not worked — and they give opposite instructions about the same next step. The works are of different dates and the manual is the later, so the transmission may simply have changed; nothing in either text says so, and this node records the disagreement rather than resolving it by a chronology neither work states."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim "Whether a failure to heal terminates the treatment or requires the next petition in the series" ;
+    pm:fromWork pmw:ChisongziZhangli,
+        pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhongweiliDong a pm:Cautioning ;
+    rdfs:label "Vom Gewinn bewegt mitten im Werk, ist aller bisherige Verdienst verworfen"@de,
+        "Moved by profit in the middle of the work, all the merit before it is discarded"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 012a (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions state that a man of the Way should be furnished with a hundred practices and marked by a thousand good deeds, and that though he have nine hundred and ninety-nine good deeds, if the one remaining is not completed and he is in the middle moved by profit, the whole of the merit before it is discarded; only by governing himself, keeping his attention on it and never letting the precepts lapse does he pass beyond the age."@en ;
+    skos:note "The clause is the sharpest statement in this file of the shape that makes such a claim hard to hold against anything: the account is cumulative and the balance can be reset to zero at any point by an internal event nobody else can witness, so that a practitioner who has done everything and received nothing has been told in advance where the fault lies."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Being moved by profit before the count of good deeds is complete" ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZongfuXiuqin a pm:Presupposing ;
+    rdfs:label "Fleiß hilft nicht, wo die Weihe unordentlich war"@de,
+        "Diligence does not help where the ordination was irregular"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 006b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code states of those who received register and parish without a master's registration, or from a master they had long since ceased to belong to, or as laymen who attached themselves to a Daoist without being received by the prescribed procedure, that such persons are wholly false and are Daoists in vain; and that though they cultivate diligently and perform good works, the three heavens have no name for them, and they are therefore not exempt from unjust and untimely death."@en ;
+    skos:note "This is the condition under which the transmission says its own practice fails for a practitioner who does everything right. The defect lies in a past transaction that is not recoverable by any amount of present effort, and the sign of it is the absence of protection, which is the same absence the practice was undertaken to remove."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The three heavens hold no name for him; though he cultivate diligently and do good, he is not exempt from unjust and untimely death." ;
+    pm:dependentStep "That diligent practice yields protection from unjust and untimely death" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep "That register and parish were received in the prescribed order, through a master in whose registration the recipient stands" ;
+    pm:withinTradition pmt:CelestialMasters .
+
 pmc:CoCendNomaide a pm:Conceptualizing ;
     rdfs:label "Bis zum Ende einer nómad, oder zweier, oder dreier"@de,
         "To the end of a nómad, or of two, or of three"@en ;
@@ -9022,26 +9321,6 @@ pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
 
-pmc:TheStrongerAddress a pm:Generalizing ;
-    rdfs:label "Wo das Ergebnis eine Erscheinung ist, gibt es keinen Punkt zum Aufhören"@de,
-        "Where the result is an apparition, there is no point at which to stop"@en ;
-    skos:note "Counter-search against the compiled holding, carried before this was written. Every node whose wording prescribes what to do when a promised result does not arrive was drawn and read at its place, and the terms searched over the holding were cease, desist, abandon, stop, leave off, give up, in vain, definitive judgment, does not come and never comes. No transmission of the first kind was found that names a term. Three near-misses came back and none of them meets the antecedent."@en,
-        "Falsified by a transmission that makes the appearance of a being its result and states a term, a count of addresses or a sign at which the operator is to conclude that nothing will come — a grimoire that sends the company home at dawn, a manual that gives the inquiry three attempts and no more. One such case refutes the first clause as stated. Falsified in the other direction by a transmission whose result is a reported change in a second person and which prescribes, in place of any term, a stronger address repeated without limit. The likeliest places to look for the first are the transmissions this holding carries that already fix an operation to an hour or a day, since a bounded hour is the nearest thing to a bounded session: the demotic manual itself carries nine such datings at pmc:PdmHoraEtLuna and states no consequence for any of them."@en,
-        "The near-misses, because each of them looks at first like a refutation. The Ars Notoria states a term of one month and an outcome due at the end of it, but its result is knowledge in the operator and not the appearance of anything, so it belongs to neither column; the protocol on it stands at examinations/notory-art-one-month.ttl. The Shangqing sun held in the heart names one year, five years and eighteen years, and what is due at the term is a property of the practitioner's own body in daylight, which is again a third kind. And the ascent ritual of the Greek papyrus carries a forfeiture clause — three times in the year, and no longer coming about for whoever disregards the instruction after it has been given — which is a rule about who may have it and not a rule about a session that produced nothing; the same piece prescribes nothing at all for a non-appearance in either direction, and that silence is recorded as its own search rather than counted here."@en,
-        "The route between the two witnesses of the first clause is not clean and is stated rather than passed over. The demotic manual of the third century and the Latin grimoire of the late Middle Ages stand in one stream: the Greek and demotic handbooks of Egypt, the Byzantine Hygromanteia and the Latin Clavicula are connected by a transmission history that this holding does not claim to have established but does not pretend is absent either, and the tradition instance of the grimoire carries pm:contactRouteDocumented. Two witnesses on one cable is the floor of SPEC §16 and no more than the floor. The three witnesses of the second clause stand in a nineteenth-century European medical polemic with no proposed route to either, so the division the statement asserts runs across a contact route and not along one, and that is what makes the division worth stating at all."@en,
-        "The three witnesses of the second clause, all from the animal magnetism and two of its works. Five days before one may presume that the operation does not act, and then a second criterion to consult. Three or four sittings of nervous irritation, after which one may presume that the operation is not good for this patient and ought not to persist. Eight consecutive days of twenty minutes at the same hour, after which the operator will be able to form a definitive judgment. All three name a count; all three say what the count settles; and what it settles in every case is something about this operator or this pairing and never about the agent, which is the finding those three nodes already carry."@en,
-        "The two witnesses of the first clause and what each does with an empty session. The demotic manual takes it up in six places and every one of them prescribes speech: the boy who does not see the light is made to close his eyes and called to again; obduracy is met by the summons, which is the god's compulsion; obstinacy with the god unseen is met by the compulsion; a god who delays so as not to come in is met by a further cry; a light that has not come forth is met by having the boy address the lamp himself; a light slow to come within is met by a name said seven times, incense, and a great name uttered forwards and backwards; and gods who are inside and give no answer are met by another name said nine times until they inquire truthfully. The Latin grimoire sets its conjurations in a series and makes the trigger of each the failure of the one before, running through the four quarters, the signing of the foreheads, the re-forming of the circle and a final conjuration declared strong enough that spirits bound with chains of iron and fire could not delay to come."@en,
-        "Untested. No pm:Testing points here, which is the state and not an omission. What a protocol would have to do first is fix the population, and the hard part is the second column: this holding carries exactly one transmission in it, so the clause is at present a statement about the animal magnetism wearing the grammar of a class. A second transmission whose result is a reported change in a second person would settle whether there is a division here or only a contrast between two files."@en,
-        "What the statement does not claim. It does not say that the transmissions of the second column abide by their terms, and the three witnesses show they largely do not: the five-day rule replaces its own criterion in the following sentence, the three-or-four-sittings rule prescribes trying two or three further operators, and the eight-day rule is to be applied only to subjects selected beforehand for their likelihood of succeeding. What the second clause claims is that the term is stated, which is a property of the wording; the first clause claims that in the other column it is not stated at all, and that is the asymmetry."@en,
-        "What the two have in common beyond the escalation is the absence, and the absence is the half that does the work. Neither names a number of addresses after which the operator is to stop, neither names a sign that the being will not come, and neither gives the session a length. A run is therefore not over until it has succeeded, which is why no run can be counted as having failed."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:CinqJoursAvantDePresumer,
-        pmc:ClaviculaGradusConiurationum,
-        pmc:HuitJoursConsecutifs,
-        pmc:PdmCompulsioNonAdventus,
-        pmc:TroisOuQuatreSeances ;
-    pm:generalizedStatement "Where a transmission makes the appearance of a being the result of its operation, it meets a non-appearance with a further and stronger address of the same kind and states no term, count or sign at which the operator is to conclude that nothing will come; where a transmission instead makes its result a change in the condition of a second person which that person reports, it states such a term, gives it as a count of sittings or of days, and names what the term settles."@en .
-
 pmc:TheTestOfAPersonIsRefused a pm:Generalizing ;
     rdfs:label "Wo das Vermögen in einer Person liegt, ist seine absichtliche Prüfung verboten"@de,
         "Where the capacity is in a person, the deliberate test of it is forbidden"@en ;
@@ -11454,6 +11733,45 @@ pmp:ClaviculaVerificationExamination a pm:Testing ;
     pm:tests pmc:ClaviculaOperatioYieldsImperium ;
     pm:undividedOutcomes "A session prepared and conducted as the third chapter of the first book prescribes, in which the participants perceive an appearance, and a session prepared and conducted in the same way in which they perceive nothing. The book covers both: the first is the claim coming true, the second is proof that a point was done ill, or that the air was troubled, or that another exorcist was calling them, or that the spirits found the men too impure — and in any case the instruction is to conjure again." .
 
+pmp:CmChengfuSearch a pm:Searching ;
+    rdfs:label "Ob der Korpus der Himmelsmeister die Lehre von der ererbten Last fuehrt"@de,
+        "Whether the Celestial Masters corpus carries the inherited-burden doctrine"@en ;
+    dcterms:date "2026-09-23" ;
+    skos:note "Not one occurrence of the compound in any of the four. The corpus displaces penalties onto forebears in its own vocabulary and with its own reckoning — nine generations at the pledge rule, seven at the petition for the five tombs — and it does so without the term under which the neighbouring movement systematised the idea. That is the evidential half of the corpus correction; the doctrinal half is that the foundational document of this transmission calls that movement's founder a heterodox way, which is entered at pmc:CmZhangjueXiedao."@en,
+        "What the empty result does not establish. It does not show that the two transmissions had no contact; the passage at pmc:CmXijiaoHu shows the corpus reasoning about its relation to a neighbouring teaching, and the outside chronicle at pmc:CmBuxindaoDispute treats the two movements as one kind. It shows that the scripture was not this transmission's canon, which is the narrower claim the file now makes."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of all four works for 承負, and for 承 and 負 separately in order to catch a split writing across a page break or an interposed particle."@en ;
+    pm:searchedBy "prima-materia, 2026-09-23" ;
+    pm:searchedCorpus "The four Daoist works of this transmission in the Zhengtong Daozang, Hanfenlou facsimile: Zhengyi fawen tianshi jiaojie kejing (DZ 789), one juan; Lu Xiujing, Lu xiansheng daomen kelüe (DZ 1127), one juan; Chisongzi zhangli (DZ 615), six juan; Nüqing guilü (DZ 790), six juan. Whole-text search over all four, in the Chinese."@en ;
+    pm:searchedFor "The term chengfu, the doctrine that a person's misfortune is the burden received from the faults of his predecessors and passed on to his successors. The registration of this tradition named the Taiping jing among its principal works, and chengfu is that scripture's characteristic teaching; if the term stood in these four works, the registration would have had a ground. The question is not whether this transmission displaces a penalty onto ancestors — it does, and the places are entered at pmc:CmZhangxinSanfen and pmc:CmWumuJiuzu — but whether it does so under the doctrine and the word of the other movement."@en .
+
+pmp:CmYanSearch a pm:Searching ;
+    rdfs:label "Ob dem Kranken gesagt wird, was er wahrnimmt, wenn die Eingabe gewaehrt ist"@de,
+        "Whether the sick person is told what he would perceive when the petition has been granted"@en ;
+    dcterms:date "2026-09-23" ;
+    skos:note "Nothing for the sick person, and a detailed answer for the officiant. The search returned one sustained passage of prescribed perception and it belongs entirely to the other party: the code of visualisation at 2.23b tells the officiant what he will see on the way up with the sealed petition — the red pneuma from his own heart, the hundred li, the jewel trees, the yellow road of sun and moon, the purple clouds, the gate of heaven at one zhang eight chi. That is entered at pmc:CmCunsiKe and counted among the signs of success, separately from the failure material, as SPEC §15 requires. Nowhere is the party whose illness is at issue told anything he would perceive."@en,
+        "The asymmetry is the finding and it runs against the grain of the transmission's own bookkeeping. This corpus is otherwise meticulous about the sick person: it fixes what he confesses, what his household pays, which days he may not be attended on, how many days a death in his house suspends the rite, and what is to be concluded if his illness returns. The one thing it does not give him is a way of telling, other than by getting better, that anything was done. The only prescribed perception in the procedure is the officiant's, it is specified down to the measure of the gate, and it is therefore a report by the one party whose competence the failure rules make the alternative explanation."@en,
+        "The two hits on 效驗 are both negative and both belong to the failure side. At 009b of the code the outcome of an incompetent officiant is frailty and no proof of effect; at 2.22a of the manual the twenty-four titles of the body's officers are said to be all efficacious when called upon as the case requires, which is a blanket assertion and not a sign. A corpus whose only uses of the word for proof of effect are one denial and one blanket claim has not given the term any work to do."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Term search for 驗, 效, 應, 徵, 見, 夢, 光, 香氣, 瑞, and for the collocations 有驗, 無效, 效驗. Every hit read in its place."@en ;
+    pm:searchYieldedNode pmc:CmCunsiKe ;
+    pm:searchedBy "prima-materia, 2026-09-23" ;
+    pm:searchedCorpus "Zhengyi fawen tianshi jiaojie kejing (DZ 789) and Lu Xiujing, Lu xiansheng daomen kelüe (DZ 1127), both complete; Chisongzi zhangli (DZ 615), juan 1 and 2 complete, juan 3 to 6 by term. Zhengtong Daozang, Hanfenlou facsimile, in the Chinese."@en ;
+    pm:searchedFor "A sign of success announced in advance to the party the rite is performed for: something the sick person or his household would see, feel or hear by which the granting of the petition could be known apart from the recovery itself. The corpus states failure signs in quantity, so the question is whether the two sides are stated at the same strength."@en .
+
+pmp:CmZhangqiSearch a pm:Searching ;
+    rdfs:label "Ob die Eingabe eine Frist traegt, innerhalb derer sie beantwortet wird"@de,
+        "Whether the petition carries a term within which it is answered"@en ;
+    dcterms:date "2026-09-23" ;
+    skos:note "No term anywhere. The counted days that the search turns up are of two other kinds and of no other. They are pollution intervals, which say when a petition may be sent and not when it will be answered, and they are calendar prohibitions, which say on which days it may not be sent. The manual counts a hundred days for a death in the house, forty for a year's mourning, three for entering a birth room, seven before a household may enter the parish after a beast has given birth, a hundred before a newborn child may; and it prints five separate tables of forbidden days. Not one of these counts forward from the rite."@en,
+        "What the absence sits next to is what makes it worth an exhibited gap. The failure of a petition is not merely unmeasured in this corpus, it is the trigger for the next petition: the citation of the Taizhen code at pmc:CmBuyuJizhang runs through some fourteen stages, each entered on the failure of the one before, and at no stage does it say how long one waits before deciding that a stage has failed. The officiant therefore has a complete instruction for what to do when nothing happens and no instruction for when to conclude that nothing has happened. A term would have supplied the one thing that could close the series, and the corpus that counts pollution to the day does not state one."@en,
+        "Where a later run should look before treating this as settled. The Nüqing guilü was searched by term and not read, and juan 3 to 6 of the manual were searched and not read; the terms above would have caught an explicit interval but not a term stated by circumlocution. The registers and ordination texts of the Zhengyi fawen group, nine of which survive under separate titles, were not opened at all."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the three works for 三日, 七日, 百日, 日中, 期, 限, 剋期, 效, 驗, 差, 愈, 不愈, 不差, and every numeral followed by 日 in the opening two juan of the manual. Every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-09-23" ;
+    pm:searchedCorpus "Zhengyi fawen tianshi jiaojie kejing (DZ 789), one juan, and Lu Xiujing, Lu xiansheng daomen kelüe (DZ 1127), one juan, both read complete; Chisongzi zhangli (DZ 615), juan 1 and 2 read complete and juan 3 to 6 searched by term. Zhengtong Daozang, Hanfenlou facsimile, in the Chinese."@en ;
+    pm:searchedFor "A stated interval between the sending up of a petition and the effect it is sent for: a number of days after which the sick person is expected to mend, a term after which the petition is held to have failed, or any period at the end of which a verdict could be taken. The corpus counts days in quantity elsewhere — a hundred days of pollution for a death in the house, three days for entering a birth room, one day for a beast — so a term, if the transmission had one, would be stated in the same way."@en .
+
 pmp:CritiqueRigoureuse a pm:Practicing ;
     rdfs:label "Die strenge Kritik einer Mitteilung"@de,
         "Rigorous critique of a communication"@en ;
@@ -12771,6 +13089,24 @@ pmp:Sitkari a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
 
+pmp:StrongerAddressExamination a pm:Testing ;
+    rdfs:label "Ob die Eskalation ohne Frist auf Überlieferungen beschränkt ist, deren Ergebnis eine Erscheinung ist"@de,
+        "Whether the escalation without a term is confined to transmissions whose result is an apparition"@en ;
+    skos:definition "A protocol on the two-clause claim that a transmission whose result is the appearance of a being meets a non-appearance with a further and stronger address and states no term, while a transmission whose result is a reported change in the condition of a second person states such a term as a count of sittings or of days. The population is every node in the compiled holding that prescribes what an operator is to do when the result of an operation has not arrived, together with every node that states a count of attempts, sittings or days at the end of which a verdict is to be taken. It was drawn by a whole-text scan of traditions/, convergences/ and originations/ for the vocabulary of failure set beside the vocabulary of repetition, and every candidate was read at its place and classified on two axes: what kind of thing the transmission makes its result, and whether it names a point at which the operator is to stop."@en ;
+    skos:note "One thing the protocol did not do, and it bears on how much the finding is worth. The case was not found by a search devised against this claim; it came out of the harvest of a corpus opened for another reason, and the connection to the claim was made afterwards. SPEC §16 asks the counter-search of a generalization to run against the holding before the statement is written, and that was done when this statement was written — the holding then did not contain the refuting case. The lesson is the one already recorded at pmc:AdmissibilityBoundToTheCalendar: against a statement drawn from few witnesses, the counter-search that finds something is usually the next corpus and not the next query."@en,
+        "The absence of a term was established by search and not by reading the one passage. The question was put to the whole of the two one-juan works and the first two juan of the manual, with the remaining four juan searched by term, for any interval between the sending of a petition and the effect it is sent for; it came back empty, and the empty result is exhibited at pmp:CmZhangqiSearch. What the search did return is the reason the absence is worth something: this corpus counts days with unusual care in two other places, a hundred days of pollution after a death in the house and five tables of days on which a petition may not be sent, so a term would have been stated in the same register if the transmission had one. A corpus that counts pollution to the day and does not count the wait is not silent by inadvertence."@en,
+        "The first clause stands and gains nothing. The population returned no transmission making an apparition its result and naming a stopping point, and the near-misses the statement already records — the one-month term of the Ars Notoria, the years of the Shangqing sun held in the heart, the forfeiture clause of the Greek ascent — were re-read and are still of the third kind, in that what falls due at the term is a state of the operator and not the arrival of a being. Two of this run's own findings belong to the first clause and confirm it without adding a tradition: the Latin grimoire's series and the demotic manual's six take-ups are the witnesses the statement was built on, and nothing came back beside them."@en,
+        "The second clause is met by the case its own falsification note named, and the case is a transmission the holding did not have when the statement was written. The Celestial Masters make their result the recovery of a sick person — a change in the condition of a second person, reported by that person and by his household, and one that no party to the rite controls. The manual of petitions cites the Taizhen code for what to do when the rite has not worked: a sequence of some fourteen petitions in which the failure of each is the sole trigger of the next, running from the petition of self-accusation through the releasing of the interrogation, of the dead forebears' punishment and of the five tombs, to the request for life at noon and midnight and the pledged text for prolonging life when the patient is in extremity. It is the escalation of the first clause, stated with a count, in an operative manual, for a result of the second kind. The node is pmc:CmBuyuJizhang."@en,
+        "What the deviation costs the statement, stated exactly. It does not touch the first clause, which is about the other column. It refutes the second clause as a universal — a transmission of the second kind does not always state a term — and it leaves the asymmetry the statement was built on standing as an observation about two particular corpora rather than about two kinds of result. The clause should be rewritten so that it claims what the evidence carries: that the holding contains transmissions of the second kind which state a term, and contains at least one which does not, so that the kind of result does not by itself decide the matter. That rewriting is made at the node; this protocol records why."@en,
+        "What would decide it, and what a later run should do rather than adding witnesses. The second clause rested on one transmission and now rests on two that disagree, which is not a class but a pair. The cheapest discriminating question is not how many further transmissions state a term but what the two that differ have that the other lacks: the animal magnetism operates on a patient in the operator's presence over a sitting whose length he fixes, and the Celestial Masters operate by a document sent to an office whose answer arrives, if it arrives, outside the rite altogether. A term can be stated where the operator is present at the end of the attempt and cannot easily be stated where he is not. If that holds across further cases, the dividing feature is the location of the outcome relative to the rite and not the kind of result at all, and the statement should be reformed on it. The population for that question is the transmissions of this holding whose operation is a petition, a letter, a burial deposit or any other despatch, and it has not been drawn."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Two searches over the compiled holding. The first drew every node whose wording sets a term of failure beside a term of repetition — fail, no effect, does not heal, produced nothing, comes to nothing, set against again, repeat, a second, a further, once more, renew, until — and returned some eighty nodes, each read at its place. The second put the question the other way round and asked which transmissions of the holding make their result a change in the condition of a second person reported by that person, so that the population of the second clause could be counted rather than assumed. That is where the opposition came from: the count is two, and the second of them behaves like the first clause and not like the second. Not searched: anything outside the holding. The claim is about the wording of transmissions, and the cheap search was the one run; what a further corpus would decide is stated below."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-09-23" ;
+    pm:falsifiedBy "For the first clause: a transmission making the appearance of a being its result and naming a term, a count of addresses or a sign at which the operator concludes that nothing will come. Not met; nothing in the population does this. For the second clause: a transmission whose result is a reported change in the condition of a second person which prescribes, in place of any term, a stronger address repeated without limit. Met, by the petition sequence of the Celestial Masters, and the second clause does not survive it as worded."@en ;
+    pm:protocolUpdated "2026-09-23" ;
+    pm:tests pmc:TheStrongerAddress .
+
 pmp:TeinmLaida a pm:Practicing ;
     rdfs:label "Teinm laída"@de,
         "Teinm laída"@en ;
@@ -13235,14 +13571,6 @@ pmt:CayceReadings a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The indexed Cayce readings held by the Association for Research and Enlightenment; Sugrue, There Is a River" .
-
-pmt:CelestialMasters a pm:Tradition ;
-    rdfs:label "Himmelsmeister"@de,
-        "Celestial Masters"@en ;
-    skos:definition "The earliest organised Daoist transmission, in which illness is treated as the consequence of fault and healing proceeds by confession and petition."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Xiang'er commentary on the Laozi; Zhengyi fawen; the Taiping jing" .
 
 pmt:ChaldeanOracles a pm:Tradition ;
     rdfs:label "Chaldäische Orakel"@de,
@@ -13822,6 +14150,7 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         "A seventh witness was added on 2026-09-18, and it tests the statement rather than repeating it. The demotic manual of London and Leiden binds nine of its operations to a time — a half-month of the moon from the fourth day to the fifteenth, the fifteenth day when the moon fills the uzat, the third and the fourteenth of the lunar month, midday, the seventh hour of the day, the third hour of the evening, the moment of the sun rising entire, a named constellation, and the moon in Leo — and the condition is in every case the date and never a state of either party, which is the first half of the statement. The second half it does not supply: it states no consequence for acting outside any of the nine windows. The witness therefore confirms the antecedent nine times over and leaves the consequent unattested, which is worth entering because the statement is a conditional and a case that meets the antecedent without meeting the consequent is where it would break. It does not break here — the statement claims only that where such a consequence is stated it lies in the time — but the case shows how much of the class is silent."@en,
         "An eighth witness was added on 2026-09-20 from the Mandaean material, and it is the first that carries both clauses in one word. The days it names are mbattal, and the transmission uses that word of a day in exactly the sense it would use of an operation: useless. On such a day no undertaking is to be begun and no religious ceremony performed; the condition is the date of the month and nothing else; and the failure is located in the day, which is the second clause stated as plainly as the class allows. The witness also supplies the thing the seventh did not, a consequence with a repair attached: a man who dies on such a day must have the blessed oblation performed for him on a substitute at the spring festival, so the transmission both names the loss and prices its recovery."@en,
         "Both new witnesses carry the first clause and neither carries the second, so they change the count and not the balance: the handbook names the day and the quarter and says nothing about what befalls an act done outside them, and the Herbarium does the same. The holding therefore has four witnesses for how the condition is stated and two for where the failure is located, and the second clause still rests on the Chinese material alone."@en,
+        "Eleventh witness, added on 2026-09-23 from the Celestial Masters, and it is the densest single case the class holds. The petition manual fixes the sending of a petition by five separately computed prohibitions at once: a monthly table with a named stem-branch day and a further count of days for each of the twelve months, plus eight branch-days; the days of heaven's father, the third, ninth, fifteenth and twenty-seventh, on which no petition is sent up; the days of heaven's mother; a monthly table of the days of the killing of heaven, which a petition must avoid; the days on which the officers of heaven attend the audience at heaven's gate, on which none may be presented; and the days on which heaven and earth are shut. Every one is a date and none is a state of a party. It carries the first clause and not the second: the manual says the petition is not to be sent on those days and nowhere says what befalls one sent on them."@en,
         "Falsified by a transmission of this kind whose earliest witness names a compensating act — a substitute rite, a correction, a second attempt — that restores the effect for an operation performed outside the window, or one that makes the window itself depend on a state of the operator, since either would put the decision back into a party's hands. Weakened, without being refuted, if the windows of two such transmissions turn out to be derived from one another rather than arrived at separately; the two here are both Chinese and a route between them is not excluded, which is why the statement claims a recurring form and not an independent attestation."@en,
         "It matters for the spread as well as for the count. Six of the seven earlier witnesses stand in the Chinese and European spheres and the seventh in the Graeco-Egyptian; this one is West Asian, its contact route to the others is disputed rather than documented, and a run that wants to know whether the form is a property of a culture now has a fourth sphere to reckon with. What it does not do is make the second clause independent: the Mandaean rule reaches the graph through a field record of the nineteen-thirties, not through the scripture, and a search of the Ginzā and of the prayerbook for the same rule came back empty. See pmp:MandaeanGinzaTaxatioSearch."@en,
         "It narrows the statement and does not refute it, and the difference is worth being exact about. The chapter does not say that an operation performed outside its window works; it says that a man of this attainment no longer chooses days at all, which is a claim about who stands under the rule. Had it said that the practice takes effect in the hours of dead qi for such a man, the first clause would be gone."@en,
@@ -13830,17 +14159,21 @@ pmc:AdmissibilityBoundToTheCalendar a pm:Generalizing ;
         "That narrowness is the reason for the two witnesses added on 2026-09-13, and they are the first from outside the Chinese sphere. The European folk-magic handbook binds a whole class of its acts to a named weekday, an hour before sunrise and a named quarter of the moon — Friday before sunrise in the waning moon for the knotting of twigs, the first Friday in the new light for the slip against the falling sickness, the last Friday in the old light for the letter against rheumatism. The Old English Herbarium binds one remedy for the same disease to two calendar conditions at once, the waning moon and the sun in the Virgin, which the text itself resolves into the month of August. Both were read at the wording; the second was found by a counter-search that was looking for something else. The spread is now three transmissions and two spheres between which no route has been proposed."@en,
         "The consequent it does not supply at all, and that silence is now the commonest case in the class. At none of the six does the lesson say what befalls a user who acts outside the window, which makes this the second witness after the demotic manual to confirm the antecedent many times over and leave the consequent unattested. Of nine witnesses four now state where the failure lies and five do not. A statement whose second clause is carried by fewer than half its predecessors should be read as two statements, and a later run may want to split it."@en,
         "The counter-search was run against the compiled holding before this was written, for transmissions that bind an operation to a time and for transmissions that refuse to. Nothing in the holding says of an operation of this kind that it works whatever the day. What the search did turn up is the case that keeps the second clause from being stated more strongly: the operative transmission of the science of letters prescribes seven days of the lunation on which its orations are to be said, and the holding already carries that at prescribed order rather than at stated necessity, on the ground that the text does not say what follows if a day is missed. A window with no stated failure is therefore a real and already recorded shape, and the statement is worded so that such a case does not falsify it."@en,
+        "The density is itself a finding and it belongs with the note on Renaissance magic above, which records the same difficulty at three conditions. Here there are five, laid over one operation, computed by different reckonings and not reduced to one another. An officiant whose petition brought nothing has five available dates to have fallen foul of, and no procedure for telling which, since the manual names no consequence for any of them. A calendar of that density stops being a condition on the operation and becomes a supply of explanations for its absence."@en,
         "The finding is also a lesson about the counter-search this class requires. It ran against the compiled holding, as SPEC §16 prescribes, and came back empty; the case that limits the claim was in the unread part of a work already cited three times in this graph. Against a generalization drawn from two or three witnesses, the cheapest remaining counter-search is not another query but reading the rest of the works the witnesses come from. See prima-materia#674."@en,
         "The nearest counter-case was found on the day this node was written, and it was not in the holding at the time of the counter-search. It stands in the eighteenth chapter of the work whose eighth chapter supplies the first witness: one who can guard the One, it says, need not divine the day or choose the hour, no longer consults the siting calendars, does not avoid the year star or the taboos of his year and fate, and in the end never meets with calamity. The exemption is granted by a state of the operator, which is the thing the first clause says a calendar-bound condition is not stated in terms of. It is what removed the word alone from that clause, and it is the reason the clause now says how the condition is stated rather than what it depends on."@en,
         "The one thing the search found on the other side is not a transmission but a critic. The seventh-century memorial on the burial books argues that the rites fix the interval between death and burial by rank, so that no year or month is chosen, and counts burials in the classical annals on the day the books call worst of all. That bears on whether the second witness is right and not on what it claims, and it is held where it belongs, at the dispute node beside the burial book."@en,
+        "The same run supplied the class its first outright refusal, and it is the strongest counter-material this statement has met. The counter-doctrine recorded below from the internal alchemy declines to bind and puts the condition in the practitioner; the code of the Celestial Masters forbids the binding and assigns it to the opposing party. In dwelling, in settling a tomb, in moving and in every undertaking one does not divine the day or enquire after the hour but acts as the heart directs, with nothing avoided and nothing sought; the books of siting are to be driven out by petition; and the keeping of a calendar and the picking of days and hours is named among the present abuses as a folly grown worse which the correct code has made plain and men will not follow. The refusal is placed in a list whose other members are sacrificing to ghosts and telling fortunes, so the calendar is classed with the practices the transmission defines itself against. The node is pmc:CmBukaoRiwen."@en,
         "The shape of these claims is worth stating beside the claim, because it runs in two directions at once and this is the class in which both are visible in one sentence. A condition fixed by a calendar is the most examinable kind this holding carries: it is public, it is settled before the case, and no party to the operation can adjust it afterwards. The same condition is also the cheapest available defence, because any session, burial or needling that produced nothing can be assigned to the hour after the fact. Which of the two a given transmission intends is not decided here and probably cannot be decided from the texts."@en,
         "The three witnesses. The Baopuzi says that the circulation of the qi is to be done in the hours of living qi and not in the hours of dead qi, and that in the hours of dead qi it is of no benefit; the boundary is midnight and noon and nothing else enters it. The burial book names as the second of six adversities a going wrong of the year and the season, which makes the burial adverse however favourable the ground and however correct the rite. The Lingshu binds five needling operations to the stems of the day: on jia and yi days not the head, on bing and ding days not shoulder and throat, and so through the cycle."@en,
         "The two clauses of the statement are not equally carried, and the division is the useful part. All three witnesses carry the first: the condition is a date, and no examination of anybody could establish or remove it. Only two carry the second, because the Lingshu names the days and the places and stops, without saying what befalls one needled at the head on a jia day. A fourth place in the same corpus, the twelve mis-needlings by season, does state consequences, which suggests the silence belongs to that chapter rather than to the transmission; that is a reason to look further and not a reason to count it."@en,
         "The witness also brings its own qualification, and it is sharper than the one the internal alchemy supplied. The same lesson offers, in the verse that names the chamber, a second route carrying no date at all, the route of wind and sun, and assigns it in its fourth section to everyone who is not strong, healthy, intellectual, self-controlled, forgiving and possessed of means; it then offers a third, the rasāyana of conduct, which has neither drug nor chamber nor date, and claims the same result for it. The binding and the release stand in one lesson, for one operation, and the release is given to the larger class of users. What the lesson does not do is say that the operation works on any day: the release is by omission and not by denial. See pmp:AyurvedaKalanirapeksaSearch, which put both questions, and pmc:TheWaiverRunsBothWays, which is the generalization formed from the release."@en,
-        "Two of the three witnesses stand in the same tradition. The spread is therefore two transmissions and not three, and the claim is correspondingly weaker than the count of predecessors suggests. See prima-materia#666."@en ;
+        "Two of the three witnesses stand in the same tradition. The spread is therefore two transmissions and not three, and the claim is correspondingly weaker than the count of predecessors suggests. See prima-materia#666."@en,
+        "What makes that refusal cost something rather than merely bound the statement. It does not stand outside the transmission that supplies the eleventh witness; it stands inside it, in a different work, and the two are set against one another at pmc:CmRiwenDispute. One transmission both forbids the calendar as the mark of heterodoxy and prints forty folios of it for its own central rite. The antecedent of this statement is therefore not met by a tradition but at most by a work, and a run that counts witnesses by tradition is counting the wrong unit."@en ;
     pm:attestedBy pm:compilerInference ;
     pm:generalizedFrom pmc:AgrippaSineLuna,
         pmc:AyurvedaKutipravesaKala,
+        pmc:CmZhangjiaoJiri,
         pmc:EuropeanFolkMagicAsterionPresupposesFenster,
         pmc:EuropeanFolkMagicMondfenster,
         pmc:MandaeanDiesMbattal,
@@ -14525,6 +14858,88 @@ pmc:ClaviculaSignaAdventus a pm:Conceptualizing ;
         "The count for this work: one sign of success against no condition of failure. Against the six kinds of appearance and the promised noises and rushings, the chapters read state not one observation that would show an operation had not worked. Every non-occurrence is assigned by pmc:ClaviculaDefectusOperantis or pmc:ClaviculaCausaeNonAdventus before it can become one."@en ;
     pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:CmBinglaiFuchai a pm:Cautioning ;
+    rdfs:label "Kehrt die Krankheit nach dem Weichen wieder, ist der Mensch böse und wird nicht weiter behandelt"@de,
+        "If the illness returns after clearing, the man is bad and is not to be treated again"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 018b (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The admonitions instruct: where a libationer treats an illness and the illness comes and then clears, and having cleared comes again, this person is a bad person; do not treat him medically any further."@en ;
+    skos:note "It stands in direct contradiction to the escalation at pmc:CmBuyuJizhang, where a failure to heal is answered by a further and stronger petition through some fourteen stages. The two are in works of the same transmission and are set against one another at pmc:CmZhiliaoDispute."@en,
+        "The most exact failure rule in the file, and it does two things at once. It names a countable outcome — one relapse after one remission — which is the sort of criterion this holding is looking for and almost never finds; and it assigns that outcome to the moral quality of the patient rather than to the procedure, and closes the case by withdrawing the procedure. The sick person who relapses is thereby removed from the series before he can relapse a second time, so the rule is also the mechanism by which the series keeps its record clean. Entered as a witness for pmc:NoFailedRunCountsAgainstTheOperation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "A patient whose illness returns after it has once cleared" ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmBuyuJizhang a pm:Cautioning ;
+    rdfs:label "Heilt es nicht, so sende die nächste Eingabe hinauf"@de,
+        "If it does not heal, send up the next petition"@en ;
+    dcterms:source "Chisongzi zhangli 2.18b-19a (DZ 615), citing the Taizhen ke, Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The manual cites the Taizhen code for the order of petitions in illness: first the petition of self-accusation; if it does not heal, the petition releasing the interrogation; if it does not heal, the petition releasing the punishment of the dead forebears; if it does not heal, the petition of transferral; if the patient sinks, the petition driving off the killers and gathering the infusing ghosts; if he collapses, the great petition releasing calamity and evil; if it does not mend, the petition releasing the punishment of the five tombs; if it does not mend, the great petition sustaining the failing and crossing the straits; if it does not heal, the petition returning the cloud-soul and restoring the white-soul; if it does not heal, the petition settling the tomb and releasing the five soils' wasting harm; if it does not heal, the petition settling the dwelling, quieting the gods and expelling the gathered ghosts; if it does not heal, the petition dividing and releasing the great interrogation within and without; if the case is critical, the petitions of the noon and midnight request for life and of driving off the three officers' release by death; if he goes back and forth, the petition looking up in thanks to the thirty-two heavens; and if he is in extremity, the pledged text for prolonging life, and after that the seizing of life, the separate release of the entailed, the lamps, the twenty-eight lodges, and the eighty-one petitions for the dividing and release of the dead forebears."@en ;
+    skos:note "Counted from the citation: fourteen stages before the residual list, each introduced by the failure of the one before it, and the whole of it a prescription for what to do when the procedure has not worked. There is no stage at which the series terminates in a verdict against the procedure; the terminal case is the one in which the patient is in extremity, and the answer to that is a further petition. The failure of each stage is the sole condition for entering the next, so that the sequence converts every negative outcome into an instruction and none of them into evidence."@en,
+        "This is the passage that makes the transmission worth having in this holding. The shape it exhibits — a procedure whose prescribed response to its own failure is another instance of itself — is stated here with a stated count, in an operative manual, with the stages named. It is entered as the sixth witness of pmc:TheStrongerAddress, and the protocol at pmp:StrongerAddressExamination records what it does to that statement's second clause."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "A petition for illness that has not brought recovery" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmCunsiKe a pm:Yielding ;
+    rdfs:label "Was der Vollzieher auf dem Weg hinauf mit der Eingabe sieht"@de,
+        "What the officiant sees on the way up with the petition"@en ;
+    dcterms:source "Chisongzi zhangli 2.23b (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The manual gives, as the code of visualisation, what the officiant is to see once the petition is sealed: he lies down before the table and visualises a red pneuma issuing from his own heart and rising to heaven; in a moment it is as though he had travelled a hundred li; the road of red pneuma is broad and without flaw or shadow on either side and set with many jewel trees; he sees a yellow road, which is the yellow road of the sun and the moon; five or six li past it he sees purple clouds faintly, and coming to them the gate of heaven, the gate measuring one zhang eight chi, with the attendants at it."@en ;
+    skos:note "Entered among the signs of success and counted separately from the failure material, as SPEC 15 requires. The content of the vision is prescribed in advance and in detail, down to the measure of the gate, so that an officiant who reports it is reporting what he was told he would see; the transmission supplies no sign that would distinguish a vision that arrived from one that was produced, and states no consequence for an officiant who sees nothing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:CmShoufuYinshui ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters ;
+    pm:yieldsCapacity "The vision of the ascent with the petition, as far as the gate of heaven" .
+
+pmc:CmLibuweishi a pm:Cautioning ;
+    rdfs:label "Die Beamten gehorchen nicht, das Pneuma steigt nicht herab, und am Ende ist kein Wirksamkeitsnachweis da"@de,
+        "The officers do not serve, the pneuma does not descend, and in the end there is no proof of effect"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 009a-009b (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The code describes the officiant who has no code or precept to go by and no means of telling the genuine from the false, who works from corrupted old petitions and garbled talismans whose head and tail do not answer to one another, who guesses and alters at will, who writes in a scrawl, who eats meat and drinks wine, who says whatever comes into his mouth, who arrests innocent ghosts and indicts spirits that are not the cause; and it states the outcome: for such men the officers and soldiers do not serve, the pneuma of the Dao does not descend, the interrogation grows daily more pressing, the sick person turns weaker and heavier by the day, and in the end there is frailty and no proof of effect. Host and guest are deluded together, do not perceive their error, and fall to slander, resenting the Dao and blaming the gods, some of them burning their registers and wrecking their chambers."@en ;
+    skos:note "The most complete failure protocol in the file. It is remarkable for stating the negative outcome in the terms an examination would use — the patient measurably worse, and no proof of effect — and then locating the cause in the officiant's competence, which is assessed by the same authority that assesses the outcome. It also records the end state of the sequence: the people who conclude that the thing does not work destroy the apparatus, and the text treats that conclusion as their further error."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "An officiant working without the code, from corrupted petitions and garbled talismans" ;
+    pm:fromWork pmw:LuxianshengDaomenKelue ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmWumuJiuzu a pm:Cautioning ;
+    rdfs:label "Die gegenwärtige Krankheit wird den angehäuften Sünden von sieben Generationen angelastet"@de,
+        "The present illness is charged to the accumulated sins of seven generations"@en ;
+    dcterms:source "Chisongzi zhangli 4.7a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 4" ;
+    skos:definition "The petition for releasing the punishment of the five tombs states its own premise: that the petitioner has been stricken with an illness which goes back and forth and does not mend and he fears he will not stay alive, and that this is because his household's three great-grandfathers, five ancestors and seven generations of forebears accumulated sins in their lifetimes and drew down the calamity, or because there is harm from litigation within the tombs, or because the ridge of the ground has been cut through, the pines and cypresses felled by others, the bricks dug out, or a road driven past encroaching on the burial place."@en ;
+    skos:note "The failure of the earlier petitions is here given a cause, and the cause is placed in parties who are dead and in a state of the ground that the petitioner did not make. Entered as a witness for pmc:ThePenaltyLaidOnAnotherParty, at the far end of its range: the bearer of the fault is seven generations back and the sufferer is the one alive to report it, which is the displacement of the earlier witnesses run in reverse."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "An illness that goes back and forth and does not mend after earlier petitions" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhangjiaoJiri a pm:Presupposing ;
+    rdfs:label "Die Tage, an denen keine Eingabe hinaufgesandt werden darf"@de,
+        "The days on which a petition may not be sent up"@en ;
+    dcterms:source "Chisongzi zhangli 2.8a, 2.9b, 2.12b-13a and 2.16b (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 2" ;
+    skos:definition "The petition manual fixes the sending of a petition to a calendar. It gives a monthly prohibition with a named stem-branch day and a further count of days for each of the twelve months, and eight further branch-days, above which no petition or offering may be made; the days of heaven's father, being the third, ninth, fifteenth and twenty-seventh, on which no petition is sent up; the days of heaven's mother; a table of the days of the killing of heaven by month, which a petition must avoid; the days on which the officers of heaven attend the audience at heaven's gate, on which no petition may be presented; and the days on which heaven and earth are shut, on which petition and offering are not used."@en ;
+    skos:note "Entered as a witness for pmc:AdmissibilityBoundToTheCalendar. It carries the first clause of that statement fully — every condition is a date, none is a state of either party — and it does not carry the second: the manual states that the petition is not to be sent on those days and does not say what befalls one sent on them. It is also the densest instance the holding has, in that the same operation is fixed by five separate and independently computed prohibitions at once, so that a petition that produced nothing has five available dates to have fallen foul of."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep "That a petition may be sent up on a given day" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep "That the day is not among the monthly prohibitions, the days of heaven's father or mother, the days of the killing of heaven, the days of the audience at heaven's gate, or the days on which heaven and earth are shut" ;
+    pm:withinTradition pmt:CelestialMasters .
+
+pmc:CmZhangxinSanfen a pm:Cautioning ;
+    rdfs:label "Drei Zehntel des Pfandes, und der Rest an die Armen"@de,
+        "Three parts in ten of the pledge, and the rest to the poor"@en ;
+    dcterms:source "Chisongzi zhangli 1.2a (DZ 615), Zhengtong Daozang, Hanfenlou facsimile, juan 1" ;
+    skos:definition "The manual cites the code: the goods of the pledge are to be distributed among the poor and hidden virtue thereby practised, and the master may not use the whole of them; reckoning by ten parts, what the master may take in is three parts and no more. It adds that the code of heaven is severe, that one who offends is found guilty before the three officers, that the calamity reaches to the nine ancestral generations, and that he becomes for ever a lower ghost."@en ;
+    skos:note "The sanction is displaced twice over. The officiant who overcharges is punished in his own posthumous standing, which lies past any report, and in nine generations of ancestors, who cannot be examined at all. The one party in a position to know that the rule was broken — the officiant himself — is thus the party from whom the consequence is furthest removed, and the family charged with it cannot be observed. Entered as a witness for pmc:ThePenaltyLaidOnAnotherParty."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "An officiant keeping more than three parts in ten of the pledge" ;
+    pm:fromWork pmw:ChisongziZhangli ;
+    pm:withinTradition pmt:CelestialMasters .
 
 pmc:CommunicationFromTheSun a pm:Conceptualizing ;
     rdfs:label "Eine Mitteilung von der Sonne"@de,
@@ -15968,7 +16383,9 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         "Fourteenth witness, added on 2026-09-22 from Renaissance learned magic, and it is the first from a printed book with a named author writing for a public. The conclusion of Agrippa's three books says that if any, through his incredulity or dulness of intellect, does not obtain his desire, he should not impute the fault to the author or say that the author erred or lied, but accuse himself, who does not understand the writings. The two causes named are properties of whoever complains, neither can be cleared in advance, and the sentence stands at the end of some two hundred chapters, where whoever has worked through them and has nothing to show meets it and no other account. What the witness adds to the statement is that the construction does not need a lineage, an initiation or a secret: it works in print, addressed to strangers."@en,
         "The claim is about where the failure is put and not about whether the operations work. A transmission that supplies such a clause is not thereby making a false claim; it is making one that the ordinary check cannot reach, because the check's negative outcome has been given a home in advance. That is the difference this project exists to record, and it is a property of the wording rather than of the world."@en,
         "The form was described from the outside, at the same period as two of the witnesses, by a first-century critic whose account this holding carries at pmc:BiansuiDispute: he put a counter-example to a practitioner three times and was answered three times with a fresh condition. Seeing the same form printed as instruction at pmc:JinchengYaocheng is what made the generalization worth forming. The description from outside is not counted among the witnesses, because a critic reporting the move is not a transmission supplying it."@en,
+        "The transmission supplies a third thing the fifteen earlier witnesses do not, and it is worth recording here rather than at either node. It penalises the report. At pmc:CmYanhuiWuyi one who meets calamity and says that serving the Dao is of no benefit thereby commits an offence of three thousand. The statement above is about where an empty run is assigned; this is one step further out, at the practitioner's testimony about the empty run, and it is stated in the operative text rather than in a gloss. A later run looking for a name for that construction should note that the same corpus also describes, at pmc:CmLibuweishi, what those who conclude that the thing does not work go on to do — burn their registers and wreck their chambers — and treats that conclusion as their further error."@en,
         "The witnesses are not of equal standing and the difference runs along one line. In the three Chinese cases the excusing clause is printed by the transmission itself, as part of the instruction or of the commentary that travels with it: nobody is being answered, and no outside observer is involved. In the three African cases it is the report of a European recorder, and two of the three recorders say so in their own voice — one holds that the practitioners themselves are responsible for the prohibitions because a prohibition leaves a reasonable excuse, and another summarises an attitude rather than quoting an informant. Observers of that period were looking for exactly this shape. The generalization therefore rests on the Chinese witnesses, where the clause is self-attested, and is corroborated with that caveat by the others."@en,
+        "Two witnesses added on 2026-09-23 from the Celestial Masters, and they are worth having separately because they put the empty run in two of the four named places within one transmission. At pmc:CmBinglaiFuchai the admonitions instruct that where a libationer treats an illness and it clears and then returns, this person is a bad person and is not to be treated further: the run is assigned to the person operated on, and the assignment is also the mechanism by which the case leaves the series before it can relapse twice. At pmc:CmLibuweishi the code assigns it to the operator, in the fullest failure protocol the holding carries — the officers do not serve, the pneuma does not descend, the interrogation grows daily more pressing, the sick person turns weaker and heavier by the day, and in the end there is frailty and no proof of effect — with the cause in the officiant's competence, which the same authority assesses."@en,
         "What each witness supplies, in the transmission's own terms. The golden elixir: where the assay yields no gold the drug is to be sealed and fired again for the same count of days, and then it never fails to form; and where it still does not form, an unbeliever may have slandered it. The medical canon: where the treatment establishes nothing, the spirit does not lend itself, and the passage supplies no mark by which the absence could have been seen beforehand. The burial book: the commentary on the sixth adversity enumerates the ways in which nothing happens, and every one of them is a circumstance of the family rather than of the site. The Kongo corpus: a charged thing that fails is either sulky and wants a sacrifice or has lost its power and wants renewing, and both branches cost a fee. The Zande oracle: eight named causes for a self-contradiction, from the wrong variety of creeper to the anger of the ghosts, and the recorder's summary that the errors as well as the sound judgements are taken as proof of its accuracy. The Slave Coast amulet: where the thing fails at the single danger it was made against, they are never at a loss for an excuse."@en,
         "What the fifteenth witness adds is a distinction the statement can carry and did not yet display. The doctrine here is immunised exactly as the others are — a lost case says nothing against the science — and the man is not. That the transmission whose entire content is that belief makes and unmakes disease never once puts a failed treatment down to the patient's want of belief was searched for and is recorded at pmp:NewThoughtPatientsBeliefBlamedSearch; the easiest immunising clause in this register was available to it and is not used. One case in the same volume runs the other way, and the excuse there is the patient's belief in a rival advertised remedy rather than his want of belief in the healer, which is a narrower door than any of the other fourteen opens."@en ;
     pm:attestedBy pm:compilerInference ;
@@ -15976,6 +16393,8 @@ pmc:NoFailedRunCountsAgainstTheOperation a pm:Generalizing ;
         pmc:AmuletFailureIsAlwaysExcused,
         pmc:BengeFailureCauses,
         pmc:ClaviculaDefectusOperantis,
+        pmc:CmBinglaiFuchai,
+        pmc:CmLibuweishi,
         pmc:FailureIsSulkinessOrLostPower,
         pmc:JinchengYaocheng,
         pmc:NeidanFeidaofuren,
@@ -17119,6 +17538,7 @@ pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
     skos:note "A fourth, fifth, sixth and seventh witness were added on 2026-09-19 from the Vedic Brāhmaṇas, and they form a cluster of the kind the third note warns about — in that corpus the displaced form is not a minority but the ordinary arrangement, and the four are listed so that the cluster is visible rather than so that the count looks better. What they add beyond number is four things the first three did not have. A grading: passing over a sentence of the formula makes the sacrificer worse, inverting two confuses him, uniting two makes him likely to die, and in all three the fault is the reciter's and the damage the patron's. A range: if the offering fire goes out the eldest son dies, if the householder's fire goes out the master of the house dies, if the southern fire goes out the cattle die, if all of them go out the family is without heirs. A prescribed transfer rather than a stated one: where the cow gives blood instead of milk, the repair is to give her to a Brahmaṇa whom the sacrificer does not intend to visit, because she milked blood after perceiving his suffering and evil, and he thus fastens that suffering and evil upon the recipient. And, once, a report: the heads of the victims obtained without the sacrifice were put on the altar for Aṣāḍhi Sauśromateya, by others, and quickly indeed he died after that."@en,
         "An eighth witness was added on 2026-09-20 and it breaks the cluster the third note warns about. It is neither burial nor needling nor Vedic, it is scriptural rather than field-recorded, and it displaces across a relation the earlier witnesses do not use: the fifteenth book of the right Ginza says of the daughter who has left the Nasoraean way that if she prepares offerings for the temples, judgement will be passed upon her father, and that if she goes to the soothsayers and Chaldeans, he will be called to account at the throne of the raging Nerig. Two faults, one bearer, and the bearer is alive and nameable, which puts this witness at the near end of the range the first note sets out rather than at the seven-generations end."@en,
         "Falsified by a count. If a survey of the operative transmission clauses across the holding's corpora found the displaced form to be the majority rather than the minority, the statement would have understated the shape and should be rewritten as a rule; if it found the displaced form confined to the two clusters named above and absent everywhere else, the statement would have overstated it and should be withdrawn to a remark about two corpora. Falsified in the other direction by an operative text that lays the penalty on a third party and in the same clause gives the performer a means of confirming that it arrived, without a direction or a term: that would break the condition the fourth note states."@en,
+        "The backward case is a kind the statement did not have and it bears on the first half rather than the second. The earlier witnesses displace a consequence away from a performer who knows the fault; here a consequence already present in a living and reporting party is given a cause in parties who are dead. The bearer is the one alive to report, and what is out of reach is the fault and not the harm. That is the mirror image of the arrangement the statement describes, and it produces the same result by the other route: the practitioner cannot check the attribution, because the sins of seven generations cannot be enumerated and their absence cannot be shown. A later run may want to say that the statement is about the separation of the knower of the fault from the bearer of the cost, and that displacing either term achieves it."@en,
         "The consequence for how such material is read is small and exact. A rule whose penalty is displaced cannot be tested by asking the practitioner whether it came true, because he is not the one it would come true to, and the absence of a report of the harm is not evidence that the harm did not occur. Anyone building a protocol on a transmission of this kind has to find the bearer before he can find the outcome, and in the case of the dead ascendants there is no bearer to find. That is a statement about what can be examined and not about what is the case."@en,
         "The same piece also carries the undisplaced form a few lines later, where each man who smells the odour of the soothsayers is made to smell the odour of decay. A transmission holding both within one passage is the sharpest available illustration of why the statement says a substantial minority: the displacement is a device the transmission reaches for and not a grammar it is bound by, and this corpus does not say what decides which of the two it uses."@en,
         "The second half of an earlier draft of this statement said that the displacement puts the rule beyond checking, and the counter-search killed it. Three kinds of case in the holding refuse it. A purification performed by the unqualified is said to make the sickness and death in the world stronger than they were, which is a directional claim about a countable thing and therefore decidable in a way that mere failure is not. A burial doctrine that placed its effects a generation away could never be caught, but one line of it fixes a class of effects within a day of a burial, and burials are public and dated; a seventh-century memorial accordingly set a count of more than twenty recorded burials against it. And a felling prohibition names the man who will die, sets ten days, and denies the obvious natural explanation in advance. What all three have that the three witnesses lack is a direction and a term. That is the condition under which a displaced consequence comes back within reach, and it is stated here as a finding and not as a hope."@en,
@@ -17126,9 +17546,12 @@ pmc:ThePenaltyLaidOnAnotherParty a pm:Generalizing ;
         "The three witnesses displace to three different distances, and the range is the point. In the Hawaiian case a breath taken before the close of a phrase is ill-luck to the person or family the chant honours, who are alive and can be watched, so that only the attribution and not the observation is out of reach. In the Chinese transmission clause the affliction of a wrongly conducted handing on is reported to the three palaces and falls on seven generations of ancestors, who cannot be examined at all and cannot be reported unafflicted. In the Sanskrit case the debt to ancestors, sages, gods and the human race is simply never cleared, and the price is paid in repeated rebirth, which places the consequence outside the life in which the fault was committed."@en,
         "The witnesses also cluster rather than distribute, and a reader should not take this for a cross-traditional regularity. Two corpora carry the displacement as their normal form: the burial literature, in which a badly sited or badly dated grave cuts off the sons and kills the grandsons, and the needling canon, in which the operator's error is paid for by the patient within a stated number of days. Outside those two the instances are scattered, and the three witnesses above were chosen from three unconnected transmissions in order not to rest the statement on either cluster."@en,
         "Two further cases bear on the first half rather than the second and are worth naming so that the claim is not read too strongly. In one tradition the audience at the public night ceremony knows the songs well enough to catch a deviation, so the fault is reported by people other than the performer even though the displaced ill-luck is not; and in another the displaced consequence is reported by the transmission itself as having been seen to arrive, in two anecdotes that the defending commentary supplies and that were never traced to the works they name. The first shows that displacement of the consequence does not entail displacement of the observation of the fault. The second shows what an unfalsifiable displaced claim looks like when the tradition does try to confirm it."@en,
+        "Two witnesses added on 2026-09-23 from the Celestial Masters, and they matter for the shape rather than for the count, because between them they run the displacement in both directions inside one transmission. At pmc:CmZhangxinSanfen the officiant who keeps more than three parts in ten of the pledge is found guilty before the three officers, the calamity reaches nine ancestral generations, and he becomes for ever a lower ghost: the displacement runs forward from the one party certain to know the fault to a family that cannot be examined, which is the ordinary direction of the earlier witnesses. At pmc:CmWumuJiuzu the petition for releasing the punishment of the five tombs runs it backward: the illness that earlier petitions did not mend is charged to the sins accumulated in the lifetimes of three great-grandfathers, five ancestors and seven generations of forebears, or to a cut ridge, a felled cypress or a road driven past the graves."@en,
         "What the counter-search established about proportion should be kept with the claim, because it is the reason the statement says a substantial minority and not a rule. Of the forty stated consequences of a skipped prerequisite in the holding, four displace outright; of some fifty cautions, nine to eleven do. The commoner form by a wide margin is the penalty that falls on the practitioner's own body, memory, standing or attainment, and where that form is used the tradition can in principle be contradicted from inside, as one of the holding's own nodes says of itself."@en ;
     pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:HawaiianWelfarePresupposesExactChanting,
+    pm:generalizedFrom pmc:CmWumuJiuzu,
+        pmc:CmZhangxinSanfen,
+        pmc:HawaiianWelfarePresupposesExactChanting,
         pmc:HeterodoxWorshipNeverClearsTheDebt,
         pmc:MandaeanPoenaPatris,
         pmc:ShangqingHuangtingMengjin,
@@ -17213,6 +17636,29 @@ pmc:TheRepairWithoutASign a pm:Generalizing ;
         pmc:ShouyiZhongnan,
         pmc:VaidikaPrayascittaSarvam ;
     pm:generalizedStatement "Where the harm a transmission attaches to a fault in its own procedure is one the practitioner cannot observe — deferred past a term the text does not fix, laid on another party, or consisting in the mere absence of an effect — the repair it prescribes for that fault is asserted to work without exception and is given no sign by which it is known to have taken effect and no condition under which it fails. Where the harm is instead a present condition the practitioner notices in himself, the same kind of transmission states the repair's success as the ending of that condition, and provides for the case in which the repair cannot be carried out."@en .
+
+pmc:TheStrongerAddress a pm:Generalizing ;
+    rdfs:label "Wo das Ergebnis eine Erscheinung ist, gibt es keinen Punkt zum Aufhören"@de,
+        "Where the result is an apparition, there is no point at which to stop"@en ;
+    skos:note "Counter-search against the compiled holding, carried before this was written. Every node whose wording prescribes what to do when a promised result does not arrive was drawn and read at its place, and the terms searched over the holding were cease, desist, abandon, stop, leave off, give up, in vain, definitive judgment, does not come and never comes. No transmission of the first kind was found that names a term. Three near-misses came back and none of them meets the antecedent."@en,
+        "Examined on 2026-09-23 at pmp:StrongerAddressExamination, which found cases with deviation. The note that follows records the state before that protocol and is left standing as the record of it. What a protocol would have to do first is fix the population, and the hard part is the second column: this holding carries exactly one transmission in it, so the clause is at present a statement about the animal magnetism wearing the grammar of a class. A second transmission whose result is a reported change in a second person would settle whether there is a division here or only a contrast between two files."@en,
+        "Falsified by a transmission that makes the appearance of a being its result and states a term, a count of addresses or a sign at which the operator is to conclude that nothing will come — a grimoire that sends the company home at dawn, a manual that gives the inquiry three attempts and no more. One such case refutes the first clause as stated. Falsified in the other direction by a transmission whose result is a reported change in a second person and which prescribes, in place of any term, a stronger address repeated without limit. The likeliest places to look for the first are the transmissions this holding carries that already fix an operation to an hour or a day, since a bounded hour is the nearest thing to a bounded session: the demotic manual itself carries nine such datings at pmc:PdmHoraEtLuna and states no consequence for any of them."@en,
+        "The near-misses, because each of them looks at first like a refutation. The Ars Notoria states a term of one month and an outcome due at the end of it, but its result is knowledge in the operator and not the appearance of anything, so it belongs to neither column; the protocol on it stands at examinations/notory-art-one-month.ttl. The Shangqing sun held in the heart names one year, five years and eighteen years, and what is due at the term is a property of the practitioner's own body in daylight, which is again a third kind. And the ascent ritual of the Greek papyrus carries a forfeiture clause — three times in the year, and no longer coming about for whoever disregards the instruction after it has been given — which is a rule about who may have it and not a rule about a session that produced nothing; the same piece prescribes nothing at all for a non-appearance in either direction, and that silence is recorded as its own search rather than counted here."@en,
+        "The route between the two witnesses of the first clause is not clean and is stated rather than passed over. The demotic manual of the third century and the Latin grimoire of the late Middle Ages stand in one stream: the Greek and demotic handbooks of Egypt, the Byzantine Hygromanteia and the Latin Clavicula are connected by a transmission history that this holding does not claim to have established but does not pretend is absent either, and the tradition instance of the grimoire carries pm:contactRouteDocumented. Two witnesses on one cable is the floor of SPEC §16 and no more than the floor. The three witnesses of the second clause stand in a nineteenth-century European medical polemic with no proposed route to either, so the division the statement asserts runs across a contact route and not along one, and that is what makes the division worth stating at all."@en,
+        "The second clause was rewritten on 2026-09-23 after the protocol at pmp:StrongerAddressExamination met it with the case its own falsification note had named. The clause said that a transmission whose result is a reported change in the condition of a second person states a term, as a count of sittings or of days. The Celestial Masters make their result the recovery of a sick person, and the petition manual answers a failure to heal with a further and stronger petition through some fourteen named stages, the failure of each being the sole trigger of the next, with no term anywhere in the corpus — an absence established by search and exhibited at pmp:CmZhangqiSearch, in a corpus that counts a hundred days of pollution after a death in the house and prints five tables of forbidden days. The clause as it stood is therefore false as a universal, and what survives is entered above: the column divides, and the kind of result does not decide it. The sixth witness is pmc:CmBuyuJizhang and it stands on the first clause rather than the second, which is the whole of the correction."@en,
+        "The three witnesses of the second clause, all from the animal magnetism and two of its works. Five days before one may presume that the operation does not act, and then a second criterion to consult. Three or four sittings of nervous irritation, after which one may presume that the operation is not good for this patient and ought not to persist. Eight consecutive days of twenty minutes at the same hour, after which the operator will be able to form a definitive judgment. All three name a count; all three say what the count settles; and what it settles in every case is something about this operator or this pairing and never about the agent, which is the finding those three nodes already carry."@en,
+        "The two witnesses of the first clause and what each does with an empty session. The demotic manual takes it up in six places and every one of them prescribes speech: the boy who does not see the light is made to close his eyes and called to again; obduracy is met by the summons, which is the god's compulsion; obstinacy with the god unseen is met by the compulsion; a god who delays so as not to come in is met by a further cry; a light that has not come forth is met by having the boy address the lamp himself; a light slow to come within is met by a name said seven times, incense, and a great name uttered forwards and backwards; and gods who are inside and give no answer are met by another name said nine times until they inquire truthfully. The Latin grimoire sets its conjurations in a series and makes the trigger of each the failure of the one before, running through the four quarters, the signing of the foreheads, the re-forming of the circle and a final conjuration declared strong enough that spirits bound with chains of iron and fire could not delay to come."@en,
+        "What the correction leaves open and where a later run should go. Two transmissions of the second kind now disagree, which is a pair and not a class. The candidate distinguishing feature, stated at the protocol and not established here, is not the kind of result but where the outcome falls relative to the rite: the animal magnetism works on a patient present through a sitting whose length the operator fixes, and the Celestial Masters send a document to an office whose answer, if it comes, arrives outside the rite altogether. A term is statable in the first case and hard to state in the second. The population that would decide it — the transmissions whose operation is a despatch rather than an encounter — has not been drawn."@en,
+        "What the statement does not claim. It does not say that the transmissions of the second column abide by their terms, and the three witnesses show they largely do not: the five-day rule replaces its own criterion in the following sentence, the three-or-four-sittings rule prescribes trying two or three further operators, and the eight-day rule is to be applied only to subjects selected beforehand for their likelihood of succeeding. What the second clause claims is that the term is stated, which is a property of the wording; the first clause claims that in the other column it is not stated at all, and that is the asymmetry."@en,
+        "What the two have in common beyond the escalation is the absence, and the absence is the half that does the work. Neither names a number of addresses after which the operator is to stop, neither names a sign that the being will not come, and neither gives the session a length. A run is therefore not over until it has succeeded, which is why no run can be counted as having failed."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CinqJoursAvantDePresumer,
+        pmc:ClaviculaGradusConiurationum,
+        pmc:CmBuyuJizhang,
+        pmc:HuitJoursConsecutifs,
+        pmc:PdmCompulsioNonAdventus,
+        pmc:TroisOuQuatreSeances ;
+    pm:generalizedStatement "Where a transmission makes the appearance of a being the result of its operation, it meets a non-appearance with a further and stronger address of the same kind and states no term, count or sign at which the operator is to conclude that nothing will come. The holding also contains transmissions whose result is a change in the condition of a second person which that person reports, and these divide: some state such a term, give it as a count of sittings or of days, and name what the term settles, while at least one meets a failure to heal with a further and stronger despatch of the same kind through some fourteen stages and states no term at all. The kind of result does not by itself decide which of the two a transmission does."@en .
 
 pmc:TheSunHidesHisFaceOverAnOffence a pm:Conceptualizing ;
     rdfs:label "Die Sonne verbirgt ihr Gesicht, solange ein Unwürdiger im Lager ist"@de,
@@ -19201,6 +19647,11 @@ pmw:Kojiki a dcterms:BibliographicResource ;
         "Kojiki, the record of 712"@en ;
     skos:note "Named here as a work of the corpus and unopened. It carries its own version of the oath-divination entered below, and a run that wants to know whether the disagreement about how to read that criterion is confined to one chronicle goes here first. The English of B. H. Chamberlain of 1882 is public domain."@en .
 
+pmw:LaoziXiangerZhu a dcterms:BibliographicResource ;
+    rdfs:label "Laozi Xiang'er zhu"@de,
+        "Laozi Xiang'er zhu"@en ;
+    skos:note "Named here as a work of the corpus and unopened. It survives in the single Dunhuang manuscript Stein 6825, covering the upper half of the Laozi from the end of chapter 3 to the end of chapter 37, and the scholarly citation of it runs by the line numbers of a photographic reproduction rather than by chapter, because the manuscript carries no chapter division. Neither that reproduction nor a critical edition was reachable, and an uncredited transcription on an open wiki is not an edition. The unreachability is a property of the work's transmission and not of this run."@en .
+
 pmw:Lemegeton a dcterms:BibliographicResource ;
     rdfs:label "Lemegeton (Clavicula Salomonis Regis)"@de,
         "Lemegeton (Clavicula Salomonis Regis)"@en ;
@@ -19214,6 +19665,11 @@ pmw:MonasHieroglyphica a dcterms:BibliographicResource ;
     rdfs:label "Dee, Monas Hieroglyphica, mit den geistlichen Tagebüchern"@de,
         "Dee, Monas Hieroglyphica, with the spiritual diaries"@en ;
     skos:note "Named here as a work of the corpus and unopened. The registration singled the diaries out for a reason that still holds: they are a working log with dates, which makes them a different kind of witness from the treatises around them, and the only one in this corpus that could report what happened on a given day."@en .
+
+pmw:NuqingGuilu a dcterms:BibliographicResource ;
+    rdfs:label "Nüqing guilü"@de,
+        "Nüqing guilü"@en ;
+    skos:note "Six juan, DZ 790. Named here as a work of the corpus and searched by term only; not read at the wording. It is the demonological code of the transmission and is the place a later run should go for the names of the beings the petition addresses."@en .
 
 pmw:PapyrusWestcar a dcterms:BibliographicResource ;
     rdfs:label "Papyrus Westcar"@de,
@@ -21408,6 +21864,18 @@ pmp:ClaviculaOperatioCirculi a pm:Practicing ;
     pm:fromWork pmw:ClaviculaSalomonis ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
+pmp:CmShoufuYinshui a pm:Practicing ;
+    rdfs:label "Das Talismanwasser trinken, beichten und die Eingabe hinaufsenden"@de,
+        "Swallowing the talisman water, confessing, and sending up the petition"@en ;
+    dcterms:source "Lu Xiujing, Lu xiansheng daomen kelüe 001b-002a and 008a (DZ 1127), Zhengtong Daozang, Hanfenlou facsimile",
+        "Sanguozhi 8.28a-28b, Dianlüe quoted in Pei Songzhi's commentary, Wenyuange Siku quanshu text (Zhonghua shuju 8.264)" ;
+    skos:definition "The procedure prescribed for illness: no needling, no moxa and no decoction, but the swallowing of a talisman in water, the confession of the faults committed from the year of birth onward, a change of conduct, and a petition sent up to the offices of heaven. The outside chronicle describes the confession in its earliest form as three written copies of the sick person's name and statement of submission to the fault, one placed on a mountain for heaven, one buried for earth and one sunk in water, called the handwritings to the three officers."@en ;
+    skos:note "The two descriptions are a century and more apart and agree on the core. What the later one adds is the exclusion of medicine, stated as a boundary of the transmission rather than as a preference: at 008a the author lists the swallowing of talismans, the confession and the petition as what the covenantal authority permits, and names the needle, the moxa and the decoction as what it does not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:LuxianshengDaomenKelue,
+        pmw:Sanguozhi ;
+    pm:withinTradition pmt:CelestialMasters .
+
 pmp:FinnicSynnynLukeminen a pm:Practicing ;
     rdfs:label "Das Aussprechen des Ursprungs der Sache"@de,
         "Pronouncing the origin of the thing"@en ;
@@ -21734,6 +22202,11 @@ pmt:ZuniRitual a pm:Tradition ;
     pm:contactRoute pm:contactRouteAbsent ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Bunzel, Zuni Ritual Poetry, with the Zuni texts" .
+
+pmw:Sanguozhi a dcterms:BibliographicResource ;
+    rdfs:label "Chen Shou, Sanguozhi, mit dem Kommentar des Pei Songzhi"@de,
+        "Chen Shou, Sanguozhi, with Pei Songzhi's commentary"@en ;
+    skos:note "Read at juan 8, the biography of Zhang Lu, in the Wenyuange Siku quanshu text. It enters this corpus as the report of an outside observer and not as a witness the transmission would own: the chronicle calls the movement the rice bandits and its teaching the way of ghosts. Two layers are to be kept apart in it, and the citations do. Chen Shou's own text describes the practice; the Dianlüe quoted by Pei Songzhi describes it again and adds a judgement on whether it worked. The Dianlüe's description is besides of two movements at once, Zhang Jue's and Zhang Xiu's, and says of the second that its method was roughly the same as the first with the quiet chamber added."@en .
 
 pm:TelicOrientation a owl:Class,
         pm:Scale ;
@@ -22075,11 +22548,6 @@ pmt:Ifa a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Odù corpus as published in Bascom, Ifa Divination, and Abimbola, Ifá: An Exposition of Ifá Literary Corpus" .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pm:withdrawnAbsorption a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Abgezogene Vertiefung"@de,
@@ -22160,11 +22628,21 @@ pmt:Shinto a pm:Tradition ;
     pm:fromWork pmw:Nihonshoki ;
     pm:principalCorpus "Kojiki; Nihon shoki; the norito of the Engishiki" .
 
+pmw:ChisongziZhangli a dcterms:BibliographicResource ;
+    rdfs:label "Chisongzi zhangli"@de,
+        "Chisongzi zhangli"@en ;
+    skos:note "Six juan, DZ 615, in the memorials class of the Dongxuan section. Juan 1 and 2 read complete, juan 4 read at the petition for the five tombs, the remaining juan searched by term. It is the working manual of the petition: the tariff of pledges per petition, the calendar of days on which a petition may and may not be sent, the liturgy of the officers invoked, the pollution intervals, and the forms of the petitions themselves. The work as it stands is later than the other two and its own preface says at 001a that of what once existed ten parts in one or two survive."@en .
+
 pmw:QuimbyManuscripts a dcterms:BibliographicResource ;
     rdfs:label "Dresser (Hrsg.), The Quimby Manuscripts, 2. Aufl., New York 1921"@de,
         "Dresser (ed.), The Quimby Manuscripts, 2nd ed., New York 1921"@en ;
     skos:note "Opened on 2026-09-22 at fourteen places. Not one text but five: the editor's connecting narrative, the founder's manuscripts printed verbatim, newspaper notices of 1840 to 1847, letters from patients, and the private journal of the mesmeric subject beginning 26 December 1843. Each node above says which of the five it stands on, and the attestation modes differ accordingly."@en,
         "The volume was published into a dispute over what the founder of Christian Science owed to this healer, whose patient she had been, and its preface says the manuscripts had been withheld from publication for many years although earnestly sought. That is the reason the editor's narrative is taken here as an interested account and the manuscripts he prints are not."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -22197,6 +22675,16 @@ pmt:SolomonicGrimoire a pm:Tradition ;
     pm:fromWork pmw:ClaviculaSalomonis ;
     pm:principalCorpus "Clavicula Salomonis; Lemegeton; Heptameron; the Book of Abramelin" .
 
+pmw:LuxianshengDaomenKelue a dcterms:BibliographicResource ;
+    rdfs:label "Lu Xiujing, Lu xiansheng daomen kelüe"@de,
+        "Lu Xiujing, Lu xiansheng daomen kelüe"@en ;
+    skos:note "One juan, DZ 1127, in the Taiping section. Read complete. The work is a list of defects: at 002a the author says that in the present observance everything is upside down and nothing is not the reverse of what it should be, and that he will accordingly set out its illnesses below. It is therefore a witness of a particular kind — the norm it states is stated against a practice it says departs from it, so that every rule in it comes with a report that the rule is broken."@en .
+
+pmw:ZhengyiFawenTianshiJiaojieKejing a dcterms:BibliographicResource ;
+    rdfs:label "Zhengyi fawen tianshi jiaojie kejing"@de,
+        "Zhengyi fawen tianshi jiaojie kejing"@en ;
+    skos:note "One juan, DZ 789, in the precepts class of the Dongshen section. Read complete. It is a composite: a general admonition to folios 012a, then the Dadao jia lingjie from 012a, then a seven-word instruction to the libationers, then the Yangping parish instruction, then a set of five-word verses. The Dadao jia lingjie dates itself at 016b to the seventh day of the first month of the second year of Zhengyuan, and the Yangping instruction at 020b gives the founding as the first day of the fifth month of the first year of Han'an."@en .
+
 pm:Positing a owl:Class ;
     rdfs:label "Setzen"@de,
         "Positing"@en ;
@@ -22209,11 +22697,6 @@ pm:Systematizing a owl:Class ;
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:TibetanTantric a pm:Tradition ;
     rdfs:label "Tibetisch-tantrische Überlieferung"@de,
@@ -22261,6 +22744,11 @@ pm:Scale a owl:Class ;
         "Scale"@en ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:FinnicIncantation a pm:Tradition ;
     rdfs:label "Finnische Zaubersprüche"@de,
@@ -22670,11 +23158,24 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
 
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
+pmt:CelestialMasters a pm:Tradition ;
+    rdfs:label "Himmelsmeister"@de,
+        "Celestial Masters"@en ;
+    dcterms:source "Zhengyi fawen tianshi jiaojie kejing 014a (DZ 789), Zhengtong Daozang, Hanfenlou facsimile" ;
+    skos:definition "The earliest organised Daoist transmission, in which illness is treated as the consequence of fault, healing proceeds by written confession and by petition to a bureaucracy of spirits, and the practitioner's standing rests on an entry in a register kept by his own master."@en ;
+    skos:note "Contact route, left where the registration put it and now with a ground from inside the text. At 013b-014a the admonitions have the Dao go west among the barbarians and hand them the law of the Way, with the prohibition made severe there, no union of yin and yang and no killing, until the barbarians knocked their heads ten thousand times, shaved their heads and trimmed their beards, and the true Way arose among them. That is the conversion-of-the-barbarians claim, and it is a claim about a contact route made by the party that would benefit from it: it lets every resemblance between this transmission and Buddhism be read as borrowing in the other direction. It does not settle the route and it is why the route stays disputed. What the reading does establish is that the quiet chamber, the practice most often derived from Buddhist precedent, is already in the earliest outside description of the movement, where the Dianlüe of the third century ascribes it to Zhang Xiu as his addition to a method otherwise shared with Zhang Jue."@en,
+        "Corpus correction, and it is the first finding of this reading. The registration named the Taiping jing as one of three principal works. It is not a work of this transmission, and the corpus says so about itself: at 014a of the admonitions the Yellow Turban rising of Zhang Jue — the movement whose scripture the Taiping jing is — is called a heterodox way that set the later heirs to dividing the pneuma and governing the people, and it is named as the cause of the disaster the text is written in the wake of. A transmission that calls another movement heterodox in its own foundational document does not hold that movement's scripture as its own canon. The term chengfu, the inherited burden that is the Taiping jing's characteristic doctrine, was searched for across all four works of this file and does not occur once; the search is entered at pmp:CmChengfuSearch. The principal corpus is restated here without it."@en,
+        "What the file does not settle. The Xiang'er commentary is unopened, and it is the work on which the internal dating of the whole transmission rests, because the admonitions quote it and are themselves dated in their own text to the seventh day of the first month of the second year of Zhengyuan. The admonitions were read and that date stands at 016b; the quotation could not be checked against the commentary, and this file therefore carries the date as the corpus states it and not as a result."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:corpusWork pmw:ChisongziZhangli,
+        pmw:LaoziXiangerZhu,
+        pmw:LuxianshengDaomenKelue,
+        pmw:NuqingGuilu,
+        pmw:Sanguozhi,
+        pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:ZhengyiFawenTianshiJiaojieKejing ;
+    pm:principalCorpus "Zhengyi fawen tianshi jiaojie kejing (DZ 789), containing the Dadao jia lingjie; Lu Xiujing, Lu xiansheng daomen kelüe (DZ 1127); Chisongzi zhangli (DZ 615); Nüqing guilü (DZ 790); Laozi Xiang'er zhu, in the Dunhuang manuscript Stein 6825; Sanguozhi 8, with the Dianlüe quoted in Pei Songzhi's commentary, as the report of an outside observer" .
 
 pmt:OphiteGnosis a pm:Tradition ;
     rdfs:label "Ophitische Gnosis"@de,
@@ -22700,6 +23201,12 @@ pm:Generalizing a owl:Class ;
         "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
         "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
         "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
+
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
@@ -22777,11 +23284,6 @@ pmt:Daoist a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Xingqi yupei ming, the jade inscription on circulating the qi; Zhuangzi; Ge Hong, Baopuzi neipian; Chen Zhixu, Jindan dayao" .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:ChineseMedicalCanon a pm:Tradition ;
     rdfs:label "Chinesischer medizinischer Kanon"@de,
         "Chinese medical canon"@en ;
@@ -22795,6 +23297,11 @@ pmt:ChineseMedicalCanon a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Huangdi neijing (Suwen and Lingshu); Nanjing; Huangfu Mi, Zhenjiu jiayi jing; Yang Shangshan, Huangdi neijing taisu" .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
@@ -22820,13 +23327,6 @@ pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pmt:Enochic a pm:Tradition ;
     rdfs:label "Henochische Überlieferung"@de,
@@ -22857,15 +23357,17 @@ pmt:GreekMagicalPapyri a pm:Tradition ;
     pm:fromWork pmw:PgmIv ;
     pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the ascent ritual at PGM IV.475-829" .
 
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
 pmw:HohmanFreund1820 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, Der lange verborgene Freund (Reading, Pa. 1820)"@de,
         "Hohman, Der lange verborgene Freund (Reading, Pa. 1820)"@en ;
     skos:note "The first printing, and the one this file treats as the text. Read by term through the whole book and page by page at the front matter, the closing pages and the section of unlucky days. The optical transcription of the copy used is a Fraktur scan: the German is legible, and the figures of the day list are destroyed in places and were supplied from the Ephrata printing of 1828, which is named as its own work for that reason."@en .
-
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmw:HohmanLongLostFriend1850 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@de,
@@ -22878,11 +23380,6 @@ pm:Situating a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
-
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
@@ -22913,6 +23410,16 @@ pmt:Shangqing a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pmt:EuropeanFolkMagic a pm:Tradition ;
     rdfs:label "Europäische Volksmagie"@de,
@@ -22962,26 +23469,17 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
         "Testing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
     skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
-
-pm:Searching a owl:Class ;
-    rdfs:label "Suchen"@de,
-        "Searching"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
-    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
-        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
-        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmt:Ayurvedic a pm:Tradition ;
     rdfs:label "Ayurvedische Überlieferung"@de,
@@ -22999,6 +23497,15 @@ pmt:Ayurvedic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:principalCorpus "Caraka Samhita; Susruta Samhita; Vagbhata, Astangahrdaya" .
+
+pm:Searching a owl:Class ;
+    rdfs:label "Suchen"@de,
+        "Searching"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A record of a question put to a named corpus and of what came back: a place, a contradiction, silence, or a corpus that could not be reached. It states what was searched and asserts nothing about the subject matter."@en ;
+    skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
+        "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
+        "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
 
 pmw:CarakaSamhita a dcterms:BibliographicResource ;
     rdfs:label "Caraka Samhita"@de,
@@ -23026,19 +23533,19 @@ pm:contactRouteDocumented a pm:ContactRoute ;
         "Contact route documented"@en ;
     skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
         "Presupposing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
     skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pmt:EgyptianRitual a pm:Tradition ;
     rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
