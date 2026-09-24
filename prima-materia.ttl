@@ -1350,6 +1350,32 @@ pmc:AhwalAreTransient a pm:Situating ;
     pm:situatedNode pmc:Ahwal ;
     pm:situationGround "The same passage has them pass as well as descend, and the two are separate claims: a gift may be kept. The Sufi material answers both questions the same way, which is why one axis sufficed until a tradition answered them differently."@en .
 
+pmc:AkasagamanaPresupposesDivineEye a pm:Presupposing ;
+    rdfs:label "Die Luftreise setzt das göttliche Auge voraus"@de,
+        "Travel through the air presupposes the divine eye"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.100-101 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 460; also trans. Ñāṇamoli 1956)" ;
+    skos:note "It is the second consequence that makes this more than a traffic rule. The thing to be avoided is being seen, and the corpus that teaches the flight is the corpus in which the same act, done in front of laypeople, is an offence — see pmc:DisplayOfPowersRefused, and the bowl fetched from the pole in the fifth chapter of the Cūḷavagga. The handbook does not repeat the prohibition here. It supplies the technique for not being caught by it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The handbook gives two consequences in two sentences. Without the divine eye he does not see the hills and trees on his way, whether of the temperature order or created out of jealousy by serpents or by the fairy birds, and must meet them unprepared. And without it he cannot pick his landing place: if he comes down at an unsuitable one, at a bathing place, a landing place or a village gate, he reveals himself to the populace, and the handbook directs him to look with the divine eye, avoid such a place and descend elsewhere." ;
+    pm:dependentStep pmc:AkasenaGamana ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:Dibbacakkhu ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:AkasakasinaVivada a pm:Disputing ;
+    rdfs:label "Ob die Kasiṇa-Erreichung überhaupt nötig ist, und was es entscheidet"@de,
+        "Whether the device attainment is needed at all, and what settles it"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.100 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 460; also trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.89 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 457; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "An elder of the same school, named in the handbook as the one who knew the three Baskets, objects twice. At the wall he asks what the use of the space device is, and argues from a case the chapter itself supplies: one who wants to create elephants and horses does not enter an elephant device or a horse device, so is not mastery of the eight attainments after the preliminary work in any device whatever the whole criterion? At the air journey he objects again, in the same words: what is the use of entering the attainment, should not his mind be concentrated, so that whatever place he resolves upon becomes space? The monks answer him the first time that the space device stands in the text and hence must certainly be so; and the handbook, having reported the second objection, closes it by saying that one should do as in the going through the wall."@en ;
+    skos:note "It is entered as a dispute and not as a note because both sides are reported, both are attributed, and the chapter is explicit about the ground on which it decides. The two sources are the two places where the same elder objects; there is no second work behind them, and none is claimed."@en,
+        "The dispute is about technique and is settled by the location of a word. Neither side offers a case, an outcome or an attempt; the objector argues from the internal consistency of the procedure, the answer is that the procedure stands written. In a corpus whose subject is what is to be done in order to bring an effect about, this is the transmission showing what it takes to be decisive, and it is not the effect."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim "That the operator must enter the attainment of the space device before going through a wall, and the earth device before travelling through the air, rather than resolving from mastery of the eight attainments in any device whatever." ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:AnapanasatiYieldsPiti a pm:Yielding ;
     rdfs:label "Atemachtsamkeit bringt Verzückung hervor"@de,
         "Mindfulness of breathing yields rapture"@en ;
@@ -1646,6 +1672,16 @@ pmc:AttainmentRelievesOnlyTheOutwardCondition a pm:Generalizing ;
         pmc:ShangqingYijieQingyao,
         pmc:ShouyiMianLiri ;
     pm:generalizedStatement "Where an operative transmission relieves a practitioner of one of its own prescribed conditions on the ground of what he has attained, the condition relieved is one fixed outside him — a day, an hour, a calendar, a star — and not one bearing on his body or his conduct. Where the same transmissions speak of a bodily condition and attainment together, they say that the attainment does not relieve it."@en .
+
+pmc:AvibhavaTirobhava a pm:Conceptualizing ;
+    rdfs:label "Er wird sichtbar und er wird unsichtbar"@de,
+        "He becomes visible and he becomes invisible"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.69-87 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 452-456; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "He lights up a dark place, reveals what is hidden, brings into focus what is out of sight; and in the other direction he turns light into darkness, the unhidden into the hidden, what is within sight into what is out of it. Others at a distance then see as he himself sees, if he so wishes; or others near at hand do not see him, and he does not see them, if he so wishes."@en ;
+    skos:note "Both directions are governed by the operator's wish, and the handbook says so twice in the same paragraph. That is the same switch that stands at the diving into earth and the walking on water, here applied to seeing rather than to a surface."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:Awenyddion a pm:Conceptualizing ;
     rdfs:label "Die awenyddion, befragt über einen zweifelhaften Ausgang"@de,
@@ -2291,6 +2327,16 @@ pmc:BothMethodsReachSiddhiForKamakhya a pm:Conceptualizing ;
     skos:note "The passage that most directly rules out reading the pair as two camps. The choice is left to the worshipper, both methods reach the same attainment, and the text sees no need to rank them. Whatever the division does in this work, it does not sort people into parties and it does not make one method the true one."@en ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:BrahmalokeKayavasavattana a pm:Conceptualizing ;
+    rdfs:label "Er übt die Körpergewalt bis zur Brahmāwelt"@de,
+        "He exercises mastery with the body as far as the world of Brahmā"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.119-136 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 465-469; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "He may go to the world of Brahmā with a visible body, bending the mind by means of the body so that the mind goes at the pace of the body; or with an invisible body, bending the body by means of the mind so that the body goes at the pace of the mind. In either case he descends into the perception of bliss and the perception of buoyancy, and the body becomes light as cotton wool, and he goes as an arrow goes from the bow, borne by the vehemence of the resolve."@en ;
+    skos:note "The handbook draws a line here that it draws nowhere else, and it is a line about what counts as having done the thing. Seeing Brahmā with the divine eye, hearing him, knowing his mind, making the far near, going to that world visibly or invisibly — of every one of these the chapter says that he has not yet exercised mastery with the body. Only when he creates a body in Brahmā's presence is the mastery exercised. The capacity is defined by its last step and not by the journey."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:BrowContactProtocol a pm:Testing ;
     rdfs:label "Ob der Ort der Berührung einen Unterschied macht"@de,
         "Whether the place of contact makes a difference"@en ;
@@ -2322,6 +2368,17 @@ pmc:Camac a pm:Conceptualizing ;
     skos:note "The term is entered at the strength the three passages give it and no higher. All three are the same recorder, and all three show him using the word as evidence that the Indians give to a stone what is due to God alone. What can be taken from them is that camac was the word used in address and that it was understood as making rather than as owning or protecting. What cannot be taken from them is a doctrine of camac as a substance or a force, which is a reading of the Quechua of Huarochirí and stands on a document this run could not open."@en,
         "The third of the three places is a question of the interrogatory the visitor was to put in every village. That the word had to be asked for by name shows that it was the recorder's own diagnostic and not an incidental report, which strengthens the evidence that it was in use and weakens the evidence about what it meant."@en ;
     pm:withinTradition pmt:Andean .
+
+pmc:CandimasuriyaParamasana a pm:Conceptualizing ;
+    rdfs:label "Er berührt und streicht Mond und Sonne mit der Hand"@de,
+        "He touches and strokes the moon and the sun with his hand"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.102-105 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 460-461; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The moon and the sun are called mighty because they move at a height of forty-two thousand leagues and light three islands at once. He may go to them and feel them; or, seated or lying here on the earth, he may resolve that they come to the side of his hand, and they come like a palm fruit cut from the stalk; or he may make his hand grow until it reaches them."@en ;
+    skos:note "It is also the only one for which the transmission records a technical question about the mechanism rather than about the procedure. A second named elder asks whether the derived matter of the hand grows and shrinks, offering as evidence that a monk who passes through a keyhole must have made it small and that one who enlarged his body must have made it large. The answer given is that the underived grows in dependence on the derived. The discussion is about how the body could do it, and nobody in it asks whether it happens."@en,
+        "The handbook states no device order for this one, unlike every other operation in the chapter. It is the only capacity here effected from the absorption bases alone."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:CatequillaPrediction a pm:Conceptualizing ;
     rdfs:label "Die Huaca, die einen Tod voraussagte und dafür verbrannt wurde"@de,
@@ -3157,6 +3214,17 @@ pmc:DanshaHuanfan a pm:Conceptualizing ;
         "The observation is correct and repeatable, which is rare in this collection and is what makes the passage worth a node of its own. What it does not carry is the step: a substance that returns to its own form after transformation is not thereby a substance that keeps a body from returning to earth. The chapter states the observation and the conclusion and leaves the step between them unstated."@en ;
     pm:withinTradition pmt:Waidan .
 
+pmc:DasaIddhiyo a pm:Conceptualizing ;
+    rdfs:label "Die zehn Arten des Gelingens, mit dem Gaukler und dem Pflüger darunter"@de,
+        "The ten kinds of success, with the conjuror and the ploughman among them"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.22-39 (trans. Pe Maung Tin, The Path of Purity, Part II, Pali Text Society, London 1931, pp. 438-444; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The handbook takes over from the Paṭisambhidā a list of ten: success by resolve, success as transformation, success as the mind-made body, success by the intervention of knowledge, success by the intervention of concentration, the Noble Ones' success, success born of the result of action, success of the meritorious, success through the sciences, and success in the sense of succeeding through right exertion in this or that work. Only the first three are reached by the course this chapter teaches. The seventh covers the flight of every bird, the eighth the riches of named householders, the ninth the conjurors who recite a spell and go through the sky and display armies in the firmament, and the tenth, on the commentary's reading, any work brought off by an art or a science, the acquiring of the three Vedas and of the three Baskets, and ploughing and sowing."@en ;
+    skos:note "The ninth member is the one that costs this corpus something, and the chapter does not notice. The conjuror who goes through the sky by a spell is admitted as a genuine member of the class; and the discourse at Dīgha Nikāya 11, which this file already holds at pmc:DisplayOfPowersRefused, refuses the marvel of power precisely because an onlooker may put it down to a spell of that kind. What the discourse offers as the reason for distrusting the marvel, the handbook enters as a species of it."@en,
+        "The word the chapter is about does not mean power. The handbook derives it from succeeding, and the tenth member is defined by that sense outright; the list is a list of things that come off, and the meditator's feats sit in it beside a good harvest. A reader who comes to this chapter expecting a catalogue of marvels has to be told that the transmission does not sort it that way."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
         "The descent presupposes the depth that gathers the breath"@en ;
@@ -3393,6 +3461,16 @@ pmc:DurationTracksDistance a pm:Conceptualizing ;
     skos:definition "How long he lies is stated to depend on how near or far the place is of which he makes enquiry — an hour or two for a near one — and to have an upper bound: the time never exceeds twenty-four hours, let the place be at never so great a distance."@en ;
     skos:note "A quantity that varies with a measurable quantity, and a ceiling that does not. Both halves are unusual: the first makes the claim comparable across cases, and the second makes it refutable by a single case that runs longer. Nothing else in this file states a number."@en ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:DureSantikeKarana a pm:Conceptualizing ;
+    rdfs:label "Er macht das Ferne nah, das Nahe fern, das Viele wenig und das Wenige viel"@de,
+        "He makes the far near, the near far, the many few and the few many"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.119-135 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 465-468; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Four resolves of one kind, each with its named performer. A distant place is made near and a near place distant; many are made few and few many. Named beside them are two more of the same sort: a sweet thing made not sweet and a thing not sweet made sweet. The reported cases are of alms and of journeys — a river turned to cream for monks who had got nothing but dry food, an elder who contracted the earth so that seven hundred monks went to another country for their begging round and asked afterwards where the ocean had been."@en ;
+    skos:note "The one restriction the handbook puts on the whole group is a statement about who is allowed to have done it: the elders who seize the distance and make it near are aged elders, and the answer to the monks who ask where the ocean went is that aged elders make the great small. The qualification is age and standing and not any state of the operator that the chapter has been teaching."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:Dvadasanta a pm:Conceptualizing ;
     rdfs:label "Das Ende der Zwölf"@de,
@@ -4292,17 +4370,6 @@ pmc:GehongDaoyiBuji a pm:Cautioning ;
     pm:fromWork pmw:BaopuziNeipian ;
     pm:withinTradition pmt:Daoist .
 
-pmc:GehongFangshuWuyi a pm:Cautioning ;
-    rdfs:label "Die Künste zeigen ihren Wert nur in dem Fall, der ausbleiben kann"@de,
-        "The arts show their worth only in the case that may not arise"@en ;
-    dcterms:source "Ge Hong, Baopuzi neipian 9 (Daoyi) 10b-11a, in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 9" ;
-    skos:definition "The chapter states where the arts are to be relied on and where not. For guarding the person and warding off harm one is to cultivate the prohibitions that guard the form and to wear the talismans and sword of the celestial writ; sacrifice and prayer are of no benefit. One should rely on one's own being unassailable and not on the spirits' not assailing one. And it states a limit: pondering the mystery, holding the One and enclosing the light about the body can turn aside evil and carry one past the inauspicious, but it cannot lengthen the span of life or dispel a sickness of the body. One who follows nature and has no arts is not necessarily prevented from reaching his allotted years; but he cannot meet the violence of a fierce ghost or the passage of a great epidemic, and against those he will have nothing to turn them aside. The chapter closes the argument with an analogy: one who stores armour and keeps a straw cloak does so against war and against rain, and if by good fortune there is no campaign and the sky does not close over, then having them and not having them come to exactly the same; but when arrow and stone gather like fog and the flying points cross like smoke, then the straits of the naked man are known, and when the rain comes down as though a river were tipped out and the snow fills the sky, then the plight of the man standing on the road is felt."@en ;
-    skos:note "Three things stand in this passage and they should not be run together. The first is a limit stated against the author's own side and worth having on that account: the meditative practice is said not to lengthen life and not to dispel bodily illness, which is a narrower claim than the chapter's readers would have expected. The second is a concession that the unequipped may well reach their full span. The third is the reservation that makes the first two costless — the arts show their worth only against a violent ghost or a great epidemic, events that may not arise in a given life, so that in the ordinary case having them and not having them are conceded to come to the same. A claim reserved to the exceptional case cannot be told from a claim about nothing by any ordinary run of lives, and the author has arrived at that position in the course of refuting people who did the same."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout "Judging the arts of self-protection by ordinary years, in which the case they are for does not arise" ;
-    pm:fromWork pmw:BaopuziNeipian ;
-    pm:withinTradition pmt:Daoist .
-
 pmc:GehongLiKuan a pm:Disputing ;
     rdfs:label "Der Heiler stirbt an der Seuche, und seine Anhänger nennen es Leichenbefreiung"@de,
         "The healer dies of the epidemic and his followers call it release from the corpse"@en ;
@@ -4751,6 +4818,21 @@ pmc:HundredArtsPresupposeYubu a pm:Presupposing ;
     pm:priorStep pmp:Yubu ;
     pm:withinTradition pmt:Daoist .
 
+pmc:IddhiAdhigamaVivada a pm:Disputing ;
+    rdfs:label "Ob die Erlangungen, die das Handbuch lehrt, noch zu haben sind"@de,
+        "Whether the attainments the handbook teaches are still to be had"@en ;
+    dcterms:source "Anāgatavaṃsa, recension B of Minayeff's edition, Journal of the Pali Text Society 1886, pp. 33-34, in the English of Henry Clarke Warren, Buddhism in Translations, Harvard University Press 1896, §102, pp. 482-483",
+        "Buddhaghosa, Visuddhimagga XII.1-12 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 432-436; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Two works of one transmission, read on the same day, say incompatible things about the availability of the same attainments. The handbook sets out the whole course for a meditator in the present tense, names the seven thresholds at which most fall away and the one class exempt from them, and nowhere says that the course has lapsed or that its subject belongs to a closed age; a search of its twenty-three chapters for any such statement came back with nothing. The work on what is to come sets a term: a thousand years for the analytical sciences, then a descending series of lesser fruits, then nothing, with the trances named among the things the disciples will become unable to realise."@en ;
+    skos:note "Neither work names the other and neither is answering the other; this is not a controversy the transmission conducted. What it is, and the reason it is entered as a dispute rather than as two notes, is that the two statements cannot both be acted on. A reader who takes the handbook as instruction and the other work as chronology has to decide which of them applies to him, and the transmission gives him nothing with which to decide it."@en,
+        "The asymmetry is worth stating because it decides where a reader should look next. A statement that the attainments have lapsed can be refuted by one attested case after the term; the handbook's silence cannot be refuted at all, because it is a silence. The search that established it stands at pmp:VisuddhimaggaDeclineSearch, and what it exhibits is a gap: in twenty-three chapters of instruction there is no sentence saying that any of it has become unavailable."@en,
+        "The step from the one to the other is an inference and is named as one here. The work on what is to come does not mention the supernormal powers. It names the trances, and the handbook makes the fourth trance the base of every operation of its twelfth chapter and the fourteenfold mastery the condition of beginning; if the trances lapse, the operations built on them lapse with them. That much follows. What does not follow is any date for the powers themselves, and none is claimed."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim "That a person now living who completes the training the handbook prescribes can reach the states it prescribes it for." ;
+    pm:fromWork pmw:Anagatavamsa,
+        pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die übernatürlichen Kräfte werden in abgezogener Vertiefung ausgeübt"@de,
         "The supernormal powers are exercised in withdrawn absorption"@en ;
@@ -4761,6 +4843,19 @@ pmc:IddhiIsExercisedInWithdrawnAbsorption a pm:Situating ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:situatedNode pmc:Iddhividha ;
     pm:situationGround "The handbook assigns the powers to a meditator who has reached the fourth absorption and calls that absorption their natural plane. The absorption is one of the four described as awake and turned from the senses to a single object, which is the criterion this coordinate names. The placement is of the exercise, not of the training that leads to it."@en .
+
+pmc:IddhiOccultanda a pm:Cautioning ;
+    rdfs:label "Die zwei Anweisungen, nicht entdeckt zu werden"@de,
+        "The two instructions for not being found out"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.101 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 460; also trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.68 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 452; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The chapter twice tells the practitioner how to keep the operation from becoming known. He is to look with the divine eye and descend where the populace will not see him. And, among the reasons for returning from many forms to one, it gives this: out of fewness of wishes he reflects that there are only a few monks in the monastery, that arriving guests would ask where so many monks resembling each other had come from, and would thus find him out; and for that reason he resolves to be one again within a fixed time."@en ;
+    skos:note "Both instructions are practical and neither is a moral warning; the chapter nowhere repeats the rule of the order against display. They are entered as a caution because that is what they operate as: the thing to be guarded against is the observation of the operation by anyone who is not the operator, which is the same property that pmc:TassaYevaSaPathavi builds into the operation itself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:AkasenaGamana,
+        pmc:EkoHutvaBahu ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:IddhiPresupposesFourteenfoldMastery a pm:Presupposing ;
     rdfs:label "Übernatürliche Kraft setzt die vierzehnfache Beherrschung voraus"@de,
@@ -6041,6 +6136,17 @@ pmc:ManguSubstance a pm:Conceptualizing ;
     skos:note "The recorder adds that he believes the organ in question to be the small intestine in certain digestive periods. That is his identification and not the transmission's, and it is recorded here as his."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:ManomayaIddhi a pm:Conceptualizing ;
+    rdfs:label "Er zieht einen zweiten Körper aus diesem wie das Rohr aus der Scheide"@de,
+        "He draws another body out of this one as a reed from its sheath"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.138-139 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 470-471; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Success as the mind-made body, and the procedure for it. He rests from the basic absorption, adverts to the body and resolves let it be a hollow, and it is a hollow; he adverts to another body within himself, does the preliminary work and resolves, and there is another body within him; and he draws it out as a reed from its sheath, a sword from its scabbard, a snake from its slough."@en ;
+    skos:note "The holding already carries pmc:Manomayakaya for the claim itself, from the second discourse of the Dīgha and from this chapter without a place. This node is the procedure and its limits, read at the place."@en,
+        "Two limits on the created body stand in the chapter and are entered with it. It has the appearance of eye and ear and the rest but no sentient organ; and the bodies created by a disciple do only what the creator does, while only what a Buddha creates does other things and does them at his wish. The second is a rank distinction inside the capacity and not a caution."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:ManomayakayaIsDisplaced a pm:Situating ;
     rdfs:label "Der geistgemachte Körper ist ein verlagerter Ort"@de,
         "The mind-made body is a displaced locus"@en ;
@@ -7165,6 +7271,18 @@ pmc:OphiteThauthabaoth a pm:Naming ;
     pm:nameRole "fifth of the seven ruling demons of the diagram, bear-like" ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmc:PancaAntaradhanani a pm:Conceptualizing ;
+    rdfs:label "Die Erlangungen gehen zuerst, und die Unterscheidungswissen währen tausend Jahre"@de,
+        "The attainments go first, and the analytical knowledges last a thousand years"@en ;
+    dcterms:source "Anāgatavaṃsa, recension B of Minayeff's edition, Journal of the Pali Text Society 1886, pp. 33-34, in the English of Henry Clarke Warren, Buddhism in Translations, Harvard University Press 1896, §102, pp. 482-483" ;
+    skos:definition "Asked about the Buddha to come, the work first describes the decline of the religion in five disappearances: of the attainments, of the method, of learning, of the symbols, of the relics. Of the first it says that only for a thousand years from the passing of the Blessed One will the monks be able to acquire the analytical sciences; then, as time goes on, the disciples will attain only to never returning, to once returning, to conversion; and with the death of the last disciple that attained to conversion the attainments will have disappeared. Of the second it says that the disciples, being unable to realise the trances, the insights, the paths and the fruits, will keep only the four purities of conduct, and then only the rule against the four deadly sins."@en ;
+    skos:note "Read on 2026-09-24 for one question: whether the transmission anywhere states that what the handbook teaches is no longer to be had. It does, in the only form in which such a statement can be made, by putting a date on it. The trances that the handbook makes the base of every operation of its twelfth chapter are named in the second disappearance among the things the disciples will be unable to realise."@en,
+        "The recension is a manuscript copy and the count of years is the thing most likely to differ between copies. It is entered with the recension named for that reason, and a later reader who wants to press the date should press it there and not here."@en,
+        "What the passage does not say, and the node does not supply it. It does not name the supernormal powers. It names the analytical sciences under the first disappearance and the trances under the second, and the powers of the twelfth chapter stand on the fourth trance without being listed anywhere here. Whether the passage reaches them is an inference and is not made in this node; it is stated as an inference at pmc:IddhiAdhigamaVivada."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Anagatavamsa ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:ParacittaJnanaIsWithdrawnAbsorption a pm:Situating ;
     rdfs:label "Die Kenntnis fremden Bewusstseins wird in abgezogener Vertiefung geübt"@de,
         "Knowledge of another mind is exercised in withdrawn absorption"@en ;
@@ -7238,6 +7356,15 @@ pmc:PatanjalaCapacityDurationNotStated a pm:Situating ;
     pm:axisValue pm:durationNotStated ;
     pm:situatedNode pmc:ParakayaPravesa ;
     pm:situationGround "The sūtras that carry the capacities of this chapter were read for the question and are silent on it: each names an object of saṃyama and the knowledge or entry that follows, and none says whether what follows passes or remains. The sūtra that weighs the capacities weighs them for what they are worth and not for how long they last."@en .
+
+pmc:PathaviyaUmmujjanimujja a pm:Conceptualizing ;
+    rdfs:label "Er taucht in die Erde und aus ihr auf wie in Wasser"@de,
+        "He dives in and out of the earth as if it were water"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.92-94 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 458-459; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "He enters the water device, emerges, marks off as much ground as he wants to become water, does the preliminary work and resolves; and the marked ground becomes water. He does not only dive: he bathes in it, drinks from it, washes his face and his clothes in it. And not water only — butter, oil, honey, molasses, whatever he chooses; and when he draws these off into jars the butter remains butter and the water water. If he wishes to be wet he is wet, and if not, not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:PdmCautioAspectus a pm:Cautioning ;
     rdfs:label "Lass ihn nirgends anders hinsehen, sonst fürchtet er sich"@de,
@@ -7837,6 +7964,26 @@ pmc:ProvisionForTheQuestThatYieldsNothing a pm:Conceptualizing ;
         "The passage is the reason this transmission was opened before others in the registry. A procedure that names an exit for its own non-occurrence, and prescribes a different bearing for it, is stating that the non-occurrence happens and is expected. Nothing else read in this run says as plainly that the promised thing may fail to come."@en ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmc:PubbayogaVisesa a pm:Conceptualizing ;
+    rdfs:label "Wer große Vorarbeit hinter sich hat, ist vom ganzen Weg befreit"@de,
+        "Those of great past endeavour are exempt from the whole course"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.11 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 436; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Immediately after the seven thresholds the handbook names a class for whom none of them holds. In Buddhas, in silent Buddhas and in chief disciples, who have vast previous endeavour behind them, the transformation by supernormal power and the other special qualities such as the discriminations come to success with the attainment of sanctity alone, without the course of taming the mind just described."@en ;
+    skos:note "The exemption is granted on a ground that the aspirant cannot acquire, cannot verify and cannot fail to lack: what the exempt class has is endeavour in previous existences. Every member of it named by the transmission is dead and is of a rank the transmission holds to be no longer filled. The waiver therefore removes nobody from the seven thresholds who is alive to read the passage."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:PunaEkoHoti a pm:Conceptualizing ;
+    rdfs:label "Die vielen werden wieder einer, wenn die gesetzte Zeit abläuft"@de,
+        "The many become one again when the set time runs out"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.68 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 452; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Having become many he becomes one again. He may do it by a second resolve; or, the handbook adds, he becomes one of himself with the lapse of the time he determined beforehand, without doing anything further."@en ;
+    skos:note "This is the first of three places in the chapter where a determined period ends the effect by itself. The other two stand at the diving into earth and at the walking on water. In all three the reversion is automatic, nothing is required of the operator to close the operation, and no sign marks the end except the end."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:QiListeningPresupposesEmptying a pm:Presupposing ;
     rdfs:label "Das Hören mit dem Qi setzt das Leeren des Herzens voraus"@de,
         "Attending with the qi presupposes the emptying of the heart"@en ;
@@ -8250,6 +8397,19 @@ pmc:SarielTeachesSignsOfTheMoon a pm:Attributing ;
     pm:ascribedTo pmc:Sariel ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
+
+pmc:SatesuSahassesuVaEko a pm:Conceptualizing ;
+    rdfs:label "Nur einer unter Hunderten oder Tausenden, siebenmal hintereinander gesagt"@de,
+        "Only one among hundreds or thousands, said at seven thresholds in a row"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.10 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 435; also trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.8 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 434-435; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Between the statement that the fourteenfold mastery cannot be skipped and the exception made for those of great past endeavour, the handbook runs one sentence seven times over. The preliminary work of the device is a burden to a beginner, and only one in a hundred or a thousand can do it; to one who has done it the production of the sign is a burden, and only one in a hundred or a thousand can do it; and so through the extending of the sign and the attaining of absorption, the taming of the mind in the fourteen ways, the transformation by the power itself, the rapid inducing of absorption, and finally the giving of protection to another, which is the seventh and stands a little apart from the other six."@en ;
+    skos:note "The sentence is not a discouragement and does not read as one in its place. It stands in a passage arguing that the beginner must be taken through the fourteen ways like gold heated soft by a goldsmith or clay ground fine by a potter, and the two elders named in the middle of it are told to go about with their abilities perfected as soldiers go about with clean weapons. The numbers are there to say that the course is long, and the transmission is not counting anybody."@en,
+        "This is the only place in the whole handbook where a rate of failure is put in numbers. The search that established that stands at pmp:VisuddhimaggaAttritionElsewhereSearch: the phrase occurs seven times in twenty-three chapters and all seven are here."@en,
+        "Why it is worth a node. A transmission that states its own rate of attrition has said something that could in principle be checked against a population, and almost nothing in this holding does. What this one says, if the seven thresholds are taken one after another as the text takes them, is smaller than any population the transmission had; and the text plainly does not mean it that way. That tension is the finding and it is not resolved here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:SattvikaBhava a pm:Conceptualizing ;
     rdfs:label "Unwillkürliche Körperzustände"@de,
@@ -9216,6 +9376,24 @@ pmc:TheEatersOfMen a pm:Conceptualizing ;
         "The whole of it was obtained under an examination conducted by a tribunal with the power to punish, and the recorder says the punishment given during the visitation was deliberately light in order to keep them quiet until a heavier one could be arranged. What such an examination produces is a well-known thing and the count of sixty-three is not evidence of sixty-three witches. It is entered because it is what the record says the transmission says about itself, and because the shape of the claim — the night assembly, the taking of a little blood, the eating of the soul, the death within two or three days — is the material a comparison is made from, not because the events are credited."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:TheEffectPutBeyondTheBystander a pm:Generalizing ;
+    rdfs:label "Die Klausel, die die Wirkung dem Zuschauer entzieht"@de,
+        "The clause that puts the effect beyond the bystander"@en ;
+    skos:note "Falsified by a transmission that teaches an operation of this kind — an effect on the material world that any bystander would see if it occurred — and whose operative passage states that bystanders do see it, or that their not seeing it counts against the operation. Sharper still, and the shape to look for first: an operative text that prescribes the operation be performed before a stranger as a proof. The corpora likeliest to carry it are the ones in this holding where a feat is performed before an assembly as part of the office rather than as a display: the Siberian, Chukchee and Inuit material has not been asked this question, and the recorded duty of the great shaman to exercise his art before a gathering in order to convince people is the first place to put it."@en,
+        "Its relation to pmc:TheUnsympatheticWitnessAsStatedCauseOfFailure and to pmc:TheRivalWhoWasNotInTheRoom. All three turn on whether the thing claimed can be established by somebody other than the parties to it, and they are three answers to the same pressure at three different places in a transmission: a clause in the instruction, a named cause of failure, and an account of a session. The order matters for a protocol. A transmission that carries the clause has nothing to explain afterwards, so the absence of the other two at such a transmission is not evidence that it is more candid."@en,
+        "No pm:Testing points at this node, and that is its position in the queue and not a defect."@en,
+        "The counter-search, and the case it returned. The holding carries a transmission that did put its operation before doubters as its normal business: an American mental operator of the eighteen-forties who travelled for years giving exhibitions to rooms that held the thing for a fraud and threatened him with mob violence, at pmp:QuimbyExhibitioPublica. It is not a counterexample, and the second clause of the statement is where it lands. What he exhibited was a subject describing a place someone in the audience was thinking of, or the inside of a body a physician could afterwards examine — outcomes a stranger reads off without the operator. The same volume records that he had earlier held the standard excluding condition, that a sceptic sitting too near made him fail, and dropped it in the same movement by which his outcomes became checkable."@en,
+        "The first witness is the sharpest and the reason the statement was written. The operation it belongs to — a road becoming water, a river becoming ground — is the most public event anything in this holding claims; and the same paragraph that prescribes it withdraws it from every eye but one, while leaving the extension to other eyes at the operator's wish, which is itself unobservable. The handbook is not defending the claim. It has no opponent in view at that place and is giving instructions."@en,
+        "The three witnesses, each with its own device. The Pāli handbook, instructing how to turn ground into water and water into ground, adds that only for him does the ground become water and only for him the water earth, that for everybody else it stays what it was and people go on ploughing and the fishes go on swimming, and that if he wishes it may be water for them too. The Chinese chapter, having stated a limit against its own side — that the meditative arts cannot lengthen a life or dispel an illness — reserves their worth to the violent ghost and the great epidemic, and concedes that where those do not arise, having the arts and not having them come to exactly the same. The Latin book, at the head of its third part, says that every magical experiment flees the public, seeks to be hid and is strengthened by silence, but is destroyed by publication, neither does any complete effect follow after."@en,
+        "The weakness of the derivation, stated because a reader would otherwise have to find it. The three devices are not the same device, and a critic may fairly say that a reservation to the operator, a reservation to a rare occasion and a destruction by publicity have only their consequence in common. That is the claim: they have their consequence in common, and the consequence is the thing a protocol meets. But a fourth witness using a fourth device would strengthen it less than a second witness using the first device would, and the first device is the one the holding has only once."@en,
+        "What it does not say. It says nothing about whether any of these operations produces anything, and nothing about the motives of anyone who wrote the clauses. It is a statement about the shape a transmission takes, it can be settled by reading, and that is why it stands here and not at a protocol."@en,
+        "What makes the three one claim is not that they conceal. It is where the concealment is put. None of these is a rule of secrecy addressed to the practitioner about what he may tell; all three are statements about the operation, standing in the passage that prescribes it, and each of them has the consequence that a person who watched the operation and saw nothing has seen exactly what the text predicted he would see. That is a property of the claim and not of the practitioner, and it can be established by reading."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AgrippaSilentium,
+        pmc:GehongFangshuWuyi,
+        pmc:TassaYevaSaPathavi ;
+    pm:generalizedStatement "Where a transmission teaches an operation whose effect, if it occurred, would be evident to anyone standing by, the operative passage itself carries a clause that puts the effect beyond a bystander's reach: by reserving the perception of it to the operator, by reserving its occasion to a case that may not arise in an ordinary life, or by making the effect depend on the operation being kept from the public. The clause stands as a property of the operation and not as an account of a session that produced nothing. Where instead the outcome a transmission stakes itself on is one a stranger can read off independently of the operator, no such clause appears and the operation is shown." .
+
 pmc:TheExcuseThatStopsAtTheOfficiant a pm:Generalizing ;
     rdfs:label "Die Entschuldigung des Nichtwissens endet beim Vollzieher"@de,
         "The excuse of not knowing stops at the officiant"@en ;
@@ -9628,6 +9806,16 @@ pmc:ThresholdShutdownProtocol a pm:Testing ;
     pm:protocolUpdated "2026-09-02"^^xsd:date ;
     pm:tests pmc:ParalysisIsTheRegularShutdown .
 
+pmc:TirokuddaGamana a pm:Conceptualizing ;
+    rdfs:label "Er geht ohne Widerstand durch Mauer, Wall und Berg"@de,
+        "He goes feeling no obstruction through wall, rampart and hill"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.88-91 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 457-458; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "He enters the space device, emerges, adverts to the wall or rampart or hill, does the preliminary work and resolves that there be space; and there is space. If he wishes to go up or down there is a hollow, if he wishes to go through there is a hole."@en ;
+    skos:note "A rule for two operators stands here and nowhere else in the corpus. If a hill or tree springs up on the way there is no need to resolve a second time, because a thing of the temperature order cannot arise against the strength of the first resolve; but if another possessor of the power has created it, the earlier creation is the stronger and the later comer must pass above it or below it. The transmission has thought about what happens when two of its practitioners operate on the same place, and it settles it by precedence in time."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:TokenBroughtBack a pm:Conceptualizing ;
     rdfs:label "Ein Zeichen wird von dem Ort mitgebracht"@de,
         "A token is brought back from the place"@en ;
@@ -9820,6 +10008,15 @@ pmc:UbbegaPiti a pm:Conceptualizing ;
         "Uplifting rapture"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV.94ff. (trans. Ñāṇamoli 1956)" ;
     skos:definition "The fourth of the five degrees of rapture, described as strong enough to lift the body."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:UdakeAbhijjamaneGamana a pm:Conceptualizing ;
+    rdfs:label "Er geht auf ungebrochenem Wasser"@de,
+        "He walks on unbroken water"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.95-97 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 459; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Water one sinks into when trodden on is called broken; the opposite is unbroken. He enters the earth device, emerges, marks off so much water as is to become earth, does the preliminary work and resolves; and the water in the marked place becomes earth, and he walks on it. He does not only walk: he takes whatever posture he likes, and he may make gems, gold, rock or a tree instead of earth."@en ;
+    pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
@@ -10093,6 +10290,15 @@ pmc:VespasianHealing a pm:Attributing ;
     pm:fromWork pmw:DivusVespasianus,
         pmw:TacitiHistoriae ;
     pm:withinTradition pmt:GraecoRoman .
+
+pmc:VikubbanaIddhi a pm:Conceptualizing ;
+    rdfs:label "Er lässt die eigene Gestalt und nimmt eine andere an"@de,
+        "He abandons his own appearance and takes another"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.137 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 470; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "Success as transformation. He discards his normal form and shows the form of a boy, a serpent, a bird, a demon, a god, a spirit, Brahmā, the ocean, a hill, a lion, a tiger, a leopard, an elephant, a horse, a chariot, a foot soldier or a whole array of an army. The handbook distinguishes the two resolves: for a shape he becomes he resolves may I be such and such a boy, and for a shape shown outside him he resolves let there be an elephant, and not may I be an elephant."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:VitalEnergyCorrespondence a pm:Converging ;
     rdfs:label "Die Entsprechung der Lebensenergie"@de,
@@ -12794,6 +13000,16 @@ pmp:PalmsAsSendingOrganSearch a pm:Searching ;
     pm:searchedCorpus "Ge Hong, Baopuzi neipian 8 (Shizhi), in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 8; read at the wording, with the remaining nineteen juan searched by term" ;
     pm:searchedFor "A passage making the palms the place at which the qi leaves the body in an operation on another person or thing — the claim of prima-materia#314." .
 
+pmp:ParikammaAdhitthana a pm:Practicing ;
+    rdfs:label "Die Vorbereitung und die Entschließung"@de,
+        "The preliminary work and the resolve"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.57-58 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 448-449; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The operative sequence the chapter repeats at every capacity and varies only in the device used. He attains the absorption that is the basis of the direct knowledge; he emerges from it; he adverts to what is to be effected and does the preliminary work upon it, marking off the extent where an extent is in question; he attains the absorption again and emerges; and then he resolves once, by a single rising of knowledge, and what he resolved is the case simultaneously with the resolving consciousness."@en ;
+    skos:note "The preliminary consciousness has the thing to be effected for its object, not a concept of it; the resolving consciousness is of the fourth absorption of the realm of form and arises once, immediately after the adoption. This is the only technical description of how the operations of this chapter are carried out, and it is the same for all of them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmp:PdmBothSidesSearch a pm:Searching ;
     rdfs:label "Ob das Handbuch irgendwo beide Seiten eines Kriteriums nennt"@de,
         "Whether the manual anywhere states both sides of a criterion"@en ;
@@ -13383,6 +13599,43 @@ pmp:VedicPunarmrtyuWordingSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-09-19" ;
     pm:searchedCorpus "Śatapatha Brāhmaṇa (Mādhyandina) in the English of Julius Eggeling, Sacred Books of the East 12, 26, 41, 43 and 44, Oxford 1882-1900, kāṇḍas I to XIV complete; and Aitareya and Kauṣītaki Brāhmaṇas in the English of Arthur Berriedale Keith, Rigveda Brahmanas, Harvard Oriental Series 25, Cambridge 1920, complete" ;
     pm:searchedFor "Every operation to which either corpus credits escape from punarmṛtyu, the death that comes again. The question is whether the claim is tied to the one expensive operation that states an exact condition — the piling of the fire-altar with its counted bricks — or is spread over operations of very different cost, because the second would mean that the condition stated at X,4,3 governs nothing." .
+
+pmp:VisuddhimaggaAttritionElsewhereSearch a pm:Searching ;
+    rdfs:label "Ob das Handbuch außerhalb des zwölften Kapitels irgendwo eine Ausfallzahl nennt"@de,
+        "Whether the handbook puts a number on failure anywhere but in the twelfth chapter"@en ;
+    dcterms:date "2026-09-24" ;
+    skos:note "The form stands alone. A handbook that grades everything else it treats — the absorptions, the kinds of persons, the sixteen steps of breathing, the ten imperfections — declines to grade its own success rate everywhere except here, and here it does it seven times in a row. That is a gap worth exhibiting rather than a curiosity: whoever wants to know how often these transmissions concede that their instruction fails has, in this corpus, exactly one place to go."@en,
+        "The search does not settle whether the sentence is Buddhaghosa's own or taken from the Sinhalese commentaries he abridges, and this run could not settle it, because those commentaries are lost. It is noted because the answer would change what the passage is evidence of."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search, normalised to bare letters. Searched for: one in a hundred (seven hits, and all seven stand in the twelfth chapter, six in one paragraph and the seventh two paragraphs later); one in a thousand (no hits, the phrase being carried inside the first); out of a hundred (none); hundreds or thousands (none); few can (none); rarely (two, neither about a rate of attainment). The three further occurrences of hundred or a thousand in the same chapter were read and are the number of forms the operator creates, not a proportion." ;
+    pm:searchedBy "prima-materia, 2026-09-24" ;
+    pm:searchedCorpus "Buddhaghosa, Visuddhimagga, the whole of the twenty-three chapters, in the English of Ñāṇamoli, The Path of Purification, Colombo 1956, searched as one text" ;
+    pm:searchedFor "A second place in the handbook where a proportion of those who attempt a practice is said to succeed or to fail. The handbook describes some forty meditation subjects and the whole graded course to sanctity, so if the rate of attrition stated seven times over in the twelfth chapter were a habit of this author rather than a single passage, a second place would exist. The answer decides whether pmc:SatesuSahassesuVaEko is a form this transmission uses or a sentence it used once." .
+
+pmp:VisuddhimaggaBelowFourthAbsorptionSearch a pm:Searching ;
+    rdfs:label "Ob das Kapitel sagt, was dem widerfährt, der die Kräfte unterhalb der vierten Vertiefung versucht"@de,
+        "Whether the chapter says what happens to one who attempts the powers from below the fourth absorption"@en ;
+    dcterms:date "2026-09-24" ;
+    skos:note "That matters for what the chapter can be tested against. A transmission that named an injury, a wrong result or a delay would have said something a run could fail at; this one says that the unqualified simply do not get started, which is not an outcome anybody could observe from outside."@en,
+        "The note at pmc:IddhiPresupposesFourthJhana is a property of the chapter and not of the two places it cites. In a chapter that states a rate of attrition at seven thresholds and prescribes what to do when a resolve does not take, there is no sentence at all about what befalls one who tries this from below the required absorption. The one negative the chapter does state is a bare impossibility: the attempt cannot even begin."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Continuous reading of the chapter in the first translation; then a search of the chapter in the second, normalised to bare letters, for: not possible (two hits, both the statement that the beginner who has not tamed his mind in the fourteen ways cannot begin); impossible (one, the same statement); fails and failure (no hits at all); does not succeed (one, and it is the instruction to repeat the preliminary work and the resolve); he cannot (none); injury, injures, hurt, harm in the sense of harm to the operator (none in this chapter)." ;
+    pm:searchedBy "prima-materia, 2026-09-24" ;
+    pm:searchedCorpus "Buddhaghosa, Visuddhimagga, chapter XII, in the English of Pe Maung Tin, The Path of Purity, Part II, Pali Text Society, London 1931, pp. 432-471, read continuously; and the same chapter in the English of Ñāṇamoli 1956, searched as one text" ;
+    pm:searchedFor "A stated consequence of attempting the operations of the chapter without the fourth absorption, or without the eight attainments in the eight devices: an injury, a delay, a wrong result, a partial result, anything at all beyond the statement that the attempt cannot begin. The holding carries pmc:IddhiPresupposesFourthJhana at the weaker strength of a prescribed order, with a note saying that the handbook does not say what happens to one who attempts it from elsewhere, and this search was carried to establish whether that note is a property of the two places already cited or of the whole chapter." .
+
+pmp:VisuddhimaggaDeclineSearch a pm:Searching ;
+    rdfs:label "Ob das Handbuch irgendwo sagt, die Erlangungen seien nicht mehr zu haben"@de,
+        "Whether the handbook anywhere says the attainments are no longer to be had"@en ;
+    dcterms:date "2026-09-24" ;
+    skos:note "Nothing. In nine hundred pages of instruction the handbook never concedes that any part of it has become unreachable, and it never dates itself against the passing of its founder. The gap is exhibited because it is the kind that cannot be found by reading forwards: a reader who works through the chapters will meet no such sentence and will not notice that he has not met it."@en,
+        "The limit of the finding is the translation. It was carried over an English rendering, so it would miss a statement that Ñāṇamoli rendered in words none of the terms above would catch. Against that stands the shape of what was sought: not a term but a kind of sentence, and a translator who had met one would have had to render it somehow."@en,
+        "The other side of the question was then put to a different work of the same transmission and found at once, which is why this search matters. See pmc:PancaAntaradhanani and pmc:IddhiAdhigamaVivada."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search with the text normalised to bare letters first, so that the scan's broken characters would not hide a spelling. Searched for: nowadays (no hits at all); at the present day (none); in these days (none); no longer (twenty-six hits, every one of them read — sixteen are the translator's or editor's remarks about commentaries and manuscripts that are lost, and the remaining ten are inside meditation instructions and describe what a meditator no longer does at a given stage; not one is about availability); have vanished (none); disappear and disappeared (one hundred and five hits, of which the ones falling in the chapters on the direct knowledges were read and concern the light that disappears when the preliminary work runs out, not the attainment)." ;
+    pm:searchedBy "prima-materia, 2026-09-24" ;
+    pm:searchedCorpus "Buddhaghosa, Visuddhimagga, the whole of the twenty-three chapters, in the English of Ñāṇamoli, The Path of Purification, Colombo 1956, searched as one text; the twelfth chapter additionally in the English of Pe Maung Tin, The Path of Purity, Part II, Pali Text Society, London 1931" ;
+    pm:searchedFor "A sentence anywhere in the handbook stating that any of the attainments it prescribes has ceased to be reachable, that the age no longer produces those who reach it, or that the instruction is preserved rather than in use. The question decides how the twelfth chapter is to be read: as instruction addressed to its reader, or as a record of what was once done. It also decides whether the disagreement entered at pmc:IddhiAdhigamaVivada is a disagreement at all, since a handbook that conceded the point would not be a second side." .
 
 pmp:VoSisa a pm:Practicing ;
     rdfs:label "Vo-sisa, was bei schlechtem Spruch zu tun ist"@de,
@@ -14423,18 +14676,6 @@ pmc:AgrippaFides a pm:Conceptualizing ;
     pm:fromWork pmw:DeOccultaPhilosophia ;
     pm:withinTradition pmt:RenaissanceMagic .
 
-pmc:AgrippaSilentium a pm:Cautioning ;
-    rdfs:label "Durch Schweigen gestärkt, durch Veröffentlichung zerstört, und keine vollständige Wirkung folgt"@de,
-        "Strengthened by silence, destroyed by publication, and no complete effect follows"@en ;
-    dcterms:source "Agrippa, De occulta philosophia III.2 (trans. J. F., London 1651)" ;
-    skos:definition "The rule at the head of the third book. Those secrets which are among a few wise men and communicated by mouth only are not fit to be publicly written, and the author asks the reader's pardon for passing over in silence many and the chiefest secret mysteries of ceremonial magic; he supposes he has done enough if he opens what is necessary to be known. He then warns that every magical experiment flees the public, seeks to be hid and is strengthened by silence, but is destroyed by publication, neither does any complete effect follow after; and that the prating of a companion, his incredulity and unworthiness, hinders and disturbs the effect in every operation."@en ;
-    skos:note "The clause about the companion is the same displacement as the clause about the reader at the conclusion, one degree closer to the operation: a second person's talk, disbelief or unworthiness accounts for a failure, and none of the three is anything the operator could establish beforehand."@en,
-        "The failure condition sits on what the text keeps out of itself, which is the arrangement this holding already carries from three other transmissions. Here it is put twice over in one chapter: the chief mysteries are withheld, and the withholding is itself made a condition of the working. A reader who has the printed book therefore holds, by the book's own rule, a thing whose effect publication has destroyed."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
-    pm:fromWork pmw:DeOccultaPhilosophia ;
-    pm:withinTradition pmt:RenaissanceMagic .
-
 pmc:AgrippaSineLuna a pm:Cautioning ;
     rdfs:label "Ohne den Beistand des Mondes wirst du nichts zustande bringen"@de,
         "Thou shalt do nothing without the assistance of the Moon"@en ;
@@ -15156,11 +15397,14 @@ pmc:DisplayOfPowersRefused a pm:Cautioning ;
     rdfs:label "Zurschaustellung der Kräfte verweigert"@de,
         "Display of powers refused"@en ;
     dcterms:source "Dīgha Nikāya 11 (Kevaṭṭa Sutta)",
-        "Vinaya, Cūḷavagga V.8" ;
+        "Vinaya, Cūḷavagga V.8, Vin ii.110-112, in the English of T. W. Rhys Davids and Hermann Oldenberg, Vinaya Texts, Part III, Sacred Books of the East vol. XX, Oxford 1885, pp. 78-81" ;
     skos:definition "The discourse distinguishes three marvels, of psychic power, of mind-reading and of instruction, and holds only instruction to be reliable; the display of power for the sake of persuasion is refused as something to be ashamed of."@en ;
-    skos:note "The Vinaya rule against displaying superhuman states to laypeople stands alongside it."@en ;
+    skos:note "The Vinaya place was read at the wording on 2026-09-24 and its edition is now named; see pmw:VinayaPitaka. What stands there is a case and not a doctrine. A merchant hangs a sandalwood bowl on a pole and offers it to any recluse or brahman who is a saint and possessed of the power; six teachers of other schools ask for it in turn and are told to fetch it down themselves; an elder rises into the air, takes it and goes three times round the town; a crowd follows him shouting; and the Blessed One, hearing the shouting, rebukes him in the terms the definition gives, forbids the display before laypeople on pain of a wrongdoing, and orders the bowl broken up and ground to powder for eye ointment. The comparison drawn is with a woman who displays herself for a coin."@en,
+        "The Vinaya rule against displaying superhuman states to laypeople stands alongside it."@en,
+        "Two things in that account bear on this file and were not in it. The offer was made to the holder of the power by a layman, and taken up by six named teachers before any monk touched it, so the act forbidden is one the surrounding world expected. And the ground given for the prohibition is neither that the power is unreal nor that it is dangerous: it is that the display will not convert the unconverted and will turn back the converted. The rule is about what the display does to an audience."@en ;
     pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout pmc:Cetopariyanana,
+    pm:cautionsAbout pmc:AkasenaGamana,
+        pmc:Cetopariyanana,
         pmc:Dibbacakkhu,
         pmc:Dibbasota,
         pmc:Manomayakaya ;
@@ -15237,6 +15481,16 @@ pmc:Ea a pm:Naming ;
     pm:nameForm "Ea" ;
     pm:nameRole "the god who devises the incantations and instructs the exorcist" ;
     pm:withinTradition pmt:MesopotamianExorcism .
+
+pmc:EkoHutvaBahu a pm:Conceptualizing ;
+    rdfs:label "Einer seiend wird er viele"@de,
+        "Being one he becomes many"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.57-67 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 448-452; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The first capacity of the formula. Having done the preliminary work and resolved, the meditator becomes a hundred, a thousand or a hundred thousand. The created forms resemble the creator and do whatever he does, standing, sitting, speaking or keeping silent; but if he wishes he may make them differ, some young and some old, some with shaven and some with unshaven heads, some in robes of one colour and some of another, some reciting, some preaching, some putting questions and some answering them, some dyeing, stitching and washing robes."@en ;
+    skos:note "The handbook states what to do when the resolve does not take: if he does not succeed by so much, he is to repeat the preliminary work, the entering and emerging, and the resolve. That sentence is the only place in the chapter where the operation is allowed to fail, and it prescribes repetition rather than any reading of the failure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:EmmeYaTolo a pm:Conceptualizing ;
     rdfs:label "Emme ya tolo, der Weibliche-Hirse-Stern"@de,
@@ -15668,6 +15922,17 @@ pmc:Gadreel a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:6 (Ethiopic; Charles 1912)" ;
     skos:definition "A figure named in the Book of Parables as the one who led Eve astray and disclosed the weapons of death."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:GehongFangshuWuyi a pm:Cautioning ;
+    rdfs:label "Die Künste zeigen ihren Wert nur in dem Fall, der ausbleiben kann"@de,
+        "The arts show their worth only in the case that may not arise"@en ;
+    dcterms:source "Ge Hong, Baopuzi neipian 9 (Daoyi) 10b-11a, in the Zhengtong Daozang, Hanfenlou reprint, DZ 1185, juan 9" ;
+    skos:definition "The chapter states where the arts are to be relied on and where not. For guarding the person and warding off harm one is to cultivate the prohibitions that guard the form and to wear the talismans and sword of the celestial writ; sacrifice and prayer are of no benefit. One should rely on one's own being unassailable and not on the spirits' not assailing one. And it states a limit: pondering the mystery, holding the One and enclosing the light about the body can turn aside evil and carry one past the inauspicious, but it cannot lengthen the span of life or dispel a sickness of the body. One who follows nature and has no arts is not necessarily prevented from reaching his allotted years; but he cannot meet the violence of a fierce ghost or the passage of a great epidemic, and against those he will have nothing to turn them aside. The chapter closes the argument with an analogy: one who stores armour and keeps a straw cloak does so against war and against rain, and if by good fortune there is no campaign and the sky does not close over, then having them and not having them come to exactly the same; but when arrow and stone gather like fog and the flying points cross like smoke, then the straits of the naked man are known, and when the rain comes down as though a river were tipped out and the snow fills the sky, then the plight of the man standing on the road is felt."@en ;
+    skos:note "Three things stand in this passage and they should not be run together. The first is a limit stated against the author's own side and worth having on that account: the meditative practice is said not to lengthen life and not to dispel bodily illness, which is a narrower claim than the chapter's readers would have expected. The second is a concession that the unequipped may well reach their full span. The third is the reservation that makes the first two costless — the arts show their worth only against a violent ghost or a great epidemic, events that may not arise in a given life, so that in the ordinary case having them and not having them are conceded to come to the same. A claim reserved to the exceptional case cannot be told from a claim about nothing by any ordinary run of lives, and the author has arrived at that position in the course of refuting people who did the same."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout "Judging the arts of self-protection by ordinary years, in which the case they are for does not arise" ;
+    pm:fromWork pmw:BaopuziNeipian ;
+    pm:withinTradition pmt:Daoist .
 
 pmc:GehongFuguiChangsheng a pm:Disputing ;
     rdfs:label "Wenn Gebet das Leben verlängerte, müssten die Reichen zwangsläufig lange leben"@de,
@@ -17571,6 +17836,19 @@ pmc:Tapu a pm:Conceptualizing ;
     skos:definition "The state of being sacred and thereby prohibited, held to be communicated from an atua or a sacred person to whatever they touch, and from that object onward to whatever it touches in turn."@en ;
     skos:note "The re-transmission by contact is the part later theory generalised. A record that carries only the prohibition and not the transmissibility loses exactly what the nineteenth-century comparativists picked up and turned into an impersonal magical fluid. See prima-materia#103 and prima-materia#104 for the originations that are not yet entered."@en ;
     pm:withinTradition pmt:Maori .
+
+pmc:TassaYevaSaPathavi a pm:Conceptualizing ;
+    rdfs:label "Nur für ihn wird der Boden zu Wasser und nur für ihn das Wasser zu Erde"@de,
+        "Only for him does the ground become water, and only for him the water earth"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.94 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 459; also trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.97 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, p. 459; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "The clause the handbook attaches to both of the two operations that change a surface. Only for him does that ground become water; for everybody else it stays ground, and people walk on it, drive over it and plough it as before. Only for him does that water become earth; for everybody else it stays water, and fishes, turtles and water birds go about in it as they like. The restriction is not a limit on the power: if he wishes that it be water for them too, it becomes water for them too, and the same in the other direction. And when the determined time has run out, the marked extent goes back to what it was, except for water that was in pots and ponds to begin with."@en ;
+    skos:note "Entered as a node of its own, and not as a remark on the two capacities, because of what it does to a witness. An operation that turns a road into water is the most public event a transmission could claim; this clause makes it, by default, an event that no passer-by can see, and leaves the extension of the perception to a wish of the operator's that nobody else can observe him making. A bystander who saw nothing has seen exactly what the text says he would see."@en,
+        "The wording is not weaker in the second translation. Pe Maung Tin has only for him is the ground turned into water, for others it remains ground; Ñāṇamoli has it is only for him that that earth becomes water, not for anyone else. Both carry the permission to extend it, and both carry the reversion at the end of the determined time."@en,
+        "What it is not. It is not an account of a failure and does not stand where failures are accounted for. It stands in the operative instruction, between the resolve and the time limit, as a property of the operation; the handbook is not explaining away an absence but describing what it holds to happen. That is the difference between this clause and the family of excuses the holding collects at pmc:TheRivalWhoWasNotInTheRoom, and it is the reason this one is worth more: the excuse is made after a session, and this was written before any."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:Tawba a pm:Conceptualizing ;
     rdfs:label "Umkehr"@de,
@@ -19935,6 +20213,18 @@ pmc:Agape a pm:Conceptualizing ;
     skos:definition "Called the offspring of apatheia and the keeper of the door to the contemplation of created things."@en ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:AgrippaSilentium a pm:Cautioning ;
+    rdfs:label "Durch Schweigen gestärkt, durch Veröffentlichung zerstört, und keine vollständige Wirkung folgt"@de,
+        "Strengthened by silence, destroyed by publication, and no complete effect follows"@en ;
+    dcterms:source "Agrippa, De occulta philosophia III.2 (trans. J. F., London 1651)" ;
+    skos:definition "The rule at the head of the third book. Those secrets which are among a few wise men and communicated by mouth only are not fit to be publicly written, and the author asks the reader's pardon for passing over in silence many and the chiefest secret mysteries of ceremonial magic; he supposes he has done enough if he opens what is necessary to be known. He then warns that every magical experiment flees the public, seeks to be hid and is strengthened by silence, but is destroyed by publication, neither does any complete effect follow after; and that the prating of a companion, his incredulity and unworthiness, hinders and disturbs the effect in every operation."@en ;
+    skos:note "The clause about the companion is the same displacement as the clause about the reader at the conclusion, one degree closer to the operation: a second person's talk, disbelief or unworthiness accounts for a failure, and none of the three is anything the operator could establish beforehand."@en,
+        "The failure condition sits on what the text keeps out of itself, which is the arrangement this holding already carries from three other transmissions. Here it is put twice over in one chapter: the chief mysteries are withheld, and the withholding is itself made a condition of the working. A reader who has the printed book therefore holds, by the book's own rule, a thing whose effect publication has destroyed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AgrippaPraeparatioOraculi ;
+    pm:fromWork pmw:DeOccultaPhilosophia ;
+    pm:withinTradition pmt:RenaissanceMagic .
+
 pmc:Apatheia a pm:Conceptualizing ;
     rdfs:label "Apatheia"@de,
         "Apatheia"@en ;
@@ -20112,14 +20402,6 @@ pmc:ControleUniversel a pm:Conceptualizing ;
     skos:definition "The rule of verification the transmission sets for itself: concordance in the teaching of the spirits is the best control. It is stated with its conditions and with its limits. The revelations must come spontaneously, through a large number of mediums unknown to one another, and from different places. A single medium questioning many spirits is expressly not a sufficient guarantee, because one obsessing spirit could present the same content under different names; and mediums of a single centre are not sufficient either, because they may stand under a common influence. The criterion is restricted to what attaches to the principles of the doctrine and does not extend to communications on secondary matters."@en ;
     skos:note "Both exclusions are the founder's own and both are exactly the ones an outside critic would raise. That is worth marking, because it makes the rule better than the practice that followed it: the same author describes elsewhere how the scattered material was gathered and weighed at a single centre, and that centre was himself."@en ;
     pm:withinTradition pmt:Spiritism .
-
-pmc:Dibbacakkhu a pm:Conceptualizing ;
-    rdfs:label "Göttliches Auge"@de,
-        "Divine eye"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
-    skos:definition "Sight beyond the range of the physical eye."@en ;
-    pm:fromWork pmw:Visuddhimagga ;
-    pm:withinTradition pmt:Theravada .
 
 pmc:Dibbasota a pm:Conceptualizing ;
     rdfs:label "Göttliches Ohr"@de,
@@ -21307,7 +21589,7 @@ pmw:Jataka a dcterms:BibliographicResource ;
 pmw:VinayaPitaka a dcterms:BibliographicResource ;
     rdfs:label "Vinaya Piṭaka"@de,
         "Vinaya Piṭaka"@en ;
-    skos:note "Opened at Cūḷavagga V.8. The edition is not recoverable; see prima-materia#45."@en .
+    skos:note "Opened at Cūḷavagga V.8, and the edition is now recoverable. The passage was read at the wording on 2026-09-24 in the English of T. W. Rhys Davids and Hermann Oldenberg, Vinaya Texts, Part III, The Kullavagga IV-XII, Sacred Books of the East vol. XX, Oxford 1885, pp. 78-81, which is public domain and reachable by the regular route. That closes the Vinaya half of prima-materia#45; the Dīgha Nikāya 11 half is still open."@en .
 
 pmc:Ahwal a pm:Conceptualizing ;
     rdfs:label "Zustände"@de,
@@ -21317,6 +21599,15 @@ pmc:Ahwal a pm:Conceptualizing ;
     skos:definition "Conditions that descend on the wayfarer as a gift and pass, distinguished in the handbooks from the stations precisely by not being attainable through effort."@en ;
     skos:note "No prerequisite claim is entered for these. The tradition holds that they cannot be worked for, which is a claim about the limits of any ordering and not an omission in this record."@en ;
     pm:withinTradition pmt:Sufism .
+
+pmc:AkasenaGamana a pm:Conceptualizing ;
+    rdfs:label "Er reist mit gekreuzten Beinen durch die Luft wie ein beschwingter Vogel"@de,
+        "He travels cross-legged through the air like a winged bird"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.98-99 (trans. Pe Maung Tin, The Path of Purity, Part II, PTS 1931, pp. 459-460; also trans. Ñāṇamoli 1956)" ;
+    skos:definition "He enters the earth device, emerges, and marks off a place of the size he needs — of a seat if he would travel seated, of a cot if lying, of a path if on foot — and resolves that there be earth, and it becomes earth. In the sky he then walks to and fro, stands, sits and lies down."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:ArsNotoriaFacundia a pm:Conceptualizing ;
     rdfs:label "Das Zunehmen in allen Wissenschaften"@de,
@@ -21380,6 +21671,14 @@ pmc:ClearLightOfSleep a pm:Conceptualizing ;
     skos:definition "A luminosity held to arise at the passage into sleep, which the practitioner is trained to recognise and hold rather than to pass through unconscious."@en ;
     skos:note "Tibetan 'od gsal, Sanskrit prabhāsvara. The state is not that of a body whose motor system has shut down while the mind stays awake; it is a luminosity placed at the moment of falling asleep, and its purpose in the sources is the recognition of emptiness and the preparation for dying, not the acquisition of a faculty."@en ;
     pm:withinTradition pmt:TibetanTantric .
+
+pmc:Dibbacakkhu a pm:Conceptualizing ;
+    rdfs:label "Göttliches Auge"@de,
+        "Divine eye"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XIII (trans. Ñāṇamoli 1956)" ;
+    skos:definition "Sight beyond the range of the physical eye."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:DiscernmentOfOrigins a pm:Conceptualizing ;
     rdfs:label "Unterscheidung der Herkunft"@de,
@@ -21862,6 +22161,11 @@ pmt:Platonic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Plato, Symposium" .
+
+pmw:Anagatavamsa a dcterms:BibliographicResource ;
+    rdfs:label "Anāgatavaṃsa, die Geschichte des Kommenden"@de,
+        "Anāgatavaṃsa, the history of what is to come"@en ;
+    skos:note "Opened on 2026-09-24 at the passage on the five disappearances only. The text read is the recension Minayeff marked B, a mixed prose and verse copy of a Rangoon manuscript, printed by him in the Journal of the Pali Text Society for 1886, pp. 33-36, and rendered into English by Henry Clarke Warren, Buddhism in Translations, Harvard 1896, §102, pp. 481-486. The remainder of the work, which is about the next Buddha, was not read. The recension matters and is named because Minayeff printed more than one and they do not agree."@en .
 
 pmw:DeDivinatione a dcterms:BibliographicResource ;
     rdfs:label "Cicero, De divinatione"@de,
@@ -23303,31 +23607,10 @@ pmt:Hathayoga a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Svātmārāma, Haṭhayogapradīpikā" .
 
-pmw:Visuddhimagga a dcterms:BibliographicResource ;
-    rdfs:label "Buddhaghosa, Visuddhimagga"@de,
-        "Buddhaghosa, Visuddhimagga"@en ;
-    skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956."@en .
-
 pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Śatapatha-Brāhmaṇa"@de,
         "Śatapatha Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
-
-pmt:Theravada a pm:Tradition ;
-    rdfs:label "Theravāda"@de,
-        "Theravāda"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
-    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
-    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:DighaNikaya,
-        pmw:Jataka,
-        pmw:MajjhimaNikaya,
-        pmw:VinayaPitaka,
-        pmw:Visuddhimagga ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:Visuddhimagga ;
-    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -23416,16 +23699,6 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
-pm:Generalizing a owl:Class ;
-    rdfs:label "Verallgemeinern"@de,
-        "Generalizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
-    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
-        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
-        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
-        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
-
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -23453,6 +23726,16 @@ pmt:VedicRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:SatapathaBrahmana ;
     pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
+
+pm:Generalizing a owl:Class ;
+    rdfs:label "Verallgemeinern"@de,
+        "Generalizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of forming, from several attested claims, one statement that no source makes: a claim about a kind of practice or a kind of effect, worded so that an outcome could contradict it."@en ;
+    skos:note "It carries a derivation instead of an origin, and the derivation is checkable in the same way a source is. pm:generalizedFrom points at the attested nodes it was formed from, so a reader can go back to the passages and disagree with the step rather than with the conclusion alone."@en,
+        "No instance may carry dcterms:source or pm:withinTradition. A generalization that named a work would report as transmitted what no transmission says, and that is the one confusion this layer exists to prevent."@en,
+        "That is also the whole safeguard against the direction the project must not run in. An unpublished draft has no attested predecessors: a sentence from a method draft cannot be generalized into the graph, because there is nothing for pm:generalizedFrom to point at. The class is therefore open where pm:Positing had to be locked, and locked where pm:Positing is open."@en,
+        "The absence of a pm:Testing pointing at a generalization is not a defect and is deliberately not enforced. It is the queue: the generalizations nobody has taken up are exactly the ones a run should reach for, and a shape that required a protocol would make the queue unwritable, as it does for pm:Positing."@en .
 
 pmw:PgmIv a dcterms:BibliographicResource ;
     rdfs:label "PGM IV, der grosse Zauberpapyrus von Paris (Bibliotheque nationale suppl. gr. 574)"@de,
@@ -23541,6 +23824,11 @@ pm:procedureWithoutCases a pm:ExaminationState ;
         "Procedure without cases"@en ;
     skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
+pmw:Visuddhimagga a dcterms:BibliographicResource ;
+    rdfs:label "Buddhaghosa, Visuddhimagga"@de,
+        "Buddhaghosa, Visuddhimagga"@en ;
+    skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956."@en .
+
 pm:fieldAttestation a pm:Attesting ;
     rdfs:label "Feldzeugnis"@de,
         "Field attestation"@en ;
@@ -23564,6 +23852,23 @@ pmt:Enochic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
+
+pmt:Theravada a pm:Tradition ;
+    rdfs:label "Theravāda"@de,
+        "Theravāda"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
+    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:Anagatavamsa,
+        pmw:DighaNikaya,
+        pmw:Jataka,
+        pmw:MajjhimaNikaya,
+        pmw:VinayaPitaka,
+        pmw:Visuddhimagga ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
 pmt:GreekMagicalPapyri a pm:Tradition ;
     rdfs:label "Griechische und demotische Zauberpapyri"@de,
