@@ -9346,6 +9346,479 @@ pmc:QuimbyTonitruumNonObstat a pm:Conceptualizing ;
     pm:readVia "The editor's connecting narrative in Horatio W. Dresser (ed.), The Quimby Manuscripts, 2nd ed. (New York 1921), which summarises the mesmeric years from the papers, the journal and the notices rather than printing them at the place" ;
     pm:withinTradition pmt:NewThought .
 
+pmc:RasaAbhrakaPurvaSvarna a pm:Presupposing ;
+    rdfs:label "Glimmer vor Gold, und beides vor der inneren Verflüssigung"@de,
+        "Mica before gold, and both before the internal liquefaction"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, swallowing of the essence of mica by mercury, pp. 97-98, and garbhadruti, p. 130" ;
+    skos:definition "Mica is first of all to be swallowed by mercury, and then gold, and last of all is to be effected the internal liquefaction; the chemist who does not know this makes a waste of his money. Those chemists who score partial success by making mercury swallow gold and other metals but not mica are as frugal as divers who reach the bottom of the ocean and are satisfied with cowries; nothing but the essence of mica can cut the wings of mercury."@en ;
+    skos:note "The consequence named is expense and not injury, which places this prerequisite between the two kinds the volume otherwise uses. It is also the place where the transmission argues for an ingredient by a property — mica alone stops the mercury subliming — so the order is given a reason and not only an authority."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The chemist who does not know this makes a waste of his money, and the mercury, its wings uncut, cannot be killed."@en ;
+    pm:dependentStep pmp:RasaGarbhadruti ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:RasaGrasana ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAmrtapaniDagdhapani a pm:Cautioning ;
+    rdfs:label "Der nach seiner Handfläche gewählte Chemiker, und der zu meidende"@de,
+        "The chemist chosen by his palm, and the one to be avoided"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. I, p. 16" ;
+    skos:definition "For the performance of the operations one should engage a chemist who is pious, truthful, learned, a worshipper of Śiva and Keśava, kind-hearted, and who has on his palm a flag, a vessel, a lotus, a fish, a bow and a line below the ring finger; such a chemist is called nectar-palmed. A chemist who is unfortunate, cruel, greedy, uninitiated and has black spots on his palm is called burnt-palmed and should therefore be avoided in metallurgical operations."@en ;
+    skos:note "A disqualification stated before the work and readable on the body, which is a different device from the clauses that assign a failure afterwards: this one can be applied in advance and by a third party. The sentence that follows it goes the other way and is the ordinary immunising form — invariably successful are the operations carried on by those who are pure in body and mind, truthful, believers in God, learned and full of optimism — so the two stand together, one testable and one not. See pmc:RasaSiddhiPurusagunayatta."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaShodhana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaApathyaviparyaya a pm:Cautioning ;
+    rdfs:label "Das Syndrom, an dem ein Anwender erkennt, dass er die Regeln gebrochen hat"@de,
+        "The syndrome by which a user knows he has broken the rules"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, how to cure symptoms due to an improper use of mercury, pp. 206-208" ;
+    skos:definition "The violation of the rules relating to the taking of mercury results in a failure to digest the mercury, accompanied by a colic pain on the lower part of the navel, inactivity, drowsiness, lethargy, fever, shortness of eyesight, pains all over the body, aversion to food, and inflammation of the whole body. To remove these symptoms one takes for three days suvarchala salt with cow's urine and the juice of karkati root, or the juice of matulunga with rock salt and dried ginger."@en ;
+    skos:note "Ten signs and a three-day course against them, and the signs are stated as the mark of a transgression and not of the medicine. That is the direction the clause runs in and it is worth stating plainly: the same ten signs are listed again on the next page as the signs of indigestion of mercury, so the transmission has one syndrome and two readings of it — the user broke a rule, or the mercury was not absorbed — and in both readings the medicine is exonerated."@en,
+        "This is the volume's closest approach to a condition of failure that a user could apply to himself while the course runs, and it is a condition on the user's conduct. Nothing in the volume tells him at what point to conclude that the mercury is not working."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaRasasevana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAstadasaSamskara a pm:Systematizing ;
+    rdfs:label "Die achtzehn Operationen am Quecksilber, als eine nummerierte Reihe gesetzt"@de,
+        "The eighteen operations on mercury, set out as one numbered series"@en ;
+    dcterms:date "1926" ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, the list of the eighteen operations, p. 40, with the preface at pp. ix and vii" ;
+    skos:definition "Purification, boiling, rubbing, raising, sublimation, confinement, restraint, stimulation, rehabilitation, the swallowing of metals, swooning, movement, internal liquefaction, exhaustion, killing, incineration, dyeing, and the transformation of base metals — eighteen operations numbered from one to eighteen, each treated in the order given and each with its own processes."@en ;
+    skos:note "Entered as an ordering act and not as a doctrine, because the volume is a compilation and its order is the compiler's. He says so twice: the instructions received from his preceptor enabled him to arrange methodically the materials found in the existing books, which were mostly in a chaotic state; and the present-day physicians of Bengal are ignorant of the eighteen mercurial operations, which can safely be considered the pivot round which the whole of Indian chemistry rotates. The eighteen are older than he is; that they stand here as one consecutive series with the eight indispensable ones marked off inside it is his arrangement and is what this node records."@en,
+        "What hangs on the number. The text states twice that a man who performs all eighteen is the greatest of operators, free from physical decay; that mercury of two of the five kinds becomes a panacea if subjected to the eighteen; and separately that eight of them, those from boiling to rehabilitation, are indispensable after purification. Three different counts of the same series — eighteen as the measure of the operator, eighteen as what makes bad mercury usable, eight as what any medicinal mercury must have passed — and the volume does not reconcile them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:compiledBy "Bhudeb Mookerjee, Rasacharya, principal of the Bengal College of Ayurveda, Calcutta" ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAstadosa a pm:Cautioning ;
+    rdfs:label "Acht natürliche Fehler des Quecksilbers und die acht Krankheiten, die jeder von ihnen erzeugt"@de,
+        "Eight natural faults of mercury and the eight diseases each of them causes"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, natural blemishes of mercury, p. 35" ;
+    skos:definition "The natural defects of mercury are the evil properties of lead, of tin, impurity from foreign matter, the evil properties of fire, subtleness, the evil properties of poison, the evil properties of stone, and the inability to stand the heat of fire. These blemishes give rise to the following ailments in one who takes impure mercury, respectively: carbuncles, leprosy, swoon, inflammation, loss of vigour, death, inertness, and eruptions."@en ;
+    skos:note "Set beside the corresponding search in examinations/searches-rasashastra.ttl. The volume states the pairing and reports no case of any of the eight, which is why the mapping is held here as a caution and not as an examination."@en,
+        "The word respectively is the whole of the finding. This is not a list of things that may go wrong but a mapping of eight causes onto eight effects in a fixed order, and each fault has its own removal by its own drug in the first operation. A transmission that pairs its faults with its diseases one to one has made a claim of a kind that could be checked against a case: a man poisoned by this material should show the condition his particular fault is named for."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaShodhana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAstasamskaraPurvakatva a pm:Presupposing ;
+    rdfs:label "Die acht Operationen nach der Reinigung, bevor Quecksilber überhaupt gebraucht wird"@de,
+        "The eight operations after purification, before mercury is used at all"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, the eighteen operations, p. 40" ;
+    skos:definition "The eight operations commencing with boiling should be resorted to as soon as the process of purification is finished; the use of mercury, though purified, is not commendable unless it is subjected to these eight kinds of operations. One exception is stated in the same paragraph, in favour of mercury extracted in the prescribed manner from cinnabar, which is applicable for all medicinal purposes without them."@en ;
+    skos:note "Entered at prescribed order and not at stated necessity. The text says not commendable and states no harm at this place; the harms it does state stand at the blemishes and at the classes of solidification, and they are not read back into this sentence. The exception is the more interesting half: a route that skips eight of the eighteen operations stands in the same paragraph as the rule, which means the transmission holds both that the series is indispensable and that one starting material makes it dispensable."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:RasaGrasana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:RasaShodhana ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAtivijnana a pm:Conceptualizing ;
+    rdfs:label "Die Überlieferung erklärt, ihr Wissen stamme nicht aus Beobachtung und lasse sich nicht vermehren"@de,
+        "The transmission states that its knowledge does not come from observation and cannot be added to"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, preface, pp. ix-x, with p. xiv" ;
+    skos:definition "It is not a science in the ordinary sense of the term. It is not a collection of experiential truths or inductive generalizations, based on observation and experiment. It is a super-science, and as such is based on something higher than observation and experiment — call it inspiration, revelation, or what you will. It is not possible, even for a very careful and devoted student, to explain in many cases why a certain line of procedure was prescribed with a view to attain an end in view. Neither is it possible for us to make any material addition to what has been transmitted to us from time out of memory."@en ;
+    skos:note "A transmission saying in its own words what this holding would otherwise have to infer about it, and saying both halves: the claims did not come from trial, and nothing may be added to them. The second half matters more for the examining layer than the first. A transmission that forbids addition has declared in advance that no later station will attach a term, a caution or a condition of failure to what it received, which is exactly the material a falsifier is made of; and the same volume disproves it in its own footnotes, where the compiler cuts an old dose to a quarter and adds a contraindication against a modern drug."@en,
+        "The compiler sets his own central claim against the same sentence, and the two do not fit. He calls the science independent of observation and experiment, and then says of the swallowing of gold without gain of weight that the statement is based on a practical experience and an arduous research carried on for several years, and asks his readers to perform the operations faithfully and form their own judgement. That is an appeal to trial made three pages after trial has been declared beside the point."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaAyogyabandha a pm:Cautioning ;
+    rdfs:label "Mit Blei, Zinn, Gift, Harn oder Samen verfestigtes Quecksilber ist nicht zu geben"@de,
+        "Mercury solidified with lead, tin, poison, urine or semen is not to be given"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 196 and 206-207" ;
+    skos:definition "Mercury solidified with lead, tin, poison, semi-poison, urine or semen is to be avoided for medicinal purposes; and a man who takes by mistake mercury containing lead or tin should take rock salt with cow's urine and the tuber of karabella, or a decoction of karkoti, guduchi, myrobalan and sharapunkha boiled in cow's urine and reduced to an eighth."@en ;
+    skos:note "The prohibition and its antidote stand a page apart, and the antidote is what makes the caution more than a rule: the transmission expects the mistake to happen, names the wrong material by name, and states a three-day course against it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaRasasevana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaBalukaAgniPariksa a pm:Conceptualizing ;
+    rdfs:label "Die Grasprobe für die Hitze des Sandapparats"@de,
+        "The grass test for the heat of the sand apparatus"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. VI, baluka jantram, p. 259" ;
+    skos:definition "In the baluka jantram the heating is to be stopped when it is found that the external surface of the earthen basin at the top of the apparatus has got so heated as to reduce to ashes a piece of dried grass placed upon it."@en ;
+    skos:note "An endpoint stated as an observation and not as a duration, in a volume that otherwise counts everything in days and watches. A later run that wants to know whether these procedures could be repeated by a stranger should start here: this is the only place where a heat is specified by something the operator can see happen."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaBandhaKaladana a pm:Conceptualizing ;
+    rdfs:label "Heilung binnen einer Woche und binnen drei Wochen, nach der Menge des verschluckten Glimmers"@de,
+        "Cure within a week and within three weeks, by the count of mica swallowed"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. VII, pp. 316-317" ;
+    skos:definition "Mercury exhausted with an equal quantity of mica and then reduced to ashes is bala baddha and can cure and prevent all sorts of diseases. Exhausted with double its quantity of mica it is kumara baddha and can cure in three weeks all the diseases due to serious vices, leprosy among them. Having swallowed four times its weight of mica it is taruna baddha, the best of all rasayanas, and can cure in a week all sorts of diseases. Having swallowed six times its weight it is briddha baddha and is used in curing and in the incineration of metals."@en ;
+    skos:note "Four grades, a counted ingredient, and two stated terms — a week and three weeks — attached to named conditions. These are the only cure-times in the volume and they are short enough to be watched. A course of taruna baddha in a patient with a condition the transmission names, followed for eight days, is the cheapest examination anywhere in this file; that is why the terms are entered as their own node and not left inside the class list."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaBandhabheda a pm:Conceptualizing ;
+    rdfs:label "Fünfundzwanzig Klassen verfestigten Quecksilbers, unterschieden nach Aussehen und Wirkung"@de,
+        "Twenty-five classes of solidified mercury, told apart by what they look like and what they do"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. VII, different classes of solidification of mercury, pp. 311-314" ;
+    skos:definition "The commentators are said to describe twenty-five ways of solidifying mercury, and the volume names them and distinguishes them by how the material behaves. Solidification of mercury not properly purified is hatha bandha and gives rise to death or a very serious disease; of properly purified mercury, arota bandha, commendable for internal use and slow to cure. Mercury that will not solidify but sublimates and returns to its original condition when put to the putam is a third class. Mercury solidified with materials not properly purified is kriyahina, and taking it with improper diets gives rise to several after-effects of a troublesome nature. Mercury that sublimates out of the crucible during incineration is sajiva baddha and does not possess the properties of incinerated mercury."@en ;
+    skos:note "A taxonomy of outcomes in which four of the first classes are failures, each with an observable and a consequence. This is the volume's nearest thing to a diagnostic table for its own work, and the criteria are all of the same kind: what the material did in the fire."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaBhasmalaksana a pm:Conceptualizing ;
+    rdfs:label "Die fünf Merkmale veraschten Quecksilbers"@de,
+        "The five marks of incinerated mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, characteristics of incinerated mercury, p. 175, with sajiva baddha at ch. VII, p. 314" ;
+    skos:definition "Incinerated mercury is devoid of lustre; it is light, white, a killer of metals, devoid of subtleness, and it does not sublimate if placed upon fire."@en ;
+    skos:note "An assay of the transmission's own operation and not of a material it bought, and that is its interest. The last mark is a test anybody could carry out in a minute — put it on the fire and see whether it rises — and the sentence attaches to the negative outcome neither a repetition rule nor a cause outside the procedure. The volume names the failing case separately and calls it sajiva baddha, where mercury sublimates out of the crucible during the incineration and is declared not to possess the properties of incinerated mercury and not to be efficacious."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaDirghayus a pm:Conceptualizing ;
+    rdfs:label "Als Zahlen angegebene Lebensspannen"@de,
+        "Lifespans stated as figures"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, dose of incinerated mercury, p. 196" ;
+    skos:definition "One who takes one pala of incinerated mercury exhausted with steel or copper lives a lakh of years; one who takes ten palas lives for a kalpa; one who takes one pala of incinerated mercury exhausted with gold lives for a crore of years. The dose from which these follow is stated separately and is one rati a day."@en ;
+    skos:note "The figures are of a size that removes them from any test, and that is itself the finding: the same volume states its cure-times in weeks and its antidote courses in days, so it is perfectly capable of a checkable number and does not use one where the central promise stands. A lakh of years and a crore of years are not two claims of different strength; they are the same claim made twice."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaGandhakaPurvakatva a pm:Presupposing ;
+    rdfs:label "Der Schwefel wird zuerst verschluckt, sonst entsteht kein Appetit"@de,
+        "Sulphur is swallowed first, or no appetite is roused"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, order of swallowing of metals by mercury, p. 93" ;
+    skos:definition "Metals are not to be swallowed by mercury unless sulphur is first of all made to be swallowed; otherwise no appetite is roused in mercury. Sulphur is therefore to be swallowed first of all, for the purpose of increasing the appetite of mercury."@en ;
+    skos:note "A necessity with its consequence in the same sentence, and the consequence is stated in the material and not in the operator: the mercury will not take the metal. That makes it the one prerequisite in the volume whose failure would be visible at the bench within the operation itself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Otherwise no appetite is roused in mercury, and the metals are not swallowed."@en ;
+    pm:dependentStep pmp:RasaGrasana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:RasaDipana ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaGandhakamatraKrama a pm:Conceptualizing ;
+    rdfs:label "Sechs Stufen verschluckten Schwefels, sechs Anzeigen"@de,
+        "Six grades of swallowed sulphur, six indications"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, grasanam, pp. 76-77" ;
+    skos:definition "The potency of pure mercury increases a hundred times if it consumes an equal quantity of pure sulphur; it cures all sorts of leprosy at twice its weight of sulphur, all sorts of inertness at three times, the premature falling of teeth and greyness of hair at four times, consumption at five, and all sorts of diseases at six. All this is said to have been spoken by Mahādeva to Indra. The same section grades the other swallowed materials: a hundredfold for an equal quantity of mica, a thousand attributes for gold, and for diamond it is said that Śiva alone knows."@en ;
+    skos:note "A dose-response table in which the variable is counted and the outcomes are named conditions. It is the form of a claim that a series of cases could contradict, and the transmission gives it for its preparatory operation rather than for its promise: the six grades govern what the mercury is capable of, not how long the patient lives."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaGrasakramalaksana a pm:Conceptualizing ;
+    rdfs:label "Vier Bissen, vier Erscheinungen"@de,
+        "Four morsels, four appearances"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, quantity of the morsels, p. 140" ;
+    skos:definition "The four morsels swallowed in the exhaustion are a sixteenth, an eighth, a quarter and a half of the mercury, and each is given its own look: the first makes the mercury look very beautiful, the second gives it the appearance of a leech, the third makes it appear like a crow's stool, and the fourth makes it look like butter milk."@en ;
+    skos:note "A counted series in which each step has a stated appearance, so that an operator can say at a glance how far he has come. This is the transmission stating a progress mark for its own procedure, which it does here and does not do anywhere for the course a patient takes."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaGrasanaParyaptiPariksa a pm:Conceptualizing ;
+    rdfs:label "Die Gewichtsprobe: das Quecksilber muss wiegen, was es wog"@de,
+        "The weight test: the mercury must weigh what it weighed"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 86 and 134, with the preface, p. xiv" ;
+    skos:definition "If iron, mica and the rest with which mercury was rubbed are properly swallowed, the mercury retains its original quantity and can stand the heat of fire; in case they are not properly swallowed, the mercury is to be sublimated with sour asava and then rubbed and boiled again as before. In the fifth process of swallowing the same rule is given as an instruction: if the weight of the mercury is greater than what it was originally, it is again to be boiled until it reverts to its original weight."@en ;
+    skos:note "That invitation is what makes this the most examinable claim in the holding's Indian material: an outcome stated in a measurable quantity, a procedure printed in full, and an author who asks to be tested on it. The rule of repetition attached to the failing case — boil it again until the weight comes back — is the clause that would have to be counted against it, and it is a rule about the material rather than an excuse for the operator."@en,
+        "The one test in the volume that is carried out with a balance, and the claim behind it is the compiler's central one, stated in the preface in his own person: mercury can be made to swallow a considerable quantity of gold or other metals without any appreciable increase in the weight of the swallowing mercury. He says he expects the statement to appear dogmatic, paradoxical and revolting against the common sense of rational beings, that it rests on practical experience and years of research, and he invites the reader to perform the operations faithfully and then form his own judgement."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaGuptavidya a pm:Conceptualizing ;
+    rdfs:label "Geheim gehalten ist sie stark, und ein dem Publikum bekanntes Mittel wird unwirksam"@de,
+        "Kept secret it is strong, and a medicine known to the public becomes ineffective"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. II, p. 25, with ch. I, p. 7, ch. I, p. 11 footnote, and the preface, p. ix" ;
+    skos:definition "The knowledge of metallurgy is to be kept secret from those who are not disciples. It becomes powerful if cultivated in secret; otherwise it loses much of its strength. The preparation and composition of a medicine should not be taught to a patient or to the public in general. A medicine which is very familiar to a patient and to the public becomes ineffective. The same chapter forbids teaching the science to those who are not disciples, to atheists and to the dishonest, and the compiler notes at the worship of the two deities that for the detailed procedure a disciple should depend upon the instructions given by his preceptor."@en ;
+    skos:note "Read beside the compiler's account of his own learning, the arrangement is complete: he says he learnt from a yogi much more than could be found in the existing books, each of which is incomplete, incoherent, incorrect and in many cases misleading. The part that is not in the books is with a person, and the part that is in the books is declared weaker for being there."@en,
+        "The clause does not say that a published medicine will be misused or debased; it says the medicine stops working. That puts the efficacy of the substance into the relation between the patient and the knowledge, and it does so in a printed book sold for six rupees which prints the composition of some fifty preparations. The volume therefore holds at once that the operation is in the book and that what is in the book loses its strength, and it does not reconcile them."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaJaranaPurvaMarana a pm:Presupposing ;
+    rdfs:label "Quecksilber wird erschöpft, bevor es getötet wird"@de,
+        "Mercury is exhausted before it is killed"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, before the exhaustion of mercury, pp. 131-132" ;
+    skos:definition "The man who kills mercury without exhausting it, and without making it swallow a sufficient quantity of gold, mica and the rest, is a great sinner and is to be taken for an enemy of the great God; hence mercury is to be exhausted very carefully before it is killed."@en ;
+    skos:note "The consequence is stated and it is religious and not material: what the offender incurs is sin and enmity with the god, not a failed preparation. It is entered at stated necessity because a consequence is quoted, and the kind of consequence is recorded here so that nobody reads it as a claim about the substance. The volume is able to state a material consequence when it has one, as it does at the swallowing of sulphur."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He is a great sinner and is to be taken for an enemy of the great God."@en ;
+    pm:dependentStep pmp:RasaMarana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:RasaJarana ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaJaranaVarjya a pm:Cautioning ;
+    rdfs:label "Stoffe, die bei der Erschöpfung nicht gebraucht werden dürfen, und der Schaden, den sie anrichten"@de,
+        "Substances that must not be used in the exhaustion, and the harm they do"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, first process of exhaustion of mercury, p. 134" ;
+    skos:definition "Iron rust, aconite, urine, rasaka, realgar, orpiment and sulphur are not to be made use of in the exhaustion of mercury, since mercury exhausted with these things gives rise to leprosy, boils and the like."@en ;
+    skos:note "A prohibition on named materials with a named consequence in the user's body, standing inside the procedure that prescribes several of the same materials elsewhere: sulphur is swallowed six times over in the tenth operation and forbidden in the fourteenth. The transmission is therefore claiming a difference between a substance taken up at one stage and the same substance at another, and it states no sign by which the resulting mercury could be told apart."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaJarana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaKamamada a pm:Cautioning ;
+    rdfs:label "Die eine Schwierigkeit, die die Überlieferung einräumt, und ihre Frist ist drei Wochen"@de,
+        "The one difficulty the transmission admits, and its term is three weeks"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, special directions for use of mercury, pp. 196-197" ;
+    skos:definition "There is only one difficulty arising out of taking incinerated mercury, namely that the man gets intoxicated, in three weeks, with sexual desires. He gets indigestion if he avoids all connection with women while taking it; a sexual intercourse on the other hand leads to the waste of semen and proves very dangerous; it is therefore desirable to dally with women without having any intercourse. A yogi who observes absolute celibacy is said to be helped by the same medicine towards samadhi."@en ;
+    skos:note "The only adverse effect in the volume that carries a term. Three weeks is a checkable number and the effect is one the user would notice, which makes this the volume's one falsifiable statement about what its own medicine does to a body. The sentence immediately after it closes the exit on both sides — abstinence brings indigestion, intercourse is dangerous — and prescribes a state between them that nobody could be shown to have kept."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaRasasevana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaKarpuraDusta a pm:Cautioning ;
+    rdfs:label "Zwei benannte Präparate, falsch hergestellt, und die Krankheiten, die sie geben"@de,
+        "Two named preparations, wrongly made, and the diseases they give"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 209-210" ;
+    skos:definition "Rasakarpuram or white mercury, if not prepared in the prescribed manner, gives rise to leprosy, gout and excess of phlegm, and is therefore to be prepared and taken very carefully; the ailments from it are removed by the watery portion of the stool of a she-buffalo taken with water, or by dhanya with sugar candy. Rasasindura prepared out of impure mercury gives rise to all the evil effects of unpurified mercury, and these are remedied by clarified butter with powdered black pepper for seven days."@en ;
+    skos:note "Named product, named fault in the making, named disease, named antidote, and in the second case a term of seven days. This is the transmission at its most exact about its own harms, and it is worth putting beside the lifespans of a lakh and a crore of years in the same chapter: the promise is unbounded and the damage is dated."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaKarpuraRasa ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaKarpuraRasaPhala a pm:Yielding ;
+    rdfs:label "Karpura-rasa soll Syphilis mit Komplikationen heilen und die Kraft für hundert Frauen geben"@de,
+        "Karpura-rasa is claimed to cure syphilis with complications and to give the power of a hundred women"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 109-110" ;
+    skos:note "Taken with cloves, sandal, musk and saffron it brings about a quick cure of syphilis with complications, increases appetite and semen, imparts nutrition and strength; one who takes the medicine at regular intervals acquires the ability to enjoy a hundred women. A kindred white preparation, sudhanidhi-rasa, is said to cause purgation within six hours if taken in the morning with a quarter tola of powdered cloves, which is the shortest stated interval in the volume."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaKarpuraRasa ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaSarvarogahara .
+
+pmc:RasaKhecaratva a pm:Conceptualizing ;
+    rdfs:label "Das Vermögen, sich in der Luft zu bewegen"@de,
+        "The power of moving in the air"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. III, pp. 28 and 31-32, with the four colours at p. 34" ;
+    skos:definition "Mercury, if itself tied down, is said to give a human being the power of flying in the space like a bird; and both air and mercury, if bound and rendered incapable of movement, are said to render the body light enough to move in the atmosphere. Of the four colours of mercury the black is the one preferred for the attainment of this power."@en ;
+    skos:note "The one capacity in the volume for which the compiler adds a footnote of his own asserting present-day cases: the ability of expert yogis to walk upon the surface of water and to ascend the atmosphere is traditional in this country, and such miracles are reported to have been worked even in our own time. The footnote reports report and names nobody, and it is the compiler's and not the verse's."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaKshetrikaranaPurvakatva a pm:Presupposing ;
+    rdfs:label "Ohne die Vorbereitung des Körpers schadet das Mittel, und die Handlung führt zum Tod"@de,
+        "Without the preparation of the body the medicine harms, and the action leads to death"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 194 and 207" ;
+    skos:definition "The man who takes mercury without preparing the soil of his physical system in the aforesaid manner does not derive any benefit from the medicine, which rather proves harmful. Eleven pages later the same rule is stated at its sharpest: a man attains success in taking mercury if prior to his so doing he prepares his system by purgation, vomiting and the rest; otherwise, the action leads to death."@en ;
+    skos:note "The strongest necessity in the volume and the only one whose stated consequence is death. It is also the clause that makes every account of a failed course ambiguous in the transmission's favour: a user in whom nothing happened either did not prepare the field or did, and only he can say which."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "He derives no benefit from the medicine, which rather proves harmful; and the action leads to death."@en ;
+    pm:dependentStep pmp:RasaRasasevana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:RasaKshetrikarana ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaLohavedha a pm:Conceptualizing ;
+    rdfs:label "Die Verwandlung unedler Metalle in Gold und Silber"@de,
+        "The transformation of base metals into gold and silver"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V, pp. 234 and 237-238, and ch. VIII, pp. 321-337" ;
+    skos:definition "The eighteenth and last of the operations, and the one the transmission states in multiples: mercury prepared in the stated way turns a hundred, a thousand, a hundred thousand or ten million times its own weight of base metal into gold or silver, and at the highest grade does it by touch, by smoke, by sight or by sound."@en ;
+    skos:note "This is the claim of the volume that a stranger could test without taking anything, and the volume knows it. It distinguishes the metal that is really transformed from the metal that is only made to appear like gold, it gives the fineness of the product in sixteenths, and it instructs that transformed metal be kept buried in the earth for a fortnight before it is taken to market."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaMakaradhwajaKvinin a pm:Cautioning ;
+    rdfs:label "Die eigene Gegenanzeige des Verfassers: Makaradhwaja mit Chinin"@de,
+        "The compiler's own contraindication: makaradhwaja with quinine"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, footnote, p. 208" ;
+    skos:definition "A footnote in the compiler's own voice, attached to the rule that mercury is purged out of the body by sour, pungent and bitter things: the allopaths who have been using makaradhwaja should take note of this, since the administration of makaradhwaja and quinine at the same time is found to be not only abortive but pernicious."@en ;
+    skos:note "Entered separately from the cautions of the verse because it is an addition of the station and not of the transmission: it names a modern drug, it is addressed to practitioners of another system, and it stands in a footnote. Its form is that of a reported finding — is found to be — with no case, no series and no observer named. Where the volume's verses give a harm they at least give an antidote; this one gives neither."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaMakaradhwaja ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaMakaradhwajaPhala a pm:Yielding ;
+    rdfs:label "Makaradhwaja soll Alter und Tod verhüten und alle Fieber heilen"@de,
+        "Makaradhwaja is claimed to prevent old age and death and to cure all fevers"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, eleventh process, p. 116" ;
+    skos:note "If taken regularly it prevents premature old age and death and produces many effects with a suitable accompaniment; in particular it cures all sorts of fever, loss of appetite and aversion to food. This is the one preparation of the volume that the compiler says is in use outside the transmission, by the allopaths, and it is the one he attaches a contraindication to."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaMakaradhwaja ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaSarvarogahara .
+
+pmc:RasaMantraSuddhiUpakarana a pm:Presupposing ;
+    rdfs:label "Jedes Gerät wird durch den Spruch gereinigt, sonst werden die Kräfte fortgenommen"@de,
+        "Every vessel is purified by the hymn, or the potencies are taken away"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. I, equipments of the laboratory, pp. 15-16" ;
+    skos:definition "Crucibles, mud, husk, cotton, cowdung cakes, the three kinds of medicine, fuel, jars and bowls of glass, iron, mud and cowrie, the winnowing plate, the bamboo vessels and all the cutlery — these and all other articles necessary from the sweeping of the laboratory to the termination of a metallurgical operation are to be purified by the supreme mantram, otherwise Bhairavas might take away the inherent potencies of all these things. The hymn is to be chanted frequently all the time a mercurial operation is carried on."@en ;
+    skos:note "A necessity whose stated consequence falls on the equipment and not on the operator: the instruments keep their form and lose their power, and nothing at the bench would show it. That is the shape this holding elsewhere records as a condition placed beyond any observer, reached here through the furniture."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Bhairavas might take away the inherent potencies of all these things."@en ;
+    pm:dependentStep pmp:RasaShodhana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:RasaAghoraMantra ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaMatrahrasa a pm:Cautioning ;
+    rdfs:label "Der Verfasser kürzt eine alte Dosis für heutige Körper auf ein Viertel"@de,
+        "The compiler cuts an old dose to a quarter for present-day bodies"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. II, footnote, p. 19" ;
+    skos:definition "A footnote to the prescription of one tola of purified sulphur with ghee every morning for three weeks: this dose was prescribed more than five thousand years ago, and the present day human beings can stand only one fourth to half of the dose prescribed in those days."@en ;
+    skos:note "The station correcting the text it prints, and doing it by an argument that cannot be checked from either side: the men of five thousand years ago are not available and the dose that makes a present-day body ill is not reported. It is recorded here because it is the clearest case in the volume of a later hand altering a quantity, which is the kind of thing this holding counts when it asks whether a transmission is a copying chain or a working practice."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaKalinipatni ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaMrtasanjivaniPhala a pm:Yielding ;
+    rdfs:label "Die ein Jahr gehaltene Kugel soll einen Sterbenden zurückholen und den Körper waffenfest machen"@de,
+        "The ball held a year is claimed to restore a dying man and to make the body proof against weapons"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, p. 212" ;
+    skos:note "Held for one year inside the mouth it serves to restore a dying man to life and strength, to make the body so strong as to baffle the enemies' arms, and to cure senility. This is the only preparation in the volume that is not swallowed, and the only one whose course is stated as a year."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaMrtasanjivaniGutika ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaVajradeha .
+
+pmc:RasaParpatiPhala a pm:Yielding ;
+    rdfs:label "Parpati soll alle Krankheiten heilen, und die der Kinder vor allem"@de,
+        "Parpati is claimed to cure all diseases, and children's above all"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, p. 113, and ch. VII, p. 313" ;
+    skos:note "May be used in all sorts of diseases with a suitable accompaniment; the chapter on solidification adds that the same preparation, there called pota or parpati, is the curer of all diseases, especially of children."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaParpati ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaSarvarogahara .
+
+pmc:RasaPathyapathya a pm:Cautioning ;
+    rdfs:label "Kost und Lebensführung dessen, der Quecksilber nimmt"@de,
+        "The diet and conduct of one who takes mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, dietary regulations, pp. 198-205, with the two clauses at pp. 208-209" ;
+    skos:definition "Salutary: mudga juice, milk, ghee, sali rice, punarnava, rock salt, long pepper, musta, lotus root, wheat, barley, jangala meat juice, a daily bath in comfortable water. Injurious: mustard oil on the body, kanji, oil, alcohol, curd, sour and pungent and bitter and saline things, garlic, onion, radish, pulses, brinjal, mushrooms, rubbing of the limbs, late hours, sleeping by day, warm food, ice water, grief, a current of air, exposure to the sun, anger, meditation, and the showing of courage. Two further lists give the forbidden foods whose names begin with the letter K, and a third names camphor, the four spices, the trikatu, nutmeg and betel nut as things that counteract the medicine."@en ;
+    skos:note "Some sixty prohibitions, of which several are states of mind and one is meditation. A course hedged this way cannot come out against the medicine: any user in whom nothing happened has certainly broken one of them, and the transmission says in the same section that mercury loses its potency by an excess of sour and salty things and that abstinence from food destroys the appetite so that the mercury is not absorbed, which is the failure of the cure assigned to the diet twice over."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaRasasevana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaRasasinduraPhala a pm:Yielding ;
+    rdfs:label "Rasasindura soll jede Krankheit heilen und Alter und Tod verhüten"@de,
+        "Rasasindura is claimed to cure every disease and to prevent old age and death"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, sixth process, p. 104" ;
+    skos:note "Can be used with the suitable accompaniment in all sorts of diseases; it prevents premature old age and death. Dose three ratis a day. The dose and the promise stand in consecutive sentences, which is the pattern of every preparation in this chapter."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaRasasindura ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaSarvarogahara .
+
+pmc:RasaSaptakancuka a pm:Cautioning ;
+    rdfs:label "Sieben Hüllen aus dem Boden, in dem das Quecksilber lag, jede mit ihrer eigenen Schädigung"@de,
+        "Seven coverings from the ground mercury lay in, each with its own injury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, blemishes of mercury due to its environment, pp. 35-38" ;
+    skos:definition "Mercury acquires three kinds of blemish from contact with soil, rock and water, called its seven coverings: parpati, causing roughness of the skin; patali, causing ruptures in the flesh; bhedi, causing holes in the body; dravi, causing decomposition of the body; malakari, causing an increase of the three humours; andhakari, causing blindness; and dhwankhshi, causing darkness of the skin. The blemish from contact with soil gives inertness and that from water a derangement of air, heightened by the first two natural blemishes."@en ;
+    skos:note "Seven more named injuries, each tied to a named covering, and the summary sentence of the section states the position of the whole transmission on its own material: purified, mercury becomes nectar itself, whereas in its impure condition it is no better than poison. The transmission thus holds both halves of the case against it and answers the second with the first operation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaShodhana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaSarvangasundaraPhala a pm:Yielding ;
+    rdfs:label "Sarbangasundara-rasa soll alle Krankheiten heilen und Schönheit, Reichtum und Kinder geben"@de,
+        "Sarbangasundara-rasa is claimed to cure all diseases and to give beauty, riches and children"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, eighth process, p. 111" ;
+    skos:note "It increases appetite and cures all sorts of diseases; it prevents the arrival of premature old age and gives rise to riches and happiness; it gives enthusiasm, beauty and children. Riches stand in the same list as the cure of disease and are not marked off from it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaSarvangasundara ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaSarvarogahara .
+
+pmc:RasaSiddhiPurusagunayatta a pm:Conceptualizing ;
+    rdfs:label "Die Operationen sollen bei Männern eines bestimmten Charakters unfehlbar gelingen"@de,
+        "The operations are said to succeed invariably for men of a certain character"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. I, p. 16, and ch. II, pp. 24-25" ;
+    skos:definition "Invariably successful are the metallurgical operations carried on by those who are pure in body and mind, are truthful, believers in God, learned, and full of optimism. Mercurial operations prove successful by the grace of God if carried on by those who are persevering, instructed by preceptors, patronised by kings, who avoid the following of too many pursuits, who regard mercury as the greatest of all earthly objects, who are rich, who are encouraged by the public, and who are efficient in the knowledge of doses, apparatus and heating. And: if the preceptor is pleased Śiva is pleased, if Śiva is pleased mercury is pleased, and if mercury is pleased all metallurgical operations become undoubtedly successful."@en ;
+    skos:note "Three statements of the same shape at three places, and together they make every failed operation a statement about the operator: he was not pure, or not optimistic, or not rich, or his preceptor was not pleased. None of the conditions can be established except after the fact and by the person himself. This is the standard immunising clause, and what makes its presence here worth a node is that the same volume also states conditions of the other kind — the burnt palm read before the work, the weight taken with a balance after it — so the transmission is not incapable of a checkable criterion and uses both."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaSuddharasalaksana a pm:Conceptualizing ;
+    rdfs:label "Das Aussehen gereinigten Quecksilbers"@de,
+        "The look of purified mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, appearance of purified mercury, p. 38" ;
+    skos:definition "The mercury which is deep blue inside and as bright as the mid-day sun outside is to be considered commendable, on account of its having been duly purified; whereas that which is smoky, yellowish and multi-coloured is not to be made use of in the preparation of medicines unless it is properly purified again."@en ;
+    skos:note "An assay of the material with two named outcomes and a rule for the failing one, and it decides whether the first of the eighteen operations has been done. Nothing in it is deferred and nothing excuses a negative result; the failing material is simply put through the operation again."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaSvarnakaranaNisedha a pm:Cautioning ;
+    rdfs:label "Die Goldherstellung ist gewöhnlich verboten"@de,
+        "The making of gold is ordinarily forbidden"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. VIII, footnote, p. 337, with the preface, p. xiii" ;
+    skos:definition "Preparation of gold is ordinarily prohibited; it is only for the bare subsistence of life that one may have recourse to it. The rule stands as the compiler's footnote in the middle of the chapter that gives sixteen processes for making gold and silver, and is stated again in the preface of the ascetic chemists who prepare from time to time only as much real gold as is actually necessary for bare subsistence."@en ;
+    skos:note "A prohibition on the use and not on the operation, and it is the one restriction in the volume that would limit how often the transmission's most checkable claim gets made in public. Whether that is its purpose is not stated and is not inferred here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:RasaVedhana ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaSvarnasinduraPhala a pm:Yielding ;
+    rdfs:label "Swarna-sindura soll das Alter verhüten und Kraft, Gedächtnis und Verdauung mehren"@de,
+        "Swarna-sindura is claimed to prevent old age and to increase strength, memory and digestion"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, twelfth process, p. 116" ;
+    skos:note "It prevents premature old age and is a destroyer of diseases; it is nutritious and increases strength, retentive faculties, power of digestion, beauty and sexual power. The dose is the only one in the chapter adjusted to the person rather than stated as a weight."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaSvarnasindura ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara .
+
+pmc:RasaTalakaPhala a pm:Yielding ;
+    rdfs:label "Rasa-talaka soll achtzehn Arten von Aussatz und den Star heilen"@de,
+        "Rasa-talaka is claimed to cure eighteen kinds of leprosy and cataract"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, tenth process, p. 114" ;
+    skos:note "It cures fever, increases appetite and the retention of semen, cures eighteen different kinds of leprosy and cataract, serves as a tonic, increases longevity and the retentive faculties, and prevents premature old age. The count of eighteen kinds of leprosy is the transmission's own classification and belongs to the medical literature it shares with the Ayurvedic corpus."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaTalaka ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaSarvarogahara .
+
+pmc:RasaVajrapanjaraPhala a pm:Yielding ;
+    rdfs:label "Bajra-panjara soll die retten, die von Krankheit, Alter und drohendem Tod überwältigt sind"@de,
+        "Bajra-panjara is claimed to save those overwhelmed with disease, senility and impending death"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, pp. 190-191" ;
+    skos:note "This medicine, called bajra panjara, is a saviour of people overwhelmed with diseases, senility and impending death. The preparation immediately following it, panchamrita, made of pyrites, magnetic iron, mica, pearls and diamond rubbed a week with gold-swallowed mercury, is said to be more efficacious than this one if taken with honey and ghee."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:RasaVajrapanjara ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra ;
+    pm:yieldsCapacity pmc:RasaAjaraAmara,
+        pmc:RasaVajradeha .
+
+pmc:RasaVedhakrama a pm:Conceptualizing ;
+    rdfs:label "Fünf Stufen der Verwandlung, gezählt im Gewicht des Samens"@de,
+        "Five grades of transformation, counted in the weight of the seed"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V, pp. 234 and 241-242" ;
+    skos:definition "Mercury exhausted with an equal quantity of gold or silver becomes śatabedhi and transforms a hundred times its weight of base metal; with double, sahasrabedhi, a thousand times; with four times, lakṣabedhi, a hundred thousand times; with eight times, koṭibedhi, ten million times; with sixteen or thirty-two times its weight it becomes sparśamaṇi, the philosopher's stone, and transforms any metal by mere touch. Exhausted with sixty-four times its weight it is said to transform by its smoke, its touch, its sight and its sound."@en ;
+    skos:note "The scale runs from a claim a workshop could weigh out in an afternoon to one that needs no contact at all, and the two ends are given in the same list and in the same grammar. The first grade is the examinable one: a hundred times the weight of the prepared mercury, in a metal whose fineness the same chapter states in sixteenths."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmc:RecitationExactnessExamination a pm:Testing ;
     rdfs:label "Prüfprotokoll zur Genauigkeitsregel"@de,
         "Protocol on the exactness rule"@en ;
@@ -14453,6 +14926,196 @@ pmp:QuimbyExperimentumMentale a pm:Practicing ;
     pm:readVia "The editor's connecting narrative in Horatio W. Dresser (ed.), The Quimby Manuscripts, 2nd ed. (New York 1921), which summarises the mesmeric years from the papers, the journal and the notices rather than printing them at the place" ;
     pm:withinTradition pmt:NewThought .
 
+pmp:RasaAnuvasana a pm:Practicing ;
+    rdfs:label "Wiederherstellung des Quecksilbers"@de,
+        "Rehabilitation of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, anubasanam, pp. 71-73" ;
+    skos:altLabel "anubasanam"@en ;
+    skos:definition "The ninth operation. Stimulated mercury is mixed with lime juice and exposed to the sun for a day in an earthen or stone pot, or boiled with sour asava or with the juices of a named list of some fifty herbs called the rasamulika. The stated purpose is the intensifying of its potency."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaBhasmikarana a pm:Practicing ;
+    rdfs:label "Veraschung des Quecksilbers"@de,
+        "Incineration of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, bhasmikaranam, pp. 155-175" ;
+    skos:altLabel "bhasmikaranam"@en ;
+    skos:definition "The sixteenth operation, given in twenty-five processes, some following on killing and some expressly without it. Dead mercury is burnt by putapaka after rubbing with named oils, or heated forty-eight hours between two basins packed with the five muds, or sealed in a ball of sulphur and boiled seven days. The products are described by colour — white as camphor, red as the morning sun, like an emerald, like smelted silver."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaDiksha a pm:Practicing ;
+    rdfs:label "Die Einweihung des Schülers"@de,
+        "The initiation of the disciple"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. I, pp. 6-7, and ch. II, initiation of disciple, pp. 17-20" ;
+    skos:definition "At a moment when the moon stands with a benefic star and both are strong, a water jar containing gold, gems and fruits is set before the mercurial phallus and covered; the image is worshipped, a fire is made in a triangular pit and given oil, ghee, milk-rice and lotuses with the two hymns; the disciple is then called, bathed, sprinkled with the water of the jar, and the science of controlling mercury is imparted to him. He pays a fee according to his ability and then recites each hymn a hundred thousand times."@en ;
+    skos:note "The qualifications are stated on both sides beforehand — the preceptor wise, courageous, a worshipper of Śiva, master of his senses and fond of disciples; the disciple modest, truthful, persevering, retentive and devoted — and the transmission adds that the science is not to be taught to those who are not disciples, to atheists, or to the dishonest."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaMardana a pm:Practicing ;
+    rdfs:label "Reiben des Quecksilbers"@de,
+        "Rubbing of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, mardanam, pp. 53-56" ;
+    skos:altLabel "mardanam"@en ;
+    skos:definition "The third operation. Mercury is rubbed three days with soot, brick powder, white cumin, burnt ram's fur, molasses and rock salt, each at a sixteenth of its weight and each with kanji, then washed in hot kanji after every rubbing. The stated purpose is the removal of dirt, and the text adds an observable: in the course of being rubbed this way mercury assumes a clearer appearance at every rubbing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaMulagranthaSearch a pm:Searching ;
+    rdfs:label "Ob der Band die Werke nennt, aus denen er kompiliert"@de,
+        "Whether the volume names the works it compiles"@en ;
+    dcterms:date "2026-09-25" ;
+    skos:note "Limits. The Sanskrit verses were not read, and it is conceivable that a verse names its own provenance where the English does not. The four later volumes were not searched; volume V is reported to carry an introduction with a list of authors, and a run that opens it should put this question again."@en,
+        "No verse in the volume is attributed to any work. The titles that do occur are all in the preface, where they are named as ancient books assigned to Rāma and Rāvaṇa or as works of which only names survive, and four of the five occurrences of Rasendra are the word as a synonym of mercury. What the body of the volume does instead is print the phrase according to another version some thirty times, and once say that the expert chemists use an ingredient although it is not mentioned in the original text — an acknowledgement that there is an original text, without naming it."@en,
+        "This is a search whose empty result is a working instruction and not a lament. Because the volume attributes nothing, no node in traditions/rasashastra.ttl may cite the Rasārṇava or the Rasaratnasamuccaya, and none does; the three classical works stand there as unopened work identifiers. Somebody has done the identification — Meulenbeld's History of Indian Medical Literature sets the borrowings against the chapters of the Rasaratnasamuccaya, the Rasārṇava and the Rasendracūḍāmaṇi — and that is secondary literature and a way to the works, never a source."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of the normalised English for: Rasarnava (0), Rasaratna (0), Rasahrdaya (0), Rasendra Chintamani (1), Rasa Chintamani (1), Rasendra (5), Rama rajiya (1), Arka Prakasha (2), authorities (3), according to another version (inspected throughout, some thirty occurrences), commentators (inspected), original text (1). Every hit read at its place; the section headings of chapters III to VIII inspected for attributions." ;
+    pm:searchedBy "prima-materia, 2026-09-25" ;
+    pm:searchedCorpus "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, complete, including the preface, the introduction, every footnote and the glossary" ;
+    pm:searchedFor "An attribution, anywhere in the volume, of any printed verse or passage to a named work: the Rasārṇava, the Rasaratnasamuccaya, the Rasahṛdayatantra, the Rasendracūḍāmaṇi, the Rasendracintāmaṇi or any other title. The question decides how every node taken from this volume may be cited, and it had to be settled before a single one was written." .
+
+pmp:RasaMurchana a pm:Practicing ;
+    rdfs:label "Die Ohnmacht des Quecksilbers"@de,
+        "The swooning of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, murchhanam, pp. 98-125" ;
+    skos:altLabel "murchhanam"@en ;
+    skos:definition "The eleventh operation, given in some twenty-three processes, of which the best is stated to be heating with six times the weight of sulphur. Mercury rubbed with sulphur gives up its subtleness, turns to a black dust and is then said to be in a state of swoon."@en ;
+    skos:note "The transmission gives the operation a definition by its effect and not by its procedure, and the definition is a clinical one: mercury is in a state of swoon when it succeeds in curing diseases without producing any after-effect. That makes the absence of an adverse effect the criterion of a preparatory step, which is as close as the volume comes to defining an operation by an observation on a patient."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaNisphalatvaSearch a pm:Searching ;
+    rdfs:label "Ob der Band sagt, was ein Anwender schließen soll, wenn nichts geschieht"@de,
+        "Whether the volume says what a user should conclude if nothing happens"@en ;
+    dcterms:date "2026-09-25" ;
+    skos:note "Limits. One volume, the compiler's English, and the search was for a statement about failure and not for an implicit one. Whether the later volumes state a stopping rule was not asked."@en,
+        "That is the shape of the whole apparatus around the course. Three hundred pages prescribe, sixty prohibitions hedge, ten signs announce a broken rule, three antidotes repair a mistake, and no sentence anywhere tells the user at what point to stop believing the medicine. The one place where a term and an outcome meet — cure within a week — is therefore the cheapest examination this file makes available, and it is available because the transmission stated a number, not because it invited the question."@en,
+        "To the first question the answer is yes and the terms are short: all diseases cured in a week by taruna baddha, the diseases of serious vices in three weeks by kumara baddha, purgation within six hours, sexual intoxication in three weeks, senility destroyed in six months, the ball held a year. To the second the answer is nothing at all. The three occurrences of failure are the compiler's word for a chemist's failure to understand the science, the failure to digest the mercury after a broken rule, and the failure of mercury to cure a disease in a man who has fasted — all three of them failures of the user or the reader, and none a case in which the medicine was given correctly and did not work."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of the normalised English for the first question: in a week (1), in three weeks (2), fortnight (2), within a month (0), for one month (inspected), in six hours (1), for three days (inspected), for six months (1), for one year (1). For the second: if it does not (0), in case it does not (0), fails (0), failure (3, all inspected), unsuccessful (0), does not cure (0), no benefit (1), does not work (0), abortive (1), proves harmful (1), remains uncured (0)." ;
+    pm:searchedBy "prima-materia, 2026-09-25" ;
+    pm:searchedCorpus "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV in full, pp. 176-220, with the classes of solidification at ch. VII pp. 311-318" ;
+    pm:searchedFor "Two questions, put separately. First, every place at which the volume states a term within which an effect of a preparation should appear. Second, whether it anywhere says what follows if the term passes and the effect does not come: a rule for stopping, a second attempt, a judgement that the medicine was wrong, or any statement at all about a course that did nothing." .
+
+pmp:RasaNiyamana a pm:Practicing ;
+    rdfs:label "Bändigung des Quecksilbers"@de,
+        "Restraint of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, niyamanam, pp. 65-69" ;
+    skos:altLabel "niyamanam"@en ;
+    skos:definition "The seventh operation, and the repair of the sixth. Confinement is said to make mercury gain in strength and thereby subtle; restraint removes the subtleness by rubbing three days with the decoction of gandhanakuli, tamarind bark, bitter karkoti, bhringaraja, lotus and kanaka dhustura, or by boiling in kanji, or by heating in crucibles cut from lumps of rock salt. The stated effect is stability."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaPatana a pm:Practicing ;
+    rdfs:label "Sublimation des Quecksilbers, aufwärts, abwärts und geneigt"@de,
+        "Sublimation of mercury, upward, downward and inclined"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, urdhvapatanam, adhahpatanam and tirjak patanam, pp. 57-63" ;
+    skos:altLabel "patanam"@en ;
+    skos:definition "The fifth operation, in three directions. Upward: mercury rubbed with copper and lime juice into a lump, heated under a water-filled upper vessel so that the metal collects on its convex side. Downward: the lump painted on the inner surface of an inverted upper vessel with fire above and water below, so that the mercury falls into the water. Inclined: the lump placed in a vessel with a bent tube through which the mercury passes into water."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaRanjana a pm:Practicing ;
+    rdfs:label "Färbung des Quecksilbers"@de,
+        "Dyeing of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V, ranjanam and sankramanam, pp. 221-235" ;
+    skos:altLabel "ranjanam"@en ;
+    skos:definition "The seventeenth operation. Exhausted mercury is put in a long crucible with the red oil and heated over cowdung cakes, twice or three times over; the dyeing is stated to be what prepares it for the eighteenth operation, and wax, honey, tallow, blood, borax, earthworm, incinerated lead and oil are named as the things that impart the power of transformation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaRodhana a pm:Practicing ;
+    rdfs:label "Einschließen des Quecksilbers"@de,
+        "Confinement of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, rodhanam, pp. 63-65" ;
+    skos:altLabel "rodhanam"@en ;
+    skos:definition "The sixth operation. Mercury is put into a glass bottle or a coconut shell under a decoction of bala and riddhi or a solution of rock salt and buried three days in a hole a yard deep. The stated purpose is exact and is a repair: mercury acquires impotency by being sublimated, and confinement frees it from that impotency."@en ;
+    skos:note "The sixth operation exists to undo a damage the fifth is stated to do. A transmission that builds a repair step into its own series is saying, in the order of the steps, that its earlier step has a cost; that is worth holding beside the places where it says nothing can go wrong."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaSancharana a pm:Practicing ;
+    rdfs:label "Die Bewegung des Quecksilbers"@de,
+        "The movement of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, movement of mercury, p. 129" ;
+    skos:altLabel "sancharanam"@en ;
+    skos:definition "The twelfth operation, and the shortest in the volume. Mercury already able to swallow metals, rubbed in a hot mortar with mica, gold and iron at a triti each in sour juice or old kanji, moves like an earthworm."@en ;
+    skos:note "An operation whose whole content is an observable: the material is said to be seen to move. It is one of the few places where the volume states a perceptible outcome and attaches no condition and no excuse to it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaSvedana a pm:Practicing ;
+    rdfs:label "Kochen des Quecksilbers"@de,
+        "Boiling of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, swedanam, pp. 50-53" ;
+    skos:altLabel "svedanam"@en ;
+    skos:definition "The second operation. Mercury bound in a four-folded cloth is boiled a day or three days in kanji with the trikatu, the triphala, chitraka roots, rock salt, rye and kanya, in a dola jantram. Four processes are given; the stated purpose is the removal of the remnants of the blemishes that purification left."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaUtthapana a pm:Practicing ;
+    rdfs:label "Erheben des Quecksilbers"@de,
+        "Raising of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, utthapanam, pp. 56-57" ;
+    skos:altLabel "utthapanam"@en ;
+    skos:definition "The fourth operation. Mercury is rubbed with a quarter of its weight of powdered turmeric and the juice of kanya and sublimated in a patana jantram; in the second process it is rubbed in the sun with lime juice and dried, and whatever cannot be collected is recovered by sublimation in a damaru or vidyadhara apparatus."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaVedhaPariksaSearch a pm:Searching ;
+    rdfs:label "Ob die Verwandlungsbehauptung irgendwo einer öffentlichen Probe unterworfen wird"@de,
+        "Whether the transmutation claim is anywhere put to a public test"@en ;
+    dcterms:date "2026-09-25" ;
+    skos:note "Limits. Sixteen processes for making gold and silver were read in chapter VIII and none was carried out. Whether any of them would yield a metal a goldsmith would call gold is an examination this holding has not opened, and the materials — orpiment, realgar, arsenic — make it one that would need a laboratory and not a reading."@en,
+        "The one invitation in the volume is to the reader and is about the other claim: let my readers perform faithfully the operations described in the present volume, and then form their own judgment as to the truth of the statement — the statement being that mercury swallows gold without gaining weight. That sentence is the reason pmc:RasaGrasanaParyaptiPariksa is held as the most examinable node in this file. For the transmutation itself no test is offered, no assay is reported and no goldsmith appears."@en,
+        "Three places and they pull in different directions. The chapter on the making of gold states the fineness of its products in sixteenths and in carats, which is the language of an assay and is the one measure in the volume a buyer could dispute. The single occurrence of market is the instruction that base metals transformed into gold should be kept buried in the earth for a fortnight before they are taken out for sale, which delays the encounter with a buyer and gives no reason. And the preface has the compiler saying that the transformation was demonstrated to him by his preceptor and that he is confident he could carry it out if he were given a laboratory and the opportunity, which is a claim about a demonstration he witnessed and not one he offers."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of the normalised English for: goldsmith (1), market (1), assay (0), touchstone (0), witness (0), carat (2), parts fine (8), sixteenth (inspected), buried (inspected), sale (1), sell (0), demonstrated (1), form their own judgment (1)." ;
+    pm:searchYieldedNode pmc:RasaHemabhasaVibheda ;
+    pm:searchedBy "prima-materia, 2026-09-25" ;
+    pm:searchedCorpus "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V pp. 221-249 and ch. VIII pp. 321-350, read continuously, with the preface" ;
+    pm:searchedFor "Whether the volume, which claims that prepared mercury turns a hundred to ten million times its weight of base metal into gold, anywhere submits that claim to somebody outside the transmission: an assay, a goldsmith, a sale, a witness, a weighed demonstration, a stated fineness that a buyer could dispute." .
+
+pmp:RasaVrttantaSearch a pm:Searching ;
+    rdfs:label "Ob der Band einen Fall berichtet, in dem jemand eines seiner Präparate genommen hat"@de,
+        "Whether the volume reports a case of anybody who took one of its preparations"@en ;
+    dcterms:date "2026-09-25" ;
+    skos:note "In three hundred and fifty pages of instruction there is not one case. Every hit for case of in the instructional text is the phrase in another sense — in case of fever, a case of swallowing, in case of constipation — and the four occurrences of observed are all the word in the sense of a rule being observed. The two occurrences of observation and the two of experiment are the same sentence of the preface, and it is the sentence that denies both: this is not a collection of experiential truths or inductive generalizations based on observation and experiment."@en,
+        "Limits. One volume of five. Volumes II to V treat sulphur, mica, the metals and the gems, and whether a case is reported there was not asked. The Sanskrit verses printed above each English passage were not read and nothing here is a statement about them."@en,
+        "The cases are all in the back matter, and the search is entered as having found a place because of them. Some ten signed statements of cure stand after the glossary, with names, offices, addresses and dates. They name the practitioner and not the preparation: only one of them names a medicine at all, none states a dose, and every one is written by the person cured or by a relative. The division is the finding — three hundred pages of procedure with no outcome, and eight leaves of outcome with no procedure."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Whole-text search of the normalised English for: case of (11, every one inspected), instance (1), was cured (3), cured by (5, of which three are the word procured or an indication), patient of mine (0), my patient (0), I saw (0), I have seen (0), observed (4, all inspected), observation (2), experiment (2), experience (1), trial (1, and it is the word industrial), tested (0), no effect (2). All hits read at their places, and in addition the closing sections of chapters III to VIII and the whole of the preface read continuously." ;
+    pm:searchYieldedNode pmc:RasaPramanapatra ;
+    pm:searchedBy "prima-materia, 2026-09-25" ;
+    pm:searchedCorpus "Bhudeb Mookerjee, Rasa-Jala-Nidhi or Ocean of Indian Chemistry and Alchemy, vol. I, Calcutta 1926, the compiler's English throughout, preface to closing advertisement, complete" ;
+    pm:searchedFor "A report, anywhere in the volume, of a named or unnamed person who took one of these preparations or underwent one of these operations, with a stated outcome: a case, an observation, a trial, a comparison, a failure. The volume prescribes some fifty preparations with doses in ratis and mashas and states cure-times in weeks, so the question is whether anything behind the prescriptions was written down." .
+
+pmp:RasaVyapattiVrttantaSearch a pm:Searching ;
+    rdfs:label "Ob der Band einen Fall des Schadens berichtet, den sein eigenes Material nach seiner Aussage anrichtet"@de,
+        "Whether the volume reports a case of the harm it says its own material does"@en ;
+    dcterms:date "2026-09-25" ;
+    skos:note "Limits. The absence of a reported case in a handbook is weak evidence about a practice and strong evidence about a genre. The compiler's clinical papers, if he wrote any, and the case literature of the college he directed are not this work; the testimonials at the back of this volume report cures and no harm at all, which is what an advertisement does."@en,
+        "Sixteen occurrences of death and not one of them an event. Fourteen are the promise — the conqueror of death, freedom from senility and death, a killer of diseases and death — and two are the threat: the action leads to death where the body was not prepared, and hatha bandha gives rise to death or a very serious disease. The three occurrences of died are a physician who died fifty years ago and twice the word remedied. The one death in the volume that happened to anybody is the death of a Kaviraja who had no faith in metallic medicines."@en,
+        "This is the exhibited gap, and it is the more striking half of the reading. A transmission that lists eight faults of mercury against eight diseases, in a fixed order and one to one, has made a claim that a single case would sharpen or break; it writes three antidote regimens with terms of three and seven days, which is what a practitioner writes who has seen the condition; and it reports no patient. The knowledge that the material harms is held as doctrine at exactly the same distance from a case as the knowledge that it cures."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of the normalised English for: died (3), death (16, every one inspected), fatal (0), poisoned (0), autopsy (0), was killed (0 in this sense), accident (0), injured (0), suffered from (inspected), and the names of the eight ailments of the blemish list — carbuncle, leprosy, swoon, inflammation, loss of vigour, inertness, eruptions — read at every occurrence." ;
+    pm:searchedBy "prima-materia, 2026-09-25" ;
+    pm:searchedCorpus "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, complete, with the toxicological passages at ch. IV pp. 35-38, 134, 196, 206-210 and ch. VII pp. 311-314 read continuously" ;
+    pm:searchedFor "A report of an actual injury or death from one of these preparations: somebody who took impure mercury and got one of the eight diseases named for it, somebody who took the mercury solidified without purification that is said to cause death or serious disease, somebody who took mercury without preparing the body and died as the volume says he will. The registration of this transmission named its double examinability, the promised outcome and the toxicity of the means, and the second half turns on whether the stated harms were ever seen or only taught." .
+
 pmp:RefusalGroundExamination a pm:Testing ;
     rdfs:label "Ob eine Zurückweisung des Kalenders auf einem Fall oder auf einem Zustand des Übenden ruht, oder auf keinem von beiden"@de,
         "Whether a refusal of the calendar rests on a case or on a state of the practitioner, or on neither"@en ;
@@ -15579,15 +16242,6 @@ pmt:Raelism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Vorilhon, Le livre qui dit la vérité; Vorilhon, Les extra-terrestres m'ont emmené sur leur planète" .
-
-pmt:Rasashastra a pm:Tradition ;
-    rdfs:label "Rasaśāstra"@de,
-        "Rasaśāstra"@en ;
-    skos:definition "The Indian alchemical transmission of mercurial preparations held to make the body proof against decay, with named substances, processes and durations."@en ;
-    skos:note "Among the most testable claims available anywhere in the corpus, and testable in two directions at once: the promised outcome and the toxicity of the means."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
 
 pmt:Reiki a pm:Tradition ;
     rdfs:label "Reiki"@de,
@@ -18589,6 +19243,26 @@ pmc:QizhiYouxiao a pm:Conceptualizing ;
         "What the passage does not supply is a way of reading the vessel that two examiners would read alike. The criterion is hardness under the finger, which is why this is entered as a sign the tradition names and not as a procedure the graph can use."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
+pmc:RasaHemabhasaVibheda a pm:Conceptualizing ;
+    rdfs:label "Gemachtes Gold und Metall, das nur wie Gold aussehen gemacht wird"@de,
+        "Gold that is made, and metal that is only made to look like gold"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V, pp. 238 and 247, with ch. VIII, pp. 321-337" ;
+    skos:definition "Mercury exhausted with a quarter of its weight of the amalgam and without any gold or silver can make base metals appear like gold, but cannot transform them into real gold. The chapter on the making of gold states the fineness of each product in sixteenths — ten sixteenths, twelve carats, fourteen sixteenths — and says what must be added to bring it to purity."@en ;
+    skos:note "Beside it stands the instruction that base metals transformed into gold by mercury should be kept buried in the earth for a fortnight before they are taken out for sale in the market. The volume gives no reason for the delay and none is supplied here."@en,
+        "The transmission drawing the distinction that its critics would draw, inside its own instructions, and then stating its results in a measure any goldsmith of its time could check. A claim reported in sixteenths of fineness is a claim about an assay, and this is the sharpest example in the volume of an outcome stated in a quantity somebody outside the transmission could dispute."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmc:RasaPramanapatra a pm:Conceptualizing ;
+    rdfs:label "Die am Ende des Bandes abgedruckten Zeugnisse"@de,
+        "The testimonials printed at the end of the volume"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, the unnumbered advertisement leaves following the glossary" ;
+    skos:definition "The volume closes with some ten signed statements of cure, each with the writer's name, office and address and most with a date: a magistrate whose blood pressure was found normal after fifteen days of treatment, two professors of Lucknow University, a company secretary whose father's five-year blood pressure yielded in two months, a cashier whose granddaughter's three-year fever and cough were cured, two brothers cured of malignant typhoid, a relative cured of kala-azar with an enlarged spleen, a man cured of rheumatic pain culminating in almost complete paralysis, and a chronic asthma of twenty-five years cured by a named preparation. The compiler's own note is appended to one of them, and the section ends: it is needless to produce more proofs of the unprecedented success with which we have been curing all sorts of diseases; no disease is incurable with us."@en ;
+    skos:note "The arrangement — an operative handbook that states no case in three hundred pages and prints signed testimonials in its back matter — is the one this holding already records from the printed household charm-books of Europe, at examinations/hohman-testimonials.ttl. Two printed handbooks from two centuries and two continents with the same division of labour between the text and its advertisement is worth the comparison, and the comparison is not made here."@en,
+        "The cases the body of the volume does not contain are all here, and they are of a different kind: none of them names a preparation of the eighteen operations except one, none states what was taken or in what dose, and every one is written by the person cured or by a relative. They report the practitioner and not the procedure. That is why they stand in a node of their own and are not counted among the claims of the transmission."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmc:RetentionOfTheDescendingNectar a pm:Conceptualizing ;
     rdfs:label "Das Zurückhalten des herabfließenden Nektars"@de,
         "The retention of the descending nectar"@en ;
@@ -21066,6 +21740,141 @@ pmp:QuimbyExhibitioPublica a pm:Practicing ;
     pm:readVia "The editor's connecting narrative in Horatio W. Dresser (ed.), The Quimby Manuscripts, 2nd ed. (New York 1921), which summarises the mesmeric years from the papers, the journal and the notices rather than printing them at the place" ;
     pm:withinTradition pmt:NewThought .
 
+pmp:RasaAghoraMantra a pm:Practicing ;
+    rdfs:label "Das Rezitieren der Aghora- und Rasankusi-Hymnen"@de,
+        "The chanting of the Aghora and Rasankusi hymns"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. I, the rasalingam, pp. 10-11, and ch. IV, p. 41" ;
+    skos:definition "The two hymns that accompany every operation. Every mercurial operation and the worship of mercury are to be performed with the Aghora mantram; the disciple recites each of the two a hundred thousand times at his initiation; the goddess addressed by the second is said to be the sovereign force behind mercury and to be equal to it, which is given as the reason it is worth while to learn how to control mercury."@en ;
+    skos:note "The volume prints the Sanskrit of the hymn in a footnote and says expressly that no translation is attempted. What a later reader can check is therefore the instruction and not the words."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaDipana a pm:Practicing ;
+    rdfs:label "Anregung des Quecksilbers"@de,
+        "Stimulation of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, dipanam, pp. 69-71" ;
+    skos:altLabel "dipanam"@en ;
+    skos:definition "The eighth operation. Mercury is kept in an earthen vessel and heated three days with metals, stones and vegetables — green vitriol, five salts, rye, pepper, drumstick seed, borax and kanji. The stated purpose is to make mercury fit for swallowing metals; the vocabulary throughout is appetite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaGarbhadruti a pm:Practicing ;
+    rdfs:label "Innere Verflüssigung des Quecksilbers"@de,
+        "Internal liquefaction of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, garbhadruti, pp. 129-131" ;
+    skos:altLabel "garbhadruti"@en ;
+    skos:definition "The thirteenth operation, defined against the tenth by an observation: when metals thrown upon mercury disappear altogether it is swallowing, and when they turn into liquids without any heat being applied it is internal liquefaction. It is effected with half the weight of the essence of mica and half of the essence of pyrites, or with gold or silver first rubbed with pyrites and sour juices."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaKalinipatni a pm:Practicing ;
+    rdfs:label "Die Kalini-Gattin, und die mit Schwefel vorbereitete Vertretung"@de,
+        "The kalini wife, and the substitute prepared with sulphur"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. II, a kalini wife, pp. 18-19" ;
+    skos:definition "The operator is to have a wife of a described kind, whose body is warm in winter and cold in summer and who begins her menstruation while the moon is on the wane; she is said to be capable of success in mercurial operations, efficient in preparing mercurial compounds, in applying mercury to patients, and in preparing the medicines against premature old age. Where such a wife is not available, any beautiful lady may serve the purpose if she takes every morning for three weeks one tola of purified sulphur mixed with clarified butter."@en ;
+    skos:note "The description is a list of bodily marks, and the substitution rule turns the whole of it into something a course of sulphur can supply in three weeks. A transmission that states a qualification and then states its price is easier to examine than one that does not, and this is the second place in the volume where the operator is selected by marks on the body; the first is the chemist chosen by the lines of his palm."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaKshetrikarana a pm:Practicing ;
+    rdfs:label "Die Vorbereitung des Bodens, einen Monat bevor Quecksilber genommen wird"@de,
+        "The preparation of the soil, one month before mercury is taken"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, preparations for taking mercury, pp. 192-194" ;
+    skos:altLabel "kshetrikaranam"@en ;
+    skos:definition "For one month before he begins to take mercury the user is purged and made to vomit, then, his strength recovered, takes every morning long pepper, chebulic myrobalan, dried ginger, rock salt and chitraka root in tepid water to maintain the power of digestion, and every night for that month incinerated mica and magnetic iron with long pepper, myrobalan, honey and ghee. The body is soothed with ghee and rock salt every third day, purged, made to vomit with the juice of bacha, freed of worms with palasa seed and bidanga in molasses, and strengthened afterwards with sali rice and meat juice. The transmission calls this the preparation of the soil, and the body the field that receives the seed of mercury."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaMarana a pm:Practicing ;
+    rdfs:label "Tötung des Quecksilbers"@de,
+        "Killing of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, maranam, pp. 141-155" ;
+    skos:altLabel "maranam"@en ;
+    skos:definition "The fifteenth operation. Exhausted mercury is rubbed with the herbs called controllers of mercury, enclosed in a crucible painted inside with their paste, and heated by mild fire for a day, or eight times over in a bhudhara jantram with fresh rubbing each time, or solidified with sulphur oil and heated twelve hours under alternately melting and setting lead."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaMrtasanjivaniGutika a pm:Practicing ;
+    rdfs:label "Mrita-sanjivani-gutika, die im Mund gehaltene Kugel"@de,
+        "Mrita-sanjivani-gutika, the ball held in the mouth"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, mrita-sanjivani-gutika, pp. 211-212" ;
+    skos:definition "Magnetic iron, mica, pyrites, diamond, gold and incinerated mercury rubbed a week with kanji and made into a ball, coated with a paste of gojihva, kakamachi, myrobalan, nirgundi, honey and rock salt, and heated in the bhudhara apparatus over khadira wood in a crucible painted inside with barley, tamarind, the ash of palasa wood, bibhitaki, rye, cotton seed and tanduliyaka, alum and white glass being added from time to time; the ball is dry in fifteen days. It is then held for one year inside the mouth."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaParpati a pm:Practicing ;
+    rdfs:label "Parpati-rasa, das auf das Blatt gegossene schwarze Quecksilber"@de,
+        "Parpati-rasa, the black mercury poured on the leaf"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, another preparation of black mercury, p. 113" ;
+    skos:definition "One pala of dried sulphur melted over a mild fire in an iron or copper pot, three palas of mercury stirred into it with an iron ladle; when the two are commingled the mass is poured on a banana leaf laid over fresh cowdung and pressed lightly with a second leaf, and the black mercury is used when cool and solid."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaRasasindura a pm:Practicing ;
+    rdfs:label "Rasasindura, die rote Verbindung"@de,
+        "Rasasindura, the red compound"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, second and sixth processes of murchhanam, pp. 100 and 104" ;
+    skos:definition "One part of mercury, three of sulphur and an eighth part of incinerated lead rubbed to a black mixture, put into a glass flask stopped with chalk and lime, plastered with rags and mud and heated in the sand apparatus for three days over a gradually increasing fire. In the principal process mercury is rubbed with six times its weight of sulphur and heated until the surplus sulphur is burnt out and the compound takes the appearance of red vermilion, which is stated to be noticeable from outside the flask."@en ;
+    skos:note "The colour seen through the glass is a second assay of the kind this file separates out: an endpoint the operator watches for rather than a time he waits out."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaSarvangasundara a pm:Practicing ;
+    rdfs:label "Sarbangasundara-rasa, das gelbe Quecksilber"@de,
+        "Sarbangasundara-rasa, the yellow mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, eighth process, p. 111" ;
+    skos:definition "Equal quantities of mercury and sulphur rubbed steadily for seven days with the juice of hastishundi or bhudhatri, the compound put in a crucible in the sand apparatus and held at a mild heat for twenty-four hours until the mercury turns yellow. Dose one gunja with a betel leaf."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaSvarnasindura a pm:Practicing ;
+    rdfs:label "Swarna-sindura, das Goldrot"@de,
+        "Swarna-sindura, the gold red"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, twelfth process, p. 116" ;
+    skos:definition "One pala of mercury, one of sulphur and an eighth of a pala of gold reduced to ashes, rubbed three hours each with the juice of the aerial roots of the banyan and with the juice of kanya, then heated in a glass flask in the sand apparatus; the red powder is collected from the upper part of the flask and prescribed according to the constitution, the power of digestion and the age."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaTalaka a pm:Practicing ;
+    rdfs:label "Rasa-talaka, Quecksilber mit Auripigment"@de,
+        "Rasa-talaka, mercury with orpiment"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, tenth process, p. 114" ;
+    skos:definition "Mercury, sulphur, orpiment and red arsenic in equal quantities rubbed together, put into a glass flask and heated twelve hours in the sand apparatus; the product is yellow."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaVajrapanjara a pm:Practicing ;
+    rdfs:label "Bajra-panjara-rasa, der Diamantkäfig"@de,
+        "Bajra-panjara-rasa, the diamond cage"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, bajrapanjara rasa, p. 190" ;
+    skos:definition "Incinerated diamond and an equal quantity of killed mercury rubbed with the juice of hansapadi and burnt by putapaka, the ash rubbed again with the same quantity of killed mercury and burnt again, the product rubbed with kanji and used to coat four times its weight of gold leaf, which is then killed in the usual manner. Taken with chitraka root, ginger, rock salt, bacha and suvarchala at half a rajika a day, raised gradually to one masha, the whole course amounting to one pala."@en ;
+    skos:note "The one preparation of the volume with a stated total quantity for the whole course. A course with an end is a course that could be seen to have finished without result, which is what makes the total worth entering."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaVedhana a pm:Practicing ;
+    rdfs:label "Die Verwandlung der unedlen Metalle"@de,
+        "The transformation of base metals"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. V, bedhanam and the six kinds, pp. 236 and 247-248" ;
+    skos:altLabel "bedhanam"@en ;
+    skos:definition "The eighteenth and last operation. Mercury is dyed and exhausted and dyed and exhausted again, seven times over, and is then said to be competent to turn base metals into gold. Six modes are distinguished by how the prepared mercury reaches the metal: by painting, by casting into the melt, by holding in a forceps, by smoke, by a sound blown through the mouth, and by touch."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmp:RubbingBoardConsultation a pm:Practicing ;
     rdfs:label "Die Befragung des Reibbrettorakels"@de,
         "Consulting the rubbing-board oracle"@en ;
@@ -21468,6 +22277,21 @@ pmw:Qolasta a dcterms:BibliographicResource ;
     rdfs:label "Qolastā, das kanonische Gebetbuch"@de,
         "Qolastā, the canonical prayerbook"@en ;
     skos:note "Opened on 2026-09-20 in the English of E. S. Drower of 1959, the edition that numbers the prayers from one to four hundred and fourteen. It was opened for one question and searched over the whole: whether the liturgical book itself anywhere states that a performance is void or is to be repeated. It does not. See pmp:MandaeanQolastaIrritumSearch."@en .
+
+pmw:Rasahrdayatantra a dcterms:BibliographicResource ;
+    rdfs:label "Rasahṛdayatantra"@de,
+        "Rasahṛdayatantra"@en ;
+    skos:note "Named by the registration and unopened. Same state as the Rasārṇava: the Sanskrit is in print, no complete translation into a western language exists. The attribution of its author Govinda to the teacher of Śaṅkara is rejected in the philological literature, so a run that opens it should not take the registration's naming as a dating."@en .
+
+pmw:Rasaratnasamuccaya a dcterms:BibliographicResource ;
+    rdfs:label "Rasaratnasamuccaya"@de,
+        "Rasaratnasamuccaya"@en ;
+    skos:note "Named by the registration and unopened. Its first eleven chapters exist in English in modern editions that are not open access; chapters twelve to thirty, the whole iatrochemical part, have never been translated. The ascription to the Vāgbhaṭa of the Aṣṭāṅgahṛdaya is rejected in the philological literature and the dating runs between the thirteenth and the sixteenth century, so the name in the registration is a title and not an author."@en .
+
+pmw:Rasarnava a dcterms:BibliographicResource ;
+    rdfs:label "Rasārṇava"@de,
+        "Rasārṇava"@en ;
+    skos:note "Named by the registration as a principal work of the corpus and unopened. The Sanskrit is in print and reachable — the Bibliotheca Indica edition of Ray and Kaviratna, Calcutta 1910 — and no complete translation into any western language exists, which is a property of the work and not of the run: what has been translated is its first chapter and scattered verses in the histories."@en .
 
 pmw:ScotDiscoverieOfWitchcraft a dcterms:BibliographicResource ;
     rdfs:label "Reginald Scot, The Discoverie of Witchcraft"@de,
@@ -22152,6 +22976,15 @@ pmc:QuimbyCulpaOperantis a pm:Conceptualizing ;
     pm:readVia "The editor's connecting narrative in Horatio W. Dresser (ed.), The Quimby Manuscripts, 2nd ed. (New York 1921), which summarises the mesmeric years from the papers, the journal and the notices rather than printing them at the place" ;
     pm:withinTradition pmt:NewThought .
 
+pmc:RasaVajradeha a pm:Conceptualizing ;
+    rdfs:label "Ein Körper, so hart wie Stahl gemacht"@de,
+        "A body made as hard as steel"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. III, pp. 31-32, and ch. IV, mrita-sanjivani-gutika, p. 212" ;
+    skos:definition "The bodily condition claimed of mercury that has passed the eighteen operations: the frame made hard, firm and unbreakable, proof against the weapons of enemies in the strongest statement of it, and held to be the condition without which concentration and therefore knowledge cannot be had."@en ;
+    skos:note "The transmission argues for this one rather than asserting it. Emancipation depends on knowledge, knowledge on concentration of mind, concentration on a firm physique, and a firm physique cannot be had from any vegetable elixir because a vegetable drug is itself unstable and combustible. That chain is the ground on which mercury is put above the rest of the pharmacopoeia, and it is an argument from the properties of the material to the properties of the body."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmc:Sariel a pm:Naming ;
     rdfs:label "Sariel"@de,
         "Sariel"@en ;
@@ -22744,6 +23577,35 @@ pmp:PdmShenHne a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:PapyrusLondonLeiden ;
     pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmp:RasaJarana a pm:Practicing ;
+    rdfs:label "Erschöpfung des Quecksilbers"@de,
+        "Exhaustion of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, jaranam, pp. 132-141" ;
+    skos:altLabel "jaranam"@en ;
+    skos:definition "The fourteenth operation, and the one the volume treats at most length. The essence of mica and steel ash, each a sixty-fourth of the weight of the mercury, are worked in little by little in a hot mortar; the mercury is then wrapped in a painted birch leaf, boiled in kanji, dried, mixed with an eighth of its weight of bida and heated in a kachchapa jantram. It is repeated with a larger morsel and a stronger fire at each turn."@en ;
+    skos:note "The operation carries two checkable clauses. Its success is judged by weight and by fire — properly swallowed, the mercury retains its original quantity and can stand the heat of fire — and it names materials that must not be used in it, with the harm they do."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaKarpuraRasa a pm:Practicing ;
+    rdfs:label "Karpura-rasa, das kampferweiße Quecksilber"@de,
+        "Karpura-rasa, the camphor-white mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, seventh process, pp. 108-109" ;
+    skos:definition "Purified mercury rubbed twelve hours with equal quantities of red ochre, brick, chalk, alum, rock salt, the mud raised by white ants, kshari salt and potter's clay, all finely powdered and sifted; the whole put in a pot covered by a second, the joint closed seven times with rags and mud, dried, and kept on a fire burning ninety-six hours at a stretch. The camphor-white compound is collected from the upper pot."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaMakaradhwaja a pm:Practicing ;
+    rdfs:label "Makaradhwaja, die Goldzubereitung"@de,
+        "Makaradhwaja, the gold preparation"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, eleventh process, pp. 115-116" ;
+    skos:definition "One pala of gold purified and reduced to ash, eight palas of mercury and sixteen palas of sulphur rubbed with the juice of kanya into a black powder, dried, put into a glass flask and heated three days in the sand apparatus; the pollen-like red dust is taken when the apparatus is completely cool. Dose one jaba with a betel leaf."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
 
 pmp:ShangqingAnmo a pm:Practicing ;
     rdfs:label "Die Reibeordnung"@de,
@@ -23382,6 +24244,17 @@ pmp:NorseHangaAVindgaMeidi a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NorseSeidr .
 
+pmp:RasaGrasana a pm:Practicing ;
+    rdfs:label "Das Verschlucken der Metalle durch das Quecksilber"@de,
+        "The swallowing of metals by mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, grasanam, pp. 75-98" ;
+    skos:altLabel "grasanam"@en ;
+    skos:definition "The tenth operation, given in fifteen processes and with as many recipes for the bida, the reagent that is said to open the mouth of the mercury. Sulphur is swallowed first, then mica, then gold, and last lead, brass, iron, copper and zinc, each reduced to ashes and each equal in weight to the mercury; gold leaf smeared with peacock's bile is rubbed into the mercury a sixty-fourth at a time and the whole is then boiled three days in salted kanji."@en ;
+    skos:note "The operation carries the volume's central claim and its one measurable test: after the gold has been swallowed the mercury is to weigh what it weighed before, and if it weighs more it is boiled again until it does. See pmc:RasaGrasanaParyaptiPariksa."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmp:RunicDrumConsultation a pm:Practicing ;
     rdfs:label "Die Befragung der Trommel"@de,
         "Consulting the drum"@en ;
@@ -23906,6 +24779,26 @@ pmp:ImbasForosnai a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:InsularCeltic .
 
+pmp:RasaRasasevana a pm:Practicing ;
+    rdfs:label "Die Einnahme des Quecksilbers"@de,
+        "The taking of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, dose of incinerated mercury and special directions, pp. 194-198" ;
+    skos:definition "The course itself. Incinerated mercury exhausted with the essence of mica, with magnetic iron, with copper, brass or steel is taken at one gunja a day, raised gradually to one masha; exhausted with gold at one rati, with silver at two, with copper at three. It is taken in the morning, the meal following just after midday, with a betel leaf against the constipation it causes, and with the physician greeted as one greets the god."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
+pmp:RasaShodhana a pm:Practicing ;
+    rdfs:label "Reinigung des Quecksilbers"@de,
+        "Purification of mercury"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, the first to eleventh processes of purification, pp. 41-50" ;
+    skos:altLabel "shodhana"@en ;
+    skos:definition "The first operation. Mercury is sifted through cloth and rubbed in a hot mortar, one blemish at a time, with a substance named for that blemish — ram's fur, turmeric, brick powder, soot and lime juice against the lead blemish, the root of bisala and ankotha against the tin blemish, the kernel of aragbadha against foreign matter, chitraka root against the fire blemish, black dhustura against subtleness, the triphala against the poison, the trikatu against the stone blemish, the trikantaka against the inability to stand fire — each at a sixteenth of the weight of the mercury, with a washing in hot aranala after every rubbing. Eleven processes are given and any one of them is stated to suffice."@en ;
+    skos:note "The one-to-one correspondence is the structure of the whole operation: eight faults, eight drugs, each drug named against its own fault. A later reader should notice that the eleventh process, the extraction from cinnabar, removes all eight at once and is declared to exempt the product from the eight otherwise indispensable operations. The transmission thus carries both a remedy per fault and a shortcut past all of them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
+
 pmp:TungusShamanizing a pm:Practicing ;
     rdfs:label "Das Schamanisieren"@de,
         "Shamanizing"@en ;
@@ -23957,6 +24850,16 @@ pmc:ParakayaPravesa a pm:Conceptualizing ;
     dcterms:source "Patañjali, Yogasūtra III.38 (Sanskrit sūtra text; received four-pāda numbering)" ;
     skos:definition "The transfer of the seat of awareness into a body other than one's own."@en ;
     pm:withinTradition pmt:PatanjalaYoga .
+
+pmc:RasaSarvarogahara a pm:Conceptualizing ;
+    rdfs:label "Die Heilung jeder Krankheit, durch die für sie gewählte Beigabe"@de,
+        "The cure of every disease, by the accompaniment chosen for it"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, ch. IV, how incinerated mercury is to be used in all sorts of diseases, pp. 177-187" ;
+    skos:definition "The rule that governs some forty of the volume's prescriptions: the ashes of mercury cure every disease if taken with that particular anupanam or accompaniment which is efficacious in that disease, and the volume then runs through the accompaniments one complaint at a time — fever with the decoction of musta, cough with kantakari and long pepper, jaundice with liquorice, piles with elephant-foot yam burnt and mixed with oil and rock salt, and so on through some forty named conditions."@en ;
+    skos:note "Entered as one node and not as forty, and the departure is deliberate and is flagged here so that a later reader can contest it. What the passage varies is the accompaniment and never the preparation, and the claim it makes is a doctrine about accompaniments rather than forty recipes: the same substance is said to reach any disease provided the vehicle is chosen for it. The named preparations of the volume, which do carry their own materials and their own claims, stand below one by one."@en,
+        "The doctrine has a consequence the volume does not draw. If the accompaniment decides the indication, then a preparation that failed can always be said to have had the wrong accompaniment, and no course of the medicine can come out against the medicine. That is the same immunising shape this holding records elsewhere under the displacement of the failure, reached here by a pharmacological route."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
 
 pmc:Theopemptos a pm:Conceptualizing ;
     rdfs:label "Der gottgesandte Traum"@de,
@@ -24028,6 +24931,16 @@ pmw:Sanguozhi a dcterms:BibliographicResource ;
     rdfs:label "Chen Shou, Sanguozhi, mit dem Kommentar des Pei Songzhi"@de,
         "Chen Shou, Sanguozhi, with Pei Songzhi's commentary"@en ;
     skos:note "Read at juan 8, the biography of Zhang Lu, in the Wenyuange Siku quanshu text. It enters this corpus as the report of an outside observer and not as a witness the transmission would own: the chronicle calls the movement the rice bandits and its teaching the way of ghosts. Two layers are to be kept apart in it, and the citations do. Chen Shou's own text describes the practice; the Dianlüe quoted by Pei Songzhi describes it again and adds a judgement on whether it worked. The Dianlüe's description is besides of two movements at once, Zhang Jue's and Zhang Xiu's, and says of the second that its method was roughly the same as the first with the quiet chamber added."@en .
+
+pmc:RasaAjaraAmara a pm:Conceptualizing ;
+    rdfs:label "Freiheit von Alter und Tod"@de,
+        "Freedom from old age and from death"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi, vol. I, Calcutta 1926, introduction p. 3 and ch. III, the attributes of mercury, pp. 28-29" ;
+    skos:altLabel "ajara-amara"@en ;
+    skos:definition "The condition the transmission puts at the head of everything it promises: the arrival of premature old age prevented and death put off, the body kept from decay while the man goes on living in it. It is claimed of mercury in every one of its prepared forms and is the reason the science is said to have been introduced into India."@en ;
+    skos:note "The promise is stated in the same breath as the cure of disease and is not distinguished from it. That matters for any later examination: a preparation that relieves a complaint and a preparation that suspends ageing are claimed in one sentence and with the same words, so a user who found relief would have no way of telling which of the two he had obtained."@en ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:withinTradition pmt:Rasashastra .
 
 pm:TelicOrientation a owl:Class,
         pm:Scale ;
@@ -24558,12 +25471,6 @@ pm:Scale a owl:Class ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pm:counterSearchFoundOpposition a pm:CounterSearchState ;
     rdfs:label "Gegensuche mit Fund"@de,
         "Counter-search found opposition"@en ;
@@ -24605,6 +25512,12 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -24763,11 +25676,6 @@ pm:contactRouteDisputed a pm:ContactRoute ;
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmt:ChineseDivination a pm:Tradition ;
     rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
         "Chinese divinatory and siting transmission"@en ;
@@ -24831,6 +25739,11 @@ pmt:ArsNotoria a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:ArsNotoria ;
     pm:principalCorpus "Ars Notoria in the medieval recensions; Liber Juratus Honorii" .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
@@ -25091,11 +26004,6 @@ pm:firstPersonReport a pm:Attesting ;
         "First-person report"@en ;
     skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
         "Daoist tradition"@en ;
@@ -25135,6 +26043,11 @@ pm:fieldAttestation a pm:Attesting ;
         "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
         "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
         "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
@@ -25241,11 +26154,6 @@ pmt:Shangqing a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
@@ -25279,6 +26187,11 @@ pmt:EuropeanFolkMagic a pm:Tradition ;
         pmw:RomanusBuechlein ;
     pm:principalCorpus "The Merseburg charms; Lacnunga; Bald's Leechbook; the Old English Herbarium of pseudo-Apuleius; Romanusbüchlein; Sechstes und Siebtes Buch Mosis; Hohman, Der lange verborgene Freund" .
 
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+
 pmt:Jain a pm:Tradition ;
     rdfs:label "Jainistische Überlieferung"@de,
         "Jain transmission"@en ;
@@ -25299,10 +26212,35 @@ pm:placesEntered a pm:CoverageState ;
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
+pmt:Rasashastra a pm:Tradition ;
+    rdfs:label "Rasaśāstra"@de,
+        "Rasaśāstra"@en ;
+    dcterms:source "Bhudeb Mookerjee, Rasa-Jala-Nidhi or Ocean of Indian Chemistry and Alchemy, vol. I, Calcutta 1926, introduction, pp. 3-4" ;
+    skos:definition "The Indian alchemical transmission of mercurial preparations held to make the body proof against decay, with named substances, processes and durations."@en ;
+    skos:note "Among the most testable claims available anywhere in the corpus, and testable in two directions at once: the promised outcome and the toxicity of the means."@en,
+        "Read in this run at the wording, 2026-09-25: Bhudeb Mookerjee, Rasa-Jala-Nidhi or Ocean of Indian Chemistry and Alchemy, vol. I, Calcutta 1926, in the compiler's own English, read continuously from the preface through chapters I to VIII and the glossary to the closing advertisement. Not read: the Sanskrit verses the volume prints above each passage, which were not consulted and on which nothing here turns; and volumes II to V of the same work, which treat sulphur, mica, the metals and the gems. Not opened at all: the Rasārṇava, the Rasahṛdayatantra and the Rasaratnasamuccaya, which the registration named. They stand below as work identifiers and appear from now on in queries/unopened-works.rq, which is the state the question follows from and the reason no issue is written for it."@en,
+        "The compiler's own dating is inside the work and is not a dating in the sense this holding uses. The introduction puts the beginning of the present kalpa at about 1,600,000,000 years ago and the composition of the book in the year 5026 of the kali age; the preface assigns two works to Rāma of the Rāmāyaṇa and one to Rāvaṇa. It is entered here as a property of the witness so that no node below is read as carrying a date."@en,
+        "The contact route stays at documented and this reading did nothing to move it. The transmission shares its sphere and its vocabulary with the material this holding already carries from India, and the claim of an external route — that the oral ingestion of cinnabar came to India from China — is a claim of modern scholarship and not of this work, which derives its science from Śiva and dates it to the beginning of the present kalpa. A witness from here raises the count of files and not the count of independent witnesses."@en,
+        "What kind of witness this work is, and it is the first thing a reader of the nodes below needs. It is a compilation made in 1926 by a practising physician, principal of a college of Ayurveda in Calcutta, who says he learnt what is not in the books from an ascetic preceptor and arranged the rest out of the existing books, which he calls incomplete, incoherent, incorrect and in many cases misleading. It prints Sanskrit verse and its own English beside it and attributes no verse to any work. It is therefore a station of the transmission and not a text edition, and every node here is a claim of that station. Whether the same claim stands in a work of the eleventh or the sixteenth century is a question this file does not answer and does not pretend to."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:RasaJalaNidhi,
+        pmw:Rasahrdayatantra,
+        pmw:Rasaratnasamuccaya,
+        pmw:Rasarnava ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:RasaJalaNidhi ;
+    pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
+
 pm:corpusNamed a pm:CoverageState ;
     rdfs:label "Korpus benannt"@de,
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
+pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
+    rdfs:label "Rasa-Jala-Nidhi"@de,
+        "Rasa-Jala-Nidhi"@en ;
+    skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
+        "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
@@ -25405,13 +26343,6 @@ pmw:HarbaDeMoshe a dcterms:BibliographicResource ;
         "The edition has a critical apparatus in no sense of the word. Gaster prints one manuscript, records no variants, and nowhere states the grounds of his readings; at several points his own translation carries a question mark where he could not read the word. A critical Hebrew edition on a fuller manuscript exists — Yuval Harari, Jerusalem 1997 — and was not obtainable in this run. Where Gaster marks a word illegible the node below says so."@en,
         "Two defects of the copy read, both properties of the copy and not of the work. Its English part is a transcription rather than a scan of the print and replaces every mystical name with a bare X, which Gaster set in Hebrew letters inside the English sentence; and it carries no page numbers. A reader who needs pages needs the print: Gaster, Studies and Texts, vol. 1 (London: Maggs Bros., 1925-28), pp. 288-337, where the translation begins at p. 311."@en .
 
-pm:Cautioning a owl:Class ;
-    rdfs:label "Warnen"@de,
-        "Cautioning"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
-    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
-
 pmt:Hekhalot a pm:Tradition ;
     rdfs:label "Hekhalot- und Merkava-Literatur"@de,
         "Hekhalot and Merkavah literature"@en ;
@@ -25428,6 +26359,13 @@ pmt:Hekhalot a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:HekhalotRabbati ;
     pm:principalCorpus "Hekhalot Rabbati; Hekhalot Zutarti; the Sar Torah material; Maaseh Merkavah; Shiur Qomah; 3 Enoch; the Sword of Moses" .
+
+pm:Cautioning a owl:Class ;
+    rdfs:label "Warnen"@de,
+        "Cautioning"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act, within a tradition, of warning against a capacity, a practice, or the pursuit of either."@en ;
+    skos:note "Held as a node rather than as commentary, because what a tradition warns against is part of what it teaches. A record that carries only the capacities and not the cautions misreports the tradition it claims to hold."@en .
 
 pm:Tradition a owl:Class ;
     rdfs:label "Tradition"@de,
