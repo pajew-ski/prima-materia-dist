@@ -1454,6 +1454,16 @@ pmc:ApatheiaPresupposesAscesis a pm:Presupposing ;
     pm:priorStep pmc:Praktike ;
     pm:withinTradition pmt:DesertMonasticism .
 
+pmc:ApertioIsNotByEffort a pm:Situating ;
+    rdfs:label "Die Öffnung des Inneren liegt bei nicht-durch-Anstrengung"@de,
+        "The opening of the interiors is placed at not-by-effort"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 9438-9439 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. XI, pp. 359-360)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:notByEffort ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:situatedNode pmc:SwedenborgLoquelaCumSpiritibus ;
+    pm:situationGround "Every statement of the opening in the passages read is passive and has the same agent: the interiors of my spirit have been opened by the Lord; it has been granted me; to no one is it given unless he can be consociated. The corpus supplies no operation at all — the search stands at pmp:SwedenborgPraxisSearch — so there is nothing on the acquired side of this axis for it to be placed at. The coordinate is read off the grammar and off the absence, and both were checked."@en .
+
 pmc:AppearancesAreSelfArising a pm:Conceptualizing ;
     rdfs:label "Die Erscheinungen sind Selbst-Erscheinung"@de,
         "The appearances are self-arising"@en ;
@@ -4683,6 +4693,20 @@ pmc:GradedSpecialists a pm:Conceptualizing ;
         "The indigenous chronicler of sixteen fifteen names four classes with Quechua terms and the extirpation account of sixteen twenty-one names two of the same as its general terms. Two recorders of opposite standing therefore agree on the vocabulary while disagreeing about almost everything else, which is the strongest thing that can be said for this list."@en ;
     pm:withinTradition pmt:Andean .
 
+pmc:GradusSpiritualisNonAperiturPerIntellectum a pm:Presupposing ;
+    rdfs:label "Der höhere Grad wird nicht durch Verstehen geöffnet, sondern durch ein Leben nach den Geboten"@de,
+        "The higher degree is not opened by understanding but by a life according to the precepts"@en ;
+    dcterms:source "Swedenborg, Sapientia angelica de divino amore et de divina sapientia, n. 237, 248-249 (Angelic Wisdom concerning the Divine Love and the Divine Wisdom, trans. Swedenborg Society, London 1912, pp. 84-85, 89-90)" ;
+    skos:note "The direction of the prerequisite is the reverse of what a reader expects and is entered as the corpus states it: the opening of the degrees is the condition and the speech with angels is what it makes possible, so the dependent step here is the state and the prior step is the capacity only in the sense that the capacity is what the opening is for. Whoever wants the chain as the corpus argues it should read this node together with pmc:LoquelaPresupponitConsociationem."@en,
+        "What makes it worth a node is the exclusion. The corpus says twice in one paragraph that the second degree is not opened by knowledge and understanding, however far the natural degree is carried by them, and that even the truths of spiritual love do not open the third. A transmission that made study the condition would have named something a reader could acquire and a teacher could examine; this one names a love shown in conduct, and then says it is not felt."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:consequenceOfSkipping "Stated in the negative and with a named outcome: if the higher degree, which is the spiritual, is not opened with man, he becomes natural and sensual; such opening is effected by a spiritual life, which is a life according to the Divine precepts, and without a life according to these a man remains natural. Of the third of the three kinds of natural man, those who contemn and deny the precepts, the corpus says that after death they are in hell."@en ;
+    pm:dependentStep pmc:SwedenborgTresGradus ;
+    pm:fromWork pmw:DivinoAmoreEtSapientia ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:SwedenborgLoquelaCumSpiritibus ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pmc:GrandsCouransYieldRelief a pm:Yielding ;
     rdfs:label "Das Magnetisieren mit grossen Strömen bringt Erleichterung und Heilung hervor"@de,
         "Magnetizing by the long pass brings relief and cure"@en ;
@@ -7452,6 +7476,20 @@ pmc:LonnrotJarjestys a pm:Systematizing ;
     pm:compiledBy "Elias Lönnrot, in the preface to Suomen Kansan Muinaisia Loitsurunoja (Helsinki: SKS, 1880), reported and translated by John Abercromby in 1898" ;
     pm:withinTradition pmt:FinnicIncantation .
 
+pmc:LoquelaPresupponitConsociationem a pm:Presupposing ;
+    rdfs:label "Die Rede mit Engeln setzt eine Vergesellschaftung in Glauben und Liebe voraus"@de,
+        "Speech with angels presupposes a consociation in faith and love"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 9438 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. XI, pp. 359-360)" ;
+    skos:note "The consequence has a second edge that belongs to a holding of failure conditions. The same passage makes the conjunction the protection: a man who is not conjoined and whose interiors were nevertheless opened would be exposed to the attack of spirits who, as the caution says, desire nothing more vehemently than to destroy him. The corpus does not say that this happens, because it says the interiors of such a man cannot be opened at all — so the protection is guaranteed by the impossibility of the case in which it would be needed."@en,
+        "The necessity is stated and the condition is not establishable by the man it is stated of, which is the finding rather than the necessity. Faith and love are the two things this corpus elsewhere says are not felt in the natural degree, and the safety from evil spirits that the passage promises follows from the conjunction and not from anything the man does in the encounter. See pmc:SwedenborgNullumSignumInVita."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:consequenceOfSkipping "The corpus states the consequence twice in the same paragraph and in the strongest form it uses anywhere. To no one is it given to speak as a spirit and angel with angels and spirits unless he is of such a character that he can be consociated with them in respect to faith and love, and he cannot be so consociated unless he has faith in the Lord and love to the Lord; and when he has been conjoined with Him he is safe from the attack of evil spirits who are from hell. With others the interiors cannot be opened at all, because they are not in the Lord."@en ;
+    pm:dependentStep pmc:SwedenborgLoquelaCumSpiritibus ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:SwedenborgTresGradus ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pmc:LovePresupposesApatheia a pm:Presupposing ;
     rdfs:label "Liebe setzt Apatheia voraus, Erkenntnis die Liebe"@de,
         "Love presupposes apatheia, and knowledge presupposes love"@en ;
@@ -10208,6 +10246,16 @@ pmc:RedCollarOfTheSurvivedOrdeal a pm:Conceptualizing ;
     skos:note "A sign of success that is public, durable and worn, and the file holds it apart from the conditions of failure for the reason SPEC §15 gives: signs of success are announced in advance and are reported by the person to whom they were announced. Two cases are recorded by name and date, an elderly woman who visited the recorder wearing one, and Matueka on the fifth of January nineteen hundred, who explained each figure on his."@en ;
     pm:withinTradition pmt:KongoNkisi .
 
+pmc:RespiratioInternaIsCededAgency a pm:Situating ;
+    rdfs:label "Die innere Atmung liegt bei abgegebener Handlungsträgerschaft"@de,
+        "The internal respiration is placed at ceded agency"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 3884 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. V, pp. 237-238)" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:cededAgency ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:situatedNode pmc:SwedenborgRespiratioInterna ;
+    pm:situationGround "The source says that the operation led his respiration gently but from within, so that he had no need to draw breath or respire by any exertion of his will. Who acts is therefore stated in the passage and it is not the man; that is the criterion this coordinate names. The placement is of the respiration in that state and not of the man's ordinary breathing, which the same passage treats as the external respiration kept going by influx."@en .
+
 pmc:ReturnPresupposesTheSewingProhibition a pm:Presupposing ;
     rdfs:label "Das Wiederaufleben setzt die Einhaltung des Nähverbots voraus"@de,
         "The return after death presupposes that the prohibition was kept"@en ;
@@ -10232,6 +10280,21 @@ pmc:ReturnPresupposesUnbrokenSinging a pm:Presupposing ;
     pm:prerequisiteStrength pm:statedNecessity ;
     pm:priorStep pmp:NoaidiJourney ;
     pm:withinTradition pmt:SamiNoaidi .
+
+pmc:RevelatioImmediataDisputata a pm:Disputing ;
+    rdfs:label "Ob ein Mensch durch unmittelbare Offenbarung belehrt wird"@de,
+        "Whether a man is taught by immediate revelation"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 9439 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. XI, p. 360)",
+        "Swedenborg, Sapientia angelica de divino amore et de divina sapientia, n. 249 (Angelic Wisdom concerning the Divine Love and the Divine Wisdom, trans. Swedenborg Society, London 1912, p. 90)" ;
+    skos:definition "Two works of one author say incompatible things, and neither mentions the other. The work of 1763 says that every man is taught of the Divine precepts by others who know them from religion, and that he is not taught by immediate revelations, referring the reader to a third work for the demonstration. The work of 1749 to 1756 says that because in the church there is no faith in the life after death and scarcely any in heaven, therefore the interiors of the author's spirit have been opened by the Lord so that he might be with the angels in heaven while in the body, not only speak with them but see amazing things there and describe them, lest hereafter people should say: who has come to us from heaven and told us that it exists, and what is there?"@en ;
+    skos:note "One side of the dispute names a work that was not opened. The 1763 passage refers for its demonstration to the Doctrine of the New Jerusalem concerning the Sacred Scripture, numbers 114 to 118, and that work was not read in this run. Whoever presses this dispute should open it first; it is the place where the rule is argued rather than asserted."@en,
+        "The same pair of works carries the tension a second time and from the other side, which is why this is not a slip of wording. At Arcana 10751 appearances are said to be rare now lest they compel belief, because a compelled faith does not cleave; at Arcana 9439 the opening is justified precisely by the need for somebody to come and tell. The same consideration, the effect of evidence on faith, is made to carry the withholding in one place and the granting in the other."@en,
+        "The two are compatible only if the author's own case is an exception to the rule he states, and neither passage says so. The 1763 work states the rule without reservation and about every man; the earlier work gives the reason for the opening in exactly the terms the rule denies, that somebody had to come from heaven and tell. Entered as a dispute rather than as two notes because a reader cannot act on both."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:disputedClaim "That the Divine precepts reach a man by immediate revelation rather than through other men who know them from religion." ;
+    pm:fromWork pmw:ArcanaCoelestia,
+        pmw:DivinoAmoreEtSapientia ;
+    pm:withinTradition pmt:Swedenborgian .
 
 pmc:ReversedRuleForTheftAndAdultery a pm:Conceptualizing ;
     rdfs:label "Bei Diebstahl und Ehebruch gilt die umgekehrte Regel"@de,
@@ -11438,6 +11501,101 @@ pmc:SuperimpositionUnderliesEveryPath a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AdvaitaVedanta .
 
+pmc:SwedenborgCaelumClausum a pm:Conceptualizing ;
+    rdfs:label "Der Himmel ist seit der ältesten Kirche verschlossen, und er ist zum Schutz des Menschen verschlossen"@de,
+        "Heaven has been closed since the earliest church, and it is closed for the man's protection"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 784 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. I, pp. 358-359)" ;
+    skos:definition "Since the time of the most ancient church heaven has never been open as it was to its men, whose interiors were uncovered and opened from the Lord. Many afterwards spoke with spirits and angels, Moses and Aaron among them, but in an entirely different way. The reason heaven is now so closed that a man does not even know spirits are with him, and supposes himself alone when he is without company and thinking by himself, is that if it were not so closed to him while he is in no faith, still less in the truth of faith and still less in charity, it would be most perilous to him. He is nevertheless continually in the company of spirits who observe and perceive what he thinks and what he intends and devises, as fully and plainly as if it were manifest before all in the world, and of this he is ignorant."@en ;
+    skos:note "It supplies the epochal form of the rarity that pmc:SwedenborgColloquiumPericulosum states as a present fact. The reason offered is a change in men — no faith, no charity — and not a change in the operation or in the other party, so the corpus locates the difference between the ancients and the present in the recipients."@en,
+        "Two claims in one passage and they pull against each other, which is why both halves are in the definition. The closure is protective and complete; and the observation it was supposed to shut out continues unabated, without the man's knowledge, in every hour of his life. What the closure withdraws is his access to them and not theirs to him."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgColloquiumPericulosum a pm:Cautioning ;
+    rdfs:label "Die Rede mit Geistern wird jetzt selten gewährt, weil sie gefährlich ist"@de,
+        "Speech with spirits is rarely granted now because it is dangerous"@en ;
+    dcterms:source "Swedenborg, De caelo et inferno, n. 249 (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 114-115)" ;
+    skos:definition "The work that consists of reports of such speech says of the practice that it is at this day rarely granted, because it is dangerous: the spirits then know they are with a man, which otherwise they do not, and evil spirits regard a man with deadly hatred and desire nothing more vehemently than to destroy him both soul and body. They effect this with those who have indulged much in phantasies. Those who live solitary and hear spirits speak do so without danger only because the spirits present with them are removed at intervals by the Lord lest they should learn they are with a man, and for that reason the man is not allowed to speak back to them."@en ;
+    skos:note "A detail worth keeping because it inverts an expected sign. Of the enthusiastic spirits the passage says that they do not hurt the man with whom they communicate, because he pays them divine worship and honour. The absence of harm is therefore not a mark of a true communication in this corpus; it is the mark of a man who has submitted to a false one."@en,
+        "The same passage names a way in which a man brings the state on himself, and it is an anti-instruction. Those who think much on religious subjects and dwell upon them from themselves, not breaking the current of their thoughts with various useful occupations, have those thoughts penetrate interiorly, become fixed, occupy the whole spirit and act upon the spirits of that world; such persons are visionaries and enthusiasts, and believe every spirit they hear to be the Holy Spirit. So the one procedure the corpus describes for producing the experience is described in order to be avoided."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmc:SwedenborgLoquelaCumSpiritibus ;
+    pm:fromWork pmw:DeCaeloEtInferno ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgMemoriaAliena a pm:Conceptualizing ;
+    rdfs:label "Kein Geist darf aus seinem eigenen Gedächtnis sprechen, und ein Mensch könnte es nicht merken"@de,
+        "No spirit may speak from its own memory, and a man could not tell if one did"@en ;
+    dcterms:source "Swedenborg, De caelo et inferno, n. 246 (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 112-113)",
+        "Swedenborg, De caelo et inferno, n. 256 (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 116-117)" ;
+    skos:definition "It is not allowed any angel or spirit to speak with a man from his own memory, but only from the man's memory. The reason given is that spirits have memory as men do, and if a spirit were to speak with a man from its own memory the man would know no other than that the spirit's thoughts were his own; it would be like the seeming recollection of a thing which had never been heard or seen. The corpus explains the ancient doctrine of return into a former life this way: men occasionally had what seemed a recollection of things they had neither seen nor heard, and the appearance was produced by spirits whose influx proceeded from their own memory into the ideas of the man's thought. The reverse is reported too: an angel enters into all the man's memory so perfectly that he is almost led to suppose he knows of himself what the man knows, including the languages the man has learned."@en ;
+    skos:note "The one diagnostic it yields is a negative one and is the sharpest thing in the corpus of that kind: a seeming recollection of what was never heard or seen is to be read as a spirit's influx and not as memory. That is a named, recognisable experience with a stated cause, and it is the corpus's own explanation of a doctrine it rejects."@en,
+        "The passage states the very indistinguishability that makes every report from this corpus hard to weigh, and it states it as a rule of the other world rather than as a doubt about the reports. If a spirit speaking from its own memory would be taken by the man for his own thought, then the prohibition is the only thing separating the man's thinking from a foreign source, and the prohibition is not something he can verify."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:DeCaeloEtInferno ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgNullumSignumInVita a pm:Conceptualizing ;
+    rdfs:label "Kein Lebender weiß, ob die Grade in ihm geöffnet sind"@de,
+        "No living man knows whether the degrees have been opened in him"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 3884 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. V, p. 238)",
+        "Swedenborg, Sapientia angelica de divino amore et de divina sapientia, n. 238 (Angelic Wisdom concerning the Divine Love and the Divine Wisdom, trans. Swedenborg Society, London 1912, pp. 85-86)" ;
+    skos:definition "So long as a man lives in the world, the corpus says, he has no knowledge of the opening of these degrees within him. The reason given is structural and not a matter of degree: he is then in the natural degree, which is the ultimate, and from it he thinks, wills, speaks and acts; the spiritual degree does not communicate with the natural by continuity but by correspondences, and communication by correspondences is not sensibly felt. Which degree was opened appears when he puts off the natural degree, that is when he dies. The same withdrawal is made of the internal respiration, which is said to be internal and for that reason imperceptible to man."@en ;
+    skos:note "It does not follow that the corpus admits no experience. The author reports a great deal of his own, dated and circumstantial. What he denies is that any of it settles the question the doctrine makes decisive, and the one thing he does report of the respiration is that it is led without his will and cannot be perceived."@en,
+        "This is the configuration the file was written for. A transmission that describes a capacity at length and then states that its presence cannot be perceived by the person who has it has removed every sign a practitioner could report and every sign an observer could ask for, and it has done so in the operative doctrine rather than in an apology. The corpus is not silent about signs, which would be a different and weaker finding; it says in as many words that there are none to be had in life."@en,
+        "What was searched, because a statement of this kind is only worth what the search behind it is worth. The eight volumes read were searched for any sign, mark or perception by which a living man might know the opening, in the author's own vocabulary as well as in the obvious English; nothing came back but the negative statement itself. The search stands at pmp:SwedenborgSignumAperitionisSearch."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ArcanaCoelestia,
+        pmw:DivinoAmoreEtSapientia ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgObsessioInterior a pm:Conceptualizing ;
+    rdfs:label "Leibliche Besessenheit abgeschafft, innere Obsession häufiger als je, offener Verkehr selten gewährt"@de,
+        "Bodily possession abolished, interior obsession more numerous than ever, open converse rarely granted"@en ;
+    dcterms:source "Swedenborg, De caelo et inferno, n. 257 and its footnote (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 117-118)" ;
+    skos:definition "A threefold division the corpus draws in one paragraph and its footnote. Certain spirits called natural and corporeal do not conjoin themselves with a man's thought as other spirits do but enter his body, occupy all his senses, speak through his mouth and act by his members, knowing no other than that the body and faculties are theirs; these are the spirits by whom men were formerly possessed, and they were cast into hell by the Lord and altogether removed, so that there are no such possessions at this day. The footnote adds that external or bodily obsessions do not exist at this day as formerly, but that internal obsessions, which are of the mind, are more numerous than formerly; a man is obsessed interiorly when he has filthy and scandalous thoughts concerning God and his neighbour and is withheld from publishing them only by external bonds, the fear of losing reputation, honour or gain, the dread of the law and the loss of life."@en ;
+    skos:note "Entered because the division decides what could ever be observed. The kind with a public sign is declared extinct; the kind declared more common than ever is identified by the content of a man's thoughts and by the fact that only fear stops him uttering them, which nobody can establish about anybody; and the third kind, the open converse, is the subject of this file and is said to be rarely granted. So of the three states the corpus distinguishes, exactly one had a mark a bystander could read, and that one is the one it says no longer occurs."@en,
+        "The Arcana numbers the footnote cites for the second and third kinds — 1983, 2752, 4793 and 5990 — were not opened. What is entered here is the footnote's own statement, read at the wording in the copy named, and not those passages."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:DeCaeloEtInferno ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgProbatioSpiritus a pm:Conceptualizing ;
+    rdfs:label "Die Probe eines Geistes: den heiligen Namen verweigern und beobachten, was er tut"@de,
+        "The test of a spirit: refuse the holy name and watch what it does"@en ;
+    dcterms:source "Swedenborg, Diarium spirituale, n. 1366-1369 (The Spiritual Diary, trans. Bush and Smithson, vol. I, London 1883, pp. 429-430)" ;
+    skos:definition "The one criterion in the reading that is carried out rather than stated. Every man sensibly acted upon by a spirit, and especially when the spirit speaks with him, thinks it is the Holy Spirit; all enthusiasts imagine this, whereas they are unclean spirits whom they then call the Holy Spirit and adore and worship, and such spirits love this and thus think themselves really to be the Holy Spirit. But the spirits who belong to the Lord, those in the heavens, are not willing to be called holy and do not call themselves the Holy Spirit, since the Lord alone is their holiness; therefore no holy spirit, by which angels or spirits are understood, is to be worshipped, still less adored. And then the trial: unclean and evil spirits were and are much incensed that he would not acknowledge them as the Holy Spirit, and were so angry as to threaten to punish him."@en ;
+    skos:note "The criterion is the refusal and the reaction to it, which makes it the only thing in this corpus that has the shape of a test: an act with two possible outcomes, one of which the operator does not control. What it does not have is the shape of an instruction — it is reported of himself in a private journal, not prescribed to anybody, and the entries are dated 14 March 1748."@en,
+        "The failure of the test is reported in the same entry and is the reason this node is worth more than the criterion. At first they threatened him so much that, before he knew how the case was, they greatly terrified him; afterwards, when he was instructed, he declared it boldly before the whole heaven. So the protection is knowledge held in advance of the encounter and not a capacity exercised within it, and the corpus records one occasion on which the knowledge was not yet there and the trial went the other way."@en,
+        "The neighbouring criteria in this work stand in the lost portion and are index headings and not paragraphs, which is stated at pmw:DiariumSpirituale and is repeated here because these are the ones a later reader will want: that spirits put on the person of him whom a man adores and say they are the same, and especially wish to be called the Holy Spirit; that spirits put on the knowledges and memory of man and suppose them their own, but flow into his ideas only through his affections; that each spirit lives in his own cupidity and is not able to appropriate a man's cupidities to himself; and that dreams induced by angels are altogether different, beautiful, delightful, instructive, predictive. Numbers 3, 4, 6 and 8, all restored from the author's own Index Diarii."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:DiariumSpirituale ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgProfanatioPostFidem a pm:Cautioning ;
+    rdfs:label "Eine Beglaubigung, die gelingt und dann verleugnet wird, ist Entheiligung, und Entheiliger kommen in die tiefste Hölle"@de,
+        "A demonstration that succeeds and is then denied is profanation, and profaners go to the lowest hell"@en ;
+    dcterms:source "Swedenborg, De caelo et inferno, n. 456 (Heaven and Hell, trans. Swedenborg Society, London 1885, p. 239)" ;
+    skos:definition "Asked from heaven why the state after death is not plainly revealed by visible appearances, the answer given is that such revelations could easily be made, but that those who have confirmed themselves in falses would not believe even the evidence of their senses, and that such demonstrations of the truth are dangerous to them, because they would first believe and afterwards deny it, and thus profane the truth itself. To believe the truth and afterwards deny it is profanation, and those who profane truths are thrust down into the lowest and most grievous of all the hells."@en ;
+    skos:note "This is the strongest caution in the reading and it is a caution against the success of the thing. The danger is not that the demonstration fails; it is that it works and is then withdrawn from, and the penalty for that is the worst the corpus has. A transmission that attaches its heaviest penalty to a successful demonstration followed by disbelief has made the demonstration something no enquirer should want."@en,
+        "Two things the passage grounds differently, and the difference is why this node and pmc:SwedenborgSignaNonCoguntFidem are separate. Here the refusal is grounded on a property of the persons asking — they have confirmed themselves in falses and would deny afterwards. At Arcana 10751 the refusal of the same thing is grounded on a property of the belief a sign produces, and that is a claim about the capacity and not about the asker."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmc:SwedenborgLoquelaCumSpiritibus ;
+    pm:fromWork pmw:DeCaeloEtInferno ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgRespiratioProtegens a pm:Conceptualizing ;
+    rdfs:label "Die himmlische Atmung tritt im Augenblick des Angriffs als Schutz ein"@de,
+        "The heavenly respiration arrives as a protection at the moment of the attack"@en ;
+    dcterms:source "Swedenborg, Diarium spirituale, n. 458 (The Spiritual Diary, trans. Bush and Smithson, vol. I, London 1883, pp. 157-158)" ;
+    skos:definition "A dated entry under the heading that in the heaven of spirits a conspiracy was formed to suffocate him. Being about to sleep he was told that certain spirits were conspiring against him with the intention of killing him, and because he was secure he cared nothing about it and fell asleep. About the middle of the night he awoke and felt that he did not breathe from himself but, as he believed, from heaven, which he manifestly perceived, so that the respiration was not his. It was then told him that the entire heaven of spirits had conspired against him with the intention of suffocating him, and immediately as they were about to carry out their attempt a heavenly respiration existed in him, and thus they were obliged to desist."@en ;
+    skos:note "Entered beside pmc:SwedenborgRespiratioInterna because it settles what the internal respiration is in this corpus and it is not a faculty. It arrives, unasked and unpractised, at the moment of an attack, and it is the thing that ends the attack. A reader who takes the breathing for something the man had cultivated has to account for its being reported as an intervention."@en,
+        "The entry is dated and falls in the surviving portion of the work, so it is the author's paragraph and not an index heading. The editorial caution about this translation, at pmw:DiariumSpirituale, still applies to its wording."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:DiariumSpirituale ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pmc:TapuBreachSign a pm:Testing ;
     rdfs:label "Die verletzte Kopfhaut als Anzeichen des gebrochenen Fastens"@de,
         "The cut scalp as the sign that the fast was broken"@en ;
@@ -11708,22 +11866,6 @@ pmc:TheSpecialistIsPaid a pm:Conceptualizing ;
     skos:note "Entered because payment is one of the gates this project counts, and because it stands beside the other one: the same chapter says the practice is hidden from outsiders. A transmission can be closed by price and by secrecy at once, and the two are not the same gate."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:NahuaRitual .
-
-pmc:TheTestOfAPersonIsRefused a pm:Generalizing ;
-    rdfs:label "Wo das Vermögen in einer Person liegt, ist seine absichtliche Prüfung verboten"@de,
-        "Where the capacity is in a person, the deliberate test of it is forbidden"@en ;
-    skos:note "Falsified by a transmission claiming a capacity of a person whose earliest witness invites an outsider to test it, states what a negative outcome would be, and treats such an outcome as telling against the capacity rather than against the conditions of the trial. The nineteenth-century literature on both sides of the magnetic dispute is where such a case would most likely be found, and it has not been opened in this holding."@en,
-        "It is not the claim at pmc:TestingTheProcedureVoidsItsAnswer and the difference is the antecedent. That one is about transmissions that obtain an answer from a procedure — a cast, a consultation — and says the repeated or testing question is excluded. This one is about transmissions whose claim is a capacity of a named person, where there is no procedure a stranger could work and therefore nothing to repeat. A transmission can satisfy either without the other, and the spiritist manual happens to satisfy both, in two different chapters and for two different reasons."@en,
-        "Not yet examined, and the queue of SPEC §16 is where this belongs. No pm:Testing points at it."@en,
-        "The counter-search was run against this holding before the statement was written, and it found one case that bounds it. Among the Sámi material, when two practitioners wished to know which of them excelled the other in the art, they painted two reindeer striking each other on a drum and he whose reindeer had the victory was the better. That is a deliberate trial of a capacity located in a person, with a criterion, an outcome that could fall either way and no party controlling it — and it is prescribed rather than forbidden. What distinguishes it from the three witnesses is who proposes the test: there it is the practitioners themselves and the loser remains a practitioner, whereas the rule in all three witnesses answers an enquirer or an onlooker who wants to be convinced. The last sentence of the statement carries that boundary, and a second case of the same shape would strengthen the statement rather than break it."@en,
-        "The three witnesses say it in three idioms and the ground is a property of the thing claimed in each. The magnetic manual makes it a general rule from which the operator is never to depart, never on any account to permit any attempt to prove the somnambulist's lucidity, and derives the prohibition in the same chapter from the prerequisite that lucidity requires an undivided attention: the reason the faculty cannot be tested is the reason it is said to work. The spiritist manual states that superior spirits have no sign by which to be recognised other than the superiority of their ideas, that every spirit can imitate a material sign and that the names of saints are taken freely, so that neither a sign nor a name is proof. The Pali discourse distinguishes three marvels, of psychic power, of mind-reading and of instruction, holds only the third to be reliable, and refuses the display of power for the sake of persuading anyone as something to be ashamed of."@en,
-        "Two of the three witnesses have a documented route between them: the spiritist manual of 1861 comes out of the magnetic milieu of the preceding century and its author knew that literature. They are therefore not two independent witnesses, and no independence is claimed here — a generalization asserts a recurring form and not a count of witnesses. The Pali discourse is unconnected to both, and it is the witness that decides whether the form is older than the nineteenth century."@en,
-        "What the statement costs the claims it is about is worth saying plainly, because it is the reason to hold it. A rule of this shape makes every negative result attributable to the testing, and one of the three witnesses states that consequence itself: where an incredulous person consults in order to put the somnambulist to the proof, he is said to exert, without knowing it, an influence that furnishes him with new reasons for his incredulity. That is a prediction that a failed test confirms the claim, and it is the point at which a transmission stops being examinable from outside."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:CautionAgainstProvingTheLucidity,
-        pmc:DisplayOfPowersRefused,
-        pmc:SigneMaterielCaution ;
-    pm:generalizedStatement "Where a transmission locates a claimed capacity in a person rather than in a procedure that anyone could work, it states a rule withdrawing that person from a deliberate test, and it grounds the rule in a property of the capacity or of the party exercised through it — that the undivided attention it requires is destroyed by the testing, that the party addressed withdraws from a question put as a test, that no material sign it could produce would settle anything — and not in the unworthiness of whoever proposes the test. The rule governs a test proposed by an enquirer or an onlooker. Where a transmission instead has two practitioners measure their capacities against one another, it fixes a criterion and does not forbid the trial."@en .
 
 pmc:TheTestOnTheIngredientExamination a pm:Testing ;
     rdfs:label "Pruefprotokoll dazu, wohin das Handbuch die Probe legt, die es durchfallen kann"@de,
@@ -16635,6 +16777,32 @@ pmp:StrongerAddressExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-23" ;
     pm:tests pmc:TheStrongerAddress .
 
+pmp:SwedenborgPraxisSearch a pm:Searching ;
+    rdfs:label "Ob das Korpus irgendwo eine Operation angibt, durch die der Verkehr herbeizuführen wäre"@de,
+        "Whether the corpus anywhere gives an operation by which the converse could be brought about"@en ;
+    dcterms:date "2026-09-29" ;
+    skos:note "It also settles what the internal respiration is in this corpus, against the whole later reception of it. There is no breathing exercise here: the respiration is reported as led from within without any exertion of the will, as imperceptible, and at one place as arriving unasked at the moment of an attack and ending it. The nodes are pmc:SwedenborgRespiratioInterna and pmc:SwedenborgRespiratioProtegens."@en,
+        "Nothing. In eight volumes there is no operation, and that is why traditions/swedenborgian.ttl carries no pm:Practicing node. The one passage that comes nearest is a prohibition and it runs the other way: those who think much on religious subjects and do not break the current of their thoughts with various useful occupations become visionaries and enthusiasts who take every spirit they hear for the Holy Spirit. The corpus describes the way into the experience in order to forbid it."@en,
+        "This is the finding that makes the pair with the Theravada handbook read in the same batch worth having. That one is operation throughout and states its conditions of failure as properties of the circumstances; this one has capacities, prerequisites, cautions and a criterion, and nothing to do. Two transmissions at opposite ends of the same axis, both now in the holding at the wording, and the axis itself — whether a transmission supplies a procedure — is not yet anything the graph can be asked about."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "All eight volumes normalised to bare letters, then searched for: let him who desires (no hits anywhere); if any one wishes to speak with spirits (none); in order to speak with spirits he must (none); by means of abstinence (none); regulate his breathing (none); method by which (two hits, both in Arcana volume XI and both inside the exposition of the curtains of the tabernacle, neither an instruction); hold the breath (one, in Angelic Wisdom, and it is an argument that a man who holds his breath altogether can think only in his spirit, not an exercise); fasting (one, in Arcana volume XII, and not of this); discipline (three, one of them a translator's preface about the march of the truths of heaven); posture (seven, every one of them either a printing of imposture or a description of how a body lay or was tormented); exercise and practise (about eighty between them, all read at the hit and every one of them either a faculty being exercised, a device being practised upon somebody, or a virtue being practised)." ;
+    pm:searchedBy "prima-materia, 2026-09-29" ;
+    pm:searchedCorpus "Swedenborg, De caelo et inferno, in the English of the Swedenborg Society, Heaven and Hell, London 1885, and in the Society's edition of 1893; Swedenborg, Arcana coelestia, volumes I, V, XI and XII of the Standard Edition in the English of John Faulkner Potts; Swedenborg, Sapientia angelica de divino amore et de divina sapientia, in the English of the Swedenborg Society, London 1912; Swedenborg, Diarium spirituale, volume I, in the English of Bush and Smithson, London 1883 — eight volumes, each searched as one text" ;
+    pm:searchedFor "Any instruction by which a second person could set about the thing the corpus reports: a posture, a regulation of the breath, an abstinence, a fast, a vigil, a recitation, a formula, a period of preparation, a discipline of any kind, or a sentence of the form let him who desires this do that. The question decides whether this transmission carries a pm:Practicing node at all, and therefore whether it belongs among the transmissions this holding can compare operation for operation with the others." .
+
+pmp:SwedenborgSignumAperitionisSearch a pm:Searching ;
+    rdfs:label "Ob das Korpus ein Zeichen nennt, an dem ein Lebender die Öffnung seines Inneren erkennt"@de,
+        "Whether the corpus names a sign by which a living man knows his interiors are opened"@en ;
+    dcterms:date "2026-09-29" ;
+    skos:note "Nothing, and the one hit is the corpus saying so. So long as a man lives in the world he has no knowledge of the opening of these degrees within him, because he is in the natural degree and the spiritual does not communicate with it by continuity but by correspondences, and communication by correspondences is not sensibly felt. The same withdrawal is made of the internal respiration, which is called internal and for that reason imperceptible to man. The node is pmc:SwedenborgNullumSignumInVita."@en,
+        "The limit of the search is that it was carried over English translations and over four of the twelve Arcana volumes. Against that stands what the corpus does state in the volumes read: not a silence but an explicit denial, which a translator would have had to render somehow and which a further volume would have to contradict rather than merely supplement."@en,
+        "Why this is an exhibited gap and not bookkeeping. A reader who works forward through these volumes meets a great many reported experiences and will not notice that none of them is offered as a criterion; the absence is only visible if somebody asks for the criterion and comes back empty. Anybody who owns the Latin, or the eleven volumes of the Arcana that were not opened, can now try to close it, and the question is stated precisely enough to be answered."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "All eight volumes normalised to bare letters first, then searched for: may know that his interiors (no hits in any volume); knows that his interiors (none); sign of the opening (none); know whether the spiritual degree (none); perceive the opening (none); is sensible of the opening (none); no knowledge of the opening (one hit, in Angelic Wisdom, and it is the negative statement itself). Then the passage that hit was read continuously together with the thirty numbers around it, 232 to 262, and the four Arcana places on the internal respiration were read for the same question." ;
+    pm:searchedBy "prima-materia, 2026-09-29" ;
+    pm:searchedCorpus "Swedenborg, De caelo et inferno, in the English of the Swedenborg Society, Heaven and Hell, London 1885, and in the Society's edition of 1893; Swedenborg, Arcana coelestia, volumes I, V, XI and XII of the Standard Edition in the English of John Faulkner Potts; Swedenborg, Sapientia angelica de divino amore et de divina sapientia, in the English of the Swedenborg Society, London 1912; Swedenborg, Diarium spirituale, volume I, in the English of Bush and Smithson, London 1883 — eight volumes, each searched as one text" ;
+    pm:searchedFor "Any mark, sign, perception or test by which a man still living could establish that the spiritual or celestial degree has been opened in him, or that his interiors have been opened so that he may speak with spirits and angels. The doctrine makes that opening the condition of everything the corpus claims, and the question is whether it also gives the man a way of knowing where he stands. If it does not, then the central claim of the largest body of first-person reports in this holding is one its own author says nobody can check on himself." .
+
 pmp:TeinmLaida a pm:Practicing ;
     rdfs:label "Teinm laída"@de,
         "Teinm laída"@en ;
@@ -17146,6 +17314,26 @@ pmp:WhereTheEmptyRunIsPutExamination a pm:Testing ;
     pm:falsifiedBy "A transmission of the kind described whose earliest witness names an outcome that would count against the operation and supplies no condition assigning a failed run to the operator, the person operated on, the material or a third party. That is the condition the claim itself named. It was not met."@en ;
     pm:protocolUpdated "2026-09-26" ;
     pm:tests pmc:NoFailedRunCountsAgainstTheOperation .
+
+pmp:WhoMayTestAPersonExamination a pm:Testing ;
+    rdfs:label "Ob die Verweigerung einer Prüfung im Vermögen und nicht im Fragenden begründet ist"@de,
+        "Whether the refusal of a test is grounded in the capacity and not in the asker"@en ;
+    skos:definition "A reading protocol on the claim that where a transmission locates a claimed capacity in a person rather than in a procedure anyone could work, it states a rule withdrawing that person from a deliberate test, grounds the rule in a property of the capacity or of the party exercised through it and not in the unworthiness of whoever proposes the test, and that where two practitioners instead measure their capacities against one another it fixes a criterion and does not forbid the trial. What is claimed is a regularity in what transmissions say, so the protocol fails or holds against texts and not against practitioners."@en ;
+    skos:note "A limit of this protocol, stated because it decides what the next one should do. Three of the four witnesses of the claim now have a documented route between them — the Swedenborgian corpus is upstream of both the magnetic and the spiritist literature — so the confirmation of the core rests on two independent lines and not four: that block, and the Pali discourse. The Theravada case that breaks the second qualification comes from the same transmission as one of those two lines, which makes it a cheap find and a strong one at once: the transmission that refuses the outsider's test narrates an insider's test approvingly, in the same corpus, four chapters apart."@en,
+        "The successor statement this protocol recommends, written here and deliberately not written into the graph, because a claim is corrected where it is examined and a tidied sentence would hide the cases. It should be about WHO may test rather than about what the refusal is grounded in: where a transmission locates a capacity in a person, a test proposed by an enquirer or an onlooker is refused, while a test proposed from inside the transmission is admitted, and it is admitted whether the parties are equals or not. If that holds, what these rules protect is not the capacity from examination but the boundary of the transmission, and the ground given for the refusal — the thing or the asker — is then a rhetorical choice and not the structure. That is a sharper claim than the present one, it is easier to break, and it can be broken by a single transmission that refuses a test proposed by one of its own."@en,
+        "What fails, first qualification. The statement says the rule is grounded in a property of the capacity or of the party exercised through it AND NOT in the unworthiness of whoever proposes the test. One corpus does both, in two works, and neither passage marks the difference. The word that has to change is the negation: not, becomes not only. That is a real loss, because the excluded ground was doing work — a transmission that blames the asker has said something about persons rather than about the capacity, and the statement's interest was that these transmissions do not take that easy road. The finding is that one of them takes both roads."@en,
+        "What fails, second qualification, and the failure is more interesting than the first. The last sentence of the statement exempts the case of two practitioners measuring their capacities against one another. With three cases that exemption is no longer a boundary but a second class, and the three do not share the property the wording names. In the Sami case the parties are equals and the outcome is a rank. In the Theravada case they are not equals and the outcome is a correction that the loser accepts and acts on within the hour. In the Swedenborgian case the party tested is not a practitioner at all but the interlocutor whose identity is at issue. What all three share is that the test is proposed from inside the transmission by somebody who wants to know, and what the three original witnesses share is that the test is proposed from outside by somebody who wants to be convinced."@en,
+        "What holds, and it is the part worth having. In everything read the core of the statement was confirmed: no transmission in this holding that locates a capacity in a person invites an outsider to test it and states what a negative outcome would be. The Swedenborgian corpus is the strongest confirmation yet, because it is the one corpus that had the least need of such a rule — its author was believed by nobody in particular and had no lineage to protect — and it refuses the demonstration twice over anyway, at some length, and adds that a demonstration which succeeded and was afterwards denied carries the lowest hell."@en,
+        "Why the outcome is cases with deviation and not a refutation. The claim's own falsifier is the core and it was not met; what was met are the two qualifications, which the claim had added to save itself from cases it already knew about. A statement whose qualifications fail while its core holds is not broken, it is under-described, and the right response is a narrower successor and not a deletion. The precedent this holding has for the other outcome is examinations/the-sign-and-the-counterfeit.ttl, where the falsifier itself was met and the claim fell."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched on 2026-09-29 across the two corpora read at the wording in this run and then across the holding. In the Swedenborgian corpus the question was put to eight volumes: whether the refusal of visible proof is grounded in the thing or in the asker. Both grounds are there and in two different works. Arcana 10751 grounds it in the thing — appearances are rare now lest they compel men to believe, for a compulsory faith such as enters by miracles does not cleave to the man — and that is the witness at pmc:SwedenborgSignaNonCoguntFidem. Heaven and Hell 456 grounds it in the asker — those who have confirmed themselves in falses would not believe the evidence of their senses, and such demonstrations are dangerous to them because they would first believe and afterwards deny — and that is pmc:SwedenborgProfanatioPostFidem. The two passages refuse the same demonstration and do not agree about why."@en,
+        "Second search, over the second corpus of this run, for the boundary clause. The Visuddhimagga narrates at XX.111 a deliberate trial of one practitioner's attainment by another: Dhammadinna puts a thousand questions and every one is answered, then has the elder Mahanaga create an elephant, has him drive it at himself, the elder flinches and runs, and the flinch establishes that an attainment of sixty years' standing was not what its holder took it for. The node is pmc:UpakkilesaHatthiParikkha. The trial is narrated approvingly and is not forbidden, and the doctrinal examination that preceded it established nothing while the involuntary reaction established everything."@en,
+        "Third search, over the holding rather than over a corpus, asking whether the boundary clause already had more cases than the one it names. It did not name them and it has them. Before this run the clause rested on the Sami drum contest, two practitioners painting reindeer to see whose wins. This run adds two, and neither fits the wording: the Swedenborgian test at pmc:SwedenborgProbatioSpiritus is put by a practitioner to his interlocutor and not to a second practitioner, and the Theravada test is put by one practitioner to another who is his senior and his own former teacher, with correction and not ranking as the outcome. So the clause now carries three cases of three different shapes, and what they share is not that the parties are equals but that the person proposing the test stands inside the transmission."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-09-29; the protocol is a reading of the two corpora opened in this run plus a search of the holding, and the falsifiers of the two qualifications were formulated before the cases were looked for" ;
+    pm:falsifiedBy "For the core of the statement: a transmission claiming a capacity of a person whose earliest witness invites an outsider to test it, states what a negative outcome would be, and treats such an outcome as telling against the capacity rather than against the conditions of the trial. That condition is the claim's own and has NOT been met. For the first qualification: a transmission of the same kind that grounds its refusal in the unworthiness of whoever proposes the test. That has been met. For the second: a deliberate trial of such a capacity, proposed from inside the transmission, that the transmission does not forbid and does not treat as a contest between equals. That has been met twice."@en ;
+    pm:protocolUpdated "2026-09-29"^^xsd:date ;
+    pm:tests pmc:TheTestOfAPersonIsRefused .
 
 pmp:WordsBeforeDoctorsExamination a pm:Testing ;
     rdfs:label "Prüfung des Satzes über Worte und Doktoren"@de,
@@ -17844,15 +18032,6 @@ pmt:Srividya a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Yoginīhṛdaya; Nityāṣoḍaśikārṇava; Bhāskararāya, Setubandha" .
-
-pmt:Swedenborgian a pm:Tradition ;
-    rdfs:label "Swedenborgische Überlieferung"@de,
-        "Swedenborgian transmission"@en ;
-    skos:definition "A transmission resting on one man's sustained reports of conversation with the dead and with angels, kept as a dated journal over decades."@en ;
-    skos:note "Quantitatively the largest body of first-person reports available to the project, and dated throughout, which makes internal consistency checkable in a way most such material is not."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Swedenborg, De caelo et inferno; Swedenborg, Diarium spirituale" .
 
 pmt:SyriacAsceticism a pm:Tradition ;
     rdfs:label "Syrische Askese"@de,
@@ -21478,6 +21657,28 @@ pmc:SunCourseRule a pm:Conceptualizing ;
         "Two recorders, ninety years apart, one compiling from priests' reports in Uppsala and one living among the people, give the same reading rule tied to the same physical direction. It is the best-attested single claim in this file."@en ;
     pm:withinTradition pmt:SamiNoaidi .
 
+pmc:SwedenborgRespiratioInterna a pm:Conceptualizing ;
+    rdfs:label "Die innere Atmung, von innen geführt und dem Menschen nicht wahrnehmbar"@de,
+        "The internal respiration, led from within and imperceptible to man"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 3884 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. V, pp. 237-238)" ;
+    skos:definition "One of four general operations of heaven the author reports perceiving while in the body: it entered into the respiration of the lungs and led his breathing gently but from within, so that he had no need to draw breath or respire by any exertion of his will. The respiration of heaven, he says, is internal and for that reason imperceptible to man, and inflows by correspondence into the external respiration of the body; were a man deprived of that influx he would instantly fall down dead. The pulse in that state was about three beats to each period of respiration."@en ;
+    skos:note "Entered because this is the one place where the corpus touches the thing a reader of the modern occult literature comes to it for, and it is not what that literature made of it. There is no exercise here. The breathing is led, the will is not used, and the author states that the internal respiration cannot be perceived at all. Whoever reads this passage as a technique has read the later reception; the search for an instruction anywhere in the corpus stands at pmp:SwedenborgPraxisSearch."@en,
+        "The author's own footnote elsewhere names the further Arcana numbers on this subject, among them 3894 on the wicked being unable to breathe in heaven and suffocating if they enter. That number was not opened and nothing here rests on it."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:withinTradition pmt:Swedenborgian .
+
+pmc:SwedenborgSignaNonCoguntFidem a pm:Conceptualizing ;
+    rdfs:label "Erscheinungen werden vorenthalten, weil ein erzwungener Glaube dem Menschen nicht anhaftet"@de,
+        "Appearances are withheld because a compelled faith does not cleave to the man"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 10751 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. XII, p. 654)" ;
+    skos:definition "Having listed those to whom spirits appeared in human form — Abraham, Lot, the inhabitants of Sodom, Manoah and his wife, Joshua, Mary, Elizabeth and the prophets generally — the corpus says that now this rarely happens, lest such things should compel men to believe; for a compulsory faith, such as enters by means of miracles, does not cleave to the man, and might also be an injury to those with whom faith could be implanted through the Word in a state that is not compulsory."@en ;
+    skos:note "It is the fourth witness of pmc:TheTestOfAPersonIsRefused and the note there says what it adds and what it does not. It is not independent of two of the other three: the magnetic and spiritist literatures are later than this corpus and knew it."@en,
+        "The ground is a property of what a sign produces and not a property of whoever asks for one, and that is what makes this passage usable. It says that the class of evidence an outsider would demand is withheld on purpose, because evidence of that class produces a belief that does not hold. Whatever one thinks of the doctrine, the consequence for examination is exact: the corpus has given a reason why no demonstration will be offered, and the reason does not depend on the enquirer."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ArcanaCoelestia ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pmc:Taixi a pm:Conceptualizing ;
     rdfs:label "Embryonalatmung"@de,
         "Embryonic breathing"@en ;
@@ -21852,6 +22053,28 @@ pmc:TheSunHidesHisFaceOverAnOffence a pm:Conceptualizing ;
     skos:definition "It is proclaimed at the dawn of each holy day that one who knows himself unworthy to appear before the face of the Sun must not enter the ceremonial camp circle, because if such a one appears the Sun will hide his face with a veil of clouds until the offender withdraws or until the Winged God sweeps or washes away the offence. If the face is hidden at sunrise the marshals seek the cause of offence and expel it, and the people wait until the Sun shows his face. If on any day he does not show it, that day is not counted as a holy day, and enough days are counted to make four."@en ;
     skos:note "A sign read off the weather, with a stated cause, a stated remedy and a stated procedure for the case where the sign appears. It is the closest thing in this file to a falsifying condition applied in public, and it is also the clearest case in this file of a condition that cannot fail: an overcast morning is assigned to an offender, and if no offender is found the day is struck from the count instead. Both halves are in the corpus and both are entered."@en ;
     pm:withinTradition pmt:LakotaRitual .
+
+pmc:TheTestOfAPersonIsRefused a pm:Generalizing ;
+    rdfs:label "Wo das Vermögen in einer Person liegt, ist seine absichtliche Prüfung verboten"@de,
+        "Where the capacity is in a person, the deliberate test of it is forbidden"@en ;
+    skos:note "Examined on 2026-09-29. The protocol is pmp:WhoMayTestAPersonExamination in examinations/who-may-test-a-person.ttl, and the outcome is pm:casesWithDeviation: the core of the statement held against everything read and both qualifying clauses failed. The claim's own falsifier — a transmission of this kind that invites an outsider to test and lets a negative outcome count — was not met. What was met are the two clauses the statement had added to protect itself: one corpus grounds the refusal both in the thing and in the unworthiness of the asker, so the negation has to become not only; and the exemption for a trial between two practitioners now has three cases of three different shapes, which is a second class and not a boundary. The successor statement the protocol recommends is about who may test rather than about what the refusal is grounded in, and it is written out there rather than substituted for the sentence above."@en,
+        "Falsified by a transmission claiming a capacity of a person whose earliest witness invites an outsider to test it, states what a negative outcome would be, and treats such an outcome as telling against the capacity rather than against the conditions of the trial. The nineteenth-century literature on both sides of the magnetic dispute is where such a case would most likely be found, and it has not been opened in this holding."@en,
+        "Fourth witness, added on 2026-09-29 from the Swedenborgian corpus, and it is the earliest of the four by a century. Having listed the people to whom spirits appeared in human form — Abraham, Lot, Manoah and his wife, Joshua, Mary, Elizabeth, the prophets generally — the Arcana says that now this rarely happens, lest such things should compel men to believe; for a compulsory faith, such as enters by means of miracles, does not cleave to the man, and might also be an injury to those with whom faith could be implanted through the Word in a state that is not compulsory. The class of evidence an outsider would ask for is withheld on purpose, and the ground is a property of the belief such evidence produces."@en,
+        "It is not independent of two of the other three and the direction of the route is worth stating, because it runs the other way from the usual case in this holding. Swedenborg published from 1749 and died in 1772; the magnetic manual and the spiritist manual that are witnesses one and three are later, and both milieux knew him. So this corpus is the earlier station of a documented route into two of the witnesses, not a fourth voice arriving from elsewhere. What it adds is age and not independence: the form is older than the nineteenth century by more than the Pali discourse alone established, and it is found in a printed doctrine addressed to strangers rather than in a manual for operators."@en,
+        "It is not the claim at pmc:TestingTheProcedureVoidsItsAnswer and the difference is the antecedent. That one is about transmissions that obtain an answer from a procedure — a cast, a consultation — and says the repeated or testing question is excluded. This one is about transmissions whose claim is a capacity of a named person, where there is no procedure a stranger could work and therefore nothing to repeat. A transmission can satisfy either without the other, and the spiritist manual happens to satisfy both, in two different chapters and for two different reasons."@en,
+        "The counter-search was run against this holding before the statement was written, and it found one case that bounds it. Among the Sámi material, when two practitioners wished to know which of them excelled the other in the art, they painted two reindeer striking each other on a drum and he whose reindeer had the victory was the better. That is a deliberate trial of a capacity located in a person, with a criterion, an outcome that could fall either way and no party controlling it — and it is prescribed rather than forbidden. What distinguishes it from the three witnesses is who proposes the test: there it is the practitioners themselves and the loser remains a practitioner, whereas the rule in all three witnesses answers an enquirer or an onlooker who wants to be convinced. The last sentence of the statement carries that boundary, and a second case of the same shape would strengthen the statement rather than break it."@en,
+        "The same corpus also supplies the first case in this holding of a transmission that refuses the test on BOTH grounds, and that is what this witness costs the statement. The statement says the rule is grounded in a property of the capacity and not in the unworthiness of whoever proposes the test. At Arcana 10751 it is the first. At Heaven and Hell 456 it is the second: the reason given for withholding visible proof of the state after death is that those who have confirmed themselves in falses would not believe the evidence of their senses, and that such demonstrations are dangerous to them because they would first believe and afterwards deny, which is profanation and carries the lowest hell. Both passages refuse the same demonstration and they do not agree about why. The node is pmc:SwedenborgProfanatioPostFidem, and the consequence for the statement is that its discriminating clause should read not only rather than not: a corpus can ground the refusal in the thing and also, elsewhere, in the asker, and this one does."@en,
+        "The three witnesses say it in three idioms and the ground is a property of the thing claimed in each. The magnetic manual makes it a general rule from which the operator is never to depart, never on any account to permit any attempt to prove the somnambulist's lucidity, and derives the prohibition in the same chapter from the prerequisite that lucidity requires an undivided attention: the reason the faculty cannot be tested is the reason it is said to work. The spiritist manual states that superior spirits have no sign by which to be recognised other than the superiority of their ideas, that every spirit can imitate a material sign and that the names of saints are taken freely, so that neither a sign nor a name is proof. The Pali discourse distinguishes three marvels, of psychic power, of mind-reading and of instruction, holds only the third to be reliable, and refuses the display of power for the sake of persuading anyone as something to be ashamed of."@en,
+        "Two further cases of the boundary clause were read in the same batch, and with four instances that clause is now carrying more than a boundary usually bears. The last sentence of the statement says that where two practitioners measure their capacities against one another a criterion is fixed and the trial is not forbidden; the Sami reindeer contest above was the one case. The Spiritual Diary reports a test carried out on the other party — refuse to acknowledge a spirit as the Holy Spirit and observe what it does, anger and threats marking the unclean one — with two outcomes and neither in the operator's hand; that is pmc:SwedenborgProbatioSpiritus, and it differs from the Sami case in that the party tested is not a second practitioner but the interlocutor. And the Theravada handbook narrates a trial between two practitioners that is not a contest but a correction: Dhammadinna answers nothing and asks everything, has the elder Mahanaga create an elephant and then charge him with it, the elder flinches and runs, and the flinch establishes that his attainment of sixty years' standing was not what he took it for. That is pmc:UpakkilesaHatthiParikkha. In both the test works, in both it is proposed by somebody inside the transmission, and in neither is it forbidden."@en,
+        "Two of the three witnesses have a documented route between them: the spiritist manual of 1861 comes out of the magnetic milieu of the preceding century and its author knew that literature. They are therefore not two independent witnesses, and no independence is claimed here — a generalization asserts a recurring form and not a count of witnesses. The Pali discourse is unconnected to both, and it is the witness that decides whether the form is older than the nineteenth century."@en,
+        "What the four instances of that clause suggest, stated as the question rather than as a rewritten sentence. The distinction the statement draws may not be between the capacity and the asker at all, but between an enquirer who wants to be convinced and a practitioner who wants to know: the first is refused on every ground the transmissions can find, the second is admitted and given a criterion. If that is right, then what these transmissions protect is not the capacity but the boundary of the transmission, and the successor statement should be about who is allowed to test rather than about what the refusal is grounded in."@en,
+        "What the statement costs the claims it is about is worth saying plainly, because it is the reason to hold it. A rule of this shape makes every negative result attributable to the testing, and one of the three witnesses states that consequence itself: where an incredulous person consults in order to put the somnambulist to the proof, he is said to exert, without knowing it, an influence that furnishes him with new reasons for his incredulity. That is a prediction that a failed test confirms the claim, and it is the point at which a transmission stops being examinable from outside."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CautionAgainstProvingTheLucidity,
+        pmc:DisplayOfPowersRefused,
+        pmc:SigneMaterielCaution,
+        pmc:SwedenborgSignaNonCoguntFidem ;
+    pm:generalizedStatement "Where a transmission locates a claimed capacity in a person rather than in a procedure that anyone could work, it states a rule withdrawing that person from a deliberate test, and it grounds the rule in a property of the capacity or of the party exercised through it — that the undivided attention it requires is destroyed by the testing, that the party addressed withdraws from a question put as a test, that no material sign it could produce would settle anything — and not in the unworthiness of whoever proposes the test. The rule governs a test proposed by an enquirer or an onlooker. Where a transmission instead has two practitioners measure their capacities against one another, it fixes a criterion and does not forbid the trial."@en .
 
 pmc:TheTestOnTheIngredient a pm:Generalizing ;
     rdfs:label "Die Probe, die ein Handbuch durchfallen kann, prueft, was es einkauft, und nicht, was es tut"@de,
@@ -25256,6 +25479,17 @@ pmc:Sicun a pm:Conceptualizing ;
     skos:note "A man may choose further potencies during his life, and the corpus says an evil man cannot secure a good one but may secure an evil one. The shaman who prepares a fetish devises a formula that must be repeated to invoke its powers."@en ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmc:SwedenborgTresGradus a pm:Conceptualizing ;
+    rdfs:label "Drei getrennte Grade in jedem Menschen von Geburt, nacheinander geöffnet"@de,
+        "Three discrete degrees present in every man by birth, opened in succession"@en ;
+    dcterms:source "Swedenborg, Sapientia angelica de divino amore et de divina sapientia, n. 236-237 (Angelic Wisdom concerning the Divine Love and the Divine Wisdom, trans. Swedenborg Society, London 1912, pp. 84-85)" ;
+    skos:definition "Three degrees of altitude, natural, spiritual and celestial, are in every man by birth and can be opened successively; as they are opened the man is in the Lord and the Lord in the man. Within each there are continuous degrees of latitude by which it increases. The natural degree comes first and grows by knowledge up to the rational; the spiritual is not opened by that means but by the spiritual love of uses, which is love towards the neighbour; and even by the truths of that love the celestial is not opened, which is opened by the celestial love of use, that is love to the Lord, defined as committing the precepts of the Word to life."@en ;
+    skos:note "The corpus says twice in one paragraph that understanding does not open the higher degree, and it is the sharpest thing in the reading for a project that collects prerequisites: the condition is not knowledge, which can be examined, but a love shown in conduct, which the same corpus then says is not felt while it is being acquired."@en,
+        "The state is not a rank conferred by a lineage and is not an initiation. Every man has the three by birth; what is at issue is whether they open. That is why this file carries no degree structure and no admission."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:DivinoAmoreEtSapientia ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pmc:ThelemaErrorInharmonicus a pm:Conceptualizing ;
     rdfs:label "Der unharmonische Fehler, und was er zeigen soll"@de,
         "The inharmonious error, and what it is said to show"@en ;
@@ -26422,13 +26656,6 @@ pm:locusNotStated a pm:AwarenessLocus,
         "Locus not stated"@en ;
     skos:definition "The source was read for this question and does not answer it."@en .
 
-pm:notByEffort a pm:AwarenessValue,
-        pm:StateAcquisition ;
-    rdfs:label "Nicht durch Anstrengung"@de,
-        "Not by effort"@en ;
-    skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
-    skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
-
 pm:presentationOrder a pm:PrerequisiteStrength ;
     rdfs:label "Darstellungsreihenfolge"@de,
         "Presentation order"@en ;
@@ -26638,6 +26865,13 @@ pmw:DeDivinatione a dcterms:BibliographicResource ;
         "Cicero, De divinatione"@en ;
     skos:note "Opened on 2026-09-21 at Book II, chapters XLII to XLVII, in the English of C. D. Yonge, The Treatises of M. T. Cicero, Bohn's Classical Library, London 1878. Read continuously; the remainder of both books was not read. Unlike the other four works of this corpus the edition is recoverable, because this passage was read in this run and not inherited."@en .
 
+pmw:DiariumSpirituale a dcterms:BibliographicResource ;
+    rdfs:label "Swedenborg, Diarium spirituale"@de,
+        "Swedenborg, Diarium spirituale"@en ;
+    skos:note "Read here in the English of George Bush and John H. Smithson, The Spiritual Diary of Emanuel Swedenborg, volume I, numbers 1 to 1538, James Speirs, London 1883. The entries are numbered in the author's own hand from the manuscript and are dated; the dates of the entries used here fall in January to March 1748."@en,
+        "Second, the translation is disowned. The editor of the successor volume writes that on first taking Professor Bush's manuscript in hand he was struck with astonishment at the number of evident errors, some of the most elementary character and the most glaring description, that the further he advanced and the greater the care he exercised the more numerous and grave the errors he detected, and that he grew convinced Bush had never intended the manuscript to reach the printer without a further careful revision by himself. A holding that collects conditions of failure should carry the condition of failure of its own source, and this is it."@en,
+        "Two textual cautions, both read at the wording in this volume, and every node resting on this work carries whichever of them applies. First, the beginning is lost. The editors' footnote states that the portion from 1 to 148 inclusive is wanting in the Latin as Tafel published it, that the subsequent publication of Swedenborg's own Index Diarii proves the missing numbers stood in a separate manuscript which has not been discovered and is feared irrecoverably lost, and that the heads or subjects of nearly all of them have been restored from that Index and occupy the place of the missing text. So numbers 3 to 8 and 148, which carry most of the criteria for telling a deceiving spirit, are index headings and not the author's paragraphs."@en .
+
 pmw:DivusVespasianus a dcterms:BibliographicResource ;
     rdfs:label "Sueton, Divus Vespasianus"@de,
         "Suetonius, Divus Vespasianus"@en ;
@@ -26837,6 +27071,13 @@ pm:StateDuration a owl:Class,
         "State Duration"@en ;
     skos:definition "The axis on which a source's account of how long a condition holds is placed: passing of itself, or abiding once it is there."@en ;
     pm:scaleFamily pm:subjectAxis .
+
+pm:notByEffort a pm:AwarenessValue,
+        pm:StateAcquisition ;
+    rdfs:label "Nicht durch Anstrengung"@de,
+        "Not by effort"@en ;
+    skos:definition "The source has the condition arrive without being worked for: given, inherited, conferred at birth, or descending on the wayfarer as a gift."@en ;
+    skos:note "Where a source says this, a missing prerequisite claim is a doctrine and not an omission. The Sufi handbooks say it outright of the aḥwāl; the Inuit narrative says it of second sight in another way, by reporting the capacity as something a person has."@en .
 
 pm:outwardWaking a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -27072,6 +27313,18 @@ pmc:SanjiLiuxiong a pm:Cautioning ;
     pm:cautionsAbout pmp:Zang ;
     pm:withinTradition pmt:ChineseDivination .
 
+pmc:SwedenborgLoquelaCumSpiritibus a pm:Conceptualizing ;
+    rdfs:label "Rede mit Geistern und Engeln noch im Leibe"@de,
+        "Speech with spirits and angels while still in the body"@en ;
+    dcterms:source "Swedenborg, Arcana coelestia, n. 9438 (The Heavenly Arcana, trans. Potts, Standard Edition, vol. XI, pp. 359-360)",
+        "Swedenborg, De caelo et inferno, n. 246, 248 (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 112-114)" ;
+    skos:definition "The capacity the whole corpus rests on. A man whose interiors have been opened can speak with spirits and with angels while he lives in the world, because as to his interiors a man is a spirit and an angel and the body serves him only for activity in the natural sphere. The speech is not a local motion of sound: the angel's words fall into the man's thought and thence into words of his own language, and the man hears them as his own speech would be heard."@en ;
+    skos:note "Stated as rarely granted at the present day and as formerly common: the ancients spoke with spirits and angels frequently, and on some earths spirits appear in human form and speak with the inhabitants. The corpus therefore holds that the capacity is human and not personal, and that the present rarity is a condition of the age."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ArcanaCoelestia,
+        pmw:DeCaeloEtInferno ;
+    pm:withinTradition pmt:Swedenborgian .
+
 pm:ContactRoute a owl:Class,
         pm:Scale ;
     rdfs:label "Kontaktweg"@de,
@@ -27196,6 +27449,11 @@ pmt:Sufism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "al-Sarrāj, Kitāb al-Lumaʿ; al-Qushayrī, al-Risāla al-Qushayriyya" .
+
+pmw:DivinoAmoreEtSapientia a dcterms:BibliographicResource ;
+    rdfs:label "Swedenborg, Sapientia angelica de divino amore et de divina sapientia"@de,
+        "Swedenborg, Sapientia angelica de divino amore et de divina sapientia"@en ;
+    skos:note "First published at Amsterdam in 1763. Read here in the English of the Swedenborg Society, Angelic Wisdom concerning the Divine Love and the Divine Wisdom, London 1912, a translation based on the recommendations of the Society's revision committee. The numbering runs 1 to 432; numbers 232 to 262 were read continuously."@en .
 
 pmw:HerodotiHistoriai a dcterms:BibliographicResource ;
     rdfs:label "Herodot, Historien"@de,
@@ -27422,6 +27680,13 @@ pmw:AitareyaBrahmana a dcterms:BibliographicResource ;
         "Aitareya Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the English of Arthur Berriedale Keith, Rigveda Brahmanas: The Aitareya and Kauṣītaki Brāhmaṇas of the Rigveda, Harvard Oriental Series 25, Cambridge, Massachusetts 1920. Read at the wording: the third pañcikā, chapters 7 to 11, on the vaṣaṭ call and the Nivid. The remaining seven pañcikās were searched and not read. Keith gives both the pañcikā count and the continuous adhyāya count in brackets, and the places below give both because the older literature uses the second."@en .
 
+pmw:DeCaeloEtInferno a dcterms:BibliographicResource ;
+    rdfs:label "Swedenborg, De caelo et inferno"@de,
+        "Swedenborg, De caelo et inferno"@en ;
+    skos:note "A textual detail that bears on citation and was seen at the wording. The author's own footnote to number 249 lists the Arcana places where speech with spirits is treated, and the two editions read give different numbers in the first of its two lists: the 1885 copy prints 734 where the second list of the same footnote prints 784. The second list, which is the one this file uses, reads 784, 9438, 10751 in both copies. Whoever follows the first list to 734 will find a passage on another subject."@en,
+        "Published anonymously at London in 1758 as De Coelo et ejus Mirabilibus, et de Inferno, ex Auditis et Visis. Read here in the English of the Swedenborg Society, Heaven and Hell, London 1885, and checked against the Society's edition of 1893; the numbering runs 1 to 603 and did not differ at any place read between those two and the editions of 1778, 1784 and 1883, which were also consulted for the footnotes."@en,
+        "That the work appeared without its author's name is not a disputed attribution and is not entered as one, but it is part of the citation history and belongs here: Swedenborg published his theological works anonymously until 1768 and named himself on a title page for the first time in 1771."@en .
+
 pmw:HohmanFreund1828 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, Der lange verborgene Freund (Ephrata, Pa. 1828)"@de,
         "Hohman, Der lange verborgene Freund (Ephrata, Pa. 1828)"@en ;
@@ -27451,13 +27716,6 @@ pm:SensoryAnchoring a owl:Class,
         "Sensory Anchoring"@en ;
     skos:definition "The axis on which the relation of awareness to the ordinary sensory channel is placed, from outward waking perception through withdrawal, the edge of sleep and dreaming to a condition in which no object is apprehended."@en ;
     pm:scaleFamily pm:subjectAxis .
-
-pm:cededAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Abgetretene Trägerschaft"@de,
-        "Ceded agency"@en ;
-    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
-    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pmt:Anthroposophy a pm:Tradition ;
     rdfs:label "Anthroposophie"@de,
@@ -27526,6 +27784,13 @@ pmc:AyurvedaVayahsthapana a pm:Conceptualizing ;
         "This is the half of the claim that would be settled in a season rather than in a century, and the lesson states it of named figures of the remote past — the Vaikhanasas, the Valakhilyas, Cyavana, Vasistha and the rest — and of nobody living. The distance between the strongest form of the claim and the nearest reported instance is the whole of the tradition's own prehistory."@en ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
+
+pm:cededAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Abgetretene Trägerschaft"@de,
+        "Ceded agency"@en ;
+    skos:definition "The source has another speak or act through the practitioner, who is described as receiving, carrying or being ridden rather than as doing."@en ;
+    skos:note "The axis records the account the source gives, not a verdict on it. A tradition that credits a spirit and one that credits a trained faculty differ in what they claim, and that difference is worth holding whatever either claim is worth."@en .
 
 pm:counterSearchNotCarried a pm:CounterSearchState ;
     rdfs:label "Gegensuche nicht geführt"@de,
@@ -27627,6 +27892,12 @@ pmt:Zoroastrian a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Avesta (Gathas, Yasna, Vendidad, Yashts); Hadhoxt Nask; Arda Wiraz Namag; Bundahisn; Denkard; Menog i Xrad; Dadestan i Denig" .
+
+pmw:ArcanaCoelestia a dcterms:BibliographicResource ;
+    rdfs:label "Swedenborg, Arcana coelestia"@de,
+        "Swedenborg, Arcana coelestia"@en ;
+    skos:note "Opened at four places only and not read through: numbers 784, 3884 to 3886, 9438 to 9439 and 10751. The author's own footnotes name a further set that was not opened — 1983, 2752, 4793 and 5990 on obsession and 3894 on the suffocation of the wicked in heaven — and the nodes below that depend on them say so."@en,
+        "Read here in the English of the Standard Edition, Arcana Coelestia: The Heavenly Arcana, translated from the Latin and thoroughly revised and edited by John Faulkner Potts, American Swedenborg Printing and Publishing Society, New York; volumes 1, 5, 11 and 12 were opened. The numbering runs 1 to 10837 and is stable across the three English sets consulted; the bracketed subdivisions such as [2] and [3] are Potts's editorial work and not the author's, so a reference to a bracketed part is a reference to that edition."@en .
 
 pmw:DighaNikaya a dcterms:BibliographicResource ;
     rdfs:label "Dīgha Nikāya"@de,
@@ -27914,11 +28185,6 @@ pm:Scale a owl:Class ;
     skos:definition "A class whose instances form a closed set of permitted values. A property whose range is a scale takes one of that scale's declared instances and nothing else."@en ;
     skos:note "Closure is the point. rdfs:range states an intention and constrains nothing; until pm:ScaleValueShape was written, a misspelt or invented value passed validation in silence and was indistinguishable from a declared one."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
 pmp:TurbaRegimenUniusRei a pm:Practicing ;
     rdfs:label "Die Führung der einen Materie durch Schwarz, Weiß und Rot"@de,
         "The ruling of the one matter through black, white and red"@en ;
@@ -27958,6 +28224,23 @@ pmt:Mithraic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The monuments and inscriptions of the cult in their standard corpus; the literary testimonia, among them Origen, Contra Celsum VI.22 (reporting Celsus), Porphyry, De antro nympharum, Tertullian, De corona 15, Jerome, Epistula 107.2, and Firmicus Maternus, De errore profanarum religionum 5" .
 
+pmt:Swedenborgian a pm:Tradition ;
+    rdfs:label "Swedenborgische Überlieferung"@de,
+        "Swedenborgian transmission"@en ;
+    dcterms:source "Swedenborg, De caelo et inferno, n. 249 (Heaven and Hell, trans. Swedenborg Society, London 1885, pp. 114-115)" ;
+    skos:definition "A transmission resting on one man's sustained reports of conversation with the dead and with angels, kept as a dated journal over decades and published as doctrine."@en ;
+    skos:note "Quantitatively the largest body of first-person reports available to the project, and dated throughout, which makes internal consistency checkable in a way most such material is not. The registration said so and the reading bears it out: two of the contradictions entered below were found by reading two of this author's own works against each other."@en,
+        "The contact route runs out of this corpus and not into it. Swedenborg published from 1749 and died in 1772; the magnetic and spiritist literatures this holding already carries are later and knew him. An agreement between this file and either of those is reception with this corpus as the earlier station, and no pm:independentAttestation is claimed anywhere here."@en,
+        "The corpus carries no operation, and that is a property of it and not of the reading. It has capacities, prerequisites, cautions, a criterion for telling a deceiving spirit and a statement that the state cannot be known in life, and it has no instruction by which anybody could set about the thing. The search stands at pmp:SwedenborgPraxisSearch."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:ArcanaCoelestia,
+        pmw:DeCaeloEtInferno,
+        pmw:DiariumSpirituale,
+        pmw:DivinoAmoreEtSapientia ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:DeCaeloEtInferno ;
+    pm:principalCorpus "Swedenborg, De caelo et inferno; Swedenborg, Diarium spirituale; Swedenborg, Arcana coelestia" .
+
 pmw:LiberOVelManusEtSagittae a dcterms:BibliographicResource ;
     rdfs:label "Liber O vel Manus et Sagittae sub figura VI"@de,
         "Liber O vel Manus et Sagittae sub figura VI"@en ;
@@ -27981,6 +28264,11 @@ pm:Converging a owl:Class ;
         "Independence is also a weaker instrument than it looks, and this is the reason breadth is held beside it rather than under it. It guards against none of the three commonest sources of agreement: a shared physiology that produces the same experience wherever the same thing is done to a body, a structural necessity of the subject matter that makes any competent version converge, and the form of graded institutions, which resemble one another because institutions with grades do. What decides in the end is what can be reproduced, and independence is a way of sorting candidates for that, not a verdict."@en,
         "Most apparent universality in the Western esoteric record is diffusion from few sources. A graph that counts a citation chain as independent confirmation measures reception history and reports it as structure."@en,
         "That is a warning against one way of counting and not against reception itself. Reception history is a finding of its own: how many transmissions carry a claim at all, and how deeply the paths between them branch, are two separate numbers and neither cancels the other. Many witnesses on one cable is a different map from many witnesses on three, and both are more informative than the earlier arrangement, in which the first case was simply not shown. The one thing the graph must be able to do is say which of the two maps a reader is looking at: dense transmission and strong effect must never look alike, or the gate of authority returns in statistical dress."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
 
 pmt:InuitAngakkuq a pm:Tradition ;
     rdfs:label "Inuitische Angakkuq-Überlieferung"@de,
@@ -28034,11 +28322,6 @@ pmw:ClaviculaSalomonis a dcterms:BibliographicResource ;
     rdfs:label "Clavicula Salomonis"@de,
         "Clavicula Salomonis"@en .
 
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
         "Using out of this book for a sufferer"@en ;
@@ -28066,6 +28349,11 @@ pm:Systematizing a owl:Class ;
         "Systematizing"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pm:Originating a owl:Class ;
     rdfs:label "Urheben"@de,
@@ -28529,11 +28817,6 @@ pmw:TurbaPhilosophorum a dcterms:BibliographicResource ;
         "The Latin is reachable and was not read. The work stands in the Artis auriferae collections of 1572, 1593 and 1610 and in Manget's Bibliotheca chemica curiosa of 1702, several of them digitised and freely readable; the 1610 Basel print carries the Turba twice, in both recensions, which makes it the cheapest place to settle the two divergences above. That the Latin was not read is a debt of this run."@en,
         "The two recensions diverge in ways that touch the operations, not only the wording, and two of the divergences are recorded in the holding. At Dictum 69 the longer recension says of the redness hidden in the whiteness that it does not behove the operator to extract it and the shorter says that it does — two opposite instructions at the same place, carried as pmc:TurbaRubedoExtrahenda. At Dictum 16 the washing is twenty-one days with dew and rain, ten with salt and ten with fresh water in the longer recension, and twenty-nine, twenty and ten in the shorter. A run that wants to decide either has to go to the Latin."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pmt:Daoist a pm:Tradition ;
     rdfs:label "Daoistische Überlieferung"@de,
         "Daoist tradition"@en ;
@@ -28636,15 +28919,15 @@ pmw:HohmanFreund1820 a dcterms:BibliographicResource ;
         "Hohman, Der lange verborgene Freund (Reading, Pa. 1820)"@en ;
     skos:note "The first printing, and the one this file treats as the text. Read by term through the whole book and page by page at the front matter, the closing pages and the section of unlucky days. The optical transcription of the copy used is a Fraktur scan: the German is legible, and the figures of the day list are destroyed in places and were supplied from the Ephrata printing of 1828, which is named as its own work for that reason."@en .
 
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
+
 pmw:HohmanLongLostFriend1850 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@de,
         "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@en ;
     skos:note "The English translation, held apart from the German printing rather than smoothed into it, because the two differ at places where the difference falls on the examinable part of a claim. It is not a complete translation: a group of charms that stands in the German original — marksmanship, the silencing of dogs, the whitening of a black horse — is absent from it, and its appendix of unmagical remedies is an accretion the first printing does not carry."@en .
-
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
@@ -28652,6 +28935,11 @@ pm:Disputing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
     skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
@@ -28765,11 +29053,6 @@ pm:corpusNamed a pm:CoverageState ;
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pmt:Rasashastra a pm:Tradition ;
     rdfs:label "Rasaśāstra"@de,
         "Rasaśāstra"@en ;
@@ -28789,16 +29072,21 @@ pmt:Rasashastra a pm:Tradition ;
     pm:fromWork pmw:RasaJalaNidhi ;
     pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
     rdfs:label "Rasa-Jala-Nidhi"@de,
         "Rasa-Jala-Nidhi"@en ;
     skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
         "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:Ayurvedic a pm:Tradition ;
     rdfs:label "Ayurvedische Überlieferung"@de,
@@ -28845,6 +29133,11 @@ pm:compilerInference a pm:Attesting ;
     skos:definition "A conclusion drawn by an editor or compiler that the source does not state."@en ;
     skos:note "Admissible as attestation of an ordering act, never of the claim being ordered. Enforced by pm:AttributionShape."@en .
 
+pm:contactRouteDocumented a pm:ContactRoute ;
+    rdfs:label "Kontaktweg belegt"@de,
+        "Contact route documented"@en ;
+    skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
+
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
         "Searching"@en ;
@@ -28853,11 +29146,6 @@ pm:Searching a owl:Class ;
     skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
         "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
         "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
-pm:contactRouteDocumented a pm:ContactRoute ;
-    rdfs:label "Kontaktweg belegt"@de,
-        "Contact route documented"@en ;
-    skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
 pmt:EgyptianRitual a pm:Tradition ;
     rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
