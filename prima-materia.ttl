@@ -10825,6 +10825,28 @@ pmc:SamyamaYieldsParakayaPravesa a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:ParakayaPravesa .
 
+pmc:SanhedrinCalfCreatedAndEatenClaimed a pm:Yielding ;
+    rdfs:label "Die Schoepfungslehre soll das Kalb hervorbringen"@de,
+        "The laws of formation are said to bring forth the calf"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the third class of Abaye's division, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "The pairing the source makes: occupying oneself with the laws of formation brings forth the calf that is then eaten. Entered as a node of its own because the claim is that a study produces an animal, and that is what a protocol would have to address."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:SanhedrinLawsOfFormationBeforeTheSabbath ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah ;
+    pm:yieldsCapacity pmc:SanhedrinCalfCreatedAndEaten .
+
+pmc:SanhedrinFieldFilledAndGatheredClaimed a pm:Yielding ;
+    rdfs:label "Ein Wort soll das Feld fuellen und leeren"@de,
+        "One word is said to fill and to empty the field"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 68a, R. Eliezer on his deathbed, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 289" ;
+    skos:definition "The pairing the source makes: the single utterance brings forth the field of cucumbers, and a second utterance gathers them. The claim is reported by the operator about himself, in the hour of his death, to witnesses who are named."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:SanhedrinOneWordOverTheField ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah ;
+    pm:yieldsCapacity pmc:SanhedrinFieldFilledAndGathered .
+
 pmc:SantaAsSourceOfAllRasa a pm:Conceptualizing ;
     rdfs:label "Die Ruhe als Quelle der übrigen ästhetischen Zustände"@de,
         "Calm as the source of the other aesthetic states"@en ;
@@ -16629,6 +16651,44 @@ pmp:QuimbyExperimentumMentale a pm:Practicing ;
     pm:readVia "The editor's connecting narrative in Horatio W. Dresser (ed.), The Quimby Manuscripts, 2nd ed. (New York 1921), which summarises the mesmeric years from the papers, the journal and the notices rather than printing them at the place" ;
     pm:withinTradition pmt:NewThought .
 
+pmp:RabbinicCounterTransmissionSearch a pm:Searching ;
+    rdfs:label "Ob die Ueberlieferung, die die Kunst verbietet, ein Kriterium fuer eine behauptete Verrichtung nennt"@de,
+        "Whether the transmission that forbids the art names a criterion for a claimed performance"@en ;
+    dcterms:date "2026-10-01" ;
+    skos:note "A finding about the editions, which cost the run a comparison and should save the next one the same. The public-domain English of 1902 is defective for this subject in three measured places: at the permission to learn in tractate Sabbath it omits the whole proof, which its own explanatory remarks announce as method, since where the original gives two statements separated by a formula of alternative it translates only the second; at the name of the art it loses the acrostic and renders the ground of the name as an aside; and the dispute it attaches names the wrong authority to the wrong word. Goldschmidt's German is complete at all three, prints the Aramaic beside it, and carries an apparatus with a printed key to its sigla. For this corpus the German is the edition and the English is not."@en,
+        "An open question the search raised and did not settle. Goldschmidt's apparatus carries a note at the word of liability in the first clause of the Mishnah, giving it for the Munich manuscript, while his base text, the censorship-free Bomberg edition of Venice 1520 to 1523, is rendered without it, and Danby's English likewise reads the clause as a definition. With the key alone the direction of the variant cannot be settled, and whether the first clause of this Mishnah is a definition or a penal norm turns on it. The place where it is decidable is Strack's edition of the tractate of 1910, which prints the Mishnah from manuscripts and old prints and was not found on the regular route in this run."@en,
+        "The find is a criterion of a kind the holding did not carry. At pmc:SanhedrinBloodAndDungAsTheTraceOfTheDeed a performance is judged by the residue a real deed would have left, by a man who did not see it, from a report by a man who did. Every other criterion in this holding is a sign announced to a practitioner beforehand, which he afterwards reports. This one is negative, cheap, and cannot be supplied by expectation."@en,
+        "The second find is that the transmission does not keep one criterion. The same discussion also carries the water that dissolves an enchantment at a market in Alexandria, on the opposite premise: there the test ends a transformation the text treats as having occurred. The two are not harmonised in the text, and a reader who meets only one of them will misreport the transmission."@en,
+        "What the search does not establish. Neither of these texts names the handbook and the handbook names neither of them; the juxtaposition is the compiler's, and no node of this run claims otherwise. What is established and dated is that the Mishnah was fixed around the year two hundred and the Babylonian discussion is carried by names of the third and fourth centuries, while every dating of the handbook now defended in the field puts it later; only the editor's own early dating of 1896 would reverse that. The handbook's silence about failure is therefore a silence against a known norm and not a state of innocence. The datings themselves are modern scholarship and enter this holding only as evidence at an examination, never as a source here; they are named in the issues of this run."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Danby's volume was read at the subject heading for the sorcerer and the two paragraphs under it, found by searching the full text for Sorcerer, and the pages before and after were read for the context and the page sequence. Goldschmidt's seventh volume was located by the Hebrew of the Mishnah, the strings for the one who holds the eyes, for the sorcerer, for the cucumbers and for the holding of the eyes in the Aramaic, and then read continuously in German from the running head 285 to the running head 291, with the Hebrew column stripped so that the two did not run together. The permission to learn was located by the Hebrew for thou shalt not learn, for to understand and for to teach. The German column was also searched for the household above, for the drum, for the camel and for the eye-deception. Rodkinson's English of 1902 was fetched for comparison and measured against Goldschmidt at three places." ;
+    pm:searchYieldedNode pmc:SanhedrinBloodAndDungAsTheTraceOfTheDeed,
+        pmc:SanhedrinLearningIsPermittedToUnderstandAndToTeach,
+        pmc:SanhedrinNothingBesideHimEvenInSorcery,
+        pmc:SanhedrinSorcererIsTheOneWhoDoesTheDeed,
+        pmc:SanhedrinSorceryContradictsTheHeavenlyRetinue,
+        pmc:SanhedrinTheSorcererIsStoned,
+        pmc:SanhedrinThreeHundredRulesOnTheWitch,
+        pmc:SanhedrinThreefoldDivisionOfTheLaw,
+        pmc:SanhedrinWaterDissolvesTheTransformation,
+        pmc:SanhedrinWhatIsBeyondTheDemons,
+        pmc:SanhedrinWhetherTheArtPrevailsAgainstTheDecree ;
+    pm:searchedBy "prima-materia, 2026-10-01" ;
+    pm:searchedCorpus "Mishnah Sanhedrin VII.11 and Tosefta Sanhedrin XI.5c, trans. Herbert Danby, Tractate Sanhedrin: Mishnah and Tosefta (London: Society for Promoting Christian Knowledge, 1919), pp. 106-107; and Babylonian Talmud, Synhedrin folios 67a to 68a, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), pp. 285-290" ;
+    pm:searchedFor "Whether the rabbinic legal transmission, which prohibits the operations an operative handbook of the same language and region prescribes, states any criterion by which a performance claimed to have worked is judged: a distinction between a deed and an appearance, a residue a real deed would leave, a test anybody could apply. The question was put because the handbook in traditions/hekhalot.ttl carries a hundred and thirty-six operations and, by the search at pmp:HarbaDeMosheDefectusSearch, no condition of failure anywhere among them, and because the counter-transmission to that silence had been named and not read." .
+
+pmp:RabbinicDefectusSearch a pm:Searching ;
+    rdfs:label "Ob der gelesene Teil irgendeine Bedingung nennt, unter der eine Verrichtung misslungen waere"@de,
+        "Whether the part read states any condition under which a procedure would have failed"@en ;
+    dcterms:date "2026-10-01" ;
+    skos:note "Nothing, and the shape of the nothing is informative. This transmission is unusually well supplied with tests and unusually empty of conditions of failure, and the two are not in tension: its tests are forensic. They are put to a performance that has been exhibited, by somebody deciding whether a deed was done, and that is a different instrument from a condition told to a practitioner in advance. Of the two performances it reports of its own teachers, the calf and the field of cucumbers, neither carries a condition of any kind."@en,
+        "The limit of the finding, and it is a real one. The search covers seven printed pages of one tractate and no more. The place in this transmission where a numbered condition is known to stand is the rule of the proven amulet in tractate Sabbath, where a thing counts as proven when it has healed and repeated and done so a third time; that place was not opened in this run and no node rests on it. It is named in the issues as the next and cheapest continuation, and in the public-domain English it is reachable as well as in the German."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "The German column of the part read, with the Hebrew and Aramaic stripped out so that the two did not run together, searched for: misslingt, misslang, Misslingen, wirkt nicht, vergeblich, umsonst, gelingt nicht, nicht gelingen, gelingt, wiederhol, Frist, unwirksam, nichts geschieht, vermag nicht, Probe, all of them with no hit at all; Zeichen, one hit, and it is a sign of puberty in the following chapter; pruefen, one hit, and it is the water at the market; kannst, one hit, and it is R. Hanina telling the woman to try. The part was then read through again to see whether such a condition stood anywhere without those words." ;
+    pm:searchedBy "prima-materia, 2026-10-01" ;
+    pm:searchedCorpus "Babylonian Talmud, Synhedrin folios 67a to 68b, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), pp. 285-291" ;
+    pm:searchedFor "Any sentence in the part read saying what would show that one of the operations this transmission reports had not worked, what to do if it did not, a term after which nothing more comes, a repetition on failure, or a defect in the operator or the material that would prevent the effect. The two criteria the discussion does carry judge a performance somebody has already seen; the question here is whether anything judges a procedure beforehand." .
+
 pmp:RasaAnuvasana a pm:Practicing ;
     rdfs:label "Wiederherstellung des Quecksilbers"@de,
         "Rehabilitation of mercury"@en ;
@@ -21661,6 +21721,127 @@ pmc:SamyamaYieldsParacittaJnana a pm:Yielding ;
     pm:withinTradition pmt:PatanjalaYoga ;
     pm:yieldsCapacity pmc:ParacittaJnana .
 
+pmc:SanhedrinBloodAndDungAsTheTraceOfTheDeed a pm:Conceptualizing ;
+    rdfs:label "War hinterher Blut und Mist da"@de,
+        "Was there blood and dung afterwards"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, Rav's report of the Arab and the camel and R. Hiyya's question, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "A criterion stated as a question put to an eyewitness. Rav told R. Hiyya that he had seen an Arab cut a camel to pieces with a sword, strike a drum before it, and the camel rise. R. Hiyya asked him whether afterwards there was blood and dung; since there was not, it was nothing further than a holding of the eyes. The performance is judged not by its effect but by the residue a real deed would have left."@en ;
+    skos:note "The limits of it, stated because the node is strong. It discriminates one class of performance, the transformation or destruction of a body, and nothing else; it is applied here once, by one authority, to one report; and the report it is applied to is a first-person account of a show seen in passing, so what the criterion decides is the status of a memory and not of a repeatable procedure. The transmission draws no rule from it either: nothing in the part read says that a court must ask this question, and the next node shows the same discussion applying a different criterion with the opposite premise."@en,
+        "This is what the counter-search was carried for, and it is the node the holding did not have. Every other criterion in the holding is a sign announced to a practitioner beforehand, which he then reports; this one is a trace, it is named by a third party who did not see the performance, it is negative, it costs nothing to check, and the man who saw the show cannot supply it by expecting it. It therefore belongs beside examinations/the-sign-and-the-counterfeit.ttl and not among the signs of success."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinCalfCreatedAndEaten a pm:Conceptualizing ;
+    rdfs:label "Ein dreijaehriges Kalb, erschaffen und dann gegessen"@de,
+        "A three-year-old calf, created and then eaten"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the third class of Abaye's division, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "The capacity claimed for that practice: the creation of a three-year-old calf, which the two then ate. The eating is the part that carries the claim, because it is what distinguishes the calf from an appearance; nothing else in the sentence says the animal was real."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinFieldFilledAndGathered a pm:Conceptualizing ;
+    rdfs:label "Ein Feld, mit Gurken gefuellt und wieder geleert"@de,
+        "A field filled with cucumbers and emptied again"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 68a, R. Eliezer on his deathbed, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 289" ;
+    skos:definition "The capacity claimed: a whole field filled with cucumbers at one word, and the same cucumbers gathered into one place at a second. Both directions are stated, which is unusual; the reversal is asked for by the pupil as a second lesson and granted."@en ;
+    skos:note "R. Eliezer says in the same speech that he knows three hundred rules, by another reading three thousand, on the planting of cucumbers, and that nobody ever asked him about them except Akiba. The capacity is thus reported as the surviving fragment of a body of technique, which is the same shape as the Tosefta's report at pmc:SanhedrinThreeHundredRulesOnTheWitch, with a different object."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinLearningIsPermittedToUnderstandAndToTeach a pm:Conceptualizing ;
+    rdfs:label "Es zu tun darfst du nicht lernen, wohl aber darfst du es lernen, um zu verstehen und zu lehren"@de,
+        "To do it you may not learn, but you may learn it to understand and to teach"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 68a, the answer that study is different, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 290" ;
+    skos:definition "The answer the discussion gives to its own objection against R. Eliezer. It is different when it is done for the sake of study, for the master said: thou shalt not learn to do it; to do it you may not learn, but you may learn it in order to understand and to teach. The exception thus covers not only the learning but the performing, since what it is brought in to excuse is a performance."@en ;
+    skos:note "The public-domain English omits the sentence at the parallel in tractate Sabbath, where the same teaching carries a whole proof about what a magos is. Goldschmidt's seventh volume carries it here in full. That omission is the reason this file is built on the German and is recorded in the search node."@en,
+        "This is the gate that SPEC section 0 is about, found in the transmission that built the fence. It removes the gate for the student and for the teacher and leaves it for the practitioner, and it is the oldest permission of its kind in the holding. Its origin is tannaitic and lies in Sifre Deuteronomium at the commandment not to learn the abominations of the nations; the Babylonian Talmud quotes it as a known teaching, without a name, and does not coin it. That earlier work has no public-domain translation in any language and was not opened; the issues of this run say so."@en,
+        "What the sentence rests on and what it does not. The ground is a reading of an infinitive in the prohibition and nothing else: no purpose is argued, no necessity of the court is invoked. That the permission exists so that judges can recognise the art is a reasonable inference from its standing next to the rule about who is liable, and it is not in the wording; it is therefore not claimed here."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinNothingBesideHimEvenInSorcery a pm:Conceptualizing ;
+    rdfs:label "Es gibt keinen ausser ihm, und das reicht bis in die Zauberei"@de,
+        "There is none beside him, and this reaches as far as sorcery"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the saying of R. Hanina on Deuteronomy 4:35 and the woman who sought earth from beneath his feet, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 286" ;
+    skos:definition "R. Hanina applies the verse that there is none beside him to sorcery as well, and the case reported next is his own: a woman tried to take earth from under his feet in order to bewitch him, and he said to her, if you can, then do it, for it is written, there is none beside him. The claim is that the art has no power against him, and the ground is a verse and not a technique."@en ;
+    skos:note "The parallel at Hullin 7b is reported in the scholarship to give R. Hanina a flatter answer, that the woman's business will not succeed, which would be a denial of efficacy rather than a personal exception. That tractate was not opened in this run; no node here rests on it, and it is named in the issues as the next place to go, for which the public-domain German of this translator is the only translation there is."@en,
+        "The resolution the discussion gives is what makes the claim worth holding as a node. The objection is raised from the preceding saying, that the art contradicts the household above; the answer is that it was different with R. Hanina, whose merits were very great. The claim is thereby rescued at the cost of becoming untestable against any single case: whoever is struck had too little merit. The holding has other claims of that shape and this is the plainest of them."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinTheSorcererIsStoned a pm:Cautioning ;
+    rdfs:label "Die Kunst ist todeswuerdig, und gestritten wird ueber die Todesart"@de,
+        "The art is capital, and the discussion is about which death"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67a-67b, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), pp. 285-286" ;
+    skos:definition "The warning of this transmission against the art is a sentence of death, and the part of it that is argued is which death. R. Jose the Galilean derives the sword from the wording of the prohibition; R. Akiba derives stoning from another verse; Ben Azzai derives stoning from the commandment that stands next to it. The teaching that the feminine wording of the prohibition carries the masculine too, and that it is feminine only because women are mostly found in sorcery, is stated before the dispute."@en ;
+    skos:note "What is warned against is the performance and not the capacity, which is the opposite emphasis from most of the cautions in this holding. Nothing here says the art does not work, and the next two nodes say in as many words that it does. A transmission that puts a man to death for an act it holds effective is making a different claim from one that forbids a delusion."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:SanhedrinSorcererIsTheOneWhoDoesTheDeed,
+        pmp:SanhedrinOneWordOverTheField ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinThreeHundredRulesOnTheWitch a pm:Conceptualizing ;
+    rdfs:label "Dreihundert Lehren zum Vers ueber die Zauberin, von denen zwei gelernt wurden"@de,
+        "Three hundred rules on the verse about the witch, of which two were learnt"@en ;
+    dcterms:source "Tosefta Sanhedrin XI.5c, trans. Herbert Danby, Tractate Sanhedrin: Mishnah and Tosefta (London: Society for Promoting Christian Knowledge, 1919), p. 107" ;
+    skos:definition "R. Akiba says that R. Eliezer used to expound three hundred halakhoth on the commandment not to suffer a witch to live, and that he himself learnt only two things from it: the two cucumber pickers, and that the one who does the deed is liable while the one who only appears to is innocent. A body of law of that size on one verse is claimed, and the amount of it that reached the next generation is stated as two sentences."@en ;
+    skos:note "It is also the clearest statement in the holding of a transmission reporting its own loss in numbers. Two of three hundred, said by the man who received them."@en,
+        "The Babylonian Talmud reports the same figure with a different subject: there the three hundred, or by another reading three thousand, are rules about the planting of cucumbers, that is about the technique, and not about the verse. The Tosefta read here has the verse. Which way the substitution ran is not decided here, and the difference matters, because one version makes the lost body of law legal doctrine and the other makes it operative instruction."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ToseftaSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinThreefoldDivisionOfTheLaw a pm:Conceptualizing ;
+    rdfs:label "Drei Klassen, von denen eine von vornherein erlaubt ist"@de,
+        "Three classes, of which one is permitted from the outset"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the saying of Abaye on the law of sorcery, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "Abaye says the law of sorcery is like the law of the Sabbath: some of it is punished by stoning, some of it leaves the doer free while the act stays forbidden, and some of it is permitted from the outset. He assigns the classes: the one who performs an act is stoned, the one who merely holds the eyes is free but the act is forbidden, and permitted from the outset is what R. Hanina and R. Oshaya used to do."@en ;
+    skos:note "The division settles that liability does not follow efficacy in this transmission. The third class is the one that proves it: what those two did was to create a calf and eat it, which is as real an effect as the corpus claims anywhere, and it is permitted. What is graded is the means and the warrant, not whether anything happened."@en,
+        "The middle class is where the Mishnah stopped. It says only that the man is free; that the act is nevertheless forbidden is Abaye's addition, and the holding records it here rather than at the Mishnah so that the two are not read as one sentence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinWaterDissolvesTheTransformation a pm:Conceptualizing ;
+    rdfs:label "Niemand kauft hier etwas, ohne es durch Wasser zu pruefen"@de,
+        "Nobody buys here without testing it by water"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, Zeeri's ass at Alexandria and the rule of the sellers, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "The competing criterion, in the same discussion and on the opposite premise. Zeeri bought an ass in Alexandria; when he went to water it the enchantment dissolved and he was left sitting on a plank of a bridge. The sellers told him that were he not Zeeri they would not have given the money back, for there is nobody here who buys anything without testing it by water. Here the test does not expose an illusion as empty; it undoes a transformation the discussion treats as having taken place."@en ;
+    skos:note "It is also the only place in the part read where a criterion is reported as a market custom rather than as a saying of a named authority: the sellers state it as what everybody does. That makes it the one criterion here with a claim to having been applied more than once."@en,
+        "The two criteria are held side by side in the text and are not harmonised there. At the camel the absence of a trace proves that nothing happened; at the ass the water proves that something did and ends it. Any statement about what this transmission takes a test to be has to carry both, and a reader who meets only one of them will get the transmission wrong."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinWhatIsBeyondTheDemons a pm:Conceptualizing ;
+    rdfs:label "Was den Daemonen unmoeglich ist, als Mass angegeben"@de,
+        "What is beyond the demons, given as a measure"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the sayings of R. Eliezer and Rav Pappa on what a demon can create, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "A stated limit of the art, with a quantity. R. Eliezer infers from the plague of lice that a demon cannot create a creature smaller than a barley grain. Rav Pappa sharpens it: not even one the size of a camel can they create; what they can do is gather such things together, and the small ones they cannot. Before it stands the distinction that where weight is laid on a particular implement the thing is done by a demon, and where no weight is laid on an implement it is sorcery."@en ;
+    skos:note "Rav Pappa's second half is the more consequential: it reinterprets every apparent creation as transport. A claim that something was made is thereby converted into a claim that something was fetched, and the two differ in what would show them false."@en,
+        "This is the only place in the part read that draws a boundary of efficacy with a measure in it, and the measure is the wrong way round from any physical expectation: the small is harder than the large. The reason is that the boundary is derived from a scriptural episode and not from a trial."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinWhetherTheArtPrevailsAgainstTheDecree a pm:Disputing ;
+    rdfs:label "Ob die Kunst gegen das oben Beschlossene durchdringt"@de,
+        "Whether the art prevails against what is decided above"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the objection from that saying against R. Hanina and the answer from his merits, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 286",
+        "Babylonian Talmud, Synhedrin 67b, the saying of R. Johanan on the name of the art, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 286" ;
+    skos:definition "A disagreement the text stages itself and does not leave to a reader. One saying grounds the very name of the art in its contradicting the household above; the next holds that there is none beside him even in a matter of sorcery. The discussion puts the second against the first in as many words and resolves it by an exception in the person: it was different with R. Hanina, whose merits were very great. The general claim of efficacy is left standing and the exception is personal."@en ;
+    skos:note "Held as a node because the resolution is the finding and not the disagreement. A transmission that answers a counter-case by the merit of the man it happened to has made its claim safe against every single case, and that is a property of the claim which no amount of further material changes. It is also the reason the two sayings must not be read as one position."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmc:SanhedrinSorceryContradictsTheHeavenlyRetinue ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
 pmc:SattaSappaya a pm:Conceptualizing ;
     rdfs:label "Die sieben Zuträglichkeiten, drei davon durch eine Probe von drei Tagen geprüft"@de,
         "The seven suitabilities, three of them tested by a probation of three days"@en ;
@@ -24618,6 +24799,16 @@ pmp:SaktipataTransmission a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmp:SanhedrinLawsOfFormationBeforeTheSabbath a pm:Practicing ;
+    rdfs:label "Sich am Vorabend des Sabbats mit der Schoepfungslehre befassen"@de,
+        "Occupying oneself with the laws of formation on the eve of the Sabbath"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the third class of Abaye's division, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 287" ;
+    skos:definition "The practice Abaye names as permitted from the outset: R. Hanina and R. Oshaya occupied themselves every eve of the Sabbath with the laws of formation, created a three-year-old calf and ate it. The operation is study of a doctrine, performed at a fixed time of the week, and it is not distinguished in the text from other learning by anything except what follows from it."@en ;
+    skos:note "The parallel a little earlier in the same tractate names the object of their study as a book title where this place names rules, which touches traditions/sefer-yetzirah.ttl directly. That earlier place was not read at the wording in this run and the difference is therefore recorded and not decided."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
 pmp:ShamanicInterpretation a pm:Practicing ;
     rdfs:label "Das Deuten einer Mitteilung durch einen Schamanen"@de,
         "Having a communication interpreted by a shaman"@en ;
@@ -25821,6 +26012,30 @@ pmc:RasaVajradeha a pm:Conceptualizing ;
     pm:fromWork pmw:RasaJalaNidhi ;
     pm:withinTradition pmt:Rasashastra .
 
+pmc:SanhedrinSorcererIsTheOneWhoDoesTheDeed a pm:Conceptualizing ;
+    rdfs:label "Der Zauberer ist der, der die Handlung vollbringt, nicht der, der die Augen haelt"@de,
+        "The sorcerer is the one who does the deed, not the one who holds the eyes"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67a, the Mishnah with the apparatus, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), pp. 285-286",
+        "Mishnah Sanhedrin VII.11, trans. Herbert Danby, Tractate Sanhedrin: Mishnah and Tosefta (London: Society for Promoting Christian Knowledge, 1919), pp. 106-107" ;
+    skos:definition "The sentence the whole law of this subject hangs on. A sorcerer is the one who accomplishes some deed and not the one who merely deceives the eyes; and the illustration attributed to R. Akiba in the name of R. Jehoshua is of two men picking cucumbers, of whom the one who actually picked is liable and the one who only appeared to is innocent. The capital list of the chapter puts the sorcerer among those who are stoned; this sentence says which of two men in the same posture that list reaches."@en ;
+    skos:note "The first clause is a definition in the edition read and a penal norm in the manuscript. Goldschmidt's base text, the censorship-free Bomberg edition of Venice 1520 to 1523, carries the first clause without the word of liability, and his German renders it accordingly: the sorcerer, only when he performs an act, not however when he merely puts on a deception of the eyes. His apparatus carries a note at that very word, giving it for the Munich manuscript. Danby's English renders the clause the same way as Goldschmidt's base text. The second clause, the summary after the cucumbers, carries the word of liability in both. Which direction that variant runs is not decidable from the sigla key alone and is an open question of this run, named in its issues; what is established is that the standard public-domain English and the standard public-domain German both read the first clause as a definition."@en,
+        "What the Mishnah does not say is as important as what it says. It says the one who holds the eyes is free, and it does not say that what he does is allowed. The gap is filled only in the Babylonian discussion, at pmc:SanhedrinThreefoldDivisionOfTheLaw, and from a different verse."@en,
+        "Why this is the node the counter-search went looking for. The operative handbook in traditions/hekhalot.ttl sets out a hundred and thirty-six operations and, as the search at pmp:HarbaDeMosheDefectusSearch established, names no condition of failure for any of them. This sentence is the earliest place in the same language and the same region that distinguishes a performance which did something from a performance which only looked as though it did, and it makes the distinction decide a man's life. Neither text names the other; the juxtaposition is the compiler's and is recorded as such in the search node."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:MishnahSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
+pmc:SanhedrinSorceryContradictsTheHeavenlyRetinue a pm:Conceptualizing ;
+    rdfs:label "Zauberei ist nach dem Widerspruch gegen das Gefolge oben benannt"@de,
+        "Sorcery is named from contradicting the retinue above"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 67b, the saying of R. Johanan on the name of the art, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 286" ;
+    skos:definition "R. Johanan's answer to why the practices are called what they are called: because they contradict the household above. The translation read gives it as contradicting the heavenly college, and its note gives the word as an acrostic of that phrase. It is the strongest claim of efficacy this transmission makes, and it is made as the ground of the name itself."@en ;
+    skos:note "The claim is not that the art produces an effect in the world but that it prevails against a decision already taken above, which is a stronger claim and a different one. The word rendered household is a loan from the Latin for a great man's following."@en,
+        "The public-domain English loses this. Rodkinson gives it as a remark that witchcraft may affect even against heavenly decrees, without the acrostic, so that the ground of the name disappears and the sentence reads as an aside."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
 pmc:Sariel a pm:Naming ;
     rdfs:label "Sariel"@de,
         "Sariel"@en ;
@@ -26590,6 +26805,16 @@ pmp:RosicrucianExaminatioAnteNuptias a pm:Practicing ;
     pm:fromWork pmw:NuptiaeChymicae ;
     pm:withinTradition pmt:Rosicrucian .
 
+pmp:SanhedrinOneWordOverTheField a pm:Practicing ;
+    rdfs:label "Ein Wort ueber ein Feld sprechen"@de,
+        "Saying one word over a field"@en ;
+    dcterms:source "Babylonian Talmud, Synhedrin 68a, R. Eliezer on his deathbed, trans. Lazarus Goldschmidt, Der babylonische Talmud, vol. VII (Berlin: S. Calvary und Co., 1903), p. 289" ;
+    skos:definition "The operation R. Eliezer reports of himself on his deathbed. Akiba asked him on the road to teach him something about the planting of cucumbers; he said one thing, and the whole field filled with cucumbers; Akiba then asked to be shown how they are pulled up, and he said one thing, and they were all gathered into one place. No material, no implement, no preparation and no time of day is named: the operation is a single utterance, twice."@en ;
+    skos:note "Technically this is the same operation as the hundred and thirty-six of the handbook in traditions/hekhalot.ttl, which likewise consist in reciting a named section and letting the effect follow, with the difference that here the words are not written down. The transmission that forbids the art on pain of death reports its own teachers performing it, and the discussion notices: it asks how he was permitted to do this, since we have learnt that the one who performs an act is liable, and answers with the permission to learn."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:TalmudBavliSanhedrin ;
+    pm:withinTradition pmt:RabbinicHalakhah .
+
 pmp:ShangqingAnmo a pm:Practicing ;
     rdfs:label "Die Reibeordnung"@de,
         "The rubbing regimen"@en ;
@@ -26748,6 +26973,11 @@ pmw:SyllabusInstructionumAA a dcterms:BibliographicResource ;
     rdfs:label "A Syllabus of the Official Instructions of A∴A∴ Hitherto Published"@de,
         "A Syllabus of the Official Instructions of A∴A∴ Hitherto Published"@en ;
     skos:note "The transmission's own catalogue of its instructions, with the four classes that decide whether a text may be altered. It is the document that makes the edition of every other node in this file a necessary part of the citation."@en .
+
+pmw:ToseftaSanhedrin a dcterms:BibliographicResource ;
+    rdfs:label "Tosefta, Traktat Sanhedrin"@de,
+        "Tosefta, tractate Sanhedrin"@en ;
+    skos:note "Read in Danby's translation beside the Mishnah, in the same volume of 1919. Danby's reference for this passage is T. XI.5c; the Vilna division numbers the same passage 11:2."@en .
 
 pmw:VinayaPitaka a dcterms:BibliographicResource ;
     rdfs:label "Vinaya Piṭaka"@de,
@@ -27376,6 +27606,13 @@ pmw:MishkatAlMasabih a dcterms:BibliographicResource ;
     rdfs:label "Mishkāt al-Maṣābīḥ"@de,
         "Mishkāt al-Maṣābīḥ"@en ;
     skos:note "Not opened. The work is known to this holding only through the passages Hughes quotes from its twenty-first book, and the quotation is his English and not a translation this run can check against an original."@en .
+
+pmw:MishnahSanhedrin a dcterms:BibliographicResource ;
+    rdfs:label "Mischna, Traktat Sanhedrin"@de,
+        "Mishnah, tractate Sanhedrin"@en ;
+    skos:note "Danby prints Mishnah and Tosefta in alternating paragraphs under subject headings of his own, and says in his second footnote that this arrangement is not that of the original texts. The subject number is therefore his and is not cited here; what is cited is his reference to the Mishnah and the Tosefta and the page of his volume."@en,
+        "Read in the translation of Herbert Danby, Tractate Sanhedrin: Mishnah and Tosefta, the judicial procedure of the Jews as codified towards the end of the second century A.D., in the series Translations of Early Documents, Series III, Rabbinic Texts, London, Society for Promoting Christian Knowledge, 1919. The edition is named from the title pages in the full text and not from a catalogue line."@en,
+        "The chapter and paragraph number of this passage is not one number. It is 7:11 in the Babylonian division, which Danby follows; the Palestinian division of the same chapter runs to thirteen halakhot and puts it at 7:13; Rodkinson's English prints it as Mishnah XII. The place is therefore given with the edition and never as a bare number."@en .
 
 pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
     rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
@@ -28822,6 +29059,14 @@ pmw:ClaviculaSalomonis a dcterms:BibliographicResource ;
     rdfs:label "Clavicula Salomonis"@de,
         "Clavicula Salomonis"@en .
 
+pmw:TalmudBavliSanhedrin a dcterms:BibliographicResource ;
+    rdfs:label "Babylonischer Talmud, Traktat Synhedrin"@de,
+        "Babylonian Talmud, tractate Synhedrin"@en ;
+    skos:note "Read in the translation of Lazarus Goldschmidt, Der babylonische Talmud mit Einschluss der vollstaendigen Misnah, seventh volume, Synhedrin, Makkoth, Sebuoth, Aboda-zara, Horajoth, Edijoth, Aboth, Berlin, S. Calvary und Co., 1903. The title page states what the translation rests on: the first, censorship-free Bomberg edition, Venice 1520 to 1523, with the variants of the later revised editions and of the Munich Talmud manuscript. The edition is copied from that title page in the full text."@en,
+        "Rodkinson's English of 1902 was fetched and compared and is not used. It is defective for exactly this subject: his own explanatory remarks state that where the original gives two statements separated by a formula of alternative he translates only the second, and at the place of the permission to learn the whole proof runs on that formula. The comparison stands in the search node in examinations/searches-rabbinic-sorcery-law.ttl."@en,
+        "The page sequence of the part read was checked before the reading: the running heads run 285, 286, 287, 288, 289, 290, 291 without a gap, so a term not found in this part is a statement about the work and not about the scan."@en,
+        "The volume prints the Aramaic and Hebrew beside the German and carries an apparatus with a printed key to its sigla: M is the Munich manuscript after Rabbinowicz's Variae lectiones, P the editio princeps, B the later revised editions, V readings of some editions. That key is what makes the variant at pmc:SanhedrinSorcererIsTheOneWhoDoesTheDeed readable at all, and it is the reason this volume was preferred to the public-domain English."@en .
+
 pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     rdfs:label "Für jemanden aus diesem Buch gebrauchen"@de,
         "Using out of this book for a sufferer"@en ;
@@ -28833,6 +29078,22 @@ pmp:EuropeanFolkMagicGebrauchen a pm:Practicing ;
     pm:fromWork pmw:HohmanFreund1820,
         pmw:HohmanLongLostFriend1850 ;
     pm:withinTradition pmt:EuropeanFolkMagic .
+
+pmt:RabbinicHalakhah a pm:Tradition ;
+    rdfs:label "Rabbinische halachische Ueberlieferung"@de,
+        "Rabbinic halakhic transmission"@en ;
+    dcterms:source "Mishnah Sanhedrin VII.11, trans. Herbert Danby, Tractate Sanhedrin: Mishnah and Tosefta (Translations of Early Documents III, Rabbinic Texts; London: Society for Promoting Christian Knowledge, 1919), pp. 106-107" ;
+    skos:definition "The transmission of Jewish law in the Mishnah, the Tosefta and the two Talmuds, which legislates on sorcery, grades it, and applies criteria to a claimed performance in order to decide a case."@en ;
+    skos:note "Entered at places read and not registered first, because the passages were opened in the same run in which the tradition was decided on. The three decisions SPEC section 14 requires before the first node were made and are these. The contact route is documented and dense: this transmission and the operative Jewish material already in the holding share a language, a region and several centuries, and the handbook whose counter-transmission this is was composed, on every dating anyone now defends, after the Mishnah was fixed and while the Babylonian discussion was being redacted. The recension and edition are Danby for the Mishnah and the Tosefta and Goldschmidt for the Babylonian Talmud, both named at the works. The number of citable places is eleven, in three works, all read at the wording in this run."@en,
+        "What was read at the wording: Mishnah Sanhedrin VII.11 and Tosefta Sanhedrin XI.5c in Danby, pages 106 and 107, with the title pages; and the Babylonian Talmud Synhedrin from folio 67a to folio 68a in Goldschmidt, pages 285 to 290, with the key to his sigla. What was not opened: the Palestinian Talmud at this place, the Tosefta in Hebrew, Sifre Deuteronomium 170, which is where the permission to learn originates, Strack's edition of the Mishnah with its apparatus, and the places of this transmission outside tractate Sanhedrin that bear on the subject, of which the proven amulet at Sabbath 61a and the ash strewn around the bed at Berakhoth 6a are the two the next run should take first. They are named in the harvest note and in the issues of this run and in no node."@en,
+        "Whether this transmission belongs in the holding as a tradition is a decision of the human and is put to him, with options and a recommendation, in the pull request of this run. The functional test of SPEC section 14 is what it was entered on: a tradition delivers testimony, a place where somebody says what is the case, and this transmission does that about sorcery at length. It is not entered as an authority over the corpora it condemns."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:MishnahSanhedrin,
+        pmw:TalmudBavliSanhedrin,
+        pmw:ToseftaSanhedrin ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:MishnahSanhedrin ;
+    pm:principalCorpus "Mishnah, tractate Sanhedrin; Tosefta, tractate Sanhedrin; Babylonian Talmud, tractate Sanhedrin; Palestinian Talmud, tractate Sanhedrin; Sifre Deuteronomium" .
 
 pmw:DrowerMandaeansOfIraqAndIran a dcterms:BibliographicResource ;
     rdfs:label "Drower, The Mandaeans of Iraq and Iran (1937)"@de,
@@ -29089,15 +29350,15 @@ pmt:Hathayoga a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Svātmārāma, Haṭhayogapradīpikā" .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Śatapatha-Brāhmaṇa"@de,
         "Śatapatha Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pm:Process a owl:Class ;
     rdfs:label "Prozess"@de,
@@ -29449,22 +29710,15 @@ pmw:HohmanFreund1820 a dcterms:BibliographicResource ;
         "Hohman, Der lange verborgene Freund (Reading, Pa. 1820)"@en ;
     skos:note "The first printing, and the one this file treats as the text. Read by term through the whole book and page by page at the front matter, the closing pages and the section of unlucky days. The optical transcription of the copy used is a Fraktur scan: the German is legible, and the figures of the day list are destroyed in places and were supplied from the Ephrata printing of 1828, which is named as its own work for that reason."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pmw:HohmanLongLostFriend1850 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@de,
         "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@en ;
     skos:note "The English translation, held apart from the German printing rather than smoothed into it, because the two differ at places where the difference falls on the examinable part of a claim. It is not a complete translation: a group of charms that stands in the German original — marksmanship, the silencing of dogs, the whitening of a black horse — is absent from it, and its appendix of unmagical remedies is an accretion the first printing does not carry."@en .
 
-pm:Disputing a owl:Class ;
-    rdfs:label "Bestreiten"@de,
-        "Disputing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
-    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pmt:NorseSeidr a pm:Tradition ;
     rdfs:label "Altnordische Ritualüberlieferung"@de,
@@ -29496,10 +29750,12 @@ pmt:Shangqing a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tao Hongjing, Zhen'gao; Huangting neijing jing; Dadong zhenjing" .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
+pm:Disputing a owl:Class ;
+    rdfs:label "Bestreiten"@de,
+        "Disputing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A disagreement about a claim, carried on within a tradition, between traditions, or among the scholars who edit their texts."@en ;
+    skos:note "Without this class a disagreement can only be recorded by silently preferring one side, or by leaving the claim out because it is contested. Both losses are worse than the disagreement. A dispute node names what is at issue and cites each side, and a dispute with only one source cited is not a dispute."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
@@ -29507,6 +29763,11 @@ pm:Situating a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmt:EuropeanFolkMagic a pm:Tradition ;
     rdfs:label "Europäische Volksmagie"@de,
