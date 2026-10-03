@@ -6265,6 +6265,28 @@ pmc:HippocratesEvacuatioCeleris a pm:Cautioning ;
     pm:fromWork pmw:AphorismiHippocratis ;
     pm:withinTradition pmt:HippocraticMedicine .
 
+pmc:HippocratesFaciesInterroganda a pm:Cautioning ;
+    rdfs:label "Das tödliche Gesicht ist erst zu befragen, und es entscheidet sich in einem Tag und einer Nacht"@de,
+        "The deadly face must first be asked after, and it is decided in a day and a night"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 2, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 236" ;
+    skos:definition "The treatise defeats its own strongest sign in the sentence after stating it. Inquiry must be made whether the patient has long wanted sleep, whether his bowels have been very loose, and whether he has suffered from want of food; if any of these be confessed to, the danger is to be reckoned so far less, and it becomes obvious in the course of a day and a night whether or not the appearance proceeds from these causes. Only if none of these is said to exist, and the symptoms do not subside in that time, is death to be known for certain to be at hand."@en ;
+    skos:note "The caution is what makes the sign a sign rather than a verdict, and it carries its own counted term: one day and one night, within which the alternative explanation either holds or falls. The holding has no other place where a sign is given a stated interval for being wrong."@en,
+        "Two further defeating conditions stand in the same treatise and are not entered separately. Chapter 2 excepts the sleeper who does not close his lids from habit, and the case where the open-lidded sleep goes with diarrhoea or a purgative; chapter 12 says the urine prognosis does not hold if the bladder itself is diseased. All three have the same form: the sign is withdrawn where another cause for it is available."@en ;
+    pm:cautionsAbout pmc:HippocratesFaciesMoribunda ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesIncisioTemporisVetita a pm:Cautioning ;
+    rdfs:label "Kein Schnitt an der Schläfe, und der Krampf wechselt die Seite"@de,
+        "No incision at the temple, and the convulsion crosses over"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 13, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 457-458" ;
+    skos:definition "The one prohibition in the treatise that comes with a named and lateralised consequence: incisions may be practised with impunity on other parts of the head, with the exception of the temple and the parts above it, where there is a vein that runs across the temple, in which region an incision is not to be made. For convulsions seize on a person who has been thus treated; and if the incision be on the left temple the convulsions seize the right side, and if on the right side they take place on the left side."@en ;
+    skos:note "The same chapter carries the other half of the local régime and it is not entered separately: in a wound of the head you must not apply anything liquid, not even wine, nor a cataplasm, nor conduct the treatment with tents, nor apply a bandage, unless the wound be on the forehead or the bare part or about the eyebrow and eye — and even there only while the inflammation and swelling last. Four prohibitions with one exception and no consequence stated for any of them."@en,
+        "Worth entering for the form of the consequence rather than its content. A caution whose stated outcome is a crossing — left incision, right convulsion — excludes an outcome, because a convulsion on the same side would not be the thing announced. The nineteenth chapter states the same crossing for the neglected wound, so the corpus holds it twice and in two different causal settings."@en ;
+    pm:cautionsAbout pmp:HippocratesIncisioCapitis ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmc:HippocratesIntestinumTransfixum a pm:Conceptualizing ;
     rdfs:label "Ein durchbohrter Dünndarm wächst nicht zusammen"@de,
         "A transfixed small intestine does not unite"@en ;
@@ -6272,6 +6294,65 @@ pmc:HippocratesIntestinumTransfixum a pm:Conceptualizing ;
     skos:definition "Stated of the part and not of the patient: if any of the small intestines be transfixed, it does not unite. The neighbouring aphorism says the same of a bone, a cartilage, a nerve and the slender part of the jaw, which once cut out do not grow again."@en ;
     skos:note "Entered beside the list of fatal parts because it is the same operation at one remove. It names a site, it names an outcome, and the outcome is an absence — the wound does not close — which is a thing an observer could in principle be wrong about and no term is set for the observation."@en ;
     pm:fromWork pmw:AphorismiHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesMeninxNonDenudanda a pm:Presupposing ;
+    rdfs:label "Nicht in einem Zug bis zur Hirnhaut durchsägen"@de,
+        "Do not saw through to the membrane at one sitting"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 21, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 465-466" ;
+    skos:definition "Stated with two consequences, and conditional on who has had the case. If you have had the management from the first you must not at once saw the bone down to the meninx, for it is not proper that the membrane should be laid bare and exposed to injuries for a length of time, as in the end it may become fungous; and there is another danger, that in the act of sawing you should wound the meninx. When only a very little of the bone remains to be sawed and the bone can be moved, you must desist and leave the bone to fall out of itself. Where the case is taken over from another after a time, the opposite is prescribed: saw at once down to the meninx with a serrated trepan."@en ;
+    skos:note "A rule indexed on the surgeon's history with the case rather than on the state of the injury is a shape the holding should be able to count, and this is the second place in this file that has it. The first is pmc:HippocratesVulnusCapitisCulpaMedici, where the counted death is attached to the surgeon's omission. Both put the operator inside the conditions of the operation's success."@en,
+        "Entered as a necessity because the consequence is stated twice and in the text's own words, and because the instruction reverses on a circumstance that has nothing to do with the patient: who was in charge from the beginning. The same reversal governs the perforator at the end of the chapter — if you have had the charge from the first you must not penetrate to the membrane but leave a thin scale of bone — and the three-day window in chapter 14 carries the same condition."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The membrane is laid bare and exposed for a length of time and may in the end become fungous, and it may be wounded in the act of sawing." ;
+    pm:dependentStep pmp:HippocratesTrepanatio ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:HippocratesOssisRadulatio ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesNonIntegrisDiebus a pm:Cautioning ;
+    rdfs:label "Keine dieser Fristen lässt sich in ganzen Tagen zählen"@de,
+        "None of these periods can be counted in whole days"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 20, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 251; the Greek from Hippocrates, vol. II, ed. and trans. W. H. S. Jones, Loeb Classical Library 148, London 1923, p. 42" ;
+    skos:altLabel "οὐ δύναται δὲ ὅλῃσιν ἡμέρῃσιν ἀριθμεῖσθαι οὐδὲν τούτων ἀτρεκέως"@grc ;
+    skos:definition "The sentence that follows the series, in the same chapter and in the same breath: none of these can be truly calculated by whole days, for neither the year nor the months can be numbered by entire days. The treatise states the numbers and then withdraws their precision, giving as its ground the incommensurability of the calendar itself."@en ;
+    skos:note "A warning against the thing the passage prescribes, standing inside the prescribing passage, in the mouth of the writer who gave it, two sentences later. It is entered as its own node because it does what no other counted threshold in the holding does: it removes in advance the outcome that would have told against the series, namely a crisis that falls a day beside a stated day."@en,
+        "It is deliberately NOT added to the derivation of pmc:SelfWarningStandsInsideThePrescription, and the near-miss is worth recording rather than passing over. That statement is about a transmission warning the practitioner against valuing a practice for the wrong reason. This warns against the exactness of a count and not against a valuing, and the one who is relieved by it is the author. A successor statement about transmissions that state a number and withdraw its precision in the same passage would take this as a witness; the existing one does not, and stretching it to fit would make it unfalsifiable in exactly the way its own notes guard against."@en ;
+    pm:cautionsAbout pmc:HippocratesDiesCritici ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesPronoia a pm:Conceptualizing ;
+    rdfs:label "Die Vorauskenntnis, wie dieser Korpus das Geschäft des Arztes bestimmt"@de,
+        "Foreknowledge, as this corpus defines the physician's business"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 1, in the English of Francis Antony Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 234-235; the Greek from Hippocrates, vol. II, ed. and trans. W. H. S. Jones, Loeb Classical Library 148, London 1923, pp. 6-8" ;
+    skos:altLabel "πρόνοια"@grc ;
+    skos:definition "The treatise opens by naming a capacity and its scope: it is an excellent thing for the physician to cultivate foreknowledge, for by foreseeing and foretelling in the presence of the sick the present, the past and the future, and by explaining the omissions the patients have been guilty of, he will the more readily be believed to know their circumstances, so that men will have confidence to entrust themselves to him. The capacity is stated as covering all three tenses and not the future alone."@en ;
+    skos:note "Entered because the corpus states the capacity before stating any sign, and states it in terms of what it produces in the patient rather than in terms of what it establishes about the disease. The sentence that follows puts the order plainly: it is impossible to make all the sick well, and this would have been better than to be able to foretell what is going to happen. The capacity is named second-best by its own treatise."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesPronoiaAnaitios a pm:Yielding ;
+    rdfs:label "Das Ansagen soll den Ansagenden unbelangbar machen"@de,
+        "The announcing is said to make the announcer blameless"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 1, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 235" ;
+    skos:definition "Stated in one clause of the opening chapter: by foreknowing and foretelling those who will die and those who will be saved, the physician would be blameless. The practice is the public announcement, the thing arrived at is the position of not being held the cause, and the treatise names no other return on the announcing in that chapter."@en ;
+    skos:note "A yielding claim whose product falls on the operator and not on the patient, which is rare in the holding and is why it is entered as one. Nothing in the chapter says the announcing changes the course of the disease; the next sentence says the physician will be the better able to treat aright those who can be saved, and that is attributed to having anticipated everything, not to having said it aloud."@en,
+        "Its failure condition is weak and the treatise supplies no term for it. A wrong announcement is not said to cost the physician anything, and chapter 25 widens the signs to cover diseases it does not name, so there is no case in which the announcing is said to have been inadmissible. That is the shape SPEC §3 records as pm:claimDoesNotDiscriminate, and no protocol is entered here because none was carried."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:HippocratesPrologesis ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine ;
+    pm:yieldsCapacity pmc:HippocratesAnaitios .
+
+pmc:HippocratesPueriOssaTenuiora a pm:Conceptualizing ;
+    rdfs:label "Der Knochen des Kindes vereitert früher und das Kind stirbt früher"@de,
+        "A child's bone suppurates sooner and the child dies sooner"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 18, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 463" ;
+    skos:definition "The eighteenth chapter states the claim as a graded comparison with no number in it: the bones of children are thinner and softer because they contain more blood, and are porous and spongy and neither dense nor hard; wounded to a similar or inferior degree by weapons of the same or inferior power, the bone of a young person more readily and quickly suppurates, and in accidents which are to prove fatal the younger person will die sooner than the elder. The operation is not withheld — blood is to be given issue by perforating with a small trepan — but with the greatest precautions, because the bone of young persons is thinner and more superficial."@en ;
+    skos:note "A third variable that orders the duration without being given a number, beside the site and beside the season which does get one. The treatise is therefore consistent in its arithmetic: three things make the dying faster or slower, and only the calendar is counted."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
     pm:withinTradition pmt:HippocraticMedicine .
 
 pmc:HippocratesQuadragintaDies a pm:Conceptualizing ;
@@ -6294,6 +6375,77 @@ pmc:HippocratesSeptemDies a pm:Conceptualizing ;
     pm:fromWork pmw:AphorismiHippocratis ;
     pm:withinTradition pmt:HippocraticMedicine .
 
+pmc:HippocratesSignaOmniTempore a pm:Conceptualizing ;
+    rdfs:label "Die Zeichen werden für jedes Jahr, jede Jahreszeit und jede nicht genannte Krankheit beansprucht"@de,
+        "The signs are claimed for every year, every season and any disease not named"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 25, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 256; the Greek from Hippocrates, vol. II, ed. and trans. W. H. S. Jones, Loeb Classical Library 148, London 1923, pp. 54-55" ;
+    skos:definition "The closing chapter extends the signs twice. In place: they are said to have held true in Libya, in Delos and in Scythia, from which it is said to be known that in the same regions many more things than these can be learned. In coverage: you should not complain because the name of any disease may happen not to be described here, for you may know all such as come to a crisis in the aforementioned times by the same symptoms."@en ;
+    skos:note "Entered because it is the sentence that removes the last way the treatise could have been caught out. A sign catalogue that names its diseases can be tested against a disease it fails on; one that covers the diseases it does not name cannot. The three places are the other half: they are named as verification and no observation from any of them is reported."@en,
+        "The geographical claim is the only dating hook in the treatise, and what this run knows about the dispute over it is second hand. The research that preceded the run reports Littré, in the Avertissement to his second volume, giving Petersen's reading of Libya, Delos and Scythia as a travel record and holding the verification in those places at the time of writing to be very doubtful. Littré's volume was fetched in this run and measured for the state of its Greek, and the Avertissement was not read; Petersen was not opened at all. So the dispute is named here and entered nowhere, and the correction of this note is itself a finding of the run's own closing check."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesSuturaeNonTrepanandae a pm:Cautioning ;
+    rdfs:label "Niemals den Trepan auf die Nähte selbst"@de,
+        "Never the trepan on the sutures themselves"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 12, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 456" ;
+    skos:definition "Stated at the end of the twelfth chapter, after a long account of why an injury at a suture is both worse and harder to detect than one elsewhere: many of these require trepanning, but you must not apply the trepan to the sutures themselves, but on the adjoining bone."@en ;
+    skos:note "The prohibition is absolute in its wording and no consequence is given with it, which is why it is a caution and not a prerequisite of stated necessity. Adams reports that the rule is departed from twice in the sixth book of the Epidemics, and that Porralius gives three grounds for it; both were read in Adams's notes and neither work was opened, so neither is entered."@en ;
+    pm:cautionsAbout pmp:HippocratesTrepanatio ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesTrepanatioTriduum a pm:Presupposing ;
+    rdfs:label "Innerhalb der drei Tage, nicht danach"@de,
+        "Within the three days, and not after them"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 14, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 459" ;
+    skos:definition "The window the fourteenth chapter sets on the operation: when you scrape the bone with the raspatory and it appears that the wound in the bone requires the operation, you must not postpone it for three days but do it during this period, more especially if the weather be hot, and you have had the management of the treatment from the commencement. The scraping that establishes the indication is itself placed on the day after the wound is laid open and tented."@en ;
+    skos:note "Entered at prescribed order and not at stated necessity, and the reason is a decision about reading rather than caution. The chapter states no consequence for exceeding the three days. The nearest stated consequence in the same work is the term in chapter 19, and that one is attached to the injury never having been discovered at all, which is a different omission from an operation performed late. Reading chapter 19 as the consequence clause of chapter 14 would manufacture a stated necessity out of two places that do not refer to each other, and SPEC §3 keeps the scale apart for exactly that reason."@en,
+        "The season appears here as an intensifier — more especially if the weather be hot — and not as a boundary, and the second condition is about the surgeon and not the patient: the rule is given for the case where he has had the management from the commencement. Chapter 21 makes the same distinction govern the whole technique."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:HippocratesTrepanatio ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:HippocratesOssisRadulatio ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesTrepanumRefrigerandum a pm:Presupposing ;
+    rdfs:label "Der Trepan wird herausgenommen und in kaltes Wasser getaucht"@de,
+        "The trepan is taken out and dipped in cold water"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 21, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 465" ;
+    skos:definition "Stated with its consequence in the same sentence: in trepanning you must frequently remove the trepan on account of the heat in the bone and plunge it in cold water, for the trepan being heated by running round, and heating and drying the bone, burns it and makes a larger piece of bone around the sawing to drop off than would otherwise do. The chapter repeats the instruction for the case where the surgeon saws at once down to the membrane."@en ;
+    skos:note "The one stated necessity in the treatise whose consequence is both specific and observable at the time: a larger piece of bone comes away. It is also the place where this corpus is at its most physical — the failure is a property of the tool running hot, not of the patient and not of the day."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The instrument burns the bone and a larger piece of bone around the sawing drops off than would otherwise do." ;
+    pm:dependentStep pmp:HippocratesTrepanatio ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:HippocratesTrepanumRefrigeratio ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesUvulaAlvusAperienda a pm:Presupposing ;
+    rdfs:label "Vor dem Schnitt an der Uvula den Leib öffnen, wenn Zeit bleibt"@de,
+        "Open the bowels before the uvula is cut, if there is time"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 23, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 254" ;
+    skos:definition "The order the chapter gives and the two conditions it attaches: it will be better to open the bowels gently before proceeding to the operation, if time will permit and the patient be not in danger of being suffocated. No consequence of omitting it is stated anywhere in the treatise."@en ;
+    skos:note "Entered at the weakest strength the scale carries a consequence for, and that is the finding about it. The chapter says better and not necessary, and it names two circumstances in which the step is to be dropped; a reading that made this a necessity would be lending ancient warrant to a sequence the source left conditional. SPEC §11 names that error directly."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:HippocratesUvulaeResectio ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:HippocratesAlvusAperienda ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesUvulaRubraNonSecanda a pm:Cautioning ;
+    rdfs:label "Nicht, solange sie rot und groß ist"@de,
+        "Not while it is red and large"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 23, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 254" ;
+    skos:definition "Stated with its consequence in the same sentence: it is very dangerous to cut off or scarify enlarged uvulae while they are red and large, for inflammations and haemorrhages supervene; one should try to reduce such swellings by some other means at this season. When the change named in the same chapter has occurred, it will be safe to operate."@en ;
+    skos:note "A prohibition whose condition is a state of the part and not a date, which is the form the holding has least of. The stated consequence is specific enough to be recognised by a bystander, which is what distinguishes it from a caution that can never be seen to have been justified."@en ;
+    pm:cautionsAbout pmp:HippocratesUvulaeResectio ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmc:HippocratesVenaeSectioVere a pm:Cautioning ;
     rdfs:label "Im Frühjahr zur Ader und abführen"@de,
         "Bleed and purge in spring"@en ;
@@ -6302,6 +6454,36 @@ pmc:HippocratesVenaeSectioVere a pm:Cautioning ;
     skos:note "A season without a stated penalty. The holding carries a number of claims that bind an operation to a calendar and the useful distinction among them is whether anything is said to follow from acting outside the window; here nothing is, and the node is entered at that strength rather than at a stronger one."@en ;
     pm:cautionsAbout pmp:HippocratesVenaeSectio ;
     pm:fromWork pmw:AphorismiHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesVulnusCapitisCulpaMedici a pm:Conceptualizing ;
+    rdfs:label "Der gezählte Tod folgt aus dem Versäumnis des Arztes und nicht aus der Wunde"@de,
+        "The counted death follows from the surgeon's omission and not from the wound"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 19, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 463-464",
+        "Hippocrates, On Injuries of the Head 5 and 10, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 449 and 452-453" ;
+    skos:definition "The condition the nineteenth chapter puts on its own term, stated before the numbers: when a bone is broken or cleft or contused or otherwise injured, and when by mistake it has not been discovered, and neither the raspatory nor the trepan has been applied as required, but the case has been neglected as if the bone were sound. The seven and fourteen days are the terms of that neglect. The chapter then names the escape: if you perceive that fever is coming on and any of these symptoms accompany it, you must not put off, but having sawed the bone to the membrane or scraped it, you must apply the other treatment."@en ;
+    skos:note "The claim is entered because of where it puts the failure. The treatise opens its prognostic chapter by saying the physician may form an opinion of the patient's approaching dissolution and foretell what is to happen — which is the announcing of the Prognostic — and the case it describes is one the physician produced by missing the injury. So the same corpus that gives the announcing as what makes the announcer blameless gives, in the other treatise, a counted death whose stated cause is the announcer's own mistake. Both halves are in the holding now and neither is a reading of the other."@en,
+        "What would tell against this reading. The chapter can be read as describing an unrecognisable injury rather than a negligent surgeon: chapters 5 and 10 say at length that contusion and fine fissures cannot be recognised by sight and that the sounding probe does not show them. On that reading the mistake is excusable and the term is a property of the injury after all. The chapter's own words are by mistake it has not been discovered and neglected as if the bone were sound, which name an omission; the two readings are not reconciled here and both places are cited."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesVulnusCapitisLocus a pm:Conceptualizing ;
+    rdfs:label "Der Ort ordnet die Dauer des Sterbens, und bekommt keine Zahl"@de,
+        "The site orders how long the dying takes, and is given no number"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 2, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 446-447" ;
+    skos:definition "The second chapter grades the skull by site and states the consequence of each grade comparatively. At the bregma the bone is thinnest and the flesh over it least and the brain beneath it greatest, so that from a similar or even smaller wound the bone is more contused, fractured and depressed, injuries there are more deadly and more difficult to cure, and a man will die in a shorter space of time than from a wound in any other part of the head. Behind the vertex and the ear the bone is stronger and the flesh deeper, so that in a fatal accident the patient will live longer than when the wound is elsewhere, and pus takes longer to form and penetrate to the brain. The temple is named as the other weak place, for the jaw joint, the organ of hearing and a hollow and important vein. Not one of these gradations carries a day-count."@en ;
+    skos:note "The gradation is contested in the surgical literature and the contest is reported through the translator, so no dispute node is entered. Adams records that the posterior part being less dangerous is at variance with the experience of certain modern authorities and sets Guthrie's experience beside it as consonant; the Latin commentators Arantius and Porralius are quoted against chapter 18 on children in the strongest terms, that none was ever saved on whom the section was used. Both were read in Adams's notes and neither work was opened."@en,
+        "This is the node the convergence at pmc:TheIntervalAfterTheWound needed and it is not the node the earlier reading expected. The Greek corpus does couple the wounded site to the duration of the dying; what it does not do is express the duration as a number. It says longer and shorter and sooner and later, over a graded list of sites, and it stops there."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesVulnusCapitisSignaAequalia a pm:Conceptualizing ;
+    rdfs:label "Die Zeichen gelten gleich, ob die Wunde alt oder frisch ist"@de,
+        "The signs are declared the same whether the wound is old or recent"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 19, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 464" ;
+    skos:definition "After the sequence of signs that precede death in a neglected head wound — the wound losing its colour, the inflammation dying in it, the wound becoming glutinous and of a tawny and somewhat livid colour, the bone sphacelating and turning black and then pale, small blisters forming on the tongue, death in delirium, convulsions on the side opposite the wound, and in some an apoplexy — the chapter states: and these symptoms indicate, in the same manner, whether the wound be older or more recent."@en ;
+    skos:note "Entered separately because it is an explicit invariance claim and the holding has few. It says that one variable which an observer would expect to matter does not, and it says it of the sign-set and not of the term. Together with the season clause it fixes what this treatise thinks the duration depends on: the time of year, and not the age of the wound and not the place of it."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
     pm:withinTradition pmt:HippocraticMedicine .
 
 pmc:HorripilationCorrespondence a pm:Converging ;
@@ -13304,8 +13486,11 @@ pmc:TheIntervalAfterTheWound a pm:Converging ;
     rdfs:label "Der Verletzungsort, an eine gezählte Todesfrist gekoppelt"@de,
         "The wounded site coupled to a counted interval of death"@en ;
     skos:definition "Two medical transmissions do the same unusual thing with a wound: they take the site that was struck as the thing that fixes how long the dying takes, and they state the length in counted days. The needling-prohibition chapter of the Suwen gives six depots with six day-counts and pairs each with a bodily movement by which the strike is to be recognised. The sixth chapter of the Susruta's anatomical book sorts a hundred and seven marmas into five classes by the consequence of their injury and gives the two lethal classes their terms, seven days for the one and a fortnight or a month for the other. In both, the number rides on the place and not on the severity, and in both the interval is stated as doctrine rather than as a range of observations."@en ;
-    skos:note "The counter-comparandum, which is the part of this node that was actually missing. Hippocrates, Aphorisms VI.18, names seven parts whose severe wounding is deadly — bladder, brain, heart, diaphragm, small intestines, stomach, liver — and attaches no interval to any of them, no sign, and no gradation. That matters because the same section of the same work counts days twice, at seven days for a sudden apoplectic seizure and at forty for a gouty inflammation. The Greek corpus can state a term and does not state one for a wound. So coupling a site to an interval is not simply what a medical transmission does, and the agreement between the other two is a finding rather than a genre."@en,
+    skos:note "So what the other two transmissions share is narrower and better than this node first claimed, and it is still a finding. Not that a medical transmission couples a wound to a duration — all three do — but that the duration is stated as a number indexed on the wounded site. The Greek indexes the number on the season; the Chinese indexes six day-counts on six depots; the Indian indexes two terms on two classes of a hundred and seven junctions. On the narrower claim the Greek is a clean negative case rather than a merely silent one, which is stronger evidence than silence: a corpus that counts days after a wound and refuses to make the count depend on the place is a corpus that considered the question."@en,
+        "That counter-comparandum was read in one section of one treatise, and the run of 2026-10-03 read the treatise the Aphorisms had left unopened. The finding survives and the statement it supports has to be narrowed by one word. On Injuries of the Head 19 does attach a counted term to a head wound — fever before the fourteenth day in winter and after seven days in summer, death before seven days in summer and before fourteen in winter — so the Greek corpus is not silent about how long the dying takes after an injury. What it does not do is index that number on the site. Chapter 2 grades the skull by site at length, gives the bregma the shortest dying and the back of the head the longest, and then says in one clause that in fatal cases a man will survive longer in winter than in summer, whatever be the part of the head in which the wound is situated. The place orders the duration and the calendar counts it, and the treatise states the separation itself."@en,
+        "The counter-comparandum, which is the part of this node that was actually missing. Hippocrates, Aphorisms VI.18, names seven parts whose severe wounding is deadly — bladder, brain, heart, diaphragm, small intestines, stomach, liver — and attaches no interval to any of them, no sign, and no gradation. That matters because the same section of the same work counts days twice, at seven days for a sudden apoplectic seizure and at forty for a gouty inflammation. The Greek corpus can state a term and does not state one for a wound. So coupling a site to an interval is not simply what a medical transmission does, and the agreement between the other two is a finding rather than a genre."@en,
         "The identifier of the counter-comparandum is pmc:HippocratesVulneraLetalia in traditions/hippocratic.ttl, and it is deliberately not named with pm:convergingConcept: it is the case that does not converge, and a property that listed it among the converging concepts would report the opposite of the finding."@en,
+        "Two further things the same reading puts beside the candidate, neither of them entered as converging. The Greek term is attached to a case the chapter defines by the surgeon having missed the injury, so the number measures a neglect and not an anatomy; nothing of the kind is reported of either of the other two. And the Greek declares the sign-set invariant to the age of the wound, which is the only explicit invariance statement any of the three makes. The nodes are pmc:HippocratesVulnusCapitisLocus, pmc:HippocratesVulnusCapitisTempusAnni, pmc:HippocratesVulnusCapitisSignaAequalia and pmc:HippocratesVulnusCapitisCulpaMedici in traditions/hippocratic.ttl, and they are deliberately not named with pm:convergingConcept for the same reason pmc:HippocratesVulneraLetalia is not."@en,
         "What is not shared, and it is more than what is. The Chinese list is of six organs and is reached by the needle; the Indian list is of a hundred and seven junctions of muscle, vessel, ligament, bone and joint, and is reached by a weapon or a surgeon's knife. The Chinese chapter pairs each interval with a sign; the Indian chapter pairs each class with a physiology of fiery and lunar virtues. The Indian one adds a rule that moves a site between classes according to the depth of the wound and whether it was struck in the centre or at the edge, and the Chinese one has nothing of the kind. A convergence of the form of a claim is all this is."@en,
         "Where the two readings weaken the candidate as the issue stated it. The Indian terms are not as firm as a summary makes them: the translation gives one term in a parenthesis at the enumeration of the classes and a different one in the body of the verse sixteen places later, and the chapter's own shift rule lets a site be reassigned according to how it was struck. The Chinese terms are in open dispute inside their own canon, which the holding already carries: three chapters of the Suwen give three sets of numbers and the earliest reachable witness disagrees with the received text at two of six places. A convergence between two disputed interval-sets is still a convergence of form, and the form is what is claimed."@en ;
     pm:attestedBy pm:compilerInference ;
@@ -17099,6 +17284,34 @@ pmp:HippocraticIntervalSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-10-02" ;
     pm:searchedCorpus "Hippocrates, Aphorisms, Section VI, all sixty aphorisms, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. II, London: printed for the Sydenham Society, 1849, read continuously" ;
     pm:searchedFor "Whether the Greek corpus, at the place where it lists the parts whose wounding is fatal, says anything about how long the dying takes; and, if not, whether the absence is a property of the genre or of the subject — that is, whether the same section counts days at all. The question decides what the agreement between the Indian marman classes and the Chinese depot intervals is worth, since an agreement in a thing every medical transmission does is not a finding." .
+
+pmp:HippocraticVulnusStatusSearch a pm:Searching ;
+    rdfs:label "Ob diese zwei Traktate einen Eingriff in benannten Zuständen des Menschen verbieten"@de,
+        "Whether these two treatises forbid an operation in named states of the patient"@en ;
+    dcterms:date "2026-10-03" ;
+    skos:note "Not one member of the catalogue is a condition on an operation in either treatise. Where the terms do occur they occur as something else, and the three near things are worth naming because each fails on a different word. Thirst appears four times in the Prognostic, every time as a prognostic sign of the patient's state and never as a bar to a measure. Wine appears once in the head-wounds treatise, in the prohibition on putting anything liquid on a head wound, which is a rule about the dressing and not about the patient. And the one place that does make a measure conditional on the patient's conduct is chapter 20 of the head-wounds treatise, where the purge is given only if the erysipelatous swelling be not connected with any error in the regimen — a condition on the reading of a sign, not on the permission to operate."@en,
+        "What the two treatises do condition an operation on, so that the negative finding is readable against something. The state of the part: the uvula is not to be cut while red and large. The place: no incision at the temple, no trepan on a suture, the trepan only where the bone is thickest. The time since the wound: the three days of chapter 14. The weather: more especially if it be hot. The age of the patient: a small trepan and the greatest precautions in children. And the surgeon's own history with the case, twice. The conditions are on the site, the instrument, the calendar and the operator — and not once on a state of the person operated on."@en,
+        "Where the Greek side of prima-materia#610 probably is, stated so that the next run does not search here again. On Regimen in Acute Diseases stands in the same volume at pp. 271-336 and is where this corpus treats baths, evacuation and the condition of the patient under which a measure is or is not applied; the Aphorisms carry the seasonal rules for venesection, two of which are already in this holding at pmc:HippocratesVenaeSectioVere. Neither was read for this question. Celsus, whom the issue names for the Graeco-Roman side, is a different corpus and is not in this holding at all."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Whole-text search of both chapter ranges after whitespace normalisation, case-insensitively, for: drunk, intoxicat, wine, weari, fatigue, exhaust, satiet, repletion, full meal, after eating, hunger, fasting, abstinen, thirst, fright, terror, coition, venery, sexual, journey, travel, anger, wrath, bath, vomit, purg, venesect, bleed, blood-letting, phlebotom, open a vein, season, summer, winter, spring, autumn. Every hit read at its place; the twenty-nine and twenty hits on anger are the substring in dangerous and were discarded." ;
+    pm:searchedBy "prima-materia, 2026-10-03" ;
+    pm:searchedCorpus "Hippocrates, On Injuries of the Head, chapters 1 to 21, and The Book of Prognostics, chapters 1 to 25, both read continuously in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 445-466 and 234-256" ;
+    pm:searchedFor "The catalogue of states of the person in which an operation on a vessel is forbidden — drunkenness, anger, exhaustion, having just eaten, hunger or fasting, thirst, fright, having just had intercourse, having travelled — which prima-materia#610 puts as a convergence candidate across four transmissions and which it requires to be read at the wording on the Graeco-Roman side. The question is whether these two treatises, which are the surgical and the prognostic treatise of this corpus, carry any part of it." .
+
+pmp:HippocraticVulnusTerminusSearch a pm:Searching ;
+    rdfs:label "Ob die hippokratische Sammlung einer Wunde eine gezählte Frist beigibt"@de,
+        "Whether the Hippocratic collection attaches a counted term to a wound"@en ;
+    dcterms:date "2026-10-03" ;
+    skos:note "A correction this search owes about itself, made by the run's own closing check. An earlier draft of the note above said that Adams's notes report, from the Epidemics, trepanned children dying on the twenty-fourth and the sixteenth day. Neither half of that was established here: the numbers come from the research report that preceded this run, which gives them from Withington's introduction to the Loeb volume and not from Adams, and the Epidemics were not opened in this run at all. Two day-counts outside the seven-and-fourteen frame of chapter 19 would be the strongest thing anyone could put against pmc:HippocratesVulnusCapitisTempusAnni, which is exactly why they may not be carried on a report. The address is kept and the claim is withdrawn."@en,
+        "The answer is yes and it is not the yes the question was built for. The counted term exists — fever before the fourteenth day in winter and after seven days in summer, death before seven days in summer and before fourteen in winter — and it is indexed on the season. The site is graded at length in the second chapter and given no number at all, and the same chapter states in one clause that a man survives longer in winter than in summer whatever be the part of the head in which the wound is situated. So the corpus separates the two questions and answers them differently: the place orders the dying, the calendar counts it."@en,
+        "Two further findings of the same search, both entered as nodes. The term is attached to a case the chapter defines by the surgeon's omission, not by the injury: the bone was broken and by mistake not discovered and the case neglected as if it were sound. And the sign-set is declared invariant to the age of the wound in the same chapter. A transmission that counts days and says which variables the count does not depend on is a better object for a protocol than one that merely counts."@en,
+        "What this does not settle. Two treatises of a collection of some sixty, in one nineteenth-century English translation, with the Greek absent for the one that carries the term. The Epidemics stand in the same volume and were not read, and they are the place a run should open that wants to know whether this corpus held its own term against its own cases."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Both treatises read chapter by chapter in Adams's English. Within the volume, whole-text search of the two chapter ranges, after whitespace normalisation, for: deadly, mortal, fatal, dies, die, death, survive, live longer, sooner, later, shorter, interval, term, day, days, seventh, fourteenth, twenty, forty, sixty, summer, winter, spring, autumn, season. Every hit inside the two ranges read at its place. The running-head sequence of the volume was checked for monotonicity over both ranges before any page number was taken from it, and is monotone from 226 to 256 and from 424 to 466 with one single-digit slip. The Greek of the Prognostic was read alongside at the decisive clauses in the Loeb volume hippocrates02hippuoft; the Greek of the head-wounds treatise is not present in its Loeb full text at all, measured as zero characters in U+0370-U+03FF and U+1F00-U+1FFF." ;
+    pm:searchYieldedNode pmc:HippocratesVulnusCapitisTempusAnni ;
+    pm:searchedBy "prima-materia, 2026-10-03" ;
+    pm:searchedCorpus "Hippocrates, On Injuries of the Head, chapters 1 to 21, and The Book of Prognostics, chapters 1 to 25, both read continuously in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 445-466 and 234-256" ;
+    pm:searchedFor "Whether anywhere in these two treatises a wound at a named site is coupled to a counted number of days until death or until a crisis; and, if such a count exists, what it is indexed on. The question was left open by the run of 2026-10-02, which found the list of fatal parts in the Aphorisms carrying no interval and recorded in its own note that On Injuries of the Head was the place that would decide whether that silence belonged to the Aphorisms or to the collection." .
 
 pmp:HohmanTestimonialsExamination a pm:Testing ;
     rdfs:label "Prüfung der Vierundzwanzig-Stunden-Frist der Zeugnisse"@de,
@@ -21617,6 +21830,49 @@ pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
     pm:cautionsAbout pmp:VamaWorship ;
     pm:withinTradition pmt:SaivaSakta .
 
+pmc:HippocratesAnaitios a pm:Conceptualizing ;
+    rdfs:label "Nicht als die Ursache zu gelten"@de,
+        "Being held not to be the cause"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 1, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 235; the Greek from Hippocrates, vol. II, ed. and trans. W. H. S. Jones, Loeb Classical Library 148, London 1923, p. 6" ;
+    skos:altLabel "ἀναίτιος"@grc ;
+    skos:definition "The state the treatise names as what the announcing secures for the physician: foreknowing and foretelling those who will die and those who will be saved, he would be blameless. The Greek word is the one used of a party who is not the cause of what happened; Adams renders the clause as escaping censure."@en ;
+    skos:note "This is the capacity the opening chapter actually argues for, and it is not a capacity over the disease. The chapter has just conceded that some die before the physician is called and some immediately after, before he could bring his art to counteract the disease, and that it is therefore necessary to know how far such affections are above the powers of the constitution. The announcing is what converts that concession into a position: a death that was announced is a death the announcer is not answerable for."@en,
+        "What would tell against reading it this way. The same clause can be read as saying only that a physician who predicts correctly will not be blamed for predicting, which is a statement about reputation and not about liability. The Greek does not decide it: ἀναίτιος is used both ways. What does decide it is the sentence before, which is about cases the art cannot reach, and the words the translator chose, escape censure; both point at answerability for the outcome."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesDiesCritici a pm:Conceptualizing ;
+    rdfs:label "Die Tage, an denen Fieber zur Krise kommen sollen"@de,
+        "The days on which fevers are said to come to a crisis"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 20, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 251-252; the Greek from Hippocrates, vol. II, ed. and trans. W. H. S. Jones, Loeb Classical Library 148, London 1923, pp. 42-43" ;
+    skos:altLabel "διὰ τεσσάρων ἐς τὰς εἴκοσιν ἐκ προσθέσιος"@grc ;
+    skos:definition "A series stated as doctrine and not as a range of observations: fevers come to a crisis on the same days as to number on which men recover and die. The mildest end on the fourth day or earlier and the most malignant kill on the fourth day or earlier; the second class is protracted to the seventh, the third to the eleventh, the fourth to the fourteenth, the fifth to the seventeenth and the sixth to the twentieth, so that the periods ascend by fours up to twenty. After these, in the same progression, come periods of thirty-four, forty and sixty days. Quartans and the crises of women after parturition are said to follow the same order."@en ;
+    skos:note "Entered because it is the one thing in the treatise that fixes a moment at which a prediction has either held or not, and because the holding already carries counted terms from four other transmissions and had none from this one. What rides on the number here is the course of a disease and not a site, which is the distinction the counter-comparandum at pmc:TheIntervalAfterTheWound turns on."@en,
+        "The series is reported to be in open dispute inside its own collection, and that report is NOT a reading. The research that preceded this run gives Aphorisms IV.36 as making the critical days of sweats an odd-numbered series with a twenty-first and a twenty-seventh in it, which would conflict with the tetrads here; that section stands in the second volume of this translation and was not opened in this run, and the citation is therefore second hand and enters no node. Whoever opens it writes the pm:Disputing. The sentence is kept because it names the place, which is what a report is good for."@en,
+        "Two things stand in the same chapter's apparatus and were read there, in the translator's footnote to this chapter. Adams states that the treatise On Critical Days is in all probability spurious, referring to his own Preliminary Discourse; and he reports Galen as not hesitating to declare Hippocrates the first who treated of the critical days, while doubting whether Galen had any competent authority for pronouncing it. He also remarks that the subject is not touched upon in the Coan Prognostics, so that this chapter is either original or taken from a source now unknown — which is the only chapter of the treatise he says that of."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesFaciesMoribunda a pm:Conceptualizing ;
+    rdfs:label "Das Gesicht, an dem der Tod nahe sein soll"@de,
+        "The face by which death is said to be at hand"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 2, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 235-236" ;
+    skos:definition "The sign the chapter puts first and describes item by item: a sharp nose, hollow eyes, collapsed temples, the ears cold and contracted with their lobes turned out, the skin about the forehead rough and distended and parched, and the colour of the whole face green, black, livid or lead-coloured. The best countenance is stated in the same place and in the same form: like those of persons in health, and better still like itself."@en ;
+    skos:note "A sign and not a cause, and the chapter is explicit that the inference runs from the ensemble: if the countenance be such at the commencement of the disease and this cannot be accounted for from the other symptoms, then the further questions follow. The eye signs of the same chapter are entered with it rather than separately, since the chapter states them as one examination: shunning the light, involuntary weeping, squinting, unequal size, red or livid whites or black veins in them, gum, restlessness, protrusion or hollowness; and, in sleep, a portion of the white appearing because the lids are not closed, which the chapter calls very deadly."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmc:HippocratesVulnusCapitisTempusAnni a pm:Conceptualizing ;
+    rdfs:label "Die Zahl hängt an der Jahreszeit, und ausdrücklich nicht am Ort"@de,
+        "The number rides on the season, and expressly not on the site"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 2 and 19, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 447 and 463-464" ;
+    skos:definition "Two statements, in the second and the nineteenth chapter, and they agree. Chapter 2: in fatal cases a man will survive longer in winter than in summer, whatever be the part of the head in which the wound is situated. Chapter 19, of a wound whose broken or contused bone was not discovered and which was neglected as if the bone were sound: fever will generally come on before the fourteenth day if in winter, and in summer the fever usually seizes after seven days; and they die before the end of seven days if in summer, and before fourteen if in winter."@en ;
+    skos:note "A second term stands in chapter 14 and is a window rather than an outcome: when the raspatory shows that the wound in the bone requires the operation, you must not postpone it for three days but do it during this period, more especially if the weather be hot. The season enters there as an intensifier and not as a boundary, which is why that place is entered as a prerequisite below and not as a term here."@en,
+        "The counted term exists in this corpus and it is indexed on the calendar. Chapter 2 does not merely leave the site unnumbered, it says in one clause that the thing which is counted does not depend on the site at all. The two chapters therefore divide the work between them: the site decides the order, the season decides the number."@en,
+        "What this does to the convergence candidate in prima-materia#612. The agreement between the needling-prohibition chapter of the Suwen and the marman chapter of the Susruta is not that a medical transmission couples a wound to a duration — the Greek does that too — but that the duration is given as a number indexed on the site. The Greek indexes the number on the season and the order on the site, and says so expressly. The note at pmc:TheIntervalAfterTheWound is corrected accordingly in the same bundle."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmc:HuitJoursConsecutifs a pm:Conceptualizing ;
     rdfs:label "Acht aufeinanderfolgende Tage, und was das Urteil dann entscheiden darf"@de,
         "Eight consecutive days, and what the judgment may then decide"@en ;
@@ -26065,6 +26321,24 @@ pmp:Hanblapi a pm:Practicing ;
     pm:fieldRecord "Spoken by named Oglala shamans, chiefly Sword, Tyon, Ringing-shield, Bad-wound and No-flesh, and by Finger on 25 March 1914; recorded by the agency physician J. R. Walker at Pine Ridge over his years of service there, closed December 1916; given in Lakota, part of it written out in Lakota by Sword and Tyon and translated by Burt Means, Thomas Mills, Bruce Means and Antoin Herman; the paper prints the translations only, so the Lakota wording is not carried." ;
     pm:withinTradition pmt:LakotaRitual .
 
+pmp:HippocratesAlvusAperienda a pm:Practicing ;
+    rdfs:label "Das sanfte Öffnen des Leibes"@de,
+        "Opening the bowels gently"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 23, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 254" ;
+    skos:definition "Named in the same chapter only as a step preceding the operation on the uvula, and not described: the bowels are to be opened gently beforehand. The treatise gives neither the means nor a measure for it here, and it is entered as a node because the prerequisite claim above has to point at something that a later reader can go and look for in the rest of the collection."@en ;
+    skos:note "What was read gives this no procedure of its own. The place where this corpus does describe evacuating is the Aphorisms, Section VI, already in this file at pmp:HippocratesIncisioEtCauterium and pmc:HippocratesEvacuatioCeleris, and that is about emptying an abscess and not the bowels. A run that opens On Regimen in Acute Diseases, which stands in this same volume, should look there."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmp:HippocratesIncisioCapitis a pm:Practicing ;
+    rdfs:label "Das Eröffnen einer Kopfwunde durch Schnitt"@de,
+        "Laying open a wound of the head by incision"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 13 and 14, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 457-459" ;
+    skos:definition "Performed where the bone is denuded of flesh and the wound has not length and breadth enough for the bone to be inspected, so that it cannot be seen what mischief the blow has done. The incision is made proportionate to the wound, the flesh is separated from the bone, and the whole wound is filled with a tent which expands it by the next day; a hollow wound is cut up where a medicine cannot reach, and a circular one is given a double incision lengthways to make it long."@en ;
+    skos:note "The purpose stated is inspection and not drainage, which is what ties this practice to the scraping and to the three-day window: the treatise builds a sequence of three steps whose point is to find out what cannot be seen before deciding whether to open the bone."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmp:HippocratesIncisioEtCauterium a pm:Practicing ;
     rdfs:label "Die Behandlung von Empyem oder Wassersucht durch Schnitt oder Brenneisen"@de,
         "Treating empyema or dropsy by incision or the cautery"@en ;
@@ -26072,6 +26346,24 @@ pmp:HippocratesIncisioEtCauterium a pm:Practicing ;
     skos:definition "The operation the section names only in order to state the condition under which it kills: cases of empyema or dropsy treated by incision or by the cautery, so that the collected water or pus is let out. Nothing is said about where the incision is made, with what, or how much is to be taken."@en ;
     skos:note "Entered because the caution beside it needs something to warn about and because the act is named in the text rather than supplied here. The thinness is the same thinness as at the venesection node and has the same explanation: the Aphorisms assemble sentences and leave the procedures to the treatises they were assembled from."@en ;
     pm:fromWork pmw:AphorismiHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmp:HippocratesPrologesis a pm:Practicing ;
+    rdfs:label "Das vorherige Ansagen, wer stirbt und wer durchkommt"@de,
+        "Announcing beforehand who will die and who will recover"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 1 and 25, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 234-235 and 255-256" ;
+    skos:altLabel "προλέγειν"@grc ;
+    skos:definition "The operation the treatise prescribes: having formed a judgment from the whole of the signs, the physician says in advance, in the presence of the sick and of those around, which patients will die, which will recover, and in which cases the disease will be protracted. It is performed before the outcome and in public, and the treatise gives twenty-four chapters of signs as its means."@en ;
+    skos:note "Separated from the capacity because the treatise separates them: chapter 1 says what the knowledge is for and chapter 25 says what the announcing requires, which is a judgment from the ensemble of the signs weighed against one another, together with the epidemic influx and the constitution of the season."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmp:HippocratesTrepanumRefrigeratio a pm:Practicing ;
+    rdfs:label "Das Kühlen des Trepans"@de,
+        "Cooling the trepan"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 21, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 465" ;
+    skos:definition "The interrupting step the twenty-first chapter requires of the operation it describes: the instrument is frequently taken out of the bone and plunged in cold water, and is then returned to the sawing."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
     pm:withinTradition pmt:HippocraticMedicine .
 
 pmp:HippocratesVenaeSectio a pm:Practicing ;
@@ -27081,11 +27373,6 @@ pmw:DeVitaLibriTres a dcterms:BibliographicResource ;
         "Ficino, De vita libri tres"@en ;
     skos:note "Named here as a work of the corpus and unopened. It is the source the literature names for a part of the doctrine entered above, so it is the first place a run should go to ask whether the belief condition is this author's own or taken over."@en .
 
-pmw:DeVulneribusCapitis a dcterms:BibliographicResource ;
-    rdfs:label "Hippokrates, Über die Kopfwunden"@de,
-        "Hippocrates, On Wounds in the Head"@en ;
-    skos:note "Named here as a work of the corpus and unopened. It is the treatise that handles a wound at a named site at length, and it is the strongest candidate in this corpus for a stated interval after an injury. Until it is read, the finding that the Greek list of fatal parts carries no interval is a finding about the Aphorisms and not about the collection."@en .
-
 pmw:DrasaDYahia a dcterms:BibliographicResource ;
     rdfs:label "Drāšā d-Yahia, das Johannesbuch"@de,
         "Drāšā d-Yahia, the Book of John"@en ;
@@ -27174,11 +27461,6 @@ pmw:PgmXIII a dcterms:BibliographicResource ;
     rdfs:label "PGM XIII, der Leidener Papyrus J 395"@de,
         "PGM XIII, the Leiden papyrus J 395"@en ;
     skos:note "Named here as a work of the corpus and unopened."@en .
-
-pmw:PrognosticonHippocratis a dcterms:BibliographicResource ;
-    rdfs:label "Hippokrates, Prognostikon"@de,
-        "Hippocrates, Prognostics"@en ;
-    skos:note "Named here as a work of the corpus and unopened. It is the treatise of the collection that sets out the signs by which an outcome is to be read in advance, and it is therefore the place to ask whether the Greek corpus anywhere attaches a term to a wound rather than to the course of a disease — the question this run put to Section VI of the Aphorisms and answered only for Section VI."@en .
 
 pmw:PyramidTexts a dcterms:BibliographicResource ;
     rdfs:label "Die Pyramidentexte"@de,
@@ -28648,6 +28930,23 @@ pmp:HermeticVitaPia a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hermetic .
 
+pmp:HippocratesOssisRadulatio a pm:Practicing ;
+    rdfs:label "Das Abschaben des Knochens mit dem Schabeisen"@de,
+        "Scraping the bone with the raspatory"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 10 and 14, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 452-453 and 459-460" ;
+    skos:definition "The step that establishes whether the operation is required, and the treatise insists on it because the thing to be found cannot be seen. The bone is scraped to a depth and length proportionate to the wound and again transversely, for the sake of the fractures which are not seen and the contusions which are not discovered; where an indentation is present, the dint itself and the surrounding bone are scraped. The chapter also gives a staining step for the case that remains unclear: black ink is put into the wound, the wound is dressed, and on the next day the bone is cleaned and scraped again, when a fracture line takes the colour."@en ;
+    skos:note "This is the one place in the two treatises where the corpus states a procedure for making an invisible finding visible, rather than a sign to be read off. It is also where the sounding probe is expressly ruled out: chapter 10 says the probe will not find out a contusion or a fissure that does not show, with the exception of sounding — that is, it names its own instrument as the wrong one for this question."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
+pmp:HippocratesUvulaeResectio a pm:Practicing ;
+    rdfs:label "Das Abtragen oder Skarifizieren der vergrößerten Uvula"@de,
+        "Cutting or scarifying the enlarged uvula"@en ;
+    dcterms:source "Hippocrates, The Book of Prognostics 23, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, p. 254" ;
+    skos:definition "The one operation the Prognostic prescribes with a time condition on it: the enlarged uvula is cut off or scarified, but only once it has changed in a stated way. The treatise distinguishes the variety it calls Uva, which is to be operated on when the whole of it is converted into an abscess, from the one it calls Columella, which is to be operated on when its extremity is larger and round and its upper part thinner."@en ;
+    pm:fromWork pmw:PrognosticonHippocratis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmp:IfaCasting a pm:Practicing ;
     rdfs:label "Der Wurf der sechzehn Palmnüsse"@de,
         "Casting the sixteen palm nuts"@en ;
@@ -29945,6 +30244,15 @@ pmp:FinnicSynnynLukeminen a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:FinnicIncantation .
 
+pmp:HippocratesTrepanatio a pm:Practicing ;
+    rdfs:label "Das Trepanieren des Schädels"@de,
+        "Trepanning the skull"@en ;
+    dcterms:source "Hippocrates, On Injuries of the Head 9, 14, 17, 18 and 21, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. I, London: printed for the Sydenham Society, 1849, pp. 451-452, 459, 462-463 and 465-466" ;
+    skos:definition "The operation the treatise is written around: the bone is sawed or perforated to give issue to the blood and to reach the injury that the raspatory has shown. Two instruments are distinguished — a serrated or crown trepan which is used when the case is taken over from another and is carried at once down to the membrane, and a perforator which is not to be carried through — and the chapter prescribes a different procedure according to whether the surgeon has had the management of the case from the first."@en ;
+    skos:note "The indication is stated as a limit and not as a licence, which is unusual enough to record: chapter 9 says that a hedra without fracture and contusion does not require trepanning, that a large and wide notch does not, and that those bones which are most pressed and broken require trepanning the least. Chapter 17 adds that depressed fragments are not to be interfered with."@en ;
+    pm:fromWork pmw:DeVulneribusCapitis ;
+    pm:withinTradition pmt:HippocraticMedicine .
+
 pmp:JibaroIhambratinyu a pm:Practicing ;
     rdfs:label "Das Fasten des Töters"@de,
         "The slayer's fasting"@en ;
@@ -30675,22 +30983,6 @@ pmp:Samyama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
 
-pmt:HippocraticMedicine a pm:Tradition ;
-    rdfs:label "Hippokratische Medizin"@de,
-        "Hippocratic medicine"@en ;
-    dcterms:source "Hippocrates, Aphorisms VI.18, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. II, London: printed for the Sydenham Society, 1849" ;
-    skos:definition "The Greek medical transmission of the collection that travels under the name of Hippocrates, taken here at the part of it that states outcomes: which conditions and injuries are said to be fatal, which signs are said to decide a case, and at what term, if any, the outcome is said to arrive."@en ;
-    skos:note "Read at the wording in this run: Aphorisms, Section VI, all sixty aphorisms, in the English of Francis Adams, vol. II, London 1849. Not read: Sections I to V and VII of the same Aphorisms, which stand in the same volume and were opened only far enough to establish where Section VI begins and ends; and the rest of the collection, among it the Prognostics, On Wounds in the Head, On the Articulations and the Epidemics, which the same two volumes carry. The works below say which of them were opened."@en,
-        "The commentary is not the text. Adams prints Galen's remarks under most aphorisms and sometimes his own judgment on whether the sentence still holds; at VI.18 Galen is reported as saying that wounds of the brain, liver, bowels and bladder are not necessarily fatal and as citing lithotomy against the bladder. That is a later station qualifying the claim, it is reported here and not entered as a node, and the reason is that Galen was read through Adams and not opened. A run that wants the qualification as a node opens the commentary."@en,
-        "What kind of witness this is. The Aphorisms are a list of sentences with no argument between them, assembled from the other treatises of the collection and transmitted as a set to be learnt; Adams's own preliminary discourse in volume I treats the eighth section as not belonging to the rest. A sentence here is therefore a claim that the transmission thought worth fixing in a form that could be memorised, which is a different thing from a claim it thought worth demonstrating, and nothing in this file should be read as the latter."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:AphorismiHippocratis,
-        pmw:DeVulneribusCapitis,
-        pmw:PrognosticonHippocratis ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:AphorismiHippocratis ;
-    pm:principalCorpus "The Corpus Hippocraticum: the Aphorisms; the Prognostics; On Wounds in the Head; On the Articulations; the Epidemics; and the remaining treatises of the collection" .
-
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
         "Nahua ritual transmission"@en ;
@@ -31082,6 +31374,12 @@ pmw:Nihonshoki a dcterms:BibliographicResource ;
         "Nihon shoki (Nihongi), the chronicle of 720"@en ;
     skos:note "Opened on 2026-09-18 in the English of W. G. Aston, volume I of 1896, covering Books I to XVI. Volume II, Books XVII to XXX, was not obtained in this run; that is a statement about the run and not about the work."@en .
 
+pmw:PrognosticonHippocratis a dcterms:BibliographicResource ;
+    rdfs:label "Hippokrates, Prognostikon"@de,
+        "Hippocrates, Prognostics"@en ;
+    skos:note "Opened on 2026-10-03, chapters 1 to 25, read continuously in the English of Francis Adams, vol. I, London 1849, pp. 234-256, with the Greek alongside from the Loeb volume of 1923. Not read: the Argument Adams sets before it, pp. 223-233, and the Appendix he prints after it, pp. 257-270, which he himself holds to be spurious. The question this work was named for is answered and the answer is in the other work of this run: the term for a wound is in On Injuries of the Head and not here, and what rides on a number here is the course of a disease."@en,
+        "The cheapest continuation from this work is its own appendix and the treatise that stands before it in the same volume. On Regimen in Acute Diseases, pp. 271-336, is where this corpus describes evacuating, bathing and the conditions of the patient under which a measure is or is not to be applied, and the holding has an open question that goes exactly there: the catalogue of states in which an operation on a vessel is forbidden, searched for in these two treatises and not found, at pmp:HippocraticVulnusStatusSearch."@en .
+
 pmw:RomanusBuechlein a dcterms:BibliographicResource ;
     rdfs:label "Romanus-Büchlein"@de,
         "Romanus-Büchlein"@en ;
@@ -31150,6 +31448,13 @@ pmt:Swedenborgian a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:DeCaeloEtInferno ;
     pm:principalCorpus "Swedenborg, De caelo et inferno; Swedenborg, Diarium spirituale; Swedenborg, Arcana coelestia" .
+
+pmw:DeVulneribusCapitis a dcterms:BibliographicResource ;
+    rdfs:label "Hippokrates, Über die Kopfwunden"@de,
+        "Hippocrates, On Wounds in the Head"@en ;
+    skos:note "Littre's third volume, BIUSante_34859x03, was fetched and measured: it carries 200955 characters in U+0370-U+03FF and 40953 in U+1F00-U+1FFF, so the Greek is present as Greek there. Whether it is accurate was NOT established in this run — the research that preceded the run reports it as systematically misread, with rho for delta and kappa for chi, and no Greek word of this treatise was compared against a second witness here. Anyone needing the wording of a term goes to the critical edition, and the first thing to do on that route is to check that report."@en,
+        "Opened on 2026-10-03, chapters 1 to 21, read continuously in the English of Francis Adams, vol. I, London 1849, pp. 445-466. It was named as the strongest candidate in this corpus for a stated interval after an injury and it carries one; the finding changed shape in the reading rather than collapsing, and what it is now stands at pmc:HippocratesVulnusCapitisTempusAnni. Not read: Adams's Argument before it, pp. 423-444, and the three plates of instruments at the end of the volume."@en,
+        "The Greek is not on this route for this work, and the failure is the dangerous kind. The Loeb volume hippocrates03hippuoft prints the treatise with its Greek, and its archive.org full text carries zero characters in U+0370-U+03FF and U+1F00-U+1FFF: the OCR has rendered every Greek word in lookalike Latin letters, so the file looks clean and the original language is absent. Measured in this run, and the title of the treatise in that file reads EPI TQN EN KE and a box and AAHI TPOMATON."@en .
 
 pmw:LiberOVelManusEtSagittae a dcterms:BibliographicResource ;
     rdfs:label "Liber O vel Manus et Sagittae sub figura VI"@de,
@@ -31540,11 +31845,6 @@ pm:Process a owl:Class ;
         "Process"@en ;
     skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmt:KongoNkisi a pm:Tradition ;
     rdfs:label "Kongolesische Nkisi-Überlieferung"@de,
         "Kongo nkisi transmission"@en ;
@@ -31572,6 +31872,11 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmp:NippurBowlInversion a pm:Practicing ;
     rdfs:label "Die beschriftete Schale mit der Öffnung nach unten niederlegen"@de,
@@ -31682,6 +31987,24 @@ pmt:BooksOfJeu a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:MegasLogosKataMysterion ;
     pm:principalCorpus "The Books of Jeu and the Untitled Text in the Bruce Codex, ed. Carl Schmidt, trans. Violet MacDermot, Nag Hammadi Studies 13; Carl Schmidt, Gnostische Schriften in koptischer Sprache aus dem Codex Brucianus (1892)" .
+
+pmt:HippocraticMedicine a pm:Tradition ;
+    rdfs:label "Hippokratische Medizin"@de,
+        "Hippocratic medicine"@en ;
+    dcterms:source "Hippocrates, Aphorisms VI.18, in the English of Francis Adams, The Genuine Works of Hippocrates, vol. II, London: printed for the Sydenham Society, 1849" ;
+    skos:definition "The Greek medical transmission of the collection that travels under the name of Hippocrates, taken here at the part of it that states outcomes: which conditions and injuries are said to be fatal, which signs are said to decide a case, and at what term, if any, the outcome is said to arrive."@en ;
+    skos:note "A correction to the run of 2026-10-02, and it is the kind that costs a later reader an hour. The note above says the Prognostics and On Wounds in the Head stand in the same two volumes, which is true, but the work notes below had left a reader to guess which; both are in volume I and only the Aphorisms are in volume II. Volume II of this translation is also the copy whose running-head digits over Section VI are noise, while volume I in the copy read on 2026-10-03 has a monotone head sequence over both treatises, so page numbers are used below and were not used above."@en,
+        "Read at the wording in the run of 2026-10-02: Aphorisms, Section VI, all sixty aphorisms, in the English of Francis Adams, vol. II, London 1849. Not read then: Sections I to V and VII of the same Aphorisms, which stand in the same volume and were opened only far enough to establish where Section VI begins and ends; and the rest of the collection, among it the Prognostics, On Wounds in the Head, On the Articulations and the Epidemics, which the same two volumes carry. The works below say which of them were opened."@en,
+        "Read at the wording in the run of 2026-10-03: The Book of Prognostics, chapters 1 to 25, and On Injuries of the Head, chapters 1 to 21, both continuously, in the English of Francis Adams, vol. I, London 1849, pp. 234-256 and 445-466, over the archive.org full text genuineworksofhi01hippuoft; the Greek of the Prognostic alongside from the Loeb volume hippocrates02hippuoft. Two of the three named works are now read and the third, the Aphorisms, is read in one section of eight. The coverage state stays at places entered: a collection of some sixty treatises of which three chapters-worth has been opened is not a harvested corpus, and the two treatises added here are the two that were already named as identifiers rather than two chosen freely."@en,
+        "The commentary is not the text. Adams prints Galen's remarks under most aphorisms and sometimes his own judgment on whether the sentence still holds; at VI.18 Galen is reported as saying that wounds of the brain, liver, bowels and bladder are not necessarily fatal and as citing lithotomy against the bladder. That is a later station qualifying the claim, it is reported here and not entered as a node, and the reason is that Galen was read through Adams and not opened. A run that wants the qualification as a node opens the commentary."@en,
+        "What kind of witness this is. The Aphorisms are a list of sentences with no argument between them, assembled from the other treatises of the collection and transmitted as a set to be learnt; Adams's own preliminary discourse in volume I treats the eighth section as not belonging to the rest. A sentence here is therefore a claim that the transmission thought worth fixing in a form that could be memorised, which is a different thing from a claim it thought worth demonstrating, and nothing in this file should be read as the latter."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:AphorismiHippocratis,
+        pmw:DeVulneribusCapitis,
+        pmw:PrognosticonHippocratis ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:AphorismiHippocratis ;
+    pm:principalCorpus "The Corpus Hippocraticum: the Aphorisms; the Prognostics; On Wounds in the Head; On the Articulations; the Epidemics; and the remaining treatises of the collection" .
 
 pmt:LatinAlchemy a pm:Tradition ;
     rdfs:label "Lateinische Alchemie"@de,
@@ -32049,26 +32372,26 @@ pmt:Rasashastra a pm:Tradition ;
     pm:fromWork pmw:RasaJalaNidhi ;
     pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
 
-pm:prescribedOrder a pm:PrerequisiteStrength ;
-    rdfs:label "Angeordnete Reihenfolge"@de,
-        "Prescribed order"@en ;
-    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
-
 pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
     rdfs:label "Rasa-Jala-Nidhi"@de,
         "Rasa-Jala-Nidhi"@en ;
     skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
         "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
+pm:prescribedOrder a pm:PrerequisiteStrength ;
+    rdfs:label "Angeordnete Reihenfolge"@de,
+        "Prescribed order"@en ;
+    skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
 pm:placesEntered a pm:CoverageState ;
     rdfs:label "Stellen eingetragen"@de,
         "Places entered"@en ;
     skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pmw:CarakaSamhita a dcterms:BibliographicResource ;
     rdfs:label "Caraka Samhita"@de,
