@@ -3427,6 +3427,96 @@ pmc:DasaPalibodha a pm:Conceptualizing ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
+pmc:DavisFonsDisputatus a pm:Disputing ;
+    rdfs:label "Der Band beantwortet die Frage nach seiner Urheberschaft zweimal und verschieden"@de,
+        "The volume answers its own authorship question twice and differently"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xvi-xvii, with the footnote at p. 41",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, pp. 43-46" ;
+    skos:definition "Two parties, both inside one book, and the title page carries both: the work is BY AND THROUGH Andrew Jackson Davis. The scribe holds that the book must have been dictated by some other and higher source and names it the Spiritual World, with the spirits and angels of the Second Sphere in sympathetic communication with the subject. Davis holds the opposite about the source and says so three times in nine pages: there I do not have any counsellor or informer, but I receive the reality of what I request; my information is not derived from any persons that exist in the sphere into which my mind enters, but is the result of a Law of truth; and the process is one of spiritual analysis, in which a desire attracts the particular kind of truth and causes it to flow into the mind. He names Aristotle, Demosthenes, Galen and Swedenborg as having had impressions of the same species through a different medium, and places Swedenborg below himself for not having been in independent clairvoyance."@en ;
+    skos:note "A dispute between an author and his editor about what the book is, settled by neither and printed together. It is entered because the difference is not a nuance: on the scribe's account the volume is testimony from elsewhere and on Davis's it is the output of a human mind in an exalted state, and every later corpus in the channelled block takes the scribe's reading. The scribe himself supplies the mediating formula in a footnote — all the inhabitants of the second Sphere are considered as united and forming one, so that the Mind referred to is the General Mind of the Second Sphere — which reconciles the two only by making the speaker a collective nobody."@en,
+        "Which side a later reader takes decides what the corpus can be counted for, and that is why this is a node rather than a note. On the scribe's reading this is a received text and belongs with the Ra material and the Seth material; on Davis's reading it is a first-person report of a state, which is a different attestation mode and a different kind of evidence. The holding keeps both and asserts neither."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:disputedClaim pmc:DavisReceptio ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisInterferentiaInsensibilis a pm:Cautioning ;
+    rdfs:label "Der Zustand kann unbemerkbar ausfallen, und das Werk sagt es"@de,
+        "The state can fail unobservably, and the work says so"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xix-xx",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, p. 52" ;
+    skos:definition "Stated in one sentence with a parenthesis that is the whole of it. Physical causes incidental to the external system sometimes indirectly interfere with the medium of sensibility, preventing the free expansion of the mind; and when this occurs — and it can not be perceived by the senses — impressions can not be received, because the mind has not become thoroughly independent."@en ;
+    skos:note "A stated condition of failure whose own statement removes every way of establishing that it obtained. The parenthesis is not a hedge added by a later reader; it is in the author's own exposition of his method, in the chapter the scribe names as where the claims are set out. A transmission that names a failure mode and declares it imperceptible has put every unsuccessful sitting beyond examination in advance, and the holding should be able to count transmissions that do this."@en,
+        "The scribe builds the other half of the shelter around it in the Introduction: the clairvoyant never lectured when from physiological causes or surrounding circumstances he was rendered incapable of that perfect disconnexion which was necessary, and at such times as his interior perceptions were not duly expanded he refused to proceed with his dictations. So the undetectable interference is also declared never to have been allowed to produce a lecture. The two statements together are what SPEC §3 means by a claim that does not discriminate, and no protocol is entered because none was carried."@en ;
+    pm:cautionsAbout pmc:DavisIndependentClairvoyance ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisManipulatorNecessarius a pm:Presupposing ;
+    rdfs:label "Kein Eintritt ohne Operateur, und die Strafe für den Alleingang ist der Tod"@de,
+        "No entry without an operator, and the penalty for entering alone is death"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, p. xvii",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, p. 44" ;
+    skos:definition "Stated by Davis with its consequence, twice and in his own voice. It is impossible for any one to enter voluntarily that state in which he can view with clearness things belonging to a sphere higher than the natural world; were such a thing to take place, that moment death would necessarily and inevitably ensue, because the state cannot be entered without a loss of one of the controlling forces of the system, and if that force is not supplied by the system of another the natural functions would cease and the spirit could not re-enter. Independent clairvoyance, therefore, must be induced by the action of another system. The scribe states the same in the other direction: if while the subject is in this condition the magnetizer should by any means lose connexion with him, the vital movements of the body would cease and the spirit would be incapable of re-entering it."@en ;
+    skos:note "It also fixes the social shape of the transmission. The state requires a second person, and the Address names three more as witnesses and a fourth as scribe, with the reason for the number given as a correspondence to a trinity. So the work makes five people structurally necessary to its own production, and says so before it says anything else."@en,
+        "The strongest form a stated necessity can take and the one least open to test, which is why both halves of it are quoted. The consequence is death, so no practitioner survives to report the condition having been skipped; and the scribe adds that the claim rests on the subject's own information, as he himself has informed us. A necessity whose only witness is the person it protects is a different thing from one a bystander could check, and the holding should be able to tell them apart."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Death ensues at that moment: the natural functions of the organization cease and the spirit cannot re-enter the body." ;
+    pm:dependentStep pmc:DavisIndependentClairvoyance ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:DavisMagnetization ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisNonInfallibilis a pm:Cautioning ;
+    rdfs:label "Das Buch verbietet, als unfehlbarer Maßstab genommen zu werden"@de,
+        "The book forbids being taken as an infallible standard"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, An Address to the World, p. 1",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xix-xx" ;
+    skos:definition "The scribe's closing instruction to the reader, and it is addressed against the authority the volume otherwise claims. Reader, do not consider this book as a standard so infallible as to relieve you from the exercise of your own reason; although it is the production of a mind immensely exalted and having access to the knowledge of a higher world, it is still the production of a human mind, and if the work will not stand upon its own intrinsic merits, let it be rejected. The Address to the World sets the same rule from the other side: no arbitrary or external standard shall be recognised as suitable to test the truth of what is presented, and the verdict of Nature and not of men is required."@en ;
+    skos:note "The two sentences do not say the same thing and the difference is the finding. The scribe submits the work to the reader's reason; the author withdraws it from every standard outside Nature, which is a standard nobody can apply. Set beside each other they leave the work open to rejection and closed to refutation, and the next clause of the scribe's own sentence completes the figure: if the contents commend themselves to the approbation of your interior being, let them be considered as true, even infallibly so."@en ;
+    pm:cautionsAbout pmc:DavisIndependentClairvoyance ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisParticulariaNonFirma a pm:Cautioning ;
+    rdfs:label "Auf das Allgemeine ist zu bauen, auf Einzelheiten nicht"@de,
+        "Generals may be relied on, particulars and minutiae may not"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, p. xx",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, p. 52" ;
+    skos:definition "A rule of reading that the work lays down about itself. Particulars and minutiae correspond to incidentals and can not be relied on as producing the same unchangeable effects, for they stand in correspondence with incidental intervening circumstances of a subordinate character; generals are always manifest, corresponding with truth and inward reality, and can be depended upon as inevitably manifesting inward truth. In the same passage Davis withdraws the optical reading of his own commonest phrase: the expression I see, literally understood, would convey a wrong impression, and means simply I know."@en ;
+    skos:note "Entered as a caution rather than as a near-miss of pmc:SelfWarningStandsInsideThePrescription, and the distinction is worth stating because both this node and the Hippocratic one entered on the same day fail that generalization on the same word. That statement is about a transmission warning the practitioner against valuing a practice for the wrong reason. This one warns the reader against relying on a class of the work's own contents, which relieves the work rather than the reader, and the Hippocratic case at pmc:HippocratesNonIntegrisDiebus relieves the author of the exactness he had just claimed. Three such places now stand in the holding and a successor statement about transmissions that exempt their own checkable part would have witnesses; it is not written here because the third one was read on the same day as the second and SPEC §16 requires the counter-search over the holding before the statement, not after."@en,
+        "The scribe applies the rule to the volume at once and in the reader's direction: inasmuch as the author establishes that particulars and minutiae can not be depended upon, it can scarcely be expected that the many particulars and minutiae involved in this work of eight hundred pages are in every individual case nicely accurate, and whatever inaccuracies may be discovered can not affect the great general principles. So the only part of the work that could be checked against anything is exempted from the claim before the first page of it is read."@en ;
+    pm:cautionsAbout pmc:DavisIndependentClairvoyance ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisPlanetaeDatum a pm:Attributing ;
+    rdfs:label "Der Schreiber datiert die Planetenstelle vor die Beobachtung des Planeten"@de,
+        "The scribe dates the planet passage to before the planet was seen"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xv-xvi",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, scribe's footnote at p. 161" ;
+    skos:definition "A footnote by the scribe, set at the place, which turns the passage into a claim about a capacity and supplies the date it needs. Numerous witnesses can testify that what is said about an eighth and ninth planet was in manuscript in March 1846, and months before Le Verrier's calculations and conclusion had been announced in this country; the eighth planet was first actually observed in September 1846. These facts, the footnote continues, cannot but be regarded as important, proving as they do the ability of the clairvoyant to obtain knowledge of things beyond the reach of the natural senses, and hence as imparting confidence in his revealments which can not be verified by any process of sensuous investigation."@en ;
+    skos:note "The ascription and its purpose are in the same footnote, and the purpose is the part worth entering. The dated manuscript is offered as a warrant for the statements that cannot be checked — which is the reverse of the usual direction, where a checkable claim is tested and an untestable one left alone. The scribe says plainly what the one is for: it imparts confidence in the revealments which can not be verified."@en,
+        "The date rests on one document and one witness, and the footnote names neither at the place. The Introduction gives the detail elsewhere, quoting a pamphlet by James Victor Wilson, one of the twenty-three occasional witnesses and by then dead, for the manuscript dates 15 and 16 March 1846. So the chain is: a footnote by the scribe, resting on a pamphlet by a deceased witness, resting on sheets the Introduction declares to be preserved. Whether the sheets exist is the question, and this holding cannot answer it."@en,
+        "The same footnote also admits something about itself, and it is the sentence that makes the ascription weaker than it looks: at first I did not understand this expression, and it is but recently that it occurred to me that it evidently has reference to the conclusions which Le Verrier had already established in his own mind from mathematical calculations, and which the clairvoyant saw. The scribe is reading the passage as foreknowledge of another man's unpublished reasoning, and he arrived at that reading after the discovery rather than before it."@en ;
+    pm:ascribedCapacity pmc:DavisIndependentClairvoyance ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
+pmc:DavisPlanetaeNondumVisi a pm:Conceptualizing ;
+    rdfs:label "Zwei Planeten jenseits des Uranus, einer davon beschrieben"@de,
+        "Two planets beyond Uranus, one of them described"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, pp. 160-161 and 167, with the footnote at p. 169" ;
+    skos:definition "The work states that the sun's atmosphere extended to the orbit that the extreme planet occupies and traverses as a cometary body, that this is one more planet than is now known and has not yet been detected by observation, and that the existence of eight planets has been determined upon as nearly beyond all doubt — still the eighth and ninth are not yet recognised as bodies belonging to the Solar System. Of the eighth it then gives particulars: its density is four fifths that of water; its atmosphere is exceedingly rare, containing little oxygen but being mostly composed of fluorine and nitrogen; no organic constitution existing upon the earth could exist there alive for one moment; and it has, like Uranus, six satellites. Of the diameter and the period it says that the one is unnecessary to determine and the other can be inferred analogically from Uranus."@en ;
+    skos:note "No protocol is entered and the omission is deliberate rather than an oversight. A pm:Testing node on this claim requires a modern work read at the wording under pm:evidenceFrom and a counter-search carried over it, and this run opened no astronomical literature and no critical literature on this work. What the holding has is the claim with its place; what it does not have is a protocol, and the absence says so."@en,
+        "The nearest thing to a verdict is reported and was not read here, and the distinction matters more at this node than anywhere else in the file, because this is the one claim an outside judgement could settle. The research that preceded this run gives Podmore, Modern Spiritualism, London 1902, vol. I, as holding the density figure approximately correct but unremarkable for that, since it applies as well to Uranus, and the fluorine atmosphere preposterous; and as pointing out that the work counts only four planetoids although Astraea had been found in 1845. Podmore was not opened in this run. He is in any case secondary literature arguing rather than a procedure with an outcome, so even read he would enter only at a pm:Testing node and not here — but the reason he is absent from the graph is the rule, and the reason he is quoted as a report is that nobody in this run turned his pages."@en,
+        "The work shelters the particulars in advance and the shelter is visible at the place. Where the eighth planet's orbit and diameter would be, a footnote states that it is contrary to the clairvoyant's invariable practice to relieve mental effort by imparting information on subjects accessible by ordinary processes, which is the reason given for withholding the two numbers an astronomer could have checked immediately. What is given instead is a density, an atmosphere and a satellite count, and the satellite count is given as the same as the one then attributed to Uranus."@en,
+        "This is the only claim found in the part of the volume that was read whose outcome is fixed by something outside the work, and it is entered for that reason and not because the holding needs a cosmology. The claim divides: an eighth planet beyond Uranus, a ninth beyond that, and a set of particulars about the eighth. A later reader can take each separately."@en ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
 pmc:DescentPresupposesDepth a pm:Presupposing ;
     rdfs:label "Der Abstieg setzt die Tiefe voraus, die den Atem sammelt"@de,
         "The descent presupposes the depth that gathers the breath"@en ;
@@ -20057,15 +20147,6 @@ pmt:Shugendo a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Shozan engi; the Shugendō shūyō himitsu shū" .
 
-pmt:SpiritualistAutomaticWriting a pm:Tradition ;
-    rdfs:label "Spiritistisches automatisches Schreiben"@de,
-        "Spiritualist automatic writing"@en ;
-    skos:definition "The nineteenth century transmission of extended texts produced by a writer who reports not composing them, and issued as scripture rather than as message."@en ;
-    skos:note "The earliest layer of the block and the template for all of it: a named person, a dated production, a printed volume, and the claim that the author is elsewhere."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Newbrough, Oahspe; Davis, The Principles of Nature, Her Divine Revelations, and a Voice to Mankind" .
-
 pmt:Srivaisnava a pm:Tradition ;
     rdfs:label "Śrīvaiṣṇavische Überlieferung"@de,
         "Śrīvaiṣṇava transmission"@en ;
@@ -21101,6 +21182,21 @@ pmc:DasaAppanakosalla a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
+
+pmc:DavisReceptio a pm:Receiving ;
+    rdfs:label "Die Behauptung des Schreibers, der Wortlaut stamme aus der Geisterwelt"@de,
+        "The scribe's claim that the wording came from the spiritual world"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, An Address to the World, pp. 1-4",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xiv-xviii" ;
+    skos:definition "The claim the volume makes about its own authorship in the Scribe's Introduction: that the book must have been dictated by some other and higher source of information than that accessible to the physical senses, and that the source is the Spiritual World. The scribe specifies it: the associated spirits and angels of the Second Sphere are, as one grand Man, in sympathetic communication with the subject to transmit knowledge to mankind on earth."@en ;
+    skos:note "The receiving is the one thing in this volume that could in principle still be checked, because the apparatus is physical. The manuscripts with their two hundred and sixty-seven signatures are declared preserved; whether they survive, and whether the sheets dated 15 and 16 March 1846 are among them, is the question that decides the dating claim at pmc:DavisPlanetaeDatum. Nothing in the holding can settle it and the work names the place to look."@en,
+        "This node records the claim and not its truth, and SPEC §10 built the class for exactly this corpus. Without it the ascription would have had to ride in the source line, and a source of the form Second Sphere, lecture 41 would have decided the contested question by the shape of a citation. The source line names the work and the editors a reader can obtain; the speaker the work claims stands here as a literal."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:claimedSpeaker "The Spiritual World; specified by the scribe as the associated spirits and angels of the Second Sphere, as one grand Man" ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:receivedBy "Andrew Jackson Davis, called the Poughkeepsie Seer on the title page, aged twenty at the first sitting" ;
+    pm:receptionCircumstance "A hundred and fifty-seven sittings between 28 November 1845 and 25 January 1847, each of forty minutes to about four hours and yielding three to fifteen folio pages. Davis was magnetized by Dr Silas Smith Lyon, a physician of Bridgeport who gave up his practice for the work and whom Davis says he chose while in the state; an earlier operator, William Levingston of Poughkeepsie, had magnetized him from about October 1843. The wording was taken down by William Fishbough, informed of his part by letter from Lyon on 27 November 1845 and writing from the next day. Three witnesses chosen in advance were present, Rev. J. N. Parker, Theron R. Lapham and Dr T. Lea Smith, with twenty-three further occasional witnesses named with their towns. The pencilled manuscripts of a hundred and forty of the sittings carry two hundred and sixty-seven witness signatures, seventeen sittings carry none, and the manuscripts are declared to be carefully preserved. The scribe states his own editorial reach: grammar, the striking of redundancy, the clearing of obscure sentences, three transpositions of contiguous paragraphs, and all the footnotes but one; otherwise the work is offered as paragraph for paragraph and word for word as delivered." ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
 
 pmc:DetectionOfTheNdoki a pm:Conceptualizing ;
     rdfs:label "Das Aufdecken des ndoki"@de,
@@ -26175,6 +26271,16 @@ pmp:ChukcheeShamanisticPerformance a pm:Practicing ;
     pm:fieldRecord "Recorded by Waldemar Bogoras among the Reindeer and Maritime Chukchee of northeastern Siberia in the field of the Jesup North Pacific Expedition and published in English between 1904 and 1909; the speakers are not named at this place and the account is the recorder's own from attendance rather than a quoted informant; the Chukchee terms are carried in his transcription beside the English, and a separate volume of texts in the language stands beside the monograph."@en ;
     pm:withinTradition pmt:ChukcheeShamanism .
 
+pmp:DavisMagnetization a pm:Practicing ;
+    rdfs:label "Das Magnetisieren des Subjekts in den Vortragszustand"@de,
+        "Magnetizing the subject into the lecturing state"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xvii-xviii" ;
+    skos:definition "The procedure the scribe sets out step by step. The magnetizer and the subject are seated in easy positions facing each other; the ordinary manipulations are performed, requiring three to five minutes; a sudden convulsion of the muscles, such as is produced by an electric shock, indicates that the subject is duly magnetized, and his eyes are then bandaged against the light. He remains speechless some four or five minutes, with occasional convulsions, one of which brings him to external consciousness and gives him command of speech. He then inclines to the right or the left and passes into the fourth condition. In the state itself a few words only are uttered at a time, which the clairvoyant requires the operator to repeat back so that he may know he is understood."@en ;
+    skos:note "The procedure carries a sign of success and the sign is stated in advance, which SPEC §15 requires be counted separately from a condition of failure: the convulsion like an electric shock is announced as the indicator that the state has been reached. One announced sign of success, and the conditions of failure are at pmc:DavisManipulatorNecessarius and pmc:DavisInterferentiaInsensibilis."@en,
+        "The repetition requirement is worth noticing because it is the one point at which the operator is inside the production of the text. The scribe states it as a convenience of the state; it means that every sentence of the volume passed through the magnetizer's mouth before it reached the scribe's pencil. That consequence is drawn here from the passage and is the compiler's reading of it, not a statement of the scribe's."@en ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
+
 pmp:DreamDivination a pm:Practicing ;
     rdfs:label "Traumdivination"@de,
         "Dream divination"@en ;
@@ -27446,6 +27552,12 @@ pmw:NuqingGuilu a dcterms:BibliographicResource ;
     rdfs:label "Nüqing guilü"@de,
         "Nüqing guilü"@en ;
     skos:note "Six juan, DZ 790. Named here as a work of the corpus and searched by term only; not read at the wording. It is the demonological code of the transmission and is the place a later run should go for the names of the beings the petition addresses."@en .
+
+pmw:Oahspe a dcterms:BibliographicResource ;
+    rdfs:label "Newbrough, Oahspe: Eine neue Bibel in den Worten Jehovihs"@de,
+        "Newbrough, Oahspe: A New Bible in the Words of Jehovih"@en ;
+    skos:note "A warning for whoever opens it. The archive.org copies of this work are user uploads without catalogue metadata, and the fullest of them ends its pagination at 1132, which does not match the collation of the 1882 edition. Cite it by book, chapter and verse, which is how the work refers to itself, and not by page."@en,
+        "Named here as a work of the corpus and unopened. It is the second and later layer of this transmission and the registration names it beside the first, and the question it carries is the mirror of what the first work answers at length: the 1882 volume declines to describe its own production. Its editor's preface asks why anything should be said about how this book was written, and the familiar account of a typewriter is not in it. When and by whom that account was first published is the question for the run that opens it, and the place to look is the spiritualist press of 1883 and the prefaces of the editions from 1891."@en .
 
 pmw:PapyrusWestcar a dcterms:BibliographicResource ;
     rdfs:label "Papyrus Westcar"@de,
@@ -29705,14 +29817,6 @@ pmc:VaidikaNividdosah a pm:Cautioning ;
     pm:fromWork pmw:AitareyaBrahmana ;
     pm:withinTradition pmt:VedicRitual .
 
-pm:Receiving a owl:Class ;
-    rdfs:label "Empfangen"@de,
-        "Receiving"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made in or about a work, that its wording was received from a speaker other than the person who wrote or spoke it down."@en ;
-    skos:note "Distinct from pm:Originating, which names the author with whom a claim begins and the ascription it circulates under. A receiving makes no finding about who really composed the material; it records that the work claims a speaker, so that the claim is addressable, countable and disputable instead of riding invisibly in a citation."@en,
-        "Whether an agreement between two such corpora can ever be more than reception is a separate question and a hard one. The route is documented across the whole block: the vocabulary runs on from Theosophy. A convergence there needs the demonstration that a receiver did not know the earlier literature, and that demonstration is expensive and rare."@en .
-
 pm:Reworking a owl:Class ;
     rdfs:label "Bearbeiten"@de,
         "Reworking"@en ;
@@ -30159,6 +30263,14 @@ pm:PrerequisiteStrength a owl:Class,
     skos:note "The three must not collapse. A list of eight limbs in the order given is not the same claim as a sentence saying that the eighth is unreachable without the seventh, and reading the first as the second is the commonest way a modern system acquires an ancient warrant it never had."@en ;
     pm:scaleFamily pm:sourceModalityScale .
 
+pm:Receiving a owl:Class ;
+    rdfs:label "Empfangen"@de,
+        "Receiving"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made in or about a work, that its wording was received from a speaker other than the person who wrote or spoke it down."@en ;
+    skos:note "Distinct from pm:Originating, which names the author with whom a claim begins and the ascription it circulates under. A receiving makes no finding about who really composed the material; it records that the work claims a speaker, so that the claim is addressable, countable and disputable instead of riding invisibly in a citation."@en,
+        "Whether an agreement between two such corpora can ever be more than reception is a separate question and a hard one. The route is documented across the whole block: the vocabulary runs on from Theosophy. A convergence there needs the demonstration that a receiver did not know the earlier literature, and that demonstration is expensive and rare."@en .
+
 pm:ScaleFamily a owl:Class ;
     rdfs:label "Skalenfamilie"@de,
         "Scale Family"@en ;
@@ -30393,6 +30505,17 @@ pmc:AyurvedaDehasamhanana a pm:Conceptualizing ;
     skos:note "The third wording is the place where the lesson's strongest claim stands in its plainest form: not that death is postponed but that the user does not succumb to it. It is claimed of a preparation of iron leaf quenched seven times and kept a year under barley, that is, of something a reader could make."@en ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
+
+pmc:DavisIndependentClairvoyance a pm:Conceptualizing ;
+    rdfs:label "Unabhängiges Hellsehen"@de,
+        "Independent clairvoyance"@en ;
+    dcterms:source "Davis, The Principles of Nature, 3rd edn., New York 1847, Scribe's Introduction, pp. xvi-xvii",
+        "Davis, The Principles of Nature, 3rd edn., New York 1847, pp. 43-44" ;
+    skos:definition "The state the work claims for itself, described by the scribe from the outside and by Davis from the inside, and the two descriptions agree on the physiology. The subject becomes cold, rigid, motionless and insensible to all external things; the pulsations become feeble and the breathing is apparently almost suspended; and the condition, on Davis's own explanation, corresponds almost precisely to that of physical death. Davis adds what the state is for: passing into it he does not observe entities as they would naturally be known to exist, but receives the reality of what he had a previous desire to investigate."@en ;
+    skos:note "Entered because the claim is a state and not a power, and because the work makes the state the whole of its evidence: the scribe says that if the account of Davis's past life and opportunities is correct, then it irresistibly follows that the book must have been dictated by some other and higher source of information than that accessible to the physical senses. The argument runs from the state and the man's ignorance to the source, and never from the contents."@en,
+        "What the state is said to leave behind, and the claim is total. The mind is said to be entirely freed from the sphere of the body and consequently from all preconceived ideas, from all theological isms, and from all influences of education and local circumstances. A transmission that claims its own freedom from the influence of education is claiming the one thing an outside reader would most want to test, and the work's answer to that test is biographical and not textual."@en ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:withinTradition pmt:SpiritualistAutomaticWriting .
 
 pmc:EuropeanFolkMagicSchussblatterHeilung a pm:Conceptualizing ;
     rdfs:label "Das Heilen einer Schußblatter am Auge"@de,
@@ -31046,6 +31169,21 @@ pmt:NewThought a pm:Tradition ;
     pm:fromWork pmw:QuimbyManuscripts ;
     pm:principalCorpus "Quimby, The Quimby Manuscripts; Emma Curtis Hopkins, Scientific Christian Mental Practice; Troward, The Edinburgh Lectures on Mental Science" .
 
+pmt:SpiritualistAutomaticWriting a pm:Tradition ;
+    rdfs:label "Spiritistisches automatisches Schreiben"@de,
+        "Spiritualist automatic writing"@en ;
+    dcterms:source "Andrew Jackson Davis, The Principles of Nature, Her Divine Revelations, and a Voice to Mankind, 3rd edn., New York: published by S. S. Lyon and Wm. Fishbough, 1847, Scribe's Introduction, pp. xvii-xviii" ;
+    skos:definition "The nineteenth century transmission of extended texts produced by a writer who reports not composing them, and issued as scripture rather than as message. Taken here at its earliest layer, where the production is documented at length by the people who conducted it: a man put into a state by a named operator, questioned by nobody, taken down by a named scribe in the presence of three chosen witnesses, over a hundred and fifty-seven sittings."@en ;
+    skos:note "And the title page states the ambiguity the whole file turns on, in three words. The work is BY AND THROUGH Andrew Jackson Davis. Which of the two it is, the volume answers twice and differently, and the disagreement is between its author and its scribe; it stands at pmc:DavisFonsDisputatus."@en,
+        "Read at the wording on 2026-10-03: Davis, The Principles of Nature, third edition, New York 1847, at the title and copyright page, the Scribe's Introduction pp. iii-xxii, the Address to the World pp. 1-4, the chapters on animal magnetism and clairvoyance pp. 29-57, and the astronomical part at pp. 160-173. Not read: the greater part of the volume, named in the file header. Not opened at all: Newbrough, Oahspe, 1882, which this registration also names and which stands below as an identifier so that queries/unopened-works.rq shows it."@en,
+        "What kind of witness this is, and it is an unusual one for this holding. Most transmissions here are read at a place and the circumstances of their fixation are lost. This one documents its own production more fully than any other corpus in the holding: it gives the operator's name, the scribe's name, three witnesses chosen in advance and named with the reason each was chosen, a list of twenty-three further occasional witnesses with their towns, the count of sittings at a hundred and fifty-seven, the count of manuscripts carrying signatures at a hundred and forty, the number of signatures at two hundred and sixty-seven, the range of sittings any one person attended as one to seventy-three, and the number of sittings with no signature at all as seventeen. A corpus that counts its own witnesses that precisely is making a claim that can be checked, and the manuscripts are declared to be preserved."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:DavisPrinciplesOfNature,
+        pmw:Oahspe ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:DavisPrinciplesOfNature ;
+    pm:principalCorpus "Davis, The Principles of Nature, Her Divine Revelations, and a Voice to Mankind; Newbrough, Oahspe: A New Bible in the Words of Jehovih" .
+
 pmt:Zoroastrian a pm:Tradition ;
     rdfs:label "Zoroastrische Überlieferung"@de,
         "Zoroastrian transmission"@en ;
@@ -31248,6 +31386,13 @@ pmw:ConfessioFraternitatis a dcterms:BibliographicResource ;
     rdfs:label "Confessio Fraternitatis (1615)"@de,
         "Confessio Fraternitatis (1615)"@en ;
     skos:note "Opened on 2026-09-30 and read complete in the English of Thomas Vaughan, London 1652, which prints it with the preface announcing thirty-seven reasons. The work divides into fourteen capita and the division is stable across prints, so a place in it is given by caput where the passage sits in one; the Vaughan print of 1652 runs the text without caput numbers, and this file therefore locates by the passage."@en .
+
+pmw:DavisPrinciplesOfNature a dcterms:BibliographicResource ;
+    rdfs:label "Davis, Die Prinzipien der Natur, ihre göttlichen Offenbarungen"@de,
+        "Davis, The Principles of Nature, Her Divine Revelations, and a Voice to Mankind"@en ;
+    skos:note "Opened on 2026-10-03 in the third edition, New York 1847, over the archive.org full text principlesofnatu00davi. Read in this run at that copy: the title page and the copyright page, which give the edition and the printer Redfield and Savage who stereotyped it, and the running-head sequence from 3 to 782, checked for monotonicity before any page number below was taken from it."@en,
+        "The cheapest continuation is the part of the same volume that was not read, and the work itself names the reason to go there: the scribe writes that the evidence for the claimed source will be apparent on a perusal of the whole volume and especially of pp. 33 to 57, which is read. Six further pages are worth opening on a report and not on a reading: the research that preceded this run gives pp. 121, 237, 242, 263, 270 and 312 as the passages Podmore attacks on geological and palaeontological grounds. Podmore was not opened in this run, so those six numbers are an address and nothing more. A run that wants a protocol rather than more claims opens Podmore and then those six places, in that order."@en,
+        "The stereotype plates make the pagination common to the editions from 1847 into the eighteen-eighties, and that is a second-hand statement in this file rather than a reading of this run. The research that preceded the run reports the same wording found at the same page in four further scans — the tenth edition of 1852, the twentieth of 1855, the thirty-second of 1871 and an undated thirty-fifth — and this run did not repeat the comparison. The copyright page it did read states the stereotyping, which is the ground of the inference and not the measurement. The consequence for a reader is small and should be said anyway: a page number from this file is reliable for this copy, and reliable for the others on a report."@en .
 
 pmw:QuimbyManuscripts a dcterms:BibliographicResource ;
     rdfs:label "Dresser (Hrsg.), The Quimby Manuscripts, 2. Aufl., New York 1921"@de,
@@ -32058,12 +32203,6 @@ pmw:BaopuziNeipian a dcterms:BibliographicResource ;
         "Ge Hong, Baopuzi neipian"@en ;
     skos:note "Twenty juan, DZ 1185 in the Zhengtong Daozang, read in the Hanfenlou facsimile. Five chapters are now read at the wording: 4 on the golden elixir, 8 on releasing the obstruction, 17 on climbing into the mountains, 18 on the earthly truth, and 9 on the intention of the Way, read on 2026-09-23. Of chapter 8 a part was read in an earlier run and the remainder of that chapter is still owed. Fifteen chapters of the inner book and the whole of the outer book are searched by term only; the harvest still owed is recorded at prima-materia#633."@en .
 
-pm:Attributing a owl:Class ;
-    rdfs:label "Zuschreiben"@de,
-        "Attributing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
-
 pm:Generalizing a owl:Class ;
     rdfs:label "Verallgemeinern"@de,
         "Generalizing"@en ;
@@ -32107,6 +32246,12 @@ pmw:TurbaPhilosophorum a dcterms:BibliographicResource ;
         "Read here complete in Arthur Edward Waite, The Turba Philosophorum, or Assembly of the Sages, London: George Redway 1896, which translates the longer of the two Latin recensions and gives the shorter one's readings in notes. Seventy-two dicta plus the epistle of Arisleus and the conclusion of Agmon."@en,
         "The Latin is reachable and was not read. The work stands in the Artis auriferae collections of 1572, 1593 and 1610 and in Manget's Bibliotheca chemica curiosa of 1702, several of them digitised and freely readable; the 1610 Basel print carries the Turba twice, in both recensions, which makes it the cheapest place to settle the two divergences above. That the Latin was not read is a debt of this run."@en,
         "The two recensions diverge in ways that touch the operations, not only the wording, and two of the divergences are recorded in the holding. At Dictum 69 the longer recension says of the redness hidden in the whiteness that it does not behove the operator to extract it and the shorter says that it does — two opposite instructions at the same place, carried as pmc:TurbaRubedoExtrahenda. At Dictum 16 the washing is twenty-one days with dew and rain, ten with salt and ten with fresh water in the longer recension, and twenty-nine, twenty and ten in the shorter. A run that wants to decide either has to go to the Latin."@en .
+
+pm:Attributing a owl:Class ;
+    rdfs:label "Zuschreiben"@de,
+        "Attributing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
 pmt:ChineseMedicalCanon a pm:Tradition ;
     rdfs:label "Chinesischer medizinischer Kanon"@de,
