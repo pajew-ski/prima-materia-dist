@@ -33116,7 +33116,7 @@ pm:Attesting a owl:Class,
         "Attesting"@en ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act by which a claim entered the record. Instances of this class are modes of entry, not claims; a claim points at one of them through pm:attestedBy."@en ;
-    skos:note "Orthogonal to pm:AwarenessContext, which describes the state the asserter was in rather than the route by which the assertion reached the record."@en ;
+    skos:note "Orthogonal to the subject axes of pm:subjectAxis, which say where the matter lies on a coordinate rather than by which route the assertion reached the record. The note named pm:AwarenessContext until 2026-10-07; that class was struck with prima-materia#436 and its two questions were separated into the five axes of ontology/consciousness.ttl, which are attached to a node through pm:Situating and not through an edge on the assertion."@en ;
     pm:scaleFamily pm:recordScale .
 
 pm:SensoryAnchoring a owl:Class,
