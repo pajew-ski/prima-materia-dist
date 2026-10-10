@@ -6433,6 +6433,16 @@ pmc:HedanTiaojian a pm:Cautioning ;
     pm:cautionsAbout pmp:Jindan ;
     pm:withinTradition pmt:Waidan .
 
+pmc:HeidouYieldsShanEZhiShu a pm:Yielding ;
+    rdfs:label "Von der Bohnenzählung wird berichtet, sie habe den Geist rein zum Guten gebracht"@de,
+        "The bean tally is reported to have brought the mind purely to the good"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 129, fol. 16a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:ZhaoShupingHeidou ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation ;
+    pm:yieldsCapacity pmc:ZhaoShupingShanEZhiShu .
+
 pmc:HermeticDaemonUltor a pm:Cautioning ;
     rdfs:label "Der rächende Daimon tritt an die Stelle des Mind"@de,
         "The avenging daimon takes the place of Mind"@en ;
@@ -8166,6 +8176,50 @@ pmc:JingmaiQijue a pm:Conceptualizing ;
     skos:note "The interest of this passage for the graph is that it shows the corpus deriving a term rather than reporting one. The day is not a number of days from the observation; it is a named day of the sexagenary cycle, and the text gives the derivation openly in each case, from the phase that overcomes the phase of the channel. Whatever the intervals of Suwen 52 are, these are not counted intervals, and the chapter does not pretend otherwise."@en,
         "The two collective cases are of the other kind. A day and a half, and the morning-for-evening rule, are stated as durations from the finding, with no calendar in them. One chapter therefore carries both forms, which is the comparison a protocol on the intervals of this corpus would have to begin from."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
+
+pmc:JingzuoAnchoringNotStated a pm:Situating ;
+    rdfs:label "Die Sinnesbindung des stillen Sitzens wird von dieser Überlieferung nicht angegeben"@de,
+        "The sensory anchoring of quiet sitting is not stated by this transmission"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 7b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:anchoringNotStated ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:situatedNode pmp:Jingzuo ;
+    pm:situationGround "The question was put to the work and the work is silent. Over thirty-three occurrences of the practice in a hundred and forty juan there is no instruction about the eyes, the ears, the breath or the withdrawal of the senses, and no description of a state in which the ordinary sense channel is other than it is. The one passage that approaches the matter refuses it: a disciple asks about observing the aspect before arousal, and is told that observing with intent is already arousal. This is the not-stated value and not an absent placement: the difference matters here more than anywhere, because a transmission entered as a control would otherwise be read as a transmission nobody has asked."@en ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:JingzuoIsOwnAgency a pm:Situating ;
+    rdfs:label "Das stille Sitzen liegt bei eigener Handlungsträgerschaft"@de,
+        "Quiet sitting is placed at own agency"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 118, fol. 39a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    pm:attestedBy pm:compilerInference ;
+    pm:axisValue pm:ownAgency ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:situatedNode pmp:Jingzuo ;
+    pm:situationGround "No power outside the practitioner appears anywhere in the passages read, as agent, as helper or as interference. What acts is the mind, and the failures are assigned to what the practitioner wants: he takes the gain in advance, he forces the growth, he fixes the mind, he is weary of bother and fond of quiet. The placement is of the practice as the work bounds it and not of the principle it is to disclose."@en ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:JingzuoYieldsDaoli a pm:Yielding ;
+    rdfs:label "Das stille Sitzen räumt den Geist frei, so dass das Prinzip herauskommt"@de,
+        "Quiet sitting clears the mind so that the principle comes out"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 3b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:note "The weakest yielding in this holding and deliberately entered as one. What is claimed is that an obstacle is removed, not that anything is produced, and the work says in the same passage that the removal is not to be sought for its own sake. SPEC §15 has the rule this node is written under: a node that is weak and says where it is weak is better than a node that does not exist, because the absent one cannot be told from material nobody looked at."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:Jingzuo ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation ;
+    pm:yieldsCapacity pmc:ZhuziDaoliShichu .
+
+pmc:JingzuoYieldsJixing a pm:Yielding ;
+    rdfs:label "Von monatelangem stillem Sitzen wird berichtet, es habe das Gedächtnis eines Mannes vervielfacht"@de,
+        "Months of quiet sitting are reported to have multiplied a man's memory"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 129, fol. 17a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:note "Third-party ascription: the work reports what happened to a named man of an earlier generation and does not claim it of the practice. The mode is the difference between this and a yielding of the usual kind, and it is also what makes the entry worth having, because an ascription about one man is checkable in principle against anything else known about that man."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:Jingzuo ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation ;
+    pm:yieldsCapacity pmc:ChenLieJixing .
 
 pmc:JinyeFenliang a pm:Conceptualizing ;
     rdfs:label "Der Goldsaft, nach Unzen"@de,
@@ -17179,6 +17233,30 @@ pmc:ZhuyouGujinYi a pm:Conceptualizing ;
         "The form of this claim is what the graph should hold it for. It neither asserts nor denies that the practice works; it dates the end of its working and gives a reason lying outside the practice, in the condition of the age. A statement of that shape covers both outcomes in advance: where the incantation fails it is confirmed, and where it succeeds the age was not yet so far gone."@en ;
     pm:withinTradition pmt:ChineseMedicalCanon .
 
+pmc:ZhuziWuxingWuzhuang a pm:Conceptualizing ;
+    rdfs:label "Es ist formlos und gestaltlos, wo also wolltest du es prüfen"@de,
+        "It is formless and shapeless, so where would you go to verify it"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 116, fol. 2b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "From the instruction of the disciple Kuisun, on holding to the one. Where the holding to one is concerned it is settled that it is so, and there is no need to discuss it; one has only to go and put out force, not to be unrestrained, not to be careless and slack. Being ordered and strict is holding to the one, and is reverence. The sages speak in a hundred ways and so one must; but when I put it like that, the thing is formless and shapeless, so where would one go to verify it? One has only to work at it on one's own person, and in such matters one will come to understand of oneself after a long time."@en ;
+    skos:note "The transmission stating that its own object admits of no verification, and proposing in its place that the practitioner work on himself and come to understand in time. Beside pmc:ZhuziYifaDispute, which says the inspection destroys the state, this says the state has nothing to inspect. Taken together they are the strongest internal statement of the problem this holding exists for, and they come from a transmission that is in it as a control."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziYifaDispute a pm:Disputing ;
+    rdfs:label "Ob die Gestalt vor dem Aufkommen überhaupt geprüft werden kann"@de,
+        "Whether the aspect before arousal can be verified at all"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 6b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 7a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 7b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:note "A disciple puts the argument more sharply than the master does, and his formulation is the one to quote. Daofu, having set out that Li Yanping's words aim at living the state through while Yichuan's aim at nourishing it, says he cannot be without a doubt: if what is called living it through means to live it in the mind and so know it, as one might say to grasp it silently, then on that account the unaroused is of itself one mind and the living through is another mind, and to know that mind with this mind is surely entangling and fragmenting. He adds that what Li said cannot have come to that. Zhu Xi answers only that what Li said was what he himself saw at the time."@en,
+        "A transmission saying of its own introspective verification procedure that the act of verifying destroys the thing to be verified. This is the most valuable single thing in the strand, because it is an argument and not a doctrine: the target state is defined by the absence of arousal, attention is a form of arousal, therefore no observation of the target is possible from inside. Any transmission in this holding that claims a state inspected by the practitioner is answerable to it, and the objection was raised by a party with no interest in raising it, about his own teacher."@en,
+        "The claim disputed is the procedure itself: that one may sit and verify what the aspect is before joy, anger, grief and pleasure arise. Asked how Yanping's wanting to observe the aspect before arousal differs from Yang's verifying by living through it before arousal, Zhu Xi answers that this too has something of an illness in it: that word verify has a thinking in it already, and that is the arousal; and if in observing one looks with intent like that, that too is already the arousal. Asked whether the verifying is an intent observing or only an ordinary one, he answers that this too is observing it by not observing."@en,
+        "The two sides as the work has them, in two records and two places. For the procedure: Li Yanping sat so, Zhu Xi wrote it into the account of his life in those words, and a disciple says that by holding to it a long while one may also see the aspect. Against it: the words were set down too heavily in those days, and measured by Yichuan's words the work in it is a little one-sided; today, to sit bolt upright all day is only to gather oneself in here, which is better than racing about, but if one goes on this way it comes to resemble Chan sitting and entering absorption; and the verifying has a thinking in it already. Zhu Xi concedes in the same breath that Li got stillness to an extreme degree and so came to have an awareness in him that others do not have."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:disputedClaim pmp:LiYanpingWeizuo ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmc:ZiqelTeachesSignsOfShootingStars a pm:Attributing ;
     rdfs:label "Ziqel offenbart die Zeichen der Sternschnuppen"@de,
         "Ziqel discloses the signs of the shooting stars"@en ;
@@ -21855,6 +21933,64 @@ pmp:ZhengaoShijieCountsSearch a pm:Searching ;
     pm:searchedCorpus "Tao Hongjing, Zhen'gao, twenty juan (DZ 1016), Zhengtong Daozang, Hanfenlou facsimile; searched over the whole work in the Chinese, with the passages carrying a hit read at the wording" ;
     pm:searchedFor "A passage in which the death of a person who carried out a prescribed operation is treated as evidence against the operation, rather than as a passage out of the world by another route. This is the counter-search owed by the reading of pmc:ShangqingShijieZhengbian and by the protocol built on it." .
 
+pmp:ZhuziYuleiCaseReportSearch a pm:Searching ;
+    rdfs:label "Ob das Zhuzi yulei einen Fall berichtet, in dem jemand die Praxis ausführte, mit Ausgang"@de,
+        "Whether the Zhuzi yulei reports a case of somebody carrying out the practice, with an outcome"@en ;
+    dcterms:date "2026-10-10" ;
+    skos:note "Five, where every work opened before this one gave none, and the reason is the genre and not the doctrine: this is a record of conversations kept by named disciples over thirty years, so a man who says what happened to him is written down with his name on the entry. The three that are reports of the practice are at pmc:ChenLieJixing, a man who sat a hundred days and could then read at a glance; at pmc:ZhuziHuYongYan, a man who tried the proposition and found the work less in stillness than in movement; and at pmc:ZhuziYanshuce, a man who came away disliking books. The two others are of neighbouring practices: a counted record of thoughts at pmc:ZhaoShupingShanEZhiShu and a borrowed daily hour of stillness at pmc:WuGongjiYiShichen."@en,
+        "The three outcomes are of three kinds and the spread is itself the finding: one favourable and large, the reading at a glance; one unfavourable, the distaste for books; one contrary to the doctrine being tested, the work found greater in movement. A transmission that writes down all three is doing something none of the opened manuals does, and it does it without any apparatus for weighing them."@en,
+        "What the five are not. None has a measure, none has a second observer of the outcome, and two of the five are reports about men of an earlier generation rather than about anybody in the room. Two of the five stand twice in the work in two disciples' records, which is a second witness to the report and not to the outcome. They are entered because a case with a name and a duration can be argued with and a transmission's silence cannot, and because the difference between this work and the manuals is now in the holding rather than in a reader's impression of it."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "The practice in both spellings at all ninety-six places, each read for a person and an outcome; then the word for verify and its compounds at the places where a practitioner is the subject; then the two cases followed into the other juan in which they stand, juan 11 and juan 120. Terms that produced nothing: formerly there was, nil; there once was, nil; so-and-so, nil; proof of effect used of a practitioner of this practice, nil." ;
+    pm:searchYieldedNode pmc:ChenLieJixing,
+        pmc:WuGongjiYiShichen,
+        pmc:ZhaoShupingShanEZhiShu,
+        pmc:ZhuziHuYongYan,
+        pmc:ZhuziYanshuce ;
+    pm:searchedBy "prima-materia, 2026-10-10" ;
+    pm:searchedCorpus "Li Jingde (comp.), Zhuzi yulei, 140 juan, in the Wenyuange recension of the Siku quanshu as the Kanseki Repository text KR3a0047 carries it; the thirty juan carrying the practice in either spelling, read at every place, and juan 129 on the men of the Northern Song read further" ;
+    pm:searchedFor "A named or unnamed person said to have carried out the practice, with an outcome: a faculty changed, a state reached, a failure, a harm. Not a doctrinal illustration and not an exemplum. The identical question was put to the Xiao zhiguan in the same run at pmp:XiaoZhiguanCaseReportSearch and came back empty, and the gZi brjid and the demotic manual before it were the same; this is the holding's standing shortage and the reason the question is put first in every work now opened." .
+
+pmp:ZhuziYuleiImmunisationSearch a pm:Searching ;
+    rdfs:label "Ob das Zhuzi yulei eine Vorrichtung trägt, die seine Praxis unbeantwortbar machen würde"@de,
+        "Whether the Zhuzi yulei carries a device that would make its practice unanswerable"@en ;
+    dcterms:date "2026-10-10" ;
+    skos:note "None of the four. There is no guarantee for this practice to protect, no prohibition on reporting what came of it, and no provision that keeps a failure from falling due. This is the strongest thing the strand produced and it is a negative: the holding now has one transmission, read at every place where its practice is named, that claims nothing its own failures could contradict. A control is of no use until somebody has asked it the questions the others were asked, and these are the answers."@en,
+        "Two near misses, because a bare nil would overstate it. At pmc:ZhuziZeXiao the practitioner is forbidden to demand the effect, on pain of a cake gathering in the breast, which is the mirror of the prohibition at pmc:TiantaiZheZhang; what makes it not a device of the fourth kind is that no claim stands behind it, and the passage is about reading. And at pmc:ZhuziYaojingYueBujing the failure is assigned to the practitioner's wanting, which looks like the displacement at pmc:TiantaiFeiMoSuoWei until one sees what is being protected: there, a method that works; here, a method the work says does not exist."@en,
+        "What this does not settle. Absence over the places where the practice is named is not absence over the work: a hundred and ten juan were not read, and a device of this kind could stand in a conversation that does not use the word. What the search establishes is that at every place this transmission speaks about sitting still, it leaves the question of what came of it open. Whoever reads the rest should start from the juan on the men of the Northern Song and from the instruction of the disciples, where the four devices would most naturally lie."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "For the guarantee: will certainly, five, none of them of this practice; without doubt, fifty-eight, read at the places in the thirty juan and all of them of a reading of a text or of a doctrine; the word for proof of effect, twenty-three, read at all of them and none a guarantee of this practice. For the rule against reporting: not to be spoken of outwardly, nil; demanding the effect, five, of which one bears on practice and is entered at pmc:ZhuziZeXiao. For the removed term: the days and months are not to be counted, nil; practise long, read at the places where it occurs in the thirty juan, always as an instruction to persevere at study and never as a bar to judging an outcome. For the displaced failure: forcing the growth, seventy-seven, and taking the gain in advance, eight, read at the places in the thirty juan and entered at pmc:ZhuziYaojingYueBujing." ;
+    pm:searchedBy "prima-materia, 2026-10-10" ;
+    pm:searchedCorpus "Li Jingde (comp.), Zhuzi yulei, 140 juan, in the Wenyuange recension of the Siku quanshu as the Kanseki Repository text KR3a0047 carries it; the thirty juan carrying the practice in either spelling, read at every place" ;
+    pm:searchedFor "The four devices this holding has met in the opened works, asked for one by one: a guarantee without a condition, of the kind at pmc:TiantaiZheZhang; a rule forbidding the report of the practice's effect or absence, of the kind at generalizations/the-rule-against-reporting-the-absence.ttl; a provision removing the term, so that a failure is never yet due, of the kind at examinations/the-count-that-does-not-fall-due.ttl; and a clause assigning every failure to a person so that none can fall on the procedure, of the kind at generalizations/the-excuse-that-stops-at-the-officiant.ttl." .
+
+pmp:ZhuziYuleiJingzuoSearch a pm:Searching ;
+    rdfs:label "Was das Zhuzi yulei dem stillen Sitzen zuschreibt und was es scheitern lässt"@de,
+        "What the Zhuzi yulei says quiet sitting does, and what it says makes it fail"@en ;
+    dcterms:date "2026-10-10" ;
+    skos:note "The finding is the shape of the whole, not any one clause. This transmission states five indications for its practice and no general claim: a beginner, a man weary, the leisure between readings, a man thinking too much, and a man badly agitated. Against them it states that there is no method, that the wanting of the state produces the failure, that the practice taken alone makes an illness, that it is good for a cold constitution and not for everybody, and that a man who keeps still when a matter comes before him has a dead mind. A prescription with five indications, no technique and a contraindication is a different kind of object from anything else in this holding, and it is what the registration of this tradition as a control was for."@en,
+        "Two adverse effects are reported and both are in the work's own terms rather than in a body: a man grew dull and could not think, at pmc:ZhuziHunkun, and a man came away with a distaste for books, at pmc:ZhuziYanshuce. The second is the only entry in this holding in which a practice is reported to have changed what somebody was willing to do, and in a transmission that puts reading and sitting on the same footing that is a result and not a mood."@en,
+        "What the other transmissions assign to the practitioner, this one assigns to his wanting, and the difference is worth the entry. At pmc:TiantaiFeiMoSuoWei in the work opened in the other strand of this run the practitioner's want of wisdom carries a harm the method cannot be blamed for; here the practitioner's want of the result is itself the failure, and the method is said to have nothing in it that could have worked instead. The first clears the method, the second has no method to clear."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "The practice itself in two spellings over the whole work: the full form of the word for quiet with sitting, thirty-three places in juan 12, 14, 16, 68, 102, 103, 115, 116, 117, 118, 119, 126 and 129; the shortened form with sitting, sixty-three places in juan 9, 11, 12, 16, 23, 26, 31, 45, 52, 59, 63, 64, 74, 80, 96, 102, 104, 113, 114, 115, 120 and 126, of which juan 12 alone carries twenty-three. Ninety-six places in thirty juan in all. Beside them, over the whole work: the word for making an illness, fourteen; sitting in a gallop, two; dull and sleepy, four; the mind dead, four; blank sitting, two; Chan sitting, five; entering absorption, eleven; silent illumination, one; facing the wall, four; demanding the effect, five; forcing the growth, seventy-seven; taking the gain in advance, eight; the word for verify, a hundred and ninety-two, of which the twenty-three places that bear on this practice were read, and its compounds for living a thing through, thirty, and for proof of effect, twenty-three." ;
+    pm:searchYieldedNode pmc:ZhuziChengziShoushi,
+        pmc:ZhuziDaoliShichu,
+        pmc:ZhuziFotuBoundary,
+        pmc:ZhuziHouKanBuran,
+        pmc:ZhuziHunkun,
+        pmc:ZhuziJingzuoWufa,
+        pmc:ZhuziWuwu,
+        pmc:ZhuziXinsiYi,
+        pmc:ZhuziXuJingzuo,
+        pmc:ZhuziYanshuce,
+        pmc:ZhuziYaojingYueBujing,
+        pmc:ZhuziZeXiao,
+        pmc:ZhuziZuobing,
+        pmc:ZhuziZuowangZuochi ;
+    pm:searchedBy "prima-materia, 2026-10-10" ;
+    pm:searchedCorpus "Li Jingde (comp.), Zhuzi yulei, 140 juan, in the Wenyuange recension of the Siku quanshu as the Kanseki Repository text KR3a0047 carries it; every occurrence of quiet sitting in both of the spellings the recension uses, read in its surrounding conversation" ;
+    pm:searchedFor "Both directions at once, because this transmission gives them in the same conversations: what the work claims for sitting still, with any dose, indication or term it states; and what it names as the way the practice goes wrong, with the consequence. The same question in its failure half was put to the demotic manual at pmp:PdmFailureConditionSearch, to the Clavicula at pmp:ClaviculaFailureConditionSearch, to the gZi brjid at pmp:BonFailureConditionSearch and to the Xiao zhiguan at pmp:XiaoZhiguanFailureConditionSearch." .
+
 pmp:ZosimosDefectusSearch a pm:Searching ;
     rdfs:label "Ob die letzte Abrechnung sagt, worauf ein ertraglos gebliebener Durchgang zu schieben ist"@de,
         "Whether the Final Reckoning says what a run that produced nothing is to be assigned to"@en ;
@@ -22248,15 +22384,6 @@ pmt:Nath a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Siddha-Siddhānta-Paddhati; Gorakṣaśataka; Amanaska" .
-
-pmt:NeoConfucianCultivation a pm:Tradition ;
-    rdfs:label "Neokonfuzianische Selbstkultivierung"@de,
-        "Neo-Confucian self-cultivation"@en ;
-    skos:definition "The transmission of quiet sitting and of the investigation of things as a discipline of attention that claims no transcendent object."@en ;
-    skos:note "Registered as a control condition. A contemplative practice with the same postures and much of the same phenomenology, and without the metaphysical claim, is what any examination of the others needs to have alongside them."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Zhu Xi, Zhuzi yulei on jingzuo; Wang Yangming, Chuanxilu; Mencius 2A.2 on the flood-like qi" .
 
 pmt:Neoshamanism a pm:Tradition ;
     rdfs:label "Neoschamanismus"@de,
@@ -28734,6 +28861,15 @@ pmc:WuBukezang a pm:Cautioning ;
     pm:cautionsAbout pmp:Zang ;
     pm:withinTradition pmt:ChineseDivination .
 
+pmc:WuGongjiYiShichen a pm:Conceptualizing ;
+    rdfs:label "Eine Doppelstunde Stille am Tag, um den Geist zu nähren, versucht und einigermaßen bestätigt"@de,
+        "One double-hour of stillness a day to nourish and guard the spirit, tried with some verification"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 12, fol. 34b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The report a disciple brings to Zhu Xi. Wu Gongji says that in the daily business of answering to matters and meeting people one must get a double-hour of stillness in order to nourish and guard the spirit, so that the more the affairs multiply the more leisure the mind has: where others fall short, one has something over. His words come out of a heterodox teaching, the disciple adds, yet on trying it there is also roughly some verification. Is this perhaps what Master Zhou called holding to stillness? Zhu Xi answers, of that heterodox teaching: having talked of emptiness and stillness, it leaves the students of today so busy that they dare not even sleep."@en ;
+    skos:note "A dose, an indication, a reported trial and a verification word, brought by a disciple who is careful to say where the prescription comes from and careful not to claim more than roughly. It is the only place in this holding where somebody says he tried a practice of a tradition not his own and reports the result, and the result is favourable and small. Zhu Xi neither accepts nor refutes it; he answers with a remark about what the teaching does to students."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmc:WucijinQizhuang a pm:Cautioning ;
     rdfs:label "Die sieben Zustände, in denen nicht genadelt wird"@de,
         "The seven states in which one does not needle"@en ;
@@ -28921,6 +29057,141 @@ pmc:ZeriDispute a pm:Disputing ;
     pm:attestedBy pm:textualAttestation ;
     pm:disputedClaim pmc:SanjiLiuxiong ;
     pm:withinTradition pmt:ChineseDivination .
+
+pmc:ZhuziChengziShoushi a pm:Conceptualizing ;
+    rdfs:label "Cheng Yi lehrte das stille Sitzen, weil er Menschen sah, die zu viel dachten"@de,
+        "Cheng Yi taught quiet sitting because he saw men thinking too much"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 17b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 18b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 119, fol. 12a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The same answer is given twice in the records of two different disciples, to the question why Master Cheng constantly taught men quiet sitting: it too was that he saw men wanting to think a great deal, and so taught them to gather this mind in, no more than that; and a beginner should do likewise. In a third place a disciple asks whether quiet sitting is the thing for a beginner whose spirits are easily scattered, and is told that it is good, but that the work is not to be done only in the still: in movement too one is to test it by living through it, and the sages did not teach men only on the sitting cushion; the point is to put out force wherever one is, in reading, in waiting on people, in handling affairs, in movement and stillness, in speech and silence."@en ;
+    skos:note "A reduction of the practice to an indication, stated twice and by two independent recorders. The indication is a man who thinks too much, the aim is gathering, and nothing is claimed beyond it. Beside pmc:ZhuziZuobing, which restricts the prescription to the badly agitated, this gives the transmission two statements of the kind a pharmacopoeia carries and a manual of attainment does not."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziFotuBoundary a pm:Conceptualizing ;
+    rdfs:label "Allein sitzen ohne Verkehr ist der Weg der Buddhisten, und unser Lernen ist genau das nicht"@de,
+        "Sitting alone with no dealings is the Buddhist way, and our learning is precisely not that"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 7a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 11b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 126, fol. 49a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The boundary drawn twice and with the other party named. Against a disciple's account of concentrating on quiet sitting alone: to sit as the Buddhists do, blankly alone with no dealings at all, and only then to count it gained, is just what the learning of our company is not. When there is nothing to do one sits quietly, when there is a book one reads it, and so on through meeting things and handling matters, keeping this mind bright throughout, which is holding the mind; how should one lay everything down and merely sit quietly? And of Li Yanping's all-day sitting: if one goes on in this way it comes again to resemble Chan sitting and entering absorption, and goes off after the Buddhists. In juan 126 the same practice is described from outside: Bodhidharma came in, and thereafter they changed the subject and went in for facing the wall, quiet sitting and silent illumination, and in that there was something of use to them, so that men all turned that way."@en ;
+    skos:note "The useful thing for a control is that the boundary is drawn from inside, in the other party's own words, and with a concession: the master says of the Chan practice that in it there was something of use, and says of his own teacher that he got stillness to an extreme degree and gained an awareness others lack. A control that merely denied the other practice would say nothing about it. This one names what the practice does, accepts a part of it, and refuses the form."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziHouKanBuran a pm:Conceptualizing ;
+    rdfs:label "Früher sah ich Meister Li das stille Sitzen lehren; später sah ich es anders"@de,
+        "I formerly saw Master Li teach quiet sitting; later I saw it otherwise"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 120, fol. 51b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "Chunsou asks how it is that while he is reading he feels he has no work of stillness, and whether there must be a time for reading and a time for being empty and still. Zhu Xi answers: I formerly saw Master Li teach men to sit quietly, and later I came to see it otherwise; it is only the one word reverence that is good, so that when there is nothing to do one is reverent in holding oneself, and when a matter comes one is reverent in answering it, and when one reads one is reverent in reading, and then of itself it runs through movement and stillness and there is no time at which the mind is not held. Shortly after, seeing the disciple Chunsou sitting with his eyes shut, he said: Chunsou means to be rid of things, and things are in their nature not to be got rid of."@en ;
+    skos:note "A change of mind about a practice, stated as one, by a man who had the practice from his own teacher and wrote the teacher's life. This holding has nothing else of the kind: a transmission recording that it tried a method, kept it for a time and then put it down, with the reason and with what it put in its place. Nothing is said about what happened in the interval, so it is not a reported test; what it is, is a transmission that allows its own position to have had a history."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziHuYongYan a pm:Conceptualizing ;
+    rdfs:label "Nach eigener Prüfung fand er die Arbeit in der Stille geringer und in der Bewegung größer"@de,
+        "Having tried it, he found the work less in stillness and more in movement"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 118, fol. 40a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The disciple Yong, on Nanxuan's saying that reverence runs through movement and stillness, inward and outward, reports: I have tried verifying it, and found on the contrary that in stillness the work is less and in movement more, and that in the intervals one goes off after matters and things. Zhu Xi answers that going off after matters and things is not to be minded: when a matter comes one must answer it and has only to go along with it, and when the matter is over one comes back here and sits as before, which is what is meant by reverent in movement and reverent in stillness. Asked again whether the work in stillness may not be too little and the movement too easily disturbed, he answers: where would you go to get stillness?"@en ;
+    skos:note "A trial carried by a named practitioner against a stated proposition, with a result contrary to what he expected, recorded with his name on it. It is entered because the holding has no other instance of a practitioner reporting that his own test came out against the doctrine and of the record keeping it. The quantity is unmeasured and the test is introspective, so it settles nothing; what it shows is that this transmission writes down the disconfirming report."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziHunkun a pm:Conceptualizing ;
+    rdfs:label "Lange im stillen Sitzen ist man dumpf und schläfrig und kann nicht denken"@de,
+        "Long in quiet sitting one is dull and sleepy and cannot think"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 12, fol. 35a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "A disciple's record, set down in one line and with his name at the end of it: when quiet sitting has gone on a long time one is dull and heavy with sleep and cannot think; getting up and away, there is noise again and no leisure to think."@en ;
+    skos:note "A first-person report of the practice failing in both directions, with no remedy offered and no comment from the master attached. It is entered because the holding has almost nothing of the kind: the reports it carries are of what practitioners attained, and this one is of a man who sat, grew stupid, got up, and found the day too noisy to think in. The Xiao zhiguan opened in the same run names the same two faults, sinking and floating, and gives a correction for each; this transmission records the complaint and leaves it standing."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziJingzuoWufa a pm:Conceptualizing ;
+    rdfs:label "Stilles Sitzen ist eben stilles Sitzen, und es gibt keine Methode"@de,
+        "Quiet sitting is just sitting quietly, and there is no method"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 120, fol. 6b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The answer to a direct question about procedure, in the instruction of the disciples. Hu asks the method of working at quiet sitting. Quiet sitting, Zhu Xi answers, is just sitting quietly like that: no idle business, no idle thinking, and there is no method. The disciple presses: in quiet sitting, if one thinks of a matter the mind leans on the matter, and if one does not think it has nothing to lean on, so what then. It need not lean on anything, comes the answer; were it to do so, that would be the same as the Daoists counting the breath out and in and looking at the white at the tip of the nose, who do it because their mind has nowhere to lodge and so must have something to lean on; and if a man cannot cut off the thinking, he may as well go on as he is, and no harm in it. The parallel record adds the one thing claimed: quiet sitting, with the idle and mixed thinking stilled, nourishes a man so that he comes out free and easy."@en ;
+    skos:note "The denial that there is a method, given as the answer to somebody who came asking for one, and it is the most useful line this transmission supplies to a holding whose other transmissions are made of methods. The two devices refused by name, the counted breath and the gaze at the tip of the nose, are prescribed at T46.1915.0466a and 0467a by the work opened in the other strand of this run, so the refusal falls on a named practice of a named neighbour and not on a general suspicion."@en,
+        "The last clause is the one that could not be written by a transmission with something to protect: a man who cannot stop thinking may sit on as he is and no harm done. There is no failure state, because there is nothing he was supposed to be doing instead."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziWuwu a pm:Conceptualizing ;
+    rdfs:label "Stilles Sitzen ohne Gehaltenes ist bloßes Dasitzen und nichts weiter"@de,
+        "Quiet sitting with nothing held is blank sitting and no more"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 118, fol. 21b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "Asked by Zhu Xi what work he does at night in his hermitage, the disciple Dechui answers that he reads and sits quietly and no more. Zhu Xi brings up Hengqu's six haves: let there be law in speech and teaching in action, something done by day and something got by night, nourishment in the breath and holding in the glance of an eye; and takes it that even in quiet sitting there must be something held as master for it to be anything, and that otherwise it is blank sitting and nothing more. The parallel in the other record adds that it is not necessary to read all day either, and that quiet sitting and nourishing is also a way, as the generation of things by heaven and earth runs through four seasons: spring and summer grow without ceasing, and the withering of autumn and winter is also only a storing within, so that the next year has growth again; if at autumn and winter it were cut off, next spring would have no ground to grow from. The learner is constantly to call this mind so that it does not die, and then he has gain daily."@en ;
+    skos:note "A condition on the practice that is about what is in the mind and not about the body or the breath, and it is checkable only by the sitter. It is entered because the same passage is the one place in the readings where this transmission allows quiet sitting a value of its own, by an analogy with the storing of winter, and it allows it only on this condition."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziXinsiYi a pm:Conceptualizing ;
+    rdfs:label "Kommt eine Sache und er hält an der Stille fest und antwortet nicht, ist der Geist tot"@de,
+        "If a matter comes and he holds to stillness and does not answer, the mind is dead"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 118, fol. 40b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The close of a long answer about reverence in movement and in stillness. One may not have a mind that is weary of bother and fond of quiet. In this world there is no time at which there is nothing to do; to want a time with nothing to do is to want to be dead. As each matter comes one answers it, and whether there is something to do or nothing, one's own reverence has never been interrupted. But if a matter comes before one and one holds to stillness oneself and stubbornly does not answer it, then the mind is dead. And earlier in the same answer: if one is weary of the many visitors and the mind is vexed, that is to have disturbed one's own mind, and it is not what is called reverence."@en ;
+    skos:note "The sharpest failure condition in this transmission and the one that bears directly on the others in the holding: the state the opened works describe as the attainment, a mind withdrawn and unmoved by what comes, is here the name for a mind that has died. Two transmissions with the same posture and opposite verdicts on the same observable outcome is exactly what a control is for, and it is the reason the registration gave for registering this one."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziXuJingzuo a pm:Conceptualizing ;
+    rdfs:label "Man muss still sitzen, um einsammeln zu können"@de,
+        "One must sit quietly in order to be able to gather in"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 104, fol. 20b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 12, fol. 28b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 12, fol. 30a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 96, fol. 20b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The affirmative clauses, which stand together in one place and are as plain as the limiting ones. Mingdao taught men quiet sitting and Master Li taught quiet sitting too, for where the spirits are unsettled the principle has nowhere to come to rest; and again: one must sit quietly to be able to gather in. Quiet sitting with no idle mixed thinking nourishes a man so that he comes out free and easy. For the work of one beginning to learn, quiet sitting is required: sitting quietly, the root and origin are settled, and though he will not escape running after things, when he gathers himself back he has somewhere to put himself, as a man who is at home in his house is settled the moment he comes back from outside, where a man who has been adrift and never done the work has nowhere to come to rest. Asked whether a short quiet sitting is allowable when one is weary, the answer is yes, and that one need not sit like a Chan monk for it to count as quiet sitting; one has only to let the mind be still. And elsewhere: quiet sitting is of itself good."@en ;
+    skos:note "Entered because a file carrying only the limiting clauses would report a transmission that refused this practice, and it does not refuse it. What it refuses is the practice standing alone, and the same conversation that requires quiet sitting of the beginner says in the next breath that the fault of men nowadays is precisely that their work in quiet sitting and their work in reading are not one."@en,
+        "Four indications stand with these clauses and they are the kind a prescription carries: a beginner, a man weary, the leisure between readings, and a man who has been told to put his learning into practice and answers that he has nothing to put into practice, to whom Mingdao says, then go and sit quietly. Beside the restriction to the badly agitated at pmc:ZhuziZuobing and the reduction to the over-thinker at pmc:ZhuziChengziShoushi, this transmission states five indications for its own practice and no general claim for it."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziYaojingYueBujing a pm:Conceptualizing ;
+    rdfs:label "Je mehr Stille gewollt wird, desto weniger still ist es"@de,
+        "The more stillness is wanted the less still it is"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 11b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 118, fol. 39a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The exchange in which a disciple reports the practice failing and is told why. He sits to nourish the mind, but feels the thoughts rise of themselves: the more he wants stillness, the less still it is. Zhu Xi answers that the mind is of itself a living thing, and asks how it could be stopped up and made not to think; it is only that it must not think at random. The moment a wanting of stillness is laid on, so many thoughts have been added; the mind is not to be constrained like that, and it will have its own times of rest. And he names the fault three times over, out of Mencius: to want stillness is to take the gain in advance, is to force the growth, and is to fix the mind."@en ;
+    skos:note "A condition of failure that falls on the intention and not on a step, and the holding has nothing of this shape. Elsewhere the practitioner fails by omitting a condition or by an excess of force; here he fails by wanting the thing the practice is for, and the wanting is the only thing he did. It is also a prediction anybody can put to himself in one sitting, which is more than most of what this holding carries."@en,
+        "A second disciple reports the same thing in the same words of measure, in another juan, and the second report is the one that names effort rather than wanting: asked about the ordinary business of holding the mind, he says that the moment he puts out force it grows the more disordered, and asks whether he is not making too much of a business of it. Zhu Xi answers that it is naturally so; that one who could hold without holding would be at some height; that Confucius said, hold it and it is there, let it go and it is lost, so that holding is already being here, and that if one goes seeking it with force one has gone past it; and that to speak of holding and keeping is already one word too many, since the thing is there of itself and a little rousing is enough, which is what Mencius meant by having something to do and not fixing the mind, not forgetting and not forcing the growth. Effort named as the cause of the disturbance, by the man disturbed, with the remedy stated as less and not more."@en,
+        "The three names come from Mencius 2A.2, the passage the registration lists as the third work of this corpus, and they are the standard the transmission applies to its own practice. The work quotes them in the form do not fix the mind, do not forget, do not force the growth, and the quotation is entered as the Zhuzi yulei quoting it; the Mengzi stands unopened at pmw:Mengzi."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziZeXiao a pm:Conceptualizing ;
+    rdfs:label "Auch darf man die Wirkung nicht vorher einfordern"@de,
+        "Nor may one demand the effect beforehand"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 18b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "From the instruction to the disciple Yu. In reading and looking at the principle the breast must be opened out and made clear and bright; what is there to be gloomy about? Nor may one demand the effect beforehand: the moment the effect is demanded, a gloomy quality shows itself, and going on in that way a cake gathers in the breast and will not disperse. The breast must be wide and at leisure for it to come."@en ;
+    skos:note "The one device of its kind this transmission carries, and it is the mirror of the one at pmc:TiantaiZheZhang in the work opened in the other strand of this run. There the practitioner may not report the benefit and may not doubt before harm is shown; here he may not ask for the effect at all, on pain of a named bodily consequence for asking. The two forbid opposite halves of the same examination, and both were stated without anybody putting the question."@en,
+        "What keeps this one from closing the account the way the other does is that no guarantee stands beside it. This transmission promises nothing that the prohibition on demanding the effect would protect; the prohibition is given as a condition of the work going well and not as a condition of a claim coming true, and the passage in which it stands is about reading and not about sitting."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziZuobing a pm:Cautioning ;
+    rdfs:label "Allein genommen macht die Methode eine Krankheit, wie Eisenhut, den alle einnehmen"@de,
+        "Taken alone the method makes an illness, like aconite given to everybody"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 102, fol. 1a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:note "Entered as a caution and not as a prerequisite with a stated necessity, because what is warned against is not the omission of a step but the taking of the practice alone, and the consequence named for it is a disease of the learning rather than of the body. The consequence is quotable and is quoted; pm:Cautioning has no slot for it, which is prima-materia#621."@en,
+        "The passage in full, because it carries the consequence, the restriction of scope and the analogy together. Mr Luo's teaching, Zhu Xi says, in the end I fear makes an illness. Mingdao too said that quiet sitting can serve for learning, and Xie Shangcai said that much stillness does no harm; but this teaching is in the end a little one-sided, and as soon as it is one-sided it makes an illness. The principle has its own times of movement and its own times of stillness; the learner has only to be reverent so as to straighten within and righteous so as to square without, and to see that there is nowhere in the world that is not principle. One may not want to seek only in the still. Hence Yichuan said: use only reverence, do not use stillness, and that puts it level. Looking at the badly agitated men of the world, if they can get still that is certainly good; but for the work of learning there may not be a hair's breadth of one-sidedness. It is as with aconite: for a man of a cold constitution it is good to eat, but if you want the whole world to eat it, that cannot be."@en,
+        "Three things this holding is short of stand in one passage. A named consequence of the method taken alone, which is that it makes an illness. A restriction of the indication to a named kind of person, the badly agitated, which is a scope limit of the sort a prescription almost never carries. And a drug analogy that states both halves: good for the cold constitution, not for everybody. A transmission that says its own practice is a specific and not a tonic has said something a later reader can hold it to."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:Jingzuo ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziZuowangZuochi a pm:Conceptualizing ;
+    rdfs:label "Im Vergessen sitzen zu wollen ist genau das Sitzen im Galopp"@de,
+        "Wanting to sit in forgetfulness is precisely sitting at a gallop"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 12, fol. 34b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "One line, in the same juan and a few entries above the complaint about dullness: to want to get sitting in forgetfulness is precisely sitting at a gallop. The two terms are taken from the Zhuangzi, where the second is the name for a mind that races while the body is still."@en ;
+    skos:note "The shortest statement of this transmission's objection and the one that does the most work: the wanting of the state is itself the state's opposite, so the practice cannot be approached by intending it. It is the same finding as pmc:ZhuziYaojingYueBujing put as an epigram, and it borrows the terms of the tradition it is objecting to."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
 
 pmc:Ziqel a pm:Naming ;
     rdfs:label "Ziqel"@de,
@@ -29959,6 +30230,15 @@ pmp:Krtyapratiharana a pm:Practicing ;
     skos:note "The operation is not a defence. Nothing in either hymn asks that the spell be dissolved, absorbed or made harmless; both ask that it arrive, intact and working, somewhere else. What is transmitted is a redirection, and the thing redirected is assumed throughout to be real, individuated and in motion."@en ;
     pm:withinTradition pmt:Atharvavedic .
 
+pmp:LiYanpingWeizuo a pm:Practicing ;
+    rdfs:label "Den ganzen Tag aufrecht sitzen, um die Gestalt vor Freude und Zorn zu prüfen"@de,
+        "Sitting bolt upright all day to verify the aspect before joy and anger arise"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 6b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The practice of Li Yanping, Zhu Xi's own teacher, as Zhu Xi set it down in the account of his life and then had put to him by his disciples: to sit bolt upright all day in order to verify what the aspect is before joy, anger, grief and pleasure have arisen, and so to seek what is called the mean. Asked why Li did this, Zhu Xi answers that it was only in order to see that aspect, and a disciple adds that one may also see the aspect before arousal by holding to it a long while."@en ;
+    skos:note "A verification procedure of an inner state, named as such by the transmission, with a target the practitioner is to inspect and a posture and a duration. This holding has nothing else of the kind: the procedures it has entered are performed and then reported, while this one is performed in order to look at something. What the work then says about it is entered at pmc:ZhuziYifaDispute, and it is the reason the node is worth having."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmp:Makutu a pm:Practicing ;
     rdfs:label "Makutu"@de,
         "Makutu"@en ;
@@ -30753,6 +31033,15 @@ pmp:Yubu a pm:Practicing ;
     pm:fromWork pmw:BaopuziNeipian ;
     pm:withinTradition pmt:Daoist .
 
+pmp:ZhaoShupingHeidou a pm:Practicing ;
+    rdfs:label "Die Zählung der schwarzen und weißen Bohnen"@de,
+        "The tally of black and white beans"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 129, fol. 16a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The procedure Zhao Shuping is said to have worked at all his life, in order to verify how much good and how much evil was in his mind. One vessel is filled with black beans and one with white, and an empty vessel is set between them. At every stirring of a good thought a white bean is taken and thrown into the empty vessel; at every stirring of an evil thought a black one. At nightfall the beans in the middle vessel are poured out and the black and the white looked at, so as to verify the amount of good and evil."@en ;
+    skos:note "A counted record kept by the practitioner against himself, with a daily reading and a unit, and this holding has met nothing like it. The unit is a thought and only he can see it, so the instrument does not take the report out of his hands; what it does take out of his hands is the arithmetic, and the trajectory at pmc:ZhaoShupingShanEZhiShu is a claim that could have come out otherwise."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmp:Zhuyou a pm:Practicing ;
     rdfs:label "Die Beschwörung nach der Ursache"@de,
         "The incantation after the cause"@en ;
@@ -30883,6 +31172,11 @@ pmw:BwitiEthnographyOfTheReligiousImagination a dcterms:BibliographicResource ;
     skos:note "A copy outside the lending restriction was found and deliberately not used. A work put up without its publisher's leave is not a path to the wording in the sense of SPEC section 15 - the question the access rules ask is whether a later reader can obtain the work, and an unauthorised upload answers that question for nobody."@en,
         "The work the registration named as principal corpus, Princeton University Press 1982, and the one that would answer the question this file leaves open about Fang and Fiote. Not opened, and the reason is a property of the work: it is in copyright and the archive copy is lending-restricted, answering 401 and 500 to the full-text route. Declared as a work of the corpus and left unopened so that queries/unopened-works.rq reports it."@en .
 
+pmw:Chuanxilu a dcterms:BibliographicResource ;
+    rdfs:label "Chuanxilu, die Aufzeichnung der eingeübten Belehrung"@de,
+        "Chuanxilu, the record of instruction taken into practice"@en ;
+    skos:note "Named second by the registration and unopened. The reason is not access and should not be read as one: the Kanseki Repository carries no separate text for it, because it travels inside the collected works of Wang Shouren and not in the philosophers' division of the Siku, but the English of Frederick Goodrich Henke, The Philosophy of Wang Yang-ming, Chicago and London: Open Court, 1916, is freely available in full text and was identified as reachable in this run and not opened. It is left for a run of its own, and whoever takes it should know that the two identifiers under which that volume lies carry the same translation and count as one."@en .
+
 pmw:CoffinTexts a dcterms:BibliographicResource ;
     rdfs:label "Die Sargtexte"@de,
         "The Coffin Texts"@en ;
@@ -30974,6 +31268,11 @@ pmw:MagickInTheoryAndPractice a dcterms:BibliographicResource ;
     rdfs:label "Magick in Theory and Practice (Book 4, Teil III)"@de,
         "Magick in Theory and Practice (Book 4, Part III)"@en ;
     skos:note "Unopened at the wording of its own print. The Lecram Press edition, Paris 1929, was sought and not obtained; the finding stands at a search node. What was consulted instead is an electronic edition following a later reprint, and it is used in this file for one purpose only, as the second side of a dispute about a reading."@en .
+
+pmw:Mengzi a dcterms:BibliographicResource ;
+    rdfs:label "Mengzi, das Buch des Mengzi"@de,
+        "Mengzi, the book of Mencius"@en ;
+    skos:note "Named third by the registration, for the passage at 2A.2 on the flood-like qi, and unopened as a work. It is reachable in several editions and in more than two translations, and the reason it is not opened here is that this run harvested a work and not a passage. The Zhuzi yulei quotes it at the places entered in this file: the injunction at 2A.2 not to fix the mind, not to forget and not to force the growth is the standard Zhu Xi applies to quiet sitting at pmc:ZhuziYaojingYueBujing, and the seeking of the lost mind at 6A.11 is what sent Chen Lie into his room at pmc:ChenLieJixing. Both are entered as the Zhuzi yulei quoting them and not as the book of Mencius read."@en .
 
 pmw:MoheZhiguan a dcterms:BibliographicResource ;
     rdfs:label "Mohe zhiguan, die große Abhandlung über Ruhe und Schau"@de,
@@ -31379,6 +31678,17 @@ pmc:Cetopariyanana a pm:Conceptualizing ;
     skos:definition "Knowledge of the state of another consciousness."@en ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
+
+pmc:ChenLieJixing a pm:Conceptualizing ;
+    rdfs:label "Chen Lie hatte nach einigen Monaten Sitzen in der Kammer ein vielfach stärkeres Gedächtnis"@de,
+        "Chen Lie, after some months sitting in a room, had his memory several times greater"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 129, fol. 17a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The case as the work reports it, in one sentence. In his early years Chen Lie read books and did not take them in, and also could not remember them. Having read the passage of Mencius on seeking the lost mind, he broke off his dealings with people and sat quietly in a room for some months; afterwards, in looking at texts, his power of memory was increased several times over, and he was clever besides."@en ;
+    skos:note "A case with a person, a procedure, a duration and an outcome, and the outcome is the kind that could have come out otherwise and that somebody else could have noticed. In the works this holding has opened there is no second example: the question was put to the Xiao zhiguan in the same run, at pmp:XiaoZhiguanCaseReportSearch, and came back empty, and the gZi brjid and the demotic manual before it were the same. The man is named, the Siku text names him and gives his style name, and what is reported of him is a change in a faculty."@en,
+        "The case stands twice in the work, in two juan and in the records of two different disciples, and the two differ in a way that is worth keeping. The record of Shen Xian at juan 11 has it that Chen Lie suffered from having no memory; that one day, reading the passage of Mencius, he suddenly understood and said, my mind has never been gathered in, so how should I remember a book; that he thereupon shut his door and sat quietly for more than a hundred days without reading; and that he then went to read and took it in at a single glance with nothing left out. The record of Yang at juan 129 has some months and a memory several times greater. Two independent recorders of one case, with the duration given as a round hundred days in the one and as some months in the other, and the outcome once as a multiple and once as completeness. This holding has no other case reported twice."@en,
+        "What the case does not have. No baseline beyond the before and after of a sentence, no measure of the several times, and no second witness; the report is Zhu Xi's, about a man of the generation before his, taken down by a disciple. The work makes nothing further of it and does not hold it out as a reason to sit. It stands here as what this holding is short of and not as evidence."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
 
 pmc:ChukcheePresupposesAnsweringCalls a pm:Presupposing ;
     rdfs:label "Der Vollzug setzt einen voraus, der antwortet"@de,
@@ -32598,6 +32908,36 @@ pmc:YitiShouyin a pm:Conceptualizing ;
     skos:note "The claim is transitive across a generation and across death, which is what makes it examinable in principle: it predicts something about descendants from something about a grave. What it does not carry is a way of telling the shading from its absence in any single case, and the commentary printed with the text takes the transitivity further rather than bounding it, extending the shading to adopted children and to the sons of a second mother."@en ;
     pm:withinTradition pmt:ChineseDivination .
 
+pmc:ZhaoShupingShanEZhiShu a pm:Conceptualizing ;
+    rdfs:label "Die Bohnen gingen von überwiegend schwarz zu überwiegend weiß und dann zu keinen mehr"@de,
+        "The beans went from mostly black to mostly white and then to none at all"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 129, fol. 16a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The trajectory the work reports for the bean tally: at the beginning the black were many and the white few; after a long while they came to be about the same; after longer again the white were many and the black few; and after longer still even the beans were gone, and that is the mind made purely one in good. Somebody in the room says: I fear there is no such principle. Zhu Xi answers that men of the earlier generation had a kind of work like this, and that one who can hold to reverence does not need to trouble his mind in this way, but of himself returns to the good on the spot."@en ;
+    skos:note "A reported time course with four stages and a stated endpoint, kept by a daily count, which is as close to a protocol as any transmission in this holding has come. The last stage is where it stops being one: when even the beans are gone, the instrument has been taken away by the outcome it was to measure, so the endpoint is unrecorded by construction. A reader cannot tell a man whose thoughts have gone pure from a man who stopped counting."@en,
+        "The objection in the room is worth as much as the trajectory, and it is the only one of its kind this holding has entered: a bystander says he fears there is no such principle, in the same breath in which the claim is recorded, and the record keeps it. Zhu Xi does not defend the result. He says that the earlier generation had such practices and that a man who holds to reverence has no need of this troublesome method, which answers the objection by making the procedure unnecessary rather than by making it true."@en,
+        "The procedure stands a second time in the work, in another juan and another disciple's record, and there it is recommended rather than reported: an anecdotal book, Zhu Xi says, records that Duke Zhao noted the rising of good and evil thoughts with black and white beans, and that is where the men of old did their work; check yourself like that and you will see for yourself. The provenance given there is a book of anecdotes and not an acquaintance, which is the weaker footing of the two and is the reason the ascription mode of this entry is third-party and not first-person."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziDaoliShichu a pm:Conceptualizing ;
+    rdfs:label "Ist der Geist von Geschäften freigeräumt, beginnt das Prinzip herauszukommen"@de,
+        "With the mind cleared of affairs the principle begins to come out"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 3b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The whole of what this transmission claims for quiet sitting, and it is stated as a clearing and not as a cause. This matter is hard to speak of. Quiet sitting while working at the principle does no harm; only to go looking for quiet sitting is not allowed. Where the principle is worked through and seen clear, one is of oneself still. Men nowadays all go looking for quiet sitting in order to save themselves trouble, and that is not allowed. For when the mind is in a heat and a bustle, how is the principle to be seen? One must be still to see it. So-called quiet sitting is only the clearing away, so that the mind has nothing on it and the principle begins to come out; and once the principle is out, the mind becomes brighter and stiller."@en ;
+    skos:note "The direction is reversed against every transmission this holding has opened, and the reversal is the control's substance and not its modesty. There the practice produces the state and the state is the attainment; here the understanding produces the stillness, and the stillness is a condition of work and not its fruit. A reader who wants to know what quiet sitting is claimed to do must be given both directions, because the same posture appears in both and the two make different predictions about what happens to a man who sits without understanding anything: on the first he attains, on the second he sits in a bustle."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
+pmc:ZhuziYanshuce a pm:Conceptualizing ;
+    rdfs:label "Nachdem er still gesessen hatte, bekam er einen Widerwillen gegen Bücher"@de,
+        "Having practised quiet sitting he came to have a distaste for books"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 113, fol. 26b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "One line in the record of a disciple. Zhengshu, having practised quiet sitting, came back with a request and said that it had left him with a distaste for books. Zhu Xi answered: how can one go on like that; it is only to make one a little free and at leisure, and one is to want to read as before."@en ;
+    skos:note "An adverse effect of the practice reported by the man it happened to, with the master's correction attached, and the effect is not a state of mind but a change in what he was willing to do. It is the only entry in this holding of that form. In a transmission that puts reading and sitting on the same footing, a practice that makes a man dislike reading has produced a measurable result, and the result is the wrong one."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmc:ZosimosDuoGradusTincturarum a pm:Conceptualizing ;
     rdfs:label "Zwei Stufen der Tinkturen, und die gekochte ist kürzer und verlangt mehr Geschick"@de,
         "Two grades of tinctures, and the cooked one is shorter and needs more skill"@en ;
@@ -32629,13 +32969,6 @@ pm:abidingState a pm:AwarenessValue,
     rdfs:label "Bleibend"@de,
         "Abiding"@en ;
     skos:definition "The source has the condition remain with the one who has it, whether it was worked for or not."@en .
-
-pm:anchoringNotStated a pm:AwarenessValue,
-        pm:SensoryAnchoring ;
-    rdfs:label "Sinnesbindung nicht angegeben"@de,
-        "Anchoring not stated"@en ;
-    skos:definition "The source was read for this question and does not answer it."@en ;
-    skos:note "Not the same as an untagged node, and the difference is what makes a query of the form 'only in this state' readable at all. No placement means nobody asked; this value means somebody asked and the source is silent."@en .
 
 pm:anchoringUnbound a pm:AwarenessValue,
         pm:SensoryAnchoring ;
@@ -33771,6 +34104,13 @@ pm:Reworking a owl:Class ;
         "The class exists because reception is two things and the record could not tell them apart. Textual transmission is somebody copying a sentence, and it shows that the sentence was handed on. Operative uptake is somebody taking the instruction, carrying it out, and afterwards writing what was not in the exemplar. Only the second turns a chain of copies into a series of attempts, and only the second is proof against feedback: what makes the Dogon Sirius case weak is not that it is received but that nothing was added at the second station which was not already in the question."@en,
         "This is therefore the quantity worth counting, and it is not the number of independent witnesses. A tradition that takes over a claim about an effect and attaches a condition of failure to it has delivered more than three that pass it on word for word — and the addition is the material a pm:falsifiedBy is made from, so the examining layer comes out of the reception history rather than against it."@en .
 
+pm:anchoringNotStated a pm:AwarenessValue,
+        pm:SensoryAnchoring ;
+    rdfs:label "Sinnesbindung nicht angegeben"@de,
+        "Anchoring not stated"@en ;
+    skos:definition "The source was read for this question and does not answer it."@en ;
+    skos:note "Not the same as an untagged node, and the difference is what makes a query of the form 'only in this state' readable at all. No placement means nobody asked; this value means somebody asked and the source is silent."@en .
+
 pm:locusNotStated a pm:AwarenessLocus,
         pm:AwarenessValue ;
     rdfs:label "Ort nicht angegeben"@de,
@@ -34676,6 +35016,17 @@ pmp:ImbasForosnai a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:InsularCeltic .
 
+pmp:Jingzuo a pm:Practicing ;
+    rdfs:label "Das stille Sitzen, wie diese Überlieferung es begrenzt"@de,
+        "Quiet sitting as this transmission bounds it"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 3b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension",
+        "Li Jingde (comp.), Zhuzi yulei, juan 115, fol. 11b, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "Sitting still with the mind gathered in, and the work states that there is nothing more to it than that. Asked for the method of working at quiet sitting, Zhu Xi answers that quiet sitting is just sitting quietly like that, with no idle business and no idle thinking, and that there is no method. Asked what the mind is to lean on, since leaning on a matter is thinking and not leaning on anything leaves it nowhere to rest, he answers that it need not lean on anything, and that to make it lean would be the same as the Daoists counting the breath in and out and fixing the eye on the white at the tip of the nose, which they do because their mind has nowhere to lodge; and that a man who cannot cut off the thinking may as well go on as he is, which does no harm. What the work gives instead of a method is the bound. Quiet sitting while working at the principle does no harm, but to go looking for quiet sitting is not allowed; when there is nothing to do one sits quietly, when there is a book one reads it, and so on through dealing with people and handling matters, keeping this mind bright, which is what holding the mind means. It is not to be made the whole, and the gathering is to be carried into movement: in reading, in waiting on people, in handling affairs, in movement and in stillness, in speech and in silence. What the sitting is for is stated in the same breath as the bound: it is only the clearing away, so that the mind has nothing on it and the principle can come out."@en ;
+    skos:note "Entered with the bound inside the definition because the bound is nearly all the work says about the practice. A definition of this practice taken from the clauses that prescribe it, without the clauses that limit it, would describe a procedure this transmission does not teach."@en,
+        "The sentence that there is no method is the most useful single line this transmission supplies to a holding full of methods, and it is an answer to a direct question about procedure and not an aside. It also sets the boundary at the exact place the other works put their apparatus: the devices refused by name, counting the breath and fixing the gaze at the nose, are the ones the Xiao zhiguan opened in the other strand of this run prescribes at T46.1915.0466a and 0467a. Two transmissions with the same posture, one of which has four marks of the breath and a bound object, and one of which says the asking for an object is itself the fault."@en ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:withinTradition pmt:NeoConfucianCultivation .
+
 pmp:NippurFourCornerCircuit a pm:Practicing ;
     rdfs:label "Vier Schalen in die vier Ecken des Hauses setzen"@de,
         "Setting four bowls at the four corners of the house"@en ;
@@ -34966,12 +35317,6 @@ pm:claimDoesNotDiscriminate a pm:ExaminationState ;
         "The fifth state and the least obvious. It is not a milder pm:casesWithoutDeviation. There the claim said something and the cases bore it out; here the cases bear it out because the claim did not say enough to be borne out against anything. Recording such a protocol as cases without deviation would enter a success where an examination in fact found the claim empty, and a reader counting confirmations would count this one."@en,
         "This state exists because a case forced it. A claim that coupling an intended state to a strong affect shifts the threshold for risk is confirmed by the evidence and useless to whoever acts on it, because fear and anger are both strong and move that threshold in opposite directions. See prima-materia#141."@en .
 
-pm:ownAgency a pm:AgencyHolding,
-        pm:AwarenessValue ;
-    rdfs:label "Eigene Trägerschaft"@de,
-        "Own agency"@en ;
-    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
-
 pm:subjectAxis a pm:ScaleFamily ;
     rdfs:label "Sachachse"@de,
         "Subject axis"@en ;
@@ -35062,6 +35407,12 @@ pm:displacedLocus a pm:AwarenessLocus,
         "Displaced"@en ;
     skos:definition "The source has the awareness, or a body made of mind, leave the place of the physical body and act elsewhere."@en ;
     skos:note "The holdings already gather the material for this value across traditions; see convergences/stream.ttl and examinations/displacement.ttl."@en .
+
+pm:ownAgency a pm:AgencyHolding,
+        pm:AwarenessValue ;
+    rdfs:label "Eigene Trägerschaft"@de,
+        "Own agency"@en ;
+    skos:definition "The practitioner acts, and what comes of it is credited to the practice."@en .
 
 pmt:Ajivika a pm:Tradition ;
     rdfs:label "Ājīvika-Überlieferung"@de,
@@ -36245,6 +36596,23 @@ pmt:Hathayoga a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Svātmārāma, Haṭhayogapradīpikā" .
 
+pmt:NeoConfucianCultivation a pm:Tradition ;
+    rdfs:label "Neokonfuzianische Selbstkultivierung"@de,
+        "Neo-Confucian self-cultivation"@en ;
+    dcterms:source "Li Jingde (comp.), Zhuzi yulei, juan 103, fol. 7a, in the Wenyuange Siku quanshu recension, read in the Kanseki Repository text KR3a0047 of that recension" ;
+    skos:definition "The transmission of quiet sitting and of the investigation of things as a discipline of attention that claims no transcendent object."@en ;
+    skos:note "No translation was reached for any passage entered here. The Zhuzi yulei has no complete translation into any European language, the partial ones cover other juan, and nothing of them is freely available; the two-translation requirement of SPEC §15 is therefore not met, and what stands against it is that the original was read and no translation stands between the reader and the wording. The reason is given at the search node in examinations/searches-neo-confucian.ttl."@en,
+        "Read in this run at the wording: Zhuzi yulei, compiled by Li Jingde in 1270, in the Wenyuange recension of the Siku quanshu as the Kanseki Repository text KR3a0047 carries it. Read closely: all ninety-six occurrences of quiet sitting in the whole work with their conversations, in juan 9, 11, 12, 14, 16, 23, 26, 31, 45, 52, 59, 63, 64, 68, 74, 80, 96, 102, 103, 104, 113, 114, 115, 116, 117, 118, 119, 120, 126 and 129, and the passages on verification around them in juan 103, 115, 116, 118, 120 and 129. Not read: the remaining hundred and ten juan, except where a search fell in them."@en,
+        "Registered as a control condition. A contemplative practice with the same postures and much of the same phenomenology, and without the metaphysical claim, is what any examination of the others needs to have alongside them."@en,
+        "The contact route stays at documented and this run did not change it. The reading made the route concrete in a way a registration could not: the master of this transmission knows the practice he is bounding, names it in its own words, says that carrying his own teacher's method on would come to resemble Chan sitting and entering absorption, and devotes part of juan 126 to an account of how Chan took its hold. The boundary is drawn from inside and with the other party named, which is the useful case for a control."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:Chuanxilu,
+        pmw:Mengzi,
+        pmw:ZhuziYulei ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:ZhuziYulei ;
+    pm:principalCorpus "Zhu Xi, Zhuzi yulei on jingzuo; Wang Yangming, Chuanxilu; Mencius 2A.2 on the flood-like qi" .
+
 pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
     rdfs:label "Śatapatha-Brāhmaṇa"@de,
         "Śatapatha Brāhmaṇa"@en ;
@@ -36282,6 +36650,12 @@ pmt:SiberianShamanism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Shirokogoroff, Psychomental Complex of the Tungus; Shirokogoroff, Social Organization of the Northern Tungus; the published Olonkho epics; Anisimov's field records" .
+
+pmw:ZhuziYulei a dcterms:BibliographicResource ;
+    rdfs:label "Zhuzi yulei, die klassifizierten Gespräche des Meisters Zhu"@de,
+        "Zhuzi yulei, the classified conversations of Master Zhu"@en ;
+    skos:note "Opened on 2026-10-10 in the Wenyuange recension of the Siku quanshu, as the Kanseki Repository text KR3a0047 carries it: 140 juan with the editor's preface of 1270 and the Siku editors' abstract. The work is a classified record of what Zhu Xi said, taken down by named disciples whose names stand in brackets at the end of each entry, and the brackets matter for the harvest: a conversation in which a disciple reports his own practice is marked as that disciple's record."@en,
+        "Read in part and the part is named. Of 140 juan, thirteen were read at the places where quiet sitting occurs, with the conversations around them; five of those thirteen were read further for the places on verification. The work is a run of its own several times over, and what is entered here is the yield of one question put to the whole of it."@en .
 
 pmp:NippurBowlInversion a pm:Practicing ;
     rdfs:label "Die beschriftete Schale mit der Öffnung nach unten niederlegen"@de,
@@ -36588,15 +36962,15 @@ pmt:Tiantai a pm:Tradition ;
     pm:fromWork pmw:XiaoZhiguan ;
     pm:principalCorpus "Zhiyi, Mohe zhiguan; Zhiyi, Xiao zhiguan" .
 
-pm:searchFoundPlace a pm:SearchOutcome ;
-    rdfs:label "Suche mit Fund"@de,
-        "Search found a place"@en ;
-    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
-
 pmw:XiaoZhiguan a dcterms:BibliographicResource ;
     rdfs:label "Xiuxi zhiguan zuochan fayao, die kleine Abhandlung über Ruhe und Schau"@de,
         "Xiuxi zhiguan zuochan fayao, the small treatise on calming and contemplation"@en ;
     skos:note "Opened and read entire on 2026-10-10 in the Taishō text, T46 no. 1915, pages 462a to 473a, as the CBETA edition of that text carries it. One juan, ten chapters, with the preface Yuanzhao of Yuhang wrote for the printing of 1095. The preface is itself a source for the work's standing: it names the four treatises on calming and contemplation of the Tiantai master and says this is the fourth of them, drawn up for the master's lay elder brother Chen Zhen as the outline of the large one."@en .
+
+pm:searchFoundPlace a pm:SearchOutcome ;
+    rdfs:label "Suche mit Fund"@de,
+        "Search found a place"@en ;
+    skos:definition "A passage was found and entered. The node it became is named with pm:searchYieldedNode, so that a claimed find is checkable against the holding."@en .
 
 pmt:ArsNotoria a pm:Tradition ;
     rdfs:label "Ars Notoria"@de,
@@ -36844,15 +37218,15 @@ pm:Situating a owl:Class ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pmw:CarakaSamhita a dcterms:BibliographicResource ;
     rdfs:label "Caraka Samhita"@de,
@@ -37020,6 +37394,12 @@ pmw:AramaicIncantationTextsFromNippur a dcterms:BibliographicResource ;
         "Two statements of the praxis stand in the volume as the editor's report of Pognon's bowls and not as a place in a Nippur text: that the bowl used was a new one, and that the sorcerer sat upon an uncleft rock. Pognon's Inscriptions mandaites was not opened in this run, so no node below carries either; both are named in the harvest note as the next place to go."@en,
         "What that copy cannot give, and it is the greater part of the volume. The Aramaic, Syriac and Mandaic of the texts is set in three non-Latin scripts, and the optical reading has rendered all three in look-alike Latin characters: the file holds 0.9925 ASCII and not one character in the Hebrew block U+0590 to U+05FF, none in Syriac U+0700 to U+074F, none in Greek. Apparatus, translation and commentary are usable at the wording; the original language is not present on this route at all. Every node below therefore cites the translation, and no node carries a term in the language of the bowls."@en .
 
+pm:Tradition a owl:Class ;
+    rdfs:label "Tradition"@de,
+        "Tradition"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
+
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
         "Searching"@en ;
@@ -37028,12 +37408,6 @@ pm:Searching a owl:Class ;
     skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
         "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
         "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
-
-pm:Tradition a owl:Class ;
-    rdfs:label "Tradition"@de,
-        "Tradition"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "A knowledge tradition understood as an ongoing act of transmission rather than a static corpus."@en .
 
 pm:Presupposing a owl:Class ;
     rdfs:label "Voraussetzen"@de,
