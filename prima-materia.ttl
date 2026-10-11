@@ -7474,6 +7474,79 @@ pmc:IuratusSpiritusTerreniKautel a pm:Cautioning ;
     pm:fromWork pmw:LiberIuratusHonorii ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmc:JabirKhataFiAlAmal a pm:Cautioning ;
+    rdfs:label "Die zwei Dinge, von denen Irrtum im Werk zu fürchten ist: das Gefäß und der Ort der Fäulnis"@de,
+        "The two things feared of error in the work: the vessel and the place of putrefaction"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 507)" ;
+    skos:definition "The caution the chapter states in its own voice and in those words. As for what is feared of error in the work, it is the instrument which gathers the shape and sets it up, and the instrument for the cooking, by which I mean the glass; and of glass, the purer its substance the more effective it is for the generation and the more it brings it out. And the place of putrefaction: it must be safe from the gusts of the winds and their violence, guarded from all of them."@en ;
+    skos:note "A caution about materials and a place, with no agent in it and nothing about the operator's state, which is uncommon enough in this holding to be the reason for the node. The two things named are both facts about the apparatus: the purity of a glass and the shelter of a room are checkable before the work begins and by somebody other than the operator."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:JabirTakwinAlAhya ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
+pmc:JabirMaratibSharTuTakwin a pm:Presupposing ;
+    rdfs:label "Jedes Ding in seinem eigenen Grad, und die größte Verderbnis ist, ihm weniger zu geben"@de,
+        "Each thing in its own degree, and the chief corruption is to give it less"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 507)" ;
+    skos:definition "The second condition, stated at greater length than any other in the chapter. He is to give things their true natures out of the degrees: he is not to give what needs a first degree a second, nor a second a third, nor a third a fourth, nor to go below either — as that a thing needing a degree is given less than it in measure. This, the chapter says, is of the greatest corruption and the completest confusion of what is in this science. And he is to understand the first form and its measure and the composition of its shape, knowing well how to order the parts and set them in their places; for when he has secured these principles he reaches the rank he wants of the sound generation, the one hinted at in the Book of the Gathering."@en ;
+    skos:note "Two things worth separating here, because the chapter runs them together. The ranking of degrees and the exactness of measure are a system of quantities, and a departure from them is in principle a fact: whether a given weight was given is checkable. The understanding of the first form and the setting of the parts in their places is not of that kind, and it is stated in the same breath as the condition on which reaching the sound generation depends. A run that produced nothing can therefore be referred either to a measurement, which could be re-checked, or to the operator's understanding of a form, which could not."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The greatest corruption and the completest confusion in this science — akbar al-fasād wa-atamm al-takhlīṭ — and the chapter says it of the understatement of a degree in particular, that is of the error an operator would make by being sparing."@en ;
+    pm:dependentStep pmp:JabirTakwinAlAhya ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:JabirIlmAlMizan ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
+pmc:JabirMizanSharTuTakwin a pm:Presupposing ;
+    rdfs:label "Die wahren Gewichte, nichts zugesetzt und nichts weggenommen"@de,
+        "The true weights, with nothing added and nothing taken away"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 507)",
+        "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on the Balance (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH)" ;
+    skos:definition "The first condition of the chapter on generation, and it is put as the thing the operator must be held to: what the governor of the work must be bound by in the science of generation is the knowledge of the true natures of the things in respect of weight, so that he adds nothing by anything and takes away nothing by anything; and if he does, there is corruption by it."@en ;
+    skos:note "The prior step is the chapter immediately before this one, on the Balance, and that is why the two were read together. It states the Balance as the matching and the opposing of qualities — hot against hot, cold against cold, moist against moist, dry against dry in the simples, and the compounds matched by their pairs; the opposing is the contrary of that — and then says that it has conditions and rules, and that these will be named before passing to generation. So the condition here is not a pious preface: the treatise has just given the system whose exactness it now requires."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Fasād, corruption — the chapter's own word, and it names no other outcome and no remedy. What is corrupted is not said to be the operator and not said to be the vessel; it is the work."@en ;
+    pm:dependentStep pmp:JabirTakwinAlAhya ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:JabirIlmAlMizan ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
+pmc:JabirNasimLaYujid a pm:Cautioning ;
+    rdfs:label "Es wird gesagt, der Lufthauch sei nicht gut, und ich wähle das keineswegs"@de,
+        "It is said that the breeze is not good, and I do not choose that at all"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 507)" ;
+    skos:definition "The one place in the chapter where the treatise sets itself against a received opinion in the first person. Having required the place of putrefaction to be sheltered from all winds, it adds: and it is said that the breeze is not good, and I do not choose that at all. Know it and act on it, and you will be guided, God willing."@en ;
+    skos:note "Entered as a caution and noted here for what it is not. It is not a reworking in the sense of pm:Reworking: the chapter names no transmission the opinion was received from and points at no node carrying what it added, and this holding requires both before a station of a transmission may be credited with having worked on what it received. What it is, is the trace of a disagreement about a detail of apparatus inside an operative text, and that is the kind of trace that distinguishes a chain of copies from a series of attempts. The treatise does not say what the breeze was observed to do."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:JabirTakwinAlAhya ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
+pmc:JabirTakwinMinAlMaa a pm:Yielding ;
+    rdfs:label "Das unter den Bedingungen gekochte Wasser bringt das Lebewesen seiner Klasse hervor"@de,
+        "The water cooked under the conditions brings forth the living thing of its class"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 508 and the pages about it)" ;
+    skos:definition "The claim of effect. When the weights are true, the degrees exactly given, the vessel of pure glass and the place of putrefaction sheltered, the water that is cooked until the generation comes brings forth the living thing of the class that answers to it. The treatise states it without hedge and without a stated interval, and closes the chapter and the book with the sentence that now that we have come to what is in generation, let this be the end of the speech and the end of the book."@en ;
+    skos:note "What the claim lacks, and the omission is uniform rather than selective, which is the finding. The chapter gives no duration, no quantity, no temperature, no sign that the generation has begun, no sign that it has failed, and no case of its having been performed; and it gives four conditions with named consequences of getting them wrong. So the transmission is detailed about what the operator must do and silent about what he would see, and the silence covers success and failure alike."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:JabirTakwinAlAhya ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy ;
+    pm:yieldsCapacity pmc:JabirSuwarMubtadaa,
+        pmc:JabirTakwinAlHayawan .
+
+pmc:JabirTakwinNatijatAlUlum a pm:Conceptualizing ;
+    rdfs:label "Die Erzeugung ist das siebte Tor und die Frucht von fünf Wissenschaften"@de,
+        "Generation is the seventh gate and the fruit of five sciences"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 507)" ;
+    skos:definition "The statement with which the chapter opens: generation is the seventh gate, and it is the result of the science of the Balance, of the talismans, of the employment of the spiritual beings, of medicine and of the Art; and these are the sciences of the whole world. The treatise then says that it will speak in this seventh art and cut off the discourse of this book of ours."@en ;
+    skos:note "A statement about the order of a transmission's own knowledge, and worth a node because of what it does to the claims under it. Generation is not offered as one operation among others but as what the rest are for, so the five sciences the chapter names are made answerable to it: if the generation does not come, the failure reaches back into the Balance, the talismans, the use of the spirits, medicine and the Art alike. Nothing in the chapter says which of the five is to be suspected first."@en ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
 pmc:JainaAlocanaYieldsFreedomFromThorns a pm:Yielding ;
     rdfs:label "Das Bekenntnis entfernt die drei Dornen"@de,
         "Confession removes the three thorns"@en ;
@@ -19486,6 +19559,45 @@ pmp:IuratusVisionIntervalSearch a pm:Searching ;
     pm:searchedCorpus "The same two witnesses, with chapters XCVIII to CII read in full in the English of Royal MS 17 A. xlii and sections 13 to 16 of Boudet's edition read in full in the Latin of Sloane MS 3854."@en ;
     pm:searchedFor "A number of nights, a count of attempts or a date by which the sight of the Deity is to have appeared, and a statement of what follows if it has not. The thirteen counted days are the term of the preparation; the question is whether the term of the effect is given too."@en .
 
+pmp:JabirTakwinAlamatSearch a pm:Searching ;
+    rdfs:label "Ob das Kapitel über die Erzeugung ein Zeichen nennt, dass die Erzeugung begonnen hat oder mißlang"@de,
+        "Whether the chapter on generation names any sign that the generation has begun or failed"@en ;
+    dcterms:date "2026-10-11" ;
+    skos:note "Nothing of the kind. The chapter uses the word fasād, corruption, twice, and both times it is the consequence of a condition broken and never a state the operator is told to look for: if he adds or subtracts anything in the weights there is corruption by it, and to give a thing less than its degree is of the greatest corruption. In neither place is corruption given a mark. The nearest thing to a perceptible criterion in the chapter concerns a material and not the work — of glass, the purer its substance the more effective — and it is a property of the vessel before the operation, not of the operation."@en,
+        "The limit, stated so that a later run can close it. The treatise itself refers the sound generation to the Kitāb al-Tajmīʿ, which stands unopened at pmw:KitabAlTajmi in the same volume of the same edition. If the signs stand anywhere in the corpus they stand there, and this search should be carried again by whoever opens it."@en,
+        "What the empty result is worth, which is more than an absence usually is. The chapter is not reticent: it ranks degrees, insists on exact weight, specifies the vessel, shelters the room from wind, contradicts a received opinion about the breeze, reports and settles a disagreement among the philosophers about the water, and assigns four media to four classes of living thing. A text this specific about the doing and this silent about the seeing is making a choice, and the choice is legible only because the search is recorded."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "The chapter read at the wording and the reading checked by term search of the Arabic for: علامة, علامات, دليل, يظهر, ظهر, يرى, يبصر, لون, ريح, حركة, مدة, يوم, شهر, سنة, ساعة, وقت, فإن لم, وإن لم, يفسد, الفساد, خطأ, أعاد, يعيد. Every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-10-11" ;
+    pm:searchedCorpus "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter al-qawl fī l-takwīn complete, with the chapter al-qawl fī l-mīzān before it (ed. Paul Kraus, Mukhtār rasāʾil Jābir ibn Ḥayyān, Cairo 1354 AH), read in the Arabic. Not searched: the remaining chapters of the treatise and the remaining treatises of the volume."@en ;
+    pm:searchedFor "Anything by which the operator could tell, before the end, that the generation is under way or that it has gone wrong: a change in the matter, a colour, a smell, a motion in the vessel, a term after which nothing more is to be expected, an instruction to begin again."@en .
+
+pmp:JabirTakwinInsanSearch a pm:Searching ;
+    rdfs:label "Ob das Kapitel die Erzeugung eines Menschen einschränkt oder etwas dagegen sagt"@de,
+        "Whether the chapter restricts the generation of a human being, or says anything against it"@en ;
+    dcterms:date "2026-10-11" ;
+    skos:note "Nothing. The human being stands first in the chapter's table of the four media, between good fish and the sweet-water animals, in the same grammatical construction and with no mark of any kind set against it; and the innovated shapes are mentioned while the fourth medium is being sorted, as a category the reader is assumed to know. The chapter's only normative language is about the operation — what the governor of the work must be bound by, what is the greatest corruption, what is feared of error — and it has nothing about what may or may not be made. The pious formulae the treatise carries throughout, in shāʾa Allāh and wa-bi-llāh al-tawfīq, stand at the ends of its arguments and not against any of its products."@en,
+        "The limit is real and the question should be put again elsewhere. One chapter cannot establish that the transmission has no scruple, and the treatise read is a compendium of principles whose own chapters on religion and on the Art were not opened; the volume's first pages promise exactly that mixture, saying that the reader will find in the midst of a discourse on religion a discourse on an operation and after an operation a discourse on religion. So the search establishes that the chapter which states the capacity states no reservation about it, and no more."@en,
+        "Why it was worth asking at all. This holding's cautions are overwhelmingly about the operator's own safety or the integrity of the work, and a capacity whose product is another person is the case in which a transmission would have a different sort of reason to hesitate. The chapter supplies the case and does not hesitate, which is a fact about the chapter and is recorded as one."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Read at the wording and checked by search for: الإنسان, الناس, بشر, نفس, روح, حرام, لا يجوز, لا ينبغي, يحذر, احذر, إياك, خطر, مبتدعة, ذنب, إثم, كفر, and the whole of the passage assigning the four waters. Every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-10-11" ;
+    pm:searchedCorpus "Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn complete (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH), read in the Arabic. Not searched: the rest of the treatise and of the volume."@en ;
+    pm:searchedFor "A prohibition, a reservation, a warning or a scruple attached to the generation of a human being or of an innovated shape — a flying man, a two-headed thing — as against the generation of a fish or a camel: anything that treats the human case differently from the rest of the table, whether on religious, legal or prudential grounds."@en .
+
+pmp:JabirTakwinWaqiaSearch a pm:Searching ;
+    rdfs:label "Ob das Kapitel von einer durchgeführten Erzeugung berichtet"@de,
+        "Whether the chapter reports a generation having been performed"@en ;
+    dcterms:date "2026-10-11" ;
+    skos:note "No performed case in the chapter and no first-person claim of one. The author speaks in the first person four times and every time about his own choices as a writer or a teacher, not about an operation: he says he will speak in this seventh art and cut off the discourse of this book, he says he does not choose the opinion about the breeze, he tells the reader to know it and act on it, and he closes by saying that now that we have come to what is in generation let this be the end of the speech and the end of the book. The report of a disagreement among the philosophers about the water is a report about opinions and not about outcomes: it says each of them hit the mark at a distance, and gives no case for any of the three."@en,
+        "The one place in the chapter that could be mistaken for a trial, recorded so that it is not. Of the breeze the treatise says that it is said not to be good and that it does not choose it at all. That is a dissent and may well stand on somebody's experience, but the chapter does not say so and does not say what was observed, so it is entered as a caution at pmc:JabirNasimLaYujid and not as a reworking: this holding requires a reworking to point at the node carrying what the station added, and a preference without a reason has nothing to point at."@en,
+        "Why the absence of a case matters for the claim and not only for the bookkeeping. The chapter's product is a living animal in a glass vessel, which is the least deniable outcome a transmission could promise; a single performed case would be the most valuable thing in it. That the chapter has none, while being minute about weights and degrees, puts the claim with the prescriptions and not with the reports, and the attestation mode at pmc:JabirTakwinMinAlMaa says so."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Read at the wording and checked by search for: جربت, جرّبنا, مجرّب, رأيت, شاهدت, عملت, عملنا, فعلت, وجدت, حدّثني, أخبرني, قد كان, مرارًا, كثيرًا. Every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-10-11" ;
+    pm:searchedCorpus "Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn complete, with the chapter on the Balance (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH), read in the Arabic. Not searched: the rest of the treatise and of the volume."@en ;
+    pm:searchedFor "A performed case: an operation the author says he carried out, or saw carried out, or had reported to him by a named person — the thing that distinguishes a prescription from a record. The question is put because the Jābirian corpus is widely described as reporting its own trials, and because a claim of this size with a case behind it would be a different kind of node from the same claim without one."@en .
+
 pmp:JainaAnasanaItvara a pm:Practicing ;
     rdfs:label "Zeitweiliges Fasten in sechs gezählten Anordnungen"@de,
         "Temporary fasting in six counted arrangements"@en ;
@@ -22053,14 +22165,6 @@ pmt:AnalyticalPsychology a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "Jung, Liber Novus; Jung, Septem Sermones ad Mortuos; Jung, Mysterium Coniunctionis" .
-
-pmt:ArabicAlchemy a pm:Tradition ;
-    rdfs:label "Arabische Alchemie"@de,
-        "Arabic alchemy"@en ;
-    skos:definition "The transmission of the balance, of elixirs and of the generation of life by art, carried under the name of Jābir by a corpus larger than one man."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The Jābirian corpus; al-Rāzī, Sirr al-Asrār" .
 
 pmt:AshtarTransmission a pm:Tradition ;
     rdfs:label "Ashtar-Überlieferung"@de,
@@ -24794,6 +24898,25 @@ pmc:IuratusSolusChristianus a pm:Conceptualizing ;
         "The argument in the middle of this passage is the part worth keeping, because it reasons from an outcome. The book quotes a prophecy that the anointing of the Jews would cease when the king of kings came, and infers that it would never have ceased if the art had had true efficacy through them. That is a transmission arguing from a historical observable against a rival's efficacy, and it is the only such argument found in either witness."@en ;
     pm:fromWork pmw:LiberIuratusHonorii ;
     pm:withinTradition pmt:ArsNotoria .
+
+pmc:JabirSuwarMubtadaa a pm:Conceptualizing ;
+    rdfs:label "Die neugeschaffenen Gestalten: ein fliegender Mensch, ein Zweiköpfiges, ein Kopf unpassend zur Gestalt"@de,
+        "The innovated shapes: a flying man, a thing with two heads, a head unlike its body"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 508)" ;
+    skos:definition "The class the chapter names in order to exclude it from one of its four media, and in naming it claims it. Distilled salt water, it says, is for the animals mentioned which do not have innovated shapes, such as a flying human being and the like, and what has two heads, and what has a head differing from its shape, and their likes. The forms are named as examples of a kind, not as a list, and nothing in the chapter says that they are impossible or that they are not to be attempted."@en ;
+    skos:note "Entered as a capacity of its own and not folded into the table, because it is the only place in the chapter where the product is not an existing animal. Everything else in the four media is a creature anybody can see; this is a creature that would have to be made, and the treatise mentions it in passing, as a known category, while sorting media."@en,
+        "It is also the sharpest thing in the chapter for the examining layer, in the way the holding counts: a flying man or a two-headed animal produced in a glass vessel is an outcome no observer could mistake and no doctrine could reinterpret. The chapter attaches no condition to the observation of it, and no sign by which a failed attempt would be told apart from an unattempted one. That asymmetry is what the searches record."@en ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
+pmc:JabirTakwinAlHayawan a pm:Conceptualizing ;
+    rdfs:label "Lebewesen einer vom verwendeten Wasser bestimmten Art"@de,
+        "Living things of a kind fixed by the water used"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 508)" ;
+    skos:definition "The capacity the chapter claims, and it is claimed as a table. The philosophers divided on the water, says the treatise: some said it is from rainwater, some said sea water, some said repeatedly distilled salt water; each of them hit the mark at a distance, but a single proportion holding in every case cannot be. Then it assigns: sweet water makes human beings, good fish, and the sweet-water animals such as the monkey and the fox and their like; rainwater is for the creation of the large body, the elephants, the camels, the buffaloes, the cattle, the asses and their like; sea water for the turtles, the crab, the scorpions, the malignant snakes, the beasts of prey and their like; and distilled salt water for the animals named which do not have innovated shapes."@en ;
+    skos:note "A capacity stated as a dependence, which is rarer in this holding than a capacity stated as a promise. The chapter does not say that a living thing can be made and leave the rest; it says which medium makes which class, and it reports the disagreement of earlier authorities about the medium before deciding against all of them that no single medium serves for everything. That is the form of a claim with a variable in it, and a variable is what a protocol needs."@en ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
 
 pmc:JainaAbhiyogikabhavana a pm:Conceptualizing ;
     rdfs:label "Der Zustand dessen, der Zauber um der Macht willen wirkt"@de,
@@ -31234,6 +31357,12 @@ pmw:KatyayanaSrautasutra a dcterms:BibliographicResource ;
         "Kātyāyana Śrautasūtra"@en ;
     skos:note "Named here as a work of the corpus and unopened. Its twenty-fifth adhyāya is the expiation book, and Eggeling's notes to the passages entered below refer to it by section at exactly the points where the Brāhmaṇa states a repair. Whoever opens it can say whether the performance manual carries a sign of a completed expiation where the exegesis carries none. Weber's edition of 1859 is public domain."@en .
 
+pmw:KitabAlTajmi a dcterms:BibliographicResource ;
+    rdfs:label "Kitāb al-Tajmīʿ"@de,
+        "Kitāb al-Tajmīʿ"@en ;
+    skos:note "Named here as a work of the corpus and unopened, and named not by the registration but by the opened treatise itself: the chapter on generation says that the sound generation it has been describing is the one hinted at in our Book of the Gathering, and refers the reader there. It is therefore the next place to go from here, and it is the cheapest: it stands in the same volume of the same edition, beginning after the Kitāb al-Sirr al-maknūn, so no new acquisition is needed."@en,
+        "What a run that opens it should look for. The treatise read here states the conditions of generation and the sources of error in the operation and never states what a generated thing looks like, how long the operation takes, or what is to be concluded if nothing is generated. If those stand anywhere in the corpus they stand in the work it refers to, and the two searches in examinations/searches-arabic-alchemy.ttl are worded so that a run which opens it can answer them."@en .
+
 pmw:Kojiki a dcterms:BibliographicResource ;
     rdfs:label "Kojiki, die Aufzeichnung von 712"@de,
         "Kojiki, the record of 712"@en ;
@@ -31398,6 +31527,12 @@ pmw:SextumSeptimumMosis a dcterms:BibliographicResource ;
     rdfs:label "Sechstes und Siebtes Buch Mosis"@de,
         "Sechstes und Siebtes Buch Mosis"@en ;
     skos:note "Named here as a work of the principal corpus and unopened. A contemporary letter printed in the study of 1904 names it beside Hohman as a foundation of the practice, and it does so with a weaker warrant than it gives Hohman: the writer says he understands the one and knows the other. That gradation is the reason this work is named and not yet used."@en .
+
+pmw:SirrAlAsrar a dcterms:BibliographicResource ;
+    rdfs:label "al-Rāzī, Kitāb Sirr al-asrār"@de,
+        "al-Rāzī, Kitāb Sirr al-asrār"@en ;
+    skos:note "Named by the registration as the second principal work of this corpus and unopened. A bibliographic warning belongs with the identifier: the title covers more than one thing and the reception has multiplied it. The Arabic of al-Rāzī's book was not found in a freely reachable critical edition in this run; what is reachable is Julius Ruska's study of 1935 of the Latin translations and adaptations that circulated as the Liber secretorum Bubacaris, which is a study of the reception and not the work, and his German translation of the Arabic, published separately in 1937, which was not reached. A run that opens this work must say which of the three it read, and a node resting on the Latin adaptations is a node about the Latin reception."@en,
+        "Why it is worth opening next after the Tajmīʿ. It is reported to be a laboratory manual — substances, apparatus, procedures — rather than a treatise of principles, which is the opposite arrangement from the work opened here and would let the corpus be read for the thing this chapter does not supply: a procedure with an outcome somebody could see."@en .
 
 pmw:SteinerGeheimwissenschaft a dcterms:BibliographicResource ;
     rdfs:label "Steiner, Die Geheimwissenschaft im Umriss"@de,
@@ -31962,6 +32097,15 @@ pmc:IuratusInsania a pm:Conceptualizing ;
         "What it does not do, and the distinction decides whether it can carry a falsifier. The madness is said to follow the breach of a condition, not the failure of the rite; it tells a reader what happens to the wrong operator and not what happens to the right one who gets nothing. The work carries no clause of the second kind. A search of both witnesses for a clause that lays any failure on the art, the book or the procedure returned nothing: every failure clause in this work lands on the operator, as pmp:IuratusFailureLocusSearch records."@en ;
     pm:fromWork pmw:LiberIuratusHonorii ;
     pm:withinTradition pmt:ArsNotoria .
+
+pmc:JabirIlmAlMizan a pm:Conceptualizing ;
+    rdfs:label "Die Wissenschaft der Waage, als Angleichung und als Entgegensetzung"@de,
+        "The science of the Balance, as matching and as opposing"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on the Balance (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH)" ;
+    skos:definition "The system the chapter before the generation sets out, in the form it gives it. The Balance belongs to the chapter of matching and opposing. Matching is either the matching of a substance by a substance out of several substances, or the opposing of an act by an act from which the coming to be of a quality in another substance follows. In matching it is the equalising of hot by hot, cold by cold, moist by moist, dry by dry in the simples; or of the hot and moist by the hot and moist, the hot and dry by the hot and dry, the cold and dry by the cold and dry, the cold and moist by the cold and moist. In opposing it is the contrary of this throughout: the hot equalled by the cold, the moist by the dry in the simples, and in the compounds the hot and dry by the cold and moist, the hot and moist by the cold and dry. This, the treatise says, is the principle of the science of the first Balance, and however long the discourse upon it, to it the discourse returns and from it there is no going out."@en ;
+    skos:note "Entered because the two prerequisites of the generation chapter point at it and a prerequisite must name a prior step that exists in the graph. It is a system and not a claim about any capacity, and nothing is asserted here about whether the equalisings hold."@en ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
 
 pmc:JainaBrahmacaryasamadhiPhala a pm:Conceptualizing ;
     rdfs:label "Was das Hören und Verstehen der zehn bringen soll"@de,
@@ -35016,6 +35160,16 @@ pmp:ImbasForosnai a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:InsularCeltic .
 
+pmp:JabirTakwinAlAhya a pm:Practicing ;
+    rdfs:label "Die Erzeugung lebender Wesen durch Kunst"@de,
+        "The generation of living things by art"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Kraus, Mukhtār rasāʾil, Cairo 1354 AH, p. 508 and the pages about it)" ;
+    skos:definition "Takwīn, the operation the treatise ends with and calls the seventh gate. What the chapter actually prescribes is four things and no more: that the operator know the true weights of the materials and neither add nor subtract anything; that he give each thing its true degree in the ranked series, neither a higher degree than it requires nor a lower; that the instrument which gathers and sets the form, and the vessel in which the cooking is done, be of glass, and the purer the substance of the glass the more effective; and that the place of putrefaction be safe from gusts of wind and sheltered from all of them. The medium is water, and which water is taken decides what is generated."@en ;
+    skos:note "Entered as one practice and not as a procedure, because the chapter is not one: it states conditions and a medium and never states an order of steps, a duration, a temperature or a quantity. That is a property of the chapter and the reason the two searches in examinations/searches-arabic-alchemy.ttl were carried."@en,
+        "The circularity SPEC §11 forbids is avoided by the chapter itself: what the operation is said to make is a living animal of a named kind, and what it works on is water, glass, heat and putrefaction. The product is of a different kind from the materials, which is what makes the claim enterable."@en ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:withinTradition pmt:ArabicAlchemy .
+
 pmp:Jingzuo a pm:Practicing ;
     rdfs:label "Das stille Sitzen, wie diese Überlieferung es begrenzt"@de,
         "Quiet sitting as this transmission bounds it"@en ;
@@ -35608,6 +35762,22 @@ pmp:TheosophyKundaliniArousal a pm:Practicing ;
     pm:fromWork pmw:TheInnerLife ;
     pm:withinTradition pmt:Theosophy .
 
+pmt:ArabicAlchemy a pm:Tradition ;
+    rdfs:label "Arabische Alchemie"@de,
+        "Arabic alchemy"@en ;
+    dcterms:source "Jābir ibn Ḥayyān, Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl, the chapter on takwīn (ed. Paul Kraus, Mukhtār rasāʾil Jābir ibn Ḥayyān, Cairo 1354 AH, p. 508 and the pages about it)" ;
+    skos:definition "The transmission of the balance, of elixirs and of the generation of life by art, carried under the name of Jābir by a corpus larger than one man."@en ;
+    skos:note "The definition is the registration's and the reading did not disturb it. What the reading can add is that the three the definition names are not three subjects in this corpus but one argument: the chapter on generation calls generation the seventh gate and the fruit of the science of the Balance, of the talismans, of the employment of the spiritual beings, of medicine and of the Art, and says that these are the sciences of the whole world. So the transmission puts the making of a living thing at the end of its own order of knowledge, and the elixir and the balance are the steps to it."@en,
+        "What was read, and the boundary. One chapter of one treatise complete, with the chapter before it; everything else of the treatise and of the volume unread. The coverage state goes to pm:placesEntered because a place has been entered and for no stronger reason, and queries/unopened-works.rq will carry the two works below that were named and not opened."@en,
+        "Why it is a witness for reception where it meets the Greek material, stated once here and not repeated at the nodes. The treatise reasons in potency and act, names Balīnās as the authority of the book of stones, reports the schools of Empedocles and of Pythagoras disputing which planet gives tin its name, and divides medicine as the Greek handbooks do. Where it is not reception is the chapter read: the generation of living things from a medium by weight and degree, with the medium deciding the kind, is not a Greek doctrine this holding carries, and no node below claims a route for it."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:KitabAlTajmi,
+        pmw:KitabIkhrajMaFiAlQuwwa,
+        pmw:SirrAlAsrar ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
+    pm:principalCorpus "The Jābirian corpus; al-Rāzī, Sirr al-Asrār" .
+
 pmt:Hermetic a pm:Tradition ;
     rdfs:label "Hermetische Überlieferung"@de,
         "Hermetic transmission"@en ;
@@ -35891,6 +36061,14 @@ pmw:DavisPrinciplesOfNature a dcterms:BibliographicResource ;
     skos:note "Opened on 2026-10-03 in the third edition, New York 1847, over the archive.org full text principlesofnatu00davi. Read in this run at that copy: the title page and the copyright page, which give the edition and the printer Redfield and Savage who stereotyped it, and the running-head sequence from 3 to 782, checked for monotonicity before any page number below was taken from it."@en,
         "The cheapest continuation is the part of the same volume that was not read, and the work itself names the reason to go there: the scribe writes that the evidence for the claimed source will be apparent on a perusal of the whole volume and especially of pp. 33 to 57, which is read. Six further pages are worth opening on a report and not on a reading: the research that preceded this run gives pp. 121, 237, 242, 263, 270 and 312 as the passages Podmore attacks on geological and palaeontological grounds. Podmore was not opened in this run, so those six numbers are an address and nothing more. A run that wants a protocol rather than more claims opens Podmore and then those six places, in that order."@en,
         "The stereotype plates make the pagination common to the editions from 1847 into the eighteen-eighties, and that is a second-hand statement in this file rather than a reading of this run. The research that preceded the run reports the same wording found at the same page in four further scans — the tenth edition of 1852, the twentieth of 1855, the thirty-second of 1871 and an undated thirty-fifth — and this run did not repeat the comparison. The copyright page it did read states the stereotyping, which is the ground of the inference and not the measurement. The consequence for a reader is small and should be said anyway: a page number from this file is reliable for this copy, and reliable for the others on a report."@en .
+
+pmw:KitabIkhrajMaFiAlQuwwa a dcterms:BibliographicResource ;
+    rdfs:label "Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl"@de,
+        "Kitāb Ikhrāj mā fī l-quwwa ilā l-fiʿl"@en ;
+    skos:note "Dating, and here the witness and the work must be kept apart. The earliest witness is a single sixteenth-century copy: Kraus prints a note from the end of his manuscript saying that the completion of it fell on the blessed Saturday, the fourteenth of Shaʿbān, the year nine hundred and ninety-six, at the hand of the copyist, that is in 1588 of the common era, and he states that this manuscript is the only one. The composition is not dated by anything read here."@en,
+        "Opened on 2026-10-11 in the Arabic of Paul Kraus, Mukhtār rasāʾil Jābir ibn Ḥayyān, Cairo 1354 AH, where it stands first in the volume. Read complete at the wording: the final chapter, al-qawl fī l-takwīn, and the chapter al-qawl fī l-mīzān before it. The treatise is a compendium in chapters headed al-qawl fī, running from the natures of the twelve signs through the planets, the mixtures of the spheres, the sevenfold, medicine in two divisions, the signs of the diseases, treatment, anatomy, the causes, the science of the Art, the qualitative, the mixture, the projection, the properties, the solvent and putrefaction, the talismans and their working, the comparison and its reverse, fire, the employment of the celestial beings and their use, the axes of the planets, the Balance and the third Balance, to generation, which it calls the seventh gate and with which it ends."@en,
+        "The ascription is disputed and the dispute is the editor's own thesis, which matters for how this file may be used. The corpus circulates under the name of Jābir ibn Ḥayyān, an eighth-century figure; Kraus, whose edition this is, argued in his study of 1942 and 1943 that the corpus is a collective production of the late ninth and early tenth century and not the work of one man of the eighth. This run did not test that, and the registration's own wording — carried under the name of Jābir by a corpus larger than one man — already took the dispute into account. One piece of internal evidence was read in passing and is worth recording because it is in the volume itself: the Kitāb al-Mājid, in the same volume, speaks of Jābir ibn Ḥayyān in the third person and holds him up as the standard the reader has not reached."@en,
+        "The work's claim about itself, read at its opening and entered here rather than as a node because it is a claim about a book and not about a capacity: the author says he has marked his book with the greatest of marks, that it is the greatest thing power has reached, that this speech is the end of what is in the world and of what is beyond knowledge, and that there is not on the face of the earth a book like this book of his, nor has one been composed nor will another be composed."@en .
 
 pmw:QuimbyManuscripts a dcterms:BibliographicResource ;
     rdfs:label "Dresser (Hrsg.), The Quimby Manuscripts, 2. Aufl., New York 1921"@de,
@@ -37181,11 +37359,6 @@ pmt:Theravada a pm:Tradition ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmt:Rasashastra a pm:Tradition ;
     rdfs:label "Rasaśāstra"@de,
         "Rasaśāstra"@en ;
@@ -37210,6 +37383,11 @@ pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
         "Rasa-Jala-Nidhi"@en ;
     skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
         "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
