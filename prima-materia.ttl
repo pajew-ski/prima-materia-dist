@@ -4001,6 +4001,17 @@ pmc:DoingPresupposesBeing a pm:Originating ;
     pm:circulatesAs "A finding of an older school, transmitted rather than argued." ;
     pm:originatedBy "G. I. Gurdjieff, in the record of P. D. Ouspensky" .
 
+pmc:DomovoiIzgnanYield a pm:Yielding ;
+    rdfs:label "Das Schlagen unter der Egge treibt den fremden Domowoi aus und rettet die Pferde"@de,
+        "The beating under the harrow drives the strange domovoi out and saves the horses"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 6, pp. 246-247" ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:IzgnanieChuzhogoDomovogo ;
+    pm:fieldRecord "Recorded at the settlement Nizhneozernyi of stanitsa Nizhneozernaia; the paragraph that follows is signed by the veterinary feldsher Vasilii Prytkov, Nizhneozernaia, 1904; described in Russian prose, with the words spoken at the beating printed in their wording; no householder or znakhar' named; published by A. I. Myakutin, 1910. The recorder calls the practice superstitious and says the thinning of the horse is of course a morbid condition." ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm ;
+    pm:yieldsCapacity pmc:DomovoiIzgnan .
+
 pmc:DreamDivinationPresupposesPurityOfTheVehicle a pm:Presupposing ;
     rdfs:label "Traumdivination setzt die Reinheit des Fahrzeugs voraus"@de,
         "Dream divination presupposes purity of the vehicle"@en ;
@@ -9408,6 +9419,17 @@ pmc:NavajoPublicErrorDetection a pm:Conceptualizing ;
     skos:note "The part of the claim that makes it examinable rather than merely asserted. The tradition does not only say that an error destroys the effect; it names who notices, when, and what visibly follows. Neither of the two parallel witnesses in this bundle carries that."@en ;
     pm:withinTradition pmt:NavajoCeremonial .
 
+pmc:NebesnyiListNeverie a pm:Cautioning ;
+    rdfs:label "Der Himmelsbrief: wer ihm nicht glaubt, stirbt eines jähen Todes"@de,
+        "The letter from heaven: whoever does not believe it dies a sudden death"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII item 1, the letter that follows the Dream, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The letter that follows the Dream in the same text, said to be spoken by Christ, written in golden letters and found on Mount Athos before the image of the archangel Michael, commands that no work be done on the Sundays of the Cross or on Saturday evening, threatens famine, pestilence, war of king on king and father on son, burning stones, boiling water and iron-beaked birds if it is not kept, and closes: whoever does not believe this letter will be accursed, cut off from repentance, will die a sudden death and be cast into the fire of Gehenna; whoever reads it, passes it from house to house to be read or copied, or listens to it diligently, though his sins be as the sand of the sea, all will be forgiven him, and his house will have happiness."@en ;
+    skos:note "The only consequence any text in the opened sections attaches to anything is attached here to disbelief, and it is stated in the same register as the letter's other threats. It does not fall on a report that the protection failed, so it is not the device the holding carries at generalizations/the-rule-against-reporting-the-absence.ttl, but it falls on the attitude from which such a report would come, and it rewards the copying that carries the letter on."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:SonBogoroditsyOberegDoma ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmc:NeidanDuoshu a pm:Yielding ;
     rdfs:label "Zwanzigtausend Marken gegen dreißigtausend Jahre"@de,
         "Twenty thousand marks against thirty thousand years"@en ;
@@ -11175,6 +11197,40 @@ pmc:OphiteThauthabaoth a pm:Naming ;
     pm:nameRole "fifth of the seven ruling demons of the diagram, bear-like" ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmc:OrenburgUgolYield a pm:Yielding ;
+    rdfs:label "Die Kohle im besprochenen Wasser bringt eine leichte Geburt"@de,
+        "The coal in charmed water brings an easy birth"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 13, p. 202" ;
+    skos:note "Unlike the spoken charms this item fixes acts — the ladle, two handfuls of salt, one coal, three bows, grinding, drinking — and could be shown to have been departed from. The outcome, an easy hour, is certified by the woman and the midwife and admits no comparison in the record."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:OrenburgUgolPriRodakh ;
+    pm:fieldRecord "Collected in the first military district of the Orenburg Cossack Host; communicator withheld by the collector; date not given; the procedure described in Russian prose with the midwife's lament printed in its wording, the woman in labour named in it as Praskov'ia; published by A. I. Myakutin, 1910." ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm ;
+    pm:yieldsCapacity pmc:LegkiiChasRodov .
+
+pmc:OrenburgZagovoryYield a pm:Yielding ;
+    rdfs:label "Das Sprechen der Sprüche bringt die Wirkungen hervor, die ihre Überschriften nennen"@de,
+        "Speaking the charms brings the effects their headings name"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII items 1-11, pp. 196-202" ;
+    skos:note "The claim is the collection's headings and the words themselves, and the collection states no effect beyond them: no item says how soon, for how long or in what proportion of cases. The headings are the collector's and not necessarily the speakers', which is a further reason the node claims only what the record states."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:OrenburgZagovor ;
+    pm:fieldRecord "Collected in the first military district of the Orenburg Cossack Host; the persons who communicated the charms are withheld by the collector, who states that their names cannot be published; date of collection not given; the wording printed in Russian with Church Slavonic forms, the place of the person's name marked with имя рекъ; published by A. I. Myakutin in 1910 in an edition of the Host, with a footnote that the use of charms, like that of apocrypha, is strictly condemned by the Orthodox Church." ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm ;
+    pm:yieldsCapacity pmc:ZagovorKLiubvi,
+        pmc:ZagovorOPriniatii,
+        pmc:ZagovorOtKrazhi,
+        pmc:ZagovorOtLikhoradkiDvenadtsatZhen,
+        pmc:ZagovorOtLikhoradkiKiriloUrilo,
+        pmc:ZagovorOtNepravednykhSudei,
+        pmc:ZagovorOtSibirki,
+        pmc:ZagovorPeredIavkoiNachalstvu,
+        pmc:ZagovorProtivLikhodeia,
+        pmc:ZagovorProtivNenavisti,
+        pmc:ZagovorVoSpasenie .
+
 pmc:PancaAntaradhanani a pm:Conceptualizing ;
     rdfs:label "Die Erlangungen gehen zuerst, und die Unterscheidungswissen währen tausend Jahre"@de,
         "The attainments go first, and the analytical knowledges last a thousand years"@en ;
@@ -12312,6 +12368,20 @@ pmc:PgmIvVocesSineLege a pm:Conceptualizing ;
     pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
+pmc:PiatPiatnitsYield a pm:Yielding ;
+    rdfs:label "Die Freitagsfasten bewahren vor Totschlag, Feind, Ertrinken und Schwert"@de,
+        "The Friday fasts deliver from killing, the enemy, drowning and the sword"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:note "Entered as textual attestation of the printed copy because the text is a written list that circulated as such, not a first fixation by the collector. Each promise names a harm that is a recordable event in the life of a Cossack — being killed, falling to an enemy, drowning, a sword — and none of them names a term or a sign, so a fasting man who was killed is not, on the text's own words, a case against it unless one assumes he fasted correctly, which the text does not let anyone establish."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:PiatPiatnits ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm ;
+    pm:yieldsCapacity pmc:PiatnitsaOtMecha,
+        pmc:PiatnitsaOtNepriiatelia,
+        pmc:PiatnitsaOtPotopleniia,
+        pmc:PiatnitsaOtUbieniia .
+
 pmc:PingrenJuegu a pm:Conceptualizing ;
     rdfs:label "Sieben Tage ohne Nahrung, und die Rechnung hinter der Zahl"@de,
         "Seven days without food, and the reckoning behind the number"@en ;
@@ -12423,6 +12493,15 @@ pmc:PolarityHarvestThresholds a pm:Originating ;
         "The two halves of the claim do not sit easily together, and the record keeps them apart rather than choosing. Read from the thresholds alone the system is a dualism with two valid outcomes; read from the argument about the omission it is a monism in which one outcome is provisional. Whoever cites only the thresholds reports a symmetry the same text withdraws. See prima-materia#69."@en ;
     pm:circulatesAs "A cosmology of great antiquity, received from a source outside the authors, rather than a text composed between 1981 and 1984." ;
     pm:originatedBy "Carla Rueckert as instrument, with Don Elkins as questioner and Jim McCarty as scribe (L/L Research)" .
+
+pmc:PomoshchPriUkuseBeshenoiSobaki a pm:Conceptualizing ;
+    rdfs:label "Gegen den Biss eines tollwütigen Hundes: vierzig Almosen gesammelt und in vierzig Tagen gegessen"@de,
+        "Against the bite of a rabid dog: forty alms collected and eaten in forty days"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 12, p. 202" ;
+    skos:definition "The twelfth item, headed help at the bite of a rabid dog, and complete in one line: collect forty alms and eat them in forty days."@en ;
+    skos:note "The one item of the section with a term, and it says nothing about what follows if the bitten person sickens within it or after it. The holding has no protocol on it, and the observation that would decide it — whether bitten persons who did this sickened less often than bitten persons who did not — is one the record could not supply."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmc:PotencyPresupposesTheSongsThatBelongToIt a pm:Presupposing ;
     rdfs:label "Das Gebieten über eine Potenz setzt ihre Lieder voraus"@de,
@@ -14740,6 +14819,18 @@ pmc:SixtyYearReckoningPresupposesTheDiscovery a pm:Presupposing ;
     pm:priorStep pmc:KnowledgeOfSeedStarCharacteristics ;
     pm:withinTradition pmt:Dogon .
 
+pmc:SobachiaStarostYield a pm:Yielding ;
+    rdfs:label "Das Ausbacken befreit das Kind vom Hundealter"@de,
+        "The baking frees the child of the dog's old age"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 5, p. 245" ;
+    skos:note "The record keeps its distance — according to the women's belief — and the node keeps it too: the claim is the women's. The condition treated is named only by its folk name, and nothing in the record says how it shows itself or how its absence afterwards would be told."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:SobachiaStarostPechenie ;
+    pm:fieldRecord "Recorded at stanitsa Nizhneozernaia in 1904 by the veterinary feldsher G. A. Kiselev, who names no woman; described in Russian prose with the dialogue between the mother and the invited woman printed in its wording; published by A. I. Myakutin, 1910, under the heading of a rite of women over an infant. The recorder states the outcome as the women's belief and not as his own." ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm ;
+    pm:yieldsCapacity pmc:SobachiaStarostIzbavlenie .
+
 pmc:SomnambulismeYieldsAutoDiagnostic a pm:Yielding ;
     rdfs:label "Der Somnambulismus bringt die Wahrnehmung der eigenen Krankheit hervor"@de,
         "Somnambulism brings the perception of one's own disease"@en ;
@@ -14750,6 +14841,32 @@ pmc:SomnambulismeYieldsAutoDiagnostic a pm:Yielding ;
     pm:byPractice pmp:MagnetismeGrandsCourans ;
     pm:withinTradition pmt:Mesmerism ;
     pm:yieldsCapacity pmc:MagnetismeAutoDiagnostic .
+
+pmc:SonBogoroditsyDusha a pm:Conceptualizing ;
+    rdfs:label "Der Traum beim Sterben gelesen oder im Glauben gehört: die Seele an den Zollhäusern vorbei in die Ruhe gebracht"@de,
+        "The Dream read at death or heard with faith: the soul taken past the toll-houses into rest"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII item 1, the Dream of the Most Holy Mother of God, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "Of the Dream: whoever reads it himself at his death or has another read it at the going out of his soul, his soul is brought into the kingdom of heaven and eternal rest; whoever reads or hears it with faith is delivered from eternal torment, and the angel of God takes his soul from his body, carries it through the air past all the evil toll-houses and brings it to the throne; and whoever listens diligently has remission of sins for forty days."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:SonBogoroditsyLegkieRody a pm:Conceptualizing ;
+    rdfs:label "Der Traum von einer Schwangeren in Reinheit getragen: das Kind wird leicht geboren"@de,
+        "The Dream carried in purity by a pregnant woman: the child is born easily"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII item 1, the Dream of the Most Holy Mother of God, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "Of the Dream: a woman who is with child and carries this Dream on her in purity will give birth easily."@en ;
+    skos:note "The same capacity the midwife's coal is asked for, by a second and independent procedure in the same collection, so that the collection offers two routes to one outcome, one by an object carried and one by a drink."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:SonBogoroditsyPredTsaremISudiei a pm:Conceptualizing ;
+    rdfs:label "Der Traum vor den Zaren oder einen Richter getragen: Gunst vom einen, kein ungerechtes Urteil vom anderen"@de,
+        "The Dream carried before the tsar or a judge: favour from the one, no unjust sentence from the other"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII item 1, the Dream of the Most Holy Mother of God, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "Of the Dream: if any man goes before the tsar or before a judge and has this Dream on him, he will be favoured by the tsar and not unjustly condemned by the judges; the archangel Michael helps that man, directs his way and guards him from every evil; and the passage is sealed with four Amens."@en ;
+    skos:note "The same outcome the first two charms of the collection seek by speech, before superiors and before unjust judges, here by a text carried on the body. The collection thus offers two routes to one result, as it does for an easy birth, and neither route names how its failure would be known: a man condemned with the Dream on him could always be said to have been condemned justly."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmc:SoulJourneyIsDisplaced a pm:Situating ;
     rdfs:label "Die Seelenreise ist ein verlagerter Ort"@de,
@@ -17556,6 +17673,15 @@ pmc:YuruguPursuit a pm:Conceptualizing ;
     skos:definition "The account in which one twin tore away a piece of the placenta that became the earth, was turned into the pale fox for it, and communicated his own impurity to the earth so that it became dry and barren; his fate is to pursue his twin, who is also his female soul, until the end of time. On the mythical plane the seed-star is this fox, held in space and turning tirelessly around Sirius, that is around the pursued twin, without ever reaching her."@en ;
     skos:note "The pursuit that never arrives is the same figure as the orbit that never closes on its centre. Whether the star is the image of the myth or the myth the reading of the star is exactly the question the article declines to raise."@en ;
     pm:withinTradition pmt:Dogon .
+
+pmc:ZagovorZabytyeSlova a pm:Conceptualizing ;
+    rdfs:label "Vorne vergessene Worte stehen vorne, in der Mitte in der Mitte, hinten hinten"@de,
+        "Words forgotten at the front stand at the front, in the middle in the middle, at the back at the back"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 4, p. 198" ;
+    skos:definition "Inside the fourth charm, after the twelve crosses: the words I forgot at the front, let them be at the front; the words I forgot in the middle, let them be in the middle; the words I forgot at the back, let them be at the back. The charm then goes on to its close."@en ;
+    skos:note "A spoken charm is the case in which an exact wording is the condition the operator can check on himself, and that is where generalizations/the-one-who-stays-outside.ttl places transmissions that name no second person. This clause, in the charm itself, releases the speaker from that condition: an omission is declared filled where it fell. A charm with this clause cannot be said to have failed because a word was missed, and it is the one provision in the section that speaks to the performance and not to the outcome."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmc:ZandeOracleSetDispute a pm:Disputing ;
     rdfs:label "Welche Orakel die Überlieferung als die ihren zählt"@de,
@@ -20661,6 +20787,29 @@ pmp:OrdealByOdumDecoction a pm:Practicing ;
     pm:fieldRecord "Spoken by Ewe informants of the western and eastern tribes, unnamed; recorded by A. B. Ellis, colonial officer on the West African coast, from his own residence and from earlier printed reports he names as he uses them, published 1890; given in Ewe, of which the work prints the terms with etymologies, the accounts in English." ;
     pm:withinTradition pmt:Vodun .
 
+pmp:OrenburgZagovoryConditionsSearch a pm:Searching ;
+    rdfs:label "Ob die Orenburger Sprüche sagen, wer sie sprechen darf, wann und unter welchen Bedingungen"@de,
+        "Whether the Orenburg charms state who may speak them, when, and on what conditions"@en ;
+    dcterms:date "2026-10-12" ;
+    skos:note "No condition of time, silence, secrecy or speaker is stated for any of the eleven spoken charms. The rising from sleep, washing and going out to the east that open four of them are part of the wording and are spoken as narrative, not given as instructions. The only fixed times in the sections belong to other items: midnight for driving out the domovoi, and the five Fridays of the apocryphal list. Whether this is a property of the charms or of the collector's printing — which gives the words and almost never the use — is not decided by this volume, and a collection that prints the use would decide it."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "утромъ, вечеромъ, зарей, на зарѣ, до восхода, натощакъ, пятница, новолуніе, мѣсяцъ, молча, никому, не сказывать, тайно, and the opening formulas of rising, washing and going out, read in place; the collector's footnotes read as well."@en ;
+    pm:searchedBy "prima-materia, 2026-10-12" ;
+    pm:searchedCorpus "The same sections of the same volume."@en ;
+    pm:searchedFor "Conditions of speaker, time, place, silence or secrecy, of the kind the European folk handbooks in this holding attach to their procedures (pmc:EuropeanFolkMagicUnbeschrauen, pmc:EuropeanFolkMagicMondfenster), asked of the same kind of material from another region."@en .
+
+pmp:OrenburgZagovoryFailureSearch a pm:Searching ;
+    rdfs:label "Ob ein Stück der Orenburger Sammlung ein Zeichen oder eine Frist nennt, an der sein Misslingen zu erkennen wäre"@de,
+        "Whether any item of the Orenburg collection names a sign or a term by which its failure would be known"@en ;
+    dcterms:date "2026-10-12" ;
+    skos:note "Nothing, and the nothing is exact. The numbers in the three sections are thirty Amens, thirty poprishcha, thrice-nine locks, seventy-seven limbs, twelve crosses, twelve daughters of Herod, three bows, three bakings and forty alms in forty days; not one of them is a term after which an effect is due or a count at which the speaker would conclude it had failed. The only conditional clauses in the sections are in the letter from heaven and attach their consequence to disbelief and to not keeping Sunday, entered at pmc:NebesnyiListNeverie."@en,
+        "What the search found instead and did not look for: a clause in the fourth charm by which words forgotten in the speaking stand where they belong, entered at pmc:ZagovorZabytyeSlova. It removes the one condition of performance that a spoken charm would otherwise put in the speaker's own hands."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "In the Russian of the old orthography and its misreadings in the transcription: не поможетъ, не поможет, если не, буде не, аще не, когда не, не будетъ, дней, днемъ, разъ, разь, сорокъ, тридцать, тридевять, срокъ, every numeral and every conditional particle in the three sections, read in place."@en ;
+    pm:searchedBy "prima-materia, 2026-10-12" ;
+    pm:searchedCorpus "A. I. Myakutin, Pesni orenburgskikh kazakov, vol. IV, St Petersburg 1910, sections VII and VIII complete and section IX items 5 and 6, read at the wording in the Russian of the printing."@en ;
+    pm:searchedFor "A sign, a count, a term or a stated outcome by which the speaker or a bystander would know that a charm, a carried text or a rite had not worked, and any clause that says what follows from such a case."@en .
+
 pmp:PalmsAsSendingOrganSearch a pm:Searching ;
     rdfs:label "Ob der Baopuzi die Handflächen zum Sendeorgan macht"@de,
         "Whether the Baopuzi makes the palms the organ of sending"@en ;
@@ -22635,15 +22784,6 @@ pmt:BalineseTantra a pm:Tradition ;
     pm:contactRoute pm:contactRouteUndecided ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Usada healing lontar; Kanda Pat; the Aji Saraswati texts" .
-
-pmt:BalticSlavicCharm a pm:Tradition ;
-    rdfs:label "Baltische und slawische Besprechungstradition"@de,
-        "Baltic and Slavic charm transmission"@en ;
-    skos:definition "The eastern European transmission of spoken charms for healing, protection and binding, fixed in writing only by nineteenth-century collectors."@en ;
-    skos:note "The late fixation is the whole difficulty: the corpus is a collection and not a work, and the project has no attestation mode for that yet."@en ;
-    pm:contactRoute pm:contactRouteUndecided ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "The published zagovory collections; the Latvian dainas collections" .
 
 pmt:BasharTransmission a pm:Tradition ;
     rdfs:label "Bashar-Überlieferung"@de,
@@ -24743,6 +24883,15 @@ pmc:DogonKnowledgeOfSiriusCompanion a pm:Originating ;
     pm:circulatesAs "ancient Dogon astronomy: a pre-contact African tradition holding the existence, period and density of Sirius B, cited both as evidence of a lost indigenous science and as evidence of extraterrestrial contact" ;
     pm:originatedBy "Marcel Griaule and Germaine Dieterlen" .
 
+pmc:DomovoiIzgnan a pm:Conceptualizing ;
+    rdfs:label "Der fremde Domowoi vertrieben, der eigene behalten"@de,
+        "The strange domovoi driven out, the household's own kept"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 6, pp. 246-247" ;
+    skos:definition "What the beating is for: that the strange domovoi leave the yard and one's own remain, so that the horse he was harming recovers and the other horses do not perish."@en ;
+    skos:note "The same paragraph records that for sickness of horses and cattle the Cossacks believe in the evil eye and will not give up going to znakhari, who whisper over a thread, but only over animals that fell ill from the evil eye, a fright or an overstrain, and otherwise use decoctions of camomile, St John's wort and other plants, sal ammoniac, camphor, blue vitriol, arsenic and sublimate. The division between what is whispered over and what is dosed is the znakhari's own and is recorded here without a node of its own."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmc:DouleursCritiquesCommePreuve a pm:Conceptualizing ;
     rdfs:label "Der von der Operation verursachte Schmerz gilt als Beweis ihres Wirkens"@de,
         "The pain the operation causes is counted as proof that it works"@en ;
@@ -26117,6 +26266,14 @@ pmc:LatinMysticismCriterionDispute a pm:Disputing ;
     pm:fromWork pmw:SubidaDelMonteCarmelo ;
     pm:withinTradition pmt:LatinMysticism .
 
+pmc:LegkiiChasRodov a pm:Conceptualizing ;
+    rdfs:label "Eine leichte Stunde bei der Geburt"@de,
+        "An easy hour in childbirth"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 13, p. 202" ;
+    skos:definition "What the coal is asked for and what the drink is given as: an easy hour and minute in the torments of birth, a remedy against the pains of birth."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmc:LesserMysteries a pm:Conceptualizing ;
     rdfs:label "Die kleinen Mysterien"@de,
         "The lesser mysteries"@en ;
@@ -27439,6 +27596,38 @@ pmc:PgmIvVisusTelaugos a pm:Conceptualizing ;
     pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
 
+pmc:PiatnitsaOtMecha a pm:Conceptualizing ;
+    rdfs:label "Bewahrt vor dem scharfen Schwert"@de,
+        "Delivered from the sharp sword"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The fifth Friday: whoever fasts on it will be delivered from the sharp sword."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:PiatnitsaOtNepriiatelia a pm:Conceptualizing ;
+    rdfs:label "Bewahrt vor dem Feind"@de,
+        "Delivered from the enemy"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The third Friday: whoever fasts on it is delivered from the enemy."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:PiatnitsaOtPotopleniia a pm:Conceptualizing ;
+    rdfs:label "Bewahrt vor dem Ertrinken"@de,
+        "Kept from drowning"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The fourth Friday: whoever fasts on it will be kept from drowning in water."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:PiatnitsaOtUbieniia a pm:Conceptualizing ;
+    rdfs:label "Bewahrt davor, erschlagen zu werden"@de,
+        "Delivered from being killed"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The first and the second Friday: whoever fasts on it will be delivered from being killed."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmc:PistisSophiaTransitusVisu a pm:Conceptualizing ;
     rdfs:label "Die Herrscher sehen ihren eigenen Namen, und ihre Bande lösen sich"@de,
         "The rulers see their own name and their bonds fall away"@en ;
@@ -28264,6 +28453,23 @@ pmc:Sila a pm:Conceptualizing ;
     skos:definition "The first of the three trainings, on which the handbook is built as a commentary on the verse about the tangle."@en ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
+
+pmc:SobachiaStarostIzbavlenie a pm:Conceptualizing ;
+    rdfs:label "Das Kind vom Hundealter befreit"@de,
+        "The child freed of the dog's old age"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 5, p. 245" ;
+    skos:definition "What the rite is for, in the words of the record: that there should be no more dog's old age in the infant."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:SonBogoroditsyOberegDoma a pm:Conceptualizing ;
+    rdfs:label "Der Traum der Gottesmutter im Haus aufbewahrt: keine Waffe, kein Zauber und keine Krankheit dort"@de,
+        "The Dream of the Mother of God kept in the house: no weapon, sorcery or sickness there"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII item 1, the Dream of the Most Holy Mother of God, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "The promises the Dream makes for whoever keeps and reads it, given in the text as Christ's answer to his mother. Whoever, even if he cannot read, has the Dream written and keeps it in his house, no evil calamity will touch that house from thunder, from lightning or from any unclean spirits; the house and its cattle are spared, and in the field the cattle will not be eaten by wild beasts. Whoever copies it, keeps it with the fear of God, reads or hears it every day and takes it with him in purity on a journey, the devil will not touch him in his life, nor sickness, nor sudden death from evil men; he is delivered from the cutting of the sword and from the deadly plague; no beast will eat him on the road and no serpent ever bite him. Whoever believes the written Dream and carries it on him in purity and reads it every day, or listens to it with warm faith, receives the invisible help of the Son of God against all enemies visible and invisible and against all troubles and sorrows, and abundance of fruits and bread to the end of his life. In the house where the Dream is kept the Holy Spirit dwells invisibly and drives every enemy tare from the Christians living there and from the cattle; the Cross and the Holy Spirit drive away sorrow and sickness; and no weapon will ever harm that house, its people or its cattle. Whoever keeps it in the house, neither sorcery nor any evil can harm."@en ;
+    skos:note "A protection by a text carried on the body or kept in the house, the kind the holding examines at examinations/carried-booklet-protection.ttl for the European folk booklet. The harms joined here — thunder, lightning, a weapon, the sword, the plague, a beast or a serpent, cattle falling sick, sorcery, unclean spirits, every evil, invisible enemies — run from the recordable to the unrecordable in one list, which is the form generalizations/the-protection-and-what-would-show-it-failed.ttl describes. This witness was added to neither; it is a copy of a letter with a documented route to the same Christian literature as the European booklets and would count once."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmc:SpellCasting a pm:Conceptualizing ;
     rdfs:label "Beschwörung"@de,
@@ -30109,6 +30315,98 @@ pmc:YiyaoBaizhe a pm:Testing ;
     pm:tests pmc:JindanYieldsCapacities ;
     pm:withinTradition pmt:Waidan .
 
+pmc:ZagovorKLiubvi a pm:Conceptualizing ;
+    rdfs:label "Zur Liebe: der feurige Mann soll in die Leber und das heiße Blut der Frau schießen"@de,
+        "For love: the fiery man is asked to shoot into the woman's liver and hot blood"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 6, pp. 198-199" ;
+    skos:definition "The sixth item. The speaker washes with dew, dries himself on the altar cloth and goes into the open field, where there is a fiery river, on it a fiery raft, on the raft a fiery man with a fiery bow, a flaming string and a petrified arrow, shooting into the river. He bows and asks him, father Evtikhei, not to shoot into the river but into the named woman, into her liver and hot blood, into seventy-seven limbs and half-limbs and seventy-seven joints and half-joints, so that she could not drink it away, eat it away, wash it off with water nor leave it on the threshold, but pine for the speaker. The prayer is to be locked with thrice-nine locks and thrice-nine keys, the lock into the water, the keys to the sky."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOPriniatii a pm:Conceptualizing ;
+    rdfs:label "Für gute Aufnahme in jeder Hinsicht: wie Brot und Salz aufgenommen werden"@de,
+        "For a good reception in all respects: as bread and salt are received"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 11, pp. 201-202" ;
+    skos:definition "The eleventh item, glossed by the collector as a charm for the favourable disposition of people towards the one who asks: as bread and salt are received, so may the speaker be received; as bread and salt are pleasant to all, so may he be pleasant; as there is silence at table when all are together, so may he be loved by all; as honour is done to bread and salt, so may it be done to him; as bread and salt are not judged, so may he not be judged."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOtKrazhi a pm:Conceptualizing ;
+    rdfs:label "Gegen Diebstahl: wer mein Vieh anrührt, steht reglos wie ein Toter"@de,
+        "Against theft: whoever touches my cattle stands motionless as a corpse"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 3, p. 197" ;
+    skos:definition "The third item. Whoever touches the speaker's cattle — at this place, the record notes, what is to be protected is named — shall be motionless: as a dead man in the grave walks not with his feet, looks not with his eyes and has no use of his hands, so the thief and robber shall have use of nothing. The roads are barred with walls of fire, evening glows, midnight darkness, swift rivers, steep mountains and dark forests; on the stone Alatyr sits the bird Efetrakhil, who sends a dark cloud on the man and casts the keys to the bottom of the sea; the Lord is asked to take his mind and reason, his speech, hands, feet, sinews and bones."@en ;
+    skos:note "Of all thirteen items this is the one whose stated outcome a bystander could observe — a thief found standing unable to move beside the cattle — and the collection gives no account of it ever having been seen or not seen."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOtLikhoradkiDvenadtsatZhen a pm:Conceptualizing ;
+    rdfs:label "Gegen Fieber: die zwölf Frauen benannt, geschlagen und verpflichtet, dreißig Poprischtsche vom Namen fernzubleiben"@de,
+        "Against fever: the twelve women named, beaten, and sworn to keep thirty poprishcha from the name"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 9, pp. 200-201" ;
+    skos:definition "The ninth item. Basil the Great, Gregory the Theologian and John Chrysostom walking on Mount Sinai met twelve bareheaded women and asked who they were; they answered that they were daughters of Herod going to torment people, and gave their names: Lomanaia, Zemnaia, Koloia, Rveia, Pugleia, Reveia, Sogneia, Gneteia, Sostareia, Zheltaia, Studenaia and Triasovitsa. The holy fathers took three iron rods each and beat them without mercy, and the twelve accursed women begged for mercy and promised: where we see or hear your names, and hear the name of the servant of God, we will be thirty poprishcha away."@en ;
+    skos:note "The charm turns on knowing the names of the afflicting beings: named, beaten and sworn, they keep a stated distance from the name of the person. The distance is a number, thirty poprishcha, but it is a distance from a name and not from a body, and nothing in the item says how its keeping would be observed."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOtLikhoradkiKiriloUrilo a pm:Conceptualizing ;
+    rdfs:label "Gegen Fieber: vier Heilige unter der Eiche sollen die zwölf Töchter des Herodes zügeln"@de,
+        "Against fever: four holy men under the oak are asked to restrain the twelve daughters of Herod"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 8, p. 200" ;
+    skos:definition "The eighth item. The speaker goes out to the east to the sea-ocean, where under a green oak sit four holy men, Kirilo and Urilo, Mikhail and Samuil, and asks them to punish the daughters of king Herod, twelve bareheaded maidens with long plaits and dishevelled hair, that they go not about the world nor chill the named person, burn him with fire, break his bones nor make his body fall away."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOtNepravednykhSudei a pm:Conceptualizing ;
+    rdfs:label "Gegen ungerechte Richter: ihr Verstand verflochten, ihr Mund verschlossen"@de,
+        "Against unjust judges: their minds braided, their mouths locked"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 2, p. 196" ;
+    skos:definition "The second item. Summoned before judges and superiors, the speaker comes before them as a fierce beast, fire from his mouth, smoke from his nostrils, sparks from his eyes; he braids their minds and locks their mouths with an iron lock — the Lord Sabaoth and the archangel Michael — and lays the key under the Lord's tomb. Closes with the doxology."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorOtSibirki a pm:Conceptualizing ;
+    rdfs:label "Gegen die üble Krankheit Sibirka: die Gottesmutter sticht sie heraus"@de,
+        "Against the foul sickness called sibirka: the Mother of God pricks it out"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 7, p. 199" ;
+    skos:definition "The seventh item, headed against the foul sickness sibirka. On Mount Sinai, on the stone Alatyr, the Mother of God stood with angels, archangels, cherubim and seraphim and bore the Lord Jesus Christ; she holds in her hands a pure pricking-iron and a star and pricks out of the named person the foul and ulcerous sickness, of noon and of midnight, of the hour and the half-hour, of the minute and the half-minute, of grief and of bone, inward and of the body, from the wind and from the whirlwind, from the word and from the hour."@en ;
+    skos:note "The heading names a disease by its common name, and the list inside the charm names every hour, every part and every cause it could come from. The breadth is the protective device the holding records elsewhere at generalizations/the-provision-for-not-knowing.ttl: the speaker need not know what brought the sickness, because every candidate is named. This witness was not added there."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorPeredIavkoiNachalstvu a pm:Conceptualizing ;
+    rdfs:label "Vor dem Erscheinen vor der Obrigkeit: sie graue Schafe, ich der weiße Wolf"@de,
+        "Before appearing before the authorities: they grey sheep, I the white wolf"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 1, p. 196" ;
+    skos:definition "The first item. The superiors are grey sheep and the speaker a white wolf who will eat them all; the Lord is asked to set night's darkness on them from the lowest rank to the highest, so that their eyes grow dim and their heads bow before the speaker; a pledge, a bolt and a lock on them, the keys in the sea, where a pike of steel swallows their evil intent."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorProtivLikhodeia a pm:Conceptualizing ;
+    rdfs:label "Gegen den Gegner vor Gericht: seine Zunge soll sich nicht wenden"@de,
+        "Against the adversary in court: his tongue shall not turn"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 4, pp. 197-198" ;
+    skos:definition "The fourth item. Rising from sleep, washing and going out to the east, the speaker bows thrice to the ground to the holy Kasaman, a Roman and wonder-worker, and asks him to strike down the adversary with whom he goes to court, so that his tongue does not turn before the righteous court and he cannot stand against the speaker, as those who plotted against Christ could not stand. Twelve crosses are on the speaker. His word shall be sharper than knife, steel, sabre and sword, his words firm as flint and clinging as burdock. It closes with Amen said thirty times."@en ;
+    skos:note "The item carries the clause entered at pmc:ZagovorZabytyeSlova, by which words forgotten in the speaking are to stand where they belong, and a count, thirty, for the closing Amen. It is the only item of the section with a number of repetitions."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorProtivNenavisti a pm:Conceptualizing ;
+    rdfs:label "Gegen Hass: Demut, Sanftmut und Menschenliebe in ihren Herzen bewahrt"@de,
+        "Against hatred: humility, gentleness and love of men guarded in their hearts"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 5, p. 198" ;
+    skos:definition "The fifth item, short: the Lord is asked to bless his servant, to fence with the life-giving Cross those who suffer, to stay the full blows on his servants, and to guard always their humility and meekness, pity, love of men and the height of their hearts."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmc:ZagovorVoSpasenie a pm:Conceptualizing ;
+    rdfs:label "Zur Rettung in jeder Hinsicht: die Gottesmutter setzt einen eisernen Zaun von der Erde bis zum Himmel"@de,
+        "For safety in all respects: the Mother of God sets an iron fence from earth to heaven"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 10, p. 201" ;
+    skos:definition "The tenth item, headed the third prayer to the Most Holy Mother of God: she is asked to cover and protect the speaker with her incorruptible robe from great evil and the evil man, from the sorcerer and the sorceress, the heretic and the heretic woman, the wizard and the witch, from every foul and unclean thing met on the way or crossing it, from heart-sickness, from the shaking fever and the twelve daughters of Herod, from beasts and from stinking dogs and swift bitches, and to set around him an iron fence from east to west and to the south, from earth to heaven."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmc:ZaisanDu a pm:Cautioning ;
     rdfs:label "Zwei- und dreimal fragen entweiht, und entweiht antwortet es nicht"@de,
         "Asking twice and three times defiles, and defiled it does not tell"@en ;
@@ -31192,6 +31490,15 @@ pmp:InuitWordsSpokenAtBirth a pm:Practicing ;
     skos:definition "The uttering of efficacious words over a person at birth, said to determine that the person will be able to come to life again after dying."@en ;
     pm:withinTradition pmt:InuitAngakkuq .
 
+pmp:IzgnanieChuzhogoDomovogo a pm:Practicing ;
+    rdfs:label "Einen fremden Domowoi aus dem Hof treiben"@de,
+        "Driving a strange domovoi out of the yard"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 6, pp. 246-247" ;
+    skos:definition "When a horse begins to grow thin and does not recover, the owner says the domovoi does not like it, and reads it from signs: the mane is not braided as on the other horses, the coat is turned forward and pricks, the horse dungs at the gate always in one place. Either a strange domovoi is making mischief or one's own dislikes the horse. Some go to a znakhar' for a solid fee, who says a strange domovoi must be driven from the yard or all the horses may perish. Others are taught to do it themselves: take a dry linden stick like a fishing rod, tie the cord of one's trousers to it, sit in the yard under a harrow at midnight, wait for the domovoi to come out and drive the horse from its fodder, and then beat the walls and whatever comes to hand, saying: strange domovoi, out of the yard; own domovoi, stay."@en ;
+    skos:note "The record gives the signs by which the trouble is diagnosed and none by which its cure would be known. The diagnostic signs are of the horse, which a second person could inspect; the moment of action is the domovoi's coming out, which only the man under the harrow could report."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmp:JainaAlocana a pm:Practicing ;
     rdfs:label "Sündenbekenntnis vor dem Lehrer"@de,
         "Confession of sins before the teacher"@en ;
@@ -31530,6 +31837,23 @@ pmp:OphiteTransitusOratio a pm:Practicing ;
     pm:attestedBy pm:thirdPartyAscription ;
     pm:withinTradition pmt:OphiteGnosis .
 
+pmp:OrenburgUgolPriRodakh a pm:Practicing ;
+    rdfs:label "Die Kohle der Hebamme im besprochenen Wasser"@de,
+        "The midwife's coal in charmed water"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII item 13, p. 202" ;
+    skos:definition "The thirteenth item, headed help in childbirth. The midwife takes a ladle of cold water, puts in two handfuls of salt and one charcoal, kneels in the front corner, bows to the ground three times and laments over the coal: coal, burnt wood, you burned and suffered torment, you know great sorrows; ask the Lord God for an easy hour and minute for the servant of God, here named Praskov'ia, in her birth-torments. Then she grinds the coal to powder, stirs it into the charmed water and gives it to the woman in labour to drink as a remedy against the pains of birth."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
+pmp:OrenburgZagovor a pm:Practicing ;
+    rdfs:label "Einen Zauberspruch mit dem Namen dessen sprechen, für den er ist"@de,
+        "Speaking a charm with the name of the person it is for"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII, items 1-11, pp. 196-201" ;
+    skos:definition "The form all spoken items of the section share: a fixed wording in the first person, often opening with rising, washing, crossing oneself and going out through doors and gates towards the east, in which the place of the person's name is marked with the formula имя рекъ, name him; an image set at the sea-ocean, on an island, on the stone Alatyr or on Mount Sinai; holy persons who act on the trouble; and a close with Amen, the doxology, or a locking of the words with thrice-nine locks and keys."@en ;
+    skos:note "Entered as one practice because the collection gives no other procedure for ten of its thirteen items than the words themselves. Who may speak, when, how often and with what accompanying act is not stated for any of them, and the absence is part of what the collection records."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
+
 pmp:PalibodhaChedana a pm:Practicing ;
     rdfs:label "Das Abschneiden der Hemmnisse, mit einem Maß an vier von ihnen"@de,
         "The severing of the impediments, with a measure attached to four of them"@en ;
@@ -31598,6 +31922,14 @@ pmp:PgmIvUnctioOculorum a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:PgmIv ;
     pm:withinTradition pmt:GreekMagicalPapyri .
+
+pmp:PiatPiatnits a pm:Practicing ;
+    rdfs:label "Fasten an den fünf benannten Freitagen"@de,
+        "Fasting on the five named Fridays"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VII, the five Fridays after item 2, as written down at stanitsa Razsypnaya in 1905 from Gavriil Gur'ev" ;
+    skos:definition "Headed five Fridays, at the end of the apocrypha: the first Friday in the first week of Lent; the second before the Annunciation; the third in Holy Week; the fourth before the Ascension; the fifth before the Descent of the Holy Spirit. Whoever fasts on each is delivered from a stated harm."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmp:PracticeOfTheLimbs a pm:Practicing ;
     rdfs:label "Übung der Glieder"@de,
@@ -31914,6 +32246,14 @@ pmp:Sitali a pm:Practicing ;
     skos:definition "A retention in which the breath is drawn in over the tongue, protruded past the lips, and released through the nostrils."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Hathayoga .
+
+pmp:SobachiaStarostPechenie a pm:Practicing ;
+    rdfs:label "Das Hundealter ausbacken: das Kind dreimal auf der Brotschaufel in den Ofen"@de,
+        "Baking out the dog's old age: the infant three times into the oven on a bread-shovel"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section IX item 5, p. 245" ;
+    skos:definition "The rite performed by women over an infant for the treatment of the condition they call sobach'ia starost', dog's old age. The mother ties the infant to a bread-shovel and puts it into the oven; a woman invited for the purpose asks her: what are you baking, kuma? — Dog's old age. — Bake it, bake it, that it may not be. The mother takes the child out, after a while puts it in again, and the question and answer are repeated; three times, after which the child is untied, and in the women's belief the dog's old age will be in the child no more."@en ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:withinTradition pmt:BalticSlavicCharm .
 
 pmp:SusrutaMarmapariksa a pm:Practicing ;
     rdfs:label "Das marman in Rechnung stellen, bevor operiert wird"@de,
@@ -32377,6 +32717,11 @@ pmw:LaoziXiangerZhu a dcterms:BibliographicResource ;
         "Laozi Xiang'er zhu"@en ;
     skos:note "Named here as a work of the corpus and unopened. It survives in the single Dunhuang manuscript Stein 6825, covering the upper half of the Laozi from the end of chapter 3 to the end of chapter 37, and the scholarly citation of it runs by the line numbers of a photographic reproduction rather than by chapter, because the manuscript carries no chapter division. Neither that reproduction nor a critical edition was reachable, and an uncredited transcription on an open wiki is not an edition. The unreachability is a property of the work's transmission and not of this run."@en .
 
+pmw:LatvjuDainas a dcterms:BibliographicResource ;
+    rdfs:label "Latvju dainas"@de,
+        "Latvju dainas"@en ;
+    skos:note "The great collection of Latvian folk songs, named here because the registration of this tradition named the Latvian dainas collections. Not opened in this run, and nothing in this file speaks for the Baltic half of the tradition."@en .
+
 pmw:Lemegeton a dcterms:BibliographicResource ;
     rdfs:label "Lemegeton (Clavicula Salomonis Regis)"@de,
         "Lemegeton (Clavicula Salomonis Regis)"@en ;
@@ -32559,6 +32904,11 @@ pmw:TrowardEdinburghLectures a dcterms:BibliographicResource ;
         "Thomas Troward, The Edinburgh Lectures on Mental Science"@en ;
     skos:note "Named by the registration of this tradition and unopened. It is the work through which the transmission passes into its twentieth-century form, and the one a run should open to find out whether the conditions dropped here were later put back."@en .
 
+pmw:VelikorusskiiaZaklinaniia a dcterms:BibliographicResource ;
+    rdfs:label "Maikow, Welikorusskija saklinanija"@de,
+        "Maikov, Velikorusskiia zaklinaniia"@en ;
+    skos:note "L. N. Maikov's collection of Great Russian charms, St Petersburg 1869, named here as the work the registration of this tradition meant by the published zagovory collections. Not opened in this run. A search of archive.org under the Cyrillic title and under two transliterations returned nothing; other routes were not tried, so nothing is claimed about whether it is reachable."@en .
+
 pmw:Vimuttimagga a dcterms:BibliographicResource ;
     rdfs:label "Upatissa, Vimuttimagga"@de,
         "Upatissa, Vimuttimagga"@en ;
@@ -32575,6 +32925,11 @@ pmw:WoodwardManualOfAMystic a dcterms:BibliographicResource ;
         "Woodward, Manual of a Mystic"@en ;
     skos:note "The identifier exists because the alternative was worse. Pointing those two nodes at the manual's identifier would have made the manual read as the source of a caution and a chakra system it does not contain, which is exactly the confusion the volume's own layout invites. A reader who follows pm:fromWork now lands on the right book."@en,
         "The volume of 1916 that translates the manual, declared as a work of its own and deliberately NOT listed under pm:corpusWork of the transmission. It is not a work of this transmission; it is the book in which the transmission was translated, and it contains three layers besides the manual: the editor's preface, the translator's prefatory note, and the translator's footnotes. Two things in this holding lie in those layers and not in the manual, and both point here rather than at pmw:YogavacarasManual: the account of the pupil who went mad, at pmc:BoranSisyaUmmattako, which the prefatory note is the first fixation of; and the compiled system of force-centres, at pmc:WoodwardCakkaInterpolatio in originations/boran-theosophical-insertion.ttl."@en .
+
+pmw:ZagovoryZaklinaniiaOberegi a dcterms:BibliographicResource ;
+    rdfs:label "Zagovory, zaklinanija, oberegi i drugie vidy narodnago vračevanija (Warschau 1907)"@de,
+        "Zagovory, zaklinaniia, oberegi i drugie vidy narodnago vrachevaniia (Warsaw 1907)"@en ;
+    skos:note "A collection of charms, spells and protective formulas printed in Warsaw by the press of the Warsaw educational district in 1907, according to the catalogue line of the archive copy, which gives no author. Found in this run at archive.org under identifier rcin.org.pl.WA248_196948_F-18825_zagovory_o_181805 with a full text of about 1.5 million characters, and not opened. The author and the edition have to be taken from its title page by whoever opens it."@en .
 
 pmw:ZaubersprucheDerTaulipangIndianer a dcterms:BibliographicResource ;
     rdfs:label "Koch-Gruenberg, Zaubersprueche der Taulipang-Indianer"@de,
@@ -37030,6 +37385,11 @@ pmc:AyurvedaSmrtimedha a pm:Conceptualizing ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
 
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
 pmp:TiantaiZhiguan a pm:Practicing ;
     rdfs:label "Ruhe und Schau im Sitzen"@de,
         "Calming and contemplation in seated practice"@en ;
@@ -37088,11 +37448,6 @@ pmw:Tunnawiya a dcterms:BibliographicResource ;
         "Opened in full at the wording on 2026-10-06 in the only edition that carries transliteration and translation together: A. Goetze, interpreted in cooperation with E. H. Sturtevant, The Hittite Ritual of Tunnawi, American Oriental Series 14, New Haven: American Oriental Society 1938, with its text, translation, commentary and glossary read through, and the title page read in the full text and not in the catalogue entry. The tablet is the join the edition itself states, Bo 2062 (KUB 7.53) with Bo 2589 (KUB 12.58), which in the modern form is KUB 7.53+."@en,
         "The script dating of this composition is late. Of the fragments the concordance assigns to CTH 409 the great majority are catalogued as New Hittite copies, with a single Middle Hittite fragment; the tablet read here is in the late group. The composition is therefore attested essentially only in copies made long after the practitioner it names."@en,
         "This work carries a title of its own, which the others do not, and it is in the colophon: the first tablet of the ritual of uncleanness and of the ritual of the river, this being the one of Tunnawiya the Old Woman, complete, written by Pikku. The identifier still follows the rule stated at the instance, because the rule has to produce one identifier for a corpus in which four of five colophons give only the name."@en .
-
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
 pmp:NippurGetAgainstDemons a pm:Practicing ;
     rdfs:label "Dem Dämon einen Scheidebrief schreiben"@de,
@@ -38052,6 +38407,25 @@ pmt:VedicRitual a pm:Tradition ;
     pm:fromWork pmw:SatapathaBrahmana ;
     pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
 
+pmt:BalticSlavicCharm a pm:Tradition ;
+    rdfs:label "Baltische und slawische Besprechungstradition"@de,
+        "Baltic and Slavic charm transmission"@en ;
+    dcterms:source "A. I. Miakutin, Pesni orenburgskikh kazakov, vol. IV (St Petersburg: Orenburg Cossack Host, 1910), section VIII, pp. 196-202" ;
+    skos:definition "The eastern European transmission of spoken charms for healing, protection and binding, fixed in writing only by nineteenth-century collectors."@en ;
+    skos:note "Contact route, the first of the three decisions SPEC §14 requires, decided as documented, and the route is in the corpus itself and needs no secondary literature. The charms read invoke Christ, the Mother of God, the archangel Michael, Basil the Great, Gregory the Theologian and John Chrysostom, close with the doxology, quote the psalm verse Arise, O God, and judge the earth, and set their scenes on Mount Sinai and at the Lord's tomb; the apocrypha claim of themselves that they were sent from heaven to the patriarch of Jerusalem and found on Mount Athos. Whatever older stratum the charms may carry, a convergence between this transmission and any Christian one is reception with a route and counts once."@en,
+        "Edition and recension, the second decision: the text is Myakutin's printing of 1910 and nothing else. Myakutin states that all the charms were collected in the first military district of the Orenburg Cossack Host and that the names of the persons who communicated them cannot be published; he dates and names the speaker of the apocrypha and of the rites. Every node here carries that record, and a later reader who finds the same charm in Maikov or in another collection is to enter it as a separate witness, not to merge it."@en,
+        "The registration said the late fixation was the whole difficulty: the corpus is a collection and not a work, and the project had no attestation mode for that. It has one now, pm:fieldAttestation, and the charm nodes of this file carry it with the collector's record of the gathering. The apocrypha are different: they are copies of written texts that circulated from hand to hand, and their nodes are entered as what the printed copy states, not as a first fixation."@en,
+        "The third decision, the number of citable places: thirteen charm items, three apocryphal texts and two rites, all read complete. What the tradition is named for — the whole eastern European area and the Latvian dainas — is not covered by one collection from the southern Urals, and the coverage state is set to places entered for that reason and not higher."@en,
+        "What the reading found that the registration did not anticipate. Not one of the thirteen charms names a sign by which the speaker would know that it had not worked, and not one names a time within which it is to work, except the forty days of the alms against the bite of a rabid dog. One charm carries instead a clause that releases the speaker from his own wording: words forgotten at the front are to stand at the front, in the middle in the middle, at the back at the back. The one apocryphal letter that does name a consequence names it for disbelief and not for failure."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:LatvjuDainas,
+        pmw:PesniOrenburgskikhKazakovIV,
+        pmw:VelikorusskiiaZaklinaniia,
+        pmw:ZagovoryZaklinaniiaOberegi ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:PesniOrenburgskikhKazakovIV ;
+    pm:principalCorpus "The published zagovory collections; the Latvian dainas collections" .
+
 pmw:PgmIv a dcterms:BibliographicResource ;
     rdfs:label "PGM IV, der grosse Zauberpapyrus von Paris (Bibliotheque nationale suppl. gr. 574)"@de,
         "PGM IV, the great magical papyrus of Paris (Bibliotheque nationale suppl. gr. 574)"@en ;
@@ -38164,6 +38538,13 @@ pmw:BaopuziNeipian a dcterms:BibliographicResource ;
     rdfs:label "Ge Hong, Baopuzi neipian"@de,
         "Ge Hong, Baopuzi neipian"@en ;
     skos:note "Twenty juan, DZ 1185 in the Zhengtong Daozang, read in the Hanfenlou facsimile. Five chapters are now read at the wording: 4 on the golden elixir, 8 on releasing the obstruction, 17 on climbing into the mountains, 18 on the earthly truth, and 9 on the intention of the Way, read on 2026-09-23. Of chapter 8 a part was read in an earlier run and the remainder of that chapter is still owed. Fifteen chapters of the inner book and the whole of the outer book are searched by term only; the harvest still owed is recorded at prima-materia#633."@en .
+
+pmw:PesniOrenburgskikhKazakovIV a dcterms:BibliographicResource ;
+    rdfs:label "Mjakutin, Pesni orenburgskich kasakow, Bd. IV"@de,
+        "Myakutin, Pesni orenburgskikh kazakov, vol. IV"@en ;
+    skos:note "Access: archive.org, identifier pesniorenburgskihkazakovivpesniobrjado80, full text over the regular route, 675,910 characters, Cyrillic in the old orthography, legible, with the usual confusions of the optical reading (ѣ read as Ъ or Б, і as 1). The running heads are partly misread, so the pages cited are those of the table of contents of the volume and agree with the legible running heads where there are any. The copy is a reprint issued by the Kuibyshev regional library, which adds a leaf of its own after the title page and otherwise reproduces the book."@en,
+        "The edition as the title page in the full text gives it: Pesni orenburgskikh kazakov, IV: Pesni obriadovyia, dukhovnye stikhi, apokrify, zagovory, ocherki obriadov, Tsar Maksimilian, dobavleniia; sobral A. I. Miakutin; izdanie Orenburgskago kazach'iago voiska; S.-Peterburg, Tipo-litografiia K. Birkenfel'da, 1910. The preface says the volume was printed by order of the ataman of the Orenburg Cossack Host and that apocrypha, charms and descriptions of rites were added to it in order to show the outlook and way of life of the Orenburg Cossacks more fully."@en,
+        "What was read at the wording: section VII, the three apocrypha; section VIII, the thirteen items headed charms; and section IX items 5 and 6, the rite over an infant and the belief in the domovoi, with the paragraph on the treatment of animals that follows. Of section VII the second item, the list of the wounds of Christ, carries no promise in the copy printed and has no node; the Dream, the letter that follows it and the five Fridays carry the promises entered below. Not opened: the songs, the spiritual verses, the remainder of section IX, the folk drama and the additions, which make up most of the volume."@en .
 
 pmt:Rosicrucian a pm:Tradition ;
     rdfs:label "Rosenkreuzerische Überlieferung"@de,
@@ -38502,16 +38883,6 @@ pmw:Visuddhimagga a dcterms:BibliographicResource ;
         "Buddhaghosa, Visuddhimagga"@en ;
     skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956."@en .
 
-pm:fieldAttestation a pm:Attesting ;
-    rdfs:label "Feldzeugnis"@de,
-        "Field attestation"@en ;
-    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
-    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
-        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
-        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
-        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
-        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
-
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
         "Theravāda"@en ;
@@ -38529,16 +38900,21 @@ pmt:Theravada a pm:Tradition ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
+
 pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
     rdfs:label "Rasa-Jala-Nidhi"@de,
         "Rasa-Jala-Nidhi"@en ;
     skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
         "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
-
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
@@ -38546,6 +38922,11 @@ pm:Situating a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:firstPersonReport a pm:Attesting ;
     rdfs:label "Erfahrungsbericht"@de,
