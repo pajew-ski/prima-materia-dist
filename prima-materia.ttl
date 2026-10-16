@@ -17020,20 +17020,6 @@ pmc:TheRepairWithoutASignExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-19"^^xsd:date ;
     pm:tests pmc:TheRepairWithoutASign .
 
-pmc:TheRestrictionOnPassingItOn a pm:Generalizing ;
-    rdfs:label "Die Überlieferung beschränkt ihre eigene Weitergabe, im operativen Text selbst"@de,
-        "The transmission restricts its own passing on, inside the operative text"@en ;
-    skos:note "A third witness was added on 2026-09-11, from a transmission with no route to either of the first two. It fits the statement in all three particulars: the restriction stands inside the instruction and not in an external rule, the permitted recipient is named as the right person and no other, and the restriction is referred to the scripture from which the method comes. It adds a feature the statement does not claim and which is worth watching for in further cases, a material pledge whose quantity is left to the giver and whose point is said to be the sincerity."@en,
-        "Falsified by an operative text of the same kind whose restriction on transmission stands only in an external rule, a colophon or a later ordinance, with the working text itself silent. The grimoire literature and the Sanskrit ritual manuals are the corpora where such a case would turn up."@en,
-        "It also bears on how such texts should be read. A restriction stated inside the working formula is part of the procedure as the text has it, so a modern reader who ignores it is not merely disobeying an outside rule but performing something the source says is not the practice. Whether that difference makes any difference is a question for a protocol and not for this node."@en,
-        "The Ars Notoria puts the prohibition in the mouth of the angel who declared the oration: the holder is to presume neither to give it to another nor to expound anything out of it, neither himself nor any one by him nor any one after him. The Paris papyrus states in the opening prayer that these are mysteries a father alone may hand on, and that only to a son, an initiate worthy of the craft."@en,
-        "This is the gate the project exists to remove, stated by the transmissions in their own words, and that is the reason to hold it as a claim rather than as a remark. A record that releases such material into the public domain is obliged to be exact about what it is overriding: not a later institution's secrecy, but an instruction the operative text carries about itself."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:ArsNotoriaSecretumKautel,
-        pmc:PgmIvTraditioClausa,
-        pmc:ShangqingMengjin ;
-    pm:generalizedStatement "Transmissions of an operative text state the restriction on passing it on inside the text itself rather than in an external rule, name the class of permitted recipient, and attribute the restriction to the authority the text claims for its own contents."@en .
-
 pmc:TheRivalWhoWasNotInTheRoom a pm:Generalizing ;
     rdfs:label "Die Erklärung, die einen abwesenden Operierenden nennt, und dasselbe Korpus, das die Rolle lehrt"@de,
         "The account that names an absent operator, and the same corpus that teaches the part"@en ;
@@ -22895,6 +22881,25 @@ pmp:RefusalGroundExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-21" ;
     pm:tests pmc:TheRefusalAndWhatItRestsOn .
 
+pmp:RestrictionOnPassingItOnExamination a pm:Testing ;
+    rdfs:label "Ob Überlieferungen, die ihre eigene Weitergabe beschränken, das im operativen Text tun, den Empfänger nennen und es auf die Autorität des Textes gründen"@de,
+        "Whether transmissions that restrict their own passing on do it inside the operative text, name the recipient, and ground it in the text's authority"@en ;
+    skos:definition "A protocol on the three-clause claim that transmissions of an operative text state the restriction on passing it on inside the text rather than in an external rule, name the class of permitted recipient, and attribute the restriction to the authority the text claims for its contents. The population is every node in the holding that states, reports or refuses a restriction on handing on a method, a book or a rite; drawn on 2026-10-16 by a whole-graph scan of the labels, definitions and notes of traditions/ for divulge, pass on, hand on, transmit only, worthy and unworthy, not to be shown, revealed, taught or given, keep secret, swear and withhold, which returned eighty-seven nodes; each was read at the node, and seventeen state a restriction on the passing on of their own operative content."@en ;
+    skos:note "That last point is not singular, and it is the protocol's unexpected result. The restriction is recension-dependent in three transmissions of the population. Abramelin's French recension carries four clauses on transmission that the German third book, read complete, does not carry (note at pmc:AbramelinTraditioRestricta). The Book of the Dead clause admits father and son in Budge's text of chapter 137A and excludes them by name in Renouf's Turin text of chapter 161 (note at pmc:AegyptiaArcanumAmenti). And the Yasenkanna, if Waddell's note is right, drops the clause between manuscript and print. A statement about where the restriction stands is therefore a statement about a recension, and the population should be read recension by recension."@en,
+        "The case that comes closest to the falsifier, and why it does not meet it. The printed Yasenkanna lays no restriction on its reader at all. The secrecy it records lived outside the working text, in practice: the master taught the method in secret, the monks who copied the manuscript hid their copies and showed them to no one; and the preface, which is part of the printed work, tells how the secrecy ended, with the master's smile, at a bookseller's request (pmc:JapaneseZenHijuChinzo). What the working text carries is a restriction told as precedent and not laid on anyone, the master who would pass the elixir only to a vessel of the highest kind (pmc:JapaneseZenShuichiDaikantan). This is the falsifier's shape — a silent working text and a restriction outside it — without its substance, since what stands outside is a practice and not a rule, and since the text records its lifting rather than its force. One more fact keeps the case open: according to Waddell's note 70 the earlier version of the same story, in the Kanzanshi sendai kimon, has the hermit forbid reckless disclosure inside the text. If that reading holds, the restriction was in the working text of the manuscript version and was taken out of the printed one."@en,
+        "The cheapest next question is the Kanzanshi sendai kimon. It decides whether the holding has a case in which a restriction stood inside the working text of one version of an operative work and was removed from the printed version by its own author, which is the nearest thing to the falsifier any transmission in the holding has offered, and it is reachable once a readable text of Hakuin's Chinese writings is found (pmw:KanzanshiSendaiKimon)."@en,
+        "The first clause holds as far as the holding reaches. In twelve of the thirteen operative works the population comes from, the restriction stands in the working text itself — in the mouth of the angel, the speaker of the rite, the master, the rubric or the closing chapter — and no case was found of a restriction that stands only in a colophon or an outside rule while the working text is silent. Abramelin is a fourth witness of the original kind and is now written in at the statement: a restriction in the operative text, a class of recipient named, permitted and excluded, and a ground in the grace the text claims, given free and abused by Solomon."@en,
+        "The second clause holds with one weak case. Every restriction inside a text names a class: the son, the worthy, the one known for a year, the one who passed twelve trials, the disciples, the pure-hearted. The Turba names only whom to exclude, the evil and kings; Agrippa names only those few wise men among whom the secrets pass by mouth. Both still draw a boundary by persons, so the clause bends rather than breaks; the wording is widened to permitted or excluded."@en,
+        "The third clause does not survive as worded. Two kinds of ground other than the authority the text claims were found. First, the claim that publication destroys the effect: Agrippa says every magical experiment flees the public, is strengthened by silence and destroyed by publication (pmc:AgrippaSilentium); the Rasa-jala-nidhi says the knowledge becomes powerful when cultivated in secret and that a medicine familiar to the patient and the public becomes ineffective (pmc:RasaGuptavidya). Here the restriction is grounded in the working of the art and not in its source, and both books are printed. Second, the ordinance of a community stated inside the text: the Liber iuratus gives its nine clauses as the oaths the masters swore in council (pmc:IuratusIuramentumKautel), and the Fama gives its secrecy as the sixth article of a fraternity, for a term of a hundred years (pmc:RosicrucianSecretumCentumAnnorum). These are inside the text and so do not touch the first clause, but they are an outside rule copied in, and the authority they invoke is the assembly's and not that which the text claims for its contents. The Turba stands between: one of its grounds is an oath by God and the master, two are about the holders, that the vulgar would laugh and that kings would take the thing away."@en,
+        "What the deviations cost the statement. The first clause stands and gains a witness. The second stands with its wording widened to the excluded class. The third is replaced by a disjunction that the cases support: the ground is the authority the text claims, or the claim that publication destroys the effect, or the ordinance of a community the text reproduces. Rewritten so at the node, with the old wording kept in a note. The disjunction is not empty: it fails on a restriction grounded in something else, for instance in the harm the method would do to outsiders, which is the one ground the Turba gives at Dictum 64 according to the note at its node and which this protocol did not read; that passage is the cheapest next case."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched: the compiled holding as of 2026-10-16 on branch claude/ernte-yasenkanna, by the scan described in the definition, every candidate read at its node. The seventeen restrictions read: pmc:ArsNotoriaSecretumKautel, pmc:PgmIvTraditioClausa, pmc:PgmIvTraditioSubmissa, pmc:ShangqingMengjin, pmc:ShangqingHuangtingMengjin, pmc:ShangqingShieryanshi, pmc:AbramelinTraditioRestricta, pmc:IuratusIuramentumKautel, pmc:JeuMysteriaNonTradenda, pmc:RasarnavaGopaniyata, pmc:RasaGuptavidya, pmc:RosicrucianSecretumCentumAnnorum, pmc:TurbaCaveNeOstendas, pmc:AegyptiaArcanumAmenti, pmc:AgrippaSilentium, pmc:JapaneseZenHijuChinzo with pmc:JapaneseZenShuichiDaikantan, and, as a restriction reported and attacked by a critic, pmc:ZosimosSacerdotesNaturaliaOccultaverunt. Found against the third clause: Agrippa and the Rasa-jala-nidhi, the Rosicrucian Fama, the Liber iuratus. Found close to the falsifier of the first: the Yasenkanna. Not searched: the Sanskrit ritual manuals the statement's own note names as a likely place, beyond the Rasārṇava and the Rasa-jala-nidhi, because the holding's Vedic and Śaiva files carry no restriction node to read and no manual was opened for this protocol; and the grimoire literature beyond the four Solomonic and Honorian works in the holding."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-10-16" ;
+    pm:falsifiedBy "For the first clause, as the statement itself names it: an operative text whose restriction on transmission stands only in an external rule, a colophon or a later ordinance, the working text silent. Not met in the strict form; one case comes close and is set out below. For the second: a restriction inside the text that names no class of recipient. Met once in a weak form. For the third: a restriction inside the text grounded in something other than the authority the text claims for its contents. Met four times, in two kinds, and the clause does not survive as worded."@en ;
+    pm:protocolUpdated "2026-10-16" ;
+    pm:tests pmc:TheRestrictionOnPassingItOn .
+
 pmp:RomanusApprobatumSearch a pm:Searching ;
     rdfs:label "Ob die Wirksamkeitsetiketten des Büchleins auf den Segen oder auf das Mittel fallen"@de,
         "Whether the booklet's efficacy labels fall on the charms or on the remedies"@en ;
@@ -25230,18 +25235,6 @@ pmc:AbramelinThesauri a pm:Conceptualizing ;
     dcterms:source "Abraham von Worms, Buch der wahren Praktik, Drittes Buch Kapitel 20, p. 231, the explanation to chapter 16 of the Fourth Book, in: Die egyptischen großen Offenbarungen, Köln: Peter Hammer, 1725 (imprint as on the title page)",
         "Abramelin, Third Book chapter XVI, with the instruction to it at the end of Second Book chapter XX, in the English of S. L. MacGregor Mathers, The Book of the Sacred Magic of Abramelin the Mage, 2nd ed., London: John M. Watkins, 1900" ;
     skos:definition "To find and take possession of all kinds of treasures, provided they be not magically guarded. The spirit shows the treasure; the symbol laid upon it prevents it from sinking into the ground or being carried away, and its guardian spirits flee."@en ;
-    pm:fromWork pmw:Abramelin ;
-    pm:withinTradition pmt:SolomonicGrimoire .
-
-pmc:AbramelinTraditioRestricta a pm:Cautioning ;
-    rdfs:label "Nur nach langer Prüfung gegeben, nie verkauft, nie einem Monarchen, und sonst ohne Frucht"@de,
-        "Given only after long examination, never sold, never to a monarch, and otherwise without fruit"@en ;
-    dcterms:source "Abramelin, First Book chapters IV and XI, Second Book chapter XX rules 30, 31, 36 and 37, in the English of S. L. MacGregor Mathers, The Book of the Sacred Magic of Abramelin the Mage, 2nd ed., London: John M. Watkins, 1900" ;
-    skos:definition "The French: Abramelin gives the science on condition that it be communicated to no living person not thoroughly known by long practice, and to such a one only in the same fashion and manner Abramelin used; if done otherwise, he who receives it shall draw no fruit from it. It is not to be sold, for the grace is given free; if sold, the seller loses its control. It is never to be given to a monarch, because Solomon was the first to abuse it, and if given, both giver and successors lose its grace; Abraham says he gave the emperor Sigismund a familiar spirit and refused him the operation. The recipient is bound by oath not to give or sell it to an atheist or blasphemer; both fast three days and the recipient hands over ten golden florins to be given to the poor with charge to say two named psalms. The operation once given in due form is irrevocable, and the science remains in Abraham's generation seventy-two years."@en ;
-    skos:note "The German Third Book, read complete, carries none of the four clauses — no sale, no monarch, no oath, no seventy-two years — in its rules; its first book gives the deeds with the emperor named, read at pages 33 to 34. The German First Book chapter that would correspond to Abramelin's charge was not read."@en,
-        "The restriction stands inside the operative text, names a class of permitted and excluded recipients, and grounds itself in the authority the text claims — the grace given free and Solomon's abuse — and in a penalty that lands on the operation itself: the recipient who received it otherwise draws no fruit, the giver who sold it loses control. That last clause gives the restriction a second use, since any recipient to whom nothing came can be told he received it in the wrong manner."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:cautionsAbout pmp:AbramelinPraeparatio ;
     pm:fromWork pmw:Abramelin ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
@@ -32133,6 +32126,22 @@ pmc:TheRepairWithoutASign a pm:Generalizing ;
         pmc:VaidikaPrayascittaSarvam ;
     pm:generalizedStatement "Where the harm a transmission attaches to a fault in its own procedure is one the practitioner cannot observe — deferred past a term the text does not fix, laid on another party, or consisting in the mere absence of an effect — the repair it prescribes for that fault is asserted to work without exception and is given no sign by which it is known to have taken effect and no condition under which it fails. Where the harm is instead a present condition the practitioner notices in himself, the same kind of transmission states the repair's success as the ending of that condition, and provides for the case in which the repair cannot be carried out."@en .
 
+pmc:TheRestrictionOnPassingItOn a pm:Generalizing ;
+    rdfs:label "Die Überlieferung beschränkt ihre eigene Weitergabe, im operativen Text selbst"@de,
+        "The transmission restricts its own passing on, inside the operative text"@en ;
+    skos:note "A third witness was added on 2026-09-11, from a transmission with no route to either of the first two. It fits the statement in all three particulars: the restriction stands inside the instruction and not in an external rule, the permitted recipient is named as the right person and no other, and the restriction is referred to the scripture from which the method comes. It adds a feature the statement does not claim and which is worth watching for in further cases, a material pledge whose quantity is left to the giver and whose point is said to be the sincerity."@en,
+        "Falsified by an operative text of the same kind whose restriction on transmission stands only in an external rule, a colophon or a later ordinance, with the working text itself silent. The grimoire literature and the Sanskrit ritual manuals are the corpora where such a case would turn up."@en,
+        "It also bears on how such texts should be read. A restriction stated inside the working formula is part of the procedure as the text has it, so a modern reader who ignores it is not merely disobeying an outside rule but performing something the source says is not the practice. Whether that difference makes any difference is a question for a protocol and not for this node."@en,
+        "Rewritten on 2026-10-16 after the protocol at pmp:RestrictionOnPassingItOnExamination. The wording until then was: Transmissions of an operative text state the restriction on passing it on inside the text itself rather than in an external rule, name the class of permitted recipient, and attribute the restriction to the authority the text claims for its own contents. The first clause held across the population and gained Abramelin as a fourth witness; the second was widened to the excluded class for the Turba and Agrippa; the third failed on Agrippa and the Rasa-jala-nidhi, which ground the restriction in the loss of the effect by publication, and on the Liber iuratus and the Fama, which reproduce a community's ordinance. The statement is also made conditional on the transmission restricting itself at all, since the printed Yasenkanna does not."@en,
+        "The Ars Notoria puts the prohibition in the mouth of the angel who declared the oration: the holder is to presume neither to give it to another nor to expound anything out of it, neither himself nor any one by him nor any one after him. The Paris papyrus states in the opening prayer that these are mysteries a father alone may hand on, and that only to a son, an initiate worthy of the craft."@en,
+        "This is the gate the project exists to remove, stated by the transmissions in their own words, and that is the reason to hold it as a claim rather than as a remark. A record that releases such material into the public domain is obliged to be exact about what it is overriding: not a later institution's secrecy, but an instruction the operative text carries about itself."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:AbramelinTraditioRestricta,
+        pmc:ArsNotoriaSecretumKautel,
+        pmc:PgmIvTraditioClausa,
+        pmc:ShangqingMengjin ;
+    pm:generalizedStatement "Transmissions of an operative text that restrict their own passing on state the restriction inside the text itself rather than only in an external rule, and name the class of permitted or excluded recipient; the ground they give is the authority the text claims for its own contents, or the claim that publication destroys the effect, or the ordinance of a community which the text reproduces."@en .
+
 pmc:TheSignTakenForTheAttainment a pm:Generalizing ;
     rdfs:label "Die Erscheinung wird als das benannt, was den für sie gehaltenen Fortschritt anhält"@de,
         "The appearance is named as what stops the progress it is taken for"@en ;
@@ -36306,6 +36315,18 @@ pmc:AbramelinMorbusSineTermino a pm:Conceptualizing ;
     dcterms:source "Abramelin, Second Book chapter II, chapter VII and chapter XX rule 16, in the English of S. L. MacGregor Mathers, The Book of the Sacred Magic of Abramelin the Mage, 2nd ed., London: John M. Watkins, 1900" ;
     skos:definition "The French: should the operator be attacked by an illness that does not permit him to go to the oratory, this need not oblige him to abandon the enterprise at once; he governs himself as best he can and performs the orations in bed, entreating God to restore his health so that he may continue. Elsewhere: a sick man can neither be clean and pure nor enjoy solitude, and in such a case it is better to cease; and he who is hindered from continuing through some unforeseen accident sins in no way."@en ;
     skos:note "Two sentences of the same recension pull against each other — continue in bed, and better to cease — and neither fixes a point at which the one gives way to the other. The French therefore leaves the operator who falls sick without any rule that would tell him the operation has failed."@en ;
+    pm:fromWork pmw:Abramelin ;
+    pm:withinTradition pmt:SolomonicGrimoire .
+
+pmc:AbramelinTraditioRestricta a pm:Cautioning ;
+    rdfs:label "Nur nach langer Prüfung gegeben, nie verkauft, nie einem Monarchen, und sonst ohne Frucht"@de,
+        "Given only after long examination, never sold, never to a monarch, and otherwise without fruit"@en ;
+    dcterms:source "Abramelin, First Book chapters IV and XI, Second Book chapter XX rules 30, 31, 36 and 37, in the English of S. L. MacGregor Mathers, The Book of the Sacred Magic of Abramelin the Mage, 2nd ed., London: John M. Watkins, 1900" ;
+    skos:definition "The French: Abramelin gives the science on condition that it be communicated to no living person not thoroughly known by long practice, and to such a one only in the same fashion and manner Abramelin used; if done otherwise, he who receives it shall draw no fruit from it. It is not to be sold, for the grace is given free; if sold, the seller loses its control. It is never to be given to a monarch, because Solomon was the first to abuse it, and if given, both giver and successors lose its grace; Abraham says he gave the emperor Sigismund a familiar spirit and refused him the operation. The recipient is bound by oath not to give or sell it to an atheist or blasphemer; both fast three days and the recipient hands over ten golden florins to be given to the poor with charge to say two named psalms. The operation once given in due form is irrevocable, and the science remains in Abraham's generation seventy-two years."@en ;
+    skos:note "The German Third Book, read complete, carries none of the four clauses — no sale, no monarch, no oath, no seventy-two years — in its rules; its first book gives the deeds with the emperor named, read at pages 33 to 34. The German First Book chapter that would correspond to Abramelin's charge was not read."@en,
+        "The restriction stands inside the operative text, names a class of permitted and excluded recipients, and grounds itself in the authority the text claims — the grace given free and Solomon's abuse — and in a penalty that lands on the operation itself: the recipient who received it otherwise draws no fruit, the giver who sold it loses control. That last clause gives the restriction a second use, since any recipient to whom nothing came can be told he received it in the wrong manner."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AbramelinPraeparatio ;
     pm:fromWork pmw:Abramelin ;
     pm:withinTradition pmt:SolomonicGrimoire .
 
@@ -41737,16 +41758,6 @@ pmc:AyurvedaDirghayus a pm:Conceptualizing ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pmt:ChineseDivination a pm:Tradition ;
     rdfs:label "Chinesische Divinations- und Siedlungslehre"@de,
         "Chinese divinatory and siting transmission"@en ;
@@ -41802,10 +41813,20 @@ pmw:NuptiaeChymicae a dcterms:BibliographicResource ;
         "Chymische Hochzeit Christiani Rosencreutz (1616)"@en ;
     skos:note "Opened on 2026-09-30 and read complete, all seven days, in a modern reset English and checked passage by passage against the Strasbourg print of 1616. It is the only one of the three works that narrates a procedure, and the only one that states what happens to those who fail at its stations. Its canonical locus is the day."@en .
 
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
 pm:contactRouteDisputed a pm:ContactRoute ;
     rdfs:label "Kontaktweg strittig"@de,
         "Contact route disputed"@en ;
     skos:definition "A route has been proposed and is contested in the scholarship. Agreement counts as neither reception nor independent attestation until the dispute is entered as its own node."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:Theosophy a pm:Tradition ;
     rdfs:label "Theosophie"@de,
