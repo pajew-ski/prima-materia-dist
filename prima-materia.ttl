@@ -19041,6 +19041,277 @@ pmc:WitchcraftDreamIsExperienceNotSymbol a pm:Conceptualizing ;
     skos:note "Entered because it stands squarely against a claim this graph holds open elsewhere, that the figures met at the threshold of sleep are the signature of the sleeper's own state and not visitors. Here the transmission asserts the opposite in as many words. It is one side and not a refutation; the other side is not in this file, so no dispute node is written."@en ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmc:WitotoBoroAnacondaSkinControl a pm:Conceptualizing ;
+    rdfs:label "Durch die Haut der Anakonda beherrscht der Medizinmann ihren Geist"@de,
+        "By the skin of the anaconda the medicine-man controls its spirit"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 184" ;
+    skos:definition "The recorder once saw a medicine-man with the skin of an anaconda and was told that by using the skin he could control the spirit of the anaconda; for this purpose medicine-men are habitually provided with the dried skins of lizards and snakes."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Seen and heard by Thomas Whiffen among the tribes between the Issa and the Apaporis in 1908 or 1909, published London 1915. The speaker who told him is not named; the language is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroBirdCirclingAnnouncesVisitors a pm:Conceptualizing ;
+    rdfs:label "Ein kleines Wildhuhn, das auf der Lichtung im Kreis läuft, kündigt Besucher an"@de,
+        "A small wild turkey running in circles in the clearing announces visitors"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 234-235" ;
+    skos:definition "An omen the recorder saw read: a small wild turkey alighted in a clearing and kept running round and round in circles, which the Indians took to mean that people were coming to the house, friends or enemies, and there was an excited discussion about which. A party of friendly Indians arrived the same evening. The Okaina with whom this happened made no attempt to disturb the bird and looked on it as a friend who came to give notice of visitors. A man must go warily and heed good and evil omens; at Occidente, by contrast, a Muenane wanted to shoot a wood ibis that had come down among a crowd of Witoto and Muenane and protested, when stopped, that it had been sent by their enemies the Karahone to bring disaster."@en ;
+    skos:note "One reading, one hit, and the reading left both outcomes open - friends or enemies - so the hit confirms only that someone came. The two birds are kept together because a bird coming down among people is read as a friendly herald by one people and as an enemy's sending by its neighbour in the same region, which is what an omen with no fixed meaning looks like from outside; they are two birds and two occasions, so this is not one sign read two ways. The Muenane case the recorder takes from Casement and did not see."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Observed by Thomas Whiffen at a house among the tribes between the Issa and the Apaporis in 1908 or 1909, published London 1915; the Muenane ibis is reported by him from Casement and was not seen by him. No speaker is named; the language is not stated." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroBreathYieldsRecovery a pm:Yielding ;
+    rdfs:label "Hauch und Saugen bringen den Kranken zurück"@de,
+        "Breath and suction bring the sick back"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 179-180" ;
+    skos:note "No term, no number of sessions and no sign by which the breath would be known not to have worked is given at this place. What is said about a cure that fails stands at pmc:WitotoBoroFailureLaidOnTheRival."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WitotoBoroBreathAndSuction ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief and practice of the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro ;
+    pm:yieldsCapacity pmc:WitotoBoroBreathEvictsTheSpirit .
+
+pmc:WitotoBoroCocaWithoutSleepOrFood a pm:Conceptualizing ;
+    rdfs:label "Mit einem Kokaballen in der Wange geht ein Mann tagelang ohne Schlaf, Speise oder Trank"@de,
+        "With a wad of coca in the cheek a man goes days without sleep, food or drink"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 141-142" ;
+    skos:definition "Coca leaves, fire-dried and pounded with palm-leaf ash, baked clay and cassava flour, are shot into the cheek with a folded leaf and form a hard ball there; with such a wad a man can go without sleep, food or drink for several days. The use is habitual and not occasional, as much as two ounces a day, and the leaf is never swallowed."@en ;
+    skos:note "The recorder tried it on himself and reports a partial and unrepeated result, which is why the node is kept. Hunger and thirst were removed and he could make greater efforts without food, but he could never establish a tolerance, the effect was evanescent in the extreme and was followed by acute vomiting and cramp, and he gave it up except when food was too scarce. So the capacity is reported, and a first-person trial of it by the recorder reproduced the suppression of hunger and not the endurance of several days. He leaves open whether the nausea came from the leaf or from the other ingredients."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen of all the tribes between the Issa and the Japura, the Bara named as the heaviest users, from travel in 1908 and 1909, published London 1915; the self-trial is his own first-person report at the same place. No speaker is named; the language is not stated." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroFailureLaidOnTheRival a pm:Conceptualizing ;
+    rdfs:label "Misslingt die Kur, so liegt die Schuld nicht bei ihm, sondern bei einem Rivalen, und er geht in den Busch, um gegen ihn zu zaubern"@de,
+        "Should the cure fail, the blame is not his but a rival's, and he goes into the bush to work magic against him"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 180-181" ;
+    skos:definition "The medicine-man receives presents for the cures he effects. Should he fail he must make the best case he can for himself and depart to the bush to work magic against the rival who, by his account, has successfully outmanoeuvred him. The blame for failure is to be not his but another's."@en ;
+    skos:note "A further witness to the pairing pmc:TheRivalWhoWasNotInTheRoom describes, and it carries both halves in one sentence: the excuse names an absent operator, and the same corpus treats acting against people at a distance as what a medicine-man does - here in the very act of answering the failure, and elsewhere in the tiger excursions against the enemies and the sickness that every enemy sends. The node is not added to the generalization's witnesses in this run; the contact route of this tradition is undecided and that generalization's own note says what follows from an undecided route."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen in his own voice as the conduct of the medicine-men among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named and no case is given; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroFrustratingTheBadSpirit a pm:Conceptualizing ;
+    rdfs:label "Der Medizinmann zwingt den bösen Geist zur Ruhe, und die gute Ernte gilt als sein Werk"@de,
+        "The medicine-man coerces the Bad Spirit into quiescence, and a good harvest is his"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 219, 224, 229" ;
+    skos:definition "Neither the Good nor the Bad Spirit is prayed to. The medicine-man invokes and appeals to neither but attempts by magic to force the Bad Spirit into quiescence, since unless coerced it is all-powerful; he is called to clear the air of spirits before a thunderstorm; and if the harvest is good the credit goes not to the Good Spirit but to the medicine-man for having frustrated the Bad Spirit's machinations, while a failed harvest is the work of the Bad Spirit or its agents."@en ;
+    skos:note "The accounting is asymmetrical by construction and the passage states both halves in one sentence: success is the medicine-man's, failure is the adversary's. Nothing in the part read assigns a bad harvest to a medicine-man who failed."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief of the tribes between the Issa and the Japura, with the Boro and Witoto names of the two spirits given (Neva and Navena, Usiyamoi and Taife), from travel in 1908 and 1909, published London 1915. No speaker is named for this passage; the language of gathering is not stated." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroHairinessBeforeOffice a pm:Presupposing ;
+    rdfs:label "Ohne Behaarung kein Amt"@de,
+        "Without hairiness, no office"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 182" ;
+    skos:definition "Hairiness is a necessary qualification for any man or youth who wishes to attain the position of medicine-man; the training is given to the hairy son, or to a hairy child chosen for it."@en ;
+    skos:note "Set at prescribed order and not at stated necessity, although the passage uses the word necessary. SPEC section 3 reserves stated necessity for a requirement with a citable consequence of skipping it, and the passage names none: nothing says what becomes of a smooth-faced man who is trained anyway, because by the rule he is not trained."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:dependentStep pmp:WitotoBoroMedicineManTraining ;
+    pm:fieldRecord "Reported by Thomas Whiffen in his own voice as the rule among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:WitotoBoroHairyCandidate ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroLianaYieldsForetelling a pm:Yielding ;
+    rdfs:label "Der Lianentrank bringt die Reise und das Vorauswissen"@de,
+        "The liana drink brings the journey and the foreknowledge"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 187" ;
+    skos:note "The foretelling is the one capacity in the part read that would fall due: a prediction is made on waking and the future arrives. The work gives no instance of such a prediction and no account of one that failed, and the paragraph after it says the medicine-man's verdicts are given in the most ambiguous phrasing so that he can always claim to have been right, which is entered at pmc:WitotoBoroVerdictInAmbiguousTerms and bears directly on whether this capacity could be checked."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WitotoBoroLianaDrinkSleep ;
+    pm:fieldRecord "Reported by Thomas Whiffen as what the medicine-man is supposed to do, among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro ;
+    pm:yieldsCapacity pmc:WitotoBoroWanderingInSpiritToForetell .
+
+pmc:WitotoBoroMadnessBeyondTheDoctor a pm:Conceptualizing ;
+    rdfs:label "Ein Wahn, den der Medizinmann nicht austreiben kann, kam von einem Kollegen mit größeren Gaben, und der Wahnsinnige wird getötet"@de,
+        "A madness the medicine-man cannot expel was sent by a colleague with greater gifts, and the madman is put to death"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 169" ;
+    skos:definition "A mad person is first exorcised by the medicine-man to expel the madness. If this fails to evict the evil spirits that cause it, the man is put to death to destroy the bad influence, which, since it passes the doctor's power to remedy, has presumably been sent by some hostile colleague with greater magical gifts."@en ;
+    skos:note "The second account of failure in the work, and it adds a step the first lacks: the failure is not only laid on a rival but removed. The patient whom the exorcism did not cure does not remain as a case."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen as a recognised case among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named and no instance is given; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroNeverShootASnakeWithTheBlowpipe a pm:Cautioning ;
+    rdfs:label "Schieße nie eine Giftschlange mit dem Blasrohr, sonst stirbt all dein Gift"@de,
+        "Never shoot a poisonous snake with the blowpipe, or all your poison dies"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 234" ;
+    skos:definition "A man must never shoot a poisonous snake with a blowpipe. Should he do so, one poison will neutralise the other and destroy not only the poison on the dart that wounded the snake but all poison whatever that was in his possession at the time."@en ;
+    skos:note "The cleanest stated consequence in the part read: a named act, a named mechanism, and an outcome anyone could test by shooting a snake and then a monkey with darts from the same pot. It is a warning about a hunter's poison and not about the medicine-man's office, and it is entered for its form. Nothing says it was ever tested or that anyone ever lost his poison this way."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmp:WitotoBoroDartPoison ;
+    pm:fieldRecord "Reported by Thomas Whiffen as an observance of the tribes between the Issa and the Japura, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroNoWomanWhileMakingMedicine a pm:Cautioning ;
+    rdfs:label "Keine Frau, solange die Arzneien bereitet werden, sonst wird das Kind ein Tigerjunges"@de,
+        "No woman while the medicines are being made, or the child will be a tiger cub"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 182" ;
+    skos:definition "The medicine-man has to observe many prohibitions: certain foods are forbidden him, and he must have no connection with women when making his medicines, for should the woman bear a child it will be a tiger cub. To make his drugs and unguents he goes alone into the forest, which other men never do of their own free will."@en ;
+    skos:note "The consequence is stated and observable, and it falls on the woman and the child and not on the operation: the medicines are not said to fail. That is the shape issue prima-materia#621 says pm:Cautioning cannot yet hold as a property, so the consequence stands in the definition."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmp:WitotoBoroJaguarSkin ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the rule among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroNoiseMeasuresPotency a pm:Conceptualizing ;
+    rdfs:label "Je größer der Lärm, desto stärker der Zauber"@de,
+        "The greater the noise, the more potent the magic"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 186-187" ;
+    skos:definition "The expulsion of a sickness is done in the dark house with much noise and fury: the doctor, well under the influence of drugs, beats the floor with a palm branch, shakes his rattle, imitates the beasts and birds of the forest so that the sounds seem to come from every side, and converses with the speakers he has called up. This demonstrates the embodying of the spirits and summons the friendly ones, and the greater the noise and the wilder the excitement, the more potent is held to be the magic. Ventriloquism is required of anyone who has any claim to magical gifts."@en ;
+    skos:note "A second sign of success and a measure of strength in one, and like the first it is made by the operator during the operation. A transmission that measures the potency of a cure by the performance at the cure has a scale that every performer can move himself."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen of the medicine-men among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroObjectDrawnFromTheFlesh a pm:Conceptualizing ;
+    rdfs:label "Das Stöckchen, der Dorn oder die Gräte, vorgezeigt als der leibhaft aus dem Fleisch gezogene Geist"@de,
+        "The stick, thorn or fishbone shown as the spirit drawn bodily from the flesh"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 180-181" ;
+    skos:definition "The sign of a successful suction: the medicine-man produces from his mouth a bit of stick, a thorn, a fishbone or something of the kind and tells the patient and his friends that this is the material form the evil spirit had taken, which he has drawn bodily from the flesh."@en ;
+    skos:note "A sign of success of the kind SPEC section 15 says must be counted apart: it is produced by the operator at the moment of the operation and shown to the people who asked for it, so its presence says nothing about the course of the sickness. The recorder calls it conjuring and says the medicine-man is a clumsy conjuror whom only the trust of his audience saves from detection."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen of the medicine-men among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroOkainaFeverCure a pm:Conceptualizing ;
+    rdfs:label "Die Okaina-Kur: eine Frau mit hohem Fieber, im Dunkeln mit dem Mund ausgesaugt, ist am nächsten Morgen gesund"@de,
+        "The Okaina cure: a woman with a high fever, sucked by mouth in the dark, is well the next morning"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 188-189" ;
+    skos:definition "The one cure the recorder watched. With an Okaina tribe a woman of his own party went down with fever, a temperature of 103 to 104 degrees Fahrenheit that his quinine did not lower; a great and noted medicine-man of the district was sent for. In the pitch-dark house he rushed in in tremendous excitement, passed his hands all over the rigid woman, filled his mouth with coca, put his lips on hers and sucked up the contents of her mouth, ran out and spat, and announced that he had sucked away the evil spirit. Next morning the woman was perfectly well."@en ;
+    skos:note "The recorder calls it the most extraordinary faith cure and says there was no denying that a dying woman had been restored. What the case is and is not. It is one session, observed by a man who had taken the temperature himself and had given a drug before, with the outcome reported the next morning; it is not a series, there is no comparison case, and the recorder himself says elsewhere that malarial fevers are common on the Issa and come with the rains, without saying whether this was one. It is also the only case in the part read of any operation in this file reported with an outcome, so it is entered and not counted as support beyond itself."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroPalaverYieldsTheEnemy a pm:Yielding ;
+    rdfs:label "Die berauschte Versammlung ergibt den Feind und den Kriegsbeschluss"@de,
+        "The drugged palaver yields the enemy and the decision for war"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 185" ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WitotoBoroDivinationPalaver ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the procedure of the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro ;
+    pm:yieldsCapacity pmc:WitotoBoroEnemyBehindEveryMisfortune .
+
+pmc:WitotoBoroRecreatingTheLostChild a pm:Conceptualizing ;
+    rdfs:label "Der Medizinmann erschafft das verlorene Kind durch seinen Zauber neu"@de,
+        "The medicine-man re-creates the lost child by his magic"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 185" ;
+    skos:definition "If a child is lost, or killed by a tiger, and the hunters fail to overcome the tiger, the medicine-man works magic. If in his solitary wanderings he comes across the lost child, he re-creates it by the potency of his magic and produces it alive in due course; if not, he returns with a tale of vengeance wreaked on the tiger and a tiger tooth in proof."@en ;
+    skos:note "The two outcomes are given side by side and the recorder's account of them is ironic: the re-creation depends on the luck of finding the child, and the tooth need not be freshly drawn. Stripped of the irony the structure stands without him: the capacity claimed is to bring back the dead child, the case in which it is shown is the case in which the child was not dead, and the case in which it is not shown is converted into a different success."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named and no instance with names or dates is given; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroSeclusionYieldsTheName a pm:Yielding ;
+    rdfs:label "Die betäubte Nacht ergibt den Namen des Feindes"@de,
+        "The narcotic night yields the name of the enemy"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 169, 187" ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WitotoBoroBushSeclusion ;
+    pm:fieldRecord "Reported by Thomas Whiffen among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. He says he saw one such case himself and was begged by the Indians not to go in the direction of the sick man; no speaker is named, the language of gathering is not stated, and no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro ;
+    pm:yieldsCapacity pmc:WitotoBoroDreamNamesTheEnemy .
+
+pmc:WitotoBoroSkinYieldsTigerForm a pm:Yielding ;
+    rdfs:label "Das gehaltene Fell macht den Tiger"@de,
+        "The skin held makes the tiger"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 182" ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:byPractice pmp:WitotoBoroJaguarSkin ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief of the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro ;
+    pm:yieldsCapacity pmc:WitotoBoroTigerForm .
+
+pmc:WitotoBoroSomeoneHasTransgressed a pm:Cautioning ;
+    rdfs:label "Niemand darf den Kranken auf der Lichtung ansprechen oder an ihm vorbeigehen, sonst stirbt er; stirbt er, so hat jemand gefrevelt"@de,
+        "No one may speak to the patient in the clearing or pass him, or he will die; if he dies, someone transgressed"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 187" ;
+    skos:definition "While the patient lies in the clearing after the narcotic, no one may speak to him or pass him, otherwise he will die; the relatives keep out of sight and guard the bush tracks to prevent it. If the patient dies, the medicine-man asserts very positively that someone has transgressed, knowingly or unknowingly, and so caused the fatal ending."@en ;
+    skos:note "This is the account of failure in its fullest form in the part read, and it is a member of the list at pmc:NoFailedRunCountsAgainstTheOperation. The prohibition is stated in advance and its consequence is death, which looks like a condition of failure; but the condition is invoked only after the death, the transgression may have been unknowing so no one need have seen it, and the medicine-man asserts it rather than finding it. A death in the clearing therefore never counts against the narcotic or the night."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmp:WitotoBoroBushSeclusion ;
+    pm:fieldRecord "Reported by Thomas Whiffen among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. He says he saw one such case and was begged by the Indians not to go in the direction of the sick man; no speaker is named, the language of gathering is not stated, and no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroTigerToothInProof a pm:Conceptualizing ;
+    rdfs:label "Der Tigerzahn, zurückgebracht als Beweis der Rache"@de,
+        "The tiger tooth brought back in proof of vengeance"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 185" ;
+    skos:definition "When the medicine-man does not find the lost child, he returns from the bush with a tale of vengeance wreaked on the tiger and a tiger tooth in proof of it."@en ;
+    skos:note "The third sign, and the recorder adds that the tooth need not be of fresh extraction. Counted with the other two and apart from the conditions of failure: three signs, no condition stated in advance."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker or instance is named; the language is not stated." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroVerdictInAmbiguousTerms a pm:Conceptualizing ;
+    rdfs:label "Das amtliche Urteil wird stets in der vieldeutigsten Wendung gegeben"@de,
+        "The official verdict is always given in the most ambiguous phrasing"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 187" ;
+    skos:definition "At a sickness the medicine-man either announces who sent it or expounds the sick person's dreams and deduces the source of the evil from them; the official explanation and verdict is always given in the most ambiguous phraseology, so that whatever happens he may twist his saying into the equivalent of I told you so."@en ;
+    skos:note "The recorder's characterisation, and the one that bears on every capacity of foretelling in this file. A verdict that covers an outcome and its opposite is what SPEC section 3 calls a claim that does not discriminate, observed here at the source and before any examination: it is not that the verdicts were tested and found to cover everything, but that the recorder says they were framed to. No verdict is quoted, so the ambiguity cannot be checked in this work."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen in his own voice of the medicine-men among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No verdict is quoted and no speaker named; the language of gathering is not stated." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroVerdictMadeToComeTrue a pm:Conceptualizing ;
+    rdfs:label "Dem aufgegebenen Kranken wird heimlich Gift gegeben, damit das Urteil eintrifft"@de,
+        "The hopeless patient is quietly given poison, so that the verdict comes true"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 168-169" ;
+    skos:definition "When the medicine-man considers a patient hopeless and has announced that all his skill is vain and recovery impossible, it is his custom to administer a dose of poison quietly to the dying man. It matters more to him that his verdict be fulfilled than to risk a recovery that would falsify his prognosis."@en ;
+    skos:note "The recorder's accusation and not the transmission's statement about itself, and it is entered with that status because it reports a device that no account given by a practitioner would contain. If it is accurate, a prognosis of death in this transmission cannot be falsified by recovery, because recovery is prevented; the one outcome that would refute the verdict is removed by the man who gave it. The recorder adds that the patient would probably die anyway because the medicine-man foretold it. He gives no instance, names no medicine-man, and does not say how he knew; the node carries exactly that much."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Asserted by Thomas Whiffen in his own voice as the custom of the tribal medicine-man among the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No informant, instance or witness is named for it, and nothing in the passage says whether he observed it or was told; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroVoluntaryDisembodiment a pm:Conceptualizing ;
+    rdfs:label "Der Medizinmann löst seinen Geist nach Willen und verbirgt sich in einem Tier, einem Baum, dem Wind oder dem Fluss"@de,
+        "The medicine-man frees his spirit at will and lurks in an animal, a tree, the wind or the river"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 224-225, 227-228" ;
+    skos:definition "Of the four kinds of spirit the transmission distinguishes, the second is the soul of a living man that he can send out of his body. Every man's soul leaves the body in sleep and the dream is what it does; but voluntary disembodiment is said to be possessed by the medicine-man alone. He may free his spirit for magical ends, to fight unseen enemies on better terms or for some nefarious end, and either remain disembodied and invisible or lurk for a time in the form of an animal or an object, a tree, a stone, the wind, the rain or the river. The ordinary man knows he cannot do this and is willing to believe that others can."@en ;
+    skos:note "The last sentence is the transmission's own division of labour and it is worth keeping. A capacity that every layman disclaims for himself and grants to a specialist is one no layman will ever report trying; whatever is known about it is what the specialist says."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief of all the tribes between the Issa and the Japura, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroWhatTheMotherEatsShapesTheChild a pm:Cautioning ;
+    rdfs:label "Was die Mutter isst, wird das Kind: Nagezähne, Pakaflecken, ein missgebildeter Körper"@de,
+        "What the mother eats the child becomes: rodent teeth, paca spots, a deformed body"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 147-148, 150-151" ;
+    skos:definition "The prohibitions of pregnancy are stated with their consequences. If the mother ate tapir it would allot the visible characteristics of the animal to the unborn child; capybara would give it the teeth of a rodent; paca would spot it like a paca; bush-deer, forbidden to all married women among the Kuretu-language group, would deform it. The belief that ill will befall the child if the dietary laws are not kept is held by men and women alike, and to bear a deformed child is the most disgraceful calamity that can befall a woman."@en ;
+    skos:note "What the consequence is used for afterwards is in the same chapter and it reverses the direction of the test. A child found deformed after it has been brought to the house is taken to the medicine-man; if the condition is beyond him he declares it caused by an evil spirit, and the child is exposed or buried; an epidemic of deformed births would be put down to an enemy and lead to a blood-feud. So the prohibition predicts deformity from a broken rule, and the deformity that comes is explained by an enemy and not by a broken rule. Neither direction is ever checked against the other in the part read."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:cautionsAbout pmp:WitotoBoroPregnancyDiet ;
+    pm:fieldRecord "Reported by Thomas Whiffen among the tribes between the Issa and the Japura, with the Tikie tribes and the Kuretu named for particular prohibitions, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
 pmc:WoodwardCakkaInterpolatio a pm:Originating ;
     rdfs:label "Die sieben Kraftzentren mit ihren Farben, und die Gefahr unterhalb des Nabels"@de,
         "The seven force-centres with their colours, and the danger below the navel"@en ;
@@ -24383,6 +24654,49 @@ pmp:WhoMayTestAPersonExamination a pm:Testing ;
     pm:protocolUpdated "2026-09-29"^^xsd:date ;
     pm:tests pmc:TheTestOfAPersonIsRefused .
 
+pmp:WitotoBoroFailureConditionSearch a pm:Searching ;
+    rdfs:label "Ob die geöffneten Kapitel im Voraus ein Zeichen nennen, dass eine Operation nicht gewirkt hat"@de,
+        "Whether the opened chapters state in advance a sign that an operation has not worked"@en ;
+    dcterms:date "2026-10-18" ;
+    skos:note "No condition is named in advance anywhere in the part read. What the hits find instead are three accounts given after the event, and each puts the failure somewhere other than the operation: a cure that fails is laid on a rival who outmanoeuvred the medicine-man (pp. 180-181, pmc:WitotoBoroFailureLaidOnTheRival); a madness that the exorcism does not expel was sent by a colleague with greater gifts, and the madman is killed (p. 169, pmc:WitotoBoroMadnessBeyondTheDoctor); a patient who dies in the clearing died because someone, perhaps unknowingly, spoke to him or passed him (p. 187, pmc:WitotoBoroSomeoneHasTransgressed). The recorder adds two devices in his own voice that close the remaining gap: hopeless patients are poisoned so that the verdict comes true (pp. 168-169), and verdicts are framed ambiguously so that any outcome fits (p. 187)."@en,
+        "The count the harvest owes, stated here so that it cannot be summed: conditions of failure stated in advance, none; signs of success, three (the object drawn from the flesh, the noise as the measure of potency, the tiger tooth). One prohibition outside the medicine-man's office has a stated, testable consequence - never shoot a poisonous snake with the blowpipe or all one's poison is destroyed (p. 234) - and is the nearest the part read comes to a condition of failure; it bears on a hunter's poison and is entered as a warning."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search of the chapters for: fail, fails, failed, failure, in vain, vain, no effect, not cure, cannot cure, beyond his power, could not, die, dies, died, death, transgress, blame, rival, wrong, mistake, ambiguous; every hit read in its place and assigned to the voice it stands in, the recorder's or the reported."@en ;
+    pm:searchedBy "prima-materia, 2026-10-18" ;
+    pm:searchedCorpus "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), in the archive full text northwestamazons00whif; chapters X, XI, XIII, XIV and XVII, pp. 138-158, 168-189 and 218-235, read through in place."@en ;
+    pm:searchedFor "A condition named before the event under which a cure, a divination, the liana drink, the tiger excursion or any other operation of the medicine-man is to be known not to have worked: a term after which nothing more is to be expected, a sign that the spirit was not expelled, a symptom that shows the verdict wrong, or a rule that a medicine-man who fails so many times is no longer one."@en .
+
+pmp:WitotoBoroMagicStonesTrance a pm:Practicing ;
+    rdfs:label "Die Andoke-Schnur der Zaubersteine, ausgelegt und angestarrt bis zur Trance"@de,
+        "The Andoke string of magic stones laid out and gazed at until trance"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 184" ;
+    skos:definition "The Andoke place great faith in strings of five or seven magic stones, flat bored discs of quartz. The medicine-man takes them off the string, lays them in certain patterns on the sufferer and gazes at them abstractedly until a self-induced trance sets in; then he breaks out into a frenzy, stamps, shouts and brandishes his rattle. The stones are also used for magical rubbing and are guarded so that no possessor will part with them for any price."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroStatedTermSearch a pm:Searching ;
+    rdfs:label "Ob irgendeine Operation des Medizinmannes eine Frist erhält, in der ihr Ausgang eintreten soll"@de,
+        "Whether any operation of the medicine-man is given a term within which its outcome is to appear"@en ;
+    dcterms:date "2026-10-18" ;
+    skos:note "The terms the chapters do carry belong to the household and not to the office: the father's abstention lasts until the child's navel is healed, three to six weeks among some tribes (p. 152); the child is named after eight days (p. 153); the patient in the clearing is left for one night and questioned the next day (pp. 169, 187). The last is the only term attached to an operation, and it fixes when the dreams are told, not when the sickness is to have gone. The training of the medicine-man is given no length at all, and the one session the recorder watched ended the next morning, which is a report of a case and not a rule."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search for: day, days, night, nights, week, weeks, month, months, year, years, until, till, after, next morning, the next day, eight days, three to six weeks; every hit read in its place."@en ;
+    pm:searchedBy "prima-materia, 2026-10-18" ;
+    pm:searchedCorpus "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), the same chapters and the same reading."@en ;
+    pm:searchedFor "A number of days, nights, sessions or months attached to a cure, to the training, to the liana drink and its foretelling, or to the tiger form, after which the outcome would be readable."@en .
+
+pmp:WitotoBoroTigerKilledSearch a pm:Searching ;
+    rdfs:label "Ob das Werk irgendwo berichtet, dass ein Medizinmann in Tigergestalt getötet wird"@de,
+        "Whether the work anywhere reports a medicine-man in tiger form being killed"@en ;
+    dcterms:date "2026-10-18" ;
+    skos:note "Found at p. 232: when a man is killed or a child lost, the medicine-man discovers that it was probably the spirit of a hostile medicine-man in tiger form; the tribe hunts the tiger, eats it at a feast of revenge, and the skin goes to the medicine-man whose magic triumphed over his rival's. Both places are kept at the node, with the two readings they allow. The counter-search outside this work, for the tiger body of the medicine-man among the peoples north of the Japura, is carried in the Koch-Gruenberg run and not here."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "Term search for: tiger, tigers, jaguar, skin, killed, kill, hunt, hunted, feast, revenge, medicine-man in tiger, tiger form, tiger family, rival; every hit in chapters XIV and XVII read in its place."@en ;
+    pm:searchYieldedNode pmc:WitotoBoroTigerShapeCannotBeKilled ;
+    pm:searchedBy "prima-materia, 2026-10-18" ;
+    pm:searchedCorpus "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), the same chapters and the same reading, with chapter XVII on the jaguar and the anaconda read in place."@en ;
+    pm:searchedFor "The counter-place to the claim at p. 182 that an ordinary tiger may be killed and a medicine-man in tiger form may not: any account of a tiger that is also a medicine-man being hunted, wounded or killed, and what is said of the outcome."@en .
+
 pmp:WordsBeforeDoctorsExamination a pm:Testing ;
     rdfs:label "Prüfung des Satzes über Worte und Doktoren"@de,
         "Examination of the rejoinder about words and doctors"@en ;
@@ -24644,7 +24958,7 @@ pmt:Amazonian a pm:Tradition ;
     rdfs:label "Amazonische Überlieferung"@de,
         "Amazonian transmission"@en ;
     skos:definition "The lowland South American transmission of songs used to direct the effect of a plant preparation, and of a body that can be exchanged for another."@en ;
-    skos:note "No corpus in its own language and no writing before contact. What exists is transcribed song and ethnographic report, which this project cannot yet admit as a source. Registered so that the exclusion is visible rather than silent."@en ;
+    skos:note "No corpus in its own language and no writing before contact; what exists is transcribed song and ethnographic report. The earlier form of this note said that such material could not yet be admitted as a source. That has not been so since SPEC section 10 introduced pm:fieldAttestation, and three lowland South American transmissions now stand in the holding on that mode under their own names: pmt:JibaroShuara, pmt:Taulipang and pmt:WitotoBoro. None of them is filed here, and the reason is a property of this entry and not an admission rule: it names a region and defines it by two things, songs that direct the effect of a plant preparation and a body exchanged for another, and none of the three works opened carries the first. Karsten has the drink without songs addressed to it, the Taulipang chapter of Koch-Gruenberg the ascent without plant songs, Whiffen the tiger body and a liana drink with no song. The entry therefore stays at corpus named until a work carrying the song complex is opened. Whether it should be narrowed to that complex, kept as a regional denominator, or dissolved is put to the human with a recommendation at prima-materia#878 (the stale reason was prima-materia#806)."@en ;
     pm:contactRoute pm:contactRouteAbsent ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "No transmitted written corpus; the published icaro transcriptions and the ethnographic record stand in its place" .
@@ -33706,6 +34020,75 @@ pmc:WirazReturn a pm:Conceptualizing ;
     skos:note "The order of the two requests is worth keeping: the body first, the record second. The writing down is fixed at the moment of return and not at the end of the vision, which makes the report a part of the procedure rather than a later literary act."@en ;
     pm:withinTradition pmt:Zoroastrian .
 
+pmc:WitotoBoroBreathEvictsTheSpirit a pm:Conceptualizing ;
+    rdfs:label "Der Atem macht Speise gesund, nimmt Schmerz und bringt Genesung"@de,
+        "The breath renders food healthy, removes pain and brings recovery"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 180" ;
+    skos:definition "What the breath is said to do: it is sufficient for the medicine-man to breathe over food or drink to render it healthy, on a sore place to remove the pain, on the sick to promote recovery; and by breath an old woman can make forbidden food safe to eat."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroDreamNamesTheEnemy a pm:Conceptualizing ;
+    rdfs:label "Die Träume der Nacht auf der Lichtung nennen den Feind, der die Krankheit schickte"@de,
+        "The dreams of the night in the clearing name the enemy who sent the sickness"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 169, 187" ;
+    skos:definition "What the night in the clearing is for: the patient who survives it recounts his dreams, and from these the relatives, or the medicine-man expounding them, deduce who the enemy is that caused the sickness. Reprisals follow."@en ;
+    skos:note "The capacity is diagnostic and its output is acted on: the work says reprisals naturally follow. A divination whose verdict is carried out against a third party is a different kind of claim from one whose verdict is only believed, because its error would cost someone who was not consulted."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroEnemyBehindEveryMisfortune a pm:Conceptualizing ;
+    rdfs:label "Der Medizinmann ermittelt, welcher Feind das Unglück schickte"@de,
+        "The medicine-man discovers which enemy sent the misfortune"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 168, 185" ;
+    skos:definition "The capacity the palaver exercises: it is the medicine-man's business not only to frustrate the evil spirits but to discover who the foe is that incites them, whether the trouble is a pain in the finger, a death, a tiger or a hurricane; and he must also warn the tribe of impending hostilities. No war is made without his advice."@en ;
+    skos:note "The premise under the capacity is stated in two chapters and is total: there is no death from natural causes, all of it is poison or magic sent by an enemy, and all that goes wrong in tribal life is the malice of an enemy working through the spirits. A diagnostic capacity with that premise cannot return the answer nobody; its only possible outputs are names."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroHairyCandidate a pm:Conceptualizing ;
+    rdfs:label "Der behaarte Kandidat, in einem Volk, das sich enthaart"@de,
+        "The candidate who is hairy, in a people that depilates"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 181-182" ;
+    skos:definition "The qualification the transmission sets for the office. All men depilate because they dislike resembling hairy monkeys, but the medicine-man does not, and among the Andoke depilation is strictly forbidden to him; he is the only man in the tribe with hair on his face, and hairiness is a necessary qualification for any man or youth who wishes to attain the position."@en ;
+    skos:note "Why it is entered. It is the one qualification for the office the part read states as necessary, it is visible to anyone, and it is the opposite of what the people otherwise practise, so it marks the medicine-man as different in his body before he does anything. The recorder suggests a connection with the tiger the medicine-man becomes and says only that there may possibly be one; that suggestion is his."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen in his own voice as the rule among the tribes between the Issa and the Apaporis, with the Andoke prohibition named separately, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroTigerForm a pm:Conceptualizing ;
+    rdfs:label "Der Medizinmann geht im Leben als Tiger aus und kehrt nach dem Tod als einer zurück"@de,
+        "The medicine-man goes out as a tiger in life and returns as one after death"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 182-183" ;
+    skos:definition "When a medicine-man dies he returns as a tiger, and even during his lifetime he can make excursions in tiger form and be so absolutely tiger that he can slay and eat the beasts of the wild, afterwards returning to human form. In this shape both before and after death he can attack the tribal enemies and carry obnoxious individuals away into the bush. On his return from solitary absences he may tell the tribe that he has been working in the guise of a tiger against its enemies."@en ;
+    skos:note "Beside the claim stands one prohibition that ties the tiger to the man's body: he must have no connection with women while making his medicines, for a child conceived then will be a tiger cub. It is entered as its own warning at pmc:WitotoBoroNoWomanWhileMakingMedicine."@en,
+        "The body exchanged for another, which is half of the definition the register entry pmt:Amazonian gives for the lowland transmission. It is entered here and not there for the reason given at the tradition."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief of the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroTigerShapeCannotBeKilled a pm:Conceptualizing ;
+    rdfs:label "Ein gewöhnlicher Tiger kann getötet werden, ein Medizinmann in Tigergestalt nicht"@de,
+        "An ordinary tiger may be killed, a medicine-man in tiger form may not"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 182, 232" ;
+    skos:definition "An ordinary tiger might be killed, but a medicine-man in tiger form could not be."@en ;
+    skos:note "Fifty pages later the same work says the opposite in practice, and the two places are kept side by side because together they are the finding. When a man is killed or a child lost, the medicine-man discovers that it was a tribal enemy working in disguise, probably the spirit of a hostile medicine-man; a great tribal hunt is organised; if the quarry is secured a feast of revenge on tiger flesh follows; and the skin becomes the property of the medicine-man, whose magic has thus triumphed over the magic of a rival. So a tiger that is a medicine-man is hunted, killed and eaten, and the killing is counted as a victory of one medicine-man over another."@en,
+        "Whether the two are a contradiction or a distinction the passage does not settle. Read strictly, the first is a claim of invulnerability and the second refutes it at every successful hunt. Read with the second, the first holds only of one's own medicine-man, and a hostile one who is killed was evidently weaker; then the invulnerability cannot be refuted by any hunt, because every tiger that dies was by that fact the lesser magician's. The work gives both sentences in the recorder's voice and no Indian statement of either, so the dispute cannot be attributed to two parties, and it is not written as a pm:Disputing node."@en ;
+    pm:attestedBy pm:fieldAttestation ;
+    pm:fieldRecord "Reported by Thomas Whiffen as the belief of the tribes between the Issa and the Apaporis, from travel in 1908 and 1909, published London 1915. No speaker is named at either place; the language of gathering is not stated; no wording in any language of the region is carried." ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmc:WitotoBoroWanderingInSpiritToForetell a pm:Conceptualizing ;
+    rdfs:label "Im Schlaf nach dem Trank wandert er im Geist und erwacht mit der Gabe der Vorhersage"@de,
+        "In the sleep after the drink he wanders in spirit and wakes able to foretell"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 187" ;
+    skos:definition "In the comatose state after the liana drink the medicine-man is supposed to hold intercourse with the unseen world and to wander in spirit to other places, and as a result of what he learns there to be able to foretell the future when he wakes."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
 pmc:WordsAtBirthYieldReturnAfterDeath a pm:Yielding ;
     rdfs:label "Die bei der Geburt gesprochenen Worte sollen das Wiederaufleben ermöglichen"@de,
         "Words spoken at birth are said to make the return after death possible"@en ;
@@ -36327,6 +36710,57 @@ pmp:WirazWatch a pm:Practicing ;
     skos:note "This is the part of the procedure that an outside observer could check, and it is stated in a form that could fail: a named man, a named place, a stated number of days, and a promise made to named women that he will be given back alive."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Zoroastrian .
+
+pmp:WitotoBoroBreathAndSuction a pm:Practicing ;
+    rdfs:label "Darüberhauchen, Anblasen und Aussaugen"@de,
+        "Breathing over, blowing on and sucking out"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 180" ;
+    skos:definition "The medicine-man's virtue is in his breath. He breathes over food or drink, on a sore place, or on the sick; he breathes on his own hand and then massages the affected part; and if stronger measures are needed he sucks at the place, spits out a black liquid, and presently produces from his mouth a bit of stick, a thorn or a fishbone, which he declares to be the material form the evil spirit had taken. Others' breath has the same value in a lesser degree: a man who wants to eat forbidden food may have an old woman breathe over it, and a sickly child may be breathed on."@en ;
+    skos:note "The black colour of the liquid the recorder puts down to the tobacco juice the medicine-man takes freely during the performance. He says he cannot tell whether the medicine-man believes a stick was literally in the flesh, believes the stick in his mouth became the dwelling of the power, or does it to impress; that uncertainty is his and is kept as his."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroDartPoison a pm:Practicing ;
+    rdfs:label "Die Bereitung des Pfeilgifts, das Geheimnis des Medizinmannes"@de,
+        "The making of the dart poison, the medicine-man's secret"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 144-145, 179" ;
+    skos:definition "Poison of some sort is manufactured by every medicine-man, and the curare recipe is a treasured hereditary secret prepared with ceremony and privacy. It is made from two plants, called ramu and pani by the Witoto; the wood is pounded, the sap mixed with water, strained and boiled with peppers, ants and other noxious matter until thick, and carried in small pots round the neck to be smeared on the points of darts, arrows and javelins. The best poison is made by the Karahone, from whom most tribes obtain theirs by barter."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroDivinationPalaver a pm:Practicing ;
+    rdfs:label "Die Versammlung, bei der der Medizinmann im Drogenrausch den Feind ermittelt"@de,
+        "The palaver at which the medicine-man, frenzied with drugs, divines the enemy"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 185" ;
+    skos:definition "When a child is lost or killed by a tiger, an adult dies, a house is blown down or any other catastrophe falls, the tribe assembles for a solemn palaver and the medicine-man, frenzied with drugs, eventually divines which enemy tribe sent the misfortune. The final decision is usually that the tribe had better go to war at once lest worse befall it."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroLianaDrinkSleep a pm:Practicing ;
+    rdfs:label "Der Trank aus einer bestimmten Liane, das Fortlaufen und der tiefe Schlaf"@de,
+        "The drink from a certain liana, the running away and the deep sleep"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 187" ;
+    skos:definition "The medicine-man doses himself with a drink made from a certain liana. When thoroughly intoxicated with it he runs away and shortly falls into a profound slumber."@en ;
+    skos:note "The recorder does not identify the liana. In the same paragraph he says the medicine-man most probably drugs himself with some such agent as aya-huasca, though that is not supposed to be known to these tribes, and in chapter X that caapi is in his suggestion unknown south of the Japura except probably to the medicine-men. Both are his conjectures and are not entered; the drink is entered as he reports it, as a liana drink."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroMedicineManTraining a pm:Practicing ;
+    rdfs:label "Der Werdegang des Medizinmannes: Nachfolge des haarigsten Sohnes und Unterweisung durch den Vorgänger"@de,
+        "The making of a medicine-man: succession by the hairiest son and teaching by the predecessor"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 181-182" ;
+    skos:definition "To a certain extent the office is hereditary: the eldest son succeeds his father if he is fit, or more exactly the hairiest of his sons, since hairiness weighs far more than birth order. Often the medicine-man keeps a small boy with him, his son or an adopted one, who is also credited with magical gifts, and the chosen youths receive the secrets and are trained to carry on the magic of their predecessors. Part of the initiation consists of passing sticks up through the nostril and out at the back of the head, which the recorder calls clumsy conjuring that only the trust of the onlookers saves from detection. If the medicine-man has no hairy son, a hairy child is chosen and educated for the post."@en ;
+    skos:note "Of ordeals in the initiation the recorder says he received no information and cites Waterton for them elsewhere; that comparison is his and not part of this node."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroPregnancyDiet a pm:Practicing ;
+    rdfs:label "Die Speiseregeln der Schwangerschaft und die Enthaltung des Vaters nach der Geburt"@de,
+        "The food rules of pregnancy and the father's abstention after the birth"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 147-148, 152" ;
+    skos:definition "Before a birth the mother keeps food prohibitions that vary a little between tribes: among some all animal food is forbidden for the whole pregnancy, elsewhere tapir, capybara, paca, bush-deer and peccary are named, and among the Witoto the mother's food in the last month is one kind of small fish with cassava and fruits. Among some tribes the father too abstains from meat before and after the birth, and in all cases, after it, he abstains from hunting, does not touch his weapons and eats no hunted animal until the child's navel has healed."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
 
 pmp:Xingqi a pm:Practicing ;
     rdfs:label "Zirkulation des Qi"@de,
@@ -39479,6 +39913,22 @@ pmp:WitchDoctorMedicineEating a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:AzandeOracle .
 
+pmp:WitotoBoroBushSeclusion a pm:Practicing ;
+    rdfs:label "Die betäubende Wurzel und die Nacht allein auf einer Lichtung"@de,
+        "The narcotic root and the night alone in a clearing"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), pp. 169, 175, 187" ;
+    skos:definition "The sick, or a man who has suffered a serious accident, is given a strong narcotic drink, the decoction of a root that is scraped, crushed and boiled in water, and carried out to a small clearing in the bush, where he is left under a rough shelter for the night while his relatives keep out of sight and guard the tracks. The next day, if he is not dead, he tells his dreams, and from them the enemy who caused the sickness is deduced."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
+pmp:WitotoBoroJaguarSkin a pm:Practicing ;
+    rdfs:label "Das Jaguarfell verborgen halten und mit ihm zum Tiger werden"@de,
+        "Keeping the jaguar skin hidden and using it to turn tiger"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), p. 182" ;
+    skos:definition "Every medicine-man possesses a jaguar skin which he is said to use when he turns tiger; by possession of the skin he can resuscitate the tiger, he himself being its spirit. The skins are never worn as wraps or covering; each medicine-man hides his away when it is not in use for magic. The recorder once saw a medicine-man carrying his whole paraphernalia in a bag of tiger skin hung round his neck."@en ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:withinTradition pmt:WitotoBoro .
+
 pmp:XingqiBaopuzi a pm:Practicing ;
     rdfs:label "Die Zirkulation des Qi, wie das achte Kapitel sie darstellt"@de,
         "The circulation of the qi as the eighth chapter sets it out"@en ;
@@ -41802,11 +42252,6 @@ pmc:AyurvedaSmrtimedha a pm:Conceptualizing ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
 
-pm:contactRouteUndecided a pm:ContactRoute ;
-    rdfs:label "Kontaktweg unentschieden"@de,
-        "Contact route undecided"@en ;
-    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
-
 pmp:TiantaiZhiguan a pm:Practicing ;
     rdfs:label "Ruhe und Schau im Sitzen"@de,
         "Calming and contemplation in seated practice"@en ;
@@ -41865,6 +42310,11 @@ pmw:Tunnawiya a dcterms:BibliographicResource ;
         "Opened in full at the wording on 2026-10-06 in the only edition that carries transliteration and translation together: A. Goetze, interpreted in cooperation with E. H. Sturtevant, The Hittite Ritual of Tunnawi, American Oriental Series 14, New Haven: American Oriental Society 1938, with its text, translation, commentary and glossary read through, and the title page read in the full text and not in the catalogue entry. The tablet is the join the edition itself states, Bo 2062 (KUB 7.53) with Bo 2589 (KUB 12.58), which in the modern form is KUB 7.53+."@en,
         "The script dating of this composition is late. Of the fragments the concordance assigns to CTH 409 the great majority are catalogued as New Hittite copies, with a single Middle Hittite fragment; the tablet read here is in the late group. The composition is therefore attested essentially only in copies made long after the practitioner it names."@en,
         "This work carries a title of its own, which the others do not, and it is in the colophon: the first tablet of the ritual of uncleanness and of the ritual of the river, this being the one of Tunnawiya the Old Woman, complete, written by Pikku. The identifier still follows the rule stated at the instance, because the rule has to produce one identifier for a corpus in which four of five colophons give only the name."@en .
+
+pm:contactRouteUndecided a pm:ContactRoute ;
+    rdfs:label "Kontaktweg unentschieden"@de,
+        "Contact route undecided"@en ;
+    skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
 
 pmp:NippurGetAgainstDemons a pm:Practicing ;
     rdfs:label "Dem Dämon einen Scheidebrief schreiben"@de,
@@ -42777,11 +43227,6 @@ pmt:LakotaRitual a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Walker, The Sun Dance and Other Ceremonies of the Oglala Division of the Teton Dakota, Anthropological Papers of the American Museum of Natural History, vol. XVI, part II; Densmore, Teton Sioux Music, Bureau of American Ethnology Bulletin 61; Brown, The Sacred Pipe; DeMallie, The Sixth Grandfather, as the record of the mediation" .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pmt:CelestialMasters a pm:Tradition ;
     rdfs:label "Himmelsmeister"@de,
         "Celestial Masters"@en ;
@@ -42815,6 +43260,11 @@ pmt:OphiteGnosis a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Origen, Contra Celsum VI.24-38; Irenaeus, Adversus Haereses I.30" .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmt:VedicRitual a pm:Tradition ;
     rdfs:label "Vedische Ritualüberlieferung"@de,
@@ -43064,6 +43514,23 @@ pm:Attributing a owl:Class ;
     rdfs:subClassOf pm:Process ;
     skos:definition "The act of ascribing a capacity, property, or deed to a subject. A lost faculty is never a finding; it is an ascription made in a work, and the work is what the graph can hold."@en .
 
+pmt:WitotoBoro a pm:Tradition ;
+    rdfs:label "Überlieferung der Witoto und Boro zwischen Issa und Japurá"@de,
+        "Witoto and Boro transmission of the Issa-Japura interfluve"@en ;
+    dcterms:source "Thomas Whiffen, The North-West Amazons (London: Constable, 1915), preface and pp. 186, 222-223" ;
+    skos:definition "The transmission of the Witoto, Boro, Andoke, Okaina, Muenane and neighbouring peoples between the Issa (Putumayo) and the Japura, taken here at the part the opened work records: a medicine-man chosen by hairiness and taught by his predecessor, who heals by breath and suction, sees by a liana drink, holds a jaguar skin by which he goes out as a tiger in life and returns as one after death, and divines the enemy behind every misfortune."@en ;
+    skos:note "Entered at places read and not registered first, because the passages were opened in the same run in which the tradition was decided on. The three decisions SPEC section 14 requires before the first node were made and are the three notes that follow."@en,
+        "One: the contact route is undecided, and the ground is in the work. Against a route to any corpus in this holding: the recorder travelled where he says white men had scarcely gone before, the Boro and Andoke keep away from strangers, he finds no Christian symbol in their designs, and he says the Boro are the least influenced from outside. For a route: the work itself describes the rubber trade along the Issa and Igara-Parana, a Witoto woman married to a white man, trade in poison between tribes, and a story of the Good Spirit's visit to earth that the recorder himself suspects may be a version of the Christian one, with Jesuits on the Rio Negro from 1668 and on the Napo. Absent would be false and documented would overstate. Until the question stands as its own node this tradition may not be counted as a party to a convergence."@en,
+        "The position of the corpus, which SPEC section 10 asks for beside the gathering of each passage. Some months of 1908 and 1909, according to the preface. No informant is named anywhere in the part read except as a Boro, a Muenane, or a great and noted medicine-man of the district; no interpreter is named; the language of gathering is not stated. The recorder says how he gathered: a bit here, a trifle there, a note from a chance remark, because every Indian answers I do not know to a white man asking about his beliefs and the medicine-men treat any inquirer as a rival. He also says he tried to provoke the medicine-men into a rival display by feigning magical gifts of his own, which means the gathering was not neutral and some of what was said to him was said to a competitor."@en,
+        "Three: the number of citable places. Forty nodes below, all from pages read at the wording in this run, in five chapters of one book."@en,
+        "Two: the edition is the London first printing of 1915 named on the work node, read in the archive full text. It is an English account by a traveller and not a translation of a text; there is no original to set beside it and no second translation is possible, so the requirement of two translations in SPEC section 15 does not apply to this corpus and is not claimed as met."@en,
+        "Why a new name and not pmt:Amazonian taken down. The register entry pmt:Amazonian names a region and defines it by two things: songs that direct the effect of a plant preparation, and a body that can be exchanged for another. This work carries the second and not the first; the songs it reports are dance songs whose words, it says, have no meaning, and it records no song addressed to a drink. To file the Issa-Japura peoples under the name of the lowland would claim the lowland for them, which is the reasoning traditions/jibaro-shuara.ttl gave for the same choice. The register entry therefore stays at corpus named, with its reason corrected at the entry itself."@en ;
+    pm:contactRoute pm:contactRouteUndecided ;
+    pm:corpusWork pmw:WhiffenNorthWestAmazons ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:WhiffenNorthWestAmazons ;
+    pm:principalCorpus "No transmitted written corpus; Thomas Whiffen, The North-West Amazons (London: Constable, 1915); the Witoto material in Konrad Theodor Preuss, Religion und Mythologie der Uitoto (Göttingen, 1921-1923)" .
+
 pm:mediatedAttestation a pm:Attesting ;
     rdfs:label "Vermitteltes Zeugnis"@de,
         "Mediated attestation"@en ;
@@ -43116,6 +43583,14 @@ pmt:Tiantai a pm:Tradition ;
     pm:coverageState pm:corpusHarvested ;
     pm:fromWork pmw:XiaoZhiguan ;
     pm:principalCorpus "Zhiyi, Mohe zhiguan; Zhiyi, Xiao zhiguan" .
+
+pmw:WhiffenNorthWestAmazons a dcterms:BibliographicResource ;
+    rdfs:label "Whiffen, The North-West Amazons"@de,
+        "Whiffen, The North-West Amazons"@en ;
+    skos:note "Access: identifier northwestamazons00whif, full text over the regular route, 792,250 characters. Five further copies of the same printing lie under other identifiers (northwestamazon00whifgoog, northwestamazon01whifgoog, northwestamazon02whifgoog, cu31924021096783, northwestamazons00whif_0) and were not needed. The running heads over the chapters read are printed as THE NORTH-WEST AMAZONS with the page number and run without going backwards; the first page of each chapter carries its number at the foot. The optical reading is good; a few page numbers are read as i8o, i8i and the like and were checked against the sequence."@en,
+        "The edition as the title page in the full text gives it: The North-West Amazons, Notes of Some Months Spent among Cannibal Tribes, by Thomas Whiffen, F.R.G.S., F.R.A.I., Captain H.P. (14th Hussars), London, Constable and Company Ltd., 1915. The preface is signed London, 1914."@en,
+        "The recorder's apparatus is not his testimony and is not taken as such anywhere in this file. Almost every page carries footnotes comparing what he reports with Spruce, Wallace, Bates, im Thurn, Koch-Gruenberg, Spencer and Gillen and others, and in two places a paragraph of the body text is itself a comparison. What is entered here is what he says he saw or was told among the tribes he names; where a sentence is his own conjecture he marks it as such, and it is marked here too."@en,
+        "What was read at the wording: chapter X on drinks, drugs and poisons (pp. 138-145), chapter XI on birth, childhood and initiation (pp. 146-158), chapter XIII on sickness and death (pp. 168-177), chapter XIV on the medicine-man (pp. 178-189), and chapter XVII on the magico-religious system (pp. 218-235). Not read: the introduction and chapters II to IX, XII, XV, XVI and XVIII to XX, the appendices and the plates. The book runs to about three hundred pages, so roughly a quarter was read, and it is the quarter in which the medicine-man, the sick and the spirits stand."@en .
 
 pmt:JapaneseZen a pm:Tradition ;
     rdfs:label "Japanischer Zen"@de,
@@ -43433,16 +43908,6 @@ pmt:Theravada a pm:Tradition ;
     pm:fromWork pmw:Visuddhimagga ;
     pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
-pm:fieldAttestation a pm:Attesting ;
-    rdfs:label "Feldzeugnis"@de,
-        "Field attestation"@en ;
-    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
-    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
-        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
-        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
-        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
-        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
-
 pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
     rdfs:label "Rasa-Jala-Nidhi"@de,
         "Rasa-Jala-Nidhi"@en ;
@@ -43490,10 +43955,15 @@ pmw:PapyrusLondonLeiden a dcterms:BibliographicResource ;
         "The nodes read off it stand in traditions/demotic-magical-papyri.ttl."@en,
         "What the reading covered and what it left: the whole of the translation of the recto, columns I to XXIX, and of the verso, columns I to XXXIII, was read at the wording. Not read: the transliteration on the facing pages and the philological notes beneath both, except where a note bears on a passage entered; the introduction, apart from its account of the manuscript and its table of contents; and the glossary volume of 1909, which was not obtained. The digitised copy used is an optical transcription and its rendering of the transliterated demotic is not trustworthy at the level of single letters, which is why no node in this holding reproduces a demotic form from it."@en .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
+pm:fieldAttestation a pm:Attesting ;
+    rdfs:label "Feldzeugnis"@de,
+        "Field attestation"@en ;
+    skos:definition "The claim was taken down from a speaker in a transmission that commits nothing to writing, and the record of that taking down is the first fixation there is. The work a reader obtains is the field report; there is no earlier text behind it."@en ;
+    skos:note "Distinct from pm:mediatedAttestation, and the difference is the whole reason for a separate mode. There the work exists and could not be obtained, so pm:readVia names whose reading stands between the claim and this graph. Here no such work exists: the transmission is oral, and the report is not an intermediary but the first witness. Fusing the two would enter every oral transmission as second-hand material about a text nobody can name."@en,
+        "Every claim carrying this mode must state the gathering with pm:fieldRecord, enforced by pm:FieldAttestationShape. Without it a field claim would be a citation of a book with no way to see how far it stands from the speaker."@en,
+        "It is not the mode for modern research. An ethnography enters here where it takes down testimony; where it runs a procedure with an outcome that could have fallen out otherwise, it is evidence and enters at pm:evidenceFrom on a pm:Testing node. A corpus that does both goes in twice, under different predicates. The line runs by function and not by the discipline of the writer, as SPEC §14 has it."@en,
+        "Restricted knowledge is a separate question and this mode does not settle it. Where a transmission holds material back as its own property rather than as a gate of authority, the criterion of SPEC §0 does not apply unchanged and a CC0 release would be an appropriation. The outcome may be that such a transmission stays at pm:corpusNamed permanently, and that is a finding and not an omission."@en,
+        "The mode exists because its absence had a direction. SPEC §10 asks for a received work with a passage, and the transmissions that carry no text are precisely those with no documented route to what this graph already holds — the only ones that can ever bear pm:independentAttestation. Leaving them at pm:corpusNamed for want of an admissible mode would have made the record report that only scribal cultures transmitted this knowledge, and every convergence claim of the project a claim about Eurasia. See prima-materia#91."@en .
 
 pmt:LatinAlchemy a pm:Tradition ;
     rdfs:label "Lateinische Alchemie"@de,
@@ -43514,6 +43984,11 @@ pmt:LatinAlchemy a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:TurbaPhilosophorum ;
     pm:principalCorpus "Turba philosophorum; Rosarium philosophorum; Aurora consurgens" .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:Ayurvedic a pm:Tradition ;
     rdfs:label "Ayurvedische Überlieferung"@de,
