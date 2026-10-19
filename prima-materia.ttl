@@ -217,6 +217,7 @@ pmc:AcaraLadder a pm:Conceptualizing ;
     skos:note "The chapter and verse are not recoverable from the copy read, which is an OCR of a printed translation whose running structure the scan does not carry reliably. Work, section and edition are named instead, which meets the standard of findability; a later reader working from another edition should expect a different numbering. See prima-materia#45 and prima-materia#56."@en,
         "This is the passage Wilson translates in 1832 without naming a place in the work, and on which pmc:RightAndLeftHandNomenclature rests. It is now located in an edition, so the order is a claim of the tantra and no longer only a claim of its reporter."@en,
         "Two things follow that the Western pair of names cannot carry. The order has seven steps and not two, so a scheme with two is not a simplification of it but a replacement. And within the order the left stands above the right, so the English rendering keeps the pair and reverses its valuation. Whoever explains the modern left-hand path out of this passage explains it out of a text that ranks the left higher than the right and both below two further steps."@en ;
+    pm:fromWork pmw:KularnavaTantra ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:AccuserPaysOnAnAcquittal a pm:Conceptualizing ;
@@ -2558,6 +2559,7 @@ pmc:BhavaClassification a pm:Conceptualizing ;
         "Mahānirvāṇa Tantra IV.19-20 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)" ;
     skos:definition "A division of practitioners into three kinds, the bound, the heroic and the divine, which governs the rites a person is competent for. The source describes the divine as all but a god, pure of heart, alike towards opposites and unattached, and the bound as one who must gather his own offerings and who may neither look at a Śūdra nor think of a woman."@en ;
     skos:note "This is the tradition's own answer to the question why one person takes one way and another another: not by choosing, but by what he is held competent for. The text presses the point polemically — it argues that if the bound disposition cannot exist in this age, the divine cannot either, and that only the heroic rites bear visible fruit. A record that reports the two paths as a choice between camps reports the later Western reading and not this one. See prima-materia#54."@en ;
+    pm:fromWork pmw:MahanirvanaTantra ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:BiansuiDispute a pm:Disputing ;
@@ -2747,6 +2749,7 @@ pmc:BothMethodsReachSiddhiForKamakhya a pm:Conceptualizing ;
     dcterms:source "Kālikāpurāṇa, at the verses on worshipping Kāmeśvarī and Kāmākhyā by either method (139b-140a) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
     skos:definition "The claim that the goddesses Kāmeśvarī and Kāmākhyā may be worshipped at will following either the orthodox or the heterodox method, and that the doer attains siddhi doing it either way."@en ;
     skos:note "The passage that most directly rules out reading the pair as two camps. The choice is left to the worshipper, both methods reach the same attainment, and the text sees no need to rank them. Whatever the division does in this work, it does not sort people into parties and it does not make one method the true one."@en ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:BouitiDibohaMayNotReturn a pm:Cautioning ;
@@ -4232,6 +4235,7 @@ pmc:Dvadasanta a pm:Conceptualizing ;
     skos:definition "A limit named as the end of twelve, at which the mind or the risen power comes to rest. The verses give the number and leave the unit unstated."@en ;
     skos:note "The count itself fluctuates. What is verse 50 in the numbering used here appears as 51 in other editions, and the following verse shifts with it. A reader working from a different edition should expect the two verses cited here to sit one number further on."@en,
         "Two things this node deliberately does not say. It does not fix the unit: the base text says end-of-twelve, and the reading that makes this twelve finger-breadths from the tip of the nose belongs to the commentarial layer, not to the verse. And it does not fix the place: the exegesis of Lakṣmaṇjoo counts several such limits in the body, at the crown, the brows, the throat, the base of the heart and the navel, and the verse that follows says outright that it may be reached in any manner and in any place. Nothing here yields a fixed radius. See prima-materia#38."@en ;
+    pm:fromWork pmw:Vijnanabhairava ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:EaAndMardukInstructTheExorcist a pm:Attributing ;
@@ -7916,6 +7920,8 @@ pmc:InitiationPresupposesSaktipata a pm:Presupposing ;
     skos:note "The exegesis asks who is qualified for initiation and answers by taking up the descent of power, which places the descent before the rite and before the path. Later and other traditions have read the descent as the fruit of practice instead; the direction recorded here is the one Abhinavagupta sets."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:Diksa ;
+    pm:fromWork pmw:Tantraloka,
+        pmw:Tantrasara ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Saktipata ;
     pm:withinTradition pmt:SaivaSakta .
@@ -9179,15 +9185,6 @@ pmc:KasdejaTeachesStrikingOfSpirits a pm:Attributing ;
     pm:ascribedTo pmc:Kasdeja ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:Enochic .
-
-pmc:KaulaAboveTheOtherWays a pm:Conceptualizing ;
-    rdfs:label "Die kaulische Verehrung als der in diesem Zeitalter tragende Weg"@de,
-        "Kaula worship as the way that succeeds in this age"@en ;
-    dcterms:source "Mahānirvāṇa Tantra IV.20 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)",
-        "Mahānirvāṇa Tantra XIV.203 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)" ;
-    skos:definition "The claim that in the present age success is attained by Kaula worship alone, and that the mantra received from a Kaula brings knowledge of Brahman, where the mantra received from one of the lower dispositions reproduces that disposition in the receiver."@en ;
-    skos:note "Kaula is set above the other ways here, not beside them. That is the same order Wilson translates from a passage he ascribes to the Kulārṇava, in which the left hand stands above the right and Kaula above all — an order the Western pair of names keeps while reversing its valuation. Two witnesses, one of them located by chapter and verse in a named translation and one not; the second is still to be found. See prima-materia#56."@en ;
-    pm:withinTradition pmt:SaivaSakta .
 
 pmc:KevalaKumbhakaHoldsOwnAgency a pm:Situating ;
     rdfs:label "Das alleinige Anhalten behält die eigene Trägerschaft"@de,
@@ -13544,6 +13541,8 @@ pmc:PracticePresupposesInitiation a pm:Presupposing ;
         "Mālinīvijayottaratantra VIII" ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmp:SaktipataTransmission ;
+    pm:fromWork pmw:MalinivijayottaraTantra,
+        pmw:Tantraloka ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:Diksa ;
     pm:withinTradition pmt:SaivaSakta .
@@ -13590,23 +13589,6 @@ pmc:PresqueUnMois a pm:Conceptualizing ;
     skos:note "A term of nearly a month set for the case of no effect at all — and the paragraph immediately following removes the third case, which is the only one of the three that could end the treatment quickly: it requires careful attention before one can say with certainty that the disease is rendered worse, a person might be deceived by appearances and renounce the practice at the moment when it is on the point of doing the most good."@en,
         "The first case is not closed either. The text does not say what is to be done when the month has passed without effect; it says to try nearly a month. A rule that names a term and not an outcome at the term is a rule about how long to persevere and not a rule about when to stop, and this is the transmission's own strongest statement read as such."@en ;
     pm:withinTradition pmt:Mesmerism .
-
-pmc:ProcedureJudgedByItsOwnWorking a pm:Generalizing ;
-    rdfs:label "Das Verfahren, nach seinem eigenen Arbeiten beurteilt"@de,
-        "The procedure judged by its own working"@en ;
-    skos:note "Fourth witness, added on 2026-09-27, and it is the first from a craft rather than from a divination. Zosimos states that there are two grades of fitting tinctures according to whether one works on the raw or on the cooked species, and judges between them on three grounds, all three properties of the procedure: the cooking is free of a great fatigue, it needs a great skill, and it is shorter. Nothing is said about the fitness, the rank or the initiation of whoever works it, and the judgement is attributed to a named earlier authority, the divine Mary, rather than claimed by the writer."@en,
-        "The limit of the derivation. Three claims, each a single passage, and in two of the three the comparison is reported by an outside recorder rather than stated in the transmission's own words for its own purposes. That the ground is a property of the procedure is clear in all three; that the transmissions would put it that way if asked is not established, and this node does not claim it."@en,
-        "The three come from transmissions between which no route has been proposed. The Zande material holds the rubbing-board inferior to the other oracles because the man who works it can cheat with it and only he may work it, and records that of the poison oracle a manipulation is never even suggested; the ground is that one instrument's outcome is under one party's control and the other's is not. The Andean report says of the fire-readers, and of no other class of specialist in its list, that they were the least esteemed because they always lied; the ground is a record of being wrong. The Lakota material ranks the routes by which a disease is driven out — sweat best and easiest, then breath, then defecation, then urine, with vomiting very hard though some diseases come out no other way — and adds a rule matching the kind of healer to the kind of cause; the ground is the working of the route."@en,
-        "What it adds beyond a count is the third ground. The witnesses this statement was built on ground their judgements in the outcome lying in the hand of the operator and in a procedure being repeatedly wrong; here one of the three grounds is the time the procedure takes, which is a property of the procedure that has nothing to do with whether it is right. The statement holds, and the kind of property it covers is wider than the first three witnesses showed."@en,
-        "What the counter-search found, and it is the reason for the scope clause. The holding carries at least two graded orders whose ground is not the working of anything: the ācāra ladder, which sets the Veda lowest and ascends through the Vaiṣṇava, the Śaiva, the right hand, the left hand and the Siddhānta to the Kaula, and the fivefold ranking of the primary devotional relations. Both are rankings, both stand inside their transmissions, and neither gives a reason that any outcome could bear on. Without the scope clause they would refute the statement on the first reading; with it they are simply a different kind of judgement, and the difference between the two kinds is itself worth having."@en,
-        "What would refute it as it stands: a transmission that compares two of its own procedures for how well they work and grounds the comparison in the persons who work them — that this instrument is less reliable because the men who handle it are of bad descent, or impure, or less well initiated. The holding contains judgements of exactly that form about individuals, and they are worth keeping apart from this. The Yoruba material has a king declare an elder a cheat and a liar and bar him from official consultations, and the Zande material has a witch-doctor called a cheat because his medicines are poor and a liar because he has no witchcraft in him. Both locate the fault in a man; neither is a comparison of procedures, and so neither settles the statement either way."@en,
-        "Why this is worth stating at all. The projects that gather this material commonly assume that a transmission explains a failure by something about the person: impurity, wrong descent, a broken taboo, insufficient resolve. That assumption is well supported and this holding is full of instances of it. What these three show is that the same transmissions are capable of the other move as well, and that they make it precisely where they have two procedures to set against each other. A comparison needs a common measure, and the measure they reach for is the procedure and not the man."@en ;
-    pm:attestedBy pm:compilerInference ;
-    pm:generalizedFrom pmc:CautionAgainstTheFireReaders,
-        pmc:CautionAgainstTheRubbingBoard,
-        pmc:TheOrderOfExitsForADisease,
-        pmc:ZosimosDuoGradusTincturarum ;
-    pm:generalizedStatement "Where a transmission runs more than one procedure of the same kind and states a comparative judgement of how well they work, the ground it gives for the judgement is a property of the procedure — that its outcome lies in the operator's own hand, that it is repeatedly wrong, that one route is easier than another — and not a property of the persons who work it. This holds of judgements about working; it does not hold of rankings by dignity or by metaphysical order, which the same holding carries and which are grounded otherwise."@en .
 
 pmc:ProceedingTooFastIsSaidToInjure a pm:Generalizing ;
     rdfs:label "Schneller als in den gesetzten Graden vorzugehen soll den Körper schädigen"@de,
@@ -18031,6 +18013,7 @@ pmc:TraversalPresupposesSequence a pm:Presupposing ;
     skos:note "Recorded at prescribed order and not at stated necessity, on purpose and against the reading a modern draft makes. The sources say kramaśaḥ and kramāt kramam, in sequence and step by step, and they say it more than once. What no source consulted says is what happens to one who skips a station. A prohibition needs a consequence somebody can quote, and this one has none; without it the claim is an instruction that a later reader hardened into a rule. See prima-materia#36."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:WorldPathTraversal ;
+    pm:fromWork pmw:Vijnanabhairava ;
     pm:prerequisiteStrength pm:prescribedOrder ;
     pm:priorStep pmc:AscentThroughEachCentre ;
     pm:withinTradition pmt:SaivaSakta .
@@ -18942,6 +18925,7 @@ pmc:VamaWorshipYieldsWorldlyPowers a pm:Yielding ;
     skos:note "Entered on the strength of the passage alone. Whether anything of the kind occurs is a separate question and would need a pm:Testing node; the claim here is that the source says so, and for that the place is the whole of the evidence."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:byPractice pmp:VamaWorship ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta ;
     pm:yieldsCapacity pmc:WorldlyPowersOfTheLeftHandRite .
 
@@ -23216,6 +23200,51 @@ pmp:Pranayama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
 
+pmp:ProcedureJudgedArtemidorusSearch a pm:Searching ;
+    rdfs:label "Ob das Traumbuch, das die Seher sortiert, die Sortierung in den Künsten oder in den Männern begründet"@de,
+        "Whether the dream book that sorts the diviners grounds the sorting in the arts or in the men"@en ;
+    dcterms:date "2026-10-19" ;
+    skos:note "The comparison is there and its ground names both: the false arts are false because the arts are of that kind and because their practitioners know nothing of divination and deceive. The surrounding ranking of trustworthy speakers grounds every step in a property of the speaker."@en,
+        "The limit of the search. One chapter of five books. Artemidorus's own preface and the places where he defends dream interpretation against its critics, which would say what in an art makes it true, were not opened."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "The chapter was located in Krauss by Pythagoreer, Physiognomen and Gaukler; in the Greek through Hercher's index at ἀστραγαλομάντεις 161, 21 and then read from ἀξιοπίστων to the end of the chapter, after a search of the stripped text for κοσκινομαντ, γοητευ and φυσιογνωμ had failed because the text layer confuses letters; in the Latin by Pythagorici and cribrorum. Each was read continuously from the end of the chapter on flying to the start of the chapter on the length of a generation." ;
+    pm:searchYieldedNode pmc:ArtemidorusAxiopistoi,
+        pmc:ArtemidorusManteisMeApateones ;
+    pm:searchedBy "prima-materia, 2026-10-19" ;
+    pm:searchedCorpus "Artemidorus, Onirocriticon II.68-70, in the Greek of R. Hercher (Leipzig: Teubner), pp. 160-162; in the German of F. S. Krauss, Symbolik der Träume (Wien, Pest, Leipzig: A. Hartleben, 1881), pp. 187-190; and in the Latin of Ianus Cornarius, De somniorum interpretatione libri quinque (Basel: Froben and Episcopius, 1539), book II, chapters LXXIII-LXXV" ;
+    pm:searchedFor "Whether a practitioner's manual of divination compares the arts of divination for whether they tell the truth, and whether the ground it gives is a property of the arts or of the persons who practise them." .
+
+pmp:ProcedureJudgedByItsOwnWorkingExamination a pm:Testing ;
+    rdfs:label "Ob eine Überlieferung, die ihre Verfahren nach ihrem Arbeiten vergleicht, den Vergleich im Verfahren begründet und nicht in den Personen"@de,
+        "Whether a transmission comparing its procedures for how well they work grounds the comparison in the procedure and not in the persons"@en ;
+    skos:definition "A protocol on the claim that where a transmission runs more than one procedure of the same kind and states a comparative judgement of how well they work, the ground it gives is a property of the procedure and not of the persons who work it. The population is every comparative judgement of working between procedures of one kind that a node of the holding carries in the transmission's own wording, on main on 2026-10-19 with the two nodes entered by this protocol; excluded are rankings by dignity or metaphysical order, which the statement already excludes, rankings of persons or of outcomes in persons where no two procedures are compared, and judgements made by the compiler in a note. Drawn by a scan of the English labels, definitions and notes of every node with pm:withinTradition in the compiled graph for better, best, inferior, superior, surest, more and most reliable, esteemed, easier, preferred, stronger, weaker, more and most powerful and effective, lower, highest, lowest, worse, worst, trustworthy, unreliable, liar, cheat, more certain, safer, quicker, faster and slower, 362 nodes; every hit read at the node and the judgements so found read in full. Read at the wording for this protocol: the Mahānirvāṇa Tantra reopened at X.200-204 in three versions, and Artemidorus, Onirocriticon II.69, in Greek, German and Latin, both named in examinations/searches-procedure-judged-by-its-own-working.ttl."@en ;
+    skos:note "A boundary the population leaves out and the reader should not lose. Where the holding compares operators of one procedure rather than procedures, it grounds the comparison in the operator without exception in the nodes read: women are to magnetise women, for a man cannot employ the processes best calculated to soothe them; the longer the Taulipang study lasts, the stronger the Zauberarzt; the Lower Congo villagers send for the stranger because they see that their own man's charms cannot keep his household; the Celestial Masters lay a failed cure on the officiant's want of competence. The statement was formed in a way that excluded these, and this protocol keeps the exclusion; it is recorded so that the statement is not read as saying that transmissions do not blame persons."@en,
+        "That makes half of the rewritten statement nearly analytic, and the protocol says so rather than claiming a finding there. A comparison has to be grounded in something that differs between what it compares, and if two procedures differ only in what is done, a ground in the persons is not available to it. What is not analytic is the other half: that a transmission which runs a procedure told apart by its giver, an initiation, grounds its working in the giver and not in the rite. The Mahānirvāṇa Tantra does exactly that; it names nothing the giver does, and the receiver becomes what the giver is. That is a claim about initiation and it is the next thing to examine, against the descent of power in the same file (pmc:Saktipata), which grades the giving and not the giver."@en,
+        "The case the falsifier itself did not foresee is the operator's state during the act. The Tzava'at ha-Rivash judges prayer with an alien thought worse than silence, for the shell rides on the speech. The ground is neither a standing property of a person, as descent or initiation would be, nor a property of what is done, since the words are the same; it is the condition in which the same thing is done. Counted apart, as one case, and not as a deviation."@en,
+        "The statement fails as a rule and survives with a condition that the cases supply. Every judgement in the count whose ground names a person compares procedures that are told apart by a person: the mantra from this giver or that, the arts of this kind of diviner or that, the feat of this king. Every judgement whose ground is the procedure compares procedures that are told apart by what is done: the instrument, the route, the substance, the length, the order in time. The ground follows whatever distinguishes the two things compared. The statement is rewritten at the node to say so, with the old wording kept in a note."@en,
+        "What the reopened node changes beyond this protocol. pmc:KaulaAboveTheOtherWays cited Mahānirvāṇa Tantra XIV.203 for the claim about the mantra and its giver since it was written; that verse says the tantra is the only means for the knowledge of Brahman, and the claim stands at X.203. The node now names the right verse, three versions of it, and the work; traditions/saiva-sakta.ttl was migrated to work identifiers in the same run because it was touched."@en ;
+    pm:baseRate "Twenty-six comparative judgements of working between procedures of one kind in eighteen traditions of the holding on 2026-10-19. Seventeen give a ground that is a property of the procedure, its instrument, route, substance or record: the Zande rubbing-board, the Andean fire-readers, the Lakota exits of a disease, Zosimos's two grades, the Caraka's hut against sun and wind, Ge Hong's mysterious One against the true One, the Kālikāpurāṇa's two methods, the second verse of the Sāṃkhyakārikā, the Tzava'at ha-Rivash on joy against mortification, the Rasārṇava's ranking of digestions, the Rasa-Jala-Nidhi on the written and the oral part, the Visuddhimagga on two creations in one place, Karsten's two drinks, the Lower Congo's charms judged by the outcome, Hávamál on asking and offering, Zhu Xi on sitting against racing about, and the demotic papyrus's marks of trial. One grounds it in the operator's state during the act, the Tzava'at ha-Rivash on prayer with an alien thought against silence. One grounds it in a pedigree, the demotic papyrus's feat of King Darius than which there is nothing better. One grounds it in the persons who work the procedure, the Mahānirvāṇa Tantra on the givers of the mantra. One grounds it in procedure and persons together, Artemidorus on the arts of divination. Five state the judgement and no ground: the Rasa-Jala-Nidhi's best process of swooning and its preferred black mercury, the Caraka's best manner of taking emblic, the Zhen'gao's highest method of transcendence, and the Tzava'at ha-Rivash on prayer without motion."@en ;
+    pm:counterSearch pm:counterSearchFoundOpposition ;
+    pm:counterSearchNote "Searched: the compiled holding as of 2026-10-19 on main, by the scan in the definition; read at the node, besides the four witnesses: pmc:AyurvedaKutipravesika, pmc:AyurvedaKutyadhikarin, pmc:AyurvedaAmalakarasayanaCaturtha, pmc:Fenxing, pmc:HeterodoxWorshipNeverClearsTheDebt, pmc:SamkhyaAnusravikaAvisuddhi, pmc:HasidismTaanitEinayim, pmc:HasidismKlipaRochevet, pmc:HasidismSimanimShelDevekut, pmc:RasarnavaJirnarasabhaksana, pmc:RasaGuptavidya, pmc:RasaMurchana, pmc:RasaKhecaratva, pmc:TirokuddaGamana, pmc:JibaroMaikoaUmartinyu, pmc:WhatMayBeDoubtedAndWhatMayNot, pmc:NorseOfblotit, pmc:ZhuziYifaDispute, pmc:PdmProbatumNovies, pmc:PdmGratiaAnteOmnes, pmc:ShangqingZhoushiSanxiong, pmc:KaulaAboveTheOtherWays, pmc:AcaraLadder, pmc:FivefoldPrimaryRasaRanking, pmc:JainaTrividhamaranakrama, pmc:ShangqingShijieZhengbian, pmc:CmSandeThreeGrades, pmc:JainaSakamamaranaNaSarvesham, pmc:CautionAgainstOperatingAcrossTheSexes, pmc:TaulipangLongerStudyStrongerShaman, pmc:VoSisa, pmc:CmLibuweishi, pmc:AnapanasatiDukkara, pmc:ClaviculaFurisVisio, pmc:FabricationRatherThanMisreport, pmc:FraudKnownAndBeliefHeld. Read at the wording outside the holding: Mahānirvāṇa Tantra X.198-207 in Avalon, in the Calcutta Sanskrit of 1884 and in a second English translation, with XIV.167-211 in Avalon; Artemidorus II.68-70 in Hercher's Greek, Krauss's German and Cornarius's Latin. Found for the statement: no new witness; the seventeen judgements with a procedural ground include the four witnesses and thirteen that were in the holding and not set beside them. Found against it: the full falsifier once, at a node whose locus had been wrong and which now stands at X.203, and the falsifier in part once, in the work opened. Not searched: the commentary of Hariharānanda on X.203, the other works of the Śaiva and Śākta corpus on the choice of a guru, and the rest of the Onirocriticon; and the scan is lexical over English wording, so a comparison worded without a comparative is not in the count."@en ;
+    pm:examinationState pm:casesWithDeviation ;
+    pm:examinedBy "prima-materia, 2026-10-19" ;
+    pm:falsifiedBy "As the statement names it: a transmission that compares two of its own procedures for how well they work and grounds the comparison in the persons who work them, that one instrument is less reliable because the men who handle it are of bad descent, impure or less well initiated. Met once in full, at the Mahānirvāṇa Tantra, which compares the receiving of the mantra from a giver of each disposition by what it produces in the receiver and grounds the difference in the disposition of the giver alone (pmc:KaulaAboveTheOtherWays, X.200-203). Met in part at Artemidorus, who sorts nine arts of divination as false and six as true and grounds the falsity jointly in the arts and in their practitioners' ignorance and deceit (pmc:ArtemidorusManteisMeApateones). Not met at any of the nineteen other judgements in the count that state a ground."@en ;
+    pm:protocolUpdated "2026-10-19" ;
+    pm:tests pmc:ProcedureJudgedByItsOwnWorking .
+
+pmp:ProcedureJudgedMahanirvanaSearch a pm:Searching ;
+    rdfs:label "Ob das Tantra, das die Geber des Mantras ordnet, die Ordnung in den Gebern begründet"@de,
+        "Whether the tantra that ranks the givers of the mantra grounds the ranking in the givers"@en ;
+    dcterms:date "2026-10-19" ;
+    skos:note "The limit of the search. The copy of Avalon read at X has no title page and was matched to the 1913 edition by its running heads and pagination; the Sanskrit text layer drops vowel signs, so the verse was read through Avalon's rendering; the commentary on the verse was located and not read."@en,
+        "The node's wording held and its locus did not: the claim is X.203 and not XIV.203. The passage states the choice of a preceptor by sect, a Kaula as good for all, and then the outcome of receiving the mantra by the disposition of the one it is received from. Nothing the giver does is named; the disposition passes."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "XIV.203 was read first in Avalon and found to concern the tantra itself. The claim was then located in Avalon by initiated by, received from and from the mouth of; in the second English translation by Pasu, Veera and Koula; and in the Sanskrit by pairs of paśu, vīra and kaula within a few lines, which found the verse once in the daśamollāsa. The ten verses around it were read in all three." ;
+    pm:searchYieldedNode pmc:KaulaAboveTheOtherWays ;
+    pm:searchedBy "prima-materia, 2026-10-19" ;
+    pm:searchedCorpus "Mahānirvāṇa Tantra X.198-205 and XIV.167-211, in the English of Arthur Avalon, Tantra of the Great Liberation (London: Luzac & Co., 1913), pp. 260-261 and 355-359; X.198-207 in the Sanskrit with the commentary of Hariharānanda Nātha Bhāratī, ed. Jīvānanda Vidyāsāgara (Calcutta, 1884), pp. 286-287; and X.197-205 in the English translation printed as The Mahanirvana Tantram, the Tantra treating of the final emancipation, whose translator the scanned copy does not name" ;
+    pm:searchedFor "Whether the claim at pmc:KaulaAboveTheOtherWays, that the mantra received from a Kaula brings knowledge of Brahman and the mantra from a lower disposition reproduces that disposition, stands at the verse the node cited, and whether the passage that carries it grounds the difference in the procedure of initiation or in the giver." .
+
 pmp:ProxyDosingOfTheAccused a pm:Practicing ;
     rdfs:label "Das Dosieren von Stellvertretern zur Auswahl des Beschuldigten"@de,
         "The dosing of substitutes to choose the accused"@en ;
@@ -26388,6 +26417,31 @@ pmc:ArsNotoriaSolitudo a pm:Conceptualizing ;
     pm:fromWork pmw:ArsNotoria ;
     pm:withinTradition pmt:ArsNotoria .
 
+pmc:ArtemidorusAxiopistoi a pm:Conceptualizing ;
+    rdfs:label "Wessen Worten im Traum zu glauben ist, und warum"@de,
+        "Whose words in a dream are to be believed, and why"@en ;
+    dcterms:source "Artemidorus, De somniorum interpretatione II.74 (Hercher's II.69), in the Latin of Ianus Cornarius (Basel: Froben and Episcopius, 1539)",
+        "Artemidorus, Onirocriticon II.69, in the German of F. S. Krauss, Symbolik der Träume (Wien, Pest, Leipzig: A. Hartleben, 1881), pp. 188-190",
+        "Artemidorus, Onirocriticon II.69, in the Greek of R. Hercher (Leipzig: Teubner), pp. 161-162" ;
+    skos:definition "The order of the trustworthy, whose words in a dream are to be believed and followed. First the gods, for lying is alien to gods; then priests, for they have the same honour among men as the gods; then kings and rulers, for what rules has the power of a god; then parents and teachers, for they are like gods, the one bringing us into life and the other teaching how to use it; then the diviners, but only those who are not cheats. Further the dead, for liars deceive from hope or from fear and the dead neither hope nor fear; children, for they do not yet know how to lie; the very old, for trustworthiness is shown by age; and the irrational animals. All other men lie, whatever they say, except those whose trustworthiness is evident and men of tried conduct; actors and chorus singers are unreliable to all by reason of their parts, and so are sophists, the poor, the galli and eunuchs, the last of whom signify false hopes even when they say nothing."@en ;
+    skos:note "A rule for reading dreams and not a procedure of its own, entered because it is the frame in which the comparison of the arts at pmc:ArtemidorusManteisMeApateones stands, and because its grounds are all properties of persons: their rank, their likeness to the gods, their want of a motive to lie, their age, their parts on a stage. Where the chapter ranks speakers it grounds the ranking in the speaker; where it ranks the arts the speakers practise it grounds the ranking in the art and in the speaker together."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ArtemidoriOnirocriticon ;
+    pm:withinTradition pmt:GraecoRoman .
+
+pmc:ArtemidorusManteisMeApateones a pm:Conceptualizing ;
+    rdfs:label "Nur die Seher, die keine Betrüger sind: die wahren Künste und die falschen"@de,
+        "Only the diviners who are not cheats: the true arts and the false"@en ;
+    dcterms:source "Artemidorus, De somniorum interpretatione II.74 (Hercher's II.69), in the Latin of Ianus Cornarius (Basel: Froben and Episcopius, 1539)",
+        "Artemidorus, Onirocriticon II.69, in the German of F. S. Krauss, Symbolik der Träume (Wien, Pest, Leipzig: A. Hartleben, 1881), pp. 188-189",
+        "Artemidorus, Onirocriticon II.69, in the Greek of R. Hercher (Leipzig: Teubner), p. 161 lines 20-27 and p. 162 lines 1-2" ;
+    skos:definition "Among the trustworthy are the diviners, but of the diviners only those who are not cheats. Whatever Pythagoreans, physiognomists, dice-diviners, cheese-diviners, sieve-diviners, readers of the form, readers of the hand, basin-diviners and necromancers say is all to be held false and without foundation; for their arts are of that kind, and they themselves know not the least of divination itself, but by sorcery and deceit strip those who fall in with them. What remains as alone true is what is said by sacrificers, bird-diviners, star-gazers, observers of portents, dream-interpreters and liver-diviners; on the mathematicians who cast nativities the author defers judgement to a later place."@en ;
+    skos:note "The comparison is between procedures of one kind for whether they work, nine against six, and its ground is the procedure and the person together. The author counts his own art among the six. Cornarius's Latin has four of the six true arts, the bird-diviners, the star-gazers, the dream-interpreters and the liver-diviners, where Hercher's Greek and Krauss have six; the difference does not touch the ground."@en,
+        "Two grounds in one clause, joined in the Greek by καὶ γὰρ ... καί: αἱ τέχναι αὐτῶν εἰσι τοιαῦται, their arts are of that kind, and αὐτῆς μὲν μαντικῆς οὐδὲ βραχὺ ἴσασι, γοητεύοντες δὲ καὶ ἀπατῶντες, they know nothing of divination itself and practise sorcery and deceit. Krauss keeps both (denn ihre Künste sind von der Art, und sie besitzen von der eigentlichen Mantik nicht die geringste Kenntniss, sondern ziehen durch Betrug und Schwindel ... aus), and so does Cornarius (nam ipsorum artes tales sunt, atque ipsi ne minimum quidem vaticinationis sciunt, verum praestigiis illudentes et defraudantes obvenientes exuunt). The first ground is not explained: nothing is said about what in the arts makes them false."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:ArtemidoriOnirocriticon ;
+    pm:withinTradition pmt:GraecoRoman .
+
 pmc:AscentThroughEachCentre a pm:Conceptualizing ;
     rdfs:label "Der Aufstieg, der in einer Bewegung jedes Zentrum durchläuft"@de,
         "The ascent that passes through every centre in one movement"@en ;
@@ -26395,6 +26449,7 @@ pmc:AscentThroughEachCentre a pm:Conceptualizing ;
         "Vijñānabhairava 29 (Sanskrit; verse numbering of Dyczkowski and the current editions)" ;
     skos:definition "The power is imagined rising in the form of lightning, at each centre in turn and step by step, upward as far as three fists, and at the end of that ascent stands the great awakening."@en ;
     skos:note "The two phrases that carry this are praticakram, at each centre, and kramāt kramam, step by step. Recorded because it settles two questions at once. It gives a body measure in the base text, three fists for the upward reach, where a modern draft gives an arm's length; and it makes the passage through several centres a single exercise, where the same draft allows one centre per session and calls a change of centre a break. See prima-materia#38 and prima-materia#40."@en ;
+    pm:fromWork pmw:Vijnanabhairava ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:AsipuKapirigEridu a pm:Conceptualizing ;
@@ -26712,6 +26767,7 @@ pmc:Cakra a pm:Conceptualizing ;
     dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
     skos:definition "A centre of the subtle body, described in the source with its seed syllables and its position along the central channel."@en ;
     skos:note "The count varies across the older tantras, which give four, five or six. The tradition does not assign the centres the psychological qualities that modern presentations attach to them."@en ;
+    pm:fromWork pmw:Satcakranirupana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:CastingYieldsForeknowledge a pm:Yielding ;
@@ -28922,6 +28978,7 @@ pmc:HeterodoxWorshipNeverClearsTheDebt a pm:Cautioning ;
         "It also settles what the two methods are weighed on in this text. Not purity, not moral standing, not the direction of the will: the debt. The orthodox method discharges it and is rewarded in due course; the heterodox method leaves it standing and pays immediately instead. Whoever takes the left hand path here for the faster route has read half of it — it is the faster route to power and the slower one to liberation, and the source says both in the same breath."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmp:VamaWorship ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:HippocratesAnaitios a pm:Conceptualizing ;
@@ -29790,6 +29847,7 @@ pmc:KalikapuranaLeftAndRightMethods a pm:Conceptualizing ;
     skos:note "Chapter numbering is not recoverable from the copy read, which is an OCR of a printed translation whose running heads the scan does not carry reliably. Work, translator, part and verse numbers are named, and the passages sit in the chapters on the worship of Tripurā; a later reader working from another edition should expect a different chapter count. Same limitation as at pmc:AcaraLadder. See prima-materia#45."@en,
         "It stands beside two other divisions already held here and agrees with neither. pmc:AcaraLadder gives seven ascending steps with the left above the right; pmc:BhavaClassification gives three dispositions that decide what a person is competent for. This purāṇa gives two methods assigned by the object of worship. Three texts, three different shapes, and the only element common to all three is that none of them is the pair as the West received it."@en,
         "This is the passage the project had been unable to produce, and it changes the state of the question rather than settling it. A pre-colonial Indian text does announce a two-way division in these terms, so the sharpest form of the claim that the pair is an entirely Victorian imposition does not hold. What the text does not supply is the thing the Western pair carries: there is no moral polarity between the two, no camp a person joins, and no criterion of union against self-deification. The division sorts deities and rites, not practitioners."@en ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:Kasdeja a pm:Conceptualizing ;
@@ -29798,6 +29856,20 @@ pmc:Kasdeja a pm:Conceptualizing ;
     dcterms:source "1 Enoch 69:12 (Ethiopic; Charles 1912)" ;
     skos:definition "A figure named in the Book of Parables as the one who disclosed the striking of spirits, the killing of the embryo and the serpent's bite."@en ;
     pm:withinTradition pmt:Enochic .
+
+pmc:KaulaAboveTheOtherWays a pm:Conceptualizing ;
+    rdfs:label "Die kaulische Verehrung als der in diesem Zeitalter tragende Weg"@de,
+        "Kaula worship as the way that succeeds in this age"@en ;
+    dcterms:source "Mahānirvāṇa Tantra IV.20 (trans. A. Avalon, Tantra of the Great Liberation, London 1913)",
+        "Mahānirvāṇa Tantra X.200-203 (trans. A. Avalon, Tantra of the Great Liberation, London: Luzac & Co., 1913, p. 260)",
+        "Mahānirvāṇa Tantra X.200-203, in the English translation printed as The Mahanirvana Tantram, the Tantra treating of the final emancipation (translator not named in the scanned copy), chapter X",
+        "Mahānirvāṇatantra X.200-203, with the commentary of Hariharānanda Nātha Bhāratī, ed. Jīvānanda Vidyāsāgara (Calcutta, 1884), pp. 286-287" ;
+    skos:definition "The claim that in the present age success is attained by Kaula worship alone, and that the mantra received from a Kaula brings knowledge of Brahman, where the mantra received from one of the lower dispositions reproduces that disposition in the receiver. At X.200-203, in Avalon's words: it is good for a Shakta to have a Guru who is a Shakta, for a Shaiva a Shaiva, for a Vaishnava a Vaishnava, for a Saura a Saura, and a Gaṇapatya for a Gaṇapatya, but a Kaula is excellent as Guru in the case of all, therefore the wise one should with all his soul be initiated by a Kaula; those who worship the Kaulas with the Pancha-tattva and with heart uplifted cause the salvation of their ancestors; and the man who has obtained the mantra from the mouth of a Pashu is of a certainty a Pashu, he who has obtained it from a Vira is a Vira, and he who obtains it from a Kaula knows the Brahman."@en ;
+    skos:note "Kaula is set above the other ways here, not beside them. That is the same order Wilson translates from a passage he ascribes to the Kulārṇava, in which the left hand stands above the right and Kaula above all — an order the Western pair of names keeps while reversing its valuation. Two witnesses, one of them located by chapter and verse in a named translation and one not; the second is still to be found. See prima-materia#56."@en,
+        "The second source this node carried until 2026-10-19 was Mahānirvāṇa Tantra XIV.203 in Avalon. That verse says of the tantra itself that it is the only means for the acquirement of the knowledge of Brahman (p. 358); the claim about the mantra and its giver stands at X.203 (p. 260), and was read there in Avalon, in the Sanskrit of the Calcutta edition of 1884, paśo ... labdhamantraḥ paśur eva na saṃśayaḥ, vīrāl labdhamanur vīraḥ kaulād bhavati brahmavit, where the word between paśo and labdhamantraḥ is garbled in the text layer and is what Avalon renders from the mouth of; the rest is normalised from a text layer that loses vowel signs and reads vorāj for vīrāl, and in a second English translation, which has he that obtains his initiation from a Pasu becomes himself a Pasu, he that receives his mantra from a Veera becomes a Veera, and he that receives it from a Kaula becomes a true knower of the Brahma. The three agree; the second translation has initiation where Avalon has mantra in the first clause, the Sanskrit has the mantra."@en,
+        "What the verse does that matters beyond this file. It compares one procedure, receiving the mantra, by its outcome in the receiver, and it grounds the difference in the disposition of the giver and in nothing the giver does: the same act passes on what the giver is. It is the counter-case found by the protocol at examinations/procedure-judged-by-its-own-working-tested.ttl."@en ;
+    pm:fromWork pmw:MahanirvanaTantra ;
+    pm:withinTradition pmt:SaivaSakta .
 
 pmc:KhuddikaPiti a pm:Conceptualizing ;
     rdfs:label "Geringe Verzückung"@de,
@@ -31245,6 +31317,7 @@ pmc:Panchatattva a pm:Conceptualizing ;
     skos:definition "The five elements of the rite belonging to heroic practice, named in the source as wine, meat, fish, parched grain, and the union of man and woman."@en ;
     skos:note "The fourth element is parched grain and not a ritual gesture. Wilson renders the same list in 1832 with mudrā glossed as gesticulations of the fingers and maithuna as women; the divergence is his and not the text's, and it matters because grain makes that element a food where a gesture would make it an act. Recorded so that the current gloss can be checked against a verse instead of against another summary. See prima-materia#53."@en,
         "The same passage carries its own caution, and the caution is not a Western addition: the source says that the men of this age, being greedy and lustful, will neglect the discipline, drink for the pleasure of it, and lose the distinction of right and wrong. The warning against the rite stands inside the text that prescribes it."@en ;
+    pm:fromWork pmw:MahanirvanaTantra ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:ParalysisIsTheRegularShutdown a pm:Positing ;
@@ -31538,6 +31611,24 @@ pmc:PrincipeDeLaDoctrine a pm:Conceptualizing ;
     skos:definition "What the control decides. The transmission holds that the teaching had to be collective and not individual, that the spirits divided the work by scattering the subjects of study across many places, and that a centre formed of itself to compare what came in and to distinguish an individual opinion from the general teaching."@en ;
     pm:withinTradition pmt:Spiritism .
 
+pmc:ProcedureJudgedByItsOwnWorking a pm:Generalizing ;
+    rdfs:label "Das Verfahren, nach seinem eigenen Arbeiten beurteilt"@de,
+        "The procedure judged by its own working"@en ;
+    skos:note "Fourth witness, added on 2026-09-27, and it is the first from a craft rather than from a divination. Zosimos states that there are two grades of fitting tinctures according to whether one works on the raw or on the cooked species, and judges between them on three grounds, all three properties of the procedure: the cooking is free of a great fatigue, it needs a great skill, and it is shorter. Nothing is said about the fitness, the rank or the initiation of whoever works it, and the judgement is attributed to a named earlier authority, the divine Mary, rather than claimed by the writer."@en,
+        "Rewritten on 2026-10-19 after the protocol at examinations/procedure-judged-by-its-own-working-tested.ttl. The wording before it was: Where a transmission runs more than one procedure of the same kind and states a comparative judgement of how well they work, the ground it gives for the judgement is a property of the procedure — that its outcome lies in the operator's own hand, that it is repeatedly wrong, that one route is easier than another — and not a property of the persons who work it. It fell at the Mahānirvāṇa Tantra X.203, where the mantra received from a Kaula brings knowledge of Brahman and the mantra from a Pashu makes the receiver a Pashu, and in part at Artemidorus II.69, who holds nine arts of divination false because the arts are of that kind and because their practitioners know nothing and deceive. Seventeen judgements in the holding with a ground in the procedure all compare procedures told apart by what is done; the two that fail compare procedures told apart by a person. The first half of the new wording is close to analytic and is kept because it states the condition under which the old one held; the second half is the part that says something."@en,
+        "The limit of the derivation. Three claims, each a single passage, and in two of the three the comparison is reported by an outside recorder rather than stated in the transmission's own words for its own purposes. That the ground is a property of the procedure is clear in all three; that the transmissions would put it that way if asked is not established, and this node does not claim it."@en,
+        "The three come from transmissions between which no route has been proposed. The Zande material holds the rubbing-board inferior to the other oracles because the man who works it can cheat with it and only he may work it, and records that of the poison oracle a manipulation is never even suggested; the ground is that one instrument's outcome is under one party's control and the other's is not. The Andean report says of the fire-readers, and of no other class of specialist in its list, that they were the least esteemed because they always lied; the ground is a record of being wrong. The Lakota material ranks the routes by which a disease is driven out — sweat best and easiest, then breath, then defecation, then urine, with vomiting very hard though some diseases come out no other way — and adds a rule matching the kind of healer to the kind of cause; the ground is the working of the route."@en,
+        "What it adds beyond a count is the third ground. The witnesses this statement was built on ground their judgements in the outcome lying in the hand of the operator and in a procedure being repeatedly wrong; here one of the three grounds is the time the procedure takes, which is a property of the procedure that has nothing to do with whether it is right. The statement holds, and the kind of property it covers is wider than the first three witnesses showed."@en,
+        "What the counter-search found, and it is the reason for the scope clause. The holding carries at least two graded orders whose ground is not the working of anything: the ācāra ladder, which sets the Veda lowest and ascends through the Vaiṣṇava, the Śaiva, the right hand, the left hand and the Siddhānta to the Kaula, and the fivefold ranking of the primary devotional relations. Both are rankings, both stand inside their transmissions, and neither gives a reason that any outcome could bear on. Without the scope clause they would refute the statement on the first reading; with it they are simply a different kind of judgement, and the difference between the two kinds is itself worth having."@en,
+        "What would refute it as it stands: a transmission that compares two of its own procedures for how well they work and grounds the comparison in the persons who work them — that this instrument is less reliable because the men who handle it are of bad descent, or impure, or less well initiated. The holding contains judgements of exactly that form about individuals, and they are worth keeping apart from this. The Yoruba material has a king declare an elder a cheat and a liar and bar him from official consultations, and the Zande material has a witch-doctor called a cheat because his medicines are poor and a liar because he has no witchcraft in him. Both locate the fault in a man; neither is a comparison of procedures, and so neither settles the statement either way."@en,
+        "Why this is worth stating at all. The projects that gather this material commonly assume that a transmission explains a failure by something about the person: impurity, wrong descent, a broken taboo, insufficient resolve. That assumption is well supported and this holding is full of instances of it. What these three show is that the same transmissions are capable of the other move as well, and that they make it precisely where they have two procedures to set against each other. A comparison needs a common measure, and the measure they reach for is the procedure and not the man."@en ;
+    pm:attestedBy pm:compilerInference ;
+    pm:generalizedFrom pmc:CautionAgainstTheFireReaders,
+        pmc:CautionAgainstTheRubbingBoard,
+        pmc:TheOrderOfExitsForADisease,
+        pmc:ZosimosDuoGradusTincturarum ;
+    pm:generalizedStatement "Where a transmission runs more than one procedure of the same kind, states a comparative judgement of how well they work and gives a ground for it, the ground follows what tells the procedures apart. Where they differ in what is done — the instrument, the route, the substance, the length, the order in time — the ground is a property of the procedure: that its outcome lies in the operator's own hand, that it is repeatedly wrong, that one route is easier, faster or costlier than another. Where they differ in whom they are received from or worked by — the mantra from a giver of one disposition or another, the arts of one class of diviner or another — the ground is the person, alone or together with the procedure. This holds of judgements about working; it does not hold of rankings by dignity or by metaphysical order, which the same holding carries and which are grounded otherwise."@en .
+
 pmc:QizhiYouxiao a pm:Conceptualizing ;
     rdfs:label "Das Ankommen des Qi und das zurückgewiesene Zeichen"@de,
         "The arrival of the qi, and the sign that is refused"@en ;
@@ -31812,6 +31903,9 @@ pmc:Saktipata a pm:Conceptualizing ;
         "Mālinīvijayottaratantra" ;
     skos:definition "The transfer of power from one who has it to one who does not, graded in the Kashmirian exegesis into nine degrees."@en ;
     skos:note "The sources give transfer by glance, by touch and by word. The specifically manual modality of the modern draft is not attested here."@en ;
+    pm:fromWork pmw:MalinivijayottaraTantra,
+        pmw:Tantraloka,
+        pmw:Tantrasara ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:SamkhyaAisvaryaAvighata a pm:Conceptualizing ;
@@ -34477,6 +34571,7 @@ pmc:WorldPathTraversal a pm:Conceptualizing ;
         "Vijñānabhairava 57 (Sanskrit; verse numbering of Dyczkowski and the current editions)" ;
     skos:definition "The whole is contemplated in the form of the path of worlds and the other paths, in sequence, in its coarse, subtle and supreme condition, until the mind dissolves; and the same method carried to the limits of the universe is said to bring the great awakening."@en ;
     skos:note "This is the old form of the claim that attention placed in a centre opens an assigned layer. The layers here are worlds, bhuvana, and they belong to a cosmology written into the body, not to a list of psychological qualities. The distance between the two is the whole point of the mapping node above. See prima-materia#39."@en ;
+    pm:fromWork pmw:Vijnanabhairava ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:WorldlyPowersOfTheLeftHandRite a pm:Conceptualizing ;
@@ -34486,6 +34581,7 @@ pmc:WorldlyPowersOfTheLeftHandRite a pm:Conceptualizing ;
     skos:definition "A set of capacities named as the fruit of the rite: happiness and prosperity, standing everywhere, a body resembling Madana, the subduing of kings together with their kingdoms and subjects, the drawing of all women, the subduing of lions, tigers, hyenas, bhūtas, pretas and piśācas, and movement everywhere like the wind."@en ;
     skos:note "Held as one set and not split into eight nodes, because the source gives them as a single list in one place and attaches no separate condition to any of them. Splitting would make the graph report eight claims where the text makes one."@en,
         "They are worldly and immediate, and that is the contrast the same passage draws. The orthodox side is not said to confer them; it is said to clear the debts and to be rewarded in due course. The difference between the two methods is stated here as a difference of what is obtained and when, not as a difference of moral standing. That is a fourth criterion beside rank, competence and deity, and it comes closer than any of them to what the Western pair was later made to carry — without ever carrying it."@en ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:WritingWithInk a pm:Conceptualizing ;
@@ -36777,6 +36873,8 @@ pmp:SaktipataTransmission a pm:Practicing ;
         "Abhinavagupta, Tantrāloka XIII" ;
     skos:definition "The initiatory act by which the descent of power is conferred."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Tantraloka,
+        pmw:Tantrasara ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmp:SanhedrinLawsOfFormationBeforeTheSabbath a pm:Practicing ;
@@ -38059,6 +38157,8 @@ pmc:Diksa a pm:Conceptualizing ;
     dcterms:source "Abhinavagupta, Tantrāloka XV",
         "Mālinīvijayottaratantra VIII" ;
     skos:definition "The rite by which a person is admitted to the practice, set out in the tantra and reproduced with commentary in the Kashmirian exegesis."@en ;
+    pm:fromWork pmw:MalinivijayottaraTantra,
+        pmw:Tantraloka ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:EthiopianKeepingOfTheDevilsInRestraint a pm:Conceptualizing ;
@@ -38505,6 +38605,7 @@ pmc:Kundalini a pm:Conceptualizing ;
         "Kuṇḍalinī"@en ;
     dcterms:source "Pūrṇānanda, Ṣaṭcakranirūpaṇa (1577)" ;
     skos:definition "A power held to rest coiled at the base of the subtle body and to rise through it when roused."@en ;
+    pm:fromWork pmw:Satcakranirupana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmc:MagnetismeAutoDiagnostic a pm:Conceptualizing ;
@@ -40323,6 +40424,7 @@ pmp:VamaWorship a pm:Practicing ;
     dcterms:source "Kālikāpurāṇa, at the verses defining vāmā and prescribing that the worshipper be a vāma while worshipping in that method (130-131) (text, introduction and translation in English by B. N. Shastri, part III, Nag Publishers, Delhi 1991)" ;
     skos:definition "The rite performed as vāma: the worshipper takes the position of one whose goddess claims the share of the offering before all other gods, and performs the worship in that method whether or not he also performs the five sacrifices."@en ;
     pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:KalikaPurana ;
     pm:withinTradition pmt:SaivaSakta .
 
 pmp:WitchDoctorMedicineEating a pm:Practicing ;
@@ -40413,6 +40515,11 @@ pmw:Jataka a dcterms:BibliographicResource ;
     rdfs:label "Jātaka"@de,
         "Jātaka"@en ;
     skos:note "Opened on 2026-09-21 at story 49 only, in the English of Robert Chalmers under E. B. Cowell's editorship, volume I of 1895. The remaining five hundred and forty-six stories were not read. All six volumes are public domain and reachable by the regular route, which makes this the cheapest continuation for anything the canon states as doctrine and the Jātaka reports as a case."@en .
+
+pmw:KularnavaTantra a dcterms:BibliographicResource ;
+    rdfs:label "Kulārṇava Tantra"@de,
+        "Kulārṇava Tantra"@en ;
+    skos:note "Opened at the verses giving the order of superiority of the ācāras, in the text with English translation by Ram Kumar Rai, Varanasi 1999; chapter and verse are not recoverable from the copy read. The rest of the work is unread."@en .
 
 pmw:SyllabusInstructionumAA a dcterms:BibliographicResource ;
     rdfs:label "A Syllabus of the Official Instructions of A∴A∴ Hitherto Published"@de,
@@ -41127,6 +41234,12 @@ pmw:AnguttaraNikaya a dcterms:BibliographicResource ;
         "Aṅguttara Nikāya"@en ;
     skos:note "Declared here because this run is the first to cite it. It is a work of the Theravāda canon and not of this transmission; it stands under pm:corpusWork of pmt:Ajivika for the same reason the Dīgha Nikāya does, namely that the opponents' canon is the only corpus this transmission has. When pmt:Theravada opens it, the identifier is already minted and does not need to be invented twice."@en .
 
+pmw:ArtemidoriOnirocriticon a dcterms:BibliographicResource ;
+    rdfs:label "Artemidor von Daldis, Onirokritikon"@de,
+        "Artemidorus of Daldis, Onirocriticon"@en ;
+    skos:note "Not read: the rest of the five books. Seen and not entered: the end of the preceding chapter on dreams of flying, which gives correspondences between dream and outcome and none of the kinds the harvest owes. The Teubner edition of Roger Pack (1963) was located, identifier artemidori-daldiani-onirocriticon-1-5-1963-by-roger-pack, and its text layer carries no character of the Greek block among 549,139 letters, the Greek having been read into Latin letters, so it was not used."@en,
+        "Opened at book II, chapter 69, in three versions. The Greek in the recension of Rudolf Hercher, Artemidori Daldiani Onirocriticon libri V ex recensione Rudolphi Hercheri, Lipsiae in aedibus B. G. Teubneri, as the title page in the full text gives it, read through a text layer that renders the Latin capitals of the title page in Greek letters; the year line is not legible there and the catalogue's 1864 is not used; identifier bub_gb_r8pJOYtS4W4C, pp. 161-162, where the Greek is uneven in the text layer and was read together with the apparatus beneath it. The German of Friedrich S. Krauss, Artemidoros aus Daldis, Symbolik der Träume (Wien, Pest, Leipzig: A. Hartleben, 1881), identifier BIUSante_55615, pp. 188-190. The Latin of Ianus Cornarius, De somniorum interpretatione libri quinque, printed at Basel by Hieronymus Froben and Nicolaus Episcopius in September 1539 as the colophon in the full text gives it, identifier desomnioruminter00arte, book II, chapter LXXIIII, which is Hercher's II.69. Two translators, Krauss and Cornarius, in two languages."@en .
+
 pmw:DeDivinatione a dcterms:BibliographicResource ;
     rdfs:label "Cicero, De divinatione"@de,
         "Cicero, De divinatione"@en ;
@@ -41621,10 +41734,21 @@ pmw:LiberTurrisVelDomusDei a dcterms:BibliographicResource ;
         "Liber Turris vel Domus Dei sub figura XVI"@en ;
     skos:note "Class B."@en .
 
+pmw:MahanirvanaTantra a dcterms:BibliographicResource ;
+    rdfs:label "Mahānirvāṇa Tantra"@de,
+        "Mahānirvāṇa Tantra"@en ;
+    skos:note "Not read: the rest of the work in this run, including the fourteenth chapter, which an earlier run had cited for the claim at pmc:KaulaAboveTheOtherWays; the verse it gave there, XIV.203, says of the tantra itself that it is the only means for the acquirement of the knowledge of Brahman (Avalon, p. 358), and the claim stands at X.203."@en,
+        "Read by earlier runs at I.50-61 and IV.19-20 in the English of Arthur Avalon, Tantra of the Great Liberation (London: Luzac & Co., 1913). Reopened on 2026-10-19 at X.200-204 in three versions: Avalon's English, p. 260, read in the copy dli.csl.5754, which lacks its title page and whose running heads and pagination are those of the 1913 edition, the title page of which was read in the copy india.history.resource.110781; the Sanskrit with the commentary of Hariharānanda Nātha Bhāratī, edited by Jīvānanda Vidyāsāgara (Calcutta, 1884, as the title page in the full text gives it), daśamollāsa, pp. 286-287; and a second English translation, printed as The Mahanirvana Tantram, the Tantra treating of the final emancipation, in the copy dli.bengal.10689.11353, whose title page is not in the scan, so that the translator is not named here and the catalogue is not used for it. Its wording differs throughout from Avalon's and it spells Koula and Veera, so it is a second translation and not a second copy of the first."@en .
+
 pmw:MajjhimaNikaya a dcterms:BibliographicResource ;
     rdfs:label "Majjhima Nikāya"@de,
         "Majjhima Nikāya"@en ;
     skos:note "Opened at sutta 118. The edition is not recoverable; see prima-materia#45."@en .
+
+pmw:MalinivijayottaraTantra a dcterms:BibliographicResource ;
+    rdfs:label "Mālinīvijayottaratantra"@de,
+        "Mālinīvijayottaratantra"@en ;
+    skos:note "Cited at chapter VIII and once without a chapter. The edition is not recoverable and is left unstated rather than guessed; the passages are to be reopened. See prima-materia#45."@en .
 
 pmw:NaturalisHistoria a dcterms:BibliographicResource ;
     rdfs:label "Plinius, Naturalis Historia"@de,
@@ -41660,10 +41784,20 @@ pmw:SamyuttaNikaya a dcterms:BibliographicResource ;
         "Saṁyutta Nikāya"@en ;
     skos:note "Declared here because this run is the first to cite it, and for the same reason as the Aṅguttara: it is a work of the Theravāda canon and stands under pm:corpusWork of this transmission because the opponents' canon is the only corpus this transmission has."@en .
 
+pmw:Satcakranirupana a dcterms:BibliographicResource ;
+    rdfs:label "Pūrṇānanda, Ṣaṭcakranirūpaṇa"@de,
+        "Pūrṇānanda, Ṣaṭcakranirūpaṇa"@en ;
+    skos:note "Cited without place. The edition is not recoverable and is left unstated rather than guessed; see prima-materia#45."@en .
+
 pmw:TacitiHistoriae a dcterms:BibliographicResource ;
     rdfs:label "Tacitus, Historien"@de,
         "Tacitus, Historiae"@en ;
     skos:note "Opened at IV.81. The edition is not recoverable; see prima-materia#45."@en .
+
+pmw:Tantrasara a dcterms:BibliographicResource ;
+    rdfs:label "Abhinavagupta, Tantrasāra"@de,
+        "Abhinavagupta, Tantrasāra"@en ;
+    skos:note "Cited at chapter XI. The edition is not recoverable; see prima-materia#45."@en .
 
 pmc:AyurvedaDehasamhanana a pm:Conceptualizing ;
     rdfs:label "Der Körper dicht gemacht und von keinem Geschöpf angreifbar"@de,
@@ -41998,6 +42132,11 @@ pmw:Uhhamuwa a dcterms:BibliographicResource ;
     skos:note "Opened in full at the wording on 2026-10-06 in the critical edition hethiter.net/: CTH 410, textus 2013-12-09, exemplar A, which is HT 1 (BM 108548), where the ritual runs on the obverse second column from line 17 to line 47 and is, as the editors state, completely preserved. Exemplar B, KUB 9.31, was downloaded and its divergences were not collated. A second translation was read beside the original: A. Goetze, Ritual against Pestilence, in Pritchard (ed.), ANET, 3rd ed. 1969, pp. 347-348."@en,
         "The editors note that all four witnesses are four-column collective tablets carrying three rituals each, those of Zarpiya, of Uḫḫamuwa and of Ašḫella. The work is therefore not a tablet but a section of one, and the places entered from it are cited as such."@en .
 
+pmw:Vijnanabhairava a dcterms:BibliographicResource ;
+    rdfs:label "Vijñānabhairava"@de,
+        "Vijñānabhairava"@en ;
+    skos:note "Opened at verses 28-29, 50-51 and 56-57 in the Sanskrit, in the verse numbering of Dyczkowski and the current editions. The edition the verses were read in is not otherwise recoverable; see prima-materia#45."@en .
+
 pmw:Zhuangzi a dcterms:BibliographicResource ;
     rdfs:label "Zhuangzi"@de,
         "Zhuangzi"@en ;
@@ -42171,6 +42310,11 @@ pmw:TalmudBavliAbodaZara a dcterms:BibliographicResource ;
         "Read in the translation of Lazarus Goldschmidt, Der babylonische Talmud mit Einschluss der vollstaendigen Misnah, seventh volume, Synhedrin, Makkoth, Sebuoth, Aboda zara, Horajoth, Edijoth, Aboth, Berlin, S. Calvary und Co., 1903. The same physical volume carries tractate Sanhedrin and is the volume traditions/rabbinic-halakhah.ttl is worked from; the tractate is the work and the volume is the edition, so it is declared separately."@en,
         "The part read is folio 54b to 56a, pages 990 to 992 of that volume. The running heads of the tractate were checked over the whole of chapter one and the part read before anything was cited: they run 796, 799, 801, 806, 807, 809, 813, 819, 822, 827, 833, 837, 839, 842, 845, 852, 862 and on to 992 without going backwards. The check is the one AGENTS.md requires after prima-materia#829, where a scan gave the sequence 753, 759, 757, 799, 761 and a page number formed from it would have been invented."@en .
 
+pmw:Tantraloka a dcterms:BibliographicResource ;
+    rdfs:label "Abhinavagupta, Tantrāloka"@de,
+        "Abhinavagupta, Tantrāloka"@en ;
+    skos:note "Cited at chapters XIII and XV. The edition is not recoverable and the chapter divisions of the Kashmirian exegesis are edition-dependent; see prima-materia#45."@en .
+
 pmc:RasaSarvarogahara a pm:Conceptualizing ;
     rdfs:label "Die Heilung jeder Krankheit, durch die für sie gewählte Beigabe"@de,
         "The cure of every disease, by the accompaniment chosen for it"@en ;
@@ -42254,6 +42398,11 @@ pmw:HohmanFreund1828 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, Der lange verborgene Freund (Ephrata, Pa. 1828)"@de,
         "Hohman, Der lange verborgene Freund (Ephrata, Pa. 1828)"@en ;
     skos:note "The second German printing, opened for its appendix and for the day list its scan carries whole. Its title page says it is printed a second time on request, which dates it against the Reading original."@en .
+
+pmw:KalikaPurana a dcterms:BibliographicResource ;
+    rdfs:label "Kālikāpurāṇa"@de,
+        "Kālikāpurāṇa"@en ;
+    skos:note "Opened in the chapters on the worship of Tripurā, at the verses named on each node, in the text, introduction and English translation of B. N. Shastri, part III, Nag Publishers, Delhi 1991. The chapter numbering is not recoverable from the copy read."@en .
 
 pmw:RS24266 a dcterms:BibliographicResource ;
     rdfs:label "Die Tafel RS 24.266"@de,
@@ -42374,23 +42523,6 @@ pmt:FourthWay a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Ouspensky, In Search of the Miraculous; Gurdjieff, Beelzebub's Tales to His Grandson" .
-
-pmt:GraecoRoman a pm:Tradition ;
-    rdfs:label "Griechisch-römisches Zeugnis"@de,
-        "Graeco-Roman testimony"@en ;
-    dcterms:source "Herodotus, Histories IV.13-16" ;
-    skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities, and of the argumentative literature that disputes them."@en ;
-    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en,
-        "The file records that a route to Indian material has been proposed for the older Greek transmission and not shown. Disputed is therefore the state of the question, not a hedge."@en ;
-    pm:contactRoute pm:contactRouteDisputed ;
-    pm:corpusWork pmw:DeDivinatione,
-        pmw:DivusVespasianus,
-        pmw:HerodotiHistoriai,
-        pmw:NaturalisHistoria,
-        pmw:TacitiHistoriae ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:HerodotiHistoriai ;
-    pm:principalCorpus "Herodotus, Histories; Tacitus, Historiae; Suetonius, Divus Vespasianus; Pliny, Naturalis Historia; Cicero, De divinatione" .
 
 pmw:AuPaysDeSetteCamaLeBouiti a dcterms:BibliographicResource ;
     rdfs:label "Le Scao, Au pays de Sette Cama: les fétiches, le Bouiti"@de,
@@ -42566,6 +42698,24 @@ pmt:ArabicAlchemy a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:KitabIkhrajMaFiAlQuwwa ;
     pm:principalCorpus "The Jābirian corpus; al-Rāzī, Sirr al-Asrār" .
+
+pmt:GraecoRoman a pm:Tradition ;
+    rdfs:label "Griechisch-römisches Zeugnis"@de,
+        "Graeco-Roman testimony"@en ;
+    dcterms:source "Herodotus, Histories IV.13-16" ;
+    skos:definition "The transmission of Greek and Latin historiographical and doxographical reports of extraordinary capacities, and of the argumentative literature that disputes them."@en ;
+    skos:note "Edition finding, prima-materia#45. For every citation in this file the edition or translation the passage was read from is not recoverable, and it is left unstated rather than guessed. The book and chapter numbers are stable across the modern critical editions, which is why the loss is smaller here than elsewhere; it is still a loss, because it is unknown whether the passages were read in the original or in translation."@en,
+        "The file records that a route to Indian material has been proposed for the older Greek transmission and not shown. Disputed is therefore the state of the question, not a hedge."@en ;
+    pm:contactRoute pm:contactRouteDisputed ;
+    pm:corpusWork pmw:ArtemidoriOnirocriticon,
+        pmw:DeDivinatione,
+        pmw:DivusVespasianus,
+        pmw:HerodotiHistoriai,
+        pmw:NaturalisHistoria,
+        pmw:TacitiHistoriae ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:HerodotiHistoriai ;
+    pm:principalCorpus "Herodotus, Histories; Tacitus, Historiae; Suetonius, Divus Vespasianus; Pliny, Naturalis Historia; Cicero, De divinatione; Artemidorus, Onirocriticon" .
 
 pmt:Hermetic a pm:Tradition ;
     rdfs:label "Hermetische Überlieferung"@de,
@@ -43467,7 +43617,16 @@ pmt:SaivaSakta a pm:Tradition ;
     skos:note "A caution governs everything read out of this tradition. What is old is a set of subtle centres carrying seed syllables, and the older tantras vary in how many they count. The fixed system of seven centres with spectral colours and assigned psychological qualities belongs to the twentieth century and to no tantra; it is held in this file as pmc:SevenCentreQualityMapping so that it is available as what it is, and it must not be read back into the material it was built on."@en,
         "Edition finding, prima-materia#45. The Vijñānabhairava citations name the numbering they were read in. For the Ṣaṭcakranirūpaṇa, the Tantrāloka, the Tantrasāra and the Mālinīvijayottaratantra the edition is not recoverable and is left unstated rather than guessed; those passages are to be reopened, and the chapter divisions of the Kashmirian exegesis are edition-dependent."@en ;
     pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:KalikaPurana,
+        pmw:KularnavaTantra,
+        pmw:MahanirvanaTantra,
+        pmw:MalinivijayottaraTantra,
+        pmw:Satcakranirupana,
+        pmw:Tantraloka,
+        pmw:Tantrasara,
+        pmw:Vijnanabhairava ;
     pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:Satcakranirupana ;
     pm:principalCorpus "Vijñānabhairava; Mālinīvijayottaratantra; Abhinavagupta, Tantrāloka and Tantrasāra; Kulārṇava Tantra; Kālikāpurāṇa; Mahānirvāṇa Tantra; Pūrṇānanda, Ṣaṭcakranirūpaṇa" .
 
 pmw:NuptiaeChymicae a dcterms:BibliographicResource ;
@@ -43508,16 +43667,6 @@ pmw:SusrutaSamhita a dcterms:BibliographicResource ;
     skos:note "Opened on 2026-10-02 at two chapters of the Sarirasthana, VI on the marmas and VIII on venesection, read continuously in the English of Kaviraj Kunjalal Bhishagratna, An English Translation of the Sushruta Samhita, vol. II, Calcutta 1911, pp. 173-190 and 197-208. The two open claims that turned on it are answered at the wording: the graded death-terms of the marman and the states in which an operation is forbidden. Not read: chapters I to V, VII, IX and X of the same Sarirasthana, and the Sutra-, Nidana-, Chikitsita-, Kalpa- and Uttara-sthana. The same volume carries the Nidana-, Chikitsita- and Kalpa-sthana and is the cheapest continuation; the surgical book, which is where the extraction of a shaft is actually described, stands in volume I."@en,
         "The scan read is the archive.org full text englishtranslati02susr, and the title page in it gives Calcutta, published by the author, 1911, with the printer's year 1907 on the verso. The Sanskrit is not on this route: a character count by Unicode block over the whole file returns nothing outside Latin, so every term entered from this work is Bhishagratna's transliteration and every interval is his English."@en .
 
-pm:casesWithDeviation a pm:ExaminationState ;
-    rdfs:label "Fälle mit Abweichung"@de,
-        "Cases with deviation"@en ;
-    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
-
-pm:counterSearchFoundOpposition a pm:CounterSearchState ;
-    rdfs:label "Gegensuche mit Fund"@de,
-        "Counter-search found opposition"@en ;
-    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
-
 pmt:Andean a pm:Tradition ;
     rdfs:label "Andine Überlieferung"@de,
         "Andean transmission"@en ;
@@ -43550,6 +43699,16 @@ pm:AwarenessValue a owl:Class ;
     rdfs:label "Wert einer Bewusstseinsachse"@de,
         "Awareness Axis Value"@en ;
     skos:definition "A value on one of the awareness axes. The class exists so that a single constraint can keep pm:axisValue to the declared coordinates; every value below carries it alongside the axis it belongs to."@en .
+
+pm:casesWithDeviation a pm:ExaminationState ;
+    rdfs:label "Fälle mit Abweichung"@de,
+        "Cases with deviation"@en ;
+    skos:definition "Cases have been recorded and show a deviation from the stated base rate. What deviates is what the protocol measured, which is rarely the whole of what the claim asserts."@en .
+
+pm:counterSearchFoundOpposition a pm:CounterSearchState ;
+    rdfs:label "Gegensuche mit Fund"@de,
+        "Counter-search found opposition"@en ;
+    skos:definition "A search returned work that contradicts the evidence, fails to replicate it, or narrows its reach. What was found belongs in the note and, where it bears on the finding, in the protocol's own notes."@en .
 
 pmt:Mandaean a pm:Tradition ;
     rdfs:label "Mandäische Überlieferung"@de,
@@ -43739,11 +43898,6 @@ pmt:VedicRitual a pm:Tradition ;
     pm:fromWork pmw:SatapathaBrahmana ;
     pm:principalCorpus "Śatapatha Brāhmaṇa; Aitareya Brāhmaṇa; the Śrautasūtras" .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pmt:BalticSlavicCharm a pm:Tradition ;
     rdfs:label "Baltische und slawische Besprechungstradition"@de,
         "Baltic and Slavic charm transmission"@en ;
@@ -43888,6 +44042,11 @@ pmt:MesopotamianExorcism a pm:Tradition ;
     pm:contactRoute pm:contactRouteDisputed ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Maqlû; Šurpu; the exorcist's manual KAR 44; Ludlul bēl nēmeqi; Enūma Anu Enlil" .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmw:BaopuziNeipian a dcterms:BibliographicResource ;
     rdfs:label "Ge Hong, Baopuzi neipian"@de,
@@ -44400,19 +44559,19 @@ pm:prescribedOrder a pm:PrerequisiteStrength ;
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
 
-pm:Testing a owl:Class ;
-    rdfs:label "Prüfen"@de,
-        "Testing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
-    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
-
 pmw:PapyrusLondonLeiden a dcterms:BibliographicResource ;
     rdfs:label "Papyrus von London und Leiden (PDM xiv)"@de,
         "Papyrus of London and Leiden (PDM xiv)"@en ;
     skos:note "One manuscript in two museums, of the third century of this era, twenty-nine columns on the recto and thirty-three short columns on the verso. Opened on 2026-09-18 in the edition of Griffith and Thompson, volume I of 1904, which prints transliteration, translation and notes; the translation was read throughout and the transliteration was not used. The editors state that the language makes it difficult to believe that any part of the work in its present redaction is more than a century or two older than the papyrus itself."@en,
         "The nodes read off it stand in traditions/demotic-magical-papyri.ttl."@en,
         "What the reading covered and what it left: the whole of the translation of the recto, columns I to XXIX, and of the verso, columns I to XXXIII, was read at the wording. Not read: the transliteration on the facing pages and the philological notes beneath both, except where a note bears on a passage entered; the introduction, apart from its account of the manuscript and its table of contents; and the glossary volume of 1909, which was not obtained. The digitised copy used is an optical transcription and its rendering of the transliterated demotic is not trustworthy at the level of single letters, which is why no node in this holding reproduces a demotic form from it."@en .
+
+pm:Testing a owl:Class ;
+    rdfs:label "Prüfen"@de,
+        "Testing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "An ongoing attempt to fail a claim under a stated condition. A protocol that names no condition under which the claim would be refuted is not a test of it."@en ;
+    skos:note "An instance exists only where somebody has taken the examination up, and its absence is therefore informative rather than empty: it says that no procedure has been taken up, not that the claim has been examined and found wanting. A stub for every claim in the collection would double the graph and say nothing the absence does not already say."@en .
 
 pmt:LatinAlchemy a pm:Tradition ;
     rdfs:label "Lateinische Alchemie"@de,
