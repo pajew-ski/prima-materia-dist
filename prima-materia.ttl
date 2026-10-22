@@ -3177,6 +3177,49 @@ pmc:ChanZuochanZhengyi a pm:Disputing ;
     pm:fromWork pmw:LiuzuTanjing ;
     pm:withinTradition pmt:Chan .
 
+pmc:ChaosMagicDivinatioPerStatumFuturum a pm:Conceptualizing ;
+    rdfs:label "Divination als Zugriff auf einen künftigen Zustand des eigenen Gehirns, und der Versuch, in dem sie scheitert"@de,
+        "Divination as access to a future state of one's own brain, and the experiment in which it fails"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, p. 81; read in a full-text layer of the first edition" ;
+    skos:definition "The mechanism the work gives for divination: the brain may keep superposed states entangled with its own past and future states, so that the diviner reaches some future state of his own brain in which the answer is known. From this it draws two consequences. Divination experiments in which the diviners will never learn whether they divined correctly are said usually to fail badly; and since superposition and entanglement decay over time, divinations are said to work best over short spans, the author adding that most of his own premonitions come a few minutes before the event. Some magicians are said to visualise themselves at the future time when the answer is known and to resolve to send it back, closing a loop in time."@en ;
+    skos:note "A condition of failure stated by the transmission, and of the kind that can be set up: the model predicts that a divination whose outcome is withheld from the diviner for good does worse than one whose outcome is later shown. It also explains in advance why a blinded protocol should fail, which makes it the first thing a test of the claim would have to separate. The short span and the minutes before the event are a further stated bound. Counted for the harvest: one failure condition, one stated span, no sign of success."@en ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicMemoriaFuturaYieldsIncantatio a pm:Yielding ;
+    rdfs:label "Der als eingetreten formulierte Zauber soll die Ereignisse zu sich hinlenken"@de,
+        "The spell stated as accomplished is said to bend events toward it"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, pp. 81-82; read in a full-text layer of the first edition" ;
+    skos:definition "The work holds that the spell in the form of an accomplished perception, joined to gnosis, tends to bring reality to decohere toward the perceived state, and more strongly than a spell framed as a will toward a goal."@en ;
+    skos:note "The comparison between the two forms of statement is the part of the claim that could be tested, since it predicts a difference between two procedures and not only an effect of one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicIncantatioMemoriaFutura ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicIncantatio .
+
+pmc:ChaosMagicNexusMagicus a pm:Conceptualizing ;
+    rdfs:label "Die magische Verbindung als Verschränkung, mit gereihten Trägern"@de,
+        "The magical link as entanglement, with its carriers ranked"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, p. 82; read in a full-text layer of the first edition" ;
+    skos:definition "Entanglement is said to underlie the magical link and the old theories of magic by contagion, and decoherence to set severe limits on it. The carriers are ranked: simultaneous physical presence with physical or line-of-sight contact gives the best chance; artefacts once connected to the target, or remembered images, come second; photographs are a poor third; live images or a telephone call in real time may do better if they can be set up."@en ;
+    skos:note "A ranked order is a claim that a series of trials could contradict, since it predicts the order of the outcomes and not only their occurrence."@en ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicSilentiumInternum a pm:Presupposing ;
+    rdfs:label "Magie gelingt nur, wer den inneren Dialog abschalten kann"@de,
+        "Magic succeeds only for one who can switch off the internal dialogue"@en ;
+    dcterms:source "Carroll, The Octavo: A Sorcerer-Scientist's Grimoire, Roundworld Edition (Mandrake of Oxford, 2011), Magical Ritual part 1, Centring, pp. 33-34; read in a full-text layer of that edition" ;
+    skos:definition "The condition with which the centring opens: the chattering mind is the main obstacle to magical intent, and only those who can learn to switch off the internal dialogue can succeed with magic, since every thought or desire provokes its negation as a doubt or a further thought; only unwavering intent serves, even if held for a few minutes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "Without the stilled dialogue the intent is met at once by its own doubt, and the work states that magic does not succeed." ;
+    pm:dependentStep pmc:ChaosMagicQuinqueOperationes ;
+    pm:fromWork pmw:TheOctavo ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:ChaosMagicCohaerentiaNeurologica ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmc:Chilan a pm:Conceptualizing ;
     rdfs:label "Chilan"@de,
         "Chilan"@en ;
@@ -23211,6 +23254,44 @@ pmp:ChannelPurification a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:TibetanTantric .
 
+pmp:ChaosMagicLocusQuanticiSearch a pm:Searching ;
+    rdfs:label "Wo der chaosmagische und exo-psychologische Bestand das Quantenereignis im Gehirn verortet"@de,
+        "Where the chaos-magical and exo-psychological corpus puts the quantum event in the brain"@en ;
+    dcterms:date "2026-10-22" ;
+    skos:note "Four places. Leary in 1977 makes the nervous system a transceiver of astrophysical signals and in 1987 rewrites the sender as quantum-physical; Wilson in 1983 gives the brain a non-local quantum circuit after Bohm, Walker, Sarfatti and Bell; Carroll in 2008 makes the brain a chaotic analogue quantum computer and in 2011 puts the damping of quantum thought into the chemical synapse. Quantum Psychology parallels the laws of the subatomic world with those of the nervous system and places nothing in it. The model the sentence describes is therefore there, in three authors and over thirty years, and its one specific element is not: the sentence has replaced the synapse and the brain at large with the best-known structure of a later theory."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "Every passage in which quantum occurs within some two hundred and fifty characters of brain, neurone, synapse or nervous system, read in place; the physicists' names Bohm, Walker, Sarfatti, Bell, Penrose, Hameroff, Herbert, Wolf counted in the same works."@en ;
+    pm:searchYieldedNode pmc:ChaosMagicCerebrumQuanticum,
+        pmc:ChaosMagicCohaerentiaNeurologica,
+        pmc:ExoPsychologyCircuitusQuanticus,
+        pmc:ExoPsychologyTransceptorNervosus ;
+    pm:searchedBy "prima-materia, 2026-10-22" ;
+    pm:searchedCorpus "The works of the preceding search in which quantum and brain, neurone, synapse or nervous system occur together: Carroll, The Apophenion and The Octavo; Leary, Exo-Psychology and Info-Psychology; Wilson, Prometheus Rising and Quantum Psychology; Sarfatti in Mondo 2000, issue 8."@en ;
+    pm:searchedFor "The negation of the second clause of prima-materia#888 in its constructive form: not whether the microtubule is named, but where these authors place the quantum event when they place it in the body, and which physicists they name for it."@en .
+
+pmp:ChaosMagicMicrotubulusSearch a pm:Searching ;
+    rdfs:label "Ob irgendein chaosmagisches, typhonisches oder benachbartes Werk ein Empfängermodell auf neuronale Mikrotubuli abbildet"@de,
+        "Whether any chaos-magical, Typhonian or adjacent work maps a receiver model onto neural microtubules"@en ;
+    dcterms:date "2026-10-22" ;
+    skos:note "A finding about the tool, and it changes nothing above. The first count of this run, taken without folding white space, returned zero for nervous system in Info-Psychology, where the term stands one hundred and seventy-eight times between double spaces; the counts above are the folded ones. The earlier count of pmp:TyphonianNervusAntennaSearch, four for the seven Grant volumes, was repeated with folding and stands."@en,
+        "Nothing, across some sixty text layers and every author the first search named as unsearched that could be reached. What the corpus has in the place of the microtubule is recorded by the next search: a quantum model of the brain, put into the brain as a whole, into states of it, or into the synapse, from Wilson in 1983 to Carroll in 2011, and no work of it names the theory the sentence attributes to it."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "Term search, case-insensitive, over each text layer after folding runs of white space to one and joining words hyphenated at the line end, for: microtubule and its forms, tubulin, Hameroff, Penrose, orchestrated objective reduction, Orch OR, objective reduction, quantum, nervous system, antenna, receiver. Microtubule, tubulin, Hameroff and the theory: zero in every work. Penrose: three in The Apophenion (a sentence on time, the bibliography, the index) and one in Mondo 2000, issue 8, where Sarfatti names The Emperor's New Mind for a Platonic reality of mind. Quantum: high counts in The Apophenion, The Octavo, Quantum Psychology, Prometheus Rising, Info-Psychology and Exo-Psychology, low or zero in the rest; every co-occurrence of quantum with brain, neurone, synapse or nervous system within some two hundred and fifty characters was read in place. Positive control: the same pattern over a bundle of Portuguese translations of popular physics books returned twenty-six hits for Hameroff and five for the microtubule, so a text layer of this kind does yield the names."@en ;
+    pm:searchedBy "prima-materia, 2026-10-22" ;
+    pm:searchedCorpus "Chaos magic: Carroll, Liber Null and Psychonaut, Liber Kaos (two further text layers), PsyberMagick (an upload without imprint), The Apophenion, The Octavo (Roundworld Edition 2011) and the essay Chaoism and Chaos Magic; Hine, Condensed Chaos, Prime Chaos, The Pseudonomicon (2004), Aspects of Evocation, Techniques of Modern Shamanism I-III and the French Chaos prêt-à-cuire; Fries, Visual Magick, Seidways, Kali Kaula; Sherwin, The Book of Results; Mace, Stealing the Fire from Heaven; Frater U.D., Practical Sigil Magic; Chapman, Advanced Magick for Beginners; White, The Chaos Protocols (2016); Vitimus, Hands-On Chaos Magic (three text layers); Wilde, The Grimoire of Chaos Magick; Dukes, How to See Fairies (2011); two anonymous chaos-magic tracts. Typhonian and adjacent: Grant, the seven volumes of the first search again and Hecate's Fountain (1992) and Against the Light (1997); Bertiaux, The Voudon Gnostic Workbook, Monastery of the Seven Rays year one, La Couleuvre Noire; Chumbley, the Dragon-Book of Essex (Grimorium Synomosia) and the Qutub commentary; Karlsson, Qabalah, Qliphoth and Goetic Magic; Webb, The Seven Faces of Darkness; Mason, Tunnels of Set. Exo-psychology: Leary, Exo-Psychology (1977), Info-Psychology (1987), Neurologic in two scans; Wilson, Cosmic Trigger I, Prometheus Rising, Quantum Psychology (1990). The physicists: Sarfatti and Herbert in Mondo 2000, issues 1 to 8 and 14 (1989-1995), and two issues of the Grey Lodge Occult Review. Secondary: Levenda, The Dark Lord (2013); Evans, The History of British Magic after Crowley (2007). All full-text layers at the open scan archive, searched whole."@en ;
+    pm:searchedFor "A passage in which a chaos-magical, Typhonian or adjacent author maps contact with non-human intelligence, or any receiver model, onto the quantum properties of neural microtubules, or names the orchestrated objective reduction theory of Penrose and Hameroff; the second clause of the sentence held at prima-materia#888."@en .
+
+pmp:ChaosMagicOperaInaccessaSearch a pm:Searching ;
+    rdfs:label "Ob die übrigen Werke, die die erste Suche nannte, als Volltext erreichbar sind"@de,
+        "Whether the remaining works the first search named can be reached as full text"@en ;
+    dcterms:date "2026-10-22" ;
+    skos:note "The gap that remains for the second clause of prima-materia#888 is this list, and the one corpus in it that the issue named as plausible is the Starfire journal, the Typhonian house organ edited by Staley. It is in copyright and in print; the block is at the works and not at the route. Whoever holds the volumes can close it by a term search for the microtubule and Hameroff. Wolf and Herbert are physicists and not chaos magicians or Typhonians, and stand here because the first search named them."@en ;
+    pm:searchOutcome pm:corpusUnreachable ;
+    pm:searchTerms "The open scan archive searched by title, by author in both name orders and by free text, on 2026-10-22. Found under a lending restriction with the full text refused: the Starfire compilation of 2009, Epoch, the library scans of PsyberMagick, Prime Chaos, The Pseudonomicon and Hands-On Chaos Magic, all six works of Wolf, both of Herbert, Cosmic Trigger III; of these, PsyberMagick, Prime Chaos, The Pseudonomicon and Hands-On Chaos Magic lay a second time without restriction and were searched. Found and unreadable: Aspects of Tantra, whose text layer is the English print read through the Devanagari model, ASCII letter share zero. Found nothing: the Starfire volumes singly, Staley, SSOTBME, Thundersqueak. Not tried: other archives, a library with its own full-text access, print."@en ;
+    pm:searchedBy "prima-materia, 2026-10-22" ;
+    pm:searchedCorpus "The Starfire journal, all volumes; Staley's essays; Dukes, SSOTBME and Thundersqueak; Carroll, Epoch (2014); the library scans of Carroll, PsyberMagick, and of Hine, Prime Chaos and The Pseudonomicon; Hine, Aspects of Tantra; Wolf, Space-Time and Beyond, Taking the Quantum Leap, The Eagle's Quest, The Dreaming Universe, The Spiritual Universe, Mind into Matter; Herbert, Faster than Light, Elemental Mind; Wilson, Cosmic Trigger III (1995); and, of the works of pmp:TyphonianOperaInaccessaSearch, Aleister Crowley and the Hidden God and Hecate's Fountain, the second of which was found and is recorded in the search before this one."@en ;
+    pm:searchedFor "A readable full-text layer of each work, in any edition, so that the search for the microtubule mapping could cover it."@en .
+
 pmp:ClaviculaFailureConditionSearch a pm:Searching ;
     rdfs:label "Ob der Schlüssel irgendeinen Ausgang nennt, der gegen seine Operationen zählte"@de,
         "Whether the Key states any outcome that would count against its operations"@en ;
@@ -26630,6 +26711,18 @@ pmp:TyphonianNervusAntennaSearch a pm:Searching ;
     pm:searchedCorpus "Grant, The Magical Revival (1972, in the reprint named at the tradition instance), Cults of the Shadow (1975), Nightside of Eden (1977, Skoob 1994), Outside the Circles of Time (1980), Outer Gateways (1994), Beyond the Mauve Zone (1999) and The Ninth Arch (2002), all seven searched whole by term in their full-text layers; The Magical Revival and Outside the Circles of Time read at the wording at every hit."@en ;
     pm:searchedFor "A passage in which this transmission makes the nervous system, the brain or any physiological organ the receiver of extraterrestrial or extradimensional forces, in the manner the circulating sentence of prima-materia#888 credits to Grant; and, as its negation, a passage placing the receiving organ outside physiology."@en .
 
+pmp:TyphonianNervusAntennaSearchSecunda a pm:Searching ;
+    rdfs:label "Ob die beiden zuvor nicht gelesenen typhonischen Bände das Nervensystem als empfangendes Organ nennen"@de,
+        "Whether the two Typhonian volumes not read before name the nervous system as the receiving organ"@en ;
+    dcterms:date "2026-10-22" ;
+    skos:note "The volume that reads the Book of the Law for its extraterrestrial provenance names no organ at all; where it names the receiver, it is an entranced priestess, a priestess at the centre of a mandala, a dream state, and once an antenna made of two invoked forces in the mind. The work identifier carried the note that no full text had been found the day before; the scan lay in the same archive under a title naming the year 1993, which is the case of the access table in AGENTS.md about another identifier of the same work."@en ;
+    pm:searchOutcome pm:searchFoundOpposing ;
+    pm:searchTerms "As in the first search, with white space folded: nervous system, nerve, brain, antenna, receiver, receiving, wireless, radio, extraterrestrial and extra-terrestrial. Hecate's Fountain: nervous system zero; antenna four, read in place: twice a beetle and once a masked dancer in ritual narratives, and once the supreme antenna of Part Three, chap. 4, a pair of forces in the mind-will credited to Bertiaux; extraterrestrial fifty-six, read in place in the introduction and in Part Two. Against the Light: nervous system zero, antenna one."@en ;
+    pm:searchYieldedNode pmc:TyphonianSemenNuitis ;
+    pm:searchedBy "prima-materia, 2026-10-22" ;
+    pm:searchedCorpus "Grant, Hecate's Fountain (London: Skoob, 1992), in a full-text layer of the first edition; Grant, Against the Light (1997); searched whole by term, Hecate's Fountain read at the wording at every hit for extraterrestrial and for the receiving instance."@en ;
+    pm:searchedFor "The first clause of prima-materia#888 in the volumes the first search could not reach or did not include: a passage making the nervous system, the brain or a physiological organ the receiver of extraterrestrial forces; and, as its negation, a passage placing the receiver elsewhere."@en .
+
 pmp:TyphonianOperaInaccessaSearch a pm:Searching ;
     rdfs:label "Ob die übrigen Werke des typhonischen Korpus als Volltext erreichbar sind"@de,
         "Whether the remaining works of the Typhonian corpus can be reached as full text"@en ;
@@ -27531,19 +27624,6 @@ pmt:ChaldeanOracles a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "The Chaldean Oracles, transmitted in fragments through Proclus, Damascius and Psellos" .
-
-pmt:ChaosMagic a pm:Tradition ;
-    rdfs:label "Chaosmagie"@de,
-        "Chaos magic"@en ;
-    skos:definition "The late twentieth century transmission treating belief as a tool to be adopted and discarded, and holding that the symbolic system employed is arbitrary if the technique is sound."@en ;
-    skos:note "The claim that content is interchangeable and only technique carries effect is directly examinable, and if it held it would reorganise every convergence question the project asks."@en,
-        "Three works of Carroll were reached as full texts on 2026-10-21 and searched by term for one question only, whether any of them maps a receiver model onto neural microtubules (prima-materia#888); none does, and the search stands at pmp:TyphonianMicrotubulusSearch. Nothing was read at the wording for the holding, so the state stays at corpus named; the works stand as identifiers below so that queries/unopened-works.rq shows them."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:LiberKaos,
-        pmw:LiberNullAndPsychonaut,
-        pmw:TheApophenion ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Spare, The Book of Pleasure; Carroll, Liber Null and Psychonaut; Carroll, Liber Kaos; Carroll, The Apophenion" .
 
 pmt:ChristianTheosophy a pm:Tradition ;
     rdfs:label "Christliche Theosophie"@de,
@@ -29368,6 +29448,33 @@ pmc:ChanZuochanBixu a pm:Conceptualizing ;
     pm:fromWork pmw:LiuzuTanjing ;
     pm:withinTradition pmt:Chan .
 
+pmc:ChaosMagicCerebrumQuanticum a pm:Conceptualizing ;
+    rdfs:label "Das Gehirn als chaotischer analoger Quantencomputer, und Magie als Quanteneffekte, die es durchlässt"@de,
+        "The brain as a chaotic analogue quantum computer, and magic as quantum effects it lets through"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, General Metadynamics and magic, pp. 79-81; read in a full-text layer of the first edition" ;
+    skos:definition "The model the work proposes for why magic works at all. Once spirits, transcendental agencies and aethers are set aside, only quantum ideas are said to remain as models, so the brain must let some quantum effects show at the macroscopic level: besides a chaotic analogue computer it must be, to some degree, a chaotic analogue quantum computer. Two states are mapped onto it: the void reached by stilling the mind or by distraction is said to let parts of the brain relax into superposition, out of which inspiration and sometimes divination collapse; gnosis, reached by extreme excitation or extreme focus of the nervous system, is said to correspond to coherence, wide areas of the brain showing the same activity while others are inhibited."@en ;
+    skos:note "This is the place in the chaos-magical corpus nearest to the second clause of prima-materia#888, and it is entered so that the distance is on the page. The quantum is put into the brain as a whole and into states of it; no structure inside the neurone is named, the microtubule does not occur in the work, and Penrose is named only for time. The receiver is not a theme: the brain is a computer whose quantum part lets the magician's own states act, not an organ that picks up signals from elsewhere."@en ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicIncantatio a pm:Conceptualizing ;
+    rdfs:label "Verzauberung auf ein künftiges oder vergangenes Ereignis hin, und ihre Grenze"@de,
+        "Enchantment toward a future or a past event, and its limit"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, pp. 81-82; read in a full-text layer of the first edition" ;
+    skos:definition "The capacity claimed: by establishing a future brain state that perceives a desired event as having happened, the magician gives physical reality a tendency to decohere toward a situation in which it has. The same mechanism is said to allow retroactive enchantment, which can undo the effects of past experiences on mind and body, with the limit that it cannot occur if it would change the measurable conditions of the present and so prevent itself, and that its effect can be measured only by how far the future deviates from its probable course."@en ;
+    skos:note "The retroactive form is stated together with the only measure that would show it, and the measure is a counterfactual: the deviation of a future from a course that is not observed. That is the property a test would have to repair before it could begin, and it is the transmission that says so."@en ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicQuinqueOperationes a pm:Conceptualizing ;
+    rdfs:label "Fünf Operationen der Magie, deren Maß Divination und Verzauberung sind"@de,
+        "Five operations of magic, of which divination and enchantment are the measure"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, pp. 77-78; read in a full-text layer of the first edition" ;
+    skos:definition "The ideas of magic are reduced to five: divination, revealing information by non-ordinary means; enchantment, encouraging desired events by non-ordinary means; evocation, commanding spirits to help with either; invocation, identification with or possession by spirits for the same ends; and illumination, special knowledge and powers that reduce to the first two. Divination and enchantment are therefore called the basic measure of magic, the other three being psychological supports. The practices that give the best results are said to remain uncertain, ad hoc and rule of thumb, refined toward a toolbox only by the hypotheses of gnosis and of sleight of mind."@en ;
+    skos:note "The admission that the practices remain rule of thumb stands in the same paragraph as the claim, and it is the transmission's own statement about how far its procedures are fixed."@en ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmc:ChukcheeAnsweringCalls a pm:Conceptualizing ;
     rdfs:label "Die Antwortrufe und der, der sie gibt"@de,
         "The answering calls and the one who gives them"@en ;
@@ -30270,6 +30377,15 @@ pmc:ExactnessAsConditionOfEfficacy a pm:Converging ;
     pm:independentAttestation pmt:NavajoCeremonial,
         pmt:ZuniRitual .
 
+pmc:ExoPsychologyCircuitusQuanticus a pm:Conceptualizing ;
+    rdfs:label "Der achte Schaltkreis stimmt das Gehirn auf ein nichtlokales Quantenkommunikationssystem ab"@de,
+        "The eighth circuit tunes the brain into a non-local quantum communication system"@en ;
+    dcterms:source "Wilson, Prometheus Rising (Tempe: New Falcon, second edition with an introduction by Israel Regardie), chap. 2, Hardware and Software, at the list of the eight circuits, and chap. 18, The Non-Local Quantum Circuit, opening pages; read in a full-text layer without page numbers" ;
+    skos:definition "In the list of the eight circuits the last is called the non-local quantum circuit: imprinted by shock, near-death, out-of-body experience, precognition and distant vision, it is said to tune the brain into the non-local quantum communication system suggested by Bohm, Walker, Sarfatti and Bell. The chapter given to it reads such experiences through Bell's theorem, with two proposals for what travels faster than light: consciousness, after Walker, or information, after Sarfatti, who pictures brain, universe and the sub-quantum realm as nested computers."@en ;
+    skos:note "This is the station at which the receiver model of this transmission becomes a quantum model of the brain, in 1983, a decade before the orchestrated objective reduction theory was stated. The physicists named are Bohm, Walker, Sarfatti and Bell, and the site of the quantum event is not a structure of the neurone. The book calls Walker Edward Harris Walker; the physicist of the synaptic proposal is Evan Harris Walker, and the slip stands as the book prints it. The chaos-magical quantum brain of pmc:ChaosMagicCerebrumQuanticum takes up the same move twenty-five years later, and no work between them that was searched adds the microtubule."@en ;
+    pm:fromWork pmw:PrometheusRising ;
+    pm:withinTradition pmt:ExoPsychology .
+
 pmc:ExoPsychologyNervorumReceptio a pm:Conceptualizing ;
     rdfs:label "Das Nervensystem eingestellt und abgestimmt, Signale aufnehmend und höhere Intelligenzen kontaktierend"@de,
         "The nervous system dialled and tuned, picking up signals and contacting higher intelligences"@en ;
@@ -30277,6 +30393,17 @@ pmc:ExoPsychologyNervorumReceptio a pm:Conceptualizing ;
     skos:definition "Three statements of one model. In the forewords, the book and its author are placed in a chain of alchemists and intelligence agents who learned to dial and tune their own nervous systems and, through internal biochemical experiments, to converse with their own DNA and decipher the genetic code. In the prologue, every model the book will discuss is summed into two meta-models, the first of which is that it is all done by our own nervous systems, whose brains, as they advance toward higher intelligence, can increasingly affect the universe and contact other higher intelligences. In a later chapter, two authors' reading of the same material is explained by the rule that different nervous systems picking up the same signals organise them into different tunnel-realities."@en ;
     skos:note "This is the neurological receiver model in the wording the outside reception attributes to Kenneth Grant. It stands here with the nervous system named in each of the three passages, and the author of the first of them is Leary, not Grant. The book holds the model beside its alternative, that the signals come from outside, and declines to choose between them in the preface of 1986, which calls such models working tools at certain stages."@en ;
     pm:fromWork pmw:CosmicTriggerI ;
+    pm:withinTradition pmt:ExoPsychology .
+
+pmc:ExoPsychologyTransceptorNervosus a pm:Conceptualizing ;
+    rdfs:label "Das Nervensystem als Sende-Empfänger für Signale von außen, und seine Umschrift von astrophysikalisch zu quantenphysikalisch"@de,
+        "The nervous system as a transceiver of signals from outside, and its revision from astrophysical to quantum-physical"@en ;
+    dcterms:source "Leary, Exo-Psychology (Los Angeles: Starseed/Peace Press, 1977), chap. 1, p. 5, and Stage 16, Neuroelectric Receptivity, p. 111 ff.; read in the full-text layer of a library scan",
+        "Leary, Info-Psychology (Los Angeles and Phoenix: Falcon Press, 1987), chap. 1, p. 5 f.; read in the full-text layer of a library scan of the third printing" ;
+    skos:definition "The manual opens by viewing human destiny as an evolving nervous system, designed by DNA intelligence that uses planets as temporary nesting sites in an interstellar migration, to become a symbiotic transceiver of astro-physical intelligence; the dialogue with DNA and with atomic, subatomic and astronomical signals is to be two-way. At the sixth circuit the nervous system is said to have served since the beginning of evolution as a transceiver of electromagnetic and gravitational signals, to become available for conscious communication only with atomic technology, and to be made aware of this role by organic chemicals from ergot, cactus and mushrooms, which are said not to cause the activity but to reveal it. The revision of 1987 keeps the opening sentence and replaces astro-physical with quantum-physical."@en ;
+    skos:note "This is the receiver in the nervous system in the wording the circulating sentence of prima-materia#888 gives to Grant, and its author is Leary, in 1977. The revision of 1987 is the step toward the sentence's second clause: the same organ, the same receiving function, and the sender now named as quantum-physical. The microtubule does not occur in either edition, and Hameroff's work on microtubules, published from 1982, is not named; the revision names Drexler for the atomic level instead."@en ;
+    pm:fromWork pmw:ExoPsychologyManual,
+        pmw:InfoPsychology ;
     pm:withinTradition pmt:ExoPsychology .
 
 pmc:ExpectationOfStillnessIsTheOperator a pm:Positing ;
@@ -37384,6 +37511,15 @@ pmc:TyphonianReceptorFortuneCitatus a pm:Conceptualizing ;
     pm:fromWork pmw:MagicalRevival ;
     pm:withinTradition pmt:TyphonianTradition .
 
+pmc:TyphonianSemenNuitis a pm:Conceptualizing ;
+    rdfs:label "Das Buch des Gesetzes auf seine außerirdische Herkunft gelesen, mit der entrückten Priesterin als Tor, durch das die Energien einströmen"@de,
+        "The Book of the Law read for its extraterrestrial provenance, with the entranced priestess as the gate through which the energies flow"@en ;
+    dcterms:source "Grant, Hecate's Fountain (London: Skoob, 1992), Introduction; Part Two, AL in the Light of the Necronomicon Gnosis, chap. 3, Space Seed, pp. 74-75, and chap. 5, Spells of Hadit, p. 97; Part Three, The Outer Shadow, chap. 4, Dark Angel, pp. 169-171; read in a full-text layer of the first edition" ;
+    skos:definition "The third volume of the second trilogy announces that its second part interprets the Book of the Law not for its mundane implications but for its extraterrestrial provenance, and claims to be the first to attempt this. In that part Nuit is read as the source of energy from outside, and the pentagram as the red centre at which the extraterrestrial seed she transmits is manifested on earth; Hadit is read as the essence or seed of extraterrestrial intelligence that Nuit transmits to earth through the stars. The receiving instance named in the same passage is the dead Isis of the myth, read as the entranced priestess rigid in magical sleep, who is the gateway to space through which the energies of Nuit flow in, Amenta, the underworld in which she lies, being glossed as the dream state and the subconscious. The third part returns to both: in the rites of New Isis Lodge the officiating priestess, in the spider mask at the centre of the mandala, is said to control the rays of energy beaming from the ten directions of space; and, reporting Bertiaux, Aiwaz is to be invoked into the superconscious egoic mind-will and Choronzon into the unconscious id or imagination-will, so that the two forces aligned serve the magician as shield and lightning conductor, the supreme antenna, as the author puts it, on the pylon of the temple of intra-cosmic and extra-spatial research."@en ;
+    skos:note "This is the volume in which the transmission states the extraterrestrial reading most directly, and it is entered for the place it gives the receiver: a person in trance and a dream state, not an organ. The term nervous system does not occur in the volume, against four occurrences in the seven volumes read before; the term antenna occurs four times, twice for the antennae of a beetle and once for a masked dancer in ritual narratives, and once for the supreme antenna, which is a pair of forces in the mind-will and is credited to Bertiaux. Against the first clause of prima-materia#888 this is the second volume that puts the receiver outside physiology."@en ;
+    pm:fromWork pmw:HecatesFountain ;
+    pm:withinTradition pmt:TyphonianTradition .
+
 pmc:TyphonianSiriusCor a pm:Conceptualizing ;
     rdfs:label "Das Herz des thelemischen Stroms ist der Stern Sirius, und eine Loge wurde gegründet, um von jenseits Plutos zu empfangen"@de,
         "The heart of the Thelemic current is the star Sirius, and a lodge was founded to receive from beyond Pluto"@en ;
@@ -39040,6 +39176,15 @@ pmp:ChanYixingSanmei a pm:Practicing ;
     skos:definition "The two samadhis as the text defines them. The samadhi of one practice is to act always with one straight mind in every place, walking, standing, sitting and lying; the straight mind is the place of enlightenment and the pure land. The samadhi of one mark, added in the tenth chapter, is in every place not to dwell in marks, to have no love or hate toward them, nothing to take or reject, not to think of gain or loss, at ease, quiet, empty and plain."@en ;
     pm:fromWork pmw:LiuzuTanjing ;
     pm:withinTradition pmt:Chan .
+
+pmp:ChaosMagicIncantatioMemoriaFutura a pm:Practicing ;
+    rdfs:label "Der Zauber als Erinnerung an das eingetretene Ereignis formuliert"@de,
+        "The spell stated as a memory of the accomplished event"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, pp. 81-82; read in a full-text layer of the first edition" ;
+    skos:definition "The instruction drawn from the model: when enchanting for a future event, the magician is to establish, by visualisation coupled with gnosis, a future perception or memory of the event as having occurred, and not visualise the chain of events that would lead to it. A statement of intent in the form of a dated present, owning property at a named birthday, is preferred to a statement of will to become rich by that age, the first being said to engage the whole of entangled reality and the second only to improve one's choices."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:withinTradition pmt:ChaosMagic .
 
 pmp:DavisMagnetization a pm:Practicing ;
     rdfs:label "Das Magnetisieren des Subjekts in den Vortragszustand"@de,
@@ -41014,6 +41159,11 @@ pmw:CoffinTexts a dcterms:BibliographicResource ;
         "The Coffin Texts"@en ;
     skos:note "Named here as a work of the corpus and unopened. It is the layer between the Pyramid Texts and the Book of the Dead, and the transition is dated by both editors to the coffins of Horhotep and of Queen Mentuhotep."@en .
 
+pmw:CondensedChaos a dcterms:BibliographicResource ;
+    rdfs:label "Condensed Chaos"@de,
+        "Condensed Chaos: An Introduction to Chaos Magic"@en ;
+    skos:note "Hine. Tempe: New Falcon, 1995. Reachable as a full text; searched by term only on 2026-10-22, not opened."@en .
+
 pmw:CultsOfTheShadow a dcterms:BibliographicResource ;
     rdfs:label "Cults of the Shadow"@de,
         "Cults of the Shadow"@en ;
@@ -41055,16 +41205,6 @@ pmw:EvagriusKephalaiaGnosticaSyriac a dcterms:BibliographicResource ;
     rdfs:label "Evagrius, Kephalaia Gnostica in der syrischen Rezension"@de,
         "Evagrius, Kephalaia Gnostica in the Syriac recension"@en ;
     skos:note "Named by the registration and not opened in this run, and no access was looked for."@en .
-
-pmw:ExoPsychologyManual a dcterms:BibliographicResource ;
-    rdfs:label "Exo-Psychology"@de,
-        "Exo-Psychology: A Manual on the Use of the Human Nervous System According to the Instructions of the Manufacturers"@en ;
-    skos:note "Los Angeles: Starseed/Peace Press, 1977; reissued as Info-Psychology, 1987. The eight-circuit model with the seventh and eighth circuits as contact. Reachable as a full text; searched by term only in this run, not harvested."@en .
-
-pmw:HecatesFountain a dcterms:BibliographicResource ;
-    rdfs:label "Hecate's Fountain"@de,
-        "Hecate's Fountain"@en ;
-    skos:note "Third of the second trilogy. London: Skoob, 1992; Starfire, 2014. Unopened: no full text found at the open scan archive on 2026-10-21. In copyright and in print."@en .
 
 pmw:HiddenLoreCarfaxMonographs a dcterms:BibliographicResource ;
     rdfs:label "Hidden Lore: die Carfax Monographs"@de,
@@ -41160,12 +41300,12 @@ pmw:LiberGraduumMontisAbiegni a dcterms:BibliographicResource ;
 pmw:LiberKaos a dcterms:BibliographicResource ;
     rdfs:label "Liber Kaos"@de,
         "Liber Kaos"@en ;
-    skos:note "Carroll. York Beach: Weiser, 1992; the full text reached is the revised and expanded Weiser edition of 2023, so a wording taken from it would be the later text. Searched by term only, not opened."@en .
+    skos:note "Carroll. York Beach: Weiser, 1992. Searched by term on 2026-10-21 in the revised Weiser edition of 2023 and on 2026-10-22 in two further full-text layers of the text; one upload of 1992 carries only an epub with a damaged chapter file. Not opened."@en .
 
 pmw:LiberNullAndPsychonaut a dcterms:BibliographicResource ;
     rdfs:label "Liber Null and Psychonaut"@de,
         "Liber Null and Psychonaut"@en ;
-    skos:note "Carroll. York Beach: Samuel Weiser, 1987, two earlier booklets in one volume. Reachable as a full text; searched by term only, not opened."@en .
+    skos:note "Carroll. York Beach: Samuel Weiser, 1987, two earlier booklets in one volume. Reachable as a full text; searched by term only, on 2026-10-21 and again on 2026-10-22, not opened."@en .
 
 pmw:LiberXXXAerum a dcterms:BibliographicResource ;
     rdfs:label "Liber XXX Aerum vel Saeculi (Die Vision und die Stimme) sub figura CCCCXVIII"@de,
@@ -41258,10 +41398,15 @@ pmw:PgmXIII a dcterms:BibliographicResource ;
         "PGM XIII, the Leiden papyrus J 395"@en ;
     skos:note "Named here as a work of the corpus and unopened."@en .
 
-pmw:PrometheusRising a dcterms:BibliographicResource ;
-    rdfs:label "Prometheus Rising"@de,
-        "Prometheus Rising"@en ;
-    skos:note "Phoenix: Falcon, 1983. The exposition of the eight circuits with exercises. Reachable as a full text at the open scan archive; not opened in this run."@en .
+pmw:PrimeChaos a dcterms:BibliographicResource ;
+    rdfs:label "Prime Chaos"@de,
+        "Prime Chaos: Adventures in Chaos Magic"@en ;
+    skos:note "Hine. London: Chaos International, 1993; Tempe: New Falcon, 1999. The library scan of 1999 is lending-restricted; a second full-text layer was searched by term only on 2026-10-22, not opened."@en .
+
+pmw:PsyberMagick a dcterms:BibliographicResource ;
+    rdfs:label "PsyberMagick"@de,
+        "PsyberMagick: Advanced Ideas in Chaos Magic"@en ;
+    skos:note "Carroll. Tempe: New Falcon, 1995, reissued 1997. The library scan is lending-restricted; an upload of some eighty thousand characters without imprint was searched by term only on 2026-10-22, not opened."@en .
 
 pmw:PyramidTexts a dcterms:BibliographicResource ;
     rdfs:label "Die Pyramidentexte"@de,
@@ -41372,11 +41517,6 @@ pmw:Tanya a dcterms:BibliographicResource ;
     rdfs:label "Likkutei Amarim, Tanja, des Schneur Salman von Ljadi"@de,
         "Likkutei Amarim, Tanya, of Shneur Zalman of Liadi"@en ;
     skos:note "Named by the registration and not opened in this run. Reachable: the Sefaria library answered on 2026-10-15 with an index of the work in its five parts."@en .
-
-pmw:TheApophenion a dcterms:BibliographicResource ;
-    rdfs:label "The Apophenion"@de,
-        "The Apophenion: A Chaos Magic Paradigm"@en ;
-    skos:note "Carroll, 2008. The one work of the three that engages quantum physics at length and names Penrose, for time and not for microtubules. Reachable as a full text; searched by term only, not opened."@en .
 
 pmw:TheChakras a dcterms:BibliographicResource ;
     rdfs:label "The Chakras"@de,
@@ -41732,6 +41872,16 @@ pmc:ChanJianxingChengfo a pm:Conceptualizing ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:LiuzuTanjing ;
     pm:withinTradition pmt:Chan .
+
+pmc:ChaosMagicCohaerentiaNeurologica a pm:Conceptualizing ;
+    rdfs:label "Gnosis als neurologische Quantenkohärenz, und die Synapse als Dämpfer des Quantendenkens"@de,
+        "Gnosis as neurological quantum coherence, and the synapse as the damper of quantum thought"@en ;
+    dcterms:source "Carroll, The Octavo: A Sorcerer-Scientist's Grimoire, Roundworld Edition (Mandrake of Oxford, 2011), Magical Ritual part 1, Centring, p. 34, and chap. 4, The Spells of Subtle Magic, pp. 78-79; read in a full-text layer of that edition" ;
+    skos:definition "Two passages of the later work. At the centring, the single-pointed state called gnosis, equated with the dhyana of raja yoga and with samadhi, is offered in western terms as a neurological quantum coherence in which active parts of the brain enter a single quantum state or approach one. In the chapter on subtle magic, an enlarged indeterminacy is said to supply enough energy each second to drive some ten thousand neurones, so that the problem is no longer to find quantum activity in the brain but to explain why it does not overwhelm us; the damping is placed in the chemical synapses, which sufficient hallucinogens are said to switch off, after which thoughts arrive unbidden every second. Magicians are said to want a selective use of this function, for seeking visions or for implanting thoughts in the minds of others."@en ;
+    skos:note "The implanting of thoughts in another mind is a capacity, named here in passing; the procedure for it stands in the later chapters of the work, which were not read."@en,
+        "Where the work places the quantum event it names the synapse, not the microtubule, and it says so in the same paragraph that names the hallucinogen as the test. The nearest neurological site in the corpus to the sentence of prima-materia#888 is therefore a different one from the sentence's, and the sentence reads less as a garbled report of this passage than as the substitution of a better-known theory for it."@en ;
+    pm:fromWork pmw:TheOctavo ;
+    pm:withinTradition pmt:ChaosMagic .
 
 pmc:ChenLieJixing a pm:Conceptualizing ;
     rdfs:label "Chen Lie hatte nach einigen Monaten Sitzen in der Kammer ein vielfach stärkeres Gedächtnis"@de,
@@ -44402,16 +44552,36 @@ pmw:AlfTrisarSuialia a dcterms:BibliographicResource ;
         "Alf Trisar Šuialia, the Thousand and Twelve Questions"@en ;
     skos:note "Named here as a work of the corpus and not obtainable in this run. It is the priestly manual, and one of its parts carries the title Mhita u-Asuta, blow and healing, that is, ritual faults and their remedy. Drower's edition of 1960 exists in print; the lending scan answers 401 to its text file and the transliteration at the Comprehensive Aramaic Lexicon refuses automated retrieval. Two claims below are entered second-hand through the field monograph because of this, and they are the two that would be worth checking first once a copy is at hand."@en .
 
+pmw:ExoPsychologyManual a dcterms:BibliographicResource ;
+    rdfs:label "Exo-Psychology"@de,
+        "Exo-Psychology: A Manual on the Use of the Human Nervous System According to the Instructions of the Manufacturers"@en ;
+    skos:note "Los Angeles: Starseed/Peace Press, 1977; reissued as Info-Psychology, 1987. The eight-circuit model with the seventh and eighth circuits as contact. Searched by term on 2026-10-21; opened on 2026-10-22 at chap. 1 and at Stage 16, the rest searched by term, not harvested."@en .
+
 pmw:FetichismInWestAfrica a dcterms:BibliographicResource ;
     rdfs:label "Nassau, Fetichism in West Africa"@de,
         "Nassau, Fetichism in West Africa"@en ;
     skos:note "Access: archive.org identifier fetichisminwesta00nass, 961,833 characters over the regular _djvu.txt route. What was read at the wording: page 248, the enumeration of the secret societies of the Gabun region in chapter XV. The volume carries no occurrence of iboga or eboga. The rest is not opened."@en,
         "The edition as the title page in the full text gives it: Fetichism in West Africa, Forty Years' Observation of Native Customs and Superstitions, by Robert Hamill Nassau, forty years a missionary in the Gabun district of Kongo-Francaise, New York, Charles Scribner's Sons, 1904, published October 1904."@en .
 
+pmw:HecatesFountain a dcterms:BibliographicResource ;
+    rdfs:label "Hecate's Fountain"@de,
+        "Hecate's Fountain"@en ;
+    skos:note "Third of the second trilogy. London: Skoob, 1992; Starfire, 2014. No full text was found at the open scan archive on 2026-10-21 by title and author; on 2026-10-22 a scan of the first edition from the library of the Freiburg Institut für Grenzgebiete der Psychologie was found under a title naming the year 1993, with its imprint, contents and index in the text layer. Opened at the introduction, at two chapters of Part Two and at one of Part Three; the rest searched by term, not harvested. In copyright and in print."@en .
+
+pmw:InfoPsychology a dcterms:BibliographicResource ;
+    rdfs:label "Info-Psychology"@de,
+        "Info-Psychology: A Manual on the Use of the Human Nervous System According to the Instructions of the Manufacturers"@en ;
+    skos:note "Leary. Los Angeles and Phoenix: Falcon Press, 1987, the revision of Exo-Psychology, coordinated by Christopher Hyatt. Opened on 2026-10-22 at chap. 1 only, to compare the revised wording; the rest searched by term. Of two library scans under this title, one carries a Japanese translation behind English metadata."@en .
+
 pmw:Jataka a dcterms:BibliographicResource ;
     rdfs:label "Jātaka"@de,
         "Jātaka"@en ;
     skos:note "Opened on 2026-09-21 at story 49 only, in the English of Robert Chalmers under E. B. Cowell's editorship, volume I of 1895. The remaining five hundred and forty-six stories were not read. All six volumes are public domain and reachable by the regular route, which makes this the cheapest continuation for anything the canon states as doctrine and the Jātaka reports as a case."@en .
+
+pmw:PrometheusRising a dcterms:BibliographicResource ;
+    rdfs:label "Prometheus Rising"@de,
+        "Prometheus Rising"@en ;
+    skos:note "Phoenix: Falcon, 1983; the full text read is the New Falcon second edition with Regardie's introduction, without page numbers in its text layer. The exposition of the eight circuits with exercises. Opened on 2026-10-22 at chap. 2 and chap. 18, the rest searched by term."@en .
 
 pmw:SyllabusInstructionumAA a dcterms:BibliographicResource ;
     rdfs:label "A Syllabus of the Official Instructions of A∴A∴ Hitherto Published"@de,
@@ -45150,23 +45320,6 @@ pmt:EleusinianMysteries a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "The Athenian decree concerning Eleusis, IG I³ 6" .
 
-pmt:ExoPsychology a pm:Tradition ;
-    rdfs:label "Exo-Psychologie (Leary und Wilson)"@de,
-        "Exo-psychology (Leary and Wilson)"@en ;
-    dcterms:source "Leary, Starseed: A Psi Phy Comet Tale (San Francisco: Level Press, 1973), pp. 19-20; read in the full-text layer of a library scan" ;
-    skos:definition "The transmission of Timothy Leary's eight-circuit model of the nervous system and of Robert Anton Wilson's working of it: a reading of the nervous system as an instrument to be dialled and tuned, of DNA as a message from a higher intelligence, and of contact with that intelligence as the next evolutionary stage, carried in pamphlets and books from 1973 onward."@en ;
-    skos:note "Read in this run at the wording. Starseed: A Psi Phy Comet Tale, Transmitted from Folsom Prison (San Francisco: Level Press, 1973), the pamphlet whole, in the full-text layer of a library scan at the open scan archive. Cosmic Trigger I: Final Secret of the Illuminati (first published Berkeley: And/Or Press, 1977), read in the full-text layer of a scan of the re-edition carrying the preface written in Dublin in 1986, whose table of contents gives the pagination cited; the forewords, the prologue and the chapters named at the nodes were read, the rest searched by term. Exo-Psychology (Los Angeles: Starseed/Peace Press, 1977) was reached as a full text and searched by term only; Neurologic (1973) and Prometheus Rising (1983) were located and not opened."@en,
-        "The contact route is documented from inside the corpus: Cosmic Trigger quotes The Magical Revival and Aleister Crowley and the Hidden God by title and reports Grant's accounts of Crowley's contacts with higher intelligences as the source of what it calls the extraterrestrial theory. Whatever this transmission shares with the Typhonian one is reception, and what it added is held at the reworking node below."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:CosmicTriggerI,
-        pmw:ExoPsychologyManual,
-        pmw:Neurologic,
-        pmw:PrometheusRising,
-        pmw:Starseed ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:Starseed ;
-    pm:principalCorpus "Leary, Starseed; Leary, Neurologic; Leary, Exo-Psychology; Wilson, Cosmic Trigger I; Wilson, Prometheus Rising" .
-
 pmt:Platonic a pm:Tradition ;
     rdfs:label "Platonische Überlieferung"@de,
         "Platonic tradition"@en ;
@@ -45256,6 +45409,11 @@ pmw:Starseed a dcterms:BibliographicResource ;
     rdfs:label "Starseed: A Psi Phy Comet Tale"@de,
         "Starseed: A Psi Phy Comet Tale"@en ;
     skos:note "Twenty-four pages, published for Joanna Leary by Level Press, San Francisco, 1973, written in Folsom Prison on the occasion of the comet Kohoutek. Opened whole in this run."@en .
+
+pmw:TheOctavo a dcterms:BibliographicResource ;
+    rdfs:label "The Octavo"@de,
+        "The Octavo: A Sorcerer-Scientist's Grimoire"@en ;
+    skos:note "Carroll. The Roundworld Edition, Mandrake of Oxford, 2011, is the one read; its copyright page calls it a first edition. Opened on 2026-10-22 at the centring and at chap. 4; the rest searched by term."@en .
 
 pmc:AegyptiaPortaeNomina a pm:Conceptualizing ;
     rdfs:label "Ich lasse dich nicht vorbei, wenn du nicht meinen Namen nennst"@de,
@@ -46080,6 +46238,25 @@ pmp:TungusShamanizing a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:SiberianShamanism .
 
+pmt:ExoPsychology a pm:Tradition ;
+    rdfs:label "Exo-Psychologie (Leary und Wilson)"@de,
+        "Exo-psychology (Leary and Wilson)"@en ;
+    dcterms:source "Leary, Starseed: A Psi Phy Comet Tale (San Francisco: Level Press, 1973), pp. 19-20; read in the full-text layer of a library scan" ;
+    skos:definition "The transmission of Timothy Leary's eight-circuit model of the nervous system and of Robert Anton Wilson's working of it: a reading of the nervous system as an instrument to be dialled and tuned, of DNA as a message from a higher intelligence, and of contact with that intelligence as the next evolutionary stage, carried in pamphlets and books from 1973 onward."@en ;
+    skos:note "Read in this run at the wording. Starseed: A Psi Phy Comet Tale, Transmitted from Folsom Prison (San Francisco: Level Press, 1973), the pamphlet whole, in the full-text layer of a library scan at the open scan archive. Cosmic Trigger I: Final Secret of the Illuminati (first published Berkeley: And/Or Press, 1977), read in the full-text layer of a scan of the re-edition carrying the preface written in Dublin in 1986, whose table of contents gives the pagination cited; the forewords, the prologue and the chapters named at the nodes were read, the rest searched by term. Exo-Psychology (Los Angeles: Starseed/Peace Press, 1977) was reached as a full text and searched by term only; Neurologic (1973) and Prometheus Rising (1983) were located and not opened."@en,
+        "Read on 2026-10-22 at the wording, for the second clause of prima-materia#888. Exo-Psychology (Los Angeles: Starseed/Peace Press, 1977), chap. 1 and Stage 16, Neuroelectric Receptivity, in the full-text layer of a library scan; its revision Info-Psychology (Los Angeles and Phoenix: Falcon Press, 1987, third printing), chap. 1, in a second library scan, the first scan under that title carrying a Japanese translation; Prometheus Rising (Tempe: New Falcon, the second edition with the preface and Regardie's introduction), chap. 2 and chap. 18, in a full-text layer without page numbers, cited by chapter. Wilson, Quantum Psychology (Tempe: New Falcon, 1990), was searched by term only."@en,
+        "The contact route is documented from inside the corpus: Cosmic Trigger quotes The Magical Revival and Aleister Crowley and the Hidden God by title and reports Grant's accounts of Crowley's contacts with higher intelligences as the source of what it calls the extraterrestrial theory. Whatever this transmission shares with the Typhonian one is reception, and what it added is held at the reworking node below."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:CosmicTriggerI,
+        pmw:ExoPsychologyManual,
+        pmw:InfoPsychology,
+        pmw:Neurologic,
+        pmw:PrometheusRising,
+        pmw:Starseed ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:Starseed ;
+    pm:principalCorpus "Leary, Starseed; Leary, Neurologic; Leary, Exo-Psychology; Leary, Info-Psychology; Wilson, Cosmic Trigger I; Wilson, Prometheus Rising" .
+
 pmt:NeoplatonicTheurgy a pm:Tradition ;
     rdfs:label "Neuplatonische Theurgie"@de,
         "Neoplatonic theurgy"@en ;
@@ -46682,6 +46859,26 @@ pmp:Samyama a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:withinTradition pmt:PatanjalaYoga .
 
+pmt:ChaosMagic a pm:Tradition ;
+    rdfs:label "Chaosmagie"@de,
+        "Chaos magic"@en ;
+    dcterms:source "Carroll, The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008), chap. 5, Metadynamics, part 3, pp. 79-81; read in a full-text layer of the first edition" ;
+    skos:definition "The late twentieth century transmission treating belief as a tool to be adopted and discarded, and holding that the symbolic system employed is arbitrary if the technique is sound."@en ;
+    skos:note "Read in this run at the wording, on 2026-10-22. The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008, first edition, the date on the copyright page), chap. 5, Metadynamics, part 3, General Metadynamics and magic, pp. 77-82, in a full-text layer whose running heads carry the page; and The Octavo: A Sorcerer-Scientist's Grimoire, Roundworld Edition (Mandrake of Oxford, 2011, first edition), at Magical Ritual part 1, Centring, pp. 33-35, and chap. 4, The Spells of Subtle Magic, pp. 77-79. The rest of both works, and Liber Null and Psychonaut, Liber Kaos, PsyberMagick, Condensed Chaos and Prime Chaos, were searched by term only, as examinations/searches-chaos-magic.ttl states."@en,
+        "The claim that content is interchangeable and only technique carries effect is directly examinable, and if it held it would reorganise every convergence question the project asks."@en,
+        "The contact route is documented from inside the corpus: The Apophenion cites Liber Kaos, Ramsey Dukes and Penrose's Road to Reality in its notes, and Carroll's short essay Chaoism and Chaos Magic calls Bohr and Spare his saints; The Octavo takes its centring term Gnosis from western esotericism and equates it with dhyana and samadhi in the same sentence. Agreement with Thelema, the Typhonian corpus or the yogic material is reception."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:CondensedChaos,
+        pmw:LiberKaos,
+        pmw:LiberNullAndPsychonaut,
+        pmw:PrimeChaos,
+        pmw:PsyberMagick,
+        pmw:TheApophenion,
+        pmw:TheOctavo ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:TheApophenion ;
+    pm:principalCorpus "Spare, The Book of Pleasure; Carroll, Liber Null and Psychonaut; Carroll, Liber Kaos; Carroll, PsyberMagick; Carroll, The Apophenion; Carroll, The Octavo; Hine, Condensed Chaos; Hine, Prime Chaos" .
+
 pmt:NahuaRitual a pm:Tradition ;
     rdfs:label "Nahua-Ritualüberlieferung"@de,
         "Nahua ritual transmission"@en ;
@@ -46711,6 +46908,11 @@ pmw:FamaFraternitatis a dcterms:BibliographicResource ;
     rdfs:label "Fama Fraternitatis (1614)"@de,
         "Fama Fraternitatis (1614)"@en ;
     skos:note "Opened on 2026-09-30 and read complete in the English of Thomas Vaughan, London 1652. The work carries no internal division — no chapters, no numbered paragraphs — so a place in it is given by the passage and by the page of a named edition, and this file gives the passage. The German print of 1615 is available in the Internet Archive scan famafraternitati00andr and was consulted for the six articles only."@en .
+
+pmw:TheApophenion a dcterms:BibliographicResource ;
+    rdfs:label "The Apophenion"@de,
+        "The Apophenion: A Chaos Magic Paradigm"@en ;
+    skos:note "Carroll. Mandrake of Oxford, 2008. Opened on 2026-10-22 at chap. 5, part 3, pp. 77-82; the rest searched by term. Names Penrose three times: as the author of a sentence on time, in the bibliography for The Road to Reality, and in the index; never for microtubules."@en .
 
 pmp:TheosophyKundaliniArousal a pm:Practicing ;
     rdfs:label "Das Schlangenfeuer wecken und durch die Zentren fuehren"@de,
@@ -46860,12 +47062,6 @@ pmc:AyurvedaSmrtimedha a pm:Conceptualizing ;
     pm:fromWork pmw:CarakaSamhita ;
     pm:withinTradition pmt:Ayurvedic .
 
-pm:corpusUnreachable a pm:SearchOutcome ;
-    rdfs:label "Korpus nicht erreichbar"@de,
-        "Corpus unreachable"@en ;
-    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
-    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
-
 pmp:TiantaiZhiguan a pm:Practicing ;
     rdfs:label "Ruhe und Schau im Sitzen"@de,
         "Calming and contemplation in seated practice"@en ;
@@ -46924,6 +47120,12 @@ pmw:Tunnawiya a dcterms:BibliographicResource ;
         "Opened in full at the wording on 2026-10-06 in the only edition that carries transliteration and translation together: A. Goetze, interpreted in cooperation with E. H. Sturtevant, The Hittite Ritual of Tunnawi, American Oriental Series 14, New Haven: American Oriental Society 1938, with its text, translation, commentary and glossary read through, and the title page read in the full text and not in the catalogue entry. The tablet is the join the edition itself states, Bo 2062 (KUB 7.53) with Bo 2589 (KUB 12.58), which in the modern form is KUB 7.53+."@en,
         "The script dating of this composition is late. Of the fragments the concordance assigns to CTH 409 the great majority are catalogued as New Hittite copies, with a single Middle Hittite fragment; the tablet read here is in the late group. The composition is therefore attested essentially only in copies made long after the practitioner it names."@en,
         "This work carries a title of its own, which the others do not, and it is in the colophon: the first tablet of the ritual of uncleanness and of the ritual of the river, this being the one of Tunnawiya the Old Woman, complete, written by Pikku. The identifier still follows the rule stated at the instance, because the rule has to produce one identifier for a corpus in which four of five colophons give only the name."@en .
+
+pm:corpusUnreachable a pm:SearchOutcome ;
+    rdfs:label "Korpus nicht erreichbar"@de,
+        "Corpus unreachable"@en ;
+    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
+    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
 
 pmp:NippurGetAgainstDemons a pm:Practicing ;
     rdfs:label "Dem Dämon einen Scheidebrief schreiben"@de,
@@ -47069,35 +47271,6 @@ pmt:Dogon a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Griaule, Masques dogons; Griaule, Dieu d'eau; Griaule and Dieterlen, Le renard pâle; Dieterlen, Les âmes des Dogon; Griaule and Dieterlen, Un système soudanais de Sirius" .
 
-pmt:TyphonianTradition a pm:Tradition ;
-    rdfs:label "Typhonische Tradition (Kenneth Grant)"@de,
-        "Typhonian tradition (Kenneth Grant)"@en ;
-    dcterms:source "Grant, The Magical Revival (London: Frederick Muller, 1972), chap. 1, Return of the Phoenix, pp. 6-7 with n. 3; read in a full-text layer of the reprint named at this instance" ;
-    skos:definition "Grant's transmission of Thelema as the modern station of a Draconian or Typhonian current, read through tantric sexual magick, the nightside of the kabbalistic tree and contact with intelligences outside the earth, carried in nine volumes published between 1972 and 2002 and in the working of a lodge founded in 1955."@en ;
-    skos:note "Read in this run at the wording. The Magical Revival (first published London: Frederick Muller, 1972), read in a full-text layer at the open scan archive of a reprint whose errata note calls it a direct reprint of the 1972 first edition with that edition's pagination; the imprint of the reprint is not in the text layer. The carrier marks only every second page break, so pages from it are given as the two-page span the marker allows. The Weiser edition of 1973 lies in the same archive under a lending restriction and was not read. Outside the Circles of Time (London: Frederick Muller, 1980), read in a full-text layer of the first edition with its running heads, which carry the page. Of both works the chapters named at the nodes were read; the rest of each was searched by term only, as the search nodes in examinations/searches-typhonian.ttl state."@en,
-        "Searched by term only and not harvested: Cults of the Shadow (1975), Nightside of Eden (1977, in the Skoob edition of 1994), Outer Gateways (1994), Beyond the Mauve Zone (1999) and The Ninth Arch (2002), each reachable as a full text. They stand as work identifiers below without pm:fromWork, and queries/unopened-works.rq carries them. The reason is scope, not the works: this file was opened against one sentence, and the harvest of five further volumes is a run of its own."@en,
-        "The contact route is documented from inside the corpus and needs no secondary literature. The Magical Revival likens Aiwaz to the Dhyan Chohans that used Blavatsky as a channel, credits the correspondence between chakras and endocrine glands to Dion Fortune and quotes her for the only receiver image in the book, reads the kalas out of the tantras, and names Crowley, Spare, Fortune, Achad and Lovecraft as its sources throughout. Outside the Circles of Time cites The Secret Doctrine by page. An agreement between this transmission and Thelema, Theosophy or the tantric material is therefore reception and counts for no convergence."@en,
-        "What the entry is for. The transmission is cited outside as the origin of the idea that the nervous system is an antenna for extraterrestrial forces. The wording found runs otherwise: the receiving organ is the astral consciousness, the psycho-sensory apparatus, the chakras in extra-physical dimensions, and the artist as a sensitive machine; the nervous system is named as what mind exists independently of. The claim and its negation stand at the nodes below, and the sentence that occasioned the file is held at prima-materia#888."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:AleisterCrowleyAndTheHiddenGod,
-        pmw:BeyondTheMauveZone,
-        pmw:CultsOfTheShadow,
-        pmw:HecatesFountain,
-        pmw:HiddenLoreCarfaxMonographs,
-        pmw:ImagesAndOraclesOfAustinOsmanSpare,
-        pmw:LamStatement,
-        pmw:MagicalRevival,
-        pmw:ManifestoOfNewIsisLodge,
-        pmw:NightsideOfEden,
-        pmw:OuterGateways,
-        pmw:OutsideTheCirclesOfTime,
-        pmw:RememberingAleisterCrowley,
-        pmw:TheNinthArch,
-        pmw:ZosSpeaks ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:MagicalRevival ;
-    pm:principalCorpus "Grant, The Magical Revival; Grant, Aleister Crowley and the Hidden God; Grant, Cults of the Shadow; Grant, Nightside of Eden; Grant, Outside the Circles of Time; Grant, Hecate's Fountain; Grant, Outer Gateways; Grant, Beyond the Mauve Zone; Grant, The Ninth Arch; Grant, Images and Oracles of Austin Osman Spare; Grant, Remembering Aleister Crowley; Kenneth and Steffi Grant, Zos Speaks!; Kenneth and Steffi Grant, the Carfax Monographs (Hidden Lore); Grant, Manifesto of New Isis Lodge; Grant, The LAM Statement" .
-
 pmw:GaudapadaSamkhyakarikabhasya a dcterms:BibliographicResource ;
     rdfs:label "Gauḍapāda, Sāṃkhyakārikābhāṣya"@de,
         "Gauḍapāda, Sāṃkhyakārikābhāṣya"@en ;
@@ -47189,6 +47362,36 @@ pmt:TibetanTantric a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "Tsongkhapa, A Book of Three Inspirations; the Bar do thos grol in the Karma Lingpa recension; Patrul Rinpoche, Kun bzang bla ma'i zhal lung" .
+
+pmt:TyphonianTradition a pm:Tradition ;
+    rdfs:label "Typhonische Tradition (Kenneth Grant)"@de,
+        "Typhonian tradition (Kenneth Grant)"@en ;
+    dcterms:source "Grant, The Magical Revival (London: Frederick Muller, 1972), chap. 1, Return of the Phoenix, pp. 6-7 with n. 3; read in a full-text layer of the reprint named at this instance" ;
+    skos:definition "Grant's transmission of Thelema as the modern station of a Draconian or Typhonian current, read through tantric sexual magick, the nightside of the kabbalistic tree and contact with intelligences outside the earth, carried in nine volumes published between 1972 and 2002 and in the working of a lodge founded in 1955."@en ;
+    skos:note "Read in this run at the wording. The Magical Revival (first published London: Frederick Muller, 1972), read in a full-text layer at the open scan archive of a reprint whose errata note calls it a direct reprint of the 1972 first edition with that edition's pagination; the imprint of the reprint is not in the text layer. The carrier marks only every second page break, so pages from it are given as the two-page span the marker allows. The Weiser edition of 1973 lies in the same archive under a lending restriction and was not read. Outside the Circles of Time (London: Frederick Muller, 1980), read in a full-text layer of the first edition with its running heads, which carry the page. Of both works the chapters named at the nodes were read; the rest of each was searched by term only, as the search nodes in examinations/searches-typhonian.ttl state."@en,
+        "Read on 2026-10-22, for the first and second clause of prima-materia#888: Hecate's Fountain (London: Skoob, 1992), the introduction, Part Two, chaps. 3 and 5, and Part Three, chap. 4, at the wording, the whole searched by term; Against the Light (1997), the novel, searched by term only. Neither names the nervous system once; Hecate's Fountain reads the Book of the Law for its extraterrestrial provenance and puts the receiver in an entranced priestess, at the node below."@en,
+        "Searched by term only and not harvested: Cults of the Shadow (1975), Nightside of Eden (1977, in the Skoob edition of 1994), Outer Gateways (1994), Beyond the Mauve Zone (1999) and The Ninth Arch (2002), each reachable as a full text. They stand as work identifiers below without pm:fromWork, and queries/unopened-works.rq carries them. The reason is scope, not the works: this file was opened against one sentence, and the harvest of five further volumes is a run of its own."@en,
+        "The contact route is documented from inside the corpus and needs no secondary literature. The Magical Revival likens Aiwaz to the Dhyan Chohans that used Blavatsky as a channel, credits the correspondence between chakras and endocrine glands to Dion Fortune and quotes her for the only receiver image in the book, reads the kalas out of the tantras, and names Crowley, Spare, Fortune, Achad and Lovecraft as its sources throughout. Outside the Circles of Time cites The Secret Doctrine by page. An agreement between this transmission and Thelema, Theosophy or the tantric material is therefore reception and counts for no convergence."@en,
+        "What the entry is for. The transmission is cited outside as the origin of the idea that the nervous system is an antenna for extraterrestrial forces. The wording found runs otherwise: the receiving organ is the astral consciousness, the psycho-sensory apparatus, the chakras in extra-physical dimensions, and the artist as a sensitive machine; the nervous system is named as what mind exists independently of. The claim and its negation stand at the nodes below, and the sentence that occasioned the file is held at prima-materia#888."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:AleisterCrowleyAndTheHiddenGod,
+        pmw:BeyondTheMauveZone,
+        pmw:CultsOfTheShadow,
+        pmw:HecatesFountain,
+        pmw:HiddenLoreCarfaxMonographs,
+        pmw:ImagesAndOraclesOfAustinOsmanSpare,
+        pmw:LamStatement,
+        pmw:MagicalRevival,
+        pmw:ManifestoOfNewIsisLodge,
+        pmw:NightsideOfEden,
+        pmw:OuterGateways,
+        pmw:OutsideTheCirclesOfTime,
+        pmw:RememberingAleisterCrowley,
+        pmw:TheNinthArch,
+        pmw:ZosSpeaks ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:MagicalRevival ;
+    pm:principalCorpus "Grant, The Magical Revival; Grant, Aleister Crowley and the Hidden God; Grant, Cults of the Shadow; Grant, Nightside of Eden; Grant, Outside the Circles of Time; Grant, Hecate's Fountain; Grant, Outer Gateways; Grant, Beyond the Mauve Zone; Grant, The Ninth Arch; Grant, Images and Oracles of Austin Osman Spare; Grant, Remembering Aleister Crowley; Kenneth and Steffi Grant, Zos Speaks!; Kenneth and Steffi Grant, the Carfax Monographs (Hidden Lore); Grant, Manifesto of New Isis Lodge; Grant, The LAM Statement" .
 
 pmt:Vodun a pm:Tradition ;
     rdfs:label "Fon-Vodun-Überlieferung"@de,
@@ -48264,11 +48467,6 @@ pm:mediatedAttestation a pm:Attesting ;
         "Every claim carrying this mode must name the intermediary with pm:readVia, enforced by pm:MediatedAttestationShape. dcterms:source keeps naming the work that carries the claim, because that is what a later reader must obtain; pm:readVia names what the writer of the node actually had in front of him. Collapsing the two would hide exactly the fact this mode exists to record."@en,
         "Weaker than pm:textualAttestation and stronger than nothing, and the record has to be able to say which of the two it has. A claim read through an intermediary carries that intermediary's selection, its translation and its silence; a reader who cannot see that the passage came second-hand cannot weigh any of it."@en .
 
-pm:searchFoundOpposing a pm:SearchOutcome ;
-    rdfs:label "Suche mit Gegenfund"@de,
-        "Search found opposing material"@en ;
-    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
-
 pmt:RabbinicHalakhah a pm:Tradition ;
     rdfs:label "Rabbinische halachische Ueberlieferung"@de,
         "Rabbinic halakhic transmission"@en ;
@@ -48288,6 +48486,11 @@ pmt:RabbinicHalakhah a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:MishnahSanhedrin ;
     pm:principalCorpus "Mishnah, tractate Sanhedrin; Tosefta, tractate Sanhedrin; Babylonian Talmud, tractate Sanhedrin; Palestinian Talmud, tractate Sanhedrin; Sifre Deuteronomium" .
+
+pm:searchFoundOpposing a pm:SearchOutcome ;
+    rdfs:label "Suche mit Gegenfund"@de,
+        "Search found opposing material"@en ;
+    skos:definition "A passage was found that tells against the question as it was put, rather than answering it. The commonest shape of a productive search and the one an unrecorded search loses entirely."@en .
 
 pmt:Tiantai a pm:Tradition ;
     rdfs:label "Tiantai"@de,
@@ -48435,15 +48638,15 @@ pmt:Enochic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pm:corpusNamed a pm:CoverageState ;
     rdfs:label "Korpus benannt"@de,
         "Corpus named"@en ;
     skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmt:Thelema a pm:Tradition ;
     rdfs:label "Thelema"@de,
@@ -48754,17 +48957,17 @@ pmw:SecretScienceBehindMiracles a dcterms:BibliographicResource ;
         "The edition as the title page in the full text gives it: The Secret Science Behind Miracles, by Max Freedom Long, author of Recovering the Ancient Magic, Kosmon Press, Los Angeles 6, California, 2208 West 11th St., with the year given in brackets as 1948. The text says in chapter XIX that it was written in 1947."@en,
         "What was read at the wording: in chapter I the passage on the dictionary of 1865 and the root translation of unihipili and uhane; chapters II, III, IV, X, XI, XV, XVIII, XIX and XXII entire; and chapter XXI. Not read: the rest of chapter I, chapters V to IX, XII to XIV, XVI, XVII, XX and the appendix of Hawaiian words, about half the book; read only at single sentences found by term search are chapters V, VII, IX, XII, XVI and XVII, and no node stands on them."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pmw:PapyrusLondonLeiden a dcterms:BibliographicResource ;
     rdfs:label "Papyrus von London und Leiden (PDM xiv)"@de,
         "Papyrus of London and Leiden (PDM xiv)"@en ;
     skos:note "One manuscript in two museums, of the third century of this era, twenty-nine columns on the recto and thirty-three short columns on the verso. Opened on 2026-09-18 in the edition of Griffith and Thompson, volume I of 1904, which prints transliteration, translation and notes; the translation was read throughout and the transliteration was not used. The editors state that the language makes it difficult to believe that any part of the work in its present redaction is more than a century or two older than the papyrus itself."@en,
         "The nodes read off it stand in traditions/demotic-magical-papyri.ttl."@en,
         "What the reading covered and what it left: the whole of the translation of the recto, columns I to XXIX, and of the verso, columns I to XXXIII, was read at the wording. Not read: the transliteration on the facing pages and the philological notes beneath both, except where a note bears on a passage entered; the introduction, apart from its account of the manuscript and its table of contents; and the glossary volume of 1909, which was not obtained. The digitised copy used is an optical transcription and its rendering of the transliterated demotic is not trustworthy at the level of single letters, which is why no node in this holding reproduces a demotic form from it."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pm:Testing a owl:Class ;
     rdfs:label "Prüfen"@de,
@@ -48881,11 +49084,6 @@ pm:contactRouteDocumented a pm:ContactRoute ;
         "Contact route documented"@en ;
     skos:definition "A route of transmission to traditions already held is documented. Agreement with them counts as reception."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pmt:GreekMagicalPapyri a pm:Tradition ;
     rdfs:label "Griechische und demotische Zauberpapyri"@de,
         "Greek and demotic magical papyri"@en ;
@@ -48905,6 +49103,11 @@ pmt:GreekMagicalPapyri a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:PgmIv ;
     pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the ascent ritual at PGM IV.475-829" .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:Naming a owl:Class ;
     rdfs:label "Benennen"@de,
