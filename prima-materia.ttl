@@ -3023,6 +3023,232 @@ pmc:AlvarYokikalCaution a pm:Cautioning ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
 
+pmc:AnalyticalPsychologyAbraxasCaution a pm:Cautioning ;
+    rdfs:label "Abraxas sehen heißt Blindheit, ihn erkennen Krankheit, ihn anbeten Tod"@de,
+        "To look upon Abraxas is blindness, to know him sickness, to worship him death"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:note "The first three of the five equations of the third address, ihn sehen heißt Blindheit, ihn erkennen heißt Krankheit, ihn anbeten heißt Tod; the last two, fear and non-resistance, are entered as yieldings. The work itself names him, describes him at length and so looks upon him, which makes the caution in part a warning against what the address is doing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:AnalyticalPsychologyAbraxas ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyAugenAbwendenPresupposed a pm:Presupposing ;
+    rdfs:label "Nichts steht zwischen dem Menschen und seinem einen Gott, sofern er die Augen von Abraxas abwenden kann"@de,
+        "Nothing stands between man and his one god while he can turn his eyes from Abraxas"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:note "A condition stated as a proviso (sofern; Baynes so long as, Oliveira conquanto) with no consequence named for its failure, so prescribed order and not stated necessity. It is the only condition the work attaches to its own prayer."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:AnalyticalPsychologyGebetZumStern ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:AnalyticalPsychologyAugenAbwenden ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyBasilidesReceiving a pm:Receiving ;
+    rdfs:label "Die sieben Reden sollen von Basilides in Alexandria geschrieben sein"@de,
+        "The seven addresses are said to be written by Basilides of Alexandria"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), title and Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German subtitle and recension read in Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 514-516 and 521, notes 81 and 88" ;
+    skos:definition "The work states on its title that it was written by Basilides of Alexandria, the city at the meeting of East and West, and, in the German subtitle the editor of the Red Book reports from the print, that it was translated from the Greek original into German; within the addresses a first-person teacher receives the dead at night and teaches them. Jung's name stands nowhere but in the anagram at the end."@en ;
+    skos:note "Baynes and Oliveira both carry the attribution to Basilides in the title; the German subtitle naming a translation from the Greek is read only in the editor's note 81, because the print's own German was not reachable. In the Red Book recension the teacher is Philemon (written there as a Greek-lettered name), and the editor's note 88 says that the printed version drops him, so that Basilides was taken for the speaker. Memories, Dreams, Reflections, in the editor's preface to Appendix V, calls the identification with Basilides a deliberate game of mystification; that is the editor's word and not the work's."@en,
+        "Recorded as a claim the work makes about itself and not as its source. The citations of this file name Jung as the author because that is what a reader can find."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:claimedSpeaker "Basilides in Alexandria, the second-century Gnostic teacher, as writer; in the Red Book recension the teacher Philemon" ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:receivedBy "C. G. Jung, named only in the closing anagram, who had the addresses printed and gave copies to friends" ;
+    pm:receptionCircumstance "The print gives none beyond the title: a writing of Basilides, rendered from the Greek. The recension in the Red Book places the seven addresses on seven nights between 30 January and 8 February 1916, with the dead arriving at the speaker's house, the teacher appearing beside him, and a dialogue after each address; that framing is absent from the print." ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyBelehrungZaumYielding a pm:Yielding ;
+    rdfs:label "Das gelehrte Wissen soll das Denken im Zaume halten lassen"@de,
+        "The knowledge taught is said to let one hold one's thinking in check"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 521" ;
+    skos:note "The closing sentence of the first address and the stated purpose of all seven: knowledge is taught with which the hearers can rein in their thinking. Baynes: hold your thought in leash; Oliveira: manter o vosso pensamento sob controlo; German recension: im Zaume halten."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyBelehrung ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyDenkenImZaume .
+
+pmc:AnalyticalPsychologyEinerGottCaution a pm:Cautioning ;
+    rdfs:label "Wehe denen, die die vielen Götter durch einen ersetzen: Qual und verstümmeltes Wesen"@de,
+        "Woe to those who replace the many gods by one: torment and a maimed nature"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 532" ;
+    skos:note "Fourth address: replacing the incompatible many by one begets the torment of not understanding and mutilates the creature, whose nature is distinctiveness; what is done to the gods is done to those who do it, and they are all made equal. The warning comes with a consequence and is aimed at a practice the hearers are said to have followed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyEinerGott ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyEinzelseinYielding a pm:Yielding ;
+    rdfs:label "Das richtige Maß im Einzelsein soll reinigen, hinzufügen, Licht geben und jeden zu sich selber kommen lassen"@de,
+        "Singleness in right measure is said to purify, increase, give light and let each come to himself"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyEinzelsein ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyReinigenUndHinzufuegen,
+        pmc:AnalyticalPsychologyZuSichSelberKommen .
+
+pmc:AnalyticalPsychologyFuerchtenWeisheitYielding a pm:Yielding ;
+    rdfs:label "Den Abraxas fürchten soll Weisheit sein"@de,
+        "Fearing Abraxas is said to be wisdom"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:note "The fourth of five equations in the third address, ihn fürchten heißt Weisheit; Baynes and Oliveira render all five in the same order."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyAbraxasFuerchten ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyWeisheit .
+
+pmc:AnalyticalPsychologyGebetSternYielding a pm:Yielding ;
+    rdfs:label "Das Gebet zum Stern soll sein Licht mehren, den Tod überbrücken, das innere Leben bereiten und das hoffnungslose Wünschen mindern"@de,
+        "Prayer to the star is said to increase its light, bridge death, prepare the inner life and lessen hopeless wishing"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:note "Four effects in one sentence of the seventh address, the same four in the same order in all three texts. Nothing in the address names a term, a manner or a mark by which the one who prays would know the light had grown; the next sentence says only that the star shines when the greater world grows cold, which is a statement about the star and not a sign offered to the one praying."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyGebetZumStern ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyBrueckeUeberDenTod,
+        pmc:AnalyticalPsychologyHoffnungslosesWuenschen,
+        pmc:AnalyticalPsychologyLebenDerKleinerenWelt,
+        pmc:AnalyticalPsychologyLichtDesSternes .
+
+pmc:AnalyticalPsychologyGemeinschaftTest a pm:Testing ;
+    rdfs:label "Leiden und Krankheit ohne Gemeinschaft"@de,
+        "Suffering and sickness without communion"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:definition "The one claim of the work that names an outcome observable in a living person: that the absence of communion is suffering and sickness. The address states it as an identity and not as a consequence after a term."@en ;
+    skos:note "No case series exists and none is proposed here. Modern work on isolation and health exists and has not been read for this protocol; it would enter at pm:evidenceFrom with its counter-search."@en,
+        "What weakens it is the measure. The same address makes communion beyond what the gods compel an evil and prescribes singleness in its right measure, so that a person living apart without suffering could be read as living in right singleness and not without communion. A protocol would have to fix in advance what counts as no communion, by the address's own contrast with singleness, before looking for suffering or sickness."@en ;
+    pm:examinationState pm:procedureWithoutCases ;
+    pm:examinedBy "prima-materia, protocol stated from the witness; no case series has been collected" ;
+    pm:falsifiedBy "A person living without any communion, in the sense the address sets against singleness, who shows neither suffering nor sickness." ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:protocolUpdated "2026-10-28"^^xsd:date ;
+    pm:tests pmc:AnalyticalPsychologyGemeinschaftCaution .
+
+pmc:AnalyticalPsychologyGemeinschaftYielding a pm:Yielding ;
+    rdfs:label "Das richtige Maß in Gemeinschaft soll reinigen, erhalten und Wärme geben"@de,
+        "The right measure of communion is said to purify, preserve and give warmth"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyGemeinschaft ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyReinigenUndErhalten .
+
+pmc:AnalyticalPsychologyGoetterVerehrenCaution a pm:Cautioning ;
+    rdfs:label "Die Vielheit der Götter zu verehren lohnt nicht"@de,
+        "Worshipping the many gods does not serve"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 532-533" ;
+    skos:note "Fourth address: just as it does not serve to reflect on the pleroma, it does not serve to worship the many gods, after the address has just taught that they are many. The first god is singled out as least worth worshipping, and that part carries a stated outcome and is entered as the condition of failure pmc:AnalyticalPsychologyGebetNichtsDazu."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyGebetZumGottSonne ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyGottSonneCaution a pm:Cautioning ;
+    rdfs:label "Alles, was vom Gott Sonne erbeten wird, zeugt eine Tat des Teufels"@de,
+        "Whatever is entreated of the sun-god begets a deed of the devil"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:note "Third address, three sentences: upon every gift of the sun-god the devil sets his curse; whatever is asked of the sun-god begets a deed of the devil; whatever is created with the sun-god gives the devil power to act. Baynes and the German recension carry all three. Oliveira carries the first two, in the other order, and omits the third."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyGebetZumGottSonne ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyKreaturPresupposed a pm:Presupposing ;
+    rdfs:label "Ohne Unterscheiden löst sich die Kreatur auf"@de,
+        "Without distinguishing, the creature dissolves"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 518-519" ;
+    skos:note "Asked by the dead what harm there is in not distinguishing, the first address answers with a consequence and a measure: one goes beyond one's own nature, falls into indistinctness, ceases to be a creature and is handed over to dissolving into nothing; and one dies in the measure that one does not distinguish. The three texts agree."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The creature falls into the indistinctness of the pleroma, ceases to be a creature and dissolves into nothingness, which the address calls the death of the creature; it dies in the measure that it fails to distinguish." ;
+    pm:dependentStep pmc:AnalyticalPsychologyKreaturBleiben ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:AnalyticalPsychologyUnterscheiden ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyMannWeibCaution a pm:Cautioning ;
+    rdfs:label "Mann und Weib werden einander zum Teufel, wenn sie ihre Wege nicht trennen"@de,
+        "Man and woman become devils to each other if they do not separate their ways"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 535-536" ;
+    skos:note "Fifth address, twice: if they do not divide their spiritual ways, and again if they do not distinguish their sexuality. With it the address calls lying and devilish a man's spirituality that goes to the smaller and a woman's that goes to the greater, and bids each keep to its proper place."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyUnterscheiden ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyMutterPhallosCaution a pm:Cautioning ;
+    rdfs:label "Wer sich von Geistigkeit und Geschlechtlichkeit nicht unterscheidet, verfällt ihnen"@de,
+        "Who does not distinguish himself from spirituality and sexuality falls to them"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 536-537" ;
+    skos:note "Fifth address: unless one sets oneself apart from them and regards them as beings above and around oneself, one falls to them as if they were qualities of the pleroma; they are daemons that possess and contain a man, and no one escapes them. Oliveira renders the outcome as becoming their victims."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyUnterscheiden ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyNichtWiderstehenErloesungYielding a pm:Yielding ;
+    rdfs:label "Dem Abraxas nicht widerstehen soll Erlösung sein"@de,
+        "Not resisting Abraxas is said to be redemption"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:note "The last of the five equations of the third address, ihm nicht widerstehen heißt Erlösung."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyAbraxasNichtWiderstehen ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyErloesung .
+
+pmc:AnalyticalPsychologyPleromaDenkenCaution a pm:Cautioning ;
+    rdfs:label "Über das Pleroma nachzudenken lohnt nicht und hieße sich selbst auflösen"@de,
+        "Thinking about the pleroma is fruitless and would mean dissolving oneself"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I and IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 516-518 and 532" ;
+    skos:note "A self-warning in the strict sense SPEC §15 asks for: the first address warns against thinking upon the pleroma and then speaks of it for pages, answering the dead's objection by saying that it speaks of it only to begin somewhere and to free them from the delusion that it can be thought. The fourth address repeats that reflecting on the pleroma does not serve."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyPleromaDenken ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyUnterscheidenErloesungYielding a pm:Yielding ;
+    rdfs:label "Die Unterscheidung von den Eigenschaften soll erlösen"@de,
+        "Being distinguished from the qualities is said to deliver"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 520" ;
+    skos:note "German recension: Unterscheidung von ihnen erlöst. Baynes renders it as the being distinguished from them that delivers; Oliveira makes it conditional, that salvation is had if one manages to distinguish oneself from them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyUnterscheiden ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyErloesung .
+
+pmc:AnalyticalPsychologyWesenZielYielding a pm:Yielding ;
+    rdfs:label "Das Streben nach dem eigenen Wesen soll zum richtigen Ziel bringen"@de,
+        "Striving after one's own being is said to bring one to the right goal"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 521" ;
+    skos:note "Stated as a counterfactual in all three texts: if you had this striving, you would need no knowledge of the pleroma and would still come to the right goal. The work then says it must teach that knowledge after all, because thinking estranges from being; see pmc:AnalyticalPsychologyBelehrungZaumYielding."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:AnalyticalPsychologyStrebenNachDemEigenenWesen ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology ;
+    pm:yieldsCapacity pmc:AnalyticalPsychologyRichtigesZiel .
+
+pmc:AnalyticalPsychologyWirksameFuellePresupposed a pm:Presupposing ;
+    rdfs:label "Ohne Gott zu unterscheiden, ist die wirksame Fülle für uns aufgehoben"@de,
+        "Without distinguishing god, his effective fullness is cancelled for us"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo II; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 523" ;
+    skos:note "Second address: what is not distinguished falls into the pleroma and is cancelled by its opposite, and therefore if god is not distinguished his effective fullness is extinguished for us. Oliveira renders it as plenitude without the adjective."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "The effective fullness that god is falls back into the pleroma, is cancelled by its opposite and is extinguished for those who did not distinguish him." ;
+    pm:dependentStep pmc:AnalyticalPsychologyWirksameFuelle ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:AnalyticalPsychologyUnterscheiden ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
 pmc:AnapanasatiDukkara a pm:Cautioning ;
     rdfs:label "Der Atemgegenstand wird im Kapitel, das ihn lehrt, als kein Feld für geringe Personen erklärt"@de,
         "The breathing subject is declared no field for inferior persons, in the chapter that teaches it"@en ;
@@ -44017,6 +44243,52 @@ pmp:AlvarSuccessSignSearch a pm:Searching ;
     pm:searchedCorpus "Nammāḻvār, Tiruvāymoḻi, the whole work in the English of Srirama Bharati and Sowbhagya Lakshmi, Melkote 1987, with the places found read in the Tamil of the Project Madurai edition and in the English of S. Satyamurthi Ayyangar, Bombay 1981" ;
     pm:searchedFor "A perceptible mark, announced or reported, by which the work says that the lord's favour has been received or that a practice has taken: a light, a scent, a colour, a sound, a bodily change." .
 
+pmp:AnalyticalPsychologyFailureSearch a pm:Searching ;
+    rdfs:label "Ob die Septem Sermones eine Bedingung nennen, unter der eine Praxis misslingt"@de,
+        "Whether the Septem Sermones state a condition under which a practice fails"@en ;
+    dcterms:date "2026-10-28" ;
+    skos:note "Three conditions of failure, two in the first address and one in the fourth. None is stated against the prayer to the star that the seventh address prescribes; the only condition attached to that prayer is a proviso without a consequence, entered as pmc:AnalyticalPsychologyAugenAbwendenPresupposed. Consequences of omitting the work's central act, distinguishing, are entered as chains and cautions and not counted here, because they name what follows from not doing it and not how doing it could be seen to fail."@en ;
+    pm:searchOutcome pm:searchFoundPlace ;
+    pm:searchTerms "All seven addresses read whole in all three texts. Counted in addition over the Baynes text: fail (none), vain (none), unless (none), profit (one), avail (two), serve (one), nothing (twenty), not (thirty-eight, read at each); over the Portuguese: fracass (none), em vão (none), inútil (three); over the German: umsonst (none), vergeblich (none), lohnt (four), nützt (one). The German count includes the commentary of Philemon, which is not part of the print." ;
+    pm:searchYieldedNode pmc:AnalyticalPsychologyGebetNichtsDazu,
+        pmc:AnalyticalPsychologyGegensatzpaarErfassen,
+        pmc:AnalyticalPsychologyVerschiedenheitDenken ;
+    pm:searchedBy "prima-materia, 2026-10-28" ;
+    pm:searchedCorpus "C. G. Jung, Septem Sermones ad Mortuos, Sermo I-VII, whole, in the English of H. G. Baynes (Memories, Dreams, Reflections, rev. ed., Vintage Books, Appendix V) and the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016), and in the German of the Prüfungen recension of the Red Book, German edition ed. Sonu Shamdasani, pp. 514-541" ;
+    pm:searchedFor "A passage that names an outcome by which a practice the work prescribes or rejects would be seen not to have worked, and the reason given for it: a null result, an opposite result, a term after which nothing comes." .
+
+pmp:AnalyticalPsychologyPrintGermanSearch a pm:Searching ;
+    rdfs:label "Ob der deutsche Wortlaut des Drucks der Septem Sermones von 1916 erreichbar ist"@de,
+        "Whether the German wording of the 1916 print of the Septem Sermones is reachable"@en ;
+    dcterms:date "2026-10-28" ;
+    skos:note "A finding about the uploads at one archive and not about the work: the German print exists in the 1962 memoir and is held there behind a lending restriction. Not tried: other digitisation projects, which for a work whose author died in 1961 are unlikely to hold an open German text before the term of protection ends. What the recension supplies in its place, and where it differs from the print by the editor's account, is stated at pmw:AnalyticalPsychologySeptemSermones."@en ;
+    pm:searchOutcome pm:corpusUnreachable ;
+    pm:searchTerms "Title searches for septem sermones, sermones ad mortuos, seven sermons to the dead, Belehrungen der Toten, erinnerungen träume gedanken, rote buch with creator jung; a creator search for Jung restricted to German. Found: erinnerungentr00jung (German, 1962) and viisermonesadmor0000jung (Baynes, 1967), both access-restricted in their metadata; memoriesdreamsre0000jung_o1c5, access-restricted; the German Red Book under c.-g.-jung-liber-novum-das-rote-buch-text-ganz-pdf, open, which carries the recension and not the print." ;
+    pm:searchedBy "prima-materia, 2026-10-28" ;
+    pm:searchedCorpus "The Internet Archive, its catalogue and metadata, for carriers of the German text of C. G. Jung, Septem Sermones ad Mortuos, and of Jung, Erinnerungen, Träume, Gedanken, ed. Aniela Jaffé (1962), whose English edition says in its Appendix V that Jung consented to print the addresses in the memoir" ;
+    pm:searchedFor "An open full text carrying the German wording of the privately printed Septem Sermones, so that the two translations could be read against the print and not against the Red Book recension." .
+
+pmp:AnalyticalPsychologyStrebenNachDemGuten a pm:Practicing ;
+    rdfs:label "Das Streben nach dem Guten und Schönen"@de,
+        "Striving after the good and the beautiful"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 520" ;
+    skos:definition "The pursuit the first address sets against distinguishing: labouring to attain the good or the beautiful as such."@en ;
+    skos:note "A rival practice, entered so that the work's condition of failure against it has an object; see pmc:AnalyticalPsychologyGegensatzpaarErfassen."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologySuccessSignSearch a pm:Searching ;
+    rdfs:label "Ob die Septem Sermones ein Zeichen nennen, an dem der Hörer erkennt, dass eine Praxis gewirkt hat"@de,
+        "Whether the Septem Sermones name a sign by which a hearer knows a practice has taken"@en ;
+    dcterms:date "2026-10-28" ;
+    skos:note "No sign of success. Seen and not counted: the light of the star that prayer increases and that shines when the greater world grows cold (Sermo VII), because the address states it of the star and does not offer it to the one praying as something to perceive; and the warmth of communion and the light of singleness (Sermo V), because they are what those states are said to give and not marks by which one would know the right measure had been kept. The work's silence here stands against three conditions of failure, which is the reverse of the usual proportion in the holding."@en ;
+    pm:searchOutcome pm:searchFoundNothing ;
+    pm:searchTerms "All seven addresses read whole. Counted over the Baynes text: sign (four, all in the phrases name and sign of distinctiveness and under the sign of the Mother or the Phallos), mark (none), token (none), light (eleven), shine (one), warmth (one); over the Portuguese: sinal (two), signo (two), luz (nine), brilh (three); over the German: Zeichen (four), Licht (twenty-four), leucht (three)." ;
+    pm:searchedBy "prima-materia, 2026-10-28" ;
+    pm:searchedCorpus "C. G. Jung, Septem Sermones ad Mortuos, Sermo I-VII, whole, in the English of H. G. Baynes (Memories, Dreams, Reflections, rev. ed., Vintage Books, Appendix V) and the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016), and in the German of the Prüfungen recension of the Red Book, German edition ed. Sonu Shamdasani, pp. 514-541" ;
+    pm:searchedFor "A perceptible mark, announced or reported, by which the work says that distinguishing, prayer, communion or singleness has taken effect: a light seen, a warmth felt, a change in the body or in the world." .
+
 pmp:AndeanDreamDivination a pm:Practicing ;
     rdfs:label "Wahrsagen durch Schlafen auf dem Kleidungsstück des Fragenden"@de,
         "Divining by sleeping on the questioner's garment"@en ;
@@ -49418,15 +49690,6 @@ pmt:Amazonian a pm:Tradition ;
     pm:coverageState pm:corpusNamed ;
     pm:principalCorpus "No transmitted written corpus; the published icaro transcriptions and the ethnographic record stand in its place" .
 
-pmt:AnalyticalPsychology a pm:Tradition ;
-    rdfs:label "Analytische Psychologie"@de,
-        "Analytical psychology"@en ;
-    skos:definition "Jung's transmission of an objective psyche and of active imagination as a procedure for engaging figures encountered in it, with a record kept of the engagement."@en ;
-    skos:note "Registered as a tradition and not as science on the rule stated at the head of this file: its central claims rest on testimony, including the author's own record of his experiment, and not on procedures that could have come out otherwise. Where it does produce evidence, that evidence enters at an examination node like any other."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:coverageState pm:corpusNamed ;
-    pm:principalCorpus "Jung, Liber Novus; Jung, Septem Sermones ad Mortuos; Jung, Mysterium Coniunctionis" .
-
 pmt:AshtarTransmission a pm:Tradition ;
     rdfs:label "Ashtar-Überlieferung"@de,
         "Ashtar transmission"@en ;
@@ -50632,6 +50895,179 @@ pmc:AmuletFailureIsAlwaysExcused a pm:Conceptualizing ;
     skos:note "It is also the recorder's summary rather than a quoted informant, and it is entered as such. What would settle it is a named excuse in a named case, and none was found in the works opened."@en,
         "The passage names the response and not its content, so the graph can hold the shape of the move and not the move itself. That is worth having, because it is the third transmission in this holding of which the same shape is recorded: the Kongo corpus assigns a failed object to neglect or exhaustion, the Lakota corpus assigns a stone that will not obey to the owner's divided faith, and here the excuse is reported without being specified."@en ;
     pm:withinTradition pmt:Vodun .
+
+pmc:AnalyticalPsychologyAbraxas a pm:Naming ;
+    rdfs:label "Abraxas"@de,
+        "Abraxas"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo II, III and VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 524-529 and 541" ;
+    skos:definition "The name the second address gives to what is effective in both god and devil and joins them: a god above god, forgotten by mankind, more indefinite than either, who is effect in general and no particular effect; the third address calls him the hard-to-know god, the world itself in its becoming and passing, who speaks life and death in one word."@en ;
+    skos:note "The work distinguishes him from the sun-god, called Helios, the highest good, and from the devil, the effective void; the seventh address says that in the inner world man is Abraxas, creator and destroyer of his own world. All three texts write the name in the same form."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:nameForm "Abraxas" ;
+    pm:nameRole "a god above god and devil, the effective itself and the hard-to-know god" ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyBrueckeUeberDenTod a pm:Conceptualizing ;
+    rdfs:label "Eine Brücke über den Tod"@de,
+        "A bridge over death"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "Brücke über den Tod"@en ;
+    skos:definition "The second effect of prayer in the seventh address: it throws a bridge across death, toward the star to which the soul's long journey after death goes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyDenkenImZaume a pm:Conceptualizing ;
+    rdfs:label "Das Denken im Zaume halten"@de,
+        "Holding one's thinking in check"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 521" ;
+    skos:altLabel "Denken im Zaume halten"@en ;
+    skos:definition "Keeping one's thought on a rein, so that it does not run after thoughts of the pleroma and estrange one from one's being; the first address says its knowledge is taught for this."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyGebetNichtsDazu a pm:Conceptualizing ;
+    rdfs:label "Das Gebet zum ersten Gott tut nichts dazu und nimmt nichts davon"@de,
+        "Prayer to the first god adds nothing to it and takes nothing from it"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 532-533" ;
+    skos:definition "The fourth address states why worshipping the first god, the effective fullness and highest good, is least worthwhile: by prayer one can add nothing to it and take nothing from it, because the effective void swallows everything."@en ;
+    skos:note "Counted as a condition of failure: it names the null outcome of a practice and its cause. It stands three addresses before the work prescribes prayer to the star, and the work does not say why that prayer escapes the void that swallows this one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyGegensatzpaarErfassen a pm:Conceptualizing ;
+    rdfs:label "Wer nach dem Guten strebt, erfasst das Böse mit"@de,
+        "Who strives after the good grasps the evil with it"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 520" ;
+    skos:definition "The first address states what follows from striving after the good or the beautiful: one forgets one's nature, falls to the qualities of the pleroma, and with them seizes evil and ugliness as well, because in the pleroma they are one with the good and the beautiful."@en ;
+    skos:note "Counted as a condition of failure: it names the outcome by which the striving has failed, its opposite obtained along with it, and the reason, the oneness of the pair in the pleroma. It is stated against a rival practice and not against the work's own."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyGemeinschaftCaution a pm:Cautioning ;
+    rdfs:label "Keine Gemeinschaft ist Leiden und Krankheit; Gemeinschaft in jeglichem ist Auflösung"@de,
+        "Lack of communion is suffering and sickness; communion in all things is dissolution"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:note "Fifth address, a warning in both directions with a measure between: without communion there is suffering and sickness, communion in all things means dismemberment and dissolution, and communion beyond what the gods compel is evil. Oliveira drops the qualifier in everything and so makes communion as such dismemberment and dissolution, which contradicts the next sentences of his own rendering; Baynes and the German recension keep it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:AnalyticalPsychologyGemeinschaft ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyHoffnungslosesWuenschen a pm:Conceptualizing ;
+    rdfs:label "Das hoffnungslose Wünschen der größeren Welt mindern"@de,
+        "Lessening the hopeless wishing toward the greater world"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "mindert das hoffnungslose Wünschen"@en ;
+    skos:definition "The fourth effect of prayer in the seventh address: it abates the desires directed at the greater, outer world, which the address calls hopeless."@en ;
+    skos:note "Baynes renders the verb as assuage, Oliveira as amenizar, and Oliveira turns the hopeless desires into vain ones (vãos desejos); the German recension has mindern, to lessen."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyKreaturBleiben a pm:Conceptualizing ;
+    rdfs:label "Kreatur bleiben, nicht im Pleroma aufgelöst werden"@de,
+        "Remaining a creature, not dissolving into the pleroma"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 518-519" ;
+    skos:definition "Staying within one's distinctiveness as a creature limited in time and space, instead of falling into the indistinctness of the pleroma, which the first address calls the death of the creature."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyLebenDerKleinerenWelt a pm:Conceptualizing ;
+    rdfs:label "Das Leben der kleineren Welt bereiten"@de,
+        "Preparing the life of the smaller world"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "bereitet das Leben der kleineren Welt"@en ;
+    skos:definition "The third effect of prayer in the seventh address: it makes ready life in the smaller or inner world, the inner infinity entered through man as through a gate."@en ;
+    skos:note "Oliveira renders the smaller world as the inner world (mundo interior), which the address itself equates with it a few lines earlier."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyLichtDesSternes a pm:Conceptualizing ;
+    rdfs:label "Das Licht des Sternes mehren"@de,
+        "Increasing the light of the star"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "mehrt das Licht des Sternes"@en ;
+    skos:definition "The first effect the seventh address ascribes to prayer: the light of the one star, in which shines all that man brings back from the greater world, grows."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyReinigenUndErhalten a pm:Conceptualizing ;
+    rdfs:label "Reinigen und Erhalten, die Wärme der Gemeinschaft"@de,
+        "Purifying and preserving, and the warmth of communion"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:altLabel "reinigt und erhält"@en ;
+    skos:definition "What the right measure of communion does in the fifth address: it purifies and preserves, and communion gives warmth."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyReinigenUndHinzufuegen a pm:Conceptualizing ;
+    rdfs:label "Reinigen und Hinzufügen, das Licht des Einzelseins"@de,
+        "Purifying and increasing, and the light of singleness"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:altLabel "reinigt und fügt hinzu"@en ;
+    skos:definition "What the right measure of singleness does in the fifth address: it purifies and adds, and singleness gives light."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyRichtigesZiel a pm:Conceptualizing ;
+    rdfs:label "Kraft des eigenen Wesens zum richtigen Ziel kommen"@de,
+        "Reaching the right goal by virtue of one's own being"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 521" ;
+    skos:altLabel "zum richtigen Ziele kommen"@en ;
+    skos:definition "Arriving at the right end without needing to know anything of the pleroma and its qualities, which the first address promises to one who has the striving after his own being."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyVerschiedenheitDenken a pm:Conceptualizing ;
+    rdfs:label "Wer nach Verschiedenheit als Gedanke strebt, erreicht Verschiedenheit und Gleichheit zugleich"@de,
+        "Who strives after difference as a thought reaches difference and sameness at once"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 520-521" ;
+    skos:definition "The dead object that striving after difference should be true to their nature. The first address answers that difference so pursued is a thought flowing from the pleroma, and whoever runs after such thoughts falls back into the pleroma and gets both difference and sameness together; it is not thinking but being that is distinctiveness."@en ;
+    skos:note "Counted as a condition of failure: it names how the work's own practice, distinguishing, fails when it is done as thinking, and what the failure yields. It is the one condition of failure in the work that touches its own teaching, and like the others it can be assigned after the fact to any distinguishing that did not deliver."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyWeisheit a pm:Conceptualizing ;
+    rdfs:label "Weisheit"@de,
+        "Wisdom"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:altLabel "Weisheit"@en ;
+    skos:definition "What fearing Abraxas is said to be, in the third address."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyWirksameFuelle a pm:Conceptualizing ;
+    rdfs:label "Die wirksame Fülle Gottes, für uns vorhanden"@de,
+        "The effective fullness of god, available to us"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo II; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 523" ;
+    skos:altLabel "wirksame Fülle"@en ;
+    skos:definition "God as the second address defines him, the effective fullness of the pleroma made distinct, in so far as it is effective for us and not cancelled by its opposite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmc:AnalyticalPsychologyZuSichSelberKommen a pm:Conceptualizing ;
+    rdfs:label "Zu sich selber kommen und Sklaverei vermeiden"@de,
+        "Coming to oneself and escaping slavery"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:altLabel "zu sich selber kommen"@en ;
+    skos:definition "The end the fifth address gives for each being set over the others in singleness: that every one may come to himself and avoid slavery."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
 
 pmc:AngelOfLightDeception a pm:Cautioning ;
     rdfs:label "Die Täuschung, die als Licht erscheint"@de,
@@ -64658,6 +65094,85 @@ pmp:AlvarVidumin a pm:Practicing ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
 
+pmp:AnalyticalPsychologyAbraxasFuerchten a pm:Practicing ;
+    rdfs:label "Den Abraxas fürchten"@de,
+        "Fearing Abraxas"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:altLabel "ihn fürchten"@en ;
+    skos:definition "The attitude toward Abraxas which the third address sets apart from seeing, knowing and worshipping him."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyAbraxasNichtWiderstehen a pm:Practicing ;
+    rdfs:label "Dem Abraxas nicht widerstehen"@de,
+        "Not resisting Abraxas"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 528" ;
+    skos:altLabel "ihm nicht widerstehen"@en ;
+    skos:definition "The last of the five relations to Abraxas the third address names: to offer him no resistance."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyAugenAbwenden a pm:Practicing ;
+    rdfs:label "Die Augen vom flammenden Schauspiel des Abraxas abwenden"@de,
+        "Turning one's eyes from the fiery spectacle of Abraxas"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "Augen abwenden"@en ;
+    skos:definition "Looking away from the spectacle of Abraxas, the outer world of becoming and passing, which the seventh address makes the condition of an unobstructed relation to the one star."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyBelehrung a pm:Practicing ;
+    rdfs:label "Das Empfangen der Belehrung"@de,
+        "Receiving the teaching of the addresses"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 520-521" ;
+    skos:altLabel "Belehrung der Toten"@en ;
+    skos:definition "Hearing and taking in the knowledge the teacher gives, which the end of the first address says is given because thought estranges from being."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyEinerGott a pm:Practicing ;
+    rdfs:label "Die Vielheit der Götter durch den einen Gott ersetzen"@de,
+        "Replacing the many gods by one god"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 532" ;
+    skos:definition "The act the fourth address reproaches the dead with: to make the incompatible many gods into one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyEinzelsein a pm:Practicing ;
+    rdfs:label "Das Einzelsein"@de,
+        "Living in singleness"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V and VI; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 537-538" ;
+    skos:altLabel "Einzelsein"@en ;
+    skos:definition "The life apart which distinctiveness leads to, set by the fifth address against communion: in it each is to be over the others and prodigality is its rule."@en ;
+    skos:note "Oliveira renders the term once as unicidade and elsewhere as solidão, solitude; Baynes keeps singleness throughout."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyPleromaDenken a pm:Practicing ;
+    rdfs:label "Das Nachdenken über das Pleroma"@de,
+        "Thinking about the pleroma"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I and IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 516-518 and 532" ;
+    skos:definition "Reflecting upon the pleroma, the nothingness that is fullness, which the first address does at length while saying that it is not worth doing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyStrebenNachDemEigenenWesen a pm:Practicing ;
+    rdfs:label "Das Streben nach dem eigenen Wesen"@de,
+        "Striving after one's own being"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 520-521" ;
+    skos:altLabel "Streben nach dem eigenen Wesen"@en ;
+    skos:definition "The one striving the first address admits: not after difference as it is thought, which is a quality of the pleroma, but after one's own being, which is distinctiveness itself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
 pmp:ArsNotoriaOratioRepetita a pm:Practicing ;
     rdfs:label "Die ein-, zwei- oder dreimal wiederholte Oration"@de,
         "The oration repeated once, twice or three times"@en ;
@@ -69723,6 +70238,16 @@ pmw:Ambazzi a dcterms:BibliographicResource ;
         "The ritual of Ambazzi"@en ;
     skos:note "Not opened. The critical edition of CTH 391.1 is reachable as a transliteration and was downloaded in this run and not read; no translation of it is reachable, and the monograph that is the standard treatment of this ritual tradition is in print. This work stands here as the warranted next place in this corpus, and queries/unopened-works.rq lists it."@en .
 
+pmw:AnalyticalPsychologyLiberNovus a dcterms:BibliographicResource ;
+    rdfs:label "Liber Novus (Das Rote Buch)"@de,
+        "Liber Novus (The Red Book)"@en ;
+    skos:note "Not opened in this run except at the Prüfungen pages that carry the recension of the Septem Sermones, pp. 514-541 of the German edition, which were read as the German of that work. It is reachable whole: the German edition lies at the Internet Archive under c.-g.-jung-liber-novum-das-rote-buch-text-ganz-pdf with a text layer of 1174044 characters and no title page, and the English of Mark Kyburz, John Peck and Sonu Shamdasani (New York: W. W. Norton, 2009) lies under 1-the-red-book-liber-novus-carl-gustav-jung-edited-by-shamdasani-et-al. with its title page in the text layer. It exceeds what one run harvests, and a harvest would take it book by book: Liber Primus, Liber Secundus, Prüfungen."@en .
+
+pmw:AnalyticalPsychologyMysteriumConiunctionis a dcterms:BibliographicResource ;
+    rdfs:label "Mysterium Coniunctionis"@de,
+        "Mysterium Coniunctionis"@en ;
+    skos:note "Not opened in this run. Reachable in the English of R. F. C. Hull as Collected Works volume 14, under the open identifiers vol-14-Mysterium-Coniunctionis-by-C-G-Jung and c.-g.-jung-collected-works-volume-14-mysterium-coniunctionis, each with a text layer of about 1.8 million characters; the Bollingen uploads collectedworksof14cgju and mysteriumconiunc14jung are access-restricted. The German original was not looked for in this run."@en .
+
 pmw:Anniwiyani a dcterms:BibliographicResource ;
     rdfs:label "Das Ritual der Anniwiyani"@de,
         "The ritual of Anniwiyani"@en ;
@@ -70405,6 +70930,17 @@ pmc:AlvarUrukutal a pm:Conceptualizing ;
     skos:note "Named as a fruit of reciting a decad in the terminal stanzas 6.8.11, 9.5.11."@en ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
+
+pmc:AnalyticalPsychologyErloesung a pm:Conceptualizing ;
+    rdfs:label "Erlösung"@de,
+        "Deliverance"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I and III; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 520 and 528" ;
+    skos:altLabel "Erlösung"@en ;
+    skos:definition "The release the work names twice: from the pairs of opposites, by being distinguished from them (Sermo I), and as what not resisting Abraxas is (Sermo III)."@en ;
+    skos:note "One German word in both places, and the translators split it: Baynes has deliver for the first and redemption for the second, Oliveira salvação and redenção. The two routes to it pull against each other, one by setting oneself apart from the qualities, the other by yielding to the god who is all of them; the work does not reconcile them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
 
 pmc:Apatheia a pm:Conceptualizing ;
     rdfs:label "Apatheia"@de,
@@ -72998,6 +73534,38 @@ pmp:AlvarPatiAtutal a pm:Practicing ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
+
+pmp:AnalyticalPsychologyGebetZumGottSonne a pm:Practicing ;
+    rdfs:label "Das Gebet zum Gott Sonne, dem höchsten Gut"@de,
+        "Praying to and entreating the sun-god, the highest good"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo III and IV; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 528 and 532-533" ;
+    skos:altLabel "vom Gott Sonne erbitten"@en ;
+    skos:definition "Entreaty and worship directed at the god-sun, Helios, the effective fullness and summum bonum, which the third and fourth addresses take up."@en ;
+    skos:note "A rival practice, entered so that the caution of the third address and the condition of failure of the fourth have an object."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyGebetZumStern a pm:Practicing ;
+    rdfs:label "Das Gebet zum einen Stern"@de,
+        "Praying to the one star"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 541" ;
+    skos:altLabel "Gebet"@en ;
+    skos:definition "Prayer to the single star in the zenith of the inner infinity, which the seventh address calls the one god and the goal of each man, toward whom the soul journeys after death."@en ;
+    skos:note "The mood divides the texts. Baynes renders the sentence as a prescription, that man shall pray to this god, and Oliveira likewise with a future of obligation; the German of the Red Book recension states it in the indicative, that man prays to this one. The print's German was not reachable, so whether the work prescribes the prayer or describes it is open; both translations of the print make it a prescription."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
+pmp:AnalyticalPsychologyGemeinschaft a pm:Practicing ;
+    rdfs:label "Das Leben in Gemeinschaft im Maß, das die Götter erzwingen"@de,
+        "Living in communion, in the measure the gods compel"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), p. 537" ;
+    skos:altLabel "Gemeinschaft"@en ;
+    skos:definition "The common life the fifth address prescribes because man is weak against the gods and daemons: as much as they compel and no more, with each submitting to the others and with continence as its rule."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
 
 pmp:ArsNotoriaOratioPhysicae a pm:Practicing ;
     rdfs:label "Die Oration der Heilkunst, vor dem Kranken gesprochen"@de,
@@ -77814,6 +78382,17 @@ pmp:AlvarTirunamam a pm:Practicing ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
 
+pmp:AnalyticalPsychologyUnterscheiden a pm:Practicing ;
+    rdfs:label "Das Sich-Unterscheiden"@de,
+        "Distinguishing oneself"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I, II and V; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 518-521, 523 and 536-537" ;
+    skos:altLabel "Unterscheidung, principium individuationis"@en ;
+    skos:definition "The act the first address makes the creature's nature and task: to distinguish the qualities of the pleroma, which are pairs of opposites, and to distinguish oneself from them, so as to stay true to one's own distinctiveness. The fifth address extends it to spirituality and sexuality, which a man is to name Mother and Phallos and set apart from himself."@en ;
+    skos:note "The work says that the striving toward distinctiveness is the natural striving of the creature and calls it the principium individuationis; Baynes, Oliveira and the German recension all keep the Latin term."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:withinTradition pmt:AnalyticalPsychology .
+
 pmp:BasharFollowYourExcitement a pm:Practicing ;
     rdfs:label "Der eigenen Begeisterung folgen: in jedem Augenblick mit Integrität tun, was am meisten begeistert"@de,
         "Following one's excitement: acting at each moment on what excites most, with integrity"@en ;
@@ -79064,12 +79643,6 @@ pmc:AlvarTiruvadi a pm:Conceptualizing ;
     pm:fromWork pmw:AlvarTiruvaymoli ;
     pm:withinTradition pmt:Alvar .
 
-pm:corpusUnreachable a pm:SearchOutcome ;
-    rdfs:label "Korpus nicht erreichbar"@de,
-        "Corpus unreachable"@en ;
-    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
-    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
-
 pmp:NippurGetAgainstDemons a pm:Practicing ;
     rdfs:label "Dem Dämon einen Scheidebrief schreiben"@de,
         "Writing the demon a writ of divorce"@en ;
@@ -79213,6 +79786,12 @@ pm:contactRouteUndecided a pm:ContactRoute ;
     rdfs:label "Kontaktweg unentschieden"@de,
         "Contact route undecided"@en ;
     skos:definition "The question has not been carried out. Registered explicitly rather than left absent, because an unstated contact route and a route shown to be absent are the difference between a witness and a candidate."@en .
+
+pm:corpusUnreachable a pm:SearchOutcome ;
+    rdfs:label "Korpus nicht erreichbar"@de,
+        "Corpus unreachable"@en ;
+    skos:definition "The corpus could not be obtained, and the note states which ways were tried. A finding about access and never about the transmission."@en ;
+    skos:note "SPEC §15 requires that unreachability be established rather than assumed, and lists the ways that must be exhausted first. This value is where that finding is recorded; entering it without the note that names the attempts turns a first failed attempt into a verdict about a work."@en .
 
 pmt:Dogon a pm:Tradition ;
     rdfs:label "Dogon-Überlieferung"@de,
@@ -79631,14 +80210,6 @@ pmw:LiberEVelExercitiorum a dcterms:BibliographicResource ;
         "Liber E vel Exercitiorum sub figura IX"@en ;
     skos:note "Class B by the syllabus of the transmission, that is, no claim of textual invariance. Sections and roman chapter numbers are carried by the Equinox print and are absent from the reprint in the appendix of Magick in Theory and Practice, which makes the Equinox print the only carrier with a usable internal address."@en .
 
-pm:Receiving a owl:Class ;
-    rdfs:label "Empfangen"@de,
-        "Receiving"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made in or about a work, that its wording was received from a speaker other than the person who wrote or spoke it down."@en ;
-    skos:note "Distinct from pm:Originating, which names the author with whom a claim begins and the ascription it circulates under. A receiving makes no finding about who really composed the material; it records that the work claims a speaker, so that the claim is addressable, countable and disputable instead of riding invisibly in a citation."@en,
-        "Whether an agreement between two such corpora can ever be more than reception is a separate question and a hard one. The route is documented across the whole block: the vocabulary runs on from Theosophy. A convergence there needs the demonstration that a receiver did not know the earlier literature, and that demonstration is expensive and rare."@en .
-
 pmt:Bon a pm:Tradition ;
     rdfs:label "Bön"@de,
         "Bön"@en ;
@@ -79685,6 +80256,14 @@ pm:Originating a owl:Class ;
     skos:definition "The act of first putting forward a claim that no transmission carries, in a work that can be named and dated, where the claim afterwards circulates as though it were old."@en ;
     skos:note "Distinct from pm:Systematizing, which arranges material that was already there and names what it arranges. An origination arranges nothing: the claim begins with it. Holding the two apart is what keeps the record from reporting an invention as an ordering of something ancient, which is the commonest way a modern construction acquires a warrant."@en,
         "The circulating ascription is the point of the class, not an addendum to it. A node that names only the author and the work is a bibliography; a node that also names what the claim is taken for is the finding, and it is the kind of finding this project exists to make."@en .
+
+pm:Receiving a owl:Class ;
+    rdfs:label "Empfangen"@de,
+        "Receiving"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made in or about a work, that its wording was received from a speaker other than the person who wrote or spoke it down."@en ;
+    skos:note "Distinct from pm:Originating, which names the author with whom a claim begins and the ascription it circulates under. A receiving makes no finding about who really composed the material; it records that the work claims a speaker, so that the claim is addressable, countable and disputable instead of riding invisibly in a citation."@en,
+        "Whether an agreement between two such corpora can ever be more than reception is a separate question and a hard one. The route is documented across the whole block: the vocabulary runs on from Theosophy. A convergence there needs the demonstration that a receiver did not know the earlier literature, and that demonstration is expensive and rare."@en .
 
 pmp:NorseLjodatal a pm:Practicing ;
     rdfs:label "Das Können und Singen der achtzehn Lieder"@de,
@@ -80567,6 +81146,11 @@ pmt:Daoist a pm:Tradition ;
     pm:fromWork pmw:XingqiYupeiMing ;
     pm:principalCorpus "Xingqi yupei ming, the jade inscription on circulating the qi; Zhuangzi; Ge Hong, Baopuzi neipian; Chen Zhixu, Jindan dayao" .
 
+pm:corpusNamed a pm:CoverageState ;
+    rdfs:label "Korpus benannt"@de,
+        "Corpus named"@en ;
+    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+
 pmt:ModernVipassana a pm:Tradition ;
     rdfs:label "Moderne Vipassanā-Bewegung"@de,
         "Modern vipassanā movement"@en ;
@@ -80589,10 +81173,25 @@ pmt:ModernVipassana a pm:Tradition ;
         pmw:VisuddhinanaKatha ;
     pm:principalCorpus "Mahāsi Sayādaw, Manual of Insight; Ledi Sayādaw, the Manuals of Buddhism" .
 
-pm:corpusNamed a pm:CoverageState ;
-    rdfs:label "Korpus benannt"@de,
-        "Corpus named"@en ;
-    skos:definition "The transmission is registered and its principal corpus is named. No passage has been read, no edition has been settled, and no node stands under it. A tradition in this state witnesses nothing and may not be counted as a party to a convergence."@en .
+pmt:AnalyticalPsychology a pm:Tradition ;
+    rdfs:label "Analytische Psychologie"@de,
+        "Analytical psychology"@en ;
+    dcterms:source "C. G. Jung, Septem Sermones ad Mortuos (n.p.: privately printed, 1916), Sermo I-VII; read in the English of H. G. Baynes in Jung, Memories, Dreams, Reflections, ed. Aniela Jaffé, rev. ed. (Vintage Books; place and year not in the text layer), Appendix V, and in the Portuguese of Rodolfo Oliveira (Oficinas TK, 2016); German read in the Prüfungen recension, Jung, Das Rote Buch. Liber Novus, ed. Sonu Shamdasani (German edition; imprint not in the text layer), pp. 514-541" ;
+    skos:definition "Jung's transmission of an objective psyche and of active imagination as a procedure for engaging figures encountered in it, with a record kept of the engagement."@en ;
+    skos:note "Open, and the next place to go: Liber Novus, of which only the Prüfungen recension of the addresses was read, and whose commentary of Philemon after each address names further capacities (knowledge freeing from danger, the dead released from the circle of becoming) that belong to that work and are not entered here; and Mysterium Coniunctionis. Both are open at their work nodes."@en,
+        "Raised from pm:corpusNamed on the first passages actually read. What was read at the wording: the whole of the Septem Sermones ad Mortuos in the English of H. G. Baynes and in the Portuguese of Rodolfo Oliveira, and the whole of its German recension in the Prüfungen of the Red Book, pp. 514-541, commentary included. What was not read: the rest of Liber Novus, Mysterium Coniunctionis, and the German of the 1916 print."@en,
+        "Registered as a tradition and not as science on the rule stated at the head of traditions/registry-modern.ttl: its central claims rest on testimony, including the author's own record of his experiment, and not on procedures that could have come out otherwise. Where it does produce evidence, that evidence enters at an examination node like any other."@en,
+        "The first of the three decisions SPEC §14 asks for, the contact route, stays at documented. The work names Basilides of Alexandria as its writer, takes Abraxas and the pleroma from the Christian heresiologists' report of the Gnostics, and the editor of the German Red Book traces its terms to Irenaeus, to Dieterich's Abraxas of 1891 and King's The Gnostics and Their Remains of 1864, both annotated in Jung's copies, and its principium individuationis to Schopenhauer and Eduard von Hartmann. It therefore counts as no independent witness against the Gnostic holding (pmt:ValentinianGnosis, pmt:OphiteGnosis) or the Hermetic, and every agreement between it and a node there is reception until shown otherwise."@en,
+        "The second decision, recension and edition: the 1916 print, read in two translations by different translators, Baynes in English and Oliveira in Portuguese, counted at the translator on the title page and in the closing line of the appendix; its German read in the Red Book recension, which the editor says differs from the print by a subtitle and by the commentary, and which was compared address by address. Where the recension and the translations divide, the node records both; the one division found that bears on a claim is the mood of the prayer in Sermo VII."@en,
+        "The third decision, the number of citable places: seven addresses, about 25000 characters in English, cited by sermon. The work is a cosmology spoken to the dead and not a manual: it names few practices, ties most of its capacities to a way of thinking and not to an act, and names no sign by which a hearer would know that anything had taken. The count of this file is the whole yield of the work and not a selection."@en,
+        "What the harvest found, in counts. Eight yieldings naming eleven capacities, and two further states on which the chains depend; three chains, two of them stated necessities; eight cautions, one of them a self-warning against the act the work itself performs, thinking about the pleroma; three conditions of failure, all stated against striving or praying wrongly and none against the work's own prayer; and no sign of success. Against the conditions of failure stand no signs at all, which is itself the finding about this work."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:AnalyticalPsychologyLiberNovus,
+        pmw:AnalyticalPsychologyMysteriumConiunctionis,
+        pmw:AnalyticalPsychologySeptemSermones ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:AnalyticalPsychologySeptemSermones ;
+    pm:principalCorpus "Jung, Liber Novus; Jung, Septem Sermones ad Mortuos; Jung, Mysterium Coniunctionis" .
 
 pmw:Heptameron a dcterms:BibliographicResource ;
     rdfs:label "Heptameron"@de,
@@ -80610,6 +81209,15 @@ pmt:Enochic a pm:Tradition ;
     pm:contactRoute pm:contactRouteDocumented ;
     pm:coverageState pm:placesEntered ;
     pm:principalCorpus "1 Enoch, in the Ethiopic text and in the Aramaic fragments from Qumrân Cave 4" .
+
+pmw:AnalyticalPsychologySeptemSermones a dcterms:BibliographicResource ;
+    rdfs:label "Septem Sermones ad Mortuos"@de,
+        "Septem Sermones ad Mortuos"@en ;
+    skos:note "C. G. Jung, seven addresses to the dead, privately printed without date; the English appendix that carries it heads it 1916, and the anagram at its end is read by Aniela Jaffé, per the note of the Portuguese translation, as Jung at Küsnacht in 1916. The locus used throughout is the sermon, Sermo I to VII, which all three texts read here print in the same order and division."@en,
+        "The German wording of the 1916 print was not reachable: the German memoir of 1962 that carries it (erinnerungentr00jung) and the 1967 London reprint of the Baynes translation (viisermonesadmor0000jung) are both access-restricted at the Internet Archive, which is a property of those uploads and not of the work. The German read instead is the recension of the same seven addresses inside the Prüfungen of the Red Book, in the German edition edited by Sonu Shamdasani, pp. 514-541, from the identifier c.-g.-jung-liber-novum-das-rote-buch-text-ganz-pdf, whose text layer has no title page. The editor states there (notes 81 and 88) that the printed version carries a subtitle naming Basilides as writer and lacks the commentary after each address and the figure of Philemon; the seven addresses themselves agree with Baynes sentence by sentence wherever compared."@en,
+        "The first translation read is H. G. Baynes, as printed in Appendix V of Memories, Dreams, Reflections, recorded and edited by Aniela Jaffé, translated by Richard and Clara Winston, revised edition, Vintage Books, from the Internet Archive full text of the identifier MemoriesDreamsReflectionsCarlJung_201608; the title page of the text layer names the Winstons and Vintage Books and gives no place or year, and the appendix closes with its own line naming Baynes as translator. Read whole."@en,
+        "The publishing history is read in Stephan A. Hoeller, The Gnostic Jung and the Seven Sermons to the Dead (Wheaton: Quest Books, 1982, seventh printing 2009), appendix, pp. 219-220: a first German edition privately printed without date or copyright, the Baynes translation privately printed in London by John M. Watkins in 1925, and later reprints. Nothing else of that book was read."@en,
+        "The second translation read is Rodolfo Oliveira, Septem Sermones ad Mortuos, Oficinas TK, electronic edition, November 2016, from the Internet Archive full text of the identifier otkl005septemsermonesadmortuos; its title page names him as translator. Read whole. It footnotes German and Greek terms of the text (Creatur, Principium Individuationis, Mater Coelestis) and follows the English of Baynes closely, so it is a second translator and not certainly a second reading of the German."@en .
 
 pmt:Thelema a pm:Tradition ;
     rdfs:label "Thelema"@de,
@@ -80657,15 +81265,15 @@ pmt:Hathayoga a pm:Tradition ;
     pm:fromWork pmw:Hathapradipika ;
     pm:principalCorpus "Svātmārāma, Haṭhayogapradīpikā" .
 
-pm:procedureWithoutCases a pm:ExaminationState ;
-    rdfs:label "Verfahren ohne Fälle"@de,
-        "Procedure without cases"@en ;
-    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
-
 pmw:HohmanLongLostFriend1850 a dcterms:BibliographicResource ;
     rdfs:label "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@de,
         "Hohman, The Long Lost Friend (Harrisburg, Pa. 1850)"@en ;
     skos:note "The English translation, held apart from the German printing rather than smoothed into it, because the two differ at places where the difference falls on the examinable part of a claim. It is not a complete translation: a group of charms that stands in the German original — marksmanship, the silencing of dogs, the whitening of a black horse — is absent from it, and its appendix of unmagical remedies is an accretion the first printing does not carry."@en .
+
+pm:procedureWithoutCases a pm:ExaminationState ;
+    rdfs:label "Verfahren ohne Fälle"@de,
+        "Procedure without cases"@en ;
+    skos:definition "A falsifying condition is stated and no case has yet been recorded against it."@en .
 
 pmw:Hathapradipika a dcterms:BibliographicResource ;
     rdfs:label "Svātmārāma, Haṭhayogapradīpikā"@de,
@@ -80951,15 +81559,15 @@ pmw:PapyrusLondonLeiden a dcterms:BibliographicResource ;
         "The nodes read off it stand in traditions/demotic-magical-papyri.ttl."@en,
         "What the reading covered and what it left: the whole of the translation of the recto, columns I to XXIX, and of the verso, columns I to XXXIII, was read at the wording. Not read: the transliteration on the facing pages and the philological notes beneath both, except where a note bears on a passage entered; the introduction, apart from its account of the manuscript and its table of contents; and the glossary volume of 1909, which was not obtained. The digitised copy used is an optical transcription and its rendering of the transliterated demotic is not trustworthy at the level of single letters, which is why no node in this holding reproduces a demotic form from it."@en .
 
-pm:searchFoundNothing a pm:SearchOutcome ;
-    rdfs:label "Suche ohne Fund"@de,
-        "Search found nothing"@en ;
-    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
-
 pm:thirdPartyAscription a pm:Attesting ;
     rdfs:label "Fremdzuschreibung"@de,
         "Third-party ascription"@en ;
     skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
+pm:searchFoundNothing a pm:SearchOutcome ;
+    rdfs:label "Suche ohne Fund"@de,
+        "Search found nothing"@en ;
+    skos:definition "The corpus was read for this question and carries no passage answering it. A statement about a search, and only as strong as the search the note describes."@en .
 
 pmt:LatinAlchemy a pm:Tradition ;
     rdfs:label "Lateinische Alchemie"@de,
@@ -81026,11 +81634,6 @@ pmt:Rasashastra a pm:Tradition ;
     pm:fromWork pmw:RasaJalaNidhi ;
     pm:principalCorpus "Rasārṇava; Govindabhagavatpāda, Rasahṛdayatantra; Vāgbhaṭa, Rasaratnasamuccaya" .
 
-pm:placesEntered a pm:CoverageState ;
-    rdfs:label "Stellen eingetragen"@de,
-        "Places entered"@en ;
-    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
-
 pmt:GoldenDawn a pm:Tradition ;
     rdfs:label "Hermetic Order of the Golden Dawn"@de,
         "Hermetic Order of the Golden Dawn"@en ;
@@ -81050,6 +81653,11 @@ pmt:GoldenDawn a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:GoldenDawnFlyingRolls ;
     pm:principalCorpus "The cipher manuscripts and knowledge lectures; Regardie, The Golden Dawn; the Flying Rolls, in Francis King (ed.), Astral Projection, Ritual Magic and Alchemy" .
+
+pm:placesEntered a pm:CoverageState ;
+    rdfs:label "Stellen eingetragen"@de,
+        "Places entered"@en ;
+    skos:definition "At least one passage has been read in a named edition and entered as a node. This is the state in which a tradition begins to witness."@en .
 
 pmt:SolomonicGrimoire a pm:Tradition ;
     rdfs:label "Salomonische Grimoire-Tradition"@de,
@@ -81313,13 +81921,6 @@ pmw:TheRaMaterialBookOne a dcterms:BibliographicResource ;
         "The book is the transcript of tape recordings of question and answer, and English is its original language, so the rule of two translations does not apply."@en,
         "The layer drops or misreads a number of page numerals, which were placed by sequence; the dates of sessions 9 and 10 read 'January tj' and are taken as January 27 from the sessions on either side; the text of footnote 3 on p. 232 is not in the layer. No stretch of running text is missing."@en .
 
-pm:Presupposing a owl:Class ;
-    rdfs:label "Voraussetzen"@de,
-        "Presupposing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
-    skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
-
 pmw:LiberKaos a dcterms:BibliographicResource ;
     rdfs:label "Liber Kaos"@de,
         "Liber Kaos"@en ;
@@ -81327,6 +81928,13 @@ pmw:LiberKaos a dcterms:BibliographicResource ;
         "Harvest counts for Part 1, Liber Kaos: one sign of success and eleven conditions of failure. The one sign is the retroactive enchantment, a result recorded after a spell that implies events before it were altered, and the work gives no mark to tell it from a result that would have come anyway. Of the failures none sets a deadline; three are numeric thresholds of the equations of magic (all four factors at 0.5 give M = 0.0625, M near 0.5 is the least useful effect, resistance above 0.2 is a serious liability), on scales the work itself says are judged partly subjectively; eight put the failure on the operator, and of the three placed elsewhere one excuses the weak results of laboratory parapsychology by its conditions."@en,
         "Harvest counts for Part 2, the Psychonomicon and appendices: ten signs of success, two further results reported by the author from his own case and counted apart, and seventeen conditions of failure. None sets a deadline; one rests on a count, the monastic observances largely not met, which the engraved staff makes countable; eleven name an outcome someone could notice and six only a cause; sixteen put the failure on the operator, and the one exception, a servitor that brings back nothing about the origin of the universe, is read as information about the world. Liber KKK asks for one recorded success per conjuration and calls five thorough, and the divination of sorcery level is to be checked against what is soon confirmed or negated, but the work never says what follows from a negated divination; it also states that the universe has cast a spell to make magic work erratically and to make us disbelieve that it worked (p. 180)."@en,
         "Read complete on 2026-10-25 in the full-text layer of the open scan archive (peter-j.-carroll-liber-kaos), whose running heads carry the page; harvested under prima-materia#893 with two independent extraction passes per part and a reading of each whole part by its integrator. Part 1, Liber Kaos, runs to p. 79; Part 2, the Psychonomicon and the four appendices, pp. 83-218. The layer misreads several running heads (placed by sequence), carries figures 1-11 only as labels and captions, and garbles the second and third equations of magic: the exponent of the second is read from Table 2, the third is not reconstructed."@en .
+
+pm:Presupposing a owl:Class ;
+    rdfs:label "Voraussetzen"@de,
+        "Presupposing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that one step of a path presupposes another: that a practice, state or capacity is not reached except by way of something else."@en ;
+    skos:note "A node and not an edge, for the same reason as pm:Attributing and pm:Yielding. A prerequisite claim differs enormously in what carries it, and the difference is not visible on an edge. It matters whether a text sets an order or a reader inferred one from the order of the chapters."@en .
 
 pmt:BasharTransmission a pm:Tradition ;
     rdfs:label "Bashar-Überlieferung"@de,
