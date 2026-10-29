@@ -6,6 +6,7 @@
 @prefix pmp: <https://pajew.ski/prima-materia/practices/> .
 @prefix pmt: <https://pajew.ski/prima-materia/traditions/> .
 @prefix pmw: <https://pajew.ski/prima-materia/works/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -200,7 +201,7 @@ pmc:AbsorptionsAreGraded a pm:Presupposing ;
         "Each absorption presupposes the one before it"@en ;
     dcterms:source "Buddhaghosa, Visuddhimagga IV (trans. Ñāṇamoli 1956)",
         "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
-    skos:note "The series is strictly graded in both canon and handbook, each stage defined by what it has let go of. No passage was found that forbids skipping in so many words, which is why this is recorded as an order and not as a necessity."@en ;
+    skos:note "The series is strictly graded in both canon and handbook, each stage defined by what it has let go of. No passage was found that forbids skipping a stage in so many words, which is why this is recorded as an order and not as a necessity. One step is stronger: for the second absorption the handbook does state what befalls one who reaches for it without having mastered the first, recorded at pmc:SecondJhanaPresupposesMasteryOfFirst. The series as a whole is pmc:JhanaSeries."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:dependentStep pmc:FourthJhana ;
     pm:fromWork pmw:DighaNikaya,
@@ -36289,6 +36290,37 @@ pmc:JhanaPresupposesAbandoningTheHindrances a pm:Presupposing ;
     pm:priorStep pmc:FiveHindrances ;
     pm:withinTradition pmt:Theravada .
 
+pmc:JhanaPresupposesAbandoningTheHindrancesInTheHandbook a pm:Presupposing ;
+    rdfs:label "Die Vertiefung setzt das Aufgeben der Hemmnisse voraus, im Handbuch"@de,
+        "Absorption presupposes the abandoning of the hindrances, in the handbook"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.104 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    skos:note "Stronger than pmc:JhanaPresupposesAbandoningTheHindrances, which records the discourse; the discourse sets the order without the consequence, the handbook states it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "No absorption arises until the five hindrances have been abandoned; the handbook calls them for that reason the factors of abandoning." ;
+    pm:dependentStep pmc:FirstJhana ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:FiveHindrances ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:JhanaSeries a pm:Sequencing ;
+    rdfs:label "Die Vertiefungen als eine Reihe"@de,
+        "The absorptions as one series"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.139 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.153 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.183 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.197 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.79 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    rdf:_1 pmc:FirstJhana ;
+    rdf:_2 pmc:SecondJhana ;
+    rdf:_3 pmc:ThirdJhana ;
+    rdf:_4 pmc:FourthJhana ;
+    skos:note "The handbook marks this as the fourfold reckoning (IV.197) and gives a fivefold one beside it, in which the stilling of applied and of sustained thought are two steps. The order is the same in both; the count of places differs, and this node holds the fourfold one."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:seriesStatement "Each absorption is what remains when one more factor of the one before it has been let go: the first abandons the five hindrances, the second applied and sustained thought, the third happiness, the fourth joy. The handbook gives every stage after the first as a count of what it abandons and what it still possesses, so that a stage named alone says less than its place says." ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:JiaqiuWaiwu a pm:Conceptualizing ;
     rdfs:label "Festigkeit, von einem äußeren Ding geborgt"@de,
         "Firmness borrowed from an outer thing"@en ;
@@ -45648,6 +45680,18 @@ pmc:SecondDegreeYieldsForesight a pm:Yielding ;
     pm:withinTradition pmt:Midewiwin ;
     pm:yieldsCapacity pmc:MideForesight .
 
+pmc:SecondJhanaPresupposesMasteryOfFirst a pm:Presupposing ;
+    rdfs:label "Die zweite Vertiefung setzt die Beherrschung der ersten voraus"@de,
+        "The second absorption presupposes mastery of the first"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.129-131 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "One who reaches for the higher absorption before the first has become familiar falls away from the first and fails to reach the second; the handbook quotes the simile of the mountain cow that lifts her hind foot before placing her forefoot and ends between the two, and concludes that mastery in five ways must be acquired with respect to the first absorption first of all." ;
+    pm:dependentStep pmc:SecondJhana ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmc:FirstJhana ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:SecondWeekPresupposesFirst a pm:Presupposing ;
     rdfs:label "Die zweite Woche setzt die erste voraus"@de,
         "The second week presupposes the first"@en ;
@@ -50890,6 +50934,12 @@ pm:separativeTelos a pm:TelicOrientation ;
         "Separative telos"@en ;
     skos:definition "The path claims that the bounded self is to be strengthened and kept as its own absolute, and treats its dissolution as what is to be avoided."@en ;
     skos:note "Distinct from self-assertion, ambition or the pursuit of power, none of which say anything about an end state. What places a path here is a claim about where it ends, not about how its practitioners behave."@en .
+
+pm:seriesStatement a owl:DatatypeProperty ;
+    rdfs:label "Aussage der Reihe"@de,
+        "series statement"@en ;
+    rdfs:domain pm:Sequencing ;
+    skos:definition "What the order says that no member says alone: the principle by which the source steps from one member to the next."@en .
 
 pm:situatedNode a owl:ObjectProperty ;
     rdfs:label "verorteter Knoten"@de,
@@ -65616,14 +65666,6 @@ pmc:FirstWeek a pm:Conceptualizing ;
     skos:definition "The purgative part of the exercises, given over to the consideration of sin."@en ;
     pm:withinTradition pmt:ChristianAsceticDiscernment .
 
-pmc:FiveHindrances a pm:Conceptualizing ;
-    rdfs:label "Die fünf Hemmnisse"@de,
-        "The five hindrances"@en ;
-    dcterms:source "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
-    skos:definition "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt, whose abandoning the discourse describes immediately before entry into the first absorption."@en ;
-    pm:fromWork pmw:DighaNikaya ;
-    pm:withinTradition pmt:Theravada .
-
 pmc:ForcedBreathCaution a pm:Cautioning ;
     rdfs:label "Ein erzwungener statt allmählich gezähmter Atem tötet den Übenden"@de,
         "Breath forced rather than tamed by degrees kills the practitioner"@en ;
@@ -72737,6 +72779,15 @@ pmc:TheravadaNakkhattaLowArt a pm:Conceptualizing ;
         "That is a third kind of refusal and the holding did not have it named. A refusal from outside grounded in a case argues that the art fails; a refusal from inside grounded in a state of the practitioner grants an exemption from an art that works; this one withdraws from the art without judging it, on a ground that belongs entirely to the refuser's own vocation. It is abstention and not refutation, and a protocol can take nothing from it, because nothing here is a claim about the world."@en,
         "Two further things the passage settles for anyone who counts it. It is a list and not an argument: the seven paragraphs enumerate some two hundred items, from palmistry and snake charming to bringing forth flames from one's mouth, and the choosing of days has no special standing among them. And the enumeration is of what others do for money, so even the reading that has the discourse rejecting the art reads it as rejecting a trade."@en ;
     pm:fromWork pmw:DighaNikaya ;
+    pm:withinTradition pmt:Theravada .
+
+pmc:ThirdJhana a pm:Conceptualizing ;
+    rdfs:label "Die dritte Vertiefung"@de,
+        "The third absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.153 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.178-179 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    skos:definition "The absorption entered with the fading away of happiness, dwelling in equanimity, mindful and fully aware, feeling bliss with the body. The handbook says it abandons one factor, happiness, and possesses two: bliss and unification of mind."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
     pm:withinTradition pmt:Theravada .
 
 pmc:TiantaiBingJiuNanYu a pm:Conceptualizing ;
@@ -82303,13 +82354,12 @@ pmc:Fenxing a pm:Conceptualizing ;
     pm:fromWork pmw:BaopuziNeipian ;
     pm:withinTradition pmt:Daoist .
 
-pmc:FourthJhana a pm:Conceptualizing ;
-    rdfs:label "Die vierte Vertiefung"@de,
-        "The fourth absorption"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga XII.1 (trans. Ñāṇamoli 1956)",
-        "Buddhaghosa, Visuddhimagga XII.49 (trans. Ñāṇamoli 1956)" ;
-    skos:definition "The absorption from which the handbook has the supernormal powers proceed, and which it calls their natural plane."@en ;
-    pm:fromWork pmw:Visuddhimagga ;
+pmc:FiveHindrances a pm:Conceptualizing ;
+    rdfs:label "Die fünf Hemmnisse"@de,
+        "The five hindrances"@en ;
+    dcterms:source "Dīgha Nikāya 2, Sāmaññaphala Sutta (trans. Ṭhānissaro Bhikkhu)" ;
+    skos:definition "Sensual desire, ill will, dullness and drowsiness, restlessness and remorse, and doubt, whose abandoning the discourse describes immediately before entry into the first absorption."@en ;
+    pm:fromWork pmw:DighaNikaya ;
     pm:withinTradition pmt:Theravada .
 
 pmc:GenerationStage a pm:Conceptualizing ;
@@ -83475,6 +83525,15 @@ pmc:Sariel a pm:Naming ;
     pm:nameRole "watcher" ;
     pm:withinTradition pmt:Enochic .
 
+pmc:SecondJhana a pm:Conceptualizing ;
+    rdfs:label "Die zweite Vertiefung"@de,
+        "The second absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.139 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.149-150 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    skos:definition "The absorption entered with the stilling of applied and sustained thought, with internal confidence and singleness of mind, and happiness and bliss born of concentration. The handbook says it abandons two factors, applied and sustained thought, and possesses three: happiness, bliss and unification of mind."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:SeeingWitchcraft a pm:Conceptualizing ;
     rdfs:label "Das Sehen der Hexerei und das Weissagen"@de,
         "Seeing witchcraft and prophesying"@en ;
@@ -84071,6 +84130,14 @@ pmc:ZuyuaNaat a pm:Conceptualizing ;
     skos:definition "The capacity to hear a figurative demand and produce the thing meant. The witness does not treat this as a skill beside descent but as the same fact: what the examination asks is whether the candidate can explain how the ruling men came and whether he is of the lineage of rulers."@en ;
     skos:note "The text says nothing about where this language is learned or whether the answers are taught. That silence is the whole difficulty of the procedure as a test and is taken up at pmc:ZuyuaExamination."@en ;
     pm:withinTradition pmt:MayaRitual .
+
+pm:Sequencing a owl:Class ;
+    rdfs:label "Reihen"@de,
+        "Sequencing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a series of steps, states or stations forms one ordered whole, and that each member has its sense from its place in it."@en ;
+    skos:note "Distinct from pm:Presupposing, which says of two steps that one is not reached without the other. A series can be strictly ordered without any member being declared unreachable, and the meaning it carries is the whole order rather than any one pair of it. Distinct from pm:Systematizing in who made the order: a list a modern editor drew up is a systematization, however old its members."@en,
+        "The members are held as rdf:_1, rdf:_2 and so on, the container membership properties of RDF, on the node itself. The position is then the datum and not a copy of it: a second property naming the members beside an ordering literal would let the two drift apart, and a list built of blank nodes is used nowhere else in this record and would not survive the cut into parts."@en .
 
 pm:abidingState a pm:AwarenessValue,
         pm:StateDuration ;
@@ -86897,6 +86964,15 @@ pmc:EuropeanFolkMagicRothlaufStillung a pm:Conceptualizing ;
         pmw:HohmanLongLostFriend1850 ;
     pm:withinTradition pmt:EuropeanFolkMagic .
 
+pmc:FirstJhana a pm:Conceptualizing ;
+    rdfs:label "Die erste Vertiefung"@de,
+        "The first absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga IV.104 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)",
+        "Buddhaghosa, Visuddhimagga IV.79 (trans. Ñāṇamoli, 4th ed., BPS Kandy 2010)" ;
+    skos:definition "The absorption accompanied by applied and sustained thought, with happiness and bliss born of seclusion. The handbook says it abandons five factors, the five hindrances, and possesses five."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
+
 pmc:FourStatesOfConsciousness a pm:Conceptualizing ;
     rdfs:label "Die vier Bewusstseinszustände"@de,
         "The four states of consciousness"@en ;
@@ -86906,6 +86982,15 @@ pmc:FourStatesOfConsciousness a pm:Conceptualizing ;
         "The ordering is fourfold and is not the Indian one. It does not count waking, dream and deep sleep with a fourth beyond them; it counts degrees of presence within waking, and it puts the ordinary waking state on the lower half of its own scale. Two of its four terms therefore have no counterpart on pm:SensoryAnchoring, whose values were drawn from the Māṇḍūkya. See prima-materia#653."@en,
         "The source names no antecedent for this ordering, and that silence is itself worth recording. The same book gives the fourfold division of bodies under four sets of names and asserts that comparable tables stand in most systems, which is held at pmc:FourBodiesAcrossTerminologies. For the states it names nobody. Whether a route to the theosophical or Vedantic material can be shown is open; the work does not supply one."@en ;
     pm:withinTradition pmt:FourthWay .
+
+pmc:FourthJhana a pm:Conceptualizing ;
+    rdfs:label "Die vierte Vertiefung"@de,
+        "The fourth absorption"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga XII.1 (trans. Ñāṇamoli 1956)",
+        "Buddhaghosa, Visuddhimagga XII.49 (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The absorption from which the handbook has the supernormal powers proceed, and which it calls their natural plane."@en ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:withinTradition pmt:Theravada .
 
 pmc:HathaSiddhi a pm:Conceptualizing ;
     rdfs:label "Vollendung im Haṭha"@de,
@@ -91612,11 +91697,6 @@ pmw:SatapathaBrahmana a dcterms:BibliographicResource ;
         "Śatapatha Brāhmaṇa"@en ;
     skos:note "Opened on 2026-09-19 in the Mādhyandina recension, in the English of Julius Eggeling, Sacred Books of the East volumes 12, 26, 41, 43 and 44, Oxford 1882 to 1900, covering kāṇḍas I to XIV. Five passages were read at the wording; the rest of the fourteen kāṇḍas was searched and not read. The Kāṇva recension is a separate text for citation purposes and was not obtained."@en .
 
-pm:Process a owl:Class ;
-    rdfs:label "Prozess"@de,
-        "Process"@en ;
-    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
-
 pmt:KongoNkisi a pm:Tradition ;
     rdfs:label "Kongolesische Nkisi-Überlieferung"@de,
         "Kongo nkisi transmission"@en ;
@@ -91656,6 +91736,11 @@ pmw:ZhuziYulei a dcterms:BibliographicResource ;
         "Zhuzi yulei, the classified conversations of Master Zhu"@en ;
     skos:note "Opened on 2026-10-10 in the Wenyuange recension of the Siku quanshu, as the Kanseki Repository text KR3a0047 carries it: 140 juan with the editor's preface of 1270 and the Siku editors' abstract. The work is a classified record of what Zhu Xi said, taken down by named disciples whose names stand in brackets at the end of each entry, and the brackets matter for the harvest: a conversation in which a disciple reports his own practice is marked as that disciple's record."@en,
         "Read in part and the part is named. Of 140 juan, thirteen were read at the places where quiet sitting occurs, with the conversations around them; five of those thirteen were read further for the places on verification. The work is a run of its own several times over, and what is entered here is the yield of one question put to the whole of it."@en .
+
+pm:Process a owl:Class ;
+    rdfs:label "Prozess"@de,
+        "Process"@en ;
+    skos:definition "The root class of all ongoing acts modelled by prima-materia. Every substantive class in the ontology is a subclass of pm:Process."@en .
 
 pmp:NippurBowlInversion a pm:Practicing ;
     rdfs:label "Die beschriftete Schale mit der Öffnung nach unten niederlegen"@de,
@@ -92430,11 +92515,6 @@ pmw:TheBookOfResults a dcterms:BibliographicResource ;
     skos:note "Harvest counts: four signs of success (the recognised feeling of non-desiring, readiness to walk on coals, the vanishing of body awareness, seeing one's own body from behind) and eleven conditions of failure, of which one names an outcome the operator would notice, the feeling of foolishness after a rite done with unperfected technique, and one a duration, whirling under an hour. None names a deadline after which a sigil counts as having failed, and the record the work prescribes has no place for one."@en,
         "Sherwin. First issued in 1978, as the first chapter says; the edition read carries a foreword by Peter Carroll calling it a fourth publication, and The Druid's Knot by Thessalonius Loyola, which its prefatory note says was unpublished until 1991. The full-text layer of the open scan archive carries no title page, imprint or page numbers, so the work is cited by chapter and heading. Opened and read complete on 2026-10-23, in two independent extraction passes and a reading of the whole text by the integrator."@en .
 
-pmw:Visuddhimagga a dcterms:BibliographicResource ;
-    rdfs:label "Buddhaghosa, Visuddhimagga"@de,
-        "Buddhaghosa, Visuddhimagga"@en ;
-    skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956."@en .
-
 pm:Disputing a owl:Class ;
     rdfs:label "Bestreiten"@de,
         "Disputing"@en ;
@@ -92453,23 +92533,10 @@ pmw:RasaJalaNidhi a dcterms:BibliographicResource ;
     skos:note "A compilation that names no source for any verse it prints. That is a property of this work and is the reason no node in this file cites a classical title."@en,
         "Opened on 2026-09-25 at the whole of its first volume, Calcutta 1926, in the compiler's own English. Volumes II to V of the same work carry sulphur, mica, the metals, the gems and the poisons, and every one of the nodes below that says see volume II is a forward reference of the compiler's own; they are the cheapest continuation from here and need no new acquisition."@en .
 
-pmt:Theravada a pm:Tradition ;
-    rdfs:label "Theravāda"@de,
-        "Theravāda"@en ;
-    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
-    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
-    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
-    pm:contactRoute pm:contactRouteDocumented ;
-    pm:corpusWork pmw:Anagatavamsa,
-        pmw:DighaNikaya,
-        pmw:Jataka,
-        pmw:MajjhimaNikaya,
-        pmw:SamyuttaNikaya,
-        pmw:VinayaPitaka,
-        pmw:Visuddhimagga ;
-    pm:coverageState pm:placesEntered ;
-    pm:fromWork pmw:Visuddhimagga ;
-    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
+pmw:Visuddhimagga a dcterms:BibliographicResource ;
+    rdfs:label "Buddhaghosa, Visuddhimagga"@de,
+        "Buddhaghosa, Visuddhimagga"@en ;
+    skos:note "The systematising handbook of the tradition and the source of most of this file. Read in Ñāṇamoli's English of 1956; chapter IV, paragraphs 79 to 197, read on 2026-10-29 in the fourth edition of that translation, Buddhist Publication Society, Kandy 2010."@en .
 
 pm:Situating a owl:Class ;
     rdfs:label "Verorten"@de,
@@ -92501,6 +92568,24 @@ pmt:IslamicLetterMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:GhayatAlHakim ;
     pm:principalCorpus "The Šams al-maʿārif corpus ascribed to al-Būnī; Ghāyat al-Ḥakīm" .
+
+pmt:Theravada a pm:Tradition ;
+    rdfs:label "Theravāda"@de,
+        "Theravāda"@en ;
+    dcterms:source "Buddhaghosa, Visuddhimagga (trans. Ñāṇamoli 1956)" ;
+    skos:definition "The transmission of the Pāli canon and its commentarial literature, of which the Visuddhimagga of Buddhaghosa is the systematising handbook."@en ;
+    skos:note "Edition finding, prima-materia#45. The Visuddhimagga citations name the translation they were read from, and Dīgha Nikāya 2 was reopened for this purpose. For Majjhima Nikāya 118, Dīgha Nikāya 11 and Vinaya, Cūḷavagga V.8 the edition or translation is not recoverable and is left unstated rather than guessed; those three passages are to be reopened."@en ;
+    pm:contactRoute pm:contactRouteDocumented ;
+    pm:corpusWork pmw:Anagatavamsa,
+        pmw:DighaNikaya,
+        pmw:Jataka,
+        pmw:MajjhimaNikaya,
+        pmw:SamyuttaNikaya,
+        pmw:VinayaPitaka,
+        pmw:Visuddhimagga ;
+    pm:coverageState pm:placesEntered ;
+    pm:fromWork pmw:Visuddhimagga ;
+    pm:principalCorpus "The Pali Canon, in the Dīgha and Majjhima Nikāyas, the Vinaya and the Jātaka; Buddhaghosa, Visuddhimagga" .
 
 pmw:GhayatAlHakim a dcterms:BibliographicResource ;
     rdfs:label "Ghāyat al-Ḥakīm, Das Ziel des Weisen (Picatrix)"@de,
@@ -92880,15 +92965,15 @@ pm:firstPersonReport a pm:Attesting ;
         "First-person report"@en ;
     skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
-pm:statedNecessity a pm:PrerequisiteStrength ;
-    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
-        "Stated necessity"@en ;
-    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
     skos:definition "The source instructs that one comes before the other, without saying what follows from disregarding it."@en .
+
+pm:statedNecessity a pm:PrerequisiteStrength ;
+    rdfs:label "Ausdrücklich gesetzte Notwendigkeit"@de,
+        "Stated necessity"@en ;
+    skos:definition "The source says what fails to happen without the prior step: that the later step is not possible, or does not arise, or turns harmful."@en .
 
 pm:Searching a owl:Class ;
     rdfs:label "Suchen"@de,
