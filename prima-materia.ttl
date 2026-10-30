@@ -18824,15 +18824,6 @@ pmc:ChaosMagicCondCRhythmCaution a pm:Cautioning ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
-pmc:ChaosMagicCondCRitualTension a pm:Conceptualizing ;
-    rdfs:label "Rituelle Spannung durch angenommenen Glauben"@de,
-        "Ritual tension built by adopted belief"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
-    skos:definition "The necessary emotional tension in a ritual."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
 pmc:ChaosMagicCondCRobedOrSkyclad a pm:Conceptualizing ;
     rdfs:label "Robe oder himmelsbekleidet"@de,
         "Robe or skyclad"@en ;
@@ -18959,16 +18950,6 @@ pmc:ChaosMagicCondCSurrenderOfControl a pm:Cautioning ;
     skos:definition "It is difficult to propel oneself deliberately into initiatory states, especially since at some point one must surrender control."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:cautionsAbout pmc:ChaosMagicCondCSahaja ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmc:ChaosMagicCondCSystemExperiencesSuccess a pm:Conceptualizing ;
-    rdfs:label "Erfahrungen gemäß dem angenommenen System"@de,
-        "Experiences matching the adopted system"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 140; read in a full-text layer of the second printing" ;
-    skos:definition "Announced result: you will have seven-chakra experiences, and then results accordant with the Middle Pillar model."@en ;
-    skos:note "Counted as a sign of success: experiences shaped like whatever system one has drilled into oneself, first seven-chakra experiences and then results matching the Middle Pillar. No deadline; the sign is announced in advance and follows the system chosen. It concerns pmp:ChaosMagicCondCChakraBeliefShift."@en ;
-    pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
@@ -24865,6 +24846,982 @@ pmc:ChaosMagicOrangePower a pm:Conceptualizing ;
     skos:definition "Charlatanry, trickery, living by one's wits and thinking fast on one's feet are the essence of the orange power, traditionally tied to the god-forms that were patrons of doctors, magicians, gamblers and thieves. Medicine has partly left charlatanry since antibiotics and hygienic surgery worked, yet about eighty percent of medications are still basically placebos and the caduceus remains its emblem; magic has likewise become less dependent on charlatanry with the quantum-probabilistic understanding of enchantment and divination and the abandonment of classical alchemy and astrology, pure magic being now an expression of the octarine power. Charlatanry still has its place: conjuring tricks were once the shamanic warm-up before placebo healing. Salesmen, confidence tricksters, stockbrokers and any profession with an extreme heart-attack rating draw on it. The motive power of the orange gnosis is a fear that does not inhibit but creates an extraordinary nervous speed producing quick moves and answers in tight corners."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:LiberKaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcActingAsIfYieldsRitualTension a pm:Yielding ;
+    rdfs:label "Als-ob-Glaube ergibt rituelle Spannung"@de,
+        "As-if belief yields ritual tension"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Treating the gods as real during the rite builds the required tension."@en ;
+    skos:note "The 1995 text carries the practice (pmp:ChaosMagicCondCActingAsIfGodsReal) and the tension (pmc:ChaosMagicCondCRitualTension) but no node joining them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicCondCActingAsIfGodsReal ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicCondCRitualTension .
+
+pmc:ChaosMagicOrcAgainstHigherLowerSelf a pm:Conceptualizing ;
+    rdfs:label "Gegen das New-Age-Höhere/Niedere Selbst"@de,
+        "Against the New Age Higher/Lower Self"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine disputes the New Age aim of removing or transcending the ego in favour of a Higher Self, arguing that the ego concept from psychoanalytic cults keeps up the mind-body split and that the Higher-Lower Self fiction keeps spirituality apart from daily life."@en ;
+    skos:note "Only Hine's side is read: the New Age writers he opposes are not named."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAgainstObscurantistOccultism a pm:Conceptualizing ;
+    rdfs:label "Gegen obskurantistischen Okkultismus von inneren Ebenen und Hierarchien"@de,
+        "Against obscurantist occultism of inner planes and hierarchies"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), What is Magick?; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine objects that magick has been smothered in technical vocabulary that shuts out outsiders and props up pomposity, and that towering schemes of inner worlds, ranked spiritual beings and secret doctrines have made people forget that the surrounding world is magical."@en ;
+    skos:note "Only Hine's side is read: the occultism he opposes is described, not quoted from any named work."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAgainstSystemsApproach a pm:Conceptualizing ;
+    rdfs:label "Gegen den System-Ansatz"@de,
+        "Against the Systems approach"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), What is Chaos Magick?; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine criticises the dominant Systems approach for making the student absorb beliefs, rules, correspondences and even dress codes before doing any magic, and argues that simple ideas there harden into complicated beliefs that lead away from practice."@en ;
+    skos:note "Only Hine's side is read: no exponent of the Systems approach is named or quoted."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAlphabetOfBinding a pm:Systematizing ;
+    rdfs:label "Hines Bindungsalphabet"@de,
+        "Hine's alphabet of binding"@en ;
+    dcterms:date "1992"^^xsd:gYear ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A personal alphabet of demon names and sigils made by Hine from the Howling operation."@en ;
+    skos:note "The alphabet itself is not given in the text; only two of its names, Uul and Hamal, are."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:compiledBy "Phil Hine, from the debris of his Howling operation" ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAtmosphereChangeSign a pm:Conceptualizing ;
+    rdfs:label "Atmosphärische Veränderung und automatisches Einsetzen der Gefühle"@de,
+        "Atmospheric change and automatic onset of feelings"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Signs that the rite works: a change in the felt atmosphere of the space and, after practice, the feelings coming on of themselves whenever the rite begins."@en ;
+    skos:note "Counted as a sign of success: the atmosphere of the place changes, and after practice the accompanying feelings set in automatically each time the rite is performed. Judged by the operator alone; no deadline, the second sign comes only 'with practice'. It concerns pmp:ChaosMagicOrcCenteringRite."@en,
+        "Differs from pmc:ChaosMagicCondBRelaxedPreparedPoisedSign (Condensed Chaos, 1995): The 1995 sign is feeling relaxed, ready and poised; the 1992 signs are a change in the felt atmosphere of the place and, after practice, the feelings arising of themselves whenever the rite is begun."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBabblogue a pm:Conceptualizing ;
+    rdfs:label "Der Babblogue"@de,
+        "The Babblogue"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Defined as a willed disordering of the senses, an orchestrated personal din and a descent into the subconscious in order to face and bind the lurkers there."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBeliefShiftingBeforeExclusivePairs a pm:Presupposing ;
+    rdfs:label "Erfahrung im Glaubenswechsel vor widersprüchlichen Paaren"@de,
+        "Belief-shifting experience before contradictory pairs"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 2; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The contradictory-belief contemplation is to follow a period of experiment with belief-shifting."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmp:ChaosMagicOrcContemplatingExclusiveBeliefs ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmp:ChaosMagicCondCChakraBeliefShift ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBindingAlphabetYieldsBanishingMoods a pm:Yielding ;
+    rdfs:label "Bindungsalphabet ergibt Bannung von Stimmungen"@de,
+        "Binding alphabet yields banishing of moods"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "After 18 hours' sleep Hine woke free of the built-up delirium; over the next six months, whenever depression, paranoia or self-loathing returned, the matching sigils and names banished them."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcAlphabetOfBindingWork ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcBanishingRecurringMoods .
+
+pmc:ChaosMagicOrcBohmHolisticUniverse a pm:Conceptualizing ;
+    rdfs:label "Holistisches Universum und geordnetes Handeln (Bohm)"@de,
+        "Holistic universe and ordered action (Bohm)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "David Bohm is reported to hold that conceiving the universe as whole instead of fragmented would make the mind move likewise and produce ordered action toward the whole; Hine says his experience of learning that the universe is magical bears this out."@en ;
+    skos:note "Reports physicist David Bohm."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBornAgainAdoptedBelief a pm:Conceptualizing ;
+    rdfs:label "Übernommener Glaube, der blieb (Wiedergeborenen-Anekdote)"@de,
+        "Adopted belief that stayed (Born-Again anecdote)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "An acquaintance began Chaos magick by adopting the belief system of a Born-Again Christian; he has remained one, but seems happier."@en ;
+    skos:note "Told as a joke: the belief adopted as an experiment was never dropped."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcCenteringRiteYieldsCentring a pm:Yielding ;
+    rdfs:label "Zentrierungsritus ergibt Zentrierung und Übergang"@de,
+        "Centering rite yields centring and shift"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Centering rites produce centring, an atmospheric change and, with practice, an automatic felt shift into magical reality."@en ;
+    skos:note "Differs from pmc:ChaosMagicCondBCenteringYieldsPoiseYield (Condensed Chaos, 1995): In 1995 centering yields relaxation and readiness for action; in 1992 the rite yields being centred, a change of atmosphere in the place, and with practice a felt shift into magical reality that sets in by itself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcCenteringRite,
+        pmp:ChaosMagicOrcDiscordianOpeningRitual ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcCentredAndReturning,
+        pmc:ChaosMagicOrcConditionedShiftIntoMagicalReality .
+
+pmc:ChaosMagicOrcCenteringRitesNullPoint a pm:Conceptualizing ;
+    rdfs:label "Zentrierungs-(Bannungs-)Rituale"@de,
+        "Centering (banishing) rituals"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Centering rites aim to set the magician at the centre of his psychocosm, the world-axis or zero point that all magic starts from; they warm one up for entering a space where nothing is true and everything permitted."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondBCentering (Condensed Chaos, 1995): Condensed Chaos (ch. 4, p. 77) gives centering as a practice with three core steps and a range from full banishing to a moment of no-mind; the 1992 text instead states the purpose of the centering rite (the centre of one's psychocosm, the axis mundi or null-point) and its function as a warm-up for the main working, with the Discordian Opening Ritual as its example."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcChakraBeliefShiftYieldsExperiences a pm:Yielding ;
+    rdfs:label "Glaubenswechsel ergibt passende Erfahrungen"@de,
+        "Belief-shifting yields matching experiences"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Working a scheme of chakras or Sephiroth yields experiences of that scheme."@en ;
+    skos:note "The 1995 text carries the practice (pmp:ChaosMagicCondCChakraBeliefShift) and the announced experiences (pmc:ChaosMagicCondCSystemExperiencesSuccess) but no node joining them."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicCondCChakraBeliefShift ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicCondCSystemExperiencesSuccess .
+
+pmc:ChaosMagicOrcChaoticAttractorsDistanceCautela a pm:Cautioning ;
+    rdfs:label "Chaotische Attraktoren aus sicherer Entfernung beobachten"@de,
+        "Observe chaotic attractors from a safe distance"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 8; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "People who draw weirdness around them should be studied, but preferably from a safe distance."@en ;
+    skos:note "Said half-jokingly in parentheses."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ChaosMagicOrcStudyingChaoticAttractors ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcCutUpTapesYieldPsychicSurgery a pm:Yielding ;
+    rdfs:label "Cut-up-Bänder zielen auf psychische Chirurgie"@de,
+        "Cut-up tapes aim at psychic surgery"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The scrambled tapes are intended to smash and remould the self."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcBlackBookAndBookOfBlunders,
+        pmp:ChaosMagicOrcScrambledPersonalityTapes ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcPsychicSurgery .
+
+pmc:ChaosMagicOrcDemonsDerangeBystandersCautela a pm:Cautioning ;
+    rdfs:label "Dämonen können Unbeteiligte verwirren; Gefahr der Einweisung"@de,
+        "Demons may derange bystanders; risk of committal"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The work's demons may derange unwary others, and someone stumbling on the operator may take him for psychotic and have him confined."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmp:ChaosMagicOrcFloodingAndVomiting ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDepthInOneSystemFirst a pm:Presupposing ;
+    rdfs:label "Tiefe in einem System vor weiteren"@de,
+        "Depth in one system before others"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Competence in a first system is presented as easing the acquisition of further ones."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:dependentStep pmc:ChaosMagicOrcEaseWithFurtherSystems ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:prerequisiteStrength pm:prescribedOrder ;
+    pm:priorStep pmc:ChaosMagicOrcCompetenceInOneSystem ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDiaryEssential a pm:Presupposing ;
+    rdfs:label "Tagebuch gilt als unerlässlich"@de,
+        "Diary held essential"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Keeping a diary of experiences and experiments is said to be generally held essential, because what is not written down after a working is likely to be forgotten."@en ;
+    skos:note "The source says the diary is 'generally considered' essential and gives the loss of unrecorded insight as the reason; the dependent step is the keeping of insights from a working."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:consequenceOfSkipping "A flash of insight after a ritual that is not written down will probably be forgotten, and that piece of wisdom is then lost for good." ;
+    pm:dependentStep pmc:ChaosMagicOrcRetainingAndRecallingInsight ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:ChaosMagicOrcMagicalDiary ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDiaryYieldsRecall a pm:Yielding ;
+    rdfs:label "Tagebuch ergibt Aufzeichnung, Disziplin und Erinnerung"@de,
+        "Diary yields record, discipline and recall"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The diary charts progress and brings discipline and fresh recall."@en ;
+    skos:note "Differs from pmc:ChaosMagicCondADiaryYieldsProgress (Condensed Chaos, 1995): In 1995 the diary yields visible progress and lets old ideas be taken up again; in 1992 it yields the keeping of insight, discipline, and recall in the act of writing up."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcMagicalDiary ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcRetainingAndRecallingInsight .
+
+pmc:ChaosMagicOrcDiscordianSeasonPatrons a pm:Systematizing ;
+    rdfs:label "Fünf diskordische Jahreszeiten und ihre Patrone"@de,
+        "Five Discordian seasons and their patrons"@en ;
+    dcterms:date "1992"^^xsd:gYear ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, notes 1-5; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The notes to the Opening Ritual give each of the five Apostles invoked a Discordian season as patron: Hung Mung of Chaos, Van Van Mojo of Discord, Sri Syadasti of Confusion, Zarathud of Bureaucracy, Malaclypse the Elder of Aftermath."@en ;
+    skos:note "The seasons are those of the Discordian calendar; the order of the patrons follows the order of the calls (east, south, west, north, above or below). Kept as an ordering of the notes, not as a series, because no patron has its sense from its place."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:compiledBy "Prince Prance, in the notes to the Discordian Opening Ritual printed by Hine" ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDistrustOfOldGrimoires a pm:Conceptualizing ;
+    rdfs:label "Misstrauen gegenüber den alten Grimoires"@de,
+        "Distrust of the old grimoires"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Asked why he worked alone without tested rituals and banishings, Hine says he does not trust the old books, mocking mad monks, Necronomicons and forbidden knowledge sold cheaply in paperback, and chose to compile a living grimoire instead."@en ;
+    skos:note "Only Hine's side is read: the grimoires he mocks are named by type, not cited."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcEvenFalseThingsTrue a pm:Conceptualizing ;
+    rdfs:label "Alles ist wahr, auch Falsches"@de,
+        "Everything is true, even false things"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), All Hail Discordia!; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A quoted Discordian dialogue has Malaclypse affirm that everything, including false things, is true, and disclaim responsibility for it."@en ;
+    skos:note "A dialogue between Malaclypse and a 'Greater Poop', quoted without source in the text; the Principia Discordia is named just before it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcEveryoneAGenuinePope a pm:Conceptualizing ;
+    rdfs:label "Jeder ein echter Papst"@de,
+        "Everyone a genuine Pope"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), All Hail Discordia!; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The Discordian movement is said to spread partly through its tactic of declaring every person a genuine Pope, as a religion celebrating confusion and madness."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcEvolutionOrSystemsCrashCautela a pm:Cautioning ;
+    rdfs:label "Veränderter Bewusstseinszustand als Evolution oder Systemabsturz"@de,
+        "ASC as evolution or systems crash"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Of Madness & Mystic Journeys; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Some postulate that such experiences are genetically programmed, with individual experience deciding whether the program unfolds as an evolutionary step enhancing survival or as a systems crash."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:ChaosMagicOrcSchizophreniaAndMysticJourney ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcForgottenOnesNaming a pm:Naming ;
+    rdfs:label "Die Vergessenen"@de,
+        "The Forgotten Ones"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The inner demons the descent aims to make known, which take shape through the psychographs."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Forgotten Ones" ;
+    pm:nameRole "repressed inner demons" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcGnosisYieldsIllumination a pm:Yielding ;
+    rdfs:label "Gnosismethoden ergeben Erleuchtung"@de,
+        "Gnosis methods yield illumination"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Illumination; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Carroll is cited defining illumination as the result of success with gnosis methods."@en ;
+    skos:note "The practices joined are the gnosis techniques the text describes; the source of the claim is Carroll's definition as Hine quotes it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicCondCTacNukeGnosis,
+        pmp:ChaosMagicOrcMetanoia,
+        pmp:ChaosMagicOrcOnePointedFocusing ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcIlluminationAfterCarroll .
+
+pmc:ChaosMagicOrcHabituationDishabituation a pm:Conceptualizing ;
+    rdfs:label "Habituations- und Dishabituationsreaktion"@de,
+        "Habituation and dishabituation responses"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Most ASC exercises fall into inhibitory or excitatory gnosis; laboratory study over two decades is said to have isolated two key factors, the habituation and dishabituation responses."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHamalNaming a pm:Naming ;
+    rdfs:label "Hamal"@de,
+        "Hamal"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Demon named by Hine: guilt not yet erased."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Hamal" ;
+    pm:nameRole "demon of unerased guilt" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHineObsessionDissolvedYield a pm:Yielding ;
+    rdfs:label "Hines Obsession löste sich auf (Anekdote)"@de,
+        "Hine's obsession dissolved (anecdote)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Desperate, Hine turned to a friend, which he calls magick in itself; an I Ching reading pointing to action and non-action undid his self-doubt, pranayama removed most physical tension, and the monster shrank and dissolved into mirrored shards; the remaining clues no longer frighten him."@en ;
+    skos:note "Hine's report of his own case; turning to a friend for help he calls magick enough in itself."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicCondCBehavioralComponent,
+        pmp:ChaosMagicOrcPhysiologicalStilling ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicCondCFreedomFromObsession .
+
+pmc:ChaosMagicOrcHineSystemHopping a pm:Conceptualizing ;
+    rdfs:label "Hines eigener Systemwechsel"@de,
+        "Hine's own system-hopping"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine says he switches among his own D.I.Y. work, Qabalah, Tantra, the Cthulhu Mythos, Shamanism and other systems as seems fitting."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHowlYieldsCalmDetachment a pm:Yielding ;
+    rdfs:label "Das Heulen ergibt ruhige Distanz"@de,
+        "The howl yields calm detachment"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "After the climax (the jackals that rushed in all wore his face) Hine felt calm and detached."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcFloodingAndVomiting,
+        pmp:ChaosMagicOrcOverloadDeprivationGnosis ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcCalmDetachment .
+
+pmc:ChaosMagicOrcHowledNamesReceiving a pm:Receiving ;
+    rdfs:label "Aus der Kehle geheulte Namen"@de,
+        "Names howled from the throat"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "At the breaking point, with a wrenching sensation in his head, Hine began to howl names that erupted from his throat, given as a string of barbarous syllables forming a section heading."@en ;
+    skos:note "Speaker not identified; the names arise unbidden, implicitly from the evoked demons."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:claimedSpeaker "Unnamed; the names erupt from Hine's own throat, and the text does not say from whom they come" ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:receivedBy "Phil Hine, alone in his temple at the climax of the Howling operation" ;
+    pm:receptionCircumstance "After about five days without sleep, sensory overload and fasting, Hine smashes his psychographs and collapses; with a wrenching sensation in his head he begins to howl names, which the text prints as a section heading of barbarous syllables." ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHowlingPersonalApproach a pm:Conceptualizing ;
+    rdfs:label "Ein persönlicher Ansatz, kein Vorbild"@de,
+        "A personal approach, not a model"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine offers the account of exploring his own demons by a self-developed approach not to impose it but to help other experimenters, and disclaims invalidating traditional goetic magic, which simply does not suit him."@en ;
+    skos:note "Statement on how fixed the method is."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHumourMissingFromMagic a pm:Conceptualizing ;
+    rdfs:label "Fehlender Humor in der Magie (diskordischer Punkt)"@de,
+        "Humour missing from magic (Discordian point)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), What is Chaos Magick?; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The Discordians are reported as pointing out that humour and light-heartedness were missing from magic, which tended toward seriousness, self-importance and an initiated-elite self-image."@en ;
+    skos:note "Reported from Robert Anton Wilson and the Discordian Society; Hine adds that occultists tended to see themselves as an initiated elite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcHungMungNaming a pm:Naming ;
+    rdfs:label "Hung Mung"@de,
+        "Hung Mung"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, item 4 and note 1; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Blessed Apostle and great Sage of Cathay, Discordianism's connection with the Chinese Mysteries and deviser of the Sacred Chao; patron of Chaos, the first season; invoked in the east for balance."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Hung Mung" ;
+    pm:nameRole "Discordian Apostle of the East; patron of the Season of Chaos" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcInformationFieldsBecomeEntities a pm:Conceptualizing ;
+    rdfs:label "Informationsfelder, die zu autonomen Wesenheiten werden"@de,
+        "Information fields becoming autonomous entities"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Magical Models; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Citing Chaos Servitors: A User Guide, Hine says localised information fields may in time self-organise until they are experienced as autonomous entities, i.e. spirits, so that the Cybernetic model loops back to the Spirit model."@en ;
+    skos:note "Refers to a separate work (Hine's own Chaos Servitors booklet, author not named here)."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcIntegrationAfterExperience a pm:Conceptualizing ;
+    rdfs:label "Integration nach der Erfahrung"@de,
+        "Integration after the experience"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Citing the American researcher W.N. Pankhe, Hine says the most demanding work may follow a drug-induced experience of illumination: fitting it into everyday life."@en ;
+    skos:note "Recorded as a claim and not as a prerequisite: the text names no separate step of integration that could be a node."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcKirkNaming a pm:Naming ;
+    rdfs:label "Kirk"@de,
+        "Kirk"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Star Trek character characterised as an arbitrator who always seeks to settle conflict peacefully."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Kirk" ;
+    pm:nameRole "arbitrator, peaceful resolver of conflict" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcLSDBrainwashingCautela a pm:Cautioning ;
+    rdfs:label "LSD als Gehirnwäschemittel untersucht"@de,
+        "LSD studied as brainwashing agent"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine recalls that the CIA investigated LSD in the 1950s as a possible brainwashing agent."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ChaosMagicOrcPsychotropicDrugs ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcLegionNaming a pm:Naming ;
+    rdfs:label "Legion, der innere Bewohner"@de,
+        "Legion, the Dweller Within"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The inner dweller to be brought forth is named Legion, i.e. a multitude of one's own demons."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Legion" ;
+    pm:nameRole "the multiple Dweller Within, sum of one's inner demons" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMagicalSystem a pm:Conceptualizing ;
+    rdfs:label "Magisches System"@de,
+        "Magical system"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), What is Chaos Magick?; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A magical system is described as combining practical change techniques with beliefs, attitudes, one or more models of the universe, a moral ethic and more; examples given are Qabalah, Wiccan traditions, the Golden Dawn and westernised shamanic paths."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMagickSimpleWorldMagical a pm:Conceptualizing ;
+    rdfs:label "Magie ist einfach; die Welt ist magisch"@de,
+        "Magick is simple; the world is magical"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), What is Magick?; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine holds that magick is at bottom simple and that the mystery lies in the living world about us, a world he calls magical, rather than in lost tongues, graves or hidden lore; magick is a door into mystery, wildness and immanence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMalaclypseTheElderNaming a pm:Naming ;
+    rdfs:label "Malaclypse der Ältere"@de,
+        "Malaclypse the Elder"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, item 8 and note 5; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Elder Saint of Discordia, alleged ancient wise man who bore a placard reading DUMB through the back streets of Rome, Mecca, Baghdad and Jerusalem; patron of Aftermath, the fifth season; invoked above or below for illumination."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Malaclypse the Elder" ;
+    pm:nameRole "Discordian Elder Saint, zenith/nadir; patron of the Season of Aftermath" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMaslowDemonHierarchy a pm:Sequencing ;
+    rdfs:label "Dämonenhierarchie nach Maslow"@de,
+        "Maslow-based demon hierarchy"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    rdf:_1 pmc:ChaosMagicOrcSurvivalDemonsNaming ;
+    rdf:_2 pmc:ChaosMagicOrcEgoDemonsNaming ;
+    rdf:_3 pmc:ChaosMagicOrcAbstractDemonsNaming ;
+    skos:definition "Hine devised a hierarchy of demons modelled on Abraham Maslow's work, ranging from survival through ego to abstract demons; the deeper the level, the more primal the desires."@en ;
+    skos:note "Hine's own system adapted from Maslow. The text says deeper means more primal, so the listed order runs from most to least primal."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:seriesStatement "Hine's hierarchy of demons runs from survival demons through ego demons to abstract demons, and the text says the deeper the level, the more primal the desires; a demon's level is therefore read from its place, the first place being the deepest and most primal and the last the most abstract." ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMassAcceptableMagickCautela a pm:Cautioning ;
+    rdfs:label "Massentaugliche Magie verliert ihre Kraft"@de,
+        "Mass-acceptable magick loses its power"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), The conditioned reflex; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Enlightenment has been turned into a status marker; a magick acceptable to mass culture is said to lose its transformative power and prop up the status quo, sacrificing evolution to security."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:ChaosMagicOrcIlluminationAfterCarroll ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMercuryHermesNaming a pm:Naming ;
+    rdfs:label "Merkur / Hermes"@de,
+        "Mercury / Hermes"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Considered by Hine's colleague as god-forms to invoke for concentrating the mind on programming, before he settled on Spock."@en ;
+    skos:note "Named only as the god-forms Hine's colleague considered and passed over for Mr. Spock (pmc:ChaosMagicCondCSpockNaming). Condensed Chaos carries Hermes only as the messenger of the Eris myth (pmc:ChaosMagicCondAHermesNaming)."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Hermes",
+        "Mercury" ;
+    pm:nameRole "candidate god-forms for mental concentration" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcMetanoiaYieldsDishabituation a pm:Yielding ;
+    rdfs:label "Metanoia ergibt dishabituierte Bewusstheit"@de,
+        "Metanoia yields dishabituated awareness"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Whole-field practices are said to change neural patterning so that stimuli are no longer filtered out by habit."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcMetanoia ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcDishabituatedAwareness .
+
+pmc:ChaosMagicOrcMetasystems a pm:Conceptualizing ;
+    rdfs:label "Metasysteme"@de,
+        "Metasystems"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Metasystems are attempts to build a frame into which everything can be slotted, such as merging runes with tarot or mapping all onto the Tree of Life; Hine calls this a often useful and fun exercise."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcNoLiveToadsCautela a pm:Cautioning ;
+    rdfs:label "Keine lebenden Kröten in den Mund"@de,
+        "No live toads in the mouth"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 4; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The reader is told not to put live toads in the mouth."@en ;
+    skos:note "Item 4 of the basic exercises, given without explanation; it is a joke, and what it alludes to is not stated."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:ChaosMagicOrcBasicExercisesStatus ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcNoRequirementToBeChaosMagician a pm:Conceptualizing ;
+    rdfs:label "Keine feste Voraussetzung, Chaosmagier zu sein"@de,
+        "No set requirement to be a Chaos magician"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Conclusions; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Asked what one has to do to count as a Chaos magician, Hine says there is no answer: someone working Qabalah alone for a decade could call himself one, if he wished."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcNoSetEndPoint a pm:Conceptualizing ;
+    rdfs:label "Kein festgelegtes Ziel oder Endpunkt"@de,
+        "No set goal or end-point"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Conclusions; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Chaos magick is said to have no distinct path leading somewhere, no promised illumination-bliss and no declared aim; any end-point is for each practitioner to decide and discover."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcObsessionAsSelfMadeGolem a pm:Conceptualizing ;
+    rdfs:label "Obsession als selbstgeschaffener Dämon oder Golem"@de,
+        "Obsession as self-made demon or golem"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine describes an obsession as a demon or golem he made from his own longings and failings, a story that clouded his will, which he then dismantles piece by piece; we are knots in a cord that can be untied."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcOnePointedYieldsSubtlePerception a pm:Yielding ;
+    rdfs:label "Habituation ergibt feine Wahrnehmung"@de,
+        "Habituation yields subtle perception"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "One-pointed techniques, via cortical dampening and coherence, are said to sharpen perception of subtle experience."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcOnePointedFocusing ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcSubtlePatternPerception .
+
+pmc:ChaosMagicOrcOpeningRitualYieldsGifts a pm:Yielding ;
+    rdfs:label "Eröffnungsritual erbittet seine Gaben"@de,
+        "Opening Ritual petitions its gifts"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The Discordian Opening Ritual is framed as obtaining the gifts named in its invocations."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcDiscordianOpeningRitual ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcGiftsOfTheApostles .
+
+pmc:ChaosMagicOrcOpinionDogmaGlamourCautela a pm:Cautioning ;
+    rdfs:label "Meinung nicht mit Dogma, Glanz nicht mit Hingabe verwechseln"@de,
+        "Do not mistake opinion for dogma or glamour for commitment"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Conclusions; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine's closing warning is not to take opinion for dogma, nor glamour for commitment, adding that this too is only his opinion."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:ChaosMagicOrcNoDefinitiveBooks ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcOverstimulationReducesAwareness a pm:Conceptualizing ;
+    rdfs:label "Überstimulation verringert Bewusstheit"@de,
+        "Over-stimulation reduces awareness"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Conversely, greater over-stimulation of the cortex brings more neural noise arises and the less aware one is of one's environment."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcOwnSystemYieldsConfidence a pm:Yielding ;
+    rdfs:label "Arbeit am eigenen System erzeugt Selbstvertrauen"@de,
+        "Own-system work yields confidence"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, D.I.Y; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Original, self-devised magical work is said to build the practitioner's confidence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcOwnMagicalSystem ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcConfidenceFromInnovation .
+
+pmc:ChaosMagicOrcPlayingWithMagickCautela a pm:Cautioning ;
+    rdfs:label "„Mit Magie spielen“ ohne tieferes Verständnis"@de,
+        "\"Playing with magick\" without deeper understanding"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Conclusions; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Critics inside and outside the Chaos corpus are reported to point out a tendency to sample systems like ice-cream flavours, trying rituals and techniques with no grasp of how the experiences fit together; Hine does not reject the point."@en ;
+    skos:note "Reported criticism from unnamed critics."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmc:ChaosMagicOrcNoDefinitiveBooks ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcPossessionAndGurusConfidence a pm:Conceptualizing ;
+    rdfs:label "Besessenheit und Gurus verleihen Zuversicht"@de,
+        "Possession and gurus grant confidence"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Possession by a god, spirit or drug is said to let one do what one would not normally feel able to, as, in part, does having a guru; such figures supply the confidence to walk the tightrope. Hine adds that sanity is located outside, not in one's head."@en ;
+    skos:note "Hine adds that sanity lies 'out there' rather than in one's head."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcPossessionYieldsDaring a pm:Yielding ;
+    rdfs:label "Besessenheit ergibt außergewöhnliche Zuversicht"@de,
+        "Possession yields extraordinary confidence"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Possession lets one do what one would not otherwise feel able to."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcPossessionByEntity ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcDaringBeyondOrdinaryAbility .
+
+pmc:ChaosMagicOrcProcessVersusContent a pm:Conceptualizing ;
+    rdfs:label "Prozess versus Inhalt"@de,
+        "Process versus content"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "An early tenet of the Chaos current holds that ritual content is somewhat arbitrary while the underlying process is what matters; different rites with different content follow the same process."@en ;
+    skos:note "Statement on what in the method is fixed."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcPsychographsFallShortFailure a pm:Conceptualizing ;
+    rdfs:label "Psychographen bleiben hinter den Visionen zurück"@de,
+        "Psychographs fall short of the visions"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine reports that the psychographs fell far short of the visions around him; he smashed them with a hammer and collapsed exhausted and retching."@en ;
+    skos:note "Counted as a condition of failure: the psychographs come nowhere near the visions Hine sees about him, and he smashes them. The cause is put on the operator's means of giving shape to what he sees; no deadline and no rate. The failure is the turning point of the operation: the howling of names (pmc:ChaosMagicOrcHowledNamesReceiving) follows at once. It concerns pmp:ChaosMagicOrcPsychographs."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcPsychotropicsYieldIllumination a pm:Yielding ;
+    rdfs:label "Psychotropika ergeben Erleuchtungswirkungen"@de,
+        "Psychotropics yield illumination effects"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Research is reported to show that users of psychotropics have the same effects as illumination reached by other techniques."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcPsychotropicDrugs ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcIlluminationAfterCarroll .
+
+pmc:ChaosMagicOrcRecurringAfterEffectsCautela a pm:Cautioning ;
+    rdfs:label "Monatelang wiederkehrende Nachwirkungen"@de,
+        "Months of recurring after-effects"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine reports periodic depression, paranoia or self-loathing over about six months after the operation."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmp:ChaosMagicOrcFloodingAndVomiting ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcReticularFormationCensor a pm:Conceptualizing ;
+    rdfs:label "Formatio reticularis als Zensor; kortikale Dämpfung"@de,
+        "Reticular Formation as censor; cortical dampening"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The brain-stem Reticular Formation decides which sensory input reaches the higher centres (as when sleepers ignore familiar noise but wake to a new one). A single unchanging input damps it, which inhibits the cortex and focuses consciousness; a high neural coherence, as Karl Pribram postulated, seems to follow, with less brain noise."@en ;
+    skos:note "Draws on Karl Pribram."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcRiskingInsanityAloneCautela a pm:Cautioning ;
+    rdfs:label "Wahnsinn riskieren, allein und ohne Bannungen"@de,
+        "Risking insanity alone without banishings"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine frames the work as a descent into the labyrinth with only the thinnest cord to map it, asking himself why he risks insanity and goes alone without tried rituals and banishings."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:cautionsAbout pmp:ChaosMagicOrcFloodingAndVomiting ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcRolePlayYieldsParticipation a pm:Yielding ;
+    rdfs:label "Rollenspiel ergibt Teilhabe"@de,
+        "Role-play yields participation"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Group role-play is said to increase the sense of participation in the myth."@en ;
+    skos:note "The 1995 text carries the practice (pmp:ChaosMagicCondCRolePlayingMythos) but no node for the participation it is said to raise."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicCondCRolePlayingMythos ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcParticipationInMythicEvent .
+
+pmc:ChaosMagicOrcScottyNaming a pm:Naming ;
+    rdfs:label "Scotty"@de,
+        "Scotty"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Star Trek character characterised as a master builder."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Scotty" ;
+    pm:nameRole "master builder" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSeclusionForDemonWork a pm:Presupposing ;
+    rdfs:label "Abgeschiedenheit für Dämonenarbeit"@de,
+        "Seclusion for demon work"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Seclusion from others is called a necessity, as of old."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:consequenceOfSkipping "Otherwise one's demons may derange the unwary, and one may be discovered, taken for psychotic and committed." ;
+    pm:dependentStep pmp:ChaosMagicOrcFloodingAndVomiting ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:prerequisiteStrength pm:statedNecessity ;
+    pm:priorStep pmp:ChaosMagicOrcHowlingRetreatPreparation ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcShaktisNaming a pm:Naming ;
+    rdfs:label "Shaktis"@de,
+        "Shaktis"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "In the Tantric picture adopted by Hine, Shaktis are the desire-complexes making up the self."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Shaktis" ;
+    pm:nameRole "desire-complexes within the self" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcShivaKiaNaming a pm:Naming ;
+    rdfs:label "Shiva / Kia"@de,
+        "Shiva / Kia"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Shiva, or Kia, is held to be the divine spark of consciousness with which the Shaktis interact."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Kia",
+        "Shiva" ;
+    pm:nameRole "divine spark of consciousness" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSleepDeprivationYieldsParanoiacEdge a pm:Yielding ;
+    rdfs:label "Schlafentzug ergibt paranoische Schärfe"@de,
+        "Sleep deprivation yields paranoiac edge"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "120 hours awake produced a paranoiac edge."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcOverloadDeprivationGnosis ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcParanoiacEdge .
+
+pmc:ChaosMagicOrcSpiralGatingYieldsDoorway a pm:Yielding ;
+    rdfs:label "Spiraltor ergibt astrales Tor"@de,
+        "Spiral gating yields astral doorway"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Used in astral projection the figure serves as a doorway."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicOrcSpiralPentagramGating ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcAstralDoorway .
+
+pmc:ChaosMagicOrcSpiralPentagramTradSystemsFailure a pm:Conceptualizing ;
+    rdfs:label "Spiralpentagramme versagen in traditionellen Systemen"@de,
+        "Spiral Pentagrams fail with traditional systems"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "They are said to work in free-form workings but not with traditional systems like the Solomonic Lesser Key, whose entities Hine finds conservative about how they are evoked."@en ;
+    skos:note "Counted as a condition of failure: the spiral pentagrams are said to work in free-form workings and not with traditional systems, Hine's instance being the Lesser Key of Solomon. Cause: the entities of the traditional system, which Hine finds strictly conservative about how they are evoked, not the operator. No deadline and no rate; hedged with 'seem'. It concerns pmp:ChaosMagicOrcSpiralPentagram."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSpiralPentagramYieldsDrawingIn a pm:Yielding ;
+    rdfs:label "Spiralpentagramme ziehen Energien herein; erster Versuch gelang"@de,
+        "Spiral Pentagrams draw energies in; first trial worked"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Their first use, in a working invoking Eris, is reported to have worked very well, drawing energies in."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:byPractice pmp:ChaosMagicOrcSpiralPentagram ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcDrawingEnergiesIn .
+
+pmc:ChaosMagicOrcSpockInvocationYieldsGradeA a pm:Yielding ;
+    rdfs:label "Spock-Anrufung: Kollege erhielt eine Eins"@de,
+        "Spock invocation: colleague got an A"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine reports that his colleague, after invoking Spock, was awarded an A in the computer exam, and offers this jokingly as the final proof of his argument about belief."@en ;
+    skos:note "Differs from pmc:ChaosMagicCondCSpockInvocationYieldsExamResult (Condensed Chaos, 1995): The 1995 node says the colleague scored higher than he otherwise expected; the 1992 text says he got an 'A', offered with 'so there!' as the final proof of the argument."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:byPractice pmp:ChaosMagicCondCSpockInvocation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicCondCGodFormConcentration .
+
+pmc:ChaosMagicOrcSpuriousNecronomiconResults a pm:Conceptualizing ;
+    rdfs:label "Gefälschtes Necronomicon brachte dennoch berichtete Ergebnisse"@de,
+        "Spurious Necronomicon still yielded reported results"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine relates that an occult author published a spurious version of the Necronomicon and was sent many letters by people who had performed its rituals and wished to discuss their results; he ties this to belief as a magical tool."@en ;
+    skos:note "Author unnamed in the text."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSriSyadastiNaming a pm:Naming ;
+    rdfs:label "Sri Syadasti"@de,
+        "Sri Syadasti"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, item 6 and note 3; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Apostle and patron of psychedelia and of Confusion, the third season; invoked in the west to teach relative truth."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Sri Syadasti" ;
+    pm:nameRole "Discordian Apostle of the West; patron of the Season of Confusion" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcStreetLevelTricksterMagick a pm:Conceptualizing ;
+    rdfs:label "Magie als Straßenkunst des Tricksters"@de,
+        "Magick as street-level trickster activity"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Contrary to the books, magick is called a street-level, even gutter-level activity following the trickster's zig-zag route (Crowley, Cagliostro, Simon Magus); chaos is laughing matter, and Harpo Marx shows true magick in action."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSuluNaming a pm:Naming ;
+    rdfs:label "Sulu"@de,
+        "Sulu"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Star Trek character often shown as a martial figure."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Sulu" ;
+    pm:nameRole "martial figure" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSuspensionExerciseYieldsSuspending a pm:Yielding ;
+    rdfs:label "Lektüre gegen den Strich ergibt Aufhebung des Unglaubens"@de,
+        "Reading against the grain yields suspension of disbelief"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The reading exercise trains suspension of disbelief."@en ;
+    skos:note "The 1995 text carries the exercise (pmp:ChaosMagicCondCSuspensionOfDisbelief) but no capacity for it to yield."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:byPractice pmp:ChaosMagicCondCSuspensionOfDisbelief ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic ;
+    pm:yieldsCapacity pmc:ChaosMagicOrcSuspendingDisbelief .
+
+pmc:ChaosMagicOrcTraditionalPentagramBanishing a pm:Conceptualizing ;
+    rdfs:label "Das traditionelle Pentagramm eignet sich zum Bannen"@de,
+        "Traditional pentagram suits banishing"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine finds the traditional pentagram a very solid geometric figure and its link to banishing apt."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcUnrecordedInsightLostCautela a pm:Cautioning ;
+    rdfs:label "Nicht aufgezeichnete Einsichten gehen verloren"@de,
+        "Unrecorded insights are lost"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A flash of illumination after a ritual that is not written down will probably be forgotten for good."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:cautionsAbout pmp:ChaosMagicOrcMagicalDiary ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcUulNaming a pm:Naming ;
+    rdfs:label "Uul"@de,
+        "Uul"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Demon named by Hine from his debris: the fear of failure."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Uul" ;
+    pm:nameRole "demon of fear of failure" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcVanVanMojoNaming a pm:Naming ;
+    rdfs:label "Dr. Van Van Mojo"@de,
+        "Dr. Van Van Mojo"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, item 5 and note 2; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Blessed Apostle and Doctor of Hoodoo and Vexes, member of an intergalactic Haitian guerilla fellowship for world peace; patron of Discord, the second season; invoked in the south for voodoo power."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Van Van Mojo" ;
+    pm:nameRole "Discordian Apostle of the South; patron of the Season of Discord" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcVestibularNuclei a pm:Conceptualizing ;
+    rdfs:label "Sensorische Integration und die Vestibulariskerne"@de,
+        "Sensory integration and the vestibular nuclei"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Of Madness & Mystic Journeys; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Research tied to Sensory Integration therapy is said to show that schizophrenic problems of selecting important input stem from abnormal function of the vestibular nuclei, which integrate the senses and relate to the Reticular Formation; deficits may be genetic or stress-induced. Certain neuroscientists regard subcortical activity as the key to altered states."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcWillStoppedByWhy a pm:Conceptualizing ;
+    rdfs:label "Durch das Fragen nach dem Warum gestoppter Wille"@de,
+        "Will stopped by asking why"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The essay opens with Liber AL II.30: when will halts to ask why and invokes because, it stops and does nothing; obsession is presented as such a clouding of will."@en ;
+    skos:note "Epigraph of the essay, from Crowley's Liber AL vel Legis II.30; Hine quotes it, he does not present it as received by himself."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcWorldBrighterAfterMeditationSign a pm:Conceptualizing ;
+    rdfs:label "Die Welt erscheint nach der Meditation heller"@de,
+        "World appears brighter after meditation"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "After a meditation session the world appears brighter or newer, explained as neural pulse rates first damped and then restimulated to fire faster than normal."@en ;
+    skos:note "Counted as a sign of success: once a meditation session is over the world looks brighter or newer, explained by neural firing first damped and then restimulated above its normal rate. Judged by the practitioner alone, at once after the session; no deadline and no rate. It concerns pmp:ChaosMagicOrcMetanoia and pmp:ChaosMagicOrcOnePointedFocusing."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcWrongPentagramsNothingNoticed a pm:Conceptualizing ;
+    rdfs:label "Ritualfehler ohne Folgen (Anekdote)"@de,
+        "Ritual error without consequence (anecdote)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, D.I.Y; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine recalls realising he had drawn all the pentagrams wrongly in a ritual and that nothing noticed or turned up, offered as an indication that formal correctness matters less than assumed."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcZarathudNaming a pm:Naming ;
+    rdfs:label "Zarathud"@de,
+        "Zarathud"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, item 7 and note 4; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A hard-nosed medieval European hermit called \"Offender of the Faith\"; patron of Bureaucracy, the fourth season; invoked in the north for Erisian doubt."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "Zarathud" ;
+    pm:nameRole "Discordian Apostle of the North; patron of Bureaucracy, the fourth season" ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmc:ChaosMagicOrdinaryStepsCautela a pm:Cautioning ;
@@ -52907,25 +53864,6 @@ pmp:ChaosMagicCondCAchievableRealityThreshold a pm:Practicing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
-pmp:ChaosMagicCondCActingAsIfGodsReal a pm:Practicing ;
-    rdfs:label "Im Ritual so handeln, als seien Götter real"@de,
-        "Behaving as if gods are real during ritual"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
-    skos:definition "In ritual act as if the gods are real whatever your theory; in a Cthulhu ritual, adopt the belief that a mistake will get you slimed, to build tension; drop the belief outside the ritual."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCChakraBeliefShift a pm:Practicing ;
-    rdfs:label "Glaubenswechsel-Experiment mit Chakrensystemen"@de,
-        "Belief-shift experiment with chakra systems"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 140; read in a full-text layer of the second printing" ;
-    skos:definition "Meditate on the seven chakras and drill their symbolism until seven-chakra experiences arise; then switch to the five centres of Regardie's Middle Pillar and observe corresponding results."@en ;
-    skos:note "Offered as an experiment in belief-shifting, pmc:ChaosMagicCondCBeliefShifting."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
 pmp:ChaosMagicCondCDemonDialogue a pm:Practicing ;
     rdfs:label "Dialog mit dem Dämon, Schicht um Schicht"@de,
         "Dialogue with a demon, layer by layer"@en ;
@@ -53032,15 +53970,6 @@ pmp:ChaosMagicCondCOvercomingMisguides a pm:Practicing ;
         "Overcoming misguide spirits by recognition"@en ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 10 Are You Illuminated?, p. 186; read in a full-text layer of the second printing" ;
     skos:definition "Overcome misleading spirits not by astral combat but by recognising they hold no power over you and that you see through their seductions; shed light on as many buried complexes as possible."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCRolePlayingMythos a pm:Practicing ;
-    rdfs:label "Rollenspiel zum Eintritt in ein mythisches Universum"@de,
-        "Role-playing game to enter a mythic universe"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
-    skos:definition "Increase participation in a fictional mythos by group role-play, generating its semblance for a few hours, supported by books, comics, videos and supplements."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -53371,6 +54300,89 @@ pmp:ChaosMagicOperaInaccessaSearch a pm:Searching ;
     pm:searchedBy "prima-materia, 2026-10-22" ;
     pm:searchedCorpus "The Starfire journal, all volumes; Staley's essays; Dukes, SSOTBME and Thundersqueak; Carroll, Epoch (2014); the library scans of Carroll, PsyberMagick, and of Hine, Prime Chaos and The Pseudonomicon; Hine, Aspects of Tantra; Wolf, Space-Time and Beyond, Taking the Quantum Leap, The Eagle's Quest, The Dreaming Universe, The Spiritual Universe, Mind into Matter; Herbert, Faster than Light, Elemental Mind; Wilson, Cosmic Trigger III (1995); and, of the works of pmp:TyphonianOperaInaccessaSearch, Aleister Crowley and the Hidden God and Hecate's Fountain, the second of which was found and is recorded in the search before this one."@en ;
     pm:searchedFor "A readable full-text layer of each work, in any edition, so that the search for the microtubule mapping could cover it."@en .
+
+pmp:ChaosMagicOrcBeingConsistentlyWrong a pm:Practicing ;
+    rdfs:label "Konsequent falsch liegen"@de,
+        "Being consistently wrong"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 6; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Make wild statements and, when someone refutes them, admit the mistake, profusely if need be; one may err about the hour, the weekday, political claims and so on."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcCognitiveCutDown a pm:Practicing ;
+    rdfs:label "Obsessive Gedanken zurückschneiden"@de,
+        "Cutting down obsessive thoughts"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines, item 1; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Analyse ruthlessly the thoughts and feelings tied to the situation and cut them down by vipassana, banishing or a similar strategy."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondCCognitiveCutDown (Condensed Chaos, 1995): The 1995 practice cuts thoughts down by self-assessment, banishing or the like; the 1992 text names vipassana as the first means."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcEveryoneElseABuddha a pm:Practicing ;
+    rdfs:label "Alle sind Buddhas außer dir"@de,
+        "Everyone is a buddha but you"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 5; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hold the attitude that everyone else is a buddha waiting for you to sort yourself out, buddhahood showing most in those you avoid in the street, and act accordingly."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcMeditationsInMenzies a pm:Practicing ;
+    rdfs:label "Meditationen bei Menzies"@de,
+        "Meditations in Menzies"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 3; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Read specialist magazines on subjects of no interest to you, especially amateur enthusiasts' ones, and read publications of opposed views one after another (e.g. a men's magazine and a feminist one, Dworkin and de Sade)."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcObsessionIntoTriangle a pm:Practicing ;
+    rdfs:label "Eine Obsession ins Dreieck zwingen"@de,
+        "Forcing an obsession into the triangle"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Withdraw into one's centre and circle, draw a triangle with a pen, drive the obsessing monster into it, and undo its strands of form: the weak moments, the longing and waiting, the desire fired by imagination from which it was made."@en ;
+    skos:note "Narrated in lyrical first person; the classic evocation triangle used psychologically."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcPsychographs a pm:Practicing ;
+    rdfs:label "Bilder zu Psychographen verdichten"@de,
+        "Cohering images into psychographs"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Give the demons shape by finger-painting, modelling clay blended with excreta and bodily fluids, sculpting with broken glass, and by sigils, automatic writing and free line-drawing; the products (psychographs) pile up in the temple."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcSealingSpiralPentagram a pm:Practicing ;
+    rdfs:label "Versiegeln eines Spiralpentagramms"@de,
+        "Sealing a Spiral Pentagram"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Reverse the spin of the petals and let the figure flatten again; Hine sometimes traces an ordinary pentagram over it as well."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcSeveralExplanations a pm:Practicing ;
+    rdfs:label "Mehrere Erklärungen für jedes Ergebnis"@de,
+        "Multiple explanations for every result"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 1; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "For any magical result, failures included, think up several explanations, at least one in terms of the magical system used, one strictly materialist, and one exceedingly silly."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcTricksterSkills a pm:Practicing ;
+    rdfs:label "Tricksterfertigkeiten"@de,
+        "Trickster skills"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Learn juggling, mime and conjuring tricks; pass the hat round and raise a laugh."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
 
 pmp:ChaosMagicPactOpeningAndClosing a pm:Practicing ;
     rdfs:label "Das Eröffnungs- und Schlussritual eines Tempels des Pakts"@de,
@@ -62457,15 +63469,6 @@ pmc:ChaosMagicCondCFreeEmotion a pm:Conceptualizing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
-pmc:ChaosMagicCondCFreedomFromObsession a pm:Conceptualizing ;
-    rdfs:label "Freiheit von Obsession, wirksameres Handeln"@de,
-        "Freedom from obsession, more effective action"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 137; read in a full-text layer of the second printing" ;
-    skos:definition "Unbinding one's knots is said to equal any sorcery in power and may leave one freer, more effective in action and less prone to repeating past errors."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
 pmc:ChaosMagicCondCFrozenDemon a pm:Conceptualizing ;
     rdfs:label "Einfrieren eines Dämons zur Untersuchung"@de,
         "Freezing a demon for examination"@en ;
@@ -62480,15 +63483,6 @@ pmc:ChaosMagicCondCGodFormCharge a pm:Conceptualizing ;
         "Supercharged confidence and clarity of next step"@en ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 8 Kali in the Disco, p. 148; read in a full-text layer of the second printing" ;
     skos:definition "Feeling filled with energy yet calm and detached, full of confidence and power, and able to decide firmly what to do next."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmc:ChaosMagicCondCGodFormConcentration a pm:Conceptualizing ;
-    rdfs:label "Geistige Konzentration fürs Programmieren durch Gottesform"@de,
-        "Mental concentration for programming via god-form"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
-    skos:definition "Concentration of mind on a task by assuming a fitting god-form."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -62577,6 +63571,15 @@ pmc:ChaosMagicCondCRhythmAndDelivery a pm:Conceptualizing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmc:ChaosMagicCondCRitualTension a pm:Conceptualizing ;
+    rdfs:label "Rituelle Spannung durch angenommenen Glauben"@de,
+        "Ritual tension built by adopted belief"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
+    skos:definition "The necessary emotional tension in a ritual."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmc:ChaosMagicCondCRoleFlexibility a pm:Conceptualizing ;
     rdfs:label "Flexibilität im Annehmen von Persönlichkeiten"@de,
         "Flexibility in assuming personalities"@en ;
@@ -62627,6 +63630,16 @@ pmc:ChaosMagicCondCShatteringBeliefStructures a pm:Conceptualizing ;
         "Shattering of belief-structure layers"@en ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 132; read in a full-text layer of the second printing" ;
     skos:definition "Intense gnosis is said to break apart strata of belief."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicCondCSystemExperiencesSuccess a pm:Conceptualizing ;
+    rdfs:label "Erfahrungen gemäß dem angenommenen System"@de,
+        "Experiences matching the adopted system"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 140; read in a full-text layer of the second printing" ;
+    skos:definition "Announced result: you will have seven-chakra experiences, and then results accordant with the Middle Pillar model."@en ;
+    skos:note "Counted as a sign of success: experiences shaped like whatever system one has drilled into oneself, first seven-chakra experiences and then results matching the Middle Pillar. No deadline; the sign is announced in advance and follows the system chosen. It concerns pmp:ChaosMagicCondCChakraBeliefShift."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -63693,6 +64706,213 @@ pmc:ChaosMagicOctavWealthSideEffect a pm:Conceptualizing ;
     skos:definition "Whatever wealth is actually needed is said to appear as a side effect when one conjures for the experiences it would buy."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:TheOctavo ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAbstractDemonsNaming a pm:Naming ;
+    rdfs:label "Abstrakte Dämonen"@de,
+        "Abstract demons"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Level of the hierarchy covering more abstract hungers, such as for knowledge or wisdom."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "abstract demons" ;
+    pm:nameRole "demons of hunger for knowledge or wisdom" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcAstralDoorway a pm:Conceptualizing ;
+    rdfs:label "Astrales Tor"@de,
+        "Astral doorway"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Spiral pentagrams act as gateways in astral work; Hine reports them appearing unbidden in his dreams as astral doorways."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBanishingRecurringMoods a pm:Conceptualizing ;
+    rdfs:label "Bannen wiederkehrender Stimmungen mit Dämonensigillen"@de,
+        "Banishing recurring moods with demon sigils"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Using the appropriate names and sigils is said to banish recurring spells of self-loathing, paranoia or depression back into their bottles."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcBasicExercisesStatus a pm:Conceptualizing ;
+    rdfs:label "Status der Grundübungen"@de,
+        "Status of the basic exercises"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The exercises are said to be compiled from various sources and to have perhaps little value in themselves, though they may be fun and have far-reaching consequences."@en ;
+    skos:note "Statement on how fixed or tested the methods are."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcCalmDetachment a pm:Conceptualizing ;
+    rdfs:label "Ruhige Distanz nach dem Heulen"@de,
+        "Calm detachment after the howl"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine came back with a calm detachment, momentarily emptied of feeling, able to look at his work as if it were not his."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcCentredAndReturning a pm:Conceptualizing ;
+    rdfs:label "Zentriertsein und Rückkehr in die Konsensrealität"@de,
+        "Being centred and returning to consensus reality"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Centering places one at the null-point for magical work and, repeated afterwards, readies one to return to everyday consensus reality."@en ;
+    skos:note "Differs from pmc:ChaosMagicCondBBeingCentredPoised (Condensed Chaos, 1995): The 1995 node is being relaxed and poised at the centre of one's magical reality; the 1992 text adds the second performance after the working, which readies one to go back into consensus reality."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcCompetenceInOneSystem a pm:Conceptualizing ;
+    rdfs:label "Kompetenz und Sicherheit in einem System"@de,
+        "Competence and confidence in one system"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Working a system in some depth is said to make one more or less competent and confident in it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcConditionedShiftIntoMagicalReality a pm:Conceptualizing ;
+    rdfs:label "Konditionierter Übergang in die magische Realität"@de,
+        "Conditioned shift into magical reality"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Such rites change the atmosphere of the place, and with practice the accompanying feelings arise automatically each time the rite is performed, so the shift between everyday and magical reality is clearly felt."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcConfidenceFromInnovation a pm:Conceptualizing ;
+    rdfs:label "Selbstvertrauen durch Innovation"@de,
+        "Confidence from innovation"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, D.I.Y; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Doing something innovative, especially if no one one knows has tried it, is said to be very good for building confidence."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDaringBeyondOrdinaryAbility a pm:Conceptualizing ;
+    rdfs:label "Tun, was man sich gewöhnlich nicht zutraut"@de,
+        "Doing what one would not ordinarily dare"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Under possession or a guru's backing one can act beyond one's ordinary sense of ability."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDishabituatedAwareness a pm:Conceptualizing ;
+    rdfs:label "Dishabituierte Bewusstheit"@de,
+        "Dishabituated awareness"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Research is reported to show that advanced practitioners do not habituate to background noise and keep full awareness of automatic actions; the practices are said to dishabituate the Reticular Formation."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcDrawingEnergiesIn a pm:Conceptualizing ;
+    rdfs:label "Hereinziehen von Energien"@de,
+        "Drawing energies in"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Unlike banishing pentagrams, spiral pentagrams are said not to keep things out but to draw energies in."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcEaseWithFurtherSystems a pm:Conceptualizing ;
+    rdfs:label "Leichtigkeit beim Erlernen weiterer Systeme"@de,
+        "Ease in learning further systems"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, Metasystems; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Once competent in one system, magicians are said to find it easier to master another; experience with Enochian, for example, should ease work with the Runes."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcEgoDemonsNaming a pm:Naming ;
+    rdfs:label "Ego-Dämonen"@de,
+        "Ego demons"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Level of the hierarchy covering self-esteem, self-image and the like."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "ego demons" ;
+    pm:nameRole "demons of self-esteem and self-image" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcGiftsOfTheApostles a pm:Conceptualizing ;
+    rdfs:label "Von den diskordischen Aposteln erbetene Gaben"@de,
+        "Gifts asked of the Discordian Apostles"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, items 4-9; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The calls ask for balance and equilibrium, voodoo power and confusion of enemies, relative truth and mind-expansion, Erisian doubt and Chaos's constancy, illumination and protection from stupidity, and from Eris liberty, love, light and life and that the magick work."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcParanoiacEdge a pm:Conceptualizing ;
+    rdfs:label "Paranoische Bewusstseinsschärfe"@de,
+        "Paranoiac edge of consciousness"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "A sharp, paranoid edge to consciousness, which Hine says five days awake produced in him."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcParticipationInMythicEvent a pm:Conceptualizing ;
+    rdfs:label "Teilhabe an einem mythischen Geschehen"@de,
+        "Participation in a mythic event"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Moving from observer of a mythic unfolding to participant, sharing for a time the semblance of its universe."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcPsychicSurgery a pm:Conceptualizing ;
+    rdfs:label "Psychische Chirurgie: Zerbrechen und Neuformen des Selbst"@de,
+        "Psychic surgery: breaking and remoulding the self"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The cut-up work is described as a deliberate psychic surgery, breaking the vessel in order to remould it."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSchizophreniaAndMysticJourney a pm:Conceptualizing ;
+    rdfs:label "Schizophrenie und die mystische Reise"@de,
+        "Schizophrenia and the mystic journey"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Of Madness & Mystic Journeys; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Following the anti-psychiatrists Laing and Cooper, schizophrenia is likened to the mystic and shamanic inner journey, with shared reports of lost agency, lost ego boundary and feeling set apart; but Hine insists that the initiate or shaman acts as the active, fearless agent, which the person in schizophrenia rarely is."@en ;
+    skos:note "Reports R.D. Laing and David Cooper; Hine qualifies their view."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSubtlePatternPerception a pm:Conceptualizing ;
+    rdfs:label "Klarere Wahrnehmung feiner Muster"@de,
+        "Clearer perception of subtle patterns"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "With less neural noise, ordinarily indistinct patterns become clear, one is more aware of the surroundings and perceives subtler aspects of experience; the more ordered cortical activity, the wider the totality of experience one is aware of."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSurvivalDemonsNaming a pm:Naming ;
+    rdfs:label "Überlebensdämonen"@de,
+        "Survival demons"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Level of Hine's demon hierarchy covering basic needs such as hunger and thirst."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:nameForm "survival demons" ;
+    pm:nameRole "demons of basic needs" ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcSuspendingDisbelief a pm:Conceptualizing ;
+    rdfs:label "Aufhebung des Unglaubens"@de,
+        "Suspension of disbelief"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Belief; a Key to Magick; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Being able to set one's disbelief aside for a while, named beside adopted belief as a useful faculty for the magician."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmc:ChaosMagicOriginalSexuality a pm:Conceptualizing ;
@@ -76682,6 +77902,15 @@ pmp:ChaosMagicCondCAASealTest a pm:Practicing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmp:ChaosMagicCondCActingAsIfGodsReal a pm:Practicing ;
+    rdfs:label "Im Ritual so handeln, als seien Götter real"@de,
+        "Behaving as if gods are real during ritual"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
+    skos:definition "In ritual act as if the gods are real whatever your theory; in a Cthulhu ritual, adopt the belief that a mistake will get you slimed, to build tension; drop the belief outside the ritual."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmp:ChaosMagicCondCAnimalsGame a pm:Practicing ;
     rdfs:label "Tierspiel"@de,
         "Animals game"@en ;
@@ -76697,15 +77926,6 @@ pmp:ChaosMagicCondCBanishingWithExtremePrejudice a pm:Practicing ;
         "Banishing with Extreme Prejudice"@en ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 9 Conquering Demons, pp. 169-170; read in a full-text layer of the second printing" ;
     skos:definition "When a friend or lover is in the grip of a dysfunctional demon (jealousy, possessiveness, alcohol, heroin, violence), do not try to be their exorcist: banish the demon, get it out and keep it out, separating addict and demon in your mind, if only to show the demon you are aware of it."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCBehavioralComponent a pm:Practicing ;
-    rdfs:label "Verhalten: andere und Divination zeigen obsessives Verhalten"@de,
-        "Behavioural: others and divination reveal obsessive behaviour"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 137; read in a full-text layer of the second printing" ;
-    skos:definition "Obsessive behaviour is often inappropriate and harmful to others and usually needs others to point it out; I Ching or Tarot may help analyse it."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -76950,6 +78170,15 @@ pmp:ChaosMagicCondCRitualMasks a pm:Practicing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmp:ChaosMagicCondCRolePlayingMythos a pm:Practicing ;
+    rdfs:label "Rollenspiel zum Eintritt in ein mythisches Universum"@de,
+        "Role-playing game to enter a mythic universe"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
+    skos:definition "Increase participation in a fictional mythos by group role-play, generating its semblance for a few hours, supported by books, comics, videos and supplements."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmp:ChaosMagicCondCShamanicOrdeals a pm:Practicing ;
     rdfs:label "Schamanische körperliche Prüfungen"@de,
         "Shamanic physical ordeals"@en ;
@@ -76957,15 +78186,6 @@ pmp:ChaosMagicCondCShamanicOrdeals a pm:Practicing ;
     skos:definition "Isolation from the tribe reinforced by fasting, going without sleep, and exposure to heat or cold."@en ;
     skos:note "Reported of shamanic cultures, not prescribed."@en ;
     pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCSpockInvocation a pm:Practicing ;
-    rdfs:label "Mr. Spock für eine Prüfung invozieren"@de,
-        "Invoking Mr Spock for an exam"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
-    skos:definition "A colleague facing a computer exam chose Spock as god-form, learned all about him and went around repeating his catchphrase until thoroughly Spock-ified."@en ;
-    pm:attestedBy pm:thirdPartyAscription ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
@@ -77001,26 +78221,6 @@ pmp:ChaosMagicCondCSuppressions a pm:Practicing ;
         "Suppressions list"@en ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 134; read in a full-text layer of the second printing" ;
     skos:definition "List the parts of yourself you try to keep down, such as fears, fantasies, desires and crazy thoughts."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCSuspensionOfDisbelief a pm:Practicing ;
-    rdfs:label "Aussetzen des Unglaubens an einem verachteten Autor"@de,
-        "Suspension of Disbelief with a despised author"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
-    skos:definition "Take a book expounding an idea you consider rubbish and try to grasp what its author means without your inner voice abusing the page."@en ;
-    skos:note "Offered as a form of belief-shifting, pmc:ChaosMagicCondCBeliefShifting."@en ;
-    pm:attestedBy pm:textualAttestation ;
-    pm:fromWork pmw:CondensedChaos ;
-    pm:withinTradition pmt:ChaosMagic .
-
-pmp:ChaosMagicCondCTacNukeGnosis a pm:Practicing ;
-    rdfs:label "Gnosis als taktische Atombombe gegen Glaubensstrukturen"@de,
-        "Gnosis as tac-nuke against belief structures"@en ;
-    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 130; read in a full-text layer of the second printing" ;
-    skos:definition "Now and then turning to a strong form of gnosis, sexual ecstasy, an overload of pain or LSD (called Hofmann's elixir), as a tactical nuke that brings down whole towers in the city of belief, alongside the steady chipping away of deconditioning."@en ;
-    skos:note "The routes into gnosis themselves are treated in earlier chapters of the book, outside this section."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -77804,6 +79004,119 @@ pmp:ChaosMagicOphidianEvocation a pm:Practicing ;
     skos:definition "The Ophidian tradition uses sexual orgasm to focus will and perception: the attributes of an entity in sigilised form are concentrated on at orgasm and may afterwards be anointed with the sex fluids. The process is likened to the deliberate creation of an obsession."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:LiberNullAndPsychonaut ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcAlphabetOfBindingWork a pm:Practicing ;
+    rdfs:label "Dämonen benennen und ein Bindungsalphabet bilden"@de,
+        "Naming demons and building an alphabet of binding"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Sift through the half-finished works detachedly, name some of them, and give them sigils; these names and sigils form an alphabet of binding, with which one then experiments, binding the demons as magical weapons to be used later."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcBlackBookAndBookOfBlunders a pm:Practicing ;
+    rdfs:label "Anlegen des schwarzen Buches und des Buchs der Patzer"@de,
+        "Compiling the black book and book of blunders"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Write a dissection of oneself: habits, faults, hopes, ideals, what one is, wishes to be or rejects, likes and revulsions; add positive, neutral and negative self-portraits in the third person, a CV and an obituary; then a book of every mistake and embarrassing memory, with old school reports, painful letters and photographs."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondCBookOfBlunders (Condensed Chaos, 1995): The 1995 practice is a book of painful, guilty or embarrassing episodes written without wallowing; the 1992 text prefaces it with a 'black book' dissecting the self, third-person self-portraits (positive, neutral, negative), a CV and an obituary, and adds school reports, letters and photographs to the book of blunders, all as material for the Howling operation."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcCenteringRite a pm:Practicing ;
+    rdfs:label "Zentrierungs-/Bannungsritus (gemeinsamer Ablauf)"@de,
+        "Centering/banishing rite (common process)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Combine gesture, voice, breath and visualisation to mark the four cardinal quarters and a fifth point standing for union with Kia, chaos or spirit; do it before the main working and once more afterwards, the second time to prepare the return to consensus reality. The standard Lesser Banishing Ritual of the Pentagram and the IOT's Gnostic Banishing are named as instances."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondBCentering (Condensed Chaos, 1995): The 1995 practice has three steps (bodily presence, gates or quarters, identification with a source of inspiration); the 1992 rite names gesture, voice, breath and visualisation, the four quarters with a fifth point for Kia, chaos or spirit, performance before and again after the main working, and the Lesser Banishing Ritual of the Pentagram and the IOT Gnostic Banishing as instances."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcContemplatingExclusiveBeliefs a pm:Practicing ;
+    rdfs:label "Betrachtung einander ausschließender Glaubenssysteme"@de,
+        "Contemplating mutually exclusive beliefs"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 2; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "After some time belief-shifting, contemplate two systems that seem mutually exclusive, e.g. Christianity with Tantra, Islam with radical feminism, Celtic revivalism with Marxism."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcHowlingRetreatPreparation a pm:Practicing ;
+    rdfs:label "Vorbereitung des Howling-Rückzugs"@de,
+        "Preparing the Howling retreat"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Arrange seclusion; lay in simple, nourishing, easily prepared food (natural substances optional); prepare a black, windowless, bare temple heaped with junk and materials: hardboard, clay, bottles, broken radios, skip rubbish, paints, tools, a spray-gun."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcOwnMagicalSystem a pm:Practicing ;
+    rdfs:label "Eigenes magisches System erschaffen (D.I.Y.)"@de,
+        "Creating one's own magical system (D.I.Y.)"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Infinite Diversity / Infinite Combinations, D.I.Y; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine recommends building one's own operationally valid magical system, as Austin Osman Spare did, rather than repeating others' rituals and ideas; whether others can work it is secondary."@en ;
+    skos:note "Spare cited as model."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcPhysiologicalStilling a pm:Practicing ;
+    rdfs:label "Den Körper gegen obsessive Angst beruhigen"@de,
+        "Stilling the body against obsessive anxiety"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Fracture Lines, item 2; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Calm the anxious reactions of pulse, muscle tension and blood pressure by relaxation and pranayama."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondCPhysiologicalStilling (Condensed Chaos, 1995): The 1995 practice stills the body by relaxation and meditation; the 1992 text names relaxation and pranayama."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcPossessionByEntity a pm:Practicing ;
+    rdfs:label "Besessenheit durch eine Wesenheit"@de,
+        "Possession by an entity"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 7 (Gods & Gurus); read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Allow oneself to be possessed by a god, spirit or drug; no procedure given."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcScrambledPersonalityTapes a pm:Practicing ;
+    rdfs:label "Verwürfelte Persönlichkeitsbänder"@de,
+        "Scrambled personality tapes"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Read selected extracts of the self-catalogue onto tapes, then scramble the tapes into cut-up sequences; later replayed as auditory sigils raising emotional storms."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcSpiralPentagram a pm:Practicing ;
+    rdfs:label "Zeichnen des Spiralpentagramms"@de,
+        "Drawing the Spiral Pentagram"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Trace in the air a five-pointed star formed of curves whose centre repeats the petal shape; while drawing, visualise the outer petals turning clockwise and the inner ones anticlockwise, the whole becoming a three-dimensional tunnel twisting off into infinite space."@en ;
+    skos:note "Hine's own figure; he says it is hard to trace in the air at first and asks readers for reports of their use of it."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcSpiralPentagramGating a pm:Practicing ;
+    rdfs:label "Durchschreiten von Spiralpentagrammen in Astralarbeit"@de,
+        "Gating through Spiral Pentagrams in astral work"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Spiral Pentagrams; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "In astral projection (\"Virtual Magick\") the spiral pentagram can serve as a gate to pass through."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcStudyingChaoticAttractors a pm:Practicing ;
+    rdfs:label "Chaotische Attraktoren studieren"@de,
+        "Studying chaotic attractors"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 8; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "When one meets a person around whom weirdness constantly happens, study them carefully, from a safe distance, to learn from them; such people are said to have a strange, mighty power they are often unaware of or embarrassed by."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmp:ChaosMagicOrgasm a pm:Practicing ;
@@ -81873,6 +83186,24 @@ pmc:ChaosMagicCondCEgoToExo a pm:Conceptualizing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmc:ChaosMagicCondCFreedomFromObsession a pm:Conceptualizing ;
+    rdfs:label "Freiheit von Obsession, wirksameres Handeln"@de,
+        "Freedom from obsession, more effective action"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 137; read in a full-text layer of the second printing" ;
+    skos:definition "Unbinding one's knots is said to equal any sorcery in power and may leave one freer, more effective in action and less prone to repeating past errors."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicCondCGodFormConcentration a pm:Conceptualizing ;
+    rdfs:label "Geistige Konzentration fürs Programmieren durch Gottesform"@de,
+        "Mental concentration for programming via god-form"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
+    skos:definition "Concentration of mind on a task by assuming a fitting god-form."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmc:ChaosMagicCondCIllumination a pm:Conceptualizing ;
     rdfs:label "Erleuchtung als Höhepunkt der Initiation durch Tod/Wiedergeburt"@de,
         "Illumination as peak of initiation via death/rebirth"@en ;
@@ -82100,6 +83431,25 @@ pmc:ChaosMagicOctavSeventhSpell a pm:Conceptualizing ;
     skos:definition "The magic available to any conjuration, Psi, is the product of the achievable values of four mental manoeuvres, Gnosis, Link, Subliminalisation and Belief, each on a scale from nought to one; falling short in any one cuts the whole drastically, as a pyramid rises no higher than its shortest face."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:TheOctavo ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcNoDefinitiveBooks a pm:Conceptualizing ;
+    rdfs:label "Keine maßgeblichen Bücher; den eigenen Weg weben"@de,
+        "No definitive books; weave your own path"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Conclusions; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Hine stresses the booklet gives only his own ideas filtered through his experience; there are no definitive Chaos texts and no tradition to shelter in and escape the duty to be creative. Chaos magick demands that one weave one's own path of development, largely as one sees fit."@en ;
+    skos:note "Statement on how fixed the method is."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmc:ChaosMagicOrcRetainingAndRecallingInsight a pm:Conceptualizing ;
+    rdfs:label "Einsichten bewahren und Übersehenes erinnern"@de,
+        "Retaining insights and recalling overlooked details"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "The written record keeps insights that would otherwise be forgotten; Hine adds that writing up a working often brings back things he had not noticed, and that the diary is a good discipline."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmc:ChaosMagicPrescience a pm:Conceptualizing ;
@@ -84131,14 +85481,6 @@ pmc:ZuyuaNaat a pm:Conceptualizing ;
     skos:note "The text says nothing about where this language is learned or whether the answers are taught. That silence is the whole difficulty of the procedure as a test and is taken up at pmc:ZuyuaExamination."@en ;
     pm:withinTradition pmt:MayaRitual .
 
-pm:Sequencing a owl:Class ;
-    rdfs:label "Reihen"@de,
-        "Sequencing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The claim, made within a tradition, that a series of steps, states or stations forms one ordered whole, and that each member has its sense from its place in it."@en ;
-    skos:note "Distinct from pm:Presupposing, which says of two steps that one is not reached without the other. A series can be strictly ordered without any member being declared unreachable, and the meaning it carries is the whole order rather than any one pair of it. Distinct from pm:Systematizing in who made the order: a list a modern editor drew up is a systematization, however old its members."@en,
-        "The members are held as rdf:_1, rdf:_2 and so on, the container membership properties of RDF, on the node itself. The position is then the datum and not a copy of it: a second property naming the members beside an ordering literal would let the two drift apart, and a list built of blank nodes is used nowhere else in this record and would not survive the cut into parts."@en .
-
 pm:abidingState a pm:AwarenessValue,
         pm:StateDuration ;
     rdfs:label "Bleibend"@de,
@@ -84883,6 +86225,25 @@ pmp:ChaosMagicCondCAdoptingNewMasks a pm:Practicing ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmp:ChaosMagicCondCBehavioralComponent a pm:Practicing ;
+    rdfs:label "Verhalten: andere und Divination zeigen obsessives Verhalten"@de,
+        "Behavioural: others and divination reveal obsessive behaviour"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 137; read in a full-text layer of the second printing" ;
+    skos:definition "Obsessive behaviour is often inappropriate and harmful to others and usually needs others to point it out; I Ching or Tarot may help analyse it."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicCondCChakraBeliefShift a pm:Practicing ;
+    rdfs:label "Glaubenswechsel-Experiment mit Chakrensystemen"@de,
+        "Belief-shift experiment with chakra systems"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 140; read in a full-text layer of the second printing" ;
+    skos:definition "Meditate on the seven chakras and drill their symbolism until seven-chakra experiences arise; then switch to the five centres of Regardie's Middle Pillar and observe corresponding results."@en ;
+    skos:note "Offered as an experiment in belief-shifting, pmc:ChaosMagicCondCBeliefShifting."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmp:ChaosMagicCondCEmotionalEngineering a pm:Practicing ;
     rdfs:label "Emotionale Technik"@de,
         "Emotional Engineering"@en ;
@@ -84916,6 +86277,35 @@ pmp:ChaosMagicCondCRaHoorKhuitPathworking a pm:Practicing ;
     dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 8 Kali in the Disco, pp. 144-147; read in a full-text layer of the second printing" ;
     skos:definition "After relaxation, in a relaxed attentive position, ideally from a tape: drift on the Nile with Thoth as guide to a pyramid; pass the sphinx reflecting on to know, will, dare, keep silent; climb to the Khephra archway veiled in purple and silver; descend a starlit passage; pass the scales of judgement, pick up a black feather; enter a starry temple with brass double-cube altar, green cross, red rose and green throne; repeat the god's name until golden radiance fills you; Ra-Hoor-Khuit appears, speaks and streams energy into your heart; see what you might accomplish; a star hangs above the altar; thank him with the feather and return."@en ;
     skos:note "Khephra, the scarab carrying the sun through the darkness, and Thoth as guide are figures of the script and are not entered as names of their own. The speech Ra-Hoor-Khuit gives in the script echoes the Book of the Law, which Hine does not cite."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicCondCSpockInvocation a pm:Practicing ;
+    rdfs:label "Mr. Spock für eine Prüfung invozieren"@de,
+        "Invoking Mr Spock for an exam"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 141; read in a full-text layer of the second printing" ;
+    skos:definition "A colleague facing a computer exam chose Spock as god-form, learned all about him and went around repeating his catchphrase until thoroughly Spock-ified."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicCondCSuspensionOfDisbelief a pm:Practicing ;
+    rdfs:label "Aussetzen des Unglaubens an einem verachteten Autor"@de,
+        "Suspension of Disbelief with a despised author"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 142; read in a full-text layer of the second printing" ;
+    skos:definition "Take a book expounding an idea you consider rubbish and try to grasp what its author means without your inner voice abusing the page."@en ;
+    skos:note "Offered as a form of belief-shifting, pmc:ChaosMagicCondCBeliefShifting."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:CondensedChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicCondCTacNukeGnosis a pm:Practicing ;
+    rdfs:label "Gnosis als taktische Atombombe gegen Glaubensstrukturen"@de,
+        "Gnosis as tac-nuke against belief structures"@en ;
+    dcterms:source "Hine, Condensed Chaos: An Introduction to Chaos Magic (Tempe: New Falcon, 1995, first edition, second printing 1996), ch. 7 Ego Magic, p. 130; read in a full-text layer of the second printing" ;
+    skos:definition "Now and then turning to a strong form of gnosis, sexual ecstasy, an overload of pain or LSD (called Hofmann's elixir), as a tactical nuke that brings down whole towers in the city of belief, alongside the steady chipping away of deconditioning."@en ;
+    skos:note "The routes into gnosis themselves are treated in earlier chapters of the book, outside this section."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:CondensedChaos ;
     pm:withinTradition pmt:ChaosMagic .
@@ -85317,6 +86707,53 @@ pmp:ChaosMagicOrangeInvocation a pm:Practicing ;
         "The author says the Fiat Nox hypothesis came together for him in the week following a particularly effective Mercury invocation by these techniques, and that in his experience enchantments and evocations performed after an orange invocation rarely give results as effective as the invocation itself. Both are his own report; the first names no speaker of any wording, and no pm:Receiving was entered."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:LiberKaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcDiscordianOpeningRitual a pm:Practicing ;
+    rdfs:label "Diskordisches Eröffnungsritual"@de,
+        "Discordian Opening Ritual"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Discordian Opening Ritual, items 1-10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Steps: clap five times; perform the Erisian Cross, placing light in the head, fire in the genitals, strength at the right, laughter at the left and love in the heart; trace spiral pentagrams at the four quarters and zenith; facing east, south, west, north, then up or down, call in turn on the Apostles Hung Mung, Van Van Mojo, Sri Syadasti, Zarathud and Malaclypse for their gifts; looking all around, invoke Eris for liberty, love, light and life and for the magick to work; close with a hail to Eris and Discordia."@en ;
+    skos:note "The rite is headed 'by Prince Prance'; Hine afterwards calls it a variant of the centering (banishing) rite, pmp:ChaosMagicOrcCenteringRite. Condensed Chaos (1995) does not carry this rite."@en ;
+    pm:attestedBy pm:thirdPartyAscription ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcMetanoia a pm:Practicing ;
+    rdfs:label "Metanoia: Praktiken der Gesamtfeld-Bewusstheit"@de,
+        "Metanoia: whole-field awareness practices"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Instead of one-pointedness, widen awareness until one is continuously aware of the whole field of inner and outer experience, e.g. Tantric vipassana, Zen attention or Gurdjieff's self-remembering."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcOnePointedFocusing a pm:Practicing ;
+    rdfs:label "Techniken der Einspitzigkeit"@de,
+        "One-pointed focusing techniques"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Technical Ecstacy; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Concentrate attention on one input while shutting out all others as far as possible, e.g. by mantra-yoga, breathing control, chanting, dancing or spinning."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcOverloadDeprivationGnosis a pm:Practicing ;
+    rdfs:label "Gnosis durch Überlastung und Entzug"@de,
+        "Gnosis by overload and deprivation"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Use sensory overload, hyperventilation, hunger, thirst and exhaustion; Hine reports going 120 hours without sleep."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcPsychotropicDrugs a pm:Practicing ;
+    rdfs:label "Psychotrope Drogen für veränderte Zustände"@de,
+        "Psychotropic drugs for altered states"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Ego; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Use of drugs such as mescaline or peyote is named as one of the oldest and most controversial means of inducing altered states; no procedure is given."@en ;
+    skos:note "Only the use is named; no steps are given."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmp:ChaosMagicOrdination a pm:Practicing ;
@@ -86836,6 +88273,17 @@ pmc:ChaosMagicOctavSubliminalisedDesire a pm:Conceptualizing ;
     pm:fromWork pmw:TheOctavo ;
     pm:withinTradition pmt:ChaosMagic .
 
+pmc:ChaosMagicOrcIlluminationAfterCarroll a pm:Conceptualizing ;
+    rdfs:label "Erleuchtung"@de,
+        "Illumination"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Illumination; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Illumination, defined after Carroll's Liber Null as the inspiration, enlightenment and liberation that result from success with gnosis methods, is called the goal sought worldwide through many psychotechnologies; it has been linked with LSD and similar drugs and may also come unbidden to people who neither know of it nor expect it."@en ;
+    skos:note "Definition quoted from Pete Carroll, Liber Null."@en,
+        "Differs from pmc:ChaosMagicCondCIllumination (Condensed Chaos, 1995): The 1995 node calls illumination the peak of initiation through death and rebirth; the 1992 essay defines it with Carroll's Liber Null as the inspiration, enlightenment and liberation that follow success with gnosis methods, and names it the goal of many psychotechnologies."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
+    pm:withinTradition pmt:ChaosMagic .
+
 pmc:ChaosMagicPositiveNonDesiring a pm:Conceptualizing ;
     rdfs:label "Positives Nichtbegehren, der für das Gelingen der Sigillenarbeit verlangte Zustand"@de,
         "Positive non-desiring, the state required for successful sigilisation"@en ;
@@ -87356,6 +88804,14 @@ pmc:VaidikaNividdosah a pm:Cautioning ;
     pm:fromWork pmw:AitareyaBrahmana ;
     pm:withinTradition pmt:VedicRitual .
 
+pm:Sequencing a owl:Class ;
+    rdfs:label "Reihen"@de,
+        "Sequencing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The claim, made within a tradition, that a series of steps, states or stations forms one ordered whole, and that each member has its sense from its place in it."@en ;
+    skos:note "Distinct from pm:Presupposing, which says of two steps that one is not reached without the other. A series can be strictly ordered without any member being declared unreachable, and the meaning it carries is the whole order rather than any one pair of it. Distinct from pm:Systematizing in who made the order: a list a modern editor drew up is a systematization, however old its members."@en,
+        "The members are held as rdf:_1, rdf:_2 and so on, the container membership properties of RDF, on the node itself. The position is then the datum and not a copy of it: a second property naming the members beside an ordering literal would let the two drift apart, and a list built of blank nodes is used nowhere else in this record and would not survive the cut into parts."@en .
+
 pm:anchoringNotStated a pm:AwarenessValue,
         pm:SensoryAnchoring ;
     rdfs:label "Sinnesbindung nicht angegeben"@de,
@@ -87672,6 +89128,16 @@ pmp:ChaosMagicOctavVisualiseTargetNow a pm:Practicing ;
     skos:definition "Lacking physical contact or sight of the target, visualise it as it actually is at the very moment of the intended link, so as to connect with the high-probability wave states lying close to it in imaginary time."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:TheOctavo ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcMagicalDiary a pm:Practicing ;
+    rdfs:label "Führen eines magischen Tagebuchs"@de,
+        "Keeping a magical diary"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Basic Exercises, item 10; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Keep a record of experiences and experiments that charts progress, failures, experiments and insights; after each working write a summary of it, without censoring one's thoughts, changing the names of other participants to protect them."@en ;
+    skos:note "Differs from pmp:ChaosMagicCondAMagicalDiary (Condensed Chaos, 1995): The 1995 practice gives a fixed entry (what, how long, where, weather, moon phase, how it went, ideas) and suggests keeping it as if for inspection; the 1992 text asks for a summary written up after each working, uncensored, with the names of other participants changed, and says the diary is held essential despite chaos magic's spontaneous image."@en ;
+    pm:attestedBy pm:textualAttestation ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmp:ChaosMagicParadigmShifting a pm:Practicing ;
@@ -89491,6 +90957,15 @@ pmp:ChaosMagicOctaEncircling a pm:Practicing ;
     skos:note "The section is subtitled Apophenia's spacetime-dance."@en ;
     pm:attestedBy pm:textualAttestation ;
     pm:fromWork pmw:TheOctavo ;
+    pm:withinTradition pmt:ChaosMagic .
+
+pmp:ChaosMagicOrcFloodingAndVomiting a pm:Practicing ;
+    rdfs:label "Fluten und Erbrechen zur Evokation von Dämonen"@de,
+        "Flooding and vomiting to evoke demons"@en ;
+    dcterms:source "Hine, Oven-Ready Chaos, version 1.4 (on-line edition typeset by the author, text of 1992 first published by Chaos International as Condensed Chaos), Howling; read in the full text of the TealDOC conversion of 2000" ;
+    skos:definition "Flood awareness with specific images (taking in and expelling) to call forth a demon, give it form and flesh and at last a name or sigil; play the scrambled tapes as auditory sigils, intensively replaying memories to raise emotional storms; unleash cynicism on a cherished ideal or goal."@en ;
+    pm:attestedBy pm:firstPersonReport ;
+    pm:fromWork pmw:OvenReadyChaos ;
     pm:withinTradition pmt:ChaosMagic .
 
 pmp:HunaReachingForTheSomething a pm:Practicing ;
@@ -92545,12 +94020,6 @@ pm:Situating a owl:Class ;
     skos:definition "The placement of a claim, a practice or a capacity at a value on an awareness axis. The node records the compiler's identification of a described condition with a coordinate, not the description itself."@en ;
     skos:note "Normally attested by pm:compilerInference. Textual attestation is available only where the source itself draws the distinction the axis draws — the Sufi division of what descends from what is attained is the clear case — and even then the wording that carries it belongs in pm:situationGround."@en .
 
-pm:Systematizing a owl:Class ;
-    rdfs:label "Systematisieren"@de,
-        "Systematizing"@en ;
-    rdfs:subClassOf pm:Process ;
-    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
-
 pmt:IslamicLetterMagic a pm:Tradition ;
     rdfs:label "Islamische Buchstaben- und Namensmagie"@de,
         "Islamic letter and name magic"@en ;
@@ -92568,6 +94037,12 @@ pmt:IslamicLetterMagic a pm:Tradition ;
     pm:coverageState pm:placesEntered ;
     pm:fromWork pmw:GhayatAlHakim ;
     pm:principalCorpus "The Šams al-maʿārif corpus ascribed to al-Būnī; Ghāyat al-Ḥakīm" .
+
+pm:Systematizing a owl:Class ;
+    rdfs:label "Systematisieren"@de,
+        "Systematizing"@en ;
+    rdfs:subClassOf pm:Process ;
+    skos:definition "The act of imposing an order on material that did not carry it: a list, a sequence, a correspondence table. Named, dated, and attributed to the compiler who performed it, never to the source that is being ordered."@en .
 
 pmt:Theravada a pm:Tradition ;
     rdfs:label "Theravāda"@de,
@@ -92800,11 +94275,6 @@ pmt:GreekMagicalPapyri a pm:Tradition ;
     pm:fromWork pmw:PgmIv ;
     pm:principalCorpus "Papyri Graecae Magicae and Papyri Demoticae Magicae, including the ascent ritual at PGM IV.475-829" .
 
-pm:thirdPartyAscription a pm:Attesting ;
-    rdfs:label "Fremdzuschreibung"@de,
-        "Third-party ascription"@en ;
-    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
-
 pmt:EgyptianRitual a pm:Tradition ;
     rdfs:label "Pharaonisch-ägyptisches Ritual"@de,
         "Pharaonic Egyptian ritual"@en ;
@@ -92839,6 +94309,11 @@ pmw:PsyberMagick a dcterms:BibliographicResource ;
         "Harvest counts: five signs of success and ten conditions of failure, two further results reported by the author from his own case counted apart. None of the failures sets a deadline for an operation; two are rates, one divination in five correct being a serious disability while one spell in five working is real power, so that the same record is a success for enchantment and a failure for divination. Eight put the failure on the operator, a neophyte's error among them; the other two put it on the chaos of imaginary time. The one experiment with an observable result, the lost object retrieved by retroactive enchantment, tells the operator to blur the memory of the earlier search and, on success, not to seek another explanation, which removes both the record and the control. The work's only claims with deadlines or offered as testable are predictions about the world (aliens made within a couple of decades, heavy electrons in fusion within the reader's lifetime, neutrinos annihilating only against themselves), not conditions of an operation."@en,
         "Read complete on 2026-10-26 in the full-text layer of the open scan archive (psybermagick, 82998 characters), which carries the printed page numbers but no running heads; harvested under prima-materia#893 with two independent extraction passes over the whole text. Sixty chapters, each a text on the even page and a commentary on the odd page, pp. 8-127; the layer garbles the numbers of chapters 31-39 in the table of contents, and the chapters are cited by their headings. Figures 1 and 2 (circles of imaginary time), the quadrant diagram of chapter 17 and the warning labels of chapter 37 survive only as captions; the full form of the fifth equation is garbled and its simplified form read. Not entered: About the Author and the Epilogue (biography, the contact addresses of the Pact, a reading list) and the publisher's text on the back cover."@en .
 
+pm:thirdPartyAscription a pm:Attesting ;
+    rdfs:label "Fremdzuschreibung"@de,
+        "Third-party ascription"@en ;
+    skos:definition "One party ascribes the capacity to another, who does not report it. Common for capacities said to be lost, since no bearer remains to be asked."@en .
+
 pmw:HarbaDeMoshe a dcterms:BibliographicResource ;
     rdfs:label "Ḥarba de-Moshe, das Schwert des Mose"@de,
         "Ḥarba de-Moshe, the Sword of Moses"@en ;
@@ -92846,6 +94321,13 @@ pmw:HarbaDeMoshe a dcterms:BibliographicResource ;
         "The division of part three into a hundred and thirty-six numbered items is Gaster's, made so that the operations could be set beside the corresponding stretches of the name-list, and it is his numbering that the later literature cites. The source strings of the operations below therefore give that number and say whose it is. It is the locus and not a second identity scheme in the sense SPEC §11 forbids, and it is the one thing two independent runs would both produce."@en,
         "The edition has a critical apparatus in no sense of the word. Gaster prints one manuscript, records no variants, and nowhere states the grounds of his readings; at several points his own translation carries a question mark where he could not read the word. A critical Hebrew edition on a fuller manuscript exists — Yuval Harari, Jerusalem 1997 — and was not obtainable in this run. Where Gaster marks a word illegible the node below says so."@en,
         "Two defects of the copy read, both properties of the copy and not of the work. Its English part is a transcription rather than a scan of the print and replaces every mystical name with a bare X, which Gaster set in Hebrew letters inside the English sentence; and it carries no page numbers. A reader who needs pages needs the print: Gaster, Studies and Texts, vol. 1 (London: Maggs Bros., 1925-28), pp. 288-337, where the translation begins at p. 311."@en .
+
+pmw:OvenReadyChaos a dcterms:BibliographicResource ;
+    rdfs:label "Oven-Ready Chaos"@de,
+        "Oven-Ready Chaos"@en ;
+    skos:note "Harvest counts: of eleven signs of success in the text two are entered here, the other nine (a result arriving once the intent has gone latent, and Coxhead's eight marks of illumination) already stand in the 1995 nodes; of eight conditions of failure two are entered, one putting the cause on the entities of a traditional system when spiral pentagrams are used inside it, one on the operator whose psychographs fall short, and six already stand in the 1995 nodes. None sets a deadline after which a working counts as failed, and the only rate words are usually and generally."@en,
+        "Hine. The text says it was first published by Chaos International Publications in 1992 as a limited edition of 300 under the title Condensed Chaos, and renamed for its on-line versions so as not to be confused with the New Falcon book of 1995 (pmw:CondensedChaos), which grew out of it; the main text is signed March 1992. The copy read is version 1.4, typeset by the author, with two appendices added, converted to the TealDOC format by Yiri T. Kohl; the readme of the conversion is dated 14 June 2000. A French translation of version 1.2 by Lysianne (2009, Chaos prêt-à-cuire, archive.org 16329504ChaosPretACuirePhilHine, page numbers in its layer) was the entry in the table of prima-materia#893 and is not the text harvested: the English original lies open under archive.org tucows_72598_oven_ready_chaos."@en,
+        "Read complete on 2026-10-30 from the archive.org item tucows_72598_oven_ready_chaos (ovenreadychaos.zip, two PalmDOC files decoded and joined, 93523 characters after the markup was removed, no replacement characters, the order of the sections checked against the contents and the join of the two files read across). The text has no pages and is cited by section heading and item number. Harvested under prima-materia#893 with two independent extraction passes: A 288 records, B 221, B without counterpart 4 (one added, one covered, two not owed: the history of sigilisation and a passage of cultural polemic). Every item was then compared with the nodes of traditions/chaos-magic-condensed-chaos.ttl: 139 records carry a claim that a node of 1995 already carries (105 distinct nodes) and are not entered twice; 132 are new and 12 differ in form from the 1995 node, each of those carrying a note beginning Differs from; 5 were dropped. The harvest, 144 nodes, is in traditions/chaos-magic-oven-ready-chaos.ttl. Not entered: dedication, thanks, contents, the history of the movement and of its magazines, the cultural polemic of The conditioned reflex beyond its caution, the further reading list and the addresses."@en .
 
 pmt:JewishPracticalMagic a pm:Tradition ;
     rdfs:label "Jüdische Praxismagie"@de,
@@ -92960,11 +94442,6 @@ pmw:AshtarTransmissionIRodeAFlyingSaucer a dcterms:BibliographicResource ;
         "George W. Van Tassel, second edition, revised and enlarged; the title page of the text layer names New Age Publishing Co., Glendale Boulevard, Los Angeles, and copyright 1952 by Van Tassel. The body carries dated messages from 6 January 1952 to 20 March 1953, the later ones under a heading saying they arrived after the first edition was printed, so this printing cannot be earlier than spring 1953. Read whole, author's note to conclusion, from the Internet Archive full text of the identifier i-rode-a-flying-saucer-the-mystery-of-the-flying-saucers-revealed-george-w-van-tassel-z-lib.org (66052 characters, publisher's advertisements after p. 51). Page numbers are taken from the running folios in the text layer; p. 44 has no folio there and is placed between 43 and 45."@en,
         "The work is in English; the rule of two translations has no object here. The two carriers stand in for it as two printings."@en .
 
-pm:firstPersonReport a pm:Attesting ;
-    rdfs:label "Erfahrungsbericht"@de,
-        "First-person report"@en ;
-    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
-
 pm:prescribedOrder a pm:PrerequisiteStrength ;
     rdfs:label "Angeordnete Reihenfolge"@de,
         "Prescribed order"@en ;
@@ -92983,6 +94460,11 @@ pm:Searching a owl:Class ;
     skos:note "Distinct from pm:counterSearch, which is a state on a protocol and asks whether the work opposing a piece of evidence was looked for. This asks whether a transmission was put a question at all, and it stands on its own rather than as a field of something else."@en,
         "Like pm:Testing, an instance exists only where somebody carried the search, and its absence stays informative: no node means nobody asked, not that the corpus is silent. Stubbing every unasked question would fill the holding with protocols about nothing and destroy the very distinction the class was built for."@en,
         "Unlike pm:Testing, it needs no object in the graph. What was searched for is a literal, because the point of the commonest case is precisely that the thing sought is not in the holding. A property pointing at a node would make the negative finding unwritable."@en .
+
+pm:firstPersonReport a pm:Attesting ;
+    rdfs:label "Erfahrungsbericht"@de,
+        "First-person report"@en ;
+    skos:definition "An experiential account given in the first person by the one who had it, recorded once."@en .
 
 pmw:TheApophenion a dcterms:BibliographicResource ;
     rdfs:label "The Apophenion"@de,
@@ -93120,6 +94602,7 @@ pmt:ChaosMagic a pm:Tradition ;
         "Read complete on 2026-10-25: Carroll, Liber Kaos (Weiser Books, first published 1992, printing of 2003), cited by page from the running heads; harvested under prima-materia#893 with two independent extraction passes per part, no stretch of running text missing from the layer."@en,
         "Read complete on 2026-10-26: Carroll, PsyberMagick (New Falcon Publications, ISBN 1-56184-092-0, imprint from the back cover), cited by chapter and printed page; harvested under prima-materia#893 with two independent extraction passes over the whole text, no stretch of running text missing from the layer."@en,
         "Read complete on 2026-10-27: Carroll, The Apophenion (Mandrake of Oxford, 2008, first edition), cited by chapter and printed page; harvested under prima-materia#893 with two independent extraction passes per part, no stretch of running text missing from the layer."@en,
+        "Read complete on 2026-10-30: Hine, Oven-Ready Chaos, version 1.4, the on-line edition of the text of 1992, cited by section heading for want of pages; harvested under prima-materia#893 with two independent extraction passes, and every item compared with the harvest of Condensed Chaos, which grew out of it."@en,
         "Read in this run at the wording, on 2026-10-22. The Apophenion: A Chaos Magic Paradigm (Mandrake of Oxford, 2008, first edition, the date on the copyright page), chap. 5, Metadynamics, part 3, General Metadynamics and magic, pp. 77-82, in a full-text layer whose running heads carry the page; and The Octavo: A Sorcerer-Scientist's Grimoire, Roundworld Edition (Mandrake of Oxford, 2011, first edition), at Magical Ritual part 1, Centring, pp. 33-35, and chap. 4, The Spells of Subtle Magic, pp. 77-79. The rest of both works, and Liber Null and Psychonaut, Liber Kaos, PsyberMagick, Condensed Chaos and Prime Chaos, were searched by term only, as examinations/searches-chaos-magic.ttl states."@en,
         "The claim that content is interchangeable and only technique carries effect is directly examinable, and if it held it would reorganise every convergence question the project asks."@en,
         "The contact route is documented from inside the corpus: The Apophenion cites Liber Kaos, Ramsey Dukes and Penrose's Road to Reality in its notes, and Carroll's short essay Chaoism and Chaos Magic calls Bohr and Spare his saints; The Octavo takes its centring term Gnosis from western esotericism and equates it with dhyana and samadhi in the same sentence. Agreement with Thelema, the Typhonian corpus or the yogic material is reception."@en ;
@@ -93127,6 +94610,7 @@ pmt:ChaosMagic a pm:Tradition ;
     pm:corpusWork pmw:CondensedChaos,
         pmw:LiberKaos,
         pmw:LiberNullAndPsychonaut,
+        pmw:OvenReadyChaos,
         pmw:PrimeChaos,
         pmw:PsyberMagick,
         pmw:TheApophenion,
